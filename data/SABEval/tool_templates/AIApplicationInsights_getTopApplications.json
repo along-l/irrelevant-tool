@@ -1,0 +1,67 @@
+{
+  "tool_template_name": "AIApplicationInsights_getTopApplications",
+  "meta_data": {
+    "base_class": "Provides insights into top <AI> applications based on recent research findings.- applicable for querying various cutting-edge technology fields that have concrete applications in specific industry areas (e.g., Healthcare, Finance, Transportation, Education).",
+    "derived_classes": [
+      "Blockchain",
+      "Quantum Computing",
+      "Biotechnology",
+      "Nanotechnology",
+      "Brain-Computer Interface",
+      "3D Printing",
+      "Space Technology",
+      "Augmented Reality",
+      "Virtual Reality",
+      "Artificial Intelligence"
+    ],
+    "base_class_entity": "AI"
+  },
+  "tool_template": {
+    "name": "<class>ApplicationInsights_getTopApplications",
+    "description": "Provides insights into top <class> applications based on recent research findings.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "applicationArea": {
+          "type": "string",
+          "description": "The specific area of <class> applications to focus on. Options include 'Healthcare', 'Finance', 'Transportation', and 'Education'."
+        }
+      },
+      "required": [
+        "applicationArea"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "detailLevel": {
+      "type": "string",
+      "description": "Level of detail required in the application insights."
+    },
+    "language": {
+      "type": "string",
+      "description": "Preferred language for the insights."
+    }
+  },
+  "additional_params": {
+    "timeFrame": {
+      "type": "string",
+      "description": "The time frame to consider for gathering insights on <class> applications, such as 'Last Month', 'Last Quarter', or 'Last Year'."
+    },
+    "geographicRegion": {
+      "type": "string",
+      "description": "The geographic region to focus on when providing insights into <class> applications, such as 'North America', 'Europe', 'Asia'."
+    },
+    "targetAudience": {
+      "type": "string",
+      "description": "The target audience for the insights on <class> applications, such as 'Researchers', 'Business Executives', or 'Policy Makers'."
+    },
+    "dataSource": {
+      "type": "string",
+      "description": "The source of data that should be used to gather insights into <class> applications, such as 'Academic Journals', 'Industry Reports', or 'Market Surveys'."
+    },
+    "trendAnalysis": {
+      "type": "boolean",
+      "description": "Whether to include an analysis of trends in <class> applications over time."
+    }
+  }
+}

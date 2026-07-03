@@ -1,0 +1,842 @@
+{
+  "petNutritionAnalyzer_analyzeBirdDiet|:|bird|:|species,age,healthConditions,timeOfDay,activityLevel,dietaryRestrictions": {
+    "tool_template_name": "petNutritionAnalyzer_analyzeBirdDiet",
+    "derived_class": "bird",
+    "params_for_query": [
+      "species",
+      "age",
+      "healthConditions",
+      "timeOfDay",
+      "activityLevel",
+      "dietaryRestrictions"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide dietary recommendations for a 3-year-old parakeet with low activity, considering it has no health conditions, prefers morning feeding, and is allergic to peanuts?",
+        "filled_param": {
+          "species": "parakeet",
+          "age": 3,
+          "healthConditions": [],
+          "timeOfDay": "morning",
+          "activityLevel": "low",
+          "dietaryRestrictions": [
+            "peanuts"
+          ]
+        }
+      },
+      {
+        "query": "What should I feed my 5-year-old cockatiel with moderate activity in the afternoon, who has a heart condition and needs to avoid seeds?",
+        "filled_param": {
+          "species": "cockatiel",
+          "age": 5,
+          "healthConditions": [
+            "heart condition"
+          ],
+          "timeOfDay": "afternoon",
+          "activityLevel": "moderate",
+          "dietaryRestrictions": [
+            "seeds"
+          ]
+        }
+      },
+      {
+        "query": "Provide a diet plan for a 2-year-old canary with high activity, no health issues, prefers evening meals, and must avoid soy products.",
+        "filled_param": {
+          "species": "canary",
+          "age": 2,
+          "healthConditions": [],
+          "timeOfDay": "evening",
+          "activityLevel": "high",
+          "dietaryRestrictions": [
+            "soy products"
+          ]
+        }
+      },
+      {
+        "query": "I need feeding advice for my 1-year-old finch with moderate activity, who has a feather condition, prefers to eat at noon, and should not consume dairy.",
+        "filled_param": {
+          "species": "finch",
+          "age": 1,
+          "healthConditions": [
+            "feather condition"
+          ],
+          "timeOfDay": "noon",
+          "activityLevel": "moderate",
+          "dietaryRestrictions": [
+            "dairy"
+          ]
+        }
+      },
+      {
+        "query": "How should I adjust the diet for an 8-year-old lovebird with high activity and arthritis, who eats in the morning and is sensitive to gluten?",
+        "filled_param": {
+          "species": "lovebird",
+          "age": 8,
+          "healthConditions": [
+            "arthritis"
+          ],
+          "timeOfDay": "morning",
+          "activityLevel": "high",
+          "dietaryRestrictions": [
+            "gluten"
+          ]
+        }
+      },
+      {
+        "query": "Suggest a diet for a 6-year-old budgerigar with low activity, who suffers from obesity, eats in the afternoon, and cannot have nuts.",
+        "filled_param": {
+          "species": "budgerigar",
+          "age": 6,
+          "healthConditions": [
+            "obesity"
+          ],
+          "timeOfDay": "afternoon",
+          "activityLevel": "low",
+          "dietaryRestrictions": [
+            "nuts"
+          ]
+        }
+      }
+    ]
+  },
+  "petNutritionAnalyzer_analyzeBirdDiet|:|dog|:|species,age,healthConditions,timeOfDay,activityLevel,dietaryRestrictions": {
+    "tool_template_name": "petNutritionAnalyzer_analyzeBirdDiet",
+    "derived_class": "dog",
+    "params_for_query": [
+      "species",
+      "age",
+      "healthConditions",
+      "timeOfDay",
+      "activityLevel",
+      "dietaryRestrictions"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide dietary recommendations for a 3-year-old Labrador Retriever with arthritis, preferred feeding time in the evening, moderate activity level, and gluten allergy?",
+        "filled_param": {
+          "species": "Labrador Retriever",
+          "age": 3,
+          "healthConditions": [
+            "arthritis"
+          ],
+          "timeOfDay": "evening",
+          "activityLevel": "moderate",
+          "dietaryRestrictions": [
+            "gluten"
+          ]
+        }
+      },
+      {
+        "query": "What diet would you suggest for a 5-year-old Beagle with diabetes, needing meals in the morning, has low activity level, and is lactose intolerant?",
+        "filled_param": {
+          "species": "Beagle",
+          "age": 5,
+          "healthConditions": [
+            "diabetes"
+          ],
+          "timeOfDay": "morning",
+          "activityLevel": "low",
+          "dietaryRestrictions": [
+            "lactose"
+          ]
+        }
+      },
+      {
+        "query": "I have a 7-year-old German Shepherd with no health issues, who is very active. What should I feed him in the afternoon with a grain-free diet?",
+        "filled_param": {
+          "species": "German Shepherd",
+          "age": 7,
+          "healthConditions": [],
+          "timeOfDay": "afternoon",
+          "activityLevel": "high",
+          "dietaryRestrictions": [
+            "grain-free"
+          ]
+        }
+      },
+      {
+        "query": "Could you recommend a diet plan for a 2-year-old Bulldog who suffers from obesity, prefers feeding at night, has a low activity level, and can't have chicken?",
+        "filled_param": {
+          "species": "Bulldog",
+          "age": 2,
+          "healthConditions": [
+            "obesity"
+          ],
+          "timeOfDay": "night",
+          "activityLevel": "low",
+          "dietaryRestrictions": [
+            "chicken"
+          ]
+        }
+      },
+      {
+        "query": "Suggest a dietary plan for a 6-year-old Poodle with skin allergies, eats in the evening, moderately active, and avoids soy.",
+        "filled_param": {
+          "species": "Poodle",
+          "age": 6,
+          "healthConditions": [
+            "skin allergies"
+          ],
+          "timeOfDay": "evening",
+          "activityLevel": "moderate",
+          "dietaryRestrictions": [
+            "soy"
+          ]
+        }
+      },
+      {
+        "query": "What nutritional advice can you give for a 4-year-old Boxer with heart disease, who is fed in the morning, has high activity levels, and who needs a diet free of red meat?",
+        "filled_param": {
+          "species": "Boxer",
+          "age": 4,
+          "healthConditions": [
+            "heart disease"
+          ],
+          "timeOfDay": "morning",
+          "activityLevel": "high",
+          "dietaryRestrictions": [
+            "red meat"
+          ]
+        }
+      }
+    ]
+  },
+  "petNutritionAnalyzer_analyzeBirdDiet|:|cat|:|species,age,healthConditions,timeOfDay,activityLevel,dietaryRestrictions": {
+    "tool_template_name": "petNutritionAnalyzer_analyzeBirdDiet",
+    "derived_class": "cat",
+    "params_for_query": [
+      "species",
+      "age",
+      "healthConditions",
+      "timeOfDay",
+      "activityLevel",
+      "dietaryRestrictions"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide dietary recommendations for a 3-year-old Siamese cat with diabetes, to be fed in the evening, considering its high activity level and gluten intolerance?",
+        "filled_param": {
+          "species": "Siamese",
+          "age": 3,
+          "healthConditions": [
+            "diabetes"
+          ],
+          "timeOfDay": "evening",
+          "activityLevel": "high",
+          "dietaryRestrictions": [
+            "gluten intolerance"
+          ]
+        }
+      },
+      {
+        "query": "What should I feed my 7-year-old Persian cat who has kidney disease and is most active in the morning? She also avoids fish and has a moderate activity level.",
+        "filled_param": {
+          "species": "Persian",
+          "age": 7,
+          "healthConditions": [
+            "kidney disease"
+          ],
+          "timeOfDay": "morning",
+          "activityLevel": "moderate",
+          "dietaryRestrictions": [
+            "avoids fish"
+          ]
+        }
+      },
+      {
+        "query": "I'm looking for food suggestions for a 2-year-old Bengal cat with no known health issues, to be fed at noon, with a low activity level and an allergy to dairy.",
+        "filled_param": {
+          "species": "Bengal",
+          "age": 2,
+          "healthConditions": [],
+          "timeOfDay": "noon",
+          "activityLevel": "low",
+          "dietaryRestrictions": [
+            "dairy allergy"
+          ]
+        }
+      },
+      {
+        "query": "Please recommend a diet for a 5-year-old Ragdoll cat that has obesity issues, prefers feeding in the afternoon, with a moderate activity level, and must avoid chicken.",
+        "filled_param": {
+          "species": "Ragdoll",
+          "age": 5,
+          "healthConditions": [
+            "obesity"
+          ],
+          "timeOfDay": "afternoon",
+          "activityLevel": "moderate",
+          "dietaryRestrictions": [
+            "avoid chicken"
+          ]
+        }
+      },
+      {
+        "query": "Suggest some meals for my 4-year-old Maine Coon cat which has thyroid problems. He needs to be fed at night, has high activity, and is allergic to grains.",
+        "filled_param": {
+          "species": "Maine Coon",
+          "age": 4,
+          "healthConditions": [
+            "thyroid problems"
+          ],
+          "timeOfDay": "night",
+          "activityLevel": "high",
+          "dietaryRestrictions": [
+            "grain allergy"
+          ]
+        }
+      }
+    ]
+  },
+  "petNutritionAnalyzer_analyzeBirdDiet|:|rabbit|:|species,age,healthConditions,timeOfDay,activityLevel,dietaryRestrictions": {
+    "tool_template_name": "petNutritionAnalyzer_analyzeBirdDiet",
+    "derived_class": "rabbit",
+    "params_for_query": [
+      "species",
+      "age",
+      "healthConditions",
+      "timeOfDay",
+      "activityLevel",
+      "dietaryRestrictions"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide dietary recommendations for a 2-year-old Flemish Giant rabbit with a moderate activity level, considering its arthritis and gluten allergy? Preferably for morning feeding.",
+        "filled_param": {
+          "species": "Flemish Giant",
+          "age": 2,
+          "healthConditions": [
+            "arthritis"
+          ],
+          "timeOfDay": "morning",
+          "activityLevel": "moderate",
+          "dietaryRestrictions": [
+            "gluten"
+          ]
+        }
+      },
+      {
+        "query": "What should I feed my 4-year-old Netherland Dwarf rabbit with a high activity level and no known health issues or dietary restrictions in the afternoon?",
+        "filled_param": {
+          "species": "Netherland Dwarf",
+          "age": 4,
+          "healthConditions": [],
+          "timeOfDay": "afternoon",
+          "activityLevel": "high",
+          "dietaryRestrictions": []
+        }
+      },
+      {
+        "query": "I'm looking for dietary advice for a 1-year-old Lionhead rabbit with a low activity level, who has dental problems and a peanut allergy. I'm considering evening feedings.",
+        "filled_param": {
+          "species": "Lionhead",
+          "age": 1,
+          "healthConditions": [
+            "dental problems"
+          ],
+          "timeOfDay": "evening",
+          "activityLevel": "low",
+          "dietaryRestrictions": [
+            "peanut"
+          ]
+        }
+      },
+      {
+        "query": "Suggest a diet for my 3-year-old Rex rabbit that is moderately active and suffers from obesity, with no dietary restrictions, for lunchtime.",
+        "filled_param": {
+          "species": "Rex",
+          "age": 3,
+          "healthConditions": [
+            "obesity"
+          ],
+          "timeOfDay": "lunchtime",
+          "activityLevel": "moderate",
+          "dietaryRestrictions": []
+        }
+      },
+      {
+        "query": "Could you recommend a food plan for my 5-year-old Mini Lop rabbit with high activity levels and a history of gastrointestinal stasis, considering an evening meal and no known allergies?",
+        "filled_param": {
+          "species": "Mini Lop",
+          "age": 5,
+          "healthConditions": [
+            "gastrointestinal stasis"
+          ],
+          "timeOfDay": "evening",
+          "activityLevel": "high",
+          "dietaryRestrictions": []
+        }
+      }
+    ]
+  },
+  "petNutritionAnalyzer_analyzeBirdDiet|:|hamster|:|species,age,healthConditions,timeOfDay,activityLevel,dietaryRestrictions": {
+    "tool_template_name": "petNutritionAnalyzer_analyzeBirdDiet",
+    "derived_class": "hamster",
+    "params_for_query": [
+      "species",
+      "age",
+      "healthConditions",
+      "timeOfDay",
+      "activityLevel",
+      "dietaryRestrictions"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide dietary recommendations for a 2-year-old Syrian hamster that has diabetes and allergies to peanuts, keeping in mind the afternoon feeding time and a moderate activity level?",
+        "filled_param": {
+          "species": "Syrian",
+          "age": 2,
+          "healthConditions": [
+            "diabetes"
+          ],
+          "timeOfDay": "afternoon",
+          "activityLevel": "moderate",
+          "dietaryRestrictions": [
+            "peanuts"
+          ]
+        }
+      },
+      {
+        "query": "What should I feed a 1-year-old Dwarf hamster with obesity and wheat allergy, who is usually fed in the evening and is highly active?",
+        "filled_param": {
+          "species": "Dwarf",
+          "age": 1,
+          "healthConditions": [
+            "obesity"
+          ],
+          "timeOfDay": "evening",
+          "activityLevel": "high",
+          "dietaryRestrictions": [
+            "wheat"
+          ]
+        }
+      },
+      {
+        "query": "Please suggest a diet plan for a 3-year-old Campbell's Dwarf hamster that has no known health issues but is lactose intolerant and is fed in the morning with low activity levels.",
+        "filled_param": {
+          "species": "Campbell's Dwarf",
+          "age": 3,
+          "healthConditions": [],
+          "timeOfDay": "morning",
+          "activityLevel": "low",
+          "dietaryRestrictions": [
+            "lactose"
+          ]
+        }
+      },
+      {
+        "query": "I need help with the diet of my 4-year-old Roborovski hamster that has dental issues and can't eat sunflower seeds, typically fed at night with moderate activity. What do you recommend?",
+        "filled_param": {
+          "species": "Roborovski",
+          "age": 4,
+          "healthConditions": [
+            "dental issues"
+          ],
+          "timeOfDay": "night",
+          "activityLevel": "moderate",
+          "dietaryRestrictions": [
+            "sunflower seeds"
+          ]
+        }
+      },
+      {
+        "query": "Can you analyze the diet for my 5-year-old Chinese hamster with heart problems and allergies to corn, considering it eats in the afternoon and has a low activity level?",
+        "filled_param": {
+          "species": "Chinese",
+          "age": 5,
+          "healthConditions": [
+            "heart problems"
+          ],
+          "timeOfDay": "afternoon",
+          "activityLevel": "low",
+          "dietaryRestrictions": [
+            "corn"
+          ]
+        }
+      }
+    ]
+  },
+  "petNutritionAnalyzer_analyzeBirdDiet|:|turtle|:|species,age,healthConditions,timeOfDay,activityLevel,dietaryRestrictions": {
+    "tool_template_name": "petNutritionAnalyzer_analyzeBirdDiet",
+    "derived_class": "turtle",
+    "params_for_query": [
+      "species",
+      "age",
+      "healthConditions",
+      "timeOfDay",
+      "activityLevel",
+      "dietaryRestrictions"
+    ],
+    "queries": [
+      {
+        "query": "What should I feed my 2-year-old turtle if it's a Red-eared Slider with no health conditions, and I prefer to feed it in the morning? Its activity level is moderate, but it can't eat leafy greens.",
+        "filled_param": {
+          "species": "Red-eared Slider",
+          "age": 2,
+          "healthConditions": [],
+          "timeOfDay": "morning",
+          "activityLevel": "moderate",
+          "dietaryRestrictions": [
+            "leafy greens"
+          ]
+        }
+      },
+      {
+        "query": "Could you recommend a suitable diet for a 5-year-old Eastern Box Turtle with shell deformities, fed in the afternoon, having a low activity level and allergic to fish?",
+        "filled_param": {
+          "species": "Eastern Box Turtle",
+          "age": 5,
+          "healthConditions": [
+            "shell deformities"
+          ],
+          "timeOfDay": "afternoon",
+          "activityLevel": "low",
+          "dietaryRestrictions": [
+            "fish"
+          ]
+        }
+      },
+      {
+        "query": "Analyze the diet needs for a 1-year-old African Sideneck turtle with respiratory issues. It prefers feeding in the evening, and it is quite active, with a restriction from eating fruits.",
+        "filled_param": {
+          "species": "African Sideneck",
+          "age": 1,
+          "healthConditions": [
+            "respiratory issues"
+          ],
+          "timeOfDay": "evening",
+          "activityLevel": "high",
+          "dietaryRestrictions": [
+            "fruits"
+          ]
+        }
+      },
+      {
+        "query": "I need a dietary recommendation for my 3-year-old Common Musk Turtle, which has a moderate activity level and is fed at noon. It has no dietary restrictions but suffers from a slow metabolism.",
+        "filled_param": {
+          "species": "Common Musk Turtle",
+          "age": 3,
+          "healthConditions": [
+            "slow metabolism"
+          ],
+          "timeOfDay": "noon",
+          "activityLevel": "moderate",
+          "dietaryRestrictions": []
+        }
+      },
+      {
+        "query": "What kind of diet would be optimal for a 7-year-old Painted Turtle, active during the day, with a high activity level and sensitive to grains? It is free from any health conditions.",
+        "filled_param": {
+          "species": "Painted Turtle",
+          "age": 7,
+          "healthConditions": [],
+          "timeOfDay": "day",
+          "activityLevel": "high",
+          "dietaryRestrictions": [
+            "grains"
+          ]
+        }
+      },
+      {
+        "query": "Suggest a feeding plan for a 4-year-old Spotted Turtle with mild shell rot, usually fed at night. It is fairly sedentary and can't consume insects.",
+        "filled_param": {
+          "species": "Spotted Turtle",
+          "age": 4,
+          "healthConditions": [
+            "mild shell rot"
+          ],
+          "timeOfDay": "night",
+          "activityLevel": "low",
+          "dietaryRestrictions": [
+            "insects"
+          ]
+        }
+      }
+    ]
+  },
+  "petNutritionAnalyzer_analyzeBirdDiet|:|snake|:|species,age,healthConditions,timeOfDay,activityLevel,dietaryRestrictions": {
+    "tool_template_name": "petNutritionAnalyzer_analyzeBirdDiet",
+    "derived_class": "snake",
+    "params_for_query": [
+      "species",
+      "age",
+      "healthConditions",
+      "timeOfDay",
+      "activityLevel",
+      "dietaryRestrictions"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide dietary recommendations for a 2-year-old ball python with respiratory issues, considering it should be fed in the evening and has moderate activity levels, but is allergic to crickets?",
+        "filled_param": {
+          "species": "ball python",
+          "age": 2,
+          "healthConditions": [
+            "respiratory issues"
+          ],
+          "timeOfDay": "evening",
+          "activityLevel": "moderate",
+          "dietaryRestrictions": [
+            "crickets"
+          ]
+        }
+      },
+      {
+        "query": "What diet would you suggest for a 5-year-old corn snake with no health problems, fed in the morning with low activity, and a restriction on rodents?",
+        "filled_param": {
+          "species": "corn snake",
+          "age": 5,
+          "healthConditions": [],
+          "timeOfDay": "morning",
+          "activityLevel": "low",
+          "dietaryRestrictions": [
+            "rodents"
+          ]
+        }
+      },
+      {
+        "query": "I need a feeding plan for a 1-year-old king snake that is active at a high level, has metabolic bone disease, and should be fed at noon, with no meal including fish.",
+        "filled_param": {
+          "species": "king snake",
+          "age": 1,
+          "healthConditions": [
+            "metabolic bone disease"
+          ],
+          "timeOfDay": "noon",
+          "activityLevel": "high",
+          "dietaryRestrictions": [
+            "fish"
+          ]
+        }
+      },
+      {
+        "query": "Could you suggest a diet for a 3-year-old garter snake with a skin condition, which is moderately active, to be fed in the afternoon, and cannot consume eggs?",
+        "filled_param": {
+          "species": "garter snake",
+          "age": 3,
+          "healthConditions": [
+            "skin condition"
+          ],
+          "timeOfDay": "afternoon",
+          "activityLevel": "moderate",
+          "dietaryRestrictions": [
+            "eggs"
+          ]
+        }
+      },
+      {
+        "query": "What dietary plan would you recommend for a 4-year-old boa constrictor with no health conditions, to be fed at night, with a high activity level and a restriction on insects?",
+        "filled_param": {
+          "species": "boa constrictor",
+          "age": 4,
+          "healthConditions": [],
+          "timeOfDay": "night",
+          "activityLevel": "high",
+          "dietaryRestrictions": [
+            "insects"
+          ]
+        }
+      }
+    ]
+  },
+  "petNutritionAnalyzer_analyzeBirdDiet|:|fish|:|species,age,healthConditions,timeOfDay,activityLevel,dietaryRestrictions": {
+    "tool_template_name": "petNutritionAnalyzer_analyzeBirdDiet",
+    "derived_class": "fish",
+    "params_for_query": [
+      "species",
+      "age",
+      "healthConditions",
+      "timeOfDay",
+      "activityLevel",
+      "dietaryRestrictions"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide a dietary plan for my two-year-old goldfish that has swim bladder disease, prefers evening feeding, is moderately active, and must avoid high-fat diets?",
+        "filled_param": {
+          "species": "goldfish",
+          "age": 2,
+          "healthConditions": [
+            "swim bladder disease"
+          ],
+          "timeOfDay": "evening",
+          "activityLevel": "moderate",
+          "dietaryRestrictions": [
+            "high-fat diets"
+          ]
+        }
+      },
+      {
+        "query": "What diet would you recommend for a three-year-old betta fish with no health conditions, fed in the morning, that has a high activity level and needs to avoid shellfish?",
+        "filled_param": {
+          "species": "betta fish",
+          "age": 3,
+          "healthConditions": [],
+          "timeOfDay": "morning",
+          "activityLevel": "high",
+          "dietaryRestrictions": [
+            "shellfish"
+          ]
+        }
+      },
+      {
+        "query": "I need a nutrition guide for a one-year-old guppy with ich, prefers afternoon feeding, is highly active, and cannot have foods with artificial colors.",
+        "filled_param": {
+          "species": "guppy",
+          "age": 1,
+          "healthConditions": [
+            "ich"
+          ],
+          "timeOfDay": "afternoon",
+          "activityLevel": "high",
+          "dietaryRestrictions": [
+            "artificial colors"
+          ]
+        }
+      },
+      {
+        "query": "Can you suggest a meal plan for my five-year-old catfish that has fin rot, is fed at night, with low activity, and should avoid gluten?",
+        "filled_param": {
+          "species": "catfish",
+          "age": 5,
+          "healthConditions": [
+            "fin rot"
+          ],
+          "timeOfDay": "night",
+          "activityLevel": "low",
+          "dietaryRestrictions": [
+            "gluten"
+          ]
+        }
+      },
+      {
+        "query": "What would be the best diet for a four-year-old angelfish with no health issues, prefers noon feeding, is moderately active, and is allergic to corn?",
+        "filled_param": {
+          "species": "angelfish",
+          "age": 4,
+          "healthConditions": [],
+          "timeOfDay": "noon",
+          "activityLevel": "moderate",
+          "dietaryRestrictions": [
+            "corn"
+          ]
+        }
+      },
+      {
+        "query": "Provide a suitable diet for my three-year-old clownfish with gill disease, prefers sunrise feeding, is low in activity, and must avoid dairy.",
+        "filled_param": {
+          "species": "clownfish",
+          "age": 3,
+          "healthConditions": [
+            "gill disease"
+          ],
+          "timeOfDay": "sunrise",
+          "activityLevel": "low",
+          "dietaryRestrictions": [
+            "dairy"
+          ]
+        }
+      }
+    ]
+  },
+  "petNutritionAnalyzer_analyzeBirdDiet|:|lizard|:|species,age,healthConditions,timeOfDay,activityLevel,dietaryRestrictions": {
+    "tool_template_name": "petNutritionAnalyzer_analyzeBirdDiet",
+    "derived_class": "lizard",
+    "params_for_query": [
+      "species",
+      "age",
+      "healthConditions",
+      "timeOfDay",
+      "activityLevel",
+      "dietaryRestrictions"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide dietary recommendations for a 2-year-old Bearded Dragon with metabolic bone disease, preferred feeding time in the morning, high activity level, and no crickets due to an allergy?",
+        "filled_param": {
+          "species": "Bearded Dragon",
+          "age": 2,
+          "healthConditions": [
+            "metabolic bone disease"
+          ],
+          "timeOfDay": "morning",
+          "activityLevel": "high",
+          "dietaryRestrictions": [
+            "crickets"
+          ]
+        }
+      },
+      {
+        "query": "What should be included in the diet of a 3-year-old Leopard Gecko with no known health issues, who is fed in the evening, has a moderate activity level, and cannot have mealworms?",
+        "filled_param": {
+          "species": "Leopard Gecko",
+          "age": 3,
+          "healthConditions": [],
+          "timeOfDay": "evening",
+          "activityLevel": "moderate",
+          "dietaryRestrictions": [
+            "mealworms"
+          ]
+        }
+      },
+      {
+        "query": "I'd like some feeding advice for a 5-year-old Crested Gecko with obesity, usually fed at night, who is very active and requires a diet without waxworms.",
+        "filled_param": {
+          "species": "Crested Gecko",
+          "age": 5,
+          "healthConditions": [
+            "obesity"
+          ],
+          "timeOfDay": "night",
+          "activityLevel": "high",
+          "dietaryRestrictions": [
+            "waxworms"
+          ]
+        }
+      },
+      {
+        "query": "Could you analyze the diet of a 1-year-old Blue-Tongue Skink suffering from dehydration, prefers afternoon feeding, is low in activity, and needs to avoid strawberries?",
+        "filled_param": {
+          "species": "Blue-Tongue Skink",
+          "age": 1,
+          "healthConditions": [
+            "dehydration"
+          ],
+          "timeOfDay": "afternoon",
+          "activityLevel": "low",
+          "dietaryRestrictions": [
+            "strawberries"
+          ]
+        }
+      },
+      {
+        "query": "What dietary plan would you suggest for a 4-year-old Green Iguana with no specific health conditions, fed at noon, moderate activity level, and should not eat spinach?",
+        "filled_param": {
+          "species": "Green Iguana",
+          "age": 4,
+          "healthConditions": [],
+          "timeOfDay": "noon",
+          "activityLevel": "moderate",
+          "dietaryRestrictions": [
+            "spinach"
+          ]
+        }
+      },
+      {
+        "query": "Can you suggest a diet for a 6-month-old Panther Chameleon with respiratory issues, fed in the morning, high activity level, and cannot have bananas due to dietary restrictions?",
+        "filled_param": {
+          "species": "Panther Chameleon",
+          "age": 0,
+          "healthConditions": [
+            "respiratory issues"
+          ],
+          "timeOfDay": "morning",
+          "activityLevel": "high",
+          "dietaryRestrictions": [
+            "bananas"
+          ]
+        }
+      }
+    ]
+  }
+}

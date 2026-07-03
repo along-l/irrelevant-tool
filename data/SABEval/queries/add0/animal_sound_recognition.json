@@ -1,0 +1,593 @@
+{
+  "animal_sound_recognition|:|Mammalia|:|audio_clip": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Mammalia",
+    "params_for_query": [
+      "audio_clip"
+    ],
+    "queries": [
+      {
+        "query": "What species of Mammalia is this sound I recorded represented by the Base64 string 'UklGRlgAAABXQVZFZm10IBAAAAABAAEAIlYfAABF...'? Please identify it.",
+        "filled_param": {
+          "audio_clip": "UklGRlgAAABXQVZFZm10IBAAAAABAAEAIlYfAABF..."
+        }
+      },
+      {
+        "query": "Can you tell me which Mammalia is making the sound in the following Base64 encoded audio: 'SGVsbG8gV29ybGQgQXVkaW8gU3RyaW5nIGhlcmUuLi4='?",
+        "filled_param": {
+          "audio_clip": "SGVsbG8gV29ybGQgQXVkaW8gU3RyaW5nIGhlcmUuLi4="
+        }
+      },
+      {
+        "query": "Identify the Mammalia from the sound encoded in this Base64 string: 'VGhpcyBpcyBhIHRlc3QgYXVkaW8gc3RyaW5nLg=='.",
+        "filled_param": {
+          "audio_clip": "VGhpcyBpcyBhIHRlc3QgYXVkaW8gc3RyaW5nLg=="
+        }
+      },
+      {
+        "query": "Here's a Base64 string of a sound: 'RnJvZyBjb2FzdGluZyBhdWRpbyBjb250ZW50Lg=='. Could you tell me which Mammalia is producing this sound?",
+        "filled_param": {
+          "audio_clip": "RnJvZyBjb2FzdGluZyBjb250ZW50Lg=="
+        }
+      },
+      {
+        "query": "Please identify the Mammalia from this sound, encoded as Base64: 'QXVkaW8gY29udGVudCBmb3IgZGVtb25zdHJhdGlvbi4='.",
+        "filled_param": {
+          "audio_clip": "QXVkaW8gY29udGVudCBmb3IgZGVtb25zdHJhdGlvbi4="
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Aves|:|audio_clip": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Aves",
+    "params_for_query": [
+      "audio_clip"
+    ],
+    "queries": [
+      {
+        "query": "Can you identify the Aves species from this sound: UklGRiwAAABXQVZFZm10IBAAAAABAAEAIlYAAESsAAACABAAZGF0YYAAAAD/4AAQSkZJRgABAQEAAAAAAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAABv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAf/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABPxB4f/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAgEBPxD/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAwEBPxD/2Q==",
+        "filled_param": {
+          "audio_clip": "UklGRiwAAABXQVZFZm10IBAAAAABAAEAIlYAAESsAAACABAAZGF0YYAAAAD/4AAQSkZJRgABAQEAAAAAAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAABv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAf/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABPxB4f/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAgEBPxD/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAwEBPxD/2Q=="
+        }
+      },
+      {
+        "query": "What type of Aves can be identified from this audio: UklGRiAAAABXQVZFZm10IBAAAAABAAEAIlYAAESsAAACABAAZGF0YYAAAAD/4AAQSkZJRgABAQEAAAAAAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAABv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAf/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABPxB4f/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAgEBPxD/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAwEBPxD/2Q==",
+        "filled_param": {
+          "audio_clip": "UklGRiAAAABXQVZFZm10IBAAAAABAAEAIlYAAESsAAACABAAZGF0YYAAAAD/4AAQSkZJRgABAQEAAAAAAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAABv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAf/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABPxB4f/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAgEBPxD/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAwEBPxD/2Q=="
+        }
+      },
+      {
+        "query": "Identify the bird species from this sound clip: UklGRlgAAABXQVZFZm10IBAAAAABAAEAIlYAAESsAAACABAAZGF0YYAAAAD/4AAQSkZJRgABAQEAAAAAAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAABv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAf/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABPxB4f/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAgEBPxD/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAwEBPxD/2Q==",
+        "filled_param": {
+          "audio_clip": "UklGRlgAAABXQVZFZm10IBAAAAABAAEAIlYAAESsAAACABAAZGF0YYAAAAD/4AAQSkZJRgABAQEAAAAAAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAABv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAf/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABPxB4f/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAgEBPxD/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAwEBPxD/2Q=="
+        }
+      },
+      {
+        "query": "Could you determine the Aves species using this sound recording: UklGRigAAABXQVZFZm10IBAAAAABAAEAIlYAAESsAAACABAAZGF0YYAAAAD/4AAQSkZJRgABAQEAAAAAAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAABv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAf/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABPxB4f/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAgEBPxD/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAwEBPxD/2Q==",
+        "filled_param": {
+          "audio_clip": "UklGRigAAABXQVZFZm10IBAAAAABAAEAIlYAAESsAAACABAAZGF0YYAAAAD/4AAQSkZJRgABAQEAAAAAAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAABv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAf/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABPxB4f/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAgEBPxD/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAwEBPxD/2Q=="
+        }
+      },
+      {
+        "query": "What is the bird identified from this audio sample: UklGRtwAAABXQVZFZm10IBAAAAABAAEAIlYAAESsAAACABAAZGF0YYAAAAD/4AAQSkZJRgABAQEAAAAAAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAABv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAf/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABPxB4f/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAgEBPxD/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAwEBPxD/2Q==",
+        "filled_param": {
+          "audio_clip": "UklGRtwAAABXQVZFZm10IBAAAAABAAEAIlYAAESsAAACABAAZGF0YYAAAAD/4AAQSkZJRgABAQEAAAAAAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAABv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAf/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABPxB4f/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAgEBPxD/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAwEBPxD/2Q=="
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Reptilia|:|audio_clip": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Reptilia",
+    "params_for_query": [
+      "audio_clip"
+    ],
+    "queries": [
+      {
+        "query": "Here's a sound recorded from a Reptilia, encoded in base64: UklGRlgAAABXQVZFZm10IBAAAAABAAEAQB8AAIA+AAACABAAZGF0YQAAAAA=",
+        "filled_param": {
+          "audio_clip": "UklGRlgAAABXQVZFZm10IBAAAAABAAEAQB8AAIA+AAACABAAZGF0YQAAAAA="
+        }
+      },
+      {
+        "query": "Can you identify the Reptilia from this base64 audio clip: QmFzZTY0U291bmREYXRhU3RyaW5nRm9yUmVwdGlsaWE=",
+        "filled_param": {
+          "audio_clip": "QmFzZTY0U291bmREYXRhU3RyaW5nRm9yUmVwdGlsaWE="
+        }
+      },
+      {
+        "query": "What Reptilia is making this sound? Base64 string: VGhpcyBpcyBhIEJhc2U2NCBlbmNvZGVkIHNvdW5kIGZyb20gYSBSZXB0aWxpYQ==",
+        "filled_param": {
+          "audio_clip": "VGhpcyBpcyBhIEJhc2U2NCBlbmNvZGVkIHNvdW5kIGZyb20gYSBSZXB0aWxpYQ=="
+        }
+      },
+      {
+        "query": "Decode this base64 encoded audio to find out which Reptilia it belongs to: U29tZUJhc2U2NFNvdW5kRGF0YUZyb21SZXB0aWxpYQ==",
+        "filled_param": {
+          "audio_clip": "U29tZUJhc2U2NFNvdW5kRGF0YUZyb21SZXB0aWxpYQ=="
+        }
+      },
+      {
+        "query": "I need help identifying the Reptilia from this base64 audio clip: QmFzZTY0RW5jb2RlZFNvdW5kUmVjb3JkZWRGcm9tUmVwdGlsaWE=",
+        "filled_param": {
+          "audio_clip": "QmFzZTY0RW5jb2RlZFNvdW5kUmVjb3JkZWRGcm9tUmVwdGlsaWE="
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Amphibia|:|audio_clip": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Amphibia",
+    "params_for_query": [
+      "audio_clip"
+    ],
+    "queries": [
+      {
+        "query": "Can you identify the Amphibia from this sound: U29tZUJhc2U2NEVuY29kZWRBdWRpb1N0cmluZw==?",
+        "filled_param": {
+          "audio_clip": "U29tZUJhc2U2NEVuY29kZWRBdWRpb1N0cmluZw=="
+        }
+      },
+      {
+        "query": "This is an Amphibia sound clip: QW5vdGhlckJhc2U2NEF1ZGlvU3RyaW5n, what amphibian is it?",
+        "filled_param": {
+          "audio_clip": "QW5vdGhlckJhc2U2NEF1ZGlvU3RyaW5n"
+        }
+      },
+      {
+        "query": "Identify this Amphibia from the audio: TW9yZUJhc2U2NEVuY29kZWRBdWRpb0V4YW1wbGU=",
+        "filled_param": {
+          "audio_clip": "TW9yZUJhc2U2NEVuY29kZWRBdWRpb0V4YW1wbGU="
+        }
+      },
+      {
+        "query": "What Amphibia makes this sound: U29tZU90aGVyQmFzZTY0QXVkaW9Db250ZW50?",
+        "filled_param": {
+          "audio_clip": "U29tZU90aGVyQmFzZTY0QXVkaW9Db250ZW50"
+        }
+      },
+      {
+        "query": "Could you tell me which Amphibia is recorded in this audio: QmFzZTY0Q29udGVudEZvckFtcGhpYmlh?",
+        "filled_param": {
+          "audio_clip": "QmFzZTY0Q29udGVudEZvckFtcGhpYmlh"
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Pisces|:|audio_clip": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Pisces",
+    "params_for_query": [
+      "audio_clip"
+    ],
+    "queries": [
+      {
+        "query": "Can you identify the Pisces species from this sound: UklGRhYAAABXQVZFZm10IBAAAAABAAEARKwAABCxAgAEABAAZGF0YQAAAAA=?",
+        "filled_param": {
+          "audio_clip": "UklGRhYAAABXQVZFZm10IBAAAAABAAEARKwAABCxAgAEABAAZGF0YQAAAAA="
+        }
+      },
+      {
+        "query": "What Pisces species makes this sound: QWxleHBlY2lhbGx5IGVuY29kZWQgc2FtcGxlIGxpZmU=?",
+        "filled_param": {
+          "audio_clip": "QWxleHBlY2lhbGx5IGVuY29kZWQgc2FtcGxlIGxpZmU="
+        }
+      },
+      {
+        "query": "I captured a sound, can you tell which Pisces it belongs to? Here is the audio: SFRUUCBhbmQgb3RoZXIgcHJvdG9jb2xzIGFyZSBmcmllbmQ=?",
+        "filled_param": {
+          "audio_clip": "SFRUUCBhbmQgb3RoZXIgcHJvdG9jb2xzIGFyZSBmcmllbmQ="
+        }
+      },
+      {
+        "query": "This sound might be from a Pisces species: VGhpcyBpcyBhIGJhc2U2NCBlbmNvZGVkIGF1ZGlvIG9mIGEgc2FtcGxlLg==. Can you identify it?",
+        "filled_param": {
+          "audio_clip": "VGhpcyBpcyBhIGJhc2U2NCBlbmNvZGVkIGF1ZGlvIG9mIGEgc2FtcGxlLg=="
+        }
+      },
+      {
+        "query": "Please determine the Pisces species from this audio sample: QmFzZTY0IHN0cmluZyBlbmNvZGVkIGF1ZGlvIGRhdGE=?",
+        "filled_param": {
+          "audio_clip": "QmFzZTY0IHN0cmluZyBlbmNvZGVkIGF1ZGlvIGRhdGE="
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Insecta|:|audio_clip": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Insecta",
+    "params_for_query": [
+      "audio_clip"
+    ],
+    "queries": [
+      {
+        "query": "Can you identify the Insecta from this sound: UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAABCxAgAEABAAZGF0YQAAAAA=",
+        "filled_param": {
+          "audio_clip": "UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAABCxAgAEABAAZGF0YQAAAAA="
+        }
+      },
+      {
+        "query": "What is the Insecta making this noise? Here's the audio: Q2FjdXNlIG1lIG1pZ2hpIGZhc2NpbmF0ZSB5b3VyIG93biBjb25jbHVzaW9ucy4=",
+        "filled_param": {
+          "audio_clip": "Q2FjdXNlIG1lIG1pZ2hpIGZhc2NpbmF0ZSB5b3VyIG93biBjb25jbHVzaW9ucy4="
+        }
+      },
+      {
+        "query": "This base64 string is a sound from an Insecta. Can you tell which one it is? YmFzZTY0IGVuY29kaW5nIHJlcHJlc2VudGF0aW9uIG9mIGJpbmFyeSBkYXRhLg==",
+        "filled_param": {
+          "audio_clip": "YmFzZTY0IGVuY29kaW5nIHJlcHJlc2VudGF0aW9uIG9mIGJpbmFyeSBkYXRhLg=="
+        }
+      },
+      {
+        "query": "Identify the Insecta from these sounds: aHR0cHM6Ly93d3cueW91dHViZS5jb20vY3VzdG9tX2VuY29kZWRfdXJs",
+        "filled_param": {
+          "audio_clip": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vY3VzdG9tX2VuY29kZWRfdXJs"
+        }
+      },
+      {
+        "query": "Here's a sound clip encoded in base64: U2ltcGx5IGVuY29kZSB0aGUgbWlzc2luZyBiaXRzLg==. Can you identify the Insecta?",
+        "filled_param": {
+          "audio_clip": "U2ltcGx5IGVuY29kZSB0aGUgbWlzc2luZyBiaXRzLg=="
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Arachnida|:|audio_clip": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Arachnida",
+    "params_for_query": [
+      "audio_clip"
+    ],
+    "queries": [
+      {
+        "query": "Can you identify this Arachnida from its sound: UklGRiyAAABXQVZFZm10IBAAAAABAAEAESsAADIAAAABAAEAAJAAADKQEUAAICAgICAgICAgICAgICAgICAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD/",
+        "filled_param": {
+          "audio_clip": "UklGRiyAAABXQVZFZm10IBAAAAABAAEAESsAADIAAAABAAEAAJAAADKQEUAAICAgICAgICAgICAgICAgICAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD/"
+        }
+      },
+      {
+        "query": "What Arachnida does this sound belong to? Here is the audio clip: Q29uZ3JhdHVsYXRpb25zLCB5b3UgZm91bmQgdGhlIGhpZGRlbiBtZXNzYWdlIQ==",
+        "filled_param": {
+          "audio_clip": "Q29uZ3JhdHVsYXRpb25zLCB5b3UgZm91bmQgdGhlIGhpZGRlbiBtZXNzYWdlIQ=="
+        }
+      },
+      {
+        "query": "This is a sound of an Arachnida: VGVzdCBzdHJpbmcgZm9yIGF1ZGlvIGNvbnZlcnNpb24uIFBsZWFzZSBpZ25vcmUgdGhpcyBtZXNzYWdlLg==. Can you tell what it is?",
+        "filled_param": {
+          "audio_clip": "VGVzdCBzdHJpbmcgZm9yIGF1ZGlvIGNvbnZlcnNpb24uIFBsZWFzZSBpZ25vcmUgdGhpcyBtZXNzYWdlLg=="
+        }
+      },
+      {
+        "query": "Could you help me identify this Arachnida from the following sound clip: VGhpcyBpcyBhIHRlc3Qgc3RyaW5nIGZvciBhIGJhc2U2NCBlbmNvZGVkIGF1ZGlvLg==?",
+        "filled_param": {
+          "audio_clip": "VGhpcyBpcyBhIHRlc3Qgc3RyaW5nIGZvciBhIGJhc2U2NCBlbmNvZGVkIGF1ZGlvLg=="
+        }
+      },
+      {
+        "query": "Determine the type of Arachnida from this audio: U29tZSBibG9iIGJhc2U2NCBzdHJpbmcgaGVyZQ==.",
+        "filled_param": {
+          "audio_clip": "U29tZSBibG9iIGJhc2U2NCBzdHJpbmcgaGVyZQ=="
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Crustacea|:|audio_clip": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Crustacea",
+    "params_for_query": [
+      "audio_clip"
+    ],
+    "queries": [
+      {
+        "query": "I have an audio clip of a Crustacea sound encoded in Base64: 'U29tZSBiYXNlNjQgZW5jb2RlZCBhdWRpbyBkYXRh'. Can you identify the species?",
+        "filled_param": {
+          "audio_clip": "U29tZSBiYXNlNjQgZW5jb2RlZCBhdWRpbyBkYXRh"
+        }
+      },
+      {
+        "query": "Here's a Base64 string of a Crustacea sound: 'QmFzZTY0IGVuY29kZWQgc3RyaW5nIGZvciBhbiBhdWRpbyBjbGlw'. Could you tell me what Crustacea this is from?",
+        "filled_param": {
+          "audio_clip": "QmFzZTY0IGVuY29kZWQgc3RyaW5nIGZvciBhbiBhdWRpbyBjbGlw"
+        }
+      },
+      {
+        "query": "Please identify the Crustacea species from this Base64 audio clip: 'U29tZSBvdGhlciBiYXNlNjQgZW5jb2RlZCBkYXRhIGZvciBhdWRpby4='.",
+        "filled_param": {
+          "audio_clip": "U29tZSBvdGhlciBiYXNlNjQgZW5jb2RlZCBkYXRhIGZvciBhdWRpby4="
+        }
+      },
+      {
+        "query": "Using this Base64-encoded sound 'QW5vdGhlciBlbmNvZGVkIGF1ZGlvIGZvciBhIENydXN0YWNlYQ==', can you figure out which Crustacea it is?",
+        "filled_param": {
+          "audio_clip": "QW5vdGhlciBlbmNvZGVkIGF1ZGlvIGZvciBhIENydXN0YWNlYQ=="
+        }
+      },
+      {
+        "query": "Decode this Base64 audio: 'VGVzdCBiYXNlNjQgc3RyaW5nIGZvciBDcnVzdGFjZWEh' and identify the Crustacea species.",
+        "filled_param": {
+          "audio_clip": "VGVzdCBiYXNlNjQgc3RyaW5nIGZvciBDcnVzdGFjZWEh"
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Gastropoda|:|audio_clip": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Gastropoda",
+    "params_for_query": [
+      "audio_clip"
+    ],
+    "queries": [
+      {
+        "query": "What species of Gastropoda does this audio clip represent if the sound is encoded as a base64 string: 'U29tZUJhc2U2NEVuY29kZWRTdHJpbmc='?",
+        "filled_param": {
+          "audio_clip": "U29tZUJhc2U2NEVuY29kZWRTdHJpbmc="
+        }
+      },
+      {
+        "query": "Can you identify the Gastropoda from this sound: 'QU5PVEhFUkJhc2U2NEVuY29kaW5n'?",
+        "filled_param": {
+          "audio_clip": "QU5PVEhFUkJhc2U2NEVuY29kaW5n"
+        }
+      },
+      {
+        "query": "Here's a base64 encoded string of a Gastropoda sound: 'U09NRUJTRTY0U1RSSU5H', can you tell me which species it belongs to?",
+        "filled_param": {
+          "audio_clip": "U09NRUJTRTY0U1RSSU5H"
+        }
+      },
+      {
+        "query": "Identify the Gastropoda from this base64 audio clip: 'QmFzZTY0U29tZVNvdW5kcw=='",
+        "filled_param": {
+          "audio_clip": "QmFzZTY0U29tZVNvdW5kcw=="
+        }
+      },
+      {
+        "query": "Could you tell me which Gastropoda is making this sound: 'QXNvdW5kQmFzZTY0RW5jb2RlZA=='?",
+        "filled_param": {
+          "audio_clip": "QXNvdW5kQmFzZTY0RW5jb2RlZA=="
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Cephalopoda|:|audio_clip": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Cephalopoda",
+    "params_for_query": [
+      "audio_clip"
+    ],
+    "queries": [
+      {
+        "query": "Analyze this Cephalopoda sound: UklGRiQAAABXQVZFZm10IBAAAAABAAEAIlYAAESsAAACABAAZGF0YYQAAAAA",
+        "filled_param": {
+          "audio_clip": "UklGRiQAAABXQVZFZm10IBAAAAABAAEAIlYAAESsAAACABAAZGF0YYQAAAAA"
+        }
+      },
+      {
+        "query": "What Cephalopoda is producing this sound? Here's the audio: aGVsbG8gd29ybGQ=",
+        "filled_param": {
+          "audio_clip": "aGVsbG8gd29ybGQ="
+        }
+      },
+      {
+        "query": "Please identify the Cephalopoda from the following sound recording: QWxhZGRpbjpvcGVuIHNlc2FtZQ==",
+        "filled_param": {
+          "audio_clip": "QWxhZGRpbjpvcGVuIHNlc2FtZQ=="
+        }
+      },
+      {
+        "query": "Determine the type of Cephalopoda from this audio clip: VGhpcyBpcyBhIHRlc3Qh",
+        "filled_param": {
+          "audio_clip": "VGhpcyBpcyBhIHRlc3Qh"
+        }
+      },
+      {
+        "query": "Can you tell which Cephalopoda this sound belongs to? auZ0aGVsdmZ2Y2VsbG8=",
+        "filled_param": {
+          "audio_clip": "auZ0aGVsdmZ2Y2VsbG8="
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Polychaeta|:|audio_clip": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Polychaeta",
+    "params_for_query": [
+      "audio_clip"
+    ],
+    "queries": [
+      {
+        "query": "Could you identify the Polychaeta species from this sound: U3VjY2Vzc2Z1bC1iYXNlNjQtc3RyaW5nLXJlZmVyZW5jZQ==?",
+        "filled_param": {
+          "audio_clip": "U3VjY2Vzc2Z1bC1iYXNlNjQtc3RyaW5nLXJlZmVyZW5jZQ=="
+        }
+      },
+      {
+        "query": "What type of Polychaeta does this audio clip represent: QmFzZTY0LWVuY29kZWQtdGhpcy1mb3ItaW5wdXQ=?",
+        "filled_param": {
+          "audio_clip": "QmFzZTY0LWVuY29kZWQtdGhpcy1mb3ItaW5wdXQ="
+        }
+      },
+      {
+        "query": "Please analyze this sound for the Polychaeta species: VGhpcy1pcy1hLWJhc2U2NC1zdHJpbmctZXhhbXBsZQ==.",
+        "filled_param": {
+          "audio_clip": "VGhpcy1pcy1hLWJhc2U2NC1zdHJpbmctZXhhbXBsZQ=="
+        }
+      },
+      {
+        "query": "Can you determine the species of Polychaeta from this encoded audio: QW5vdGhlci1iYXNlNjQtc3RyaW5nLXRvLWFuYWx5emU=?",
+        "filled_param": {
+          "audio_clip": "QW5vdGhlci1iYXNlNjQtc3RyaW5nLXRvLWFuYWx5emU="
+        }
+      },
+      {
+        "query": "Identify the Polychaeta species using this sound clip: RW5jb2RlZC1hdWRpby1jb250ZW50LWZvci10ZXN0aW5nLg==.",
+        "filled_param": {
+          "audio_clip": "RW5jb2RlZC1hdWRpby1jb250ZW50LWZvci10ZXN0aW5nLg=="
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Oligochaeta|:|audio_clip": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Oligochaeta",
+    "params_for_query": [
+      "audio_clip"
+    ],
+    "queries": [
+      {
+        "query": "Can you identify this Oligochaeta from the sound encoded in the following base64 string: 'U29tZUJhc2U2NFN0cmluZw=='?",
+        "filled_param": {
+          "audio_clip": "U29tZUJhc2U2NFN0cmluZw=="
+        }
+      },
+      {
+        "query": "Here is a base64 encoded audio of an Oligochaeta: 'QW5vdGhlckJhc2U2NFN0cmluZw=='. What species does it belong to?",
+        "filled_param": {
+          "audio_clip": "QW5vdGhlckJhc2U2NFN0cmluZw=="
+        }
+      },
+      {
+        "query": "I have a base64 audio clip 'VGhpcmRCYXNlNjRTdHJpbmc=' of an Oligochaeta. Can you help identify it?",
+        "filled_param": {
+          "audio_clip": "VGhpcmRCYXNlNjRTdHJpbmc="
+        }
+      },
+      {
+        "query": "Please identify the Oligochaeta from this base64 sound string: 'Rm91cnRoQmFzZTY0U3RyaW5n'.",
+        "filled_param": {
+          "audio_clip": "Rm91cnRoQmFzZTY0U3RyaW5n"
+        }
+      },
+      {
+        "query": "What type of Oligochaeta does this base64 encoded audio clip 'RmlmZXRoQmFzZTY0U3RyaW5n' belong to?",
+        "filled_param": {
+          "audio_clip": "RmlmZXRoQmFzZTY0U3RyaW5n"
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Hirudinea|:|audio_clip": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Hirudinea",
+    "params_for_query": [
+      "audio_clip"
+    ],
+    "queries": [
+      {
+        "query": "I have a recording of a Hirudinea sound in Base64 format: U29tZSByYW5kb20gYmFzZTY0IHN0cmluZw==. Can you identify it?",
+        "filled_param": {
+          "audio_clip": "U29tZSByYW5kb20gYmFzZTY0IHN0cmluZw=="
+        }
+      },
+      {
+        "query": "Here's a Base64 string of a sound I captured from a Hirudinea: QmFzZTY0IGF1ZGlvIGRhdGEgdG8gaWRlbnRpZnk=. What type of Hirudinea is it?",
+        "filled_param": {
+          "audio_clip": "QmFzZTY0IGF1ZGlvIGRhdGEgdG8gaWRlbnRpZnk="
+        }
+      },
+      {
+        "query": "Could you identify this Hirudinea from its Base64 encoded sound clip: SGlydWRpbmVhIHNvdW5kIGluIGJhc2U2NA==?",
+        "filled_param": {
+          "audio_clip": "SGlydWRpbmVhIHNvdW5kIGluIGJhc2U2NA=="
+        }
+      },
+      {
+        "query": "Using this Base64 sound data: TGVlY2ggc291bmQgcmVjb3JkaW5n, can you determine which Hirudinea it corresponds to?",
+        "filled_param": {
+          "audio_clip": "TGVlY2ggc291bmQgcmVjb3JkaW5n"
+        }
+      },
+      {
+        "query": "I need help identifying a Hirudinea from this audio encoded in Base64: UwBvdW5kIGZyb20gYSBsaGlydWRpbmVhLg==.",
+        "filled_param": {
+          "audio_clip": "UwBvdW5kIGZyb20gYSBsaGlydWRpbmVhLg=="
+        }
+      },
+      {
+        "query": "Here's a Base64 audio recording: UmFuZG9tIHZvaWNlIGluIEJhc2U2NA==. Can you identify the Hirudinea species from it?",
+        "filled_param": {
+          "audio_clip": "UmFuZG9tIHZvaWNlIGluIEJhc2U2NA=="
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Cnidaria|:|audio_clip": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Cnidaria",
+    "params_for_query": [
+      "audio_clip"
+    ],
+    "queries": [
+      {
+        "query": "Can you identify the Cnidaria species from this Base64 encoded audio: U29tZUJhc2UzNGVuY29kZWRBdWRpb1N0cmluZw==?",
+        "filled_param": {
+          "audio_clip": "U29tZUJhc2UzNGVuY29kZWRBdWRpb1N0cmluZw=="
+        }
+      },
+      {
+        "query": "Here's a Base64 string of a sound clip. Which Cnidaria does it belong to? aW5zZXJ0QmFzZTY0U3RyaW5nSGVyZQ==",
+        "filled_param": {
+          "audio_clip": "aW5zZXJ0QmFzZTY0U3RyaW5nSGVyZQ=="
+        }
+      },
+      {
+        "query": "Identify the Cnidaria from this sound encoded in Base64: QmFzZTY0U291bmRTdHJpbmdFeGFtcGxl",
+        "filled_param": {
+          "audio_clip": "QmFzZTY0U291bmRTdHJpbmdFeGFtcGxl"
+        }
+      },
+      {
+        "query": "Which Cnidaria species is this sound from? Here's the Base64 audio: U29tZUJhc2UzNGVuY29kZWRBdWRpbw==",
+        "filled_param": {
+          "audio_clip": "U29tZUJhc2UzNGVuY29kZWRBdWRpbw=="
+        }
+      },
+      {
+        "query": "Decode this Base64 audio string and tell me which Cnidaria it is: ZXhhbXBsZUJhc2U2NFNvdW5kU3RyaW5n",
+        "filled_param": {
+          "audio_clip": "ZXhhbXBsZUJhc2U2NFNvdW5kU3RyaW5n"
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Porifera|:|audio_clip": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Porifera",
+    "params_for_query": [
+      "audio_clip"
+    ],
+    "queries": [
+      {
+        "query": "I have a sound clip of some Porifera activity encoded in Base64 here: UklGRlIAAABXQVZFZm10IBAAAAABAAEAESsAACJWAAACABAAZGF0YYAAAABv29rfHg==. Can you identify it?",
+        "filled_param": {
+          "audio_clip": "UklGRlIAAABXQVZFZm10IBAAAAABAAEAESsAACJWAAACABAAZGF0YYAAAABv29rfHg=="
+        }
+      },
+      {
+        "query": "Please identify this Porifera from its sound: QmFzZTY0U291bmRTdHJpbmdFeGFtcGxlMTIz.",
+        "filled_param": {
+          "audio_clip": "QmFzZTY0U291bmRTdHJpbmdFeGFtcGxlMTIz"
+        }
+      },
+      {
+        "query": "What type of Porifera makes this noise: ZG9lc25vdHNvdW5kbGlrZXBhcmFzZQ==?",
+        "filled_param": {
+          "audio_clip": "ZG9lc25vdHNvdW5kbGlrZXBhcmFzZQ=="
+        }
+      },
+      {
+        "query": "Can you tell me which Porifera is making this sound from this Base64 string: QkFTRTY0U1RSSU5HISEhISEK?",
+        "filled_param": {
+          "audio_clip": "QkFTRTY0U1RSSU5HISEhISEK"
+        }
+      },
+      {
+        "query": "Here's a sound represented in Base64: c2FtcGxlc291bmRzdHJpbmc=, can you identify the Porifera?",
+        "filled_param": {
+          "audio_clip": "c2FtcGxlc291bmRzdHJpbmc="
+        }
+      }
+    ]
+  }
+}

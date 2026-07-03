@@ -1,0 +1,70 @@
+{
+  "tool_template_name": "VegetarianFamilyRestaurantSearch",
+  "meta_data": {
+    "base_class": "Search for restaurants suitable for people who prefer specific <cuisines> - refers to types of dishes characterized by particular cooking styles or culinary traditions.",
+    "derived_classes": [
+      "Chinese cuisine",
+      "Korean cuisine",
+      "French cuisine",
+      "Italian cuisine",
+      "Middle Eastern cuisine",
+      "Mexican cuisine",
+      "Indian cuisine",
+      "Japanese cuisine",
+      "Southeast Asian cuisine"
+    ],
+    "base_class_entity": "vegetarians"
+  },
+  "tool_template": {
+    "name": "FamilyRestaurantSearch_<class>",
+    "description": "Searches for restaurants that cater to specific <class> preferences.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "search_area": {
+          "type": "string",
+          "description": "The area or city to search for suitable <class> restaurants."
+        }
+      },
+      "required": [
+        "search_area"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "has_high_chairs": {
+      "type": "boolean",
+      "description": "Whether the restaurant should have high chairs available for children."
+    },
+    "offers_gluten_free": {
+      "type": "boolean",
+      "description": "Whether to include restaurants that offer gluten-free options."
+    },
+    "reservation_preference": {
+      "type": "string",
+      "description": "Preference regarding restaurant reservations. Whether to include only those that must be reserved: 'require_reservation', those without reservation options: 'no_reservation', or any: 'any'."
+    }
+  },
+  "additional_params": {
+    "average_cost": {
+      "type": "number",
+      "description": "Acceptable average cost for a meal at the <class> restaurant."
+    },
+    "outdoor_seating": {
+      "type": "boolean",
+      "description": "Whether the <class> restaurant offers outdoor seating options."
+    },
+    "family_friendly_rating": {
+      "type": "integer",
+      "description": "A rating from 1 to 5 of how family-friendly the <class> restaurant is, based on facilities and services."
+    },
+    "cuisine_authenticity": {
+      "type": "boolean",
+      "description": "Whether the <class> restaurant is known for serving authentic dishes specific to the cuisine."
+    },
+    "live_entertainment": {
+      "type": "boolean",
+      "description": "Whether the <class> restaurant offers live entertainment such as music or performances."
+    }
+  }
+}

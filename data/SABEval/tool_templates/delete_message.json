@@ -1,0 +1,58 @@
+{
+  "tool_template_name": "delete_message",
+  "meta_data": {
+    "base_class": "Delete a <message> by message ID - refers to various types of social or communication messages.",
+    "derived_classes": [
+      "SMS message",
+      "QQ message",
+      "WeChat message",
+      "DingTalk message",
+      "WhatsApp message",
+      "Facebook message",
+      "Instagram message",
+      "LinkedIn message",
+      "Discord message",
+      "Slack message",
+      "Twitter message",
+      "TikTok message",
+      "YouTube message",
+      "Reddit message"
+    ],
+    "base_class_entity": "message"
+  },
+  "tool_template": {
+    "name": "delete_<class>_message",
+    "description": "Delete a <class> message based on its message ID.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "message_id": {
+          "type": "integer",
+          "description": "The ID of the <class> message to be deleted."
+        }
+      },
+      "required": [
+        "message_id"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "timestamp": {
+      "type": "integer",
+      "description": "The timestamp of when the <class> message was created, in Unix format."
+    },
+    "softDelete": {
+      "type": "boolean",
+      "description": "A flag indicating whether the <class> message should be soft deleted, allowing for potential recovery."
+    },
+    "reasonForDeletion": {
+      "type": "string",
+      "description": "An note providing a reason for the deletion of the <class> message."
+    },
+    "initiator": {
+      "type": "string",
+      "description": "The identifier of the user or system initiating the deletion of the <class> message."
+    }
+  }
+}

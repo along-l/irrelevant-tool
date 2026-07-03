@@ -1,0 +1,264 @@
+{
+  "find_transfer_flights|:|flight|:|origin_city,transfer_city,destination_city,departure_time,ticket_class": {
+    "tool_template_name": "find_transfer_flights",
+    "derived_class": "flight",
+    "params_for_query": [
+      "origin_city",
+      "transfer_city",
+      "destination_city",
+      "departure_time",
+      "ticket_class"
+    ],
+    "queries": [
+      {
+        "query": "Find a flight going from New York to Tokyo with a stopover in San Francisco, departing on 2023-11-01T08:00:00, in business class.",
+        "filled_param": {
+          "origin_city": "New York",
+          "transfer_city": "San Francisco",
+          "destination_city": "Tokyo",
+          "departure_time": "2023-11-01T08:00:00",
+          "ticket_class": "business"
+        }
+      },
+      {
+        "query": "Can you get me a flight route from London to Sydney with a layover in Singapore, leaving at 2023-12-15T22:15:00 in economy class?",
+        "filled_param": {
+          "origin_city": "London",
+          "transfer_city": "Singapore",
+          "destination_city": "Sydney",
+          "departure_time": "2023-12-15T22:15:00",
+          "ticket_class": "economy"
+        }
+      },
+      {
+        "query": "I'm looking for a first-class flight from Paris to Buenos Aires, stopping in Miami, with a departure time of 2024-01-10T14:30:00.",
+        "filled_param": {
+          "origin_city": "Paris",
+          "transfer_city": "Miami",
+          "destination_city": "Buenos Aires",
+          "departure_time": "2024-01-10T14:30:00",
+          "ticket_class": "first"
+        }
+      },
+      {
+        "query": "Search for a flight from Berlin to Bangkok with a transfer in Dubai, departing on 2023-11-20T07:00:00, in economy class.",
+        "filled_param": {
+          "origin_city": "Berlin",
+          "transfer_city": "Dubai",
+          "destination_city": "Bangkok",
+          "departure_time": "2023-11-20T07:00:00",
+          "ticket_class": "economy"
+        }
+      },
+      {
+        "query": "Could you find a transfer flight from Los Angeles to Rome via Chicago, departing at 2023-11-25T17:45:00 in first class?",
+        "filled_param": {
+          "origin_city": "Los Angeles",
+          "transfer_city": "Chicago",
+          "destination_city": "Rome",
+          "departure_time": "2023-11-25T17:45:00",
+          "ticket_class": "first"
+        }
+      },
+      {
+        "query": "I need a business class flight from Tokyo to Cape Town with a stop in Doha, leaving on 2023-12-05T09:00:00.",
+        "filled_param": {
+          "origin_city": "Tokyo",
+          "transfer_city": "Doha",
+          "destination_city": "Cape Town",
+          "departure_time": "2023-12-05T09:00:00",
+          "ticket_class": "business"
+        }
+      }
+    ]
+  },
+  "find_transfer_flights|:|high-speed train|:|origin_city,transfer_city,destination_city,departure_time,ticket_class": {
+    "tool_template_name": "find_transfer_flights",
+    "derived_class": "high-speed train",
+    "params_for_query": [
+      "origin_city",
+      "transfer_city",
+      "destination_city",
+      "departure_time",
+      "ticket_class"
+    ],
+    "queries": [
+      {
+        "query": "Can you find a high-speed train route from Berlin to Munich with a stopover in Frankfurt, departing at 2023-11-15T08:30:00 and in first class?",
+        "filled_param": {
+          "origin_city": "Berlin",
+          "transfer_city": "Frankfurt",
+          "destination_city": "Munich",
+          "departure_time": "2023-11-15T08:30:00",
+          "ticket_class": "first"
+        }
+      },
+      {
+        "query": "I need a high-speed train from Tokyo to Osaka with a transfer in Nagoya, leaving at 2023-11-20T10:00:00, in economy class. Can you help?",
+        "filled_param": {
+          "origin_city": "Tokyo",
+          "transfer_city": "Nagoya",
+          "destination_city": "Osaka",
+          "departure_time": "2023-11-20T10:00:00",
+          "ticket_class": "economy"
+        }
+      },
+      {
+        "query": "Please suggest a high-speed train itinerary for a journey from Paris to Lyon with a stopover in Marseille, departing on 2023-12-01T09:45:00 in business class.",
+        "filled_param": {
+          "origin_city": "Paris",
+          "transfer_city": "Marseille",
+          "destination_city": "Lyon",
+          "departure_time": "2023-12-01T09:45:00",
+          "ticket_class": "business"
+        }
+      },
+      {
+        "query": "Find me a high-speed train route from New York to Washington D.C. that transfers in Philadelphia, scheduled to leave at 2023-11-18T07:15:00, in business class.",
+        "filled_param": {
+          "origin_city": "New York",
+          "transfer_city": "Philadelphia",
+          "destination_city": "Washington D.C.",
+          "departure_time": "2023-11-18T07:15:00",
+          "ticket_class": "business"
+        }
+      },
+      {
+        "query": "What high-speed train options are there from Beijing to Shanghai with a stop in Nanjing, leaving at 2023-11-25T15:00:00 in economy class?",
+        "filled_param": {
+          "origin_city": "Beijing",
+          "transfer_city": "Nanjing",
+          "destination_city": "Shanghai",
+          "departure_time": "2023-11-25T15:00:00",
+          "ticket_class": "economy"
+        }
+      }
+    ]
+  },
+  "find_transfer_flights|:|cruise ship|:|origin_city,transfer_city,destination_city,departure_time,ticket_class": {
+    "tool_template_name": "find_transfer_flights",
+    "derived_class": "cruise ship",
+    "params_for_query": [
+      "origin_city",
+      "transfer_city",
+      "destination_city",
+      "departure_time",
+      "ticket_class"
+    ],
+    "queries": [
+      {
+        "query": "I'm planning a cruise ship journey from Miami to Nassau with a stopover in Key West, departing on 2023-12-01T09:00:00 and I need economy class tickets.",
+        "filled_param": {
+          "origin_city": "Miami",
+          "transfer_city": "Key West",
+          "destination_city": "Nassau",
+          "departure_time": "2023-12-01T09:00:00",
+          "ticket_class": "economy"
+        }
+      },
+      {
+        "query": "Can you find a cruise ship route that goes from Barcelona to Rome with a transfer in Marseille, leaving on 2024-06-15T15:30:00? I'm looking for business class options.",
+        "filled_param": {
+          "origin_city": "Barcelona",
+          "transfer_city": "Marseille",
+          "destination_city": "Rome",
+          "departure_time": "2024-06-15T15:30:00",
+          "ticket_class": "business"
+        }
+      },
+      {
+        "query": "I need a cruise ship trip starting from Sydney, with a stop in Auckland, and ending at Wellington on 2024-01-20T08:00:00. I want to travel in first class.",
+        "filled_param": {
+          "origin_city": "Sydney",
+          "transfer_city": "Auckland",
+          "destination_city": "Wellington",
+          "departure_time": "2024-01-20T08:00:00",
+          "ticket_class": "first"
+        }
+      },
+      {
+        "query": "Please find me a cruise ship route from New York to Bermuda with a stopover in Boston, departing on 2023-11-10T14:00:00, and I prefer economy class.",
+        "filled_param": {
+          "origin_city": "New York",
+          "transfer_city": "Boston",
+          "destination_city": "Bermuda",
+          "departure_time": "2023-11-10T14:00:00",
+          "ticket_class": "economy"
+        }
+      },
+      {
+        "query": "I'm looking for a cruise ship route from Tokyo to Shanghai with a transfer in Busan on 2024-04-05T10:00:00. Please book me in business class.",
+        "filled_param": {
+          "origin_city": "Tokyo",
+          "transfer_city": "Busan",
+          "destination_city": "Shanghai",
+          "departure_time": "2024-04-05T10:00:00",
+          "ticket_class": "business"
+        }
+      }
+    ]
+  },
+  "find_transfer_flights|:|long-distance bus|:|origin_city,transfer_city,destination_city,departure_time,ticket_class": {
+    "tool_template_name": "find_transfer_flights",
+    "derived_class": "long-distance bus",
+    "params_for_query": [
+      "origin_city",
+      "transfer_city",
+      "destination_city",
+      "departure_time",
+      "ticket_class"
+    ],
+    "queries": [
+      {
+        "query": "Can you find a long-distance bus route from New York to Los Angeles with a transfer in Chicago, departing on 2023-11-15T08:00:00 in business class?",
+        "filled_param": {
+          "origin_city": "New York",
+          "transfer_city": "Chicago",
+          "destination_city": "Los Angeles",
+          "departure_time": "2023-11-15T08:00:00",
+          "ticket_class": "business"
+        }
+      },
+      {
+        "query": "I'd like to travel by long-distance bus from Miami to Seattle with a stopover in Denver, leaving at 2023-12-01T14:30:00 in economy class.",
+        "filled_param": {
+          "origin_city": "Miami",
+          "transfer_city": "Denver",
+          "destination_city": "Seattle",
+          "departure_time": "2023-12-01T14:30:00",
+          "ticket_class": "economy"
+        }
+      },
+      {
+        "query": "Are there any long-distance buses from San Francisco to Las Vegas with a transfer in Phoenix, departing on 2023-11-20T09:00:00 in first class?",
+        "filled_param": {
+          "origin_city": "San Francisco",
+          "transfer_city": "Phoenix",
+          "destination_city": "Las Vegas",
+          "departure_time": "2023-11-20T09:00:00",
+          "ticket_class": "first"
+        }
+      },
+      {
+        "query": "Help me find a long-distance bus route from Boston to Houston with a transfer in Atlanta, departing on 2023-11-22T18:00:00 in business class.",
+        "filled_param": {
+          "origin_city": "Boston",
+          "transfer_city": "Atlanta",
+          "destination_city": "Houston",
+          "departure_time": "2023-11-22T18:00:00",
+          "ticket_class": "business"
+        }
+      },
+      {
+        "query": "Please provide a long-distance bus itinerary from Philadelphia to Dallas via Nashville, leaving on 2023-11-10T07:30:00 in economy class.",
+        "filled_param": {
+          "origin_city": "Philadelphia",
+          "transfer_city": "Nashville",
+          "destination_city": "Dallas",
+          "departure_time": "2023-11-10T07:30:00",
+          "ticket_class": "economy"
+        }
+      }
+    ]
+  }
+}

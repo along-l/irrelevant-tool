@@ -1,0 +1,359 @@
+{
+  "calculate_neuronal_activity|:|rate of firing|:|input_synaptic_rate,weight,decay_rate,temperature": {
+    "tool_template_name": "calculate_neuronal_activity",
+    "derived_class": "rate of firing",
+    "params_for_query": [
+      "input_synaptic_rate",
+      "weight",
+      "decay_rate",
+      "temperature"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the rate of firing with an input synaptic rate of 120 inputs per second, a weight of 0.7, a decay rate of 0.05, and a temperature of 37.0 degrees Celsius.",
+        "filled_param": {
+          "input_synaptic_rate": 120,
+          "weight": 0.7,
+          "decay_rate": 0.05,
+          "temperature": 37.0
+        }
+      },
+      {
+        "query": "What's the neuronal rate of firing if the synaptic input rate is 85 inputs/second, the weight is 1.2, the decay rate is 0.03, and the temperature is 20.5?",
+        "filled_param": {
+          "input_synaptic_rate": 85,
+          "weight": 1.2,
+          "decay_rate": 0.03,
+          "temperature": 20.5
+        }
+      },
+      {
+        "query": "Determine the rate of firing for a neuron with a synaptic rate of 150, weight 0.9, decay rate 0.08, and a surrounding temperature of 15.0 degrees.",
+        "filled_param": {
+          "input_synaptic_rate": 150,
+          "weight": 0.9,
+          "decay_rate": 0.08,
+          "temperature": 15.0
+        }
+      },
+      {
+        "query": "If the synaptic input rate is 200, with a weight of 0.5 and decay rate of 0.1 at 30.0 degrees Celsius, what is the rate of firing?",
+        "filled_param": {
+          "input_synaptic_rate": 200,
+          "weight": 0.5,
+          "decay_rate": 0.1,
+          "temperature": 30.0
+        }
+      },
+      {
+        "query": "What rate of firing results from a synaptic rate of 95 per second, weight of 1.1, decay rate of 0.02, and a temperature of 25.0 degrees?",
+        "filled_param": {
+          "input_synaptic_rate": 95,
+          "weight": 1.1,
+          "decay_rate": 0.02,
+          "temperature": 25.0
+        }
+      },
+      {
+        "query": "Find the neuronal rate of firing given an input synaptic rate of 50, a weight of 0.3, a decay rate of 0.07, and a temperature of 5.0 degrees.",
+        "filled_param": {
+          "input_synaptic_rate": 50,
+          "weight": 0.3,
+          "decay_rate": 0.07,
+          "temperature": 5.0
+        }
+      },
+      {
+        "query": "Estimate the rate of firing for a neuron with a synaptic input of 180, weight 1.3, decay rate 0.06, and an environment temperature of 40.0 degrees.",
+        "filled_param": {
+          "input_synaptic_rate": 180,
+          "weight": 1.3,
+          "decay_rate": 0.06,
+          "temperature": 40.0
+        }
+      }
+    ]
+  },
+  "calculate_neuronal_activity|:|mean postsynaptic potential|:|input_synaptic_rate,weight,decay_rate,temperature": {
+    "tool_template_name": "calculate_neuronal_activity",
+    "derived_class": "mean postsynaptic potential",
+    "params_for_query": [
+      "input_synaptic_rate",
+      "weight",
+      "decay_rate",
+      "temperature"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the mean postsynaptic potential with an input synaptic rate of 150 inputs/sec, a weight of 0.5, a decay rate of 0.1, and a temperature of 37.5°C.",
+        "filled_param": {
+          "input_synaptic_rate": 150,
+          "weight": 0.5,
+          "decay_rate": 0.1,
+          "temperature": 37.5
+        }
+      },
+      {
+        "query": "What is the mean postsynaptic potential if the input synaptic rate is 85 inputs/sec, the weight is 0.75, the decay rate is 0.05, and the temperature is 36.8°C?",
+        "filled_param": {
+          "input_synaptic_rate": 85,
+          "weight": 0.75,
+          "decay_rate": 0.05,
+          "temperature": 36.8
+        }
+      },
+      {
+        "query": "Determine the mean postsynaptic potential for an input rate of 200 inputs/sec, a weight of 1.0, a decay rate of 0.2, and a temperature of 40.0°C.",
+        "filled_param": {
+          "input_synaptic_rate": 200,
+          "weight": 1.0,
+          "decay_rate": 0.2,
+          "temperature": 40.0
+        }
+      },
+      {
+        "query": "Can you compute the mean postsynaptic potential given a synaptic rate of 120 inputs/sec, a weight of 0.6, a decay rate of 0.15, and a temperature of 35.5°C?",
+        "filled_param": {
+          "input_synaptic_rate": 120,
+          "weight": 0.6,
+          "decay_rate": 0.15,
+          "temperature": 35.5
+        }
+      },
+      {
+        "query": "Find the mean postsynaptic potential when the input rate is 95 inputs/sec with a weight of 0.8, a decay rate of 0.12, and the temperature at 39.2°C.",
+        "filled_param": {
+          "input_synaptic_rate": 95,
+          "weight": 0.8,
+          "decay_rate": 0.12,
+          "temperature": 39.2
+        }
+      },
+      {
+        "query": "What mean postsynaptic potential results from an input synaptic rate of 180 inputs/sec, a weight of 0.9, a decay rate of 0.08, and a temperature of 38.0°C?",
+        "filled_param": {
+          "input_synaptic_rate": 180,
+          "weight": 0.9,
+          "decay_rate": 0.08,
+          "temperature": 38.0
+        }
+      }
+    ]
+  },
+  "calculate_neuronal_activity|:|steady-state membrane potential|:|input_synaptic_rate,weight,decay_rate,temperature": {
+    "tool_template_name": "calculate_neuronal_activity",
+    "derived_class": "steady-state membrane potential",
+    "params_for_query": [
+      "input_synaptic_rate",
+      "weight",
+      "decay_rate",
+      "temperature"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the steady-state membrane potential with an input synaptic rate of 80 per second, a weight of 0.5, a decay rate of 0.03, and a temperature of 37.0.",
+        "filled_param": {
+          "input_synaptic_rate": 80,
+          "weight": 0.5,
+          "decay_rate": 0.03,
+          "temperature": 37.0
+        }
+      },
+      {
+        "query": "What is the steady-state membrane potential if the synaptic input rate is 120 per second, the weight is 1.2, the decay rate is 0.05, and the temperature is 35.5?",
+        "filled_param": {
+          "input_synaptic_rate": 120,
+          "weight": 1.2,
+          "decay_rate": 0.05,
+          "temperature": 35.5
+        }
+      },
+      {
+        "query": "Determine the steady-state membrane potential for a synaptic rate of 50 per second, with a weight of 0.8, a decay rate of 0.01, and at 25 degrees Celsius.",
+        "filled_param": {
+          "input_synaptic_rate": 50,
+          "weight": 0.8,
+          "decay_rate": 0.01,
+          "temperature": 25.0
+        }
+      },
+      {
+        "query": "If the synaptic input rate is 200 per second, the weight is 1.5, the decay rate is 0.02, and the environment temperature is 40.0, what is the steady-state membrane potential?",
+        "filled_param": {
+          "input_synaptic_rate": 200,
+          "weight": 1.5,
+          "decay_rate": 0.02,
+          "temperature": 40.0
+        }
+      },
+      {
+        "query": "Compute the steady-state membrane potential given an input synaptic rate of 95 per second, a weight of 0.9, a decay rate of 0.04, and a temperature of 30.0.",
+        "filled_param": {
+          "input_synaptic_rate": 95,
+          "weight": 0.9,
+          "decay_rate": 0.04,
+          "temperature": 30.0
+        }
+      },
+      {
+        "query": "Find the steady-state membrane potential when the synaptic rate is 75 per second, the weight is 0.6, the decay rate is 0.025, and the temperature is set at 28.5.",
+        "filled_param": {
+          "input_synaptic_rate": 75,
+          "weight": 0.6,
+          "decay_rate": 0.025,
+          "temperature": 28.5
+        }
+      }
+    ]
+  },
+  "calculate_neuronal_activity|:|average activation level|:|input_synaptic_rate,weight,decay_rate,temperature": {
+    "tool_template_name": "calculate_neuronal_activity",
+    "derived_class": "average activation level",
+    "params_for_query": [
+      "input_synaptic_rate",
+      "weight",
+      "decay_rate",
+      "temperature"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the average activation level with an input synaptic rate of 120 inputs per second, a weight of 0.75, a decay rate of 0.05, and a temperature of 37.5 degrees Celsius.",
+        "filled_param": {
+          "input_synaptic_rate": 120,
+          "weight": 0.75,
+          "decay_rate": 0.05,
+          "temperature": 37.5
+        }
+      },
+      {
+        "query": "What is the average activation level if the synaptic input rate is 200 per second, the weight is 0.65, the decay rate is 0.02, and the temperature is 22.0 degrees?",
+        "filled_param": {
+          "input_synaptic_rate": 200,
+          "weight": 0.65,
+          "decay_rate": 0.02,
+          "temperature": 22.0
+        }
+      },
+      {
+        "query": "Determine the average activation level for a synaptic rate of 95 inputs/sec, weight of 1.2, decay rate at 0.1, and environment temperature of 25.5.",
+        "filled_param": {
+          "input_synaptic_rate": 95,
+          "weight": 1.2,
+          "decay_rate": 0.1,
+          "temperature": 25.5
+        }
+      },
+      {
+        "query": "With a synaptic input rate of 150 inputs per second, a weight of 0.85, a decay rate of 0.03, and a temperature of 18.2 degrees, find the average activation level.",
+        "filled_param": {
+          "input_synaptic_rate": 150,
+          "weight": 0.85,
+          "decay_rate": 0.03,
+          "temperature": 18.2
+        }
+      },
+      {
+        "query": "If the input synaptic rate is 180 per second, the weight is 0.9, decay rate is 0.07, and the temperature is 30.0 degrees, calculate the average activation level.",
+        "filled_param": {
+          "input_synaptic_rate": 180,
+          "weight": 0.9,
+          "decay_rate": 0.07,
+          "temperature": 30.0
+        }
+      },
+      {
+        "query": "Find out the average activation level given a synaptic input rate of 210 inputs/second, weight 1.0, decay rate 0.08, and a temperature of 20.0.",
+        "filled_param": {
+          "input_synaptic_rate": 210,
+          "weight": 1.0,
+          "decay_rate": 0.08,
+          "temperature": 20.0
+        }
+      },
+      {
+        "query": "What would be the average activation level with an input synaptic rate of 110, weight of 0.5, decay rate 0.06, and temperature at 15.5?",
+        "filled_param": {
+          "input_synaptic_rate": 110,
+          "weight": 0.5,
+          "decay_rate": 0.06,
+          "temperature": 15.5
+        }
+      }
+    ]
+  },
+  "calculate_neuronal_activity|:|integration time constant|:|input_synaptic_rate,weight,decay_rate,temperature": {
+    "tool_template_name": "calculate_neuronal_activity",
+    "derived_class": "integration time constant",
+    "params_for_query": [
+      "input_synaptic_rate",
+      "weight",
+      "decay_rate",
+      "temperature"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the neuronal integration time constant with an input synaptic rate of 150 inputs/sec, a weight of 0.8, a decay rate of 0.05, and a temperature of 37.0 degrees.",
+        "filled_param": {
+          "input_synaptic_rate": 150,
+          "weight": 0.8,
+          "decay_rate": 0.05,
+          "temperature": 37.0
+        }
+      },
+      {
+        "query": "What is the integration time constant for a neuron with a synaptic input rate of 200, weight of 1.2, decay rate of 0.03, at 25 degrees Celsius?",
+        "filled_param": {
+          "input_synaptic_rate": 200,
+          "weight": 1.2,
+          "decay_rate": 0.03,
+          "temperature": 25.0
+        }
+      },
+      {
+        "query": "Determine the integration time constant when the synaptic rate is 50 per second, the weight is 0.5, the decay rate is 0.01, and the environmental temperature is 20 degrees.",
+        "filled_param": {
+          "input_synaptic_rate": 50,
+          "weight": 0.5,
+          "decay_rate": 0.01,
+          "temperature": 20.0
+        }
+      },
+      {
+        "query": "For a neuron with an input synaptic rate of 300/sec, weight of 0.7, decay rate of 0.02, and temperature at 39.5 degrees, calculate the integration time constant.",
+        "filled_param": {
+          "input_synaptic_rate": 300,
+          "weight": 0.7,
+          "decay_rate": 0.02,
+          "temperature": 39.5
+        }
+      },
+      {
+        "query": "I need to know the integration time constant if the synaptic input rate is 120, the weight is 0.9, the decay rate is 0.04, and the temperature is 30.0 degrees.",
+        "filled_param": {
+          "input_synaptic_rate": 120,
+          "weight": 0.9,
+          "decay_rate": 0.04,
+          "temperature": 30.0
+        }
+      },
+      {
+        "query": "Compute the integration time constant for a case where the synaptic rate is 180/sec, weight is 1.0, decay rate is 0.06, and the temperature is 22.0 degrees.",
+        "filled_param": {
+          "input_synaptic_rate": 180,
+          "weight": 1.0,
+          "decay_rate": 0.06,
+          "temperature": 22.0
+        }
+      },
+      {
+        "query": "Can you find the integration time constant for a neuron with a synaptic input rate of 250, weight of 1.3, decay rate of 0.05, and at a temperature of 35 degrees?",
+        "filled_param": {
+          "input_synaptic_rate": 250,
+          "weight": 1.3,
+          "decay_rate": 0.05,
+          "temperature": 35.0
+        }
+      }
+    ]
+  }
+}

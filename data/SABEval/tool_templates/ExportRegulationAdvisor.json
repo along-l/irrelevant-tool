@@ -1,0 +1,71 @@
+{
+  "tool_template_name": "ExportRegulationAdvisor",
+  "meta_data": {
+    "base_class": "Advise on export regulations for shipping goods <from origin to destination> - each pair represents a unique combination of departure and destination countries, with no country appearing more than once across all pairs (e.g., if 'China to the USA' exists, 'Spain to China' cannot).",
+    "derived_classes": [
+      "from China to the USA",
+      "from Spain to the United Kingdom",
+      "from France to Brazil",
+      "from Italy to Russia",
+      "from Sweden to Germany",
+      "from Canada to Singapore",
+      "from North Korea to the Philippines",
+      "from Japan to India",
+      "from India to Ireland",
+      "from New Zealand to Argentina",
+      "from Denmark to Poland",
+      "from Greece to Egypt",
+      "from Sudan to Turkey",
+      "from Thailand to Laos",
+      "from South Korea to Qatar"
+    ],
+    "base_class_entity": "from China to the USA"
+  },
+  "tool_template": {
+    "name": "ExportRegulationAdvisor_<class>",
+    "description": "Advise on export regulations for shipping goods <class>.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "export_category": {
+          "type": "string",
+          "description": "The category of goods being exported."
+        }
+      },
+      "required": [
+        "export_category"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "include_legal_requirements": {
+      "type": "boolean",
+      "description": "Whether to include legal requirements for export the goods <class>."
+    }
+  },
+  "additional_params": {
+    "customs_clearance_requirements": {
+      "type": "boolean",
+      "description": "Whether to include information on customs clearance requirements for shipping goods <class>."
+    },
+    "transportation_modes": {
+      "type": "array",
+      "description": "List of applicable modes of transportation for shipping goods <class>, such as 'air', 'sea', and 'land'.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tariff_information": {
+      "type": "boolean",
+      "description": "Whether to include details on tariffs applicable to goods shipped <class>."
+    },
+    "documentation_needed": {
+      "type": "boolean",
+      "description": "Whether to include a list of necessary documentation for exporting goods <class>."
+    },
+    "export_deadlines": {
+      "type": "string",
+      "description": "Information on critical deadlines for shipping goods <class>, such as submission deadlines for required documents."
+    }
+  }
+}

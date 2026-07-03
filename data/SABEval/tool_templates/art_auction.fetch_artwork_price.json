@@ -1,0 +1,66 @@
+{
+  "tool_template_name": "art_auction.fetch_artwork_price",
+  "meta_data": {
+    "base_class": "Fetch the price of a specific artwork listed on <fine art auction platform> platform - refers to a professional organization or digital marketplace that facilitates the auction of high-value artworks, such as Sotheby's or Christie's.",
+    "derived_classes": [
+      "sothebys",
+      "christies",
+      "phillips",
+      "bonhams",
+      "poly auction",
+      "china guardian",
+      "artnet",
+      "invaluable",
+      "heritage auctions",
+      "mutualart"
+    ],
+    "base_class_entity": "platform"
+  },
+  "tool_template": {
+    "name": "fetch_<class>_artwork_price",
+    "description": "Fetch the price of a specific artwork on the <class> platform.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "artwork_name": {
+          "type": "string",
+          "description": "The name of the artwork to be searched on the <class> platform."
+        },
+        "artist": {
+          "type": "string",
+          "description": "The artist's name to ensure the precise artwork is fetched on the <class> platform."
+        }
+      },
+      "required": [
+        "artwork_name",
+        "artist"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "currency": {
+      "type": "string",
+      "description": "The currency in which the price of the artwork should be fetched on the <class> platform. Common options include USD, EUR, GBP, etc."
+    },
+    "include_tax": {
+      "type": "boolean",
+      "description": "Indicates whether to include taxes in the fetched price of the artwork on the <class> platform."
+    },
+    "price_range": {
+      "type": "array",
+      "description": "An array containing two numbers representing the minimum and maximum price range to filter artworks on the <class> platform.",
+      "items": {
+        "type": "number"
+      }
+    },
+    "date_of_auction": {
+      "type": "string",
+      "description": "The date of the auction event in which the artwork's price is to be fetched from the <class> platform, in the format 'YYYY-MM-DD'."
+    },
+    "authentication_required": {
+      "type": "boolean",
+      "description": "Indicates whether user authentication is required to access artwork prices on the <class> platform."
+    }
+  }
+}

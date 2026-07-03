@@ -1,0 +1,731 @@
+{
+  "sports_data.basketball.most_points_career|:|basketball|:|league,season_range,include_playoffs": {
+    "tool_template_name": "sports_data.basketball.most_points_career",
+    "derived_class": "basketball",
+    "params_for_query": [
+      "league",
+      "season_range",
+      "include_playoffs"
+    ],
+    "queries": [
+      {
+        "query": "Who holds the record for the most points scored in the NBA from the 1990-2000 seasons, including playoffs?",
+        "filled_param": {
+          "league": "NBA",
+          "season_range": "1990-2000",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Can you find out which player scored the most career points in the EuroLeague between the 2010 and 2020 seasons, excluding playoffs?",
+        "filled_param": {
+          "league": "EuroLeague",
+          "season_range": "2010-2020",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Tell me the record for most points scored by a player in the WNBA for the 2005-2015 seasons, not counting playoffs.",
+        "filled_param": {
+          "league": "WNBA",
+          "season_range": "2005-2015",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "I'd like to know who scored the most career points in the ACB League from 1995 to 2005. Include playoff games.",
+        "filled_param": {
+          "league": "ACB",
+          "season_range": "1995-2005",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "What is the record for the highest career points in the NBL during the 1980-1990 seasons, with playoff points included?",
+        "filled_param": {
+          "league": "NBL",
+          "season_range": "1980-1990",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Please provide the most points scored record in the CBA from 1970-1980, excluding the playoffs.",
+        "filled_param": {
+          "league": "CBA",
+          "season_range": "1970-1980",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Can you tell me the player with the most points in the G League between 2000 and 2010, also considering playoff games?",
+        "filled_param": {
+          "league": "G League",
+          "season_range": "2000-2010",
+          "include_playoffs": true
+        }
+      }
+    ]
+  },
+  "sports_data.basketball.most_points_career|:|soccer|:|league,season_range,include_playoffs": {
+    "tool_template_name": "sports_data.basketball.most_points_career",
+    "derived_class": "soccer",
+    "params_for_query": [
+      "league",
+      "season_range",
+      "include_playoffs"
+    ],
+    "queries": [
+      {
+        "query": "Who holds the record for the most points in the Premier League from 2010 to 2020, including playoff matches?",
+        "filled_param": {
+          "league": "Premier League",
+          "season_range": "2010-2020",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Give me the record for the highest points scored in La Liga between the 2000 and 2010 seasons excluding playoffs.",
+        "filled_param": {
+          "league": "La Liga",
+          "season_range": "2000-2010",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Can you tell me which player scored the most points in the Bundesliga during the 2015-2021 seasons, with playoffs counted?",
+        "filled_param": {
+          "league": "Bundesliga",
+          "season_range": "2015-2021",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "I want to know the top point scorer in Serie A from the 1995 to 2005 seasons, excluding playoffs.",
+        "filled_param": {
+          "league": "Serie A",
+          "season_range": "1995-2005",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Who has the most career points in Major League Soccer over the seasons 2012 to 2022, with playoff games included?",
+        "filled_param": {
+          "league": "Major League Soccer",
+          "season_range": "2012-2022",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Find the player with the highest points in the Eredivisie between 2005 and 2015, without accounting for playoff matches.",
+        "filled_param": {
+          "league": "Eredivisie",
+          "season_range": "2005-2015",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "I'm looking for the record of the most points in Ligue 1 from the seasons 2008 to 2018, playoffs included.",
+        "filled_param": {
+          "league": "Ligue 1",
+          "season_range": "2008-2018",
+          "include_playoffs": true
+        }
+      }
+    ]
+  },
+  "sports_data.basketball.most_points_career|:|baseball|:|league,season_range,include_playoffs": {
+    "tool_template_name": "sports_data.basketball.most_points_career",
+    "derived_class": "baseball",
+    "params_for_query": [
+      "league",
+      "season_range",
+      "include_playoffs"
+    ],
+    "queries": [
+      {
+        "query": "Who holds the record for the most points in the baseball MLB league from 1995 to 2005, including playoffs?",
+        "filled_param": {
+          "league": "MLB",
+          "season_range": "1995-2005",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Can you tell me the baseball player with the highest points scored in the Japanese NPB league between 2010 and 2020, excluding playoffs?",
+        "filled_param": {
+          "league": "NPB",
+          "season_range": "2010-2020",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Find the baseball player with the most career points in the minor league from 1980 to 1990 without including playoffs.",
+        "filled_param": {
+          "league": "minor league",
+          "season_range": "1980-1990",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Which baseball player scored the most points in the KBO league for the seasons ranging from 2005 to 2015, and include the playoffs in the count?",
+        "filled_param": {
+          "league": "KBO",
+          "season_range": "2005-2015",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "In the baseball Cuban National Series from 1990 to 2000, who scored the highest points, including playoff performance?",
+        "filled_param": {
+          "league": "Cuban National Series",
+          "season_range": "1990-2000",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Identify the baseball player with the most points scored in the AA league during the 2015-2020 seasons, without playoffs.",
+        "filled_param": {
+          "league": "AA league",
+          "season_range": "2015-2020",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Look up the record for the most points by a baseball player in the MLB league for the years 2000 to 2010, and do not include playoff points.",
+        "filled_param": {
+          "league": "MLB",
+          "season_range": "2000-2010",
+          "include_playoffs": false
+        }
+      }
+    ]
+  },
+  "sports_data.basketball.most_points_career|:|ice hockey|:|league,season_range,include_playoffs": {
+    "tool_template_name": "sports_data.basketball.most_points_career",
+    "derived_class": "ice hockey",
+    "params_for_query": [
+      "league",
+      "season_range",
+      "include_playoffs"
+    ],
+    "queries": [
+      {
+        "query": "Who scored the most career points in the ice hockey league NHL between the 1990-2000 seasons, excluding playoffs?",
+        "filled_param": {
+          "league": "NHL",
+          "season_range": "1990-2000",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Please provide the ice hockey player with the highest points in the KHL from the 2010-2020 seasons, including playoff games.",
+        "filled_param": {
+          "league": "KHL",
+          "season_range": "2010-2020",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Find the record for the most points by a player in the AHL during the 2005-2015 seasons, and include playoffs.",
+        "filled_param": {
+          "league": "AHL",
+          "season_range": "2005-2015",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Which player holds the record for the most points in the OHL from the 1980-1990 seasons, excluding playoff points?",
+        "filled_param": {
+          "league": "OHL",
+          "season_range": "1980-1990",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Tell me the player with the top career points in the SHL between 1995-2005, considering only regular season games.",
+        "filled_param": {
+          "league": "SHL",
+          "season_range": "1995-2005",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Can you identify the ice hockey player with the most career points in the WHL during the 2000-2010 seasons, including playoff performances?",
+        "filled_param": {
+          "league": "WHL",
+          "season_range": "2000-2010",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Who has the highest point total in the DEL from 2015-2022, counting both regular season and playoffs?",
+        "filled_param": {
+          "league": "DEL",
+          "season_range": "2015-2022",
+          "include_playoffs": true
+        }
+      }
+    ]
+  },
+  "sports_data.basketball.most_points_career|:|handball|:|league,season_range,include_playoffs": {
+    "tool_template_name": "sports_data.basketball.most_points_career",
+    "derived_class": "handball",
+    "params_for_query": [
+      "league",
+      "season_range",
+      "include_playoffs"
+    ],
+    "queries": [
+      {
+        "query": "Who scored the most points in the Danish Handball League during the 2010-2020 seasons, including playoff games?",
+        "filled_param": {
+          "league": "Danish Handball League",
+          "season_range": "2010-2020",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Find the record holder for most career points in the German Bundesliga for the 2005-2015 seasons, excluding playoff matches.",
+        "filled_param": {
+          "league": "German Bundesliga",
+          "season_range": "2005-2015",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Can you tell me who the top scorer was in the French Handball League from 1990 to 2000, considering only regular season points?",
+        "filled_param": {
+          "league": "French Handball League",
+          "season_range": "1990-2000",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Who achieved the most points in the Spanish ASOBAL League during the 2015-2022 seasons, with playoff points included?",
+        "filled_param": {
+          "league": "Spanish ASOBAL League",
+          "season_range": "2015-2022",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Show me the player with the highest career points in the Swedish Handball League for the seasons 2000-2010, excluding playoff games.",
+        "filled_param": {
+          "league": "Swedish Handball League",
+          "season_range": "2000-2010",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "I'm curious about the player who scored the most points overall in the Hungarian Handball League from 1985 to 1995, including the playoffs.",
+        "filled_param": {
+          "league": "Hungarian Handball League",
+          "season_range": "1985-1995",
+          "include_playoffs": true
+        }
+      }
+    ]
+  },
+  "sports_data.basketball.most_points_career|:|field hockey|:|league,season_range,include_playoffs": {
+    "tool_template_name": "sports_data.basketball.most_points_career",
+    "derived_class": "field hockey",
+    "params_for_query": [
+      "league",
+      "season_range",
+      "include_playoffs"
+    ],
+    "queries": [
+      {
+        "query": "Who scored the most career points in the American Field Hockey League from 2010 to 2020, including playoffs?",
+        "filled_param": {
+          "league": "American Field Hockey League",
+          "season_range": "2010-2020",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Can you tell me the player with the highest point record in the European Field Hockey League between the 2005 and 2015 seasons, excluding playoff points?",
+        "filled_param": {
+          "league": "European Field Hockey League",
+          "season_range": "2005-2015",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Identify the top point scorer in the Australian National Field Hockey League for the seasons spanning 2000 to 2010, with playoff points included in the tally.",
+        "filled_param": {
+          "league": "Australian National Field Hockey League",
+          "season_range": "2000-2010",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Find out the highest career points achieved in the Asian Field Hockey League from 1995 to 2005, not counting playoffs.",
+        "filled_param": {
+          "league": "Asian Field Hockey League",
+          "season_range": "1995-2005",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "What is the record for the most career points in the South African Field Hockey League during the 2015-2020 seasons, with playoff points considered?",
+        "filled_param": {
+          "league": "South African Field Hockey League",
+          "season_range": "2015-2020",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Get the record of the highest points scored in the Canadian Field Hockey League for the period 2008 to 2018, excluding playoff games.",
+        "filled_param": {
+          "league": "Canadian Field Hockey League",
+          "season_range": "2008-2018",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Please provide the player with the most points in the New Zealand Field Hockey League from 2012 to 2022, taking playoff points into account.",
+        "filled_param": {
+          "league": "New Zealand Field Hockey League",
+          "season_range": "2012-2022",
+          "include_playoffs": true
+        }
+      }
+    ]
+  },
+  "sports_data.basketball.most_points_career|:|lacrosse|:|league,season_range,include_playoffs": {
+    "tool_template_name": "sports_data.basketball.most_points_career",
+    "derived_class": "lacrosse",
+    "params_for_query": [
+      "league",
+      "season_range",
+      "include_playoffs"
+    ],
+    "queries": [
+      {
+        "query": "Who holds the most career points record in the National Lacrosse League between 2010 and 2020, including playoffs?",
+        "filled_param": {
+          "league": "National Lacrosse League",
+          "season_range": "2010-2020",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "In the Major League Lacrosse, which player scored the most career points from 2005 to 2015, excluding playoff games?",
+        "filled_param": {
+          "league": "Major League Lacrosse",
+          "season_range": "2005-2015",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Can you tell me the record for the most career points in the Premier Lacrosse League for seasons spanning 2018 to 2022, considering playoff points?",
+        "filled_param": {
+          "league": "Premier Lacrosse League",
+          "season_range": "2018-2022",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Find the player with the highest career points in the Canadian Lacrosse League from 2000 to 2010, not including playoffs.",
+        "filled_param": {
+          "league": "Canadian Lacrosse League",
+          "season_range": "2000-2010",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "I'd like to know the lacrosse player with the most career points in the World Lacrosse Championship during the years 1995 to 2005, including playoff points.",
+        "filled_param": {
+          "league": "World Lacrosse Championship",
+          "season_range": "1995-2005",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Please provide the player with the top career points in the Continental Indoor Lacrosse League for the 1990-2000 seasons, excluding playoffs.",
+        "filled_param": {
+          "league": "Continental Indoor Lacrosse League",
+          "season_range": "1990-2000",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Who scored the most career points in the Women's Professional Lacrosse League from 2015 to 2021, if we include playoff matches?",
+        "filled_param": {
+          "league": "Women's Professional Lacrosse League",
+          "season_range": "2015-2021",
+          "include_playoffs": true
+        }
+      }
+    ]
+  },
+  "sports_data.basketball.most_points_career|:|rugby|:|league,season_range,include_playoffs": {
+    "tool_template_name": "sports_data.basketball.most_points_career",
+    "derived_class": "rugby",
+    "params_for_query": [
+      "league",
+      "season_range",
+      "include_playoffs"
+    ],
+    "queries": [
+      {
+        "query": "Who scored the most career points in the rugby league Super Rugby between the seasons 2005-2015, including playoffs?",
+        "filled_param": {
+          "league": "Super Rugby",
+          "season_range": "2005-2015",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Can you tell me the record for the most points scored by a player in the Rugby Premiership from the seasons 2010 to 2020, excluding playoff games?",
+        "filled_param": {
+          "league": "Rugby Premiership",
+          "season_range": "2010-2020",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "What's the highest career point score in the Top 14 league for the seasons 1995-2005, playoffs included?",
+        "filled_param": {
+          "league": "Top 14",
+          "season_range": "1995-2005",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Find out who has the most points in career in the Pro14 league during 2000-2010, without considering playoffs.",
+        "filled_param": {
+          "league": "Pro14",
+          "season_range": "2000-2010",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "I'd like to know the record for the most points scored in the Mitre 10 Cup from 2015 to 2021, including playoff points.",
+        "filled_param": {
+          "league": "Mitre 10 Cup",
+          "season_range": "2015-2021",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Who holds the record for the most career points in the Gallagher Premiership between 2008-2018, excluding playoff matches?",
+        "filled_param": {
+          "league": "Gallagher Premiership",
+          "season_range": "2008-2018",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Please provide the most career points in the Currie Cup league for the seasons 1990 through 2000, with playoff points counted.",
+        "filled_param": {
+          "league": "Currie Cup",
+          "season_range": "1990-2000",
+          "include_playoffs": true
+        }
+      }
+    ]
+  },
+  "sports_data.basketball.most_points_career|:|floorball|:|league,season_range,include_playoffs": {
+    "tool_template_name": "sports_data.basketball.most_points_career",
+    "derived_class": "floorball",
+    "params_for_query": [
+      "league",
+      "season_range",
+      "include_playoffs"
+    ],
+    "queries": [
+      {
+        "query": "Who holds the record for the most points in the Swedish Super League for floorball from the 2010-2020 seasons, including playoffs?",
+        "filled_param": {
+          "league": "Swedish Super League",
+          "season_range": "2010-2020",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Can you tell me the floorball player with the highest career points in the Finnish League between the years 2005 and 2015, excluding playoffs?",
+        "filled_param": {
+          "league": "Finnish League",
+          "season_range": "2005-2015",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Find the record for the most points scored by any floorball player in the Swiss NLA during the 2015-2021 seasons without considering playoff points.",
+        "filled_param": {
+          "league": "Swiss NLA",
+          "season_range": "2015-2021",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "What is the record for the most career points in the German Bundesliga for floorball from 2000 to 2010, including playoff matches?",
+        "filled_param": {
+          "league": "German Bundesliga",
+          "season_range": "2000-2010",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "I'd like to know the floorball player with the highest points in Denmark's league between 1995 and 2005, excluding playoff contributions.",
+        "filled_param": {
+          "league": "Denmark's League",
+          "season_range": "1995-2005",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Could you provide the most points scored by a floorball player in the Czech Superliga from 1990 to 2000, considering playoff games as well?",
+        "filled_param": {
+          "league": "Czech Superliga",
+          "season_range": "1990-2000",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Who has the highest points record in the Norwegian Eliteserien for floorball during the 2008-2018 seasons, excluding playoff games?",
+        "filled_param": {
+          "league": "Norwegian Eliteserien",
+          "season_range": "2008-2018",
+          "include_playoffs": false
+        }
+      }
+    ]
+  },
+  "sports_data.basketball.most_points_career|:|water polo|:|league,season_range,include_playoffs": {
+    "tool_template_name": "sports_data.basketball.most_points_career",
+    "derived_class": "water polo",
+    "params_for_query": [
+      "league",
+      "season_range",
+      "include_playoffs"
+    ],
+    "queries": [
+      {
+        "query": "Who scored the most career points in the National Water Polo League during the 2010-2020 seasons, including playoff games?",
+        "filled_param": {
+          "league": "National Water Polo League",
+          "season_range": "2010-2020",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Can you tell me the record for the highest points scored by a player in the European Water Polo Championship from 2005 to 2015, excluding playoff matches?",
+        "filled_param": {
+          "league": "European Water Polo Championship",
+          "season_range": "2005-2015",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Find out who has the most career points in the Australian Water Polo League between the seasons 1995 to 2005 without considering playoff points.",
+        "filled_param": {
+          "league": "Australian Water Polo League",
+          "season_range": "1995-2005",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Retrieve the record of most points scored by a player in the American Water Polo Association during the seasons from 2015 to 2020, and include playoff results.",
+        "filled_param": {
+          "league": "American Water Polo Association",
+          "season_range": "2015-2020",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Who holds the record for the highest career points in the Italian Water Polo League over the years 2000 to 2010, considering playoffs?",
+        "filled_param": {
+          "league": "Italian Water Polo League",
+          "season_range": "2000-2010",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "What is the career points record for a player in the French Water Polo Championship from 1990 to 2000, excluding playoff games?",
+        "filled_param": {
+          "league": "French Water Polo Championship",
+          "season_range": "1990-2000",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Please find out the highest career points scored in the Spanish Water Polo League during the seasons 2003 to 2013, and do not include playoffs.",
+        "filled_param": {
+          "league": "Spanish Water Polo League",
+          "season_range": "2003-2013",
+          "include_playoffs": false
+        }
+      }
+    ]
+  },
+  "sports_data.basketball.most_points_career|:|table tennis|:|league,season_range,include_playoffs": {
+    "tool_template_name": "sports_data.basketball.most_points_career",
+    "derived_class": "table tennis",
+    "params_for_query": [
+      "league",
+      "season_range",
+      "include_playoffs"
+    ],
+    "queries": [
+      {
+        "query": "Who scored the most points in the European Table Tennis League from 2010 to 2020, including playoffs?",
+        "filled_param": {
+          "league": "European Table Tennis League",
+          "season_range": "2010-2020",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Get the record for the most points scored by a player in the Asian Table Tennis Championship during the 2015 to 2021 seasons, excluding playoffs.",
+        "filled_param": {
+          "league": "Asian Table Tennis Championship",
+          "season_range": "2015-2021",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "I need to know the top point scorer in the National Table Tennis League between 2005 and 2015, with playoff points included.",
+        "filled_param": {
+          "league": "National Table Tennis League",
+          "season_range": "2005-2015",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Find out who has the highest career points in the International Table Tennis Federation league from 1990 to 2000, not counting playoff points.",
+        "filled_param": {
+          "league": "International Table Tennis Federation",
+          "season_range": "1990-2000",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Can you tell me the player with the most points in the North American Table Tennis League from 2018 to 2022, including playoffs?",
+        "filled_param": {
+          "league": "North American Table Tennis League",
+          "season_range": "2018-2022",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "What's the record for the most career points in the South American Table Tennis Championship between 2000 and 2010, excluding playoffs?",
+        "filled_param": {
+          "league": "South American Table Tennis Championship",
+          "season_range": "2000-2010",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Please provide the most points scored by a player in the Oceania Table Tennis League for the seasons 2012 to 2018, with playoffs included.",
+        "filled_param": {
+          "league": "Oceania Table Tennis League",
+          "season_range": "2012-2018",
+          "include_playoffs": true
+        }
+      }
+    ]
+  }
+}

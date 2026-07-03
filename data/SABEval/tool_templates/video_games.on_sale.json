@@ -1,0 +1,53 @@
+{
+  "tool_template_name": "video_games.on_sale",
+  "meta_data": {
+    "base_class": "Check whether a particular game is currently on sale in a <video game platform> store - refers to a dedicated gaming hardware platform such as PlayStation or Xbox that has its own game distribution and pricing system.",
+    "derived_classes": [
+      "PlayStation",
+      "Xbox",
+      "Nintendo Switch",
+      "Steam Deck"
+    ],
+    "base_class_entity": "platform"
+  },
+  "tool_template": {
+    "name": "check_<class>_game_on_sale",
+    "description": "Checks if a particular game is currently on sale in a <class> store.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "game_title": {
+          "type": "string",
+          "description": "The title of the video game."
+        }
+      },
+      "required": [
+        "game_title"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "region": {
+      "type": "string",
+      "description": "The region to check for the <class> store."
+    }
+  },
+  "additional_params": {
+    "currency": {
+      "type": "string",
+      "description": "The currency in which the sale price should be displayed for the <class> store."
+    },
+    "include_discount_percentage": {
+      "type": "boolean",
+      "description": "Whether or not to include the discount percentage information when checking the sale status in the <class> store."
+    },
+    "check_additional_content": {
+      "type": "boolean",
+      "description": "Whether to check if additional content or DLC for the game is also on sale in the <class> store."
+    },
+    "edition_type": {
+      "type": "string",
+      "description": "Optional field to specify the edition of the game if applicable (e.g., 'standard', 'deluxe'). Ignored for platforms that do not distinguish editions."
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "tool_template_name": "calculate_emission_savings",
+  "meta_data": {
+    "base_class": "Calculate potential greenhouse gas emissions saved by switching to <a specific renewable energy source>. This is a general tool that uses the `energy_type` parameter. Subclass tools will be hardcoded to a specific source (e.g., solar, wind) and will remove the `energy_type` parameter.",
+    "derived_classes": [
+      "solar energy",
+      "wind energy",
+      "hydropower",
+      "geothermal energy",
+      "biomass energy",
+      "tidal energy"
+    ],
+    "base_class_entity": "renewable energy sources"
+  },
+  "tool_template": {
+    "name": "calculate_<class>_emission_savings",
+    "description": "Calculate potential greenhouse gas emissions saved by switching to <class>.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "usage_duration": {
+          "type": "integer",
+          "description": "Usage duration of <class> in months."
+        }
+      },
+      "required": [
+        "usage_duration"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "region": {
+      "type": "string",
+      "description": "The region where you use <class> energy."
+    }
+  },
+  "additional_params": {
+    "installation_cost": {
+      "type": "number",
+      "description": "The initial cost of installing <class> in the region, in USD."
+    },
+    "maintenance_frequency": {
+      "type": "integer",
+      "description": "The frequency of maintenance required for <class> in years."
+    },
+    "average_output_efficiency": {
+      "type": "number",
+      "description": "The average output efficiency of <class> in percentage over its lifetime."
+    },
+    "carbon_intensity_of_alternative": {
+      "type": "number",
+      "description": "The carbon intensity in kg CO2e/kWh of the alternative energy source being replaced by <class>."
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "tool_template_name": "FreeRepairInquiry_service",
+  "meta_data": {
+    "base_class": "Check eligibility for free repair services of <products> - refers to various warranty-covered items such as electronics and home appliances.",
+    "derived_classes": [
+      "laptop",
+      "television",
+      "mobile phone",
+      "camera",
+      "router",
+      "projector",
+      "printer",
+      "monitor",
+      "refrigerator",
+      "washing machine",
+      "air conditioner",
+      "microwave oven",
+      "dishwasher",
+      "soy milk maker",
+      "vacuum cleaner"
+    ],
+    "base_class_entity": "television"
+  },
+  "tool_template": {
+    "name": "FreeRepairInquiry_<class>_service",
+    "description": "Service to inquire about free repair eligibility for a <class> under warranty.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "purchase_receipt": {
+          "type": "string",
+          "description": "The receipt number or proof of purchase document for the <class>."
+        }
+      },
+      "required": [
+        "purchase_receipt"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "customer_id": {
+      "type": "string",
+      "description": "The unique customer ID associated with the purchase of the <class>."
+    },
+    "warranty_check": {
+      "type": "boolean",
+      "description": "Whether to perform a warranty check for the <class>."
+    },
+    "include_support_contact": {
+      "type": "boolean",
+      "description": "Whether to include contact details for customer support regarding the <class>."
+    }
+  },
+  "additional_params": {
+    "issue_description": {
+      "type": "string",
+      "description": "A brief description of the issue encountered with the <class>."
+    },
+    "preferred_contact_method": {
+      "type": "string",
+      "description": "Preferred method of contact for updates or inquiries about the <class> repair service. One of: 'email', 'phone', and 'text'."
+    },
+    "service_location": {
+      "type": "string",
+      "description": "The location where the repair service for the <class> is to be conducted, either on-site or at a service center."
+    },
+    "preferred_service_time": {
+      "type": "string",
+      "description": "Preferred time slot for scheduling the repair service of the <class>."
+    },
+    "notification_preference": {
+      "type": "boolean",
+      "description": "Whether to receive notifications about the repair status of the <class>."
+    }
+  }
+}

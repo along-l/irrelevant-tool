@@ -1,0 +1,317 @@
+{
+  "WebsiteSecurityAnalyzer|:|security protocols|:|website_url,scan_depth,analysis_frequency,report_format,notification_email": {
+    "tool_template_name": "WebsiteSecurityAnalyzer",
+    "derived_class": "security protocols",
+    "params_for_query": [
+      "website_url",
+      "scan_depth",
+      "analysis_frequency",
+      "report_format",
+      "notification_email"
+    ],
+    "queries": [
+      {
+        "query": "Perform a weekly security protocols analysis on https://example.com with a scan depth of 3, and send the report in PDF format to admin@example.com.",
+        "filled_param": {
+          "website_url": "https://example.com",
+          "scan_depth": 3,
+          "analysis_frequency": "weekly",
+          "report_format": "PDF",
+          "notification_email": "admin@example.com"
+        }
+      },
+      {
+        "query": "Can you analyze the security protocols of http://mywebsite.org with a scan depth of 5? I'd like the analysis to be done daily and the report sent to security@mywebsite.org in JSON format.",
+        "filled_param": {
+          "website_url": "http://mywebsite.org",
+          "scan_depth": 5,
+          "analysis_frequency": "daily",
+          "report_format": "JSON",
+          "notification_email": "security@mywebsite.org"
+        }
+      },
+      {
+        "query": "Please conduct a security protocols scan on https://shoponline.net with a depth of 2 and email the monthly report in HTML to webmaster@shoponline.net.",
+        "filled_param": {
+          "website_url": "https://shoponline.net",
+          "scan_depth": 2,
+          "analysis_frequency": "monthly",
+          "report_format": "HTML",
+          "notification_email": "webmaster@shoponline.net"
+        }
+      },
+      {
+        "query": "Set up a security protocols scan for https://university.edu with a depth of 1, and send a PDF report daily to itadmin@university.edu.",
+        "filled_param": {
+          "website_url": "https://university.edu",
+          "scan_depth": 1,
+          "analysis_frequency": "daily",
+          "report_format": "PDF",
+          "notification_email": "itadmin@university.edu"
+        }
+      },
+      {
+        "query": "I need a security protocols analysis for http://blogsite.com with a scan depth of 4. Generate a weekly report in JSON format and send it to contact@blogsite.com.",
+        "filled_param": {
+          "website_url": "http://blogsite.com",
+          "scan_depth": 4,
+          "analysis_frequency": "weekly",
+          "report_format": "JSON",
+          "notification_email": "contact@blogsite.com"
+        }
+      }
+    ]
+  },
+  "WebsiteSecurityAnalyzer|:|content legality|:|website_url,scan_depth,analysis_frequency,report_format,notification_email": {
+    "tool_template_name": "WebsiteSecurityAnalyzer",
+    "derived_class": "content legality",
+    "params_for_query": [
+      "website_url",
+      "scan_depth",
+      "analysis_frequency",
+      "report_format",
+      "notification_email"
+    ],
+    "queries": [
+      {
+        "query": "Please analyze the content legality of https://example-blog.com with a scan depth of 3, checking weekly, and send me the report in PDF format to myemail@example.com.",
+        "filled_param": {
+          "website_url": "https://example-blog.com",
+          "scan_depth": 3,
+          "analysis_frequency": "weekly",
+          "report_format": "PDF",
+          "notification_email": "myemail@example.com"
+        }
+      },
+      {
+        "query": "Could you perform a content legality analysis of the website http://myshopsite.org? Make the scan depth 2, do it daily, and deliver the report as HTML to contact@myshopsite.org.",
+        "filled_param": {
+          "website_url": "http://myshopsite.org",
+          "scan_depth": 2,
+          "analysis_frequency": "daily",
+          "report_format": "HTML",
+          "notification_email": "contact@myshopsite.org"
+        }
+      },
+      {
+        "query": "I need a content legality check for https://musicstreaming.co.uk with a scan depth of 5. Please perform this analysis monthly and send the report in JSON format to admin@musicstreaming.co.uk.",
+        "filled_param": {
+          "website_url": "https://musicstreaming.co.uk",
+          "scan_depth": 5,
+          "analysis_frequency": "monthly",
+          "report_format": "JSON",
+          "notification_email": "admin@musicstreaming.co.uk"
+        }
+      },
+      {
+        "query": "Analyze the content legality of https://newsportal.com with the maximum scan depth of 4. Perform it weekly and send a PDF report to editor@newsportal.com.",
+        "filled_param": {
+          "website_url": "https://newsportal.com",
+          "scan_depth": 4,
+          "analysis_frequency": "weekly",
+          "report_format": "PDF",
+          "notification_email": "editor@newsportal.com"
+        }
+      },
+      {
+        "query": "Can you check the content legality of http://fashionhub.net with a scan depth of 1, conduct the analysis daily, and email me an HTML report at contact@fashionhub.net?",
+        "filled_param": {
+          "website_url": "http://fashionhub.net",
+          "scan_depth": 1,
+          "analysis_frequency": "daily",
+          "report_format": "HTML",
+          "notification_email": "contact@fashionhub.net"
+        }
+      }
+    ]
+  },
+  "WebsiteSecurityAnalyzer|:|internationalization support|:|website_url,scan_depth,analysis_frequency,report_format,notification_email": {
+    "tool_template_name": "WebsiteSecurityAnalyzer",
+    "derived_class": "internationalization support",
+    "params_for_query": [
+      "website_url",
+      "scan_depth",
+      "analysis_frequency",
+      "report_format",
+      "notification_email"
+    ],
+    "queries": [
+      {
+        "query": "Please analyze the internationalization support for https://www.example.com with a scan depth of 3. Conduct the analysis weekly, generate the report in PDF format, and send notifications to contact@example.com.",
+        "filled_param": {
+          "website_url": "https://www.example.com",
+          "scan_depth": 3,
+          "analysis_frequency": "weekly",
+          "report_format": "PDF",
+          "notification_email": "contact@example.com"
+        }
+      },
+      {
+        "query": "Can you perform an internationalization support analysis on http://shop.example.org? Set the scan depth to 5, frequency to monthly, and provide the report in HTML to admin@shop.example.org.",
+        "filled_param": {
+          "website_url": "http://shop.example.org",
+          "scan_depth": 5,
+          "analysis_frequency": "monthly",
+          "report_format": "HTML",
+          "notification_email": "admin@shop.example.org"
+        }
+      },
+      {
+        "query": "Evaluate the internationalization support of https://news.example.net with a scan depth level of 2. I need the analysis done daily, with results in JSON format sent to alerts@news.example.net.",
+        "filled_param": {
+          "website_url": "https://news.example.net",
+          "scan_depth": 2,
+          "analysis_frequency": "daily",
+          "report_format": "JSON",
+          "notification_email": "alerts@news.example.net"
+        }
+      },
+      {
+        "query": "I'd like an internationalization support check on https://blog.example.co.uk. Use scan depth 4, perform weekly checks, and send the report as a PDF file to newsletter@blog.example.co.uk.",
+        "filled_param": {
+          "website_url": "https://blog.example.co.uk",
+          "scan_depth": 4,
+          "analysis_frequency": "weekly",
+          "report_format": "PDF",
+          "notification_email": "newsletter@blog.example.co.uk"
+        }
+      },
+      {
+        "query": "Run an internationalization support analysis for http://archive.example.edu. Set the scan depth to 1, perform the analysis monthly, and deliver the report in HTML format to support@archive.example.edu.",
+        "filled_param": {
+          "website_url": "http://archive.example.edu",
+          "scan_depth": 1,
+          "analysis_frequency": "monthly",
+          "report_format": "HTML",
+          "notification_email": "support@archive.example.edu"
+        }
+      }
+    ]
+  },
+  "WebsiteSecurityAnalyzer|:|cookie policy transparency|:|website_url,scan_depth,analysis_frequency,report_format,notification_email": {
+    "tool_template_name": "WebsiteSecurityAnalyzer",
+    "derived_class": "cookie policy transparency",
+    "params_for_query": [
+      "website_url",
+      "scan_depth",
+      "analysis_frequency",
+      "report_format",
+      "notification_email"
+    ],
+    "queries": [
+      {
+        "query": "Can you perform a cookie policy transparency analysis on https://example.com with a scan depth of 3, and send the report in PDF format weekly to user@example.com?",
+        "filled_param": {
+          "website_url": "https://example.com",
+          "scan_depth": 3,
+          "analysis_frequency": "weekly",
+          "report_format": "PDF",
+          "notification_email": "user@example.com"
+        }
+      },
+      {
+        "query": "I need a cookie policy transparency analysis for https://shop.com, with the deepest scan of 5, reported in JSON format daily to my email admin@shop.com.",
+        "filled_param": {
+          "website_url": "https://shop.com",
+          "scan_depth": 5,
+          "analysis_frequency": "daily",
+          "report_format": "JSON",
+          "notification_email": "admin@shop.com"
+        }
+      },
+      {
+        "query": "Analyze the cookie policy transparency of https://newsportal.org with a scan depth of 2. Please send the monthly report in HTML format to contact@newsportal.org.",
+        "filled_param": {
+          "website_url": "https://newsportal.org",
+          "scan_depth": 2,
+          "analysis_frequency": "monthly",
+          "report_format": "HTML",
+          "notification_email": "contact@newsportal.org"
+        }
+      },
+      {
+        "query": "Could you check the cookie policy transparency for www.musicstreaming.net? Use a scan depth of 4, and email the JSON report weekly to alerts@musicstreaming.net.",
+        "filled_param": {
+          "website_url": "https://www.musicstreaming.net",
+          "scan_depth": 4,
+          "analysis_frequency": "weekly",
+          "report_format": "JSON",
+          "notification_email": "alerts@musicstreaming.net"
+        }
+      },
+      {
+        "query": "Perform a cookie policy transparency analysis on https://blogsite.com with a scan depth of 1, reporting in PDF format monthly to feedback@blogsite.com.",
+        "filled_param": {
+          "website_url": "https://blogsite.com",
+          "scan_depth": 1,
+          "analysis_frequency": "monthly",
+          "report_format": "PDF",
+          "notification_email": "feedback@blogsite.com"
+        }
+      }
+    ]
+  },
+  "WebsiteSecurityAnalyzer|:|page load speed|:|website_url,scan_depth,analysis_frequency,report_format,notification_email": {
+    "tool_template_name": "WebsiteSecurityAnalyzer",
+    "derived_class": "page load speed",
+    "params_for_query": [
+      "website_url",
+      "scan_depth",
+      "analysis_frequency",
+      "report_format",
+      "notification_email"
+    ],
+    "queries": [
+      {
+        "query": "Can you analyze the page load speed of https://www.example.com with a scan depth of 2, and send me the report weekly in PDF format to myemail@example.com?",
+        "filled_param": {
+          "website_url": "https://www.example.com",
+          "scan_depth": 2,
+          "analysis_frequency": "weekly",
+          "report_format": "PDF",
+          "notification_email": "myemail@example.com"
+        }
+      },
+      {
+        "query": "I need a monthly page load speed report for https://shop.website.org, with a scan depth of 4, delivered in HTML format to admin@shop.website.org.",
+        "filled_param": {
+          "website_url": "https://shop.website.org",
+          "scan_depth": 4,
+          "analysis_frequency": "monthly",
+          "report_format": "HTML",
+          "notification_email": "admin@shop.website.org"
+        }
+      },
+      {
+        "query": "Please check the page load speed of http://blogsite.net with a scan depth of 1, and send a daily JSON report to contact@blogsite.net.",
+        "filled_param": {
+          "website_url": "http://blogsite.net",
+          "scan_depth": 1,
+          "analysis_frequency": "daily",
+          "report_format": "JSON",
+          "notification_email": "contact@blogsite.net"
+        }
+      },
+      {
+        "query": "Analyze the page load speed of my travel blog at www.travelblog.com with a scan depth of 3. I need weekly reports in PDF format sent to travel@blog.com.",
+        "filled_param": {
+          "website_url": "www.travelblog.com",
+          "scan_depth": 3,
+          "analysis_frequency": "weekly",
+          "report_format": "PDF",
+          "notification_email": "travel@blog.com"
+        }
+      },
+      {
+        "query": "Can you perform a page load speed analysis for the site https://newsportal.io with scan depth 5, and email me the HTML report daily to editor@newsportal.io?",
+        "filled_param": {
+          "website_url": "https://newsportal.io",
+          "scan_depth": 5,
+          "analysis_frequency": "daily",
+          "report_format": "HTML",
+          "notification_email": "editor@newsportal.io"
+        }
+      }
+    ]
+  }
+}

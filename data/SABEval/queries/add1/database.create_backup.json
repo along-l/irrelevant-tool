@@ -1,0 +1,463 @@
+{
+  "database.create_backup|:|postgresql database|:|db_name,backup_location,timestamp": {
+    "tool_template_name": "database.create_backup",
+    "derived_class": "postgresql database",
+    "params_for_query": [
+      "db_name",
+      "backup_location",
+      "timestamp"
+    ],
+    "queries": [
+      {
+        "query": "Could you create a backup for the postgresql database named 'customer_data' and store it at '/backups/customer_data_backup' without appending a timestamp?",
+        "filled_param": {
+          "db_name": "customer_data",
+          "backup_location": "/backups/customer_data_backup",
+          "timestamp": false
+        }
+      },
+      {
+        "query": "I need a backup of the postgresql database 'inventory_db' to be saved at '/var/backups/inventory' with a timestamp.",
+        "filled_param": {
+          "db_name": "inventory_db",
+          "backup_location": "/var/backups/inventory",
+          "timestamp": true
+        }
+      },
+      {
+        "query": "Backup the 'sales_records' postgresql database to '/mnt/backups/sales' and ensure the file has a timestamp.",
+        "filled_param": {
+          "db_name": "sales_records",
+          "backup_location": "/mnt/backups/sales",
+          "timestamp": true
+        }
+      },
+      {
+        "query": "Please store a backup of the postgresql database 'employee_info' at '/home/user/backup/employee' without adding a timestamp.",
+        "filled_param": {
+          "db_name": "employee_info",
+          "backup_location": "/home/user/backup/employee",
+          "timestamp": false
+        }
+      },
+      {
+        "query": "Can you back up the 'financial_reports' postgresql database to '/backup/financials' and include a timestamp in the file name?",
+        "filled_param": {
+          "db_name": "financial_reports",
+          "backup_location": "/backup/financials",
+          "timestamp": true
+        }
+      },
+      {
+        "query": "Create a backup of the postgresql database 'project_data' and save it at '/backup/project_data' without a timestamp.",
+        "filled_param": {
+          "db_name": "project_data",
+          "backup_location": "/backup/project_data",
+          "timestamp": false
+        }
+      }
+    ]
+  },
+  "database.create_backup|:|mongodb database|:|db_name,backup_location,timestamp": {
+    "tool_template_name": "database.create_backup",
+    "derived_class": "mongodb database",
+    "params_for_query": [
+      "db_name",
+      "backup_location",
+      "timestamp"
+    ],
+    "queries": [
+      {
+        "query": "Please create a backup of the mongodb database named 'customer_data' and save it to '/backups', appending a timestamp to the file name.",
+        "filled_param": {
+          "db_name": "customer_data",
+          "backup_location": "/backups",
+          "timestamp": true
+        }
+      },
+      {
+        "query": "I need a backup of the mongodb database called 'sales_records' stored in '/mnt/backups' without adding a timestamp.",
+        "filled_param": {
+          "db_name": "sales_records",
+          "backup_location": "/mnt/backups",
+          "timestamp": false
+        }
+      },
+      {
+        "query": "Can you back up the mongodb database 'user_profiles' to '/var/db_backups' and make sure to include a timestamp?",
+        "filled_param": {
+          "db_name": "user_profiles",
+          "backup_location": "/var/db_backups",
+          "timestamp": true
+        }
+      },
+      {
+        "query": "Create a backup for the mongodb database named 'inventory' and place it in '/backup/storage', excluding a timestamp.",
+        "filled_param": {
+          "db_name": "inventory",
+          "backup_location": "/backup/storage",
+          "timestamp": false
+        }
+      },
+      {
+        "query": "Backup the mongodb database 'finance_data' to '/server/backups' with the current timestamp in the file name.",
+        "filled_param": {
+          "db_name": "finance_data",
+          "backup_location": "/server/backups",
+          "timestamp": true
+        }
+      },
+      {
+        "query": "Please save a backup of the mongodb database 'analytics' at '/backup_space' and do not append a timestamp.",
+        "filled_param": {
+          "db_name": "analytics",
+          "backup_location": "/backup_space",
+          "timestamp": false
+        }
+      },
+      {
+        "query": "I want to back up the mongodb database 'log_data' in the path '/data/backups' with a timestamp added to its name.",
+        "filled_param": {
+          "db_name": "log_data",
+          "backup_location": "/data/backups",
+          "timestamp": true
+        }
+      }
+    ]
+  },
+  "database.create_backup|:|redis database|:|db_name,backup_location,timestamp": {
+    "tool_template_name": "database.create_backup",
+    "derived_class": "redis database",
+    "params_for_query": [
+      "db_name",
+      "backup_location",
+      "timestamp"
+    ],
+    "queries": [
+      {
+        "query": "Please create a backup of the redis database named 'user_sessions' and save it to '/backups/daily_backup/', appending a timestamp to the file name.",
+        "filled_param": {
+          "db_name": "user_sessions",
+          "backup_location": "/backups/daily_backup/",
+          "timestamp": true
+        }
+      },
+      {
+        "query": "I need a backup for the redis database 'product_cache' stored at '/data/backups/' without a timestamp.",
+        "filled_param": {
+          "db_name": "product_cache",
+          "backup_location": "/data/backups/",
+          "timestamp": false
+        }
+      },
+      {
+        "query": "Can you back up the redis database 'analytics_db' to '/server/backups/' and include a timestamp?",
+        "filled_param": {
+          "db_name": "analytics_db",
+          "backup_location": "/server/backups/",
+          "timestamp": true
+        }
+      },
+      {
+        "query": "Create a backup of the redis database 'order_data' and save it in '/var/db_backups/' without appending a timestamp.",
+        "filled_param": {
+          "db_name": "order_data",
+          "backup_location": "/var/db_backups/",
+          "timestamp": false
+        }
+      },
+      {
+        "query": "Backup the redis database 'session_data' to '/mnt/backup/' and ensure the file name has a timestamp.",
+        "filled_param": {
+          "db_name": "session_data",
+          "backup_location": "/mnt/backup/",
+          "timestamp": true
+        }
+      },
+      {
+        "query": "I want to create a backup for the redis database 'customer_info' in the directory '/backup_files/' without a timestamp.",
+        "filled_param": {
+          "db_name": "customer_info",
+          "backup_location": "/backup_files/",
+          "timestamp": false
+        }
+      },
+      {
+        "query": "Could you back up the redis database 'inventory' to '/opt/backups/' with a timestamp in the file name?",
+        "filled_param": {
+          "db_name": "inventory",
+          "backup_location": "/opt/backups/",
+          "timestamp": true
+        }
+      }
+    ]
+  },
+  "database.create_backup|:|sqlite database|:|db_name,backup_location,timestamp": {
+    "tool_template_name": "database.create_backup",
+    "derived_class": "sqlite database",
+    "params_for_query": [
+      "db_name",
+      "backup_location",
+      "timestamp"
+    ],
+    "queries": [
+      {
+        "query": "Please back up the 'user_data' sqlite database to /backups/user_data_backup with a timestamp in the file name.",
+        "filled_param": {
+          "db_name": "user_data",
+          "backup_location": "/backups/user_data_backup",
+          "timestamp": true
+        }
+      },
+      {
+        "query": "Could you create a backup for the sqlite database named 'inventory_db' and store it at /safe/backup without a timestamp?",
+        "filled_param": {
+          "db_name": "inventory_db",
+          "backup_location": "/safe/backup",
+          "timestamp": false
+        }
+      },
+      {
+        "query": "I need a backup of the 'sales_records' sqlite database saved at /archive/ with a timestamp in the backup file name.",
+        "filled_param": {
+          "db_name": "sales_records",
+          "backup_location": "/archive/",
+          "timestamp": true
+        }
+      },
+      {
+        "query": "Backup the sqlite database 'employee_info' to the location /data/backups and include a timestamp in the name.",
+        "filled_param": {
+          "db_name": "employee_info",
+          "backup_location": "/data/backups",
+          "timestamp": true
+        }
+      },
+      {
+        "query": "Can you create a backup for 'financial_reports' sqlite database and place it in /financial/ without appending a timestamp?",
+        "filled_param": {
+          "db_name": "financial_reports",
+          "backup_location": "/financial/",
+          "timestamp": false
+        }
+      },
+      {
+        "query": "I'd like a timestamped backup of the 'project_logs' sqlite database stored in /projects/logs/.",
+        "filled_param": {
+          "db_name": "project_logs",
+          "backup_location": "/projects/logs/",
+          "timestamp": true
+        }
+      },
+      {
+        "query": "Make a backup of the 'customer_feedback' sqlite database and store it at /feedback/backups without a timestamp.",
+        "filled_param": {
+          "db_name": "customer_feedback",
+          "backup_location": "/feedback/backups",
+          "timestamp": false
+        }
+      }
+    ]
+  },
+  "database.create_backup|:|sql server database|:|db_name,backup_location,timestamp": {
+    "tool_template_name": "database.create_backup",
+    "derived_class": "sql server database",
+    "params_for_query": [
+      "db_name",
+      "backup_location",
+      "timestamp"
+    ],
+    "queries": [
+      {
+        "query": "Please back up the sql server database named 'SalesDB' to the '/backups/sales/' directory and include a timestamp in the file name.",
+        "filled_param": {
+          "db_name": "SalesDB",
+          "backup_location": "/backups/sales/",
+          "timestamp": true
+        }
+      },
+      {
+        "query": "Create a backup for the sql server database 'InventoryDB' and save it to '/mnt/backups/inventory' without adding a timestamp.",
+        "filled_param": {
+          "db_name": "InventoryDB",
+          "backup_location": "/mnt/backups/inventory",
+          "timestamp": false
+        }
+      },
+      {
+        "query": "I need a backup of the sql server database called 'EmployeeRecords' stored at 'D:/db_backups/employee/' with a timestamp in the file name.",
+        "filled_param": {
+          "db_name": "EmployeeRecords",
+          "backup_location": "D:/db_backups/employee/",
+          "timestamp": true
+        }
+      },
+      {
+        "query": "Backup the sql server database 'CustomerDB' to the path '/var/backup/customer', and don't append a timestamp.",
+        "filled_param": {
+          "db_name": "CustomerDB",
+          "backup_location": "/var/backup/customer",
+          "timestamp": false
+        }
+      },
+      {
+        "query": "Can you back up the sql server database 'OrderManagement' into '/data/backups/orders' and include the current timestamp in the backup name?",
+        "filled_param": {
+          "db_name": "OrderManagement",
+          "backup_location": "/data/backups/orders",
+          "timestamp": true
+        }
+      },
+      {
+        "query": "I want a backup of the sql server database 'FinanceDB' to be saved at 'C:/backups/finance/' without a timestamp.",
+        "filled_param": {
+          "db_name": "FinanceDB",
+          "backup_location": "C:/backups/finance/",
+          "timestamp": false
+        }
+      },
+      {
+        "query": "Generate a backup for the sql server database 'HRDatabase' at '/network_share/hr/' and make sure to include a timestamp.",
+        "filled_param": {
+          "db_name": "HRDatabase",
+          "backup_location": "/network_share/hr/",
+          "timestamp": true
+        }
+      }
+    ]
+  },
+  "database.create_backup|:|oracle database|:|db_name,backup_location,timestamp": {
+    "tool_template_name": "database.create_backup",
+    "derived_class": "oracle database",
+    "params_for_query": [
+      "db_name",
+      "backup_location",
+      "timestamp"
+    ],
+    "queries": [
+      {
+        "query": "Create a backup of the oracle database named 'finance_db' and save it to '/backups/finance' with a timestamp included.",
+        "filled_param": {
+          "db_name": "finance_db",
+          "backup_location": "/backups/finance",
+          "timestamp": true
+        }
+      },
+      {
+        "query": "I need to back up the oracle database 'hr_db' to '/backups/hr' without adding a timestamp.",
+        "filled_param": {
+          "db_name": "hr_db",
+          "backup_location": "/backups/hr",
+          "timestamp": false
+        }
+      },
+      {
+        "query": "Can you initiate a backup for the oracle database 'sales_data' and store it at '/backups/sales' with the current timestamp?",
+        "filled_param": {
+          "db_name": "sales_data",
+          "backup_location": "/backups/sales",
+          "timestamp": true
+        }
+      },
+      {
+        "query": "Please back up the oracle database called 'inventory_db' to '/backups/inventory' and do not include a timestamp.",
+        "filled_param": {
+          "db_name": "inventory_db",
+          "backup_location": "/backups/inventory",
+          "timestamp": false
+        }
+      },
+      {
+        "query": "Back up the oracle database 'customer_info' and save it in '/backups/customer' with a timestamp.",
+        "filled_param": {
+          "db_name": "customer_info",
+          "backup_location": "/backups/customer",
+          "timestamp": true
+        }
+      },
+      {
+        "query": "I want a backup of the oracle database 'project_data' stored at '/backups/projects' without a timestamp.",
+        "filled_param": {
+          "db_name": "project_data",
+          "backup_location": "/backups/projects",
+          "timestamp": false
+        }
+      },
+      {
+        "query": "Create a backup of the oracle database 'test_db' to be stored in '/backups/test' and add a timestamp to the file name.",
+        "filled_param": {
+          "db_name": "test_db",
+          "backup_location": "/backups/test",
+          "timestamp": true
+        }
+      }
+    ]
+  },
+  "database.create_backup|:|mariadb database|:|db_name,backup_location,timestamp": {
+    "tool_template_name": "database.create_backup",
+    "derived_class": "mariadb database",
+    "params_for_query": [
+      "db_name",
+      "backup_location",
+      "timestamp"
+    ],
+    "queries": [
+      {
+        "query": "Please back up the mariadb database named 'inventory_db' and save it to '/backups/inventory/' with a timestamp.",
+        "filled_param": {
+          "db_name": "inventory_db",
+          "backup_location": "/backups/inventory/",
+          "timestamp": true
+        }
+      },
+      {
+        "query": "Can you create a backup of the mariadb database 'sales_data' in '/data/backups/' without adding a timestamp?",
+        "filled_param": {
+          "db_name": "sales_data",
+          "backup_location": "/data/backups/",
+          "timestamp": false
+        }
+      },
+      {
+        "query": "I need a backup of the mariadb database 'user_accounts'. Store it at '/var/backups/user_accounts/' and include a timestamp.",
+        "filled_param": {
+          "db_name": "user_accounts",
+          "backup_location": "/var/backups/user_accounts/",
+          "timestamp": true
+        }
+      },
+      {
+        "query": "Generate a backup for the mariadb database 'analytics_db' and save it to '/archives/analytics/' without a timestamp.",
+        "filled_param": {
+          "db_name": "analytics_db",
+          "backup_location": "/archives/analytics/",
+          "timestamp": false
+        }
+      },
+      {
+        "query": "Backup the mariadb database 'project_data' to '/mnt/backup/project_data/' and ensure a timestamp is appended.",
+        "filled_param": {
+          "db_name": "project_data",
+          "backup_location": "/mnt/backup/project_data/",
+          "timestamp": true
+        }
+      },
+      {
+        "query": "Could you save a backup of the mariadb database 'financial_records' at '/storage/backups/' with no timestamp?",
+        "filled_param": {
+          "db_name": "financial_records",
+          "backup_location": "/storage/backups/",
+          "timestamp": false
+        }
+      },
+      {
+        "query": "Create a backup for the mariadb database 'customer_info'. Place it in '/secure_backups/customer_info/' with the current timestamp.",
+        "filled_param": {
+          "db_name": "customer_info",
+          "backup_location": "/secure_backups/customer_info/",
+          "timestamp": true
+        }
+      }
+    ]
+  }
+}

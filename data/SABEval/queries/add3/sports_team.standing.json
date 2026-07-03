@@ -1,0 +1,895 @@
+{
+  "sports_team.standing|:|basketball|:|team_name,league,season_year,region,include_playoffs": {
+    "tool_template_name": "sports_team.standing",
+    "derived_class": "basketball",
+    "params_for_query": [
+      "team_name",
+      "league",
+      "season_year",
+      "region",
+      "include_playoffs"
+    ],
+    "queries": [
+      {
+        "query": "Can you find the basketball standings for the Los Angeles Lakers in the NBA during the 2021 season in the United States, including playoffs?",
+        "filled_param": {
+          "team_name": "Los Angeles Lakers",
+          "league": "NBA",
+          "season_year": 2021,
+          "region": "United States",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Retrieve the standings for the Toronto Raptors in the NBA for the 2022 season in Canada without including playoffs.",
+        "filled_param": {
+          "team_name": "Toronto Raptors",
+          "league": "NBA",
+          "season_year": 2022,
+          "region": "Canada",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "What was the standing of FC Barcelona in the EuroLeague for the 2020 season in Europe, excluding playoffs?",
+        "filled_param": {
+          "team_name": "FC Barcelona",
+          "league": "EuroLeague",
+          "season_year": 2020,
+          "region": "Europe",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Show me the standings for the Sydney Kings in the NBL during the 2023 season in Australia, with playoffs included.",
+        "filled_param": {
+          "team_name": "Sydney Kings",
+          "league": "NBL",
+          "season_year": 2023,
+          "region": "Australia",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "What is the current basketball standing of the Chicago Bulls in the NBA for the 2023 season in the United States, excluding playoff results?",
+        "filled_param": {
+          "team_name": "Chicago Bulls",
+          "league": "NBA",
+          "season_year": 2023,
+          "region": "United States",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Could you provide the standings of Real Madrid in the ACB for the 2021 season in Spain and include playoff performance?",
+        "filled_param": {
+          "team_name": "Real Madrid",
+          "league": "ACB",
+          "season_year": 2021,
+          "region": "Spain",
+          "include_playoffs": true
+        }
+      }
+    ]
+  },
+  "sports_team.standing|:|soccer|:|team_name,league,season_year,region,include_playoffs": {
+    "tool_template_name": "sports_team.standing",
+    "derived_class": "soccer",
+    "params_for_query": [
+      "team_name",
+      "league",
+      "season_year",
+      "region",
+      "include_playoffs"
+    ],
+    "queries": [
+      {
+        "query": "What was the standing of Manchester United in the Premier League for the 2022 season in Europe, including playoffs?",
+        "filled_param": {
+          "team_name": "Manchester United",
+          "league": "Premier League",
+          "season_year": 2022,
+          "region": "Europe",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Can you tell me how the Los Angeles Galaxy performed in the 2021 Major League Soccer season in North America without playoff results?",
+        "filled_param": {
+          "team_name": "Los Angeles Galaxy",
+          "league": "Major League Soccer",
+          "season_year": 2021,
+          "region": "North America",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Please provide the standing of FC Barcelona in the 2020 La Liga season in Europe, excluding playoffs.",
+        "filled_param": {
+          "team_name": "FC Barcelona",
+          "league": "La Liga",
+          "season_year": 2020,
+          "region": "Europe",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "I'd like to know the 2019 season standing of Boca Juniors in the Argentine Primera División in South America, with playoffs included.",
+        "filled_param": {
+          "team_name": "Boca Juniors",
+          "league": "Argentine Primera División",
+          "season_year": 2019,
+          "region": "South America",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "How did Juventus fare in the 2021 Serie A season in Europe, including the playoff results?",
+        "filled_param": {
+          "team_name": "Juventus",
+          "league": "Serie A",
+          "season_year": 2021,
+          "region": "Europe",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "What was the position of Sydney FC in the A-League during the 2022 season in Oceania, without considering playoffs?",
+        "filled_param": {
+          "team_name": "Sydney FC",
+          "league": "A-League",
+          "season_year": 2022,
+          "region": "Oceania",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Can you retrieve the standing of PSG in the Ligue 1 for the 2020 season in Europe, excluding any playoff matches?",
+        "filled_param": {
+          "team_name": "PSG",
+          "league": "Ligue 1",
+          "season_year": 2020,
+          "region": "Europe",
+          "include_playoffs": false
+        }
+      }
+    ]
+  },
+  "sports_team.standing|:|baseball|:|team_name,league,season_year,region,include_playoffs": {
+    "tool_template_name": "sports_team.standing",
+    "derived_class": "baseball",
+    "params_for_query": [
+      "team_name",
+      "league",
+      "season_year",
+      "region",
+      "include_playoffs"
+    ],
+    "queries": [
+      {
+        "query": "What was the standing of the New York Yankees in the American League East during the 2022 season, including the playoffs?",
+        "filled_param": {
+          "team_name": "New York Yankees",
+          "league": "American League East",
+          "season_year": 2022,
+          "region": "East",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Can you provide the 2021 regular season standing for the Los Angeles Dodgers in the National League West without including playoff results?",
+        "filled_param": {
+          "team_name": "Los Angeles Dodgers",
+          "league": "National League West",
+          "season_year": 2021,
+          "region": "West",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "I'd like to know how the Chicago Cubs stood in the Central Division of the National League for the 2019 season, excluding any playoff games.",
+        "filled_param": {
+          "team_name": "Chicago Cubs",
+          "league": "National League Central",
+          "season_year": 2019,
+          "region": "Central",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "What is the current standing of the Toronto Blue Jays in the American League for the 2023 season, with playoff details included?",
+        "filled_param": {
+          "team_name": "Toronto Blue Jays",
+          "league": "American League",
+          "season_year": 2023,
+          "region": "North",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "How did the Miami Marlins perform in the National League East in 2020, including the playoffs?",
+        "filled_param": {
+          "team_name": "Miami Marlins",
+          "league": "National League East",
+          "season_year": 2020,
+          "region": "East",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Tell me the standing of the San Francisco Giants in the 2018 season's National League West, without considering playoff results.",
+        "filled_param": {
+          "team_name": "San Francisco Giants",
+          "league": "National League West",
+          "season_year": 2018,
+          "region": "West",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Could you find out where the Boston Red Sox ranked in the American League East during the 2021 season? Please include playoff information.",
+        "filled_param": {
+          "team_name": "Boston Red Sox",
+          "league": "American League East",
+          "season_year": 2021,
+          "region": "East",
+          "include_playoffs": true
+        }
+      }
+    ]
+  },
+  "sports_team.standing|:|ice hockey|:|team_name,league,season_year,region,include_playoffs": {
+    "tool_template_name": "sports_team.standing",
+    "derived_class": "ice hockey",
+    "params_for_query": [
+      "team_name",
+      "league",
+      "season_year",
+      "region",
+      "include_playoffs"
+    ],
+    "queries": [
+      {
+        "query": "What is the current standing of the New York Rangers in the NHL for the 2023 season in North America, excluding playoffs?",
+        "filled_param": {
+          "team_name": "New York Rangers",
+          "league": "NHL",
+          "season_year": 2023,
+          "region": "North America",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Can you provide the standings for the HC Dynamo Moscow team in the KHL during the 2022 season in Europe, including playoffs?",
+        "filled_param": {
+          "team_name": "HC Dynamo Moscow",
+          "league": "KHL",
+          "season_year": 2022,
+          "region": "Europe",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "How did the Toronto Maple Leafs perform in the NHL for the 2021 season, based in North America, without considering the playoffs?",
+        "filled_param": {
+          "team_name": "Toronto Maple Leafs",
+          "league": "NHL",
+          "season_year": 2021,
+          "region": "North America",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "I need the standings of the Jokerit team in the SM-liiga for the 2020 season in Europe, with playoffs results included.",
+        "filled_param": {
+          "team_name": "Jokerit",
+          "league": "SM-liiga",
+          "season_year": 2020,
+          "region": "Europe",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Tell me the current standings of the Metallurg Magnitogorsk in the KHL for the 2023 season, operating in Europe, excluding the playoffs.",
+        "filled_param": {
+          "team_name": "Metallurg Magnitogorsk",
+          "league": "KHL",
+          "season_year": 2023,
+          "region": "Europe",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "What are the standings for the Chicago Blackhawks in the NHL for the 2019 season in North America, and please include the playoffs?",
+        "filled_param": {
+          "team_name": "Chicago Blackhawks",
+          "league": "NHL",
+          "season_year": 2019,
+          "region": "North America",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Provide the 2018 season standings for the Färjestad BK team in the SHL, Europe region, without playoff results.",
+        "filled_param": {
+          "team_name": "Färjestad BK",
+          "league": "SHL",
+          "season_year": 2018,
+          "region": "Europe",
+          "include_playoffs": false
+        }
+      }
+    ]
+  },
+  "sports_team.standing|:|handball|:|team_name,league,season_year,region,include_playoffs": {
+    "tool_template_name": "sports_team.standing",
+    "derived_class": "handball",
+    "params_for_query": [
+      "team_name",
+      "league",
+      "season_year",
+      "region",
+      "include_playoffs"
+    ],
+    "queries": [
+      {
+        "query": "What is the current standing of the handball team Kiel in the German Bundesliga for the 2023 season, including playoffs results?",
+        "filled_param": {
+          "team_name": "Kiel",
+          "league": "Bundesliga",
+          "season_year": 2023,
+          "region": "German",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Can you provide the standing of the handball team Barcelona in the Spanish Liga ASOBAL for the 2022 season, excluding playoff outcomes?",
+        "filled_param": {
+          "team_name": "Barcelona",
+          "league": "Liga ASOBAL",
+          "season_year": 2022,
+          "region": "Spanish",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Retrieve the 2021 season standings for the handball team Veszprém in the Hungarian Nemzeti Bajnokság I, without including playoffs information.",
+        "filled_param": {
+          "team_name": "Veszprém",
+          "league": "Nemzeti Bajnokság I",
+          "season_year": 2021,
+          "region": "Hungarian",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Find out how the handball team Paris Saint-Germain fared in the French Lidl Starligue for the 2023 season, with playoffs included.",
+        "filled_param": {
+          "team_name": "Paris Saint-Germain",
+          "league": "Lidl Starligue",
+          "season_year": 2023,
+          "region": "French",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "What was the standing of the handball team Aalborg in the Danish Håndboldligaen during the 2020 season, excluding playoff results?",
+        "filled_param": {
+          "team_name": "Aalborg",
+          "league": "Håndboldligaen",
+          "season_year": 2020,
+          "region": "Danish",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Can you show me the position of the handball team THW Kiel in the German Bundesliga for the 2021 season, with playoff results considered?",
+        "filled_param": {
+          "team_name": "THW Kiel",
+          "league": "Bundesliga",
+          "season_year": 2021,
+          "region": "German",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "How did handball team Montpellier perform in the French Lidl Starligue during the 2022 season, including playoff standings?",
+        "filled_param": {
+          "team_name": "Montpellier",
+          "league": "Lidl Starligue",
+          "season_year": 2022,
+          "region": "French",
+          "include_playoffs": true
+        }
+      }
+    ]
+  },
+  "sports_team.standing|:|rugby|:|team_name,league,season_year,region,include_playoffs": {
+    "tool_template_name": "sports_team.standing",
+    "derived_class": "rugby",
+    "params_for_query": [
+      "team_name",
+      "league",
+      "season_year",
+      "region",
+      "include_playoffs"
+    ],
+    "queries": [
+      {
+        "query": "What is the current standing of the New Zealand All Blacks in the 2023 Super Rugby league, excluding playoffs?",
+        "filled_param": {
+          "team_name": "New Zealand All Blacks",
+          "league": "Super Rugby",
+          "season_year": 2023,
+          "region": "New Zealand",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Please provide the 2020 standings for the Queensland Reds in the Australian Super Rugby, including playoffs.",
+        "filled_param": {
+          "team_name": "Queensland Reds",
+          "league": "Super Rugby",
+          "season_year": 2020,
+          "region": "Australia",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "How did the Saracens rank in the 2022 English Premiership Rugby season, without considering playoff results?",
+        "filled_param": {
+          "team_name": "Saracens",
+          "league": "Premiership Rugby",
+          "season_year": 2022,
+          "region": "England",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Find the final standings of the Bulls in the 2019 South African Rugby league, with playoff results included.",
+        "filled_param": {
+          "team_name": "Bulls",
+          "league": "South African Rugby",
+          "season_year": 2019,
+          "region": "South Africa",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Get me the 2021 standings of the Leinster Rugby team in the Pro14 league, considering the playoff outcomes.",
+        "filled_param": {
+          "team_name": "Leinster Rugby",
+          "league": "Pro14",
+          "season_year": 2021,
+          "region": "Ireland",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "What was the position of the Crusaders in the 2018 New Zealand Super Rugby, excluding playoffs?",
+        "filled_param": {
+          "team_name": "Crusaders",
+          "league": "Super Rugby",
+          "season_year": 2018,
+          "region": "New Zealand",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Tell me the 2020 standings for the Exeter Chiefs in England's Premiership Rugby, with playoff data.",
+        "filled_param": {
+          "team_name": "Exeter Chiefs",
+          "league": "Premiership Rugby",
+          "season_year": 2020,
+          "region": "England",
+          "include_playoffs": true
+        }
+      }
+    ]
+  },
+  "sports_team.standing|:|field hockey|:|team_name,league,season_year,region,include_playoffs": {
+    "tool_template_name": "sports_team.standing",
+    "derived_class": "field hockey",
+    "params_for_query": [
+      "team_name",
+      "league",
+      "season_year",
+      "region",
+      "include_playoffs"
+    ],
+    "queries": [
+      {
+        "query": "What was the standing of the field hockey team 'Lions' in the European League for the 2022 season including playoffs?",
+        "filled_param": {
+          "team_name": "Lions",
+          "league": "European League",
+          "season_year": 2022,
+          "region": "Europe",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Can you retrieve the current field hockey standing for the 'Warriors' team in the Asian Championship 2023, excluding playoffs?",
+        "filled_param": {
+          "team_name": "Warriors",
+          "league": "Asian Championship",
+          "season_year": 2023,
+          "region": "Asia",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Find the 2021 season standing for 'Eagles' in the North American hockey league, not considering playoffs.",
+        "filled_param": {
+          "team_name": "Eagles",
+          "league": "North American League",
+          "season_year": 2021,
+          "region": "North America",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "I need to know the 2023 status of 'Tigers' in the Australian League, including their playoff performance.",
+        "filled_param": {
+          "team_name": "Tigers",
+          "league": "Australian League",
+          "season_year": 2023,
+          "region": "Australia",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Tell me the field hockey standing of 'Panthers' in the Indian Premier League for 2020 with playoffs taken into account.",
+        "filled_param": {
+          "team_name": "Panthers",
+          "league": "Indian Premier League",
+          "season_year": 2020,
+          "region": "India",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Where did 'Sharks' stand in the African League during the 2019 season, excluding playoffs?",
+        "filled_param": {
+          "team_name": "Sharks",
+          "league": "African League",
+          "season_year": 2019,
+          "region": "Africa",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Could you provide the 2022 field hockey standings for 'Cheetahs' in the South American League, without considering playoffs?",
+        "filled_param": {
+          "team_name": "Cheetahs",
+          "league": "South American League",
+          "season_year": 2022,
+          "region": "South America",
+          "include_playoffs": false
+        }
+      }
+    ]
+  },
+  "sports_team.standing|:|lacrosse|:|team_name,league,season_year,region,include_playoffs": {
+    "tool_template_name": "sports_team.standing",
+    "derived_class": "lacrosse",
+    "params_for_query": [
+      "team_name",
+      "league",
+      "season_year",
+      "region",
+      "include_playoffs"
+    ],
+    "queries": [
+      {
+        "query": "What was the standing of the Toronto Rock in the National Lacrosse League for the 2022 season in the Eastern region, including playoffs?",
+        "filled_param": {
+          "team_name": "Toronto Rock",
+          "league": "National Lacrosse League",
+          "season_year": 2022,
+          "region": "Eastern",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Can you tell me the 2023 season standings for the San Diego Seals in the Western region of the Major League Lacrosse, excluding playoffs?",
+        "filled_param": {
+          "team_name": "San Diego Seals",
+          "league": "Major League Lacrosse",
+          "season_year": 2023,
+          "region": "Western",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Please provide the standings of the New York Lizards from the Eastern region in the 2021 season for the Premier Lacrosse League, and make sure to include playoff results.",
+        "filled_param": {
+          "team_name": "New York Lizards",
+          "league": "Premier Lacrosse League",
+          "season_year": 2021,
+          "region": "Eastern",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "How did the Boston Cannons perform in the Central region of the National Lacrosse League during the 2020 season, excluding playoffs?",
+        "filled_param": {
+          "team_name": "Boston Cannons",
+          "league": "National Lacrosse League",
+          "season_year": 2020,
+          "region": "Central",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "I need to know the standings for the Atlanta Blaze in the Southern region for the 2019 Major League Lacrosse season, with playoff results included.",
+        "filled_param": {
+          "team_name": "Atlanta Blaze",
+          "league": "Major League Lacrosse",
+          "season_year": 2019,
+          "region": "Southern",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "What is the current standing of the Denver Outlaws in the Western region of the 2023 season for the Premier Lacrosse League, and exclude the playoffs?",
+        "filled_param": {
+          "team_name": "Denver Outlaws",
+          "league": "Premier Lacrosse League",
+          "season_year": 2023,
+          "region": "Western",
+          "include_playoffs": false
+        }
+      }
+    ]
+  },
+  "sports_team.standing|:|cricket|:|team_name,league,season_year,region,include_playoffs": {
+    "tool_template_name": "sports_team.standing",
+    "derived_class": "cricket",
+    "params_for_query": [
+      "team_name",
+      "league",
+      "season_year",
+      "region",
+      "include_playoffs"
+    ],
+    "queries": [
+      {
+        "query": "What is the current standing of the Mumbai Indians in the Indian Premier League for the 2023 season in India, including playoffs?",
+        "filled_param": {
+          "team_name": "Mumbai Indians",
+          "league": "Indian Premier League",
+          "season_year": 2023,
+          "region": "India",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "Can you tell me how the Sydney Sixers are doing in the Big Bash League in Australia for the 2022 season, excluding playoffs?",
+        "filled_param": {
+          "team_name": "Sydney Sixers",
+          "league": "Big Bash League",
+          "season_year": 2022,
+          "region": "Australia",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Please find the standing of the Yorkshire Vikings in the T20 Blast for the 2021 season in England and include playoff performance.",
+        "filled_param": {
+          "team_name": "Yorkshire Vikings",
+          "league": "T20 Blast",
+          "season_year": 2021,
+          "region": "England",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "I need to know the position of the Karachi Kings in the Pakistan Super League for the 2020 season, with playoffs considered, in Pakistan.",
+        "filled_param": {
+          "team_name": "Karachi Kings",
+          "league": "Pakistan Super League",
+          "season_year": 2020,
+          "region": "Pakistan",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "What was the standing of the Cape Cobras in the Momentum One Day Cup for the 2019 season in South Africa, not including playoffs?",
+        "filled_param": {
+          "team_name": "Cape Cobras",
+          "league": "Momentum One Day Cup",
+          "season_year": 2019,
+          "region": "South Africa",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Get the standing of the Trinbago Knight Riders in the Caribbean Premier League for 2023 in the Caribbean, excluding playoffs.",
+        "filled_param": {
+          "team_name": "Trinbago Knight Riders",
+          "league": "Caribbean Premier League",
+          "season_year": 2023,
+          "region": "Caribbean",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "How did the Central Stags perform in the Super Smash for the 2021 season in New Zealand, including playoffs?",
+        "filled_param": {
+          "team_name": "Central Stags",
+          "league": "Super Smash",
+          "season_year": 2021,
+          "region": "New Zealand",
+          "include_playoffs": true
+        }
+      }
+    ]
+  },
+  "sports_team.standing|:|volleyball|:|team_name,league,season_year,region,include_playoffs": {
+    "tool_template_name": "sports_team.standing",
+    "derived_class": "volleyball",
+    "params_for_query": [
+      "team_name",
+      "league",
+      "season_year",
+      "region",
+      "include_playoffs"
+    ],
+    "queries": [
+      {
+        "query": "Can you tell me the current standings of the volleyball team called 'Sand Spikers' in the Pacific Volleyball League for the 2023 season, including playoff results, from the West Coast region?",
+        "filled_param": {
+          "team_name": "Sand Spikers",
+          "league": "Pacific Volleyball League",
+          "season_year": 2023,
+          "region": "West Coast",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "What is the standing of 'Beach Hawks' in the European Volleyball League for the 2022 season, excluding playoffs, in the Central Europe region?",
+        "filled_param": {
+          "team_name": "Beach Hawks",
+          "league": "European Volleyball League",
+          "season_year": 2022,
+          "region": "Central Europe",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Provide the 2021 season standings for 'Sunny Smashers' in the Asian Volleyball Championship, including playoffs, within the Southeast Asia region.",
+        "filled_param": {
+          "team_name": "Sunny Smashers",
+          "league": "Asian Volleyball Championship",
+          "season_year": 2021,
+          "region": "Southeast Asia",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "I'd like to know the 2020 standings of 'Net Warriors' in the South American Volleyball League, without playoff results, in the Southern Cone region.",
+        "filled_param": {
+          "team_name": "Net Warriors",
+          "league": "South American Volleyball League",
+          "season_year": 2020,
+          "region": "Southern Cone",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Could you please find the standings for 'Block Masters' in the 2023 season of the North American Volleyball Series, with playoffs included, in the Northeast region?",
+        "filled_param": {
+          "team_name": "Block Masters",
+          "league": "North American Volleyball Series",
+          "season_year": 2023,
+          "region": "Northeast",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "What position did 'Spike Knights' hold in the Australian Volleyball Circuit for the 2021 season, excluding playoffs, in the Oceania region?",
+        "filled_param": {
+          "team_name": "Spike Knights",
+          "league": "Australian Volleyball Circuit",
+          "season_year": 2021,
+          "region": "Oceania",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Can you provide the 2022 season standings of 'Volley Royals' within the African Volleyball Confederation, including playoff outcomes, in the North Africa region?",
+        "filled_param": {
+          "team_name": "Volley Royals",
+          "league": "African Volleyball Confederation",
+          "season_year": 2022,
+          "region": "North Africa",
+          "include_playoffs": true
+        }
+      }
+    ]
+  },
+  "sports_team.standing|:|table tennis|:|team_name,league,season_year,region,include_playoffs": {
+    "tool_template_name": "sports_team.standing",
+    "derived_class": "table tennis",
+    "params_for_query": [
+      "team_name",
+      "league",
+      "season_year",
+      "region",
+      "include_playoffs"
+    ],
+    "queries": [
+      {
+        "query": "Could you tell me the current standing of the table tennis team 'Smash Masters' in the 'National Table Tennis League' for the 2023 season in the North America region, including playoffs?",
+        "filled_param": {
+          "team_name": "Smash Masters",
+          "league": "National Table Tennis League",
+          "season_year": 2023,
+          "region": "North America",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "I want to know where the 'Ping Pong Warriors' stand in the 'European Table Tennis Championship' for the 2022 season, focusing on the Western Europe region without considering playoffs.",
+        "filled_param": {
+          "team_name": "Ping Pong Warriors",
+          "league": "European Table Tennis Championship",
+          "season_year": 2022,
+          "region": "Western Europe",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Get the standing for the 'Spin Kings' in the 'Asia-Pacific Table Tennis League' for 2021 in the Southeast Asia region with playoffs included.",
+        "filled_param": {
+          "team_name": "Spin Kings",
+          "league": "Asia-Pacific Table Tennis League",
+          "season_year": 2021,
+          "region": "Southeast Asia",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "What is the position of 'Rally Racers' in the 'African Table Tennis Cup' during the 2020 season in the Northern Africa region, excluding playoff results?",
+        "filled_param": {
+          "team_name": "Rally Racers",
+          "league": "African Table Tennis Cup",
+          "season_year": 2020,
+          "region": "Northern Africa",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "Provide the standing for 'Topspin Titans' in the 'South American Table Tennis League' for 2019 in the South America region, including playoffs.",
+        "filled_param": {
+          "team_name": "Topspin Titans",
+          "league": "South American Table Tennis League",
+          "season_year": 2019,
+          "region": "South America",
+          "include_playoffs": true
+        }
+      },
+      {
+        "query": "How did the 'Serve Masters' rank in the 'Oceania Table Tennis Series' for the 2023 season within the Australia region, excluding any playoff games?",
+        "filled_param": {
+          "team_name": "Serve Masters",
+          "league": "Oceania Table Tennis Series",
+          "season_year": 2023,
+          "region": "Australia",
+          "include_playoffs": false
+        }
+      },
+      {
+        "query": "I need the standing of 'Volley Vikings' in the 'Middle East Table Tennis Championships' for the 2025 season in the Gulf region, make sure to include playoffs.",
+        "filled_param": {
+          "team_name": "Volley Vikings",
+          "league": "Middle East Table Tennis Championships",
+          "season_year": 2025,
+          "region": "Gulf",
+          "include_playoffs": true
+        }
+      }
+    ]
+  }
+}

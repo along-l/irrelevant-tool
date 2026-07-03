@@ -1,0 +1,67 @@
+{
+  "tool_template_name": "RehabPlanEvaluator",
+  "meta_data": {
+    "base_class": "Evaluate and improve the effectiveness of specific <types of plan> plan and provide recommendations - action schemes with structured goals, execution processes, and outcome evaluation mechanisms",
+    "derived_classes": [
+      "psychological counseling",
+      "language learning",
+      "career",
+      "rehabilitation",
+      "financial",
+      "sleep"
+    ],
+    "base_class_entity": "rehabilitation"
+  },
+  "tool_template": {
+    "name": "Evaluate_<class>_plan",
+    "description": "Generate structured evaluation feedback for a <class> plan based on provided evaluation data.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "plan_id": {
+          "type": "string",
+          "description": "The unique identifier for the <class> plan."
+        },
+        "effectiveness_score": {
+          "type": "integer",
+          "description": "A score representing the effectiveness of the <class> plan, from 1 to 10."
+        }
+      },
+      "required": [
+        "plan_id",
+        "effectiveness_score"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "evaluation_date": {
+      "type": "string",
+      "description": "The date of the <class> plan evaluation in YYYY-MM-DD format."
+    },
+    "comments": {
+      "type": "string",
+      "description": "Comments or suggestions for improving the <class> plan."
+    }
+  },
+  "additional_params": {
+    "goal_alignment": {
+      "type": "boolean",
+      "description": "Indicates whether the <class> plan's goals are aligned with the overall objectives of the organization or individual."
+    },
+    "implementation_timeframe": {
+      "type": "string",
+      "description": "Estimated timeframe required to implement the recommended improvements in the <class> plan, in weeks or months."
+    },
+    "risk_assessment": {
+      "type": "string",
+      "description": "An assessment of potential risks involved in the current <class> plan and its proposed improvements."
+    },
+    "stakeholder_feedback": {
+      "type": "array",
+      "description": "Feedback from key stakeholders involved in the <class> plan, capturing their insights and recommendations.",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

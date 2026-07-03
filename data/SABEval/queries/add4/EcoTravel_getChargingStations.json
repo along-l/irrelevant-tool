@@ -1,0 +1,851 @@
+{
+  "EcoTravel_getChargingStations|:|EV charging station|:|latitude,longitude,time,mapProvider,icon,color,availabilityStatus,minimumRating": {
+    "tool_template_name": "EcoTravel_getChargingStations",
+    "derived_class": "EV charging station",
+    "params_for_query": [
+      "latitude",
+      "longitude",
+      "time",
+      "mapProvider",
+      "icon",
+      "color",
+      "availabilityStatus",
+      "minimumRating"
+    ],
+    "queries": [
+      {
+        "query": "Find nearby EV charging stations at latitude 34.0522 and longitude -118.2437 for 3 PM using Google Maps with a green icon and hex color #00FF00, showing only open stations with a minimum rating of 4.",
+        "filled_param": {
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "time": "3 PM",
+          "mapProvider": "Google Maps",
+          "icon": "green",
+          "color": "#00FF00",
+          "availabilityStatus": "open",
+          "minimumRating": 4
+        }
+      },
+      {
+        "query": "What are the available EV charging stations at 48.8566 latitude and 2.3522 longitude for 10 AM using OpenStreetMap with a blue icon, color code #0000FF, filtering only those that are under maintenance with at least a 2-star rating?",
+        "filled_param": {
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "time": "10 AM",
+          "mapProvider": "OpenStreetMap",
+          "icon": "blue",
+          "color": "#0000FF",
+          "availabilityStatus": "under maintenance",
+          "minimumRating": 2
+        }
+      },
+      {
+        "query": "Please list EV charging stations that are open at latitude 51.5074 and longitude -0.1278 around 8 PM, using Bing Maps with a red icon and marker color #FF0000, requiring a minimum rating of 3.",
+        "filled_param": {
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "time": "8 PM",
+          "mapProvider": "Bing Maps",
+          "icon": "red",
+          "color": "#FF0000",
+          "availabilityStatus": "open",
+          "minimumRating": 3
+        }
+      },
+      {
+        "query": "Can you find EV charging stations closed at 35.6895 latitude and 139.6917 longitude for 5 AM using Mapbox, with a yellow icon and color #FFFF00, and a minimum rating of 2.5?",
+        "filled_param": {
+          "latitude": 35.6895,
+          "longitude": 139.6917,
+          "time": "5 AM",
+          "mapProvider": "Mapbox",
+          "icon": "yellow",
+          "color": "#FFFF00",
+          "availabilityStatus": "closed",
+          "minimumRating": 2.5
+        }
+      },
+      {
+        "query": "Show me EV charging stations at 40.7128 latitude and -74.0060 longitude around 1 PM that are open, using Apple Maps with an orange icon and color #FFA500, having a minimum average rating of 4.5.",
+        "filled_param": {
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "time": "1 PM",
+          "mapProvider": "Apple Maps",
+          "icon": "orange",
+          "color": "#FFA500",
+          "availabilityStatus": "open",
+          "minimumRating": 4.5
+        }
+      }
+    ]
+  },
+  "EcoTravel_getChargingStations|:|power bank rental station|:|latitude,longitude,time,mapProvider,icon,color,availabilityStatus,minimumRating": {
+    "tool_template_name": "EcoTravel_getChargingStations",
+    "derived_class": "power bank rental station",
+    "params_for_query": [
+      "latitude",
+      "longitude",
+      "time",
+      "mapProvider",
+      "icon",
+      "color",
+      "availabilityStatus",
+      "minimumRating"
+    ],
+    "queries": [
+      {
+        "query": "Can you show me the power bank rental station locations at 40.7128 latitude and -74.0060 longitude, available at 3 PM using Google Maps with a battery icon in #FF5733 color, only the open ones with a minimum rating of 4?",
+        "filled_param": {
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "time": "3 PM",
+          "mapProvider": "Google Maps",
+          "icon": "battery",
+          "color": "#FF5733",
+          "availabilityStatus": "open",
+          "minimumRating": 4
+        }
+      },
+      {
+        "query": "Find nearby power bank rental stations at 51.5074 latitude, -0.1278 longitude for 10 AM, displayed on Bing Maps with a plug icon in #3498DB, ensuring they are not under maintenance and have at least a 3.5 rating.",
+        "filled_param": {
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "time": "10 AM",
+          "mapProvider": "Bing Maps",
+          "icon": "plug",
+          "color": "#3498DB",
+          "availabilityStatus": "open",
+          "minimumRating": 3.5
+        }
+      },
+      {
+        "query": "I'm looking for power bank rental stations around 48.8566 latitude, 2.3522 longitude at noon on Apple Maps with a lightning icon in #2ECC71, showing only those open and with a minimum rating of 4.5.",
+        "filled_param": {
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "time": "noon",
+          "mapProvider": "Apple Maps",
+          "icon": "lightning",
+          "color": "#2ECC71",
+          "availabilityStatus": "open",
+          "minimumRating": 4.5
+        }
+      },
+      {
+        "query": "Locate the power bank rental stations in the area of 34.0522 latitude and -118.2437 longitude at 7 PM on OpenStreetMap with a socket icon in #8E44AD, filtering for open status with a rating of 5.",
+        "filled_param": {
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "time": "7 PM",
+          "mapProvider": "OpenStreetMap",
+          "icon": "socket",
+          "color": "#8E44AD",
+          "availabilityStatus": "open",
+          "minimumRating": 5
+        }
+      },
+      {
+        "query": "What are the power bank rental station options at 35.6895 latitude, 139.6917 longitude for 6 AM, shown on MapQuest with a charging icon in #F1C40F, filtering for closed status and a minimum rating of 2?",
+        "filled_param": {
+          "latitude": 35.6895,
+          "longitude": 139.6917,
+          "time": "6 AM",
+          "mapProvider": "MapQuest",
+          "icon": "charging",
+          "color": "#F1C40F",
+          "availabilityStatus": "closed",
+          "minimumRating": 2
+        }
+      }
+    ]
+  },
+  "EcoTravel_getChargingStations|:|gas station|:|latitude,longitude,time,mapProvider,icon,color,availabilityStatus,minimumRating": {
+    "tool_template_name": "EcoTravel_getChargingStations",
+    "derived_class": "gas station",
+    "params_for_query": [
+      "latitude",
+      "longitude",
+      "time",
+      "mapProvider",
+      "icon",
+      "color",
+      "availabilityStatus",
+      "minimumRating"
+    ],
+    "queries": [
+      {
+        "query": "Find gas station locations at latitude 37.7749 and longitude -122.4194 around 9 AM using Google Maps with a star icon colored #FF0000 that are open and have a minimum rating of 4.",
+        "filled_param": {
+          "latitude": 37.7749,
+          "longitude": -122.4194,
+          "time": "9 AM",
+          "mapProvider": "Google Maps",
+          "icon": "star",
+          "color": "#FF0000",
+          "availabilityStatus": "open",
+          "minimumRating": 4
+        }
+      },
+      {
+        "query": "Show me gas station details for location 34.0522, -118.2437 at 3 PM using Bing Maps with a circle icon in #00FF00, only those open and rated at least 3.",
+        "filled_param": {
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "time": "3 PM",
+          "mapProvider": "Bing Maps",
+          "icon": "circle",
+          "color": "#00FF00",
+          "availabilityStatus": "open",
+          "minimumRating": 3
+        }
+      },
+      {
+        "query": "Get the gas station info near 40.7128, -74.0060 at 8 PM with MapQuest, using a square icon in #0000FF, filtering for those closed and with a minimum rating of 2.",
+        "filled_param": {
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "time": "8 PM",
+          "mapProvider": "MapQuest",
+          "icon": "square",
+          "color": "#0000FF",
+          "availabilityStatus": "closed",
+          "minimumRating": 2
+        }
+      },
+      {
+        "query": "Locate gas stations at 51.5074, -0.1278 at noon on Apple Maps, using a triangle icon colored #FFFF00, checking for open ones with at least a 4.5 rating.",
+        "filled_param": {
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "time": "noon",
+          "mapProvider": "Apple Maps",
+          "icon": "triangle",
+          "color": "#FFFF00",
+          "availabilityStatus": "open",
+          "minimumRating": 4.5
+        }
+      },
+      {
+        "query": "What gas stations can I find at 35.6895, 139.6917 at 7 AM on OpenStreetMap, represented by a hexagon icon in #FF00FF, that are under maintenance and have a minimum rating of 1?",
+        "filled_param": {
+          "latitude": 35.6895,
+          "longitude": 139.6917,
+          "time": "7 AM",
+          "mapProvider": "OpenStreetMap",
+          "icon": "hexagon",
+          "color": "#FF00FF",
+          "availabilityStatus": "under maintenance",
+          "minimumRating": 1
+        }
+      }
+    ]
+  },
+  "EcoTravel_getChargingStations|:|ATM|:|latitude,longitude,time,mapProvider,icon,color,availabilityStatus,minimumRating": {
+    "tool_template_name": "EcoTravel_getChargingStations",
+    "derived_class": "ATM",
+    "params_for_query": [
+      "latitude",
+      "longitude",
+      "time",
+      "mapProvider",
+      "icon",
+      "color",
+      "availabilityStatus",
+      "minimumRating"
+    ],
+    "queries": [
+      {
+        "query": "Show me nearby ATM locations at 40.7128 latitude and -74.0060 longitude at 10 AM, using Google Maps, with a star icon in blue color, that are open and have a minimum rating of 3.5.",
+        "filled_param": {
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "time": "10 AM",
+          "mapProvider": "Google Maps",
+          "icon": "star",
+          "color": "#0000FF",
+          "availabilityStatus": "open",
+          "minimumRating": 3.5
+        }
+      },
+      {
+        "query": "Find ATMs around latitude 34.0522, longitude -118.2437 by 3 PM that are open, displayed on Bing Maps with a circle icon in red, and have at least a 4.0 rating.",
+        "filled_param": {
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "time": "3 PM",
+          "mapProvider": "Bing Maps",
+          "icon": "circle",
+          "color": "#FF0000",
+          "availabilityStatus": "open",
+          "minimumRating": 4.0
+        }
+      },
+      {
+        "query": "What available ATMs are near my location, specifically at 51.5074 latitude and -0.1278 longitude, at 7 PM on Apple Maps, represented by a dollar sign icon in green, that are open, and rated at least 2.5 stars?",
+        "filled_param": {
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "time": "7 PM",
+          "mapProvider": "Apple Maps",
+          "icon": "dollar sign",
+          "color": "#008000",
+          "availabilityStatus": "open",
+          "minimumRating": 2.5
+        }
+      },
+      {
+        "query": "Could you list ATMs at latitude 48.8566, longitude 2.3522, available at 1 PM, using OpenStreetMap, with a square icon in yellow, that are open and have a rating of 4.5 or higher?",
+        "filled_param": {
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "time": "1 PM",
+          "mapProvider": "OpenStreetMap",
+          "icon": "square",
+          "color": "#FFFF00",
+          "availabilityStatus": "open",
+          "minimumRating": 4.5
+        }
+      },
+      {
+        "query": "I need ATMs at 35.6895 latitude and 139.6917 longitude by 9 AM on MapQuest with a triangle icon in orange, currently open, and rated no less than 3.0.",
+        "filled_param": {
+          "latitude": 35.6895,
+          "longitude": 139.6917,
+          "time": "9 AM",
+          "mapProvider": "MapQuest",
+          "icon": "triangle",
+          "color": "#FFA500",
+          "availabilityStatus": "open",
+          "minimumRating": 3.0
+        }
+      }
+    ]
+  },
+  "EcoTravel_getChargingStations|:|library|:|latitude,longitude,time,mapProvider,icon,color,availabilityStatus,minimumRating": {
+    "tool_template_name": "EcoTravel_getChargingStations",
+    "derived_class": "library",
+    "params_for_query": [
+      "latitude",
+      "longitude",
+      "time",
+      "mapProvider",
+      "icon",
+      "color",
+      "availabilityStatus",
+      "minimumRating"
+    ],
+    "queries": [
+      {
+        "query": "Can you show me libraries near 34.0522 latitude and -118.2437 longitude available at 3 PM with Google Maps? Use a book icon and blue color for libraries that are open and have a minimum rating of 4.",
+        "filled_param": {
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "time": "3 PM",
+          "mapProvider": "Google Maps",
+          "icon": "book",
+          "color": "#0000FF",
+          "availabilityStatus": "open",
+          "minimumRating": 4
+        }
+      },
+      {
+        "query": "Find libraries at 51.5074 latitude, -0.1278 longitude that are open at 10 AM using Mapbox. Display them with a library icon in green color and only include those with a rating of 3 or above.",
+        "filled_param": {
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "time": "10 AM",
+          "mapProvider": "Mapbox",
+          "icon": "library",
+          "color": "#008000",
+          "availabilityStatus": "open",
+          "minimumRating": 3
+        }
+      },
+      {
+        "query": "Show me the libraries around 35.6895 latitude and 139.6917 longitude that are closed at 8 PM on Bing Maps. Use a closed book icon with red color, and consider only those with a minimum rating of 2.5.",
+        "filled_param": {
+          "latitude": 35.6895,
+          "longitude": 139.6917,
+          "time": "8 PM",
+          "mapProvider": "Bing Maps",
+          "icon": "closed book",
+          "color": "#FF0000",
+          "availabilityStatus": "closed",
+          "minimumRating": 2.5
+        }
+      },
+      {
+        "query": "Which libraries are under maintenance at 37.7749 latitude and -122.4194 longitude at 5 PM with Apple Maps? Use a caution icon and yellow color, filtering for those rated at least 3.5.",
+        "filled_param": {
+          "latitude": 37.7749,
+          "longitude": -122.4194,
+          "time": "5 PM",
+          "mapProvider": "Apple Maps",
+          "icon": "caution",
+          "color": "#FFFF00",
+          "availabilityStatus": "under maintenance",
+          "minimumRating": 3.5
+        }
+      },
+      {
+        "query": "Locate libraries at 40.7128 latitude, -74.0060 longitude that are open at 11 AM using OpenStreetMap. Use a book stack icon with purple color, and filter for a minimum rating of 4.5.",
+        "filled_param": {
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "time": "11 AM",
+          "mapProvider": "OpenStreetMap",
+          "icon": "book stack",
+          "color": "#800080",
+          "availabilityStatus": "open",
+          "minimumRating": 4.5
+        }
+      },
+      {
+        "query": "I need information on libraries at 48.8566 latitude and 2.3522 longitude that are available at noon via Google Maps. Display them with an info icon in orange color, filtering out those with a rating below 2.",
+        "filled_param": {
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "time": "noon",
+          "mapProvider": "Google Maps",
+          "icon": "info",
+          "color": "#FFA500",
+          "availabilityStatus": "open",
+          "minimumRating": 2
+        }
+      }
+    ]
+  },
+  "EcoTravel_getChargingStations|:|post office|:|latitude,longitude,time,mapProvider,icon,color,availabilityStatus,minimumRating": {
+    "tool_template_name": "EcoTravel_getChargingStations",
+    "derived_class": "post office",
+    "params_for_query": [
+      "latitude",
+      "longitude",
+      "time",
+      "mapProvider",
+      "icon",
+      "color",
+      "availabilityStatus",
+      "minimumRating"
+    ],
+    "queries": [
+      {
+        "query": "Find a post office near me at latitude 34.0522 and longitude -118.2437 using Google Maps. I need it to be open at 10 AM, marked with a star icon in #FF0000 color, and having at least a 4.0 rating.",
+        "filled_param": {
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "time": "10:00",
+          "mapProvider": "Google Maps",
+          "icon": "star",
+          "color": "#FF0000",
+          "availabilityStatus": "open",
+          "minimumRating": 4.0
+        }
+      },
+      {
+        "query": "Where can I find a post office open at 3 PM around coordinates 40.7128, -74.0060 using OpenStreetMap with a pin icon in #0000FF and a minimum rating of 3.5?",
+        "filled_param": {
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "time": "15:00",
+          "mapProvider": "OpenStreetMap",
+          "icon": "pin",
+          "color": "#0000FF",
+          "availabilityStatus": "open",
+          "minimumRating": 3.5
+        }
+      },
+      {
+        "query": "Show me a closed post office with a rating of at least 2.0 near latitude 51.5074 and longitude -0.1278 on Bing Maps, marked with a circle icon in #00FF00 at 6 PM.",
+        "filled_param": {
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "time": "18:00",
+          "mapProvider": "Bing Maps",
+          "icon": "circle",
+          "color": "#00FF00",
+          "availabilityStatus": "closed",
+          "minimumRating": 2.0
+        }
+      },
+      {
+        "query": "Locate a post office under maintenance at 8 AM near 35.6895, 139.6917 using MapQuest, with a square icon in #FFFF00 and a rating of at least 4.5.",
+        "filled_param": {
+          "latitude": 35.6895,
+          "longitude": 139.6917,
+          "time": "08:00",
+          "mapProvider": "MapQuest",
+          "icon": "square",
+          "color": "#FFFF00",
+          "availabilityStatus": "under maintenance",
+          "minimumRating": 4.5
+        }
+      },
+      {
+        "query": "Using Apple Maps, find an open post office at 2 PM near the coordinates 48.8566, 2.3522. It should be represented with a triangle icon in #FFA500 color and have a minimum rating of 4.2.",
+        "filled_param": {
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "time": "14:00",
+          "mapProvider": "Apple Maps",
+          "icon": "triangle",
+          "color": "#FFA500",
+          "availabilityStatus": "open",
+          "minimumRating": 4.2
+        }
+      },
+      {
+        "query": "Could you find a post office open at 11 AM near latitude 37.7749 and longitude -122.4194 using Here Maps? I want it marked with a flag icon in #8A2BE2 and a minimum rating of 3.8.",
+        "filled_param": {
+          "latitude": 37.7749,
+          "longitude": -122.4194,
+          "time": "11:00",
+          "mapProvider": "Here Maps",
+          "icon": "flag",
+          "color": "#8A2BE2",
+          "availabilityStatus": "open",
+          "minimumRating": 3.8
+        }
+      }
+    ]
+  },
+  "EcoTravel_getChargingStations|:|hospital|:|latitude,longitude,time,mapProvider,icon,color,availabilityStatus,minimumRating": {
+    "tool_template_name": "EcoTravel_getChargingStations",
+    "derived_class": "hospital",
+    "params_for_query": [
+      "latitude",
+      "longitude",
+      "time",
+      "mapProvider",
+      "icon",
+      "color",
+      "availabilityStatus",
+      "minimumRating"
+    ],
+    "queries": [
+      {
+        "query": "Find nearby hospital locations that are open at 10:00 AM with a minimum rating of 4.5, using Google Maps, with a cross icon in red color. Current coordinates are 40.7128 latitude and -74.0060 longitude.",
+        "filled_param": {
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "time": "10:00 AM",
+          "mapProvider": "Google Maps",
+          "icon": "cross",
+          "color": "#FF0000",
+          "availabilityStatus": "open",
+          "minimumRating": 4.5
+        }
+      },
+      {
+        "query": "At 2:00 PM, show me hospitals that are closed in the vicinity of 34.0522 latitude and -118.2437 longitude. Use Bing Maps with a hospital symbol icon, and mark them in blue, requiring at least a rating of 3.",
+        "filled_param": {
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "time": "2:00 PM",
+          "mapProvider": "Bing Maps",
+          "icon": "hospital symbol",
+          "color": "#0000FF",
+          "availabilityStatus": "closed",
+          "minimumRating": 3
+        }
+      },
+      {
+        "query": "Provide a list of hospitals under maintenance at 8:00 AM around the area of 51.5074 latitude and -0.1278 longitude. Use OpenStreetMap, display with a plus sign icon in green, and ensure they have a rating of at least 2.",
+        "filled_param": {
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "time": "8:00 AM",
+          "mapProvider": "OpenStreetMap",
+          "icon": "plus sign",
+          "color": "#00FF00",
+          "availabilityStatus": "under maintenance",
+          "minimumRating": 2
+        }
+      },
+      {
+        "query": "I’m looking for open hospitals at 5:00 PM near 35.6895 latitude and 139.6917 longitude, using Apple Maps. Show them with a heart icon in yellow, with at least a 4-star rating.",
+        "filled_param": {
+          "latitude": 35.6895,
+          "longitude": 139.6917,
+          "time": "5:00 PM",
+          "mapProvider": "Apple Maps",
+          "icon": "heart",
+          "color": "#FFFF00",
+          "availabilityStatus": "open",
+          "minimumRating": 4
+        }
+      },
+      {
+        "query": "Check for hospitals open at 11:30 AM around 48.8566 latitude and 2.3522 longitude on MapQuest. Use a red cross icon and a rating requirement of at least 3.5, with the markers colored pink.",
+        "filled_param": {
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "time": "11:30 AM",
+          "mapProvider": "MapQuest",
+          "icon": "red cross",
+          "color": "#FFC0CB",
+          "availabilityStatus": "open",
+          "minimumRating": 3.5
+        }
+      },
+      {
+        "query": "List hospitals currently under maintenance near 37.7749 latitude and -122.4194 longitude at 9:00 PM, using Waze with a hospital icon marked in purple, requiring a minimum rating of 4.",
+        "filled_param": {
+          "latitude": 37.7749,
+          "longitude": -122.4194,
+          "time": "9:00 PM",
+          "mapProvider": "Waze",
+          "icon": "hospital",
+          "color": "#800080",
+          "availabilityStatus": "under maintenance",
+          "minimumRating": 4
+        }
+      }
+    ]
+  },
+  "EcoTravel_getChargingStations|:|public restroom|:|latitude,longitude,time,mapProvider,icon,color,availabilityStatus,minimumRating": {
+    "tool_template_name": "EcoTravel_getChargingStations",
+    "derived_class": "public restroom",
+    "params_for_query": [
+      "latitude",
+      "longitude",
+      "time",
+      "mapProvider",
+      "icon",
+      "color",
+      "availabilityStatus",
+      "minimumRating"
+    ],
+    "queries": [
+      {
+        "query": "Can you find public restroom locations around latitude 40.748817, longitude -73.985428 at 3 PM using Google Maps with a star icon in blue color, and only show those that are open with at least a 4.5 rating?",
+        "filled_param": {
+          "latitude": 40.748817,
+          "longitude": -73.985428,
+          "time": "3 PM",
+          "mapProvider": "Google Maps",
+          "icon": "star",
+          "color": "#0000FF",
+          "availabilityStatus": "open",
+          "minimumRating": 4.5
+        }
+      },
+      {
+        "query": "I need public restroom availability near latitude 34.052235, longitude -118.243683 at 10 AM with Mapbox. Use a circle icon and green marker. Show only those that are closed with a minimum rating of 3.0.",
+        "filled_param": {
+          "latitude": 34.052235,
+          "longitude": -118.243683,
+          "time": "10 AM",
+          "mapProvider": "Mapbox",
+          "icon": "circle",
+          "color": "#008000",
+          "availabilityStatus": "closed",
+          "minimumRating": 3.0
+        }
+      },
+      {
+        "query": "Locate public restrooms at latitude 51.507351, longitude -0.127758 by 6 PM on OpenStreetMap, marked with a square icon in red. Filter out those under maintenance and ensure at least a 4.0 rating.",
+        "filled_param": {
+          "latitude": 51.507351,
+          "longitude": -0.127758,
+          "time": "6 PM",
+          "mapProvider": "OpenStreetMap",
+          "icon": "square",
+          "color": "#FF0000",
+          "availabilityStatus": "under maintenance",
+          "minimumRating": 4.0
+        }
+      },
+      {
+        "query": "What public restroom options are available at latitude 48.856614, longitude 2.352222 around noon with Bing Maps, showing a triangle icon in yellow, currently open with at least a 4.8 rating?",
+        "filled_param": {
+          "latitude": 48.856614,
+          "longitude": 2.352222,
+          "time": "noon",
+          "mapProvider": "Bing Maps",
+          "icon": "triangle",
+          "color": "#FFFF00",
+          "availabilityStatus": "open",
+          "minimumRating": 4.8
+        }
+      },
+      {
+        "query": "Check for public restrooms near latitude 35.689487, longitude 139.691706 at 5 PM using Apple Maps. Use a heart icon in purple color, filtering only those open with a minimum rating of 3.5.",
+        "filled_param": {
+          "latitude": 35.689487,
+          "longitude": 139.691706,
+          "time": "5 PM",
+          "mapProvider": "Apple Maps",
+          "icon": "heart",
+          "color": "#800080",
+          "availabilityStatus": "open",
+          "minimumRating": 3.5
+        }
+      }
+    ]
+  },
+  "EcoTravel_getChargingStations|:|police station|:|latitude,longitude,time,mapProvider,icon,color,availabilityStatus,minimumRating": {
+    "tool_template_name": "EcoTravel_getChargingStations",
+    "derived_class": "police station",
+    "params_for_query": [
+      "latitude",
+      "longitude",
+      "time",
+      "mapProvider",
+      "icon",
+      "color",
+      "availabilityStatus",
+      "minimumRating"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide information on police stations near latitude 34.0522 and longitude -118.2437 at 9 AM using Google Maps with a star icon, #0000FF color, that are open and have a minimum rating of 4.5?",
+        "filled_param": {
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "time": "9 AM",
+          "mapProvider": "Google Maps",
+          "icon": "star",
+          "color": "#0000FF",
+          "availabilityStatus": "open",
+          "minimumRating": 4.5
+        }
+      },
+      {
+        "query": "I'm looking for police station data around latitude 51.5074, longitude -0.1278 at 3 PM, using OpenStreetMap, with a shield icon in #FF5733, only showing those that are closed and have a minimum rating of 3.",
+        "filled_param": {
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "time": "3 PM",
+          "mapProvider": "OpenStreetMap",
+          "icon": "shield",
+          "color": "#FF5733",
+          "availabilityStatus": "closed",
+          "minimumRating": 3
+        }
+      },
+      {
+        "query": "Find police station locations for coordinates 40.7128 and -74.0060 at 8 AM using Bing Maps with a badge icon and #8A2BE2 color, showing only stations that are under maintenance and rated at least 2.5.",
+        "filled_param": {
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "time": "8 AM",
+          "mapProvider": "Bing Maps",
+          "icon": "badge",
+          "color": "#8A2BE2",
+          "availabilityStatus": "under maintenance",
+          "minimumRating": 2.5
+        }
+      },
+      {
+        "query": "Please get me the details of police stations at latitude 41.8781, longitude -87.6298, at 11 AM via Mapbox using the marker icon in #FF69B4 color, filtering for those that are open with a minimum rating of 4.0.",
+        "filled_param": {
+          "latitude": 41.8781,
+          "longitude": -87.6298,
+          "time": "11 AM",
+          "mapProvider": "Mapbox",
+          "icon": "marker",
+          "color": "#FF69B4",
+          "availabilityStatus": "open",
+          "minimumRating": 4.0
+        }
+      },
+      {
+        "query": "Show me police stations at latitude 37.7749 and longitude -122.4194 available at 5 PM, using HERE Maps with a cross icon, in #32CD32, that are closed, having a minimum rating of 3.5.",
+        "filled_param": {
+          "latitude": 37.7749,
+          "longitude": -122.4194,
+          "time": "5 PM",
+          "mapProvider": "HERE Maps",
+          "icon": "cross",
+          "color": "#32CD32",
+          "availabilityStatus": "closed",
+          "minimumRating": 3.5
+        }
+      }
+    ]
+  },
+  "EcoTravel_getChargingStations|:|blood donation site|:|latitude,longitude,time,mapProvider,icon,color,availabilityStatus,minimumRating": {
+    "tool_template_name": "EcoTravel_getChargingStations",
+    "derived_class": "blood donation site",
+    "params_for_query": [
+      "latitude",
+      "longitude",
+      "time",
+      "mapProvider",
+      "icon",
+      "color",
+      "availabilityStatus",
+      "minimumRating"
+    ],
+    "queries": [
+      {
+        "query": "Can you find blood donation sites around latitude 34.0522 and longitude -118.2437 available at 2 PM using Google Maps with a star icon, marked in red, that are currently open and have a minimum rating of 4?",
+        "filled_param": {
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "time": "2 PM",
+          "mapProvider": "Google Maps",
+          "icon": "star",
+          "color": "#FF0000",
+          "availabilityStatus": "open",
+          "minimumRating": 4
+        }
+      },
+      {
+        "query": "I need information on blood donation sites near latitude 51.5074 and longitude -0.1278 that are open at 10 AM with a heart icon on Bing Maps, colored blue, and have at least a 3.5 rating.",
+        "filled_param": {
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "time": "10 AM",
+          "mapProvider": "Bing Maps",
+          "icon": "heart",
+          "color": "#0000FF",
+          "availabilityStatus": "open",
+          "minimumRating": 3.5
+        }
+      },
+      {
+        "query": "Show nearby blood donation sites at latitude 40.7128 and longitude -74.0060 that are open at 11 AM using Apple Maps with a cross icon, in green color, and have a minimum rating of 4.5.",
+        "filled_param": {
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "time": "11 AM",
+          "mapProvider": "Apple Maps",
+          "icon": "cross",
+          "color": "#00FF00",
+          "availabilityStatus": "open",
+          "minimumRating": 4.5
+        }
+      },
+      {
+        "query": "Identify blood donation sites around latitude 48.8566 and longitude 2.3522 open at 3 PM with a square icon on MapQuest, colored yellow, and at least a 4-star rating.",
+        "filled_param": {
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "time": "3 PM",
+          "mapProvider": "MapQuest",
+          "icon": "square",
+          "color": "#FFFF00",
+          "availabilityStatus": "open",
+          "minimumRating": 4
+        }
+      },
+      {
+        "query": "Locate any blood donation sites at latitude 35.6895 and longitude 139.6917 that are open at 9 AM on OpenStreetMap with a circle icon, marked with purple, with a rating of at least 3.",
+        "filled_param": {
+          "latitude": 35.6895,
+          "longitude": 139.6917,
+          "time": "9 AM",
+          "mapProvider": "OpenStreetMap",
+          "icon": "circle",
+          "color": "#800080",
+          "availabilityStatus": "open",
+          "minimumRating": 3
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,839 @@
+{
+  "animal_sound_recognition|:|Mammalia|:|audio_clip,time_of_day,latitude": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Mammalia",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude"
+    ],
+    "queries": [
+      {
+        "query": "Can you identify which Mammalia this sound belongs to using the audio clip recorded at Dawn with a latitude of 34.0522?",
+        "filled_param": {
+          "audio_clip": "<base64_encoded_audio_clip>",
+          "time_of_day": "Dawn",
+          "latitude": 34.0522
+        }
+      },
+      {
+        "query": "What Mammalia is making this noise in the audio clip recorded at Night on a latitude of 48.8566?",
+        "filled_param": {
+          "audio_clip": "<base64_encoded_audio_clip>",
+          "time_of_day": "Night",
+          "latitude": 48.8566
+        }
+      },
+      {
+        "query": "Can you recognize the Mammalia from this sound clip recorded in the Afternoon with a latitude of 51.5074?",
+        "filled_param": {
+          "audio_clip": "<base64_encoded_audio_clip>",
+          "time_of_day": "Afternoon",
+          "latitude": 51.5074
+        }
+      },
+      {
+        "query": "Identify the Mammalia based on the audio clip captured in the Evening at a latitude of 40.7128.",
+        "filled_param": {
+          "audio_clip": "<base64_encoded_audio_clip>",
+          "time_of_day": "Evening",
+          "latitude": 40.7128
+        }
+      },
+      {
+        "query": "What type of Mammalia can be identified from this sound recorded at Noon at a latitude of -33.8688?",
+        "filled_param": {
+          "audio_clip": "<base64_encoded_audio_clip>",
+          "time_of_day": "Noon",
+          "latitude": -33.8688
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Aves|:|audio_clip,time_of_day,latitude": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Aves",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude"
+    ],
+    "queries": [
+      {
+        "query": "I have an Aves sound recorded at dawn, latitude 37.7749. The sound is encoded as 'QmFzZTY0RW5jb2RlZE1lc3NhZ2U='.",
+        "filled_param": {
+          "audio_clip": "QmFzZTY0RW5jb2RlZE1lc3NhZ2U=",
+          "time_of_day": "Dawn",
+          "latitude": 37.7749
+        }
+      },
+      {
+        "query": "Can you identify the Aves from this sound, 'U29tZUJhc2U2NEF1ZGlvQ2xpcA==', recorded in the morning at a latitude of 48.8566?",
+        "filled_param": {
+          "audio_clip": "U29tZUJhc2U2NEF1ZGlvQ2xpcA==",
+          "time_of_day": "Morning",
+          "latitude": 48.8566
+        }
+      },
+      {
+        "query": "Help identify the bird using the encoded sound 'QW5vdGhlckVuY29kZWRBbmltYWxTb3VuZA==' captured at noon with a latitude of -23.5505.",
+        "filled_param": {
+          "audio_clip": "QW5vdGhlckVuY29kZWRBbmltYWxTb3VuZA==",
+          "time_of_day": "Noon",
+          "latitude": -23.5505
+        }
+      },
+      {
+        "query": "What Aves is this? The sound was recorded in the afternoon at a latitude of 51.5074, encoded as 'QmlyZFNvdW5kRW5jb2RlZFZhbHVl'.",
+        "filled_param": {
+          "audio_clip": "QmlyZFNvdW5kRW5jb2RlZFZhbHVl",
+          "time_of_day": "Afternoon",
+          "latitude": 51.5074
+        }
+      },
+      {
+        "query": "I need to identify an Aves sound recorded at night with the encoded audio 'TmV3RW5jb2RlZFNvdW5k' and latitude 34.0522.",
+        "filled_param": {
+          "audio_clip": "TmV3RW5jb2RlZFNvdW5k",
+          "time_of_day": "Night",
+          "latitude": 34.0522
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Reptilia|:|audio_clip,time_of_day,latitude": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Reptilia",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude"
+    ],
+    "queries": [
+      {
+        "query": "Can you identify the Reptilia from the sound recorded at night with a latitude of 34.0522? The audio clip is encoded as U3RhcnRCYXNlNjRFbmNvZGVkU3RyaW5n.",
+        "filled_param": {
+          "audio_clip": "U3RhcnRCYXNlNjRFbmNvZGVkU3RyaW5n",
+          "time_of_day": "Night",
+          "latitude": 34.0522
+        }
+      },
+      {
+        "query": "I have a base64 audio clip string from a Reptilia sound captured during the afternoon at a latitude of 48.8566. The audio string is QW5vdGhlckVuY29kZWRBdWRpb1N0cmluZw==. Could you identify it?",
+        "filled_param": {
+          "audio_clip": "QW5vdGhlckVuY29kZWRBdWRpb1N0cmluZw==",
+          "time_of_day": "Afternoon",
+          "latitude": 48.8566
+        }
+      },
+      {
+        "query": "Please identify the Reptilia from this base64 audio string: VGVzdEJhc2U2NEF1ZGlvU3RyaW5n. It was recorded in the morning at a latitude of -23.5505.",
+        "filled_param": {
+          "audio_clip": "VGVzdEJhc2U2NEF1ZGlvU3RyaW5n",
+          "time_of_day": "Morning",
+          "latitude": -23.5505
+        }
+      },
+      {
+        "query": "What Reptilia is this, based on the sound recorded at dawn? The latitude is 51.5074 and the audio clip is encoded as QmFzZTY0U3RyTGlzdGVuSW5n.",
+        "filled_param": {
+          "audio_clip": "QmFzZTY0U3RyTGlzdGVuSW5n",
+          "time_of_day": "Dawn",
+          "latitude": 51.5074
+        }
+      },
+      {
+        "query": "There's a sound recorded at noon at latitude 40.7128. The base64 audio string is U29tZUJhc2U2NFNvdW5kU3RyaW5n. Can you identify the Reptilia?",
+        "filled_param": {
+          "audio_clip": "U29tZUJhc2U2NFNvdW5kU3RyaW5n",
+          "time_of_day": "Noon",
+          "latitude": 40.7128
+        }
+      },
+      {
+        "query": "Try to identify the Reptilia from this sound recorded in the evening at 37.7749 latitude. Here’s the base64 string: U29tZUVuY29kZWRCYXNlNjRTdHJpbmc=.",
+        "filled_param": {
+          "audio_clip": "U29tZUVuY29kZWRCYXNlNjRTdHJpbmc=",
+          "time_of_day": "Evening",
+          "latitude": 37.7749
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Amphibia|:|audio_clip,time_of_day,latitude": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Amphibia",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude"
+    ],
+    "queries": [
+      {
+        "query": "I have an Amphibia sound recording captured at latitude 34.0522. It was recorded in the evening. Here's the sound in base64: U29tZUJhc2U2NFNvdW5k",
+        "filled_param": {
+          "audio_clip": "U29tZUJhc2U2NFNvdW5k",
+          "time_of_day": "Evening",
+          "latitude": 34.0522
+        }
+      },
+      {
+        "query": "Please identify the Amphibia from this audio: QmFzZTY0U291bmQxMjM=, recorded at latitude -15.789 and during the night.",
+        "filled_param": {
+          "audio_clip": "QmFzZTY0U291bmQxMjM=",
+          "time_of_day": "Night",
+          "latitude": -15.789
+        }
+      },
+      {
+        "query": "What Amphibia could this be? The sound in base64 is TmV3QmFzZTY0U291bmQ=, recorded at latitude 51.5074 in the morning.",
+        "filled_param": {
+          "audio_clip": "TmV3QmFzZTY0U291bmQ=",
+          "time_of_day": "Morning",
+          "latitude": 51.5074
+        }
+      },
+      {
+        "query": "Help me identify this Amphibia. The base64 audio string is QW5vdGhlckJhc2U2NEVuY29kZWRTb3VuZA==, recorded during noon at latitude 40.7128.",
+        "filled_param": {
+          "audio_clip": "QW5vdGhlckJhc2U2NEVuY29kZWRTb3VuZA==",
+          "time_of_day": "Noon",
+          "latitude": 40.7128
+        }
+      },
+      {
+        "query": "Can you tell what type of Amphibia this is? The sound (base64): QW1waGliaWFOb2lzZUJhc2U2NA== was recorded at -23.5505 latitude in the afternoon.",
+        "filled_param": {
+          "audio_clip": "QW1waGliaWFOb2lzZUJhc2U2NA==",
+          "time_of_day": "Afternoon",
+          "latitude": -23.5505
+        }
+      },
+      {
+        "query": "Here's an Amphibia sound string: QmVzdEJhc2U2NFNvdW5kRXZlcg==, recorded at latitude 37.7749, captured at dawn. Could you identify it?",
+        "filled_param": {
+          "audio_clip": "QmVzdEJhc2U2NFNvdW5kRXZlcg==",
+          "time_of_day": "Dawn",
+          "latitude": 37.7749
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Pisces|:|audio_clip,time_of_day,latitude": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Pisces",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude"
+    ],
+    "queries": [
+      {
+        "query": "I captured a Pisces sound at 37.7749 latitude during the Morning. Here's the audio data: UklGRiQAAABXQVZFZm10IBAAAAABAAIARKwAABCxAgAEABAAZGF0YQAAAAA=",
+        "filled_param": {
+          "audio_clip": "UklGRiQAAABXQVZFZm10IBAAAAABAAIARKwAABCxAgAEABAAZGF0YQAAAAA=",
+          "time_of_day": "Morning",
+          "latitude": 37.7749
+        }
+      },
+      {
+        "query": "Analyze this Pisces sound recorded in the Evening at latitude -23.5505: aGVsbG8gd29ybGQ=",
+        "filled_param": {
+          "audio_clip": "aGVsbG8gd29ybGQ=",
+          "time_of_day": "Evening",
+          "latitude": -23.5505
+        }
+      },
+      {
+        "query": "Here's an audio clip of a Pisces I recorded at noon, latitude 51.5074: ZGF0YXVwbG9hZA==",
+        "filled_param": {
+          "audio_clip": "ZGF0YXVwbG9hZA==",
+          "time_of_day": "Noon",
+          "latitude": 51.5074
+        }
+      },
+      {
+        "query": "Can you identify this Pisces sound captured at dawn from latitude 40.7128? Audio: c2FtcGxlIGF1ZGlv",
+        "filled_param": {
+          "audio_clip": "c2FtcGxlIGF1ZGlv",
+          "time_of_day": "Dawn",
+          "latitude": 40.7128
+        }
+      },
+      {
+        "query": "Decode this Pisces audio sound clip recorded at night with latitude 34.0522: Q29udGVudCBvZiB0aGUgYXVkaW8=",
+        "filled_param": {
+          "audio_clip": "Q29udGVudCBvZiB0aGUgYXVkaW8=",
+          "time_of_day": "Night",
+          "latitude": 34.0522
+        }
+      },
+      {
+        "query": "I need to know which Pisces this is from the afternoon recording at 48.8566 latitude. Audio data: YmFzZTY0ZW5jb2RlZGF1ZGlv",
+        "filled_param": {
+          "audio_clip": "YmFzZTY0ZW5jb2RlZGF1ZGlv",
+          "time_of_day": "Afternoon",
+          "latitude": 48.8566
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Insecta|:|audio_clip,time_of_day,latitude": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Insecta",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude"
+    ],
+    "queries": [
+      {
+        "query": "I recorded an Insecta sound at 34.0522 latitude during the afternoon. Here is the audio: UklGRiQAAABXQVZFZm10IBAAAAABAAEAgLsAAAB3AQACABAAZGF0YQAAAAA=",
+        "filled_param": {
+          "audio_clip": "UklGRiQAAABXQVZFZm10IBAAAAABAAEAgLsAAAB3AQACABAAZGF0YQAAAAA=",
+          "time_of_day": "Afternoon",
+          "latitude": 34.0522
+        }
+      },
+      {
+        "query": "Can you identify the Insecta from this sound recorded at latitude -23.5505 in the morning? Audio: dGVzdGF1ZGlvY2xpcA==",
+        "filled_param": {
+          "audio_clip": "dGVzdGF1ZGlvY2xpcA==",
+          "time_of_day": "Morning",
+          "latitude": -23.5505
+        }
+      },
+      {
+        "query": "Here's an audio of an Insecta sound captured at 51.5074 latitude at night: aW5zZWN0YXNvdW5kZGF0YQ==",
+        "filled_param": {
+          "audio_clip": "aW5zZWN0YXNvdW5kZGF0YQ==",
+          "time_of_day": "Night",
+          "latitude": 51.5074
+        }
+      },
+      {
+        "query": "Identify the Insecta from this clip recorded at latitude 40.7128 during dawn: c291bmRzYW1wbGVhdWRpbw==",
+        "filled_param": {
+          "audio_clip": "c291bmRzYW1wbGVhdWRpbw==",
+          "time_of_day": "Dawn",
+          "latitude": 40.7128
+        }
+      },
+      {
+        "query": "What Insecta is this? It was recorded at 48.8566 latitude in the evening. Audio: YXVkaW9jbGlwdGVzdA==",
+        "filled_param": {
+          "audio_clip": "YXVkaW9jbGlwdGVzdA==",
+          "time_of_day": "Evening",
+          "latitude": 48.8566
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Arachnida|:|audio_clip,time_of_day,latitude": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Arachnida",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude"
+    ],
+    "queries": [
+      {
+        "query": "Identify the Arachnida from this sound recorded at dawn at latitude 34.0522.",
+        "filled_param": {
+          "audio_clip": "base64AudioString1",
+          "time_of_day": "Dawn",
+          "latitude": 34.0522
+        }
+      },
+      {
+        "query": "What Arachnida is making this noise recorded in the evening at 48.8566 latitude?",
+        "filled_param": {
+          "audio_clip": "base64AudioString2",
+          "time_of_day": "Evening",
+          "latitude": 48.8566
+        }
+      },
+      {
+        "query": "Can you identify the Arachnida from the sound captured at night with a latitude of 51.5074?",
+        "filled_param": {
+          "audio_clip": "base64AudioString3",
+          "time_of_day": "Night",
+          "latitude": 51.5074
+        }
+      },
+      {
+        "query": "Which Arachnida is this, recorded at noon at the 40.7128 latitude?",
+        "filled_param": {
+          "audio_clip": "base64AudioString4",
+          "time_of_day": "Noon",
+          "latitude": 40.7128
+        }
+      },
+      {
+        "query": "Determine the Arachnida species from this morning recording at latitude -33.8688.",
+        "filled_param": {
+          "audio_clip": "base64AudioString5",
+          "time_of_day": "Morning",
+          "latitude": -33.8688
+        }
+      },
+      {
+        "query": "Analyze this sound recorded in the afternoon at a latitude of 35.6895 to identify the Arachnida.",
+        "filled_param": {
+          "audio_clip": "base64AudioString6",
+          "time_of_day": "Afternoon",
+          "latitude": 35.6895
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Crustacea|:|audio_clip,time_of_day,latitude": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Crustacea",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude"
+    ],
+    "queries": [
+      {
+        "query": "Could you identify the Crustacea from this audio clip recorded at 42.3601 latitude in the afternoon?",
+        "filled_param": {
+          "audio_clip": "base64_audio_string_1",
+          "time_of_day": "Afternoon",
+          "latitude": 42.3601
+        }
+      },
+      {
+        "query": "What Crustacea is this, based on a sound recorded at night at a latitude of -33.8688?",
+        "filled_param": {
+          "audio_clip": "base64_audio_string_2",
+          "time_of_day": "Night",
+          "latitude": -33.8688
+        }
+      },
+      {
+        "query": "Identify the Crustacea from the audio recorded at noon at 34.0522 latitude.",
+        "filled_param": {
+          "audio_clip": "base64_audio_string_3",
+          "time_of_day": "Noon",
+          "latitude": 34.0522
+        }
+      },
+      {
+        "query": "Can you determine which Crustacea this is from a sound captured in the morning at 51.5074 latitude?",
+        "filled_param": {
+          "audio_clip": "base64_audio_string_4",
+          "time_of_day": "Morning",
+          "latitude": 51.5074
+        }
+      },
+      {
+        "query": "I have an audio clip of a Crustacea recorded at dawn at 48.8566 latitude. What is it?",
+        "filled_param": {
+          "audio_clip": "base64_audio_string_5",
+          "time_of_day": "Dawn",
+          "latitude": 48.8566
+        }
+      },
+      {
+        "query": "Please identify the Crustacea from this recording done in the evening at a latitude of 37.7749.",
+        "filled_param": {
+          "audio_clip": "base64_audio_string_6",
+          "time_of_day": "Evening",
+          "latitude": 37.7749
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Gastropoda|:|audio_clip,time_of_day,latitude": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Gastropoda",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude"
+    ],
+    "queries": [
+      {
+        "query": "Can you identify the Gastropoda species from this sound recorded as an audio clip encoded in Base64, captured in the morning at a latitude of 34.0522?",
+        "filled_param": {
+          "audio_clip": "Base64 encoded audio clip string",
+          "time_of_day": "Morning",
+          "latitude": 34.0522
+        }
+      },
+      {
+        "query": "What Gastropoda is making this sound in the Base64 audio clip captured at night with a latitude of 48.8566?",
+        "filled_param": {
+          "audio_clip": "Base64 encoded audio clip string",
+          "time_of_day": "Night",
+          "latitude": 48.8566
+        }
+      },
+      {
+        "query": "Identify the Gastropoda from the sound in this Base64 string recorded at noon at a latitude of -33.8688.",
+        "filled_param": {
+          "audio_clip": "Base64 encoded audio clip string",
+          "time_of_day": "Noon",
+          "latitude": -33.8688
+        }
+      },
+      {
+        "query": "Can you determine which Gastropoda was recorded in this Base64 audio clip during the afternoon at a latitude of 51.5074?",
+        "filled_param": {
+          "audio_clip": "Base64 encoded audio clip string",
+          "time_of_day": "Afternoon",
+          "latitude": 51.5074
+        }
+      },
+      {
+        "query": "This Base64 audio clip captured in the evening has a Gastropoda sound. Can you tell me which one it is, considering it's at a latitude of 40.7128?",
+        "filled_param": {
+          "audio_clip": "Base64 encoded audio clip string",
+          "time_of_day": "Evening",
+          "latitude": 40.7128
+        }
+      },
+      {
+        "query": "Help me identify the Gastropoda from the sound in this Base64 clip, recorded at dawn at a latitude of -23.5505.",
+        "filled_param": {
+          "audio_clip": "Base64 encoded audio clip string",
+          "time_of_day": "Dawn",
+          "latitude": -23.5505
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Cephalopoda|:|audio_clip,time_of_day,latitude": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Cephalopoda",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude"
+    ],
+    "queries": [
+      {
+        "query": "Identify the Cephalopoda from this sound recorded at dawn with the location's latitude being 36.7783.",
+        "filled_param": {
+          "audio_clip": "base64_encoded_sound_data_1",
+          "time_of_day": "Dawn",
+          "latitude": 36.7783
+        }
+      },
+      {
+        "query": "What Cephalopoda could this be if the sound was captured at night at a latitude of 12.9716?",
+        "filled_param": {
+          "audio_clip": "base64_encoded_sound_data_2",
+          "time_of_day": "Night",
+          "latitude": 12.9716
+        }
+      },
+      {
+        "query": "Please determine the Cephalopoda from the audio recorded in the morning at a latitude of 51.5074.",
+        "filled_param": {
+          "audio_clip": "base64_encoded_sound_data_3",
+          "time_of_day": "Morning",
+          "latitude": 51.5074
+        }
+      },
+      {
+        "query": "Can you identify this Cephalopoda sound recorded at noon at a latitude of 34.0522?",
+        "filled_param": {
+          "audio_clip": "base64_encoded_sound_data_4",
+          "time_of_day": "Noon",
+          "latitude": 34.0522
+        }
+      },
+      {
+        "query": "Determine the type of Cephalopoda from this sound clip captured in the afternoon at 40.7128 latitude.",
+        "filled_param": {
+          "audio_clip": "base64_encoded_sound_data_5",
+          "time_of_day": "Afternoon",
+          "latitude": 40.7128
+        }
+      },
+      {
+        "query": "What species of Cephalopoda is this audio from, recorded in the evening at a latitude of 48.8566?",
+        "filled_param": {
+          "audio_clip": "base64_encoded_sound_data_6",
+          "time_of_day": "Evening",
+          "latitude": 48.8566
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Polychaeta|:|audio_clip,time_of_day,latitude": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Polychaeta",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude"
+    ],
+    "queries": [
+      {
+        "query": "Could you identify the Polychaeta from this sound recorded at dawn with a latitude of 34.0522? Here's the encoded audio: UklGRigAAABXQVZFZm10IBAAAAABAAEAgD4AAAB9AAACABAAZGF0YQAAAAA=",
+        "filled_param": {
+          "audio_clip": "UklGRigAAABXQVZFZm10IBAAAAABAAEAgD4AAAB9AAACABAAZGF0YQAAAAA=",
+          "time_of_day": "Dawn",
+          "latitude": 34.0522
+        }
+      },
+      {
+        "query": "Please determine which Polychaeta is present from the sound captured in the morning at a latitude of 51.5074. The encoded sound is: UklGRiQAAABXQVZFZm10IBAAAAABAAEAgD4AAAB9AAACABAAZGF0YQAAAAA=",
+        "filled_param": {
+          "audio_clip": "UklGRiQAAABXQVZFZm10IBAAAAABAAEAgD4AAAB9AAACABAAZGF0YQAAAAA=",
+          "time_of_day": "Morning",
+          "latitude": 51.5074
+        }
+      },
+      {
+        "query": "Identify the Polychaeta using this audio clip, recorded at noon at a latitude of -33.8688. Audio data: UklGRiMAAABXQVZFZm10IBAAAAABAAEAgD4AAAB9AAACABAAZGF0YQAAAAA=",
+        "filled_param": {
+          "audio_clip": "UklGRiMAAABXQVZFZm10IBAAAAABAAEAgD4AAAB9AAACABAAZGF0YQAAAAA=",
+          "time_of_day": "Noon",
+          "latitude": -33.8688
+        }
+      },
+      {
+        "query": "What Polychaeta species does this sound belong to, recorded in the afternoon at a latitude of 40.7128? Here's the audio clip: UklGRiEAAABXQVZFZm10IBAAAAABAAEAgD4AAAB9AAACABAAZGF0YQAAAAA=",
+        "filled_param": {
+          "audio_clip": "UklGRiEAAABXQVZFZm10IBAAAAABAAEAgD4AAAB9AAACABAAZGF0YQAAAAA=",
+          "time_of_day": "Afternoon",
+          "latitude": 40.7128
+        }
+      },
+      {
+        "query": "This sound was recorded in the evening at a latitude of -23.5505. Can you identify the Polychaeta? Audio: UklGRiAAAABXQVZFZm10IBAAAAABAAEAgD4AAAB9AAACABAAZGF0YQAAAAA=",
+        "filled_param": {
+          "audio_clip": "UklGRiAAAABXQVZFZm10IBAAAAABAAEAgD4AAAB9AAACABAAZGF0YQAAAAA=",
+          "time_of_day": "Evening",
+          "latitude": -23.5505
+        }
+      },
+      {
+        "query": "Check the Polychaeta species for this sound clip from night time, recorded at a latitude of 48.8566. Encoded audio: UklGRh8AAABXQVZFZm10IBAAAAABAAEAgD4AAAB9AAACABAAZGF0YQAAAAA=",
+        "filled_param": {
+          "audio_clip": "UklGRh8AAABXQVZFZm10IBAAAAABAAEAgD4AAAB9AAACABAAZGF0YQAAAAA=",
+          "time_of_day": "Night",
+          "latitude": 48.8566
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Oligochaeta|:|audio_clip,time_of_day,latitude": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Oligochaeta",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude"
+    ],
+    "queries": [
+      {
+        "query": "I recorded an Oligochaeta sound at dawn with a latitude of 34.0522. Here is the audio: <Base64 encoded audio string>",
+        "filled_param": {
+          "audio_clip": "<Base64 encoded audio string>",
+          "time_of_day": "Dawn",
+          "latitude": 34.0522
+        }
+      },
+      {
+        "query": "Please identify the Oligochaeta from this recording made at night at latitude 51.5074: <Base64 encoded audio string>",
+        "filled_param": {
+          "audio_clip": "<Base64 encoded audio string>",
+          "time_of_day": "Night",
+          "latitude": 51.5074
+        }
+      },
+      {
+        "query": "Here is an audio clip of Oligochaeta sounds I captured in the afternoon at a latitude of 40.7128: <Base64 encoded audio string>",
+        "filled_param": {
+          "audio_clip": "<Base64 encoded audio string>",
+          "time_of_day": "Afternoon",
+          "latitude": 40.7128
+        }
+      },
+      {
+        "query": "Can you help identify the Oligochaeta from this sound recorded in the morning at a latitude of 48.8566? Audio clip: <Base64 encoded audio string>",
+        "filled_param": {
+          "audio_clip": "<Base64 encoded audio string>",
+          "time_of_day": "Morning",
+          "latitude": 48.8566
+        }
+      },
+      {
+        "query": "This is a recording of Oligochaeta sounds captured at noon at latitude 35.6895. Here is the audio: <Base64 encoded audio string>",
+        "filled_param": {
+          "audio_clip": "<Base64 encoded audio string>",
+          "time_of_day": "Noon",
+          "latitude": 35.6895
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Hirudinea|:|audio_clip,time_of_day,latitude": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Hirudinea",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude"
+    ],
+    "queries": [
+      {
+        "query": "I captured a sound of Hirudinea at 42.3601 latitude during the morning. Here's the audio: base64string123.",
+        "filled_param": {
+          "audio_clip": "base64string123",
+          "time_of_day": "Morning",
+          "latitude": 42.3601
+        }
+      },
+      {
+        "query": "Could you help identify this Hirudinea sound? I recorded it last night at a latitude of 34.0522. The sound is encoded as base64string456.",
+        "filled_param": {
+          "audio_clip": "base64string456",
+          "time_of_day": "Night",
+          "latitude": 34.0522
+        }
+      },
+      {
+        "query": "I have an audio recording of a Hirudinea taken in the afternoon at 51.5074 latitude. The audio clip is encoded as base64string789.",
+        "filled_param": {
+          "audio_clip": "base64string789",
+          "time_of_day": "Afternoon",
+          "latitude": 51.5074
+        }
+      },
+      {
+        "query": "Here's a base64 encoded sound of Hirudinea: base64string012, recorded at 40.7128 latitude, during the evening. Can you identify it?",
+        "filled_param": {
+          "audio_clip": "base64string012",
+          "time_of_day": "Evening",
+          "latitude": 40.7128
+        }
+      },
+      {
+        "query": "Can you identify the Hirudinea in this audio clip? It's base64string345, captured at a latitude of 48.8566 around noon.",
+        "filled_param": {
+          "audio_clip": "base64string345",
+          "time_of_day": "Noon",
+          "latitude": 48.8566
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Cnidaria|:|audio_clip,time_of_day,latitude": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Cnidaria",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude"
+    ],
+    "queries": [
+      {
+        "query": "I recorded a Cnidaria sound at noon today at a latitude of 34.0522. Here's the base64 string of the audio: U29tZUJhc2U2NFN0cmluZw==.",
+        "filled_param": {
+          "audio_clip": "U29tZUJhc2U2NFN0cmluZw==",
+          "time_of_day": "Noon",
+          "latitude": 34.0522
+        }
+      },
+      {
+        "query": "Identify the Cnidaria from this sound clip recorded at night, latitude 48.8584, using this base64: VGVzdEJhc2U2NEVuY29kaW5n.",
+        "filled_param": {
+          "audio_clip": "VGVzdEJhc2U2NEVuY29kaW5n",
+          "time_of_day": "Night",
+          "latitude": 48.8584
+        }
+      },
+      {
+        "query": "What Cnidaria could this sound belong to, recorded in the afternoon at a latitude of -33.8688? Here's the audio: QmFzZTY0U3RyaW5nU2FtcGxl.",
+        "filled_param": {
+          "audio_clip": "QmFzZTY0U3RyaW5nU2FtcGxl",
+          "time_of_day": "Afternoon",
+          "latitude": -33.8688
+        }
+      },
+      {
+        "query": "Please help identify this Cnidaria sound from a morning recording at latitude 51.5074, using the following base64 audio clip: QW5vdGhlckJhc2U2NFN0cmluZw==.",
+        "filled_param": {
+          "audio_clip": "QW5vdGhlckJhc2U2NFN0cmluZw==",
+          "time_of_day": "Morning",
+          "latitude": 51.5074
+        }
+      },
+      {
+        "query": "Check what Cnidaria this sound might come from, recorded at dawn at latitude 40.7128. Base64 audio clip: U29tZUdvb2RFbmNvZGVkU3RyaW5n.",
+        "filled_param": {
+          "audio_clip": "U29tZUdvb2RFbmNvZGVkU3RyaW5n",
+          "time_of_day": "Dawn",
+          "latitude": 40.7128
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Porifera|:|audio_clip,time_of_day,latitude": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Porifera",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude"
+    ],
+    "queries": [
+      {
+        "query": "Using this base64 string: 'U29tZUJhc2U2NFN0cmluZw==', can you identify the Porifera recorded at latitude 34.0522 during the Morning?",
+        "filled_param": {
+          "audio_clip": "U29tZUJhc2U2NFN0cmluZw==",
+          "time_of_day": "Morning",
+          "latitude": 34.0522
+        }
+      },
+      {
+        "query": "Identify the Porifera from this encoded sound: 'QmFzZTY0U3RyaW5nRXhhbXBsZQ=='. It was captured at a latitude of -13.1631 at Dawn.",
+        "filled_param": {
+          "audio_clip": "QmFzZTY0U3RyaW5nRXhhbXBsZQ==",
+          "time_of_day": "Dawn",
+          "latitude": -13.1631
+        }
+      },
+      {
+        "query": "What Porifera can be detected from the sound encoded as 'U2FtcGxlQmFzZTY0U3RyaW5n', recorded at latitude 48.8566 in the Evening?",
+        "filled_param": {
+          "audio_clip": "U2FtcGxlQmFzZTY0U3RyaW5n",
+          "time_of_day": "Evening",
+          "latitude": 48.8566
+        }
+      },
+      {
+        "query": "Analyze this Porifera sound 'QmlnQmFzZTY0U3RyaW5n' recorded at latitude 40.7128 during the Afternoon.",
+        "filled_param": {
+          "audio_clip": "QmlnQmFzZTY0U3RyaW5n",
+          "time_of_day": "Afternoon",
+          "latitude": 40.7128
+        }
+      },
+      {
+        "query": "Can you determine which Porifera made this sound 'RXhhbXBsZUJhc2U2NFN0cmluZw=='? It was recorded at latitude 51.5074 at Night.",
+        "filled_param": {
+          "audio_clip": "RXhhbXBsZUJhc2U2NFN0cmluZw==",
+          "time_of_day": "Night",
+          "latitude": 51.5074
+        }
+      },
+      {
+        "query": "Please identify the Porifera from this sound 'VGVzdEJhc2U2NFN0cmluZw==' captured at latitude 35.6895 at Noon.",
+        "filled_param": {
+          "audio_clip": "VGVzdEJhc2U2NFN0cmluZw==",
+          "time_of_day": "Noon",
+          "latitude": 35.6895
+        }
+      }
+    ]
+  }
+}

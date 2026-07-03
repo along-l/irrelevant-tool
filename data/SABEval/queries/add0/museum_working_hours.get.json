@@ -1,0 +1,415 @@
+{
+  "museum_working_hours.get|:|museum|:|venue,location": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "museum",
+    "params_for_query": [
+      "venue",
+      "location"
+    ],
+    "queries": [
+      {
+        "query": "What are the working hours of the Louvre museum in Paris?",
+        "filled_param": {
+          "venue": "Louvre",
+          "location": "Paris"
+        }
+      },
+      {
+        "query": "Can you tell me the opening times for the British Museum located in London?",
+        "filled_param": {
+          "venue": "British Museum",
+          "location": "London"
+        }
+      },
+      {
+        "query": "I need to know the visiting hours for the Metropolitan Museum of Art in New York City.",
+        "filled_param": {
+          "venue": "Metropolitan Museum of Art",
+          "location": "New York City"
+        }
+      },
+      {
+        "query": "Could you provide the hours of operation for the Uffizi Gallery in Florence?",
+        "filled_param": {
+          "venue": "Uffizi Gallery",
+          "location": "Florence"
+        }
+      },
+      {
+        "query": "What time does the Hermitage Museum in Saint Petersburg open and close?",
+        "filled_param": {
+          "venue": "Hermitage Museum",
+          "location": "Saint Petersburg"
+        }
+      },
+      {
+        "query": "Find out the working hours for the Rijksmuseum in Amsterdam.",
+        "filled_param": {
+          "venue": "Rijksmuseum",
+          "location": "Amsterdam"
+        }
+      },
+      {
+        "query": "Tell me the schedule for the Prado Museum in Madrid.",
+        "filled_param": {
+          "venue": "Prado Museum",
+          "location": "Madrid"
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|art gallery|:|venue,location": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "art gallery",
+    "params_for_query": [
+      "venue",
+      "location"
+    ],
+    "queries": [
+      {
+        "query": "Could you tell me the working hours for the Louvre art gallery in Paris?",
+        "filled_param": {
+          "venue": "Louvre",
+          "location": "Paris"
+        }
+      },
+      {
+        "query": "What time does the art gallery named MoMA open and close in New York?",
+        "filled_param": {
+          "venue": "MoMA",
+          "location": "New York"
+        }
+      },
+      {
+        "query": "I need to know the opening hours of the Uffizi art gallery in Florence.",
+        "filled_param": {
+          "venue": "Uffizi",
+          "location": "Florence"
+        }
+      },
+      {
+        "query": "Can you find out when the Hermitage art gallery is open in Saint Petersburg?",
+        "filled_param": {
+          "venue": "Hermitage",
+          "location": "Saint Petersburg"
+        }
+      },
+      {
+        "query": "Give me the working hours for the Tate Modern art gallery in London.",
+        "filled_param": {
+          "venue": "Tate Modern",
+          "location": "London"
+        }
+      },
+      {
+        "query": "What are the operating hours for the Guggenheim art gallery in Bilbao?",
+        "filled_param": {
+          "venue": "Guggenheim",
+          "location": "Bilbao"
+        }
+      },
+      {
+        "query": "Do you know the exhibition hours for the National Gallery art gallery in Washington, D.C.?",
+        "filled_param": {
+          "venue": "National Gallery",
+          "location": "Washington, D.C."
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|library|:|venue,location": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "library",
+    "params_for_query": [
+      "venue",
+      "location"
+    ],
+    "queries": [
+      {
+        "query": "What are the working hours of the Central Library in Boston?",
+        "filled_param": {
+          "venue": "Central Library",
+          "location": "Boston"
+        }
+      },
+      {
+        "query": "Could you tell me the library hours for the City Library located in Chicago?",
+        "filled_param": {
+          "venue": "City Library",
+          "location": "Chicago"
+        }
+      },
+      {
+        "query": "I need to know the opening and closing times of the Public Library in New York.",
+        "filled_param": {
+          "venue": "Public Library",
+          "location": "New York"
+        }
+      },
+      {
+        "query": "Find out when the University Library in Seattle is open.",
+        "filled_param": {
+          "venue": "University Library",
+          "location": "Seattle"
+        }
+      },
+      {
+        "query": "Can you provide the working schedule for the Community Library in San Francisco?",
+        "filled_param": {
+          "venue": "Community Library",
+          "location": "San Francisco"
+        }
+      },
+      {
+        "query": "What are the hours of operation for the County Library in Miami?",
+        "filled_param": {
+          "venue": "County Library",
+          "location": "Miami"
+        }
+      },
+      {
+        "query": "Tell me the opening hours of the Downtown Library in Dallas.",
+        "filled_param": {
+          "venue": "Downtown Library",
+          "location": "Dallas"
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|zoo|:|venue,location": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "zoo",
+    "params_for_query": [
+      "venue",
+      "location"
+    ],
+    "queries": [
+      {
+        "query": "What are the opening hours for the Bronx Zoo in New York?",
+        "filled_param": {
+          "venue": "Bronx Zoo",
+          "location": "New York"
+        }
+      },
+      {
+        "query": "Can you tell me the visiting times for the San Diego Zoo located in California?",
+        "filled_param": {
+          "venue": "San Diego Zoo",
+          "location": "California"
+        }
+      },
+      {
+        "query": "I need to know the working hours of the London Zoo in the UK.",
+        "filled_param": {
+          "venue": "London Zoo",
+          "location": "UK"
+        }
+      },
+      {
+        "query": "Please provide the operating hours for the Taronga Zoo in Sydney.",
+        "filled_param": {
+          "venue": "Taronga Zoo",
+          "location": "Sydney"
+        }
+      },
+      {
+        "query": "What are the zoo hours for Berlin Zoo in Germany?",
+        "filled_param": {
+          "venue": "Berlin Zoo",
+          "location": "Germany"
+        }
+      },
+      {
+        "query": "Could you give me the opening times for the Singapore Zoo in Singapore?",
+        "filled_param": {
+          "venue": "Singapore Zoo",
+          "location": "Singapore"
+        }
+      },
+      {
+        "query": "Find out the operational hours of the Toronto Zoo in Canada.",
+        "filled_param": {
+          "venue": "Toronto Zoo",
+          "location": "Canada"
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|aquarium|:|venue,location": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "aquarium",
+    "params_for_query": [
+      "venue",
+      "location"
+    ],
+    "queries": [
+      {
+        "query": "What are the opening hours for the Georgia Aquarium in Atlanta?",
+        "filled_param": {
+          "venue": "Georgia Aquarium",
+          "location": "Atlanta"
+        }
+      },
+      {
+        "query": "Could you tell me when the Monterey Bay Aquarium in California is open?",
+        "filled_param": {
+          "venue": "Monterey Bay Aquarium",
+          "location": "California"
+        }
+      },
+      {
+        "query": "Please provide the working hours for the Vancouver Aquarium in British Columbia.",
+        "filled_param": {
+          "venue": "Vancouver Aquarium",
+          "location": "British Columbia"
+        }
+      },
+      {
+        "query": "Find out the hours of operation for the Osaka Aquarium Kaiyukan in Osaka.",
+        "filled_param": {
+          "venue": "Osaka Aquarium Kaiyukan",
+          "location": "Osaka"
+        }
+      },
+      {
+        "query": "Can you get the business hours for the S.E.A. Aquarium in Singapore?",
+        "filled_param": {
+          "venue": "S.E.A. Aquarium",
+          "location": "Singapore"
+        }
+      },
+      {
+        "query": "What times is the Sydney Aquarium in Sydney open to visitors?",
+        "filled_param": {
+          "venue": "Sydney Aquarium",
+          "location": "Sydney"
+        }
+      },
+      {
+        "query": "I need to know the operating hours for the Dubai Aquarium in Dubai.",
+        "filled_param": {
+          "venue": "Dubai Aquarium",
+          "location": "Dubai"
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|botanical garden|:|venue,location": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "botanical garden",
+    "params_for_query": [
+      "venue",
+      "location"
+    ],
+    "queries": [
+      {
+        "query": "What are the working hours for the Royal Botanic Gardens in Sydney?",
+        "filled_param": {
+          "venue": "Royal Botanic Gardens",
+          "location": "Sydney"
+        }
+      },
+      {
+        "query": "Can you tell me when the Kew Gardens in London is open?",
+        "filled_param": {
+          "venue": "Kew Gardens",
+          "location": "London"
+        }
+      },
+      {
+        "query": "Please provide the opening hours for the Singapore Botanic Gardens.",
+        "filled_param": {
+          "venue": "Singapore Botanic Gardens",
+          "location": "Singapore"
+        }
+      },
+      {
+        "query": "I would like to know the visiting hours for the New York Botanical Garden.",
+        "filled_param": {
+          "venue": "New York Botanical Garden",
+          "location": "New York"
+        }
+      },
+      {
+        "query": "When can I visit the Denver Botanic Gardens?",
+        "filled_param": {
+          "venue": "Denver Botanic Gardens",
+          "location": "Denver"
+        }
+      },
+      {
+        "query": "What are the operating hours for the Jardim Botânico in Rio de Janeiro?",
+        "filled_param": {
+          "venue": "Jardim Botânico",
+          "location": "Rio de Janeiro"
+        }
+      },
+      {
+        "query": "Could you find out the hours of operation for the Montreal Botanical Garden?",
+        "filled_param": {
+          "venue": "Montreal Botanical Garden",
+          "location": "Montreal"
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|amusement park|:|venue,location": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "amusement park",
+    "params_for_query": [
+      "venue",
+      "location"
+    ],
+    "queries": [
+      {
+        "query": "What are the opening hours for Disneyland in California?",
+        "filled_param": {
+          "venue": "Disneyland",
+          "location": "California"
+        }
+      },
+      {
+        "query": "Can you tell me the working hours of Universal Studios in Florida?",
+        "filled_param": {
+          "venue": "Universal Studios",
+          "location": "Florida"
+        }
+      },
+      {
+        "query": "I need to know the operating hours for Europa-Park in Germany.",
+        "filled_param": {
+          "venue": "Europa-Park",
+          "location": "Germany"
+        }
+      },
+      {
+        "query": "Please provide me with the schedule for Alton Towers in the UK.",
+        "filled_param": {
+          "venue": "Alton Towers",
+          "location": "UK"
+        }
+      },
+      {
+        "query": "When is Fuji-Q Highland open in Japan?",
+        "filled_param": {
+          "venue": "Fuji-Q Highland",
+          "location": "Japan"
+        }
+      },
+      {
+        "query": "What are the hours of operation for PortAventura in Spain?",
+        "filled_param": {
+          "venue": "PortAventura",
+          "location": "Spain"
+        }
+      },
+      {
+        "query": "Could you give me the opening times for Lotte World in South Korea?",
+        "filled_param": {
+          "venue": "Lotte World",
+          "location": "South Korea"
+        }
+      }
+    ]
+  }
+}

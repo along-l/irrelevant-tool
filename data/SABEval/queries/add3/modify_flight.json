@@ -1,0 +1,344 @@
+{
+  "modify_flight|:|flight|:|user_id,reservation_id,new_schedule_no,new_cabin,extra_baggage,new_payment_method": {
+    "tool_template_name": "modify_flight",
+    "derived_class": "flight",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "new_schedule_no",
+      "new_cabin",
+      "extra_baggage",
+      "new_payment_method"
+    ],
+    "queries": [
+      {
+        "query": "I need to modify my flight reservation with user ID 12345 and reservation ID ABC678. Change it to new schedule S456, upgrade to business class, add 2 extra baggage items, and use bank for payment.",
+        "filled_param": {
+          "user_id": "12345",
+          "reservation_id": "ABC678",
+          "new_schedule_no": "S456",
+          "new_cabin": "business class",
+          "extra_baggage": 2,
+          "new_payment_method": "bank"
+        }
+      },
+      {
+        "query": "Please update my flight under user ID 98765 and reservation ID XYZ123 to schedule number F789, switch to economy class, add 1 extra baggage, and pay using cash.",
+        "filled_param": {
+          "user_id": "98765",
+          "reservation_id": "XYZ123",
+          "new_schedule_no": "F789",
+          "new_cabin": "economy class",
+          "extra_baggage": 1,
+          "new_payment_method": "cash"
+        }
+      },
+      {
+        "query": "My flight reservation needs an update. User ID is 54321, reservation ID is LMN456. Change it to the new schedule D321, move to first class, add 3 more baggage, and pay by bank.",
+        "filled_param": {
+          "user_id": "54321",
+          "reservation_id": "LMN456",
+          "new_schedule_no": "D321",
+          "new_cabin": "first class",
+          "extra_baggage": 3,
+          "new_payment_method": "bank"
+        }
+      },
+      {
+        "query": "Modify my flight for user ID 67890 with reservation ID OPQ789. Use schedule number A987, switch to premium economy, add 0 extra baggage, and pay with cash.",
+        "filled_param": {
+          "user_id": "67890",
+          "reservation_id": "OPQ789",
+          "new_schedule_no": "A987",
+          "new_cabin": "premium economy",
+          "extra_baggage": 0,
+          "new_payment_method": "cash"
+        }
+      },
+      {
+        "query": "Change my flight reservation linked to user ID 24680 and reservation ID RST234. New schedule is G654, update to business class, include 2 additional baggage, and cover costs through bank.",
+        "filled_param": {
+          "user_id": "24680",
+          "reservation_id": "RST234",
+          "new_schedule_no": "G654",
+          "new_cabin": "business class",
+          "extra_baggage": 2,
+          "new_payment_method": "bank"
+        }
+      },
+      {
+        "query": "I want to alter my flight booked under user ID 13579 and reservation ID UVW567. Switch to schedule B432, move to economy class, add 1 extra baggage, and pay with cash.",
+        "filled_param": {
+          "user_id": "13579",
+          "reservation_id": "UVW567",
+          "new_schedule_no": "B432",
+          "new_cabin": "economy class",
+          "extra_baggage": 1,
+          "new_payment_method": "cash"
+        }
+      }
+    ]
+  },
+  "modify_flight|:|high-speed train|:|user_id,reservation_id,new_schedule_no,new_cabin,extra_baggage,new_payment_method": {
+    "tool_template_name": "modify_flight",
+    "derived_class": "high-speed train",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "new_schedule_no",
+      "new_cabin",
+      "extra_baggage",
+      "new_payment_method"
+    ],
+    "queries": [
+      {
+        "query": "I need to modify my high-speed train reservation. My user ID is U12345, reservation ID R67890. Please change the schedule to number 102, cabin class to business class, add 2 extra baggage items, and use cash for the payment.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890",
+          "new_schedule_no": "102",
+          "new_cabin": "business class",
+          "extra_baggage": 2,
+          "new_payment_method": "cash"
+        }
+      },
+      {
+        "query": "Could you update my high-speed train booking? The user ID is A98765 and the reservation ID is B54321. Change to schedule 205, upgrade to economy class, add 1 extra baggage, and charge it to my bank account.",
+        "filled_param": {
+          "user_id": "A98765",
+          "reservation_id": "B54321",
+          "new_schedule_no": "205",
+          "new_cabin": "economy class",
+          "extra_baggage": 1,
+          "new_payment_method": "bank"
+        }
+      },
+      {
+        "query": "Please modify my high-speed train reservation. User ID is Z11223, reservation ID is H33211. Switch to schedule number 303, change cabin to business class, add 3 extra baggage, and use bank for payment.",
+        "filled_param": {
+          "user_id": "Z11223",
+          "reservation_id": "H33211",
+          "new_schedule_no": "303",
+          "new_cabin": "business class",
+          "extra_baggage": 3,
+          "new_payment_method": "bank"
+        }
+      },
+      {
+        "query": "I want to change my high-speed train booking. My user ID is Q34412 and reservation ID is C77123. Update it to schedule 404, keep cabin as economy class, add 0 extra baggage, and pay using cash.",
+        "filled_param": {
+          "user_id": "Q34412",
+          "reservation_id": "C77123",
+          "new_schedule_no": "404",
+          "new_cabin": "economy class",
+          "extra_baggage": 0,
+          "new_payment_method": "cash"
+        }
+      },
+      {
+        "query": "Can you assist with altering my high-speed train trip? My user ID is M12567, reservation ID N78945. Please change to schedule 505, upgrade to business class, add 4 extra baggage items, and pay via bank.",
+        "filled_param": {
+          "user_id": "M12567",
+          "reservation_id": "N78945",
+          "new_schedule_no": "505",
+          "new_cabin": "business class",
+          "extra_baggage": 4,
+          "new_payment_method": "bank"
+        }
+      },
+      {
+        "query": "Adjust my high-speed train reservation details. User ID D67890, reservation ID E45678. New schedule number should be 606, cabin to economy class, increase baggage by 2, and pay in cash.",
+        "filled_param": {
+          "user_id": "D67890",
+          "reservation_id": "E45678",
+          "new_schedule_no": "606",
+          "new_cabin": "economy class",
+          "extra_baggage": 2,
+          "new_payment_method": "cash"
+        }
+      },
+      {
+        "query": "Modify my high-speed train reservation please. The user ID is Y23456, and the reservation ID is T12345. Switch to schedule 707, upgrade to business class, add 1 extra baggage, with the payment method set to bank.",
+        "filled_param": {
+          "user_id": "Y23456",
+          "reservation_id": "T12345",
+          "new_schedule_no": "707",
+          "new_cabin": "business class",
+          "extra_baggage": 1,
+          "new_payment_method": "bank"
+        }
+      }
+    ]
+  },
+  "modify_flight|:|cruise ship|:|user_id,reservation_id,new_schedule_no,new_cabin,extra_baggage,new_payment_method": {
+    "tool_template_name": "modify_flight",
+    "derived_class": "cruise ship",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "new_schedule_no",
+      "new_cabin",
+      "extra_baggage",
+      "new_payment_method"
+    ],
+    "queries": [
+      {
+        "query": "Please modify my cruise ship reservation with user ID U12345 and reservation ID R67890 to schedule number 002, change the cabin to business class, add 2 extra baggage items, and use cash for additional charges.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890",
+          "new_schedule_no": "002",
+          "new_cabin": "business class",
+          "extra_baggage": 2,
+          "new_payment_method": "cash"
+        }
+      },
+      {
+        "query": "I need to update my cruise ship booking. My user ID is U54321, reservation ID is R09876. Switch to schedule 007, upgrade to first class, add 1 piece of extra baggage, and pay any extra with a bank transfer.",
+        "filled_param": {
+          "user_id": "U54321",
+          "reservation_id": "R09876",
+          "new_schedule_no": "007",
+          "new_cabin": "first class",
+          "extra_baggage": 1,
+          "new_payment_method": "bank"
+        }
+      },
+      {
+        "query": "Change my cruise ship reservation using user ID U11111 and reservation ID R22222 to the new schedule number 003, move to an economy class cabin, add 3 extra baggage items, and select cash as the payment method for additional costs.",
+        "filled_param": {
+          "user_id": "U11111",
+          "reservation_id": "R22222",
+          "new_schedule_no": "003",
+          "new_cabin": "economy class",
+          "extra_baggage": 3,
+          "new_payment_method": "cash"
+        }
+      },
+      {
+        "query": "Modify my cruise ship reservation: for user ID U33445, reservation ID R55667, shift to schedule 005, change the cabin to premium class, include 4 additional baggage, and use bank payment for extras.",
+        "filled_param": {
+          "user_id": "U33445",
+          "reservation_id": "R55667",
+          "new_schedule_no": "005",
+          "new_cabin": "premium class",
+          "extra_baggage": 4,
+          "new_payment_method": "bank"
+        }
+      },
+      {
+        "query": "Can you update my cruise ship reservation? My user ID is U98765, with reservation ID R12345. Please change to schedule 009, upgrade the cabin to luxury class, add 0 extra baggage, and use cash for any additional fees.",
+        "filled_param": {
+          "user_id": "U98765",
+          "reservation_id": "R12345",
+          "new_schedule_no": "009",
+          "new_cabin": "luxury class",
+          "extra_baggage": 0,
+          "new_payment_method": "cash"
+        }
+      },
+      {
+        "query": "I want to alter my cruise ship reservation. The user ID is U24680 and the reservation ID is R13579. Change to schedule 010, switch to shared cabin, add 5 extra baggage items, and cover any extra charges with bank payment.",
+        "filled_param": {
+          "user_id": "U24680",
+          "reservation_id": "R13579",
+          "new_schedule_no": "010",
+          "new_cabin": "shared cabin",
+          "extra_baggage": 5,
+          "new_payment_method": "bank"
+        }
+      }
+    ]
+  },
+  "modify_flight|:|long-distance bus|:|user_id,reservation_id,new_schedule_no,new_cabin,extra_baggage,new_payment_method": {
+    "tool_template_name": "modify_flight",
+    "derived_class": "long-distance bus",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "new_schedule_no",
+      "new_cabin",
+      "extra_baggage",
+      "new_payment_method"
+    ],
+    "queries": [
+      {
+        "query": "Please update my long-distance bus reservation with user ID U12345 to schedule number S67890, change to business class, add 2 extra baggage items, and I'll pay with cash.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R12345",
+          "new_schedule_no": "S67890",
+          "new_cabin": "business class",
+          "extra_baggage": 2,
+          "new_payment_method": "cash"
+        }
+      },
+      {
+        "query": "I need to modify my long-distance bus booking. My user ID is U98765 and reservation ID is R54321. Switch to schedule S11223, upgrade to economy class, add 1 extra bag, and I'll use bank transfer as payment.",
+        "filled_param": {
+          "user_id": "U98765",
+          "reservation_id": "R54321",
+          "new_schedule_no": "S11223",
+          "new_cabin": "economy class",
+          "extra_baggage": 1,
+          "new_payment_method": "bank"
+        }
+      },
+      {
+        "query": "Change my long-distance bus reservation details for user ID U45678 and reservation ID R67890 to schedule S33445, switch to business class, include 3 extra baggage items, and pay using cash.",
+        "filled_param": {
+          "user_id": "U45678",
+          "reservation_id": "R67890",
+          "new_schedule_no": "S33445",
+          "new_cabin": "business class",
+          "extra_baggage": 3,
+          "new_payment_method": "cash"
+        }
+      },
+      {
+        "query": "Could you modify my long-distance bus booking so that reservation ID R11121 under user ID U12333 is changed to schedule number S22234, change to economy class, add 0 extra bags, and I'll pay by bank?",
+        "filled_param": {
+          "user_id": "U12333",
+          "reservation_id": "R11121",
+          "new_schedule_no": "S22234",
+          "new_cabin": "economy class",
+          "extra_baggage": 0,
+          "new_payment_method": "bank"
+        }
+      },
+      {
+        "query": "For my long-distance bus reservation, user ID U87654 and reservation ID R65432, switch to schedule S44556, remain in economy class, add 2 extra baggage items, and pay with cash.",
+        "filled_param": {
+          "user_id": "U87654",
+          "reservation_id": "R65432",
+          "new_schedule_no": "S44556",
+          "new_cabin": "economy class",
+          "extra_baggage": 2,
+          "new_payment_method": "cash"
+        }
+      },
+      {
+        "query": "I'd like to adjust my long-distance bus reservation with user ID U23456. Change reservation ID R34567 to new schedule S55667, opt for business class, add 1 extra baggage, and use bank payment.",
+        "filled_param": {
+          "user_id": "U23456",
+          "reservation_id": "R34567",
+          "new_schedule_no": "S55667",
+          "new_cabin": "business class",
+          "extra_baggage": 1,
+          "new_payment_method": "bank"
+        }
+      },
+      {
+        "query": "Update my long-distance bus reservation. My user ID is U56789, reservation ID is R78901, switch to schedule S66778, choose economy class, add 4 extra bags, and I'll pay cash.",
+        "filled_param": {
+          "user_id": "U56789",
+          "reservation_id": "R78901",
+          "new_schedule_no": "S66778",
+          "new_cabin": "economy class",
+          "extra_baggage": 4,
+          "new_payment_method": "cash"
+        }
+      }
+    ]
+  }
+}

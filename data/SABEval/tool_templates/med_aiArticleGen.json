@@ -1,0 +1,66 @@
+{
+  "tool_template_name": "med_aiArticleGen",
+  "meta_data": {
+    "base_class": "Generate an article discussing the applications of AI in a specific <field> - refers to various industries, domains, or problem areas where artificial intelligence technologies can be applied.",
+    "derived_classes": [
+      "medical field",
+      "financial field",
+      "agricultural field",
+      "educational field",
+      "transportation field",
+      "chip design field",
+      "music field",
+      "environmental field",
+      "legal field"
+    ],
+    "base_class_entity": "applications of AI in the medical field"
+  },
+  "tool_template": {
+    "name": "aiArticleGen_in_<class>",
+    "description": "Generates an article discussing the applications of AI in a specific <class>.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "The title of the <class> article to be generated."
+        }
+      },
+      "required": [
+        "title"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "word_count": {
+      "type": "number",
+      "description": "Approximate word count for the <class> article."
+    },
+    "focus_area": {
+      "type": "string",
+      "description": "Specific area of AI applications in <class> to focus on, if any."
+    }
+  },
+  "additional_params": {
+    "target_audience": {
+      "type": "string",
+      "description": "The primary audience the <class> article is intended for, such as professionals, students, or the general public."
+    },
+    "language": {
+      "type": "string",
+      "description": "The language in which the <class> article should be written."
+    },
+    "reference_style": {
+      "type": "string",
+      "description": "The citation and referencing style to be used in the <class> article, e.g., APA, MLA."
+    },
+    "illustrations": {
+      "type": "boolean",
+      "description": "Indicates whether the <class> article should include illustrations or diagrams."
+    },
+    "tone": {
+      "type": "string",
+      "description": "The tone or style of writing for the <class> article, such as formal, informal, or technical."
+    }
+  }
+}

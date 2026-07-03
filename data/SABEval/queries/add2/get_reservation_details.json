@@ -1,0 +1,767 @@
+{
+  "get_reservation_details|:|restaurant dining|:|user_id,reservation_id,reservation_date": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "restaurant dining",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reservation_date"
+    ],
+    "queries": [
+      {
+        "query": "Can you fetch the details for the restaurant dining reservation with user ID U12345, reservation ID R98765, booked for 2023-12-15?",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R98765",
+          "reservation_date": "2023-12-15"
+        }
+      },
+      {
+        "query": "I need to get information on my restaurant dining reservation scheduled for 2023-11-20, user ID is A54321 and reservation ID is B67890.",
+        "filled_param": {
+          "user_id": "A54321",
+          "reservation_id": "B67890",
+          "reservation_date": "2023-11-20"
+        }
+      },
+      {
+        "query": "Please provide the reservation details for restaurant dining under user ID J45678 with reservation ID K11223 on 2023-10-18.",
+        "filled_param": {
+          "user_id": "J45678",
+          "reservation_id": "K11223",
+          "reservation_date": "2023-10-18"
+        }
+      },
+      {
+        "query": "What's the information for the restaurant dining reservation on 2023-09-25, using user ID M65432 and reservation ID N33445?",
+        "filled_param": {
+          "user_id": "M65432",
+          "reservation_id": "N33445",
+          "reservation_date": "2023-09-25"
+        }
+      },
+      {
+        "query": "Retrieve the specifics of my restaurant dining reservation for user ID C11234, reservation ID D44556, dated 2023-08-10.",
+        "filled_param": {
+          "user_id": "C11234",
+          "reservation_id": "D44556",
+          "reservation_date": "2023-08-10"
+        }
+      }
+    ]
+  },
+  "get_reservation_details|:|hotel stay|:|user_id,reservation_id,reservation_date": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "hotel stay",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reservation_date"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the details for my hotel stay with user ID U12345, reservation ID R67890, booked for 2023-11-15?",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890",
+          "reservation_date": "2023-11-15"
+        }
+      },
+      {
+        "query": "I need the reservation details for my hotel stay. My user ID is U54321 and reservation ID is R09876 for the date 2023-12-01.",
+        "filled_param": {
+          "user_id": "U54321",
+          "reservation_id": "R09876",
+          "reservation_date": "2023-12-01"
+        }
+      },
+      {
+        "query": "What are the details of the hotel stay booked under user ID U99887, with reservation ID R12345, for 2024-01-10?",
+        "filled_param": {
+          "user_id": "U99887",
+          "reservation_id": "R12345",
+          "reservation_date": "2024-01-10"
+        }
+      },
+      {
+        "query": "Retrieve my hotel stay reservation info using user ID U11223, reservation ID R33445, scheduled for 2023-10-30.",
+        "filled_param": {
+          "user_id": "U11223",
+          "reservation_id": "R33445",
+          "reservation_date": "2023-10-30"
+        }
+      },
+      {
+        "query": "Please get the reservation details of my hotel stay with user ID U55664 and reservation ID R77665 for the date 2024-02-14.",
+        "filled_param": {
+          "user_id": "U55664",
+          "reservation_id": "R77665",
+          "reservation_date": "2024-02-14"
+        }
+      }
+    ]
+  },
+  "get_reservation_details|:|Disney park visit|:|user_id,reservation_id,reservation_date": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "Disney park visit",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reservation_date"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the details for my Disney park visit with user ID U123456 and reservation ID R987654 on 2024-05-10?",
+        "filled_param": {
+          "user_id": "U123456",
+          "reservation_id": "R987654",
+          "reservation_date": "2024-05-10"
+        }
+      },
+      {
+        "query": "I need to check my Disney park visit reservation details. My user ID is U654321, reservation ID is R123456, and it's scheduled for 2024-06-15.",
+        "filled_param": {
+          "user_id": "U654321",
+          "reservation_id": "R123456",
+          "reservation_date": "2024-06-15"
+        }
+      },
+      {
+        "query": "What are the details for my Disney park visit set for 2024-07-20, with user ID U111222 and reservation ID R333444?",
+        "filled_param": {
+          "user_id": "U111222",
+          "reservation_id": "R333444",
+          "reservation_date": "2024-07-20"
+        }
+      },
+      {
+        "query": "Can you retrieve my Disney park visit reservation info? The user ID is U777888, the reservation ID is R999000, and the date is 2024-08-25.",
+        "filled_param": {
+          "user_id": "U777888",
+          "reservation_id": "R999000",
+          "reservation_date": "2024-08-25"
+        }
+      },
+      {
+        "query": "Please get the reservation details for my Disney park visit on 2024-09-05. The user ID is U333444 and the reservation ID is R555666.",
+        "filled_param": {
+          "user_id": "U333444",
+          "reservation_id": "R555666",
+          "reservation_date": "2024-09-05"
+        }
+      }
+    ]
+  },
+  "get_reservation_details|:|Universal Studios visit|:|user_id,reservation_id,reservation_date": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "Universal Studios visit",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reservation_date"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the details for my Universal Studios visit with user ID U12345 and reservation ID R67890 on 2023-11-15?",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890",
+          "reservation_date": "2023-11-15"
+        }
+      },
+      {
+        "query": "I need to check my Universal Studios visit reservation on 2023-12-01. My user ID is U54321 and the reservation ID is R09876.",
+        "filled_param": {
+          "user_id": "U54321",
+          "reservation_id": "R09876",
+          "reservation_date": "2023-12-01"
+        }
+      },
+      {
+        "query": "Retrieve my Universal Studios visit booking details for the date 2024-01-20 using user ID U11111 and reservation ID R22222.",
+        "filled_param": {
+          "user_id": "U11111",
+          "reservation_id": "R22222",
+          "reservation_date": "2024-01-20"
+        }
+      },
+      {
+        "query": "What are the specifics of my Universal Studios visit planned for 2024-02-28 with user ID U33333 and reservation ID R44444?",
+        "filled_param": {
+          "user_id": "U33333",
+          "reservation_id": "R44444",
+          "reservation_date": "2024-02-28"
+        }
+      },
+      {
+        "query": "Please get me the reservation details for my Universal Studios visit on 2023-11-22; my user ID is U55555 and reservation ID is R66666.",
+        "filled_param": {
+          "user_id": "U55555",
+          "reservation_id": "R66666",
+          "reservation_date": "2023-11-22"
+        }
+      }
+    ]
+  },
+  "get_reservation_details|:|movie theater|:|user_id,reservation_id,reservation_date": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "movie theater",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reservation_date"
+    ],
+    "queries": [
+      {
+        "query": "Can you check my movie theater reservation details with user ID 12345, reservation ID R98765, for the date 2023-11-10?",
+        "filled_param": {
+          "user_id": "12345",
+          "reservation_id": "R98765",
+          "reservation_date": "2023-11-10"
+        }
+      },
+      {
+        "query": "I need the details of my movie theater booking on 2023-12-15. My user ID is U56789 and reservation ID is M12345.",
+        "filled_param": {
+          "user_id": "U56789",
+          "reservation_id": "M12345",
+          "reservation_date": "2023-12-15"
+        }
+      },
+      {
+        "query": "Please retrieve the reservation information for my movie theater booking on 2024-01-20. The user ID is 78901 and the reservation ID is T45678.",
+        "filled_param": {
+          "user_id": "78901",
+          "reservation_id": "T45678",
+          "reservation_date": "2024-01-20"
+        }
+      },
+      {
+        "query": "What are the details of my movie theater reservation for the date 2023-10-25 if my user ID is A23456 and reservation ID is R67890?",
+        "filled_param": {
+          "user_id": "A23456",
+          "reservation_id": "R67890",
+          "reservation_date": "2023-10-25"
+        }
+      },
+      {
+        "query": "Could you find my movie theater reservation details with the user ID B34567 and reservation ID D78901 for 2023-09-05?",
+        "filled_param": {
+          "user_id": "B34567",
+          "reservation_id": "D78901",
+          "reservation_date": "2023-09-05"
+        }
+      }
+    ]
+  },
+  "get_reservation_details|:|flight|:|user_id,reservation_id,reservation_date": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "flight",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reservation_date"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the flight reservation details for user ID A12345 with reservation ID B67890 on 2023-11-15?",
+        "filled_param": {
+          "user_id": "A12345",
+          "reservation_id": "B67890",
+          "reservation_date": "2023-11-15"
+        }
+      },
+      {
+        "query": "I need to know the flight details for user C98765 and reservation D43210 for the date 2023-12-01.",
+        "filled_param": {
+          "user_id": "C98765",
+          "reservation_id": "D43210",
+          "reservation_date": "2023-12-01"
+        }
+      },
+      {
+        "query": "Fetch the flight reservation info for user ID E24680 with reservation ID F13579 on 2023-10-20.",
+        "filled_param": {
+          "user_id": "E24680",
+          "reservation_id": "F13579",
+          "reservation_date": "2023-10-20"
+        }
+      },
+      {
+        "query": "Please retrieve the reservation details for the flight booked by user G11223, reservation ID H33445 on 2023-09-25.",
+        "filled_param": {
+          "user_id": "G11223",
+          "reservation_id": "H33445",
+          "reservation_date": "2023-09-25"
+        }
+      },
+      {
+        "query": "What are the details of the flight reservation for user ID I55667 with reservation ID J77889 scheduled for 2023-08-30?",
+        "filled_param": {
+          "user_id": "I55667",
+          "reservation_id": "J77889",
+          "reservation_date": "2023-08-30"
+        }
+      }
+    ]
+  },
+  "get_reservation_details|:|high-speed train|:|user_id,reservation_id,reservation_date": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "high-speed train",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reservation_date"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the reservation details for the high-speed train booking with user ID U12345, reservation ID R98765, and reservation date 2023-11-15?",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R98765",
+          "reservation_date": "2023-11-15"
+        }
+      },
+      {
+        "query": "I need the details of my high-speed train reservation. My user ID is U67890, the reservation ID is R54321, and the reservation date is 2023-12-01.",
+        "filled_param": {
+          "user_id": "U67890",
+          "reservation_id": "R54321",
+          "reservation_date": "2023-12-01"
+        }
+      },
+      {
+        "query": "Can you look up my high-speed train booking with user ID userA12, reservation ID bookingB34, and the travel date 2023-10-20?",
+        "filled_param": {
+          "user_id": "userA12",
+          "reservation_id": "bookingB34",
+          "reservation_date": "2023-10-20"
+        }
+      },
+      {
+        "query": "Retrieve my high-speed train reservation details using user ID ID123, reservation ID RES456, for the date 2023-09-10.",
+        "filled_param": {
+          "user_id": "ID123",
+          "reservation_id": "RES456",
+          "reservation_date": "2023-09-10"
+        }
+      },
+      {
+        "query": "What are the details for the high-speed train reservation with user ID U99999, reservation ID R11111, and the date 2023-08-05?",
+        "filled_param": {
+          "user_id": "U99999",
+          "reservation_id": "R11111",
+          "reservation_date": "2023-08-05"
+        }
+      }
+    ]
+  },
+  "get_reservation_details|:|concert|:|user_id,reservation_id,reservation_date": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "concert",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reservation_date"
+    ],
+    "queries": [
+      {
+        "query": "Can you look up the concert reservation details for user ID U12345 with reservation ID R67890 on 2023-11-15?",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890",
+          "reservation_date": "2023-11-15"
+        }
+      },
+      {
+        "query": "Please provide the concert reservation info for the reservation ID R23456, user ID U98765, scheduled on 2023-12-05.",
+        "filled_param": {
+          "user_id": "U98765",
+          "reservation_id": "R23456",
+          "reservation_date": "2023-12-05"
+        }
+      },
+      {
+        "query": "I need the details for concert reservation ID R34567 for user ID U54321 happening on 2024-01-10.",
+        "filled_param": {
+          "user_id": "U54321",
+          "reservation_id": "R34567",
+          "reservation_date": "2024-01-10"
+        }
+      },
+      {
+        "query": "Retrieve the reservation details for user U33333, with reservation ID R99999, for the concert on 2023-10-25.",
+        "filled_param": {
+          "user_id": "U33333",
+          "reservation_id": "R99999",
+          "reservation_date": "2023-10-25"
+        }
+      },
+      {
+        "query": "What are the concert reservation details for reservation ID R45678 under user ID U11111 on the date 2024-02-20?",
+        "filled_param": {
+          "user_id": "U11111",
+          "reservation_id": "R45678",
+          "reservation_date": "2024-02-20"
+        }
+      }
+    ]
+  },
+  "get_reservation_details|:|sports event|:|user_id,reservation_id,reservation_date": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "sports event",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reservation_date"
+    ],
+    "queries": [
+      {
+        "query": "I need the reservation details for sports event with user ID 12345 and reservation ID ABCD123 on 2023-11-15.",
+        "filled_param": {
+          "user_id": "12345",
+          "reservation_id": "ABCD123",
+          "reservation_date": "2023-11-15"
+        }
+      },
+      {
+        "query": "Could you fetch the sports event reservation information for user ID 98765, reservation ID XYZ789, scheduled on 2023-12-01?",
+        "filled_param": {
+          "user_id": "98765",
+          "reservation_id": "XYZ789",
+          "reservation_date": "2023-12-01"
+        }
+      },
+      {
+        "query": "Please provide the details for my sports event booking. My user ID is 55555, reservation ID is LMN456, for the date 2024-01-25.",
+        "filled_param": {
+          "user_id": "55555",
+          "reservation_id": "LMN456",
+          "reservation_date": "2024-01-25"
+        }
+      },
+      {
+        "query": "What are the reservation details for the sports event with user ID 22222 and reservation ID DEF001 on the date 2023-10-10?",
+        "filled_param": {
+          "user_id": "22222",
+          "reservation_id": "DEF001",
+          "reservation_date": "2023-10-10"
+        }
+      },
+      {
+        "query": "Retrieve my sports event reservation data for user ID 77777, reservation ID GHI234 on 2024-02-14.",
+        "filled_param": {
+          "user_id": "77777",
+          "reservation_id": "GHI234",
+          "reservation_date": "2024-02-14"
+        }
+      }
+    ]
+  },
+  "get_reservation_details|:|hospital appointment|:|user_id,reservation_id,reservation_date": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "hospital appointment",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reservation_date"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the details for my hospital appointment with user ID U12345 and reservation ID R67890 on 2023-11-15?",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890",
+          "reservation_date": "2023-11-15"
+        }
+      },
+      {
+        "query": "I need the reservation details for a hospital appointment. My user ID is A98765, the reservation ID is B54321, and the date is 2023-12-01.",
+        "filled_param": {
+          "user_id": "A98765",
+          "reservation_id": "B54321",
+          "reservation_date": "2023-12-01"
+        }
+      },
+      {
+        "query": "Please fetch the hospital appointment reservation info for user ID Z24680, reservation ID Y13579, scheduled on 2024-01-05.",
+        "filled_param": {
+          "user_id": "Z24680",
+          "reservation_id": "Y13579",
+          "reservation_date": "2024-01-05"
+        }
+      },
+      {
+        "query": "What are the details of my hospital appointment booked under user ID C11223 with reservation ID D33445 for the date 2023-10-20?",
+        "filled_param": {
+          "user_id": "C11223",
+          "reservation_id": "D33445",
+          "reservation_date": "2023-10-20"
+        }
+      },
+      {
+        "query": "Retrieve the hospital appointment details for user ID M55667, reservation ID N77889, on 2023-09-30.",
+        "filled_param": {
+          "user_id": "M55667",
+          "reservation_id": "N77889",
+          "reservation_date": "2023-09-30"
+        }
+      }
+    ]
+  },
+  "get_reservation_details|:|psychological counseling|:|user_id,reservation_id,reservation_date": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "psychological counseling",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reservation_date"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the details of my psychological counseling session reserved under user ID 'U123456' with reservation ID 'R987654' scheduled for 2023-11-15?",
+        "filled_param": {
+          "user_id": "U123456",
+          "reservation_id": "R987654",
+          "reservation_date": "2023-11-15"
+        }
+      },
+      {
+        "query": "I'm looking for information on my psychological counseling reservation. My user ID is 'U789012', reservation ID is 'R654321', and the date is set for 2023-12-01.",
+        "filled_param": {
+          "user_id": "U789012",
+          "reservation_id": "R654321",
+          "reservation_date": "2023-12-01"
+        }
+      },
+      {
+        "query": "Please retrieve the reservation details for psychological counseling for user ID 'U345678' and reservation ID 'R123456' on 2023-10-25.",
+        "filled_param": {
+          "user_id": "U345678",
+          "reservation_id": "R123456",
+          "reservation_date": "2023-10-25"
+        }
+      },
+      {
+        "query": "Find my psychological counseling booking details with user ID 'U567890', reservation ID 'R789012', and the date is 2023-11-05.",
+        "filled_param": {
+          "user_id": "U567890",
+          "reservation_id": "R789012",
+          "reservation_date": "2023-11-05"
+        }
+      },
+      {
+        "query": "Can you tell me about my psychological counseling session booked with user ID 'U901234', reservation ID 'R321654' for the date 2023-09-30?",
+        "filled_param": {
+          "user_id": "U901234",
+          "reservation_id": "R321654",
+          "reservation_date": "2023-09-30"
+        }
+      }
+    ]
+  },
+  "get_reservation_details|:|legal consultation|:|user_id,reservation_id,reservation_date": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "legal consultation",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reservation_date"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the details for my legal consultation on 2023-11-15 with user ID U12345 and reservation ID R67890?",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890",
+          "reservation_date": "2023-11-15"
+        }
+      },
+      {
+        "query": "I need to check the reservation details for my legal consultation scheduled on 2024-01-10. My user ID is USER987 and the reservation ID is RES345.",
+        "filled_param": {
+          "user_id": "USER987",
+          "reservation_id": "RES345",
+          "reservation_date": "2024-01-10"
+        }
+      },
+      {
+        "query": "Could you find my legal consultation booking details? The reservation date is 2023-12-05, user ID is ID4321, and reservation ID is RID8765.",
+        "filled_param": {
+          "user_id": "ID4321",
+          "reservation_id": "RID8765",
+          "reservation_date": "2023-12-05"
+        }
+      },
+      {
+        "query": "Retrieve the details for my legal consultation on 2024-02-20. My user ID is A4567 and my reservation ID is B9876.",
+        "filled_param": {
+          "user_id": "A4567",
+          "reservation_id": "B9876",
+          "reservation_date": "2024-02-20"
+        }
+      },
+      {
+        "query": "What are the reservation details for my legal consultation booked for 2023-11-25 with user ID 5678USER and reservation ID 1234RES?",
+        "filled_param": {
+          "user_id": "5678USER",
+          "reservation_id": "1234RES",
+          "reservation_date": "2023-11-25"
+        }
+      }
+    ]
+  },
+  "get_reservation_details|:|housekeeping service|:|user_id,reservation_id,reservation_date": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "housekeeping service",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reservation_date"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the details for housekeeping service reservation with user ID U12345, reservation ID R67890, scheduled on 2023-10-15?",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890",
+          "reservation_date": "2023-10-15"
+        }
+      },
+      {
+        "query": "I need to check the housekeeping service reservation info for user ID U54321, reservation ID R09876, booked on 2023-11-01.",
+        "filled_param": {
+          "user_id": "U54321",
+          "reservation_id": "R09876",
+          "reservation_date": "2023-11-01"
+        }
+      },
+      {
+        "query": "Retrieve the details of the housekeeping service for the reservation ID R23456, associated with user ID U67890, on the date 2023-12-05.",
+        "filled_param": {
+          "user_id": "U67890",
+          "reservation_id": "R23456",
+          "reservation_date": "2023-12-05"
+        }
+      },
+      {
+        "query": "What are the reservation details for the housekeeping service with reservation ID R34567 for user ID U13579 scheduled on 2024-01-10?",
+        "filled_param": {
+          "user_id": "U13579",
+          "reservation_id": "R34567",
+          "reservation_date": "2024-01-10"
+        }
+      },
+      {
+        "query": "Could you look up the housekeeping service booking details for user ID U24680, reservation ID R45678, on 2024-02-20?",
+        "filled_param": {
+          "user_id": "U24680",
+          "reservation_id": "R45678",
+          "reservation_date": "2024-02-20"
+        }
+      }
+    ]
+  },
+  "get_reservation_details|:|yoga class|:|user_id,reservation_id,reservation_date": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "yoga class",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reservation_date"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the details for my yoga class reservation with user ID 12345 and reservation ID ABCD5678 scheduled on 2023-09-15?",
+        "filled_param": {
+          "user_id": "12345",
+          "reservation_id": "ABCD5678",
+          "reservation_date": "2023-09-15"
+        }
+      },
+      {
+        "query": "I need to check the details for the yoga class I booked. My user ID is 67890, the reservation ID is XYZ1234, and the date is 2023-08-10.",
+        "filled_param": {
+          "user_id": "67890",
+          "reservation_id": "XYZ1234",
+          "reservation_date": "2023-08-10"
+        }
+      },
+      {
+        "query": "Can you retrieve my yoga class reservation details? My user ID is 112233, the reservation ID is LMN4567, and it's scheduled for 2023-07-20.",
+        "filled_param": {
+          "user_id": "112233",
+          "reservation_id": "LMN4567",
+          "reservation_date": "2023-07-20"
+        }
+      },
+      {
+        "query": "I'd like to know the information about my reserved yoga class. The user ID is 998877, the reservation ID is QWE7890, and the class is on 2023-10-05.",
+        "filled_param": {
+          "user_id": "998877",
+          "reservation_id": "QWE7890",
+          "reservation_date": "2023-10-05"
+        }
+      },
+      {
+        "query": "Please find the details for my yoga class booking with user ID 445566 and reservation ID RTY1122 for the date 2023-11-12.",
+        "filled_param": {
+          "user_id": "445566",
+          "reservation_id": "RTY1122",
+          "reservation_date": "2023-11-12"
+        }
+      }
+    ]
+  },
+  "get_reservation_details|:|karaoke room|:|user_id,reservation_id,reservation_date": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "karaoke room",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reservation_date"
+    ],
+    "queries": [
+      {
+        "query": "Please provide the details of my karaoke room reservation with user ID U12345 and reservation ID R98765 for the date 2023-11-15.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R98765",
+          "reservation_date": "2023-11-15"
+        }
+      },
+      {
+        "query": "I need to check my karaoke room booking info. My user ID is U54321, the reservation ID is R12345, and the date is 2023-12-01.",
+        "filled_param": {
+          "user_id": "U54321",
+          "reservation_id": "R12345",
+          "reservation_date": "2023-12-01"
+        }
+      },
+      {
+        "query": "Could you retrieve the reservation details for my karaoke room? The user ID is U67890, reservation ID is R54321, and the reservation date is 2023-10-25.",
+        "filled_param": {
+          "user_id": "U67890",
+          "reservation_id": "R54321",
+          "reservation_date": "2023-10-25"
+        }
+      },
+      {
+        "query": "What are the details for my karaoke room reservation? My user ID is U13579, reservation ID is R24680, and the date is 2023-09-30.",
+        "filled_param": {
+          "user_id": "U13579",
+          "reservation_id": "R24680",
+          "reservation_date": "2023-09-30"
+        }
+      },
+      {
+        "query": "Can you give me the details for my karaoke room reservation? The information includes user ID U24680, reservation ID R13579, and reservation date 2023-11-20.",
+        "filled_param": {
+          "user_id": "U24680",
+          "reservation_id": "R13579",
+          "reservation_date": "2023-11-20"
+        }
+      }
+    ]
+  }
+}

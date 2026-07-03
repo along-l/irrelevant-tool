@@ -1,0 +1,890 @@
+{
+  "sports_team.get_schedule|:|basketball|:|team_name,num_of_games,league,location,season,home_away_preference": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "basketball",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location",
+      "season",
+      "home_away_preference"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the schedule for the Los Angeles Lakers for the next 5 games in the NBA, focusing on home games in Los Angeles for the 2023-2024 season?",
+        "filled_param": {
+          "team_name": "Los Angeles Lakers",
+          "num_of_games": 5,
+          "league": "NBA",
+          "location": "Los Angeles",
+          "season": "2023-2024",
+          "home_away_preference": "home"
+        }
+      },
+      {
+        "query": "What is the upcoming schedule for the New York Knicks for 3 away games in the NBA, located in New York City for the 2023-2024 season?",
+        "filled_param": {
+          "team_name": "New York Knicks",
+          "num_of_games": 3,
+          "league": "NBA",
+          "location": "New York City",
+          "season": "2023-2024",
+          "home_away_preference": "away"
+        }
+      },
+      {
+        "query": "Generate a schedule for the Chicago Bulls for the next 6 games in the 2023-2024 season for the NBA in Chicago, focusing on both home and away games.",
+        "filled_param": {
+          "team_name": "Chicago Bulls",
+          "num_of_games": 6,
+          "league": "NBA",
+          "location": "Chicago",
+          "season": "2023-2024",
+          "home_away_preference": "both"
+        }
+      },
+      {
+        "query": "I'm interested in finding out the schedule for the Golden State Warriors for 4 games in the NBA held in San Francisco during the 2023-2024 season, focusing on home matches.",
+        "filled_param": {
+          "team_name": "Golden State Warriors",
+          "num_of_games": 4,
+          "league": "NBA",
+          "location": "San Francisco",
+          "season": "2023-2024",
+          "home_away_preference": "home"
+        }
+      },
+      {
+        "query": "Fetch the schedule for the Miami Heat for the next 7 games in the NBA for the 2023-2024 season, focusing on away games in Miami.",
+        "filled_param": {
+          "team_name": "Miami Heat",
+          "num_of_games": 7,
+          "league": "NBA",
+          "location": "Miami",
+          "season": "2023-2024",
+          "home_away_preference": "away"
+        }
+      },
+      {
+        "query": "Could you list the next 5 games for the Boston Celtics in the NBA for the 2023-2024 season, with a focus on games held in Boston and both home and away games?",
+        "filled_param": {
+          "team_name": "Boston Celtics",
+          "num_of_games": 5,
+          "league": "NBA",
+          "location": "Boston",
+          "season": "2023-2024",
+          "home_away_preference": "both"
+        }
+      },
+      {
+        "query": "Please provide the schedule for the Dallas Mavericks for the next 2 games in the NBA, home games only, taking place in Dallas during the 2023-2024 season.",
+        "filled_param": {
+          "team_name": "Dallas Mavericks",
+          "num_of_games": 2,
+          "league": "NBA",
+          "location": "Dallas",
+          "season": "2023-2024",
+          "home_away_preference": "home"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|soccer|:|team_name,num_of_games,league,location,season,home_away_preference": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "soccer",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location",
+      "season",
+      "home_away_preference"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the schedule for Manchester United's next 5 home games in the English Premier League for the 2023-2024 season to be played in Manchester?",
+        "filled_param": {
+          "team_name": "Manchester United",
+          "num_of_games": 5,
+          "league": "English Premier League",
+          "location": "Manchester",
+          "season": "2023-2024",
+          "home_away_preference": "home"
+        }
+      },
+      {
+        "query": "I need to know the schedule for FC Barcelona's upcoming 3 away matches in La Liga 2023-2024 season, specifically those taking place in Madrid.",
+        "filled_param": {
+          "team_name": "FC Barcelona",
+          "num_of_games": 3,
+          "league": "La Liga",
+          "location": "Madrid",
+          "season": "2023-2024",
+          "home_away_preference": "away"
+        }
+      },
+      {
+        "query": "Fetch the next 4 soccer matches for Juventus in the 2023-2024 Serie A season, focusing on both home and away games held in Turin.",
+        "filled_param": {
+          "team_name": "Juventus",
+          "num_of_games": 4,
+          "league": "Serie A",
+          "location": "Turin",
+          "season": "2023-2024",
+          "home_away_preference": "both"
+        }
+      },
+      {
+        "query": "Please list the schedule for the next 6 games of PSG in the 2023-2024 Ligue 1 season at Paris, focusing only on home matches.",
+        "filled_param": {
+          "team_name": "PSG",
+          "num_of_games": 6,
+          "league": "Ligue 1",
+          "location": "Paris",
+          "season": "2023-2024",
+          "home_away_preference": "home"
+        }
+      },
+      {
+        "query": "Show me the upcoming 2 matches for Bayern Munich in the Bundesliga 2023-2024 season, occurring in Munich, regardless of whether they are home or away.",
+        "filled_param": {
+          "team_name": "Bayern Munich",
+          "num_of_games": 2,
+          "league": "Bundesliga",
+          "location": "Munich",
+          "season": "2023-2024",
+          "home_away_preference": "both"
+        }
+      },
+      {
+        "query": "What are the next 7 away games scheduled for Chelsea in the English Premier League 2023-2024 season, specifically in London?",
+        "filled_param": {
+          "team_name": "Chelsea",
+          "num_of_games": 7,
+          "league": "English Premier League",
+          "location": "London",
+          "season": "2023-2024",
+          "home_away_preference": "away"
+        }
+      },
+      {
+        "query": "Get me the schedule of the next 5 matches for Inter Milan in Serie A during the 2023-2024 season, happening in Milan, focusing on away games.",
+        "filled_param": {
+          "team_name": "Inter Milan",
+          "num_of_games": 5,
+          "league": "Serie A",
+          "location": "Milan",
+          "season": "2023-2024",
+          "home_away_preference": "away"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|baseball|:|team_name,num_of_games,league,location,season,home_away_preference": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "baseball",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location",
+      "season",
+      "home_away_preference"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the schedule for the New York Yankees for 5 games in the MLB league, specifically those held in New York during the 2023-2024 season, focusing on home games only?",
+        "filled_param": {
+          "team_name": "New York Yankees",
+          "num_of_games": 5,
+          "league": "MLB",
+          "location": "New York",
+          "season": "2023-2024",
+          "home_away_preference": "home"
+        }
+      },
+      {
+        "query": "I need to know the schedule for the Boston Red Sox for their next 3 games in the American League, taking place in Boston during the 2023-2024 season, and I’m interested in both home and away games.",
+        "filled_param": {
+          "team_name": "Boston Red Sox",
+          "num_of_games": 3,
+          "league": "American League",
+          "location": "Boston",
+          "season": "2023-2024",
+          "home_away_preference": "both"
+        }
+      },
+      {
+        "query": "What are the upcoming 7 games for the Los Angeles Dodgers in the National League, scheduled in Los Angeles for the 2023-2024 season, focusing on away games?",
+        "filled_param": {
+          "team_name": "Los Angeles Dodgers",
+          "num_of_games": 7,
+          "league": "National League",
+          "location": "Los Angeles",
+          "season": "2023-2024",
+          "home_away_preference": "away"
+        }
+      },
+      {
+        "query": "Can you show me the schedule for Chicago Cubs' next 4 games in the MLB, held in Chicago during the 2023-2024 season, focusing on home matches?",
+        "filled_param": {
+          "team_name": "Chicago Cubs",
+          "num_of_games": 4,
+          "league": "MLB",
+          "location": "Chicago",
+          "season": "2023-2024",
+          "home_away_preference": "home"
+        }
+      },
+      {
+        "query": "Please list the schedule for the next 2 games of the San Francisco Giants in the National League, located in San Francisco for the 2023-2024 season, considering both home and away games.",
+        "filled_param": {
+          "team_name": "San Francisco Giants",
+          "num_of_games": 2,
+          "league": "National League",
+          "location": "San Francisco",
+          "season": "2023-2024",
+          "home_away_preference": "both"
+        }
+      },
+      {
+        "query": "I’m looking for the Philadelphia Phillies' next 6 games schedule in the MLB, taking place in Philadelphia for the 2023-2024 season, specifically away games.",
+        "filled_param": {
+          "team_name": "Philadelphia Phillies",
+          "num_of_games": 6,
+          "league": "MLB",
+          "location": "Philadelphia",
+          "season": "2023-2024",
+          "home_away_preference": "away"
+        }
+      },
+      {
+        "query": "Get me the schedule details for 8 games of the Houston Astros in the American League, happening in Houston during the 2023-2024 season, focusing on both home and away venues.",
+        "filled_param": {
+          "team_name": "Houston Astros",
+          "num_of_games": 8,
+          "league": "American League",
+          "location": "Houston",
+          "season": "2023-2024",
+          "home_away_preference": "both"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|ice hockey|:|team_name,num_of_games,league,location,season,home_away_preference": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "ice hockey",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location",
+      "season",
+      "home_away_preference"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the schedule for the Toronto Maple Leafs for their next 5 games in the NHL, focusing on home games during the 2023-2024 season at Scotiabank Arena?",
+        "filled_param": {
+          "team_name": "Toronto Maple Leafs",
+          "num_of_games": 5,
+          "league": "NHL",
+          "location": "Scotiabank Arena",
+          "season": "2023-2024",
+          "home_away_preference": "home"
+        }
+      },
+      {
+        "query": "Get the schedule for the New York Rangers for the next 3 away games in the NHL 2023-2024 season, focusing on games in Madison Square Garden.",
+        "filled_param": {
+          "team_name": "New York Rangers",
+          "num_of_games": 3,
+          "league": "NHL",
+          "location": "Madison Square Garden",
+          "season": "2023-2024",
+          "home_away_preference": "away"
+        }
+      },
+      {
+        "query": "Fetch the upcoming 7 games for the Chicago Blackhawks in the NHL, both home and away, for the 2023-2024 season at United Center.",
+        "filled_param": {
+          "team_name": "Chicago Blackhawks",
+          "num_of_games": 7,
+          "league": "NHL",
+          "location": "United Center",
+          "season": "2023-2024",
+          "home_away_preference": "both"
+        }
+      },
+      {
+        "query": "What is the schedule for the Edmonton Oilers for the next 4 games in the NHL 2023-2024 season, focusing on away games at Rogers Place?",
+        "filled_param": {
+          "team_name": "Edmonton Oilers",
+          "num_of_games": 4,
+          "league": "NHL",
+          "location": "Rogers Place",
+          "season": "2023-2024",
+          "home_away_preference": "away"
+        }
+      },
+      {
+        "query": "I need the next 6 game schedules for the Boston Bruins in the NHL 2023-2024 season, at TD Garden, focusing on home games.",
+        "filled_param": {
+          "team_name": "Boston Bruins",
+          "num_of_games": 6,
+          "league": "NHL",
+          "location": "TD Garden",
+          "season": "2023-2024",
+          "home_away_preference": "home"
+        }
+      },
+      {
+        "query": "Could you list the next 2 games for the Vancouver Canucks in the NHL 2023-2024 season, focusing on both home and away games at Rogers Arena?",
+        "filled_param": {
+          "team_name": "Vancouver Canucks",
+          "num_of_games": 2,
+          "league": "NHL",
+          "location": "Rogers Arena",
+          "season": "2023-2024",
+          "home_away_preference": "both"
+        }
+      },
+      {
+        "query": "Can you get the schedule for the Montreal Canadiens for their next 8 games, home and away, in the NHL 2023-2024 season at Bell Centre?",
+        "filled_param": {
+          "team_name": "Montreal Canadiens",
+          "num_of_games": 8,
+          "league": "NHL",
+          "location": "Bell Centre",
+          "season": "2023-2024",
+          "home_away_preference": "both"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|handball|:|team_name,num_of_games,league,location,season,home_away_preference": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "handball",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location",
+      "season",
+      "home_away_preference"
+    ],
+    "queries": [
+      {
+        "query": "What is the schedule for the Paris Handball team for the next 3 games in the French Handball League taking place at Stade Pierre de Coubertin during the 2023-2024 season, focusing on home games?",
+        "filled_param": {
+          "team_name": "Paris Handball",
+          "num_of_games": 3,
+          "league": "French Handball League",
+          "location": "Stade Pierre de Coubertin",
+          "season": "2023-2024",
+          "home_away_preference": "home"
+        }
+      },
+      {
+        "query": "Fetch the schedule for THW Kiel's next 5 away games in the Bundesliga held in the Sparkassen-Arena for the 2023-2024 season.",
+        "filled_param": {
+          "team_name": "THW Kiel",
+          "num_of_games": 5,
+          "league": "Bundesliga",
+          "location": "Sparkassen-Arena",
+          "season": "2023-2024",
+          "home_away_preference": "away"
+        }
+      },
+      {
+        "query": "I need the upcoming 4 games for FC Barcelona Handbol in the Champions League at the Palau Blaugrana for the 2023-2024 season, including both home and away matches.",
+        "filled_param": {
+          "team_name": "FC Barcelona Handbol",
+          "num_of_games": 4,
+          "league": "Champions League",
+          "location": "Palau Blaugrana",
+          "season": "2023-2024",
+          "home_away_preference": "both"
+        }
+      },
+      {
+        "query": "Can you provide the schedule for 2 games for the Veszprém KC team in the Hungarian League taking place in the Veszprém Aréna during the 2023-2024 season, focusing on away matches?",
+        "filled_param": {
+          "team_name": "Veszprém KC",
+          "num_of_games": 2,
+          "league": "Hungarian League",
+          "location": "Veszprém Aréna",
+          "season": "2023-2024",
+          "home_away_preference": "away"
+        }
+      },
+      {
+        "query": "Show me the match schedule for SG Flensburg-Handewitt's next 6 games in the German Handball League at Flens-Arena for 2023-2024, with a preference for home matches.",
+        "filled_param": {
+          "team_name": "SG Flensburg-Handewitt",
+          "num_of_games": 6,
+          "league": "German Handball League",
+          "location": "Flens-Arena",
+          "season": "2023-2024",
+          "home_away_preference": "home"
+        }
+      },
+      {
+        "query": "List the next 3 games for PGE Vive Kielce in the Polish Superliga at Hala Legionów for the 2023-2024 season, covering both home and away games.",
+        "filled_param": {
+          "team_name": "PGE Vive Kielce",
+          "num_of_games": 3,
+          "league": "Polish Superliga",
+          "location": "Hala Legionów",
+          "season": "2023-2024",
+          "home_away_preference": "both"
+        }
+      },
+      {
+        "query": "Provide details for the upcoming 5 games for Aalborg Håndbold in the Danish Handball League at Gigantium for the 2023-2024 season, especially the away matches.",
+        "filled_param": {
+          "team_name": "Aalborg Håndbold",
+          "num_of_games": 5,
+          "league": "Danish Handball League",
+          "location": "Gigantium",
+          "season": "2023-2024",
+          "home_away_preference": "away"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|rugby|:|team_name,num_of_games,league,location,season,home_away_preference": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "rugby",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location",
+      "season",
+      "home_away_preference"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the schedule for the rugby team 'New Zealand All Blacks' for their next 5 games in the Rugby Championship, to be held in Auckland during the 2023-2024 season, focusing on home games?",
+        "filled_param": {
+          "team_name": "New Zealand All Blacks",
+          "num_of_games": 5,
+          "league": "Rugby Championship",
+          "location": "Auckland",
+          "season": "2023-2024",
+          "home_away_preference": "home"
+        }
+      },
+      {
+        "query": "I need to find out the schedule for the English rugby team 'Harlequins' for 3 upcoming games in the English Premiership, played in London during the 2024-2025 season, focusing on away matches.",
+        "filled_param": {
+          "team_name": "Harlequins",
+          "num_of_games": 3,
+          "league": "English Premiership",
+          "location": "London",
+          "season": "2024-2025",
+          "home_away_preference": "away"
+        }
+      },
+      {
+        "query": "What's the game schedule for the 'Munster Rugby' team for their next 4 matches in the United Rugby Championship, happening in Cork for the 2022-2023 season, including both home and away games?",
+        "filled_param": {
+          "team_name": "Munster Rugby",
+          "num_of_games": 4,
+          "league": "United Rugby Championship",
+          "location": "Cork",
+          "season": "2022-2023",
+          "home_away_preference": "both"
+        }
+      },
+      {
+        "query": "Please show me the schedule for 'Wallabies' rugby team for the next 2 games in the Bledisloe Cup, scheduled in Sydney for the 2023 season, with a focus on home matches.",
+        "filled_param": {
+          "team_name": "Wallabies",
+          "num_of_games": 2,
+          "league": "Bledisloe Cup",
+          "location": "Sydney",
+          "season": "2023",
+          "home_away_preference": "home"
+        }
+      },
+      {
+        "query": "Could you list the next 6 games for the 'Blue Bulls' in the South African Currie Cup, to be played in Pretoria during the 2023-2024 season, prioritizing away games?",
+        "filled_param": {
+          "team_name": "Blue Bulls",
+          "num_of_games": 6,
+          "league": "South African Currie Cup",
+          "location": "Pretoria",
+          "season": "2023-2024",
+          "home_away_preference": "away"
+        }
+      },
+      {
+        "query": "Find the upcoming 3 matches for 'Leinster Rugby' in the European Rugby Champions Cup, taking place in Dublin for the 2024 season, emphasizing both home and away games.",
+        "filled_param": {
+          "team_name": "Leinster Rugby",
+          "num_of_games": 3,
+          "league": "European Rugby Champions Cup",
+          "location": "Dublin",
+          "season": "2024",
+          "home_away_preference": "both"
+        }
+      },
+      {
+        "query": "Can you tell me the schedule for 'Glasgow Warriors' for the next 5 games in the Pro14 league, all set in Glasgow for 2023, focusing on home matches?",
+        "filled_param": {
+          "team_name": "Glasgow Warriors",
+          "num_of_games": 5,
+          "league": "Pro14",
+          "location": "Glasgow",
+          "season": "2023",
+          "home_away_preference": "home"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|field hockey|:|team_name,num_of_games,league,location,season,home_away_preference": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "field hockey",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location",
+      "season",
+      "home_away_preference"
+    ],
+    "queries": [
+      {
+        "query": "Can you get the next 5 games for the Oxford Lions in the Premier League field hockey season 2023-2024, focusing on home games in London?",
+        "filled_param": {
+          "team_name": "Oxford Lions",
+          "num_of_games": 5,
+          "league": "Premier League",
+          "location": "London",
+          "season": "2023-2024",
+          "home_away_preference": "home"
+        }
+      },
+      {
+        "query": "I need the schedule for the Southshore Eagles for their upcoming 3 field hockey games in the National League 2023-2024 season, with a preference for away matches in Manchester.",
+        "filled_param": {
+          "team_name": "Southshore Eagles",
+          "num_of_games": 3,
+          "league": "National League",
+          "location": "Manchester",
+          "season": "2023-2024",
+          "home_away_preference": "away"
+        }
+      },
+      {
+        "query": "Fetch the next 7 games for Brighton Blades in the Super League field hockey season 2023-2024, including both home and away games in Glasgow.",
+        "filled_param": {
+          "team_name": "Brighton Blades",
+          "num_of_games": 7,
+          "league": "Super League",
+          "location": "Glasgow",
+          "season": "2023-2024",
+          "home_away_preference": "both"
+        }
+      },
+      {
+        "query": "What's the field hockey schedule for the next 4 matches of the Cambridge Hawks in the Elite League 2023-2024 season, focusing on home games in Edinburgh?",
+        "filled_param": {
+          "team_name": "Cambridge Hawks",
+          "num_of_games": 4,
+          "league": "Elite League",
+          "location": "Edinburgh",
+          "season": "2023-2024",
+          "home_away_preference": "home"
+        }
+      },
+      {
+        "query": "Show me the upcoming 6 field hockey games for the Liverpool Raptors in the Continental League 2023-2024, prioritizing away games in Cardiff.",
+        "filled_param": {
+          "team_name": "Liverpool Raptors",
+          "num_of_games": 6,
+          "league": "Continental League",
+          "location": "Cardiff",
+          "season": "2023-2024",
+          "home_away_preference": "away"
+        }
+      },
+      {
+        "query": "List the next 8 matches for the Newcastle Knights in the Championship League field hockey season 2023-2024, covering home and away games in Birmingham.",
+        "filled_param": {
+          "team_name": "Newcastle Knights",
+          "num_of_games": 8,
+          "league": "Championship League",
+          "location": "Birmingham",
+          "season": "2023-2024",
+          "home_away_preference": "both"
+        }
+      },
+      {
+        "query": "Provide the next 2 games for Sheffield Sharks in the Division One field hockey league season 2023-2024, focusing on home matches in Bristol.",
+        "filled_param": {
+          "team_name": "Sheffield Sharks",
+          "num_of_games": 2,
+          "league": "Division One",
+          "location": "Bristol",
+          "season": "2023-2024",
+          "home_away_preference": "home"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|lacrosse|:|team_name,num_of_games,league,location,season,home_away_preference": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "lacrosse",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location",
+      "season",
+      "home_away_preference"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the schedule for the Toronto Stars lacrosse team for their next 5 games in the National Lacrosse League held in Toronto during the 2023-2024 season, focusing on home games?",
+        "filled_param": {
+          "team_name": "Toronto Stars",
+          "num_of_games": 5,
+          "league": "National Lacrosse League",
+          "location": "Toronto",
+          "season": "2023-2024",
+          "home_away_preference": "home"
+        }
+      },
+      {
+        "query": "I need to know the schedule for the New York Knights lacrosse team for their upcoming 3 games in the Major League Lacrosse in New York City for the 2024 season, focusing on away games.",
+        "filled_param": {
+          "team_name": "New York Knights",
+          "num_of_games": 3,
+          "league": "Major League Lacrosse",
+          "location": "New York City",
+          "season": "2024",
+          "home_away_preference": "away"
+        }
+      },
+      {
+        "query": "Fetch the next 7 games of the Boston Bears lacrosse team's schedule in the Premier Lacrosse League at Boston venues for the 2023-2024 season, including both home and away matches.",
+        "filled_param": {
+          "team_name": "Boston Bears",
+          "num_of_games": 7,
+          "league": "Premier Lacrosse League",
+          "location": "Boston",
+          "season": "2023-2024",
+          "home_away_preference": "both"
+        }
+      },
+      {
+        "query": "What's the schedule for the Los Angeles Eagles lacrosse team for their next 4 games in the Western Lacrosse League happening in Los Angeles during the 2024 season? I need both home and away games.",
+        "filled_param": {
+          "team_name": "Los Angeles Eagles",
+          "num_of_games": 4,
+          "league": "Western Lacrosse League",
+          "location": "Los Angeles",
+          "season": "2024",
+          "home_away_preference": "both"
+        }
+      },
+      {
+        "query": "Please get me the schedule of the Chicago Wolves lacrosse team for the next 6 games in the National Lacrosse League played in Chicago for the 2023-2024 season, focusing on home games.",
+        "filled_param": {
+          "team_name": "Chicago Wolves",
+          "num_of_games": 6,
+          "league": "National Lacrosse League",
+          "location": "Chicago",
+          "season": "2023-2024",
+          "home_away_preference": "home"
+        }
+      },
+      {
+        "query": "Can you tell me the schedule of the Philadelphia Falcons lacrosse team for their next 2 games in the American Lacrosse League being held in Philadelphia for the upcoming season, including away games?",
+        "filled_param": {
+          "team_name": "Philadelphia Falcons",
+          "num_of_games": 2,
+          "league": "American Lacrosse League",
+          "location": "Philadelphia",
+          "season": "upcoming",
+          "home_away_preference": "away"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|cricket|:|team_name,num_of_games,league,location,season,home_away_preference": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "cricket",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location",
+      "season",
+      "home_away_preference"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the schedule for the Mumbai Indians for their next 5 home games in the IPL 2023-2024 season, located in Mumbai?",
+        "filled_param": {
+          "team_name": "Mumbai Indians",
+          "num_of_games": 5,
+          "league": "IPL",
+          "location": "Mumbai",
+          "season": "2023-2024",
+          "home_away_preference": "home"
+        }
+      },
+      {
+        "query": "Can I get the schedule for the Sydney Sixers' upcoming 3 away matches in the Big Bash League played in Sydney for the 2023-2024 season?",
+        "filled_param": {
+          "team_name": "Sydney Sixers",
+          "num_of_games": 3,
+          "league": "Big Bash League",
+          "location": "Sydney",
+          "season": "2023-2024",
+          "home_away_preference": "away"
+        }
+      },
+      {
+        "query": "List the upcoming 4 games for the Chennai Super Kings in the IPL 2023-2024 season at Chennai, focusing on both home and away matches.",
+        "filled_param": {
+          "team_name": "Chennai Super Kings",
+          "num_of_games": 4,
+          "league": "IPL",
+          "location": "Chennai",
+          "season": "2023-2024",
+          "home_away_preference": "both"
+        }
+      },
+      {
+        "query": "What is the schedule for the Kolkata Knight Riders for 2 matches in the IPL 2023-2024 season taking place at Eden Gardens, with an emphasis on home games?",
+        "filled_param": {
+          "team_name": "Kolkata Knight Riders",
+          "num_of_games": 2,
+          "league": "IPL",
+          "location": "Eden Gardens",
+          "season": "2023-2024",
+          "home_away_preference": "home"
+        }
+      },
+      {
+        "query": "Fetch the schedule for the Royal Challengers Bangalore's next 6 matches in the IPL 2023-2024 season, located in Bengaluru, focusing on away matches.",
+        "filled_param": {
+          "team_name": "Royal Challengers Bangalore",
+          "num_of_games": 6,
+          "league": "IPL",
+          "location": "Bengaluru",
+          "season": "2023-2024",
+          "home_away_preference": "away"
+        }
+      },
+      {
+        "query": "Can you show me the upcoming 3 games for the Melbourne Stars in the Big Bash League 2023-2024 season at the Melbourne Cricket Ground, covering both home and away games?",
+        "filled_param": {
+          "team_name": "Melbourne Stars",
+          "num_of_games": 3,
+          "league": "Big Bash League",
+          "location": "Melbourne Cricket Ground",
+          "season": "2023-2024",
+          "home_away_preference": "both"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|volleyball|:|team_name,num_of_games,league,location,season,home_away_preference": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "volleyball",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location",
+      "season",
+      "home_away_preference"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the schedule for the Los Angeles Spikers volleyball team for 5 games in the National Volleyball League, focusing on home games in Los Angeles for the 2023 season?",
+        "filled_param": {
+          "team_name": "Los Angeles Spikers",
+          "num_of_games": 5,
+          "league": "National Volleyball League",
+          "location": "Los Angeles",
+          "season": "2023",
+          "home_away_preference": "home"
+        }
+      },
+      {
+        "query": "Please fetch the schedule for the Chicago Smashers volleyball team for 3 games in the Midwest Volleyball League happening in Chicago during the 2022-2023 season, focusing on away games.",
+        "filled_param": {
+          "team_name": "Chicago Smashers",
+          "num_of_games": 3,
+          "league": "Midwest Volleyball League",
+          "location": "Chicago",
+          "season": "2022-2023",
+          "home_away_preference": "away"
+        }
+      },
+      {
+        "query": "What's the schedule for the New York Spikers volleyball team for 10 games in the New York City Volleyball League, focusing on both home and away games in New York for the 2023-2024 season?",
+        "filled_param": {
+          "team_name": "New York Spikers",
+          "num_of_games": 10,
+          "league": "New York City Volleyball League",
+          "location": "New York",
+          "season": "2023-2024",
+          "home_away_preference": "both"
+        }
+      },
+      {
+        "query": "I need to know the schedule for 8 matches of the Miami Heat volleyball team in the Sunshine Volleyball League at Miami, focusing on home games for the 2023-2024 season.",
+        "filled_param": {
+          "team_name": "Miami Heat",
+          "num_of_games": 8,
+          "league": "Sunshine Volleyball League",
+          "location": "Miami",
+          "season": "2023-2024",
+          "home_away_preference": "home"
+        }
+      },
+      {
+        "query": "Find the upcoming schedule for the Seattle Waves volleyball team for 7 games in the Pacific Volleyball League, focusing on away games in Seattle for the 2024 season.",
+        "filled_param": {
+          "team_name": "Seattle Waves",
+          "num_of_games": 7,
+          "league": "Pacific Volleyball League",
+          "location": "Seattle",
+          "season": "2024",
+          "home_away_preference": "away"
+        }
+      },
+      {
+        "query": "What is the schedule for the Dallas Diggers volleyball team for 4 games in the Texas Volleyball League in Dallas, focusing on both home and away games for the 2023 season?",
+        "filled_param": {
+          "team_name": "Dallas Diggers",
+          "num_of_games": 4,
+          "league": "Texas Volleyball League",
+          "location": "Dallas",
+          "season": "2023",
+          "home_away_preference": "both"
+        }
+      },
+      {
+        "query": "Could you list the schedule for 6 games of the Phoenix Flyers volleyball team in the Desert Volleyball League, focusing on home matches in Phoenix for the 2023-2024 season?",
+        "filled_param": {
+          "team_name": "Phoenix Flyers",
+          "num_of_games": 6,
+          "league": "Desert Volleyball League",
+          "location": "Phoenix",
+          "season": "2023-2024",
+          "home_away_preference": "home"
+        }
+      }
+    ]
+  }
+}

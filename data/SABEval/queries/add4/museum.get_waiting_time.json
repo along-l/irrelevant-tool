@@ -1,0 +1,573 @@
+{
+  "museum.get_waiting_time|:|museum|:|venue_name,day,time_of_day,entry_type,return_waiting_range": {
+    "tool_template_name": "museum.get_waiting_time",
+    "derived_class": "museum",
+    "params_for_query": [
+      "venue_name",
+      "day",
+      "time_of_day",
+      "entry_type",
+      "return_waiting_range"
+    ],
+    "queries": [
+      {
+        "query": "What's the estimated waiting time for general admission at the Louvre museum on Saturday afternoon, preferably as a range?",
+        "filled_param": {
+          "venue_name": "Louvre",
+          "day": "Saturday",
+          "time_of_day": "afternoon",
+          "entry_type": "general admission",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "Could you tell me the waiting time for members at the American Museum of Natural History on a Wednesday evening? I'd like the information as a range.",
+        "filled_param": {
+          "venue_name": "American Museum of Natural History",
+          "day": "Wednesday",
+          "time_of_day": "evening",
+          "entry_type": "membership",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "I need to know the waiting time for general admission at the British Museum on Monday morning. A single average time would be fine.",
+        "filled_param": {
+          "venue_name": "British Museum",
+          "day": "Monday",
+          "time_of_day": "morning",
+          "entry_type": "general admission",
+          "return_waiting_range": false
+        }
+      },
+      {
+        "query": "How long is the wait for members at the Metropolitan Museum of Art on a Friday evening, shown as a range?",
+        "filled_param": {
+          "venue_name": "Metropolitan Museum of Art",
+          "day": "Friday",
+          "time_of_day": "evening",
+          "entry_type": "membership",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "Provide the estimated wait time for general admission at the Van Gogh Museum on Sunday afternoon in a single time value.",
+        "filled_param": {
+          "venue_name": "Van Gogh Museum",
+          "day": "Sunday",
+          "time_of_day": "afternoon",
+          "entry_type": "general admission",
+          "return_waiting_range": false
+        }
+      },
+      {
+        "query": "I'm planning a visit to the Rijksmuseum on Tuesday morning. What's the expected waiting time for members, ideally as a range?",
+        "filled_param": {
+          "venue_name": "Rijksmuseum",
+          "day": "Tuesday",
+          "time_of_day": "morning",
+          "entry_type": "membership",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "Can you find out the wait time for general admission at the Uffizi Gallery on Thursday afternoon? A single average time is sufficient.",
+        "filled_param": {
+          "venue_name": "Uffizi Gallery",
+          "day": "Thursday",
+          "time_of_day": "afternoon",
+          "entry_type": "general admission",
+          "return_waiting_range": false
+        }
+      }
+    ]
+  },
+  "museum.get_waiting_time|:|art gallery|:|venue_name,day,time_of_day,entry_type,return_waiting_range": {
+    "tool_template_name": "museum.get_waiting_time",
+    "derived_class": "art gallery",
+    "params_for_query": [
+      "venue_name",
+      "day",
+      "time_of_day",
+      "entry_type",
+      "return_waiting_range"
+    ],
+    "queries": [
+      {
+        "query": "What is the waiting time for general admission at the Louvre on a Saturday afternoon, and can you provide a range?",
+        "filled_param": {
+          "venue_name": "Louvre",
+          "day": "Saturday",
+          "time_of_day": "afternoon",
+          "entry_type": "general admission",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "Can you tell me the expected waiting time for members at the Guggenheim Museum on a Wednesday evening? Please provide a range if possible.",
+        "filled_param": {
+          "venue_name": "Guggenheim Museum",
+          "day": "Wednesday",
+          "time_of_day": "evening",
+          "entry_type": "membership",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "I'm planning to visit the Tate Modern on Monday morning with a general admission ticket. What is the waiting time?",
+        "filled_param": {
+          "venue_name": "Tate Modern",
+          "day": "Monday",
+          "time_of_day": "morning",
+          "entry_type": "general admission",
+          "return_waiting_range": false
+        }
+      },
+      {
+        "query": "Could you give me the estimated waiting time for members at the MoMA on Sunday afternoon?",
+        "filled_param": {
+          "venue_name": "MoMA",
+          "day": "Sunday",
+          "time_of_day": "afternoon",
+          "entry_type": "membership",
+          "return_waiting_range": false
+        }
+      },
+      {
+        "query": "What's the wait time for a general admission ticket at the Uffizi Gallery on Thursday evening? I'd like the information as a range.",
+        "filled_param": {
+          "venue_name": "Uffizi Gallery",
+          "day": "Thursday",
+          "time_of_day": "evening",
+          "entry_type": "general admission",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "I need the waiting time for the Rijksmuseum on a Friday morning for members. Please provide the time as a single value.",
+        "filled_param": {
+          "venue_name": "Rijksmuseum",
+          "day": "Friday",
+          "time_of_day": "morning",
+          "entry_type": "membership",
+          "return_waiting_range": false
+        }
+      },
+      {
+        "query": "On Tuesday afternoon, what is the expected wait time with general admission at the National Gallery? I'd appreciate it as a range.",
+        "filled_param": {
+          "venue_name": "National Gallery",
+          "day": "Tuesday",
+          "time_of_day": "afternoon",
+          "entry_type": "general admission",
+          "return_waiting_range": true
+        }
+      }
+    ]
+  },
+  "museum.get_waiting_time|:|zoo|:|venue_name,day,time_of_day,entry_type,return_waiting_range": {
+    "tool_template_name": "museum.get_waiting_time",
+    "derived_class": "zoo",
+    "params_for_query": [
+      "venue_name",
+      "day",
+      "time_of_day",
+      "entry_type",
+      "return_waiting_range"
+    ],
+    "queries": [
+      {
+        "query": "What's the waiting time at the San Diego Zoo on a Saturday morning for general admission, and can you give me a range?",
+        "filled_param": {
+          "venue_name": "San Diego Zoo",
+          "day": "Saturday",
+          "time_of_day": "morning",
+          "entry_type": "general admission",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "Could you tell me the expected wait at Bronx Zoo on Wednesday afternoon for members, with a time range if possible?",
+        "filled_param": {
+          "venue_name": "Bronx Zoo",
+          "day": "Wednesday",
+          "time_of_day": "afternoon",
+          "entry_type": "membership",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "I'd like to know the waiting time at London Zoo on Monday evening with general admission, and please include a range.",
+        "filled_param": {
+          "venue_name": "London Zoo",
+          "day": "Monday",
+          "time_of_day": "evening",
+          "entry_type": "general admission",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "Can you check the wait time for general admission at Taronga Zoo on a Sunday afternoon and provide it as a range?",
+        "filled_param": {
+          "venue_name": "Taronga Zoo",
+          "day": "Sunday",
+          "time_of_day": "afternoon",
+          "entry_type": "general admission",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "Please find out the waiting time at Singapore Zoo for a Thursday morning with membership, and I'd like a range.",
+        "filled_param": {
+          "venue_name": "Singapore Zoo",
+          "day": "Thursday",
+          "time_of_day": "morning",
+          "entry_type": "membership",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "What is the waiting time at Berlin Zoo on Friday evening for a general admission ticket, presented as a range?",
+        "filled_param": {
+          "venue_name": "Berlin Zoo",
+          "day": "Friday",
+          "time_of_day": "evening",
+          "entry_type": "general admission",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "Check the estimated wait time for membership entry at Melbourne Zoo on a Tuesday morning, with the results shown as a range.",
+        "filled_param": {
+          "venue_name": "Melbourne Zoo",
+          "day": "Tuesday",
+          "time_of_day": "morning",
+          "entry_type": "membership",
+          "return_waiting_range": true
+        }
+      }
+    ]
+  },
+  "museum.get_waiting_time|:|botanical garden|:|venue_name,day,time_of_day,entry_type,return_waiting_range": {
+    "tool_template_name": "museum.get_waiting_time",
+    "derived_class": "botanical garden",
+    "params_for_query": [
+      "venue_name",
+      "day",
+      "time_of_day",
+      "entry_type",
+      "return_waiting_range"
+    ],
+    "queries": [
+      {
+        "query": "What is the waiting time for general admission at the Royal Botanical Garden on a Sunday morning, and can you give it as a range?",
+        "filled_param": {
+          "venue_name": "Royal Botanical Garden",
+          "day": "Sunday",
+          "time_of_day": "morning",
+          "entry_type": "general admission",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "Could you tell me the estimated wait time as a range for members entering the New York Botanical Garden on a Wednesday afternoon?",
+        "filled_param": {
+          "venue_name": "New York Botanical Garden",
+          "day": "Wednesday",
+          "time_of_day": "afternoon",
+          "entry_type": "membership",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "I'd like to know the waiting time for a general admission ticket at the Singapore Botanic Gardens on Friday evening. Please provide the range.",
+        "filled_param": {
+          "venue_name": "Singapore Botanic Gardens",
+          "day": "Friday",
+          "time_of_day": "evening",
+          "entry_type": "general admission",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "How long is the wait for members at the Kew Gardens on a Monday morning? I need the waiting time range.",
+        "filled_param": {
+          "venue_name": "Kew Gardens",
+          "day": "Monday",
+          "time_of_day": "morning",
+          "entry_type": "membership",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "Provide the estimated waiting time range for a general admission at the Montreal Botanical Garden on Saturday afternoon.",
+        "filled_param": {
+          "venue_name": "Montreal Botanical Garden",
+          "day": "Saturday",
+          "time_of_day": "afternoon",
+          "entry_type": "general admission",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "Can you provide the waiting time range for members at the Brooklyn Botanic Garden on a Thursday evening?",
+        "filled_param": {
+          "venue_name": "Brooklyn Botanic Garden",
+          "day": "Thursday",
+          "time_of_day": "evening",
+          "entry_type": "membership",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "What is the waiting time range for general admission at the Tokyo Botanical Garden on Tuesday morning?",
+        "filled_param": {
+          "venue_name": "Tokyo Botanical Garden",
+          "day": "Tuesday",
+          "time_of_day": "morning",
+          "entry_type": "general admission",
+          "return_waiting_range": true
+        }
+      }
+    ]
+  },
+  "museum.get_waiting_time|:|aquarium|:|venue_name,day,time_of_day,entry_type,return_waiting_range": {
+    "tool_template_name": "museum.get_waiting_time",
+    "derived_class": "aquarium",
+    "params_for_query": [
+      "venue_name",
+      "day",
+      "time_of_day",
+      "entry_type",
+      "return_waiting_range"
+    ],
+    "queries": [
+      {
+        "query": "What is the estimated waiting time for general admission at the Monterey Bay Aquarium on a Saturday morning, and can you provide the range?",
+        "filled_param": {
+          "venue_name": "Monterey Bay Aquarium",
+          "day": "Saturday",
+          "time_of_day": "morning",
+          "entry_type": "general admission",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "Can you retrieve the waiting range for members at the Georgia Aquarium this Friday afternoon?",
+        "filled_param": {
+          "venue_name": "Georgia Aquarium",
+          "day": "Friday",
+          "time_of_day": "afternoon",
+          "entry_type": "membership",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "I'd like to know the waiting time for general admission to the Shedd Aquarium on Wednesday evening. Please provide a range.",
+        "filled_param": {
+          "venue_name": "Shedd Aquarium",
+          "day": "Wednesday",
+          "time_of_day": "evening",
+          "entry_type": "general admission",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "Tell me the estimated waiting time for membership entry at the Vancouver Aquarium on Monday morning, including a range.",
+        "filled_param": {
+          "venue_name": "Vancouver Aquarium",
+          "day": "Monday",
+          "time_of_day": "morning",
+          "entry_type": "membership",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "What's the waiting range for entering the New York Aquarium with general admission on Tuesday afternoon?",
+        "filled_param": {
+          "venue_name": "New York Aquarium",
+          "day": "Tuesday",
+          "time_of_day": "afternoon",
+          "entry_type": "general admission",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "Please provide the waiting time range for general admission at the Lisbon Oceanarium on Sunday evening.",
+        "filled_param": {
+          "venue_name": "Lisbon Oceanarium",
+          "day": "Sunday",
+          "time_of_day": "evening",
+          "entry_type": "general admission",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "I need the waiting range for members at the Sydney Aquarium this Thursday morning.",
+        "filled_param": {
+          "venue_name": "Sydney Aquarium",
+          "day": "Thursday",
+          "time_of_day": "morning",
+          "entry_type": "membership",
+          "return_waiting_range": true
+        }
+      }
+    ]
+  },
+  "museum.get_waiting_time|:|restaurant|:|venue_name,day,time_of_day,entry_type,return_waiting_range": {
+    "tool_template_name": "museum.get_waiting_time",
+    "derived_class": "restaurant",
+    "params_for_query": [
+      "venue_name",
+      "day",
+      "time_of_day",
+      "entry_type",
+      "return_waiting_range"
+    ],
+    "queries": [
+      {
+        "query": "What is the estimated waiting time at the restaurant 'Olive Garden' on Saturday evening with a general admission entry? Please provide a time range.",
+        "filled_param": {
+          "venue_name": "Olive Garden",
+          "day": "Saturday",
+          "time_of_day": "evening",
+          "entry_type": "general admission",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "Can you tell me how long I might wait for a table at 'Panda Express' on Tuesday afternoon with a membership entry? I prefer a time range.",
+        "filled_param": {
+          "venue_name": "Panda Express",
+          "day": "Tuesday",
+          "time_of_day": "afternoon",
+          "entry_type": "membership",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "Find out the waiting time for 'The Cheesecake Factory' on Thursday morning with a general admission entry, and give me just a range.",
+        "filled_param": {
+          "venue_name": "The Cheesecake Factory",
+          "day": "Thursday",
+          "time_of_day": "morning",
+          "entry_type": "general admission",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "I'm looking for the wait time at 'Chipotle Mexican Grill' on a Wednesday evening with a general admission entry. Please provide a range of times.",
+        "filled_param": {
+          "venue_name": "Chipotle Mexican Grill",
+          "day": "Wednesday",
+          "time_of_day": "evening",
+          "entry_type": "general admission",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "Let me know the restaurant wait time at 'Red Lobster' on Friday afternoon using a membership entry. I'd like a time range.",
+        "filled_param": {
+          "venue_name": "Red Lobster",
+          "day": "Friday",
+          "time_of_day": "afternoon",
+          "entry_type": "membership",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "Check the wait time for 'Buffalo Wild Wings' on Sunday morning with a general admission entry type. Provide the time as a range.",
+        "filled_param": {
+          "venue_name": "Buffalo Wild Wings",
+          "day": "Sunday",
+          "time_of_day": "morning",
+          "entry_type": "general admission",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "Could you find out the estimated waiting time for 'Applebee's' on Monday evening with a membership entry and give it as a range?",
+        "filled_param": {
+          "venue_name": "Applebee's",
+          "day": "Monday",
+          "time_of_day": "evening",
+          "entry_type": "membership",
+          "return_waiting_range": true
+        }
+      }
+    ]
+  },
+  "museum.get_waiting_time|:|amusement park|:|venue_name,day,time_of_day,entry_type,return_waiting_range": {
+    "tool_template_name": "museum.get_waiting_time",
+    "derived_class": "amusement park",
+    "params_for_query": [
+      "venue_name",
+      "day",
+      "time_of_day",
+      "entry_type",
+      "return_waiting_range"
+    ],
+    "queries": [
+      {
+        "query": "What's the waiting time range for general admission at Disneyland on Saturday morning?",
+        "filled_param": {
+          "venue_name": "Disneyland",
+          "day": "Saturday",
+          "time_of_day": "morning",
+          "entry_type": "general admission",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "Could you tell me the estimated waiting time for membership entry at Universal Studios, Wednesday afternoon?",
+        "filled_param": {
+          "venue_name": "Universal Studios",
+          "day": "Wednesday",
+          "time_of_day": "afternoon",
+          "entry_type": "membership",
+          "return_waiting_range": false
+        }
+      },
+      {
+        "query": "I need the waiting time range for general admission at Six Flags on Sunday evening.",
+        "filled_param": {
+          "venue_name": "Six Flags",
+          "day": "Sunday",
+          "time_of_day": "evening",
+          "entry_type": "general admission",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "Check the average wait time at Legoland on Friday morning for a membership entry.",
+        "filled_param": {
+          "venue_name": "Legoland",
+          "day": "Friday",
+          "time_of_day": "morning",
+          "entry_type": "membership",
+          "return_waiting_range": false
+        }
+      },
+      {
+        "query": "Can I get the waiting time range for general admission at Cedar Point on Monday afternoon?",
+        "filled_param": {
+          "venue_name": "Cedar Point",
+          "day": "Monday",
+          "time_of_day": "afternoon",
+          "entry_type": "general admission",
+          "return_waiting_range": true
+        }
+      },
+      {
+        "query": "What is the estimated wait time for membership entry at Alton Towers on Thursday evening?",
+        "filled_param": {
+          "venue_name": "Alton Towers",
+          "day": "Thursday",
+          "time_of_day": "evening",
+          "entry_type": "membership",
+          "return_waiting_range": false
+        }
+      }
+    ]
+  }
+}

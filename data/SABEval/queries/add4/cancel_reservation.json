@@ -1,0 +1,1001 @@
+{
+  "cancel_reservation|:|restaurant dining|:|user_id,reservation_id,reason,reschedule_option,notification_preference,cancellation_policy_acknowledged": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "restaurant dining",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reason",
+      "reschedule_option",
+      "notification_preference",
+      "cancellation_policy_acknowledged"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my restaurant dining reservation with ID 789456. My user ID is 123abc. I'm cancelling because of a scheduling conflict. I acknowledge the cancellation policy and prefer to be notified via SMS. I am not interested in rescheduling.",
+        "filled_param": {
+          "user_id": "123abc",
+          "reservation_id": "789456",
+          "reason": "scheduling conflict",
+          "reschedule_option": false,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Cancel the restaurant dining reservation I made under user ID 987zyx, reservation ID 654321. Reason for cancellation: unexpected illness. I accept the cancellation policy and would like updates by email. I might consider rescheduling.",
+        "filled_param": {
+          "user_id": "987zyx",
+          "reservation_id": "654321",
+          "reason": "unexpected illness",
+          "reschedule_option": true,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "I need to cancel my restaurant dining booking. User ID is user2021, and reservation ID is res456789. Due to a family emergency, I cannot make it. Please send cancellation confirmation via SMS. I acknowledge the policy and don't want to reschedule.",
+        "filled_param": {
+          "user_id": "user2021",
+          "reservation_id": "res456789",
+          "reason": "family emergency",
+          "reschedule_option": false,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Cancel my restaurant dining reservation with ID 112233, user ID abc123. The reason is a change in travel plans. I'm aware of the cancellation policy and would like an email confirmation. No rescheduling is necessary.",
+        "filled_param": {
+          "user_id": "abc123",
+          "reservation_id": "112233",
+          "reason": "change in travel plans",
+          "reschedule_option": false,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "I want to cancel my restaurant dining reservation. The reservation ID is 998877, and my user ID is user456. The reason for cancellation is due to a double booking. I prefer to be notified via email and have read the cancellation policy. I may want to reschedule.",
+        "filled_param": {
+          "user_id": "user456",
+          "reservation_id": "998877",
+          "reason": "double booking",
+          "reschedule_option": true,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|hotel stay|:|user_id,reservation_id,reason,reschedule_option,notification_preference,cancellation_policy_acknowledged": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "hotel stay",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reason",
+      "reschedule_option",
+      "notification_preference",
+      "cancellation_policy_acknowledged"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my hotel stay reservation with reservation ID 123456 under user ID U001 because of a change in travel plans. I would prefer not to reschedule, and please notify me via email. I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "U001",
+          "reservation_id": "123456",
+          "reason": "change in travel plans",
+          "reschedule_option": false,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "I need to cancel my hotel stay reservation under the user ID U002 and reservation ID 654321 due to a family emergency. I don't want to reschedule. Notify me via SMS, and I am aware of the cancellation policy.",
+        "filled_param": {
+          "user_id": "U002",
+          "reservation_id": "654321",
+          "reason": "family emergency",
+          "reschedule_option": false,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Cancel the hotel stay booking with ID 789123 for user ID U003. The reason is unforeseen circumstances. I am interested in rescheduling, so please keep me informed through email. I acknowledge the cancellation terms.",
+        "filled_param": {
+          "user_id": "U003",
+          "reservation_id": "789123",
+          "reason": "unforeseen circumstances",
+          "reschedule_option": true,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "I would like to cancel my hotel stay reservation. My user ID is U004, and the reservation ID is 321789. I'm canceling due to illness and don't plan to reschedule. Please notify me by email, and I understand the cancellation policy.",
+        "filled_param": {
+          "user_id": "U004",
+          "reservation_id": "321789",
+          "reason": "illness",
+          "reschedule_option": false,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Can you cancel my hotel stay reservation with user ID U005 and reservation ID 987654? The reason is a scheduling conflict, but I'm open to rescheduling. Notify me via SMS, and I accept the cancellation policy.",
+        "filled_param": {
+          "user_id": "U005",
+          "reservation_id": "987654",
+          "reason": "scheduling conflict",
+          "reschedule_option": true,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|Disney park visit|:|user_id,reservation_id,reason,reschedule_option,notification_preference,cancellation_policy_acknowledged": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "Disney park visit",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reason",
+      "reschedule_option",
+      "notification_preference",
+      "cancellation_policy_acknowledged"
+    ],
+    "queries": [
+      {
+        "query": "I need to cancel my Disney park visit reservation because of a family emergency. My user ID is U12345 and the reservation ID is R67890. Please send me an email confirmation, and I acknowledge the cancellation policy. I am not interested in rescheduling.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890",
+          "reason": "family emergency",
+          "reschedule_option": false,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Please cancel my Disney park visit reservation due to a scheduling conflict. My user ID is U54321 and my reservation ID is R09876. Notify me via SMS. I acknowledge the cancellation policy and I would like to reschedule.",
+        "filled_param": {
+          "user_id": "U54321",
+          "reservation_id": "R09876",
+          "reason": "scheduling conflict",
+          "reschedule_option": true,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Cancel my Disney park visit booking as I am unwell. My user ID is A11223 and reservation ID is B22445. Please inform me by email and I am aware of the cancellation policy. I don't want to reschedule.",
+        "filled_param": {
+          "user_id": "A11223",
+          "reservation_id": "B22445",
+          "reason": "unwell",
+          "reschedule_option": false,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Due to unforeseen work commitments, I need to cancel my Disney park visit reservation. My user ID is X56789 and the reservation ID is Y98765. Please notify me through SMS, and I do recognize the cancellation policy. I do not wish to reschedule.",
+        "filled_param": {
+          "user_id": "X56789",
+          "reservation_id": "Y98765",
+          "reason": "unforeseen work commitments",
+          "reschedule_option": false,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Can you cancel my Disney park visit reservation as my travel plans have changed? My user ID is C98765 and reservation ID is D45678. I want to get notified by email, and I acknowledge the cancellation policy. I am interested in rescheduling.",
+        "filled_param": {
+          "user_id": "C98765",
+          "reservation_id": "D45678",
+          "reason": "travel plans changed",
+          "reschedule_option": true,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|Universal Studios visit|:|user_id,reservation_id,reason,reschedule_option,notification_preference,cancellation_policy_acknowledged": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "Universal Studios visit",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reason",
+      "reschedule_option",
+      "notification_preference",
+      "cancellation_policy_acknowledged"
+    ],
+    "queries": [
+      {
+        "query": "I need to cancel my Universal Studios visit reservation. My user ID is U123456, the reservation ID is RES78910. The reason is a family emergency. I'm not interested in rescheduling, please notify me via email, and I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "U123456",
+          "reservation_id": "RES78910",
+          "reason": "family emergency",
+          "reschedule_option": false,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Can you cancel my Universal Studios visit reservation? My user ID is U987654, and the reservation ID is RES54321. I'm cancelling because of a scheduling conflict. I would like to reschedule, notify me by SMS, and I have read the cancellation policy.",
+        "filled_param": {
+          "user_id": "U987654",
+          "reservation_id": "RES54321",
+          "reason": "scheduling conflict",
+          "reschedule_option": true,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Cancel my Universal Studios visit booking. User ID: U112233, Reservation ID: RES445566. Reason: weather concerns. I do not want to reschedule. Please send updates through email. I understand the cancellation policy terms.",
+        "filled_param": {
+          "user_id": "U112233",
+          "reservation_id": "RES445566",
+          "reason": "weather concerns",
+          "reschedule_option": false,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "I'd like to cancel my Universal Studios visit. My user ID is U223344 and my reservation ID is RES556677. I'm cancelling due to health issues. I'm open to rescheduling, notify me via phone call, and I've acknowledged the cancellation policy.",
+        "filled_param": {
+          "user_id": "U223344",
+          "reservation_id": "RES556677",
+          "reason": "health issues",
+          "reschedule_option": true,
+          "notification_preference": "phone call",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Please cancel my Universal Studios visit reservation. User ID: U334455, Reservation ID: RES667788. Reason for cancellation: change of plans. I am not interested in rescheduling. Notify me via SMS, and I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "U334455",
+          "reservation_id": "RES667788",
+          "reason": "change of plans",
+          "reschedule_option": false,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|movie theater|:|user_id,reservation_id,reason,reschedule_option,notification_preference,cancellation_policy_acknowledged": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "movie theater",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reason",
+      "reschedule_option",
+      "notification_preference",
+      "cancellation_policy_acknowledged"
+    ],
+    "queries": [
+      {
+        "query": "I would like to cancel my movie theater reservation. My user ID is U12345, and the reservation ID is R67890. The reason is a scheduling conflict. I do not wish to reschedule. Please notify me via email, and I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890",
+          "reason": "scheduling conflict",
+          "reschedule_option": false,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Please cancel my movie theater booking. My user ID is A98765 and the reservation ID is B54321. I'm cancelling because of illness. I'm open to rescheduling. Send me updates through SMS, and I accept the cancellation policy.",
+        "filled_param": {
+          "user_id": "A98765",
+          "reservation_id": "B54321",
+          "reason": "illness",
+          "reschedule_option": true,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Cancel my movie theater reservation due to a change of plans. User ID is C24680, reservation ID is D13579. I am not interested in rescheduling. Notify me through email, and I have acknowledged the cancellation policy.",
+        "filled_param": {
+          "user_id": "C24680",
+          "reservation_id": "D13579",
+          "reason": "change of plans",
+          "reschedule_option": false,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "I need to cancel my movie theater reservation. My user ID is E11223, reservation ID F44556. The reason is a family emergency. I don't want to reschedule. Notify me by SMS, and I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "E11223",
+          "reservation_id": "F44556",
+          "reason": "family emergency",
+          "reschedule_option": false,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Please proceed with cancelling my movie theater reservation. User ID: G77889, Reservation ID: H99001. Reason: unforeseen circumstances. I'm interested in rescheduling. Notify me via email, and I'm aware of the cancellation policy.",
+        "filled_param": {
+          "user_id": "G77889",
+          "reservation_id": "H99001",
+          "reason": "unforeseen circumstances",
+          "reschedule_option": true,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|flight|:|user_id,reservation_id,reason,reschedule_option,notification_preference,cancellation_policy_acknowledged": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "flight",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reason",
+      "reschedule_option",
+      "notification_preference",
+      "cancellation_policy_acknowledged"
+    ],
+    "queries": [
+      {
+        "query": "Could you cancel my flight reservation with ID 12345 due to a family emergency? Please reschedule it, notify me via SMS, and I acknowledge the cancellation policy. My user ID is user789.",
+        "filled_param": {
+          "user_id": "user789",
+          "reservation_id": "12345",
+          "reason": "family emergency",
+          "reschedule_option": true,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "I need to cancel the flight reservation 54321 for medical reasons. Don't reschedule it but inform me through email. I accept the cancellation policy. My user ID is user123.",
+        "filled_param": {
+          "user_id": "user123",
+          "reservation_id": "54321",
+          "reason": "medical reasons",
+          "reschedule_option": false,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Cancel my flight with reservation ID 67890 due to schedule conflict. I would like to reschedule and want updates via SMS. I have read and acknowledged the cancellation policy. My user ID is traveler567.",
+        "filled_param": {
+          "user_id": "traveler567",
+          "reservation_id": "67890",
+          "reason": "schedule conflict",
+          "reschedule_option": true,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "My user ID is user456, and I need to cancel my flight reservation 11223 because of a work commitment. No rescheduling is needed, and please notify me by email. I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "user456",
+          "reservation_id": "11223",
+          "reason": "work commitment",
+          "reschedule_option": false,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Please cancel reservation ID 98765 as I have tested positive for COVID-19. I won't need a reschedule, and I'd prefer updates via email. I confirm acknowledgment of the cancellation policy. My user ID is covid_user001.",
+        "filled_param": {
+          "user_id": "covid_user001",
+          "reservation_id": "98765",
+          "reason": "tested positive for COVID-19",
+          "reschedule_option": false,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|high-speed train|:|user_id,reservation_id,reason,reschedule_option,notification_preference,cancellation_policy_acknowledged": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "high-speed train",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reason",
+      "reschedule_option",
+      "notification_preference",
+      "cancellation_policy_acknowledged"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my high-speed train reservation with user ID U12345 and reservation ID R67890 because of a change in travel plans. I would like to reschedule it. Notify me via email, and I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890",
+          "reason": "change in travel plans",
+          "reschedule_option": true,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "I need to cancel the high-speed train booking with user ID A98765 and reservation ID B54321 due to a medical emergency. No rescheduling needed. Please send confirmation via SMS. I understand the cancellation policy.",
+        "filled_param": {
+          "user_id": "A98765",
+          "reservation_id": "B54321",
+          "reason": "medical emergency",
+          "reschedule_option": false,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Cancel my high-speed train reservation with user ID X11111 and reservation ID Y22222 because of weather conditions. I'm not interested in rescheduling. Notify me through email and I accept the cancellation policy terms.",
+        "filled_param": {
+          "user_id": "X11111",
+          "reservation_id": "Y22222",
+          "reason": "weather conditions",
+          "reschedule_option": false,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "I wish to cancel my high-speed train ticket due to personal reasons. My user ID is C33333 and reservation ID is D44444. I would like to consider rescheduling. Please inform me via SMS, and I have acknowledged the cancellation policy.",
+        "filled_param": {
+          "user_id": "C33333",
+          "reservation_id": "D44444",
+          "reason": "personal reasons",
+          "reschedule_option": true,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Could you cancel my high-speed train reservation for user ID Z55555 and reservation ID Z66666 because my meeting got canceled? I don't want to reschedule. Please notify me through email, and I accept the cancellation policy.",
+        "filled_param": {
+          "user_id": "Z55555",
+          "reservation_id": "Z66666",
+          "reason": "meeting got canceled",
+          "reschedule_option": false,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|concert|:|user_id,reservation_id,reason,reschedule_option,notification_preference,cancellation_policy_acknowledged": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "concert",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reason",
+      "reschedule_option",
+      "notification_preference",
+      "cancellation_policy_acknowledged"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my concert reservation with user ID 12345 and reservation ID 67890 because I have a scheduling conflict. I am not interested in rescheduling, and I prefer to be notified via email. Yes, I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "12345",
+          "reservation_id": "67890",
+          "reason": "scheduling conflict",
+          "reschedule_option": false,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "I need to cancel my concert booking. My user ID is 54321, and the reservation ID is 98765. The reason is a medical emergency. I would like to reschedule, and I want to be notified by SMS. I understand and agree to the cancellation policy.",
+        "filled_param": {
+          "user_id": "54321",
+          "reservation_id": "98765",
+          "reason": "medical emergency",
+          "reschedule_option": true,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Cancel my concert reservation. User ID: A1B2C3, Reservation ID: D4E5F6. The reason is a change of plans. I do not wish to reschedule. Please notify me through email, and yes, I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "A1B2C3",
+          "reservation_id": "D4E5F6",
+          "reason": "change of plans",
+          "reschedule_option": false,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "I would like to cancel my concert ticket because of personal reasons. My user ID is 6789AB and reservation ID is 4321ZY. I am open to rescheduling, and please notify me via email. I have acknowledged the cancellation policy.",
+        "filled_param": {
+          "user_id": "6789AB",
+          "reservation_id": "4321ZY",
+          "reason": "personal reasons",
+          "reschedule_option": true,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Cancel the concert reservation under user ID 13579 with reservation ID 24680 due to a work commitment. I won't be rescheduling. Notify me by SMS, and yes, I accept the cancellation policy.",
+        "filled_param": {
+          "user_id": "13579",
+          "reservation_id": "24680",
+          "reason": "work commitment",
+          "reschedule_option": false,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|sports event|:|user_id,reservation_id,reason,reschedule_option,notification_preference,cancellation_policy_acknowledged": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "sports event",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reason",
+      "reschedule_option",
+      "notification_preference",
+      "cancellation_policy_acknowledged"
+    ],
+    "queries": [
+      {
+        "query": "I need to cancel my sports event booking with the reservation ID 12345 because I'm no longer available. I prefer to receive an update via email, and I acknowledge the cancellation policy. I'm not interested in rescheduling.",
+        "filled_param": {
+          "user_id": "12345",
+          "reservation_id": "12345",
+          "reason": "I'm no longer available",
+          "reschedule_option": false,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Please cancel the sports event reservation 67890 for user ID 54321 as I have a scheduling conflict. I'm open to rescheduling. Notify me through SMS, and I understand the cancellation terms.",
+        "filled_param": {
+          "user_id": "54321",
+          "reservation_id": "67890",
+          "reason": "scheduling conflict",
+          "reschedule_option": true,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "I have to cancel my sports event, reservation ID 98765, because of personal reasons. I don't want to reschedule. Please send the cancellation confirmation via email. I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "98765",
+          "reservation_id": "98765",
+          "reason": "personal reasons",
+          "reschedule_option": false,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Cancel the sports event for reservation ID 11111. The reason is inclement weather. I'd like to receive updates through SMS, and I'm considering rescheduling. I acknowledge the policy.",
+        "filled_param": {
+          "user_id": "11111",
+          "reservation_id": "11111",
+          "reason": "inclement weather",
+          "reschedule_option": true,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "I need to cancel the sports event reservation with ID 22222 due to a family emergency. I'm not interested in rescheduling. Please notify me via email. I understand the cancellation policy.",
+        "filled_param": {
+          "user_id": "22222",
+          "reservation_id": "22222",
+          "reason": "family emergency",
+          "reschedule_option": false,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Could you cancel my sports event reservation ID 33333? The reason is unexpected travel. I acknowledge the cancellation policy and would like to get updates via SMS. I might reschedule later.",
+        "filled_param": {
+          "user_id": "33333",
+          "reservation_id": "33333",
+          "reason": "unexpected travel",
+          "reschedule_option": true,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|hospital appointment|:|user_id,reservation_id,reason,reschedule_option,notification_preference,cancellation_policy_acknowledged": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "hospital appointment",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reason",
+      "reschedule_option",
+      "notification_preference",
+      "cancellation_policy_acknowledged"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my hospital appointment with reservation ID 12345 because I am feeling better, and I do not need to reschedule. Notify me via email, and I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "12345",
+          "reservation_id": "12345",
+          "reason": "I am feeling better",
+          "reschedule_option": false,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "I need to cancel my hospital appointment. My user ID is 67890, and the reservation ID is 54321. The reason is an emergency trip. I would like to reschedule, so let me know via SMS, and I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "67890",
+          "reservation_id": "54321",
+          "reason": "an emergency trip",
+          "reschedule_option": true,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Cancel my hospital appointment scheduled under reservation ID 98765 due to a scheduling conflict. My user ID is 11223. I don’t want to reschedule. Please confirm via email, and I understand the cancellation policy.",
+        "filled_param": {
+          "user_id": "11223",
+          "reservation_id": "98765",
+          "reason": "scheduling conflict",
+          "reschedule_option": false,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "I wish to cancel the hospital appointment with reservation ID 24680. My user ID is 13579. The reason is a change of plans. I am interested in rescheduling. Notify me through SMS, and I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "13579",
+          "reservation_id": "24680",
+          "reason": "a change of plans",
+          "reschedule_option": true,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Please cancel my hospital appointment. My user ID is 98765 and reservation ID is 19283. The reason for cancellation is a family emergency, no need to reschedule. Notify me via email. I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "98765",
+          "reservation_id": "19283",
+          "reason": "a family emergency",
+          "reschedule_option": false,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|psychological counseling|:|user_id,reservation_id,reason,reschedule_option,notification_preference,cancellation_policy_acknowledged": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "psychological counseling",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reason",
+      "reschedule_option",
+      "notification_preference",
+      "cancellation_policy_acknowledged"
+    ],
+    "queries": [
+      {
+        "query": "I need to cancel my psychological counseling session. My user ID is U12345 and the reservation ID is R67890. The reason for cancellation is personal commitments. I'm not looking to reschedule, and please notify me via email. I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890",
+          "reason": "personal commitments",
+          "reschedule_option": false,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Please cancel my psychological counseling appointment. My user ID is A98765 and the reservation ID is B54321. I'm canceling due to a scheduling conflict. I'd like to reschedule, and I prefer notification by SMS. I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "A98765",
+          "reservation_id": "B54321",
+          "reason": "scheduling conflict",
+          "reschedule_option": true,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "I can't attend my psychological counseling session. User ID: Z12345, Reservation ID: Y67890. Reason for cancellation: health issues. I do not wish to reschedule. Please notify me by email. I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "Z12345",
+          "reservation_id": "Y67890",
+          "reason": "health issues",
+          "reschedule_option": false,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Due to unforeseen circumstances, I need to cancel my psychological counseling booking. My user ID is M45678 and reservation ID is N23456. I am interested in rescheduling later, so please notify me via phone call. I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "M45678",
+          "reservation_id": "N23456",
+          "reason": "unforeseen circumstances",
+          "reschedule_option": true,
+          "notification_preference": "phone call",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "I want to cancel my upcoming psychological counseling session. My user ID is V98765, and the reservation ID is W54321. The reason is travel plans. I do not want to reschedule, and email is my preferred method for cancellation notifications. I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "V98765",
+          "reservation_id": "W54321",
+          "reason": "travel plans",
+          "reschedule_option": false,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Cancel my psychological counseling reservation due to a family emergency. User ID is C11223, and reservation ID is D44556. I'm open to rescheduling. Notify me via SMS, and I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "C11223",
+          "reservation_id": "D44556",
+          "reason": "family emergency",
+          "reschedule_option": true,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|legal consultation|:|user_id,reservation_id,reason,reschedule_option,notification_preference,cancellation_policy_acknowledged": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "legal consultation",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reason",
+      "reschedule_option",
+      "notification_preference",
+      "cancellation_policy_acknowledged"
+    ],
+    "queries": [
+      {
+        "query": "I need to cancel my legal consultation. My user ID is U12345 and the reservation ID is R98765. The reason is a scheduling conflict. I would like to reschedule, so please let me know via email. I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R98765",
+          "reason": "scheduling conflict",
+          "reschedule_option": true,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Cancel the legal consultation reservation for user ID U54321 with reservation ID R12345. The reason is a change in personal circumstances. I do not wish to reschedule. Notify me via SMS, and I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "U54321",
+          "reservation_id": "R12345",
+          "reason": "change in personal circumstances",
+          "reschedule_option": false,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Please cancel my legal consultation, user ID is U67890 and reservation ID is R54321. I need to cancel due to illness and I'm not looking to reschedule. Notify me by email, and yes, I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "U67890",
+          "reservation_id": "R54321",
+          "reason": "illness",
+          "reschedule_option": false,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "I have to cancel a legal consultation. User ID: U13579, Reservation ID: R97531. The reason is a sudden work commitment. I would like to reschedule, please notify me through SMS. I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "U13579",
+          "reservation_id": "R97531",
+          "reason": "sudden work commitment",
+          "reschedule_option": true,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "I want to cancel my legal consultation with user ID U24680 and reservation ID R86420. The reason is unexpected travel. I'm interested in rescheduling, notify me by email, and I confirm I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "U24680",
+          "reservation_id": "R86420",
+          "reason": "unexpected travel",
+          "reschedule_option": true,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Cancel the legal consultation for user ID U97531, reservation ID R13579 due to a medical emergency. I am not interested in rescheduling. Notify me via SMS. I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "U97531",
+          "reservation_id": "R13579",
+          "reason": "medical emergency",
+          "reschedule_option": false,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|housekeeping service|:|user_id,reservation_id,reason,reschedule_option,notification_preference,cancellation_policy_acknowledged": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "housekeeping service",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reason",
+      "reschedule_option",
+      "notification_preference",
+      "cancellation_policy_acknowledged"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my housekeeping service reservation with reservation ID 345678, as I have to travel unexpectedly. I might reschedule later. Notify me via email, and I acknowledge the cancellation policy. My user ID is U12345.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "345678",
+          "reason": "have to travel unexpectedly",
+          "reschedule_option": true,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "I need to cancel the housekeeping service booking. My user ID is User09876 and the reservation ID is 876543. I'm cancelling because of a change in plans, and I'm not interested in rescheduling. Please send an SMS to confirm the cancellation, and I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "User09876",
+          "reservation_id": "876543",
+          "reason": "change in plans",
+          "reschedule_option": false,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Could you cancel my housekeeping service reservation ID 123456 due to an emergency? I may want to reschedule, so keep that option open. My user ID is User56789. Notify me about the cancellation status through email and I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "User56789",
+          "reservation_id": "123456",
+          "reason": "emergency",
+          "reschedule_option": true,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Cancel my housekeeping service reservation with ID 654321. The reason is a scheduling conflict. I don't need to reschedule. Use SMS to notify me. User ID is User11223, and I acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "User11223",
+          "reservation_id": "654321",
+          "reason": "scheduling conflict",
+          "reschedule_option": false,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "I would like to cancel the housekeeping service reservation 789012 because of a personal reason. I'm open to rescheduling in the future. My user ID is User33445. Please notify me via email. I understand and acknowledge the cancellation policy.",
+        "filled_param": {
+          "user_id": "User33445",
+          "reservation_id": "789012",
+          "reason": "personal reason",
+          "reschedule_option": true,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|yoga class|:|user_id,reservation_id,reason,reschedule_option,notification_preference,cancellation_policy_acknowledged": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "yoga class",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reason",
+      "reschedule_option",
+      "notification_preference",
+      "cancellation_policy_acknowledged"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my yoga class with reservation ID 12345 due to a scheduling conflict. I am not interested in rescheduling, and I prefer to be notified via email. I acknowledge the cancellation policy. My user ID is U67890.",
+        "filled_param": {
+          "user_id": "U67890",
+          "reservation_id": "12345",
+          "reason": "scheduling conflict",
+          "reschedule_option": false,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "I need to cancel the yoga class reservation 98765 because I'm not feeling well. I would like to reschedule and receive updates through SMS. I understand the cancellation policy. My user ID is U54321.",
+        "filled_param": {
+          "user_id": "U54321",
+          "reservation_id": "98765",
+          "reason": "not feeling well",
+          "reschedule_option": true,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Cancel the yoga class with ID 24680. The reason is a family emergency. I do not want to reschedule. Please notify me by email, and I accept the cancellation policy. User ID is U13579.",
+        "filled_param": {
+          "user_id": "U13579",
+          "reservation_id": "24680",
+          "reason": "family emergency",
+          "reschedule_option": false,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "I would like to cancel my yoga class reservation with the ID 11223 due to a work commitment. I am considering rescheduling, so please inform me via email. I acknowledge the cancellation policy. My user ID is U44556.",
+        "filled_param": {
+          "user_id": "U44556",
+          "reservation_id": "11223",
+          "reason": "work commitment",
+          "reschedule_option": true,
+          "notification_preference": "email",
+          "cancellation_policy_acknowledged": true
+        }
+      },
+      {
+        "query": "Please proceed with cancelling my yoga class reservation 31415 as I'm traveling. I don't plan to reschedule. Notify me by SMS. I acknowledge the cancellation policy. My user ID is U16171.",
+        "filled_param": {
+          "user_id": "U16171",
+          "reservation_id": "31415",
+          "reason": "traveling",
+          "reschedule_option": false,
+          "notification_preference": "SMS",
+          "cancellation_policy_acknowledged": true
+        }
+      }
+    ]
+  }
+}

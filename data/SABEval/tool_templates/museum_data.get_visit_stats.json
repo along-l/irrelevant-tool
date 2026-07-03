@@ -1,0 +1,55 @@
+{
+  "tool_template_name": "museum_data.get_visit_stats",
+  "meta_data": {
+    "base_class": "retrieve visitation statistics for a given <public cultural institution> - these institutions are open to the public and record attendance over time.",
+    "derived_classes": [
+      "museum",
+      "library",
+      "art gallery",
+      "zoo",
+      "botanical garden",
+      "aquarium"
+    ],
+    "base_class_entity": "museum"
+  },
+  "tool_template": {
+    "name": "get_<class>_visit_stats",
+    "description": "Retrieve visitation statistics for <class>.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "city": {
+          "type": "string",
+          "description": "The city where the <class> is located."
+        },
+        "year": {
+          "type": "integer",
+          "description": "The year for which data is to be fetched."
+        }
+      },
+      "required": [
+        "city",
+        "year"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "time_granularity": {
+      "type": "string",
+      "description": "The level of detail for the visitation statistics. Options: 'daily', 'monthly', or 'yearly'."
+    },
+    "visitor_type": {
+      "type": "string",
+      "description": "The type of visitors for the <class>, being 'individual', 'family', or 'group'."
+    },
+    "age_group": {
+      "type": "string",
+      "description": "The age group of visitors for the <class>, being 'children', 'teens', 'adults', or 'all'."
+    },
+    "seasonal_period": {
+      "type": "string",
+      "description": "The specific season to filter the visitation statistics of the <class>. Options are 'summer', 'winter', 'spring', or 'fall'."
+    }
+  }
+}

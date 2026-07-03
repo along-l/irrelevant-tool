@@ -1,0 +1,699 @@
+{
+  "finance.predict_revenue|:|automotive company|:|company_name,period,industry_trends": {
+    "tool_template_name": "finance.predict_revenue",
+    "derived_class": "automotive company",
+    "params_for_query": [
+      "company_name",
+      "period",
+      "industry_trends"
+    ],
+    "queries": [
+      {
+        "query": "Can you predict the revenue for the automotive company Tesla for the third quarter of 2024, considering industry trends?",
+        "filled_param": {
+          "company_name": "Tesla",
+          "period": "third quarter of 2024",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "I need a revenue forecast for the automotive company Ford for the year 2025 without taking industry trends into account.",
+        "filled_param": {
+          "company_name": "Ford",
+          "period": "year 2025",
+          "industry_trends": false
+        }
+      },
+      {
+        "query": "What is the predicted revenue for the automotive company BMW for the month of June 2023, considering industry trends?",
+        "filled_param": {
+          "company_name": "BMW",
+          "period": "June 2023",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "Please generate a revenue prediction for the automotive company Toyota for the first half of 2023 without considering industry trends.",
+        "filled_param": {
+          "company_name": "Toyota",
+          "period": "first half of 2023",
+          "industry_trends": false
+        }
+      },
+      {
+        "query": "Forecast the revenue for the automotive company Volkswagen for the fiscal year 2024, including industry trends.",
+        "filled_param": {
+          "company_name": "Volkswagen",
+          "period": "fiscal year 2024",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "Could you provide a revenue prediction for the automotive company Hyundai for the second quarter of 2023, excluding industry trends?",
+        "filled_param": {
+          "company_name": "Hyundai",
+          "period": "second quarter of 2023",
+          "industry_trends": false
+        }
+      }
+    ]
+  },
+  "finance.predict_revenue|:|pharmaceutical company|:|company_name,period,industry_trends": {
+    "tool_template_name": "finance.predict_revenue",
+    "derived_class": "pharmaceutical company",
+    "params_for_query": [
+      "company_name",
+      "period",
+      "industry_trends"
+    ],
+    "queries": [
+      {
+        "query": "Can you forecast the revenue for Pfizer for the first quarter of 2024, considering pharmaceutical company trends?",
+        "filled_param": {
+          "company_name": "Pfizer",
+          "period": "first quarter of 2024",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "What is the expected revenue for Moderna in the fiscal year 2025 without factoring in any pharmaceutical company trends?",
+        "filled_param": {
+          "company_name": "Moderna",
+          "period": "fiscal year 2025",
+          "industry_trends": false
+        }
+      },
+      {
+        "query": "Predict AstraZeneca's revenue for the month of June 2023, considering trends in the pharmaceutical company.",
+        "filled_param": {
+          "company_name": "AstraZeneca",
+          "period": "June 2023",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "Could you estimate the revenue for Johnson & Johnson during the third quarter of 2024 without considering any pharmaceutical company trends?",
+        "filled_param": {
+          "company_name": "Johnson & Johnson",
+          "period": "third quarter of 2024",
+          "industry_trends": false
+        }
+      },
+      {
+        "query": "Please provide a revenue prediction for Gilead Sciences for the entire year of 2023, taking pharmaceutical company trends into account.",
+        "filled_param": {
+          "company_name": "Gilead Sciences",
+          "period": "entire year of 2023",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "Estimate the revenue for Sanofi for the second half of 2023, not considering any pharmaceutical company trends.",
+        "filled_param": {
+          "company_name": "Sanofi",
+          "period": "second half of 2023",
+          "industry_trends": false
+        }
+      },
+      {
+        "query": "What is the projected revenue for Merck in the first quarter of 2025, considering pharmaceutical company trends?",
+        "filled_param": {
+          "company_name": "Merck",
+          "period": "first quarter of 2025",
+          "industry_trends": true
+        }
+      }
+    ]
+  },
+  "finance.predict_revenue|:|commercial bank|:|company_name,period,industry_trends": {
+    "tool_template_name": "finance.predict_revenue",
+    "derived_class": "commercial bank",
+    "params_for_query": [
+      "company_name",
+      "period",
+      "industry_trends"
+    ],
+    "queries": [
+      {
+        "query": "Can you predict the revenue for JPMorgan Chase, considering industry trends, for the third quarter of 2024 in the commercial bank sector?",
+        "filled_param": {
+          "company_name": "JPMorgan Chase",
+          "period": "third quarter of 2024",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "I need a revenue prediction for Citibank for the fiscal year 2025 without considering any commercial bank trends.",
+        "filled_param": {
+          "company_name": "Citibank",
+          "period": "fiscal year 2025",
+          "industry_trends": false
+        }
+      },
+      {
+        "query": "Provide a revenue estimate for Wells Fargo in the first quarter of 2023 with industry trends taken into account in the commercial bank sector.",
+        "filled_param": {
+          "company_name": "Wells Fargo",
+          "period": "first quarter of 2023",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "What will be the revenue prediction for Bank of America if commercial bank trends are excluded for the second quarter of 2022?",
+        "filled_param": {
+          "company_name": "Bank of America",
+          "period": "second quarter of 2022",
+          "industry_trends": false
+        }
+      },
+      {
+        "query": "Estimate the revenue for HSBC considering industry trends for the fourth quarter of 2023 within the commercial bank industry.",
+        "filled_param": {
+          "company_name": "HSBC",
+          "period": "fourth quarter of 2023",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "Predict the revenue for Deutsche Bank in the calendar year 2024 without using any commercial bank industry trends.",
+        "filled_param": {
+          "company_name": "Deutsche Bank",
+          "period": "calendar year 2024",
+          "industry_trends": false
+        }
+      }
+    ]
+  },
+  "finance.predict_revenue|:|insurance company|:|company_name,period,industry_trends": {
+    "tool_template_name": "finance.predict_revenue",
+    "derived_class": "insurance company",
+    "params_for_query": [
+      "company_name",
+      "period",
+      "industry_trends"
+    ],
+    "queries": [
+      {
+        "query": "Can you predict the revenue for XYZ Insurance Company for Q2 2024 without considering industry trends?",
+        "filled_param": {
+          "company_name": "XYZ Insurance Company",
+          "period": "Q2 2024",
+          "industry_trends": false
+        }
+      },
+      {
+        "query": "What is the expected revenue for ABC Insurance Company during the fiscal year 2025 if we take industry trends into account?",
+        "filled_param": {
+          "company_name": "ABC Insurance Company",
+          "period": "fiscal year 2025",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "Predict the revenue for Global Assurance Corp for the month of August 2023 considering industry trends.",
+        "filled_param": {
+          "company_name": "Global Assurance Corp",
+          "period": "August 2023",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "I need the revenue forecast for Reliable Insurance Company for the first half of 2023 without industry trends being factored in.",
+        "filled_param": {
+          "company_name": "Reliable Insurance Company",
+          "period": "first half of 2023",
+          "industry_trends": false
+        }
+      },
+      {
+        "query": "Please provide a revenue prediction for Secure Life Insurance for the third quarter of 2024 while excluding industry trends.",
+        "filled_param": {
+          "company_name": "Secure Life Insurance",
+          "period": "third quarter of 2024",
+          "industry_trends": false
+        }
+      },
+      {
+        "query": "Estimate the revenue for United Insurance Ltd for the year 2026 by incorporating industry trends.",
+        "filled_param": {
+          "company_name": "United Insurance Ltd",
+          "period": "year 2026",
+          "industry_trends": true
+        }
+      }
+    ]
+  },
+  "finance.predict_revenue|:|airline company|:|company_name,period,industry_trends": {
+    "tool_template_name": "finance.predict_revenue",
+    "derived_class": "airline company",
+    "params_for_query": [
+      "company_name",
+      "period",
+      "industry_trends"
+    ],
+    "queries": [
+      {
+        "query": "Could you predict the revenue for Delta Airlines for Q1 2024 while considering industry trends?",
+        "filled_param": {
+          "company_name": "Delta Airlines",
+          "period": "Q1 2024",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "I need a forecast for the revenue of United Airlines for the year 2025, without factoring in industry trends.",
+        "filled_param": {
+          "company_name": "United Airlines",
+          "period": "2025",
+          "industry_trends": false
+        }
+      },
+      {
+        "query": "What's the expected revenue for Lufthansa for the upcoming summer season if we include current industry trends?",
+        "filled_param": {
+          "company_name": "Lufthansa",
+          "period": "summer season",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "Please predict the revenue of American Airlines for December 2023, ignoring the industry trends.",
+        "filled_param": {
+          "company_name": "American Airlines",
+          "period": "December 2023",
+          "industry_trends": false
+        }
+      },
+      {
+        "query": "Can you provide a revenue prediction for Emirates for the fiscal year 2026 with industry trends considered?",
+        "filled_param": {
+          "company_name": "Emirates",
+          "period": "fiscal year 2026",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "Forecast the revenue for Air France for Q3 2023 and include industry trends in the analysis.",
+        "filled_param": {
+          "company_name": "Air France",
+          "period": "Q3 2023",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "I need a prediction of British Airways' revenue for the first half of 2024 without considering industry trends.",
+        "filled_param": {
+          "company_name": "British Airways",
+          "period": "first half of 2024",
+          "industry_trends": false
+        }
+      }
+    ]
+  },
+  "finance.predict_revenue|:|telecommunications company|:|company_name,period,industry_trends": {
+    "tool_template_name": "finance.predict_revenue",
+    "derived_class": "telecommunications company",
+    "params_for_query": [
+      "company_name",
+      "period",
+      "industry_trends"
+    ],
+    "queries": [
+      {
+        "query": "What is the predicted revenue for the telecommunications company Verizon for the second quarter of 2024, considering industry trends?",
+        "filled_param": {
+          "company_name": "Verizon",
+          "period": "second quarter of 2024",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "Can you forecast the revenue of the telecommunications company AT&T for the year 2023 without considering industry trends?",
+        "filled_param": {
+          "company_name": "AT&T",
+          "period": "year 2023",
+          "industry_trends": false
+        }
+      },
+      {
+        "query": "Please predict the revenue for the telecommunications company Vodafone in the first half of 2025, taking into account industry trends.",
+        "filled_param": {
+          "company_name": "Vodafone",
+          "period": "first half of 2025",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "Estimate the revenue for the telecommunications company Deutsche Telekom for Q3 2023, without factoring in industry trends.",
+        "filled_param": {
+          "company_name": "Deutsche Telekom",
+          "period": "Q3 2023",
+          "industry_trends": false
+        }
+      },
+      {
+        "query": "Can you give a revenue prediction for the telecommunications company Orange for the fiscal year 2024, considering industry trends?",
+        "filled_param": {
+          "company_name": "Orange",
+          "period": "fiscal year 2024",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "What is the forecast for the telecommunications company Comcast's revenue in the last quarter of 2023, excluding industry trends?",
+        "filled_param": {
+          "company_name": "Comcast",
+          "period": "last quarter of 2023",
+          "industry_trends": false
+        }
+      }
+    ]
+  },
+  "finance.predict_revenue|:|construction company|:|company_name,period,industry_trends": {
+    "tool_template_name": "finance.predict_revenue",
+    "derived_class": "construction company",
+    "params_for_query": [
+      "company_name",
+      "period",
+      "industry_trends"
+    ],
+    "queries": [
+      {
+        "query": "Could you forecast the revenue for Johnson Builders for the next quarter and consider industry trends in your prediction?",
+        "filled_param": {
+          "company_name": "Johnson Builders",
+          "period": "next quarter",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "I need a revenue prediction for Skyline Construction for the year 2024 without factoring in industry trends.",
+        "filled_param": {
+          "company_name": "Skyline Construction",
+          "period": "year 2024",
+          "industry_trends": false
+        }
+      },
+      {
+        "query": "Please predict the revenue for Greenfield Infrastructure for Q3 2025 and include construction company trends.",
+        "filled_param": {
+          "company_name": "Greenfield Infrastructure",
+          "period": "Q3 2025",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "What is the estimated revenue for Ace Builders for the fiscal year 2023 if we do not consider industry trends?",
+        "filled_param": {
+          "company_name": "Ace Builders",
+          "period": "fiscal year 2023",
+          "industry_trends": false
+        }
+      },
+      {
+        "query": "Can you give me a revenue prediction for the next month for Horizon Construction and include industry trends?",
+        "filled_param": {
+          "company_name": "Horizon Construction",
+          "period": "next month",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "Forecast the revenue for BuildRight Inc. for the upcoming financial quarter without considering trends.",
+        "filled_param": {
+          "company_name": "BuildRight Inc.",
+          "period": "upcoming financial quarter",
+          "industry_trends": false
+        }
+      },
+      {
+        "query": "I'd like a revenue prediction for Stoneworks Ltd. for the entire year 2023, taking into account industry trends.",
+        "filled_param": {
+          "company_name": "Stoneworks Ltd.",
+          "period": "entire year 2023",
+          "industry_trends": true
+        }
+      }
+    ]
+  },
+  "finance.predict_revenue|:|logistics company|:|company_name,period,industry_trends": {
+    "tool_template_name": "finance.predict_revenue",
+    "derived_class": "logistics company",
+    "params_for_query": [
+      "company_name",
+      "period",
+      "industry_trends"
+    ],
+    "queries": [
+      {
+        "query": "Could you predict the revenue for the logistics company FedEx for the next quarter, taking industry trends into account?",
+        "filled_param": {
+          "company_name": "FedEx",
+          "period": "next quarter",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "I need a revenue prediction for the logistics company UPS for the fiscal year 2024, without considering industry trends.",
+        "filled_param": {
+          "company_name": "UPS",
+          "period": "fiscal year 2024",
+          "industry_trends": false
+        }
+      },
+      {
+        "query": "What is the expected revenue for the logistics company DHL for the first half of 2025, considering the industry trends?",
+        "filled_param": {
+          "company_name": "DHL",
+          "period": "first half of 2025",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "Can you provide a revenue prediction for the logistics company Amazon Logistics for Q3 2023, ignoring industry trends?",
+        "filled_param": {
+          "company_name": "Amazon Logistics",
+          "period": "Q3 2023",
+          "industry_trends": false
+        }
+      },
+      {
+        "query": "Predict the revenue for the logistics company Maersk for the upcoming holiday season, taking into account industry trends.",
+        "filled_param": {
+          "company_name": "Maersk",
+          "period": "upcoming holiday season",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "I'd like to know the revenue forecast for the logistics company XPO Logistics for 2023's second quarter, without industry trend influence.",
+        "filled_param": {
+          "company_name": "XPO Logistics",
+          "period": "2023's second quarter",
+          "industry_trends": false
+        }
+      },
+      {
+        "query": "How much revenue is the logistics company C.H. Robinson expected to generate in the next fiscal year, with industry trends considered?",
+        "filled_param": {
+          "company_name": "C.H. Robinson",
+          "period": "next fiscal year",
+          "industry_trends": true
+        }
+      }
+    ]
+  },
+  "finance.predict_revenue|:|food company|:|company_name,period,industry_trends": {
+    "tool_template_name": "finance.predict_revenue",
+    "derived_class": "food company",
+    "params_for_query": [
+      "company_name",
+      "period",
+      "industry_trends"
+    ],
+    "queries": [
+      {
+        "query": "Can you forecast the revenue for the food company 'Whole Foods Market' for the next quarter considering industry trends?",
+        "filled_param": {
+          "company_name": "Whole Foods Market",
+          "period": "next quarter",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "Predict the annual revenue of the food company 'Nestlé' for this year without factoring in industry trends.",
+        "filled_param": {
+          "company_name": "Nestlé",
+          "period": "this year",
+          "industry_trends": false
+        }
+      },
+      {
+        "query": "What is the projected revenue for 'Kraft Heinz' for Q3, taking into account current industry trends?",
+        "filled_param": {
+          "company_name": "Kraft Heinz",
+          "period": "Q3",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "Please estimate the revenue for the food company 'PepsiCo' for the upcoming fiscal year without considering industry trends.",
+        "filled_param": {
+          "company_name": "PepsiCo",
+          "period": "upcoming fiscal year",
+          "industry_trends": false
+        }
+      },
+      {
+        "query": "I'd like a revenue prediction for the food company 'General Mills' for the second half of this year, including industry trends.",
+        "filled_param": {
+          "company_name": "General Mills",
+          "period": "second half of this year",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "Forecast the revenue for 'Danone' for the next six months without using industry trends.",
+        "filled_param": {
+          "company_name": "Danone",
+          "period": "next six months",
+          "industry_trends": false
+        }
+      },
+      {
+        "query": "How much revenue is the food company 'Tyson Foods' expected to generate in the upcoming quarter, considering industry trends?",
+        "filled_param": {
+          "company_name": "Tyson Foods",
+          "period": "upcoming quarter",
+          "industry_trends": true
+        }
+      }
+    ]
+  },
+  "finance.predict_revenue|:|oil company|:|company_name,period,industry_trends": {
+    "tool_template_name": "finance.predict_revenue",
+    "derived_class": "oil company",
+    "params_for_query": [
+      "company_name",
+      "period",
+      "industry_trends"
+    ],
+    "queries": [
+      {
+        "query": "Can you predict the revenue of Shell for the next quarter considering industry trends?",
+        "filled_param": {
+          "company_name": "Shell",
+          "period": "next quarter",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "What's the forecasted revenue for ExxonMobil in the upcoming fiscal year without taking industry trends into account?",
+        "filled_param": {
+          "company_name": "ExxonMobil",
+          "period": "upcoming fiscal year",
+          "industry_trends": false
+        }
+      },
+      {
+        "query": "Estimate BP's revenue for the third quarter of this year, factoring in industry trends.",
+        "filled_param": {
+          "company_name": "BP",
+          "period": "third quarter of this year",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "Could you provide a revenue prediction for Chevron for next month if we ignore the industry trends?",
+        "filled_param": {
+          "company_name": "Chevron",
+          "period": "next month",
+          "industry_trends": false
+        }
+      },
+      {
+        "query": "I need a revenue forecast for TotalEnergies over the next two quarters, with industry trends considered.",
+        "filled_param": {
+          "company_name": "TotalEnergies",
+          "period": "next two quarters",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "Generate a revenue projection for ConocoPhillips for the next six months without industry trends.",
+        "filled_param": {
+          "company_name": "ConocoPhillips",
+          "period": "next six months",
+          "industry_trends": false
+        }
+      },
+      {
+        "query": "What is the predicted revenue for Eni in the upcoming quarter, considering industry trends?",
+        "filled_param": {
+          "company_name": "Eni",
+          "period": "upcoming quarter",
+          "industry_trends": true
+        }
+      }
+    ]
+  },
+  "finance.predict_revenue|:|electric power company|:|company_name,period,industry_trends": {
+    "tool_template_name": "finance.predict_revenue",
+    "derived_class": "electric power company",
+    "params_for_query": [
+      "company_name",
+      "period",
+      "industry_trends"
+    ],
+    "queries": [
+      {
+        "query": "Can you predict the revenue for the electric power company named 'Green Energy Corp' for the upcoming quarter, considering industry trends?",
+        "filled_param": {
+          "company_name": "Green Energy Corp",
+          "period": "upcoming quarter",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "Please provide a revenue prediction for the electric power company called 'Sunlight Power' for the fiscal year 2024 without taking industry trends into account.",
+        "filled_param": {
+          "company_name": "Sunlight Power",
+          "period": "fiscal year 2024",
+          "industry_trends": false
+        }
+      },
+      {
+        "query": "I need a revenue forecast for the electric power company 'Northern Lights Energy' for the next six months. Do not include industry trends in your prediction.",
+        "filled_param": {
+          "company_name": "Northern Lights Energy",
+          "period": "next six months",
+          "industry_trends": false
+        }
+      },
+      {
+        "query": "What is the projected revenue for the electric power company 'Volt Dynamics' for the first quarter of 2025, taking into account current industry trends?",
+        "filled_param": {
+          "company_name": "Volt Dynamics",
+          "period": "first quarter of 2025",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "Forecast the revenue for the electric power company 'Energize Co.' for the next year, including industry trends in the analysis.",
+        "filled_param": {
+          "company_name": "Energize Co.",
+          "period": "next year",
+          "industry_trends": true
+        }
+      },
+      {
+        "query": "Can you estimate the revenue for the electric power company 'PowerGrid Solutions' for the upcoming month, without factoring in industry trends?",
+        "filled_param": {
+          "company_name": "PowerGrid Solutions",
+          "period": "upcoming month",
+          "industry_trends": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "tool_template_name": "calc_heat_capacity",
+  "meta_data": {
+    "base_class": "Calculate the <thermodynamic property> of air at constant pressure — these properties depend strictly on temperature, volume, and gas type, and are physically independent and mutually non-derivable.",
+    "derived_classes": [
+      "heat capacity",
+      "entropy",
+      "compressibility factor",
+      "thermal expansion coefficient",
+      "isothermal compressibility",
+      "partial molar volume",
+      "mean free path"
+    ],
+    "base_class_entity": "heat capacity"
+  },
+  "tool_template": {
+    "name": "calc_<class>",
+    "description": "Calculate the <class> of a specific gas at constant pressure using its temperature and volume.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "temp": {
+          "type": "integer",
+          "description": "The temperature of the gas in Kelvin."
+        },
+        "volume": {
+          "type": "integer",
+          "description": "The volume of the gas in m^3."
+        },
+        "gas": {
+          "type": "string",
+          "description": "Type of gas for the <class> calculation, e.g., 'air'."
+        }
+      },
+      "required": [
+        "temp",
+        "volume",
+        "gas"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "substance_purity": {
+      "type": "number",
+      "description": "The purity of the gas as a percentage (0-100), affecting the <class> calculations."
+    },
+    "measurement_accuracy": {
+      "type": "string",
+      "description": "The required accuracy for the <class> calculation, e.g., 'high', 'medium', or 'low'."
+    },
+    "reference_state": {
+      "type": "string",
+      "description": "The reference state for the <class> calculation, such as 'standard' or 'ambient'."
+    },
+    "units": {
+      "type": "string",
+      "description": "The units in which the <class> result should be expressed."
+    }
+  }
+}

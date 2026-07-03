@@ -1,0 +1,857 @@
+{
+  "total_revenue|:|automotive company|:|company,days,data_source,currency,include_taxes,granularity": {
+    "tool_template_name": "total_revenue",
+    "derived_class": "automotive company",
+    "params_for_query": [
+      "company",
+      "days",
+      "data_source",
+      "currency",
+      "include_taxes",
+      "granularity"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the total revenue for the automotive company Tesla over the past 30 days using Bloomberg as the data source, in USD, including taxes, with daily granularity.",
+        "filled_param": {
+          "company": "Tesla",
+          "days": 30,
+          "data_source": "Bloomberg",
+          "currency": "USD",
+          "include_taxes": true,
+          "granularity": "daily"
+        }
+      },
+      {
+        "query": "What was the total revenue of the automotive company Toyota in the last 90 days, sourced from Yahoo Finance, in JPY, not including taxes, with monthly granularity?",
+        "filled_param": {
+          "company": "Toyota",
+          "days": 90,
+          "data_source": "Yahoo Finance",
+          "currency": "JPY",
+          "include_taxes": false,
+          "granularity": "monthly"
+        }
+      },
+      {
+        "query": "Can you calculate the total revenue for the automotive company Ford over the previous 60 days using the Financial Times data source, in EUR, including taxes, with weekly granularity?",
+        "filled_param": {
+          "company": "Ford",
+          "days": 60,
+          "data_source": "Financial Times",
+          "currency": "EUR",
+          "include_taxes": true,
+          "granularity": "weekly"
+        }
+      },
+      {
+        "query": "I need to know the total revenue of the automotive company BMW for the past 180 days using Reuters as the data source, in GBP, excluding taxes, with a daily granularity.",
+        "filled_param": {
+          "company": "BMW",
+          "days": 180,
+          "data_source": "Reuters",
+          "currency": "GBP",
+          "include_taxes": false,
+          "granularity": "daily"
+        }
+      },
+      {
+        "query": "Determine the total revenue of the automotive company General Motors over the last 7 days with data from MarketWatch, in USD, inclusive of taxes, and using weekly granularity.",
+        "filled_param": {
+          "company": "General Motors",
+          "days": 7,
+          "data_source": "MarketWatch",
+          "currency": "USD",
+          "include_taxes": true,
+          "granularity": "weekly"
+        }
+      },
+      {
+        "query": "Can you tell me the total revenue for the automotive company Honda over the last 120 days using CNBC as the source, in AUD, without taxes, with monthly granularity?",
+        "filled_param": {
+          "company": "Honda",
+          "days": 120,
+          "data_source": "CNBC",
+          "currency": "AUD",
+          "include_taxes": false,
+          "granularity": "monthly"
+        }
+      },
+      {
+        "query": "Fetch the total revenue of the automotive company Nissan for the past 45 days from the data source Automotive News, in CAD, including taxes, with daily granularity.",
+        "filled_param": {
+          "company": "Nissan",
+          "days": 45,
+          "data_source": "Automotive News",
+          "currency": "CAD",
+          "include_taxes": true,
+          "granularity": "daily"
+        }
+      }
+    ]
+  },
+  "total_revenue|:|pharmaceutical company|:|company,days,data_source,currency,include_taxes,granularity": {
+    "tool_template_name": "total_revenue",
+    "derived_class": "pharmaceutical company",
+    "params_for_query": [
+      "company",
+      "days",
+      "data_source",
+      "currency",
+      "include_taxes",
+      "granularity"
+    ],
+    "queries": [
+      {
+        "query": "What was the total revenue for the pharmaceutical company Pfizer over the past 30 days from the Bloomberg data source, reported in USD, including taxes, with daily granularity?",
+        "filled_param": {
+          "company": "Pfizer",
+          "days": 30,
+          "data_source": "Bloomberg",
+          "currency": "USD",
+          "include_taxes": true,
+          "granularity": "daily"
+        }
+      },
+      {
+        "query": "Calculate the total revenue of the pharmaceutical company Moderna for the last 90 days using Yahoo Finance as the data source, in EUR currency, excluding taxes, and with weekly granularity.",
+        "filled_param": {
+          "company": "Moderna",
+          "days": 90,
+          "data_source": "Yahoo Finance",
+          "currency": "EUR",
+          "include_taxes": false,
+          "granularity": "weekly"
+        }
+      },
+      {
+        "query": "How much revenue did the pharmaceutical company AstraZeneca generate over the past 60 days according to the Reuters data source, presented in GBP currency, including taxes, with monthly granularity?",
+        "filled_param": {
+          "company": "AstraZeneca",
+          "days": 60,
+          "data_source": "Reuters",
+          "currency": "GBP",
+          "include_taxes": true,
+          "granularity": "monthly"
+        }
+      },
+      {
+        "query": "Determine the total revenue of the pharmaceutical company Novartis over the last 120 days from the CNBC data source, in CAD, excluding taxes, with daily granularity.",
+        "filled_param": {
+          "company": "Novartis",
+          "days": 120,
+          "data_source": "CNBC",
+          "currency": "CAD",
+          "include_taxes": false,
+          "granularity": "daily"
+        }
+      },
+      {
+        "query": "Provide the total revenue for the pharmaceutical company Johnson & Johnson for the past 45 days, sourced from Financial Times, in JPY currency, including taxes, with weekly granularity.",
+        "filled_param": {
+          "company": "Johnson & Johnson",
+          "days": 45,
+          "data_source": "Financial Times",
+          "currency": "JPY",
+          "include_taxes": true,
+          "granularity": "weekly"
+        }
+      },
+      {
+        "query": "What is the total revenue for the pharmaceutical company Sanofi over the last 180 days using the Wall Street Journal data source, in AUD, excluding taxes, with monthly granularity?",
+        "filled_param": {
+          "company": "Sanofi",
+          "days": 180,
+          "data_source": "Wall Street Journal",
+          "currency": "AUD",
+          "include_taxes": false,
+          "granularity": "monthly"
+        }
+      }
+    ]
+  },
+  "total_revenue|:|telecommunications company|:|company,days,data_source,currency,include_taxes,granularity": {
+    "tool_template_name": "total_revenue",
+    "derived_class": "telecommunications company",
+    "params_for_query": [
+      "company",
+      "days",
+      "data_source",
+      "currency",
+      "include_taxes",
+      "granularity"
+    ],
+    "queries": [
+      {
+        "query": "What has been the total revenue for the telecommunications company Verizon over the last 30 days, sourced from Bloomberg, in USD including taxes, with daily granularity?",
+        "filled_param": {
+          "company": "Verizon",
+          "days": 30,
+          "data_source": "Bloomberg",
+          "currency": "USD",
+          "include_taxes": true,
+          "granularity": "daily"
+        }
+      },
+      {
+        "query": "Calculate the total revenue for the telecommunications company AT&T for the past 60 days using Reuters data, presented in EUR and excluding taxes, with monthly granularity.",
+        "filled_param": {
+          "company": "AT&T",
+          "days": 60,
+          "data_source": "Reuters",
+          "currency": "EUR",
+          "include_taxes": false,
+          "granularity": "monthly"
+        }
+      },
+      {
+        "query": "Please provide the total revenue for the telecommunications company Vodafone over the last 15 days, using data from Yahoo Finance, in GBP, with taxes included and weekly granularity.",
+        "filled_param": {
+          "company": "Vodafone",
+          "days": 15,
+          "data_source": "Yahoo Finance",
+          "currency": "GBP",
+          "include_taxes": true,
+          "granularity": "weekly"
+        }
+      },
+      {
+        "query": "How much revenue did the telecommunications company T-Mobile generate in the past 90 days according to Financial Times, in JPY, excluding taxes, and with daily granularity?",
+        "filled_param": {
+          "company": "T-Mobile",
+          "days": 90,
+          "data_source": "Financial Times",
+          "currency": "JPY",
+          "include_taxes": false,
+          "granularity": "daily"
+        }
+      },
+      {
+        "query": "Get the total telecommunications company revenue for Orange over the last 45 days, using data from CNBC, in CAD, with taxes considered, and monthly granularity.",
+        "filled_param": {
+          "company": "Orange",
+          "days": 45,
+          "data_source": "CNBC",
+          "currency": "CAD",
+          "include_taxes": true,
+          "granularity": "monthly"
+        }
+      },
+      {
+        "query": "What is the total revenue for the telecommunications company Sprint for the previous 7 days using Wall Street Journal data, in AUD, without taxes, with weekly detail?",
+        "filled_param": {
+          "company": "Sprint",
+          "days": 7,
+          "data_source": "Wall Street Journal",
+          "currency": "AUD",
+          "include_taxes": false,
+          "granularity": "weekly"
+        }
+      },
+      {
+        "query": "Determine the total revenue for the telecommunications company Telstra over the last 20 days, using Nasdaq data, in SEK, including taxes, and daily granularity.",
+        "filled_param": {
+          "company": "Telstra",
+          "days": 20,
+          "data_source": "Nasdaq",
+          "currency": "SEK",
+          "include_taxes": true,
+          "granularity": "daily"
+        }
+      }
+    ]
+  },
+  "total_revenue|:|airline company|:|company,days,data_source,currency,include_taxes,granularity": {
+    "tool_template_name": "total_revenue",
+    "derived_class": "airline company",
+    "params_for_query": [
+      "company",
+      "days",
+      "data_source",
+      "currency",
+      "include_taxes",
+      "granularity"
+    ],
+    "queries": [
+      {
+        "query": "Can you calculate the total revenue for the airline company Delta Airlines over the past 30 days using data from the IATA database, in USD currency, including taxes, and provide weekly details?",
+        "filled_param": {
+          "company": "Delta Airlines",
+          "days": 30,
+          "data_source": "IATA database",
+          "currency": "USD",
+          "include_taxes": true,
+          "granularity": "weekly"
+        }
+      },
+      {
+        "query": "What has been the total revenue of the airline company American Airlines for the last 60 days? Use the FlightStats source, show it in EUR, exclude taxes, and with monthly granularity.",
+        "filled_param": {
+          "company": "American Airlines",
+          "days": 60,
+          "data_source": "FlightStats",
+          "currency": "EUR",
+          "include_taxes": false,
+          "granularity": "monthly"
+        }
+      },
+      {
+        "query": "Find out the total revenue for the airline company Emirates over the past 90 days from the Airlines Reporting Corporation, report in GBP, include taxes, and display daily figures.",
+        "filled_param": {
+          "company": "Emirates",
+          "days": 90,
+          "data_source": "Airlines Reporting Corporation",
+          "currency": "GBP",
+          "include_taxes": true,
+          "granularity": "daily"
+        }
+      },
+      {
+        "query": "Compute the total revenue of the airline company Lufthansa for the previous 45 days using data from the CAPA Center for Aviation, in JPY, with taxes included, and presented weekly.",
+        "filled_param": {
+          "company": "Lufthansa",
+          "days": 45,
+          "data_source": "CAPA Center for Aviation",
+          "currency": "JPY",
+          "include_taxes": true,
+          "granularity": "weekly"
+        }
+      },
+      {
+        "query": "Please provide the total revenue for the airline company Qantas over the last 15 days. Use the OAG database, present in AUD, exclude taxes, and offer monthly details.",
+        "filled_param": {
+          "company": "Qantas",
+          "days": 15,
+          "data_source": "OAG database",
+          "currency": "AUD",
+          "include_taxes": false,
+          "granularity": "monthly"
+        }
+      },
+      {
+        "query": "I need the total revenue calculated for the airline company Air France over the past 120 days using data from the Sabre database, in CHF, with taxes excluded, and shown daily.",
+        "filled_param": {
+          "company": "Air France",
+          "days": 120,
+          "data_source": "Sabre database",
+          "currency": "CHF",
+          "include_taxes": false,
+          "granularity": "daily"
+        }
+      }
+    ]
+  },
+  "total_revenue|:|logistics company|:|company,days,data_source,currency,include_taxes,granularity": {
+    "tool_template_name": "total_revenue",
+    "derived_class": "logistics company",
+    "params_for_query": [
+      "company",
+      "days",
+      "data_source",
+      "currency",
+      "include_taxes",
+      "granularity"
+    ],
+    "queries": [
+      {
+        "query": "Can you calculate the total revenue for the logistics company DHL over the past 30 days using the Bloomberg database, in USD, including taxes, with daily granularity?",
+        "filled_param": {
+          "company": "DHL",
+          "days": 30,
+          "data_source": "Bloomberg",
+          "currency": "USD",
+          "include_taxes": true,
+          "granularity": "daily"
+        }
+      },
+      {
+        "query": "I'd like to know the total revenue of FedEx, a logistics company, for the last 90 days. Use the Reuters data source, calculate in EUR, exclude taxes, and provide weekly granularity.",
+        "filled_param": {
+          "company": "FedEx",
+          "days": 90,
+          "data_source": "Reuters",
+          "currency": "EUR",
+          "include_taxes": false,
+          "granularity": "weekly"
+        }
+      },
+      {
+        "query": "Please provide the total revenue calculation for UPS, a logistics company, over the past 180 days. Fetch data from Yahoo Finance, use GBP, and include taxes. I need monthly granularity.",
+        "filled_param": {
+          "company": "UPS",
+          "days": 180,
+          "data_source": "Yahoo Finance",
+          "currency": "GBP",
+          "include_taxes": true,
+          "granularity": "monthly"
+        }
+      },
+      {
+        "query": "What is the total revenue of the logistics company Maersk for the previous 60 days? Use the Nasdaq database, compute in JPY, include taxes, and give me daily granularity.",
+        "filled_param": {
+          "company": "Maersk",
+          "days": 60,
+          "data_source": "Nasdaq",
+          "currency": "JPY",
+          "include_taxes": true,
+          "granularity": "daily"
+        }
+      },
+      {
+        "query": "Calculate the total revenue for the logistics company DB Schenker over the last 120 days. Utilize the Financial Times as the data source, report in AUD, exclude taxes, and provide details with monthly granularity.",
+        "filled_param": {
+          "company": "DB Schenker",
+          "days": 120,
+          "data_source": "Financial Times",
+          "currency": "AUD",
+          "include_taxes": false,
+          "granularity": "monthly"
+        }
+      },
+      {
+        "query": "I'm interested in knowing the total revenue for the logistics company Kuehne + Nagel over the past 365 days. Gather information from the Wall Street Journal, show results in CAD, include taxes, and deliver with weekly granularity.",
+        "filled_param": {
+          "company": "Kuehne + Nagel",
+          "days": 365,
+          "data_source": "Wall Street Journal",
+          "currency": "CAD",
+          "include_taxes": true,
+          "granularity": "weekly"
+        }
+      },
+      {
+        "query": "Find out the total revenue of Nippon Express, a logistics company, for the last 45 days using data from CNBC. Calculate it in INR, exclude taxes, and provide daily granularity.",
+        "filled_param": {
+          "company": "Nippon Express",
+          "days": 45,
+          "data_source": "CNBC",
+          "currency": "INR",
+          "include_taxes": false,
+          "granularity": "daily"
+        }
+      }
+    ]
+  },
+  "total_revenue|:|mining company|:|company,days,data_source,currency,include_taxes,granularity": {
+    "tool_template_name": "total_revenue",
+    "derived_class": "mining company",
+    "params_for_query": [
+      "company",
+      "days",
+      "data_source",
+      "currency",
+      "include_taxes",
+      "granularity"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the total revenue for the mining company Glencore over the last 30 days using Bloomberg as the data source, in USD, including taxes, and with daily granularity.",
+        "filled_param": {
+          "company": "Glencore",
+          "days": 30,
+          "data_source": "Bloomberg",
+          "currency": "USD",
+          "include_taxes": true,
+          "granularity": "daily"
+        }
+      },
+      {
+        "query": "What is the total revenue of Rio Tinto for the past 7 days from Reuters, calculated in EUR without including taxes and with weekly granularity?",
+        "filled_param": {
+          "company": "Rio Tinto",
+          "days": 7,
+          "data_source": "Reuters",
+          "currency": "EUR",
+          "include_taxes": false,
+          "granularity": "weekly"
+        }
+      },
+      {
+        "query": "Get the total revenue data for BHP Billiton over the last 60 days, sourced from Financial Times, in AUD, taxes included, with monthly detail.",
+        "filled_param": {
+          "company": "BHP Billiton",
+          "days": 60,
+          "data_source": "Financial Times",
+          "currency": "AUD",
+          "include_taxes": true,
+          "granularity": "monthly"
+        }
+      },
+      {
+        "query": "Can you provide the total revenue for Anglo American for the previous 14 days using Yahoo Finance, in GBP, excluding taxes, with daily granularity?",
+        "filled_param": {
+          "company": "Anglo American",
+          "days": 14,
+          "data_source": "Yahoo Finance",
+          "currency": "GBP",
+          "include_taxes": false,
+          "granularity": "daily"
+        }
+      },
+      {
+        "query": "Determine the total revenue for Vale SA for the last 90 days, using the Wall Street Journal as the data source, in BRL, including taxes, and with weekly granularity.",
+        "filled_param": {
+          "company": "Vale SA",
+          "days": 90,
+          "data_source": "Wall Street Journal",
+          "currency": "BRL",
+          "include_taxes": true,
+          "granularity": "weekly"
+        }
+      },
+      {
+        "query": "I'd like to know the total revenue of Freeport-McMoRan for the past 15 days from CNN Money, in USD, excluding taxes, with monthly granularity.",
+        "filled_param": {
+          "company": "Freeport-McMoRan",
+          "days": 15,
+          "data_source": "CNN Money",
+          "currency": "USD",
+          "include_taxes": false,
+          "granularity": "monthly"
+        }
+      }
+    ]
+  },
+  "total_revenue|:|agricultural company|:|company,days,data_source,currency,include_taxes,granularity": {
+    "tool_template_name": "total_revenue",
+    "derived_class": "agricultural company",
+    "params_for_query": [
+      "company",
+      "days",
+      "data_source",
+      "currency",
+      "include_taxes",
+      "granularity"
+    ],
+    "queries": [
+      {
+        "query": "Can you find the total revenue for Green Fields Co-op over the last 30 days using data from MarketWatch, in USD, including taxes, with daily granularity?",
+        "filled_param": {
+          "company": "Green Fields Co-op",
+          "days": 30,
+          "data_source": "MarketWatch",
+          "currency": "USD",
+          "include_taxes": true,
+          "granularity": "daily"
+        }
+      },
+      {
+        "query": "Please calculate the total revenue for Sunshine Farms over the past 60 days with weekly detail, using Bloomberg data, in EUR, and excluding taxes.",
+        "filled_param": {
+          "company": "Sunshine Farms",
+          "days": 60,
+          "data_source": "Bloomberg",
+          "currency": "EUR",
+          "include_taxes": false,
+          "granularity": "weekly"
+        }
+      },
+      {
+        "query": "I need to know the total revenue of Organic Harvest Ltd. for the last 90 days in GBP, sourced from Reuters, taxes not included, with monthly granularity.",
+        "filled_param": {
+          "company": "Organic Harvest Ltd.",
+          "days": 90,
+          "data_source": "Reuters",
+          "currency": "GBP",
+          "include_taxes": false,
+          "granularity": "monthly"
+        }
+      },
+      {
+        "query": "Fetch the total revenue for AgroTech Innovations over the previous 15 days from Yahoo Finance, with taxes, in CAD, and present it with daily granularity.",
+        "filled_param": {
+          "company": "AgroTech Innovations",
+          "days": 15,
+          "data_source": "Yahoo Finance",
+          "currency": "CAD",
+          "include_taxes": true,
+          "granularity": "daily"
+        }
+      },
+      {
+        "query": "What is the total revenue for Farm Fresh Inc. over the past 45 days, excluding taxes, with data from Nasdaq, in AUD, and broken down weekly?",
+        "filled_param": {
+          "company": "Farm Fresh Inc.",
+          "days": 45,
+          "data_source": "Nasdaq",
+          "currency": "AUD",
+          "include_taxes": false,
+          "granularity": "weekly"
+        }
+      },
+      {
+        "query": "Calculate the total revenue for Harvest Partners for the last 7 days using data from CNBC, in JPY, including taxes, with daily details.",
+        "filled_param": {
+          "company": "Harvest Partners",
+          "days": 7,
+          "data_source": "CNBC",
+          "currency": "JPY",
+          "include_taxes": true,
+          "granularity": "daily"
+        }
+      }
+    ]
+  },
+  "total_revenue|:|commercial bank|:|company,days,data_source,currency,include_taxes,granularity": {
+    "tool_template_name": "total_revenue",
+    "derived_class": "commercial bank",
+    "params_for_query": [
+      "company",
+      "days",
+      "data_source",
+      "currency",
+      "include_taxes",
+      "granularity"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the total revenue for the commercial bank HSBC over the past 30 days using Bloomberg as the data source, in USD, including taxes, with daily granularity.",
+        "filled_param": {
+          "company": "HSBC",
+          "days": 30,
+          "data_source": "Bloomberg",
+          "currency": "USD",
+          "include_taxes": true,
+          "granularity": "daily"
+        }
+      },
+      {
+        "query": "Can you provide the total revenue for the commercial bank JPMorgan Chase for the last 90 days, sourced from Reuters, in euros, excluding taxes, with monthly granularity?",
+        "filled_param": {
+          "company": "JPMorgan Chase",
+          "days": 90,
+          "data_source": "Reuters",
+          "currency": "EUR",
+          "include_taxes": false,
+          "granularity": "monthly"
+        }
+      },
+      {
+        "query": "What is the total revenue of the commercial bank Barclays for the past 15 days, using Yahoo Finance as the source, in GBP, including taxes, and provide it with weekly granularity?",
+        "filled_param": {
+          "company": "Barclays",
+          "days": 15,
+          "data_source": "Yahoo Finance",
+          "currency": "GBP",
+          "include_taxes": true,
+          "granularity": "weekly"
+        }
+      },
+      {
+        "query": "Please calculate the total revenue for the commercial bank Wells Fargo over the last 60 days from the Bloomberg data source, in USD, without including taxes, with daily granularity.",
+        "filled_param": {
+          "company": "Wells Fargo",
+          "days": 60,
+          "data_source": "Bloomberg",
+          "currency": "USD",
+          "include_taxes": false,
+          "granularity": "daily"
+        }
+      },
+      {
+        "query": "Find out the total revenue of the commercial bank Citibank for the previous 180 days, using Reuters, in AUD, including taxes, with monthly granularity.",
+        "filled_param": {
+          "company": "Citibank",
+          "days": 180,
+          "data_source": "Reuters",
+          "currency": "AUD",
+          "include_taxes": true,
+          "granularity": "monthly"
+        }
+      },
+      {
+        "query": "What was the total revenue for the commercial bank Bank of America over the last 45 days, according to Yahoo Finance, in CAD, without taxes, with weekly granularity?",
+        "filled_param": {
+          "company": "Bank of America",
+          "days": 45,
+          "data_source": "Yahoo Finance",
+          "currency": "CAD",
+          "include_taxes": false,
+          "granularity": "weekly"
+        }
+      },
+      {
+        "query": "Could you provide the total revenue for the commercial bank Deutsche Bank over the past 120 days, sourced from Bloomberg, in EUR, including taxes, and break it down into daily figures?",
+        "filled_param": {
+          "company": "Deutsche Bank",
+          "days": 120,
+          "data_source": "Bloomberg",
+          "currency": "EUR",
+          "include_taxes": true,
+          "granularity": "daily"
+        }
+      }
+    ]
+  },
+  "total_revenue|:|insurance company|:|company,days,data_source,currency,include_taxes,granularity": {
+    "tool_template_name": "total_revenue",
+    "derived_class": "insurance company",
+    "params_for_query": [
+      "company",
+      "days",
+      "data_source",
+      "currency",
+      "include_taxes",
+      "granularity"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the total revenue for the insurance company Allianz over the last 30 days using Bloomberg as the data source. Please provide the amount in euros and include taxes with daily granularity.",
+        "filled_param": {
+          "company": "Allianz",
+          "days": 30,
+          "data_source": "Bloomberg",
+          "currency": "euros",
+          "include_taxes": true,
+          "granularity": "daily"
+        }
+      },
+      {
+        "query": "I need the total revenue of the insurance company MetLife for the past 60 days. Use Reuters for the data source, report in US dollars, include taxes, and provide weekly data.",
+        "filled_param": {
+          "company": "MetLife",
+          "days": 60,
+          "data_source": "Reuters",
+          "currency": "US dollars",
+          "include_taxes": true,
+          "granularity": "weekly"
+        }
+      },
+      {
+        "query": "What is the total revenue of the insurance company Prudential over the last 90 days? The data should be sourced from Yahoo Finance, presented in British pounds, excluding taxes, and with monthly granularity.",
+        "filled_param": {
+          "company": "Prudential",
+          "days": 90,
+          "data_source": "Yahoo Finance",
+          "currency": "British pounds",
+          "include_taxes": false,
+          "granularity": "monthly"
+        }
+      },
+      {
+        "query": "Please provide the total revenue for the insurance company AIG for the past 15 days using the data from S&P. The revenue should be calculated in Japanese yen, include taxes, and with daily granularity.",
+        "filled_param": {
+          "company": "AIG",
+          "days": 15,
+          "data_source": "S&P",
+          "currency": "Japanese yen",
+          "include_taxes": true,
+          "granularity": "daily"
+        }
+      },
+      {
+        "query": "Can you tell me the total revenue of the insurance company AXA for the last 45 days? Fetch the data from Morningstar, report in Swiss francs, exclude taxes, and with weekly detail.",
+        "filled_param": {
+          "company": "AXA",
+          "days": 45,
+          "data_source": "Morningstar",
+          "currency": "Swiss francs",
+          "include_taxes": false,
+          "granularity": "weekly"
+        }
+      },
+      {
+        "query": "Get the total revenue for the insurance company Zurich Insurance over the past 120 days. Use the World Bank as the data source, present in Canadian dollars, include taxes, and with monthly granularity.",
+        "filled_param": {
+          "company": "Zurich Insurance",
+          "days": 120,
+          "data_source": "World Bank",
+          "currency": "Canadian dollars",
+          "include_taxes": true,
+          "granularity": "monthly"
+        }
+      },
+      {
+        "query": "I am looking for the total revenue of the insurance company Generali for the past 10 days using FactSet. Show the amount in Indian rupees, and exclude taxes, with daily granularity.",
+        "filled_param": {
+          "company": "Generali",
+          "days": 10,
+          "data_source": "FactSet",
+          "currency": "Indian rupees",
+          "include_taxes": false,
+          "granularity": "daily"
+        }
+      }
+    ]
+  },
+  "total_revenue|:|food company|:|company,days,data_source,currency,include_taxes,granularity": {
+    "tool_template_name": "total_revenue",
+    "derived_class": "food company",
+    "params_for_query": [
+      "company",
+      "days",
+      "data_source",
+      "currency",
+      "include_taxes",
+      "granularity"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the total revenue for the food company Nestlé over the past 30 days using data from Bloomberg, in USD, including taxes, with daily granularity.",
+        "filled_param": {
+          "company": "Nestlé",
+          "days": 30,
+          "data_source": "Bloomberg",
+          "currency": "USD",
+          "include_taxes": true,
+          "granularity": "daily"
+        }
+      },
+      {
+        "query": "Please provide the total revenue for PepsiCo as a food company for the last 60 days from Reuters, in EUR currency, excluding taxes, with weekly data breakdown.",
+        "filled_param": {
+          "company": "PepsiCo",
+          "days": 60,
+          "data_source": "Reuters",
+          "currency": "EUR",
+          "include_taxes": false,
+          "granularity": "weekly"
+        }
+      },
+      {
+        "query": "Can you determine the total revenue for the food company Kraft Heinz over the past 15 days, using Yahoo Finance as the data source, in GBP, including taxes, with monthly granularity?",
+        "filled_param": {
+          "company": "Kraft Heinz",
+          "days": 15,
+          "data_source": "Yahoo Finance",
+          "currency": "GBP",
+          "include_taxes": true,
+          "granularity": "monthly"
+        }
+      },
+      {
+        "query": "What was the total revenue for the food company Danone for the previous 90 days, fetched from FactSet, calculated in JPY and excluding taxes, with a weekly granularity?",
+        "filled_param": {
+          "company": "Danone",
+          "days": 90,
+          "data_source": "FactSet",
+          "currency": "JPY",
+          "include_taxes": false,
+          "granularity": "weekly"
+        }
+      },
+      {
+        "query": "Find the total revenue for the food company Unilever over the past 45 days, using financial data from Morningstar, in AUD, and include taxes, with data displayed daily.",
+        "filled_param": {
+          "company": "Unilever",
+          "days": 45,
+          "data_source": "Morningstar",
+          "currency": "AUD",
+          "include_taxes": true,
+          "granularity": "daily"
+        }
+      },
+      {
+        "query": "Provide the total revenue data for the food company General Mills for the last 120 days from S&P Global in CAD, without including taxes, and show monthly details.",
+        "filled_param": {
+          "company": "General Mills",
+          "days": 120,
+          "data_source": "S&P Global",
+          "currency": "CAD",
+          "include_taxes": false,
+          "granularity": "monthly"
+        }
+      }
+    ]
+  }
+}

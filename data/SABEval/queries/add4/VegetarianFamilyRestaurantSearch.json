@@ -1,0 +1,619 @@
+{
+  "VegetarianFamilyRestaurantSearch|:|Chinese cuisine|:|search_area,has_high_chairs,offers_gluten_free,reservation_preference,average_cost": {
+    "tool_template_name": "VegetarianFamilyRestaurantSearch",
+    "derived_class": "Chinese cuisine",
+    "params_for_query": [
+      "search_area",
+      "has_high_chairs",
+      "offers_gluten_free",
+      "reservation_preference",
+      "average_cost"
+    ],
+    "queries": [
+      {
+        "query": "Find Chinese cuisine restaurants in San Francisco that have high chairs and offer gluten-free options. They should allow reservations, and the average cost should be around 20 dollars per meal.",
+        "filled_param": {
+          "search_area": "San Francisco",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "require_reservation",
+          "average_cost": 20
+        }
+      },
+      {
+        "query": "Can you search for Chinese cuisine places in Chicago that don't require reservations, offer gluten-free meals, and have high chairs? The meal cost should be approximately 30 dollars.",
+        "filled_param": {
+          "search_area": "Chicago",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "no_reservation",
+          "average_cost": 30
+        }
+      },
+      {
+        "query": "I need a list of family-friendly Chinese cuisine restaurants in Boston with high chairs available. They should cater to gluten-free diets and accept reservations, with meals costing around 25 dollars on average.",
+        "filled_param": {
+          "search_area": "Boston",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "require_reservation",
+          "average_cost": 25
+        }
+      },
+      {
+        "query": "Look for Chinese cuisine eateries in Los Angeles where you can just walk in without a reservation. They should have high chairs but no gluten-free options, and the meal should cost about 15 dollars.",
+        "filled_param": {
+          "search_area": "Los Angeles",
+          "has_high_chairs": true,
+          "offers_gluten_free": false,
+          "reservation_preference": "no_reservation",
+          "average_cost": 15
+        }
+      },
+      {
+        "query": "Are there any Chinese cuisine restaurants in New York City with high chairs that offer gluten-free meals, don't require a reservation, and have an average meal price of 40 dollars?",
+        "filled_param": {
+          "search_area": "New York City",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "no_reservation",
+          "average_cost": 40
+        }
+      },
+      {
+        "query": "Find a Chinese cuisine restaurant in Seattle that has high chairs and gluten-free options. It should allow reservations, and the average meal should be about 35 dollars.",
+        "filled_param": {
+          "search_area": "Seattle",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "require_reservation",
+          "average_cost": 35
+        }
+      }
+    ]
+  },
+  "VegetarianFamilyRestaurantSearch|:|Korean cuisine|:|search_area,has_high_chairs,offers_gluten_free,reservation_preference,average_cost": {
+    "tool_template_name": "VegetarianFamilyRestaurantSearch",
+    "derived_class": "Korean cuisine",
+    "params_for_query": [
+      "search_area",
+      "has_high_chairs",
+      "offers_gluten_free",
+      "reservation_preference",
+      "average_cost"
+    ],
+    "queries": [
+      {
+        "query": "Find Korean cuisine restaurants in Manhattan that offer high chairs, gluten-free options, require reservations, and have an average meal cost of $50.",
+        "filled_param": {
+          "search_area": "Manhattan",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "require_reservation",
+          "average_cost": 50
+        }
+      },
+      {
+        "query": "Can you suggest Korean cuisine places in San Francisco that have high chairs, don't offer gluten-free options, allow any reservation preference, and the average cost is around $30?",
+        "filled_param": {
+          "search_area": "San Francisco",
+          "has_high_chairs": true,
+          "offers_gluten_free": false,
+          "reservation_preference": "any",
+          "average_cost": 30
+        }
+      },
+      {
+        "query": "Are there any Korean cuisine restaurants in Chicago without high chairs, offering gluten-free meals, that don't require reservations, and charge an average of $25 per meal?",
+        "filled_param": {
+          "search_area": "Chicago",
+          "has_high_chairs": false,
+          "offers_gluten_free": true,
+          "reservation_preference": "no_reservation",
+          "average_cost": 25
+        }
+      },
+      {
+        "query": "Please search for Korean cuisine options in Seattle that don't have high chairs, don't offer gluten-free options, require reservations, and have meals costing on average $40.",
+        "filled_param": {
+          "search_area": "Seattle",
+          "has_high_chairs": false,
+          "offers_gluten_free": false,
+          "reservation_preference": "require_reservation",
+          "average_cost": 40
+        }
+      },
+      {
+        "query": "I am looking for Korean cuisine in Brooklyn with high chairs, gluten-free options, no reservation needed, and meals costing about $35 on average.",
+        "filled_param": {
+          "search_area": "Brooklyn",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "no_reservation",
+          "average_cost": 35
+        }
+      }
+    ]
+  },
+  "VegetarianFamilyRestaurantSearch|:|French cuisine|:|search_area,has_high_chairs,offers_gluten_free,reservation_preference,average_cost": {
+    "tool_template_name": "VegetarianFamilyRestaurantSearch",
+    "derived_class": "French cuisine",
+    "params_for_query": [
+      "search_area",
+      "has_high_chairs",
+      "offers_gluten_free",
+      "reservation_preference",
+      "average_cost"
+    ],
+    "queries": [
+      {
+        "query": "Find French cuisine restaurants in Paris that offer gluten-free options, have high chairs, and require reservations. Keep the average cost around 50 euros.",
+        "filled_param": {
+          "search_area": "Paris",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "require_reservation",
+          "average_cost": 50
+        }
+      },
+      {
+        "query": "Could you suggest some French cuisine places in Lyon that don't require reservations, have gluten-free options, and high chairs, with an average cost of about 30 euros?",
+        "filled_param": {
+          "search_area": "Lyon",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "no_reservation",
+          "average_cost": 30
+        }
+      },
+      {
+        "query": "Please list French cuisine restaurants in Bordeaux that have high chairs, offer gluten-free meals, and accept any reservation type. The average meal cost should be 40 euros.",
+        "filled_param": {
+          "search_area": "Bordeaux",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "any",
+          "average_cost": 40
+        }
+      },
+      {
+        "query": "Are there any French cuisine restaurants in Marseille that provide high chairs, offer gluten-free options, and require reservations, with the average cost being 25 euros?",
+        "filled_param": {
+          "search_area": "Marseille",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "require_reservation",
+          "average_cost": 25
+        }
+      },
+      {
+        "query": "I'm looking for French cuisine dining options in Nice that need reservations, include gluten-free choices, and have high chairs, with an acceptable cost of 45 euros per meal.",
+        "filled_param": {
+          "search_area": "Nice",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "require_reservation",
+          "average_cost": 45
+        }
+      },
+      {
+        "query": "Suggest French cuisine restaurants in Strasbourg that do not require reservations, must offer gluten-free options, have high chairs, and the average meal should cost around 35 euros.",
+        "filled_param": {
+          "search_area": "Strasbourg",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "no_reservation",
+          "average_cost": 35
+        }
+      }
+    ]
+  },
+  "VegetarianFamilyRestaurantSearch|:|Italian cuisine|:|search_area,has_high_chairs,offers_gluten_free,reservation_preference,average_cost": {
+    "tool_template_name": "VegetarianFamilyRestaurantSearch",
+    "derived_class": "Italian cuisine",
+    "params_for_query": [
+      "search_area",
+      "has_high_chairs",
+      "offers_gluten_free",
+      "reservation_preference",
+      "average_cost"
+    ],
+    "queries": [
+      {
+        "query": "Can you find Italian cuisine restaurants in New York City that have high chairs, offer gluten-free options, don't require reservations, and have an average meal cost of $25?",
+        "filled_param": {
+          "search_area": "New York City",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "no_reservation",
+          "average_cost": 25
+        }
+      },
+      {
+        "query": "I'm looking for Italian cuisine spots in San Francisco that cater to families with high chairs, have gluten-free meals, require reservations, and charge around $40 per meal.",
+        "filled_param": {
+          "search_area": "San Francisco",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "require_reservation",
+          "average_cost": 40
+        }
+      },
+      {
+        "query": "Could you list Italian cuisine restaurants in Chicago where high chairs are unavailable, gluten-free is an option, any reservation type is fine, and the average cost per meal is $30?",
+        "filled_param": {
+          "search_area": "Chicago",
+          "has_high_chairs": false,
+          "offers_gluten_free": true,
+          "reservation_preference": "any",
+          "average_cost": 30
+        }
+      },
+      {
+        "query": "Find some Italian cuisine eateries in Los Angeles that don't have high chairs, serve gluten-free dishes, require reservations, and have an average meal price of $50.",
+        "filled_param": {
+          "search_area": "Los Angeles",
+          "has_high_chairs": false,
+          "offers_gluten_free": true,
+          "reservation_preference": "require_reservation",
+          "average_cost": 50
+        }
+      },
+      {
+        "query": "Are there any Italian cuisine restaurants in Miami with high chairs, without gluten-free options, where reservations aren't necessary, and meals average $35?",
+        "filled_param": {
+          "search_area": "Miami",
+          "has_high_chairs": true,
+          "offers_gluten_free": false,
+          "reservation_preference": "no_reservation",
+          "average_cost": 35
+        }
+      }
+    ]
+  },
+  "VegetarianFamilyRestaurantSearch|:|Middle Eastern cuisine|:|search_area,has_high_chairs,offers_gluten_free,reservation_preference,average_cost": {
+    "tool_template_name": "VegetarianFamilyRestaurantSearch",
+    "derived_class": "Middle Eastern cuisine",
+    "params_for_query": [
+      "search_area",
+      "has_high_chairs",
+      "offers_gluten_free",
+      "reservation_preference",
+      "average_cost"
+    ],
+    "queries": [
+      {
+        "query": "Find Middle Eastern cuisine restaurants in Brooklyn that have high chairs, offer gluten-free options, require reservation, and have an average meal cost of $30.",
+        "filled_param": {
+          "search_area": "Brooklyn",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "require_reservation",
+          "average_cost": 30
+        }
+      },
+      {
+        "query": "Are there any Middle Eastern cuisine spots in downtown Seattle with high chairs available, no gluten-free options, where reservation is not needed, and the average meal costs $25?",
+        "filled_param": {
+          "search_area": "downtown Seattle",
+          "has_high_chairs": true,
+          "offers_gluten_free": false,
+          "reservation_preference": "no_reservation",
+          "average_cost": 25
+        }
+      },
+      {
+        "query": "Could you list Middle Eastern cuisine restaurants in Miami that do not offer gluten-free options but have high chairs, accept reservations, and have an average meal price of around $40?",
+        "filled_param": {
+          "search_area": "Miami",
+          "has_high_chairs": true,
+          "offers_gluten_free": false,
+          "reservation_preference": "require_reservation",
+          "average_cost": 40
+        }
+      },
+      {
+        "query": "I'm searching for Middle Eastern cuisine places around Los Angeles that have high chairs, offer gluten-free meals, accept any kind of reservation policy, and where the average cost per meal is approximately $20.",
+        "filled_param": {
+          "search_area": "Los Angeles",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "any",
+          "average_cost": 20
+        }
+      },
+      {
+        "query": "Can you find Middle Eastern cuisine restaurants in Austin that have high chairs, no gluten-free options, must be reserved, and the meal costs average $35?",
+        "filled_param": {
+          "search_area": "Austin",
+          "has_high_chairs": true,
+          "offers_gluten_free": false,
+          "reservation_preference": "require_reservation",
+          "average_cost": 35
+        }
+      },
+      {
+        "query": "Locate Middle Eastern cuisine dining options in Chicago that do not have high chairs, provide gluten-free options, accept any reservations, and the average meal price is $45.",
+        "filled_param": {
+          "search_area": "Chicago",
+          "has_high_chairs": false,
+          "offers_gluten_free": true,
+          "reservation_preference": "any",
+          "average_cost": 45
+        }
+      }
+    ]
+  },
+  "VegetarianFamilyRestaurantSearch|:|Mexican cuisine|:|search_area,has_high_chairs,offers_gluten_free,reservation_preference,average_cost": {
+    "tool_template_name": "VegetarianFamilyRestaurantSearch",
+    "derived_class": "Mexican cuisine",
+    "params_for_query": [
+      "search_area",
+      "has_high_chairs",
+      "offers_gluten_free",
+      "reservation_preference",
+      "average_cost"
+    ],
+    "queries": [
+      {
+        "query": "Can you find a Mexican cuisine restaurant in Austin that offers gluten-free options, has high chairs, requires reservations, and costs around $30 per person?",
+        "filled_param": {
+          "search_area": "Austin",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "require_reservation",
+          "average_cost": 30
+        }
+      },
+      {
+        "query": "I'm looking for a Mexican cuisine place in San Diego without reservations, offering gluten-free meals, with high chairs available, and an average cost of $20.",
+        "filled_param": {
+          "search_area": "San Diego",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "no_reservation",
+          "average_cost": 20
+        }
+      },
+      {
+        "query": "Search for a Mexican cuisine restaurant that doesn't need a reservation, offers gluten-free options, and has high chairs in Chicago, with a budget of $25 on average.",
+        "filled_param": {
+          "search_area": "Chicago",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "no_reservation",
+          "average_cost": 25
+        }
+      },
+      {
+        "query": "Are there any Mexican cuisine restaurants in Houston that offer gluten-free options, have high chairs, and can be visited without a reservation? I'm willing to spend around $40 on average.",
+        "filled_param": {
+          "search_area": "Houston",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "no_reservation",
+          "average_cost": 40
+        }
+      },
+      {
+        "query": "I need a list of Mexican cuisine restaurants in Los Angeles that require reservations, have high chairs, offer gluten-free dishes, and cost roughly $35 per person.",
+        "filled_param": {
+          "search_area": "Los Angeles",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "require_reservation",
+          "average_cost": 35
+        }
+      },
+      {
+        "query": "Can you suggest a Mexican cuisine spot in New York City that has high chairs, gluten-free options, doesn't require a reservation, and costs about $50 on average?",
+        "filled_param": {
+          "search_area": "New York City",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "no_reservation",
+          "average_cost": 50
+        }
+      }
+    ]
+  },
+  "VegetarianFamilyRestaurantSearch|:|Indian cuisine|:|search_area,has_high_chairs,offers_gluten_free,reservation_preference,average_cost": {
+    "tool_template_name": "VegetarianFamilyRestaurantSearch",
+    "derived_class": "Indian cuisine",
+    "params_for_query": [
+      "search_area",
+      "has_high_chairs",
+      "offers_gluten_free",
+      "reservation_preference",
+      "average_cost"
+    ],
+    "queries": [
+      {
+        "query": "Find Indian cuisine restaurants in Manhattan that have high chairs, offer gluten-free options, require reservation, and the average cost is 30 dollars.",
+        "filled_param": {
+          "search_area": "Manhattan",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "require_reservation",
+          "average_cost": 30
+        }
+      },
+      {
+        "query": "Are there any Indian cuisine restaurants in Chicago that do not require reservations, have high chairs, offer gluten-free meals, and cost around 20 dollars on average?",
+        "filled_param": {
+          "search_area": "Chicago",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "no_reservation",
+          "average_cost": 20
+        }
+      },
+      {
+        "query": "Can you suggest Indian cuisine restaurants in San Francisco that provide high chairs, offer gluten-free options, can be any in terms of reservation policy, with an average cost of 40 dollars?",
+        "filled_param": {
+          "search_area": "San Francisco",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "any",
+          "average_cost": 40
+        }
+      },
+      {
+        "query": "Please recommend some Indian cuisine places in Boston that must be reserved, have high chairs, do not offer gluten-free options, with meals averaging around 25 dollars.",
+        "filled_param": {
+          "search_area": "Boston",
+          "has_high_chairs": true,
+          "offers_gluten_free": false,
+          "reservation_preference": "require_reservation",
+          "average_cost": 25
+        }
+      },
+      {
+        "query": "I'm looking for Indian cuisine dining options in Seattle that don't offer gluten-free dishes, don't require reservations, have high chairs, and the average meal cost is 15 dollars.",
+        "filled_param": {
+          "search_area": "Seattle",
+          "has_high_chairs": true,
+          "offers_gluten_free": false,
+          "reservation_preference": "no_reservation",
+          "average_cost": 15
+        }
+      },
+      {
+        "query": "Suggest Indian cuisine restaurants in Austin that have high chairs, offer gluten-free menus, can be any regarding reservations, and cost about 35 dollars per meal on average.",
+        "filled_param": {
+          "search_area": "Austin",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "any",
+          "average_cost": 35
+        }
+      }
+    ]
+  },
+  "VegetarianFamilyRestaurantSearch|:|Japanese cuisine|:|search_area,has_high_chairs,offers_gluten_free,reservation_preference,average_cost": {
+    "tool_template_name": "VegetarianFamilyRestaurantSearch",
+    "derived_class": "Japanese cuisine",
+    "params_for_query": [
+      "search_area",
+      "has_high_chairs",
+      "offers_gluten_free",
+      "reservation_preference",
+      "average_cost"
+    ],
+    "queries": [
+      {
+        "query": "I'm looking for Japanese cuisine restaurants in San Francisco that have high chairs, offer gluten-free options, require reservations, and where the average meal costs about $30.",
+        "filled_param": {
+          "search_area": "San Francisco",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "require_reservation",
+          "average_cost": 30
+        }
+      },
+      {
+        "query": "Can you find any Japanese cuisine places around New York City that don't need reservations, have high chairs, offer gluten-free meals, and average around $50 per meal?",
+        "filled_param": {
+          "search_area": "New York City",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "no_reservation",
+          "average_cost": 50
+        }
+      },
+      {
+        "query": "Do you know any Japanese cuisine restaurants in Austin that offer gluten-free dishes, have high chairs, and where I can eat for about $25? I'm open to any reservation policy.",
+        "filled_param": {
+          "search_area": "Austin",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "any",
+          "average_cost": 25
+        }
+      },
+      {
+        "query": "Please search for Japanese cuisine spots in Seattle that don't require reservations, have high chairs, offer gluten-free options, and have a meal cost of $40.",
+        "filled_param": {
+          "search_area": "Seattle",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "no_reservation",
+          "average_cost": 40
+        }
+      },
+      {
+        "query": "I'm interested in finding Japanese cuisine restaurants in Chicago where an average meal is about $35, they must have high chairs and gluten-free options, and reservations are necessary.",
+        "filled_param": {
+          "search_area": "Chicago",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "require_reservation",
+          "average_cost": 35
+        }
+      }
+    ]
+  },
+  "VegetarianFamilyRestaurantSearch|:|Southeast Asian cuisine|:|search_area,has_high_chairs,offers_gluten_free,reservation_preference,average_cost": {
+    "tool_template_name": "VegetarianFamilyRestaurantSearch",
+    "derived_class": "Southeast Asian cuisine",
+    "params_for_query": [
+      "search_area",
+      "has_high_chairs",
+      "offers_gluten_free",
+      "reservation_preference",
+      "average_cost"
+    ],
+    "queries": [
+      {
+        "query": "Can you find a Southeast Asian cuisine restaurant in San Francisco with high chairs, that offers gluten-free options, requires reservation, and has an average cost of 30 dollars per meal?",
+        "filled_param": {
+          "search_area": "San Francisco",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "require_reservation",
+          "average_cost": 30
+        }
+      },
+      {
+        "query": "I'm looking for a Southeast Asian cuisine place in New York City that doesn't require a reservation, doesn't have high chairs, has gluten-free options, and costs around 50 bucks on average.",
+        "filled_param": {
+          "search_area": "New York City",
+          "has_high_chairs": false,
+          "offers_gluten_free": true,
+          "reservation_preference": "no_reservation",
+          "average_cost": 50
+        }
+      },
+      {
+        "query": "Suggest some Southeast Asian cuisine restaurants in Austin with an average meal cost of 25 dollars, where reservations are not required, high chairs are available, and there are no gluten-free options.",
+        "filled_param": {
+          "search_area": "Austin",
+          "has_high_chairs": true,
+          "offers_gluten_free": false,
+          "reservation_preference": "no_reservation",
+          "average_cost": 25
+        }
+      },
+      {
+        "query": "Are there any Southeast Asian cuisine eateries in Seattle that offer gluten-free dishes, have high chairs, and can be reserved, with the average cost being 40 dollars?",
+        "filled_param": {
+          "search_area": "Seattle",
+          "has_high_chairs": true,
+          "offers_gluten_free": true,
+          "reservation_preference": "require_reservation",
+          "average_cost": 40
+        }
+      },
+      {
+        "query": "Find Southeast Asian cuisine restaurants in Miami where reservations might be needed, gluten-free options are not available, high chairs are present, and meals cost around 35 dollars on average.",
+        "filled_param": {
+          "search_area": "Miami",
+          "has_high_chairs": true,
+          "offers_gluten_free": false,
+          "reservation_preference": "any",
+          "average_cost": 35
+        }
+      }
+    ]
+  }
+}

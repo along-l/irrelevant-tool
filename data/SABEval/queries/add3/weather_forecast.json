@@ -1,0 +1,944 @@
+{
+  "weather_forecast|:|United States|:|location,date,units,include_hourly,include_historical_data": {
+    "tool_template_name": "weather_forecast",
+    "derived_class": "United States",
+    "params_for_query": [
+      "location",
+      "date",
+      "units",
+      "include_hourly",
+      "include_historical_data"
+    ],
+    "queries": [
+      {
+        "query": "What's the weather forecast for New York City on 2023-11-20 using the metric system, including hourly details without historical data in the United States?",
+        "filled_param": {
+          "location": "New York City",
+          "date": "2023-11-20",
+          "units": "metric",
+          "include_hourly": true,
+          "include_historical_data": false
+        }
+      },
+      {
+        "query": "Please provide the weather forecast for Los Angeles on the date 2023-12-05. Use imperial units and include both hourly breakdowns and historical data for the United States.",
+        "filled_param": {
+          "location": "Los Angeles",
+          "date": "2023-12-05",
+          "units": "imperial",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "Can I get the weather prediction for Miami on 2023-10-31? I'd like it in standard units, with no hourly forecast but including historical data, for the United States.",
+        "filled_param": {
+          "location": "Miami",
+          "date": "2023-10-31",
+          "units": "standard",
+          "include_hourly": false,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "Fetch the weather report for Chicago on 2024-01-15. Display it using metric units, without an hourly breakdown but with historical data for the United States.",
+        "filled_param": {
+          "location": "Chicago",
+          "date": "2024-01-15",
+          "units": "metric",
+          "include_hourly": false,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "I'd like to know the weather in Dallas on the date of 2023-11-25. Use imperial units and include an hourly forecast but no historical data for the United States.",
+        "filled_param": {
+          "location": "Dallas",
+          "date": "2023-11-25",
+          "units": "imperial",
+          "include_hourly": true,
+          "include_historical_data": false
+        }
+      }
+    ]
+  },
+  "weather_forecast|:|Japan|:|location,date,units,include_hourly,include_historical_data": {
+    "tool_template_name": "weather_forecast",
+    "derived_class": "Japan",
+    "params_for_query": [
+      "location",
+      "date",
+      "units",
+      "include_hourly",
+      "include_historical_data"
+    ],
+    "queries": [
+      {
+        "query": "What will the weather be like in Tokyo on 2023-11-15? I need the forecast in metric units with hourly details but no historical data.",
+        "filled_param": {
+          "location": "Tokyo",
+          "date": "2023-11-15",
+          "units": "metric",
+          "include_hourly": true,
+          "include_historical_data": false
+        }
+      },
+      {
+        "query": "Can you provide the weather forecast for Osaka on 2023-12-01 using imperial units, including historical data but excluding hourly updates?",
+        "filled_param": {
+          "location": "Osaka",
+          "date": "2023-12-01",
+          "units": "imperial",
+          "include_hourly": false,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "I need the weather report for Sapporo on 2023-10-20. Display it in standard units with both hourly and historical data.",
+        "filled_param": {
+          "location": "Sapporo",
+          "date": "2023-10-20",
+          "units": "standard",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "Could you give me the weather details for Fukuoka on 2023-11-25 in metric units, without hourly forecasts or historical information?",
+        "filled_param": {
+          "location": "Fukuoka",
+          "date": "2023-11-25",
+          "units": "metric",
+          "include_hourly": false,
+          "include_historical_data": false
+        }
+      },
+      {
+        "query": "Please provide the weather forecast for Kyoto on 2023-11-05, using imperial units, with hourly updates but no historical data.",
+        "filled_param": {
+          "location": "Kyoto",
+          "date": "2023-11-05",
+          "units": "imperial",
+          "include_hourly": true,
+          "include_historical_data": false
+        }
+      },
+      {
+        "query": "I'd like to know the weather forecast for Nagoya on 2023-12-10 in standard units, excluding hourly details but including historical data.",
+        "filled_param": {
+          "location": "Nagoya",
+          "date": "2023-12-10",
+          "units": "standard",
+          "include_hourly": false,
+          "include_historical_data": true
+        }
+      }
+    ]
+  },
+  "weather_forecast|:|China|:|location,date,units,include_hourly,include_historical_data": {
+    "tool_template_name": "weather_forecast",
+    "derived_class": "China",
+    "params_for_query": [
+      "location",
+      "date",
+      "units",
+      "include_hourly",
+      "include_historical_data"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the weather forecast for Shanghai, China on 2023-11-15 using metric units, including hourly details but no historical data?",
+        "filled_param": {
+          "location": "Shanghai",
+          "date": "2023-11-15",
+          "units": "metric",
+          "include_hourly": true,
+          "include_historical_data": false
+        }
+      },
+      {
+        "query": "I need the weather forecast for Beijing, China on 2023-12-01 in imperial units, with both hourly breakdown and historical data.",
+        "filled_param": {
+          "location": "Beijing",
+          "date": "2023-12-01",
+          "units": "imperial",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "What will the weather be like in Guangzhou, China on 2023-10-22 using standard units, excluding hourly details but with historical weather included?",
+        "filled_param": {
+          "location": "Guangzhou",
+          "date": "2023-10-22",
+          "units": "standard",
+          "include_hourly": false,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "Please get me the weather forecast for Shenzhen, China on 2023-11-05 in metric, with no hourly data but including historical weather records.",
+        "filled_param": {
+          "location": "Shenzhen",
+          "date": "2023-11-05",
+          "units": "metric",
+          "include_hourly": false,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "I'd like to know the forecast for Chengdu, China on 2023-09-30, using imperial measurements, hourly forecast included without historical data.",
+        "filled_param": {
+          "location": "Chengdu",
+          "date": "2023-09-30",
+          "units": "imperial",
+          "include_hourly": true,
+          "include_historical_data": false
+        }
+      }
+    ]
+  },
+  "weather_forecast|:|United Kingdom|:|location,date,units,include_hourly,include_historical_data": {
+    "tool_template_name": "weather_forecast",
+    "derived_class": "United Kingdom",
+    "params_for_query": [
+      "location",
+      "date",
+      "units",
+      "include_hourly",
+      "include_historical_data"
+    ],
+    "queries": [
+      {
+        "query": "What's the weather forecast for London, United Kingdom on 2023-11-15 in metric units with an hourly breakdown, but no historical data?",
+        "filled_param": {
+          "location": "London",
+          "date": "2023-11-15",
+          "units": "metric",
+          "include_hourly": true,
+          "include_historical_data": false
+        }
+      },
+      {
+        "query": "Can you provide the weather forecast for Manchester, United Kingdom on 2023-12-01 using imperial units and also include historical data, but no hourly details?",
+        "filled_param": {
+          "location": "Manchester",
+          "date": "2023-12-01",
+          "units": "imperial",
+          "include_hourly": false,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "I'd like to know the weather prediction for Edinburgh, United Kingdom on 2023-11-10 in standard units, including both hourly and historical data.",
+        "filled_param": {
+          "location": "Edinburgh",
+          "date": "2023-11-10",
+          "units": "standard",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "Get me the weather forecast for Belfast, United Kingdom on 2023-11-25 in metric units without hourly updates or historical data.",
+        "filled_param": {
+          "location": "Belfast",
+          "date": "2023-11-25",
+          "units": "metric",
+          "include_hourly": false,
+          "include_historical_data": false
+        }
+      },
+      {
+        "query": "Could you tell me the weather outlook for Cardiff, United Kingdom on 2023-11-30 in imperial units with an hourly forecast and no historical data?",
+        "filled_param": {
+          "location": "Cardiff",
+          "date": "2023-11-30",
+          "units": "imperial",
+          "include_hourly": true,
+          "include_historical_data": false
+        }
+      }
+    ]
+  },
+  "weather_forecast|:|Germany|:|location,date,units,include_hourly,include_historical_data": {
+    "tool_template_name": "weather_forecast",
+    "derived_class": "Germany",
+    "params_for_query": [
+      "location",
+      "date",
+      "units",
+      "include_hourly",
+      "include_historical_data"
+    ],
+    "queries": [
+      {
+        "query": "Could you give me the weather forecast for Berlin, Germany on 2023-11-15 using the metric system and include both hourly data and historical information?",
+        "filled_param": {
+          "location": "Berlin",
+          "date": "2023-11-15",
+          "units": "metric",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "I need the weather report for Munich, Germany for the date 2023-12-01 with the imperial units. Please include hourly details but skip historical data.",
+        "filled_param": {
+          "location": "Munich",
+          "date": "2023-12-01",
+          "units": "imperial",
+          "include_hourly": true,
+          "include_historical_data": false
+        }
+      },
+      {
+        "query": "What's the weather forecast for Hamburg, Germany on 2023-11-25? Use the standard units and don't include hourly or historical data.",
+        "filled_param": {
+          "location": "Hamburg",
+          "date": "2023-11-25",
+          "units": "standard",
+          "include_hourly": false,
+          "include_historical_data": false
+        }
+      },
+      {
+        "query": "Provide me with the weather forecast for Frankfurt, Germany on 2023-11-20 in metric units with hourly breakdown included but no historical data.",
+        "filled_param": {
+          "location": "Frankfurt",
+          "date": "2023-11-20",
+          "units": "metric",
+          "include_hourly": true,
+          "include_historical_data": false
+        }
+      },
+      {
+        "query": "Can you tell me the weather conditions expected in Cologne, Germany for 2023-12-05? Use imperial units and include both hourly and historical data.",
+        "filled_param": {
+          "location": "Cologne",
+          "date": "2023-12-05",
+          "units": "imperial",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      }
+    ]
+  },
+  "weather_forecast|:|Brazil|:|location,date,units,include_hourly,include_historical_data": {
+    "tool_template_name": "weather_forecast",
+    "derived_class": "Brazil",
+    "params_for_query": [
+      "location",
+      "date",
+      "units",
+      "include_hourly",
+      "include_historical_data"
+    ],
+    "queries": [
+      {
+        "query": "Could you give me the weather forecast for Rio de Janeiro, Brazil on 2023-11-15 using metric units, and please include an hourly breakdown as well as historical data?",
+        "filled_param": {
+          "location": "Rio de Janeiro",
+          "date": "2023-11-15",
+          "units": "metric",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "I'm planning a trip to São Paulo, Brazil on 2023-12-25. Can you provide the weather details in imperial units and also include hourly and historical information?",
+        "filled_param": {
+          "location": "São Paulo",
+          "date": "2023-12-25",
+          "units": "imperial",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "What's the weather forecast for Manaus, Brazil on 2023-10-20? I'd like it in standard units with no hourly breakdown but include historical data.",
+        "filled_param": {
+          "location": "Manaus",
+          "date": "2023-10-20",
+          "units": "standard",
+          "include_hourly": false,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "Tell me the weather for Fortaleza, Brazil on 2024-01-10 with metric units. There's no need for historical data, but please include the hourly forecast.",
+        "filled_param": {
+          "location": "Fortaleza",
+          "date": "2024-01-10",
+          "units": "metric",
+          "include_hourly": true,
+          "include_historical_data": false
+        }
+      },
+      {
+        "query": "I need the weather forecast in Salvador, Brazil on 2023-11-01. Use imperial units and include both hourly and historical data.",
+        "filled_param": {
+          "location": "Salvador",
+          "date": "2023-11-01",
+          "units": "imperial",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      }
+    ]
+  },
+  "weather_forecast|:|Australia|:|location,date,units,include_hourly,include_historical_data": {
+    "tool_template_name": "weather_forecast",
+    "derived_class": "Australia",
+    "params_for_query": [
+      "location",
+      "date",
+      "units",
+      "include_hourly",
+      "include_historical_data"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the weather forecast for Sydney, Australia on 2023-11-15, using metric units, and include an hourly breakdown with historical data?",
+        "filled_param": {
+          "location": "Sydney",
+          "date": "2023-11-15",
+          "units": "metric",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "What will the weather be like in Melbourne, Australia on 2023-12-01? I need the information in imperial units, including hourly details but without historical data.",
+        "filled_param": {
+          "location": "Melbourne",
+          "date": "2023-12-01",
+          "units": "imperial",
+          "include_hourly": true,
+          "include_historical_data": false
+        }
+      },
+      {
+        "query": "Give me the weather forecast for Perth, Australia on 2023-10-20 in standard measurements, with historical data but no hourly forecast.",
+        "filled_param": {
+          "location": "Perth",
+          "date": "2023-10-20",
+          "units": "standard",
+          "include_hourly": false,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "I'd like the weather forecast for Brisbane, Australia on 2023-09-15 in metric units. Please include both hourly details and historical data.",
+        "filled_param": {
+          "location": "Brisbane",
+          "date": "2023-09-15",
+          "units": "metric",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "What is the weather forecast for Adelaide, Australia on 2023-11-10 with imperial units, excluding an hourly breakdown and historical data?",
+        "filled_param": {
+          "location": "Adelaide",
+          "date": "2023-11-10",
+          "units": "imperial",
+          "include_hourly": false,
+          "include_historical_data": false
+        }
+      },
+      {
+        "query": "Show me the weather forecast for Hobart, Australia on 2023-12-25 using standard units, without hourly details but with historical data.",
+        "filled_param": {
+          "location": "Hobart",
+          "date": "2023-12-25",
+          "units": "standard",
+          "include_hourly": false,
+          "include_historical_data": true
+        }
+      }
+    ]
+  },
+  "weather_forecast|:|India|:|location,date,units,include_hourly,include_historical_data": {
+    "tool_template_name": "weather_forecast",
+    "derived_class": "India",
+    "params_for_query": [
+      "location",
+      "date",
+      "units",
+      "include_hourly",
+      "include_historical_data"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the weather forecast for Mumbai, India on 2023-12-01 in metric units, including hourly details and historical data?",
+        "filled_param": {
+          "location": "Mumbai",
+          "date": "2023-12-01",
+          "units": "metric",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "I need a weather forecast for Delhi, India on 2023-11-15 with measurements in imperial units, without hourly breakdown but with historical data included.",
+        "filled_param": {
+          "location": "Delhi",
+          "date": "2023-11-15",
+          "units": "imperial",
+          "include_hourly": false,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "What's the weather forecast for Bangalore, India on 2023-10-22 in standard units? Please include hourly details but skip historical data.",
+        "filled_param": {
+          "location": "Bangalore",
+          "date": "2023-10-22",
+          "units": "standard",
+          "include_hourly": true,
+          "include_historical_data": false
+        }
+      },
+      {
+        "query": "Can you tell me the weather for Chennai, India on 2023-09-10 using metric units, without hourly details and without historical data?",
+        "filled_param": {
+          "location": "Chennai",
+          "date": "2023-09-10",
+          "units": "metric",
+          "include_hourly": false,
+          "include_historical_data": false
+        }
+      },
+      {
+        "query": "Get the weather forecast for Jaipur, India on 2023-08-05 in imperial units, including both hourly and historical data.",
+        "filled_param": {
+          "location": "Jaipur",
+          "date": "2023-08-05",
+          "units": "imperial",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      }
+    ]
+  },
+  "weather_forecast|:|Canada|:|location,date,units,include_hourly,include_historical_data": {
+    "tool_template_name": "weather_forecast",
+    "derived_class": "Canada",
+    "params_for_query": [
+      "location",
+      "date",
+      "units",
+      "include_hourly",
+      "include_historical_data"
+    ],
+    "queries": [
+      {
+        "query": "What's the weather forecast for Calgary, Canada on 2023-12-15 in metric units? Please include hourly updates and historical data.",
+        "filled_param": {
+          "location": "Calgary",
+          "date": "2023-12-15",
+          "units": "metric",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "Can I get the weather details for Vancouver, Canada on 2023-11-20 with readings in imperial units? I need the hourly forecast but no historical data.",
+        "filled_param": {
+          "location": "Vancouver",
+          "date": "2023-11-20",
+          "units": "imperial",
+          "include_hourly": true,
+          "include_historical_data": false
+        }
+      },
+      {
+        "query": "Provide the weather forecast for Toronto, Canada on 2023-10-10 with standard units. Historical weather data is not necessary, but include an hourly breakdown.",
+        "filled_param": {
+          "location": "Toronto",
+          "date": "2023-10-10",
+          "units": "standard",
+          "include_hourly": true,
+          "include_historical_data": false
+        }
+      },
+      {
+        "query": "I'd like to know the weather in Ottawa, Canada for 2023-09-01 using metric units, including historical data but without hourly details.",
+        "filled_param": {
+          "location": "Ottawa",
+          "date": "2023-09-01",
+          "units": "metric",
+          "include_hourly": false,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "What will the weather be like in Montreal, Canada on 2023-08-25? Use imperial units and include both hourly updates and historical info.",
+        "filled_param": {
+          "location": "Montreal",
+          "date": "2023-08-25",
+          "units": "imperial",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "Get me the weather forecast for Edmonton, Canada on 2023-07-04 in standard units. I do not need hourly updates or historical data.",
+        "filled_param": {
+          "location": "Edmonton",
+          "date": "2023-07-04",
+          "units": "standard",
+          "include_hourly": false,
+          "include_historical_data": false
+        }
+      }
+    ]
+  },
+  "weather_forecast|:|France|:|location,date,units,include_hourly,include_historical_data": {
+    "tool_template_name": "weather_forecast",
+    "derived_class": "France",
+    "params_for_query": [
+      "location",
+      "date",
+      "units",
+      "include_hourly",
+      "include_historical_data"
+    ],
+    "queries": [
+      {
+        "query": "What will the weather be like in Lyon on 2023-11-15 in metric units? Also, include an hourly forecast and historical data.",
+        "filled_param": {
+          "location": "Lyon",
+          "date": "2023-11-15",
+          "units": "metric",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "Provide the weather forecast for Paris on 2023-12-01. Use imperial units without including hourly details, and do include historical data.",
+        "filled_param": {
+          "location": "Paris",
+          "date": "2023-12-01",
+          "units": "imperial",
+          "include_hourly": false,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "Can you tell me the weather forecast for Nice on 2024-01-20 in standard units? Include both hourly and historical data.",
+        "filled_param": {
+          "location": "Nice",
+          "date": "2024-01-20",
+          "units": "standard",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "I need the weather details for Marseille for 2023-10-31 in metric units, but don't include hourly or historical data.",
+        "filled_param": {
+          "location": "Marseille",
+          "date": "2023-10-31",
+          "units": "metric",
+          "include_hourly": false,
+          "include_historical_data": false
+        }
+      },
+      {
+        "query": "What's the forecast for Bordeaux on 2023-11-09 using imperial units? Include historical data, but not the hourly forecast.",
+        "filled_param": {
+          "location": "Bordeaux",
+          "date": "2023-11-09",
+          "units": "imperial",
+          "include_hourly": false,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "Could you provide the weather forecast for Toulouse on 2023-12-15? Use standard units, include hourly data, but skip historical data.",
+        "filled_param": {
+          "location": "Toulouse",
+          "date": "2023-12-15",
+          "units": "standard",
+          "include_hourly": true,
+          "include_historical_data": false
+        }
+      }
+    ]
+  },
+  "weather_forecast|:|Italy|:|location,date,units,include_hourly,include_historical_data": {
+    "tool_template_name": "weather_forecast",
+    "derived_class": "Italy",
+    "params_for_query": [
+      "location",
+      "date",
+      "units",
+      "include_hourly",
+      "include_historical_data"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the weather forecast for Rome, Italy on 2023-12-15 using metric units with hourly details and historical data included?",
+        "filled_param": {
+          "location": "Rome",
+          "date": "2023-12-15",
+          "units": "metric",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "I need the weather prediction for Milan, Italy on 2024-01-10 in imperial units without hourly details but with historical data.",
+        "filled_param": {
+          "location": "Milan",
+          "date": "2024-01-10",
+          "units": "imperial",
+          "include_hourly": false,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "What will the weather be like in Florence, Italy on 2023-11-05? Please use standard units, include hourly forecasts, and omit historical data.",
+        "filled_param": {
+          "location": "Florence",
+          "date": "2023-11-05",
+          "units": "standard",
+          "include_hourly": true,
+          "include_historical_data": false
+        }
+      },
+      {
+        "query": "Can you get the weather outlook for Venice, Italy on 2024-03-22 in metric units, skipping hourly details but adding historical weather data?",
+        "filled_param": {
+          "location": "Venice",
+          "date": "2024-03-22",
+          "units": "metric",
+          "include_hourly": false,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "Please tell me the weather forecast for Naples, Italy on 2023-09-30 with imperial units, hourly breakdowns, and no historical data.",
+        "filled_param": {
+          "location": "Naples",
+          "date": "2023-09-30",
+          "units": "imperial",
+          "include_hourly": true,
+          "include_historical_data": false
+        }
+      },
+      {
+        "query": "I'd like to know the weather conditions for Turin, Italy on 2023-10-20 in standard units, without hourly info but with historical data.",
+        "filled_param": {
+          "location": "Turin",
+          "date": "2023-10-20",
+          "units": "standard",
+          "include_hourly": false,
+          "include_historical_data": true
+        }
+      }
+    ]
+  },
+  "weather_forecast|:|Russia|:|location,date,units,include_hourly,include_historical_data": {
+    "tool_template_name": "weather_forecast",
+    "derived_class": "Russia",
+    "params_for_query": [
+      "location",
+      "date",
+      "units",
+      "include_hourly",
+      "include_historical_data"
+    ],
+    "queries": [
+      {
+        "query": "What's the weather forecast for Moscow, Russia on 2023-11-25 in metric units? I need both hourly data and historical data included.",
+        "filled_param": {
+          "location": "Moscow",
+          "date": "2023-11-25",
+          "units": "metric",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "Could you provide the weather forecast for Saint Petersburg, Russia on 2023-12-01 using imperial units? Please include both hourly and historical information.",
+        "filled_param": {
+          "location": "Saint Petersburg",
+          "date": "2023-12-01",
+          "units": "imperial",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "I need the weather report for Vladivostok, Russia for 2023-11-30. Use standard units and include the hourly and historical data.",
+        "filled_param": {
+          "location": "Vladivostok",
+          "date": "2023-11-30",
+          "units": "standard",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "Please tell me the forecast for Ekaterinburg, Russia on 2023-12-05. I want the data in metric units, and it should include both hourly and historical datasets.",
+        "filled_param": {
+          "location": "Ekaterinburg",
+          "date": "2023-12-05",
+          "units": "metric",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "Can I get the weather forecast for Novosibirsk, Russia dated 2023-11-28? Make sure to include hourly and historical data in imperial units.",
+        "filled_param": {
+          "location": "Novosibirsk",
+          "date": "2023-11-28",
+          "units": "imperial",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      }
+    ]
+  },
+  "weather_forecast|:|Mexico|:|location,date,units,include_hourly,include_historical_data": {
+    "tool_template_name": "weather_forecast",
+    "derived_class": "Mexico",
+    "params_for_query": [
+      "location",
+      "date",
+      "units",
+      "include_hourly",
+      "include_historical_data"
+    ],
+    "queries": [
+      {
+        "query": "What's the weather forecast for Cancun, Mexico on 2023-11-05 with metric units, and can you include an hourly breakdown and historical data?",
+        "filled_param": {
+          "location": "Cancun",
+          "date": "2023-11-05",
+          "units": "metric",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "I'd like to know the weather for Mexico City on 2023-12-01 using imperial units, with both hourly details and past weather data included.",
+        "filled_param": {
+          "location": "Mexico City",
+          "date": "2023-12-01",
+          "units": "imperial",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "Please provide the weather forecast for Tijuana, Mexico on 2023-10-20 in standard units, including hourly and historical information.",
+        "filled_param": {
+          "location": "Tijuana",
+          "date": "2023-10-20",
+          "units": "standard",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "Can you tell me the weather outlook for Guadalajara, Mexico on 2023-11-15 with metric units, including both hourly and historical weather data?",
+        "filled_param": {
+          "location": "Guadalajara",
+          "date": "2023-11-15",
+          "units": "metric",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "What will the weather be like in Monterrey, Mexico on 2023-10-30 with imperial units, including hourly forecast and historical information?",
+        "filled_param": {
+          "location": "Monterrey",
+          "date": "2023-10-30",
+          "units": "imperial",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "Give me the weather prediction for Puebla, Mexico on 2023-11-10 in standard units, and include both hourly and historical data.",
+        "filled_param": {
+          "location": "Puebla",
+          "date": "2023-11-10",
+          "units": "standard",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      }
+    ]
+  },
+  "weather_forecast|:|Spain|:|location,date,units,include_hourly,include_historical_data": {
+    "tool_template_name": "weather_forecast",
+    "derived_class": "Spain",
+    "params_for_query": [
+      "location",
+      "date",
+      "units",
+      "include_hourly",
+      "include_historical_data"
+    ],
+    "queries": [
+      {
+        "query": "What will the weather be like in Barcelona, Spain on 2023-11-15 with hourly details, and can you include historical data? Use metric units.",
+        "filled_param": {
+          "location": "Barcelona",
+          "date": "2023-11-15",
+          "units": "metric",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "Provide the weather forecast for Madrid, Spain on 2023-12-01 using the imperial system, including both hourly information and past weather data.",
+        "filled_param": {
+          "location": "Madrid",
+          "date": "2023-12-01",
+          "units": "imperial",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "I need the weather forecast for Valencia, Spain on 2023-10-20. Please include hourly details and historical data, and use standard units.",
+        "filled_param": {
+          "location": "Valencia",
+          "date": "2023-10-20",
+          "units": "standard",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "Can you tell me the weather for Seville, Spain on 2023-11-01 using metric units? Include both hourly breakdown and historical weather information.",
+        "filled_param": {
+          "location": "Seville",
+          "date": "2023-11-01",
+          "units": "metric",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      },
+      {
+        "query": "I'd like to know the weather forecast for Bilbao, Spain on 2023-12-15 in imperial units, with hourly details and historical data included.",
+        "filled_param": {
+          "location": "Bilbao",
+          "date": "2023-12-15",
+          "units": "imperial",
+          "include_hourly": true,
+          "include_historical_data": true
+        }
+      }
+    ]
+  }
+}

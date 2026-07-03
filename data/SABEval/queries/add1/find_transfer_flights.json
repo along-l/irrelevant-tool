@@ -1,0 +1,248 @@
+{
+  "find_transfer_flights|:|flight|:|origin_city,transfer_city,destination_city,departure_time": {
+    "tool_template_name": "find_transfer_flights",
+    "derived_class": "flight",
+    "params_for_query": [
+      "origin_city",
+      "transfer_city",
+      "destination_city",
+      "departure_time"
+    ],
+    "queries": [
+      {
+        "query": "Can you find a flight from New York to Los Angeles with a stopover in Chicago, departing on 2023-12-15T08:00:00?",
+        "filled_param": {
+          "origin_city": "New York",
+          "transfer_city": "Chicago",
+          "destination_city": "Los Angeles",
+          "departure_time": "2023-12-15T08:00:00"
+        }
+      },
+      {
+        "query": "I need a flight route from Paris to Tokyo with a transfer in Dubai, leaving on 2024-01-20T14:30:00.",
+        "filled_param": {
+          "origin_city": "Paris",
+          "transfer_city": "Dubai",
+          "destination_city": "Tokyo",
+          "departure_time": "2024-01-20T14:30:00"
+        }
+      },
+      {
+        "query": "Please list any available flights starting from Sydney, transferring in Hong Kong, and heading to Bangkok with a departure time of 2023-11-10T22:00:00.",
+        "filled_param": {
+          "origin_city": "Sydney",
+          "transfer_city": "Hong Kong",
+          "destination_city": "Bangkok",
+          "departure_time": "2023-11-10T22:00:00"
+        }
+      },
+      {
+        "query": "Are there any flights from Rome to San Francisco with a layover in Amsterdam, departing on 2023-12-05T09:00:00?",
+        "filled_param": {
+          "origin_city": "Rome",
+          "transfer_city": "Amsterdam",
+          "destination_city": "San Francisco",
+          "departure_time": "2023-12-05T09:00:00"
+        }
+      },
+      {
+        "query": "Can you give me a flight itinerary from Toronto to Lisbon with a stop in Madrid, departing on 2023-11-30T18:00:00?",
+        "filled_param": {
+          "origin_city": "Toronto",
+          "transfer_city": "Madrid",
+          "destination_city": "Lisbon",
+          "departure_time": "2023-11-30T18:00:00"
+        }
+      },
+      {
+        "query": "I’m looking for a flight travelling from Berlin to New Delhi with a transfer in Istanbul, leaving on 2024-03-01T05:30:00.",
+        "filled_param": {
+          "origin_city": "Berlin",
+          "transfer_city": "Istanbul",
+          "destination_city": "New Delhi",
+          "departure_time": "2024-03-01T05:30:00"
+        }
+      }
+    ]
+  },
+  "find_transfer_flights|:|high-speed train|:|origin_city,transfer_city,destination_city,departure_time": {
+    "tool_template_name": "find_transfer_flights",
+    "derived_class": "high-speed train",
+    "params_for_query": [
+      "origin_city",
+      "transfer_city",
+      "destination_city",
+      "departure_time"
+    ],
+    "queries": [
+      {
+        "query": "Can you find a high-speed train route from Paris to Berlin with a stopover in Frankfurt, departing on 2023-11-15T09:00:00?",
+        "filled_param": {
+          "origin_city": "Paris",
+          "transfer_city": "Frankfurt",
+          "destination_city": "Berlin",
+          "departure_time": "2023-11-15T09:00:00"
+        }
+      },
+      {
+        "query": "I need to travel from Tokyo to Osaka via Nagoya on a high-speed train, leaving on 2023-12-01T14:30:00. Can you help?",
+        "filled_param": {
+          "origin_city": "Tokyo",
+          "transfer_city": "Nagoya",
+          "destination_city": "Osaka",
+          "departure_time": "2023-12-01T14:30:00"
+        }
+      },
+      {
+        "query": "Find a high-speed train route departing from Madrid to Barcelona with a transfer in Zaragoza at 2023-10-30T07:45:00.",
+        "filled_param": {
+          "origin_city": "Madrid",
+          "transfer_city": "Zaragoza",
+          "destination_city": "Barcelona",
+          "departure_time": "2023-10-30T07:45:00"
+        }
+      },
+      {
+        "query": "Is there a high-speed train route from New York to Washington, D.C., with a stopover in Philadelphia, departing at 2023-11-20T06:15:00?",
+        "filled_param": {
+          "origin_city": "New York",
+          "transfer_city": "Philadelphia",
+          "destination_city": "Washington, D.C.",
+          "departure_time": "2023-11-20T06:15:00"
+        }
+      },
+      {
+        "query": "I'm looking for a high-speed train connection from Beijing to Shanghai with a transfer in Nanjing, leaving on 2023-11-10T13:00:00.",
+        "filled_param": {
+          "origin_city": "Beijing",
+          "transfer_city": "Nanjing",
+          "destination_city": "Shanghai",
+          "departure_time": "2023-11-10T13:00:00"
+        }
+      },
+      {
+        "query": "Could you find a high-speed train route from Sydney to Melbourne via Canberra, departing on 2023-12-05T08:00:00?",
+        "filled_param": {
+          "origin_city": "Sydney",
+          "transfer_city": "Canberra",
+          "destination_city": "Melbourne",
+          "departure_time": "2023-12-05T08:00:00"
+        }
+      }
+    ]
+  },
+  "find_transfer_flights|:|cruise ship|:|origin_city,transfer_city,destination_city,departure_time": {
+    "tool_template_name": "find_transfer_flights",
+    "derived_class": "cruise ship",
+    "params_for_query": [
+      "origin_city",
+      "transfer_city",
+      "destination_city",
+      "departure_time"
+    ],
+    "queries": [
+      {
+        "query": "Can you find a cruise ship route starting from Miami with a stopover in Nassau and ending in Havana, departing on 2024-03-15T10:00:00?",
+        "filled_param": {
+          "origin_city": "Miami",
+          "transfer_city": "Nassau",
+          "destination_city": "Havana",
+          "departure_time": "2024-03-15T10:00:00"
+        }
+      },
+      {
+        "query": "I'm looking for a cruise ship route that departs from Barcelona, stops in Marseille, and ends in Rome on 2023-12-20T08:00:00. Can you help?",
+        "filled_param": {
+          "origin_city": "Barcelona",
+          "transfer_city": "Marseille",
+          "destination_city": "Rome",
+          "departure_time": "2023-12-20T08:00:00"
+        }
+      },
+      {
+        "query": "Find a cruise ship journey for me that leaves from Sydney, makes a stopover in Auckland, and reaches Wellington, departing on 2024-01-08T15:00:00.",
+        "filled_param": {
+          "origin_city": "Sydney",
+          "transfer_city": "Auckland",
+          "destination_city": "Wellington",
+          "departure_time": "2024-01-08T15:00:00"
+        }
+      },
+      {
+        "query": "I need a cruise ship travel plan from New York to San Juan via Bermuda with a departure on 2024-05-25T09:00:00.",
+        "filled_param": {
+          "origin_city": "New York",
+          "transfer_city": "Bermuda",
+          "destination_city": "San Juan",
+          "departure_time": "2024-05-25T09:00:00"
+        }
+      },
+      {
+        "query": "Could you look up a cruise ship route that starts in Vancouver, stops in Ketchikan, and ends in Anchorage, leaving on 2024-07-10T11:30:00?",
+        "filled_param": {
+          "origin_city": "Vancouver",
+          "transfer_city": "Ketchikan",
+          "destination_city": "Anchorage",
+          "departure_time": "2024-07-10T11:30:00"
+        }
+      }
+    ]
+  },
+  "find_transfer_flights|:|long-distance bus|:|origin_city,transfer_city,destination_city,departure_time": {
+    "tool_template_name": "find_transfer_flights",
+    "derived_class": "long-distance bus",
+    "params_for_query": [
+      "origin_city",
+      "transfer_city",
+      "destination_city",
+      "departure_time"
+    ],
+    "queries": [
+      {
+        "query": "Can you find a long-distance bus route leaving New York at 2023-10-15T08:00:00 with a stopover in Philadelphia and heading to Washington D.C.?",
+        "filled_param": {
+          "origin_city": "New York",
+          "transfer_city": "Philadelphia",
+          "destination_city": "Washington D.C.",
+          "departure_time": "2023-10-15T08:00:00"
+        }
+      },
+      {
+        "query": "What long-distance bus can I take from Los Angeles to San Francisco with a transfer in San Jose, leaving at 2023-11-01T15:30:00?",
+        "filled_param": {
+          "origin_city": "Los Angeles",
+          "transfer_city": "San Jose",
+          "destination_city": "San Francisco",
+          "departure_time": "2023-11-01T15:30:00"
+        }
+      },
+      {
+        "query": "I'd like to travel by long-distance bus from Miami, stopping over in Orlando, and continuing to Jacksonville. My departure time is 2023-12-05T09:45:00.",
+        "filled_param": {
+          "origin_city": "Miami",
+          "transfer_city": "Orlando",
+          "destination_city": "Jacksonville",
+          "departure_time": "2023-12-05T09:45:00"
+        }
+      },
+      {
+        "query": "Please provide details of a long-distance bus route starting in Chicago, transferring at Indianapolis, and ending in Louisville with a departure at 2024-01-20T13:00:00.",
+        "filled_param": {
+          "origin_city": "Chicago",
+          "transfer_city": "Indianapolis",
+          "destination_city": "Louisville",
+          "departure_time": "2024-01-20T13:00:00"
+        }
+      },
+      {
+        "query": "Can you suggest a long-distance bus journey that departs from Seattle at 2023-11-25T07:15:00, stops in Portland, and reaches San Francisco?",
+        "filled_param": {
+          "origin_city": "Seattle",
+          "transfer_city": "Portland",
+          "destination_city": "San Francisco",
+          "departure_time": "2023-11-25T07:15:00"
+        }
+      }
+    ]
+  }
+}

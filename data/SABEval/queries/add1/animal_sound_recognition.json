@@ -1,0 +1,754 @@
+{
+  "animal_sound_recognition|:|Mammalia|:|audio_clip,time_of_day": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Mammalia",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day"
+    ],
+    "queries": [
+      {
+        "query": "Can you identify which Mammalia this sound belongs to if it was recorded during the Night?",
+        "filled_param": {
+          "audio_clip": "Base64EncodedStringHere",
+          "time_of_day": "Night"
+        }
+      },
+      {
+        "query": "I have a sound recording of a Mammalia from the Morning. What mammal is it?",
+        "filled_param": {
+          "audio_clip": "Base64EncodedStringHere",
+          "time_of_day": "Morning"
+        }
+      },
+      {
+        "query": "Please identify the Mammalia species from this audio clip taken at Dawn.",
+        "filled_param": {
+          "audio_clip": "Base64EncodedStringHere",
+          "time_of_day": "Dawn"
+        }
+      },
+      {
+        "query": "What Mammalia could make this sound if it was captured in the Afternoon?",
+        "filled_param": {
+          "audio_clip": "Base64EncodedStringHere",
+          "time_of_day": "Afternoon"
+        }
+      },
+      {
+        "query": "This sound recording from the Evening is from which Mammalia?",
+        "filled_param": {
+          "audio_clip": "Base64EncodedStringHere",
+          "time_of_day": "Evening"
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Aves|:|audio_clip,time_of_day": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Aves",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day"
+    ],
+    "queries": [
+      {
+        "query": "I have an audio clip of an Aves sound recorded at dawn, and it's encoded in Base64. Could you identify which bird it is?",
+        "filled_param": {
+          "audio_clip": "Base64 encoded audio clip string",
+          "time_of_day": "Dawn"
+        }
+      },
+      {
+        "query": "Please identify the Aves from this Base64 encoded sound clip, which I recorded at night.",
+        "filled_param": {
+          "audio_clip": "Base64 encoded audio clip string",
+          "time_of_day": "Night"
+        }
+      },
+      {
+        "query": "Can you tell me which Aves made this sound? I have the Base64 audio clip, and it was recorded in the afternoon.",
+        "filled_param": {
+          "audio_clip": "Base64 encoded audio clip string",
+          "time_of_day": "Afternoon"
+        }
+      },
+      {
+        "query": "Here's a Base64 encoded clip of an Aves sound captured in the morning. Can you identify it?",
+        "filled_param": {
+          "audio_clip": "Base64 encoded audio clip string",
+          "time_of_day": "Morning"
+        }
+      },
+      {
+        "query": "I need help identifying this bird from a sound clip. It's encoded in Base64 and was recorded at noon.",
+        "filled_param": {
+          "audio_clip": "Base64 encoded audio clip string",
+          "time_of_day": "Noon"
+        }
+      },
+      {
+        "query": "Could you identify which Aves species is in this Base64 sound clip recorded during the evening?",
+        "filled_param": {
+          "audio_clip": "Base64 encoded audio clip string",
+          "time_of_day": "Evening"
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Reptilia|:|audio_clip,time_of_day": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Reptilia",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day"
+    ],
+    "queries": [
+      {
+        "query": "I recorded a Reptilia sound at night. Here is the audio clip in Base64: U29tZVNhbXBsZUF1ZGlvQ2xpcA==.",
+        "filled_param": {
+          "audio_clip": "U29tZVNhbXBsZUF1ZGlvQ2xpcA==",
+          "time_of_day": "Night"
+        }
+      },
+      {
+        "query": "During dawn, I captured a sound from a Reptilia. The audio clip encoded in Base64 is: QW5vdGhlclNhbXBsZUF1ZGlvQ2xpcA==.",
+        "filled_param": {
+          "audio_clip": "QW5vdGhlclNhbXBsZUF1ZGlvQ2xpcA==",
+          "time_of_day": "Dawn"
+        }
+      },
+      {
+        "query": "Please identify this Reptilia sound recorded in the morning: T3B0aW9uYWxTYW1wbGVBdWRpb0NsaXA=.",
+        "filled_param": {
+          "audio_clip": "T3B0aW9uYWxTYW1wbGVBdWRpb0NsaXA=",
+          "time_of_day": "Morning"
+        }
+      },
+      {
+        "query": "I need help identifying a Reptilia from a sound clip I recorded at noon. The Base64 audio is: RXhhbXBsZUF1ZGlvU3RyaW5n.",
+        "filled_param": {
+          "audio_clip": "RXhhbXBsZUF1ZGlvU3RyaW5n",
+          "time_of_day": "Noon"
+        }
+      },
+      {
+        "query": "Here’s a sound from a Reptilia I recorded in the afternoon: U29tZUZha2VhdWRpb0NsaXA=. Can you identify it?",
+        "filled_param": {
+          "audio_clip": "U29tZUZha2VhdWRpb0NsaXA=",
+          "time_of_day": "Afternoon"
+        }
+      },
+      {
+        "query": "Can you tell me what Reptilia this sound is from? It was recorded in the evening: QW5ld1Rlc3RBdWRpb1N0cmluZw==.",
+        "filled_param": {
+          "audio_clip": "QW5ld1Rlc3RBdWRpb1N0cmluZw==",
+          "time_of_day": "Evening"
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Amphibia|:|audio_clip,time_of_day": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Amphibia",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day"
+    ],
+    "queries": [
+      {
+        "query": "I have a sound recording of an Amphibia from last night, encoded in Base64. Can you identify it?",
+        "filled_param": {
+          "audio_clip": "Base64 encoded audio clip string of the Amphibia sound",
+          "time_of_day": "Night"
+        }
+      },
+      {
+        "query": "This Base64 audio clip of an Amphibia was captured at dawn. What species might it be?",
+        "filled_param": {
+          "audio_clip": "Base64 encoded audio clip string of the Amphibia sound",
+          "time_of_day": "Dawn"
+        }
+      },
+      {
+        "query": "Can you tell what Amphibia is making this sound in the afternoon? Here's the Base64 string.",
+        "filled_param": {
+          "audio_clip": "Base64 encoded audio clip string of the Amphibia sound",
+          "time_of_day": "Afternoon"
+        }
+      },
+      {
+        "query": "I recorded an Amphibia sound this morning and encoded it in Base64. Can you help identify it?",
+        "filled_param": {
+          "audio_clip": "Base64 encoded audio clip string of the Amphibia sound",
+          "time_of_day": "Morning"
+        }
+      },
+      {
+        "query": "Here's a Base64 encoded Amphibia sound clip from the evening. What species could it be?",
+        "filled_param": {
+          "audio_clip": "Base64 encoded audio clip string of the Amphibia sound",
+          "time_of_day": "Evening"
+        }
+      },
+      {
+        "query": "What Amphibia might be making this sound recorded at noon? I've encoded it in Base64.",
+        "filled_param": {
+          "audio_clip": "Base64 encoded audio clip string of the Amphibia sound",
+          "time_of_day": "Noon"
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Pisces|:|audio_clip,time_of_day": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Pisces",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day"
+    ],
+    "queries": [
+      {
+        "query": "Can you identify the Pisces species from this audio clip recorded at Dawn? Audio clip: 'SGVsbG8gdGhpcyBpcyBhIHRlc3Qgc3RyaW5nLg=='",
+        "filled_param": {
+          "audio_clip": "SGVsbG8gdGhpcyBpcyBhIHRlc3Qgc3RyaW5nLg==",
+          "time_of_day": "Dawn"
+        }
+      },
+      {
+        "query": "What Pisces is making this sound recorded in the Evening? Here's the audio clip: 'U29tZSByYW5kb20gdGVzdCBhdWRpbyBjb250ZW50Lg=='",
+        "filled_param": {
+          "audio_clip": "U29tZSByYW5kb20gdGVzdCBhdWRpbyBjb250ZW50Lg==",
+          "time_of_day": "Evening"
+        }
+      },
+      {
+        "query": "Please identify the Pisces from this sound captured during the Night. Audio clip content: 'VGhpcyBpcyBhIGZha2UgYXVkaW8gY2xpcC4='",
+        "filled_param": {
+          "audio_clip": "VGhpcyBpcyBhIGZha2UgYXVkaW8gY2xpcC4=",
+          "time_of_day": "Night"
+        }
+      },
+      {
+        "query": "I need help identifying the Pisces species from a sound recorded in the Afternoon. The audio clip is: 'U2ltcGx5IGFub3RoZXIgdGVzdCBzdHJpbmc='",
+        "filled_param": {
+          "audio_clip": "U2ltcGx5IGFub3RoZXIgdGVzdCBzdHJpbmc=",
+          "time_of_day": "Afternoon"
+        }
+      },
+      {
+        "query": "Could you tell me which Pisces is associated with this sound taken at Noon? Here is the audio: 'VGVzdCBjbGlwIGZvciBhdWRpbyBhc3Npc3RhbnQ='",
+        "filled_param": {
+          "audio_clip": "VGVzdCBjbGlwIGZvciBhdWRpbyBhc3Npc3RhbnQ=",
+          "time_of_day": "Noon"
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Insecta|:|audio_clip,time_of_day": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Insecta",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day"
+    ],
+    "queries": [
+      {
+        "query": "Can you identify this Insecta sound recorded in the morning? Here's the audio clip: U29tZUJhc2U2NEVuY29kZWRTdHJpbmc=.",
+        "filled_param": {
+          "audio_clip": "U29tZUJhc2U2NEVuY29kZWRTdHJpbmc=",
+          "time_of_day": "Morning"
+        }
+      },
+      {
+        "query": "I have an audio clip of an Insecta recorded at night. The clip is: SGVyZVNvbWVCYXNlNjRFbmNvZGVkU3RyaW5nLg==",
+        "filled_param": {
+          "audio_clip": "SGVyZVNvbWVCYXNlNjRFbmNvZGVkU3RyaW5nLg==",
+          "time_of_day": "Night"
+        }
+      },
+      {
+        "query": "This sound of an Insecta was captured at dawn. The audio is: QW5vdGhlckJhc2U2NEVuY29kZWRTdHJpbmc=",
+        "filled_param": {
+          "audio_clip": "QW5vdGhlckJhc2U2NEVuY29kZWRTdHJpbmc=",
+          "time_of_day": "Dawn"
+        }
+      },
+      {
+        "query": "Please identify this Insecta from its sound, which was recorded in the afternoon: U29tZUJhc2U2NEVuY29kZWRTdHJpbmc=",
+        "filled_param": {
+          "audio_clip": "U29tZUJhc2U2NEVuY29kZWRTdHJpbmc=",
+          "time_of_day": "Afternoon"
+        }
+      },
+      {
+        "query": "Here's an audio clip of an Insecta sound captured at noon: VGhpckJhc2U2NEVuY29kZWRTdHJpbmc=.",
+        "filled_param": {
+          "audio_clip": "VGhpckJhc2U2NEVuY29kZWRTdHJpbmc=",
+          "time_of_day": "Noon"
+        }
+      },
+      {
+        "query": "The sound of this Insecta was recorded in the evening. The clip is: QmFzZTY0U3RyaW5nV2l0aFNvdW5k",
+        "filled_param": {
+          "audio_clip": "QmFzZTY0U3RyaW5nV2l0aFNvdW5k",
+          "time_of_day": "Evening"
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Arachnida|:|audio_clip,time_of_day": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Arachnida",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day"
+    ],
+    "queries": [
+      {
+        "query": "Can you identify which Arachnida this sound belongs to if it was recorded at night? Here's the audio in base64: U29tZUJhc2U2NFN0cmluZw==",
+        "filled_param": {
+          "audio_clip": "U29tZUJhc2U2NFN0cmluZw==",
+          "time_of_day": "Night"
+        }
+      },
+      {
+        "query": "I recorded an Arachnida sound during the afternoon. The base64 audio clip is U29tZUJhc2U2NFN0cmluZw==. What species is it?",
+        "filled_param": {
+          "audio_clip": "U29tZUJhc2U2NFN0cmluZw==",
+          "time_of_day": "Afternoon"
+        }
+      },
+      {
+        "query": "Here is an Arachnida sound clip recorded in base64 format: U29tZUJhc2U2NFN0cmluZw==. It was captured in the morning. Can you identify it?",
+        "filled_param": {
+          "audio_clip": "U29tZUJhc2U2NFN0cmluZw==",
+          "time_of_day": "Morning"
+        }
+      },
+      {
+        "query": "What Arachnida species makes this sound? It was recorded at dawn. The base64 string is U29tZUJhc2U2NFN0cmluZw==.",
+        "filled_param": {
+          "audio_clip": "U29tZUJhc2U2NFN0cmluZw==",
+          "time_of_day": "Dawn"
+        }
+      },
+      {
+        "query": "Identify this Arachnida from the sound recorded at noon. The audio clip encoded in base64 is U29tZUJhc2U2NFN0cmluZw==.",
+        "filled_param": {
+          "audio_clip": "U29tZUJhc2U2NFN0cmluZw==",
+          "time_of_day": "Noon"
+        }
+      },
+      {
+        "query": "I need help identifying an Arachnida sound recorded in the evening. The base64 audio is U29tZUJhc2U2NFN0cmluZw==.",
+        "filled_param": {
+          "audio_clip": "U29tZUJhc2U2NFN0cmluZw==",
+          "time_of_day": "Evening"
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Crustacea|:|audio_clip,time_of_day": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Crustacea",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day"
+    ],
+    "queries": [
+      {
+        "query": "Can you identify the Crustacea from this sound recorded at Dawn? The audio clip is encoded as Base64: 'U29tZSByYW5kb20gYmFzZTY0IHN0cmluZw=='.",
+        "filled_param": {
+          "audio_clip": "U29tZSByYW5kb20gYmFzZTY0IHN0cmluZw==",
+          "time_of_day": "Dawn"
+        }
+      },
+      {
+        "query": "I have a Base64 encoded audio clip 'QW5vdGhlciBzYW1wbGUgc3RyaW5n' of a Crustacea sound that I recorded in the Morning. What species could it be?",
+        "filled_param": {
+          "audio_clip": "QW5vdGhlciBzYW1wbGUgc3RyaW5n",
+          "time_of_day": "Morning"
+        }
+      },
+      {
+        "query": "Please identify the Crustacea species from this sound: 'U3RpbGwgYW5vdGhlciBleGFtcGxl' captured in the Afternoon.",
+        "filled_param": {
+          "audio_clip": "U3RpbGwgYW5vdGhlciBleGFtcGxl",
+          "time_of_day": "Afternoon"
+        }
+      },
+      {
+        "query": "What Crustacea is this Base64 sound clip 'VGVzdCBzdHJpbmcgZm9yIGV4YW1wbGU=' recorded at Noon?",
+        "filled_param": {
+          "audio_clip": "VGVzdCBzdHJpbmcgZm9yIGV4YW1wbGU=",
+          "time_of_day": "Noon"
+        }
+      },
+      {
+        "query": "Could you tell me which Crustacea made this sound? It's encoded as 'RXhhbXBsZSBzdHJpbmcgaW4gYmFzZTY0' and was recorded at Night.",
+        "filled_param": {
+          "audio_clip": "RXhhbXBsZSBzdHJpbmcgaW4gYmFzZTY0",
+          "time_of_day": "Night"
+        }
+      },
+      {
+        "query": "I recorded a Crustacea sound in the Evening, and here is the Base64 clip: 'QmFzZTY0IHN0cmluZyBoZXJl'. Can you identify it?",
+        "filled_param": {
+          "audio_clip": "QmFzZTY0IHN0cmluZyBoZXJl",
+          "time_of_day": "Evening"
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Gastropoda|:|audio_clip,time_of_day": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Gastropoda",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day"
+    ],
+    "queries": [
+      {
+        "query": "I recorded a sound during the afternoon that I suspect is from a Gastropoda. Here's the audio in Base64: UklGRiAAAABXQVZFZm10IBAAAAABAAEAQB8AAIA+AAACABAAZGF0YYCA...",
+        "filled_param": {
+          "audio_clip": "UklGRiAAAABXQVZFZm10IBAAAAABAAEAQB8AAIA+AAACABAAZGF0YYCA...",
+          "time_of_day": "Afternoon"
+        }
+      },
+      {
+        "query": "Could you help identify which Gastropoda made this noise? I recorded it at night, and here is the sound: Q2F0IE1lIFVwIEJlZm9yZSBZb3UgR28...",
+        "filled_param": {
+          "audio_clip": "Q2F0IE1lIFVwIEJlZm9yZSBZb3UgR28...",
+          "time_of_day": "Night"
+        }
+      },
+      {
+        "query": "I have an audio clip of a Gastropoda sound from this morning. The audio file is encoded as follows: VGhpcyBpcyBhIHRlc3Qgb2YgRW5jb2RpbmcgYmFzZTY0Lg==",
+        "filled_param": {
+          "audio_clip": "VGhpcyBpcyBhIHRlc3Qgb2YgRW5jb2RpbmcgYmFzZTY0Lg==",
+          "time_of_day": "Morning"
+        }
+      },
+      {
+        "query": "I captured some sounds I believe are from a Gastropoda at dawn. Here is the Base64 audio: S2VlcCBJdCBVbCwgV2Ugd2lsbCBGaW5kIFRoZW0uLg==. Can you identify it?",
+        "filled_param": {
+          "audio_clip": "S2VlcCBJdCBVbCwgV2Ugd2lsbCBGaW5kIFRoZW0uLg==",
+          "time_of_day": "Dawn"
+        }
+      },
+      {
+        "query": "Here's an encoded audio clip of a sound recorded at noon, which might belong to a Gastropoda: RGVsaXZlciBXaXRoIENhcmUuIFlvdSBiZXR0ZXIgQmVsaWV2ZSBJdC4uLg==. Can you identify it?",
+        "filled_param": {
+          "audio_clip": "RGVsaXZlciBXaXRoIENhcmUuIFlvdSBiZXR0ZXIgQmVsaWV2ZSBJdC4uLg==",
+          "time_of_day": "Noon"
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Cephalopoda|:|audio_clip,time_of_day": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Cephalopoda",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day"
+    ],
+    "queries": [
+      {
+        "query": "I have a Cephalopoda sound recorded as a base64 string: 'U29tZUJhc2U2NFN0cmluZw==' captured at Night. Can you identify it?",
+        "filled_param": {
+          "audio_clip": "U29tZUJhc2U2NFN0cmluZw==",
+          "time_of_day": "Night"
+        }
+      },
+      {
+        "query": "Here's a base64 sound clip of a Cephalopoda: 'VGhpcyBpcyBhIEJhc2U2NCBTdHJpbmc=' recorded at Dawn. What species is it?",
+        "filled_param": {
+          "audio_clip": "VGhpcyBpcyBhIEJhc2U2NCBTdHJpbmc=",
+          "time_of_day": "Dawn"
+        }
+      },
+      {
+        "query": "Can you identify this Cephalopoda? The sound, 'QW5vdGhlckJhc2U2NFN0cmluZw==', was recorded in the Morning.",
+        "filled_param": {
+          "audio_clip": "QW5vdGhlckJhc2U2NFN0cmluZw==",
+          "time_of_day": "Morning"
+        }
+      },
+      {
+        "query": "I need help identifying a Cephalopoda from this sound: 'RG9uZUJhc2U2NFN0cmluZw=='. It was recorded at Noon.",
+        "filled_param": {
+          "audio_clip": "RG9uZUJhc2U2NFN0cmluZw==",
+          "time_of_day": "Noon"
+        }
+      },
+      {
+        "query": "What Cephalopoda makes this sound: 'QmFzZTY0U3RyaW5nU2FtcGxl'? It was recorded in the Afternoon.",
+        "filled_param": {
+          "audio_clip": "QmFzZTY0U3RyaW5nU2FtcGxl",
+          "time_of_day": "Afternoon"
+        }
+      },
+      {
+        "query": "This sound, 'QnVibmJhc2U2NFN0cmluZw==', was recorded in the Evening. Can you determine the Cephalopoda species?",
+        "filled_param": {
+          "audio_clip": "QnVibmJhc2U2NFN0cmluZw==",
+          "time_of_day": "Evening"
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Polychaeta|:|audio_clip,time_of_day": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Polychaeta",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day"
+    ],
+    "queries": [
+      {
+        "query": "I have a base64 encoded audio clip of Polychaeta sounds recorded during the evening. Can you identify it?",
+        "filled_param": {
+          "audio_clip": "base64_encoded_string_here",
+          "time_of_day": "Evening"
+        }
+      },
+      {
+        "query": "Here's a base64 string of a Polychaeta sound captured at dawn. Please identify it.",
+        "filled_param": {
+          "audio_clip": "base64_encoded_string_here",
+          "time_of_day": "Dawn"
+        }
+      },
+      {
+        "query": "Can you determine which Polychaeta species this sound, recorded as a base64 string in the afternoon, belongs to?",
+        "filled_param": {
+          "audio_clip": "base64_encoded_string_here",
+          "time_of_day": "Afternoon"
+        }
+      },
+      {
+        "query": "I need help identifying a Polychaeta from this base64 encoded audio that was recorded at night.",
+        "filled_param": {
+          "audio_clip": "base64_encoded_string_here",
+          "time_of_day": "Night"
+        }
+      },
+      {
+        "query": "What Polychaeta species is this sound from? It's encoded in base64 and was recorded in the morning.",
+        "filled_param": {
+          "audio_clip": "base64_encoded_string_here",
+          "time_of_day": "Morning"
+        }
+      },
+      {
+        "query": "This is a base64 audio clip of a Polychaeta sound captured at noon. Can you identify it?",
+        "filled_param": {
+          "audio_clip": "base64_encoded_string_here",
+          "time_of_day": "Noon"
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Oligochaeta|:|audio_clip,time_of_day": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Oligochaeta",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day"
+    ],
+    "queries": [
+      {
+        "query": "Can you identify the Oligochaeta from this sound recorded at Dawn: QmFzZTY0RW5jb2RlZFN0cmluZw==?",
+        "filled_param": {
+          "audio_clip": "QmFzZTY0RW5jb2RlZFN0cmluZw==",
+          "time_of_day": "Dawn"
+        }
+      },
+      {
+        "query": "I captured a sound of an Oligochaeta at Noon with this audio clip: U29tZUJhc2U2NEVuY29kZWRTdHJpbmc=, can you tell which one it is?",
+        "filled_param": {
+          "audio_clip": "U29tZUJhc2U2NEVuY29kZWRTdHJpbmc=",
+          "time_of_day": "Noon"
+        }
+      },
+      {
+        "query": "What type of Oligochaeta is this, recorded in the Afternoon: VGVzdEJhc2U2NEVuY29kZVN0cmluZw==?",
+        "filled_param": {
+          "audio_clip": "VGVzdEJhc2U2NEVuY29kZVN0cmluZw==",
+          "time_of_day": "Afternoon"
+        }
+      },
+      {
+        "query": "Here's an Evening recording of an Oligochaeta sound: RXhhbXBsZUJhc2U2NEVuY29kZVN0cmluZw==, can you identify it?",
+        "filled_param": {
+          "audio_clip": "RXhhbXBsZUJhc2U2NEVuY29kZVN0cmluZw==",
+          "time_of_day": "Evening"
+        }
+      },
+      {
+        "query": "Please determine the Oligochaeta from this Night sound clip: U2FtcGxlQmFzZTY0RW5jb2RlZFN0cmluZw==.",
+        "filled_param": {
+          "audio_clip": "U2FtcGxlQmFzZTY0RW5jb2RlZFN0cmluZw==",
+          "time_of_day": "Night"
+        }
+      },
+      {
+        "query": "What Oligochaeta species is captured in this Morning sound: QW5vdGhlckJhc2U2NEVuY29kZVN0cmluZw==?",
+        "filled_param": {
+          "audio_clip": "QW5vdGhlckJhc2U2NEVuY29kZVN0cmluZw==",
+          "time_of_day": "Morning"
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Hirudinea|:|audio_clip,time_of_day": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Hirudinea",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day"
+    ],
+    "queries": [
+      {
+        "query": "Could you identify the Hirudinea species from this base64 audio clip recorded at Dawn: U2FtcGxlQXVkaW9DbGlwRGF3bg==?",
+        "filled_param": {
+          "audio_clip": "U2FtcGxlQXVkaW9DbGlwRGF3bg==",
+          "time_of_day": "Dawn"
+        }
+      },
+      {
+        "query": "I have an audio clip of a Hirudinea sound captured at Night. The clip is encoded as: U2FtcGxlQXVkaW9DbGlwTmlnaHQ=",
+        "filled_param": {
+          "audio_clip": "U2FtcGxlQXVkaW9DbGlwTmlnaHQ=",
+          "time_of_day": "Night"
+        }
+      },
+      {
+        "query": "Please help identify this Hirudinea from an audio recording in the Afternoon. The clip is: U2FtcGxlQXVkaW9DbGlwQWZ0ZXJub29u",
+        "filled_param": {
+          "audio_clip": "U2FtcGxlQXVkaW9DbGlwQWZ0ZXJub29u",
+          "time_of_day": "Afternoon"
+        }
+      },
+      {
+        "query": "What type of Hirudinea is in this base64 audio clip, captured in the Morning? Clip: U2FtcGxlQXVkaW9DbGlwTW9ybmluZw==",
+        "filled_param": {
+          "audio_clip": "U2FtcGxlQXVkaW9DbGlwTW9ybmluZw==",
+          "time_of_day": "Morning"
+        }
+      },
+      {
+        "query": "Here's a base64 audio of a Hirudinea sound from Noon: U2FtcGxlQXVkaW9DbGlwTm9vbg==. Can you identify it?",
+        "filled_param": {
+          "audio_clip": "U2FtcGxlQXVkaW9DbGlwTm9vbg==",
+          "time_of_day": "Noon"
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Cnidaria|:|audio_clip,time_of_day": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Cnidaria",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day"
+    ],
+    "queries": [
+      {
+        "query": "I have a base64 audio string of a Cnidaria sound recorded at Dawn. Can you identify it?",
+        "filled_param": {
+          "audio_clip": "base64_audio_string",
+          "time_of_day": "Dawn"
+        }
+      },
+      {
+        "query": "Could you tell me which Cnidaria it is if I provide the sound's base64 string? It was recorded in the Morning.",
+        "filled_param": {
+          "audio_clip": "base64_audio_string",
+          "time_of_day": "Morning"
+        }
+      },
+      {
+        "query": "What type of Cnidaria does this base64 encoded sound represent if it was recorded at Noon?",
+        "filled_param": {
+          "audio_clip": "base64_audio_string",
+          "time_of_day": "Noon"
+        }
+      },
+      {
+        "query": "Here's an encoded audio clip of a Cnidaria sound from the Afternoon. Can you identify which type it is?",
+        "filled_param": {
+          "audio_clip": "base64_audio_string",
+          "time_of_day": "Afternoon"
+        }
+      },
+      {
+        "query": "Please identify the Cnidaria from this base64 sound clip, recorded in the Evening.",
+        "filled_param": {
+          "audio_clip": "base64_audio_string",
+          "time_of_day": "Evening"
+        }
+      },
+      {
+        "query": "This is a base64 encoded sound of a Cnidaria captured at Night. Which species is it?",
+        "filled_param": {
+          "audio_clip": "base64_audio_string",
+          "time_of_day": "Night"
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Porifera|:|audio_clip,time_of_day": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Porifera",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day"
+    ],
+    "queries": [
+      {
+        "query": "Can you identify this Porifera based on the sound recorded at Dawn? The audio clip is encoded as 'U29tZUJhc2U2NEVuY29kZWRTdHJpbmc='.",
+        "filled_param": {
+          "audio_clip": "U29tZUJhc2U2NEVuY29kZWRTdHJpbmc=",
+          "time_of_day": "Dawn"
+        }
+      },
+      {
+        "query": "I have an audio clip of Porifera, encoded as 'QW5vdGhlckJhc2U2NEVuY29kZWRTdHJpbmc=', recorded in the Morning. Can you identify it?",
+        "filled_param": {
+          "audio_clip": "QW5vdGhlckJhc2U2NEVuY29kZWRTdHJpbmc=",
+          "time_of_day": "Morning"
+        }
+      },
+      {
+        "query": "Here's a sound of a Porifera recorded at Noon, encoded as 'VHdpc3RlZEJhc2U2NEVuY29kZWRTdHJpbmc=', could you tell me what it is?",
+        "filled_param": {
+          "audio_clip": "VHdpc3RlZEJhc2U2NEVuY29kZWRTdHJpbmc=",
+          "time_of_day": "Noon"
+        }
+      },
+      {
+        "query": "This Porifera sound was captured in the Afternoon; the encoded clip is 'U29tZUZha2VCYXNlNjRFbmNvZGVkU3RyaW5n'. Can you identify it?",
+        "filled_param": {
+          "audio_clip": "U29tZUZha2VCYXNlNjRFbmNvZGVkU3RyaW5n",
+          "time_of_day": "Afternoon"
+        }
+      },
+      {
+        "query": "I recorded a Porifera sound during the Evening, and the audio clip is 'RXZlbmluZ0Jhc2U2NEVuY29kZWRTdHJpbmc='. Can you help identify it?",
+        "filled_param": {
+          "audio_clip": "RXZlbmluZ0Jhc2U2NEVuY29kZWRTdHJpbmc=",
+          "time_of_day": "Evening"
+        }
+      },
+      {
+        "query": "Could you identify this Porifera from the night recording? The audio is 'TmlnaHRUaW1lQmFzZTY0RW5jb2RlZFN0cmluZw=='.",
+        "filled_param": {
+          "audio_clip": "TmlnaHRUaW1lQmFzZTY0RW5jb2RlZFN0cmluZw==",
+          "time_of_day": "Night"
+        }
+      }
+    ]
+  }
+}

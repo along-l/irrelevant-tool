@@ -1,0 +1,619 @@
+{
+  "petNutritionAnalyzer_analyzeBirdDiet|:|bird|:|species,age,healthConditions,timeOfDay": {
+    "tool_template_name": "petNutritionAnalyzer_analyzeBirdDiet",
+    "derived_class": "bird",
+    "params_for_query": [
+      "species",
+      "age",
+      "healthConditions",
+      "timeOfDay"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide dietary advice for a 3-year-old budgerigar with no known health conditions, considering morning feeding?",
+        "filled_param": {
+          "species": "budgerigar",
+          "age": 3,
+          "healthConditions": [],
+          "timeOfDay": "morning"
+        }
+      },
+      {
+        "query": "What should I feed my 5-year-old African grey parrot that has a history of obesity, during the evening?",
+        "filled_param": {
+          "species": "African grey parrot",
+          "age": 5,
+          "healthConditions": [
+            "obesity"
+          ],
+          "timeOfDay": "evening"
+        }
+      },
+      {
+        "query": "I need a diet plan for a 2-year-old canary with respiratory issues, focusing on afternoon meals.",
+        "filled_param": {
+          "species": "canary",
+          "age": 2,
+          "healthConditions": [
+            "respiratory issues"
+          ],
+          "timeOfDay": "afternoon"
+        }
+      },
+      {
+        "query": "Could you suggest a nutritional plan for a 1-year-old cockatiel with calcium deficiency for night feedings?",
+        "filled_param": {
+          "species": "cockatiel",
+          "age": 1,
+          "healthConditions": [
+            "calcium deficiency"
+          ],
+          "timeOfDay": "night"
+        }
+      },
+      {
+        "query": "I'm looking for feeding recommendations for a 4-year-old lovebird with feather plucking issues, particularly for morning times.",
+        "filled_param": {
+          "species": "lovebird",
+          "age": 4,
+          "healthConditions": [
+            "feather plucking"
+          ],
+          "timeOfDay": "morning"
+        }
+      },
+      {
+        "query": "What are some dietary suggestions for a 6-year-old macaw without any health problems, considering an afternoon feeding schedule?",
+        "filled_param": {
+          "species": "macaw",
+          "age": 6,
+          "healthConditions": [],
+          "timeOfDay": "afternoon"
+        }
+      }
+    ]
+  },
+  "petNutritionAnalyzer_analyzeBirdDiet|:|dog|:|species,age,healthConditions,timeOfDay": {
+    "tool_template_name": "petNutritionAnalyzer_analyzeBirdDiet",
+    "derived_class": "dog",
+    "params_for_query": [
+      "species",
+      "age",
+      "healthConditions",
+      "timeOfDay"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide dietary advice for a Beagle dog that is 3 years old, has allergies, and needs feeding recommendations for the evening?",
+        "filled_param": {
+          "species": "Beagle",
+          "age": 3,
+          "healthConditions": [
+            "allergies"
+          ],
+          "timeOfDay": "evening"
+        }
+      },
+      {
+        "query": "What should I feed my 1-year-old Labrador with no health issues in the morning?",
+        "filled_param": {
+          "species": "Labrador",
+          "age": 1,
+          "healthConditions": [],
+          "timeOfDay": "morning"
+        }
+      },
+      {
+        "query": "I need a diet plan for my 5-year-old Poodle with diabetes, focusing on midday meals.",
+        "filled_param": {
+          "species": "Poodle",
+          "age": 5,
+          "healthConditions": [
+            "diabetes"
+          ],
+          "timeOfDay": "midday"
+        }
+      },
+      {
+        "query": "Suggest a diet for a 2-year-old Bulldog with obesity that can be fed at night.",
+        "filled_param": {
+          "species": "Bulldog",
+          "age": 2,
+          "healthConditions": [
+            "obesity"
+          ],
+          "timeOfDay": "night"
+        }
+      },
+      {
+        "query": "What are some good dietary options for a 7-year-old Golden Retriever with arthritis for afternoon feeding?",
+        "filled_param": {
+          "species": "Golden Retriever",
+          "age": 7,
+          "healthConditions": [
+            "arthritis"
+          ],
+          "timeOfDay": "afternoon"
+        }
+      }
+    ]
+  },
+  "petNutritionAnalyzer_analyzeBirdDiet|:|cat|:|species,age,healthConditions,timeOfDay": {
+    "tool_template_name": "petNutritionAnalyzer_analyzeBirdDiet",
+    "derived_class": "cat",
+    "params_for_query": [
+      "species",
+      "age",
+      "healthConditions",
+      "timeOfDay"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide dietary recommendations for a Siberian cat, aged 3, with diabetes, for morning feeding?",
+        "filled_param": {
+          "species": "Siberian",
+          "age": 3,
+          "healthConditions": [
+            "diabetes"
+          ],
+          "timeOfDay": "morning"
+        }
+      },
+      {
+        "query": "What should I feed my 2-year-old Maine Coon that has no health issues, during the evening?",
+        "filled_param": {
+          "species": "Maine Coon",
+          "age": 2,
+          "healthConditions": [],
+          "timeOfDay": "evening"
+        }
+      },
+      {
+        "query": "I need a diet plan for my 5-year-old Persian cat with kidney disease for afternoon meals.",
+        "filled_param": {
+          "species": "Persian",
+          "age": 5,
+          "healthConditions": [
+            "kidney disease"
+          ],
+          "timeOfDay": "afternoon"
+        }
+      },
+      {
+        "query": "Can you analyze the diet of a 1-year-old Siamese cat with allergies for nighttime feeding?",
+        "filled_param": {
+          "species": "Siamese",
+          "age": 1,
+          "healthConditions": [
+            "allergies"
+          ],
+          "timeOfDay": "night"
+        }
+      },
+      {
+        "query": "I'd like some nutritional advice for my 4-year-old Ragdoll cat that's overweight, focusing on morning meals.",
+        "filled_param": {
+          "species": "Ragdoll",
+          "age": 4,
+          "healthConditions": [
+            "overweight"
+          ],
+          "timeOfDay": "morning"
+        }
+      }
+    ]
+  },
+  "petNutritionAnalyzer_analyzeBirdDiet|:|rabbit|:|species,age,healthConditions,timeOfDay": {
+    "tool_template_name": "petNutritionAnalyzer_analyzeBirdDiet",
+    "derived_class": "rabbit",
+    "params_for_query": [
+      "species",
+      "age",
+      "healthConditions",
+      "timeOfDay"
+    ],
+    "queries": [
+      {
+        "query": "Can you analyze the diet for a 2-year-old Netherland Dwarf rabbit with no health conditions, considering evening feeding?",
+        "filled_param": {
+          "species": "Netherland Dwarf",
+          "age": 2,
+          "healthConditions": [],
+          "timeOfDay": "evening"
+        }
+      },
+      {
+        "query": "What dietary recommendations would you suggest for a 4-year-old Flemish Giant rabbit with arthritis, focusing on morning meals?",
+        "filled_param": {
+          "species": "Flemish Giant",
+          "age": 4,
+          "healthConditions": [
+            "arthritis"
+          ],
+          "timeOfDay": "morning"
+        }
+      },
+      {
+        "query": "Provide a dietary analysis for a 1-year-old Lop rabbit that is lactose intolerant, for afternoon feeding.",
+        "filled_param": {
+          "species": "Lop",
+          "age": 1,
+          "healthConditions": [
+            "lactose intolerant"
+          ],
+          "timeOfDay": "afternoon"
+        }
+      },
+      {
+        "query": "How should I plan the diet of a 3-year-old Rex rabbit suffering from obesity, especially for its nighttime feeding?",
+        "filled_param": {
+          "species": "Rex",
+          "age": 3,
+          "healthConditions": [
+            "obesity"
+          ],
+          "timeOfDay": "nighttime"
+        }
+      },
+      {
+        "query": "What is the best feeding plan for a 5-year-old Angora rabbit with dental issues in the morning?",
+        "filled_param": {
+          "species": "Angora",
+          "age": 5,
+          "healthConditions": [
+            "dental issues"
+          ],
+          "timeOfDay": "morning"
+        }
+      },
+      {
+        "query": "I have a 6-year-old Mini Rex rabbit with no health problems. Can you suggest a suitable diet for afternoon feedings?",
+        "filled_param": {
+          "species": "Mini Rex",
+          "age": 6,
+          "healthConditions": [],
+          "timeOfDay": "afternoon"
+        }
+      }
+    ]
+  },
+  "petNutritionAnalyzer_analyzeBirdDiet|:|hamster|:|species,age,healthConditions,timeOfDay": {
+    "tool_template_name": "petNutritionAnalyzer_analyzeBirdDiet",
+    "derived_class": "hamster",
+    "params_for_query": [
+      "species",
+      "age",
+      "healthConditions",
+      "timeOfDay"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide dietary recommendations for a 2-year-old Syrian hamster with diabetes, considering the afternoon as feeding time?",
+        "filled_param": {
+          "species": "Syrian",
+          "age": 2,
+          "healthConditions": [
+            "diabetes"
+          ],
+          "timeOfDay": "afternoon"
+        }
+      },
+      {
+        "query": "What is a suitable diet for a dwarf hamster aged 1 year with obesity, if feeding usually takes place in the evening?",
+        "filled_param": {
+          "species": "dwarf",
+          "age": 1,
+          "healthConditions": [
+            "obesity"
+          ],
+          "timeOfDay": "evening"
+        }
+      },
+      {
+        "query": "My 3-year-old Roborovski hamster has a heart condition. What feeding advice can you offer for morning meals?",
+        "filled_param": {
+          "species": "Roborovski",
+          "age": 3,
+          "healthConditions": [
+            "heart condition"
+          ],
+          "timeOfDay": "morning"
+        }
+      },
+      {
+        "query": "I have a Campbell's dwarf hamster who's 4 years old and has kidney issues. What dietary plan do you suggest for lunchtime?",
+        "filled_param": {
+          "species": "Campbell's dwarf",
+          "age": 4,
+          "healthConditions": [
+            "kidney issues"
+          ],
+          "timeOfDay": "lunchtime"
+        }
+      },
+      {
+        "query": "Suggest a dietary regimen for a 5-year-old Winter White hamster with no health problems, focusing on late-night feeding.",
+        "filled_param": {
+          "species": "Winter White",
+          "age": 5,
+          "healthConditions": [],
+          "timeOfDay": "late-night"
+        }
+      },
+      {
+        "query": "For a 2-year-old Chinese hamster with digestive issues, what are the best meal recommendations for early morning?",
+        "filled_param": {
+          "species": "Chinese",
+          "age": 2,
+          "healthConditions": [
+            "digestive issues"
+          ],
+          "timeOfDay": "early morning"
+        }
+      }
+    ]
+  },
+  "petNutritionAnalyzer_analyzeBirdDiet|:|turtle|:|species,age,healthConditions,timeOfDay": {
+    "tool_template_name": "petNutritionAnalyzer_analyzeBirdDiet",
+    "derived_class": "turtle",
+    "params_for_query": [
+      "species",
+      "age",
+      "healthConditions",
+      "timeOfDay"
+    ],
+    "queries": [
+      {
+        "query": "Can you analyze the diet for my 5-year-old Red-Eared Slider turtle with no health problems, considering I'd like to feed it in the evening?",
+        "filled_param": {
+          "species": "Red-Eared Slider",
+          "age": 5,
+          "healthConditions": [],
+          "timeOfDay": "evening"
+        }
+      },
+      {
+        "query": "I have a 2-year-old Eastern Box Turtle with a vitamin D deficiency. Could you recommend a suitable diet if I plan to feed it in the morning?",
+        "filled_param": {
+          "species": "Eastern Box Turtle",
+          "age": 2,
+          "healthConditions": [
+            "vitamin D deficiency"
+          ],
+          "timeOfDay": "morning"
+        }
+      },
+      {
+        "query": "Provide dietary recommendations for a 7-year-old Russian Tortoise that suffers from shell rot, with feeding time around noon.",
+        "filled_param": {
+          "species": "Russian Tortoise",
+          "age": 7,
+          "healthConditions": [
+            "shell rot"
+          ],
+          "timeOfDay": "noon"
+        }
+      },
+      {
+        "query": "What dietary advice can you give for a 1-year-old Common Snapping Turtle with metabolic bone disease, if feeding is done in the afternoon?",
+        "filled_param": {
+          "species": "Common Snapping Turtle",
+          "age": 1,
+          "healthConditions": [
+            "metabolic bone disease"
+          ],
+          "timeOfDay": "afternoon"
+        }
+      },
+      {
+        "query": "Could you help with a diet plan for a 4-year-old Painted Turtle that has no known health conditions, aiming to feed it in the evening?",
+        "filled_param": {
+          "species": "Painted Turtle",
+          "age": 4,
+          "healthConditions": [],
+          "timeOfDay": "evening"
+        }
+      }
+    ]
+  },
+  "petNutritionAnalyzer_analyzeBirdDiet|:|snake|:|species,age,healthConditions,timeOfDay": {
+    "tool_template_name": "petNutritionAnalyzer_analyzeBirdDiet",
+    "derived_class": "snake",
+    "params_for_query": [
+      "species",
+      "age",
+      "healthConditions",
+      "timeOfDay"
+    ],
+    "queries": [
+      {
+        "query": "What dietary recommendations do you have for a 3-year-old ball python snake with no health issues, considering evening feedings?",
+        "filled_param": {
+          "species": "ball python",
+          "age": 3,
+          "healthConditions": [],
+          "timeOfDay": "evening"
+        }
+      },
+      {
+        "query": "Could you analyze the diet for a 5-year-old king snake that suffers from obesity, with feeding time in the morning?",
+        "filled_param": {
+          "species": "king snake",
+          "age": 5,
+          "healthConditions": [
+            "obesity"
+          ],
+          "timeOfDay": "morning"
+        }
+      },
+      {
+        "query": "Please provide dietary advice for a corn snake that is 2 years old and has a history of mouth rot, for afternoon feedings.",
+        "filled_param": {
+          "species": "corn snake",
+          "age": 2,
+          "healthConditions": [
+            "mouth rot"
+          ],
+          "timeOfDay": "afternoon"
+        }
+      },
+      {
+        "query": "I need a diet analysis for a 1-year-old boa constrictor snake with respiratory infection, with feedings scheduled for nighttime.",
+        "filled_param": {
+          "species": "boa constrictor",
+          "age": 1,
+          "healthConditions": [
+            "respiratory infection"
+          ],
+          "timeOfDay": "nighttime"
+        }
+      },
+      {
+        "query": "Can you help with feeding recommendations for a 4-year-old garter snake that has no known health conditions, when feeding in the late afternoon?",
+        "filled_param": {
+          "species": "garter snake",
+          "age": 4,
+          "healthConditions": [],
+          "timeOfDay": "late afternoon"
+        }
+      },
+      {
+        "query": "What should I feed a 6-year-old milk snake with a history of digestive issues, with feeding times set for early morning?",
+        "filled_param": {
+          "species": "milk snake",
+          "age": 6,
+          "healthConditions": [
+            "digestive issues"
+          ],
+          "timeOfDay": "early morning"
+        }
+      }
+    ]
+  },
+  "petNutritionAnalyzer_analyzeBirdDiet|:|fish|:|species,age,healthConditions,timeOfDay": {
+    "tool_template_name": "petNutritionAnalyzer_analyzeBirdDiet",
+    "derived_class": "fish",
+    "params_for_query": [
+      "species",
+      "age",
+      "healthConditions",
+      "timeOfDay"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide dietary recommendations for a 2-year-old goldfish with swim bladder disease, considering feeding in the morning?",
+        "filled_param": {
+          "species": "goldfish",
+          "age": 2,
+          "healthConditions": [
+            "swim bladder disease"
+          ],
+          "timeOfDay": "morning"
+        }
+      },
+      {
+        "query": "What diet would you suggest for a 1-year-old betta fish that has fin rot, if I prefer to feed it in the evening?",
+        "filled_param": {
+          "species": "betta fish",
+          "age": 1,
+          "healthConditions": [
+            "fin rot"
+          ],
+          "timeOfDay": "evening"
+        }
+      },
+      {
+        "query": "Analyze the dietary needs of a 3-year-old angelfish with no health issues, keeping in mind that feeding time is around noon.",
+        "filled_param": {
+          "species": "angelfish",
+          "age": 3,
+          "healthConditions": [],
+          "timeOfDay": "noon"
+        }
+      },
+      {
+        "query": "Could you recommend a diet for a 5-year-old guppy that suffers from ich, with a preference for feeding it in the afternoon?",
+        "filled_param": {
+          "species": "guppy",
+          "age": 5,
+          "healthConditions": [
+            "ich"
+          ],
+          "timeOfDay": "afternoon"
+        }
+      },
+      {
+        "query": "What are the best dietary practices for a 4-year-old neon tetra with no known health problems, considering feeding at night?",
+        "filled_param": {
+          "species": "neon tetra",
+          "age": 4,
+          "healthConditions": [],
+          "timeOfDay": "night"
+        }
+      }
+    ]
+  },
+  "petNutritionAnalyzer_analyzeBirdDiet|:|lizard|:|species,age,healthConditions,timeOfDay": {
+    "tool_template_name": "petNutritionAnalyzer_analyzeBirdDiet",
+    "derived_class": "lizard",
+    "params_for_query": [
+      "species",
+      "age",
+      "healthConditions",
+      "timeOfDay"
+    ],
+    "queries": [
+      {
+        "query": "Could you give me dietary recommendations for a 3-year-old Bearded Dragon lizard with metabolic bone disease, considering it is fed in the morning?",
+        "filled_param": {
+          "species": "Bearded Dragon",
+          "age": 3,
+          "healthConditions": [
+            "metabolic bone disease"
+          ],
+          "timeOfDay": "morning"
+        }
+      },
+      {
+        "query": "What should I feed my Leopard Gecko lizard, which is 2 years old and suffers from obesity, if I want to feed it in the evening?",
+        "filled_param": {
+          "species": "Leopard Gecko",
+          "age": 2,
+          "healthConditions": [
+            "obesity"
+          ],
+          "timeOfDay": "evening"
+        }
+      },
+      {
+        "query": "Give me some diet suggestions for a 1-year-old Crested Gecko lizard with no health conditions, for a midday feeding.",
+        "filled_param": {
+          "species": "Crested Gecko",
+          "age": 1,
+          "healthConditions": [],
+          "timeOfDay": "midday"
+        }
+      },
+      {
+        "query": "I need a feeding plan for a 4-year-old Chameleon lizard that has a respiratory infection and is typically fed in the afternoon.",
+        "filled_param": {
+          "species": "Chameleon",
+          "age": 4,
+          "healthConditions": [
+            "respiratory infection"
+          ],
+          "timeOfDay": "afternoon"
+        }
+      },
+      {
+        "query": "Can you analyze the diet for a 5-year-old Savannah Monitor lizard with no known health issues, focusing on meals served at night?",
+        "filled_param": {
+          "species": "Savannah Monitor",
+          "age": 5,
+          "healthConditions": [],
+          "timeOfDay": "night"
+        }
+      }
+    ]
+  }
+}

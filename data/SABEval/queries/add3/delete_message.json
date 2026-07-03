@@ -1,0 +1,836 @@
+{
+  "delete_message|:|SMS message|:|message_id,timestamp,softDelete,reasonForDeletion": {
+    "tool_template_name": "delete_message",
+    "derived_class": "SMS message",
+    "params_for_query": [
+      "message_id",
+      "timestamp",
+      "softDelete",
+      "reasonForDeletion"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the SMS message with message ID 10234, created at the Unix timestamp 1695792000. Perform a soft delete because it was sent by mistake.",
+        "filled_param": {
+          "message_id": 10234,
+          "timestamp": 1695792000,
+          "softDelete": true,
+          "reasonForDeletion": "sent by mistake"
+        }
+      },
+      {
+        "query": "I need you to remove the SMS message with message ID 56789 from the system. It was created at the Unix timestamp 1609459200, and perform a hard delete as it contains sensitive information.",
+        "filled_param": {
+          "message_id": 56789,
+          "timestamp": 1609459200,
+          "softDelete": false,
+          "reasonForDeletion": "contains sensitive information"
+        }
+      },
+      {
+        "query": "Delete the SMS message with ID 23456. The message was created at Unix timestamp 1622505600, and do a soft delete because it's outdated.",
+        "filled_param": {
+          "message_id": 23456,
+          "timestamp": 1622505600,
+          "softDelete": true,
+          "reasonForDeletion": "outdated"
+        }
+      },
+      {
+        "query": "Can you delete the SMS message with the ID 34567 and the creation timestamp of 1672444800? Hard delete this message as it was a duplicate.",
+        "filled_param": {
+          "message_id": 34567,
+          "timestamp": 1672444800,
+          "softDelete": false,
+          "reasonForDeletion": "duplicate"
+        }
+      },
+      {
+        "query": "Erase the SMS message with the message ID 89101, created at Unix timestamp 1612137600. Use a soft delete since it was sent to the wrong recipient.",
+        "filled_param": {
+          "message_id": 89101,
+          "timestamp": 1612137600,
+          "softDelete": true,
+          "reasonForDeletion": "sent to wrong recipient"
+        }
+      }
+    ]
+  },
+  "delete_message|:|QQ message|:|message_id,timestamp,softDelete,reasonForDeletion": {
+    "tool_template_name": "delete_message",
+    "derived_class": "QQ message",
+    "params_for_query": [
+      "message_id",
+      "timestamp",
+      "softDelete",
+      "reasonForDeletion"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the QQ message with message ID 12345 and timestamp 1698536400, using soft delete. The reason for deletion is 'message sent to the wrong group'.",
+        "filled_param": {
+          "message_id": 12345,
+          "timestamp": 1698536400,
+          "softDelete": true,
+          "reasonForDeletion": "message sent to the wrong group"
+        }
+      },
+      {
+        "query": "I need to remove the QQ message with ID 67890 and timestamp 1698540000 permanently. The deletion reason is 'duplicate message'.",
+        "filled_param": {
+          "message_id": 67890,
+          "timestamp": 1698540000,
+          "softDelete": false,
+          "reasonForDeletion": "duplicate message"
+        }
+      },
+      {
+        "query": "Can you execute a soft delete for the QQ message with ID 11223 and created at timestamp 1698552000? The reason for this is 'contains sensitive information'.",
+        "filled_param": {
+          "message_id": 11223,
+          "timestamp": 1698552000,
+          "softDelete": true,
+          "reasonForDeletion": "contains sensitive information"
+        }
+      },
+      {
+        "query": "Delete the QQ message identified by message ID 33445 and timestamp 1698563400. Use a hard delete as the reason is 'spam content'.",
+        "filled_param": {
+          "message_id": 33445,
+          "timestamp": 1698563400,
+          "softDelete": false,
+          "reasonForDeletion": "spam content"
+        }
+      },
+      {
+        "query": "Permanently remove the QQ message with ID 55667 and timestamp 1698574800. The reason for deletion is 'offensive language'.",
+        "filled_param": {
+          "message_id": 55667,
+          "timestamp": 1698574800,
+          "softDelete": false,
+          "reasonForDeletion": "offensive language"
+        }
+      },
+      {
+        "query": "I want to soft delete the QQ message with message ID 77889 and timestamp 1698586200. The reason provided is 'personal request by the sender'.",
+        "filled_param": {
+          "message_id": 77889,
+          "timestamp": 1698586200,
+          "softDelete": true,
+          "reasonForDeletion": "personal request by the sender"
+        }
+      }
+    ]
+  },
+  "delete_message|:|WeChat message|:|message_id,timestamp,softDelete,reasonForDeletion": {
+    "tool_template_name": "delete_message",
+    "derived_class": "WeChat message",
+    "params_for_query": [
+      "message_id",
+      "timestamp",
+      "softDelete",
+      "reasonForDeletion"
+    ],
+    "queries": [
+      {
+        "query": "Please remove the WeChat message with ID 12345, created on 1672531200, and perform a soft delete due to accidental send.",
+        "filled_param": {
+          "message_id": 12345,
+          "timestamp": 1672531200,
+          "softDelete": true,
+          "reasonForDeletion": "accidental send"
+        }
+      },
+      {
+        "query": "Delete the WeChat message with the ID 67890 that was sent on 1675027200. Make it permanent as it's inappropriate content.",
+        "filled_param": {
+          "message_id": 67890,
+          "timestamp": 1675027200,
+          "softDelete": false,
+          "reasonForDeletion": "inappropriate content"
+        }
+      },
+      {
+        "query": "I need to soft delete the WeChat message with ID 24680, timestamped at 1677638400, because it contains outdated information.",
+        "filled_param": {
+          "message_id": 24680,
+          "timestamp": 1677638400,
+          "softDelete": true,
+          "reasonForDeletion": "outdated information"
+        }
+      },
+      {
+        "query": "Can you help me delete WeChat message with the ID 13579 that was created on 1680226800, ensuring it's soft deleted as it's a duplicate?",
+        "filled_param": {
+          "message_id": 13579,
+          "timestamp": 1680226800,
+          "softDelete": true,
+          "reasonForDeletion": "duplicate"
+        }
+      },
+      {
+        "query": "Permanently delete WeChat message with ID 11223, sent on 1682818800, due to a violation of privacy policies.",
+        "filled_param": {
+          "message_id": 11223,
+          "timestamp": 1682818800,
+          "softDelete": false,
+          "reasonForDeletion": "violation of privacy policies"
+        }
+      }
+    ]
+  },
+  "delete_message|:|DingTalk message|:|message_id,timestamp,softDelete,reasonForDeletion": {
+    "tool_template_name": "delete_message",
+    "derived_class": "DingTalk message",
+    "params_for_query": [
+      "message_id",
+      "timestamp",
+      "softDelete",
+      "reasonForDeletion"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the DingTalk message with ID 12345 that was created at the timestamp 1672345678 for the reason: sent by mistake. It should be a soft delete.",
+        "filled_param": {
+          "message_id": 12345,
+          "timestamp": 1672345678,
+          "softDelete": true,
+          "reasonForDeletion": "sent by mistake"
+        }
+      },
+      {
+        "query": "I need to remove the DingTalk message with ID 67890, created at 1654321987. This should be a hard delete due to inappropriate content.",
+        "filled_param": {
+          "message_id": 67890,
+          "timestamp": 1654321987,
+          "softDelete": false,
+          "reasonForDeletion": "inappropriate content"
+        }
+      },
+      {
+        "query": "Execute a soft delete for the DingTalk message with ID 11223, timestamped at 1678901234, because it's no longer relevant.",
+        "filled_param": {
+          "message_id": 11223,
+          "timestamp": 1678901234,
+          "softDelete": true,
+          "reasonForDeletion": "no longer relevant"
+        }
+      },
+      {
+        "query": "Can you hard delete the DingTalk message with message ID 44556, created on 1687654321? The reason is that it contains confidential information.",
+        "filled_param": {
+          "message_id": 44556,
+          "timestamp": 1687654321,
+          "softDelete": false,
+          "reasonForDeletion": "contains confidential information"
+        }
+      },
+      {
+        "query": "Delete the DingTalk message with ID 98765, created at Unix timestamp 1698765432, with a soft delete option. Reason: the message was sent to the wrong group.",
+        "filled_param": {
+          "message_id": 98765,
+          "timestamp": 1698765432,
+          "softDelete": true,
+          "reasonForDeletion": "sent to the wrong group"
+        }
+      }
+    ]
+  },
+  "delete_message|:|WhatsApp message|:|message_id,timestamp,softDelete,reasonForDeletion": {
+    "tool_template_name": "delete_message",
+    "derived_class": "WhatsApp message",
+    "params_for_query": [
+      "message_id",
+      "timestamp",
+      "softDelete",
+      "reasonForDeletion"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the WhatsApp message with ID 12345 that was sent at timestamp 1682505600. Make it a soft delete and note that it was sent by mistake.",
+        "filled_param": {
+          "message_id": 12345,
+          "timestamp": 1682505600,
+          "softDelete": true,
+          "reasonForDeletion": "sent by mistake"
+        }
+      },
+      {
+        "query": "I need you to remove the WhatsApp message with ID 67890, created at timestamp 1675209600. Proceed with a hard delete as it contains sensitive information.",
+        "filled_param": {
+          "message_id": 67890,
+          "timestamp": 1675209600,
+          "softDelete": false,
+          "reasonForDeletion": "contains sensitive information"
+        }
+      },
+      {
+        "query": "Can you soft delete the WhatsApp message with ID 11223 from timestamp 1691299200? The reason for this is that it was sent to the wrong group.",
+        "filled_param": {
+          "message_id": 11223,
+          "timestamp": 1691299200,
+          "softDelete": true,
+          "reasonForDeletion": "sent to the wrong group"
+        }
+      },
+      {
+        "query": "Delete the WhatsApp message with ID 44556 that was posted at timestamp 1704067200. It should be a permanent delete because it is spam.",
+        "filled_param": {
+          "message_id": 44556,
+          "timestamp": 1704067200,
+          "softDelete": false,
+          "reasonForDeletion": "spam"
+        }
+      },
+      {
+        "query": "Remove the WhatsApp message with ID 77889, created at timestamp 1688121600. Execute a soft delete due to an accidental send.",
+        "filled_param": {
+          "message_id": 77889,
+          "timestamp": 1688121600,
+          "softDelete": true,
+          "reasonForDeletion": "accidental send"
+        }
+      }
+    ]
+  },
+  "delete_message|:|Facebook message|:|message_id,timestamp,softDelete,reasonForDeletion": {
+    "tool_template_name": "delete_message",
+    "derived_class": "Facebook message",
+    "params_for_query": [
+      "message_id",
+      "timestamp",
+      "softDelete",
+      "reasonForDeletion"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the Facebook message with message ID 123456 that was created at timestamp 1672531199. Perform a soft delete and the reason is that it contains outdated information.",
+        "filled_param": {
+          "message_id": 123456,
+          "timestamp": 1672531199,
+          "softDelete": true,
+          "reasonForDeletion": "it contains outdated information"
+        }
+      },
+      {
+        "query": "I need the Facebook message with ID 654321, created at Unix time 1625078400, to be permanently deleted because it violates community guidelines.",
+        "filled_param": {
+          "message_id": 654321,
+          "timestamp": 1625078400,
+          "softDelete": false,
+          "reasonForDeletion": "it violates community guidelines"
+        }
+      },
+      {
+        "query": "Can you remove the Facebook message with the message ID of 789012 and a timestamp of 1633036800? I want it to be soft deleted due to personal privacy concerns.",
+        "filled_param": {
+          "message_id": 789012,
+          "timestamp": 1633036800,
+          "softDelete": true,
+          "reasonForDeletion": "personal privacy concerns"
+        }
+      },
+      {
+        "query": "Delete the Facebook message that has the message ID 135790 and was created at 1609459200. Use a permanent deletion method because it contains incorrect information.",
+        "filled_param": {
+          "message_id": 135790,
+          "timestamp": 1609459200,
+          "softDelete": false,
+          "reasonForDeletion": "it contains incorrect information"
+        }
+      },
+      {
+        "query": "I would like to soft delete the Facebook message with ID 246801, timestamped at 1596240000, since it includes confidential data.",
+        "filled_param": {
+          "message_id": 246801,
+          "timestamp": 1596240000,
+          "softDelete": true,
+          "reasonForDeletion": "it includes confidential data"
+        }
+      }
+    ]
+  },
+  "delete_message|:|Instagram message|:|message_id,timestamp,softDelete,reasonForDeletion": {
+    "tool_template_name": "delete_message",
+    "derived_class": "Instagram message",
+    "params_for_query": [
+      "message_id",
+      "timestamp",
+      "softDelete",
+      "reasonForDeletion"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the Instagram message with ID 123456, created at the Unix timestamp 1693449600. Use a soft delete, and the reason is it contains outdated information.",
+        "filled_param": {
+          "message_id": 123456,
+          "timestamp": 1693449600,
+          "softDelete": true,
+          "reasonForDeletion": "it contains outdated information"
+        }
+      },
+      {
+        "query": "Remove the Instagram message identified by ID 789012, timestamp 1693536000. Perform a hard delete because it includes incorrect details.",
+        "filled_param": {
+          "message_id": 789012,
+          "timestamp": 1693536000,
+          "softDelete": false,
+          "reasonForDeletion": "it includes incorrect details"
+        }
+      },
+      {
+        "query": "Delete the Instagram message with message ID 345678 at timestamp 1693622400, using a soft delete due to privacy concerns.",
+        "filled_param": {
+          "message_id": 345678,
+          "timestamp": 1693622400,
+          "softDelete": true,
+          "reasonForDeletion": "privacy concerns"
+        }
+      },
+      {
+        "query": "Can you delete the Instagram message with ID 901234 and timestamp 1693708800? Use a hard delete since it's spam.",
+        "filled_param": {
+          "message_id": 901234,
+          "timestamp": 1693708800,
+          "softDelete": false,
+          "reasonForDeletion": "it's spam"
+        }
+      },
+      {
+        "query": "Execute a soft delete on the Instagram message with ID 567890, created at 1693795200, as it was sent by mistake.",
+        "filled_param": {
+          "message_id": 567890,
+          "timestamp": 1693795200,
+          "softDelete": true,
+          "reasonForDeletion": "it was sent by mistake"
+        }
+      }
+    ]
+  },
+  "delete_message|:|LinkedIn message|:|message_id,timestamp,softDelete,reasonForDeletion": {
+    "tool_template_name": "delete_message",
+    "derived_class": "LinkedIn message",
+    "params_for_query": [
+      "message_id",
+      "timestamp",
+      "softDelete",
+      "reasonForDeletion"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the LinkedIn message with message ID 12345, created at timestamp 1672531199, and mark it as a soft delete. The reason for deletion is that it was sent in error.",
+        "filled_param": {
+          "message_id": 12345,
+          "timestamp": 1672531199,
+          "softDelete": true,
+          "reasonForDeletion": "sent in error"
+        }
+      },
+      {
+        "query": "Can you remove the LinkedIn message with ID 67890 created on timestamp 1683052799? Perform a hard delete because it contains confidential information.",
+        "filled_param": {
+          "message_id": 67890,
+          "timestamp": 1683052799,
+          "softDelete": false,
+          "reasonForDeletion": "contains confidential information"
+        }
+      },
+      {
+        "query": "Delete the LinkedIn message with ID 24680 that was sent at timestamp 1661999999. Use soft delete as it was a duplicate message.",
+        "filled_param": {
+          "message_id": 24680,
+          "timestamp": 1661999999,
+          "softDelete": true,
+          "reasonForDeletion": "duplicate message"
+        }
+      },
+      {
+        "query": "I need you to delete the LinkedIn message with ID 13579 from timestamp 1666672799. Make it a hard delete because it was sent to the wrong recipient.",
+        "filled_param": {
+          "message_id": 13579,
+          "timestamp": 1666672799,
+          "softDelete": false,
+          "reasonForDeletion": "sent to the wrong recipient"
+        }
+      },
+      {
+        "query": "Remove the LinkedIn message with message ID 11223, timestamp 1655555599, and apply a soft delete since it was outdated information.",
+        "filled_param": {
+          "message_id": 11223,
+          "timestamp": 1655555599,
+          "softDelete": true,
+          "reasonForDeletion": "outdated information"
+        }
+      }
+    ]
+  },
+  "delete_message|:|Discord message|:|message_id,timestamp,softDelete,reasonForDeletion": {
+    "tool_template_name": "delete_message",
+    "derived_class": "Discord message",
+    "params_for_query": [
+      "message_id",
+      "timestamp",
+      "softDelete",
+      "reasonForDeletion"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the Discord message with ID 1234567890 created at Unix timestamp 1672531200. It should be a soft delete, and the reason is 'Outdated information'.",
+        "filled_param": {
+          "message_id": 1234567890,
+          "timestamp": 1672531200,
+          "softDelete": true,
+          "reasonForDeletion": "Outdated information"
+        }
+      },
+      {
+        "query": "I need you to remove the Discord message with ID 987654321 created at timestamp 1650000000. Perform a hard delete, as it's due to inappropriate content.",
+        "filled_param": {
+          "message_id": 987654321,
+          "timestamp": 1650000000,
+          "softDelete": false,
+          "reasonForDeletion": "Inappropriate content"
+        }
+      },
+      {
+        "query": "Can you delete the Discord message identified by ID 2233445566, created at 1683124800 Unix time? It should be a soft delete, with the reason being 'User request'.",
+        "filled_param": {
+          "message_id": 2233445566,
+          "timestamp": 1683124800,
+          "softDelete": true,
+          "reasonForDeletion": "User request"
+        }
+      },
+      {
+        "query": "Remove the Discord message with the ID 3344556677 from timestamp 1698765432. Ensure it is a hard delete, as the reason is 'Spam detected'.",
+        "filled_param": {
+          "message_id": 3344556677,
+          "timestamp": 1698765432,
+          "softDelete": false,
+          "reasonForDeletion": "Spam detected"
+        }
+      },
+      {
+        "query": "Could you delete the Discord message with ID 1122334455 created at Unix timestamp 1701234567? It should be a soft delete because of 'Duplicate post'.",
+        "filled_param": {
+          "message_id": 1122334455,
+          "timestamp": 1701234567,
+          "softDelete": true,
+          "reasonForDeletion": "Duplicate post"
+        }
+      }
+    ]
+  },
+  "delete_message|:|Slack message|:|message_id,timestamp,softDelete,reasonForDeletion": {
+    "tool_template_name": "delete_message",
+    "derived_class": "Slack message",
+    "params_for_query": [
+      "message_id",
+      "timestamp",
+      "softDelete",
+      "reasonForDeletion"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the Slack message with ID 12345 from the timestamp 1627890123, using soft delete, because it contains outdated information.",
+        "filled_param": {
+          "message_id": 12345,
+          "timestamp": 1627890123,
+          "softDelete": true,
+          "reasonForDeletion": "It contains outdated information."
+        }
+      },
+      {
+        "query": "I need to permanently delete the Slack message with ID 67890 created at 1630001234 as it has been flagged for inappropriate content.",
+        "filled_param": {
+          "message_id": 67890,
+          "timestamp": 1630001234,
+          "softDelete": false,
+          "reasonForDeletion": "It has been flagged for inappropriate content."
+        }
+      },
+      {
+        "query": "Can you remove the Slack message with ID 11223 from the timestamp 1647894356 using the soft delete option? The reason is that it contains confidential information.",
+        "filled_param": {
+          "message_id": 11223,
+          "timestamp": 1647894356,
+          "softDelete": true,
+          "reasonForDeletion": "It contains confidential information."
+        }
+      },
+      {
+        "query": "Execute a permanent deletion of the Slack message with ID 99887 from 1654321765 due to a request for data cleanup.",
+        "filled_param": {
+          "message_id": 99887,
+          "timestamp": 1654321765,
+          "softDelete": false,
+          "reasonForDeletion": "Request for data cleanup."
+        }
+      },
+      {
+        "query": "I'd like to soft delete the Slack message with ID 44556 created at 1667890123 because it's no longer relevant to the discussion.",
+        "filled_param": {
+          "message_id": 44556,
+          "timestamp": 1667890123,
+          "softDelete": true,
+          "reasonForDeletion": "It's no longer relevant to the discussion."
+        }
+      },
+      {
+        "query": "Please delete the Slack message with ID 77665 from the timestamp 1678901234 permanently as it was posted by mistake.",
+        "filled_param": {
+          "message_id": 77665,
+          "timestamp": 1678901234,
+          "softDelete": false,
+          "reasonForDeletion": "It was posted by mistake."
+        }
+      }
+    ]
+  },
+  "delete_message|:|Twitter message|:|message_id,timestamp,softDelete,reasonForDeletion": {
+    "tool_template_name": "delete_message",
+    "derived_class": "Twitter message",
+    "params_for_query": [
+      "message_id",
+      "timestamp",
+      "softDelete",
+      "reasonForDeletion"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the Twitter message with ID 1234567890 created at timestamp 1678901234. Make it a soft delete because it was a duplicate post.",
+        "filled_param": {
+          "message_id": 1234567890,
+          "timestamp": 1678901234,
+          "softDelete": true,
+          "reasonForDeletion": "duplicate post"
+        }
+      },
+      {
+        "query": "Remove the Twitter message having ID 987654321, created at timestamp 1665432100. Use a hard delete since it contains incorrect information.",
+        "filled_param": {
+          "message_id": 987654321,
+          "timestamp": 1665432100,
+          "softDelete": false,
+          "reasonForDeletion": "incorrect information"
+        }
+      },
+      {
+        "query": "Can you soft delete the Twitter message with ID 1122334455 and timestamp 1687654321? The reason is inappropriate content.",
+        "filled_param": {
+          "message_id": 1122334455,
+          "timestamp": 1687654321,
+          "softDelete": true,
+          "reasonForDeletion": "inappropriate content"
+        }
+      },
+      {
+        "query": "Perform a hard delete on the Twitter message identified by ID 5566778899, timestamped at 1654321890, due to a privacy concern.",
+        "filled_param": {
+          "message_id": 5566778899,
+          "timestamp": 1654321890,
+          "softDelete": false,
+          "reasonForDeletion": "privacy concern"
+        }
+      },
+      {
+        "query": "I'd like to soft delete the Twitter message with ID 6677889900, created at 1671234567, because it was posted by mistake.",
+        "filled_param": {
+          "message_id": 6677889900,
+          "timestamp": 1671234567,
+          "softDelete": true,
+          "reasonForDeletion": "posted by mistake"
+        }
+      }
+    ]
+  },
+  "delete_message|:|TikTok message|:|message_id,timestamp,softDelete,reasonForDeletion": {
+    "tool_template_name": "delete_message",
+    "derived_class": "TikTok message",
+    "params_for_query": [
+      "message_id",
+      "timestamp",
+      "softDelete",
+      "reasonForDeletion"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the TikTok message with ID 12345678 created at 1633072800, using a soft delete, because it contains outdated information.",
+        "filled_param": {
+          "message_id": 12345678,
+          "timestamp": 1633072800,
+          "softDelete": true,
+          "reasonForDeletion": "It contains outdated information."
+        }
+      },
+      {
+        "query": "Remove the TikTok message with ID 87654321 from the system. The message was created at timestamp 1623072800, and a hard delete is preferred due to violating community guidelines.",
+        "filled_param": {
+          "message_id": 87654321,
+          "timestamp": 1623072800,
+          "softDelete": false,
+          "reasonForDeletion": "Violating community guidelines."
+        }
+      },
+      {
+        "query": "Can you delete the TikTok message with ID 11223344? It was created at 1613072800. Use a soft delete as it was accidentally sent.",
+        "filled_param": {
+          "message_id": 11223344,
+          "timestamp": 1613072800,
+          "softDelete": true,
+          "reasonForDeletion": "It was accidentally sent."
+        }
+      },
+      {
+        "query": "I need you to permanently delete the TikTok message with ID 44332211, timestamped at 1603072800, because it includes personal data.",
+        "filled_param": {
+          "message_id": 44332211,
+          "timestamp": 1603072800,
+          "softDelete": false,
+          "reasonForDeletion": "It includes personal data."
+        }
+      },
+      {
+        "query": "Initiate soft deletion for TikTok message ID 99887766, created at 1593072800, since it's no longer relevant to the conversation.",
+        "filled_param": {
+          "message_id": 99887766,
+          "timestamp": 1593072800,
+          "softDelete": true,
+          "reasonForDeletion": "No longer relevant to the conversation."
+        }
+      },
+      {
+        "query": "Can you erase the TikTok message with ID 55443322, created on 1583072800 using a hard delete? It was sent in error.",
+        "filled_param": {
+          "message_id": 55443322,
+          "timestamp": 1583072800,
+          "softDelete": false,
+          "reasonForDeletion": "It was sent in error."
+        }
+      }
+    ]
+  },
+  "delete_message|:|YouTube message|:|message_id,timestamp,softDelete,reasonForDeletion": {
+    "tool_template_name": "delete_message",
+    "derived_class": "YouTube message",
+    "params_for_query": [
+      "message_id",
+      "timestamp",
+      "softDelete",
+      "reasonForDeletion"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the YouTube message with ID 12345 created on 1633036800, applying a soft delete for spam removal.",
+        "filled_param": {
+          "message_id": 12345,
+          "timestamp": 1633036800,
+          "softDelete": true,
+          "reasonForDeletion": "spam removal"
+        }
+      },
+      {
+        "query": "Can you remove the YouTube message with ID 67890 from timestamp 1633123200 permanently? It's off-topic.",
+        "filled_param": {
+          "message_id": 67890,
+          "timestamp": 1633123200,
+          "softDelete": false,
+          "reasonForDeletion": "off-topic"
+        }
+      },
+      {
+        "query": "Execute a soft delete for the YouTube message with ID 11223, created at 1633209600, due to inappropriate content.",
+        "filled_param": {
+          "message_id": 11223,
+          "timestamp": 1633209600,
+          "softDelete": true,
+          "reasonForDeletion": "inappropriate content"
+        }
+      },
+      {
+        "query": "Permanently delete the YouTube message with ID 44556 recorded at timestamp 1633296000. Reason: Duplicate post.",
+        "filled_param": {
+          "message_id": 44556,
+          "timestamp": 1633296000,
+          "softDelete": false,
+          "reasonForDeletion": "Duplicate post"
+        }
+      },
+      {
+        "query": "I need the YouTube message with ID 77889 deleted from the log at 1633382400 with a soft delete for violating community guidelines.",
+        "filled_param": {
+          "message_id": 77889,
+          "timestamp": 1633382400,
+          "softDelete": true,
+          "reasonForDeletion": "violating community guidelines"
+        }
+      }
+    ]
+  },
+  "delete_message|:|Reddit message|:|message_id,timestamp,softDelete,reasonForDeletion": {
+    "tool_template_name": "delete_message",
+    "derived_class": "Reddit message",
+    "params_for_query": [
+      "message_id",
+      "timestamp",
+      "softDelete",
+      "reasonForDeletion"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the Reddit message with ID 1234567 created at timestamp 1672531200. Use soft delete and note that it contains outdated information.",
+        "filled_param": {
+          "message_id": 1234567,
+          "timestamp": 1672531200,
+          "softDelete": true,
+          "reasonForDeletion": "outdated information"
+        }
+      },
+      {
+        "query": "Can you remove the Reddit message identified by ID 7654321 created at timestamp 1672617600? Perform a soft delete and indicate that it was reported as spam.",
+        "filled_param": {
+          "message_id": 7654321,
+          "timestamp": 1672617600,
+          "softDelete": true,
+          "reasonForDeletion": "reported as spam"
+        }
+      },
+      {
+        "query": "Delete the Reddit message with ID 2468101 from timestamp 1672704000, making it a permanent deletion because it violates community guidelines.",
+        "filled_param": {
+          "message_id": 2468101,
+          "timestamp": 1672704000,
+          "softDelete": false,
+          "reasonForDeletion": "violates community guidelines"
+        }
+      },
+      {
+        "query": "Remove the Reddit message with ID 1357913, which was created at timestamp 1672790400. Use soft delete and state the reason as duplicate content.",
+        "filled_param": {
+          "message_id": 1357913,
+          "timestamp": 1672790400,
+          "softDelete": true,
+          "reasonForDeletion": "duplicate content"
+        }
+      },
+      {
+        "query": "Execute a permanent deletion of the Reddit message with ID 1122334, created at 1672876800, due to offensive language.",
+        "filled_param": {
+          "message_id": 1122334,
+          "timestamp": 1672876800,
+          "softDelete": false,
+          "reasonForDeletion": "offensive language"
+        }
+      },
+      {
+        "query": "Initiate a soft deletion of the Reddit message assigned ID 9988776, timestamped at 1672963200, since it was flagged for misinformation.",
+        "filled_param": {
+          "message_id": 9988776,
+          "timestamp": 1672963200,
+          "softDelete": true,
+          "reasonForDeletion": "flagged for misinformation"
+        }
+      }
+    ]
+  }
+}

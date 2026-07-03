@@ -1,0 +1,608 @@
+{
+  "submitProductReview|:|movie disc|:|UserName,ProductName,ReviewText,Rating": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "movie disc",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating"
+    ],
+    "queries": [
+      {
+        "query": "I'd like to submit a review for the movie disc 'Inception'. My name is Alex and I give it a rating of 5. The special effects were mind-blowing and the storyline was captivating.",
+        "filled_param": {
+          "UserName": "Alex",
+          "ProductName": "Inception",
+          "ReviewText": "The special effects were mind-blowing and the storyline was captivating.",
+          "Rating": 5
+        }
+      },
+      {
+        "query": "My name is Jamie. I'm reviewing the movie disc 'The Matrix'. I rate it 4 out of 5. The action scenes were impressive, but the plot was a bit confusing.",
+        "filled_param": {
+          "UserName": "Jamie",
+          "ProductName": "The Matrix",
+          "ReviewText": "The action scenes were impressive, but the plot was a bit confusing.",
+          "Rating": 4
+        }
+      },
+      {
+        "query": "Submit a review on my behalf for the movie disc 'Titanic'. I am Casey and I give it a 3. The romantic storyline was touching, but it felt a bit too long.",
+        "filled_param": {
+          "UserName": "Casey",
+          "ProductName": "Titanic",
+          "ReviewText": "The romantic storyline was touching, but it felt a bit too long.",
+          "Rating": 3
+        }
+      },
+      {
+        "query": "This is Taylor submitting a review for the movie disc 'The Godfather'. I rate it 5 as it features incredible acting and a compelling narrative.",
+        "filled_param": {
+          "UserName": "Taylor",
+          "ProductName": "The Godfather",
+          "ReviewText": "It features incredible acting and a compelling narrative.",
+          "Rating": 5
+        }
+      },
+      {
+        "query": "I'd like to review the movie disc 'Avatar'. My name is Morgan, and I give it a 2. The visuals were stunning, but the storyline lacked depth.",
+        "filled_param": {
+          "UserName": "Morgan",
+          "ProductName": "Avatar",
+          "ReviewText": "The visuals were stunning, but the storyline lacked depth.",
+          "Rating": 2
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|book|:|UserName,ProductName,ReviewText,Rating": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "book",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating"
+    ],
+    "queries": [
+      {
+        "query": "I am Jenna and I want to submit a review for the book 'The Great Gatsby'. My review: 'A timeless classic with profound themes and beautiful prose.' I would rate it 5 out of 5.",
+        "filled_param": {
+          "UserName": "Jenna",
+          "ProductName": "The Great Gatsby",
+          "ReviewText": "A timeless classic with profound themes and beautiful prose.",
+          "Rating": 5
+        }
+      },
+      {
+        "query": "Please submit my review for the book '1984'. My name is Mark. Here's my review: 'An insightful and haunting depiction of a dystopian future.' I give it a 4-star rating.",
+        "filled_param": {
+          "UserName": "Mark",
+          "ProductName": "1984",
+          "ReviewText": "An insightful and haunting depiction of a dystopian future.",
+          "Rating": 4
+        }
+      },
+      {
+        "query": "This is Anna. I'm reviewing 'To Kill a Mockingbird'. My review: 'A powerful narrative on morality and human nature.' I'm giving it a 5-star rating.",
+        "filled_param": {
+          "UserName": "Anna",
+          "ProductName": "To Kill a Mockingbird",
+          "ReviewText": "A powerful narrative on morality and human nature.",
+          "Rating": 5
+        }
+      },
+      {
+        "query": "I'm writing a review for 'The Catcher in the Rye'. My name is James, and my review: 'An intriguing story of teenage angst and alienation.' I would rate it 3 out of 5.",
+        "filled_param": {
+          "UserName": "James",
+          "ProductName": "The Catcher in the Rye",
+          "ReviewText": "An intriguing story of teenage angst and alienation.",
+          "Rating": 3
+        }
+      },
+      {
+        "query": "Submit my book review, please. I'm Emily, reviewing 'Pride and Prejudice'. My thoughts: 'A delightful romance with witty dialogues and memorable characters.' I rate it 4 stars.",
+        "filled_param": {
+          "UserName": "Emily",
+          "ProductName": "Pride and Prejudice",
+          "ReviewText": "A delightful romance with witty dialogues and memorable characters.",
+          "Rating": 4
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|App Store app|:|UserName,ProductName,ReviewText,Rating": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "App Store app",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating"
+    ],
+    "queries": [
+      {
+        "query": "I'm Alex, and I want to give a review for the App Store app 'PhotoMagic'. This app has great editing features but crashes occasionally. I would give it a 3-star rating.",
+        "filled_param": {
+          "UserName": "Alex",
+          "ProductName": "PhotoMagic",
+          "ReviewText": "This app has great editing features but crashes occasionally.",
+          "Rating": 3
+        }
+      },
+      {
+        "query": "Submit a review for the App Store app 'TaskMaster'. My name is Jamie, and I love how it keeps my tasks organized seamlessly. This deserves a full 5-star rating.",
+        "filled_param": {
+          "UserName": "Jamie",
+          "ProductName": "TaskMaster",
+          "ReviewText": "I love how it keeps my tasks organized seamlessly.",
+          "Rating": 5
+        }
+      },
+      {
+        "query": "I'm Chris and would like to review the App Store app 'FitTrack'. While the interface is user-friendly, the data syncing is unreliable. I'd rate it 2 stars.",
+        "filled_param": {
+          "UserName": "Chris",
+          "ProductName": "FitTrack",
+          "ReviewText": "While the interface is user-friendly, the data syncing is unreliable.",
+          "Rating": 2
+        }
+      },
+      {
+        "query": "This is Taylor submitting a review for the App Store app 'LearnSpanish'. It's an excellent app for beginners with interactive lessons. I give it 4 stars.",
+        "filled_param": {
+          "UserName": "Taylor",
+          "ProductName": "LearnSpanish",
+          "ReviewText": "It's an excellent app for beginners with interactive lessons.",
+          "Rating": 4
+        }
+      },
+      {
+        "query": "I'm Casey, and I have some feedback for the App Store app 'WeatherNow'. It's quite accurate and visually appealing. However, it sometimes lags. I rate it 4 stars.",
+        "filled_param": {
+          "UserName": "Casey",
+          "ProductName": "WeatherNow",
+          "ReviewText": "It's quite accurate and visually appealing. However, it sometimes lags.",
+          "Rating": 4
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|instant food|:|UserName,ProductName,ReviewText,Rating": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "instant food",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating"
+    ],
+    "queries": [
+      {
+        "query": "This is John Doe, and here's my review for the instant food product 'Quick Noodles'. The flavor was amazing and it cooked perfectly in just 3 minutes. I would give it a 4 out of 5.",
+        "filled_param": {
+          "UserName": "John Doe",
+          "ProductName": "Quick Noodles",
+          "ReviewText": "The flavor was amazing and it cooked perfectly in just 3 minutes.",
+          "Rating": 4
+        }
+      },
+      {
+        "query": "Hi, I'm Sarah. I'd like to submit a review for the instant food 'Spicy Rice Bowl'. It was way too salty for my taste, so I'm rating it a 2.",
+        "filled_param": {
+          "UserName": "Sarah",
+          "ProductName": "Spicy Rice Bowl",
+          "ReviewText": "It was way too salty for my taste.",
+          "Rating": 2
+        }
+      },
+      {
+        "query": "My name is Michael, and I've tried the instant food 'Chocolate Mug Cake'. The texture was spot-on and rich in flavor. I'm giving it a solid 5.",
+        "filled_param": {
+          "UserName": "Michael",
+          "ProductName": "Chocolate Mug Cake",
+          "ReviewText": "The texture was spot-on and rich in flavor.",
+          "Rating": 5
+        }
+      },
+      {
+        "query": "Hello, this is Emma. I want to review the instant food 'Vegetable Soup Mix'. It lacked spices and was quite bland, so I would rate it a 3.",
+        "filled_param": {
+          "UserName": "Emma",
+          "ProductName": "Vegetable Soup Mix",
+          "ReviewText": "It lacked spices and was quite bland.",
+          "Rating": 3
+        }
+      },
+      {
+        "query": "I'm Alex, and I'm reviewing 'Instant Oatmeal'. It was convenient but the taste was just average. I'll give it a 3 out of 5.",
+        "filled_param": {
+          "UserName": "Alex",
+          "ProductName": "Instant Oatmeal",
+          "ReviewText": "It was convenient but the taste was just average.",
+          "Rating": 3
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|music album|:|UserName,ProductName,ReviewText,Rating": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "music album",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating"
+    ],
+    "queries": [
+      {
+        "query": "This is John Doe. I'm giving the music album 'Evermore' by Taylor Swift a 4-star rating. It has impressive storytelling and a mellow vibe, but some tracks felt repetitive.",
+        "filled_param": {
+          "UserName": "John Doe",
+          "ProductName": "Evermore",
+          "ReviewText": "It has impressive storytelling and a mellow vibe, but some tracks felt repetitive.",
+          "Rating": 4
+        }
+      },
+      {
+        "query": "My name is Emily Tran, and I want to submit a review for the music album 'Random Access Memories' by Daft Punk. I rate it 5 stars because the blend of electronic and organic sounds is fantastic!",
+        "filled_param": {
+          "UserName": "Emily Tran",
+          "ProductName": "Random Access Memories",
+          "ReviewText": "The blend of electronic and organic sounds is fantastic!",
+          "Rating": 5
+        }
+      },
+      {
+        "query": "Hey, I'm Alex Johnson. I'm reviewing the music album 'Back in Black' by AC/DC. Giving it a 3-star rating as the music is iconic, but the production feels dated.",
+        "filled_param": {
+          "UserName": "Alex Johnson",
+          "ProductName": "Back in Black",
+          "ReviewText": "The music is iconic, but the production feels dated.",
+          "Rating": 3
+        }
+      },
+      {
+        "query": "Hello, this is Maria Lopez. I'd like to review the music album 'Future Nostalgia' by Dua Lipa. I give it a 5-star rating; it's a perfect modern pop album with catchy tunes.",
+        "filled_param": {
+          "UserName": "Maria Lopez",
+          "ProductName": "Future Nostalgia",
+          "ReviewText": "It's a perfect modern pop album with catchy tunes.",
+          "Rating": 5
+        }
+      },
+      {
+        "query": "I'm David Kim submitting my review for the music album 'Abbey Road' by The Beatles. I rate it 4 stars because while it's a classic, a couple of tracks feel outdated.",
+        "filled_param": {
+          "UserName": "David Kim",
+          "ProductName": "Abbey Road",
+          "ReviewText": "While it's a classic, a couple of tracks feel outdated.",
+          "Rating": 4
+        }
+      },
+      {
+        "query": "This is Sarah Lee, and I'm reviewing the music album 'Melodrama' by Lorde. I give it a 4-star rating because it's emotionally resonant and beautifully produced, though not every track stands out.",
+        "filled_param": {
+          "UserName": "Sarah Lee",
+          "ProductName": "Melodrama",
+          "ReviewText": "It's emotionally resonant and beautifully produced, though not every track stands out.",
+          "Rating": 4
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|video game|:|UserName,ProductName,ReviewText,Rating": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "video game",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating"
+    ],
+    "queries": [
+      {
+        "query": "My name is Alex, and I recently played the video game 'The Last of Us Part II.' I found the storyline captivating but the gameplay a bit repetitive, so I'm giving it a 4 out of 5.",
+        "filled_param": {
+          "UserName": "Alex",
+          "ProductName": "The Last of Us Part II",
+          "ReviewText": "I found the storyline captivating but the gameplay a bit repetitive.",
+          "Rating": 4
+        }
+      },
+      {
+        "query": "This is Jordan. I just finished 'Halo Infinite' and it was amazing! The graphics and multiplayer mode were outstanding, so I rate this video game a 5.",
+        "filled_param": {
+          "UserName": "Jordan",
+          "ProductName": "Halo Infinite",
+          "ReviewText": "It was amazing! The graphics and multiplayer mode were outstanding.",
+          "Rating": 5
+        }
+      },
+      {
+        "query": "I'm Sam, and I want to submit a review for 'Cyberpunk 2077'. Despite the bugs, the video game had a fascinating world and great characters. I would rate it a 3.",
+        "filled_param": {
+          "UserName": "Sam",
+          "ProductName": "Cyberpunk 2077",
+          "ReviewText": "Despite the bugs, the video game had a fascinating world and great characters.",
+          "Rating": 3
+        }
+      },
+      {
+        "query": "Hello, this is Emily. I'd like to review the video game 'Animal Crossing: New Horizons.' The game is very relaxing and charming. I give it a 4.",
+        "filled_param": {
+          "UserName": "Emily",
+          "ProductName": "Animal Crossing: New Horizons",
+          "ReviewText": "The game is very relaxing and charming.",
+          "Rating": 4
+        }
+      },
+      {
+        "query": "I'm Kevin, and I've just finished 'Red Dead Redemption 2'. The video game's storyline and visuals were truly exceptional, so I'm rating it 5 stars.",
+        "filled_param": {
+          "UserName": "Kevin",
+          "ProductName": "Red Dead Redemption 2",
+          "ReviewText": "The video game's storyline and visuals were truly exceptional.",
+          "Rating": 5
+        }
+      },
+      {
+        "query": "My name is Lisa, and I've played 'Among Us'. It's a fun video game to play with friends, but it gets boring quickly, so I'll rate it a 3.",
+        "filled_param": {
+          "UserName": "Lisa",
+          "ProductName": "Among Us",
+          "ReviewText": "It's a fun video game to play with friends, but it gets boring quickly.",
+          "Rating": 3
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|car|:|UserName,ProductName,ReviewText,Rating": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "car",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating"
+    ],
+    "queries": [
+      {
+        "query": "I'm John Doe, and I recently bought a Tesla Model 3. It's fantastic for city driving, but the range could be better. I would rate it 4 out of 5.",
+        "filled_param": {
+          "UserName": "John Doe",
+          "ProductName": "Tesla Model 3",
+          "ReviewText": "It's fantastic for city driving, but the range could be better.",
+          "Rating": 4
+        }
+      },
+      {
+        "query": "Submit a review for me. I'm Emily Clark, and I just purchased a Ford Mustang. The performance is exhilarating, but the rear seats are cramped. I give it a 3.",
+        "filled_param": {
+          "UserName": "Emily Clark",
+          "ProductName": "Ford Mustang",
+          "ReviewText": "The performance is exhilarating, but the rear seats are cramped.",
+          "Rating": 3
+        }
+      },
+      {
+        "query": "My name is Alex Smith. I would like to review the BMW X5 which I bought last month. It's incredibly comfortable and spacious, perfect for family trips. I rate it 5.",
+        "filled_param": {
+          "UserName": "Alex Smith",
+          "ProductName": "BMW X5",
+          "ReviewText": "It's incredibly comfortable and spacious, perfect for family trips.",
+          "Rating": 5
+        }
+      },
+      {
+        "query": "Hey, this is Sarah Johnson. I've had the Honda Accord for a few weeks now. It's efficient but lacks a bit of excitement in the drive. I'd give it a 3.",
+        "filled_param": {
+          "UserName": "Sarah Johnson",
+          "ProductName": "Honda Accord",
+          "ReviewText": "It's efficient but lacks a bit of excitement in the drive.",
+          "Rating": 3
+        }
+      },
+      {
+        "query": "I want to leave a review. This is Michael Brown, and I bought a Chevrolet Bolt. The electric range is impressive and the interior is modern. My rating is 4.",
+        "filled_param": {
+          "UserName": "Michael Brown",
+          "ProductName": "Chevrolet Bolt",
+          "ReviewText": "The electric range is impressive and the interior is modern.",
+          "Rating": 4
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|cosmetic product|:|UserName,ProductName,ReviewText,Rating": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "cosmetic product",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating"
+    ],
+    "queries": [
+      {
+        "query": "Hi, I'm Alice and I want to review the cosmetic product 'Lush Dream Cream'. It's incredibly moisturizing and soothing, so I would rate it a 5.",
+        "filled_param": {
+          "UserName": "Alice",
+          "ProductName": "Lush Dream Cream",
+          "ReviewText": "It's incredibly moisturizing and soothing.",
+          "Rating": 5
+        }
+      },
+      {
+        "query": "My name is Bob, and I recently tried out the cosmetic product 'Maybelline Fit Me Foundation'. I found it to be lightweight but not long-lasting. I would give it a 3.",
+        "filled_param": {
+          "UserName": "Bob",
+          "ProductName": "Maybelline Fit Me Foundation",
+          "ReviewText": "I found it to be lightweight but not long-lasting.",
+          "Rating": 3
+        }
+      },
+      {
+        "query": "This is Clara, and I want to leave a review for the cosmetic product 'Nivea Soft Moisturizing Cream'. It's perfect for daily use, and I love the texture. Definitely a 4-star product.",
+        "filled_param": {
+          "UserName": "Clara",
+          "ProductName": "Nivea Soft Moisturizing Cream",
+          "ReviewText": "It's perfect for daily use, and I love the texture.",
+          "Rating": 4
+        }
+      },
+      {
+        "query": "I'm David. I used the cosmetic product 'Revlon ColorStay Lipstick'. The color payoff is fantastic, but it dries my lips a bit, so I'm rating it a 4.",
+        "filled_param": {
+          "UserName": "David",
+          "ProductName": "Revlon ColorStay Lipstick",
+          "ReviewText": "The color payoff is fantastic, but it dries my lips a bit.",
+          "Rating": 4
+        }
+      },
+      {
+        "query": "Hey, it's Emily. I got the cosmetic product 'Neutrogena Hydro Boost Water Gel'. It's refreshing and absorbs quickly, but a bit too pricey for the amount. I'd give it a 3.",
+        "filled_param": {
+          "UserName": "Emily",
+          "ProductName": "Neutrogena Hydro Boost Water Gel",
+          "ReviewText": "It's refreshing and absorbs quickly, but a bit too pricey for the amount.",
+          "Rating": 3
+        }
+      },
+      {
+        "query": "I'm Frank, and I tried the cosmetic product 'Olay Regenerist Micro-Sculpting Cream'. It really helps with fine lines and keeps the skin smooth. I'm giving it a 5-star review.",
+        "filled_param": {
+          "UserName": "Frank",
+          "ProductName": "Olay Regenerist Micro-Sculpting Cream",
+          "ReviewText": "It really helps with fine lines and keeps the skin smooth.",
+          "Rating": 5
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|home appliance|:|UserName,ProductName,ReviewText,Rating": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "home appliance",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating"
+    ],
+    "queries": [
+      {
+        "query": "Hi, this is Alex. I recently purchased the Dyson V11 vacuum and I think it's amazing. I'd give it a rating of 5 because it cleans exceptionally well and is very easy to use.",
+        "filled_param": {
+          "UserName": "Alex",
+          "ProductName": "Dyson V11 vacuum",
+          "ReviewText": "I think it's amazing. I'd give it a rating of 5 because it cleans exceptionally well and is very easy to use.",
+          "Rating": 5
+        }
+      },
+      {
+        "query": "I'm Jessica and I bought the Samsung Smart Fridge. It's quite innovative but has some connectivity issues. I'd rate it a 3.",
+        "filled_param": {
+          "UserName": "Jessica",
+          "ProductName": "Samsung Smart Fridge",
+          "ReviewText": "It's quite innovative but has some connectivity issues.",
+          "Rating": 3
+        }
+      },
+      {
+        "query": "This is Mark. I recently got the Philips Air Fryer. It's efficient and food comes out crispy, so I'll give it a 4.",
+        "filled_param": {
+          "UserName": "Mark",
+          "ProductName": "Philips Air Fryer",
+          "ReviewText": "It's efficient and food comes out crispy.",
+          "Rating": 4
+        }
+      },
+      {
+        "query": "My name is Emma and I purchased the Instant Pot Duo. It's versatile and easy to use, but cleaning is a hassle, so I'll rate it 4.",
+        "filled_param": {
+          "UserName": "Emma",
+          "ProductName": "Instant Pot Duo",
+          "ReviewText": "It's versatile and easy to use, but cleaning is a hassle.",
+          "Rating": 4
+        }
+      },
+      {
+        "query": "Hey, I'm Liam. The LG OLED TV I bought offers superb picture quality and I would rate it a 5.",
+        "filled_param": {
+          "UserName": "Liam",
+          "ProductName": "LG OLED TV",
+          "ReviewText": "Offers superb picture quality.",
+          "Rating": 5
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|clothing|:|UserName,ProductName,ReviewText,Rating": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "clothing",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating"
+    ],
+    "queries": [
+      {
+        "query": "This is John Doe with a review for the clothing item called 'Winter Cozy Sweater'. I found it exceptionally warm and comfortable, so I'm giving it a rating of 5.",
+        "filled_param": {
+          "UserName": "John Doe",
+          "ProductName": "Winter Cozy Sweater",
+          "ReviewText": "I found it exceptionally warm and comfortable.",
+          "Rating": 5
+        }
+      },
+      {
+        "query": "Hi, I'm Jane Smith, and I'd like to review the 'Slim Fit Jeans'. They fit perfectly but the material is a bit rough, so I'd rate them 3 out of 5.",
+        "filled_param": {
+          "UserName": "Jane Smith",
+          "ProductName": "Slim Fit Jeans",
+          "ReviewText": "They fit perfectly but the material is a bit rough.",
+          "Rating": 3
+        }
+      },
+      {
+        "query": "My name is Robert Brown, and here's my review for the 'Classic White T-Shirt'. It's versatile and affordable, earning a solid 4 stars.",
+        "filled_param": {
+          "UserName": "Robert Brown",
+          "ProductName": "Classic White T-Shirt",
+          "ReviewText": "It's versatile and affordable.",
+          "Rating": 4
+        }
+      },
+      {
+        "query": "I am Emily Jones providing feedback on the 'Stylish Summer Dress'. The design is beautiful, but the size runs small. I give it a 2.",
+        "filled_param": {
+          "UserName": "Emily Jones",
+          "ProductName": "Stylish Summer Dress",
+          "ReviewText": "The design is beautiful, but the size runs small.",
+          "Rating": 2
+        }
+      },
+      {
+        "query": "This is Michael Lee writing about the 'Leather Jacket'. It's high quality and looks great, deserving a top rating of 5.",
+        "filled_param": {
+          "UserName": "Michael Lee",
+          "ProductName": "Leather Jacket",
+          "ReviewText": "It's high quality and looks great.",
+          "Rating": 5
+        }
+      },
+      {
+        "query": "Hello, Sarah Wilson here, reviewing the 'Comfy Running Shoes'. They are lightweight and perfect for jogging, so I'm giving them a 4-star rating.",
+        "filled_param": {
+          "UserName": "Sarah Wilson",
+          "ProductName": "Comfy Running Shoes",
+          "ReviewText": "They are lightweight and perfect for jogging.",
+          "Rating": 4
+        }
+      }
+    ]
+  }
+}

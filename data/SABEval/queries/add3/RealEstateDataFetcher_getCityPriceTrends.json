@@ -1,0 +1,494 @@
+{
+  "RealEstateDataFetcher_getCityPriceTrends|:|real estate|:|city,dataFormat,timeRange,currency": {
+    "tool_template_name": "RealEstateDataFetcher_getCityPriceTrends",
+    "derived_class": "real estate",
+    "params_for_query": [
+      "city",
+      "dataFormat",
+      "timeRange",
+      "currency"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide real estate price trends for New York City in USD over the last month in a tabular format?",
+        "filled_param": {
+          "city": "New York City",
+          "dataFormat": "tabular",
+          "timeRange": "last_month",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "Please analyze the real estate price changes in Tokyo using Japanese Yen for the last year, and present it in a graphical format.",
+        "filled_param": {
+          "city": "Tokyo",
+          "dataFormat": "graphical",
+          "timeRange": "last_year",
+          "currency": "JPY"
+        }
+      },
+      {
+        "query": "What are the recent trends in real estate prices in London? I'd like the data in GBP for the last week in a textual summary.",
+        "filled_param": {
+          "city": "London",
+          "dataFormat": "textual",
+          "timeRange": "last_week",
+          "currency": "GBP"
+        }
+      },
+      {
+        "query": "Fetch the real estate price trends for Sydney over the last year in AUD, presented in a chart format.",
+        "filled_param": {
+          "city": "Sydney",
+          "dataFormat": "chart",
+          "timeRange": "last_year",
+          "currency": "AUD"
+        }
+      },
+      {
+        "query": "Give me a breakdown of real estate price trends in Paris in EUR for the last month with tabular data.",
+        "filled_param": {
+          "city": "Paris",
+          "dataFormat": "tabular",
+          "timeRange": "last_month",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "Provide insights into the real estate market trends in Dubai for the last week formatted as a graph and using AED.",
+        "filled_param": {
+          "city": "Dubai",
+          "dataFormat": "graph",
+          "timeRange": "last_week",
+          "currency": "AED"
+        }
+      }
+    ]
+  },
+  "RealEstateDataFetcher_getCityPriceTrends|:|used cars|:|city,dataFormat,timeRange,currency": {
+    "tool_template_name": "RealEstateDataFetcher_getCityPriceTrends",
+    "derived_class": "used cars",
+    "params_for_query": [
+      "city",
+      "dataFormat",
+      "timeRange",
+      "currency"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the used cars price trends for Los Angeles in a chart format for the last month, using USD?",
+        "filled_param": {
+          "city": "Los Angeles",
+          "dataFormat": "chart",
+          "timeRange": "last_month",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "Fetch the latest trends in used cars prices in Tokyo, presented as a table, for the past year, with values in JPY.",
+        "filled_param": {
+          "city": "Tokyo",
+          "dataFormat": "table",
+          "timeRange": "last_year",
+          "currency": "JPY"
+        }
+      },
+      {
+        "query": "I need an analysis of used cars price trends in Berlin for the last week, displayed in a report, and converted to EUR.",
+        "filled_param": {
+          "city": "Berlin",
+          "dataFormat": "report",
+          "timeRange": "last_week",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "Generate a graph of used cars pricing trends over the last year for New York, using currency in USD.",
+        "filled_param": {
+          "city": "New York",
+          "dataFormat": "graph",
+          "timeRange": "last_year",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "What are the current trends in used cars pricing in Sydney for the past month? Please provide the information in a spreadsheet format using AUD.",
+        "filled_param": {
+          "city": "Sydney",
+          "dataFormat": "spreadsheet",
+          "timeRange": "last_month",
+          "currency": "AUD"
+        }
+      }
+    ]
+  },
+  "RealEstateDataFetcher_getCityPriceTrends|:|agricultural products|:|city,dataFormat,timeRange,currency": {
+    "tool_template_name": "RealEstateDataFetcher_getCityPriceTrends",
+    "derived_class": "agricultural products",
+    "params_for_query": [
+      "city",
+      "dataFormat",
+      "timeRange",
+      "currency"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the latest agricultural products price trends for New York in a tabular format for the last week, using USD?",
+        "filled_param": {
+          "city": "New York",
+          "dataFormat": "tabular",
+          "timeRange": "last_week",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "I need agricultural products price data for Los Angeles in the form of a summary covering the last year, and please use EUR.",
+        "filled_param": {
+          "city": "Los Angeles",
+          "dataFormat": "summary",
+          "timeRange": "last_year",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "Fetch a graphical representation of agricultural products' price trends in Tokyo for the last month in JPY.",
+        "filled_param": {
+          "city": "Tokyo",
+          "dataFormat": "graphical",
+          "timeRange": "last_month",
+          "currency": "JPY"
+        }
+      },
+      {
+        "query": "Provide agricultural products price analysis for Berlin using CSV format for the last month, in EUR.",
+        "filled_param": {
+          "city": "Berlin",
+          "dataFormat": "CSV",
+          "timeRange": "last_month",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "What are the agricultural products' price trends in Mumbai over the last week? I prefer the data in JSON format and INR currency.",
+        "filled_param": {
+          "city": "Mumbai",
+          "dataFormat": "JSON",
+          "timeRange": "last_week",
+          "currency": "INR"
+        }
+      },
+      {
+        "query": "I'd like to see the latest trends in agricultural products prices in Sydney for the past year, formatted as a detailed report in AUD.",
+        "filled_param": {
+          "city": "Sydney",
+          "dataFormat": "detailed report",
+          "timeRange": "last_year",
+          "currency": "AUD"
+        }
+      }
+    ]
+  },
+  "RealEstateDataFetcher_getCityPriceTrends|:|petroleum|:|city,dataFormat,timeRange,currency": {
+    "tool_template_name": "RealEstateDataFetcher_getCityPriceTrends",
+    "derived_class": "petroleum",
+    "params_for_query": [
+      "city",
+      "dataFormat",
+      "timeRange",
+      "currency"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the petroleum price trends for New York in USD for the last month in a graphical format?",
+        "filled_param": {
+          "city": "New York",
+          "dataFormat": "graphical",
+          "timeRange": "last_month",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "I need an analysis of petroleum price changes in Los Angeles over the past year, displayed in a tabular format using Euros.",
+        "filled_param": {
+          "city": "Los Angeles",
+          "dataFormat": "tabular",
+          "timeRange": "last_year",
+          "currency": "Euros"
+        }
+      },
+      {
+        "query": "Fetch the petroleum price trends for Tokyo, focusing on the last week, in Japanese Yen and provide the data in a downloadable CSV format.",
+        "filled_param": {
+          "city": "Tokyo",
+          "dataFormat": "CSV",
+          "timeRange": "last_week",
+          "currency": "Japanese Yen"
+        }
+      },
+      {
+        "query": "Could you show the petroleum price trends in London for the last month in USD, preferably in a detailed report format?",
+        "filled_param": {
+          "city": "London",
+          "dataFormat": "detailed report",
+          "timeRange": "last_month",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "I'd like to see the petroleum price trends for Sydney in Australian Dollars over the past week, and could you present this in a summary format?",
+        "filled_param": {
+          "city": "Sydney",
+          "dataFormat": "summary",
+          "timeRange": "last_week",
+          "currency": "Australian Dollars"
+        }
+      }
+    ]
+  },
+  "RealEstateDataFetcher_getCityPriceTrends|:|digital products|:|city,dataFormat,timeRange,currency": {
+    "tool_template_name": "RealEstateDataFetcher_getCityPriceTrends",
+    "derived_class": "digital products",
+    "params_for_query": [
+      "city",
+      "dataFormat",
+      "timeRange",
+      "currency"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the latest digital products price trends in New York for the last month in USD, formatted as a PDF?",
+        "filled_param": {
+          "city": "New York",
+          "dataFormat": "PDF",
+          "timeRange": "last_month",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "I need digital products price analysis for Tokyo over the last year, in CSV format, using Japanese Yen.",
+        "filled_param": {
+          "city": "Tokyo",
+          "dataFormat": "CSV",
+          "timeRange": "last_year",
+          "currency": "JPY"
+        }
+      },
+      {
+        "query": "Fetch the digital products pricing trends in Berlin for the past week in Euros, and please provide the data as a JSON file.",
+        "filled_param": {
+          "city": "Berlin",
+          "dataFormat": "JSON",
+          "timeRange": "last_week",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "Could you analyze digital products price trends in Sydney for the last month? I'd like the results in AUD as an Excel file.",
+        "filled_param": {
+          "city": "Sydney",
+          "dataFormat": "Excel",
+          "timeRange": "last_month",
+          "currency": "AUD"
+        }
+      },
+      {
+        "query": "What are the current digital products price trends in Paris over the past year, in USD, and I'd like it in a Word document format?",
+        "filled_param": {
+          "city": "Paris",
+          "dataFormat": "Word",
+          "timeRange": "last_year",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "Provide me with a report on digital products price trends in London for the last week, formatted as a PDF, and in GBP.",
+        "filled_param": {
+          "city": "London",
+          "dataFormat": "PDF",
+          "timeRange": "last_week",
+          "currency": "GBP"
+        }
+      }
+    ]
+  },
+  "RealEstateDataFetcher_getCityPriceTrends|:|education courses|:|city,dataFormat,timeRange,currency": {
+    "tool_template_name": "RealEstateDataFetcher_getCityPriceTrends",
+    "derived_class": "education courses",
+    "params_for_query": [
+      "city",
+      "dataFormat",
+      "timeRange",
+      "currency"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the latest education courses price trends in New York over the last month in USD, formatted as a spreadsheet?",
+        "filled_param": {
+          "city": "New York",
+          "dataFormat": "spreadsheet",
+          "timeRange": "last_month",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "I need a report on education courses price trends for the past year in London, presented in a PDF document and shown in GBP.",
+        "filled_param": {
+          "city": "London",
+          "dataFormat": "PDF",
+          "timeRange": "last_year",
+          "currency": "GBP"
+        }
+      },
+      {
+        "query": "Fetch the education courses price trends for Tokyo, covering the last week, in Japanese Yen, with the output in a CSV file.",
+        "filled_param": {
+          "city": "Tokyo",
+          "dataFormat": "CSV",
+          "timeRange": "last_week",
+          "currency": "JPY"
+        }
+      },
+      {
+        "query": "Can you analyze the education courses price trends for Sydney over the last month in Australian Dollars and present it in an Excel file?",
+        "filled_param": {
+          "city": "Sydney",
+          "dataFormat": "Excel",
+          "timeRange": "last_month",
+          "currency": "AUD"
+        }
+      },
+      {
+        "query": "I'd like to see education courses price trends for the previous year in Berlin with prices in Euros, formatted as a detailed HTML report.",
+        "filled_param": {
+          "city": "Berlin",
+          "dataFormat": "HTML",
+          "timeRange": "last_year",
+          "currency": "EUR"
+        }
+      }
+    ]
+  },
+  "RealEstateDataFetcher_getCityPriceTrends|:|dairy products|:|city,dataFormat,timeRange,currency": {
+    "tool_template_name": "RealEstateDataFetcher_getCityPriceTrends",
+    "derived_class": "dairy products",
+    "params_for_query": [
+      "city",
+      "dataFormat",
+      "timeRange",
+      "currency"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the latest dairy products price trends for New York in USD for the last month, formatted as a spreadsheet?",
+        "filled_param": {
+          "city": "New York",
+          "dataFormat": "spreadsheet",
+          "timeRange": "last_month",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "I'd like to see the dairy products price trends in Tokyo over the last week, in JPY, presented in a chart.",
+        "filled_param": {
+          "city": "Tokyo",
+          "dataFormat": "chart",
+          "timeRange": "last_week",
+          "currency": "JPY"
+        }
+      },
+      {
+        "query": "Please fetch the dairy products' price analysis for London for the last year in GBP, and display it as a table.",
+        "filled_param": {
+          "city": "London",
+          "dataFormat": "table",
+          "timeRange": "last_year",
+          "currency": "GBP"
+        }
+      },
+      {
+        "query": "What are the current dairy products price trends in Sydney over the past month in AUD, shown in a report format?",
+        "filled_param": {
+          "city": "Sydney",
+          "dataFormat": "report",
+          "timeRange": "last_month",
+          "currency": "AUD"
+        }
+      },
+      {
+        "query": "Could you get the dairy products price trends for Paris for the last week in EUR, formatted as a summary?",
+        "filled_param": {
+          "city": "Paris",
+          "dataFormat": "summary",
+          "timeRange": "last_week",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "Show me the dairy products pricing trends in Berlin from the past year in EUR, presented in a graph.",
+        "filled_param": {
+          "city": "Berlin",
+          "dataFormat": "graph",
+          "timeRange": "last_year",
+          "currency": "EUR"
+        }
+      }
+    ]
+  },
+  "RealEstateDataFetcher_getCityPriceTrends|:|clothing|:|city,dataFormat,timeRange,currency": {
+    "tool_template_name": "RealEstateDataFetcher_getCityPriceTrends",
+    "derived_class": "clothing",
+    "params_for_query": [
+      "city",
+      "dataFormat",
+      "timeRange",
+      "currency"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the latest clothing price trends in New York for the last month in USD as a detailed report?",
+        "filled_param": {
+          "city": "New York",
+          "dataFormat": "detailed report",
+          "timeRange": "last_month",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "What are the recent clothing price changes in Paris over the last week using Euros in a summary format?",
+        "filled_param": {
+          "city": "Paris",
+          "dataFormat": "summary",
+          "timeRange": "last_week",
+          "currency": "Euros"
+        }
+      },
+      {
+        "query": "Fetch the clothing price trends for the last year in Tokyo, displayed as a comprehensive analysis in Japanese Yen.",
+        "filled_param": {
+          "city": "Tokyo",
+          "dataFormat": "comprehensive analysis",
+          "timeRange": "last_year",
+          "currency": "Japanese Yen"
+        }
+      },
+      {
+        "query": "I'd like to know the clothing pricing trends in Sydney for the last month, formatted as a concise overview in Australian Dollars.",
+        "filled_param": {
+          "city": "Sydney",
+          "dataFormat": "concise overview",
+          "timeRange": "last_month",
+          "currency": "Australian Dollars"
+        }
+      },
+      {
+        "query": "Provide an analysis of clothing prices in Berlin over the last year, using the Euro as currency, presented in a detailed report.",
+        "filled_param": {
+          "city": "Berlin",
+          "dataFormat": "detailed report",
+          "timeRange": "last_year",
+          "currency": "Euro"
+        }
+      }
+    ]
+  }
+}

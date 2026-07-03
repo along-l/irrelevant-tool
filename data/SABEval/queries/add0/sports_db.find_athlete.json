@@ -1,0 +1,590 @@
+{
+  "sports_db.find_athlete|:|basketball|:|name": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "basketball",
+    "params_for_query": [
+      "name"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the profile of the basketball player Michael Jordan?",
+        "filled_param": {
+          "name": "Michael Jordan"
+        }
+      },
+      {
+        "query": "I need to find the details of the basketball athlete LeBron James.",
+        "filled_param": {
+          "name": "LeBron James"
+        }
+      },
+      {
+        "query": "Who is Stephen Curry according to his basketball profile?",
+        "filled_param": {
+          "name": "Stephen Curry"
+        }
+      },
+      {
+        "query": "Get me the profile information of the basketball player Lisa Leslie.",
+        "filled_param": {
+          "name": "Lisa Leslie"
+        }
+      },
+      {
+        "query": "Retrieve the basketball athlete profile for Shaquille O'Neal.",
+        "filled_param": {
+          "name": "Shaquille O'Neal"
+        }
+      },
+      {
+        "query": "Could you find the basketball profile details of Kobe Bryant?",
+        "filled_param": {
+          "name": "Kobe Bryant"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|soccer|:|name": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "soccer",
+    "params_for_query": [
+      "name"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the profile information of the soccer player Lionel Messi?",
+        "filled_param": {
+          "name": "Lionel Messi"
+        }
+      },
+      {
+        "query": "I need details about the soccer athlete Cristiano Ronaldo.",
+        "filled_param": {
+          "name": "Cristiano Ronaldo"
+        }
+      },
+      {
+        "query": "Fetch the profile of the soccer player Neymar Jr. for me.",
+        "filled_param": {
+          "name": "Neymar Jr."
+        }
+      },
+      {
+        "query": "What can you tell me about the soccer player Megan Rapinoe?",
+        "filled_param": {
+          "name": "Megan Rapinoe"
+        }
+      },
+      {
+        "query": "Please find the profile information for the soccer athlete Alex Morgan.",
+        "filled_param": {
+          "name": "Alex Morgan"
+        }
+      },
+      {
+        "query": "I'd like to know more about the soccer player Kylian Mbappe. Can you help?",
+        "filled_param": {
+          "name": "Kylian Mbappe"
+        }
+      },
+      {
+        "query": "Get me the profile details of the soccer player Virgil van Dijk.",
+        "filled_param": {
+          "name": "Virgil van Dijk"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|baseball|:|name": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "baseball",
+    "params_for_query": [
+      "name"
+    ],
+    "queries": [
+      {
+        "query": "Can you find the profile of the baseball player Mike Trout?",
+        "filled_param": {
+          "name": "Mike Trout"
+        }
+      },
+      {
+        "query": "Please provide the details for the baseball athlete named Aaron Judge.",
+        "filled_param": {
+          "name": "Aaron Judge"
+        }
+      },
+      {
+        "query": "I'm looking for information on baseball player Shohei Ohtani.",
+        "filled_param": {
+          "name": "Shohei Ohtani"
+        }
+      },
+      {
+        "query": "Could you give me the background of the baseball athlete with the name Clayton Kershaw?",
+        "filled_param": {
+          "name": "Clayton Kershaw"
+        }
+      },
+      {
+        "query": "Who is the baseball player named Jacob deGrom? Tell me more about him.",
+        "filled_param": {
+          "name": "Jacob deGrom"
+        }
+      },
+      {
+        "query": "Find the profile for the baseball athlete named Bryce Harper.",
+        "filled_param": {
+          "name": "Bryce Harper"
+        }
+      },
+      {
+        "query": "I'd like to know more about the baseball player Fernando Tatis Jr.",
+        "filled_param": {
+          "name": "Fernando Tatis Jr."
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|american football|:|name": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "american football",
+    "params_for_query": [
+      "name"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the profile of the American football player Tom Brady?",
+        "filled_param": {
+          "name": "Tom Brady"
+        }
+      },
+      {
+        "query": "I'd like to know more about the American football career of Peyton Manning.",
+        "filled_param": {
+          "name": "Peyton Manning"
+        }
+      },
+      {
+        "query": "Find details about the American football athlete Patrick Mahomes.",
+        "filled_param": {
+          "name": "Patrick Mahomes"
+        }
+      },
+      {
+        "query": "Who is the American football player Aaron Rodgers? Please share his profile.",
+        "filled_param": {
+          "name": "Aaron Rodgers"
+        }
+      },
+      {
+        "query": "Give me the profile of the American football star Russell Wilson.",
+        "filled_param": {
+          "name": "Russell Wilson"
+        }
+      },
+      {
+        "query": "Could you look up information on the American football player Drew Brees?",
+        "filled_param": {
+          "name": "Drew Brees"
+        }
+      },
+      {
+        "query": "I need some background information on the American football athlete Odell Beckham Jr.",
+        "filled_param": {
+          "name": "Odell Beckham Jr."
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|ice hockey|:|name": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "ice hockey",
+    "params_for_query": [
+      "name"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the profile information for the ice hockey player Wayne Gretzky?",
+        "filled_param": {
+          "name": "Wayne Gretzky"
+        }
+      },
+      {
+        "query": "I’m looking for details about the ice hockey athlete Sidney Crosby. Can you help?",
+        "filled_param": {
+          "name": "Sidney Crosby"
+        }
+      },
+      {
+        "query": "Find the profile of the ice hockey player known as Alex Ovechkin.",
+        "filled_param": {
+          "name": "Alex Ovechkin"
+        }
+      },
+      {
+        "query": "Can you give me information on the ice hockey athlete Connor McDavid?",
+        "filled_param": {
+          "name": "Connor McDavid"
+        }
+      },
+      {
+        "query": "What can you tell me about the ice hockey player Patrick Kane?",
+        "filled_param": {
+          "name": "Patrick Kane"
+        }
+      },
+      {
+        "query": "Please find information on ice hockey player Jaromir Jagr.",
+        "filled_param": {
+          "name": "Jaromir Jagr"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|volleyball|:|name": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "volleyball",
+    "params_for_query": [
+      "name"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the profile information for the volleyball player Karch Kiraly?",
+        "filled_param": {
+          "name": "Karch Kiraly"
+        }
+      },
+      {
+        "query": "I need details on the volleyball athlete Samantha Bricio.",
+        "filled_param": {
+          "name": "Samantha Bricio"
+        }
+      },
+      {
+        "query": "Could you find the profile of the volleyball player Giba?",
+        "filled_param": {
+          "name": "Giba"
+        }
+      },
+      {
+        "query": "What's the profile of the volleyball athlete Zhu Ting?",
+        "filled_param": {
+          "name": "Zhu Ting"
+        }
+      },
+      {
+        "query": "Please locate the information on volleyball player Matt Anderson.",
+        "filled_param": {
+          "name": "Matt Anderson"
+        }
+      },
+      {
+        "query": "Find the player profile for the volleyball star Jordan Larson.",
+        "filled_param": {
+          "name": "Jordan Larson"
+        }
+      },
+      {
+        "query": "I would like to know more about the volleyball player Sergey Tetyukhin.",
+        "filled_param": {
+          "name": "Sergey Tetyukhin"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|esports|:|name": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "esports",
+    "params_for_query": [
+      "name"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the profile details of the esports athlete Faker?",
+        "filled_param": {
+          "name": "Faker"
+        }
+      },
+      {
+        "query": "I'd like to know more about the esports player s1mple.",
+        "filled_param": {
+          "name": "s1mple"
+        }
+      },
+      {
+        "query": "Could you find the profile information for the esports athlete known as Doublelift?",
+        "filled_param": {
+          "name": "Doublelift"
+        }
+      },
+      {
+        "query": "Please give me the details on the esports competitor Shroud.",
+        "filled_param": {
+          "name": "Shroud"
+        }
+      },
+      {
+        "query": "Who is the esports athlete Ninja? I need his profile information.",
+        "filled_param": {
+          "name": "Ninja"
+        }
+      },
+      {
+        "query": "Retrieve the profile for the esports player called Caps.",
+        "filled_param": {
+          "name": "Caps"
+        }
+      },
+      {
+        "query": "Tell me about esports athlete Rekkles. What is his profile?",
+        "filled_param": {
+          "name": "Rekkles"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|cricket|:|name": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "cricket",
+    "params_for_query": [
+      "name"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the profile information for the cricket athlete Virat Kohli?",
+        "filled_param": {
+          "name": "Virat Kohli"
+        }
+      },
+      {
+        "query": "I'm looking for details about the cricket player Sarah Taylor.",
+        "filled_param": {
+          "name": "Sarah Taylor"
+        }
+      },
+      {
+        "query": "Please find the profile of cricket athlete Babar Azam.",
+        "filled_param": {
+          "name": "Babar Azam"
+        }
+      },
+      {
+        "query": "Could you get me the information on the cricket player Ellyse Perry?",
+        "filled_param": {
+          "name": "Ellyse Perry"
+        }
+      },
+      {
+        "query": "Who is the cricket athlete Rashid Khan? I need his profile details.",
+        "filled_param": {
+          "name": "Rashid Khan"
+        }
+      },
+      {
+        "query": "I need the profile of the cricket player AB de Villiers.",
+        "filled_param": {
+          "name": "AB de Villiers"
+        }
+      },
+      {
+        "query": "What can you tell me about the cricket athlete Smriti Mandhana?",
+        "filled_param": {
+          "name": "Smriti Mandhana"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|rugby union|:|name": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "rugby union",
+    "params_for_query": [
+      "name"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide me with the profile information for the rugby union player Richie McCaw?",
+        "filled_param": {
+          "name": "Richie McCaw"
+        }
+      },
+      {
+        "query": "I need details on the rugby union athlete Jonny Wilkinson.",
+        "filled_param": {
+          "name": "Jonny Wilkinson"
+        }
+      },
+      {
+        "query": "Find the profile of rugby union player Siya Kolisi.",
+        "filled_param": {
+          "name": "Siya Kolisi"
+        }
+      },
+      {
+        "query": "Please give me the information on the rugby union athlete Maro Itoje.",
+        "filled_param": {
+          "name": "Maro Itoje"
+        }
+      },
+      {
+        "query": "What can you tell me about the rugby union player Beauden Barrett?",
+        "filled_param": {
+          "name": "Beauden Barrett"
+        }
+      },
+      {
+        "query": "Fetch the profile information for rugby union player Brian O'Driscoll.",
+        "filled_param": {
+          "name": "Brian O'Driscoll"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|handball|:|name": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "handball",
+    "params_for_query": [
+      "name"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the profile information for the handball player Nikola Karabatic?",
+        "filled_param": {
+          "name": "Nikola Karabatic"
+        }
+      },
+      {
+        "query": "I'm looking for details about the handball athlete Cristina Neagu. What can you find?",
+        "filled_param": {
+          "name": "Cristina Neagu"
+        }
+      },
+      {
+        "query": "Who is Anders Eggert? Please find his handball athlete profile.",
+        "filled_param": {
+          "name": "Anders Eggert"
+        }
+      },
+      {
+        "query": "Can you give me some information on the handball player Mikkel Hansen?",
+        "filled_param": {
+          "name": "Mikkel Hansen"
+        }
+      },
+      {
+        "query": "What details are available for the handball athlete Eduarda Amorim?",
+        "filled_param": {
+          "name": "Eduarda Amorim"
+        }
+      },
+      {
+        "query": "Find the profile of the handball player Thierry Omeyer.",
+        "filled_param": {
+          "name": "Thierry Omeyer"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|futsal|:|name": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "futsal",
+    "params_for_query": [
+      "name"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the profile of the futsal player Ricardinho?",
+        "filled_param": {
+          "name": "Ricardinho"
+        }
+      },
+      {
+        "query": "I need details about the futsal athlete Falcão. Can you find his profile?",
+        "filled_param": {
+          "name": "Falcão"
+        }
+      },
+      {
+        "query": "Tell me about the career of futsal player Kike Boned.",
+        "filled_param": {
+          "name": "Kike Boned"
+        }
+      },
+      {
+        "query": "Could you look up the profile for futsal athlete Adriano Foglia?",
+        "filled_param": {
+          "name": "Adriano Foglia"
+        }
+      },
+      {
+        "query": "Find the profile information of futsal player Javi Rodríguez.",
+        "filled_param": {
+          "name": "Javi Rodríguez"
+        }
+      },
+      {
+        "query": "What's in the profile of the futsal player Neto?",
+        "filled_param": {
+          "name": "Neto"
+        }
+      },
+      {
+        "query": "I'd like to know more about the futsal player Carlos Ortiz. Can you access his profile?",
+        "filled_param": {
+          "name": "Carlos Ortiz"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|field hockey|:|name": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "field hockey",
+    "params_for_query": [
+      "name"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the profile of field hockey player Luciana Aymar?",
+        "filled_param": {
+          "name": "Luciana Aymar"
+        }
+      },
+      {
+        "query": "Find me information on the field hockey athlete Jamie Dwyer.",
+        "filled_param": {
+          "name": "Jamie Dwyer"
+        }
+      },
+      {
+        "query": "I need the details of the field hockey player known as Ellen Hoog.",
+        "filled_param": {
+          "name": "Ellen Hoog"
+        }
+      },
+      {
+        "query": "Get me the athlete profile for field hockey player Ashley Jackson.",
+        "filled_param": {
+          "name": "Ashley Jackson"
+        }
+      },
+      {
+        "query": "Who is the field hockey athlete Mark Knowles? Can you find his profile?",
+        "filled_param": {
+          "name": "Mark Knowles"
+        }
+      },
+      {
+        "query": "Please find the profile information for field hockey player Maartje Paumen.",
+        "filled_param": {
+          "name": "Maartje Paumen"
+        }
+      },
+      {
+        "query": "What details are available for field hockey's famous player Teun de Nooijer?",
+        "filled_param": {
+          "name": "Teun de Nooijer"
+        }
+      }
+    ]
+  }
+}

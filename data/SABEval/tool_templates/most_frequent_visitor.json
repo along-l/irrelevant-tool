@@ -1,0 +1,66 @@
+{
+  "tool_template_name": "most_frequent_visitor",
+  "meta_data": {
+    "base_class": "retrieve the most frequent visitor within a specific <public venue> over a given period - these venues record visitor data and support visit frequency analysis.",
+    "derived_classes": [
+      "museum",
+      "art gallery",
+      "library",
+      "zoo",
+      "aquarium",
+      "botanical garden",
+      "amusement park"
+    ],
+    "base_class_entity": "museum"
+  },
+  "tool_template": {
+    "name": "most_frequent_<class>_visitor",
+    "description": "Retrieve the visitor who visited the <class> the most within a given period.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "venue_name": {
+          "type": "string",
+          "description": "The name of the <class>."
+        },
+        "start_date": {
+          "type": "string",
+          "description": "The start date of the period, format: yyyy-mm-dd."
+        },
+        "end_date": {
+          "type": "string",
+          "description": "The end date of the period, format: yyyy-mm-dd."
+        }
+      },
+      "required": [
+        "venue_name",
+        "start_date",
+        "end_date"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "minimum_visits": {
+      "type": "integer",
+      "description": "The minimum number of visits to qualify."
+    }
+  },
+  "additional_params": {
+    "include_special_events": {
+      "type": "boolean",
+      "description": "Whether to include visits during special events at the <class>."
+    },
+    "age_group": {
+      "type": "string",
+      "description": "The age group of visitors to consider, options: 'child', 'adult', 'all'."
+    },
+    "include_repeat_same_day": {
+      "type": "boolean",
+      "description": "Indicates whether multiple visits by the same visitor to the <class> on the same day should be counted as separate visits."
+    },
+    "return_summary_statistics": {
+      "type": "boolean",
+      "description": "Indicates whether to include aggregate statistics in the output, such as average visit frequency or variance across all visitors to the <class>."
+    }
+  }
+}

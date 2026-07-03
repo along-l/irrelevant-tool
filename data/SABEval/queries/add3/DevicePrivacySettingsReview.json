@@ -1,0 +1,526 @@
+{
+  "DevicePrivacySettingsReview|:|personal computer|:|device_serial,current_privacy_level,user_consent_status,location_services_enabled,third_party_integrations": {
+    "tool_template_name": "DevicePrivacySettingsReview",
+    "derived_class": "personal computer",
+    "params_for_query": [
+      "device_serial",
+      "current_privacy_level",
+      "user_consent_status",
+      "location_services_enabled",
+      "third_party_integrations"
+    ],
+    "queries": [
+      {
+        "query": "Can you check the privacy settings for my personal computer with serial number ABCD123456? It's currently set to low privacy level, user consent for data collection is given, location services are on, and it has 5 third-party integrations.",
+        "filled_param": {
+          "device_serial": "ABCD123456",
+          "current_privacy_level": "low",
+          "user_consent_status": true,
+          "location_services_enabled": true,
+          "third_party_integrations": 5
+        }
+      },
+      {
+        "query": "Review the privacy setup on my personal computer. The serial number is PC9876543210. It has a medium privacy level, user consent is not provided, location services are disabled, and there are 3 third-party connections.",
+        "filled_param": {
+          "device_serial": "PC9876543210",
+          "current_privacy_level": "medium",
+          "user_consent_status": false,
+          "location_services_enabled": false,
+          "third_party_integrations": 3
+        }
+      },
+      {
+        "query": "I need advice on improving the privacy settings of my personal computer. The device serial is 12345XYZ6789. It is set to high privacy, data collection is consented, location services are off, and it has 2 third-party apps.",
+        "filled_param": {
+          "device_serial": "12345XYZ6789",
+          "current_privacy_level": "high",
+          "user_consent_status": true,
+          "location_services_enabled": false,
+          "third_party_integrations": 2
+        }
+      },
+      {
+        "query": "Please evaluate the privacy settings of my personal computer with serial 0A1B2C3D4E. It currently operates at a low privacy level, does not have user consent for data collection, has location services enabled, and 8 third-party integrations.",
+        "filled_param": {
+          "device_serial": "0A1B2C3D4E",
+          "current_privacy_level": "low",
+          "user_consent_status": false,
+          "location_services_enabled": true,
+          "third_party_integrations": 8
+        }
+      },
+      {
+        "query": "Suggest improvements for the privacy configuration of my personal computer. The serial number is 98765LMNOPQ. It's at a medium privacy level, user consent is granted, location services are enabled, and there are 4 third-party integrations.",
+        "filled_param": {
+          "device_serial": "98765LMNOPQ",
+          "current_privacy_level": "medium",
+          "user_consent_status": true,
+          "location_services_enabled": true,
+          "third_party_integrations": 4
+        }
+      }
+    ]
+  },
+  "DevicePrivacySettingsReview|:|smartphone|:|device_serial,current_privacy_level,user_consent_status,location_services_enabled,third_party_integrations": {
+    "tool_template_name": "DevicePrivacySettingsReview",
+    "derived_class": "smartphone",
+    "params_for_query": [
+      "device_serial",
+      "current_privacy_level",
+      "user_consent_status",
+      "location_services_enabled",
+      "third_party_integrations"
+    ],
+    "queries": [
+      {
+        "query": "Please review the privacy settings for my smartphone with the serial number A1B2C3D4E5. The current privacy level is set to low, user consent status is true, location services are disabled, and there are 2 third-party integrations.",
+        "filled_param": {
+          "device_serial": "A1B2C3D4E5",
+          "current_privacy_level": "low",
+          "user_consent_status": true,
+          "location_services_enabled": false,
+          "third_party_integrations": 2
+        }
+      },
+      {
+        "query": "I need an assessment of my smartphone's privacy settings. The serial is ZXCVBNM12345, with a high privacy level. User consent is not given, location services are off, and 5 third-party apps are connected.",
+        "filled_param": {
+          "device_serial": "ZXCVBNM12345",
+          "current_privacy_level": "high",
+          "user_consent_status": false,
+          "location_services_enabled": false,
+          "third_party_integrations": 5
+        }
+      },
+      {
+        "query": "Could you suggest improvements to the privacy settings for my smartphone? The serial number is 12345ASDFG, currently set to medium privacy level, with user consent provided, location services on, and 3 third-party integrations.",
+        "filled_param": {
+          "device_serial": "12345ASDFG",
+          "current_privacy_level": "medium",
+          "user_consent_status": true,
+          "location_services_enabled": true,
+          "third_party_integrations": 3
+        }
+      },
+      {
+        "query": "Check the privacy settings of my smartphone. The serial number is QWERTY98765, with a current privacy level of medium. User consent is true, location services are enabled, and there are 1 third-party integrations.",
+        "filled_param": {
+          "device_serial": "QWERTY98765",
+          "current_privacy_level": "medium",
+          "user_consent_status": true,
+          "location_services_enabled": true,
+          "third_party_integrations": 1
+        }
+      },
+      {
+        "query": "Review the privacy setup on my smartphone, serial 09876LKJHG. The privacy level is low, user consent is false, location services are off, and there are 4 third-party connections.",
+        "filled_param": {
+          "device_serial": "09876LKJHG",
+          "current_privacy_level": "low",
+          "user_consent_status": false,
+          "location_services_enabled": false,
+          "third_party_integrations": 4
+        }
+      },
+      {
+        "query": "Can you evaluate the privacy settings for my smartphone? The serial is 1A2B3C4D5E6F, with high privacy settings, no user consent, location services disabled, and 0 third-party connections.",
+        "filled_param": {
+          "device_serial": "1A2B3C4D5E6F",
+          "current_privacy_level": "high",
+          "user_consent_status": false,
+          "location_services_enabled": false,
+          "third_party_integrations": 0
+        }
+      }
+    ]
+  },
+  "DevicePrivacySettingsReview|:|smart car|:|device_serial,current_privacy_level,user_consent_status,location_services_enabled,third_party_integrations": {
+    "tool_template_name": "DevicePrivacySettingsReview",
+    "derived_class": "smart car",
+    "params_for_query": [
+      "device_serial",
+      "current_privacy_level",
+      "user_consent_status",
+      "location_services_enabled",
+      "third_party_integrations"
+    ],
+    "queries": [
+      {
+        "query": "Can you review the privacy settings for my smart car with the serial number SCAR123456? The current privacy level is set to low, user consent is provided, location services are enabled, and there are 3 third-party integrations.",
+        "filled_param": {
+          "device_serial": "SCAR123456",
+          "current_privacy_level": "low",
+          "user_consent_status": true,
+          "location_services_enabled": true,
+          "third_party_integrations": 3
+        }
+      },
+      {
+        "query": "I need an evaluation of the privacy settings for my smart car, serial number 9876CAR0987. The privacy level is high, I have not given consent for data collection, location services are off, and there are 5 third-party integrations.",
+        "filled_param": {
+          "device_serial": "9876CAR0987",
+          "current_privacy_level": "high",
+          "user_consent_status": false,
+          "location_services_enabled": false,
+          "third_party_integrations": 5
+        }
+      },
+      {
+        "query": "Please suggest improvements for the privacy settings of my smart car with serial code CAR1234XYZ. Currently, the privacy level is set to medium, user consent is not given, location services are active, and there are 2 third-party integrations.",
+        "filled_param": {
+          "device_serial": "CAR1234XYZ",
+          "current_privacy_level": "medium",
+          "user_consent_status": false,
+          "location_services_enabled": true,
+          "third_party_integrations": 2
+        }
+      },
+      {
+        "query": "Review the privacy settings for my smart car with the serial number 1A2B3C4D5E6. The privacy level is low, consent is granted, location services are disabled, and there is 1 third-party integration.",
+        "filled_param": {
+          "device_serial": "1A2B3C4D5E6",
+          "current_privacy_level": "low",
+          "user_consent_status": true,
+          "location_services_enabled": false,
+          "third_party_integrations": 1
+        }
+      },
+      {
+        "query": "Can you check the privacy settings of my smart car, serial ID CAR56789XYZ, where the privacy level is set to high, user consent is provided, location services are enabled, and 8 third-party integrations are active?",
+        "filled_param": {
+          "device_serial": "CAR56789XYZ",
+          "current_privacy_level": "high",
+          "user_consent_status": true,
+          "location_services_enabled": true,
+          "third_party_integrations": 8
+        }
+      }
+    ]
+  },
+  "DevicePrivacySettingsReview|:|drone|:|device_serial,current_privacy_level,user_consent_status,location_services_enabled,third_party_integrations": {
+    "tool_template_name": "DevicePrivacySettingsReview",
+    "derived_class": "drone",
+    "params_for_query": [
+      "device_serial",
+      "current_privacy_level",
+      "user_consent_status",
+      "location_services_enabled",
+      "third_party_integrations"
+    ],
+    "queries": [
+      {
+        "query": "Could you review the privacy settings for drone serial number D12345XYZ9? It currently has a medium privacy level, user consent is true, location services are enabled, and there are 2 third-party integrations.",
+        "filled_param": {
+          "device_serial": "D12345XYZ9",
+          "current_privacy_level": "medium",
+          "user_consent_status": true,
+          "location_services_enabled": true,
+          "third_party_integrations": 2
+        }
+      },
+      {
+        "query": "I have a drone with the serial number T67891ABCD. It is set to a low privacy level, user consent is false, location services are disabled, and it has 5 third-party integrations. Can you check its privacy settings?",
+        "filled_param": {
+          "device_serial": "T67891ABCD",
+          "current_privacy_level": "low",
+          "user_consent_status": false,
+          "location_services_enabled": false,
+          "third_party_integrations": 5
+        }
+      },
+      {
+        "query": "Please suggest improvements for the privacy settings of my drone with serial number ZYXW09876P. It has a high privacy level, user consent is true, location services are off, and there is 1 third-party integration.",
+        "filled_param": {
+          "device_serial": "ZYXW09876P",
+          "current_privacy_level": "high",
+          "user_consent_status": true,
+          "location_services_enabled": false,
+          "third_party_integrations": 1
+        }
+      },
+      {
+        "query": "Check the privacy settings of drone B9876543210 with a current privacy level of medium. User consent is false, location services are on, and it has 3 third-party integrations linked.",
+        "filled_param": {
+          "device_serial": "B9876543210",
+          "current_privacy_level": "medium",
+          "user_consent_status": false,
+          "location_services_enabled": true,
+          "third_party_integrations": 3
+        }
+      },
+      {
+        "query": "Can you evaluate the privacy configuration for my drone, serial number C54321EFGHI? It's set to a high privacy level, user consent is true, location services are enabled, and there are 0 third-party integrations.",
+        "filled_param": {
+          "device_serial": "C54321EFGHI",
+          "current_privacy_level": "high",
+          "user_consent_status": true,
+          "location_services_enabled": true,
+          "third_party_integrations": 0
+        }
+      }
+    ]
+  },
+  "DevicePrivacySettingsReview|:|digital camera|:|device_serial,current_privacy_level,user_consent_status,location_services_enabled,third_party_integrations": {
+    "tool_template_name": "DevicePrivacySettingsReview",
+    "derived_class": "digital camera",
+    "params_for_query": [
+      "device_serial",
+      "current_privacy_level",
+      "user_consent_status",
+      "location_services_enabled",
+      "third_party_integrations"
+    ],
+    "queries": [
+      {
+        "query": "Can you review the privacy settings for my digital camera with serial number D12345ABC678? The current privacy level is set to medium. I have given consent for data collection, location services are off, and there are two third-party integrations connected.",
+        "filled_param": {
+          "device_serial": "D12345ABC678",
+          "current_privacy_level": "medium",
+          "user_consent_status": true,
+          "location_services_enabled": false,
+          "third_party_integrations": 2
+        }
+      },
+      {
+        "query": "I need suggestions for improving the privacy settings of my digital camera. The serial number is CAMID2023XYZ. Currently, the privacy level is low. I haven't consented to data collection. Location services are active, and there are three third-party apps linked to it.",
+        "filled_param": {
+          "device_serial": "CAMID2023XYZ",
+          "current_privacy_level": "low",
+          "user_consent_status": false,
+          "location_services_enabled": true,
+          "third_party_integrations": 3
+        }
+      },
+      {
+        "query": "Review the privacy features on my digital camera with serial serial number ABCDE12345FGHIJ. The privacy level is high, consent is given, location services are on, and it has zero third-party integrations.",
+        "filled_param": {
+          "device_serial": "ABCDE12345FGHIJ",
+          "current_privacy_level": "high",
+          "user_consent_status": true,
+          "location_services_enabled": true,
+          "third_party_integrations": 0
+        }
+      },
+      {
+        "query": "I'd like a review of the privacy settings for my digital camera, serial number 98765ZYXWV3210. The current privacy level is set at medium. I haven't given consent for data use, location tracking is disabled, and there are four third-party integrations.",
+        "filled_param": {
+          "device_serial": "98765ZYXWV3210",
+          "current_privacy_level": "medium",
+          "user_consent_status": false,
+          "location_services_enabled": false,
+          "third_party_integrations": 4
+        }
+      },
+      {
+        "query": "Please check the privacy settings on my digital camera. Serial number is DIGCAM2021TEST, and the privacy level is low. I have provided consent for data collection. Location services aren't enabled, and there's one third-party integration.",
+        "filled_param": {
+          "device_serial": "DIGCAM2021TEST",
+          "current_privacy_level": "low",
+          "user_consent_status": true,
+          "location_services_enabled": false,
+          "third_party_integrations": 1
+        }
+      }
+    ]
+  },
+  "DevicePrivacySettingsReview|:|smartwatch|:|device_serial,current_privacy_level,user_consent_status,location_services_enabled,third_party_integrations": {
+    "tool_template_name": "DevicePrivacySettingsReview",
+    "derived_class": "smartwatch",
+    "params_for_query": [
+      "device_serial",
+      "current_privacy_level",
+      "user_consent_status",
+      "location_services_enabled",
+      "third_party_integrations"
+    ],
+    "queries": [
+      {
+        "query": "Can you review the privacy settings for my smartwatch with serial number ABC1234XYZ9? The current privacy level is set to high, user consent is given, location services are enabled, and there are 2 third-party integrations.",
+        "filled_param": {
+          "device_serial": "ABC1234XYZ9",
+          "current_privacy_level": "high",
+          "user_consent_status": true,
+          "location_services_enabled": true,
+          "third_party_integrations": 2
+        }
+      },
+      {
+        "query": "I need suggestions for improving the privacy settings on my smartwatch. Its serial is 987ZYX321ABC, the privacy level is currently medium, I've not given consent for data collection, location services are off, and it has 5 third-party integrations.",
+        "filled_param": {
+          "device_serial": "987ZYX321ABC",
+          "current_privacy_level": "medium",
+          "user_consent_status": false,
+          "location_services_enabled": false,
+          "third_party_integrations": 5
+        }
+      },
+      {
+        "query": "Could you suggest privacy enhancements for my smartwatch, serial number 456LMNOP7890? The privacy is set to low, I've given consent, location services are disabled, with 3 third-party connections.",
+        "filled_param": {
+          "device_serial": "456LMNOP7890",
+          "current_privacy_level": "low",
+          "user_consent_status": true,
+          "location_services_enabled": false,
+          "third_party_integrations": 3
+        }
+      },
+      {
+        "query": "Please review the privacy settings of my smartwatch with serial 123ABC456XYZ. The privacy level is high, I have not consented to data collection, location services are on, and there are 1 external integrations.",
+        "filled_param": {
+          "device_serial": "123ABC456XYZ",
+          "current_privacy_level": "high",
+          "user_consent_status": false,
+          "location_services_enabled": true,
+          "third_party_integrations": 1
+        }
+      },
+      {
+        "query": "Review my smartwatch privacy settings. Serial: WXYZ12345678, privacy level is medium, user consent is true, location services are active, and 4 third-party integrations exist.",
+        "filled_param": {
+          "device_serial": "WXYZ12345678",
+          "current_privacy_level": "medium",
+          "user_consent_status": true,
+          "location_services_enabled": true,
+          "third_party_integrations": 4
+        }
+      }
+    ]
+  },
+  "DevicePrivacySettingsReview|:|gaming console|:|device_serial,current_privacy_level,user_consent_status,location_services_enabled,third_party_integrations": {
+    "tool_template_name": "DevicePrivacySettingsReview",
+    "derived_class": "gaming console",
+    "params_for_query": [
+      "device_serial",
+      "current_privacy_level",
+      "user_consent_status",
+      "location_services_enabled",
+      "third_party_integrations"
+    ],
+    "queries": [
+      {
+        "query": "Can you review the privacy settings for my gaming console with device serial 1234ABCD5678? The current privacy level is set to low, user consent is not given, location services are disabled, and there are 3 third-party integrations.",
+        "filled_param": {
+          "device_serial": "1234ABCD5678",
+          "current_privacy_level": "low",
+          "user_consent_status": false,
+          "location_services_enabled": false,
+          "third_party_integrations": 3
+        }
+      },
+      {
+        "query": "I need a review of my gaming console's privacy settings. The serial number is X9Y8Z7W6V5, the privacy level is medium, user consent has been provided, location services are on, and there are 5 third-party integrations.",
+        "filled_param": {
+          "device_serial": "X9Y8Z7W6V5",
+          "current_privacy_level": "medium",
+          "user_consent_status": true,
+          "location_services_enabled": true,
+          "third_party_integrations": 5
+        }
+      },
+      {
+        "query": "Review the privacy settings of gaming console serial 9876MNOPQRST. It has a high privacy level, user consent is not given, location services are on, and there are 2 third-party integrations.",
+        "filled_param": {
+          "device_serial": "9876MNOPQRST",
+          "current_privacy_level": "high",
+          "user_consent_status": false,
+          "location_services_enabled": true,
+          "third_party_integrations": 2
+        }
+      },
+      {
+        "query": "Please check and suggest improvements for my gaming console privacy settings. The device serial is A1B2C3D4E5F6, the privacy level is set to medium, user consent is given, location services are off, and there is 1 third-party integration.",
+        "filled_param": {
+          "device_serial": "A1B2C3D4E5F6",
+          "current_privacy_level": "medium",
+          "user_consent_status": true,
+          "location_services_enabled": false,
+          "third_party_integrations": 1
+        }
+      },
+      {
+        "query": "Could you evaluate my gaming console privacy settings? Serial: 5555JKLM6789, current privacy level is low, no user consent, location services enabled, and 4 third-party integrations.",
+        "filled_param": {
+          "device_serial": "5555JKLM6789",
+          "current_privacy_level": "low",
+          "user_consent_status": false,
+          "location_services_enabled": true,
+          "third_party_integrations": 4
+        }
+      }
+    ]
+  },
+  "DevicePrivacySettingsReview|:|NAS|:|device_serial,current_privacy_level,user_consent_status,location_services_enabled,third_party_integrations": {
+    "tool_template_name": "DevicePrivacySettingsReview",
+    "derived_class": "NAS",
+    "params_for_query": [
+      "device_serial",
+      "current_privacy_level",
+      "user_consent_status",
+      "location_services_enabled",
+      "third_party_integrations"
+    ],
+    "queries": [
+      {
+        "query": "Could you review the privacy settings for my NAS with the serial number A1B2C3D4E5, which currently has a medium privacy level? The user consent status is true, location services are enabled, and there are 2 third-party integrations.",
+        "filled_param": {
+          "device_serial": "A1B2C3D4E5",
+          "current_privacy_level": "medium",
+          "user_consent_status": true,
+          "location_services_enabled": true,
+          "third_party_integrations": 2
+        }
+      },
+      {
+        "query": "I need a privacy review of my NAS. The serial number is ZYXWVUTS1P, with a current privacy level set to high. I haven’t given user consent, location services are off, and it’s connected to 5 third-party integrations.",
+        "filled_param": {
+          "device_serial": "ZYXWVUTS1P",
+          "current_privacy_level": "high",
+          "user_consent_status": false,
+          "location_services_enabled": false,
+          "third_party_integrations": 5
+        }
+      },
+      {
+        "query": "Check the privacy settings for my NAS device, serial number 12345ABCDE, which is on a low privacy level. User consent is false, location services are enabled, and there are 0 third-party integrations.",
+        "filled_param": {
+          "device_serial": "12345ABCDE",
+          "current_privacy_level": "low",
+          "user_consent_status": false,
+          "location_services_enabled": true,
+          "third_party_integrations": 0
+        }
+      },
+      {
+        "query": "Can you suggest privacy improvements for my NAS with serial 789XYLOPQRS? It has a current privacy level of medium, user consent is true, location services disabled, and 3 third-party integrations.",
+        "filled_param": {
+          "device_serial": "789XYLOPQRS",
+          "current_privacy_level": "medium",
+          "user_consent_status": true,
+          "location_services_enabled": false,
+          "third_party_integrations": 3
+        }
+      },
+      {
+        "query": "Please review the privacy settings of my NAS. The serial number is UVWXYZ12345, with a high privacy level. User consent has been given, location services are on, and there are 4 third-party integrations.",
+        "filled_param": {
+          "device_serial": "UVWXYZ12345",
+          "current_privacy_level": "high",
+          "user_consent_status": true,
+          "location_services_enabled": true,
+          "third_party_integrations": 4
+        }
+      },
+      {
+        "query": "Evaluate the privacy settings for NAS serial QAZXSWE123, currently set at low privacy. User consent is true, location services are turned off, and it has 1 third-party integration.",
+        "filled_param": {
+          "device_serial": "QAZXSWE123",
+          "current_privacy_level": "low",
+          "user_consent_status": true,
+          "location_services_enabled": false,
+          "third_party_integrations": 1
+        }
+      }
+    ]
+  }
+}

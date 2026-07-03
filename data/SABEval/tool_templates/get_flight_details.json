@@ -1,0 +1,57 @@
+{
+  "tool_template_name": "get_flight_details",
+  "meta_data": {
+    "base_class": "Retrieve detailed information about <public transportation> based on departure and destination cities - refers to long-distance public transport that requires booking.",
+    "derived_classes": [
+      "flight",
+      "high-speed train",
+      "cruise ship",
+      "long-distance bus"
+    ],
+    "base_class_entity": ""
+  },
+  "tool_template": {
+    "name": "get_<class>_details",
+    "description": "Retrieve <class> details based on origin and destination.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "origin": {
+          "type": "string",
+          "description": "The origin city of the <class>."
+        },
+        "destination": {
+          "type": "string",
+          "description": "The destination city of the <class>."
+        }
+      },
+      "required": [
+        "origin",
+        "destination"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "departure_time": {
+      "type": "string",
+      "description": "The scheduled departure time for the <class>, formatted as HH:MM."
+    },
+    "arrival_time": {
+      "type": "string",
+      "description": "The estimated arrival time for the <class>, formatted as HH:MM."
+    },
+    "travel_class": {
+      "type": "string",
+      "description": "The type of <class> service (e.g., economy, business, first class)."
+    },
+    "availability_status": {
+      "type": "string",
+      "description": "The current booking status of the <class>, such as 'available', 'fully booked', or 'waitlisted'."
+    },
+    "duration": {
+      "type": "integer",
+      "description": "The total travel time of the <class> in minutes."
+    }
+  }
+}

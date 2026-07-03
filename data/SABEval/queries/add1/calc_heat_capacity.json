@@ -1,0 +1,509 @@
+{
+  "calc_heat_capacity|:|heat capacity|:|temp,volume,gas,substance_purity": {
+    "tool_template_name": "calc_heat_capacity",
+    "derived_class": "heat capacity",
+    "params_for_query": [
+      "temp",
+      "volume",
+      "gas",
+      "substance_purity"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the heat capacity of air at 300 Kelvin with a volume of 2 m^3 and purity of 95%.",
+        "filled_param": {
+          "temp": 300,
+          "volume": 2,
+          "gas": "air",
+          "substance_purity": 95
+        }
+      },
+      {
+        "query": "What is the heat capacity of helium at a temperature of 250 K, with 1 m^3 volume and 99% purity?",
+        "filled_param": {
+          "temp": 250,
+          "volume": 1,
+          "gas": "helium",
+          "substance_purity": 99
+        }
+      },
+      {
+        "query": "Determine the heat capacity for nitrogen gas at 500 Kelvin, with a volume of 3 m^3 and a purity of 90%.",
+        "filled_param": {
+          "temp": 500,
+          "volume": 3,
+          "gas": "nitrogen",
+          "substance_purity": 90
+        }
+      },
+      {
+        "query": "Can you find the heat capacity of carbon dioxide at 400 K with a volume of 5 m^3 and 85% purity?",
+        "filled_param": {
+          "temp": 400,
+          "volume": 5,
+          "gas": "carbon dioxide",
+          "substance_purity": 85
+        }
+      },
+      {
+        "query": "I need the heat capacity for oxygen at 600 Kelvin, with a volume of 4 m^3 and purity level of 98%.",
+        "filled_param": {
+          "temp": 600,
+          "volume": 4,
+          "gas": "oxygen",
+          "substance_purity": 98
+        }
+      },
+      {
+        "query": "Provide the heat capacity of methane gas at a temperature of 350 K, volume 6 m^3, and 92% purity.",
+        "filled_param": {
+          "temp": 350,
+          "volume": 6,
+          "gas": "methane",
+          "substance_purity": 92
+        }
+      },
+      {
+        "query": "What's the heat capacity of argon at 450 Kelvin, with a volume of 2.5 m^3 and gas purity of 88%?",
+        "filled_param": {
+          "temp": 450,
+          "volume": 2.5,
+          "gas": "argon",
+          "substance_purity": 88
+        }
+      }
+    ]
+  },
+  "calc_heat_capacity|:|entropy|:|temp,volume,gas,substance_purity": {
+    "tool_template_name": "calc_heat_capacity",
+    "derived_class": "entropy",
+    "params_for_query": [
+      "temp",
+      "volume",
+      "gas",
+      "substance_purity"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the entropy for oxygen gas at a temperature of 298 Kelvin and volume of 1 m^3, assuming the gas purity is 99%.",
+        "filled_param": {
+          "temp": 298,
+          "volume": 1,
+          "gas": "oxygen",
+          "substance_purity": 99.0
+        }
+      },
+      {
+        "query": "What is the entropy of nitrogen at 500 K with a volume of 3 cubic meters, given it is 95% pure?",
+        "filled_param": {
+          "temp": 500,
+          "volume": 3,
+          "gas": "nitrogen",
+          "substance_purity": 95.0
+        }
+      },
+      {
+        "query": "Find the entropy for hydrogen gas when it has a temperature of 400 Kelvin and a volume of 2 m^3. The gas purity is 98.5%.",
+        "filled_param": {
+          "temp": 400,
+          "volume": 2,
+          "gas": "hydrogen",
+          "substance_purity": 98.5
+        }
+      },
+      {
+        "query": "Determine the entropy for carbon dioxide at 350 Kelvin with a volume of 5 m^3, where the substance purity is 92%.",
+        "filled_param": {
+          "temp": 350,
+          "volume": 5,
+          "gas": "carbon dioxide",
+          "substance_purity": 92.0
+        }
+      },
+      {
+        "query": "What is the entropy value of helium gas at 273 K and 10 m^3 volume, considering a 90% purity level?",
+        "filled_param": {
+          "temp": 273,
+          "volume": 10,
+          "gas": "helium",
+          "substance_purity": 90.0
+        }
+      },
+      {
+        "query": "Could you compute the entropy for argon at 600 Kelvin with a volume of 4 cubic meters? The gas purity is 85%.",
+        "filled_param": {
+          "temp": 600,
+          "volume": 4,
+          "gas": "argon",
+          "substance_purity": 85.0
+        }
+      },
+      {
+        "query": "What would be the entropy of a 99.9% pure methane gas at 323 K and a volume of 7 m^3?",
+        "filled_param": {
+          "temp": 323,
+          "volume": 7,
+          "gas": "methane",
+          "substance_purity": 99.9
+        }
+      }
+    ]
+  },
+  "calc_heat_capacity|:|compressibility factor|:|temp,volume,gas,substance_purity": {
+    "tool_template_name": "calc_heat_capacity",
+    "derived_class": "compressibility factor",
+    "params_for_query": [
+      "temp",
+      "volume",
+      "gas",
+      "substance_purity"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the compressibility factor for nitrogen at 350 Kelvin with a volume of 2 m^3 and a purity of 99.5%.",
+        "filled_param": {
+          "temp": 350,
+          "volume": 2,
+          "gas": "nitrogen",
+          "substance_purity": 99.5
+        }
+      },
+      {
+        "query": "What is the compressibility factor of oxygen at a temperature of 273 Kelvin and volume of 1 m^3, with 95.0% purity?",
+        "filled_param": {
+          "temp": 273,
+          "volume": 1,
+          "gas": "oxygen",
+          "substance_purity": 95.0
+        }
+      },
+      {
+        "query": "I need the compressibility factor for helium at 500 Kelvin with a 3 m^3 volume and 98% substance purity.",
+        "filled_param": {
+          "temp": 500,
+          "volume": 3,
+          "gas": "helium",
+          "substance_purity": 98.0
+        }
+      },
+      {
+        "query": "Determine the compressibility factor of carbon dioxide when it is at 400 Kelvin, has a volume of 2.5 m^3, and 97.8% purity.",
+        "filled_param": {
+          "temp": 400,
+          "volume": 2.5,
+          "gas": "carbon dioxide",
+          "substance_purity": 97.8
+        }
+      },
+      {
+        "query": "Find the compressibility factor for methane with a temperature of 320 Kelvin, a volume of 1.5 m^3, and purity level of 94.7%.",
+        "filled_param": {
+          "temp": 320,
+          "volume": 1.5,
+          "gas": "methane",
+          "substance_purity": 94.7
+        }
+      },
+      {
+        "query": "Can you compute the compressibility factor for argon at 298 Kelvin with a 4 m^3 volume and a purity of 92%?",
+        "filled_param": {
+          "temp": 298,
+          "volume": 4,
+          "gas": "argon",
+          "substance_purity": 92.0
+        }
+      },
+      {
+        "query": "What is the compressibility factor for hydrogen at 600 Kelvin, occupying a volume of 5 m^3, with a purity of 99.9%?",
+        "filled_param": {
+          "temp": 600,
+          "volume": 5,
+          "gas": "hydrogen",
+          "substance_purity": 99.9
+        }
+      }
+    ]
+  },
+  "calc_heat_capacity|:|thermal expansion coefficient|:|temp,volume,gas,substance_purity": {
+    "tool_template_name": "calc_heat_capacity",
+    "derived_class": "thermal expansion coefficient",
+    "params_for_query": [
+      "temp",
+      "volume",
+      "gas",
+      "substance_purity"
+    ],
+    "queries": [
+      {
+        "query": "What is the thermal expansion coefficient for air at 300 Kelvin with a volume of 2 m^3 and 99.5% purity?",
+        "filled_param": {
+          "temp": 300,
+          "volume": 2,
+          "gas": "air",
+          "substance_purity": 99.5
+        }
+      },
+      {
+        "query": "Calculate the thermal expansion coefficient of helium at 100 Kelvin with a volume of 0.5 m^3 and a purity of 98.7%.",
+        "filled_param": {
+          "temp": 100,
+          "volume": 0.5,
+          "gas": "helium",
+          "substance_purity": 98.7
+        }
+      },
+      {
+        "query": "How much is the thermal expansion coefficient for carbon dioxide at 250 Kelvin, with a volume of 1 m^3, if the gas purity is 97%?",
+        "filled_param": {
+          "temp": 250,
+          "volume": 1,
+          "gas": "carbon dioxide",
+          "substance_purity": 97.0
+        }
+      },
+      {
+        "query": "I need to know the thermal expansion coefficient for hydrogen at 150 Kelvin, with a volume of 5 m^3 and 99% purity.",
+        "filled_param": {
+          "temp": 150,
+          "volume": 5,
+          "gas": "hydrogen",
+          "substance_purity": 99.0
+        }
+      },
+      {
+        "query": "Determine the thermal expansion coefficient for nitrogen at 350 Kelvin with a volume of 10 m^3 and 95% purity.",
+        "filled_param": {
+          "temp": 350,
+          "volume": 10,
+          "gas": "nitrogen",
+          "substance_purity": 95.0
+        }
+      },
+      {
+        "query": "What is the thermal expansion coefficient of argon at 275 Kelvin, with a volume of 3 m^3, if the purity is 96.5%?",
+        "filled_param": {
+          "temp": 275,
+          "volume": 3,
+          "gas": "argon",
+          "substance_purity": 96.5
+        }
+      },
+      {
+        "query": "Please find the thermal expansion coefficient for methane at 200 Kelvin, with a volume of 4 m^3 and 92% purity.",
+        "filled_param": {
+          "temp": 200,
+          "volume": 4,
+          "gas": "methane",
+          "substance_purity": 92.0
+        }
+      }
+    ]
+  },
+  "calc_heat_capacity|:|isothermal compressibility|:|temp,volume,gas,substance_purity": {
+    "tool_template_name": "calc_heat_capacity",
+    "derived_class": "isothermal compressibility",
+    "params_for_query": [
+      "temp",
+      "volume",
+      "gas",
+      "substance_purity"
+    ],
+    "queries": [
+      {
+        "query": "What is the isothermal compressibility of nitrogen at 300 Kelvin with a volume of 2 m^3 and a purity of 99.5%?",
+        "filled_param": {
+          "temp": 300,
+          "volume": 2,
+          "gas": "nitrogen",
+          "substance_purity": 99.5
+        }
+      },
+      {
+        "query": "Calculate the isothermal compressibility for helium at 150 K with a 0.5 m^3 volume and 95% purity.",
+        "filled_param": {
+          "temp": 150,
+          "volume": 0.5,
+          "gas": "helium",
+          "substance_purity": 95
+        }
+      },
+      {
+        "query": "I need the isothermal compressibility of hydrogen, given that its temperature is 400 K, volume is 3 m^3, and it has a purity of 98%.",
+        "filled_param": {
+          "temp": 400,
+          "volume": 3,
+          "gas": "hydrogen",
+          "substance_purity": 98
+        }
+      },
+      {
+        "query": "Find the isothermal compressibility for carbon dioxide at 250 Kelvin, with a volume of 1 m^3 and a purity level of 97%.",
+        "filled_param": {
+          "temp": 250,
+          "volume": 1,
+          "gas": "carbon dioxide",
+          "substance_purity": 97
+        }
+      },
+      {
+        "query": "Determine the isothermal compressibility for oxygen at 310 K, occupying a volume of 0.8 m^3 with a purity of 99%.",
+        "filled_param": {
+          "temp": 310,
+          "volume": 0.8,
+          "gas": "oxygen",
+          "substance_purity": 99
+        }
+      },
+      {
+        "query": "What would be the isothermal compressibility of argon at 280 Kelvin with a 1.5 m^3 volume and 96% purity?",
+        "filled_param": {
+          "temp": 280,
+          "volume": 1.5,
+          "gas": "argon",
+          "substance_purity": 96
+        }
+      }
+    ]
+  },
+  "calc_heat_capacity|:|partial molar volume|:|temp,volume,gas,substance_purity": {
+    "tool_template_name": "calc_heat_capacity",
+    "derived_class": "partial molar volume",
+    "params_for_query": [
+      "temp",
+      "volume",
+      "gas",
+      "substance_purity"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the partial molar volume of nitrogen gas with a temperature of 300 Kelvin and a volume of 2 cubic meters, given that the gas purity is 99.5%.",
+        "filled_param": {
+          "temp": 300,
+          "volume": 2,
+          "gas": "nitrogen",
+          "substance_purity": 99.5
+        }
+      },
+      {
+        "query": "What is the partial molar volume of oxygen at 450 Kelvin, with a volume of 5 m^3 and a purity of 97%?",
+        "filled_param": {
+          "temp": 450,
+          "volume": 5,
+          "gas": "oxygen",
+          "substance_purity": 97
+        }
+      },
+      {
+        "query": "Determine the partial molar volume for helium gas at a temperature of 600 Kelvin, volume 1 m^3, and a purity level of 99.9%.",
+        "filled_param": {
+          "temp": 600,
+          "volume": 1,
+          "gas": "helium",
+          "substance_purity": 99.9
+        }
+      },
+      {
+        "query": "I'm interested in knowing the partial molar volume of argon gas at 350 Kelvin with a volume of 3 m^3 and 95% purity.",
+        "filled_param": {
+          "temp": 350,
+          "volume": 3,
+          "gas": "argon",
+          "substance_purity": 95
+        }
+      },
+      {
+        "query": "Can you find the partial molar volume for carbon dioxide at 273 Kelvin, with a 4 m^3 volume and 98% gas purity?",
+        "filled_param": {
+          "temp": 273,
+          "volume": 4,
+          "gas": "carbon dioxide",
+          "substance_purity": 98
+        }
+      },
+      {
+        "query": "Please calculate the partial molar volume for hydrogen gas at 500 Kelvin with a volume of 2.5 m^3 and a 96.5% purity.",
+        "filled_param": {
+          "temp": 500,
+          "volume": 2.5,
+          "gas": "hydrogen",
+          "substance_purity": 96.5
+        }
+      }
+    ]
+  },
+  "calc_heat_capacity|:|mean free path|:|temp,volume,gas,substance_purity": {
+    "tool_template_name": "calc_heat_capacity",
+    "derived_class": "mean free path",
+    "params_for_query": [
+      "temp",
+      "volume",
+      "gas",
+      "substance_purity"
+    ],
+    "queries": [
+      {
+        "query": "What is the mean free path for 1 m^3 of nitrogen gas at 300 Kelvin with a purity of 99%?",
+        "filled_param": {
+          "temp": 300,
+          "volume": 1,
+          "gas": "nitrogen",
+          "substance_purity": 99
+        }
+      },
+      {
+        "query": "Calculate the mean free path for helium gas at 150 Kelvin, contained in 3 m^3, with a purity level of 95%.",
+        "filled_param": {
+          "temp": 150,
+          "volume": 3,
+          "gas": "helium",
+          "substance_purity": 95
+        }
+      },
+      {
+        "query": "Determine the mean free path for oxygen gas at 400 Kelvin in a volume of 2 m^3, assuming the purity is 98%.",
+        "filled_param": {
+          "temp": 400,
+          "volume": 2,
+          "gas": "oxygen",
+          "substance_purity": 98
+        }
+      },
+      {
+        "query": "How long is the mean free path of argon gas at 250 Kelvin if the gas occupies 0.5 m^3 and has a purity of 97%?",
+        "filled_param": {
+          "temp": 250,
+          "volume": 0.5,
+          "gas": "argon",
+          "substance_purity": 97
+        }
+      },
+      {
+        "query": "Find the mean free path of carbon dioxide at 350 Kelvin in 5 m^3 with a 92% purity.",
+        "filled_param": {
+          "temp": 350,
+          "volume": 5,
+          "gas": "carbon dioxide",
+          "substance_purity": 92
+        }
+      },
+      {
+        "query": "What would be the mean free path for 10 m^3 of hydrogen gas at 200 Kelvin if the purity is 90%?",
+        "filled_param": {
+          "temp": 200,
+          "volume": 10,
+          "gas": "hydrogen",
+          "substance_purity": 90
+        }
+      },
+      {
+        "query": "Please calculate the mean free path for xenon at 275 Kelvin within a 1.2 m^3 volume, with a purity of 88%.",
+        "filled_param": {
+          "temp": 275,
+          "volume": 1.2,
+          "gas": "xenon",
+          "substance_purity": 88
+        }
+      }
+    ]
+  }
+}

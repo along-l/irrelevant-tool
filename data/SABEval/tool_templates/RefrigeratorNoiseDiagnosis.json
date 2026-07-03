@@ -1,0 +1,62 @@
+{
+  "tool_template_name": "RefrigeratorNoiseDiagnosis",
+  "meta_data": {
+    "base_class": "Diagnose the cause of increased noise in <home appliances> and provide solutions - refers to various electronic or electrical devices that generate sound during operation.",
+    "derived_classes": [
+      "refrigerator",
+      "washing machine",
+      "air conditioner",
+      "dishwasher",
+      "range hood",
+      "microwave oven",
+      "vacuum cleaner",
+      "water heater",
+      "air purifier"
+    ],
+    "base_class_entity": "Refrigerator"
+  },
+  "tool_template": {
+    "name": "Diagnose_<class>_Noise",
+    "description": "Diagnose the cause of increased noise in <class> and suggest solutions.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "noise_level": {
+          "type": "string",
+          "description": "Description of the noise level and type (e.g., humming, rattling) in the <class>."
+        }
+      },
+      "required": [
+        "noise_level"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "include_diy_solutions": {
+      "type": "boolean",
+      "description": "Whether to include DIY solutions for noise reduction in the <class>."
+    }
+  },
+  "additional_params": {
+    "ambient_temperature": {
+      "type": "number",
+      "description": "The ambient operating temperature in degrees Celsius of the <class> environment, as temperature can affect noise generation."
+    },
+    "operating_duration": {
+      "type": "integer",
+      "description": "The duration in minutes for which the <class> has been operating continuously, as prolonged use can impact noise levels."
+    },
+    "maintenance_history": {
+      "type": "string",
+      "description": "Historical maintenance details of the <class>, which may influence the source or nature of noise."
+    },
+    "installation_quality": {
+      "type": "string",
+      "description": "A description of the quality or thoroughness of the installation of the <class>, as improper installation may lead to increased noise."
+    },
+    "usage_frequency": {
+      "type": "integer",
+      "description": "The frequency of use per week of the <class>, as more frequent use might lead to wear and increased noise."
+    }
+  }
+}

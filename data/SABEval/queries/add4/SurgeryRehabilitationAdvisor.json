@@ -1,0 +1,274 @@
+{
+  "SurgeryRehabilitationAdvisor|:|exercise advice|:|patient_details,age_group,urgency_level,cultural_considerations,delivery_method": {
+    "tool_template_name": "SurgeryRehabilitationAdvisor",
+    "derived_class": "exercise advice",
+    "params_for_query": [
+      "patient_details",
+      "age_group",
+      "urgency_level",
+      "cultural_considerations",
+      "delivery_method"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide exercise advice for an adult patient with asthma, considering low urgency and requiring written advice while respecting cultural preferences for modesty?",
+        "filled_param": {
+          "patient_details": "adult patient with asthma",
+          "age_group": "Adult",
+          "urgency_level": "low",
+          "cultural_considerations": "respecting cultural preferences for modesty",
+          "delivery_method": "written"
+        }
+      },
+      {
+        "query": "I need exercise advice for a child with obesity, with high urgency, considering dietary restrictions common in Jewish culture, delivered via video call.",
+        "filled_param": {
+          "patient_details": "child with obesity",
+          "age_group": "Child",
+          "urgency_level": "high",
+          "cultural_considerations": "dietary restrictions common in Jewish culture",
+          "delivery_method": "video call"
+        }
+      },
+      {
+        "query": "Please give exercise advice for a senior with arthritis. It's medium urgency, requires consideration of Muslim cultural practices, and should be delivered in-person.",
+        "filled_param": {
+          "patient_details": "senior with arthritis",
+          "age_group": "Senior",
+          "urgency_level": "medium",
+          "cultural_considerations": "consideration of Muslim cultural practices",
+          "delivery_method": "in-person"
+        }
+      },
+      {
+        "query": "Can you suggest exercise advice for an adolescent recovering from a knee injury, with medium urgency, and respecting Buddhist meditation practices in a written format?",
+        "filled_param": {
+          "patient_details": "adolescent recovering from a knee injury",
+          "age_group": "Adolescent",
+          "urgency_level": "medium",
+          "cultural_considerations": "respecting Buddhist meditation practices",
+          "delivery_method": "written"
+        }
+      },
+      {
+        "query": "Requesting exercise advice for an adult with depression, low urgency, considering Chinese cultural beliefs about energy balance, delivered via video call.",
+        "filled_param": {
+          "patient_details": "adult with depression",
+          "age_group": "Adult",
+          "urgency_level": "low",
+          "cultural_considerations": "considering Chinese cultural beliefs about energy balance",
+          "delivery_method": "video call"
+        }
+      }
+    ]
+  },
+  "SurgeryRehabilitationAdvisor|:|nutrition advice|:|patient_details,age_group,urgency_level,cultural_considerations,delivery_method": {
+    "tool_template_name": "SurgeryRehabilitationAdvisor",
+    "derived_class": "nutrition advice",
+    "params_for_query": [
+      "patient_details",
+      "age_group",
+      "urgency_level",
+      "cultural_considerations",
+      "delivery_method"
+    ],
+    "queries": [
+      {
+        "query": "Please provide nutrition advice for an Adult patient with diabetes, considering low urgency, who requires a written plan and adheres to a vegan lifestyle.",
+        "filled_param": {
+          "patient_details": "Adult patient with diabetes",
+          "age_group": "Adult",
+          "urgency_level": "low",
+          "cultural_considerations": "vegan lifestyle",
+          "delivery_method": "written"
+        }
+      },
+      {
+        "query": "I need urgent nutrition advice for a Child recovering from surgery, with no pork consumption, delivered via video call.",
+        "filled_param": {
+          "patient_details": "Child recovering from surgery",
+          "age_group": "Child",
+          "urgency_level": "high",
+          "cultural_considerations": "no pork consumption",
+          "delivery_method": "video call"
+        }
+      },
+      {
+        "query": "Could you suggest some nutrition advice for a Senior patient managing high blood pressure, with medium urgency, respecting a Mediterranean diet, to be discussed in person?",
+        "filled_param": {
+          "patient_details": "Senior patient managing high blood pressure",
+          "age_group": "Senior",
+          "urgency_level": "medium",
+          "cultural_considerations": "Mediterranean diet",
+          "delivery_method": "in-person"
+        }
+      },
+      {
+        "query": "Provide suitable nutrition advice for an Adolescent athlete needing high energy intake, with low urgency, following Halal guidelines, and delivered in a written format.",
+        "filled_param": {
+          "patient_details": "Adolescent athlete needing high energy intake",
+          "age_group": "Adolescent",
+          "urgency_level": "low",
+          "cultural_considerations": "Halal guidelines",
+          "delivery_method": "written"
+        }
+      },
+      {
+        "query": "Can you give nutrition advice for an Adult with gluten intolerance, with medium urgency, preferring advice in a video call, and following a traditional Japanese diet?",
+        "filled_param": {
+          "patient_details": "Adult with gluten intolerance",
+          "age_group": "Adult",
+          "urgency_level": "medium",
+          "cultural_considerations": "traditional Japanese diet",
+          "delivery_method": "video call"
+        }
+      },
+      {
+        "query": "I require immediate nutrition advice for a Senior dealing with obesity, observing kosher dietary laws, and needing the guidance in written form.",
+        "filled_param": {
+          "patient_details": "Senior dealing with obesity",
+          "age_group": "Senior",
+          "urgency_level": "high",
+          "cultural_considerations": "kosher dietary laws",
+          "delivery_method": "written"
+        }
+      }
+    ]
+  },
+  "SurgeryRehabilitationAdvisor|:|sleep adjustment advice|:|patient_details,age_group,urgency_level,cultural_considerations,delivery_method": {
+    "tool_template_name": "SurgeryRehabilitationAdvisor",
+    "derived_class": "sleep adjustment advice",
+    "params_for_query": [
+      "patient_details",
+      "age_group",
+      "urgency_level",
+      "cultural_considerations",
+      "delivery_method"
+    ],
+    "queries": [
+      {
+        "query": "I need sleep adjustment advice for an adolescent who's been having trouble falling asleep before midnight due to excessive use of electronic devices. The urgency level is medium and the advice should consider cultural practices in Japan. Please provide this advice in a written format.",
+        "filled_param": {
+          "patient_details": "An adolescent having trouble falling asleep before midnight due to excessive use of electronic devices.",
+          "age_group": "Adolescent",
+          "urgency_level": "medium",
+          "cultural_considerations": "Cultural practices in Japan",
+          "delivery_method": "written"
+        }
+      },
+      {
+        "query": "Can you give sleep adjustment advice for an adult experiencing frequent night awakenings and insomnia? The urgency is high, and it should be culturally sensitive to French traditions. I would prefer the advice to be delivered via video call.",
+        "filled_param": {
+          "patient_details": "An adult experiencing frequent night awakenings and insomnia.",
+          "age_group": "Adult",
+          "urgency_level": "high",
+          "cultural_considerations": "Culturally sensitive to French traditions",
+          "delivery_method": "video call"
+        }
+      },
+      {
+        "query": "I need some sleep adjustment advice for a senior who wakes up too early and feels tired during the day. The urgency is low and should respect Muslim cultural norms. Please send the advice in a written format.",
+        "filled_param": {
+          "patient_details": "A senior who wakes up too early and feels tired during the day.",
+          "age_group": "Senior",
+          "urgency_level": "low",
+          "cultural_considerations": "Respect Muslim cultural norms",
+          "delivery_method": "written"
+        }
+      },
+      {
+        "query": "Please provide sleep adjustment advice for a child who's been having nightmares frequently. The urgency level is medium and consider Chinese cultural beliefs. I would like the advice to be given in-person.",
+        "filled_param": {
+          "patient_details": "A child who's been having nightmares frequently.",
+          "age_group": "Child",
+          "urgency_level": "medium",
+          "cultural_considerations": "Chinese cultural beliefs",
+          "delivery_method": "in-person"
+        }
+      },
+      {
+        "query": "Could you provide sleep adjustment advice for an adult who struggles with jet lag after frequent international travel? This is a high urgency issue and should take into account American lifestyle habits. I prefer receiving the advice through a video call.",
+        "filled_param": {
+          "patient_details": "An adult who struggles with jet lag after frequent international travel.",
+          "age_group": "Adult",
+          "urgency_level": "high",
+          "cultural_considerations": "American lifestyle habits",
+          "delivery_method": "video call"
+        }
+      },
+      {
+        "query": "What sleep adjustment advice would you give for a child who finds it difficult to sleep without a nightlight? The urgency is low and should be compatible with Indian family practices. I need the advice in a written form.",
+        "filled_param": {
+          "patient_details": "A child who finds it difficult to sleep without a nightlight.",
+          "age_group": "Child",
+          "urgency_level": "low",
+          "cultural_considerations": "Indian family practices",
+          "delivery_method": "written"
+        }
+      }
+    ]
+  },
+  "SurgeryRehabilitationAdvisor|:|follow up consultation advice|:|patient_details,age_group,urgency_level,cultural_considerations,delivery_method": {
+    "tool_template_name": "SurgeryRehabilitationAdvisor",
+    "derived_class": "follow up consultation advice",
+    "params_for_query": [
+      "patient_details",
+      "age_group",
+      "urgency_level",
+      "cultural_considerations",
+      "delivery_method"
+    ],
+    "queries": [
+      {
+        "query": "What follow up consultation advice can you give for a senior patient experiencing mild joint pain, with a medium urgency level and cultural considerations for a vegan lifestyle? The patient prefers a video call for advice.",
+        "filled_param": {
+          "patient_details": "senior patient experiencing mild joint pain",
+          "age_group": "Senior",
+          "urgency_level": "medium",
+          "cultural_considerations": "vegan lifestyle",
+          "delivery_method": "video call"
+        }
+      },
+      {
+        "query": "Could you provide follow up consultation advice for a child who has a persistent cough? It's of high urgency, considering cultural dietary restrictions to avoid certain meats, and the delivery should be in-person.",
+        "filled_param": {
+          "patient_details": "child with persistent cough",
+          "age_group": "Child",
+          "urgency_level": "high",
+          "cultural_considerations": "avoid certain meats",
+          "delivery_method": "in-person"
+        }
+      },
+      {
+        "query": "I need follow up consultation advice for an adolescent dealing with anxiety issues. The urgency is low, and we need to consider cultural preferences for holistic treatments, best delivered in written form.",
+        "filled_param": {
+          "patient_details": "adolescent dealing with anxiety issues",
+          "age_group": "Adolescent",
+          "urgency_level": "low",
+          "cultural_considerations": "holistic treatments",
+          "delivery_method": "written"
+        }
+      },
+      {
+        "query": "Please provide follow up consultation advice for an adult with a recurring headache, with a medium urgency level, and cultural considerations include a preference for alternative medicine. They prefer receiving advice via video call.",
+        "filled_param": {
+          "patient_details": "adult with recurring headache",
+          "age_group": "Adult",
+          "urgency_level": "medium",
+          "cultural_considerations": "preference for alternative medicine",
+          "delivery_method": "video call"
+        }
+      },
+      {
+        "query": "What follow up consultation advice is suitable for a senior patient with high blood pressure? It's low urgency, but consider the cultural need to avoid alcohol, and deliver the advice in writing.",
+        "filled_param": {
+          "patient_details": "senior patient with high blood pressure",
+          "age_group": "Senior",
+          "urgency_level": "low",
+          "cultural_considerations": "avoid alcohol",
+          "delivery_method": "written"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,460 @@
+{
+  "calculate_emission_savings|:|solar energy|:|usage_duration,region,installation_cost,maintenance_frequency,average_output_efficiency": {
+    "tool_template_name": "calculate_emission_savings",
+    "derived_class": "solar energy",
+    "params_for_query": [
+      "usage_duration",
+      "region",
+      "installation_cost",
+      "maintenance_frequency",
+      "average_output_efficiency"
+    ],
+    "queries": [
+      {
+        "query": "How much greenhouse gas emissions can I save by using solar energy for 24 months in California with an installation cost of 15000 USD, a maintenance frequency of 2 years, and an average output efficiency of 85%?",
+        "filled_param": {
+          "usage_duration": 24,
+          "region": "California",
+          "installation_cost": 15000,
+          "maintenance_frequency": 2,
+          "average_output_efficiency": 85
+        }
+      },
+      {
+        "query": "Calculate the emissions saved if I switch to solar energy in Texas for 36 months, given an initial installation cost of 20000 USD, maintenance every 3 years, and a 90% average output efficiency.",
+        "filled_param": {
+          "usage_duration": 36,
+          "region": "Texas",
+          "installation_cost": 20000,
+          "maintenance_frequency": 3,
+          "average_output_efficiency": 90
+        }
+      },
+      {
+        "query": "I'd like to know the potential greenhouse gas savings by using solar energy in Florida for 12 months, with an installation cost of 12000 USD, maintenance every 1 year, and an 80% average efficiency.",
+        "filled_param": {
+          "usage_duration": 12,
+          "region": "Florida",
+          "installation_cost": 12000,
+          "maintenance_frequency": 1,
+          "average_output_efficiency": 80
+        }
+      },
+      {
+        "query": "What are the emission savings if solar energy is used for 48 months in New York, with a setup cost of 18000 USD, maintenance every 4 years, and an average output efficiency of 88%?",
+        "filled_param": {
+          "usage_duration": 48,
+          "region": "New York",
+          "installation_cost": 18000,
+          "maintenance_frequency": 4,
+          "average_output_efficiency": 88
+        }
+      },
+      {
+        "query": "Estimate the greenhouse gas emissions saved by opting for solar energy in Nevada for 60 months, with a 25000 USD installation cost, maintenance every 5 years, and an 82% efficiency.",
+        "filled_param": {
+          "usage_duration": 60,
+          "region": "Nevada",
+          "installation_cost": 25000,
+          "maintenance_frequency": 5,
+          "average_output_efficiency": 82
+        }
+      },
+      {
+        "query": "If I use solar energy for 30 months in Arizona, with an installation cost of 10000 USD, requiring maintenance every 2 years and achieving 87% average output efficiency, how much emissions would be saved?",
+        "filled_param": {
+          "usage_duration": 30,
+          "region": "Arizona",
+          "installation_cost": 10000,
+          "maintenance_frequency": 2,
+          "average_output_efficiency": 87
+        }
+      },
+      {
+        "query": "Can you compute the greenhouse gas emission savings for using solar energy in Oregon over 72 months, with a 22000 USD installation fee, maintenance every 3 years, and 84% average efficiency?",
+        "filled_param": {
+          "usage_duration": 72,
+          "region": "Oregon",
+          "installation_cost": 22000,
+          "maintenance_frequency": 3,
+          "average_output_efficiency": 84
+        }
+      }
+    ]
+  },
+  "calculate_emission_savings|:|wind energy|:|usage_duration,region,installation_cost,maintenance_frequency,average_output_efficiency": {
+    "tool_template_name": "calculate_emission_savings",
+    "derived_class": "wind energy",
+    "params_for_query": [
+      "usage_duration",
+      "region",
+      "installation_cost",
+      "maintenance_frequency",
+      "average_output_efficiency"
+    ],
+    "queries": [
+      {
+        "query": "How much greenhouse gas emission savings can be achieved by using wind energy for 24 months in California with an installation cost of $10,000, maintenance every 2 years, and an average output efficiency of 75%?",
+        "filled_param": {
+          "usage_duration": 24,
+          "region": "California",
+          "installation_cost": 10000,
+          "maintenance_frequency": 2,
+          "average_output_efficiency": 75
+        }
+      },
+      {
+        "query": "Calculate the emission savings if I implement wind energy in Germany for 36 months, with an installation cost of $15,000, requiring maintenance every 5 years and achieving an average efficiency of 80%.",
+        "filled_param": {
+          "usage_duration": 36,
+          "region": "Germany",
+          "installation_cost": 15000,
+          "maintenance_frequency": 5,
+          "average_output_efficiency": 80
+        }
+      },
+      {
+        "query": "What greenhouse gas emissions reduction can be expected by using wind energy in Texas for 12 months, with installation expenses of $8,500, maintenance every 3 years, and an output efficiency of 70%?",
+        "filled_param": {
+          "usage_duration": 12,
+          "region": "Texas",
+          "installation_cost": 8500,
+          "maintenance_frequency": 3,
+          "average_output_efficiency": 70
+        }
+      },
+      {
+        "query": "Estimate the potential emissions savings from using wind energy in Australia for 48 months, given an installation cost of $20,000, maintenance every 4 years, and an average efficiency of 85%.",
+        "filled_param": {
+          "usage_duration": 48,
+          "region": "Australia",
+          "installation_cost": 20000,
+          "maintenance_frequency": 4,
+          "average_output_efficiency": 85
+        }
+      },
+      {
+        "query": "If I switch to wind energy in Japan for a duration of 60 months at an installation cost of $25,000, with upkeep every year and an output efficiency of 78%, what emissions savings can I expect?",
+        "filled_param": {
+          "usage_duration": 60,
+          "region": "Japan",
+          "installation_cost": 25000,
+          "maintenance_frequency": 1,
+          "average_output_efficiency": 78
+        }
+      },
+      {
+        "query": "Determine the emissions reductions possible by adopting wind energy in Brazil for 30 months, with setup costs of $9,000, maintenance every 2 years, and an average efficiency of 82%.",
+        "filled_param": {
+          "usage_duration": 30,
+          "region": "Brazil",
+          "installation_cost": 9000,
+          "maintenance_frequency": 2,
+          "average_output_efficiency": 82
+        }
+      },
+      {
+        "query": "How much can we save in emissions by utilizing wind energy in Canada for 18 months, with a $12,000 installation cost, maintenance every 3 years, and efficiency averaging at 77%?",
+        "filled_param": {
+          "usage_duration": 18,
+          "region": "Canada",
+          "installation_cost": 12000,
+          "maintenance_frequency": 3,
+          "average_output_efficiency": 77
+        }
+      }
+    ]
+  },
+  "calculate_emission_savings|:|hydropower|:|usage_duration,region,installation_cost,maintenance_frequency,average_output_efficiency": {
+    "tool_template_name": "calculate_emission_savings",
+    "derived_class": "hydropower",
+    "params_for_query": [
+      "usage_duration",
+      "region",
+      "installation_cost",
+      "maintenance_frequency",
+      "average_output_efficiency"
+    ],
+    "queries": [
+      {
+        "query": "How much greenhouse gas emissions can be saved by using hydropower for 24 months in the Pacific Northwest with an installation cost of 15000 USD, if maintenance is every 5 years and average output efficiency is 85%?",
+        "filled_param": {
+          "usage_duration": 24,
+          "region": "Pacific Northwest",
+          "installation_cost": 15000,
+          "maintenance_frequency": 5,
+          "average_output_efficiency": 85
+        }
+      },
+      {
+        "query": "Calculate the emission savings possible by switching to hydropower in the Sahara region for 36 months, with an installation cost of 25000 USD, maintenance every 3 years, and 78% efficiency.",
+        "filled_param": {
+          "usage_duration": 36,
+          "region": "Sahara",
+          "installation_cost": 25000,
+          "maintenance_frequency": 3,
+          "average_output_efficiency": 78
+        }
+      },
+      {
+        "query": "If I install hydropower in Central Europe with a setup cost of 18000 USD, needing maintenance every 4 years, and 82% output efficiency, how much emissions can be saved over 12 months?",
+        "filled_param": {
+          "usage_duration": 12,
+          "region": "Central Europe",
+          "installation_cost": 18000,
+          "maintenance_frequency": 4,
+          "average_output_efficiency": 82
+        }
+      },
+      {
+        "query": "For a hydropower plant running for 60 months in Southeast Asia, with an installation cost of 30000 USD, maintenance every 2 years, and an efficiency of 90%, what are the emission reductions?",
+        "filled_param": {
+          "usage_duration": 60,
+          "region": "Southeast Asia",
+          "installation_cost": 30000,
+          "maintenance_frequency": 2,
+          "average_output_efficiency": 90
+        }
+      },
+      {
+        "query": "Determine the greenhouse gas savings for hydropower usage in the Amazon region over 48 months with a setup expense of 22000 USD, maintenance every 6 years, and an efficiency rate of 88%.",
+        "filled_param": {
+          "usage_duration": 48,
+          "region": "Amazon",
+          "installation_cost": 22000,
+          "maintenance_frequency": 6,
+          "average_output_efficiency": 88
+        }
+      },
+      {
+        "query": "What is the potential reduction in emissions from hydropower usage for 18 months in the Caribbean, considering an installation cost of 12000 USD, maintenance every 5 years, and 80% efficiency?",
+        "filled_param": {
+          "usage_duration": 18,
+          "region": "Caribbean",
+          "installation_cost": 12000,
+          "maintenance_frequency": 5,
+          "average_output_efficiency": 80
+        }
+      }
+    ]
+  },
+  "calculate_emission_savings|:|geothermal energy|:|usage_duration,region,installation_cost,maintenance_frequency,average_output_efficiency": {
+    "tool_template_name": "calculate_emission_savings",
+    "derived_class": "geothermal energy",
+    "params_for_query": [
+      "usage_duration",
+      "region",
+      "installation_cost",
+      "maintenance_frequency",
+      "average_output_efficiency"
+    ],
+    "queries": [
+      {
+        "query": "How much greenhouse gas emission savings can be achieved with geothermal energy if used for 24 months in California, with an installation cost of $15,000, maintenance every 3 years, and an average output efficiency of 85%?",
+        "filled_param": {
+          "usage_duration": 24,
+          "region": "California",
+          "installation_cost": 15000,
+          "maintenance_frequency": 3,
+          "average_output_efficiency": 85
+        }
+      },
+      {
+        "query": "Calculate the emission savings from using geothermal energy in Texas for 36 months, considering an installation cost of $20,000, maintenance every 5 years, and a 90% efficiency rate.",
+        "filled_param": {
+          "usage_duration": 36,
+          "region": "Texas",
+          "installation_cost": 20000,
+          "maintenance_frequency": 5,
+          "average_output_efficiency": 90
+        }
+      },
+      {
+        "query": "For a geothermal energy installation in New York costing $18,000, used over 12 months with maintenance every 4 years and an average efficiency of 80%, what are the emission savings?",
+        "filled_param": {
+          "usage_duration": 12,
+          "region": "New York",
+          "installation_cost": 18000,
+          "maintenance_frequency": 4,
+          "average_output_efficiency": 80
+        }
+      },
+      {
+        "query": "Determine the potential greenhouse gas emission savings when utilizing geothermal energy in Florida for 48 months, with a setup cost of $25,000, maintenance every 2 years, and an 88% efficiency.",
+        "filled_param": {
+          "usage_duration": 48,
+          "region": "Florida",
+          "installation_cost": 25000,
+          "maintenance_frequency": 2,
+          "average_output_efficiency": 88
+        }
+      },
+      {
+        "query": "What are the emission savings from geothermal energy in Nevada if installed for $22,000, used for 60 months with maintenance every 6 years and an efficiency of 87%?",
+        "filled_param": {
+          "usage_duration": 60,
+          "region": "Nevada",
+          "installation_cost": 22000,
+          "maintenance_frequency": 6,
+          "average_output_efficiency": 87
+        }
+      }
+    ]
+  },
+  "calculate_emission_savings|:|biomass energy|:|usage_duration,region,installation_cost,maintenance_frequency,average_output_efficiency": {
+    "tool_template_name": "calculate_emission_savings",
+    "derived_class": "biomass energy",
+    "params_for_query": [
+      "usage_duration",
+      "region",
+      "installation_cost",
+      "maintenance_frequency",
+      "average_output_efficiency"
+    ],
+    "queries": [
+      {
+        "query": "If I switch to biomass energy in California for 24 months, with an installation cost of 15000 USD, maintenance every 2 years, and an average output efficiency of 85%, how much greenhouse gas emissions can I save?",
+        "filled_param": {
+          "usage_duration": 24,
+          "region": "California",
+          "installation_cost": 15000,
+          "maintenance_frequency": 2,
+          "average_output_efficiency": 85
+        }
+      },
+      {
+        "query": "Calculate the emissions savings for using biomass energy in Germany for 36 months, with a setup cost of 20000 USD, a maintenance frequency of 3 years, and 90% output efficiency.",
+        "filled_param": {
+          "usage_duration": 36,
+          "region": "Germany",
+          "installation_cost": 20000,
+          "maintenance_frequency": 3,
+          "average_output_efficiency": 90
+        }
+      },
+      {
+        "query": "What are the potential greenhouse gas reductions if I use biomass energy in Australia for 12 months, with a 18000 USD installation cost, maintaining it every 1 year, and achieving 88% efficiency?",
+        "filled_param": {
+          "usage_duration": 12,
+          "region": "Australia",
+          "installation_cost": 18000,
+          "maintenance_frequency": 1,
+          "average_output_efficiency": 88
+        }
+      },
+      {
+        "query": "Determine the emission savings from biomass energy usage in Texas over a 48-month period, with an initial cost of 25000 USD, maintenance every 4 years, and 92% efficiency.",
+        "filled_param": {
+          "usage_duration": 48,
+          "region": "Texas",
+          "installation_cost": 25000,
+          "maintenance_frequency": 4,
+          "average_output_efficiency": 92
+        }
+      },
+      {
+        "query": "How much can emissions be reduced by adopting biomass energy in Japan for 60 months, assuming a 30000 USD installation cost, maintenance biennially, and an efficiency of 87%?",
+        "filled_param": {
+          "usage_duration": 60,
+          "region": "Japan",
+          "installation_cost": 30000,
+          "maintenance_frequency": 2,
+          "average_output_efficiency": 87
+        }
+      },
+      {
+        "query": "Estimate the greenhouse gas savings if biomass energy is used in Brazil for 18 months, with a 22000 USD installation, 2-year maintenance intervals, and 80% efficiency.",
+        "filled_param": {
+          "usage_duration": 18,
+          "region": "Brazil",
+          "installation_cost": 22000,
+          "maintenance_frequency": 2,
+          "average_output_efficiency": 80
+        }
+      },
+      {
+        "query": "For biomass energy use in Canada over 30 months, with a 16000 USD installation expense, maintenance every 3 years, and an 86% efficiency, what is the emission reduction?",
+        "filled_param": {
+          "usage_duration": 30,
+          "region": "Canada",
+          "installation_cost": 16000,
+          "maintenance_frequency": 3,
+          "average_output_efficiency": 86
+        }
+      }
+    ]
+  },
+  "calculate_emission_savings|:|tidal energy|:|usage_duration,region,installation_cost,maintenance_frequency,average_output_efficiency": {
+    "tool_template_name": "calculate_emission_savings",
+    "derived_class": "tidal energy",
+    "params_for_query": [
+      "usage_duration",
+      "region",
+      "installation_cost",
+      "maintenance_frequency",
+      "average_output_efficiency"
+    ],
+    "queries": [
+      {
+        "query": "How much greenhouse gas can be saved by using tidal energy in the Pacific Northwest for a duration of 24 months with an installation cost of $150,000, if maintenance is needed every 3 years and the system has an average output efficiency of 80%?",
+        "filled_param": {
+          "usage_duration": 24,
+          "region": "Pacific Northwest",
+          "installation_cost": 150000,
+          "maintenance_frequency": 3,
+          "average_output_efficiency": 80
+        }
+      },
+      {
+        "query": "Calculate the emissions reduction from switching to tidal energy in the Bay of Fundy over 36 months, with a setup cost of $200,000, maintenance every 5 years, and an output efficiency averaging 85%.",
+        "filled_param": {
+          "usage_duration": 36,
+          "region": "Bay of Fundy",
+          "installation_cost": 200000,
+          "maintenance_frequency": 5,
+          "average_output_efficiency": 85
+        }
+      },
+      {
+        "query": "What would be the potential greenhouse gas savings from implementing tidal energy in Scotland for 12 months, assuming an installation cost of $120,000, maintenance every 2 years, and 75% average output efficiency?",
+        "filled_param": {
+          "usage_duration": 12,
+          "region": "Scotland",
+          "installation_cost": 120000,
+          "maintenance_frequency": 2,
+          "average_output_efficiency": 75
+        }
+      },
+      {
+        "query": "If tidal energy is used in the Gulf of Mexico for 48 months, with a $250,000 initial cost, requiring maintenance every 4 years, and achieving 90% average efficiency, how much emissions could be saved?",
+        "filled_param": {
+          "usage_duration": 48,
+          "region": "Gulf of Mexico",
+          "installation_cost": 250000,
+          "maintenance_frequency": 4,
+          "average_output_efficiency": 90
+        }
+      },
+      {
+        "query": "Determine the emissions savings from using tidal energy in the North Sea for a 60-month period, with an installation expense of $300,000, 3-year maintenance intervals, and an efficiency of 88%.",
+        "filled_param": {
+          "usage_duration": 60,
+          "region": "North Sea",
+          "installation_cost": 300000,
+          "maintenance_frequency": 3,
+          "average_output_efficiency": 88
+        }
+      },
+      {
+        "query": "Estimate the reduction in greenhouse gases by implementing tidal energy in Western Australia for 18 months, assuming a $180,000 installation cost, maintenance required every 6 years, and a 82% average output efficiency.",
+        "filled_param": {
+          "usage_duration": 18,
+          "region": "Western Australia",
+          "installation_cost": 180000,
+          "maintenance_frequency": 6,
+          "average_output_efficiency": 82
+        }
+      }
+    ]
+  }
+}

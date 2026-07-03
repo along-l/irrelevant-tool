@@ -1,0 +1,62 @@
+{
+  "tool_template_name": "5G_City_Application_Summary",
+  "meta_data": {
+    "base_class": "Retrieve a summary of the latest research reports or expert analyses on <specific technology> applications in future smart cities. - applicable for querying literature about various cutting-edge technologies' applications in the smart city domain, for a specific publication year and report type.",
+    "derived_classes": [
+      "5G technology",
+      "AI technology",
+      "Blockchain technology",
+      "Quantum Computing technology",
+      "Biotechnology",
+      "New Materials technology",
+      "Clean Energy technology",
+      "3D Printing technology",
+      "Autonomous Driving technology"
+    ],
+    "base_class_entity": "5G technology"
+  },
+  "tool_template": {
+    "name": "<class>_City_Application_Summary",
+    "description": "Retrieve a summary of the latest research reports or expert analyses on <class> applications in future smart cities.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "report_type": {
+          "type": "string",
+          "description": "Type of report to retrieve, being 'research' or 'analysis'."
+        }
+      },
+      "required": [
+        "report_type"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "publication_year": {
+      "type": "string",
+      "description": "The year of publication for the reports. It should be a four-digit year."
+    }
+  },
+  "additional_params": {
+    "region_of_focus": {
+      "type": "string",
+      "description": "Geographical region or city for which the <class> application summary should focus on."
+    },
+    "include_trends": {
+      "type": "boolean",
+      "description": "Whether to include trends and predictions related to <class> applications in future smart cities."
+    },
+    "application_domain": {
+      "type": "string",
+      "description": "Specific domain within smart cities, such as transportation, healthcare, or energy, where <class> is applied."
+    },
+    "language_preference": {
+      "type": "string",
+      "description": "Preferred language for the summary of the <class> application reports."
+    },
+    "data_source": {
+      "type": "string",
+      "description": "Preferred source of data or publication for retrieving the <class> application summary."
+    }
+  }
+}

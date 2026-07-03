@@ -1,0 +1,56 @@
+{
+  "tool_template_name": "BCITechnologyComparison",
+  "meta_data": {
+    "base_class": "Compare the performance parameters of <technological devices> produced by different companies - technological equipment.",
+    "derived_classes": [
+      "BCI devices",
+      "VR headsets",
+      "cleaning robots",
+      "drones",
+      "3D printers",
+      "security cameras",
+      "CNC machines"
+    ],
+    "base_class_entity": "brain-computer interface devices"
+  },
+  "tool_template": {
+    "name": "<class>TechnologyComparison",
+    "description": "Compare technical parameters of <class> from different companies.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "device_id": {
+          "type": "string",
+          "description": "The unique identifier for the <class>. It should be a string of 8 to 12 alphanumeric characters, having the pattern '^[a-zA-Z0-9]{8,12}$'."
+        },
+        "compare_with": {
+          "type": "string",
+          "description": "The ID of another <class> to compare with. It should follow the same format as device_id."
+        }
+      },
+      "required": [
+        "device_id",
+        "compare_with"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "comparison_metric": {
+      "type": "string",
+      "description": "The metric to use for comparison of <class> devices. Options include 'speed', 'efficiency', 'battery life', 'cost', 'durability', and 'user satisfaction'."
+    },
+    "company_filter": {
+      "type": "string",
+      "description": "A specific company name to filter <class> devices for comparison. This should be the official registered name of the company, having the pattern: '^[a-zA-Z0-9\\s]+$'."
+    },
+    "release_year": {
+      "type": "integer",
+      "description": "The release year of the <class> devices to include in the comparison. Must be a four-digit year, ranging from 1900 to 2100."
+    },
+    "comparison_mode": {
+      "type": "string",
+      "description": "Specifies how to compare the two <class> devices, Options include 'absolute', 'relative', and 'normalized'."
+    }
+  }
+}

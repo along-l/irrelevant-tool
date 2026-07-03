@@ -1,0 +1,518 @@
+{
+  "museum_working_hours.get|:|museum|:|venue,location,day,season": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "museum",
+    "params_for_query": [
+      "venue",
+      "location",
+      "day",
+      "season"
+    ],
+    "queries": [
+      {
+        "query": "What are the working hours of the Louvre museum in Paris on a Saturday during the summer?",
+        "filled_param": {
+          "venue": "Louvre",
+          "location": "Paris",
+          "day": "Saturday",
+          "season": "summer"
+        }
+      },
+      {
+        "query": "Can you tell me the operating hours for The British Museum in London on a Wednesday in the winter?",
+        "filled_param": {
+          "venue": "The British Museum",
+          "location": "London",
+          "day": "Wednesday",
+          "season": "winter"
+        }
+      },
+      {
+        "query": "I want to know the visiting times for the Metropolitan Museum of Art in New York on a Monday in the spring season.",
+        "filled_param": {
+          "venue": "Metropolitan Museum of Art",
+          "location": "New York",
+          "day": "Monday",
+          "season": "spring"
+        }
+      },
+      {
+        "query": "What are the opening hours for the Uffizi Gallery in Florence on a Friday this autumn?",
+        "filled_param": {
+          "venue": "Uffizi Gallery",
+          "location": "Florence",
+          "day": "Friday",
+          "season": "autumn"
+        }
+      },
+      {
+        "query": "Could you provide the hours of operation for the Rijksmuseum in Amsterdam on a Tuesday in the summer?",
+        "filled_param": {
+          "venue": "Rijksmuseum",
+          "location": "Amsterdam",
+          "day": "Tuesday",
+          "season": "summer"
+        }
+      },
+      {
+        "query": "Find the opening times for Museo del Prado in Madrid on a Thursday during spring.",
+        "filled_param": {
+          "venue": "Museo del Prado",
+          "location": "Madrid",
+          "day": "Thursday",
+          "season": "spring"
+        }
+      },
+      {
+        "query": "What are the operating hours of the Hermitage Museum in St. Petersburg on a Sunday in winter?",
+        "filled_param": {
+          "venue": "Hermitage Museum",
+          "location": "St. Petersburg",
+          "day": "Sunday",
+          "season": "winter"
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|art gallery|:|venue,location,day,season": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "art gallery",
+    "params_for_query": [
+      "venue",
+      "location",
+      "day",
+      "season"
+    ],
+    "queries": [
+      {
+        "query": "What are the opening hours for the Modern Art Museum in New York on Tuesday during the summer season?",
+        "filled_param": {
+          "venue": "Modern Art Museum",
+          "location": "New York",
+          "day": "Tuesday",
+          "season": "summer"
+        }
+      },
+      {
+        "query": "Can you tell me the working hours for the National Gallery in London on Wednesday in the spring?",
+        "filled_param": {
+          "venue": "National Gallery",
+          "location": "London",
+          "day": "Wednesday",
+          "season": "spring"
+        }
+      },
+      {
+        "query": "I need to know what time the Louvre in Paris opens on Friday during the winter.",
+        "filled_param": {
+          "venue": "Louvre",
+          "location": "Paris",
+          "day": "Friday",
+          "season": "winter"
+        }
+      },
+      {
+        "query": "Please provide the working hours for the Art Institute of Chicago on Saturday during autumn.",
+        "filled_param": {
+          "venue": "Art Institute of Chicago",
+          "location": "Chicago",
+          "day": "Saturday",
+          "season": "autumn"
+        }
+      },
+      {
+        "query": "Could you find out the opening hours of the Uffizi Gallery in Florence on Monday for the summer season?",
+        "filled_param": {
+          "venue": "Uffizi Gallery",
+          "location": "Florence",
+          "day": "Monday",
+          "season": "summer"
+        }
+      },
+      {
+        "query": "What are the working hours for the Rijksmuseum in Amsterdam on Sunday in the fall?",
+        "filled_param": {
+          "venue": "Rijksmuseum",
+          "location": "Amsterdam",
+          "day": "Sunday",
+          "season": "fall"
+        }
+      },
+      {
+        "query": "I'd like to know the opening hours for the Prado Museum in Madrid on Thursday during the spring.",
+        "filled_param": {
+          "venue": "Prado Museum",
+          "location": "Madrid",
+          "day": "Thursday",
+          "season": "spring"
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|library|:|venue,location,day,season": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "library",
+    "params_for_query": [
+      "venue",
+      "location",
+      "day",
+      "season"
+    ],
+    "queries": [
+      {
+        "query": "What are the working hours for the library at Central Library located in Los Angeles on a Thursday in winter?",
+        "filled_param": {
+          "venue": "Central Library",
+          "location": "Los Angeles",
+          "day": "Thursday",
+          "season": "winter"
+        }
+      },
+      {
+        "query": "Can you tell me the opening hours of the library at Brooklyn Public Library in New York during summer on a Monday?",
+        "filled_param": {
+          "venue": "Brooklyn Public Library",
+          "location": "New York",
+          "day": "Monday",
+          "season": "summer"
+        }
+      },
+      {
+        "query": "I need to know the library hours for the Chicago Public Library in Chicago on a Wednesday in spring.",
+        "filled_param": {
+          "venue": "Chicago Public Library",
+          "location": "Chicago",
+          "day": "Wednesday",
+          "season": "spring"
+        }
+      },
+      {
+        "query": "What's the schedule for the library at Seattle Central Library in Seattle on a Saturday in autumn?",
+        "filled_param": {
+          "venue": "Seattle Central Library",
+          "location": "Seattle",
+          "day": "Saturday",
+          "season": "autumn"
+        }
+      },
+      {
+        "query": "Could you provide the working hours for the library at San Francisco Public Library in San Francisco on a Sunday in winter?",
+        "filled_param": {
+          "venue": "San Francisco Public Library",
+          "location": "San Francisco",
+          "day": "Sunday",
+          "season": "winter"
+        }
+      },
+      {
+        "query": "Find out the library opening times for the Boston Public Library in Boston on a Tuesday in summer.",
+        "filled_param": {
+          "venue": "Boston Public Library",
+          "location": "Boston",
+          "day": "Tuesday",
+          "season": "summer"
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|zoo|:|venue,location,day,season": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "zoo",
+    "params_for_query": [
+      "venue",
+      "location",
+      "day",
+      "season"
+    ],
+    "queries": [
+      {
+        "query": "What are the working hours for Bronx Zoo in New York on Wednesday during winter?",
+        "filled_param": {
+          "venue": "Bronx Zoo",
+          "location": "New York",
+          "day": "Wednesday",
+          "season": "winter"
+        }
+      },
+      {
+        "query": "Can you tell me the opening hours of the San Diego Zoo in California on Saturday this summer?",
+        "filled_param": {
+          "venue": "San Diego Zoo",
+          "location": "California",
+          "day": "Saturday",
+          "season": "summer"
+        }
+      },
+      {
+        "query": "I need to know the operational hours for the London Zoo in London on Thursday during spring.",
+        "filled_param": {
+          "venue": "London Zoo",
+          "location": "London",
+          "day": "Thursday",
+          "season": "spring"
+        }
+      },
+      {
+        "query": "What time does the Toronto Zoo in Ontario open on Monday in the fall?",
+        "filled_param": {
+          "venue": "Toronto Zoo",
+          "location": "Ontario",
+          "day": "Monday",
+          "season": "fall"
+        }
+      },
+      {
+        "query": "Could you provide the closing time for the Singapore Zoo in Singapore on Friday during the monsoon season?",
+        "filled_param": {
+          "venue": "Singapore Zoo",
+          "location": "Singapore",
+          "day": "Friday",
+          "season": "monsoon"
+        }
+      },
+      {
+        "query": "Find out the business hours for the Berlin Zoo in Germany on Sunday in winter.",
+        "filled_param": {
+          "venue": "Berlin Zoo",
+          "location": "Germany",
+          "day": "Sunday",
+          "season": "winter"
+        }
+      },
+      {
+        "query": "What are the visiting hours for Taronga Zoo in Sydney on a Tuesday in summer?",
+        "filled_param": {
+          "venue": "Taronga Zoo",
+          "location": "Sydney",
+          "day": "Tuesday",
+          "season": "summer"
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|aquarium|:|venue,location,day,season": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "aquarium",
+    "params_for_query": [
+      "venue",
+      "location",
+      "day",
+      "season"
+    ],
+    "queries": [
+      {
+        "query": "What are the working hours for the Boston Aquarium on Saturday during summer?",
+        "filled_param": {
+          "venue": "Boston Aquarium",
+          "location": "Boston",
+          "day": "Saturday",
+          "season": "summer"
+        }
+      },
+      {
+        "query": "Can you tell me the opening hours of the Ocean World Aquarium in Los Angeles on Monday in winter?",
+        "filled_param": {
+          "venue": "Ocean World Aquarium",
+          "location": "Los Angeles",
+          "day": "Monday",
+          "season": "winter"
+        }
+      },
+      {
+        "query": "I need to know the operating hours of the Sydney Sea Life Aquarium on Friday in the spring season.",
+        "filled_param": {
+          "venue": "Sydney Sea Life Aquarium",
+          "location": "Sydney",
+          "day": "Friday",
+          "season": "spring"
+        }
+      },
+      {
+        "query": "Please provide the working hours for the Vancouver Aquarium on Wednesday during fall.",
+        "filled_param": {
+          "venue": "Vancouver Aquarium",
+          "location": "Vancouver",
+          "day": "Wednesday",
+          "season": "fall"
+        }
+      },
+      {
+        "query": "What time is the Georgia Aquarium open on Sunday in autumn?",
+        "filled_param": {
+          "venue": "Georgia Aquarium",
+          "location": "Georgia",
+          "day": "Sunday",
+          "season": "autumn"
+        }
+      },
+      {
+        "query": "Get the working hours for the London Aquarium on Tuesday in the winter season.",
+        "filled_param": {
+          "venue": "London Aquarium",
+          "location": "London",
+          "day": "Tuesday",
+          "season": "winter"
+        }
+      },
+      {
+        "query": "I'd like to know the opening times for the Dubai Aquarium on Thursday in the summer.",
+        "filled_param": {
+          "venue": "Dubai Aquarium",
+          "location": "Dubai",
+          "day": "Thursday",
+          "season": "summer"
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|botanical garden|:|venue,location,day,season": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "botanical garden",
+    "params_for_query": [
+      "venue",
+      "location",
+      "day",
+      "season"
+    ],
+    "queries": [
+      {
+        "query": "What are the opening hours for the Brooklyn Botanical Garden in New York on a Wednesday during spring?",
+        "filled_param": {
+          "venue": "Brooklyn Botanical Garden",
+          "location": "New York",
+          "day": "Wednesday",
+          "season": "spring"
+        }
+      },
+      {
+        "query": "Can you tell me the working hours of the Singapore Botanical Gardens on a Sunday in the summer?",
+        "filled_param": {
+          "venue": "Singapore Botanical Gardens",
+          "location": "Singapore",
+          "day": "Sunday",
+          "season": "summer"
+        }
+      },
+      {
+        "query": "I'd like to know the hours of operation for the Royal Botanic Gardens, Kew in London on a Friday during autumn.",
+        "filled_param": {
+          "venue": "Royal Botanic Gardens, Kew",
+          "location": "London",
+          "day": "Friday",
+          "season": "autumn"
+        }
+      },
+      {
+        "query": "Provide the working hours for Kirstenbosch National Botanical Garden in Cape Town on a Monday in winter.",
+        "filled_param": {
+          "venue": "Kirstenbosch National Botanical Garden",
+          "location": "Cape Town",
+          "day": "Monday",
+          "season": "winter"
+        }
+      },
+      {
+        "query": "What time does the Montreal Botanical Garden in Canada open on a Thursday during the fall?",
+        "filled_param": {
+          "venue": "Montreal Botanical Garden",
+          "location": "Canada",
+          "day": "Thursday",
+          "season": "fall"
+        }
+      },
+      {
+        "query": "Could you let me know the operating hours for the Botanical Gardens in Sydney on a Tuesday in the springtime?",
+        "filled_param": {
+          "venue": "Botanical Gardens",
+          "location": "Sydney",
+          "day": "Tuesday",
+          "season": "springtime"
+        }
+      },
+      {
+        "query": "Find out the opening hours of Jardim Botânico do Rio de Janeiro on a Saturday in the summer.",
+        "filled_param": {
+          "venue": "Jardim Botânico do Rio de Janeiro",
+          "location": "Rio de Janeiro",
+          "day": "Saturday",
+          "season": "summer"
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|amusement park|:|venue,location,day,season": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "amusement park",
+    "params_for_query": [
+      "venue",
+      "location",
+      "day",
+      "season"
+    ],
+    "queries": [
+      {
+        "query": "What are the working hours for Disneyland in Anaheim on a Friday during summer?",
+        "filled_param": {
+          "venue": "Disneyland",
+          "location": "Anaheim",
+          "day": "Friday",
+          "season": "summer"
+        }
+      },
+      {
+        "query": "Could you tell me the opening hours for Universal Studios in Orlando on a Wednesday in winter?",
+        "filled_param": {
+          "venue": "Universal Studios",
+          "location": "Orlando",
+          "day": "Wednesday",
+          "season": "winter"
+        }
+      },
+      {
+        "query": "I need the schedule for Six Flags Magic Mountain in Valencia for a Saturday in the spring season.",
+        "filled_param": {
+          "venue": "Six Flags Magic Mountain",
+          "location": "Valencia",
+          "day": "Saturday",
+          "season": "spring"
+        }
+      },
+      {
+        "query": "Can you provide the hours of operation for Alton Towers in Staffordshire on a Sunday in autumn?",
+        "filled_param": {
+          "venue": "Alton Towers",
+          "location": "Staffordshire",
+          "day": "Sunday",
+          "season": "autumn"
+        }
+      },
+      {
+        "query": "What time does Ocean Park in Hong Kong open on a Thursday during the summer season?",
+        "filled_param": {
+          "venue": "Ocean Park",
+          "location": "Hong Kong",
+          "day": "Thursday",
+          "season": "summer"
+        }
+      },
+      {
+        "query": "Give me the working hours for Efteling in Kaatsheuvel on a Monday in the winter season.",
+        "filled_param": {
+          "venue": "Efteling",
+          "location": "Kaatsheuvel",
+          "day": "Monday",
+          "season": "winter"
+        }
+      },
+      {
+        "query": "What are the opening times for Lotte World in Seoul on a Tuesday during spring?",
+        "filled_param": {
+          "venue": "Lotte World",
+          "location": "Seoul",
+          "day": "Tuesday",
+          "season": "spring"
+        }
+      }
+    ]
+  }
+}

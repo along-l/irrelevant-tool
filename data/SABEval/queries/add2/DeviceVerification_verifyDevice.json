@@ -1,0 +1,681 @@
+{
+  "DeviceVerification_verifyDevice|:|Apple|:|deviceIdentifiers,userFullName,ownerConsent": {
+    "tool_template_name": "DeviceVerification_verifyDevice",
+    "derived_class": "Apple",
+    "params_for_query": [
+      "deviceIdentifiers",
+      "userFullName",
+      "ownerConsent"
+    ],
+    "queries": [
+      {
+        "query": "Could you verify the details for my Apple device with the IMEI 356123456789012 and serial number C02YX0A5JHD5? My full name is Jessica Lee, and yes, I consent to the recycling process.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "356123456789012",
+            "C02YX0A5JHD5"
+          ],
+          "userFullName": "Jessica Lee",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "Please check the Apple device details. The identifiers are IMEI 490154203237518 and serial number DMPMN6X1F4Y7. The device belongs to Chris Evans, and he has given his consent.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "490154203237518",
+            "DMPMN6X1F4Y7"
+          ],
+          "userFullName": "Chris Evans",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "Verify my Apple device with serial number F17G2H4G5G6R and IMEI 352099001761481. My name is Amanda Taylor, and I do not give consent for recycling.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "F17G2H4G5G6R",
+            "352099001761481"
+          ],
+          "userFullName": "Amanda Taylor",
+          "ownerConsent": false
+        }
+      },
+      {
+        "query": "I'm John Smith, and I have an Apple device with serial number XSRY123456789. The IMEI is 867455021225489. I agree to proceed with recycling.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "XSRY123456789",
+            "867455021225489"
+          ],
+          "userFullName": "John Smith",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "Can you verify my Apple device? The serial number is G8ZJ3XQ4V8D1 and the IMEI is 357758084540673. I'm Sarah Connor, and I consent to recycle it.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "G8ZJ3XQ4V8D1",
+            "357758084540673"
+          ],
+          "userFullName": "Sarah Connor",
+          "ownerConsent": true
+        }
+      }
+    ]
+  },
+  "DeviceVerification_verifyDevice|:|Samsung|:|deviceIdentifiers,userFullName,ownerConsent": {
+    "tool_template_name": "DeviceVerification_verifyDevice",
+    "derived_class": "Samsung",
+    "params_for_query": [
+      "deviceIdentifiers",
+      "userFullName",
+      "ownerConsent"
+    ],
+    "queries": [
+      {
+        "query": "I am John Doe and I consent to recycle my Samsung device with the serial numbers S1234567 and S7654321.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "S1234567",
+            "S7654321"
+          ],
+          "userFullName": "John Doe",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "Please verify my Samsung device under the ownership of Jane Smith, with IMEIs 123456789012345 and 543210987654321. I have given my consent for recycling.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "123456789012345",
+            "543210987654321"
+          ],
+          "userFullName": "Jane Smith",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "Check Samsung device details for Alex Johnson with identifiers IMEI1234567890 and SR987654321. Note that the owner has not consented to recycle yet.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "IMEI1234567890",
+            "SR987654321"
+          ],
+          "userFullName": "Alex Johnson",
+          "ownerConsent": false
+        }
+      },
+      {
+        "query": "Verify the Samsung device for Peter Parker. The device identifiers are 098765432112345 and 678901234512345, and I do consent to the recycling process.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "098765432112345",
+            "678901234512345"
+          ],
+          "userFullName": "Peter Parker",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "I am Mary Lee, and I have decided not to consent to the recycling of my Samsung phone. The serial numbers are A123B456 and C789D012.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "A123B456",
+            "C789D012"
+          ],
+          "userFullName": "Mary Lee",
+          "ownerConsent": false
+        }
+      }
+    ]
+  },
+  "DeviceVerification_verifyDevice|:|Google|:|deviceIdentifiers,userFullName,ownerConsent": {
+    "tool_template_name": "DeviceVerification_verifyDevice",
+    "derived_class": "Google",
+    "params_for_query": [
+      "deviceIdentifiers",
+      "userFullName",
+      "ownerConsent"
+    ],
+    "queries": [
+      {
+        "query": "Please verify my Google device with the identifiers 12345A, 67890B, and 11223C. My full name is John Doe, and I have given consent for recycling.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "12345A",
+            "67890B",
+            "11223C"
+          ],
+          "userFullName": "John Doe",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "I need my Google device verified for recycling. The serial numbers are ABC123XYZ and DEF456UVW. My name is Jane Smith, and I consent to the process.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "ABC123XYZ",
+            "DEF456UVW"
+          ],
+          "userFullName": "Jane Smith",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "Can you check the Google device with identifiers 98765Q and 43210P? The owner, Mark Twain, has approved the recycling.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "98765Q",
+            "43210P"
+          ],
+          "userFullName": "Mark Twain",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "Verify the Google devices with these IDs: GHI789JKL, MNO012PQR. The user name is Emily Clark, and they have not given consent.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "GHI789JKL",
+            "MNO012PQR"
+          ],
+          "userFullName": "Emily Clark",
+          "ownerConsent": false
+        }
+      },
+      {
+        "query": "I'd like you to verify the Google device with the identifier 54321N. The user, Alex Johnson, has agreed to recycle it.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "54321N"
+          ],
+          "userFullName": "Alex Johnson",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "Check the recycling eligibility of my Google device. The identifier is ZYX987TUV, and the user is Sarah Lee who has not consented yet.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "ZYX987TUV"
+          ],
+          "userFullName": "Sarah Lee",
+          "ownerConsent": false
+        }
+      }
+    ]
+  },
+  "DeviceVerification_verifyDevice|:|Xiaomi|:|deviceIdentifiers,userFullName,ownerConsent": {
+    "tool_template_name": "DeviceVerification_verifyDevice",
+    "derived_class": "Xiaomi",
+    "params_for_query": [
+      "deviceIdentifiers",
+      "userFullName",
+      "ownerConsent"
+    ],
+    "queries": [
+      {
+        "query": "Please verify my Xiaomi device with IMEI 123456789012345 and serial number XYZ123456. My name is John Doe, and I have given consent for recycling.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "123456789012345",
+            "XYZ123456"
+          ],
+          "userFullName": "John Doe",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "I am Mary Smith and I want to verify my Xiaomi device for recycling. The IMEI is 987654321098765 and the serial is ABC987654. I do give consent.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "987654321098765",
+            "ABC987654"
+          ],
+          "userFullName": "Mary Smith",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "Verify Xiaomi device using identifiers: IMEI 111122223333444 and serial number QWE987654. User: Alex Johnson. Consent is not given.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "111122223333444",
+            "QWE987654"
+          ],
+          "userFullName": "Alex Johnson",
+          "ownerConsent": false
+        }
+      },
+      {
+        "query": "I, Robert Brown, request verification for my Xiaomi device with the identifiers IMEI 123321123321123 and serial DEF654321. I consent to recycling.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "123321123321123",
+            "DEF654321"
+          ],
+          "userFullName": "Robert Brown",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "Check my Xiaomi device details for recycling. My full name is Lisa White, with IMEI 456789012345678 and serial number GHI123456, but no consent is granted.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "456789012345678",
+            "GHI123456"
+          ],
+          "userFullName": "Lisa White",
+          "ownerConsent": false
+        }
+      }
+    ]
+  },
+  "DeviceVerification_verifyDevice|:|Huawei|:|deviceIdentifiers,userFullName,ownerConsent": {
+    "tool_template_name": "DeviceVerification_verifyDevice",
+    "derived_class": "Huawei",
+    "params_for_query": [
+      "deviceIdentifiers",
+      "userFullName",
+      "ownerConsent"
+    ],
+    "queries": [
+      {
+        "query": "Please verify my Huawei device with the identifiers 123456789ABCDEF and 987654321XYZ. My name is John Doe, and I have given my consent for the recycling process.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "123456789ABCDEF",
+            "987654321XYZ"
+          ],
+          "userFullName": "John Doe",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "The Huawei device I need verified has the serial numbers HUAWEI12345A and HUAWEI67890B. My full name is Alice Johnson, and I do not consent to the recycling at this time.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "HUAWEI12345A",
+            "HUAWEI67890B"
+          ],
+          "userFullName": "Alice Johnson",
+          "ownerConsent": false
+        }
+      },
+      {
+        "query": "I, Mark Spencer, consent to recycle my Huawei device with identifiers 112233445566778 and 221133445566889. Can you verify it for me?",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "112233445566778",
+            "221133445566889"
+          ],
+          "userFullName": "Mark Spencer",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "Verify my Huawei device with IMEI 1234ABCD5678EFGH and serial number ZXCVBNM09876. I am Linda Green and I have provided my consent.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "1234ABCD5678EFGH",
+            "ZXCVBNM09876"
+          ],
+          "userFullName": "Linda Green",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "This is Nathan Lee requesting verification for my Huawei device with identifiers 87654321QWERTY and 12345678ASDFGH. I do not give my consent for recycling.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "87654321QWERTY",
+            "12345678ASDFGH"
+          ],
+          "userFullName": "Nathan Lee",
+          "ownerConsent": false
+        }
+      },
+      {
+        "query": "Can you verify the Huawei device with serials 9988776655443322 and 2233445566778899? My name is Sophia Brown, and I consent to recycling.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "9988776655443322",
+            "2233445566778899"
+          ],
+          "userFullName": "Sophia Brown",
+          "ownerConsent": true
+        }
+      }
+    ]
+  },
+  "DeviceVerification_verifyDevice|:|Sony|:|deviceIdentifiers,userFullName,ownerConsent": {
+    "tool_template_name": "DeviceVerification_verifyDevice",
+    "derived_class": "Sony",
+    "params_for_query": [
+      "deviceIdentifiers",
+      "userFullName",
+      "ownerConsent"
+    ],
+    "queries": [
+      {
+        "query": "Please verify my Sony device with the serial number ABC123456 and IMEI 78910111213. My name is John Doe, and I consent to the recycling process.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "ABC123456",
+            "78910111213"
+          ],
+          "userFullName": "John Doe",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "I am Jane Smith, and I approve the recycling of my Sony device. The identifiers are IMEI 123456789012345 and serial number XYZ987654.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "123456789012345",
+            "XYZ987654"
+          ],
+          "userFullName": "Jane Smith",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "Can you check my Sony device with serial ABCD1234? I'm Michael Brown, and I give my consent for recycling.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "ABCD1234"
+          ],
+          "userFullName": "Michael Brown",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "Verify the Sony device details with IMEI 098765432109876. The owner, Emily Carter, has not given consent yet.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "098765432109876"
+          ],
+          "userFullName": "Emily Carter",
+          "ownerConsent": false
+        }
+      },
+      {
+        "query": "My name is Robert Johnson, and I do not consent to recycle my Sony device. The serial number is 1122334455.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "1122334455"
+          ],
+          "userFullName": "Robert Johnson",
+          "ownerConsent": false
+        }
+      }
+    ]
+  },
+  "DeviceVerification_verifyDevice|:|Dell|:|deviceIdentifiers,userFullName,ownerConsent": {
+    "tool_template_name": "DeviceVerification_verifyDevice",
+    "derived_class": "Dell",
+    "params_for_query": [
+      "deviceIdentifiers",
+      "userFullName",
+      "ownerConsent"
+    ],
+    "queries": [
+      {
+        "query": "Can you verify my Dell device with serial number DX12345FTR? My full name is Lisa Johnson, and I have given consent for recycling.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "DX12345FTR"
+          ],
+          "userFullName": "Lisa Johnson",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "Please check the device details for my Dell laptop with the serial number SL78901XYZ. My name is Michael Green, and I do not consent to recycling yet.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "SL78901XYZ"
+          ],
+          "userFullName": "Michael Green",
+          "ownerConsent": false
+        }
+      },
+      {
+        "query": "I need to verify my Dell device for recycling purposes. The serial number is AB56789QW. My name is Samantha Brown, and I authorize the recycling.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "AB56789QW"
+          ],
+          "userFullName": "Samantha Brown",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "Verify the Dell device with identifiers IMEI: 123456789012345 and serial: GF456MNXCV for the recycling process. User: Edward Collins. Consent given: Yes.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "123456789012345",
+            "GF456MNXCV"
+          ],
+          "userFullName": "Edward Collins",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "Could you confirm the details for the Dell device with serial numbers 9988776655 and 1122334455? User's full name is Anna Smith, and I have not given consent for recycling.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "9988776655",
+            "1122334455"
+          ],
+          "userFullName": "Anna Smith",
+          "ownerConsent": false
+        }
+      }
+    ]
+  },
+  "DeviceVerification_verifyDevice|:|Lenovo|:|deviceIdentifiers,userFullName,ownerConsent": {
+    "tool_template_name": "DeviceVerification_verifyDevice",
+    "derived_class": "Lenovo",
+    "params_for_query": [
+      "deviceIdentifiers",
+      "userFullName",
+      "ownerConsent"
+    ],
+    "queries": [
+      {
+        "query": "Please verify my Lenovo device with serial numbers 12345ABC and 67890XYZ; my name is John Doe, and I have given consent for recycling.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "12345ABC",
+            "67890XYZ"
+          ],
+          "userFullName": "John Doe",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "I, Emily White, agree to recycle my Lenovo device. The identifiers are IMEI 987654321012345 and serial 54321CBA.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "987654321012345",
+            "54321CBA"
+          ],
+          "userFullName": "Emily White",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "Verify the Lenovo device for recycling with identifiers 11223ZZZ, under the name Michael Smith, without the owner's consent.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "11223ZZZ"
+          ],
+          "userFullName": "Michael Smith",
+          "ownerConsent": false
+        }
+      },
+      {
+        "query": "I, Lisa Brown, do not consent to recycle my Lenovo device. The identifiers provided are serial 2468WXYZ and IMEI 123456789098765.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "2468WXYZ",
+            "123456789098765"
+          ],
+          "userFullName": "Lisa Brown",
+          "ownerConsent": false
+        }
+      },
+      {
+        "query": "Verify my Lenovo device for recycling. My name is Robert King, and the device's serial numbers are 98765LMN and 43210PQR, with consent given.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "98765LMN",
+            "43210PQR"
+          ],
+          "userFullName": "Robert King",
+          "ownerConsent": true
+        }
+      }
+    ]
+  },
+  "DeviceVerification_verifyDevice|:|Microsoft|:|deviceIdentifiers,userFullName,ownerConsent": {
+    "tool_template_name": "DeviceVerification_verifyDevice",
+    "derived_class": "Microsoft",
+    "params_for_query": [
+      "deviceIdentifiers",
+      "userFullName",
+      "ownerConsent"
+    ],
+    "queries": [
+      {
+        "query": "Please verify my Microsoft device with serial number 12345-ABCDE for recycling. My name is John Doe and I have given consent.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "12345-ABCDE"
+          ],
+          "userFullName": "John Doe",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "I, Jane Smith, consent to recycle my Microsoft device. The IMEI is 54321-ZYXWV.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "54321-ZYXWV"
+          ],
+          "userFullName": "Jane Smith",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "Verify the Microsoft device with the identifier ABCDE-98765 for recycling. The owner's name is Michael Johnson, and he has agreed.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "ABCDE-98765"
+          ],
+          "userFullName": "Michael Johnson",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "I'm Sarah Connor, and I want to recycle my Microsoft device. The serial number is 67890-FGHIJ, and I have provided my consent.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "67890-FGHIJ"
+          ],
+          "userFullName": "Sarah Connor",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "Can you verify my Microsoft device for recycling? My name is Alex Brown, the device serial is 13579-LMNOP, and I consent to this process.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "13579-LMNOP"
+          ],
+          "userFullName": "Alex Brown",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "My Microsoft device with IMEI 24680-QWERT needs verification for recycling. I, Emily Davis, have given consent.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "24680-QWERT"
+          ],
+          "userFullName": "Emily Davis",
+          "ownerConsent": true
+        }
+      }
+    ]
+  },
+  "DeviceVerification_verifyDevice|:|ASUS|:|deviceIdentifiers,userFullName,ownerConsent": {
+    "tool_template_name": "DeviceVerification_verifyDevice",
+    "derived_class": "ASUS",
+    "params_for_query": [
+      "deviceIdentifiers",
+      "userFullName",
+      "ownerConsent"
+    ],
+    "queries": [
+      {
+        "query": "Verify my ASUS device for recycling. The serial number is 'SN123456789' and IMEI number is 'IMEI987654321'. My name is John Doe, and I have given my consent.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "SN123456789",
+            "IMEI987654321"
+          ],
+          "userFullName": "John Doe",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "I want to check the details of my ASUS device before recycling. The device identifiers are 'SN111222333' and 'IMEI444555666'. My full name is Jane Smith, and I consent to the recycling.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "SN111222333",
+            "IMEI444555666"
+          ],
+          "userFullName": "Jane Smith",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "Can you confirm the information on my ASUS device? The serial is 'SN999888777', IMEI is 'IMEI333222111'. The owner name is Mike Johnson, and he has agreed to proceed with recycling.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "SN999888777",
+            "IMEI333222111"
+          ],
+          "userFullName": "Mike Johnson",
+          "ownerConsent": true
+        }
+      },
+      {
+        "query": "Please verify the ASUS device with serial number 'SN555444333' and IMEI 'IMEI666777888'. The device belongs to Emily Davis, who has not provided consent yet.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "SN555444333",
+            "IMEI666777888"
+          ],
+          "userFullName": "Emily Davis",
+          "ownerConsent": false
+        }
+      },
+      {
+        "query": "I'd like to verify my ASUS device details. The identifiers are 'SN123321123' and 'IMEI654321654'. I am Robert Lee, and I have given my consent.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "SN123321123",
+            "IMEI654321654"
+          ],
+          "userFullName": "Robert Lee",
+          "ownerConsent": true
+        }
+      }
+    ]
+  }
+}

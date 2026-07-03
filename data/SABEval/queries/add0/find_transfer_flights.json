@@ -1,0 +1,214 @@
+{
+  "find_transfer_flights|:|flight|:|origin_city,transfer_city,destination_city": {
+    "tool_template_name": "find_transfer_flights",
+    "derived_class": "flight",
+    "params_for_query": [
+      "origin_city",
+      "transfer_city",
+      "destination_city"
+    ],
+    "queries": [
+      {
+        "query": "Can you find a flight route from New York to Tokyo with a transfer in San Francisco?",
+        "filled_param": {
+          "origin_city": "New York",
+          "transfer_city": "San Francisco",
+          "destination_city": "Tokyo"
+        }
+      },
+      {
+        "query": "I need a flight from London to Sydney, stopping over in Dubai. Can you help?",
+        "filled_param": {
+          "origin_city": "London",
+          "transfer_city": "Dubai",
+          "destination_city": "Sydney"
+        }
+      },
+      {
+        "query": "What are the flight routes available from Paris to Buenos Aires with a stop in Sao Paulo?",
+        "filled_param": {
+          "origin_city": "Paris",
+          "transfer_city": "Sao Paulo",
+          "destination_city": "Buenos Aires"
+        }
+      },
+      {
+        "query": "Could you find a transfer flight from Los Angeles to Rome that stops in New York?",
+        "filled_param": {
+          "origin_city": "Los Angeles",
+          "transfer_city": "New York",
+          "destination_city": "Rome"
+        }
+      },
+      {
+        "query": "Is there a transfer flight from Beijing to Cape Town with a stopover in Nairobi?",
+        "filled_param": {
+          "origin_city": "Beijing",
+          "transfer_city": "Nairobi",
+          "destination_city": "Cape Town"
+        }
+      }
+    ]
+  },
+  "find_transfer_flights|:|high-speed train|:|origin_city,transfer_city,destination_city": {
+    "tool_template_name": "find_transfer_flights",
+    "derived_class": "high-speed train",
+    "params_for_query": [
+      "origin_city",
+      "transfer_city",
+      "destination_city"
+    ],
+    "queries": [
+      {
+        "query": "Can you help me find a high-speed train route from Paris to Rome with a stopover in Milan?",
+        "filled_param": {
+          "origin_city": "Paris",
+          "transfer_city": "Milan",
+          "destination_city": "Rome"
+        }
+      },
+      {
+        "query": "I need to travel by high-speed train from Tokyo to Kyoto, and I'd like to stop in Nagoya. What are my options?",
+        "filled_param": {
+          "origin_city": "Tokyo",
+          "transfer_city": "Nagoya",
+          "destination_city": "Kyoto"
+        }
+      },
+      {
+        "query": "What high-speed train routes can I take to get from New York to Miami with a transfer in Washington, D.C.?",
+        "filled_param": {
+          "origin_city": "New York",
+          "transfer_city": "Washington, D.C.",
+          "destination_city": "Miami"
+        }
+      },
+      {
+        "query": "Find me a high-speed train route that goes from Berlin to Vienna, stopping over in Munich.",
+        "filled_param": {
+          "origin_city": "Berlin",
+          "transfer_city": "Munich",
+          "destination_city": "Vienna"
+        }
+      },
+      {
+        "query": "I'm planning a trip from Beijing to Guangzhou and want to transfer in Wuhan. What high-speed train routes are available?",
+        "filled_param": {
+          "origin_city": "Beijing",
+          "transfer_city": "Wuhan",
+          "destination_city": "Guangzhou"
+        }
+      },
+      {
+        "query": "Could you show me the high-speed train options from Los Angeles to San Francisco with a stop in San Jose?",
+        "filled_param": {
+          "origin_city": "Los Angeles",
+          "transfer_city": "San Jose",
+          "destination_city": "San Francisco"
+        }
+      }
+    ]
+  },
+  "find_transfer_flights|:|cruise ship|:|origin_city,transfer_city,destination_city": {
+    "tool_template_name": "find_transfer_flights",
+    "derived_class": "cruise ship",
+    "params_for_query": [
+      "origin_city",
+      "transfer_city",
+      "destination_city"
+    ],
+    "queries": [
+      {
+        "query": "Could you find a cruise ship route starting from Miami, with a transfer in Nassau, and finally reaching Havana?",
+        "filled_param": {
+          "origin_city": "Miami",
+          "transfer_city": "Nassau",
+          "destination_city": "Havana"
+        }
+      },
+      {
+        "query": "I need to know a cruise ship route that begins in Barcelona, has a stopover in Marseille, and ends in Genoa.",
+        "filled_param": {
+          "origin_city": "Barcelona",
+          "transfer_city": "Marseille",
+          "destination_city": "Genoa"
+        }
+      },
+      {
+        "query": "Can you list a cruise ship route that departs from Sydney, stops in Auckland, and ends in Wellington?",
+        "filled_param": {
+          "origin_city": "Sydney",
+          "transfer_city": "Auckland",
+          "destination_city": "Wellington"
+        }
+      },
+      {
+        "query": "Please provide a cruise ship itinerary from New York, transferring in Bermuda, and reaching its final stop at San Juan.",
+        "filled_param": {
+          "origin_city": "New York",
+          "transfer_city": "Bermuda",
+          "destination_city": "San Juan"
+        }
+      },
+      {
+        "query": "What is a possible cruise ship route from Tokyo, with a layover in Busan, and concluding in Shanghai?",
+        "filled_param": {
+          "origin_city": "Tokyo",
+          "transfer_city": "Busan",
+          "destination_city": "Shanghai"
+        }
+      }
+    ]
+  },
+  "find_transfer_flights|:|long-distance bus|:|origin_city,transfer_city,destination_city": {
+    "tool_template_name": "find_transfer_flights",
+    "derived_class": "long-distance bus",
+    "params_for_query": [
+      "origin_city",
+      "transfer_city",
+      "destination_city"
+    ],
+    "queries": [
+      {
+        "query": "Can you help me find a long-distance bus route from Chicago to Houston with a transfer in Nashville?",
+        "filled_param": {
+          "origin_city": "Chicago",
+          "transfer_city": "Nashville",
+          "destination_city": "Houston"
+        }
+      },
+      {
+        "query": "I need details on a long-distance bus journey starting in Miami, transferring in Atlanta, and ending in New Orleans.",
+        "filled_param": {
+          "origin_city": "Miami",
+          "transfer_city": "Atlanta",
+          "destination_city": "New Orleans"
+        }
+      },
+      {
+        "query": "Please find a long-distance bus route that goes from Los Angeles to Seattle with a change in San Francisco.",
+        "filled_param": {
+          "origin_city": "Los Angeles",
+          "transfer_city": "San Francisco",
+          "destination_city": "Seattle"
+        }
+      },
+      {
+        "query": "What are the long-distance bus options from Boston to Washington D.C. with a transfer at New York City?",
+        "filled_param": {
+          "origin_city": "Boston",
+          "transfer_city": "New York City",
+          "destination_city": "Washington D.C."
+        }
+      },
+      {
+        "query": "Find me a long-distance bus route from Denver to Las Vegas stopping in Salt Lake City first.",
+        "filled_param": {
+          "origin_city": "Denver",
+          "transfer_city": "Salt Lake City",
+          "destination_city": "Las Vegas"
+        }
+      }
+    ]
+  }
+}

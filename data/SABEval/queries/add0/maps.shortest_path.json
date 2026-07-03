@@ -1,0 +1,231 @@
+{
+  "maps.shortest_path|:|walk|:|start_location,end_location": {
+    "tool_template_name": "maps.shortest_path",
+    "derived_class": "walk",
+    "params_for_query": [
+      "start_location",
+      "end_location"
+    ],
+    "queries": [
+      {
+        "query": "What's the shortest walk path from Central Park to Times Square?",
+        "filled_param": {
+          "start_location": "Central Park",
+          "end_location": "Times Square"
+        }
+      },
+      {
+        "query": "Can you find the shortest walking route between Eiffel Tower and Notre Dame?",
+        "filled_param": {
+          "start_location": "Eiffel Tower",
+          "end_location": "Notre Dame"
+        }
+      },
+      {
+        "query": "I need to know the shortest way to walk from Tower Bridge to the British Museum.",
+        "filled_param": {
+          "start_location": "Tower Bridge",
+          "end_location": "British Museum"
+        }
+      },
+      {
+        "query": "What's the shortest path on foot between the Sydney Opera House and Bondi Beach?",
+        "filled_param": {
+          "start_location": "Sydney Opera House",
+          "end_location": "Bondi Beach"
+        }
+      },
+      {
+        "query": "Help me find the shortest route to walk from Tokyo Tower to Shibuya Crossing.",
+        "filled_param": {
+          "start_location": "Tokyo Tower",
+          "end_location": "Shibuya Crossing"
+        }
+      },
+      {
+        "query": "Could you calculate the shortest walk distance from Brandenburg Gate to Berlin TV Tower?",
+        "filled_param": {
+          "start_location": "Brandenburg Gate",
+          "end_location": "Berlin TV Tower"
+        }
+      },
+      {
+        "query": "Please determine the shortest walking path from the Louvre Museum to Sacré-Cœur.",
+        "filled_param": {
+          "start_location": "Louvre Museum",
+          "end_location": "Sacré-Cœur"
+        }
+      }
+    ]
+  },
+  "maps.shortest_path|:|bike|:|start_location,end_location": {
+    "tool_template_name": "maps.shortest_path",
+    "derived_class": "bike",
+    "params_for_query": [
+      "start_location",
+      "end_location"
+    ],
+    "queries": [
+      {
+        "query": "What's the shortest bike path from Central Park to Times Square?",
+        "filled_param": {
+          "start_location": "Central Park",
+          "end_location": "Times Square"
+        }
+      },
+      {
+        "query": "Can you find the shortest bike route from Eiffel Tower to Louvre Museum?",
+        "filled_param": {
+          "start_location": "Eiffel Tower",
+          "end_location": "Louvre Museum"
+        }
+      },
+      {
+        "query": "Navigate the quickest bike path between Golden Gate Bridge and Fisherman's Wharf.",
+        "filled_param": {
+          "start_location": "Golden Gate Bridge",
+          "end_location": "Fisherman's Wharf"
+        }
+      },
+      {
+        "query": "I need to bike from Sydney Opera House to Bondi Beach. What's the shortest path?",
+        "filled_param": {
+          "start_location": "Sydney Opera House",
+          "end_location": "Bondi Beach"
+        }
+      },
+      {
+        "query": "What's the shortest distance by bike from Tokyo Tower to Shibuya Crossing?",
+        "filled_param": {
+          "start_location": "Tokyo Tower",
+          "end_location": "Shibuya Crossing"
+        }
+      },
+      {
+        "query": "Please find the shortest bike route from Buckingham Palace to Tower of London.",
+        "filled_param": {
+          "start_location": "Buckingham Palace",
+          "end_location": "Tower of London"
+        }
+      },
+      {
+        "query": "Determine the shortest biking path from Brandenburg Gate to Berlin TV Tower.",
+        "filled_param": {
+          "start_location": "Brandenburg Gate",
+          "end_location": "Berlin TV Tower"
+        }
+      }
+    ]
+  },
+  "maps.shortest_path|:|drive|:|start_location,end_location": {
+    "tool_template_name": "maps.shortest_path",
+    "derived_class": "drive",
+    "params_for_query": [
+      "start_location",
+      "end_location"
+    ],
+    "queries": [
+      {
+        "query": "What is the shortest drive route from Times Square to Central Park in New York?",
+        "filled_param": {
+          "start_location": "Times Square",
+          "end_location": "Central Park"
+        }
+      },
+      {
+        "query": "Find the shortest driving path between the Eiffel Tower and the Louvre Museum.",
+        "filled_param": {
+          "start_location": "Eiffel Tower",
+          "end_location": "Louvre Museum"
+        }
+      },
+      {
+        "query": "Can you calculate the shortest drive from San Francisco to Los Angeles?",
+        "filled_param": {
+          "start_location": "San Francisco",
+          "end_location": "Los Angeles"
+        }
+      },
+      {
+        "query": "Determine the shortest driving route from Buckingham Palace to Big Ben.",
+        "filled_param": {
+          "start_location": "Buckingham Palace",
+          "end_location": "Big Ben"
+        }
+      },
+      {
+        "query": "What's the shortest path by car from Berlin Brandenburg Airport to Alexanderplatz?",
+        "filled_param": {
+          "start_location": "Berlin Brandenburg Airport",
+          "end_location": "Alexanderplatz"
+        }
+      },
+      {
+        "query": "Plan the shortest driving route from Sydney Opera House to Bondi Beach.",
+        "filled_param": {
+          "start_location": "Sydney Opera House",
+          "end_location": "Bondi Beach"
+        }
+      }
+    ]
+  },
+  "maps.shortest_path|:|transit|:|start_location,end_location": {
+    "tool_template_name": "maps.shortest_path",
+    "derived_class": "transit",
+    "params_for_query": [
+      "start_location",
+      "end_location"
+    ],
+    "queries": [
+      {
+        "query": "What is the shortest transit route from Times Square in New York to Central Park?",
+        "filled_param": {
+          "start_location": "Times Square, New York",
+          "end_location": "Central Park, New York"
+        }
+      },
+      {
+        "query": "Could you find the quickest transit path from London Bridge to Camden Market?",
+        "filled_param": {
+          "start_location": "London Bridge",
+          "end_location": "Camden Market"
+        }
+      },
+      {
+        "query": "How do I get from Tokyo Tower to Shibuya Crossing using the shortest transit route?",
+        "filled_param": {
+          "start_location": "Tokyo Tower",
+          "end_location": "Shibuya Crossing"
+        }
+      },
+      {
+        "query": "Show me the shortest transit way to travel from Eiffel Tower to Louvre Museum.",
+        "filled_param": {
+          "start_location": "Eiffel Tower",
+          "end_location": "Louvre Museum"
+        }
+      },
+      {
+        "query": "Can you calculate the shortest transit path from Berlin Hauptbahnhof to Brandenburg Gate?",
+        "filled_param": {
+          "start_location": "Berlin Hauptbahnhof",
+          "end_location": "Brandenburg Gate"
+        }
+      },
+      {
+        "query": "I'd like to know the shortest transit route from Sydney Opera House to Bondi Beach.",
+        "filled_param": {
+          "start_location": "Sydney Opera House",
+          "end_location": "Bondi Beach"
+        }
+      },
+      {
+        "query": "Find the quickest way using transit from the Colosseum to the Vatican City.",
+        "filled_param": {
+          "start_location": "Colosseum",
+          "end_location": "Vatican City"
+        }
+      }
+    ]
+  }
+}

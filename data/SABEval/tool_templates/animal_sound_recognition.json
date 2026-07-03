@@ -1,0 +1,80 @@
+{
+  "tool_template_name": "animal_sound_recognition",
+  "meta_data": {
+    "base_class": "Identify specific animals based on recordings of <animal classes> - refers to zoological taxonomic classes of animals.",
+    "derived_classes": [
+      "Mammalia",
+      "Aves",
+      "Reptilia",
+      "Amphibia",
+      "Pisces",
+      "Insecta",
+      "Arachnida",
+      "Crustacea",
+      "Gastropoda",
+      "Cephalopoda",
+      "Polychaeta",
+      "Oligochaeta",
+      "Hirudinea",
+      "Cnidaria",
+      "Porifera"
+    ],
+    "base_class_entity": "terrestrial animals"
+  },
+  "tool_template": {
+    "name": "identify_<class>_based_on_sounds",
+    "description": "Identify <class> based on recorded sounds.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "audio_clip": {
+          "type": "string",
+          "description": "Base64 encoded audio clip string of the <class> sound."
+        }
+      },
+      "required": [
+        "audio_clip"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "time_of_day": {
+      "type": "string",
+      "description": "Time of day when the sound was recorded. Should be one of the following options: 'Dawn', 'Morning', 'Noon', 'Afternoon', 'Evening', 'Night'."
+    },
+    "latitude": {
+      "type": "number",
+      "description": "Latitude of the location where the <class> sound was recorded."
+    },
+    "longitude": {
+      "type": "number",
+      "description": "Longitude of the location where the <class> sound was recorded."
+    },
+    "sensitivity": {
+      "type": "integer",
+      "description": "Sensitivity level of the recognition process, ranging from 1 (low) to 10 (high)."
+    },
+    "filter_background_noise": {
+      "type": "boolean",
+      "description": "Whether to filter out background noise from the audio clip."
+    }
+  },
+  "additional_params": {
+    "weather_conditions": {
+      "type": "string",
+      "description": "Weather conditions at the time of recording the <class> sound. Should be one of the following options: 'Sunny', 'Cloudy', 'Rainy', 'Snowy', 'Windy', 'Foggy', 'Stormy'."
+    },
+    "duration": {
+      "type": "integer",
+      "description": "Duration of the audio clip in seconds. Indicates how long the <class> sound was recorded for, having a minimum value of 1 second."
+    },
+    "device_used": {
+      "type": "string",
+      "description": "Type of device used for recording the <class> sound. Should be one of the following options: 'Smartphone', 'Microphone', 'Digital Recorder', 'Other'."
+    },
+    "proximity_to_subject": {
+      "type": "string",
+      "description": "Estimated proximity to the <class> subject when the sound was recorded. Options include 'Very Close', 'Moderate', 'Distant'."
+    }
+  }
+}

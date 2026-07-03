@@ -1,0 +1,734 @@
+{
+  "art_auction.fetch_artwork_price|:|sothebys|:|artwork_name,artist,currency,include_tax": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "sothebys",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency",
+      "include_tax"
+    ],
+    "queries": [
+      {
+        "query": "What is the price of 'The Starry Night' by Vincent van Gogh in USD, including taxes, on sothebys?",
+        "filled_param": {
+          "artwork_name": "The Starry Night",
+          "artist": "Vincent van Gogh",
+          "currency": "USD",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "Can you fetch the price for Picasso's 'Les Demoiselles d'Avignon' in EUR without taxes from sothebys?",
+        "filled_param": {
+          "artwork_name": "Les Demoiselles d'Avignon",
+          "artist": "Picasso",
+          "currency": "EUR",
+          "include_tax": false
+        }
+      },
+      {
+        "query": "I'd like to know the price of 'The Persistence of Memory' by Salvador Dalí in GBP, with taxes included, on sothebys.",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí",
+          "currency": "GBP",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "Find the price of 'The Scream' by Edvard Munch in USD, excluding taxes, on sothebys.",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "USD",
+          "include_tax": false
+        }
+      },
+      {
+        "query": "What's the cost of 'Girl with a Pearl Earring' by Johannes Vermeer in EUR, with taxes, on sothebys?",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer",
+          "currency": "EUR",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "Please provide the price for 'Water Lilies' by Claude Monet in GBP, excluding tax, on sothebys.",
+        "filled_param": {
+          "artwork_name": "Water Lilies",
+          "artist": "Claude Monet",
+          "currency": "GBP",
+          "include_tax": false
+        }
+      },
+      {
+        "query": "How much is 'Mona Lisa' by Leonardo da Vinci in USD, including tax, on sothebys?",
+        "filled_param": {
+          "artwork_name": "Mona Lisa",
+          "artist": "Leonardo da Vinci",
+          "currency": "USD",
+          "include_tax": true
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|christies|:|artwork_name,artist,currency,include_tax": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "christies",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency",
+      "include_tax"
+    ],
+    "queries": [
+      {
+        "query": "Could you find out the price for 'The Starry Night' by Vincent van Gogh in USD, including tax, on the christies platform?",
+        "filled_param": {
+          "artwork_name": "The Starry Night",
+          "artist": "Vincent van Gogh",
+          "currency": "USD",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "I would like to know how much 'Mona Lisa' by Leonardo da Vinci costs on christies, in EUR, without including tax.",
+        "filled_param": {
+          "artwork_name": "Mona Lisa",
+          "artist": "Leonardo da Vinci",
+          "currency": "EUR",
+          "include_tax": false
+        }
+      },
+      {
+        "query": "What's the price of 'The Persistence of Memory' by Salvador Dalí in GBP? Please make sure it includes tax on the christies website.",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí",
+          "currency": "GBP",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "Can you check how much 'The Scream' by Edvard Munch costs in USD, excluding tax, on christies?",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "USD",
+          "include_tax": false
+        }
+      },
+      {
+        "query": "What is the price for 'Girl with a Pearl Earring' by Johannes Vermeer in EUR, including taxes, on the christies platform?",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer",
+          "currency": "EUR",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "I'd like to find out the cost of 'The Night Watch' by Rembrandt in GBP, without tax, using christies.",
+        "filled_param": {
+          "artwork_name": "The Night Watch",
+          "artist": "Rembrandt",
+          "currency": "GBP",
+          "include_tax": false
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|phillips|:|artwork_name,artist,currency,include_tax": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "phillips",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency",
+      "include_tax"
+    ],
+    "queries": [
+      {
+        "query": "What is the price of 'Starry Night' by Vincent van Gogh in USD including tax on the phillips platform?",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Vincent van Gogh",
+          "currency": "USD",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "Could you check the price for 'The Persistence of Memory' by Salvador Dalí in EUR without tax at phillips?",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí",
+          "currency": "EUR",
+          "include_tax": false
+        }
+      },
+      {
+        "query": "Fetch the price of 'The Mona Lisa' by Leonardo da Vinci in GBP including taxes from phillips.",
+        "filled_param": {
+          "artwork_name": "The Mona Lisa",
+          "artist": "Leonardo da Vinci",
+          "currency": "GBP",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "How much does 'The Scream' by Edvard Munch cost in USD excluding tax on the phillips platform?",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "USD",
+          "include_tax": false
+        }
+      },
+      {
+        "query": "Please provide the price for 'Girl with a Pearl Earring' by Johannes Vermeer in EUR, including tax, from phillips.",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer",
+          "currency": "EUR",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "Can you tell me the price of 'Guernica' by Pablo Picasso in GBP without including taxes from the phillips platform?",
+        "filled_param": {
+          "artwork_name": "Guernica",
+          "artist": "Pablo Picasso",
+          "currency": "GBP",
+          "include_tax": false
+        }
+      },
+      {
+        "query": "What is the price listed for 'The Night Watch' by Rembrandt in USD with tax on phillips?",
+        "filled_param": {
+          "artwork_name": "The Night Watch",
+          "artist": "Rembrandt",
+          "currency": "USD",
+          "include_tax": true
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|bonhams|:|artwork_name,artist,currency,include_tax": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "bonhams",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency",
+      "include_tax"
+    ],
+    "queries": [
+      {
+        "query": "Could you tell me the price of 'The Starry Night' by Vincent van Gogh on Bonhams in USD, including tax?",
+        "filled_param": {
+          "artwork_name": "The Starry Night",
+          "artist": "Vincent van Gogh",
+          "currency": "USD",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "What is the price of Leonardo da Vinci's 'Mona Lisa' on the Bonhams platform in Euros, excluding any taxes?",
+        "filled_param": {
+          "artwork_name": "Mona Lisa",
+          "artist": "Leonardo da Vinci",
+          "currency": "EUR",
+          "include_tax": false
+        }
+      },
+      {
+        "query": "Find out the cost for 'The Persistence of Memory' by Salvador Dalí on Bonhams, and give it to me in GBP with taxes included.",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí",
+          "currency": "GBP",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "I need to know the price of 'Girl with a Pearl Earring' by Johannes Vermeer on Bonhams in USD, without tax.",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer",
+          "currency": "USD",
+          "include_tax": false
+        }
+      },
+      {
+        "query": "Can you get the price of 'The Scream' by Edvard Munch in Euros on Bonhams, including taxes?",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "EUR",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "How much does 'Guernica' by Pablo Picasso cost on the Bonhams site in GBP, tax not included?",
+        "filled_param": {
+          "artwork_name": "Guernica",
+          "artist": "Pablo Picasso",
+          "currency": "GBP",
+          "include_tax": false
+        }
+      },
+      {
+        "query": "Please find the price of 'The Night Watch' by Rembrandt on Bonhams in USD, including tax.",
+        "filled_param": {
+          "artwork_name": "The Night Watch",
+          "artist": "Rembrandt",
+          "currency": "USD",
+          "include_tax": true
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|poly auction|:|artwork_name,artist,currency,include_tax": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "poly auction",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency",
+      "include_tax"
+    ],
+    "queries": [
+      {
+        "query": "What is the price of 'Starry Night' by Vincent van Gogh on the poly auction platform, in USD, including tax?",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Vincent van Gogh",
+          "currency": "USD",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "Fetch the price of 'The Persistence of Memory' by Salvador Dali on the poly auction, in EUR, without tax.",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dali",
+          "currency": "EUR",
+          "include_tax": false
+        }
+      },
+      {
+        "query": "Can you tell me the price of 'Mona Lisa' by Leonardo da Vinci in GBP on the poly auction platform, with tax included?",
+        "filled_param": {
+          "artwork_name": "Mona Lisa",
+          "artist": "Leonardo da Vinci",
+          "currency": "GBP",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "Find out the price for 'The Scream' by Edvard Munch on poly auction in USD, excluding taxes.",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "USD",
+          "include_tax": false
+        }
+      },
+      {
+        "query": "Get the price of 'Girl with a Pearl Earring' by Johannes Vermeer in Japanese Yen on poly auction, don't include tax.",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer",
+          "currency": "JPY",
+          "include_tax": false
+        }
+      },
+      {
+        "query": "How much is 'The Birth of Venus' by Sandro Botticelli worth on the poly auction platform in Euros, tax included?",
+        "filled_param": {
+          "artwork_name": "The Birth of Venus",
+          "artist": "Sandro Botticelli",
+          "currency": "EUR",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "Check the price of 'Guernica' by Pablo Picasso in USD with tax on poly auction.",
+        "filled_param": {
+          "artwork_name": "Guernica",
+          "artist": "Pablo Picasso",
+          "currency": "USD",
+          "include_tax": true
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|china guardian|:|artwork_name,artist,currency,include_tax": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "china guardian",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency",
+      "include_tax"
+    ],
+    "queries": [
+      {
+        "query": "What is the price of 'The Starry Night' by Van Gogh on the China Guardian platform in USD, including tax?",
+        "filled_param": {
+          "artwork_name": "The Starry Night",
+          "artist": "Van Gogh",
+          "currency": "USD",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "Can you find out how much 'Mona Lisa' by Leonardo da Vinci costs on China Guardian in EUR without including tax?",
+        "filled_param": {
+          "artwork_name": "Mona Lisa",
+          "artist": "Leonardo da Vinci",
+          "currency": "EUR",
+          "include_tax": false
+        }
+      },
+      {
+        "query": "Fetch the artwork price of 'The Persistence of Memory' created by Salvador Dalí on China Guardian, and display it in GBP inclusive of taxes.",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí",
+          "currency": "GBP",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "I’d like to know the price of the artwork 'Girl with a Pearl Earring' by Vermeer on the China Guardian site in USD, excluding tax.",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Vermeer",
+          "currency": "USD",
+          "include_tax": false
+        }
+      },
+      {
+        "query": "Check the price for 'The Scream' by Edvard Munch on China Guardian in JPY, with tax included.",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "JPY",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "Could you provide the price of 'The Kiss' by Gustav Klimt on the China Guardian platform in AUD, excluding taxes?",
+        "filled_param": {
+          "artwork_name": "The Kiss",
+          "artist": "Gustav Klimt",
+          "currency": "AUD",
+          "include_tax": false
+        }
+      },
+      {
+        "query": "What does 'American Gothic' by Grant Wood cost on China Guardian in CAD, with taxes considered?",
+        "filled_param": {
+          "artwork_name": "American Gothic",
+          "artist": "Grant Wood",
+          "currency": "CAD",
+          "include_tax": true
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|artnet|:|artwork_name,artist,currency,include_tax": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "artnet",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency",
+      "include_tax"
+    ],
+    "queries": [
+      {
+        "query": "What is the price of 'Starry Night' by Vincent van Gogh on artnet in USD, including taxes?",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Vincent van Gogh",
+          "currency": "USD",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "Can you fetch the artnet price for 'The Persistence of Memory' by Salvador Dalí in EUR without taxes?",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí",
+          "currency": "EUR",
+          "include_tax": false
+        }
+      },
+      {
+        "query": "Find out the cost of 'Girl with a Pearl Earring' by Johannes Vermeer on artnet in GBP, including taxes.",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer",
+          "currency": "GBP",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "I'd like to know the price of 'The Birth of Venus' by Sandro Botticelli on artnet in USD, and please exclude taxes.",
+        "filled_param": {
+          "artwork_name": "The Birth of Venus",
+          "artist": "Sandro Botticelli",
+          "currency": "USD",
+          "include_tax": false
+        }
+      },
+      {
+        "query": "What's the artnet value of 'The Scream' by Edvard Munch in EUR with all taxes included?",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "EUR",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "Retrieve the price for 'Mona Lisa' by Leonardo da Vinci on artnet, in GBP, excluding taxes.",
+        "filled_param": {
+          "artwork_name": "Mona Lisa",
+          "artist": "Leonardo da Vinci",
+          "currency": "GBP",
+          "include_tax": false
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|invaluable|:|artwork_name,artist,currency,include_tax": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "invaluable",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency",
+      "include_tax"
+    ],
+    "queries": [
+      {
+        "query": "What is the price of the artwork 'Starry Night' by Vincent van Gogh in USD, including taxes on the invaluable platform?",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Vincent van Gogh",
+          "currency": "USD",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "Find out how much 'Mona Lisa' by Leonardo da Vinci costs in EUR without tax on invaluable.",
+        "filled_param": {
+          "artwork_name": "Mona Lisa",
+          "artist": "Leonardo da Vinci",
+          "currency": "EUR",
+          "include_tax": false
+        }
+      },
+      {
+        "query": "Check the price for 'The Persistence of Memory' by Salvador Dalí in GBP, include tax for invaluable.",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí",
+          "currency": "GBP",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "How much does the artwork 'The Scream' by Edvard Munch cost in USD on invaluable, excluding tax?",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "USD",
+          "include_tax": false
+        }
+      },
+      {
+        "query": "I need the price of 'The Kiss' by Gustav Klimt in EUR, with tax included from invaluable.",
+        "filled_param": {
+          "artwork_name": "The Kiss",
+          "artist": "Gustav Klimt",
+          "currency": "EUR",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "Fetch the price for 'Guernica' by Pablo Picasso in GBP, excluding taxes on invaluable.",
+        "filled_param": {
+          "artwork_name": "Guernica",
+          "artist": "Pablo Picasso",
+          "currency": "GBP",
+          "include_tax": false
+        }
+      },
+      {
+        "query": "Could you tell me the cost of 'Girl with a Pearl Earring' by Johannes Vermeer in USD, tax included, from invaluable?",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer",
+          "currency": "USD",
+          "include_tax": true
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|heritage auctions|:|artwork_name,artist,currency,include_tax": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "heritage auctions",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency",
+      "include_tax"
+    ],
+    "queries": [
+      {
+        "query": "What is the price for the 'Starry Night' by Vincent van Gogh on heritage auctions, displayed in USD including tax?",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Vincent van Gogh",
+          "currency": "USD",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "Can you find out the price of 'Mona Lisa' by Leonardo da Vinci on heritage auctions in EUR, excluding taxes?",
+        "filled_param": {
+          "artwork_name": "Mona Lisa",
+          "artist": "Leonardo da Vinci",
+          "currency": "EUR",
+          "include_tax": false
+        }
+      },
+      {
+        "query": "Fetch the price of 'The Persistence of Memory' by Salvador Dalí listed in GBP on heritage auctions without tax.",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí",
+          "currency": "GBP",
+          "include_tax": false
+        }
+      },
+      {
+        "query": "Look up the price for 'Girl with a Pearl Earring' by Johannes Vermeer on heritage auctions, shown in USD and inclusive of tax.",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer",
+          "currency": "USD",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "I need to know the price of 'The Scream' by Edvard Munch in EUR on heritage auctions, taxes included.",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "EUR",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "What is the artwork price for 'The Birth of Venus' by Sandro Botticelli in GBP on heritage auctions, excluding tax?",
+        "filled_param": {
+          "artwork_name": "The Birth of Venus",
+          "artist": "Sandro Botticelli",
+          "currency": "GBP",
+          "include_tax": false
+        }
+      },
+      {
+        "query": "Could you check the heritage auctions platform for the price of 'The Night Watch' by Rembrandt in USD, with tax?",
+        "filled_param": {
+          "artwork_name": "The Night Watch",
+          "artist": "Rembrandt",
+          "currency": "USD",
+          "include_tax": true
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|mutualart|:|artwork_name,artist,currency,include_tax": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "mutualart",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency",
+      "include_tax"
+    ],
+    "queries": [
+      {
+        "query": "Could you find out the price of 'Starry Night' by Vincent van Gogh in USD on mutualart, including tax?",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Vincent van Gogh",
+          "currency": "USD",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "I need to know the price for 'The Persistence of Memory' by Salvador Dali in EUR on mutualart, without tax.",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dali",
+          "currency": "EUR",
+          "include_tax": false
+        }
+      },
+      {
+        "query": "Please provide the price of 'The Last Supper' by Leonardo da Vinci using GBP on mutualart, and make sure to include the tax.",
+        "filled_param": {
+          "artwork_name": "The Last Supper",
+          "artist": "Leonardo da Vinci",
+          "currency": "GBP",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "Check the price for 'Girl with a Pearl Earring' by Johannes Vermeer on mutualart, using USD and excluding tax.",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer",
+          "currency": "USD",
+          "include_tax": false
+        }
+      },
+      {
+        "query": "How much is 'The Scream' by Edvard Munch on mutualart in EUR, taxes included?",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "EUR",
+          "include_tax": true
+        }
+      },
+      {
+        "query": "Fetch the price for 'The Kiss' by Gustav Klimt on mutualart in GBP, excluding any taxes.",
+        "filled_param": {
+          "artwork_name": "The Kiss",
+          "artist": "Gustav Klimt",
+          "currency": "GBP",
+          "include_tax": false
+        }
+      },
+      {
+        "query": "Can you tell me the price of 'American Gothic' by Grant Wood on mutualart, in USD and with tax included?",
+        "filled_param": {
+          "artwork_name": "American Gothic",
+          "artist": "Grant Wood",
+          "currency": "USD",
+          "include_tax": true
+        }
+      }
+    ]
+  }
+}

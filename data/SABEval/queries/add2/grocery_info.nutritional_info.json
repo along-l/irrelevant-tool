@@ -1,0 +1,900 @@
+{
+  "grocery_info.nutritional_info|:|fruit|:|store,food,information,brand_name,include_health_labels": {
+    "tool_template_name": "grocery_info.nutritional_info",
+    "derived_class": "fruit",
+    "params_for_query": [
+      "store",
+      "food",
+      "information",
+      "brand_name",
+      "include_health_labels"
+    ],
+    "queries": [
+      {
+        "query": "Could you get the nutritional information for Dole bananas from Whole Foods, including calories and sugar, and also note any health certifications?",
+        "filled_param": {
+          "store": "Whole Foods",
+          "food": "bananas",
+          "information": [
+            "calories",
+            "sugar"
+          ],
+          "brand_name": "Dole",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "I need the protein and fiber content for Sun-Maid raisins available at Walmart. Please include any health labels.",
+        "filled_param": {
+          "store": "Walmart",
+          "food": "raisins",
+          "information": [
+            "protein",
+            "fiber"
+          ],
+          "brand_name": "Sun-Maid",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "Retrieve the fat and vitamin C details for Driscoll's strawberries from Target without any health certifications.",
+        "filled_param": {
+          "store": "Target",
+          "food": "strawberries",
+          "information": [
+            "fat",
+            "vitamin C"
+          ],
+          "brand_name": "Driscoll's",
+          "include_health_labels": false
+        }
+      },
+      {
+        "query": "Can you provide the sodium and carbohydrate information for Cuties tangerines available at Kroger, along with their health-related labels?",
+        "filled_param": {
+          "store": "Kroger",
+          "food": "tangerines",
+          "information": [
+            "sodium",
+            "carbohydrates"
+          ],
+          "brand_name": "Cuties",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "Find out the iron content and calories for Chiquita bananas from Safeway, excluding health certifications.",
+        "filled_param": {
+          "store": "Safeway",
+          "food": "bananas",
+          "information": [
+            "iron",
+            "calories"
+          ],
+          "brand_name": "Chiquita",
+          "include_health_labels": false
+        }
+      },
+      {
+        "query": "I want information on vitamin A and potassium for Del Monte pineapples at Trader Joe's with health certifications included.",
+        "filled_param": {
+          "store": "Trader Joe's",
+          "food": "pineapples",
+          "information": [
+            "vitamin A",
+            "potassium"
+          ],
+          "brand_name": "Del Monte",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "Provide details on fiber and sugar for Sunkist oranges from Costco, but skip any health-related certifications.",
+        "filled_param": {
+          "store": "Costco",
+          "food": "oranges",
+          "information": [
+            "fiber",
+            "sugar"
+          ],
+          "brand_name": "Sunkist",
+          "include_health_labels": false
+        }
+      }
+    ]
+  },
+  "grocery_info.nutritional_info|:|vegetable|:|store,food,information,brand_name,include_health_labels": {
+    "tool_template_name": "grocery_info.nutritional_info",
+    "derived_class": "vegetable",
+    "params_for_query": [
+      "store",
+      "food",
+      "information",
+      "brand_name",
+      "include_health_labels"
+    ],
+    "queries": [
+      {
+        "query": "Can you find the nutritional information for organic carrots from Whole Foods? I'm interested in vitamins and minerals and it's under the brand Nature's Path. Please include health labels.",
+        "filled_param": {
+          "store": "Whole Foods",
+          "food": "carrots",
+          "information": [
+            "vitamins",
+            "minerals"
+          ],
+          "brand_name": "Nature's Path",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "I need the fat and fiber content for kale from Trader Joe's, specifically the brand Trader Joe's Organic. Make sure to include any health certifications.",
+        "filled_param": {
+          "store": "Trader Joe's",
+          "food": "kale",
+          "information": [
+            "fat",
+            "fiber"
+          ],
+          "brand_name": "Trader Joe's Organic",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "Get me the calorie and protein details for spinach at Walmart, by the brand Green Valley. I don't need health labels.",
+        "filled_param": {
+          "store": "Walmart",
+          "food": "spinach",
+          "information": [
+            "calories",
+            "protein"
+          ],
+          "brand_name": "Green Valley",
+          "include_health_labels": false
+        }
+      },
+      {
+        "query": "Retrieve the sugar and sodium content for broccoli from Kroger, under the brand name Fresh Select. Include health labels if available.",
+        "filled_param": {
+          "store": "Kroger",
+          "food": "broccoli",
+          "information": [
+            "sugar",
+            "sodium"
+          ],
+          "brand_name": "Fresh Select",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "What are the vitamin C and calcium levels of bell peppers sold at Costco, from the Kirkland Signature brand? Include health certifications.",
+        "filled_param": {
+          "store": "Costco",
+          "food": "bell peppers",
+          "information": [
+            "vitamin C",
+            "calcium"
+          ],
+          "brand_name": "Kirkland Signature",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "Please provide the fiber and iron content of tomatoes from Aldi, specifically the Simply Nature brand. No need for health labels.",
+        "filled_param": {
+          "store": "Aldi",
+          "food": "tomatoes",
+          "information": [
+            "fiber",
+            "iron"
+          ],
+          "brand_name": "Simply Nature",
+          "include_health_labels": false
+        }
+      },
+      {
+        "query": "Can you tell me the antioxidant and potassium values for beets at Sprouts, by the Love Beets brand? Health labels should be included.",
+        "filled_param": {
+          "store": "Sprouts",
+          "food": "beets",
+          "information": [
+            "antioxidants",
+            "potassium"
+          ],
+          "brand_name": "Love Beets",
+          "include_health_labels": true
+        }
+      }
+    ]
+  },
+  "grocery_info.nutritional_info|:|meat|:|store,food,information,brand_name,include_health_labels": {
+    "tool_template_name": "grocery_info.nutritional_info",
+    "derived_class": "meat",
+    "params_for_query": [
+      "store",
+      "food",
+      "information",
+      "brand_name",
+      "include_health_labels"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the calorie content, protein, and fat details for Tyson chicken breasts available at Walmart, along with any health labels?",
+        "filled_param": {
+          "store": "Walmart",
+          "food": "chicken breasts",
+          "information": [
+            "calorie content",
+            "protein",
+            "fat"
+          ],
+          "brand_name": "Tyson",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "What are the nutritional values including iron and sodium for Oscar Mayer turkey slices at Target, and do they have any health certifications?",
+        "filled_param": {
+          "store": "Target",
+          "food": "turkey slices",
+          "information": [
+            "iron",
+            "sodium"
+          ],
+          "brand_name": "Oscar Mayer",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "Retrieve the vitamin content and cholesterol information for Hormel bacon at Costco with health-related labels.",
+        "filled_param": {
+          "store": "Costco",
+          "food": "bacon",
+          "information": [
+            "vitamin content",
+            "cholesterol"
+          ],
+          "brand_name": "Hormel",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "I need to know the fiber and sugar levels in Hillshire Farm ham available at Kroger, excluding health labels.",
+        "filled_param": {
+          "store": "Kroger",
+          "food": "ham",
+          "information": [
+            "fiber",
+            "sugar"
+          ],
+          "brand_name": "Hillshire Farm",
+          "include_health_labels": false
+        }
+      },
+      {
+        "query": "Please provide the protein and calorie counts for Jennie-O ground turkey found in Safeway, with any health certifications included.",
+        "filled_param": {
+          "store": "Safeway",
+          "food": "ground turkey",
+          "information": [
+            "protein",
+            "calorie count"
+          ],
+          "brand_name": "Jennie-O",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "Can you get the fat and carbohydrate details for Swift beef steak at Whole Foods Market and include health labels?",
+        "filled_param": {
+          "store": "Whole Foods Market",
+          "food": "beef steak",
+          "information": [
+            "fat",
+            "carbohydrates"
+          ],
+          "brand_name": "Swift",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "What is the sodium and vitamin A content of Applegate organic chicken nuggets available at Sprouts without any health labels?",
+        "filled_param": {
+          "store": "Sprouts",
+          "food": "chicken nuggets",
+          "information": [
+            "sodium",
+            "vitamin A"
+          ],
+          "brand_name": "Applegate",
+          "include_health_labels": false
+        }
+      }
+    ]
+  },
+  "grocery_info.nutritional_info|:|seafood|:|store,food,information,brand_name,include_health_labels": {
+    "tool_template_name": "grocery_info.nutritional_info",
+    "derived_class": "seafood",
+    "params_for_query": [
+      "store",
+      "food",
+      "information",
+      "brand_name",
+      "include_health_labels"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the nutritional information for shrimp from the Pacific Fresh brand at Whole Foods, including protein and fat content, and make sure to include health labels?",
+        "filled_param": {
+          "store": "Whole Foods",
+          "food": "shrimp",
+          "information": [
+            "protein",
+            "fat"
+          ],
+          "brand_name": "Pacific Fresh",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "I need details on the calories and sodium content of Atlantic salmon sold at Trader Joe's under the Ocean's Finest brand. Please include any health certifications.",
+        "filled_param": {
+          "store": "Trader Joe's",
+          "food": "Atlantic salmon",
+          "information": [
+            "calories",
+            "sodium"
+          ],
+          "brand_name": "Ocean's Finest",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "What are the nutritional facts for tilapia from Sea Harvest brand available at Kroger, specifically focusing on omega-3 and cholesterol, with health labels included?",
+        "filled_param": {
+          "store": "Kroger",
+          "food": "tilapia",
+          "information": [
+            "omega-3",
+            "cholesterol"
+          ],
+          "brand_name": "Sea Harvest",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "Could you tell me the vitamin D and iron content for cod from Fisherman's Choice, which I find at Aldi? Please include health-related labels.",
+        "filled_param": {
+          "store": "Aldi",
+          "food": "cod",
+          "information": [
+            "vitamin D",
+            "iron"
+          ],
+          "brand_name": "Fisherman's Choice",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "List the nutritional information for scallops from the brand Sea Pearl available at Walmart, focusing on fiber and sugar, while including any health certifications.",
+        "filled_param": {
+          "store": "Walmart",
+          "food": "scallops",
+          "information": [
+            "fiber",
+            "sugar"
+          ],
+          "brand_name": "Sea Pearl",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "Please provide the details on carbohydrates and trans fat in lobster from the Neptune's Treasure brand, available at Costco, and include the health labels.",
+        "filled_param": {
+          "store": "Costco",
+          "food": "lobster",
+          "information": [
+            "carbohydrates",
+            "trans fat"
+          ],
+          "brand_name": "Neptune's Treasure",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "Can I get the content of potassium and vitamin B12 for mussels from Marine Delights sold at Safeway, ensuring to include health labels?",
+        "filled_param": {
+          "store": "Safeway",
+          "food": "mussels",
+          "information": [
+            "potassium",
+            "vitamin B12"
+          ],
+          "brand_name": "Marine Delights",
+          "include_health_labels": true
+        }
+      }
+    ]
+  },
+  "grocery_info.nutritional_info|:|dairy product|:|store,food,information,brand_name,include_health_labels": {
+    "tool_template_name": "grocery_info.nutritional_info",
+    "derived_class": "dairy product",
+    "params_for_query": [
+      "store",
+      "food",
+      "information",
+      "brand_name",
+      "include_health_labels"
+    ],
+    "queries": [
+      {
+        "query": "Can you get the nutritional details for Horizon Organic's whole milk from Walmart, including calories and fat content? Also, let me know if there are any health certifications.",
+        "filled_param": {
+          "store": "Walmart",
+          "food": "whole milk",
+          "information": [
+            "calories",
+            "fat content"
+          ],
+          "brand_name": "Horizon Organic",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "I need the nutritional information for Yoplait's strawberry yogurt available at Target. Please provide sugar content and protein levels. Include any health labels if possible.",
+        "filled_param": {
+          "store": "Target",
+          "food": "strawberry yogurt",
+          "information": [
+            "sugar content",
+            "protein levels"
+          ],
+          "brand_name": "Yoplait",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "Find out the nutritional facts for Land O'Lakes salted butter at Safeway. Specifically, I'm interested in knowing the cholesterol and sodium levels. Confirm if it includes any health labels.",
+        "filled_param": {
+          "store": "Safeway",
+          "food": "salted butter",
+          "information": [
+            "cholesterol",
+            "sodium levels"
+          ],
+          "brand_name": "Land O'Lakes",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "Could you provide the nutritional information for Cabot's sharp cheddar cheese from Whole Foods? Focus on calcium and vitamin D content, and tell me if it has health certifications.",
+        "filled_param": {
+          "store": "Whole Foods",
+          "food": "sharp cheddar cheese",
+          "information": [
+            "calcium",
+            "vitamin D content"
+          ],
+          "brand_name": "Cabot",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "What are the nutritional details of Danone's plain Greek yogurt found at Kroger? I want to know the carbohydrate and protein content, and check for any health labels.",
+        "filled_param": {
+          "store": "Kroger",
+          "food": "plain Greek yogurt",
+          "information": [
+            "carbohydrate",
+            "protein content"
+          ],
+          "brand_name": "Danone",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "Can you tell me the nutritional values for Blue Diamond almond milk at Costco, focusing on the fiber and sugar content? Please include any health labels it may have.",
+        "filled_param": {
+          "store": "Costco",
+          "food": "almond milk",
+          "information": [
+            "fiber",
+            "sugar content"
+          ],
+          "brand_name": "Blue Diamond",
+          "include_health_labels": true
+        }
+      }
+    ]
+  },
+  "grocery_info.nutritional_info|:|grain|:|store,food,information,brand_name,include_health_labels": {
+    "tool_template_name": "grocery_info.nutritional_info",
+    "derived_class": "grain",
+    "params_for_query": [
+      "store",
+      "food",
+      "information",
+      "brand_name",
+      "include_health_labels"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the nutritional details like calories and protein content for the grain item Quinoa from Whole Foods under the brand Ancient Harvest? Include any health certifications.",
+        "filled_param": {
+          "store": "Whole Foods",
+          "food": "Quinoa",
+          "information": [
+            "calories",
+            "protein"
+          ],
+          "brand_name": "Ancient Harvest",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "I need the carb and fat content information for the grain item Brown Rice sold at Trader Joe's from the brand Lundberg. Please include health-related labels.",
+        "filled_param": {
+          "store": "Trader Joe's",
+          "food": "Brown Rice",
+          "information": [
+            "carbohydrates",
+            "fat"
+          ],
+          "brand_name": "Lundberg",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "Can you get me the sugar and fiber content for the grain item Oats available at Walmart, from Quaker brand, along with health certifications?",
+        "filled_param": {
+          "store": "Walmart",
+          "food": "Oats",
+          "information": [
+            "sugar",
+            "fiber"
+          ],
+          "brand_name": "Quaker",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "Please provide the sodium and calcium details for the grain item Millet from Safeway, branded as Bob's Red Mill, and include any health certifications.",
+        "filled_param": {
+          "store": "Safeway",
+          "food": "Millet",
+          "information": [
+            "sodium",
+            "calcium"
+          ],
+          "brand_name": "Bob's Red Mill",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "What are the vitamin and iron content for the grain item Barley found in Kroger under the brand Arrowhead Mills? Also, provide health-related certifications.",
+        "filled_param": {
+          "store": "Kroger",
+          "food": "Barley",
+          "information": [
+            "vitamins",
+            "iron"
+          ],
+          "brand_name": "Arrowhead Mills",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "I'd like to know the cholesterol and magnesium content of the grain item Farro at Target, sold by the brand Nature's Earthly Choice. Include health labels too.",
+        "filled_param": {
+          "store": "Target",
+          "food": "Farro",
+          "information": [
+            "cholesterol",
+            "magnesium"
+          ],
+          "brand_name": "Nature's Earthly Choice",
+          "include_health_labels": true
+        }
+      }
+    ]
+  },
+  "grocery_info.nutritional_info|:|beverage|:|store,food,information,brand_name,include_health_labels": {
+    "tool_template_name": "grocery_info.nutritional_info",
+    "derived_class": "beverage",
+    "params_for_query": [
+      "store",
+      "food",
+      "information",
+      "brand_name",
+      "include_health_labels"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the nutritional details for the beverage Coca-Cola available at Walmart, including calories and sugar content, and also include any health labels if applicable?",
+        "filled_param": {
+          "store": "Walmart",
+          "food": "Coca-Cola",
+          "information": [
+            "calories",
+            "sugar"
+          ],
+          "brand_name": "Coca-Cola",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "I need the nutritional information for the beverage Tropicana Orange Juice from Target, specifically the amount of vitamin C and carbohydrates, and please include any health labels.",
+        "filled_param": {
+          "store": "Target",
+          "food": "Tropicana Orange Juice",
+          "information": [
+            "vitamin C",
+            "carbohydrates"
+          ],
+          "brand_name": "Tropicana",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "What are the nutritional facts for Starbucks Latte available at Starbucks stores, focusing on protein and fat content, without including health labels?",
+        "filled_param": {
+          "store": "Starbucks",
+          "food": "Latte",
+          "information": [
+            "protein",
+            "fat"
+          ],
+          "brand_name": "Starbucks",
+          "include_health_labels": false
+        }
+      },
+      {
+        "query": "Can you get the nutritional breakdown for the beverage Pepsi sold at 7-Eleven, specifically looking at caffeine and sugar levels, and whether it has any health certifications?",
+        "filled_param": {
+          "store": "7-Eleven",
+          "food": "Pepsi",
+          "information": [
+            "caffeine",
+            "sugar"
+          ],
+          "brand_name": "Pepsi",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "I'd like the nutritional information for the Mountain Dew beverage found at Kroger, focusing on calories and sodium content, and please exclude any health labels.",
+        "filled_param": {
+          "store": "Kroger",
+          "food": "Mountain Dew",
+          "information": [
+            "calories",
+            "sodium"
+          ],
+          "brand_name": "Mountain Dew",
+          "include_health_labels": false
+        }
+      },
+      {
+        "query": "Please retrieve the nutritional facts for the beverage Red Bull sold at CVS, concentrating on energy content and sugar, and also let me know if there are health labels.",
+        "filled_param": {
+          "store": "CVS",
+          "food": "Red Bull",
+          "information": [
+            "energy",
+            "sugar"
+          ],
+          "brand_name": "Red Bull",
+          "include_health_labels": true
+        }
+      }
+    ]
+  },
+  "grocery_info.nutritional_info|:|snack|:|store,food,information,brand_name,include_health_labels": {
+    "tool_template_name": "grocery_info.nutritional_info",
+    "derived_class": "snack",
+    "params_for_query": [
+      "store",
+      "food",
+      "information",
+      "brand_name",
+      "include_health_labels"
+    ],
+    "queries": [
+      {
+        "query": "Can you get the nutritional facts for the snack 'Lays Classic' from Walmart and include health certifications?",
+        "filled_param": {
+          "store": "Walmart",
+          "food": "Lays Classic",
+          "information": [
+            "nutritional facts"
+          ],
+          "brand_name": "Lays",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "Please provide the calorie, fat, and protein content for Oreo cookies by Nabisco available at Target. No need for health labels.",
+        "filled_param": {
+          "store": "Target",
+          "food": "Oreo cookies",
+          "information": [
+            "calorie",
+            "fat",
+            "protein"
+          ],
+          "brand_name": "Nabisco",
+          "include_health_labels": false
+        }
+      },
+      {
+        "query": "What are the sodium and sugar levels of the Doritos Nacho Cheese from Safeway? Include any health labels.",
+        "filled_param": {
+          "store": "Safeway",
+          "food": "Doritos Nacho Cheese",
+          "information": [
+            "sodium",
+            "sugar"
+          ],
+          "brand_name": "Doritos",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "Could you tell me the fiber and carbohydrate content of the snack 'Pringles Original' from Costco, excluding health labels?",
+        "filled_param": {
+          "store": "Costco",
+          "food": "Pringles Original",
+          "information": [
+            "fiber",
+            "carbohydrate"
+          ],
+          "brand_name": "Pringles",
+          "include_health_labels": false
+        }
+      },
+      {
+        "query": "I want to know the nutritional details like vitamin content and cholesterol for KitKat by Nestle available at Kroger. Health labels included, please.",
+        "filled_param": {
+          "store": "Kroger",
+          "food": "KitKat",
+          "information": [
+            "vitamin content",
+            "cholesterol"
+          ],
+          "brand_name": "Nestle",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "Provide the details for protein and calcium content for 'Cheez-It Original' from Walgreens. Don't include health labels.",
+        "filled_param": {
+          "store": "Walgreens",
+          "food": "Cheez-It Original",
+          "information": [
+            "protein",
+            "calcium"
+          ],
+          "brand_name": "Cheez-It",
+          "include_health_labels": false
+        }
+      },
+      {
+        "query": "Get me the fat and energy information for 'Snickers Bar' by Mars from CVS with health certifications included.",
+        "filled_param": {
+          "store": "CVS",
+          "food": "Snickers Bar",
+          "information": [
+            "fat",
+            "energy"
+          ],
+          "brand_name": "Mars",
+          "include_health_labels": true
+        }
+      }
+    ]
+  },
+  "grocery_info.nutritional_info|:|condiment|:|store,food,information,brand_name,include_health_labels": {
+    "tool_template_name": "grocery_info.nutritional_info",
+    "derived_class": "condiment",
+    "params_for_query": [
+      "store",
+      "food",
+      "information",
+      "brand_name",
+      "include_health_labels"
+    ],
+    "queries": [
+      {
+        "query": "Could you find out the calories and sugar content for the Heinz ketchup available at Walmart, and include any health labels?",
+        "filled_param": {
+          "store": "Walmart",
+          "food": "ketchup",
+          "information": [
+            "calories",
+            "sugar content"
+          ],
+          "brand_name": "Heinz",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "I need the fat and sodium details of Best Foods mayonnaise from Target, no need for health labels.",
+        "filled_param": {
+          "store": "Target",
+          "food": "mayonnaise",
+          "information": [
+            "fat",
+            "sodium"
+          ],
+          "brand_name": "Best Foods",
+          "include_health_labels": false
+        }
+      },
+      {
+        "query": "Can you provide the cholesterol and protein information for French's mustard at Safeway, and also include health certifications?",
+        "filled_param": {
+          "store": "Safeway",
+          "food": "mustard",
+          "information": [
+            "cholesterol",
+            "protein"
+          ],
+          "brand_name": "French's",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "What are the carb and fiber details of Sir Kensington's mayonnaise sold at Whole Foods? I don't need any health labels.",
+        "filled_param": {
+          "store": "Whole Foods",
+          "food": "mayonnaise",
+          "information": [
+            "carbs",
+            "fiber"
+          ],
+          "brand_name": "Sir Kensington's",
+          "include_health_labels": false
+        }
+      },
+      {
+        "query": "Get the nutritional info for Kraft barbecue sauce available at Kroger, focusing on calories and fat, and include health labels.",
+        "filled_param": {
+          "store": "Kroger",
+          "food": "barbecue sauce",
+          "information": [
+            "calories",
+            "fat"
+          ],
+          "brand_name": "Kraft",
+          "include_health_labels": true
+        }
+      },
+      {
+        "query": "Please retrieve the sugar content and carb details for Tabasco hot sauce from Publix, without any health labels.",
+        "filled_param": {
+          "store": "Publix",
+          "food": "hot sauce",
+          "information": [
+            "sugar content",
+            "carbs"
+          ],
+          "brand_name": "Tabasco",
+          "include_health_labels": false
+        }
+      },
+      {
+        "query": "I'd like the sodium and cholesterol information for Hellmann's mayonnaise at Aldi, and make sure to include health information labels.",
+        "filled_param": {
+          "store": "Aldi",
+          "food": "mayonnaise",
+          "information": [
+            "sodium",
+            "cholesterol"
+          ],
+          "brand_name": "Hellmann's",
+          "include_health_labels": true
+        }
+      }
+    ]
+  }
+}

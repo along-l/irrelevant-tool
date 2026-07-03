@@ -1,0 +1,703 @@
+{
+  "SleepReminderApp|:|sleep|:|reminder_message,reminder_time": {
+    "tool_template_name": "SleepReminderApp",
+    "derived_class": "sleep",
+    "params_for_query": [
+      "reminder_message",
+      "reminder_time"
+    ],
+    "queries": [
+      {
+        "query": "Set a sleep reminder at 22:30 with the message 'Time to wind down and relax for a good night's rest.'",
+        "filled_param": {
+          "reminder_message": "Time to wind down and relax for a good night's rest.",
+          "reminder_time": "22:30"
+        }
+      },
+      {
+        "query": "Can you remind me to sleep at 23:00 with the message 'Prepare for a restful night with this nightly reminder.'?",
+        "filled_param": {
+          "reminder_message": "Prepare for a restful night with this nightly reminder.",
+          "reminder_time": "23:00"
+        }
+      },
+      {
+        "query": "I'd like a sleep notification set for 21:45 saying 'Time to start your bedtime routine for better sleep.'",
+        "filled_param": {
+          "reminder_message": "Time to start your bedtime routine for better sleep.",
+          "reminder_time": "21:45"
+        }
+      },
+      {
+        "query": "Please set my sleep reminder for 20:30 with the note 'Remember to unwind and prepare for tomorrow.'",
+        "filled_param": {
+          "reminder_message": "Remember to unwind and prepare for tomorrow.",
+          "reminder_time": "20:30"
+        }
+      },
+      {
+        "query": "Create a sleep reminder at 22:15 with the message 'Don't forget to relax before bed for a peaceful sleep.'",
+        "filled_param": {
+          "reminder_message": "Don't forget to relax before bed for a peaceful sleep.",
+          "reminder_time": "22:15"
+        }
+      },
+      {
+        "query": "I need a reminder at 21:00 saying 'Time to disconnect and prepare for sleep.'",
+        "filled_param": {
+          "reminder_message": "Time to disconnect and prepare for sleep.",
+          "reminder_time": "21:00"
+        }
+      },
+      {
+        "query": "Set my sleep reminder for 23:30 with the message 'Ensure a restful night by going to bed soon.'",
+        "filled_param": {
+          "reminder_message": "Ensure a restful night by going to bed soon.",
+          "reminder_time": "23:30"
+        }
+      }
+    ]
+  },
+  "SleepReminderApp|:|medication|:|reminder_message,reminder_time": {
+    "tool_template_name": "SleepReminderApp",
+    "derived_class": "medication",
+    "params_for_query": [
+      "reminder_message",
+      "reminder_time"
+    ],
+    "queries": [
+      {
+        "query": "Set a reminder for my medication at 14:30 with the message 'Time for your afternoon pills, don't forget!'",
+        "filled_param": {
+          "reminder_message": "Time for your afternoon pills, don't forget!",
+          "reminder_time": "14:30"
+        }
+      },
+      {
+        "query": "Can you remind me to take my medication at 08:00 with 'Remember to take your morning vitamins now' as the message?",
+        "filled_param": {
+          "reminder_message": "Remember to take your morning vitamins now",
+          "reminder_time": "08:00"
+        }
+      },
+      {
+        "query": "I need a medication alert set for 21:45 with this note: 'Take your evening meds before bed!'",
+        "filled_param": {
+          "reminder_message": "Take your evening meds before bed!",
+          "reminder_time": "21:45"
+        }
+      },
+      {
+        "query": "Schedule a medication reminder at 16:00 saying, 'Time for your heart medication, take it now.'",
+        "filled_param": {
+          "reminder_message": "Time for your heart medication, take it now.",
+          "reminder_time": "16:00"
+        }
+      },
+      {
+        "query": "Please set a reminder for my medication at 07:15 with the message 'Don't skip your thyroid medication today.'",
+        "filled_param": {
+          "reminder_message": "Don't skip your thyroid medication today.",
+          "reminder_time": "07:15"
+        }
+      },
+      {
+        "query": "Could you set up a medication reminder for me at 19:00 with the note 'Evening pills time, make sure to take them.'?",
+        "filled_param": {
+          "reminder_message": "Evening pills time, make sure to take them.",
+          "reminder_time": "19:00"
+        }
+      },
+      {
+        "query": "Arrange a medication alert at 12:30 that says 'Lunchtime meds are due now, don't forget.'",
+        "filled_param": {
+          "reminder_message": "Lunchtime meds are due now, don't forget.",
+          "reminder_time": "12:30"
+        }
+      }
+    ]
+  },
+  "SleepReminderApp|:|hydration|:|reminder_message,reminder_time": {
+    "tool_template_name": "SleepReminderApp",
+    "derived_class": "hydration",
+    "params_for_query": [
+      "reminder_message",
+      "reminder_time"
+    ],
+    "queries": [
+      {
+        "query": "Set a hydration reminder with the message 'Time to drink water and stay hydrated!' for 09:00.",
+        "filled_param": {
+          "reminder_message": "Time to drink water and stay hydrated!",
+          "reminder_time": "09:00"
+        }
+      },
+      {
+        "query": "Please remind me with 'Hydration check: Drink a glass of water now!' at 14:30.",
+        "filled_param": {
+          "reminder_message": "Hydration check: Drink a glass of water now!",
+          "reminder_time": "14:30"
+        }
+      },
+      {
+        "query": "Schedule a reminder at 18:45 that says 'Keep hydrated to maintain your energy levels'.",
+        "filled_param": {
+          "reminder_message": "Keep hydrated to maintain your energy levels",
+          "reminder_time": "18:45"
+        }
+      },
+      {
+        "query": "Can you set a hydration alert at 11:15 with 'Drink water to stay focused and healthy'?",
+        "filled_param": {
+          "reminder_message": "Drink water to stay focused and healthy",
+          "reminder_time": "11:15"
+        }
+      },
+      {
+        "query": "Create a reminder for 16:00 saying 'It's time to boost your hydration levels. Have some water!'",
+        "filled_param": {
+          "reminder_message": "It's time to boost your hydration levels. Have some water!",
+          "reminder_time": "16:00"
+        }
+      },
+      {
+        "query": "I need a reminder at 20:00 with the message 'Ensure you are hydrated by drinking a glass of water'.",
+        "filled_param": {
+          "reminder_message": "Ensure you are hydrated by drinking a glass of water",
+          "reminder_time": "20:00"
+        }
+      },
+      {
+        "query": "Could you set a hydration reminder for me at 07:30 that reads 'Start your day with a glass of water to stay hydrated'?",
+        "filled_param": {
+          "reminder_message": "Start your day with a glass of water to stay hydrated",
+          "reminder_time": "07:30"
+        }
+      }
+    ]
+  },
+  "SleepReminderApp|:|exercise|:|reminder_message,reminder_time": {
+    "tool_template_name": "SleepReminderApp",
+    "derived_class": "exercise",
+    "params_for_query": [
+      "reminder_message",
+      "reminder_time"
+    ],
+    "queries": [
+      {
+        "query": "Please set an exercise reminder at 06:30 with the message 'Time for your morning workout, stay fit!'",
+        "filled_param": {
+          "reminder_message": "Time for your morning workout, stay fit!",
+          "reminder_time": "06:30"
+        }
+      },
+      {
+        "query": "Can you remind me at 19:00 to 'Begin your evening exercise session, stay healthy'?",
+        "filled_param": {
+          "reminder_message": "Begin your evening exercise session, stay healthy",
+          "reminder_time": "19:00"
+        }
+      },
+      {
+        "query": "Set a reminder for exercise at 12:15 with the note 'Lunch break workout session starts now!'",
+        "filled_param": {
+          "reminder_message": "Lunch break workout session starts now!",
+          "reminder_time": "12:15"
+        }
+      },
+      {
+        "query": "I need a reminder at 15:45 saying 'Don't forget your afternoon exercise, keep moving!'",
+        "filled_param": {
+          "reminder_message": "Don't forget your afternoon exercise, keep moving!",
+          "reminder_time": "15:45"
+        }
+      },
+      {
+        "query": "Could you set a reminder for 21:00 with the message 'Evening exercise time, let's stay active!'?",
+        "filled_param": {
+          "reminder_message": "Evening exercise time, let's stay active!",
+          "reminder_time": "21:00"
+        }
+      },
+      {
+        "query": "Remind me at 05:00 with 'Rise and shine! Time for your morning exercises!'",
+        "filled_param": {
+          "reminder_message": "Rise and shine! Time for your morning exercises!",
+          "reminder_time": "05:00"
+        }
+      },
+      {
+        "query": "Schedule a reminder at 11:30 with 'Mid-morning workout starts now, keep pushing!'",
+        "filled_param": {
+          "reminder_message": "Mid-morning workout starts now, keep pushing!",
+          "reminder_time": "11:30"
+        }
+      }
+    ]
+  },
+  "SleepReminderApp|:|study|:|reminder_message,reminder_time": {
+    "tool_template_name": "SleepReminderApp",
+    "derived_class": "study",
+    "params_for_query": [
+      "reminder_message",
+      "reminder_time"
+    ],
+    "queries": [
+      {
+        "query": "Please set a study reminder for me with the message 'Time to hit the books and review chemistry notes' at 14:30.",
+        "filled_param": {
+          "reminder_message": "Time to hit the books and review chemistry notes",
+          "reminder_time": "14:30"
+        }
+      },
+      {
+        "query": "I need a study reminder saying 'Don't forget to study history chapters 5 to 8 today' at 19:00.",
+        "filled_param": {
+          "reminder_message": "Don't forget to study history chapters 5 to 8 today",
+          "reminder_time": "19:00"
+        }
+      },
+      {
+        "query": "Set a reminder to 'Prepare for the upcoming math exam this weekend' at 08:00.",
+        "filled_param": {
+          "reminder_message": "Prepare for the upcoming math exam this weekend",
+          "reminder_time": "08:00"
+        }
+      },
+      {
+        "query": "Could you remind me to 'Focus on studying physics problems' at 15:45?",
+        "filled_param": {
+          "reminder_message": "Focus on studying physics problems",
+          "reminder_time": "15:45"
+        }
+      },
+      {
+        "query": "Create a study reminder with the message 'Review biology notes and practice questions' for 11:15.",
+        "filled_param": {
+          "reminder_message": "Review biology notes and practice questions",
+          "reminder_time": "11:15"
+        }
+      },
+      {
+        "query": "Set up a reminder at 16:00 with the message 'Time to study economics and complete assignments'.",
+        "filled_param": {
+          "reminder_message": "Time to study economics and complete assignments",
+          "reminder_time": "16:00"
+        }
+      },
+      {
+        "query": "I want a study reminder that says 'Finish reading the literature book before tomorrow' at 10:45.",
+        "filled_param": {
+          "reminder_message": "Finish reading the literature book before tomorrow",
+          "reminder_time": "10:45"
+        }
+      }
+    ]
+  },
+  "SleepReminderApp|:|meditation|:|reminder_message,reminder_time": {
+    "tool_template_name": "SleepReminderApp",
+    "derived_class": "meditation",
+    "params_for_query": [
+      "reminder_message",
+      "reminder_time"
+    ],
+    "queries": [
+      {
+        "query": "Please set a meditation reminder at 07:30 with the message: 'Start your day with a calm mind'.",
+        "filled_param": {
+          "reminder_message": "Start your day with a calm mind",
+          "reminder_time": "07:30"
+        }
+      },
+      {
+        "query": "Can you remind me to meditate at 18:00 with the message: 'Meditation time, relax and breathe deeply'.",
+        "filled_param": {
+          "reminder_message": "Meditation time, relax and breathe deeply",
+          "reminder_time": "18:00"
+        }
+      },
+      {
+        "query": "Set a reminder for meditation at 12:45 saying: 'Take a break and find your peace now'.",
+        "filled_param": {
+          "reminder_message": "Take a break and find your peace now",
+          "reminder_time": "12:45"
+        }
+      },
+      {
+        "query": "I'd like to have a reminder at 22:00 with the note: 'Wind down with meditation before sleep'.",
+        "filled_param": {
+          "reminder_message": "Wind down with meditation before sleep",
+          "reminder_time": "22:00"
+        }
+      },
+      {
+        "query": "Could you notify me at 16:15 to meditate with the message: 'Pause and immerse in tranquility'.",
+        "filled_param": {
+          "reminder_message": "Pause and immerse in tranquility",
+          "reminder_time": "16:15"
+        }
+      },
+      {
+        "query": "Remind me to meditate at 09:00 with this message: 'Begin your morning with peaceful meditation'.",
+        "filled_param": {
+          "reminder_message": "Begin your morning with peaceful meditation",
+          "reminder_time": "09:00"
+        }
+      },
+      {
+        "query": "Set an alert for meditation at 20:30 with the message: 'Evening meditation time, find balance'.",
+        "filled_param": {
+          "reminder_message": "Evening meditation time, find balance",
+          "reminder_time": "20:30"
+        }
+      }
+    ]
+  },
+  "SleepReminderApp|:|water plants|:|reminder_message,reminder_time": {
+    "tool_template_name": "SleepReminderApp",
+    "derived_class": "water plants",
+    "params_for_query": [
+      "reminder_message",
+      "reminder_time"
+    ],
+    "queries": [
+      {
+        "query": "Can you set a reminder to water plants with the message 'Time to hydrate the garden!' at 07:30?",
+        "filled_param": {
+          "reminder_message": "Time to hydrate the garden!",
+          "reminder_time": "07:30"
+        }
+      },
+      {
+        "query": "I'd like a water plants reminder at 18:00 that says 'Don't forget to water the indoor plants.'",
+        "filled_param": {
+          "reminder_message": "Don't forget to water the indoor plants.",
+          "reminder_time": "18:00"
+        }
+      },
+      {
+        "query": "Please create a reminder for me to water plants at 09:45 with the message 'Morning routine: Water the plants.'",
+        "filled_param": {
+          "reminder_message": "Morning routine: Water the plants.",
+          "reminder_time": "09:45"
+        }
+      },
+      {
+        "query": "Set a water plants reminder at 15:00 with the message 'Time to water the thirsty plants!'",
+        "filled_param": {
+          "reminder_message": "Time to water the thirsty plants!",
+          "reminder_time": "15:00"
+        }
+      },
+      {
+        "query": "Can you remind me to water plants at 20:00 with the message 'Evening plant care is essential.'?",
+        "filled_param": {
+          "reminder_message": "Evening plant care is essential.",
+          "reminder_time": "20:00"
+        }
+      },
+      {
+        "query": "I'd like a reminder to water plants at 11:00 that says 'Ensure the plants are well-watered this morning.'",
+        "filled_param": {
+          "reminder_message": "Ensure the plants are well-watered this morning.",
+          "reminder_time": "11:00"
+        }
+      },
+      {
+        "query": "Please set up a water plants alert for 06:00 with the message 'Water the plants to start the day right.'",
+        "filled_param": {
+          "reminder_message": "Water the plants to start the day right.",
+          "reminder_time": "06:00"
+        }
+      }
+    ]
+  },
+  "SleepReminderApp|:|feed pets|:|reminder_message,reminder_time": {
+    "tool_template_name": "SleepReminderApp",
+    "derived_class": "feed pets",
+    "params_for_query": [
+      "reminder_message",
+      "reminder_time"
+    ],
+    "queries": [
+      {
+        "query": "Please set a reminder to feed pets at 07:30 with the message: 'Time to feed the pets their breakfast!'.",
+        "filled_param": {
+          "reminder_message": "Time to feed the pets their breakfast!",
+          "reminder_time": "07:30"
+        }
+      },
+      {
+        "query": "Can you remind me to feed pets at 18:45? The message should say: 'Dinner time for the pets. Don't forget!'.",
+        "filled_param": {
+          "reminder_message": "Dinner time for the pets. Don't forget!",
+          "reminder_time": "18:45"
+        }
+      },
+      {
+        "query": "Set a notification to feed pets at 12:00 with the message: 'It's noon, feed the pets now.'.",
+        "filled_param": {
+          "reminder_message": "It's noon, feed the pets now.",
+          "reminder_time": "12:00"
+        }
+      },
+      {
+        "query": "I need a reminder for feeding pets at 16:30 with the message: 'Afternoon snack for the pets is due!'.",
+        "filled_param": {
+          "reminder_message": "Afternoon snack for the pets is due!",
+          "reminder_time": "16:30"
+        }
+      },
+      {
+        "query": "Could you set up a reminder for 20:00 to feed pets? Use the message: 'Evening feeding time for your pets!'.",
+        "filled_param": {
+          "reminder_message": "Evening feeding time for your pets!",
+          "reminder_time": "20:00"
+        }
+      },
+      {
+        "query": "Set an alert to feed pets at 09:15 with this message: 'Start the day right by feeding the pets!'.",
+        "filled_param": {
+          "reminder_message": "Start the day right by feeding the pets!",
+          "reminder_time": "09:15"
+        }
+      },
+      {
+        "query": "I need a reminder at 22:00 for feeding pets, with the message reading: 'It's late, make sure the pets are fed.'.",
+        "filled_param": {
+          "reminder_message": "It's late, make sure the pets are fed.",
+          "reminder_time": "22:00"
+        }
+      }
+    ]
+  },
+  "SleepReminderApp|:|reading|:|reminder_message,reminder_time": {
+    "tool_template_name": "SleepReminderApp",
+    "derived_class": "reading",
+    "params_for_query": [
+      "reminder_message",
+      "reminder_time"
+    ],
+    "queries": [
+      {
+        "query": "Set a reading reminder for 14:30 with the message, 'Time to read the next chapter of your book'.",
+        "filled_param": {
+          "reminder_message": "Time to read the next chapter of your book",
+          "reminder_time": "14:30"
+        }
+      },
+      {
+        "query": "Can you remind me at 09:00 with the text 'Start your morning reading session now'?",
+        "filled_param": {
+          "reminder_message": "Start your morning reading session now",
+          "reminder_time": "09:00"
+        }
+      },
+      {
+        "query": "Please set a reading reminder with the message 'Evening reading time!' for 18:45.",
+        "filled_param": {
+          "reminder_message": "Evening reading time!",
+          "reminder_time": "18:45"
+        }
+      },
+      {
+        "query": "I'd like a reminder at 20:00 saying 'Relax with your book for an hour'.",
+        "filled_param": {
+          "reminder_message": "Relax with your book for an hour",
+          "reminder_time": "20:00"
+        }
+      },
+      {
+        "query": "Create a reminder at 07:15 that says, 'Morning reading: dive into the story'.",
+        "filled_param": {
+          "reminder_message": "Morning reading: dive into the story",
+          "reminder_time": "07:15"
+        }
+      },
+      {
+        "query": "Could you set a reading alert at 22:30 with the message 'Wrap up your day with a good book'?",
+        "filled_param": {
+          "reminder_message": "Wrap up your day with a good book",
+          "reminder_time": "22:30"
+        }
+      },
+      {
+        "query": "At 13:00, remind me with 'Take a midday break and enjoy a chapter'.",
+        "filled_param": {
+          "reminder_message": "Take a midday break and enjoy a chapter",
+          "reminder_time": "13:00"
+        }
+      }
+    ]
+  },
+  "SleepReminderApp|:|practice instrument|:|reminder_message,reminder_time": {
+    "tool_template_name": "SleepReminderApp",
+    "derived_class": "practice instrument",
+    "params_for_query": [
+      "reminder_message",
+      "reminder_time"
+    ],
+    "queries": [
+      {
+        "query": "Please set a reminder for practice instrument with the message 'Time to practice your violin scales!' at 17:30.",
+        "filled_param": {
+          "reminder_message": "Time to practice your violin scales!",
+          "reminder_time": "17:30"
+        }
+      },
+      {
+        "query": "I need a practice instrument reminder at 09:00 with the note 'Don't forget your morning piano session!'",
+        "filled_param": {
+          "reminder_message": "Don't forget your morning piano session!",
+          "reminder_time": "09:00"
+        }
+      },
+      {
+        "query": "Can you create a practice instrument alert for 19:45 saying 'Guitar practice time, let's rock!'?",
+        "filled_param": {
+          "reminder_message": "Guitar practice time, let's rock!",
+          "reminder_time": "19:45"
+        }
+      },
+      {
+        "query": "Set a practice instrument reminder at 15:00 with the message 'It's time for your daily drum practice session.'",
+        "filled_param": {
+          "reminder_message": "It's time for your daily drum practice session.",
+          "reminder_time": "15:00"
+        }
+      },
+      {
+        "query": "Could you remind me to practice instrument at 21:15 with the note 'Evening saxophone practice now!'?",
+        "filled_param": {
+          "reminder_message": "Evening saxophone practice now!",
+          "reminder_time": "21:15"
+        }
+      },
+      {
+        "query": "Schedule a practice instrument reminder for 06:50 with the message 'Early morning flute practice starts now!'",
+        "filled_param": {
+          "reminder_message": "Early morning flute practice starts now!",
+          "reminder_time": "06:50"
+        }
+      },
+      {
+        "query": "Can you set a practice instrument reminder at 13:30 with 'Afternoon violin practice session, don't miss it.'?",
+        "filled_param": {
+          "reminder_message": "Afternoon violin practice session, don't miss it.",
+          "reminder_time": "13:30"
+        }
+      }
+    ]
+  },
+  "SleepReminderApp|:|prepare lunch|:|reminder_message,reminder_time": {
+    "tool_template_name": "SleepReminderApp",
+    "derived_class": "prepare lunch",
+    "params_for_query": [
+      "reminder_message",
+      "reminder_time"
+    ],
+    "queries": [
+      {
+        "query": "Can you set a reminder to prepare lunch at 12:30 with the message: 'Time to start cooking your delicious lunch!'?",
+        "filled_param": {
+          "reminder_message": "Time to start cooking your delicious lunch!",
+          "reminder_time": "12:30"
+        }
+      },
+      {
+        "query": "Remind me to prepare lunch at 11:45 with the note: 'Get ready to make a healthy lunch now.'",
+        "filled_param": {
+          "reminder_message": "Get ready to make a healthy lunch now.",
+          "reminder_time": "11:45"
+        }
+      },
+      {
+        "query": "Please create a prepare lunch reminder at 13:15 saying: 'Lunch prep time! Let's make something tasty.'",
+        "filled_param": {
+          "reminder_message": "Lunch prep time! Let's make something tasty.",
+          "reminder_time": "13:15"
+        }
+      },
+      {
+        "query": "Set my prepare lunch notification for 12:00 with this message: 'Don't forget to prepare your lunch.'",
+        "filled_param": {
+          "reminder_message": "Don't forget to prepare your lunch.",
+          "reminder_time": "12:00"
+        }
+      },
+      {
+        "query": "Could you schedule a reminder for 11:30 to prepare lunch with: 'It's lunchtime soon, start preparing!'",
+        "filled_param": {
+          "reminder_message": "It's lunchtime soon, start preparing!",
+          "reminder_time": "11:30"
+        }
+      },
+      {
+        "query": "Make sure to remind me at 13:00 to prepare lunch with: 'Time to cook and enjoy your meal.'",
+        "filled_param": {
+          "reminder_message": "Time to cook and enjoy your meal.",
+          "reminder_time": "13:00"
+        }
+      },
+      {
+        "query": "Set a 12:45 reminder for me to prepare lunch: 'Start preparing your lunch now for a perfect meal.'",
+        "filled_param": {
+          "reminder_message": "Start preparing your lunch now for a perfect meal.",
+          "reminder_time": "12:45"
+        }
+      }
+    ]
+  },
+  "SleepReminderApp|:|eye rest|:|reminder_message,reminder_time": {
+    "tool_template_name": "SleepReminderApp",
+    "derived_class": "eye rest",
+    "params_for_query": [
+      "reminder_message",
+      "reminder_time"
+    ],
+    "queries": [
+      {
+        "query": "Can you set an eye rest reminder with the message 'Time to give your eyes a break!' at 14:30?",
+        "filled_param": {
+          "reminder_message": "Time to give your eyes a break!",
+          "reminder_time": "14:30"
+        }
+      },
+      {
+        "query": "Please remind me at 16:45 with the eye rest message 'Take a moment to relax your eyes now.'",
+        "filled_param": {
+          "reminder_message": "Take a moment to relax your eyes now.",
+          "reminder_time": "16:45"
+        }
+      },
+      {
+        "query": "Schedule an eye rest alert at 10:00 that says 'A quick eye rest can boost your productivity.'",
+        "filled_param": {
+          "reminder_message": "A quick eye rest can boost your productivity.",
+          "reminder_time": "10:00"
+        }
+      },
+      {
+        "query": "I need an eye rest reminder at 11:15 with the message 'It's time to rest your eyes for a few minutes.'",
+        "filled_param": {
+          "reminder_message": "It's time to rest your eyes for a few minutes.",
+          "reminder_time": "11:15"
+        }
+      },
+      {
+        "query": "Set an eye rest reminder at 18:00 with the note 'Remember to take a short eye break now.'",
+        "filled_param": {
+          "reminder_message": "Remember to take a short eye break now.",
+          "reminder_time": "18:00"
+        }
+      },
+      {
+        "query": "Could you set an eye rest notice for 09:30 saying 'Give your eyes the rest they deserve now'?",
+        "filled_param": {
+          "reminder_message": "Give your eyes the rest they deserve now",
+          "reminder_time": "09:30"
+        }
+      }
+    ]
+  }
+}

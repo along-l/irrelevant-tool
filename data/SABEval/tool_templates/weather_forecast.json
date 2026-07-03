@@ -1,0 +1,67 @@
+{
+  "tool_template_name": "weather_forecast",
+  "meta_data": {
+    "base_class": "Provide the weather forecast for <country> - referring to a country",
+    "derived_classes": [
+      "United States",
+      "Japan",
+      "China",
+      "United Kingdom",
+      "Germany",
+      "Brazil",
+      "Australia",
+      "India",
+      "Canada",
+      "France",
+      "Italy",
+      "Russia",
+      "Mexico",
+      "Spain"
+    ],
+    "base_class_entity": "weather forecast"
+  },
+  "tool_template": {
+    "name": "weather_forecast_for_<class>",
+    "description": "Provides weather forecast for a location in <class> based on date.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "location": {
+          "type": "string",
+          "description": "The location within the <class> for which to obtain the weather forecast."
+        },
+        "date": {
+          "type": "string",
+          "description": "The date for the weather forecast in YYYY-MM-DD format."
+        }
+      },
+      "required": [
+        "location",
+        "date"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "units": {
+      "type": "string",
+      "description": "The unit system to use for displaying the weather. Possible values are 'metric', 'imperial', or 'standard'."
+    },
+    "include_hourly": {
+      "type": "boolean",
+      "description": "Boolean flag indicating whether to include an hourly breakdown in the weather forecast for the <country>."
+    },
+    "include_historical_data": {
+      "type": "boolean",
+      "description": "Boolean flag indicating whether to include historical weather data up to the given date for the <country>."
+    },
+    "forecast_duration": {
+      "type": "integer",
+      "description": "Number of days for which the weather forecast should be provided from the given date for the <country>."
+    },
+    "language": {
+      "type": "string",
+      "description": "Language code in which the weather forecast should be provided, to accommodate for localization across different <country>."
+    }
+  }
+}

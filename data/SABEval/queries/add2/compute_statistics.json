@@ -1,0 +1,597 @@
+{
+  "compute_statistics|:|mean|:|data_path,decimal_places,column_name": {
+    "tool_template_name": "compute_statistics",
+    "derived_class": "mean",
+    "params_for_query": [
+      "data_path",
+      "decimal_places",
+      "column_name"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the mean for the column 'temperature' in the CSV file located at '/data/weather_data.csv', rounded to 2 decimal places.",
+        "filled_param": {
+          "data_path": "/data/weather_data.csv",
+          "decimal_places": 2,
+          "column_name": "temperature"
+        }
+      },
+      {
+        "query": "Can you find the mean value of the 'sales' column from the dataset found at '/files/quarterly_sales.csv', and round it to 3 decimal places?",
+        "filled_param": {
+          "data_path": "/files/quarterly_sales.csv",
+          "decimal_places": 3,
+          "column_name": "sales"
+        }
+      },
+      {
+        "query": "I need the mean of the 'height' column from the CSV file at '/user_data/height_records.csv', with the result rounded to 1 decimal place.",
+        "filled_param": {
+          "data_path": "/user_data/height_records.csv",
+          "decimal_places": 1,
+          "column_name": "height"
+        }
+      },
+      {
+        "query": "Compute the mean of 'weight' from '/datasets/body_metrics.csv' and round the result to 4 decimal places.",
+        "filled_param": {
+          "data_path": "/datasets/body_metrics.csv",
+          "decimal_places": 4,
+          "column_name": "weight"
+        }
+      },
+      {
+        "query": "What is the mean of the 'age' column in the file located at '/archives/population.csv', rounded to 0 decimal places?",
+        "filled_param": {
+          "data_path": "/archives/population.csv",
+          "decimal_places": 0,
+          "column_name": "age"
+        }
+      },
+      {
+        "query": "Determine the mean of 'price' from '/finance/stock_prices.csv' and provide it rounded to 3 decimal places.",
+        "filled_param": {
+          "data_path": "/finance/stock_prices.csv",
+          "decimal_places": 3,
+          "column_name": "price"
+        }
+      },
+      {
+        "query": "Please calculate the mean for the 'rainfall' column in '/weather/stats.csv' and round the result to 2 decimal places.",
+        "filled_param": {
+          "data_path": "/weather/stats.csv",
+          "decimal_places": 2,
+          "column_name": "rainfall"
+        }
+      }
+    ]
+  },
+  "compute_statistics|:|median|:|data_path,decimal_places,column_name": {
+    "tool_template_name": "compute_statistics",
+    "derived_class": "median",
+    "params_for_query": [
+      "data_path",
+      "decimal_places",
+      "column_name"
+    ],
+    "queries": [
+      {
+        "query": "What is the median of the 'salary' column in the CSV file located at '/data/employee_stats.csv', rounded to 2 decimal places?",
+        "filled_param": {
+          "data_path": "/data/employee_stats.csv",
+          "decimal_places": 2,
+          "column_name": "salary"
+        }
+      },
+      {
+        "query": "Can you calculate the median for the 'weight' column from the dataset at '/files/health_data.csv', rounded to 1 decimal place?",
+        "filled_param": {
+          "data_path": "/files/health_data.csv",
+          "decimal_places": 1,
+          "column_name": "weight"
+        }
+      },
+      {
+        "query": "Please determine the median for the 'sales' column in the file '/mnt/sales_records.csv', rounded to 3 decimal places.",
+        "filled_param": {
+          "data_path": "/mnt/sales_records.csv",
+          "decimal_places": 3,
+          "column_name": "sales"
+        }
+      },
+      {
+        "query": "Find the median value in the 'temperature' column from the CSV file at '/datasets/climate_data.csv', rounding to 0 decimal places.",
+        "filled_param": {
+          "data_path": "/datasets/climate_data.csv",
+          "decimal_places": 0,
+          "column_name": "temperature"
+        }
+      },
+      {
+        "query": "What is the median of the 'age' column in the dataset '/user_data/profiles.csv', with the result rounded to 2 decimal places?",
+        "filled_param": {
+          "data_path": "/user_data/profiles.csv",
+          "decimal_places": 2,
+          "column_name": "age"
+        }
+      },
+      {
+        "query": "Calculate the median for the 'price' column from '/data/products.csv', rounding to 4 decimal places.",
+        "filled_param": {
+          "data_path": "/data/products.csv",
+          "decimal_places": 4,
+          "column_name": "price"
+        }
+      },
+      {
+        "query": "I need the median of the 'height' column from the file '/data/measurements.csv', rounded to 1 decimal place.",
+        "filled_param": {
+          "data_path": "/data/measurements.csv",
+          "decimal_places": 1,
+          "column_name": "height"
+        }
+      }
+    ]
+  },
+  "compute_statistics|:|mode|:|data_path,decimal_places,column_name": {
+    "tool_template_name": "compute_statistics",
+    "derived_class": "mode",
+    "params_for_query": [
+      "data_path",
+      "decimal_places",
+      "column_name"
+    ],
+    "queries": [
+      {
+        "query": "Could you compute the mode of the 'age' column in the dataset located at '/home/user/data/demographics.csv' and round it to 2 decimal places?",
+        "filled_param": {
+          "data_path": "/home/user/data/demographics.csv",
+          "decimal_places": 2,
+          "column_name": "age"
+        }
+      },
+      {
+        "query": "Please find the mode for the 'sales' column in the file '/var/data/financials.csv' with rounding set to 1 decimal place.",
+        "filled_param": {
+          "data_path": "/var/data/financials.csv",
+          "decimal_places": 1,
+          "column_name": "sales"
+        }
+      },
+      {
+        "query": "I need the mode of the 'temperature' readings in '/tmp/weather_data.csv', rounded to 3 decimal places.",
+        "filled_param": {
+          "data_path": "/tmp/weather_data.csv",
+          "decimal_places": 3,
+          "column_name": "temperature"
+        }
+      },
+      {
+        "query": "Can you calculate the mode for 'height' in the dataset at '/data/height_measurements.csv' and round it to 0 decimal places?",
+        "filled_param": {
+          "data_path": "/data/height_measurements.csv",
+          "decimal_places": 0,
+          "column_name": "height"
+        }
+      },
+      {
+        "query": "Compute the mode of the 'income' column from the CSV file at '/data/economic_data.csv', ensuring the result is rounded to 4 decimal places.",
+        "filled_param": {
+          "data_path": "/data/economic_data.csv",
+          "decimal_places": 4,
+          "column_name": "income"
+        }
+      },
+      {
+        "query": "What is the mode of 'grades' in the file located at '/school/grades.csv', rounded to 2 decimal places?",
+        "filled_param": {
+          "data_path": "/school/grades.csv",
+          "decimal_places": 2,
+          "column_name": "grades"
+        }
+      },
+      {
+        "query": "Determine the mode of the 'weight' column in '/storage/health_records.csv' and round it to 1 decimal place.",
+        "filled_param": {
+          "data_path": "/storage/health_records.csv",
+          "decimal_places": 1,
+          "column_name": "weight"
+        }
+      }
+    ]
+  },
+  "compute_statistics|:|standard deviation|:|data_path,decimal_places,column_name": {
+    "tool_template_name": "compute_statistics",
+    "derived_class": "standard deviation",
+    "params_for_query": [
+      "data_path",
+      "decimal_places",
+      "column_name"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the standard deviation for the 'age' column in the dataset located at '/datasets/people_data.csv' and round it to 2 decimal places.",
+        "filled_param": {
+          "data_path": "/datasets/people_data.csv",
+          "decimal_places": 2,
+          "column_name": "age"
+        }
+      },
+      {
+        "query": "What is the standard deviation of the 'temperature' values in the file '/data/weather.csv', rounded to 3 decimal places?",
+        "filled_param": {
+          "data_path": "/data/weather.csv",
+          "decimal_places": 3,
+          "column_name": "temperature"
+        }
+      },
+      {
+        "query": "Please compute the standard deviation of the 'sales' column from '/home/user/sales_report.csv', and round the result to 1 decimal place.",
+        "filled_param": {
+          "data_path": "/home/user/sales_report.csv",
+          "decimal_places": 1,
+          "column_name": "sales"
+        }
+      },
+      {
+        "query": "Find the standard deviation for the 'height' data in '/resources/measurements.csv', rounding it to 4 decimal places.",
+        "filled_param": {
+          "data_path": "/resources/measurements.csv",
+          "decimal_places": 4,
+          "column_name": "height"
+        }
+      },
+      {
+        "query": "Can you provide the standard deviation of the 'income' figures in '/files/income_data.csv', with the result rounded to 2 decimal places?",
+        "filled_param": {
+          "data_path": "/files/income_data.csv",
+          "decimal_places": 2,
+          "column_name": "income"
+        }
+      },
+      {
+        "query": "Determine the standard deviation for the 'weight' column in '/data/body_metrics.csv' and ensure it is rounded to 3 decimal places.",
+        "filled_param": {
+          "data_path": "/data/body_metrics.csv",
+          "decimal_places": 3,
+          "column_name": "weight"
+        }
+      },
+      {
+        "query": "I need the standard deviation calculated for the 'score' column in '/user/data/test_scores.csv', rounded to 5 decimal places.",
+        "filled_param": {
+          "data_path": "/user/data/test_scores.csv",
+          "decimal_places": 5,
+          "column_name": "score"
+        }
+      }
+    ]
+  },
+  "compute_statistics|:|maximum value|:|data_path,decimal_places,column_name": {
+    "tool_template_name": "compute_statistics",
+    "derived_class": "maximum value",
+    "params_for_query": [
+      "data_path",
+      "decimal_places",
+      "column_name"
+    ],
+    "queries": [
+      {
+        "query": "Could you tell me the maximum value for the 'Temperature' column from the dataset located at '/data/weather_data.csv', rounded to 2 decimal places?",
+        "filled_param": {
+          "data_path": "/data/weather_data.csv",
+          "decimal_places": 2,
+          "column_name": "Temperature"
+        }
+      },
+      {
+        "query": "Find the maximum value in the 'Revenue' column from the CSV file at '/data/financial_report.csv' and round it to 3 decimal places.",
+        "filled_param": {
+          "data_path": "/data/financial_report.csv",
+          "decimal_places": 3,
+          "column_name": "Revenue"
+        }
+      },
+      {
+        "query": "What's the maximum value of the 'Height' column in the dataset at '/data/athlete_stats.csv'? Please round to 1 decimal place.",
+        "filled_param": {
+          "data_path": "/data/athlete_stats.csv",
+          "decimal_places": 1,
+          "column_name": "Height"
+        }
+      },
+      {
+        "query": "Determine the maximum value for 'Population' in the file located at '/data/census_data.csv', with rounding to 0 decimal places.",
+        "filled_param": {
+          "data_path": "/data/census_data.csv",
+          "decimal_places": 0,
+          "column_name": "Population"
+        }
+      },
+      {
+        "query": "I need the maximum value from the 'Sales' column in '/data/sales_data.csv', rounded to 4 decimal places.",
+        "filled_param": {
+          "data_path": "/data/sales_data.csv",
+          "decimal_places": 4,
+          "column_name": "Sales"
+        }
+      },
+      {
+        "query": "Can you calculate the maximum value for the 'Score' column in the dataset at '/data/exam_results.csv', rounded to 2 decimal places?",
+        "filled_param": {
+          "data_path": "/data/exam_results.csv",
+          "decimal_places": 2,
+          "column_name": "Score"
+        }
+      }
+    ]
+  },
+  "compute_statistics|:|minimum value|:|data_path,decimal_places,column_name": {
+    "tool_template_name": "compute_statistics",
+    "derived_class": "minimum value",
+    "params_for_query": [
+      "data_path",
+      "decimal_places",
+      "column_name"
+    ],
+    "queries": [
+      {
+        "query": "Find the minimum value in the 'age' column from the dataset located at '/data/demographics.csv', rounded to 2 decimal places.",
+        "filled_param": {
+          "data_path": "/data/demographics.csv",
+          "decimal_places": 2,
+          "column_name": "age"
+        }
+      },
+      {
+        "query": "What's the minimum value for the 'temperature' column in the dataset at '/files/weather_data.csv', and could you round it off to 1 decimal place?",
+        "filled_param": {
+          "data_path": "/files/weather_data.csv",
+          "decimal_places": 1,
+          "column_name": "temperature"
+        }
+      },
+      {
+        "query": "Please calculate the minimum value of the 'income' column from the CSV file located at '/home/user/financial_records.csv', and round it to 3 decimal places.",
+        "filled_param": {
+          "data_path": "/home/user/financial_records.csv",
+          "decimal_places": 3,
+          "column_name": "income"
+        }
+      },
+      {
+        "query": "Determine the minimum value in the 'height' column from the dataset situated at '/datasets/health_stats.csv', rounded to 0 decimal places.",
+        "filled_param": {
+          "data_path": "/datasets/health_stats.csv",
+          "decimal_places": 0,
+          "column_name": "height"
+        }
+      },
+      {
+        "query": "Could you find the minimum value in the 'sales' column of the data file at '/data/sales_report.csv', and round it to 2 decimal places?",
+        "filled_param": {
+          "data_path": "/data/sales_report.csv",
+          "decimal_places": 2,
+          "column_name": "sales"
+        }
+      },
+      {
+        "query": "Identify the minimum value for the 'weight' column in the CSV file '/data/tracking.csv', rounded off to 1 decimal place.",
+        "filled_param": {
+          "data_path": "/data/tracking.csv",
+          "decimal_places": 1,
+          "column_name": "weight"
+        }
+      },
+      {
+        "query": "Can you calculate the minimum value for the 'score' column from the file located at '/files/exam_results.csv', rounded to 4 decimal places?",
+        "filled_param": {
+          "data_path": "/files/exam_results.csv",
+          "decimal_places": 4,
+          "column_name": "score"
+        }
+      }
+    ]
+  },
+  "compute_statistics|:|sum|:|data_path,decimal_places,column_name": {
+    "tool_template_name": "compute_statistics",
+    "derived_class": "sum",
+    "params_for_query": [
+      "data_path",
+      "decimal_places",
+      "column_name"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the sum for the 'revenue' column from the file located at '/data/financials.csv', rounding to 2 decimal places?",
+        "filled_param": {
+          "data_path": "/data/financials.csv",
+          "decimal_places": 2,
+          "column_name": "revenue"
+        }
+      },
+      {
+        "query": "Calculate the sum of the 'sales' column in the dataset found at '/datasets/monthly_sales.csv' with 3 decimal places.",
+        "filled_param": {
+          "data_path": "/datasets/monthly_sales.csv",
+          "decimal_places": 3,
+          "column_name": "sales"
+        }
+      },
+      {
+        "query": "I need the sum of the 'temperature' data from '/weather_data/january.csv', rounded to 1 decimal place.",
+        "filled_param": {
+          "data_path": "/weather_data/january.csv",
+          "decimal_places": 1,
+          "column_name": "temperature"
+        }
+      },
+      {
+        "query": "What's the sum of the 'expenses' column in the file '/reports/annual_report.csv', precise to 4 decimal places?",
+        "filled_param": {
+          "data_path": "/reports/annual_report.csv",
+          "decimal_places": 4,
+          "column_name": "expenses"
+        }
+      },
+      {
+        "query": "Please compute the sum for the 'population' column from '/data/demographics.csv', rounding off to 0 decimal places.",
+        "filled_param": {
+          "data_path": "/data/demographics.csv",
+          "decimal_places": 0,
+          "column_name": "population"
+        }
+      },
+      {
+        "query": "Get the sum total of the 'profits' column in '/financials/quarterly.csv', keeping 2 decimal places.",
+        "filled_param": {
+          "data_path": "/financials/quarterly.csv",
+          "decimal_places": 2,
+          "column_name": "profits"
+        }
+      },
+      {
+        "query": "Find the sum of the 'distance' column in the CSV file located at '/navigation/routes.csv', rounded to 3 decimal places.",
+        "filled_param": {
+          "data_path": "/navigation/routes.csv",
+          "decimal_places": 3,
+          "column_name": "distance"
+        }
+      }
+    ]
+  },
+  "compute_statistics|:|skewness|:|data_path,decimal_places,column_name": {
+    "tool_template_name": "compute_statistics",
+    "derived_class": "skewness",
+    "params_for_query": [
+      "data_path",
+      "decimal_places",
+      "column_name"
+    ],
+    "queries": [
+      {
+        "query": "What is the skewness of the 'Age' column in the dataset located at '/data/user_stats.csv', rounded to 3 decimal places?",
+        "filled_param": {
+          "data_path": "/data/user_stats.csv",
+          "decimal_places": 3,
+          "column_name": "Age"
+        }
+      },
+      {
+        "query": "Calculate the skewness for the 'Income' field in the file at '/datasets/economic_data.csv', with results rounded to 2 decimal places.",
+        "filled_param": {
+          "data_path": "/datasets/economic_data.csv",
+          "decimal_places": 2,
+          "column_name": "Income"
+        }
+      },
+      {
+        "query": "Determine the skewness of the 'Height' data from '/files/measurements.csv', rounded to 4 decimal places.",
+        "filled_param": {
+          "data_path": "/files/measurements.csv",
+          "decimal_places": 4,
+          "column_name": "Height"
+        }
+      },
+      {
+        "query": "Can you find the skewness of the 'Sales' column in the dataset '/resources/sales_data.csv', and round it to 1 decimal place?",
+        "filled_param": {
+          "data_path": "/resources/sales_data.csv",
+          "decimal_places": 1,
+          "column_name": "Sales"
+        }
+      },
+      {
+        "query": "Please provide the skewness of the 'Temperature' column from the file '/data/weather_records.csv', rounded to 5 decimal places.",
+        "filled_param": {
+          "data_path": "/data/weather_records.csv",
+          "decimal_places": 5,
+          "column_name": "Temperature"
+        }
+      },
+      {
+        "query": "I need the skewness of the 'Weight' values in '/datasets/health_stats.csv', rounded to 2 decimals.",
+        "filled_param": {
+          "data_path": "/datasets/health_stats.csv",
+          "decimal_places": 2,
+          "column_name": "Weight"
+        }
+      },
+      {
+        "query": "What is the skewness of the 'Grades' column in the file located at '/files/student_performance.csv', with results to 3 decimal places?",
+        "filled_param": {
+          "data_path": "/files/student_performance.csv",
+          "decimal_places": 3,
+          "column_name": "Grades"
+        }
+      }
+    ]
+  },
+  "compute_statistics|:|kurtosis|:|data_path,decimal_places,column_name": {
+    "tool_template_name": "compute_statistics",
+    "derived_class": "kurtosis",
+    "params_for_query": [
+      "data_path",
+      "decimal_places",
+      "column_name"
+    ],
+    "queries": [
+      {
+        "query": "Could you compute the kurtosis for the 'returns' column in the dataset located at '/data/financial_data.csv', rounded to three decimal places?",
+        "filled_param": {
+          "data_path": "/data/financial_data.csv",
+          "decimal_places": 3,
+          "column_name": "returns"
+        }
+      },
+      {
+        "query": "What is the kurtosis of the 'temperature' column from the file at '/datasets/weather_data.csv', using two decimal places?",
+        "filled_param": {
+          "data_path": "/datasets/weather_data.csv",
+          "decimal_places": 2,
+          "column_name": "temperature"
+        }
+      },
+      {
+        "query": "Please calculate the kurtosis of the 'age' column in '/user_data/age_statistics.csv' and round it to one decimal place.",
+        "filled_param": {
+          "data_path": "/user_data/age_statistics.csv",
+          "decimal_places": 1,
+          "column_name": "age"
+        }
+      },
+      {
+        "query": "Find out the kurtosis for the 'sales' column in the dataset '/sales_records/2023_sales.csv' with results rounded to four decimal places.",
+        "filled_param": {
+          "data_path": "/sales_records/2023_sales.csv",
+          "decimal_places": 4,
+          "column_name": "sales"
+        }
+      },
+      {
+        "query": "Determine the kurtosis of the 'height' column from the file '/datasets/height_data.csv', and please round the result to two decimal places.",
+        "filled_param": {
+          "data_path": "/datasets/height_data.csv",
+          "decimal_places": 2,
+          "column_name": "height"
+        }
+      },
+      {
+        "query": "Can you tell me the kurtosis of the 'profits' column in '/financial_reports/annual.csv', using three decimal places for the result?",
+        "filled_param": {
+          "data_path": "/financial_reports/annual.csv",
+          "decimal_places": 3,
+          "column_name": "profits"
+        }
+      },
+      {
+        "query": "Compute the kurtosis for the 'score' column in the file '/data/exam_results.csv', and round it to two decimal places.",
+        "filled_param": {
+          "data_path": "/data/exam_results.csv",
+          "decimal_places": 2,
+          "column_name": "score"
+        }
+      }
+    ]
+  }
+}

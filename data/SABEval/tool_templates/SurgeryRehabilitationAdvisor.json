@@ -1,0 +1,53 @@
+{
+  "tool_template_name": "SurgeryRehabilitationAdvisor",
+  "meta_data": {
+    "base_class": "Provide <medical advice> based on patient conditions - refers to various types of professional guidance related to medical rehabilitation.",
+    "derived_classes": [
+      "exercise advice",
+      "nutrition advice",
+      "sleep adjustment advice",
+      "follow up consultation advice"
+    ],
+    "base_class_entity": "rehabilitation exercises"
+  },
+  "tool_template": {
+    "name": "Provide_<class>_Advice",
+    "description": "Provide <class> based on patient details.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "patient_details": {
+          "type": "string",
+          "description": "Detailed description of the patient conditions."
+        }
+      },
+      "required": [
+        "patient_details"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "age_group": {
+      "type": "string",
+      "description": "The general age category of the patient. One of: 'Child', 'Adolescent', 'Adult', 'Senior'."
+    }
+  },
+  "additional_params": {
+    "urgency_level": {
+      "type": "string",
+      "description": "Indicates the urgency level for the <class>, such as 'low', 'medium', or 'high'."
+    },
+    "cultural_considerations": {
+      "type": "string",
+      "description": "Any cultural considerations or restrictions applicable to the <class>."
+    },
+    "delivery_method": {
+      "type": "string",
+      "description": "Preferred method of delivering the <class>, such as 'in-person', 'video call', or 'written'."
+    },
+    "practitioner_availability": {
+      "type": "boolean",
+      "description": "Indicates whether a practitioner is available to implement the <class> immediately."
+    }
+  }
+}

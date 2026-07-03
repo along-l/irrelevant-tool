@@ -1,0 +1,61 @@
+{
+  "tool_template_name": "sports_db.find_athlete",
+  "meta_data": {
+    "base_class": "Find the profile of an athlete competing in a specific <team-based sport with professional clubs> - refers to a sport with organized leagues and clubs, where players are associated with formal professional teams and can be identified by name.",
+    "derived_classes": [
+      "basketball",
+      "soccer",
+      "baseball",
+      "american football",
+      "ice hockey",
+      "volleyball",
+      "esports",
+      "cricket",
+      "rugby union",
+      "handball",
+      "futsal",
+      "field hockey"
+    ],
+    "base_class_entity": "athlete"
+  },
+  "tool_template": {
+    "name": "find_<class>_athlete",
+    "description": "Find the profile information of a <class> athlete based on their full name.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The full name of the <class> athlete."
+        }
+      },
+      "required": [
+        "name"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "team": {
+      "type": "string",
+      "description": "The team the <class> athlete belongs to."
+    }
+  },
+  "additional_params": {
+    "position": {
+      "type": "string",
+      "description": "The playing position of the <class> athlete within their team."
+    },
+    "nationality": {
+      "type": "string",
+      "description": "The nationality of the <class> athlete."
+    },
+    "league": {
+      "type": "string",
+      "description": "The league in which the <class> athlete participates."
+    },
+    "active_only": {
+      "type": "boolean",
+      "description": "Whether to restrict the search to currently active <class> athletes."
+    }
+  }
+}

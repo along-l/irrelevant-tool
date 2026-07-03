@@ -1,0 +1,60 @@
+{
+  "tool_template_name": "OutdoorBBQWeatherCheck",
+  "meta_data": {
+    "base_class": "Checks if the weather is suitable for an outdoor BBQ on <a specific day>. - applicable for querying weather for an outdoor BBQ in a specific postal code area, sensitive to maximum temperature and rain probability thresholds.",
+    "derived_classes": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "base_class_entity": "Saturday"
+  },
+  "tool_template": {
+    "name": "OutdoorBBQWeatherCheck_<class>",
+    "description": "Checks if the weather is suitable for an outdoor BBQ on <class>.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "postalCode": {
+          "type": "string",
+          "description": "The postal code of the area for the weather check."
+        }
+      },
+      "required": [
+        "postalCode"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "maxTemperature": {
+      "type": "number",
+      "description": "The maximum temperature threshold for a suitable BBQ on <class>."
+    },
+    "rainProbability": {
+      "type": "number",
+      "description": "The maximum acceptable rain probability percentage."
+    }
+  },
+  "additional_params": {
+    "windSpeedThreshold": {
+      "type": "number",
+      "description": "The maximum wind speed in km/h that is acceptable for an outdoor BBQ on <class>."
+    },
+    "humidityLevel": {
+      "type": "number",
+      "description": "The maximum acceptable humidity level percentage for a suitable BBQ on <class>."
+    },
+    "uvIndexLimit": {
+      "type": "number",
+      "description": "The maximum UV index level considered safe for an outdoor BBQ on <class>."
+    },
+    "timeOfDay": {
+      "type": "string",
+      "description": "The preferred time of day for the BBQ on <class>. Options include 'Morning', 'Afternoon', and 'Evening'."
+    }
+  }
+}

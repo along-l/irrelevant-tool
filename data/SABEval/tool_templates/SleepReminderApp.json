@@ -1,0 +1,69 @@
+{
+  "tool_template_name": "SleepReminderApp",
+  "meta_data": {
+    "base_class": "Sets <a specific type of personal recurring reminder>. - This is a general purpose reminder application that allows setting a reminder message, a specific time, and recurring days of the week, suitable for various personal activities or habits that require daily or weekly scheduled reminders.",
+    "derived_classes": [
+      "sleep",
+      "medication",
+      "hydration",
+      "exercise",
+      "study",
+      "meditation",
+      "water plants",
+      "feed pets",
+      "reading",
+      "practice instrument",
+      "prepare lunch",
+      "eye rest"
+    ],
+    "base_class_entity": "reminders for sleep and wake-up times to improve sleep habits"
+  },
+  "tool_template": {
+    "name": "Set_<class>_Reminder",
+    "description": "An application to set <class> reminders for timely notifications.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "reminder_message": {
+          "type": "string",
+          "description": "Custom message for <class> reminders. Must be between 10 and 100 characters."
+        },
+        "reminder_time": {
+          "type": "string",
+          "description": "Time to send the <class> reminders. Format should be HH:MM in 24-hour format."
+        }
+      },
+      "required": [
+        "reminder_message",
+        "reminder_time"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "days_of_week": {
+      "type": "array",
+      "description": "Days of the week to send <class> reminders. Should be a list of days like ['Monday', 'Wednesday'].",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additional_params": {
+    "priority_level": {
+      "type": "string",
+      "description": "The priority level of the <class> reminder, which should be 'low', 'medium', or 'high'."
+    },
+    "notification_type": {
+      "type": "string",
+      "description": "Type of notification for <class> reminders, being 'popup', 'email', or 'SMS'."
+    },
+    "reminder_duration": {
+      "type": "integer",
+      "description": "Duration in minutes for how long the <class> reminder should be active. Must be at least 1 minute."
+    },
+    "snooze_enabled": {
+      "type": "boolean",
+      "description": "Whether snooze is enabled for <class> reminders, allowing temporary dismissal with a later repeat."
+    }
+  }
+}

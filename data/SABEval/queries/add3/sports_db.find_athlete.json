@@ -1,0 +1,902 @@
+{
+  "sports_db.find_athlete|:|basketball|:|name,team,position,nationality": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "basketball",
+    "params_for_query": [
+      "name",
+      "team",
+      "position",
+      "nationality"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the profile of the basketball player LeBron James who plays for the Los Angeles Lakers as a forward and is American?",
+        "filled_param": {
+          "name": "LeBron James",
+          "team": "Los Angeles Lakers",
+          "position": "forward",
+          "nationality": "American"
+        }
+      },
+      {
+        "query": "I'm looking for information on the basketball athlete Giannis Antetokounmpo from the Milwaukee Bucks, who plays as a power forward and is Greek.",
+        "filled_param": {
+          "name": "Giannis Antetokounmpo",
+          "team": "Milwaukee Bucks",
+          "position": "power forward",
+          "nationality": "Greek"
+        }
+      },
+      {
+        "query": "Find the profile of Stephen Curry, the American basketball player known for his role as a point guard for the Golden State Warriors.",
+        "filled_param": {
+          "name": "Stephen Curry",
+          "team": "Golden State Warriors",
+          "position": "point guard",
+          "nationality": "American"
+        }
+      },
+      {
+        "query": "What can you tell me about the basketball player Luka Dončić, who is Slovenian and plays guard for the Dallas Mavericks?",
+        "filled_param": {
+          "name": "Luka Dončić",
+          "team": "Dallas Mavericks",
+          "position": "guard",
+          "nationality": "Slovenian"
+        }
+      },
+      {
+        "query": "Give me the details of the basketball athlete Kawhi Leonard, who plays for the Los Angeles Clippers as a small forward and is American.",
+        "filled_param": {
+          "name": "Kawhi Leonard",
+          "team": "Los Angeles Clippers",
+          "position": "small forward",
+          "nationality": "American"
+        }
+      },
+      {
+        "query": "Can you find the profile of the basketball player Joel Embiid, a Cameroonian playing center for the Philadelphia 76ers?",
+        "filled_param": {
+          "name": "Joel Embiid",
+          "team": "Philadelphia 76ers",
+          "position": "center",
+          "nationality": "Cameroonian"
+        }
+      },
+      {
+        "query": "I'd like to know about Kevin Durant, who is an American basketball player, plays forward for the Brooklyn Nets.",
+        "filled_param": {
+          "name": "Kevin Durant",
+          "team": "Brooklyn Nets",
+          "position": "forward",
+          "nationality": "American"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|soccer|:|name,team,position,nationality": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "soccer",
+    "params_for_query": [
+      "name",
+      "team",
+      "position",
+      "nationality"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide details on the soccer player Lionel Messi, who plays for Paris Saint-Germain, is a forward, and is from Argentina?",
+        "filled_param": {
+          "name": "Lionel Messi",
+          "team": "Paris Saint-Germain",
+          "position": "forward",
+          "nationality": "Argentina"
+        }
+      },
+      {
+        "query": "I need the profile of Cristiano Ronaldo, who is a forward for Al Nassr and is Portuguese.",
+        "filled_param": {
+          "name": "Cristiano Ronaldo",
+          "team": "Al Nassr",
+          "position": "forward",
+          "nationality": "Portuguese"
+        }
+      },
+      {
+        "query": "Tell me about the soccer athlete Megan Rapinoe, who plays as a midfielder for OL Reign and is American.",
+        "filled_param": {
+          "name": "Megan Rapinoe",
+          "team": "OL Reign",
+          "position": "midfielder",
+          "nationality": "American"
+        }
+      },
+      {
+        "query": "Can you find information about Kylian Mbappé, who is a forward for Paris Saint-Germain and is French?",
+        "filled_param": {
+          "name": "Kylian Mbappé",
+          "team": "Paris Saint-Germain",
+          "position": "forward",
+          "nationality": "French"
+        }
+      },
+      {
+        "query": "Get me the details of the soccer player Virgil van Dijk, who is a defender for Liverpool and hails from the Netherlands.",
+        "filled_param": {
+          "name": "Virgil van Dijk",
+          "team": "Liverpool",
+          "position": "defender",
+          "nationality": "Netherlands"
+        }
+      },
+      {
+        "query": "What can you tell me about the soccer athlete Sam Kerr, who plays as a forward for Chelsea and is Australian?",
+        "filled_param": {
+          "name": "Sam Kerr",
+          "team": "Chelsea",
+          "position": "forward",
+          "nationality": "Australian"
+        }
+      },
+      {
+        "query": "I'd like the profile of Kevin De Bruyne, a midfielder for Manchester City, and he is from Belgium.",
+        "filled_param": {
+          "name": "Kevin De Bruyne",
+          "team": "Manchester City",
+          "position": "midfielder",
+          "nationality": "Belgium"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|baseball|:|name,team,position,nationality": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "baseball",
+    "params_for_query": [
+      "name",
+      "team",
+      "position",
+      "nationality"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the profile of the baseball athlete Mike Trout who plays as a center fielder for the Los Angeles Angels and is American?",
+        "filled_param": {
+          "name": "Mike Trout",
+          "team": "Los Angeles Angels",
+          "position": "center fielder",
+          "nationality": "American"
+        }
+      },
+      {
+        "query": "I'm looking for information on the baseball player Shohei Ohtani. He is a pitcher for the Los Angeles Angels and is Japanese.",
+        "filled_param": {
+          "name": "Shohei Ohtani",
+          "team": "Los Angeles Angels",
+          "position": "pitcher",
+          "nationality": "Japanese"
+        }
+      },
+      {
+        "query": "Find the details of the baseball athlete Yadier Molina. He is a catcher for the St. Louis Cardinals and is Puerto Rican.",
+        "filled_param": {
+          "name": "Yadier Molina",
+          "team": "St. Louis Cardinals",
+          "position": "catcher",
+          "nationality": "Puerto Rican"
+        }
+      },
+      {
+        "query": "Could you tell me about the baseball player Aaron Judge? He plays as a right fielder for the New York Yankees and is American.",
+        "filled_param": {
+          "name": "Aaron Judge",
+          "team": "New York Yankees",
+          "position": "right fielder",
+          "nationality": "American"
+        }
+      },
+      {
+        "query": "Get me the profile of the baseball player Fernando Tatis Jr., a shortstop for the San Diego Padres and Dominican.",
+        "filled_param": {
+          "name": "Fernando Tatis Jr.",
+          "team": "San Diego Padres",
+          "position": "shortstop",
+          "nationality": "Dominican"
+        }
+      },
+      {
+        "query": "Who is the baseball athlete Clayton Kershaw? He is a pitcher for the Los Angeles Dodgers and is American.",
+        "filled_param": {
+          "name": "Clayton Kershaw",
+          "team": "Los Angeles Dodgers",
+          "position": "pitcher",
+          "nationality": "American"
+        }
+      },
+      {
+        "query": "I need the profile of Jose Altuve, who plays as a second baseman for the Houston Astros and is Venezuelan.",
+        "filled_param": {
+          "name": "Jose Altuve",
+          "team": "Houston Astros",
+          "position": "second baseman",
+          "nationality": "Venezuelan"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|american football|:|name,team,position,nationality": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "american football",
+    "params_for_query": [
+      "name",
+      "team",
+      "position",
+      "nationality"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the profile of Tom Brady who plays as a quarterback for the Tampa Bay Buccaneers and is American?",
+        "filled_param": {
+          "name": "Tom Brady",
+          "team": "Tampa Bay Buccaneers",
+          "position": "quarterback",
+          "nationality": "American"
+        }
+      },
+      {
+        "query": "I need details about Aaron Rodgers, the quarterback for the Green Bay Packers. He's American, right?",
+        "filled_param": {
+          "name": "Aaron Rodgers",
+          "team": "Green Bay Packers",
+          "position": "quarterback",
+          "nationality": "American"
+        }
+      },
+      {
+        "query": "Who is Patrick Mahomes, the quarterback of the Kansas City Chiefs, and is he American?",
+        "filled_param": {
+          "name": "Patrick Mahomes",
+          "team": "Kansas City Chiefs",
+          "position": "quarterback",
+          "nationality": "American"
+        }
+      },
+      {
+        "query": "Find the profile of Von Miller, a linebacker for the Buffalo Bills, who is an American national.",
+        "filled_param": {
+          "name": "Von Miller",
+          "team": "Buffalo Bills",
+          "position": "linebacker",
+          "nationality": "American"
+        }
+      },
+      {
+        "query": "Give me the information about Russell Wilson, who plays as a quarterback for the Denver Broncos and is American.",
+        "filled_param": {
+          "name": "Russell Wilson",
+          "team": "Denver Broncos",
+          "position": "quarterback",
+          "nationality": "American"
+        }
+      },
+      {
+        "query": "Could you tell me more about DeAndre Hopkins, the wide receiver from the Arizona Cardinals, who is American?",
+        "filled_param": {
+          "name": "DeAndre Hopkins",
+          "team": "Arizona Cardinals",
+          "position": "wide receiver",
+          "nationality": "American"
+        }
+      },
+      {
+        "query": "I want to know about J.J. Watt, a defensive end for the Arizona Cardinals, with American nationality.",
+        "filled_param": {
+          "name": "J.J. Watt",
+          "team": "Arizona Cardinals",
+          "position": "defensive end",
+          "nationality": "American"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|ice hockey|:|name,team,position,nationality": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "ice hockey",
+    "params_for_query": [
+      "name",
+      "team",
+      "position",
+      "nationality"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the profile of Sidney Crosby who plays for the Pittsburgh Penguins as a center and is Canadian?",
+        "filled_param": {
+          "name": "Sidney Crosby",
+          "team": "Pittsburgh Penguins",
+          "position": "center",
+          "nationality": "Canadian"
+        }
+      },
+      {
+        "query": "I need information on the ice hockey player Connor McDavid from Edmonton Oilers, who is a center and holds Canadian nationality.",
+        "filled_param": {
+          "name": "Connor McDavid",
+          "team": "Edmonton Oilers",
+          "position": "center",
+          "nationality": "Canadian"
+        }
+      },
+      {
+        "query": "Who is the ice hockey athlete Alex Ovechkin playing for the Washington Capitals as a left wing, and is Russian?",
+        "filled_param": {
+          "name": "Alex Ovechkin",
+          "team": "Washington Capitals",
+          "position": "left wing",
+          "nationality": "Russian"
+        }
+      },
+      {
+        "query": "Tell me about the ice hockey player Henrik Lundqvist, who is a goaltender for the New York Rangers and Swedish.",
+        "filled_param": {
+          "name": "Henrik Lundqvist",
+          "team": "New York Rangers",
+          "position": "goaltender",
+          "nationality": "Swedish"
+        }
+      },
+      {
+        "query": "Find the profile of the ice hockey athlete Patrice Bergeron, who plays as a center for the Boston Bruins and is Canadian.",
+        "filled_param": {
+          "name": "Patrice Bergeron",
+          "team": "Boston Bruins",
+          "position": "center",
+          "nationality": "Canadian"
+        }
+      },
+      {
+        "query": "Can you give me details about ice hockey player Niklas Kronwall, a defenseman from the Detroit Red Wings, who is Swedish?",
+        "filled_param": {
+          "name": "Niklas Kronwall",
+          "team": "Detroit Red Wings",
+          "position": "defenseman",
+          "nationality": "Swedish"
+        }
+      },
+      {
+        "query": "Provide details on ice hockey player Auston Matthews, who plays for the Toronto Maple Leafs as a center and is American.",
+        "filled_param": {
+          "name": "Auston Matthews",
+          "team": "Toronto Maple Leafs",
+          "position": "center",
+          "nationality": "American"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|volleyball|:|name,team,position,nationality": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "volleyball",
+    "params_for_query": [
+      "name",
+      "team",
+      "position",
+      "nationality"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide details of the volleyball player Sarah Johnson who plays as a setter for the New York Spikers and is American?",
+        "filled_param": {
+          "name": "Sarah Johnson",
+          "team": "New York Spikers",
+          "position": "setter",
+          "nationality": "American"
+        }
+      },
+      {
+        "query": "I'd like to know more about volleyball athlete Luis Fernandez, who is a spiker for the Barcelona Eagles and holds Spanish nationality.",
+        "filled_param": {
+          "name": "Luis Fernandez",
+          "team": "Barcelona Eagles",
+          "position": "spiker",
+          "nationality": "Spanish"
+        }
+      },
+      {
+        "query": "Find the profile of volleyball player Akira Tanaka, a libero for Tokyo Giants, who is Japanese.",
+        "filled_param": {
+          "name": "Akira Tanaka",
+          "team": "Tokyo Giants",
+          "position": "libero",
+          "nationality": "Japanese"
+        }
+      },
+      {
+        "query": "Please give me the information on volleyball athlete Emily Chen, a middle blocker hailing from China, who plays for the Beijing Dragons.",
+        "filled_param": {
+          "name": "Emily Chen",
+          "team": "Beijing Dragons",
+          "position": "middle blocker",
+          "nationality": "Chinese"
+        }
+      },
+      {
+        "query": "Who is volleyball player Marco Rossi, the Italian outside hitter associated with Milan Stars?",
+        "filled_param": {
+          "name": "Marco Rossi",
+          "team": "Milan Stars",
+          "position": "outside hitter",
+          "nationality": "Italian"
+        }
+      },
+      {
+        "query": "Get me the profile of volleyball athlete Natalia Ivanova, who is a Russian opposite for Moscow Knights.",
+        "filled_param": {
+          "name": "Natalia Ivanova",
+          "team": "Moscow Knights",
+          "position": "opposite",
+          "nationality": "Russian"
+        }
+      },
+      {
+        "query": "Could you look up information about volleyball player Gabriel Silva, a Brazilian setter for Rio Warriors?",
+        "filled_param": {
+          "name": "Gabriel Silva",
+          "team": "Rio Warriors",
+          "position": "setter",
+          "nationality": "Brazilian"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|esports|:|name,team,position,nationality": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "esports",
+    "params_for_query": [
+      "name",
+      "team",
+      "position",
+      "nationality"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the profile of esports athlete Faker who plays as a mid laner for T1 and is South Korean?",
+        "filled_param": {
+          "name": "Faker",
+          "team": "T1",
+          "position": "mid laner",
+          "nationality": "South Korean"
+        }
+      },
+      {
+        "query": "I need information about the esports athlete N0tail from OG, who plays the position of captain and is Danish.",
+        "filled_param": {
+          "name": "N0tail",
+          "team": "OG",
+          "position": "captain",
+          "nationality": "Danish"
+        }
+      },
+      {
+        "query": "Find the profile of esports player s1mple, who is a sniper for Na'Vi and hails from Ukraine.",
+        "filled_param": {
+          "name": "s1mple",
+          "team": "Na'Vi",
+          "position": "sniper",
+          "nationality": "Ukrainian"
+        }
+      },
+      {
+        "query": "Can you look up the esports details of player Dendi, who plays as a solo mid for B8 and is from Ukraine?",
+        "filled_param": {
+          "name": "Dendi",
+          "team": "B8",
+          "position": "solo mid",
+          "nationality": "Ukrainian"
+        }
+      },
+      {
+        "query": "What can you tell me about the esports athlete Doublelift, an AD carry for Team Liquid, who is American?",
+        "filled_param": {
+          "name": "Doublelift",
+          "team": "Team Liquid",
+          "position": "AD carry",
+          "nationality": "American"
+        }
+      },
+      {
+        "query": "Get the profile for esports competitor ZywOo from Team Vitality, who plays as an AWPer and is French.",
+        "filled_param": {
+          "name": "ZywOo",
+          "team": "Team Vitality",
+          "position": "AWPer",
+          "nationality": "French"
+        }
+      },
+      {
+        "query": "Could you find information on the esports player Caps, who is a mid laner for G2 Esports and is from Denmark?",
+        "filled_param": {
+          "name": "Caps",
+          "team": "G2 Esports",
+          "position": "mid laner",
+          "nationality": "Danish"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|cricket|:|name,team,position,nationality": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "cricket",
+    "params_for_query": [
+      "name",
+      "team",
+      "position",
+      "nationality"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the profile details of the cricket athlete Virat Kohli, who plays for Royal Challengers Bangalore as a batsman and is Indian?",
+        "filled_param": {
+          "name": "Virat Kohli",
+          "team": "Royal Challengers Bangalore",
+          "position": "batsman",
+          "nationality": "Indian"
+        }
+      },
+      {
+        "query": "I'd like the cricket profile of Steve Smith, the Australian player who is a batsman for the Rajasthan Royals.",
+        "filled_param": {
+          "name": "Steve Smith",
+          "team": "Rajasthan Royals",
+          "position": "batsman",
+          "nationality": "Australian"
+        }
+      },
+      {
+        "query": "Get me the details of cricket player Ben Stokes. He is an all-rounder for England's national team.",
+        "filled_param": {
+          "name": "Ben Stokes",
+          "team": "England",
+          "position": "all-rounder",
+          "nationality": "English"
+        }
+      },
+      {
+        "query": "Please find the profile of Kane Williamson, the captain of the New Zealand national team and a top-order batsman.",
+        "filled_param": {
+          "name": "Kane Williamson",
+          "team": "New Zealand",
+          "position": "top-order batsman",
+          "nationality": "New Zealander"
+        }
+      },
+      {
+        "query": "I need the profile information for cricket player Jasprit Bumrah, who is an Indian bowler for Mumbai Indians.",
+        "filled_param": {
+          "name": "Jasprit Bumrah",
+          "team": "Mumbai Indians",
+          "position": "bowler",
+          "nationality": "Indian"
+        }
+      },
+      {
+        "query": "Who is the cricket athlete Rashid Khan, playing as a bowler for Sunrisers Hyderabad and representing Afghanistan?",
+        "filled_param": {
+          "name": "Rashid Khan",
+          "team": "Sunrisers Hyderabad",
+          "position": "bowler",
+          "nationality": "Afghan"
+        }
+      },
+      {
+        "query": "Could you give me the cricket details for David Warner, an Australian batsman part of the Sunrisers Hyderabad team?",
+        "filled_param": {
+          "name": "David Warner",
+          "team": "Sunrisers Hyderabad",
+          "position": "batsman",
+          "nationality": "Australian"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|rugby union|:|name,team,position,nationality": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "rugby union",
+    "params_for_query": [
+      "name",
+      "team",
+      "position",
+      "nationality"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the profile for John Doe, who plays as a fly-half for the England national rugby union team and is British?",
+        "filled_param": {
+          "name": "John Doe",
+          "team": "England national rugby union team",
+          "position": "fly-half",
+          "nationality": "British"
+        }
+      },
+      {
+        "query": "I'm looking for information on Lisa Brown. She is a scrum-half with the New Zealand national rugby union team and is a New Zealander.",
+        "filled_param": {
+          "name": "Lisa Brown",
+          "team": "New Zealand national rugby union team",
+          "position": "scrum-half",
+          "nationality": "New Zealander"
+        }
+      },
+      {
+        "query": "Who is Carlos Garcia? He plays as a prop for the Argentina national rugby union team and is Argentine.",
+        "filled_param": {
+          "name": "Carlos Garcia",
+          "team": "Argentina national rugby union team",
+          "position": "prop",
+          "nationality": "Argentine"
+        }
+      },
+      {
+        "query": "Please find the details of Emily Zhang, a wing for the China national rugby union team. She is Chinese.",
+        "filled_param": {
+          "name": "Emily Zhang",
+          "team": "China national rugby union team",
+          "position": "wing",
+          "nationality": "Chinese"
+        }
+      },
+      {
+        "query": "Tell me about Tom Wilson, who plays lock for the South Africa national rugby union team and is South African.",
+        "filled_param": {
+          "name": "Tom Wilson",
+          "team": "South Africa national rugby union team",
+          "position": "lock",
+          "nationality": "South African"
+        }
+      },
+      {
+        "query": "Can you find the profile of Sophie Lee, a hooker for the Australia national rugby union team, and she is Australian?",
+        "filled_param": {
+          "name": "Sophie Lee",
+          "team": "Australia national rugby union team",
+          "position": "hooker",
+          "nationality": "Australian"
+        }
+      },
+      {
+        "query": "I'm interested in learning about Alex Schmidt, a fullback for the Germany national rugby union team, who is German.",
+        "filled_param": {
+          "name": "Alex Schmidt",
+          "team": "Germany national rugby union team",
+          "position": "fullback",
+          "nationality": "German"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|handball|:|name,team,position,nationality": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "handball",
+    "params_for_query": [
+      "name",
+      "team",
+      "position",
+      "nationality"
+    ],
+    "queries": [
+      {
+        "query": "I am looking for information on the handball player Alex Smith who plays for the Berlin Wolves as a goalkeeper and is German.",
+        "filled_param": {
+          "name": "Alex Smith",
+          "team": "Berlin Wolves",
+          "position": "goalkeeper",
+          "nationality": "German"
+        }
+      },
+      {
+        "query": "Can you find the profile of handball athlete Maria Gonzalez, who is a left wing player for the Barcelona Hawks and is Spanish?",
+        "filled_param": {
+          "name": "Maria Gonzalez",
+          "team": "Barcelona Hawks",
+          "position": "left wing",
+          "nationality": "Spanish"
+        }
+      },
+      {
+        "query": "Get me the details of the handball player named John Doe from the Paris Eagles, playing as a center back, and who is French.",
+        "filled_param": {
+          "name": "John Doe",
+          "team": "Paris Eagles",
+          "position": "center back",
+          "nationality": "French"
+        }
+      },
+      {
+        "query": "Who is Emily Wang, the right back handball player from the Tokyo Titans team, holding Japanese nationality?",
+        "filled_param": {
+          "name": "Emily Wang",
+          "team": "Tokyo Titans",
+          "position": "right back",
+          "nationality": "Japanese"
+        }
+      },
+      {
+        "query": "Provide the profile of the handball athlete Liam Brown, who is part of the Sydney Sharks, plays as a pivot, and is Australian.",
+        "filled_param": {
+          "name": "Liam Brown",
+          "team": "Sydney Sharks",
+          "position": "pivot",
+          "nationality": "Australian"
+        }
+      },
+      {
+        "query": "I'd like to know more about the player Chloe Johnson, who defends as a right wing for the New York Wolves and is American.",
+        "filled_param": {
+          "name": "Chloe Johnson",
+          "team": "New York Wolves",
+          "position": "right wing",
+          "nationality": "American"
+        }
+      },
+      {
+        "query": "Tell me about Daniel Kim, a handball player for the Seoul Tigers, positioned as a left back, and is Korean.",
+        "filled_param": {
+          "name": "Daniel Kim",
+          "team": "Seoul Tigers",
+          "position": "left back",
+          "nationality": "Korean"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|futsal|:|name,team,position,nationality": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "futsal",
+    "params_for_query": [
+      "name",
+      "team",
+      "position",
+      "nationality"
+    ],
+    "queries": [
+      {
+        "query": "Can you find the profile of the futsal athlete named Lucas Martinez who plays for the team Barcelona Futsal as a goalkeeper and is from Argentina?",
+        "filled_param": {
+          "name": "Lucas Martinez",
+          "team": "Barcelona Futsal",
+          "position": "goalkeeper",
+          "nationality": "Argentina"
+        }
+      },
+      {
+        "query": "I need the details of futsal player Sophia Anderson who is a forward for the Manchester Futsal Club and holds British nationality.",
+        "filled_param": {
+          "name": "Sophia Anderson",
+          "team": "Manchester Futsal Club",
+          "position": "forward",
+          "nationality": "British"
+        }
+      },
+      {
+        "query": "Retrieve information on the futsal athlete Marco Santini, playing as a midfielder for Milan Futsal with Italian nationality.",
+        "filled_param": {
+          "name": "Marco Santini",
+          "team": "Milan Futsal",
+          "position": "midfielder",
+          "nationality": "Italian"
+        }
+      },
+      {
+        "query": "I'd like to know more about the futsal player named Yasmin Al-Masri, a defender with the team Al-Hilal Futsal, who is from Saudi Arabia.",
+        "filled_param": {
+          "name": "Yasmin Al-Masri",
+          "team": "Al-Hilal Futsal",
+          "position": "defender",
+          "nationality": "Saudi Arabia"
+        }
+      },
+      {
+        "query": "Provide the profile for Carlos Nunez, a futsal athlete from Brazil, playing as a winger for the Santos Futsal team.",
+        "filled_param": {
+          "name": "Carlos Nunez",
+          "team": "Santos Futsal",
+          "position": "winger",
+          "nationality": "Brazil"
+        }
+      },
+      {
+        "query": "Who is the futsal athlete Rina Takahashi, a Japanese player in the pivot position for Tokyo Futsal?",
+        "filled_param": {
+          "name": "Rina Takahashi",
+          "team": "Tokyo Futsal",
+          "position": "pivot",
+          "nationality": "Japanese"
+        }
+      },
+      {
+        "query": "Tell me about futsal player Ahmed Khalil who is a goalkeeper for the Cairo Futsal club and holds Egyptian nationality.",
+        "filled_param": {
+          "name": "Ahmed Khalil",
+          "team": "Cairo Futsal",
+          "position": "goalkeeper",
+          "nationality": "Egyptian"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|field hockey|:|name,team,position,nationality": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "field hockey",
+    "params_for_query": [
+      "name",
+      "team",
+      "position",
+      "nationality"
+    ],
+    "queries": [
+      {
+        "query": "I am looking for information on the field hockey player Maria Gonzalez, who plays as a defender for the Spanish national team.",
+        "filled_param": {
+          "name": "Maria Gonzalez",
+          "team": "Spanish national team",
+          "position": "defender",
+          "nationality": "Spanish"
+        }
+      },
+      {
+        "query": "Can you provide the profile of field hockey athlete John Smith, who is a forward for the Australian club team Perth Thundersticks?",
+        "filled_param": {
+          "name": "John Smith",
+          "team": "Perth Thundersticks",
+          "position": "forward",
+          "nationality": "Australian"
+        }
+      },
+      {
+        "query": "Find the details of the field hockey player Emily Chen, a midfielder from the New Zealand national team.",
+        "filled_param": {
+          "name": "Emily Chen",
+          "team": "New Zealand national team",
+          "position": "midfielder",
+          "nationality": "New Zealand"
+        }
+      },
+      {
+        "query": "I need information on field hockey goalkeeper Arjun Patel from the India national team.",
+        "filled_param": {
+          "name": "Arjun Patel",
+          "team": "India national team",
+          "position": "goalkeeper",
+          "nationality": "Indian"
+        }
+      },
+      {
+        "query": "Can you tell me about field hockey player Sarah Lee, who plays defense for the Canadian team Toronto Arrows?",
+        "filled_param": {
+          "name": "Sarah Lee",
+          "team": "Toronto Arrows",
+          "position": "defense",
+          "nationality": "Canadian"
+        }
+      },
+      {
+        "query": "Please find the profile of field hockey forward Ahmed Khan from the Pakistani club Karachi Kings.",
+        "filled_param": {
+          "name": "Ahmed Khan",
+          "team": "Karachi Kings",
+          "position": "forward",
+          "nationality": "Pakistani"
+        }
+      },
+      {
+        "query": "What are the details of field hockey midfielder Lucy Brown from the English national team?",
+        "filled_param": {
+          "name": "Lucy Brown",
+          "team": "English national team",
+          "position": "midfielder",
+          "nationality": "English"
+        }
+      }
+    ]
+  }
+}

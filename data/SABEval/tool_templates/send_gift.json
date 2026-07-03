@@ -1,0 +1,68 @@
+{
+  "tool_template_name": "send_gift",
+  "meta_data": {
+    "base_class": "Send selected <physical items> as gifts to a designated address - refers to various tangible objects that can be mailed or delivered.",
+    "derived_classes": [
+      "flower bouquet",
+      "handmade chocolate",
+      "hardcover book",
+      "Bluetooth earphones",
+      "red wine",
+      "tea",
+      "fountain pen",
+      "skincare",
+      "board game",
+      "perfume"
+    ],
+    "base_class_entity": "gift"
+  },
+  "tool_template": {
+    "name": "send_<class>",
+    "description": "Sends a selected <class> to a specified address.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "recipient_name": {
+          "type": "string",
+          "description": "Name of the recipient."
+        },
+        "address": {
+          "type": "string",
+          "description": "Address where the <class> should be sent."
+        },
+        "selected_item_id": {
+          "type": "string",
+          "description": "The selected <class> identifier to be sent."
+        }
+      },
+      "required": [
+        "recipient_name",
+        "address",
+        "selected_item_id"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "delivery_date": {
+      "type": "string",
+      "description": "Preferred delivery date for the <class>."
+    },
+    "gift_message": {
+      "type": "string",
+      "description": "A personalized message to include with the <class>."
+    },
+    "tracking_notification": {
+      "type": "boolean",
+      "description": "Indicates if the sender wants to receive tracking updates for the <class>."
+    },
+    "signature_required": {
+      "type": "boolean",
+      "description": "Specifies if a signature is required upon delivery of the <class>."
+    },
+    "fragile_handling": {
+      "type": "boolean",
+      "description": "Indicates if the <class> requires special handling due to its fragile nature."
+    }
+  }
+}

@@ -1,0 +1,725 @@
+{
+  "sports_team.get_schedule|:|basketball|:|team_name,num_of_games,league,location": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "basketball",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location"
+    ],
+    "queries": [
+      {
+        "query": "Can you show me the schedule for the Los Angeles Lakers for the next 5 games in the NBA at the Staples Center?",
+        "filled_param": {
+          "team_name": "Los Angeles Lakers",
+          "num_of_games": 5,
+          "league": "NBA",
+          "location": "Staples Center"
+        }
+      },
+      {
+        "query": "I need the upcoming 3 games for Chicago Bulls in the Eastern Conference, specifically at the United Center.",
+        "filled_param": {
+          "team_name": "Chicago Bulls",
+          "num_of_games": 3,
+          "league": "Eastern Conference",
+          "location": "United Center"
+        }
+      },
+      {
+        "query": "What's the schedule for Golden State Warriors for the next 4 matches in the Western Conference at Chase Center?",
+        "filled_param": {
+          "team_name": "Golden State Warriors",
+          "num_of_games": 4,
+          "league": "Western Conference",
+          "location": "Chase Center"
+        }
+      },
+      {
+        "query": "Provide me with the schedule for Miami Heat for 2 games in the NBA, taking place in Miami.",
+        "filled_param": {
+          "team_name": "Miami Heat",
+          "num_of_games": 2,
+          "league": "NBA",
+          "location": "Miami"
+        }
+      },
+      {
+        "query": "I’m looking for the next 6 games for Toronto Raptors in the Canadian League at Scotiabank Arena.",
+        "filled_param": {
+          "team_name": "Toronto Raptors",
+          "num_of_games": 6,
+          "league": "Canadian League",
+          "location": "Scotiabank Arena"
+        }
+      },
+      {
+        "query": "Show me the upcoming 7 games for the New York Knicks in the NBA held at Madison Square Garden.",
+        "filled_param": {
+          "team_name": "New York Knicks",
+          "num_of_games": 7,
+          "league": "NBA",
+          "location": "Madison Square Garden"
+        }
+      },
+      {
+        "query": "Get me the next 5 match schedules for the Brooklyn Nets for the NBA at Barclays Center.",
+        "filled_param": {
+          "team_name": "Brooklyn Nets",
+          "num_of_games": 5,
+          "league": "NBA",
+          "location": "Barclays Center"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|soccer|:|team_name,num_of_games,league,location": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "soccer",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location"
+    ],
+    "queries": [
+      {
+        "query": "Can you tell me the schedule for Barcelona's next 3 games in La Liga occurring in Madrid?",
+        "filled_param": {
+          "team_name": "Barcelona",
+          "num_of_games": 3,
+          "league": "La Liga",
+          "location": "Madrid"
+        }
+      },
+      {
+        "query": "Fetch the next 5 matches for Manchester United in the Premier League taking place in London.",
+        "filled_param": {
+          "team_name": "Manchester United",
+          "num_of_games": 5,
+          "league": "Premier League",
+          "location": "London"
+        }
+      },
+      {
+        "query": "What are the upcoming 2 games for Juventus in Serie A to be held in Turin?",
+        "filled_param": {
+          "team_name": "Juventus",
+          "num_of_games": 2,
+          "league": "Serie A",
+          "location": "Turin"
+        }
+      },
+      {
+        "query": "I'd like to know about the next 4 matches that Real Madrid will play in the UEFA Champions League in Paris.",
+        "filled_param": {
+          "team_name": "Real Madrid",
+          "num_of_games": 4,
+          "league": "UEFA Champions League",
+          "location": "Paris"
+        }
+      },
+      {
+        "query": "Get me the schedule for PSG's next game in Ligue 1 happening in Marseille.",
+        "filled_param": {
+          "team_name": "PSG",
+          "num_of_games": 1,
+          "league": "Ligue 1",
+          "location": "Marseille"
+        }
+      },
+      {
+        "query": "Show the next 6 fixtures for Bayern Munich in the Bundesliga that will take place in Berlin.",
+        "filled_param": {
+          "team_name": "Bayern Munich",
+          "num_of_games": 6,
+          "league": "Bundesliga",
+          "location": "Berlin"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|baseball|:|team_name,num_of_games,league,location": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "baseball",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the next 5 games for the New York Yankees in the American League, playing in New York?",
+        "filled_param": {
+          "team_name": "New York Yankees",
+          "num_of_games": 5,
+          "league": "American League",
+          "location": "New York"
+        }
+      },
+      {
+        "query": "List the upcoming 3 matches for the Los Angeles Dodgers in the National League that will be held in Los Angeles.",
+        "filled_param": {
+          "team_name": "Los Angeles Dodgers",
+          "num_of_games": 3,
+          "league": "National League",
+          "location": "Los Angeles"
+        }
+      },
+      {
+        "query": "I need the schedule for 7 games of the Chicago Cubs in Major League Baseball, taking place in Chicago.",
+        "filled_param": {
+          "team_name": "Chicago Cubs",
+          "num_of_games": 7,
+          "league": "Major League Baseball",
+          "location": "Chicago"
+        }
+      },
+      {
+        "query": "Fetch the next 4 games for the Houston Astros in the American League, hosted in Houston.",
+        "filled_param": {
+          "team_name": "Houston Astros",
+          "num_of_games": 4,
+          "league": "American League",
+          "location": "Houston"
+        }
+      },
+      {
+        "query": "What are the next 6 games for the Boston Red Sox in Major League Baseball at Fenway Park?",
+        "filled_param": {
+          "team_name": "Boston Red Sox",
+          "num_of_games": 6,
+          "league": "Major League Baseball",
+          "location": "Fenway Park"
+        }
+      },
+      {
+        "query": "Show me the schedule for the next 2 games for the San Francisco Giants in the National League happening in San Francisco.",
+        "filled_param": {
+          "team_name": "San Francisco Giants",
+          "num_of_games": 2,
+          "league": "National League",
+          "location": "San Francisco"
+        }
+      },
+      {
+        "query": "Please provide details for the upcoming 8 games of the Toronto Blue Jays in the American League, located in Toronto.",
+        "filled_param": {
+          "team_name": "Toronto Blue Jays",
+          "num_of_games": 8,
+          "league": "American League",
+          "location": "Toronto"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|ice hockey|:|team_name,num_of_games,league,location": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "ice hockey",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the schedule for the New York Rangers for the next 5 games in the NHL at Madison Square Garden?",
+        "filled_param": {
+          "team_name": "New York Rangers",
+          "num_of_games": 5,
+          "league": "NHL",
+          "location": "Madison Square Garden"
+        }
+      },
+      {
+        "query": "Fetch the upcoming 3 games schedule for the Montreal Canadiens in the NHL happening in Montreal.",
+        "filled_param": {
+          "team_name": "Montreal Canadiens",
+          "num_of_games": 3,
+          "league": "NHL",
+          "location": "Montreal"
+        }
+      },
+      {
+        "query": "I need the schedule for the Los Angeles Kings for their next 2 matches within the NHL at Staples Center.",
+        "filled_param": {
+          "team_name": "Los Angeles Kings",
+          "num_of_games": 2,
+          "league": "NHL",
+          "location": "Staples Center"
+        }
+      },
+      {
+        "query": "What are the next 6 games for the Boston Bruins in the NHL taking place in Boston?",
+        "filled_param": {
+          "team_name": "Boston Bruins",
+          "num_of_games": 6,
+          "league": "NHL",
+          "location": "Boston"
+        }
+      },
+      {
+        "query": "Please get the schedule for the Chicago Blackhawks for 4 upcoming games in the NHL hosted at United Center.",
+        "filled_param": {
+          "team_name": "Chicago Blackhawks",
+          "num_of_games": 4,
+          "league": "NHL",
+          "location": "United Center"
+        }
+      },
+      {
+        "query": "Show me the next 7 games on the schedule for the Toronto Maple Leafs in the NHL at Scotiabank Arena.",
+        "filled_param": {
+          "team_name": "Toronto Maple Leafs",
+          "num_of_games": 7,
+          "league": "NHL",
+          "location": "Scotiabank Arena"
+        }
+      },
+      {
+        "query": "Get the schedule for the Edmonton Oilers for their upcoming 5 games in the NHL at Rogers Place.",
+        "filled_param": {
+          "team_name": "Edmonton Oilers",
+          "num_of_games": 5,
+          "league": "NHL",
+          "location": "Rogers Place"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|handball|:|team_name,num_of_games,league,location": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "handball",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the schedule for the Barcelona handball team for the next 5 games in the Spanish League at Palau Blaugrana?",
+        "filled_param": {
+          "team_name": "Barcelona",
+          "num_of_games": 5,
+          "league": "Spanish League",
+          "location": "Palau Blaugrana"
+        }
+      },
+      {
+        "query": "Fetch the upcoming 3-game schedule for THW Kiel in the German Bundesliga to be played at Sparkassen-Arena.",
+        "filled_param": {
+          "team_name": "THW Kiel",
+          "num_of_games": 3,
+          "league": "German Bundesliga",
+          "location": "Sparkassen-Arena"
+        }
+      },
+      {
+        "query": "I need the match schedule for PSG handball in the French League for the next 4 games at Stade Pierre de Coubertin.",
+        "filled_param": {
+          "team_name": "PSG",
+          "num_of_games": 4,
+          "league": "French League",
+          "location": "Stade Pierre de Coubertin"
+        }
+      },
+      {
+        "query": "What are the next 6 games for the Veszprém team in the Hungarian League taking place at Veszprém Aréna?",
+        "filled_param": {
+          "team_name": "Veszprém",
+          "num_of_games": 6,
+          "league": "Hungarian League",
+          "location": "Veszprém Aréna"
+        }
+      },
+      {
+        "query": "Show me the schedule for the Mol-Pick Szeged team's next 2 matches in the EHF Champions League at Budapest Sportaréna.",
+        "filled_param": {
+          "team_name": "Mol-Pick Szeged",
+          "num_of_games": 2,
+          "league": "EHF Champions League",
+          "location": "Budapest Sportaréna"
+        }
+      },
+      {
+        "query": "Get the next 7 games for the Aalborg Håndbold team in the Danish Handball League at Gigantium Arena.",
+        "filled_param": {
+          "team_name": "Aalborg Håndbold",
+          "num_of_games": 7,
+          "league": "Danish Handball League",
+          "location": "Gigantium Arena"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|rugby|:|team_name,num_of_games,league,location": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "rugby",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the schedule for the Crusaders' next 3 games in the Super Rugby league held in Christchurch?",
+        "filled_param": {
+          "team_name": "Crusaders",
+          "num_of_games": 3,
+          "league": "Super Rugby",
+          "location": "Christchurch"
+        }
+      },
+      {
+        "query": "I need to know the upcoming 5 matches for the Munster team in the United Rugby Championship located in Limerick.",
+        "filled_param": {
+          "team_name": "Munster",
+          "num_of_games": 5,
+          "league": "United Rugby Championship",
+          "location": "Limerick"
+        }
+      },
+      {
+        "query": "Fetch the schedule for the Harlequins' 2 games in the Premiership Rugby league happening in London.",
+        "filled_param": {
+          "team_name": "Harlequins",
+          "num_of_games": 2,
+          "league": "Premiership Rugby",
+          "location": "London"
+        }
+      },
+      {
+        "query": "What are the next 4 fixtures for the Queensland Reds in the Super Rugby league to be played in Brisbane?",
+        "filled_param": {
+          "team_name": "Queensland Reds",
+          "num_of_games": 4,
+          "league": "Super Rugby",
+          "location": "Brisbane"
+        }
+      },
+      {
+        "query": "Can you get me the schedule for 6 upcoming games for the Leinster team in the European Rugby Champions Cup, all in Dublin?",
+        "filled_param": {
+          "team_name": "Leinster",
+          "num_of_games": 6,
+          "league": "European Rugby Champions Cup",
+          "location": "Dublin"
+        }
+      },
+      {
+        "query": "Show me the schedule for the Blues' 3 games in the Super Rugby Pacific taking place in Auckland.",
+        "filled_param": {
+          "team_name": "Blues",
+          "num_of_games": 3,
+          "league": "Super Rugby Pacific",
+          "location": "Auckland"
+        }
+      },
+      {
+        "query": "Provide the next 7 matches for the Saracens in the English Premiership Rugby scheduled in Watford.",
+        "filled_param": {
+          "team_name": "Saracens",
+          "num_of_games": 7,
+          "league": "English Premiership Rugby",
+          "location": "Watford"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|field hockey|:|team_name,num_of_games,league,location": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "field hockey",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the schedule for the Tigers field hockey team for 5 games in the National League, specifically in New York?",
+        "filled_param": {
+          "team_name": "Tigers",
+          "num_of_games": 5,
+          "league": "National League",
+          "location": "New York"
+        }
+      },
+      {
+        "query": "I need to know when the Lions will be playing their next 3 games in the Premier League, which will take place in Chicago.",
+        "filled_param": {
+          "team_name": "Lions",
+          "num_of_games": 3,
+          "league": "Premier League",
+          "location": "Chicago"
+        }
+      },
+      {
+        "query": "Fetch the schedule for the Eagles field hockey team for 4 upcoming matches in the International League, located in Los Angeles.",
+        "filled_param": {
+          "team_name": "Eagles",
+          "num_of_games": 4,
+          "league": "International League",
+          "location": "Los Angeles"
+        }
+      },
+      {
+        "query": "What is the match schedule for the Falcons field hockey team for 2 games within the National Hockey League, taking place in Boston?",
+        "filled_param": {
+          "team_name": "Falcons",
+          "num_of_games": 2,
+          "league": "National Hockey League",
+          "location": "Boston"
+        }
+      },
+      {
+        "query": "Could you list the next 6 games for the Panthers in the Elite League, all happening in San Francisco?",
+        "filled_param": {
+          "team_name": "Panthers",
+          "num_of_games": 6,
+          "league": "Elite League",
+          "location": "San Francisco"
+        }
+      },
+      {
+        "query": "Show me the schedule for the Bears field hockey team for 7 matches in the Regional League, occurring in Miami.",
+        "filled_param": {
+          "team_name": "Bears",
+          "num_of_games": 7,
+          "league": "Regional League",
+          "location": "Miami"
+        }
+      },
+      {
+        "query": "I want to find the upcoming 5-game schedule for the Sharks in the Continental League, with games held in Seattle.",
+        "filled_param": {
+          "team_name": "Sharks",
+          "num_of_games": 5,
+          "league": "Continental League",
+          "location": "Seattle"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|lacrosse|:|team_name,num_of_games,league,location": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "lacrosse",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the schedule for the Boston Blazers lacrosse team for the next 5 games in the National Lacrosse League, specifically in Boston?",
+        "filled_param": {
+          "team_name": "Boston Blazers",
+          "num_of_games": 5,
+          "league": "National Lacrosse League",
+          "location": "Boston"
+        }
+      },
+      {
+        "query": "Fetch the upcoming 3 games for the Toronto Rock in the Major League Lacrosse, being held in Toronto.",
+        "filled_param": {
+          "team_name": "Toronto Rock",
+          "num_of_games": 3,
+          "league": "Major League Lacrosse",
+          "location": "Toronto"
+        }
+      },
+      {
+        "query": "I need the schedule for the Denver Outlaws' next 6 games in the Premier Lacrosse League, taking place in Denver.",
+        "filled_param": {
+          "team_name": "Denver Outlaws",
+          "num_of_games": 6,
+          "league": "Premier Lacrosse League",
+          "location": "Denver"
+        }
+      },
+      {
+        "query": "What's the schedule for the New York Lizards for their next 4 matches in the National Lacrosse League, held in New York?",
+        "filled_param": {
+          "team_name": "New York Lizards",
+          "num_of_games": 4,
+          "league": "National Lacrosse League",
+          "location": "New York"
+        }
+      },
+      {
+        "query": "Get me the upcoming 2 games for the San Diego Seals in the Major League Lacrosse, happening in San Diego.",
+        "filled_param": {
+          "team_name": "San Diego Seals",
+          "num_of_games": 2,
+          "league": "Major League Lacrosse",
+          "location": "San Diego"
+        }
+      },
+      {
+        "query": "Could you list the next 7 games for the Georgia Swarm in the Premier Lacrosse League, with a venue in Atlanta?",
+        "filled_param": {
+          "team_name": "Georgia Swarm",
+          "num_of_games": 7,
+          "league": "Premier Lacrosse League",
+          "location": "Atlanta"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|cricket|:|team_name,num_of_games,league,location": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "cricket",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the schedule for the Mumbai Indians cricket team for the next 3 games in the Indian Premier League held in Mumbai?",
+        "filled_param": {
+          "team_name": "Mumbai Indians",
+          "num_of_games": 3,
+          "league": "Indian Premier League",
+          "location": "Mumbai"
+        }
+      },
+      {
+        "query": "What are the upcoming 5 matches for the Sydney Sixers in the Big Bash League taking place in Sydney?",
+        "filled_param": {
+          "team_name": "Sydney Sixers",
+          "num_of_games": 5,
+          "league": "Big Bash League",
+          "location": "Sydney"
+        }
+      },
+      {
+        "query": "Show me the schedule for 2 games of the Karachi Kings in the Pakistan Super League happening in Lahore.",
+        "filled_param": {
+          "team_name": "Karachi Kings",
+          "num_of_games": 2,
+          "league": "Pakistan Super League",
+          "location": "Lahore"
+        }
+      },
+      {
+        "query": "I need to know the schedule of 4 matches for the Yorkshire Vikings in the County Championship, to be held in Leeds.",
+        "filled_param": {
+          "team_name": "Yorkshire Vikings",
+          "num_of_games": 4,
+          "league": "County Championship",
+          "location": "Leeds"
+        }
+      },
+      {
+        "query": "Can you get the schedule for the next 6 games of the Chennai Super Kings in the Indian Premier League at Chennai?",
+        "filled_param": {
+          "team_name": "Chennai Super Kings",
+          "num_of_games": 6,
+          "league": "Indian Premier League",
+          "location": "Chennai"
+        }
+      },
+      {
+        "query": "Please find the next 3 games for the Melbourne Renegades in the Big Bash League located in Melbourne.",
+        "filled_param": {
+          "team_name": "Melbourne Renegades",
+          "num_of_games": 3,
+          "league": "Big Bash League",
+          "location": "Melbourne"
+        }
+      },
+      {
+        "query": "What is the schedule for 5 upcoming matches of the Royal Challengers Bangalore in the Indian Premier League played in Bangalore?",
+        "filled_param": {
+          "team_name": "Royal Challengers Bangalore",
+          "num_of_games": 5,
+          "league": "Indian Premier League",
+          "location": "Bangalore"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|volleyball|:|team_name,num_of_games,league,location": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "volleyball",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the schedule for the Chicago Spikers volleyball team for the next 5 games in the National Volleyball League, all taking place in Chicago?",
+        "filled_param": {
+          "team_name": "Chicago Spikers",
+          "num_of_games": 5,
+          "league": "National Volleyball League",
+          "location": "Chicago"
+        }
+      },
+      {
+        "query": "Fetch the schedule for the upcoming 3 matches of the Los Angeles Ace volleyball team in the Pacific Volleyball League, specifically in Los Angeles.",
+        "filled_param": {
+          "team_name": "Los Angeles Ace",
+          "num_of_games": 3,
+          "league": "Pacific Volleyball League",
+          "location": "Los Angeles"
+        }
+      },
+      {
+        "query": "I need the next 4 game schedules for the New York Smashers in the East Coast Volleyball League, with all games held in New York City.",
+        "filled_param": {
+          "team_name": "New York Smashers",
+          "num_of_games": 4,
+          "league": "East Coast Volleyball League",
+          "location": "New York City"
+        }
+      },
+      {
+        "query": "Please get me the schedule for the Miami Waves volleyball team for their next 6 matches in the Florida Volleyball League, all occurring in Miami.",
+        "filled_param": {
+          "team_name": "Miami Waves",
+          "num_of_games": 6,
+          "league": "Florida Volleyball League",
+          "location": "Miami"
+        }
+      },
+      {
+        "query": "What is the game schedule for the Dallas Spikes over the next 2 games in the Texas Volleyball League, taking place in Dallas?",
+        "filled_param": {
+          "team_name": "Dallas Spikes",
+          "num_of_games": 2,
+          "league": "Texas Volleyball League",
+          "location": "Dallas"
+        }
+      },
+      {
+        "query": "Can you show me the schedule for the upcoming 5 games of the Boston Blockers in the New England Volleyball League, all in Boston?",
+        "filled_param": {
+          "team_name": "Boston Blockers",
+          "num_of_games": 5,
+          "league": "New England Volleyball League",
+          "location": "Boston"
+        }
+      },
+      {
+        "query": "Retrieve the next 7 games schedule for the Seattle Sky volleyball team in the Northwest Volleyball League, taking place in Seattle.",
+        "filled_param": {
+          "team_name": "Seattle Sky",
+          "num_of_games": 7,
+          "league": "Northwest Volleyball League",
+          "location": "Seattle"
+        }
+      }
+    ]
+  }
+}

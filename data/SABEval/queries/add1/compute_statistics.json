@@ -1,0 +1,526 @@
+{
+  "compute_statistics|:|mean|:|data_path,decimal_places": {
+    "tool_template_name": "compute_statistics",
+    "derived_class": "mean",
+    "params_for_query": [
+      "data_path",
+      "decimal_places"
+    ],
+    "queries": [
+      {
+        "query": "Can you calculate the mean of the dataset located at /data/financials.csv and round it to 2 decimal places?",
+        "filled_param": {
+          "data_path": "/data/financials.csv",
+          "decimal_places": 2
+        }
+      },
+      {
+        "query": "Please find the mean for the numbers in /datasets/temperatures.csv and provide the result rounded to 3 decimal places.",
+        "filled_param": {
+          "data_path": "/datasets/temperatures.csv",
+          "decimal_places": 3
+        }
+      },
+      {
+        "query": "Compute the mean of the dataset found at /user/files/grades.csv, rounding the result to 1 decimal place.",
+        "filled_param": {
+          "data_path": "/user/files/grades.csv",
+          "decimal_places": 1
+        }
+      },
+      {
+        "query": "What is the mean value of the data in /records/sales_data.csv with the mean rounded to 4 decimal places?",
+        "filled_param": {
+          "data_path": "/records/sales_data.csv",
+          "decimal_places": 4
+        }
+      },
+      {
+        "query": "I need the mean calculated for /archives/logistics.csv, rounded to 5 decimal places.",
+        "filled_param": {
+          "data_path": "/archives/logistics.csv",
+          "decimal_places": 5
+        }
+      },
+      {
+        "query": "Determine the mean of the figures in /assets/inventory.csv, and round it to 0 decimal places.",
+        "filled_param": {
+          "data_path": "/assets/inventory.csv",
+          "decimal_places": 0
+        }
+      },
+      {
+        "query": "Could you provide the mean of the data in /backup/weather_stats.csv with the result rounded to 6 decimal places?",
+        "filled_param": {
+          "data_path": "/backup/weather_stats.csv",
+          "decimal_places": 6
+        }
+      }
+    ]
+  },
+  "compute_statistics|:|median|:|data_path,decimal_places": {
+    "tool_template_name": "compute_statistics",
+    "derived_class": "median",
+    "params_for_query": [
+      "data_path",
+      "decimal_places"
+    ],
+    "queries": [
+      {
+        "query": "Could you calculate the median of the numbers in my local dataset found at '/user/data/numbers.csv' and round it to 2 decimal places?",
+        "filled_param": {
+          "data_path": "/user/data/numbers.csv",
+          "decimal_places": 2
+        }
+      },
+      {
+        "query": "Find the median of the dataset located at '/home/user/documents/stats.csv', and please round the result to 3 decimal places.",
+        "filled_param": {
+          "data_path": "/home/user/documents/stats.csv",
+          "decimal_places": 3
+        }
+      },
+      {
+        "query": "I need the median value from the dataset in the file '/data/analysis/figures.csv', rounded to 4 decimal places.",
+        "filled_param": {
+          "data_path": "/data/analysis/figures.csv",
+          "decimal_places": 4
+        }
+      },
+      {
+        "query": "Can you find the median of the dataset at '/users/files/data_set.csv' and round it to 1 decimal place?",
+        "filled_param": {
+          "data_path": "/users/files/data_set.csv",
+          "decimal_places": 1
+        }
+      },
+      {
+        "query": "Please compute the median for the dataset stored in '/var/data/metrics.csv', rounding to 5 decimal places.",
+        "filled_param": {
+          "data_path": "/var/data/metrics.csv",
+          "decimal_places": 5
+        }
+      },
+      {
+        "query": "What is the median of the CSV file at '/my_docs/outputs/values.csv', rounded to 0 decimal places?",
+        "filled_param": {
+          "data_path": "/my_docs/outputs/values.csv",
+          "decimal_places": 0
+        }
+      },
+      {
+        "query": "I'd like to know the median from the file '/workspace/results/data.csv' and have it rounded to 6 decimal places.",
+        "filled_param": {
+          "data_path": "/workspace/results/data.csv",
+          "decimal_places": 6
+        }
+      }
+    ]
+  },
+  "compute_statistics|:|mode|:|data_path,decimal_places": {
+    "tool_template_name": "compute_statistics",
+    "derived_class": "mode",
+    "params_for_query": [
+      "data_path",
+      "decimal_places"
+    ],
+    "queries": [
+      {
+        "query": "Could you calculate the mode of the data located at 'datasets/numbers.csv' and round it to 2 decimal places?",
+        "filled_param": {
+          "data_path": "datasets/numbers.csv",
+          "decimal_places": 2
+        }
+      },
+      {
+        "query": "Find the mode for the dataset found in 'stats/data.csv', and please round the result to 3 decimal places.",
+        "filled_param": {
+          "data_path": "stats/data.csv",
+          "decimal_places": 3
+        }
+      },
+      {
+        "query": "What is the mode of the numerical values contained in 'data/values.csv'? Round the answer to 4 decimal places.",
+        "filled_param": {
+          "data_path": "data/values.csv",
+          "decimal_places": 4
+        }
+      },
+      {
+        "query": "Can you determine the mode from 'datasets/sample.csv' and round it to the nearest whole number?",
+        "filled_param": {
+          "data_path": "datasets/sample.csv",
+          "decimal_places": 0
+        }
+      },
+      {
+        "query": "Compute the mode of the dataset in 'data/analysis.csv', rounding the result to 1 decimal place.",
+        "filled_param": {
+          "data_path": "data/analysis.csv",
+          "decimal_places": 1
+        }
+      },
+      {
+        "query": "Please find the mode of the data in 'resources/numeric_data.csv' and give the result rounded to 5 decimal places.",
+        "filled_param": {
+          "data_path": "resources/numeric_data.csv",
+          "decimal_places": 5
+        }
+      },
+      {
+        "query": "I need the mode of the dataset located at 'files/numerical_data.csv', rounded to 6 decimal places.",
+        "filled_param": {
+          "data_path": "files/numerical_data.csv",
+          "decimal_places": 6
+        }
+      }
+    ]
+  },
+  "compute_statistics|:|standard deviation|:|data_path,decimal_places": {
+    "tool_template_name": "compute_statistics",
+    "derived_class": "standard deviation",
+    "params_for_query": [
+      "data_path",
+      "decimal_places"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the standard deviation for the dataset located at 'C:/data/sales_data.csv', rounding to 2 decimal places.",
+        "filled_param": {
+          "data_path": "C:/data/sales_data.csv",
+          "decimal_places": 2
+        }
+      },
+      {
+        "query": "What is the standard deviation of the numbers in 'D:/datasets/temperature_readings.csv' when rounded to 3 decimal places?",
+        "filled_param": {
+          "data_path": "D:/datasets/temperature_readings.csv",
+          "decimal_places": 3
+        }
+      },
+      {
+        "query": "Please compute the standard deviation for the file at 'E:/research_data/experiment_results.csv' and round it to 4 decimal places.",
+        "filled_param": {
+          "data_path": "E:/research_data/experiment_results.csv",
+          "decimal_places": 4
+        }
+      },
+      {
+        "query": "Find the standard deviation of the dataset in 'F:/financial_data/monthly_expenses.csv', using 1 decimal place for rounding.",
+        "filled_param": {
+          "data_path": "F:/financial_data/monthly_expenses.csv",
+          "decimal_places": 1
+        }
+      },
+      {
+        "query": "Could you tell me the standard deviation, rounded to 5 decimal places, for the data at 'G:/project_data/test_scores.csv'?",
+        "filled_param": {
+          "data_path": "G:/project_data/test_scores.csv",
+          "decimal_places": 5
+        }
+      },
+      {
+        "query": "I'd like to know the standard deviation of the information in 'H:/archive/sensor_data.csv', rounded to 2 decimal places.",
+        "filled_param": {
+          "data_path": "H:/archive/sensor_data.csv",
+          "decimal_places": 2
+        }
+      },
+      {
+        "query": "Determine the standard deviation for the values in 'I:/user_data/session_times.csv', rounding the result to 3 decimal places.",
+        "filled_param": {
+          "data_path": "I:/user_data/session_times.csv",
+          "decimal_places": 3
+        }
+      }
+    ]
+  },
+  "compute_statistics|:|maximum value|:|data_path,decimal_places": {
+    "tool_template_name": "compute_statistics",
+    "derived_class": "maximum value",
+    "params_for_query": [
+      "data_path",
+      "decimal_places"
+    ],
+    "queries": [
+      {
+        "query": "What is the maximum value in the dataset located at '/data/financial_report.csv', rounded to 2 decimal places?",
+        "filled_param": {
+          "data_path": "/data/financial_report.csv",
+          "decimal_places": 2
+        }
+      },
+      {
+        "query": "Find the maximum value from the dataset found at '/datasets/sales_data.csv' and round it to 3 decimal places.",
+        "filled_param": {
+          "data_path": "/datasets/sales_data.csv",
+          "decimal_places": 3
+        }
+      },
+      {
+        "query": "Calculate the maximum value of the numbers in '/home/user/project/data.csv', rounding to 0 decimal places.",
+        "filled_param": {
+          "data_path": "/home/user/project/data.csv",
+          "decimal_places": 0
+        }
+      },
+      {
+        "query": "I need the maximum value from the file '/usr/local/data/measurements.csv', rounded to 4 decimal places.",
+        "filled_param": {
+          "data_path": "/usr/local/data/measurements.csv",
+          "decimal_places": 4
+        }
+      },
+      {
+        "query": "Determine the maximum value in the CSV located at '/files/data_set.csv' with a precision of 1 decimal place.",
+        "filled_param": {
+          "data_path": "/files/data_set.csv",
+          "decimal_places": 1
+        }
+      },
+      {
+        "query": "Please provide the maximum value from '/var/data/weekly_stats.csv', rounded to 5 decimal places.",
+        "filled_param": {
+          "data_path": "/var/data/weekly_stats.csv",
+          "decimal_places": 5
+        }
+      },
+      {
+        "query": "Extract the maximum value from the dataset at '/downloads/dataset.csv' and round it to 2 decimal places.",
+        "filled_param": {
+          "data_path": "/downloads/dataset.csv",
+          "decimal_places": 2
+        }
+      }
+    ]
+  },
+  "compute_statistics|:|minimum value|:|data_path,decimal_places": {
+    "tool_template_name": "compute_statistics",
+    "derived_class": "minimum value",
+    "params_for_query": [
+      "data_path",
+      "decimal_places"
+    ],
+    "queries": [
+      {
+        "query": "Can you calculate the minimum value from the dataset located at '/data/sales_data.csv' and round it to 2 decimal places?",
+        "filled_param": {
+          "data_path": "/data/sales_data.csv",
+          "decimal_places": 2
+        }
+      },
+      {
+        "query": "I need the minimum value of the numbers in '/home/user/temperature_readings.csv', rounded to 3 decimals.",
+        "filled_param": {
+          "data_path": "/home/user/temperature_readings.csv",
+          "decimal_places": 3
+        }
+      },
+      {
+        "query": "Find the minimum value in the file '/var/data/production_data.csv' and round it to 1 decimal place.",
+        "filled_param": {
+          "data_path": "/var/data/production_data.csv",
+          "decimal_places": 1
+        }
+      },
+      {
+        "query": "What is the minimum value in '/local/files/student_scores.csv' when rounded to 0 decimal places?",
+        "filled_param": {
+          "data_path": "/local/files/student_scores.csv",
+          "decimal_places": 0
+        }
+      },
+      {
+        "query": "Please compute the minimum value for the dataset at '/usr/local/data/survey_results.csv' with rounding to 4 decimal places.",
+        "filled_param": {
+          "data_path": "/usr/local/data/survey_results.csv",
+          "decimal_places": 4
+        }
+      },
+      {
+        "query": "Could you tell me the minimum value from '/exports/financial_report.csv', rounded to 5 decimal places?",
+        "filled_param": {
+          "data_path": "/exports/financial_report.csv",
+          "decimal_places": 5
+        }
+      },
+      {
+        "query": "Determine the minimum value found in '/data/market_analysis.csv' and round it to 2 decimal places.",
+        "filled_param": {
+          "data_path": "/data/market_analysis.csv",
+          "decimal_places": 2
+        }
+      }
+    ]
+  },
+  "compute_statistics|:|sum|:|data_path,decimal_places": {
+    "tool_template_name": "compute_statistics",
+    "derived_class": "sum",
+    "params_for_query": [
+      "data_path",
+      "decimal_places"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the sum of the dataset stored at '/user/data/sales.csv' and round it to 2 decimal places.",
+        "filled_param": {
+          "data_path": "/user/data/sales.csv",
+          "decimal_places": 2
+        }
+      },
+      {
+        "query": "I need the sum of the numbers in '/datasets/2023_financials.csv', rounded to 3 decimal places.",
+        "filled_param": {
+          "data_path": "/datasets/2023_financials.csv",
+          "decimal_places": 3
+        }
+      },
+      {
+        "query": "Please find the sum for the dataset located at '/files/project_budget.csv' and round the result to 1 decimal place.",
+        "filled_param": {
+          "data_path": "/files/project_budget.csv",
+          "decimal_places": 1
+        }
+      },
+      {
+        "query": "What is the sum of the dataset at '/data/inventory.csv', with the result rounded to 4 decimal places?",
+        "filled_param": {
+          "data_path": "/data/inventory.csv",
+          "decimal_places": 4
+        }
+      },
+      {
+        "query": "Compute the sum for the file found at '/local/data/metrics.csv' and round it to 0 decimal places.",
+        "filled_param": {
+          "data_path": "/local/data/metrics.csv",
+          "decimal_places": 0
+        }
+      },
+      {
+        "query": "Get the sum of the data in '/home/user/documents/expenses.csv', ensuring the sum is rounded to 5 decimal places.",
+        "filled_param": {
+          "data_path": "/home/user/documents/expenses.csv",
+          "decimal_places": 5
+        }
+      }
+    ]
+  },
+  "compute_statistics|:|skewness|:|data_path,decimal_places": {
+    "tool_template_name": "compute_statistics",
+    "derived_class": "skewness",
+    "params_for_query": [
+      "data_path",
+      "decimal_places"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the skewness for the dataset located at '/data/statistics/dataset1.csv' and round it to 2 decimal places.",
+        "filled_param": {
+          "data_path": "/data/statistics/dataset1.csv",
+          "decimal_places": 2
+        }
+      },
+      {
+        "query": "Determine the skewness for the data in '/user/files/financial_data.csv', rounding the result to 3 decimal places.",
+        "filled_param": {
+          "data_path": "/user/files/financial_data.csv",
+          "decimal_places": 3
+        }
+      },
+      {
+        "query": "Can you compute the skewness of the numbers in '/home/user/documents/survey_results.csv' and present it with 4 decimal points?",
+        "filled_param": {
+          "data_path": "/home/user/documents/survey_results.csv",
+          "decimal_places": 4
+        }
+      },
+      {
+        "query": "Find the skewness for the dataset at '/var/data/analysis/input_data.csv', rounding off to 1 decimal place.",
+        "filled_param": {
+          "data_path": "/var/data/analysis/input_data.csv",
+          "decimal_places": 1
+        }
+      },
+      {
+        "query": "I need you to calculate the skewness for '/projects/datasets/sales_numbers.csv' and round the answer to 5 decimal places.",
+        "filled_param": {
+          "data_path": "/projects/datasets/sales_numbers.csv",
+          "decimal_places": 5
+        }
+      },
+      {
+        "query": "Obtain the skewness of the dataset found at '/repository/data/experimental_data.csv', with results rounded to 2 decimal places.",
+        "filled_param": {
+          "data_path": "/repository/data/experimental_data.csv",
+          "decimal_places": 2
+        }
+      },
+      {
+        "query": "What is the skewness of the file '/data/metrics/yearly_report.csv', and round the value to 3 decimal places?",
+        "filled_param": {
+          "data_path": "/data/metrics/yearly_report.csv",
+          "decimal_places": 3
+        }
+      }
+    ]
+  },
+  "compute_statistics|:|kurtosis|:|data_path,decimal_places": {
+    "tool_template_name": "compute_statistics",
+    "derived_class": "kurtosis",
+    "params_for_query": [
+      "data_path",
+      "decimal_places"
+    ],
+    "queries": [
+      {
+        "query": "Could you calculate the kurtosis for the dataset located at '/data/statistics/sales_data.csv' and round the result to 3 decimal places?",
+        "filled_param": {
+          "data_path": "/data/statistics/sales_data.csv",
+          "decimal_places": 3
+        }
+      },
+      {
+        "query": "I need the kurtosis of the file found at '/user/files/financial_reports/revenue.csv', rounded to 2 decimal places.",
+        "filled_param": {
+          "data_path": "/user/files/financial_reports/revenue.csv",
+          "decimal_places": 2
+        }
+      },
+      {
+        "query": "Please compute the kurtosis for '/var/data/weather/temperature_readings.csv' and provide the answer rounded to 4 decimal places.",
+        "filled_param": {
+          "data_path": "/var/data/weather/temperature_readings.csv",
+          "decimal_places": 4
+        }
+      },
+      {
+        "query": "Can you find the kurtosis for the dataset at '/home/data/experiment_results.csv' with the result rounded to 1 decimal place?",
+        "filled_param": {
+          "data_path": "/home/data/experiment_results.csv",
+          "decimal_places": 1
+        }
+      },
+      {
+        "query": "Calculate the kurtosis for the data file located at '/downloads/project_data.csv' and round the value to 5 decimal places.",
+        "filled_param": {
+          "data_path": "/downloads/project_data.csv",
+          "decimal_places": 5
+        }
+      },
+      {
+        "query": "I want the kurtosis of the dataset in '/documents/research_data.csv' rounded to the nearest whole number.",
+        "filled_param": {
+          "data_path": "/documents/research_data.csv",
+          "decimal_places": 0
+        }
+      },
+      {
+        "query": "What is the kurtosis of the CSV file '/network/share/data2023.csv', calculated to 6 decimal places?",
+        "filled_param": {
+          "data_path": "/network/share/data2023.csv",
+          "decimal_places": 6
+        }
+      }
+    ]
+  }
+}

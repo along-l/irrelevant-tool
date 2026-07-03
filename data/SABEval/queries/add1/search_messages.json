@@ -1,0 +1,772 @@
+{
+  "search_messages|:|SMS message|:|user_name,keyword,start_time": {
+    "tool_template_name": "search_messages",
+    "derived_class": "SMS message",
+    "params_for_query": [
+      "user_name",
+      "keyword",
+      "start_time"
+    ],
+    "queries": [
+      {
+        "query": "Could you find all SMS message texts from John containing the word 'meeting' starting from 2023-09-01T09:00:00Z?",
+        "filled_param": {
+          "user_name": "John",
+          "keyword": "meeting",
+          "start_time": "2023-09-01T09:00:00Z"
+        }
+      },
+      {
+        "query": "I need to see SMS message records from Alice mentioning 'project' from the date 2023-08-15T00:00:00Z onwards.",
+        "filled_param": {
+          "user_name": "Alice",
+          "keyword": "project",
+          "start_time": "2023-08-15T00:00:00Z"
+        }
+      },
+      {
+        "query": "Please search SMS message archives for any messages from Tom that include the term 'urgent' since 2023-07-20T14:30:00Z.",
+        "filled_param": {
+          "user_name": "Tom",
+          "keyword": "urgent",
+          "start_time": "2023-07-20T14:30:00Z"
+        }
+      },
+      {
+        "query": "Find SMS message content from Sarah that contains 'schedule' starting at 2023-10-05T08:00:00Z.",
+        "filled_param": {
+          "user_name": "Sarah",
+          "keyword": "schedule",
+          "start_time": "2023-10-05T08:00:00Z"
+        }
+      },
+      {
+        "query": "Look up any SMS message interactions from Michael with the keyword 'holiday' starting from 2023-09-25T12:00:00Z.",
+        "filled_param": {
+          "user_name": "Michael",
+          "keyword": "holiday",
+          "start_time": "2023-09-25T12:00:00Z"
+        }
+      }
+    ]
+  },
+  "search_messages|:|QQ message|:|user_name,keyword,start_time": {
+    "tool_template_name": "search_messages",
+    "derived_class": "QQ message",
+    "params_for_query": [
+      "user_name",
+      "keyword",
+      "start_time"
+    ],
+    "queries": [
+      {
+        "query": "Could you find QQ message messages from Alice mentioning 'project' starting from 2023-01-01T10:00:00Z?",
+        "filled_param": {
+          "user_name": "Alice",
+          "keyword": "project",
+          "start_time": "2023-01-01T10:00:00Z"
+        }
+      },
+      {
+        "query": "I need to see QQ message messages from John that include the keyword 'deadline' since 2023-06-15T09:30:00Z.",
+        "filled_param": {
+          "user_name": "John",
+          "keyword": "deadline",
+          "start_time": "2023-06-15T09:30:00Z"
+        }
+      },
+      {
+        "query": "Please search for QQ message messages from Emma containing 'meeting' starting on 2023-03-20T14:00:00Z.",
+        "filled_param": {
+          "user_name": "Emma",
+          "keyword": "meeting",
+          "start_time": "2023-03-20T14:00:00Z"
+        }
+      },
+      {
+        "query": "Locate QQ message messages from David that have the word 'update' from the date 2023-05-10T08:00:00Z onwards.",
+        "filled_param": {
+          "user_name": "David",
+          "keyword": "update",
+          "start_time": "2023-05-10T08:00:00Z"
+        }
+      },
+      {
+        "query": "Can you search QQ message messages from Linda for mentions of 'vacation' starting at 2023-07-01T12:00:00Z?",
+        "filled_param": {
+          "user_name": "Linda",
+          "keyword": "vacation",
+          "start_time": "2023-07-01T12:00:00Z"
+        }
+      },
+      {
+        "query": "I'm looking for QQ message messages by Tom that talk about 'budget' beginning from 2023-09-01T15:45:00Z.",
+        "filled_param": {
+          "user_name": "Tom",
+          "keyword": "budget",
+          "start_time": "2023-09-01T15:45:00Z"
+        }
+      }
+    ]
+  },
+  "search_messages|:|WeChat message|:|user_name,keyword,start_time": {
+    "tool_template_name": "search_messages",
+    "derived_class": "WeChat message",
+    "params_for_query": [
+      "user_name",
+      "keyword",
+      "start_time"
+    ],
+    "queries": [
+      {
+        "query": "Find WeChat message chats from Alice mentioning 'project update' starting from 2023-09-01T00:00:00.",
+        "filled_param": {
+          "user_name": "Alice",
+          "keyword": "project update",
+          "start_time": "2023-09-01T00:00:00"
+        }
+      },
+      {
+        "query": "Search WeChat message history for messages from Bob containing the term 'vacation photos' since 2023-07-15T12:00:00.",
+        "filled_param": {
+          "user_name": "Bob",
+          "keyword": "vacation photos",
+          "start_time": "2023-07-15T12:00:00"
+        }
+      },
+      {
+        "query": "Can you look up WeChat message texts sent by Carol that include 'meeting agenda' from 2023-10-05T09:30:00?",
+        "filled_param": {
+          "user_name": "Carol",
+          "keyword": "meeting agenda",
+          "start_time": "2023-10-05T09:30:00"
+        }
+      },
+      {
+        "query": "I'd like to retrieve WeChat message conversations from David where 'coding session' is mentioned, starting at 2023-08-20T14:00:00.",
+        "filled_param": {
+          "user_name": "David",
+          "keyword": "coding session",
+          "start_time": "2023-08-20T14:00:00"
+        }
+      },
+      {
+        "query": "Please find WeChat message records for messages from Emma including 'concert tickets' beginning 2023-06-10T18:00:00.",
+        "filled_param": {
+          "user_name": "Emma",
+          "keyword": "concert tickets",
+          "start_time": "2023-06-10T18:00:00"
+        }
+      },
+      {
+        "query": "Look through WeChat message logs for any mention of 'birthday plans' by Frank from the date 2023-05-25T10:00:00.",
+        "filled_param": {
+          "user_name": "Frank",
+          "keyword": "birthday plans",
+          "start_time": "2023-05-25T10:00:00"
+        }
+      }
+    ]
+  },
+  "search_messages|:|DingTalk message|:|user_name,keyword,start_time": {
+    "tool_template_name": "search_messages",
+    "derived_class": "DingTalk message",
+    "params_for_query": [
+      "user_name",
+      "keyword",
+      "start_time"
+    ],
+    "queries": [
+      {
+        "query": "Can you find any DingTalk message sent by Alice containing the keyword 'project' since 2023-09-01T08:00:00Z?",
+        "filled_param": {
+          "user_name": "Alice",
+          "keyword": "project",
+          "start_time": "2023-09-01T08:00:00Z"
+        }
+      },
+      {
+        "query": "Search for DingTalk message by Bob with 'deadline' as the keyword from 2023-10-15T09:30:00Z onwards.",
+        "filled_param": {
+          "user_name": "Bob",
+          "keyword": "deadline",
+          "start_time": "2023-10-15T09:30:00Z"
+        }
+      },
+      {
+        "query": "Look up any DingTalk message from Charlie that mentions 'meeting' starting from 2023-07-20T14:00:00Z.",
+        "filled_param": {
+          "user_name": "Charlie",
+          "keyword": "meeting",
+          "start_time": "2023-07-20T14:00:00Z"
+        }
+      },
+      {
+        "query": "Find messages in DingTalk that were sent by Dave, containing 'budget', from the date 2023-08-10T10:00:00Z.",
+        "filled_param": {
+          "user_name": "Dave",
+          "keyword": "budget",
+          "start_time": "2023-08-10T10:00:00Z"
+        }
+      },
+      {
+        "query": "Locate any DingTalk message sent by Emily with the word 'contract' starting from 2023-06-05T12:00:00Z.",
+        "filled_param": {
+          "user_name": "Emily",
+          "keyword": "contract",
+          "start_time": "2023-06-05T12:00:00Z"
+        }
+      },
+      {
+        "query": "Retrieve a DingTalk message from Frank that includes the term 'update' since 2023-05-15T07:00:00Z.",
+        "filled_param": {
+          "user_name": "Frank",
+          "keyword": "update",
+          "start_time": "2023-05-15T07:00:00Z"
+        }
+      }
+    ]
+  },
+  "search_messages|:|WhatsApp message|:|user_name,keyword,start_time": {
+    "tool_template_name": "search_messages",
+    "derived_class": "WhatsApp message",
+    "params_for_query": [
+      "user_name",
+      "keyword",
+      "start_time"
+    ],
+    "queries": [
+      {
+        "query": "Find WhatsApp messages from Alice containing 'meeting' starting from 2023-09-01T09:00:00Z.",
+        "filled_param": {
+          "user_name": "Alice",
+          "keyword": "meeting",
+          "start_time": "2023-09-01T09:00:00Z"
+        }
+      },
+      {
+        "query": "Can you search WhatsApp messages from John with the keyword 'birthday' since 2023-08-15T00:00:00Z?",
+        "filled_param": {
+          "user_name": "John",
+          "keyword": "birthday",
+          "start_time": "2023-08-15T00:00:00Z"
+        }
+      },
+      {
+        "query": "Retrieve all WhatsApp messages from Sarah that mention 'project' from 2023-10-01T12:00:00Z onwards.",
+        "filled_param": {
+          "user_name": "Sarah",
+          "keyword": "project",
+          "start_time": "2023-10-01T12:00:00Z"
+        }
+      },
+      {
+        "query": "Look for WhatsApp messages from Michael with 'vacation' starting at 2023-07-01T00:00:00Z.",
+        "filled_param": {
+          "user_name": "Michael",
+          "keyword": "vacation",
+          "start_time": "2023-07-01T00:00:00Z"
+        }
+      },
+      {
+        "query": "I need WhatsApp messages from Emma that include 'recipe' after 2023-05-10T15:30:00Z.",
+        "filled_param": {
+          "user_name": "Emma",
+          "keyword": "recipe",
+          "start_time": "2023-05-10T15:30:00Z"
+        }
+      }
+    ]
+  },
+  "search_messages|:|Facebook message|:|user_name,keyword,start_time": {
+    "tool_template_name": "search_messages",
+    "derived_class": "Facebook message",
+    "params_for_query": [
+      "user_name",
+      "keyword",
+      "start_time"
+    ],
+    "queries": [
+      {
+        "query": "Find all Facebook message messages from John Doe that include the keyword 'project' starting from 2023-01-15T00:00:00Z.",
+        "filled_param": {
+          "user_name": "John Doe",
+          "keyword": "project",
+          "start_time": "2023-01-15T00:00:00Z"
+        }
+      },
+      {
+        "query": "Could you search for Facebook message messages from Jane Smith containing the word 'meeting' since 2023-02-01T12:00:00Z?",
+        "filled_param": {
+          "user_name": "Jane Smith",
+          "keyword": "meeting",
+          "start_time": "2023-02-01T12:00:00Z"
+        }
+      },
+      {
+        "query": "Look up Facebook message messages from Alice Johnson with the keyword 'vacation' starting at 2023-03-05T09:30:00Z.",
+        "filled_param": {
+          "user_name": "Alice Johnson",
+          "keyword": "vacation",
+          "start_time": "2023-03-05T09:30:00Z"
+        }
+      },
+      {
+        "query": "I'm searching for Facebook message messages from Bob Brown that mention 'deadline' from 2023-04-10T15:00:00Z onwards.",
+        "filled_param": {
+          "user_name": "Bob Brown",
+          "keyword": "deadline",
+          "start_time": "2023-04-10T15:00:00Z"
+        }
+      },
+      {
+        "query": "Retrieve Facebook message messages by Emily Davis with the keyword 'birthday' starting from 2023-05-20T08:00:00Z.",
+        "filled_param": {
+          "user_name": "Emily Davis",
+          "keyword": "birthday",
+          "start_time": "2023-05-20T08:00:00Z"
+        }
+      },
+      {
+        "query": "Can you find Facebook message messages from Michael Lee mentioning 'conference' since 2023-06-15T14:45:00Z?",
+        "filled_param": {
+          "user_name": "Michael Lee",
+          "keyword": "conference",
+          "start_time": "2023-06-15T14:45:00Z"
+        }
+      }
+    ]
+  },
+  "search_messages|:|Instagram message|:|user_name,keyword,start_time": {
+    "tool_template_name": "search_messages",
+    "derived_class": "Instagram message",
+    "params_for_query": [
+      "user_name",
+      "keyword",
+      "start_time"
+    ],
+    "queries": [
+      {
+        "query": "Could you look for Instagram message messages from user 'john_doe' that mention 'vacation' starting from 2023-06-01T00:00:00Z?",
+        "filled_param": {
+          "user_name": "john_doe",
+          "keyword": "vacation",
+          "start_time": "2023-06-01T00:00:00Z"
+        }
+      },
+      {
+        "query": "Search the Instagram message messages by 'emily_smith' for any use of the word 'concert' since 2023-08-15T09:30:00Z.",
+        "filled_param": {
+          "user_name": "emily_smith",
+          "keyword": "concert",
+          "start_time": "2023-08-15T09:30:00Z"
+        }
+      },
+      {
+        "query": "Find any Instagram message messages from 'alice_jones' containing 'recipe' from 2023-03-10T12:00:00Z onwards.",
+        "filled_param": {
+          "user_name": "alice_jones",
+          "keyword": "recipe",
+          "start_time": "2023-03-10T12:00:00Z"
+        }
+      },
+      {
+        "query": "I'm looking for Instagram message messages from 'michael_lee' that have 'project' starting 2023-01-20T14:45:00Z.",
+        "filled_param": {
+          "user_name": "michael_lee",
+          "keyword": "project",
+          "start_time": "2023-01-20T14:45:00Z"
+        }
+      },
+      {
+        "query": "Can you search for Instagram message messages by 'sophie_turner' which contain the word 'party' since 2023-09-05T18:30:00Z?",
+        "filled_param": {
+          "user_name": "sophie_turner",
+          "keyword": "party",
+          "start_time": "2023-09-05T18:30:00Z"
+        }
+      },
+      {
+        "query": "Please find Instagram message messages from 'david_kim' with the keyword 'meeting' starting from 2023-02-14T08:00:00Z.",
+        "filled_param": {
+          "user_name": "david_kim",
+          "keyword": "meeting",
+          "start_time": "2023-02-14T08:00:00Z"
+        }
+      }
+    ]
+  },
+  "search_messages|:|LinkedIn message|:|user_name,keyword,start_time": {
+    "tool_template_name": "search_messages",
+    "derived_class": "LinkedIn message",
+    "params_for_query": [
+      "user_name",
+      "keyword",
+      "start_time"
+    ],
+    "queries": [
+      {
+        "query": "Can you find LinkedIn messages from John Doe that mention 'conference' starting from 2023-05-01T00:00:00Z?",
+        "filled_param": {
+          "user_name": "John Doe",
+          "keyword": "conference",
+          "start_time": "2023-05-01T00:00:00Z"
+        }
+      },
+      {
+        "query": "Search for LinkedIn messages by Jane Smith containing 'networking' since 2023-01-15T08:30:00Z.",
+        "filled_param": {
+          "user_name": "Jane Smith",
+          "keyword": "networking",
+          "start_time": "2023-01-15T08:30:00Z"
+        }
+      },
+      {
+        "query": "I need to see LinkedIn messages from Emily Brown that include the word 'project' starting from 2023-07-10T14:00:00Z.",
+        "filled_param": {
+          "user_name": "Emily Brown",
+          "keyword": "project",
+          "start_time": "2023-07-10T14:00:00Z"
+        }
+      },
+      {
+        "query": "Retrieve LinkedIn message communications from Michael Johnson that mention 'interview' after 2023-02-20T11:45:00Z.",
+        "filled_param": {
+          "user_name": "Michael Johnson",
+          "keyword": "interview",
+          "start_time": "2023-02-20T11:45:00Z"
+        }
+      },
+      {
+        "query": "Could you locate LinkedIn messages sent by Sarah Lee with the keyword 'collaboration' from 2023-06-01T09:00:00Z onwards?",
+        "filled_param": {
+          "user_name": "Sarah Lee",
+          "keyword": "collaboration",
+          "start_time": "2023-06-01T09:00:00Z"
+        }
+      }
+    ]
+  },
+  "search_messages|:|Discord message|:|user_name,keyword,start_time": {
+    "tool_template_name": "search_messages",
+    "derived_class": "Discord message",
+    "params_for_query": [
+      "user_name",
+      "keyword",
+      "start_time"
+    ],
+    "queries": [
+      {
+        "query": "Find all Discord message messages by user 'john_doe' containing the keyword 'project' starting from 2023-09-01T10:00:00Z.",
+        "filled_param": {
+          "user_name": "john_doe",
+          "keyword": "project",
+          "start_time": "2023-09-01T10:00:00Z"
+        }
+      },
+      {
+        "query": "Can you locate Discord message messages from 'alice_w' that mention 'bug report' since 2023-08-15T09:30:00Z?",
+        "filled_param": {
+          "user_name": "alice_w",
+          "keyword": "bug report",
+          "start_time": "2023-08-15T09:30:00Z"
+        }
+      },
+      {
+        "query": "Search for Discord message messages sent by 'samuel_k' with the keyword 'meeting' from 2023-10-05T14:00:00Z.",
+        "filled_param": {
+          "user_name": "samuel_k",
+          "keyword": "meeting",
+          "start_time": "2023-10-05T14:00:00Z"
+        }
+      },
+      {
+        "query": "I need to find Discord message messages by 'lucy.m' that include 'release notes' starting at 2023-07-20T08:00:00Z.",
+        "filled_param": {
+          "user_name": "lucy.m",
+          "keyword": "release notes",
+          "start_time": "2023-07-20T08:00:00Z"
+        }
+      },
+      {
+        "query": "Please search for Discord message messages from 'markus_t' mentioning 'deadline' starting 2023-06-01T12:00:00Z.",
+        "filled_param": {
+          "user_name": "markus_t",
+          "keyword": "deadline",
+          "start_time": "2023-06-01T12:00:00Z"
+        }
+      }
+    ]
+  },
+  "search_messages|:|Slack message|:|user_name,keyword,start_time": {
+    "tool_template_name": "search_messages",
+    "derived_class": "Slack message",
+    "params_for_query": [
+      "user_name",
+      "keyword",
+      "start_time"
+    ],
+    "queries": [
+      {
+        "query": "Find all Slack message posts by JohnDoe containing the keyword 'meeting' starting from 2023-01-01T00:00:00Z.",
+        "filled_param": {
+          "user_name": "JohnDoe",
+          "keyword": "meeting",
+          "start_time": "2023-01-01T00:00:00Z"
+        }
+      },
+      {
+        "query": "Can you retrieve Slack message entries from AliceW with the term 'deadline' since 2022-12-15T10:00:00Z?",
+        "filled_param": {
+          "user_name": "AliceW",
+          "keyword": "deadline",
+          "start_time": "2022-12-15T10:00:00Z"
+        }
+      },
+      {
+        "query": "I need to search Slack message threads by MikeR for 'project update' starting at 2023-02-01T09:00:00Z.",
+        "filled_param": {
+          "user_name": "MikeR",
+          "keyword": "project update",
+          "start_time": "2023-02-01T09:00:00Z"
+        }
+      },
+      {
+        "query": "Look up all Slack message conversations from SarahK containing 'budget' after 2023-03-10T14:30:00Z.",
+        "filled_param": {
+          "user_name": "SarahK",
+          "keyword": "budget",
+          "start_time": "2023-03-10T14:30:00Z"
+        }
+      },
+      {
+        "query": "Please find Slack message communications by TomH with the word 'review' since 2023-04-20T08:00:00Z.",
+        "filled_param": {
+          "user_name": "TomH",
+          "keyword": "review",
+          "start_time": "2023-04-20T08:00:00Z"
+        }
+      },
+      {
+        "query": "Search for Slack message notes by LisaM that mention 'launch' starting from 2023-05-05T12:00:00Z.",
+        "filled_param": {
+          "user_name": "LisaM",
+          "keyword": "launch",
+          "start_time": "2023-05-05T12:00:00Z"
+        }
+      }
+    ]
+  },
+  "search_messages|:|Twitter message|:|user_name,keyword,start_time": {
+    "tool_template_name": "search_messages",
+    "derived_class": "Twitter message",
+    "params_for_query": [
+      "user_name",
+      "keyword",
+      "start_time"
+    ],
+    "queries": [
+      {
+        "query": "Can you find Twitter message posts from user ElonMusk containing the keyword 'SpaceX' since 2023-01-01T00:00:00Z?",
+        "filled_param": {
+          "user_name": "ElonMusk",
+          "keyword": "SpaceX",
+          "start_time": "2023-01-01T00:00:00Z"
+        }
+      },
+      {
+        "query": "Search Twitter message updates by user taylorswift13 for any mention of 'album' starting from 2022-10-01T12:00:00Z.",
+        "filled_param": {
+          "user_name": "taylorswift13",
+          "keyword": "album",
+          "start_time": "2022-10-01T12:00:00Z"
+        }
+      },
+      {
+        "query": "I need Twitter message entries by user BillGates that include the word 'vaccine' from 2021-06-15T08:00:00Z.",
+        "filled_param": {
+          "user_name": "BillGates",
+          "keyword": "vaccine",
+          "start_time": "2021-06-15T08:00:00Z"
+        }
+      },
+      {
+        "query": "Retrieve Twitter message posts by user Oprah related to 'book club' since 2022-03-01T09:30:00Z.",
+        "filled_param": {
+          "user_name": "Oprah",
+          "keyword": "book club",
+          "start_time": "2022-03-01T09:30:00Z"
+        }
+      },
+      {
+        "query": "Look for Twitter message tweets by user BarackObama with the keyword 'climate' starting from 2020-11-05T10:00:00Z.",
+        "filled_param": {
+          "user_name": "BarackObama",
+          "keyword": "climate",
+          "start_time": "2020-11-05T10:00:00Z"
+        }
+      },
+      {
+        "query": "Find Twitter message content from user KimKardashian mentioning 'fashion' beginning 2019-05-20T14:45:00Z.",
+        "filled_param": {
+          "user_name": "KimKardashian",
+          "keyword": "fashion",
+          "start_time": "2019-05-20T14:45:00Z"
+        }
+      }
+    ]
+  },
+  "search_messages|:|TikTok message|:|user_name,keyword,start_time": {
+    "tool_template_name": "search_messages",
+    "derived_class": "TikTok message",
+    "params_for_query": [
+      "user_name",
+      "keyword",
+      "start_time"
+    ],
+    "queries": [
+      {
+        "query": "Could you find TikTok message messages from user john_doe containing the keyword 'collaboration' starting from 2023-09-01T00:00:00Z?",
+        "filled_param": {
+          "user_name": "john_doe",
+          "keyword": "collaboration",
+          "start_time": "2023-09-01T00:00:00Z"
+        }
+      },
+      {
+        "query": "Search for TikTok message messages by user alice_wonderland with the keyword 'event' from the start time 2023-07-15T08:30:00Z.",
+        "filled_param": {
+          "user_name": "alice_wonderland",
+          "keyword": "event",
+          "start_time": "2023-07-15T08:30:00Z"
+        }
+      },
+      {
+        "query": "I need to see TikTok messages from user cool_kat containing 'launch' that were sent after 2023-05-20T14:45:00Z.",
+        "filled_param": {
+          "user_name": "cool_kat",
+          "keyword": "launch",
+          "start_time": "2023-05-20T14:45:00Z"
+        }
+      },
+      {
+        "query": "Please find all TikTok message messages from user sam_smith mentioning 'feedback' starting from 2023-06-10T09:00:00Z.",
+        "filled_param": {
+          "user_name": "sam_smith",
+          "keyword": "feedback",
+          "start_time": "2023-06-10T09:00:00Z"
+        }
+      },
+      {
+        "query": "Get TikTok message messages from user emily_rose that include the word 'review' from the date 2023-08-01T12:00:00Z.",
+        "filled_param": {
+          "user_name": "emily_rose",
+          "keyword": "review",
+          "start_time": "2023-08-01T12:00:00Z"
+        }
+      }
+    ]
+  },
+  "search_messages|:|YouTube message|:|user_name,keyword,start_time": {
+    "tool_template_name": "search_messages",
+    "derived_class": "YouTube message",
+    "params_for_query": [
+      "user_name",
+      "keyword",
+      "start_time"
+    ],
+    "queries": [
+      {
+        "query": "Can you find YouTube message posts from user AlexBrown that mention 'guitar' since 2023-09-01T10:00:00Z?",
+        "filled_param": {
+          "user_name": "AlexBrown",
+          "keyword": "guitar",
+          "start_time": "2023-09-01T10:00:00Z"
+        }
+      },
+      {
+        "query": "Search for YouTube message comments by user EmmaWilson containing the word 'recipe' from 2023-08-15T08:30:00Z onwards.",
+        "filled_param": {
+          "user_name": "EmmaWilson",
+          "keyword": "recipe",
+          "start_time": "2023-08-15T08:30:00Z"
+        }
+      },
+      {
+        "query": "Look up YouTube message entries from MichaelSmith that include 'travel tips' starting 2023-07-20T14:45:00Z.",
+        "filled_param": {
+          "user_name": "MichaelSmith",
+          "keyword": "travel tips",
+          "start_time": "2023-07-20T14:45:00Z"
+        }
+      },
+      {
+        "query": "Could you retrieve YouTube message messages from user SarahJones with the keyword 'workout' from 2023-06-10T09:00:00Z?",
+        "filled_param": {
+          "user_name": "SarahJones",
+          "keyword": "workout",
+          "start_time": "2023-06-10T09:00:00Z"
+        }
+      },
+      {
+        "query": "Fetch YouTube message posts by DavidKim that have 'coding tutorial' in them from 2023-05-05T13:15:00Z.",
+        "filled_param": {
+          "user_name": "DavidKim",
+          "keyword": "coding tutorial",
+          "start_time": "2023-05-05T13:15:00Z"
+        }
+      }
+    ]
+  },
+  "search_messages|:|Reddit message|:|user_name,keyword,start_time": {
+    "tool_template_name": "search_messages",
+    "derived_class": "Reddit message",
+    "params_for_query": [
+      "user_name",
+      "keyword",
+      "start_time"
+    ],
+    "queries": [
+      {
+        "query": "Find all Reddit message posts by user 'TechGuru99' containing the keyword 'blockchain' since 2023-01-01T00:00:00Z.",
+        "filled_param": {
+          "user_name": "TechGuru99",
+          "keyword": "blockchain",
+          "start_time": "2023-01-01T00:00:00Z"
+        }
+      },
+      {
+        "query": "Search for Reddit message comments by 'NatureLover88' that include the word 'conservation' starting from 2022-06-15T00:00:00Z.",
+        "filled_param": {
+          "user_name": "NatureLover88",
+          "keyword": "conservation",
+          "start_time": "2022-06-15T00:00:00Z"
+        }
+      },
+      {
+        "query": "Look for all Reddit message discussions by 'FoodieFan' containing 'recipe' after 2022-11-01T00:00:00Z.",
+        "filled_param": {
+          "user_name": "FoodieFan",
+          "keyword": "recipe",
+          "start_time": "2022-11-01T00:00:00Z"
+        }
+      },
+      {
+        "query": "Can you find Reddit message threads by 'GamerProX' that mention 'tournament' since 2023-03-20T00:00:00Z?",
+        "filled_param": {
+          "user_name": "GamerProX",
+          "keyword": "tournament",
+          "start_time": "2023-03-20T00:00:00Z"
+        }
+      },
+      {
+        "query": "Identify Reddit message posts by 'TravelBlogger' with the keyword 'adventure' from 2023-02-01T00:00:00Z onwards.",
+        "filled_param": {
+          "user_name": "TravelBlogger",
+          "keyword": "adventure",
+          "start_time": "2023-02-01T00:00:00Z"
+        }
+      }
+    ]
+  }
+}

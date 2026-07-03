@@ -1,0 +1,404 @@
+{
+  "calculate_emission_savings|:|solar energy|:|usage_duration,region,installation_cost": {
+    "tool_template_name": "calculate_emission_savings",
+    "derived_class": "solar energy",
+    "params_for_query": [
+      "usage_duration",
+      "region",
+      "installation_cost"
+    ],
+    "queries": [
+      {
+        "query": "How much greenhouse gas emission savings can I expect if I use solar energy for 24 months in California, given an installation cost of $10,000?",
+        "filled_param": {
+          "usage_duration": 24,
+          "region": "California",
+          "installation_cost": 10000
+        }
+      },
+      {
+        "query": "If I switch to solar energy in New York for 36 months and the installation costs me $12,500, what are the projected emission savings?",
+        "filled_param": {
+          "usage_duration": 36,
+          "region": "New York",
+          "installation_cost": 12500
+        }
+      },
+      {
+        "query": "Calculate the greenhouse gas emission savings for solar energy use over 18 months in Texas, with an installation cost of $8,000.",
+        "filled_param": {
+          "usage_duration": 18,
+          "region": "Texas",
+          "installation_cost": 8000
+        }
+      },
+      {
+        "query": "What are the potential emission savings from solar energy usage for 60 months in Florida, assuming the installation cost is $15,000?",
+        "filled_param": {
+          "usage_duration": 60,
+          "region": "Florida",
+          "installation_cost": 15000
+        }
+      },
+      {
+        "query": "I plan to use solar energy in Nevada for 48 months and the installation will cost me $9,500. How much greenhouse gas emission savings can I expect?",
+        "filled_param": {
+          "usage_duration": 48,
+          "region": "Nevada",
+          "installation_cost": 9500
+        }
+      },
+      {
+        "query": "Estimate the emission savings from solar energy if used for 12 months in Arizona with an installation cost of $11,000.",
+        "filled_param": {
+          "usage_duration": 12,
+          "region": "Arizona",
+          "installation_cost": 11000
+        }
+      },
+      {
+        "query": "What is the potential reduction in emissions if I use solar energy for 30 months in Ohio, with an installation cost of $7,500?",
+        "filled_param": {
+          "usage_duration": 30,
+          "region": "Ohio",
+          "installation_cost": 7500
+        }
+      }
+    ]
+  },
+  "calculate_emission_savings|:|wind energy|:|usage_duration,region,installation_cost": {
+    "tool_template_name": "calculate_emission_savings",
+    "derived_class": "wind energy",
+    "params_for_query": [
+      "usage_duration",
+      "region",
+      "installation_cost"
+    ],
+    "queries": [
+      {
+        "query": "How much greenhouse gas emission savings can I expect over 24 months of using wind energy in Texas, with an installation cost of $15,000?",
+        "filled_param": {
+          "usage_duration": 24,
+          "region": "Texas",
+          "installation_cost": 15000
+        }
+      },
+      {
+        "query": "Calculate the emission savings in California if wind energy is used for 12 months, considering an installation cost of $20,000.",
+        "filled_param": {
+          "usage_duration": 12,
+          "region": "California",
+          "installation_cost": 20000
+        }
+      },
+      {
+        "query": "What are the potential savings in greenhouse gas emissions for a 36-month wind energy usage in New York with an initial cost of $25,000?",
+        "filled_param": {
+          "usage_duration": 36,
+          "region": "New York",
+          "installation_cost": 25000
+        }
+      },
+      {
+        "query": "If I switch to wind energy in Florida for 18 months and spend $10,000 on installation, how much emission could be saved?",
+        "filled_param": {
+          "usage_duration": 18,
+          "region": "Florida",
+          "installation_cost": 10000
+        }
+      },
+      {
+        "query": "Estimate the greenhouse gas emissions savings over a 48-month period of using wind energy in Illinois with a setup cost of $30,000.",
+        "filled_param": {
+          "usage_duration": 48,
+          "region": "Illinois",
+          "installation_cost": 30000
+        }
+      },
+      {
+        "query": "For a 60-month wind energy usage in Nevada, where the installation cost is $18,000, what is the expected reduction in greenhouse gas emissions?",
+        "filled_param": {
+          "usage_duration": 60,
+          "region": "Nevada",
+          "installation_cost": 18000
+        }
+      },
+      {
+        "query": "Determine the emission savings from using wind energy for 6 months in Oregon, with a $12,000 installation cost.",
+        "filled_param": {
+          "usage_duration": 6,
+          "region": "Oregon",
+          "installation_cost": 12000
+        }
+      }
+    ]
+  },
+  "calculate_emission_savings|:|hydropower|:|usage_duration,region,installation_cost": {
+    "tool_template_name": "calculate_emission_savings",
+    "derived_class": "hydropower",
+    "params_for_query": [
+      "usage_duration",
+      "region",
+      "installation_cost"
+    ],
+    "queries": [
+      {
+        "query": "Can you calculate the greenhouse gas emissions savings for using hydropower in the Pacific Northwest for a duration of 24 months with an installation cost of 50000 USD?",
+        "filled_param": {
+          "usage_duration": 24,
+          "region": "Pacific Northwest",
+          "installation_cost": 50000
+        }
+      },
+      {
+        "query": "I'm looking to switch to hydropower in the Midwest. If my installation cost is 75000 USD and the usage duration is 36 months, how much emissions could I save?",
+        "filled_param": {
+          "usage_duration": 36,
+          "region": "Midwest",
+          "installation_cost": 75000
+        }
+      },
+      {
+        "query": "For a 12-month usage of hydropower in Southern California with an installation cost of 90000 USD, what would be the estimated emissions savings?",
+        "filled_param": {
+          "usage_duration": 12,
+          "region": "Southern California",
+          "installation_cost": 90000
+        }
+      },
+      {
+        "query": "Calculate the potential emissions savings for using hydropower in the Northeast region for 48 months with an installation cost of 65000 USD.",
+        "filled_param": {
+          "usage_duration": 48,
+          "region": "Northeast",
+          "installation_cost": 65000
+        }
+      },
+      {
+        "query": "How much greenhouse gas emissions could be saved by switching to hydropower in Scandinavia over a 60-month period with an initial installation cost of 80000 USD?",
+        "filled_param": {
+          "usage_duration": 60,
+          "region": "Scandinavia",
+          "installation_cost": 80000
+        }
+      },
+      {
+        "query": "What are the emissions savings for a hydropower installation in the Alps region, given an installation cost of 70000 USD and a usage duration of 30 months?",
+        "filled_param": {
+          "usage_duration": 30,
+          "region": "Alps",
+          "installation_cost": 70000
+        }
+      },
+      {
+        "query": "If I install hydropower in the Sahara region with an installation cost of 55000 USD for a period of 18 months, how much emissions can be potentially conserved?",
+        "filled_param": {
+          "usage_duration": 18,
+          "region": "Sahara",
+          "installation_cost": 55000
+        }
+      }
+    ]
+  },
+  "calculate_emission_savings|:|geothermal energy|:|usage_duration,region,installation_cost": {
+    "tool_template_name": "calculate_emission_savings",
+    "derived_class": "geothermal energy",
+    "params_for_query": [
+      "usage_duration",
+      "region",
+      "installation_cost"
+    ],
+    "queries": [
+      {
+        "query": "If I switch to geothermal energy for 24 months in California with an installation cost of $15,000, how much in greenhouse gas emissions can I potentially save?",
+        "filled_param": {
+          "usage_duration": 24,
+          "region": "California",
+          "installation_cost": 15000
+        }
+      },
+      {
+        "query": "Can you calculate the emissions savings if geothermal energy is used for 36 months in Texas, considering the installation cost is $10,000?",
+        "filled_param": {
+          "usage_duration": 36,
+          "region": "Texas",
+          "installation_cost": 10000
+        }
+      },
+      {
+        "query": "How many emissions can be saved by using geothermal energy for 12 months in New York with a setup cost of $20,000?",
+        "filled_param": {
+          "usage_duration": 12,
+          "region": "New York",
+          "installation_cost": 20000
+        }
+      },
+      {
+        "query": "Estimate the greenhouse gas savings for using geothermal energy in Florida for 48 months if the installation cost is $25,000.",
+        "filled_param": {
+          "usage_duration": 48,
+          "region": "Florida",
+          "installation_cost": 25000
+        }
+      },
+      {
+        "query": "What would be the emissions reduction over 60 months with geothermal energy in Nevada, assuming the installation cost is $18,000?",
+        "filled_param": {
+          "usage_duration": 60,
+          "region": "Nevada",
+          "installation_cost": 18000
+        }
+      },
+      {
+        "query": "Calculate the potential greenhouse gas emissions saved if we install geothermal energy for 30 months in Oregon with an initial cost of $22,000.",
+        "filled_param": {
+          "usage_duration": 30,
+          "region": "Oregon",
+          "installation_cost": 22000
+        }
+      },
+      {
+        "query": "If geothermal energy is used for 6 months in Colorado with a setup cost of $12,000, how much emissions savings can be expected?",
+        "filled_param": {
+          "usage_duration": 6,
+          "region": "Colorado",
+          "installation_cost": 12000
+        }
+      }
+    ]
+  },
+  "calculate_emission_savings|:|biomass energy|:|usage_duration,region,installation_cost": {
+    "tool_template_name": "calculate_emission_savings",
+    "derived_class": "biomass energy",
+    "params_for_query": [
+      "usage_duration",
+      "region",
+      "installation_cost"
+    ],
+    "queries": [
+      {
+        "query": "How much greenhouse gas emissions can be saved if I switch to biomass energy for 24 months in the Northeast region of the US, with an installation cost of $15000?",
+        "filled_param": {
+          "usage_duration": 24,
+          "region": "Northeast region of the US",
+          "installation_cost": 15000
+        }
+      },
+      {
+        "query": "Calculate the emission savings from using biomass energy for 36 months in California, considering an installation cost of $20000.",
+        "filled_param": {
+          "usage_duration": 36,
+          "region": "California",
+          "installation_cost": 20000
+        }
+      },
+      {
+        "query": "If I install biomass energy in Texas with an initial cost of $12000 and use it for 18 months, how much can I save in emissions?",
+        "filled_param": {
+          "usage_duration": 18,
+          "region": "Texas",
+          "installation_cost": 12000
+        }
+      },
+      {
+        "query": "What are the potential greenhouse gas savings for using biomass energy for 12 months in France, given an installation expenditure of $18000?",
+        "filled_param": {
+          "usage_duration": 12,
+          "region": "France",
+          "installation_cost": 18000
+        }
+      },
+      {
+        "query": "Determine the emissions saved by implementing biomass energy for 48 months in the Midwest USA with a setup cost of $25000.",
+        "filled_param": {
+          "usage_duration": 48,
+          "region": "Midwest USA",
+          "installation_cost": 25000
+        }
+      },
+      {
+        "query": "For a biomass energy system installed in the South of England at a cost of $22000, how much emissions can be saved over 60 months?",
+        "filled_param": {
+          "usage_duration": 60,
+          "region": "South of England",
+          "installation_cost": 22000
+        }
+      },
+      {
+        "query": "What are the emission reductions if I adopt biomass energy in Japan for 6 months, with an installation budget of $5000?",
+        "filled_param": {
+          "usage_duration": 6,
+          "region": "Japan",
+          "installation_cost": 5000
+        }
+      }
+    ]
+  },
+  "calculate_emission_savings|:|tidal energy|:|usage_duration,region,installation_cost": {
+    "tool_template_name": "calculate_emission_savings",
+    "derived_class": "tidal energy",
+    "params_for_query": [
+      "usage_duration",
+      "region",
+      "installation_cost"
+    ],
+    "queries": [
+      {
+        "query": "How much greenhouse gas emissions can be saved if we use tidal energy for 24 months in the East Coast region with an installation cost of $150,000?",
+        "filled_param": {
+          "usage_duration": 24,
+          "region": "East Coast",
+          "installation_cost": 150000
+        }
+      },
+      {
+        "query": "Calculate the emission savings for tidal energy usage over 36 months in Scotland, given an installation cost of $200,000.",
+        "filled_param": {
+          "usage_duration": 36,
+          "region": "Scotland",
+          "installation_cost": 200000
+        }
+      },
+      {
+        "query": "If tidal energy is used in the Pacific Northwest for 12 months, with an initial installation cost of $175,000, what would be the greenhouse gas emissions savings?",
+        "filled_param": {
+          "usage_duration": 12,
+          "region": "Pacific Northwest",
+          "installation_cost": 175000
+        }
+      },
+      {
+        "query": "Determine the potential greenhouse gas emission reductions with tidal energy in Australia for a period of 48 months, assuming an installation cost of $250,000.",
+        "filled_param": {
+          "usage_duration": 48,
+          "region": "Australia",
+          "installation_cost": 250000
+        }
+      },
+      {
+        "query": "What are the emissions savings from switching to tidal energy in the Bay of Fundy for 60 months with an installation cost of $300,000?",
+        "filled_param": {
+          "usage_duration": 60,
+          "region": "Bay of Fundy",
+          "installation_cost": 300000
+        }
+      },
+      {
+        "query": "Estimate the greenhouse gas emissions savings from utilizing tidal energy in Southeast Asia for 18 months, given a $120,000 installation cost.",
+        "filled_param": {
+          "usage_duration": 18,
+          "region": "Southeast Asia",
+          "installation_cost": 120000
+        }
+      },
+      {
+        "query": "Can you quantify the emission savings if tidal energy is implemented in Northern Ireland for 30 months with an initial cost of $220,000?",
+        "filled_param": {
+          "usage_duration": 30,
+          "region": "Northern Ireland",
+          "installation_cost": 220000
+        }
+      }
+    ]
+  }
+}

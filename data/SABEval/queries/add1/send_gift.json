@@ -1,0 +1,581 @@
+{
+  "send_gift|:|flower bouquet|:|recipient_name,address,selected_item_id,delivery_date": {
+    "tool_template_name": "send_gift",
+    "derived_class": "flower bouquet",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date"
+    ],
+    "queries": [
+      {
+        "query": "Send a flower bouquet to Sarah Connor at 123 Main St, Springfield, with the item ID FL123, to be delivered on March 15th.",
+        "filled_param": {
+          "recipient_name": "Sarah Connor",
+          "address": "123 Main St, Springfield",
+          "selected_item_id": "FL123",
+          "delivery_date": "March 15th"
+        }
+      },
+      {
+        "query": "I would like to have a flower bouquet delivered to John Doe at 456 Elm Street, Boston. The bouquet ID is BQT789, and I'd like it delivered on April 10th.",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "456 Elm Street, Boston",
+          "selected_item_id": "BQT789",
+          "delivery_date": "April 10th"
+        }
+      },
+      {
+        "query": "Can you arrange a flower bouquet delivery for Emily Blunt at 789 Oak Ave, New York, using item code RSE456 for delivery on February 20th?",
+        "filled_param": {
+          "recipient_name": "Emily Blunt",
+          "address": "789 Oak Ave, New York",
+          "selected_item_id": "RSE456",
+          "delivery_date": "February 20th"
+        }
+      },
+      {
+        "query": "Please send a flower bouquet to Michael Smith. His address is 321 Pine Rd, Miami. The bouquet ID is FL987 and it should arrive on January 5th.",
+        "filled_param": {
+          "recipient_name": "Michael Smith",
+          "address": "321 Pine Rd, Miami",
+          "selected_item_id": "FL987",
+          "delivery_date": "January 5th"
+        }
+      },
+      {
+        "query": "I need a flower bouquet delivered to Jessica Lee at 654 Maple Street, Chicago with the code FL321 on March 30th.",
+        "filled_param": {
+          "recipient_name": "Jessica Lee",
+          "address": "654 Maple Street, Chicago",
+          "selected_item_id": "FL321",
+          "delivery_date": "March 30th"
+        }
+      }
+    ]
+  },
+  "send_gift|:|handmade chocolate|:|recipient_name,address,selected_item_id,delivery_date": {
+    "tool_template_name": "send_gift",
+    "derived_class": "handmade chocolate",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date"
+    ],
+    "queries": [
+      {
+        "query": "Please send handmade chocolate with ID CHOC123 to John Doe at 123 Maple Street, Springfield, to arrive on October 15th.",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "123 Maple Street, Springfield",
+          "selected_item_id": "CHOC123",
+          "delivery_date": "October 15th"
+        }
+      },
+      {
+        "query": "I'd like to have the handmade chocolate with ID CHOC456 delivered to Jane Smith at 456 Elm Avenue, Metropolis, by November 1st.",
+        "filled_param": {
+          "recipient_name": "Jane Smith",
+          "address": "456 Elm Avenue, Metropolis",
+          "selected_item_id": "CHOC456",
+          "delivery_date": "November 1st"
+        }
+      },
+      {
+        "query": "Can you ensure the handmade chocolate with ID CHOC789 is sent to Emily Brown at 789 Oak Lane, Gotham City, on December 5th?",
+        "filled_param": {
+          "recipient_name": "Emily Brown",
+          "address": "789 Oak Lane, Gotham City",
+          "selected_item_id": "CHOC789",
+          "delivery_date": "December 5th"
+        }
+      },
+      {
+        "query": "Ship the handmade chocolate identified as CHOC321 to Robert White at 321 Pine Road, Star City, with a delivery date of January 10th.",
+        "filled_param": {
+          "recipient_name": "Robert White",
+          "address": "321 Pine Road, Star City",
+          "selected_item_id": "CHOC321",
+          "delivery_date": "January 10th"
+        }
+      },
+      {
+        "query": "I'd like the handmade chocolate, ID CHOC654, sent to Alice Green at 654 Birch Street, Central City, scheduled for delivery on February 20th.",
+        "filled_param": {
+          "recipient_name": "Alice Green",
+          "address": "654 Birch Street, Central City",
+          "selected_item_id": "CHOC654",
+          "delivery_date": "February 20th"
+        }
+      }
+    ]
+  },
+  "send_gift|:|hardcover book|:|recipient_name,address,selected_item_id,delivery_date": {
+    "tool_template_name": "send_gift",
+    "derived_class": "hardcover book",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date"
+    ],
+    "queries": [
+      {
+        "query": "Please send the hardcover book with ID 12345 to John Doe at 123 Maple Street, Springfield, IL, on November 5, 2023.",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "123 Maple Street, Springfield, IL",
+          "selected_item_id": "12345",
+          "delivery_date": "November 5, 2023"
+        }
+      },
+      {
+        "query": "I need the hardcover book with ID 98765 delivered to Jane Smith at 456 Elm Street, Boston, MA, by October 20, 2023.",
+        "filled_param": {
+          "recipient_name": "Jane Smith",
+          "address": "456 Elm Street, Boston, MA",
+          "selected_item_id": "98765",
+          "delivery_date": "October 20, 2023"
+        }
+      },
+      {
+        "query": "Arrange the delivery of hardcover book ID 65432 to Michael Johnson at 789 Pine Avenue, Seattle, WA, on December 15, 2023.",
+        "filled_param": {
+          "recipient_name": "Michael Johnson",
+          "address": "789 Pine Avenue, Seattle, WA",
+          "selected_item_id": "65432",
+          "delivery_date": "December 15, 2023"
+        }
+      },
+      {
+        "query": "Could you send the hardcover book with ID 11223 to Emily Davis at 321 Oak Drive, Miami, FL, for delivery on January 10, 2024?",
+        "filled_param": {
+          "recipient_name": "Emily Davis",
+          "address": "321 Oak Drive, Miami, FL",
+          "selected_item_id": "11223",
+          "delivery_date": "January 10, 2024"
+        }
+      },
+      {
+        "query": "I want the hardcover book with ID 77889 sent to Robert Brown at 654 Cedar Lane, Denver, CO, to arrive by March 1, 2024.",
+        "filled_param": {
+          "recipient_name": "Robert Brown",
+          "address": "654 Cedar Lane, Denver, CO",
+          "selected_item_id": "77889",
+          "delivery_date": "March 1, 2024"
+        }
+      }
+    ]
+  },
+  "send_gift|:|Bluetooth earphones|:|recipient_name,address,selected_item_id,delivery_date": {
+    "tool_template_name": "send_gift",
+    "derived_class": "Bluetooth earphones",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date"
+    ],
+    "queries": [
+      {
+        "query": "Please send the Bluetooth earphones with ID 12345 to John Doe at 456 Elm Street, Springfield, IL, 62704. I'd like it delivered on November 15, 2023.",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "456 Elm Street, Springfield, IL, 62704",
+          "selected_item_id": "12345",
+          "delivery_date": "November 15, 2023"
+        }
+      },
+      {
+        "query": "Ship the Bluetooth earphones with ID A9876 to Ms. Jane Smith at 789 Maple Avenue, New York, NY, 10001, with a delivery date of December 1, 2023.",
+        "filled_param": {
+          "recipient_name": "Ms. Jane Smith",
+          "address": "789 Maple Avenue, New York, NY, 10001",
+          "selected_item_id": "A9876",
+          "delivery_date": "December 1, 2023"
+        }
+      },
+      {
+        "query": "I need the Bluetooth earphones with the ID B2345 sent to Dr. Alan Brown at 321 Oak Road, Los Angeles, CA, 90001, by November 20, 2023.",
+        "filled_param": {
+          "recipient_name": "Dr. Alan Brown",
+          "address": "321 Oak Road, Los Angeles, CA, 90001",
+          "selected_item_id": "B2345",
+          "delivery_date": "November 20, 2023"
+        }
+      },
+      {
+        "query": "Can you deliver the Bluetooth earphones with item ID 54321 to Emily Clark at 654 Pine Street, Miami, FL, 33101, by December 5, 2023?",
+        "filled_param": {
+          "recipient_name": "Emily Clark",
+          "address": "654 Pine Street, Miami, FL, 33101",
+          "selected_item_id": "54321",
+          "delivery_date": "December 5, 2023"
+        }
+      },
+      {
+        "query": "Send Bluetooth earphones with ID C7890 to Mr. David Lee at 123 Cedar Lane, Seattle, WA, 98101, to be delivered on November 25, 2023.",
+        "filled_param": {
+          "recipient_name": "Mr. David Lee",
+          "address": "123 Cedar Lane, Seattle, WA, 98101",
+          "selected_item_id": "C7890",
+          "delivery_date": "November 25, 2023"
+        }
+      }
+    ]
+  },
+  "send_gift|:|red wine|:|recipient_name,address,selected_item_id,delivery_date": {
+    "tool_template_name": "send_gift",
+    "derived_class": "red wine",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date"
+    ],
+    "queries": [
+      {
+        "query": "Please send a bottle of red wine with ID 3745 to John Doe at 123 Maple Street, Springfield, by March 5th.",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "123 Maple Street, Springfield",
+          "selected_item_id": "3745",
+          "delivery_date": "March 5th"
+        }
+      },
+      {
+        "query": "Arrange for the red wine with ID 5623 to be delivered to Emily Clark on March 10th at 456 Oak Avenue, Metropolis.",
+        "filled_param": {
+          "recipient_name": "Emily Clark",
+          "address": "456 Oak Avenue, Metropolis",
+          "selected_item_id": "5623",
+          "delivery_date": "March 10th"
+        }
+      },
+      {
+        "query": "I would like the red wine identified as 9812 sent to Michael Smith at 789 Pine Street, Gotham, deliver by February 20th.",
+        "filled_param": {
+          "recipient_name": "Michael Smith",
+          "address": "789 Pine Street, Gotham",
+          "selected_item_id": "9812",
+          "delivery_date": "February 20th"
+        }
+      },
+      {
+        "query": "Can you deliver the red wine with item ID 2048 to Sarah Johnson at 321 Birch Road, Star City, on April 15th?",
+        "filled_param": {
+          "recipient_name": "Sarah Johnson",
+          "address": "321 Birch Road, Star City",
+          "selected_item_id": "2048",
+          "delivery_date": "April 15th"
+        }
+      },
+      {
+        "query": "Send the red wine with ID 6574 to David Brown at 654 Cedar Lane, Central City, and make sure it arrives by May 3rd.",
+        "filled_param": {
+          "recipient_name": "David Brown",
+          "address": "654 Cedar Lane, Central City",
+          "selected_item_id": "6574",
+          "delivery_date": "May 3rd"
+        }
+      }
+    ]
+  },
+  "send_gift|:|tea|:|recipient_name,address,selected_item_id,delivery_date": {
+    "tool_template_name": "send_gift",
+    "derived_class": "tea",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date"
+    ],
+    "queries": [
+      {
+        "query": "Please send the tea with item ID T12345 to John Doe at 123 Maple Street, Springfield, IL, 62704 on October 20, 2023.",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "123 Maple Street, Springfield, IL, 62704",
+          "selected_item_id": "T12345",
+          "delivery_date": "October 20, 2023"
+        }
+      },
+      {
+        "query": "Can you arrange for the tea with ID T67890 to be delivered to Mary Johnson at 456 Elm Street, Boston, MA, 02118 by November 5, 2023?",
+        "filled_param": {
+          "recipient_name": "Mary Johnson",
+          "address": "456 Elm Street, Boston, MA, 02118",
+          "selected_item_id": "T67890",
+          "delivery_date": "November 5, 2023"
+        }
+      },
+      {
+        "query": "I'd like the tea identified by T23456 to be sent to Robert Brown at 789 Oak Avenue, Seattle, WA, 98101 on December 1, 2023.",
+        "filled_param": {
+          "recipient_name": "Robert Brown",
+          "address": "789 Oak Avenue, Seattle, WA, 98101",
+          "selected_item_id": "T23456",
+          "delivery_date": "December 1, 2023"
+        }
+      },
+      {
+        "query": "Send the tea with the item code T34567 to Emily White at 101 Pine Road, Orlando, FL, 32801 on October 15, 2023.",
+        "filled_param": {
+          "recipient_name": "Emily White",
+          "address": "101 Pine Road, Orlando, FL, 32801",
+          "selected_item_id": "T34567",
+          "delivery_date": "October 15, 2023"
+        }
+      },
+      {
+        "query": "Could you deliver the tea item T98765 to Michael Green at 202 Birch Lane, Denver, CO, 80202 by October 25, 2023?",
+        "filled_param": {
+          "recipient_name": "Michael Green",
+          "address": "202 Birch Lane, Denver, CO, 80202",
+          "selected_item_id": "T98765",
+          "delivery_date": "October 25, 2023"
+        }
+      },
+      {
+        "query": "Make sure the tea with item ID T45678 is sent to Lisa Black at 303 Cedar Street, Miami, FL, 33101 on November 10, 2023.",
+        "filled_param": {
+          "recipient_name": "Lisa Black",
+          "address": "303 Cedar Street, Miami, FL, 33101",
+          "selected_item_id": "T45678",
+          "delivery_date": "November 10, 2023"
+        }
+      }
+    ]
+  },
+  "send_gift|:|fountain pen|:|recipient_name,address,selected_item_id,delivery_date": {
+    "tool_template_name": "send_gift",
+    "derived_class": "fountain pen",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date"
+    ],
+    "queries": [
+      {
+        "query": "Please send a fountain pen with item ID FP123 to John Doe at 123 Elm Street, Springfield, to arrive by 2023-11-20.",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "123 Elm Street, Springfield",
+          "selected_item_id": "FP123",
+          "delivery_date": "2023-11-20"
+        }
+      },
+      {
+        "query": "I need the fountain pen with ID FP456 delivered to Jane Smith at 456 Oak Avenue, Metropolis on 2023-12-01.",
+        "filled_param": {
+          "recipient_name": "Jane Smith",
+          "address": "456 Oak Avenue, Metropolis",
+          "selected_item_id": "FP456",
+          "delivery_date": "2023-12-01"
+        }
+      },
+      {
+        "query": "Send a fountain pen identified by FP789 to Alex Johnson at 789 Pine Road, Gotham, to be delivered on 2023-11-15.",
+        "filled_param": {
+          "recipient_name": "Alex Johnson",
+          "address": "789 Pine Road, Gotham",
+          "selected_item_id": "FP789",
+          "delivery_date": "2023-11-15"
+        }
+      },
+      {
+        "query": "Can you ship the fountain pen with item code FP321 to Emily Brown at 321 Birch Lane, Star City, ensuring delivery by 2023-12-05?",
+        "filled_param": {
+          "recipient_name": "Emily Brown",
+          "address": "321 Birch Lane, Star City",
+          "selected_item_id": "FP321",
+          "delivery_date": "2023-12-05"
+        }
+      },
+      {
+        "query": "Arrange for the fountain pen FP654 to be sent to Robert White at 654 Cedar Street, Central City, by 2023-11-30.",
+        "filled_param": {
+          "recipient_name": "Robert White",
+          "address": "654 Cedar Street, Central City",
+          "selected_item_id": "FP654",
+          "delivery_date": "2023-11-30"
+        }
+      }
+    ]
+  },
+  "send_gift|:|skincare|:|recipient_name,address,selected_item_id,delivery_date": {
+    "tool_template_name": "send_gift",
+    "derived_class": "skincare",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date"
+    ],
+    "queries": [
+      {
+        "query": "Please send the skincare item with ID S123 to Emily Smith at 456 Oak Street, Springfield, with delivery on November 15th.",
+        "filled_param": {
+          "recipient_name": "Emily Smith",
+          "address": "456 Oak Street, Springfield",
+          "selected_item_id": "S123",
+          "delivery_date": "November 15th"
+        }
+      },
+      {
+        "query": "I need the skincare product with ID A456 delivered to John Doe at 789 Pine Avenue, Los Angeles, by October 30th.",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "789 Pine Avenue, Los Angeles",
+          "selected_item_id": "A456",
+          "delivery_date": "October 30th"
+        }
+      },
+      {
+        "query": "Can you arrange for the skincare item ID B789 to be sent to Sarah Lee at 321 Maple Blvd, New York, on December 1st?",
+        "filled_param": {
+          "recipient_name": "Sarah Lee",
+          "address": "321 Maple Blvd, New York",
+          "selected_item_id": "B789",
+          "delivery_date": "December 1st"
+        }
+      },
+      {
+        "query": "Deliver the skincare product with ID C101 to Michael Brown at 654 Cedar Lane, Miami, by November 20th.",
+        "filled_param": {
+          "recipient_name": "Michael Brown",
+          "address": "654 Cedar Lane, Miami",
+          "selected_item_id": "C101",
+          "delivery_date": "November 20th"
+        }
+      },
+      {
+        "query": "Schedule delivery of skincare item with ID D202 to Lisa White at 987 Birch Road, Chicago, for November 25th.",
+        "filled_param": {
+          "recipient_name": "Lisa White",
+          "address": "987 Birch Road, Chicago",
+          "selected_item_id": "D202",
+          "delivery_date": "November 25th"
+        }
+      }
+    ]
+  },
+  "send_gift|:|board game|:|recipient_name,address,selected_item_id,delivery_date": {
+    "tool_template_name": "send_gift",
+    "derived_class": "board game",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date"
+    ],
+    "queries": [
+      {
+        "query": "Please send the board game with ID BG1234 to John Doe at 123 Elm Street, Springfield, IL, on November 15, 2023.",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "123 Elm Street, Springfield, IL",
+          "selected_item_id": "BG1234",
+          "delivery_date": "November 15, 2023"
+        }
+      },
+      {
+        "query": "Can you deliver the board game identified as BG5678 to Alice Johnson at 456 Oak Avenue, Boston, MA, by December 1, 2023?",
+        "filled_param": {
+          "recipient_name": "Alice Johnson",
+          "address": "456 Oak Avenue, Boston, MA",
+          "selected_item_id": "BG5678",
+          "delivery_date": "December 1, 2023"
+        }
+      },
+      {
+        "query": "Arrange for the board game with ID BG9101 to be sent to Michael Smith at 789 Pine Road, Seattle, WA, on October 25, 2023.",
+        "filled_param": {
+          "recipient_name": "Michael Smith",
+          "address": "789 Pine Road, Seattle, WA",
+          "selected_item_id": "BG9101",
+          "delivery_date": "October 25, 2023"
+        }
+      },
+      {
+        "query": "I want the board game BG1122 to be shipped to Emily Davis at 321 Birch Lane, Austin, TX, arriving on November 30, 2023.",
+        "filled_param": {
+          "recipient_name": "Emily Davis",
+          "address": "321 Birch Lane, Austin, TX",
+          "selected_item_id": "BG1122",
+          "delivery_date": "November 30, 2023"
+        }
+      },
+      {
+        "query": "Send the board game with item ID BG3344 to Robert Brown at 654 Cedar Street, Miami, FL, on December 10, 2023.",
+        "filled_param": {
+          "recipient_name": "Robert Brown",
+          "address": "654 Cedar Street, Miami, FL",
+          "selected_item_id": "BG3344",
+          "delivery_date": "December 10, 2023"
+        }
+      }
+    ]
+  },
+  "send_gift|:|perfume|:|recipient_name,address,selected_item_id,delivery_date": {
+    "tool_template_name": "send_gift",
+    "derived_class": "perfume",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date"
+    ],
+    "queries": [
+      {
+        "query": "Could you send the perfume with ID P12345 to John Doe at 123 Elm Street, Springfield, with delivery by 2023-11-15?",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "123 Elm Street, Springfield",
+          "selected_item_id": "P12345",
+          "delivery_date": "2023-11-15"
+        }
+      },
+      {
+        "query": "Arrange for the perfume identified as P67890 to be delivered to Jane Smith at 456 Maple Avenue, Boston, on 2023-12-01.",
+        "filled_param": {
+          "recipient_name": "Jane Smith",
+          "address": "456 Maple Avenue, Boston",
+          "selected_item_id": "P67890",
+          "delivery_date": "2023-12-01"
+        }
+      },
+      {
+        "query": "I need a perfume with ID P54321 to be sent to Michael Johnson at 789 Pine Road, Seattle, by 2023-11-20.",
+        "filled_param": {
+          "recipient_name": "Michael Johnson",
+          "address": "789 Pine Road, Seattle",
+          "selected_item_id": "P54321",
+          "delivery_date": "2023-11-20"
+        }
+      },
+      {
+        "query": "Send the perfume marked as P98765 to Emily Davis at 321 Oak Lane, Miami, with delivery expected on 2023-11-25.",
+        "filled_param": {
+          "recipient_name": "Emily Davis",
+          "address": "321 Oak Lane, Miami",
+          "selected_item_id": "P98765",
+          "delivery_date": "2023-11-25"
+        }
+      },
+      {
+        "query": "Please ensure the perfume with the item ID P24680 is shipped to Richard Lee at 654 Birch Street, Denver, by 2023-12-05.",
+        "filled_param": {
+          "recipient_name": "Richard Lee",
+          "address": "654 Birch Street, Denver",
+          "selected_item_id": "P24680",
+          "delivery_date": "2023-12-05"
+        }
+      }
+    ]
+  }
+}

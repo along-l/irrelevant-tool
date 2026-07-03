@@ -1,0 +1,369 @@
+{
+  "AccentAdaptationTest|:|speech emotion recognition|:|audio_clip,accent,test_environment,quality_threshold,evaluation_metric,retry_attempts": {
+    "tool_template_name": "AccentAdaptationTest",
+    "derived_class": "speech emotion recognition",
+    "params_for_query": [
+      "audio_clip",
+      "accent",
+      "test_environment",
+      "quality_threshold",
+      "evaluation_metric",
+      "retry_attempts"
+    ],
+    "queries": [
+      {
+        "query": "Please perform a speech emotion recognition test on the 'audio_clip.wav' with a British accent in a quiet room, aiming for a quality threshold of 85 using accuracy as the evaluation metric, and allow 2 retry attempts if needed.",
+        "filled_param": {
+          "audio_clip": "audio_clip.wav",
+          "accent": "British",
+          "test_environment": "quiet room",
+          "quality_threshold": 85,
+          "evaluation_metric": "accuracy",
+          "retry_attempts": 2
+        }
+      },
+      {
+        "query": "I need the speech emotion recognition tested on 'sample_audio.mp3' with an Australian accent in a noisy street. Make sure the quality threshold is set at 90 with response time as the metric, and allow for 3 retries.",
+        "filled_param": {
+          "audio_clip": "sample_audio.mp3",
+          "accent": "Australian",
+          "test_environment": "noisy street",
+          "quality_threshold": 90,
+          "evaluation_metric": "response time",
+          "retry_attempts": 3
+        }
+      },
+      {
+        "query": "Test the speech emotion recognition capability on 'testfile.wav' adapting to an Indian accent within an office environment. Ensure the quality meets a threshold of 75 with the evaluation based on accuracy, and if it fails, retry up to 1 time.",
+        "filled_param": {
+          "audio_clip": "testfile.wav",
+          "accent": "Indian",
+          "test_environment": "office environment",
+          "quality_threshold": 75,
+          "evaluation_metric": "accuracy",
+          "retry_attempts": 1
+        }
+      },
+      {
+        "query": "Could you evaluate the speech emotion recognition on 'voice_clip.mp3' with a Canadian accent in a concert hall, targeting at least an 80 quality threshold using response time, and perform 4 retries if necessary?",
+        "filled_param": {
+          "audio_clip": "voice_clip.mp3",
+          "accent": "Canadian",
+          "test_environment": "concert hall",
+          "quality_threshold": 80,
+          "evaluation_metric": "response time",
+          "retry_attempts": 4
+        }
+      },
+      {
+        "query": "Run a speech emotion recognition test on 'input_sound.wav' for a Scottish accent in a library setting, maintaining a quality threshold of 70 with accuracy as the metric, allowing for 5 retry attempts.",
+        "filled_param": {
+          "audio_clip": "input_sound.wav",
+          "accent": "Scottish",
+          "test_environment": "library",
+          "quality_threshold": 70,
+          "evaluation_metric": "accuracy",
+          "retry_attempts": 5
+        }
+      },
+      {
+        "query": "Assess the speech emotion recognition on 'recording.mp3' with a South African accent in a busy cafe, requiring a quality threshold of 95 using response time and permitting 2 retries.",
+        "filled_param": {
+          "audio_clip": "recording.mp3",
+          "accent": "South African",
+          "test_environment": "busy cafe",
+          "quality_threshold": 95,
+          "evaluation_metric": "response time",
+          "retry_attempts": 2
+        }
+      }
+    ]
+  },
+  "AccentAdaptationTest|:|speaker gender recognition|:|audio_clip,accent,test_environment,quality_threshold,evaluation_metric,retry_attempts": {
+    "tool_template_name": "AccentAdaptationTest",
+    "derived_class": "speaker gender recognition",
+    "params_for_query": [
+      "audio_clip",
+      "accent",
+      "test_environment",
+      "quality_threshold",
+      "evaluation_metric",
+      "retry_attempts"
+    ],
+    "queries": [
+      {
+        "query": "Evaluate speaker gender recognition with the audio clip located at '/audio/speech1.mp3' for an Australian accent in a quiet room setting, aiming for an accuracy metric with a quality threshold of 85 and allowing 3 retry attempts.",
+        "filled_param": {
+          "audio_clip": "/audio/speech1.mp3",
+          "accent": "Australian",
+          "test_environment": "quiet room",
+          "quality_threshold": 85,
+          "evaluation_metric": "accuracy",
+          "retry_attempts": 3
+        }
+      },
+      {
+        "query": "Can you test speaker gender recognition on the file '/files/voice_sample2.wav', targeting a British accent in a noisy street environment, with a quality threshold of 90 using response time as the evaluation metric, and attempt up to 2 retries?",
+        "filled_param": {
+          "audio_clip": "/files/voice_sample2.wav",
+          "accent": "British",
+          "test_environment": "noisy street",
+          "quality_threshold": 90,
+          "evaluation_metric": "response time",
+          "retry_attempts": 2
+        }
+      },
+      {
+        "query": "I need to perform a speaker gender recognition test on '/data/clip3.wav' considering an American accent, within a busy office environment, the quality threshold should be set to 80, using accuracy as the evaluation metric and retrying 4 times if needed.",
+        "filled_param": {
+          "audio_clip": "/data/clip3.wav",
+          "accent": "American",
+          "test_environment": "busy office",
+          "quality_threshold": 80,
+          "evaluation_metric": "accuracy",
+          "retry_attempts": 4
+        }
+      },
+      {
+        "query": "Conduct a speaker gender recognition adaptation test for a Canadian accent using the audio at '/media/recording4.mp3' in a car environment, with a quality threshold of 75 and evaluation based on response time, allowing 1 retry attempt.",
+        "filled_param": {
+          "audio_clip": "/media/recording4.mp3",
+          "accent": "Canadian",
+          "test_environment": "car",
+          "quality_threshold": 75,
+          "evaluation_metric": "response time",
+          "retry_attempts": 1
+        }
+      },
+      {
+        "query": "Test the speaker gender recognition adaptation on the sound file '/sound/french_speech5.mp3' for a French accent, in a classroom setting with a quality threshold of 88, using accuracy as the metric and making up to 3 retries.",
+        "filled_param": {
+          "audio_clip": "/sound/french_speech5.mp3",
+          "accent": "French",
+          "test_environment": "classroom",
+          "quality_threshold": 88,
+          "evaluation_metric": "accuracy",
+          "retry_attempts": 3
+        }
+      }
+    ]
+  },
+  "AccentAdaptationTest|:|speech keyword generation|:|audio_clip,accent,test_environment,quality_threshold,evaluation_metric,retry_attempts": {
+    "tool_template_name": "AccentAdaptationTest",
+    "derived_class": "speech keyword generation",
+    "params_for_query": [
+      "audio_clip",
+      "accent",
+      "test_environment",
+      "quality_threshold",
+      "evaluation_metric",
+      "retry_attempts"
+    ],
+    "queries": [
+      {
+        "query": "Conduct a speech keyword generation test on the audio file located at 'user/sounds/sample1.wav' for a British accent in a quiet room, aiming for a 95% accuracy with 3 retry attempts.",
+        "filled_param": {
+          "audio_clip": "user/sounds/sample1.wav",
+          "accent": "British",
+          "test_environment": "quiet room",
+          "quality_threshold": 95,
+          "evaluation_metric": "accuracy",
+          "retry_attempts": 3
+        }
+      },
+      {
+        "query": "Perform an adaptation test for speech keyword generation using the audio at 'C:/audio/test2.mp3' with an Australian accent in a noisy street, targeting a quality threshold of 80% and measuring response time, with 2 attempts allowed.",
+        "filled_param": {
+          "audio_clip": "C:/audio/test2.mp3",
+          "accent": "Australian",
+          "test_environment": "noisy street",
+          "quality_threshold": 80,
+          "evaluation_metric": "response time",
+          "retry_attempts": 2
+        }
+      },
+      {
+        "query": "Evaluate speech keyword generation for the file 'sounds/input3.wav' with an Indian accent in a moderately noisy office. The success criterion is 90% accuracy and allow for 5 retries.",
+        "filled_param": {
+          "audio_clip": "sounds/input3.wav",
+          "accent": "Indian",
+          "test_environment": "moderately noisy office",
+          "quality_threshold": 90,
+          "evaluation_metric": "accuracy",
+          "retry_attempts": 5
+        }
+      },
+      {
+        "query": "I'm interested in testing the speech keyword generation adaptation on 'files/voice4.mp3' with a New York accent in a crowded cafe. Set the quality threshold to 85% for response time, with 4 retries as needed.",
+        "filled_param": {
+          "audio_clip": "files/voice4.mp3",
+          "accent": "New York",
+          "test_environment": "crowded cafe",
+          "quality_threshold": 85,
+          "evaluation_metric": "response time",
+          "retry_attempts": 4
+        }
+      },
+      {
+        "query": "Test the speech keyword generation using 'data/clip5.wav' for a French accent in a silent library. The minimum quality must reach 92% accuracy, with 3 retries permissible.",
+        "filled_param": {
+          "audio_clip": "data/clip5.wav",
+          "accent": "French",
+          "test_environment": "silent library",
+          "quality_threshold": 92,
+          "evaluation_metric": "accuracy",
+          "retry_attempts": 3
+        }
+      }
+    ]
+  },
+  "AccentAdaptationTest|:|speaker age recognition|:|audio_clip,accent,test_environment,quality_threshold,evaluation_metric,retry_attempts": {
+    "tool_template_name": "AccentAdaptationTest",
+    "derived_class": "speaker age recognition",
+    "params_for_query": [
+      "audio_clip",
+      "accent",
+      "test_environment",
+      "quality_threshold",
+      "evaluation_metric",
+      "retry_attempts"
+    ],
+    "queries": [
+      {
+        "query": "Run a speaker age recognition test using the audio clip located at 'voice_sample1.mp3'. Focus on adapting to a British accent in a quiet room environment, with a quality threshold of 85, using accuracy as the evaluation metric. Allow for 3 retry attempts.",
+        "filled_param": {
+          "audio_clip": "voice_sample1.mp3",
+          "accent": "British",
+          "test_environment": "quiet room",
+          "quality_threshold": 85,
+          "evaluation_metric": "accuracy",
+          "retry_attempts": 3
+        }
+      },
+      {
+        "query": "Please test the speaker age recognition on 'interview_recording.wav' for an American accent. Conduct the test in a noisy street setting with a minimum quality threshold of 90. Use response time as the metric and set retry attempts to 2.",
+        "filled_param": {
+          "audio_clip": "interview_recording.wav",
+          "accent": "American",
+          "test_environment": "noisy street",
+          "quality_threshold": 90,
+          "evaluation_metric": "response time",
+          "retry_attempts": 2
+        }
+      },
+      {
+        "query": "Evaluate speaker age recognition using 'lecture_audio.mp3' with an Australian accent. The environment should be a classroom with a quality threshold of 75. Use accuracy as the evaluation metric and allow 1 retry attempt.",
+        "filled_param": {
+          "audio_clip": "lecture_audio.mp3",
+          "accent": "Australian",
+          "test_environment": "classroom",
+          "quality_threshold": 75,
+          "evaluation_metric": "accuracy",
+          "retry_attempts": 1
+        }
+      },
+      {
+        "query": "Test the speaker age recognition for 'conversation_sample.wav' focusing on an Indian accent in an auditorium setting. Ensure the quality threshold is set to 80, using accuracy as the metric. Retry 4 times if necessary.",
+        "filled_param": {
+          "audio_clip": "conversation_sample.wav",
+          "accent": "Indian",
+          "test_environment": "auditorium",
+          "quality_threshold": 80,
+          "evaluation_metric": "accuracy",
+          "retry_attempts": 4
+        }
+      },
+      {
+        "query": "Can you perform a speaker age recognition test with 'podcast_clip.mp3' targeting a Canadian accent? The test should be in a library environment with a quality threshold of 92. Use response time as the metric and have 2 retry attempts.",
+        "filled_param": {
+          "audio_clip": "podcast_clip.mp3",
+          "accent": "Canadian",
+          "test_environment": "library",
+          "quality_threshold": 92,
+          "evaluation_metric": "response time",
+          "retry_attempts": 2
+        }
+      },
+      {
+        "query": "Test speaker age recognition on 'meeting_audio.wav' for a South African accent in a corporate office. Set the quality threshold at 88, measure by accuracy, and plan for 3 retry attempts.",
+        "filled_param": {
+          "audio_clip": "meeting_audio.wav",
+          "accent": "South African",
+          "test_environment": "corporate office",
+          "quality_threshold": 88,
+          "evaluation_metric": "accuracy",
+          "retry_attempts": 3
+        }
+      }
+    ]
+  },
+  "AccentAdaptationTest|:|speech-to-text translation|:|audio_clip,accent,test_environment,quality_threshold,evaluation_metric,retry_attempts": {
+    "tool_template_name": "AccentAdaptationTest",
+    "derived_class": "speech-to-text translation",
+    "params_for_query": [
+      "audio_clip",
+      "accent",
+      "test_environment",
+      "quality_threshold",
+      "evaluation_metric",
+      "retry_attempts"
+    ],
+    "queries": [
+      {
+        "query": "Please test the speech-to-text translation using the audio file located at '/audio/test1.wav' with a British accent in a quiet room environment. Set the quality threshold to 85, use accuracy as the evaluation metric, and allow for 2 retry attempts.",
+        "filled_param": {
+          "audio_clip": "/audio/test1.wav",
+          "accent": "British",
+          "test_environment": "quiet room",
+          "quality_threshold": 85,
+          "evaluation_metric": "accuracy",
+          "retry_attempts": 2
+        }
+      },
+      {
+        "query": "I need a speech-to-text translation test for the audio '/audio/spanish_speaker.mp3' focusing on a Spanish accent in a noisy street, with a quality threshold of 90. The evaluation should prioritize response time, and you can retry up to 3 times.",
+        "filled_param": {
+          "audio_clip": "/audio/spanish_speaker.mp3",
+          "accent": "Spanish",
+          "test_environment": "noisy street",
+          "quality_threshold": 90,
+          "evaluation_metric": "response time",
+          "retry_attempts": 3
+        }
+      },
+      {
+        "query": "Conduct a speech-to-text translation adaptation test for the file '/audio/french_audio.wav' targeting a French accent in a cafe setting. Set the quality threshold to 80, evaluate based on accuracy, and permit 1 retry attempt.",
+        "filled_param": {
+          "audio_clip": "/audio/french_audio.wav",
+          "accent": "French",
+          "test_environment": "cafe",
+          "quality_threshold": 80,
+          "evaluation_metric": "accuracy",
+          "retry_attempts": 1
+        }
+      },
+      {
+        "query": "Run a speech-to-text translation test with '/audio/german_sample.mp3', suited for a German accent in an office environment. Ensure the quality threshold is at 75, measure using response time, and allow for 2 retries if needed.",
+        "filled_param": {
+          "audio_clip": "/audio/german_sample.mp3",
+          "accent": "German",
+          "test_environment": "office",
+          "quality_threshold": 75,
+          "evaluation_metric": "response time",
+          "retry_attempts": 2
+        }
+      },
+      {
+        "query": "Can you perform a speech-to-text translation test using '/audio/italian_test.wav'? The focus should be on an Italian accent in a quiet library. Set the quality threshold to 95, use accuracy as the metric, and include up to 3 retry attempts.",
+        "filled_param": {
+          "audio_clip": "/audio/italian_test.wav",
+          "accent": "Italian",
+          "test_environment": "quiet library",
+          "quality_threshold": 95,
+          "evaluation_metric": "accuracy",
+          "retry_attempts": 3
+        }
+      }
+    ]
+  }
+}

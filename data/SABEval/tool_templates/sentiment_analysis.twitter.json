@@ -1,0 +1,66 @@
+{
+  "tool_template_name": "sentiment_analysis.twitter",
+  "meta_data": {
+    "base_class": "analyze the overall sentiment on a specific <social media platform> toward a certain topic - different platforms have distinct content ecosystems but share the same analysis structure.",
+    "derived_classes": [
+      "Twitter",
+      "Facebook",
+      "Instagram",
+      "TikTok",
+      "YouTube",
+      "Reddit",
+      "Weibo",
+      "Kuaishou",
+      "Bilibili"
+    ],
+    "base_class_entity": "Twitter"
+  },
+  "tool_template": {
+    "name": "sentiment_analysis.<class>",
+    "description": "Analyzes the overall sentiment of <class> towards a certain topic.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "topic": {
+          "type": "string",
+          "description": "The topic you want to analyze the sentiment for on <class>."
+        },
+        "language": {
+          "type": "string",
+          "description": "The language of the content to analyze on <class>."
+        }
+      },
+      "required": [
+        "topic",
+        "language"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "num_content": {
+      "type": "integer",
+      "description": "Number of pieces of content to analyze on <class>."
+    }
+  },
+  "additional_params": {
+    "filter_date_range": {
+      "type": "array",
+      "description": "An array containing two dates (start and end) to filter the <class> content for sentiment analysis. Format: YYYY-MM-DD.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "region": {
+      "type": "string",
+      "description": "Restrict the sentiment analysis on <class> to content originating from a specific region or country."
+    },
+    "include_video": {
+      "type": "boolean",
+      "description": "If true, include video content in the give topic sentiment analysis on <class>, which may increase processing time."
+    },
+    "include_extreme_sentiments": {
+      "type": "boolean",
+      "description": "If true, highlights the most positive and most negative examples of content from <class> within the analysis range."
+    }
+  }
+}

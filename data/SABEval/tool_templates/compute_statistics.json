@@ -1,0 +1,58 @@
+{
+  "tool_template_name": "compute_statistics",
+  "meta_data": {
+    "base_class": "Calculates <a bundle of key statistical measures>. This is a general-purpose tool that takes a dataset and returns a bundle of core metrics (like mean, median, mode). The subclass tools would calculate only one specific metric.",
+    "derived_classes": [
+      "mean",
+      "median",
+      "mode",
+      "standard deviation",
+      "maximum value",
+      "minimum value",
+      "sum",
+      "skewness",
+      "kurtosis"
+    ],
+    "base_class_entity": "key statistical measures, such as the mean, median, and mode"
+  },
+  "tool_template": {
+    "name": "compute_<class>",
+    "description": "This function calculates the <class> of a given numerical dataset.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "data_path": {
+          "type": "string",
+          "description": "Local path to the dataset file for calculating the statistical measure <class>. Should be in CSV format."
+        }
+      },
+      "required": [
+        "data_path"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "decimal_places": {
+      "type": "integer",
+      "description": "The number of decimal places to round the computed <class> statistics to."
+    }
+  },
+  "additional_params": {
+    "column_name": {
+      "type": "string",
+      "description": "The name of the column in the dataset file to perform the <class> calculation on."
+    },
+    "missing_value_handling": {
+      "type": "string",
+      "description": "The strategy for handling missing values in the dataset when calculating the <class> statistic, with options including 'ignore', 'fill_zero', 'fill_one'."
+    },
+    "output_format": {
+      "type": "string",
+      "description": "The desired format for the output file of the <class> calculation, with options including 'json', 'csv', 'text'."
+    },
+    "filter_expression": {
+      "type": "string",
+      "description": "A filter expression to apply to the data before the <class> calculation (e.g., 'Age > 18' or 'Category == \"A\"')."
+    }
+  }
+}

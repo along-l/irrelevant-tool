@@ -1,0 +1,792 @@
+{
+  "EcoDiversityMonitor_assessVegetation|:|vegetation diversity|:|area_identifier,detailed_report,time_period,imagery_resolution,confidence_threshold": {
+    "tool_template_name": "EcoDiversityMonitor_assessVegetation",
+    "derived_class": "vegetation diversity",
+    "params_for_query": [
+      "area_identifier",
+      "detailed_report",
+      "time_period",
+      "imagery_resolution",
+      "confidence_threshold"
+    ],
+    "queries": [
+      {
+        "query": "Can you assess the vegetation diversity for forest area ID 12345 with a detailed report, using high-resolution imagery from 2023-01-01 to 2023-06-30, with a confidence threshold of 95%?",
+        "filled_param": {
+          "area_identifier": "12345",
+          "detailed_report": true,
+          "time_period": "2023-01-01, 2023-06-30",
+          "imagery_resolution": "high",
+          "confidence_threshold": 95
+        }
+      },
+      {
+        "query": "I need a vegetation diversity analysis for area 6789, with a detailed report using medium-resolution images between 2022-05-01 and 2022-12-31, and a confidence threshold of 80.",
+        "filled_param": {
+          "area_identifier": "6789",
+          "detailed_report": true,
+          "time_period": "2022-05-01, 2022-12-31",
+          "imagery_resolution": "medium",
+          "confidence_threshold": 80
+        }
+      },
+      {
+        "query": "Please provide a quick vegetation diversity check for forest region A5678 from 2023-07-01 to 2023-12-01 using low resolution imagery, no detailed report needed, at 70% confidence.",
+        "filled_param": {
+          "area_identifier": "A5678",
+          "detailed_report": false,
+          "time_period": "2023-07-01, 2023-12-01",
+          "imagery_resolution": "low",
+          "confidence_threshold": 70
+        }
+      },
+      {
+        "query": "Evaluate the vegetation diversity for zone B1234 from 2021-01-01 to 2021-12-31 with high-resolution satellite images, with a detailed report and 85% confidence threshold.",
+        "filled_param": {
+          "area_identifier": "B1234",
+          "detailed_report": true,
+          "time_period": "2021-01-01, 2021-12-31",
+          "imagery_resolution": "high",
+          "confidence_threshold": 85
+        }
+      },
+      {
+        "query": "For forest section C9876, check the vegetation diversity from 2020-03-15 to 2020-09-15 using medium resolution imagery, without a detailed report, and ensure a 90% confidence level.",
+        "filled_param": {
+          "area_identifier": "C9876",
+          "detailed_report": false,
+          "time_period": "2020-03-15, 2020-09-15",
+          "imagery_resolution": "medium",
+          "confidence_threshold": 90
+        }
+      },
+      {
+        "query": "Can you run a vegetation diversity assessment in area 54321 with a detailed report using low-res images from 2022-01-10 to 2022-05-10 and a confidence requirement of 75%?",
+        "filled_param": {
+          "area_identifier": "54321",
+          "detailed_report": true,
+          "time_period": "2022-01-10, 2022-05-10",
+          "imagery_resolution": "low",
+          "confidence_threshold": 75
+        }
+      }
+    ]
+  },
+  "EcoDiversityMonitor_assessVegetation|:|canopy density|:|area_identifier,detailed_report,time_period,imagery_resolution,confidence_threshold": {
+    "tool_template_name": "EcoDiversityMonitor_assessVegetation",
+    "derived_class": "canopy density",
+    "params_for_query": [
+      "area_identifier",
+      "detailed_report",
+      "time_period",
+      "imagery_resolution",
+      "confidence_threshold"
+    ],
+    "queries": [
+      {
+        "query": "Please assess the canopy density for the forest area with ID 'Forest_1234' using high-resolution imagery between 2023-01-01 and 2023-03-31. I need a detailed report with a confidence threshold of 95%.",
+        "filled_param": {
+          "area_identifier": "Forest_1234",
+          "detailed_report": true,
+          "time_period": "2023-01-01, 2023-03-31",
+          "imagery_resolution": "high",
+          "confidence_threshold": 95
+        }
+      },
+      {
+        "query": "Generate a canopy density report for the area identified as 'Zone_5678' using low-resolution images from 2022-05-01 to 2022-07-31. Keep the confidence threshold at 85% and provide a detailed analysis.",
+        "filled_param": {
+          "area_identifier": "Zone_5678",
+          "detailed_report": true,
+          "time_period": "2022-05-01, 2022-07-31",
+          "imagery_resolution": "low",
+          "confidence_threshold": 85
+        }
+      },
+      {
+        "query": "Can you give me a basic canopy density overview for region 'Sector_A9' with medium resolution satellite images from 2021-06-15 to 2021-08-15? The confidence threshold should be set to 70%.",
+        "filled_param": {
+          "area_identifier": "Sector_A9",
+          "detailed_report": false,
+          "time_period": "2021-06-15, 2021-08-15",
+          "imagery_resolution": "medium",
+          "confidence_threshold": 70
+        }
+      },
+      {
+        "query": "I need a detailed evaluation of the canopy density for site 'Area_42' using high-resolution imagery from 2022-10-01 to 2022-12-31, with a confidence threshold of 90%.",
+        "filled_param": {
+          "area_identifier": "Area_42",
+          "detailed_report": true,
+          "time_period": "2022-10-01, 2022-12-31",
+          "imagery_resolution": "high",
+          "confidence_threshold": 90
+        }
+      },
+      {
+        "query": "Assess the canopy density for the 'Region_Beta' with medium-resolution images from 2023-02-01 to 2023-04-30. The report should not be detailed, and set the confidence threshold at 75%.",
+        "filled_param": {
+          "area_identifier": "Region_Beta",
+          "detailed_report": false,
+          "time_period": "2023-02-01, 2023-04-30",
+          "imagery_resolution": "medium",
+          "confidence_threshold": 75
+        }
+      },
+      {
+        "query": "Could you provide a canopy density assessment for the location tagged 'Forest_X9' using low-resolution satellite data from 2021-09-01 to 2021-11-30 with a 60% confidence level? No detailed report is necessary.",
+        "filled_param": {
+          "area_identifier": "Forest_X9",
+          "detailed_report": false,
+          "time_period": "2021-09-01, 2021-11-30",
+          "imagery_resolution": "low",
+          "confidence_threshold": 60
+        }
+      },
+      {
+        "query": "Perform an in-depth canopy density analysis for 'EcoSite_88' using high-resolution imagery between 2020-01-01 and 2020-03-31 with an 80% confidence threshold.",
+        "filled_param": {
+          "area_identifier": "EcoSite_88",
+          "detailed_report": true,
+          "time_period": "2020-01-01, 2020-03-31",
+          "imagery_resolution": "high",
+          "confidence_threshold": 80
+        }
+      }
+    ]
+  },
+  "EcoDiversityMonitor_assessVegetation|:|soil moisture|:|area_identifier,detailed_report,time_period,imagery_resolution,confidence_threshold": {
+    "tool_template_name": "EcoDiversityMonitor_assessVegetation",
+    "derived_class": "soil moisture",
+    "params_for_query": [
+      "area_identifier",
+      "detailed_report",
+      "time_period",
+      "imagery_resolution",
+      "confidence_threshold"
+    ],
+    "queries": [
+      {
+        "query": "Could you check the soil moisture for forest area ID 'FA1234' with detailed reporting between 2023-05-01 and 2023-05-31 using high-resolution imagery and a confidence threshold of 95%?",
+        "filled_param": {
+          "area_identifier": "FA1234",
+          "detailed_report": true,
+          "time_period": "2023-05-01, 2023-05-31",
+          "imagery_resolution": "high",
+          "confidence_threshold": 95
+        }
+      },
+      {
+        "query": "I need a soil moisture assessment for area 'Forest5678'. Provide a summary report for the dates 2023-06-01 to 2023-06-30 with medium resolution imagery and 80% confidence level.",
+        "filled_param": {
+          "area_identifier": "Forest5678",
+          "detailed_report": false,
+          "time_period": "2023-06-01, 2023-06-30",
+          "imagery_resolution": "medium",
+          "confidence_threshold": 80
+        }
+      },
+      {
+        "query": "Assess soil moisture in the forest zone 'Zone789' from 2023-04-15 to 2023-04-20. Report should be detailed, using low resolution and a confidence threshold of 70%.",
+        "filled_param": {
+          "area_identifier": "Zone789",
+          "detailed_report": true,
+          "time_period": "2023-04-15, 2023-04-20",
+          "imagery_resolution": "low",
+          "confidence_threshold": 70
+        }
+      },
+      {
+        "query": "For forest region 'GreenArea456', get a soil moisture summary from April 1 to April 15, 2023, with high resolution and a 90% confidence threshold.",
+        "filled_param": {
+          "area_identifier": "GreenArea456",
+          "detailed_report": false,
+          "time_period": "2023-04-01, 2023-04-15",
+          "imagery_resolution": "high",
+          "confidence_threshold": 90
+        }
+      },
+      {
+        "query": "Can you evaluate the soil moisture of 'ForestZone001' for the period 2022-07-01 to 2022-07-31? A detailed report is needed, using medium resolution with 85% confidence.",
+        "filled_param": {
+          "area_identifier": "ForestZone001",
+          "detailed_report": true,
+          "time_period": "2022-07-01, 2022-07-31",
+          "imagery_resolution": "medium",
+          "confidence_threshold": 85
+        }
+      },
+      {
+        "query": "I'd like a soil moisture analysis for 'Area999', without detailed reporting, from 2023-01-01 to 2023-01-10, using low resolution and 75% confidence threshold.",
+        "filled_param": {
+          "area_identifier": "Area999",
+          "detailed_report": false,
+          "time_period": "2023-01-01, 2023-01-10",
+          "imagery_resolution": "low",
+          "confidence_threshold": 75
+        }
+      },
+      {
+        "query": "Perform a soil moisture check for 'Region2345' from 2023-03-01 to 2023-03-15. The report should be detailed with high resolution and a confidence threshold of 92%.",
+        "filled_param": {
+          "area_identifier": "Region2345",
+          "detailed_report": true,
+          "time_period": "2023-03-01, 2023-03-15",
+          "imagery_resolution": "high",
+          "confidence_threshold": 92
+        }
+      }
+    ]
+  },
+  "EcoDiversityMonitor_assessVegetation|:|land surface temperature|:|area_identifier,detailed_report,time_period,imagery_resolution,confidence_threshold": {
+    "tool_template_name": "EcoDiversityMonitor_assessVegetation",
+    "derived_class": "land surface temperature",
+    "params_for_query": [
+      "area_identifier",
+      "detailed_report",
+      "time_period",
+      "imagery_resolution",
+      "confidence_threshold"
+    ],
+    "queries": [
+      {
+        "query": "Can you evaluate the land surface temperature for the forest area with ID 'Forest_1234' from 2023-06-01 to 2023-06-30 using high-resolution imagery and a confidence threshold of 85%? I need a detailed report too.",
+        "filled_param": {
+          "area_identifier": "Forest_1234",
+          "detailed_report": true,
+          "time_period": "2023-06-01, 2023-06-30",
+          "imagery_resolution": "high",
+          "confidence_threshold": 85
+        }
+      },
+      {
+        "query": "Please check the land surface temperature in the forest zone 'Area_5678' for the period from 2023-01-01 to 2023-01-15 with medium resolution. I don't need a detailed report but set the confidence threshold at 90%.",
+        "filled_param": {
+          "area_identifier": "Area_5678",
+          "detailed_report": false,
+          "time_period": "2023-01-01, 2023-01-15",
+          "imagery_resolution": "medium",
+          "confidence_threshold": 90
+        }
+      },
+      {
+        "query": "I require an assessment of the land surface temperature for 'Region_A12' from 2023-08-15 to 2023-08-31. Use low-resolution imagery and ensure a confidence threshold of 75%. A detailed report is necessary.",
+        "filled_param": {
+          "area_identifier": "Region_A12",
+          "detailed_report": true,
+          "time_period": "2023-08-15, 2023-08-31",
+          "imagery_resolution": "low",
+          "confidence_threshold": 75
+        }
+      },
+      {
+        "query": "Analyze the land surface temperature for the forest region 'Zone_9012' from September 1 to September 30, 2023, using high-resolution images. The confidence threshold should be set at 95%, and I want a detailed report.",
+        "filled_param": {
+          "area_identifier": "Zone_9012",
+          "detailed_report": true,
+          "time_period": "2023-09-01, 2023-09-30",
+          "imagery_resolution": "high",
+          "confidence_threshold": 95
+        }
+      },
+      {
+        "query": "Can you provide the land surface temperature data for 'ForestArea_X1' from 2023-02-01 to 2023-02-10 with medium resolution, no detailed report, and ensure 80% confidence?",
+        "filled_param": {
+          "area_identifier": "ForestArea_X1",
+          "detailed_report": false,
+          "time_period": "2023-02-01, 2023-02-10",
+          "imagery_resolution": "medium",
+          "confidence_threshold": 80
+        }
+      },
+      {
+        "query": "I need the land surface temperature evaluation for 'EcoZone_45' between 2023-07-01 and 2023-07-15 using low-resolution images. A detailed report should be produced with a confidence threshold of 88%.",
+        "filled_param": {
+          "area_identifier": "EcoZone_45",
+          "detailed_report": true,
+          "time_period": "2023-07-01, 2023-07-15",
+          "imagery_resolution": "low",
+          "confidence_threshold": 88
+        }
+      },
+      {
+        "query": "Assess the land surface temperature for the forest identified as 'GreenPatch_007' from March 10 to March 20, 2023, using high-resolution imagery with 92% confidence. I don't need a detailed report.",
+        "filled_param": {
+          "area_identifier": "GreenPatch_007",
+          "detailed_report": false,
+          "time_period": "2023-03-10, 2023-03-20",
+          "imagery_resolution": "high",
+          "confidence_threshold": 92
+        }
+      }
+    ]
+  },
+  "EcoDiversityMonitor_assessVegetation|:|biomass density|:|area_identifier,detailed_report,time_period,imagery_resolution,confidence_threshold": {
+    "tool_template_name": "EcoDiversityMonitor_assessVegetation",
+    "derived_class": "biomass density",
+    "params_for_query": [
+      "area_identifier",
+      "detailed_report",
+      "time_period",
+      "imagery_resolution",
+      "confidence_threshold"
+    ],
+    "queries": [
+      {
+        "query": "Evaluate the biomass density in forest area F123 with a detailed report for the period 2023-01-01 to 2023-06-30 using medium resolution imagery and a confidence threshold of 85%.",
+        "filled_param": {
+          "area_identifier": "F123",
+          "detailed_report": true,
+          "time_period": "2023-01-01, 2023-06-30",
+          "imagery_resolution": "medium",
+          "confidence_threshold": 85
+        }
+      },
+      {
+        "query": "Can you provide an overview of the biomass density for the forest zone Z789 without a detailed report, covering 2022-07-01 to 2022-12-31, using low resolution and a confidence level of 70%?",
+        "filled_param": {
+          "area_identifier": "Z789",
+          "detailed_report": false,
+          "time_period": "2022-07-01, 2022-12-31",
+          "imagery_resolution": "low",
+          "confidence_threshold": 70
+        }
+      },
+      {
+        "query": "I need a detailed analysis of biomass density for the forest region A456 from 2021-03-01 to 2021-09-01, using high resolution imagery and a confidence threshold set at 95%.",
+        "filled_param": {
+          "area_identifier": "A456",
+          "detailed_report": true,
+          "time_period": "2021-03-01, 2021-09-01",
+          "imagery_resolution": "high",
+          "confidence_threshold": 95
+        }
+      },
+      {
+        "query": "Generate a biomass density assessment for forest plot G234 using medium resolution and a confidence threshold of 60% for the dates 2020-11-01 to 2021-02-01, with no need for a detailed report.",
+        "filled_param": {
+          "area_identifier": "G234",
+          "detailed_report": false,
+          "time_period": "2020-11-01, 2021-02-01",
+          "imagery_resolution": "medium",
+          "confidence_threshold": 60
+        }
+      },
+      {
+        "query": "Please assess the biomass density in area T567 with a detailed report for the period from 2023-04-01 to 2023-08-01 using high-resolution imagery at a confidence threshold of 90%.",
+        "filled_param": {
+          "area_identifier": "T567",
+          "detailed_report": true,
+          "time_period": "2023-04-01, 2023-08-01",
+          "imagery_resolution": "high",
+          "confidence_threshold": 90
+        }
+      },
+      {
+        "query": "Conduct a biomass density evaluation for location B321 with low-resolution imagery and a confidence level of 75% between 2022-01-01 and 2022-06-01, but skip the detailed report.",
+        "filled_param": {
+          "area_identifier": "B321",
+          "detailed_report": false,
+          "time_period": "2022-01-01, 2022-06-01",
+          "imagery_resolution": "low",
+          "confidence_threshold": 75
+        }
+      },
+      {
+        "query": "I want a detailed biomass density report for sector H654 from 2023-02-01 to 2023-05-01, using medium-resolution imagery with a confidence threshold of 80%.",
+        "filled_param": {
+          "area_identifier": "H654",
+          "detailed_report": true,
+          "time_period": "2023-02-01, 2023-05-01",
+          "imagery_resolution": "medium",
+          "confidence_threshold": 80
+        }
+      }
+    ]
+  },
+  "EcoDiversityMonitor_assessVegetation|:|water body distribution|:|area_identifier,detailed_report,time_period,imagery_resolution,confidence_threshold": {
+    "tool_template_name": "EcoDiversityMonitor_assessVegetation",
+    "derived_class": "water body distribution",
+    "params_for_query": [
+      "area_identifier",
+      "detailed_report",
+      "time_period",
+      "imagery_resolution",
+      "confidence_threshold"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide a detailed report on water body distribution for the forest area ID F12345 between 2023-05-01 and 2023-05-31 using high-resolution imagery with a confidence threshold of 85%?",
+        "filled_param": {
+          "area_identifier": "F12345",
+          "detailed_report": true,
+          "time_period": "2023-05-01, 2023-05-31",
+          "imagery_resolution": "high",
+          "confidence_threshold": 85
+        }
+      },
+      {
+        "query": "Assess the water body distribution in the area labeled G67890 for the dates 2023-06-01 to 2023-06-15, and use medium resolution images with a 75% confidence level, but don't need a detailed report.",
+        "filled_param": {
+          "area_identifier": "G67890",
+          "detailed_report": false,
+          "time_period": "2023-06-01, 2023-06-15",
+          "imagery_resolution": "medium",
+          "confidence_threshold": 75
+        }
+      },
+      {
+        "query": "I need a summary of water body distribution in forest zone A13579 for the period 2023-07-01 to 2023-07-31. Use low-resolution imagery and set the confidence threshold at 65%. A detailed report isn't necessary.",
+        "filled_param": {
+          "area_identifier": "A13579",
+          "detailed_report": false,
+          "time_period": "2023-07-01, 2023-07-31",
+          "imagery_resolution": "low",
+          "confidence_threshold": 65
+        }
+      },
+      {
+        "query": "Please assess the water bodies in zone B24680 between 2023-08-01 and 2023-08-15 using high-res images at a confidence level of 90% and make sure to include detailed reporting.",
+        "filled_param": {
+          "area_identifier": "B24680",
+          "detailed_report": true,
+          "time_period": "2023-08-01, 2023-08-15",
+          "imagery_resolution": "high",
+          "confidence_threshold": 90
+        }
+      },
+      {
+        "query": "Investigate the water body distribution within area ID C98765 from 2023-09-01 to 2023-09-30. Use medium resolution with a 80% confidence threshold and provide a detailed report.",
+        "filled_param": {
+          "area_identifier": "C98765",
+          "detailed_report": true,
+          "time_period": "2023-09-01, 2023-09-30",
+          "imagery_resolution": "medium",
+          "confidence_threshold": 80
+        }
+      },
+      {
+        "query": "I'd like a non-detailed assessment of water body distribution in forest ID D13579 for the period 2023-10-01 to 2023-10-10. Please use low-res imagery and a 70% confidence threshold.",
+        "filled_param": {
+          "area_identifier": "D13579",
+          "detailed_report": false,
+          "time_period": "2023-10-01, 2023-10-10",
+          "imagery_resolution": "low",
+          "confidence_threshold": 70
+        }
+      }
+    ]
+  },
+  "EcoDiversityMonitor_assessVegetation|:|snow cover|:|area_identifier,detailed_report,time_period,imagery_resolution,confidence_threshold": {
+    "tool_template_name": "EcoDiversityMonitor_assessVegetation",
+    "derived_class": "snow cover",
+    "params_for_query": [
+      "area_identifier",
+      "detailed_report",
+      "time_period",
+      "imagery_resolution",
+      "confidence_threshold"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide a snow cover analysis for the forest area identified as 'Forest123' with a detailed report for the period from 2023-01-01 to 2023-01-31 using high-resolution imagery and a confidence threshold of 95%?",
+        "filled_param": {
+          "area_identifier": "Forest123",
+          "detailed_report": true,
+          "time_period": "2023-01-01, 2023-01-31",
+          "imagery_resolution": "high",
+          "confidence_threshold": 95
+        }
+      },
+      {
+        "query": "I'd like a summary of snow cover for the area 'GreenValley_Zone5' during the dates 2023-02-15 to 2023-03-15, using medium-resolution imagery and 80% confidence threshold without a detailed report.",
+        "filled_param": {
+          "area_identifier": "GreenValley_Zone5",
+          "detailed_report": false,
+          "time_period": "2023-02-15, 2023-03-15",
+          "imagery_resolution": "medium",
+          "confidence_threshold": 80
+        }
+      },
+      {
+        "query": "Assess the snow cover for 'NorthernForest_SectionA' with a detailed report needed from 2022-12-01 to 2023-01-01 using low-resolution imagery, ensuring a confidence level of 70%.",
+        "filled_param": {
+          "area_identifier": "NorthernForest_SectionA",
+          "detailed_report": true,
+          "time_period": "2022-12-01, 2023-01-01",
+          "imagery_resolution": "low",
+          "confidence_threshold": 70
+        }
+      },
+      {
+        "query": "Could you analyze the snow cover in 'WildForestBoundary_12' from 2023-03-01 to 2023-03-31 with high-resolution imagery and a 90% confidence threshold, without generating a detailed report?",
+        "filled_param": {
+          "area_identifier": "WildForestBoundary_12",
+          "detailed_report": false,
+          "time_period": "2023-03-01, 2023-03-31",
+          "imagery_resolution": "high",
+          "confidence_threshold": 90
+        }
+      },
+      {
+        "query": "Generate a detailed snow cover report for 'EcoRegion_45' spanning 2023-04-01 to 2023-04-30, using medium-resolution imagery with a 85% confidence threshold.",
+        "filled_param": {
+          "area_identifier": "EcoRegion_45",
+          "detailed_report": true,
+          "time_period": "2023-04-01, 2023-04-30",
+          "imagery_resolution": "medium",
+          "confidence_threshold": 85
+        }
+      },
+      {
+        "query": "What is the snow cover status for 'RainForestArea_9' from 2023-02-01 to 2023-02-28 using low-resolution imagery and a 60% confidence threshold, without a detailed report?",
+        "filled_param": {
+          "area_identifier": "RainForestArea_9",
+          "detailed_report": false,
+          "time_period": "2023-02-01, 2023-02-28",
+          "imagery_resolution": "low",
+          "confidence_threshold": 60
+        }
+      }
+    ]
+  },
+  "EcoDiversityMonitor_assessVegetation|:|post-fire recovery status|:|area_identifier,detailed_report,time_period,imagery_resolution,confidence_threshold": {
+    "tool_template_name": "EcoDiversityMonitor_assessVegetation",
+    "derived_class": "post-fire recovery status",
+    "params_for_query": [
+      "area_identifier",
+      "detailed_report",
+      "time_period",
+      "imagery_resolution",
+      "confidence_threshold"
+    ],
+    "queries": [
+      {
+        "query": "Can you assess the post-fire recovery status for forest area A123 with a detailed report, using high-resolution imagery from 2023-01-01 to 2023-06-30 and a confidence threshold of 85%?",
+        "filled_param": {
+          "area_identifier": "A123",
+          "detailed_report": true,
+          "time_period": "2023-01-01, 2023-06-30",
+          "imagery_resolution": "high",
+          "confidence_threshold": 85
+        }
+      },
+      {
+        "query": "I need a summary of the post-fire recovery status for the area identified as B456, using medium resolution satellite images from 2022-05-01 to 2022-11-30, with an 80% confidence threshold.",
+        "filled_param": {
+          "area_identifier": "B456",
+          "detailed_report": false,
+          "time_period": "2022-05-01, 2022-11-30",
+          "imagery_resolution": "medium",
+          "confidence_threshold": 80
+        }
+      },
+      {
+        "query": "Generate a detailed report on the post-fire recovery status for the forest area C789, using low-resolution satellite imagery from 2021-03-15 to 2021-09-15 and a confidence threshold of 75%.",
+        "filled_param": {
+          "area_identifier": "C789",
+          "detailed_report": true,
+          "time_period": "2021-03-15, 2021-09-15",
+          "imagery_resolution": "low",
+          "confidence_threshold": 75
+        }
+      },
+      {
+        "query": "What is the post-fire recovery status for area D012, using high-resolution images from 2022-02-01 to 2022-07-31 with a 90% confidence level, but no detailed report is necessary?",
+        "filled_param": {
+          "area_identifier": "D012",
+          "detailed_report": false,
+          "time_period": "2022-02-01, 2022-07-31",
+          "imagery_resolution": "high",
+          "confidence_threshold": 90
+        }
+      },
+      {
+        "query": "Please provide a detailed post-fire recovery status report for the region E345 with medium resolution images spanning from 2021-07-01 to 2022-01-01 and a confidence threshold set at 60%.",
+        "filled_param": {
+          "area_identifier": "E345",
+          "detailed_report": true,
+          "time_period": "2021-07-01, 2022-01-01",
+          "imagery_resolution": "medium",
+          "confidence_threshold": 60
+        }
+      },
+      {
+        "query": "Assess the post-fire recovery status for the forest zone F678 using low-resolution images from 2020-10-01 to 2021-04-30 with a confidence threshold of 70% and provide a non-detailed report.",
+        "filled_param": {
+          "area_identifier": "F678",
+          "detailed_report": false,
+          "time_period": "2020-10-01, 2021-04-30",
+          "imagery_resolution": "low",
+          "confidence_threshold": 70
+        }
+      }
+    ]
+  },
+  "EcoDiversityMonitor_assessVegetation|:|land degradation|:|area_identifier,detailed_report,time_period,imagery_resolution,confidence_threshold": {
+    "tool_template_name": "EcoDiversityMonitor_assessVegetation",
+    "derived_class": "land degradation",
+    "params_for_query": [
+      "area_identifier",
+      "detailed_report",
+      "time_period",
+      "imagery_resolution",
+      "confidence_threshold"
+    ],
+    "queries": [
+      {
+        "query": "Analyze land degradation for area ID 'Forest-123' with a detailed report for the period 2023-01-01 to 2023-06-30 using high-resolution imagery and a 90% confidence threshold.",
+        "filled_param": {
+          "area_identifier": "Forest-123",
+          "detailed_report": true,
+          "time_period": "2023-01-01, 2023-06-30",
+          "imagery_resolution": "high",
+          "confidence_threshold": 90
+        }
+      },
+      {
+        "query": "Can you assess the land degradation for area 'Boreal-456' using medium resolution images from 2022-05-01 to 2022-11-01 with an 85% confidence threshold, and I do not need a detailed report.",
+        "filled_param": {
+          "area_identifier": "Boreal-456",
+          "detailed_report": false,
+          "time_period": "2022-05-01, 2022-11-01",
+          "imagery_resolution": "medium",
+          "confidence_threshold": 85
+        }
+      },
+      {
+        "query": "Please evaluate the land degradation for the forest 'Amazon-789' with low-resolution satellite imagery from 2021-03-01 to 2021-09-01, requiring a detailed analysis with a confidence threshold of 70%.",
+        "filled_param": {
+          "area_identifier": "Amazon-789",
+          "detailed_report": true,
+          "time_period": "2021-03-01, 2021-09-01",
+          "imagery_resolution": "low",
+          "confidence_threshold": 70
+        }
+      },
+      {
+        "query": "I need a land degradation assessment for 'Savana-321' without a detailed report, covering the period from 2020-07-15 to 2020-12-15, using high-resolution imagery and a confidence threshold of 95%.",
+        "filled_param": {
+          "area_identifier": "Savana-321",
+          "detailed_report": false,
+          "time_period": "2020-07-15, 2020-12-15",
+          "imagery_resolution": "high",
+          "confidence_threshold": 95
+        }
+      },
+      {
+        "query": "Conduct a land degradation study for 'Evergreen-654' with detailed reporting, for the dates between 2019-01-10 and 2019-06-30, employing medium resolution images and setting the confidence threshold at 80%.",
+        "filled_param": {
+          "area_identifier": "Evergreen-654",
+          "detailed_report": true,
+          "time_period": "2019-01-10, 2019-06-30",
+          "imagery_resolution": "medium",
+          "confidence_threshold": 80
+        }
+      },
+      {
+        "query": "What is the land degradation status for area 'Rainforest-987' using high-resolution imagery from 2018-03-15 to 2018-09-15, with a detailed report and a confidence threshold of 75%?",
+        "filled_param": {
+          "area_identifier": "Rainforest-987",
+          "detailed_report": true,
+          "time_period": "2018-03-15, 2018-09-15",
+          "imagery_resolution": "high",
+          "confidence_threshold": 75
+        }
+      },
+      {
+        "query": "Assess the land degradation in area 'Deciduous-111' with low-resolution imagery from 2022-02-01 to 2022-08-01, no detailed report necessary, using a 65% confidence threshold.",
+        "filled_param": {
+          "area_identifier": "Deciduous-111",
+          "detailed_report": false,
+          "time_period": "2022-02-01, 2022-08-01",
+          "imagery_resolution": "low",
+          "confidence_threshold": 65
+        }
+      }
+    ]
+  },
+  "EcoDiversityMonitor_assessVegetation|:|forest fragmentation|:|area_identifier,detailed_report,time_period,imagery_resolution,confidence_threshold": {
+    "tool_template_name": "EcoDiversityMonitor_assessVegetation",
+    "derived_class": "forest fragmentation",
+    "params_for_query": [
+      "area_identifier",
+      "detailed_report",
+      "time_period",
+      "imagery_resolution",
+      "confidence_threshold"
+    ],
+    "queries": [
+      {
+        "query": "Evaluate the forest fragmentation in area ID 'FRG-123' with a detailed report for the period 2022-01-01, 2022-12-31 using high-resolution imagery and a confidence threshold of 85%.",
+        "filled_param": {
+          "area_identifier": "FRG-123",
+          "detailed_report": true,
+          "time_period": "2022-01-01, 2022-12-31",
+          "imagery_resolution": "high",
+          "confidence_threshold": 85
+        }
+      },
+      {
+        "query": "Can you assess the forest fragmentation for the sector labeled 'Zone-45' without a detailed report, from 2023-03-01 to 2023-03-31 using medium-resolution imagery and set the confidence threshold at 75%?",
+        "filled_param": {
+          "area_identifier": "Zone-45",
+          "detailed_report": false,
+          "time_period": "2023-03-01, 2023-03-31",
+          "imagery_resolution": "medium",
+          "confidence_threshold": 75
+        }
+      },
+      {
+        "query": "I need a forest fragmentation analysis for the region marked 'ForestBlock-007' with detailed reporting, covering the dates 2021-06-15 to 2021-07-15. Use low-resolution images and ensure a confidence threshold of 60%.",
+        "filled_param": {
+          "area_identifier": "ForestBlock-007",
+          "detailed_report": true,
+          "time_period": "2021-06-15, 2021-07-15",
+          "imagery_resolution": "low",
+          "confidence_threshold": 60
+        }
+      },
+      {
+        "query": "Please perform a forest fragmentation study for 'Area-DX456', generating a detailed report for the timeframe 2021-01-01, 2021-12-31. Use high-resolution satellite data with an 80% confidence threshold.",
+        "filled_param": {
+          "area_identifier": "Area-DX456",
+          "detailed_report": true,
+          "time_period": "2021-01-01, 2021-12-31",
+          "imagery_resolution": "high",
+          "confidence_threshold": 80
+        }
+      },
+      {
+        "query": "Could you check the forest fragmentation for 'Region-QW98' for the dates 2022-08-01 to 2022-08-31, with no detailed report needed? Use medium resolution and aim for a confidence level of 90%.",
+        "filled_param": {
+          "area_identifier": "Region-QW98",
+          "detailed_report": false,
+          "time_period": "2022-08-01, 2022-08-31",
+          "imagery_resolution": "medium",
+          "confidence_threshold": 90
+        }
+      },
+      {
+        "query": "Analyze the forest fragmentation in 'Sector-EX56' over 2021-05-01 to 2021-05-31. A detailed report is required, using low-resolution imagery with a 70% confidence threshold.",
+        "filled_param": {
+          "area_identifier": "Sector-EX56",
+          "detailed_report": true,
+          "time_period": "2021-05-01, 2021-05-31",
+          "imagery_resolution": "low",
+          "confidence_threshold": 70
+        }
+      },
+      {
+        "query": "I want a forest fragmentation assessment for 'Zone-AB12' with detailed analysis for the period 2022-11-01 to 2022-11-30, utilizing high-resolution imagery and setting the confidence threshold at 95%.",
+        "filled_param": {
+          "area_identifier": "Zone-AB12",
+          "detailed_report": true,
+          "time_period": "2022-11-01, 2022-11-30",
+          "imagery_resolution": "high",
+          "confidence_threshold": 95
+        }
+      }
+    ]
+  }
+}

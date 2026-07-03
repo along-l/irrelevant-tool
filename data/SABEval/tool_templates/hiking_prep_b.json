@@ -1,0 +1,51 @@
+{
+  "tool_template_name": "hiking_prep_b",
+  "meta_data": {
+    "base_class": "Provides a specific list of <footwear type> recommendations for common foot conditions. - applicable for querying various types of footwear that need to be selected based on specific foot conditions (e.g., plantar fasciitis, flat feet).",
+    "derived_classes": [
+      "hiking shoes",
+      "running shoes",
+      "dress shoes",
+      "winter boots",
+      "sandals",
+      "house slippers",
+      "nursing shoes"
+    ],
+    "base_class_entity": "hiking shoes"
+  },
+  "tool_template": {
+    "name": "<class>_prep",
+    "description": "Provides a specific list of <class> recommendations for common foot conditions.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "foot_condition": {
+          "type": "string",
+          "description": "Type of foot condition, e.g., plantar fasciitis, flat feet."
+        }
+      },
+      "required": [
+        "foot_condition"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "gender": {
+      "type": "string",
+      "description": "The gender for which the <class> are designed. Options: 'male', 'female' or 'unisex'."
+    },
+    "budget_range": {
+      "type": "string",
+      "description": "The budget range for purchasing the <class>, e.g., low, medium, high."
+    },
+    "color_preference": {
+      "type": "string",
+      "description": "A preferred color for the <class>."
+    },
+    "material_preference": {
+      "type": "string",
+      "description": "Preferred material for the <class>, e.g., leather, synthetic, mesh."
+    }
+  }
+}

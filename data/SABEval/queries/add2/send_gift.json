@@ -1,0 +1,662 @@
+{
+  "send_gift|:|flower bouquet|:|recipient_name,address,selected_item_id,delivery_date,gift_message": {
+    "tool_template_name": "send_gift",
+    "derived_class": "flower bouquet",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date",
+      "gift_message"
+    ],
+    "queries": [
+      {
+        "query": "Please send a flower bouquet with ID F123 to John Doe at 123 Elm Street on November 15th with the message: 'Wishing you a wonderful day!'.",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "123 Elm Street",
+          "selected_item_id": "F123",
+          "delivery_date": "November 15th",
+          "gift_message": "Wishing you a wonderful day!"
+        }
+      },
+      {
+        "query": "I need a flower bouquet, ID B456, sent to Mary Smith, 456 Oak Avenue, on December 1st. Please include the message: 'Happy Birthday, Mary!'.",
+        "filled_param": {
+          "recipient_name": "Mary Smith",
+          "address": "456 Oak Avenue",
+          "selected_item_id": "B456",
+          "delivery_date": "December 1st",
+          "gift_message": "Happy Birthday, Mary!"
+        }
+      },
+      {
+        "query": "Can you arrange for a flower bouquet with the ID G789 to be delivered to Alex Johnson at 789 Pine Road on October 20th? The message should read: 'Congratulations on your promotion!'.",
+        "filled_param": {
+          "recipient_name": "Alex Johnson",
+          "address": "789 Pine Road",
+          "selected_item_id": "G789",
+          "delivery_date": "October 20th",
+          "gift_message": "Congratulations on your promotion!"
+        }
+      },
+      {
+        "query": "Send a flower bouquet, identified by L321, to Liam Davis at 321 Birch Lane on March 5th, with the message: 'Thinking of you during this time.'",
+        "filled_param": {
+          "recipient_name": "Liam Davis",
+          "address": "321 Birch Lane",
+          "selected_item_id": "L321",
+          "delivery_date": "March 5th",
+          "gift_message": "Thinking of you during this time."
+        }
+      },
+      {
+        "query": "I'd like to have the flower bouquet ID Z654 sent to Emily Clark at 654 Cedar Boulevard on February 14th with the note: 'Happy Valentine's Day, Emily!'.",
+        "filled_param": {
+          "recipient_name": "Emily Clark",
+          "address": "654 Cedar Boulevard",
+          "selected_item_id": "Z654",
+          "delivery_date": "February 14th",
+          "gift_message": "Happy Valentine's Day, Emily!"
+        }
+      }
+    ]
+  },
+  "send_gift|:|handmade chocolate|:|recipient_name,address,selected_item_id,delivery_date,gift_message": {
+    "tool_template_name": "send_gift",
+    "derived_class": "handmade chocolate",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date",
+      "gift_message"
+    ],
+    "queries": [
+      {
+        "query": "Please send a delicious handmade chocolate to Sarah Connor at 123 Elm Street, Springfield, with item ID CHOCO123, delivering on October 25th, 2023. Include the message: 'Happy Birthday, Sarah! Have a sweet day!'",
+        "filled_param": {
+          "recipient_name": "Sarah Connor",
+          "address": "123 Elm Street, Springfield",
+          "selected_item_id": "CHOCO123",
+          "delivery_date": "October 25th, 2023",
+          "gift_message": "Happy Birthday, Sarah! Have a sweet day!"
+        }
+      },
+      {
+        "query": "I want to send a box of handmade chocolate to John Doe at 456 Maple Avenue, Rivertown. Use item ID CHOCOLATE007, to be delivered on November 5th, 2023. The message should read: 'Congratulations on your new job, John!'",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "456 Maple Avenue, Rivertown",
+          "selected_item_id": "CHOCOLATE007",
+          "delivery_date": "November 5th, 2023",
+          "gift_message": "Congratulations on your new job, John!"
+        }
+      },
+      {
+        "query": "Arrange for handmade chocolate identified by item ID SWEET456 to be sent to Emma Brown at 789 Cedar Lane, Lakeside, on December 1st, 2023. The gift message should say: 'Merry Christmas, Emma!'",
+        "filled_param": {
+          "recipient_name": "Emma Brown",
+          "address": "789 Cedar Lane, Lakeside",
+          "selected_item_id": "SWEET456",
+          "delivery_date": "December 1st, 2023",
+          "gift_message": "Merry Christmas, Emma!"
+        }
+      },
+      {
+        "query": "Can you send a handmade chocolate with item code YUMMY321 to Michael Scott at 101 Office Street, Scranton? Deliver it on January 15th, 2024, with the message: 'Happy Anniversary, Michael! Enjoy this sweet treat!'",
+        "filled_param": {
+          "recipient_name": "Michael Scott",
+          "address": "101 Office Street, Scranton",
+          "selected_item_id": "YUMMY321",
+          "delivery_date": "January 15th, 2024",
+          "gift_message": "Happy Anniversary, Michael! Enjoy this sweet treat!"
+        }
+      },
+      {
+        "query": "Send the handmade chocolate (ID: DELUXE987) to Linda Green at 202 Birch Road, Mountainview, on February 14th, 2024. Include the message: 'Happy Valentine's Day, Linda! Love you lots!'",
+        "filled_param": {
+          "recipient_name": "Linda Green",
+          "address": "202 Birch Road, Mountainview",
+          "selected_item_id": "DELUXE987",
+          "delivery_date": "February 14th, 2024",
+          "gift_message": "Happy Valentine's Day, Linda! Love you lots!"
+        }
+      }
+    ]
+  },
+  "send_gift|:|hardcover book|:|recipient_name,address,selected_item_id,delivery_date,gift_message": {
+    "tool_template_name": "send_gift",
+    "derived_class": "hardcover book",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date",
+      "gift_message"
+    ],
+    "queries": [
+      {
+        "query": "Please send the hardcover book with ID 12345 to John Doe at 123 Elm Street, Springfield by December 15th. Include the message: 'Happy Birthday, enjoy your new read!'",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "123 Elm Street, Springfield",
+          "selected_item_id": "12345",
+          "delivery_date": "December 15th",
+          "gift_message": "Happy Birthday, enjoy your new read!"
+        }
+      },
+      {
+        "query": "I'd like to ship the hardcover book with ID 67890 to Mary Johnson at 456 Oak Avenue, Greenfield on November 20th. Add a note that says: 'Congratulations on your new job!'",
+        "filled_param": {
+          "recipient_name": "Mary Johnson",
+          "address": "456 Oak Avenue, Greenfield",
+          "selected_item_id": "67890",
+          "delivery_date": "November 20th",
+          "gift_message": "Congratulations on your new job!"
+        }
+      },
+      {
+        "query": "Can you deliver the hardcover book with ID 11223 to Alex Smith, 789 Pine Lane, Blueville by January 5th? Please include the message: 'Wishing you a year full of adventures.'",
+        "filled_param": {
+          "recipient_name": "Alex Smith",
+          "address": "789 Pine Lane, Blueville",
+          "selected_item_id": "11223",
+          "delivery_date": "January 5th",
+          "gift_message": "Wishing you a year full of adventures."
+        }
+      },
+      {
+        "query": "Send the hardcover book with ID 33445 to Sara Lee at 321 Birch Road, Redtown on March 3rd. The gift message should be: 'Hope you love this thrilling story as much as I did!'",
+        "filled_param": {
+          "recipient_name": "Sara Lee",
+          "address": "321 Birch Road, Redtown",
+          "selected_item_id": "33445",
+          "delivery_date": "March 3rd",
+          "gift_message": "Hope you love this thrilling story as much as I did!"
+        }
+      },
+      {
+        "query": "I need the hardcover book with ID 55667 sent to Mike Brown, 654 Cedar Street, Whitetown by April 10th. Include the message: 'Enjoy your downtime with this great book!'",
+        "filled_param": {
+          "recipient_name": "Mike Brown",
+          "address": "654 Cedar Street, Whitetown",
+          "selected_item_id": "55667",
+          "delivery_date": "April 10th",
+          "gift_message": "Enjoy your downtime with this great book!"
+        }
+      }
+    ]
+  },
+  "send_gift|:|Bluetooth earphones|:|recipient_name,address,selected_item_id,delivery_date,gift_message": {
+    "tool_template_name": "send_gift",
+    "derived_class": "Bluetooth earphones",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date",
+      "gift_message"
+    ],
+    "queries": [
+      {
+        "query": "Please send the Bluetooth earphones with ID 12345 to John Doe at 123 Maple Street, Springfield, IL, 62704 for delivery on November 15, 2023. Include the message: 'Happy Birthday, John! Enjoy your new earphones!'",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "123 Maple Street, Springfield, IL, 62704",
+          "selected_item_id": "12345",
+          "delivery_date": "November 15, 2023",
+          "gift_message": "Happy Birthday, John! Enjoy your new earphones!"
+        }
+      },
+      {
+        "query": "I'd like to send Bluetooth earphones, product ID 67890, to Emily Waters at 456 Oak Avenue, Boston, MA, 02118, to be delivered by December 1, 2023. Add this note: 'Congrats on your promotion, Emily! Have a great listening experience!'",
+        "filled_param": {
+          "recipient_name": "Emily Waters",
+          "address": "456 Oak Avenue, Boston, MA, 02118",
+          "selected_item_id": "67890",
+          "delivery_date": "December 1, 2023",
+          "gift_message": "Congrats on your promotion, Emily! Have a great listening experience!"
+        }
+      },
+      {
+        "query": "Send the Bluetooth earphones with ID 54321 to Kevin Brown at 789 Pine Road, Seattle, WA, 98101, aiming for delivery on November 20, 2023. The message should read: 'Merry Christmas, Kevin! Hope you enjoy these!'",
+        "filled_param": {
+          "recipient_name": "Kevin Brown",
+          "address": "789 Pine Road, Seattle, WA, 98101",
+          "selected_item_id": "54321",
+          "delivery_date": "November 20, 2023",
+          "gift_message": "Merry Christmas, Kevin! Hope you enjoy these!"
+        }
+      },
+      {
+        "query": "Arrange for the Bluetooth earphones with item ID 98765 to be delivered to Sarah Johnson at 321 Birch Lane, Atlanta, GA, 30303, by November 25, 2023. Please include the note: 'Surprise! Enjoy your new tech, Sarah!'",
+        "filled_param": {
+          "recipient_name": "Sarah Johnson",
+          "address": "321 Birch Lane, Atlanta, GA, 30303",
+          "selected_item_id": "98765",
+          "delivery_date": "November 25, 2023",
+          "gift_message": "Surprise! Enjoy your new tech, Sarah!"
+        }
+      },
+      {
+        "query": "Can you send Bluetooth earphones ID 24680 to Mike Wilson at 654 Cedar Court, Denver, CO, 80205, and have them arrive by December 5, 2023? Add this gift message: 'To my best buddy, Mike, enjoy the beats!'",
+        "filled_param": {
+          "recipient_name": "Mike Wilson",
+          "address": "654 Cedar Court, Denver, CO, 80205",
+          "selected_item_id": "24680",
+          "delivery_date": "December 5, 2023",
+          "gift_message": "To my best buddy, Mike, enjoy the beats!"
+        }
+      }
+    ]
+  },
+  "send_gift|:|red wine|:|recipient_name,address,selected_item_id,delivery_date,gift_message": {
+    "tool_template_name": "send_gift",
+    "derived_class": "red wine",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date",
+      "gift_message"
+    ],
+    "queries": [
+      {
+        "query": "Please send a bottle of red wine with ID 3467 to John Doe at 123 Elm Street, Springfield, to arrive on October 20, 2023. Include a card saying 'Happy Birthday, enjoy this special day!'",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "123 Elm Street, Springfield",
+          "selected_item_id": "3467",
+          "delivery_date": "October 20, 2023",
+          "gift_message": "Happy Birthday, enjoy this special day!"
+        }
+      },
+      {
+        "query": "Can you deliver the red wine with item ID 4512 to Sarah Lee at 987 Oak Avenue, Rivertown, on November 5, 2023? Add the message 'Congratulations on your new home!'",
+        "filled_param": {
+          "recipient_name": "Sarah Lee",
+          "address": "987 Oak Avenue, Rivertown",
+          "selected_item_id": "4512",
+          "delivery_date": "November 5, 2023",
+          "gift_message": "Congratulations on your new home!"
+        }
+      },
+      {
+        "query": "I'd like to send a bottle of red wine (ID: 5879) to Michael Brown, 456 Pine Lane, Uptown, with a delivery date of December 15, 2023. The note should read 'Merry Christmas, enjoy the festivities!'",
+        "filled_param": {
+          "recipient_name": "Michael Brown",
+          "address": "456 Pine Lane, Uptown",
+          "selected_item_id": "5879",
+          "delivery_date": "December 15, 2023",
+          "gift_message": "Merry Christmas, enjoy the festivities!"
+        }
+      },
+      {
+        "query": "Arrange for red wine with ID 6723 to be sent to Emma Wilson at 789 Maple Drive, Lakeview, by September 29, 2023. Include 'Cheers to your new venture!' as the gift message.",
+        "filled_param": {
+          "recipient_name": "Emma Wilson",
+          "address": "789 Maple Drive, Lakeview",
+          "selected_item_id": "6723",
+          "delivery_date": "September 29, 2023",
+          "gift_message": "Cheers to your new venture!"
+        }
+      },
+      {
+        "query": "Send the red wine with item ID 8394 to David Smith, 321 Cherry Blvd, Cityside, ensuring it arrives on August 10, 2023. Include a note saying 'Enjoy this delightful wine on your special day!'",
+        "filled_param": {
+          "recipient_name": "David Smith",
+          "address": "321 Cherry Blvd, Cityside",
+          "selected_item_id": "8394",
+          "delivery_date": "August 10, 2023",
+          "gift_message": "Enjoy this delightful wine on your special day!"
+        }
+      }
+    ]
+  },
+  "send_gift|:|tea|:|recipient_name,address,selected_item_id,delivery_date,gift_message": {
+    "tool_template_name": "send_gift",
+    "derived_class": "tea",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date",
+      "gift_message"
+    ],
+    "queries": [
+      {
+        "query": "Please send tea to John Doe at 123 Maple Street, Springfield with item ID T12345, on October 25th, 2023. Include a gift message: 'Happy Birthday, enjoy your special day!'",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "123 Maple Street, Springfield",
+          "selected_item_id": "T12345",
+          "delivery_date": "October 25th, 2023",
+          "gift_message": "Happy Birthday, enjoy your special day!"
+        }
+      },
+      {
+        "query": "Arrange for tea delivery to Emily Green, 456 Elm Street, New York. The tea code is T98765, and it should arrive by November 1st, 2023. Please include the message: 'Get well soon, Emily!'",
+        "filled_param": {
+          "recipient_name": "Emily Green",
+          "address": "456 Elm Street, New York",
+          "selected_item_id": "T98765",
+          "delivery_date": "November 1st, 2023",
+          "gift_message": "Get well soon, Emily!"
+        }
+      },
+      {
+        "query": "Can you send tea with ID T24680 to Andrew Brown at 789 Pine Avenue, Boston for delivery on December 10th, 2023? Add this message: 'Congratulations on your new job!'",
+        "filled_param": {
+          "recipient_name": "Andrew Brown",
+          "address": "789 Pine Avenue, Boston",
+          "selected_item_id": "T24680",
+          "delivery_date": "December 10th, 2023",
+          "gift_message": "Congratulations on your new job!"
+        }
+      },
+      {
+        "query": "Deliver tea to Linda White, 321 Oak Drive, Miami, using item ID T13579, by December 24th, 2023. The message should read: 'Merry Christmas, Linda!'",
+        "filled_param": {
+          "recipient_name": "Linda White",
+          "address": "321 Oak Drive, Miami",
+          "selected_item_id": "T13579",
+          "delivery_date": "December 24th, 2023",
+          "gift_message": "Merry Christmas, Linda!"
+        }
+      },
+      {
+        "query": "I'd like to send tea with the code T11223 to Michael Scott at 987 Birch Lane, Scranton, for delivery on November 15th, 2023. Include the message: 'Best wishes for your new venture!'",
+        "filled_param": {
+          "recipient_name": "Michael Scott",
+          "address": "987 Birch Lane, Scranton",
+          "selected_item_id": "T11223",
+          "delivery_date": "November 15th, 2023",
+          "gift_message": "Best wishes for your new venture!"
+        }
+      }
+    ]
+  },
+  "send_gift|:|fountain pen|:|recipient_name,address,selected_item_id,delivery_date,gift_message": {
+    "tool_template_name": "send_gift",
+    "derived_class": "fountain pen",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date",
+      "gift_message"
+    ],
+    "queries": [
+      {
+        "query": "Please send the fountain pen with ID 12345 to John Doe, 456 Elm Street, Springfield, by the 15th of March. Include the gift message: 'Happy Birthday, John!'",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "456 Elm Street, Springfield",
+          "selected_item_id": "12345",
+          "delivery_date": "15th of March",
+          "gift_message": "Happy Birthday, John!"
+        }
+      },
+      {
+        "query": "I would like to have the fountain pen with item ID 67890 delivered to Sarah Connor at 789 Sunset Blvd, Los Angeles, on May 20th. The message should read: 'Congratulations on your promotion!'",
+        "filled_param": {
+          "recipient_name": "Sarah Connor",
+          "address": "789 Sunset Blvd, Los Angeles",
+          "selected_item_id": "67890",
+          "delivery_date": "May 20th",
+          "gift_message": "Congratulations on your promotion!"
+        }
+      },
+      {
+        "query": "Arrange delivery of the fountain pen identified by ID 54321 to Michael Smith, 101 Maple Avenue, Chicago, on April 10th. Add this message: 'Wishing you all the best for your new venture!'",
+        "filled_param": {
+          "recipient_name": "Michael Smith",
+          "address": "101 Maple Avenue, Chicago",
+          "selected_item_id": "54321",
+          "delivery_date": "April 10th",
+          "gift_message": "Wishing you all the best for your new venture!"
+        }
+      },
+      {
+        "query": "I need the fountain pen with ID 11223 sent to Emily Jones at 32 Oak Lane, New York, by January 5th. Please include this message: 'Merry Christmas and Happy New Year!'",
+        "filled_param": {
+          "recipient_name": "Emily Jones",
+          "address": "32 Oak Lane, New York",
+          "selected_item_id": "11223",
+          "delivery_date": "January 5th",
+          "gift_message": "Merry Christmas and Happy New Year!"
+        }
+      },
+      {
+        "query": "Send the fountain pen designated by ID 33445 to David Tennant, 12 Baker Street, London, with delivery set for June 30th. Add the message: 'Happy Anniversary, my love.'",
+        "filled_param": {
+          "recipient_name": "David Tennant",
+          "address": "12 Baker Street, London",
+          "selected_item_id": "33445",
+          "delivery_date": "June 30th",
+          "gift_message": "Happy Anniversary, my love."
+        }
+      }
+    ]
+  },
+  "send_gift|:|skincare|:|recipient_name,address,selected_item_id,delivery_date,gift_message": {
+    "tool_template_name": "send_gift",
+    "derived_class": "skincare",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date",
+      "gift_message"
+    ],
+    "queries": [
+      {
+        "query": "Please send the skincare item with ID SK1234 to Jane Doe at 123 Elm Street, Springfield. I would like it delivered on December 12, 2023, and include a gift message: 'Happy Holidays, Jane!'",
+        "filled_param": {
+          "recipient_name": "Jane Doe",
+          "address": "123 Elm Street, Springfield",
+          "selected_item_id": "SK1234",
+          "delivery_date": "December 12, 2023",
+          "gift_message": "Happy Holidays, Jane!"
+        }
+      },
+      {
+        "query": "I want the skincare product ID SK5678 sent to Mark Smith, residing at 456 Oak Avenue, Rivertown. Make sure it arrives by November 25, 2023, with this message: 'Enjoy your new skincare, Mark!'",
+        "filled_param": {
+          "recipient_name": "Mark Smith",
+          "address": "456 Oak Avenue, Rivertown",
+          "selected_item_id": "SK5678",
+          "delivery_date": "November 25, 2023",
+          "gift_message": "Enjoy your new skincare, Mark!"
+        }
+      },
+      {
+        "query": "Send the skincare with ID SK9101 to Lisa Brown at 789 Pine Road, Forestville. Please deliver it on January 5, 2024, and include the message: 'Take care of yourself, Lisa!'",
+        "filled_param": {
+          "recipient_name": "Lisa Brown",
+          "address": "789 Pine Road, Forestville",
+          "selected_item_id": "SK9101",
+          "delivery_date": "January 5, 2024",
+          "gift_message": "Take care of yourself, Lisa!"
+        }
+      },
+      {
+        "query": "Could you arrange for the skincare item ID SK1112 to be sent to John White, 321 Birch Lane, Lakeview? It should arrive on February 14, 2024, and say: 'Happy Valentine's Day, John!'",
+        "filled_param": {
+          "recipient_name": "John White",
+          "address": "321 Birch Lane, Lakeview",
+          "selected_item_id": "SK1112",
+          "delivery_date": "February 14, 2024",
+          "gift_message": "Happy Valentine's Day, John!"
+        }
+      },
+      {
+        "query": "Arrange delivery of skincare product ID SK3141 to Emma Green, located at 654 Maple Street, Oceanview. I want it there by March 3, 2024, with a message: 'Wishing you the best, Emma!'",
+        "filled_param": {
+          "recipient_name": "Emma Green",
+          "address": "654 Maple Street, Oceanview",
+          "selected_item_id": "SK3141",
+          "delivery_date": "March 3, 2024",
+          "gift_message": "Wishing you the best, Emma!"
+        }
+      },
+      {
+        "query": "I need the skincare product SK1516 sent to Alex Johnson at 987 Cedar Avenue, Hilltown, to arrive by April 20, 2024. Include the message: 'Here's to glowing skin, Alex!'",
+        "filled_param": {
+          "recipient_name": "Alex Johnson",
+          "address": "987 Cedar Avenue, Hilltown",
+          "selected_item_id": "SK1516",
+          "delivery_date": "April 20, 2024",
+          "gift_message": "Here's to glowing skin, Alex!"
+        }
+      }
+    ]
+  },
+  "send_gift|:|board game|:|recipient_name,address,selected_item_id,delivery_date,gift_message": {
+    "tool_template_name": "send_gift",
+    "derived_class": "board game",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date",
+      "gift_message"
+    ],
+    "queries": [
+      {
+        "query": "Please send the board game with ID BG123 to John Doe at 123 Elm Street, Springfield. Deliver it by November 25, 2023, and include a message saying 'Happy Birthday, John! Enjoy your new game!'",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "123 Elm Street, Springfield",
+          "selected_item_id": "BG123",
+          "delivery_date": "November 25, 2023",
+          "gift_message": "Happy Birthday, John! Enjoy your new game!"
+        }
+      },
+      {
+        "query": "I'd like to have the board game with ID BG456 sent to Sarah Lee at 789 Pine Avenue, Boston. Can it be delivered by December 10, 2023? Add a message that says 'Congratulations on your promotion!'",
+        "filled_param": {
+          "recipient_name": "Sarah Lee",
+          "address": "789 Pine Avenue, Boston",
+          "selected_item_id": "BG456",
+          "delivery_date": "December 10, 2023",
+          "gift_message": "Congratulations on your promotion!"
+        }
+      },
+      {
+        "query": "Ship the board game with ID BG789 to Michael Scott at 456 Dunder Avenue, Scranton. Ensure it arrives by January 5, 2024, with the message 'Best wishes for a fantastic new year!'",
+        "filled_param": {
+          "recipient_name": "Michael Scott",
+          "address": "456 Dunder Avenue, Scranton",
+          "selected_item_id": "BG789",
+          "delivery_date": "January 5, 2024",
+          "gift_message": "Best wishes for a fantastic new year!"
+        }
+      },
+      {
+        "query": "Send the board game identified by ID BG321 to Emily Clark at 321 Oak Lane, Austin. It should be delivered by December 20, 2023, and include a note saying 'Merry Christmas, Emily!'",
+        "filled_param": {
+          "recipient_name": "Emily Clark",
+          "address": "321 Oak Lane, Austin",
+          "selected_item_id": "BG321",
+          "delivery_date": "December 20, 2023",
+          "gift_message": "Merry Christmas, Emily!"
+        }
+      },
+      {
+        "query": "Can you deliver the board game with ID BG654 to Jacob Brown at 555 Maple Street, Seattle? Please have it arrive by February 14, 2024, with the message 'Happy Valentine's Day, Jacob!'",
+        "filled_param": {
+          "recipient_name": "Jacob Brown",
+          "address": "555 Maple Street, Seattle",
+          "selected_item_id": "BG654",
+          "delivery_date": "February 14, 2024",
+          "gift_message": "Happy Valentine's Day, Jacob!"
+        }
+      },
+      {
+        "query": "I want the board game with ID BG987 sent to Lisa White at 789 Birch Road, Denver. Deliver it by March 1, 2024, with the note 'Enjoy your new board game, Lisa!'",
+        "filled_param": {
+          "recipient_name": "Lisa White",
+          "address": "789 Birch Road, Denver",
+          "selected_item_id": "BG987",
+          "delivery_date": "March 1, 2024",
+          "gift_message": "Enjoy your new board game, Lisa!"
+        }
+      }
+    ]
+  },
+  "send_gift|:|perfume|:|recipient_name,address,selected_item_id,delivery_date,gift_message": {
+    "tool_template_name": "send_gift",
+    "derived_class": "perfume",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date",
+      "gift_message"
+    ],
+    "queries": [
+      {
+        "query": "Please send the perfume with ID P12345 to John Doe at 123 Maple Street, Springfield, with delivery on November 5, 2023, and include the message: 'Happy Birthday, John! Enjoy your special day.'",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "123 Maple Street, Springfield",
+          "selected_item_id": "P12345",
+          "delivery_date": "November 5, 2023",
+          "gift_message": "Happy Birthday, John! Enjoy your special day."
+        }
+      },
+      {
+        "query": "I want to send perfume ID A9876 to Emily Clark, 456 Elm Road, Chicago, arriving by December 12, 2023. Add a card saying: 'Wishing you a wonderful holiday season, Emily!'",
+        "filled_param": {
+          "recipient_name": "Emily Clark",
+          "address": "456 Elm Road, Chicago",
+          "selected_item_id": "A9876",
+          "delivery_date": "December 12, 2023",
+          "gift_message": "Wishing you a wonderful holiday season, Emily!"
+        }
+      },
+      {
+        "query": "Could you arrange for the perfume with the ID B2345 to be sent to Michael Brown at 789 Pine Lane, Boston, on October 20, 2023? Please include this message: 'Congrats on the new job, Michael! Celebrate in style.'",
+        "filled_param": {
+          "recipient_name": "Michael Brown",
+          "address": "789 Pine Lane, Boston",
+          "selected_item_id": "B2345",
+          "delivery_date": "October 20, 2023",
+          "gift_message": "Congrats on the new job, Michael! Celebrate in style."
+        }
+      },
+      {
+        "query": "Send a perfume with ID C3456 to Lisa White at 101 Birch Avenue, New York, scheduled for delivery on January 15, 2024. The message should read: 'Happy Anniversary, Lisa! Love always.'",
+        "filled_param": {
+          "recipient_name": "Lisa White",
+          "address": "101 Birch Avenue, New York",
+          "selected_item_id": "C3456",
+          "delivery_date": "January 15, 2024",
+          "gift_message": "Happy Anniversary, Lisa! Love always."
+        }
+      },
+      {
+        "query": "I would like to have the perfume identified by ID D6789 sent to Paul Green at 202 Oak Boulevard, Los Angeles. Deliver it on November 25, 2023, with the message: 'Thinking of you, Paul. Hope you enjoy this.'",
+        "filled_param": {
+          "recipient_name": "Paul Green",
+          "address": "202 Oak Boulevard, Los Angeles",
+          "selected_item_id": "D6789",
+          "delivery_date": "November 25, 2023",
+          "gift_message": "Thinking of you, Paul. Hope you enjoy this."
+        }
+      },
+      {
+        "query": "Arrange the delivery of perfume ID E8901 to Sarah Lee at 303 Cedar Street, Miami, for October 30, 2023. The accompanying note should say: 'Sarah, wishing you a fantastic birthday filled with joy!'",
+        "filled_param": {
+          "recipient_name": "Sarah Lee",
+          "address": "303 Cedar Street, Miami",
+          "selected_item_id": "E8901",
+          "delivery_date": "October 30, 2023",
+          "gift_message": "Sarah, wishing you a fantastic birthday filled with joy!"
+        }
+      }
+    ]
+  }
+}

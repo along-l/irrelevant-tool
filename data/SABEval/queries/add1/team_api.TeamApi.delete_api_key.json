@@ -1,0 +1,550 @@
+{
+  "team_api.TeamApi.delete_api_key|:|OpenAI|:|apikey,confirmation_required": {
+    "tool_template_name": "team_api.TeamApi.delete_api_key",
+    "derived_class": "OpenAI",
+    "params_for_query": [
+      "apikey",
+      "confirmation_required"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the OpenAI API key with ID 'sk-12345abc' and make sure to confirm before proceeding.",
+        "filled_param": {
+          "apikey": "sk-12345abc",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "Remove the OpenAI API key identified by 'sk-67890xyz' without any confirmation prompt.",
+        "filled_param": {
+          "apikey": "sk-67890xyz",
+          "confirmation_required": false
+        }
+      },
+      {
+        "query": "Could you delete the OpenAI key 'sk-24680def'? Ensure that it asks for confirmation first.",
+        "filled_param": {
+          "apikey": "sk-24680def",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "Delete the OpenAI API key 'sk-13579uvw' and proceed without asking for confirmation.",
+        "filled_param": {
+          "apikey": "sk-13579uvw",
+          "confirmation_required": false
+        }
+      },
+      {
+        "query": "I need you to remove the API key 'sk-11223abc' from OpenAI, but please confirm before doing it.",
+        "filled_param": {
+          "apikey": "sk-11223abc",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "Please proceed with deleting the OpenAI API key 'sk-445566ggg', confirm first.",
+        "filled_param": {
+          "apikey": "sk-445566ggg",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "Can you get rid of the OpenAI key 'sk-998877hhh' and skip the confirmation step?",
+        "filled_param": {
+          "apikey": "sk-998877hhh",
+          "confirmation_required": false
+        }
+      }
+    ]
+  },
+  "team_api.TeamApi.delete_api_key|:|Google Cloud|:|apikey,confirmation_required": {
+    "tool_template_name": "team_api.TeamApi.delete_api_key",
+    "derived_class": "Google Cloud",
+    "params_for_query": [
+      "apikey",
+      "confirmation_required"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the Google Cloud API key with ID 12345-abcde-67890-fghij, and show a confirmation prompt before proceeding.",
+        "filled_param": {
+          "apikey": "12345-abcde-67890-fghij",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "Remove the API key 98765-xyz-43210-mnopq from Google Cloud without any confirmation.",
+        "filled_param": {
+          "apikey": "98765-xyz-43210-mnopq",
+          "confirmation_required": false
+        }
+      },
+      {
+        "query": "Can you delete the Google Cloud API key identified as 54321-lkjhg-09876-mnbvc and ensure a confirmation prompt is displayed?",
+        "filled_param": {
+          "apikey": "54321-lkjhg-09876-mnbvc",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "I need the API key with the identifier abcde-12345-fghij-67890 removed from our Google Cloud account, but don't prompt for confirmation.",
+        "filled_param": {
+          "apikey": "abcde-12345-fghij-67890",
+          "confirmation_required": false
+        }
+      },
+      {
+        "query": "Delete the Google Cloud API key 13579-bcdfg-24680-hijklm and make sure there's a confirmation prompt.",
+        "filled_param": {
+          "apikey": "13579-bcdfg-24680-hijklm",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "Take out the API key 24680-qwerty-13579-asdfgh from Google Cloud and skip any confirmation.",
+        "filled_param": {
+          "apikey": "24680-qwerty-13579-asdfgh",
+          "confirmation_required": false
+        }
+      }
+    ]
+  },
+  "team_api.TeamApi.delete_api_key|:|AWS|:|apikey,confirmation_required": {
+    "tool_template_name": "team_api.TeamApi.delete_api_key",
+    "derived_class": "AWS",
+    "params_for_query": [
+      "apikey",
+      "confirmation_required"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the AWS API key with the identifier 'ABC123XYZ' and ensure a confirmation prompt is shown beforehand.",
+        "filled_param": {
+          "apikey": "ABC123XYZ",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "Remove the AWS API key labeled 'KEY7890' without any confirmation.",
+        "filled_param": {
+          "apikey": "KEY7890",
+          "confirmation_required": false
+        }
+      },
+      {
+        "query": "Can you delete the AWS API key 'XYZ987ABC' and confirm the action with me first?",
+        "filled_param": {
+          "apikey": "XYZ987ABC",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "I need the AWS API key '12345QWERTY' to be removed immediately, no confirmation needed.",
+        "filled_param": {
+          "apikey": "12345QWERTY",
+          "confirmation_required": false
+        }
+      },
+      {
+        "query": "Before deleting, confirm with me to remove the AWS API key 'LMNOP678'.",
+        "filled_param": {
+          "apikey": "LMNOP678",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "Get rid of the AWS API key 'ZZZ111YYY' and skip the confirmation step.",
+        "filled_param": {
+          "apikey": "ZZZ111YYY",
+          "confirmation_required": false
+        }
+      }
+    ]
+  },
+  "team_api.TeamApi.delete_api_key|:|Azure|:|apikey,confirmation_required": {
+    "tool_template_name": "team_api.TeamApi.delete_api_key",
+    "derived_class": "Azure",
+    "params_for_query": [
+      "apikey",
+      "confirmation_required"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the Azure API key with the identifier 'abc123', but ensure a confirmation prompt appears first.",
+        "filled_param": {
+          "apikey": "abc123",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "Remove the Azure API key 'xyz789' and skip the confirmation prompt.",
+        "filled_param": {
+          "apikey": "xyz789",
+          "confirmation_required": false
+        }
+      },
+      {
+        "query": "Can you delete the Azure API key 'key456' and make sure to include a confirmation prompt?",
+        "filled_param": {
+          "apikey": "key456",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "I need the Azure API key 'token345' deleted without any confirmation.",
+        "filled_param": {
+          "apikey": "token345",
+          "confirmation_required": false
+        }
+      },
+      {
+        "query": "Kindly remove the API key 'AzureKey001' from Azure and show a confirmation prompt before proceeding.",
+        "filled_param": {
+          "apikey": "AzureKey001",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "Delete the Azure API key 'secureApi567' and proceed without asking for confirmation.",
+        "filled_param": {
+          "apikey": "secureApi567",
+          "confirmation_required": false
+        }
+      }
+    ]
+  },
+  "team_api.TeamApi.delete_api_key|:|GitHub|:|apikey,confirmation_required": {
+    "tool_template_name": "team_api.TeamApi.delete_api_key",
+    "derived_class": "GitHub",
+    "params_for_query": [
+      "apikey",
+      "confirmation_required"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the GitHub API key with the identifier 12345-abcde, and make sure to show a confirmation prompt before proceeding.",
+        "filled_param": {
+          "apikey": "12345-abcde",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "Remove the GitHub API key labeled as 67890-fghij without requiring any confirmation.",
+        "filled_param": {
+          "apikey": "67890-fghij",
+          "confirmation_required": false
+        }
+      },
+      {
+        "query": "Can you delete the GitHub API key with ID 11223-ijkl for me? A confirmation step should be included.",
+        "filled_param": {
+          "apikey": "11223-ijkl",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "Delete the API key for GitHub with identifier 44556-mnop, but skip the confirmation dialog.",
+        "filled_param": {
+          "apikey": "44556-mnop",
+          "confirmation_required": false
+        }
+      },
+      {
+        "query": "I need the GitHub API key 77889-qrst removed. Please ensure you confirm this action before deletion.",
+        "filled_param": {
+          "apikey": "77889-qrst",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "Delete the GitHub API key identified by 99001-uvwx, and do not show any confirmation prompt.",
+        "filled_param": {
+          "apikey": "99001-uvwx",
+          "confirmation_required": false
+        }
+      },
+      {
+        "query": "Please ensure the GitHub API key 22334-yzab is deleted with a confirmation step involved.",
+        "filled_param": {
+          "apikey": "22334-yzab",
+          "confirmation_required": true
+        }
+      }
+    ]
+  },
+  "team_api.TeamApi.delete_api_key|:|Hugging Face|:|apikey,confirmation_required": {
+    "tool_template_name": "team_api.TeamApi.delete_api_key",
+    "derived_class": "Hugging Face",
+    "params_for_query": [
+      "apikey",
+      "confirmation_required"
+    ],
+    "queries": [
+      {
+        "query": "Please remove the Hugging Face API key with ID 'abc123'. Make sure to prompt for confirmation first.",
+        "filled_param": {
+          "apikey": "abc123",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "Delete the Hugging Face API key 'xyz789' without asking for confirmation.",
+        "filled_param": {
+          "apikey": "xyz789",
+          "confirmation_required": false
+        }
+      },
+      {
+        "query": "Can you delete the API key 'key456' from Hugging Face, and confirm with me before proceeding?",
+        "filled_param": {
+          "apikey": "key456",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "I need the Hugging Face API key 'api001' deleted. No confirmation is necessary.",
+        "filled_param": {
+          "apikey": "api001",
+          "confirmation_required": false
+        }
+      },
+      {
+        "query": "Remove the API key '123abc' from our Hugging Face account. Ensure that I confirm before it's deleted.",
+        "filled_param": {
+          "apikey": "123abc",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "Could you delete the Hugging Face API key '789xyz' with a confirmation prompt?",
+        "filled_param": {
+          "apikey": "789xyz",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "Initiate the deletion of the Hugging Face API key 'k987tg'. Skip any confirmation step.",
+        "filled_param": {
+          "apikey": "k987tg",
+          "confirmation_required": false
+        }
+      }
+    ]
+  },
+  "team_api.TeamApi.delete_api_key|:|Slack|:|apikey,confirmation_required": {
+    "tool_template_name": "team_api.TeamApi.delete_api_key",
+    "derived_class": "Slack",
+    "params_for_query": [
+      "apikey",
+      "confirmation_required"
+    ],
+    "queries": [
+      {
+        "query": "Please remove the Slack API key 123abc456def and ensure there's no confirmation prompt.",
+        "filled_param": {
+          "apikey": "123abc456def",
+          "confirmation_required": false
+        }
+      },
+      {
+        "query": "Can you delete the API key xyz789ghi012 from our Slack account, but confirm before proceeding?",
+        "filled_param": {
+          "apikey": "xyz789ghi012",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "I need the Slack API key deletion for a1b2c3d4 without any confirmation.",
+        "filled_param": {
+          "apikey": "a1b2c3d4",
+          "confirmation_required": false
+        }
+      },
+      {
+        "query": "Execute the removal of API key 789jkl456mno for Slack with a confirmation prompt.",
+        "filled_param": {
+          "apikey": "789jkl456mno",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "Get rid of the Slack API key 321zyx654wvu and do it without asking for confirmation.",
+        "filled_param": {
+          "apikey": "321zyx654wvu",
+          "confirmation_required": false
+        }
+      },
+      {
+        "query": "Delete the Slack API key pqr567stu890 but please confirm with me first.",
+        "filled_param": {
+          "apikey": "pqr567stu890",
+          "confirmation_required": true
+        }
+      }
+    ]
+  },
+  "team_api.TeamApi.delete_api_key|:|Notion|:|apikey,confirmation_required": {
+    "tool_template_name": "team_api.TeamApi.delete_api_key",
+    "derived_class": "Notion",
+    "params_for_query": [
+      "apikey",
+      "confirmation_required"
+    ],
+    "queries": [
+      {
+        "query": "Delete the Notion API key with identifier 'abc123', and please ensure a confirmation prompt is shown.",
+        "filled_param": {
+          "apikey": "abc123",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "Remove the Notion API key labeled as 'key789xyz' without requiring a confirmation prompt.",
+        "filled_param": {
+          "apikey": "key789xyz",
+          "confirmation_required": false
+        }
+      },
+      {
+        "query": "Can you delete the Notion API key 'key456def'? Make sure to show a confirmation prompt before proceeding.",
+        "filled_param": {
+          "apikey": "key456def",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "Please remove the Notion API key identified by 'notionKey098' and skip any confirmation prompts.",
+        "filled_param": {
+          "apikey": "notionKey098",
+          "confirmation_required": false
+        }
+      },
+      {
+        "query": "I need to delete the API key 'notionKey321' for Notion with a confirmation prompt.",
+        "filled_param": {
+          "apikey": "notionKey321",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "Kindly delete the Notion API key 'abcKey123' without prompting for confirmation.",
+        "filled_param": {
+          "apikey": "abcKey123",
+          "confirmation_required": false
+        }
+      },
+      {
+        "query": "Remove the API key 'key012Notion' for our Notion account, but only after confirming.",
+        "filled_param": {
+          "apikey": "key012Notion",
+          "confirmation_required": true
+        }
+      }
+    ]
+  },
+  "team_api.TeamApi.delete_api_key|:|Anthropic|:|apikey,confirmation_required": {
+    "tool_template_name": "team_api.TeamApi.delete_api_key",
+    "derived_class": "Anthropic",
+    "params_for_query": [
+      "apikey",
+      "confirmation_required"
+    ],
+    "queries": [
+      {
+        "query": "Please remove the Anthropic API key with ID ABC123 and prompt for confirmation before proceeding.",
+        "filled_param": {
+          "apikey": "ABC123",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "Delete the Anthropic API key identified as KEY789 immediately, skipping any confirmation.",
+        "filled_param": {
+          "apikey": "KEY789",
+          "confirmation_required": false
+        }
+      },
+      {
+        "query": "Can you delete the Anthropic API key with the code XYZ456 and ensure a confirmation is shown?",
+        "filled_param": {
+          "apikey": "XYZ456",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "Remove the Anthropic access key LMO321 but do not require a confirmation dialog.",
+        "filled_param": {
+          "apikey": "LMO321",
+          "confirmation_required": false
+        }
+      },
+      {
+        "query": "I'd like to delete the Anthropic API key labeled as DEF654 and have a confirmation step included.",
+        "filled_param": {
+          "apikey": "DEF654",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "Get rid of the Anthropic API key with the identifier GHI987 without asking for confirmation.",
+        "filled_param": {
+          "apikey": "GHI987",
+          "confirmation_required": false
+        }
+      }
+    ]
+  },
+  "team_api.TeamApi.delete_api_key|:|IBM Cloud|:|apikey,confirmation_required": {
+    "tool_template_name": "team_api.TeamApi.delete_api_key",
+    "derived_class": "IBM Cloud",
+    "params_for_query": [
+      "apikey",
+      "confirmation_required"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the IBM Cloud API key with the identifier 'abc123' and make sure a confirmation prompt is shown before proceeding.",
+        "filled_param": {
+          "apikey": "abc123",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "Remove the API key 'key98765' from IBM Cloud without any confirmation prompt.",
+        "filled_param": {
+          "apikey": "key98765",
+          "confirmation_required": false
+        }
+      },
+      {
+        "query": "Kindly proceed to delete the IBM Cloud API key identified by 'xyz456', ensuring a confirmation is required.",
+        "filled_param": {
+          "apikey": "xyz456",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "Delete the IBM Cloud API key 'apiKey12345' but do not ask for confirmation.",
+        "filled_param": {
+          "apikey": "apiKey12345",
+          "confirmation_required": false
+        }
+      },
+      {
+        "query": "Can you remove the IBM Cloud API key with ID 'key001' and ensure that a confirmation prompt appears?",
+        "filled_param": {
+          "apikey": "key001",
+          "confirmation_required": true
+        }
+      },
+      {
+        "query": "I need the IBM Cloud API key 'uniqueKey999' deleted without a confirmation step.",
+        "filled_param": {
+          "apikey": "uniqueKey999",
+          "confirmation_required": false
+        }
+      }
+    ]
+  }
+}

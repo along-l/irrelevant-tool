@@ -1,0 +1,891 @@
+{
+  "GetPrimeMinisters|:|presidents|:|countries,start_date": {
+    "tool_template_name": "GetPrimeMinisters",
+    "derived_class": "presidents",
+    "params_for_query": [
+      "countries",
+      "start_date"
+    ],
+    "queries": [
+      {
+        "query": "Can you tell me the names of the current presidents of Brazil, France, and Japan as of 2023-09-01?",
+        "filled_param": {
+          "countries": [
+            "Brazil",
+            "France",
+            "Japan"
+          ],
+          "start_date": "2023-09-01"
+        }
+      },
+      {
+        "query": "I need to know who the presidents of Nigeria and Canada were starting from 2023-01-15.",
+        "filled_param": {
+          "countries": [
+            "Nigeria",
+            "Canada"
+          ],
+          "start_date": "2023-01-15"
+        }
+      },
+      {
+        "query": "Provide me with the presidents' names for India, Germany, and South Africa from the date 2022-12-01.",
+        "filled_param": {
+          "countries": [
+            "India",
+            "Germany",
+            "South Africa"
+          ],
+          "start_date": "2022-12-01"
+        }
+      },
+      {
+        "query": "Who were the acting presidents of the United States and China on 2023-05-20?",
+        "filled_param": {
+          "countries": [
+            "United States",
+            "China"
+          ],
+          "start_date": "2023-05-20"
+        }
+      },
+      {
+        "query": "Can you list the current presidents of Argentina, Italy, and Australia starting from 2023-08-10?",
+        "filled_param": {
+          "countries": [
+            "Argentina",
+            "Italy",
+            "Australia"
+          ],
+          "start_date": "2023-08-10"
+        }
+      },
+      {
+        "query": "I'd like to know the names of the presidents of Russia, Mexico, and South Korea as of 2022-11-05.",
+        "filled_param": {
+          "countries": [
+            "Russia",
+            "Mexico",
+            "South Korea"
+          ],
+          "start_date": "2022-11-05"
+        }
+      },
+      {
+        "query": "Who were the presidents of the United Kingdom and Egypt on 2023-07-15?",
+        "filled_param": {
+          "countries": [
+            "United Kingdom",
+            "Egypt"
+          ],
+          "start_date": "2023-07-15"
+        }
+      }
+    ]
+  },
+  "GetPrimeMinisters|:|ministers of defense|:|countries,start_date": {
+    "tool_template_name": "GetPrimeMinisters",
+    "derived_class": "ministers of defense",
+    "params_for_query": [
+      "countries",
+      "start_date"
+    ],
+    "queries": [
+      {
+        "query": "Who are the current ministers of defense for Germany and Japan as of 2023-05-01?",
+        "filled_param": {
+          "countries": [
+            "Germany",
+            "Japan"
+          ],
+          "start_date": "2023-05-01"
+        }
+      },
+      {
+        "query": "Could you provide the names of the ministers of defense for France, Brazil, and South Africa starting from 2022-10-12?",
+        "filled_param": {
+          "countries": [
+            "France",
+            "Brazil",
+            "South Africa"
+          ],
+          "start_date": "2022-10-12"
+        }
+      },
+      {
+        "query": "List the ministers of defense for the United States, Canada, and Mexico since 2021-01-15.",
+        "filled_param": {
+          "countries": [
+            "United States",
+            "Canada",
+            "Mexico"
+          ],
+          "start_date": "2021-01-15"
+        }
+      },
+      {
+        "query": "I need to know the ministers of defense for Italy and Spain as of 2023-09-30.",
+        "filled_param": {
+          "countries": [
+            "Italy",
+            "Spain"
+          ],
+          "start_date": "2023-09-30"
+        }
+      },
+      {
+        "query": "Retrieve the names of the ministers of defense for Australia, India, and China starting from 2020-06-01.",
+        "filled_param": {
+          "countries": [
+            "Australia",
+            "India",
+            "China"
+          ],
+          "start_date": "2020-06-01"
+        }
+      },
+      {
+        "query": "What are the names of the current ministers of defense in the United Kingdom and Russia as of 2022-03-11?",
+        "filled_param": {
+          "countries": [
+            "United Kingdom",
+            "Russia"
+          ],
+          "start_date": "2022-03-11"
+        }
+      }
+    ]
+  },
+  "GetPrimeMinisters|:|ministers of foreign affairs|:|countries,start_date": {
+    "tool_template_name": "GetPrimeMinisters",
+    "derived_class": "ministers of foreign affairs",
+    "params_for_query": [
+      "countries",
+      "start_date"
+    ],
+    "queries": [
+      {
+        "query": "Who are the ministers of foreign affairs for Canada and Germany as of 2023-05-15?",
+        "filled_param": {
+          "countries": [
+            "Canada",
+            "Germany"
+          ],
+          "start_date": "2023-05-15"
+        }
+      },
+      {
+        "query": "Please provide the names of the current ministers of foreign affairs for Brazil, Japan, and Italy starting from 2022-11-01.",
+        "filled_param": {
+          "countries": [
+            "Brazil",
+            "Japan",
+            "Italy"
+          ],
+          "start_date": "2022-11-01"
+        }
+      },
+      {
+        "query": "I need the ministers of foreign affairs for the United States and Mexico as of 2021-01-20.",
+        "filled_param": {
+          "countries": [
+            "United States",
+            "Mexico"
+          ],
+          "start_date": "2021-01-20"
+        }
+      },
+      {
+        "query": "Could you tell me who the ministers of foreign affairs are for the United Kingdom and France, starting from 2023-03-27?",
+        "filled_param": {
+          "countries": [
+            "United Kingdom",
+            "France"
+          ],
+          "start_date": "2023-03-27"
+        }
+      },
+      {
+        "query": "List the names of the ministers of foreign affairs for South Africa, India, and Russia as of 2020-09-15.",
+        "filled_param": {
+          "countries": [
+            "South Africa",
+            "India",
+            "Russia"
+          ],
+          "start_date": "2020-09-15"
+        }
+      },
+      {
+        "query": "Find out who are the ministers of foreign affairs for Australia, Argentina, and Egypt from 2019-06-01 onwards.",
+        "filled_param": {
+          "countries": [
+            "Australia",
+            "Argentina",
+            "Egypt"
+          ],
+          "start_date": "2019-06-01"
+        }
+      }
+    ]
+  },
+  "GetPrimeMinisters|:|ministers of finance|:|countries,start_date": {
+    "tool_template_name": "GetPrimeMinisters",
+    "derived_class": "ministers of finance",
+    "params_for_query": [
+      "countries",
+      "start_date"
+    ],
+    "queries": [
+      {
+        "query": "Could you tell me the names of the ministers of finance for Germany and Japan as of 2023-01-15?",
+        "filled_param": {
+          "countries": [
+            "Germany",
+            "Japan"
+          ],
+          "start_date": "2023-01-15"
+        }
+      },
+      {
+        "query": "I need the current ministers of finance names for the United Kingdom and France starting from 2022-11-01.",
+        "filled_param": {
+          "countries": [
+            "United Kingdom",
+            "France"
+          ],
+          "start_date": "2022-11-01"
+        }
+      },
+      {
+        "query": "Who are the ministers of finance for Canada, Brazil, and India as of 2023-06-10?",
+        "filled_param": {
+          "countries": [
+            "Canada",
+            "Brazil",
+            "India"
+          ],
+          "start_date": "2023-06-10"
+        }
+      },
+      {
+        "query": "Please provide the names of the ministers of finance for Australia and South Africa starting from 2023-03-25.",
+        "filled_param": {
+          "countries": [
+            "Australia",
+            "South Africa"
+          ],
+          "start_date": "2023-03-25"
+        }
+      },
+      {
+        "query": "Get me the list of ministers of finance for Italy and Spain as of 2022-12-05.",
+        "filled_param": {
+          "countries": [
+            "Italy",
+            "Spain"
+          ],
+          "start_date": "2022-12-05"
+        }
+      },
+      {
+        "query": "What are the names of the ministers of finance for the United States, China, and Russia starting from 2023-07-20?",
+        "filled_param": {
+          "countries": [
+            "United States",
+            "China",
+            "Russia"
+          ],
+          "start_date": "2023-07-20"
+        }
+      },
+      {
+        "query": "Can you provide the ministers of finance names for Sweden, Norway, and Denmark starting from 2022-09-15?",
+        "filled_param": {
+          "countries": [
+            "Sweden",
+            "Norway",
+            "Denmark"
+          ],
+          "start_date": "2022-09-15"
+        }
+      }
+    ]
+  },
+  "GetPrimeMinisters|:|ministers of health|:|countries,start_date": {
+    "tool_template_name": "GetPrimeMinisters",
+    "derived_class": "ministers of health",
+    "params_for_query": [
+      "countries",
+      "start_date"
+    ],
+    "queries": [
+      {
+        "query": "Who are the ministers of health for France and Germany as of 2023-01-15?",
+        "filled_param": {
+          "countries": [
+            "France",
+            "Germany"
+          ],
+          "start_date": "2023-01-15"
+        }
+      },
+      {
+        "query": "Please provide the names of the ministers of health in Canada and Brazil starting from 2022-11-05.",
+        "filled_param": {
+          "countries": [
+            "Canada",
+            "Brazil"
+          ],
+          "start_date": "2022-11-05"
+        }
+      },
+      {
+        "query": "As of 2023-06-10, who holds the position of minister of health in Australia and Japan?",
+        "filled_param": {
+          "countries": [
+            "Australia",
+            "Japan"
+          ],
+          "start_date": "2023-06-10"
+        }
+      },
+      {
+        "query": "I'd like to know the names of the ministers of health for Nigeria and India from 2023-03-01.",
+        "filled_param": {
+          "countries": [
+            "Nigeria",
+            "India"
+          ],
+          "start_date": "2023-03-01"
+        }
+      },
+      {
+        "query": "Can you tell me who the ministers of health are in Italy and Spain as of the date 2023-07-20?",
+        "filled_param": {
+          "countries": [
+            "Italy",
+            "Spain"
+          ],
+          "start_date": "2023-07-20"
+        }
+      },
+      {
+        "query": "What are the names of the current ministers of health for the United States and South Africa starting from 2022-12-01?",
+        "filled_param": {
+          "countries": [
+            "United States",
+            "South Africa"
+          ],
+          "start_date": "2022-12-01"
+        }
+      },
+      {
+        "query": "List the ministers of health in Russia and China as recorded on 2023-04-25.",
+        "filled_param": {
+          "countries": [
+            "Russia",
+            "China"
+          ],
+          "start_date": "2023-04-25"
+        }
+      }
+    ]
+  },
+  "GetPrimeMinisters|:|ministers of education|:|countries,start_date": {
+    "tool_template_name": "GetPrimeMinisters",
+    "derived_class": "ministers of education",
+    "params_for_query": [
+      "countries",
+      "start_date"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the names of the current ministers of education for Germany and France starting from 2023-01-01?",
+        "filled_param": {
+          "countries": [
+            "Germany",
+            "France"
+          ],
+          "start_date": "2023-01-01"
+        }
+      },
+      {
+        "query": "List the ministers of education for Canada and Japan as of 2022-05-15.",
+        "filled_param": {
+          "countries": [
+            "Canada",
+            "Japan"
+          ],
+          "start_date": "2022-05-15"
+        }
+      },
+      {
+        "query": "Who are the ministers of education for India, South Korea, and Brazil starting from 2021-10-20?",
+        "filled_param": {
+          "countries": [
+            "India",
+            "South Korea",
+            "Brazil"
+          ],
+          "start_date": "2021-10-20"
+        }
+      },
+      {
+        "query": "Retrieve the current ministers of education names for Australia and New Zealand from the date 2023-03-01.",
+        "filled_param": {
+          "countries": [
+            "Australia",
+            "New Zealand"
+          ],
+          "start_date": "2023-03-01"
+        }
+      },
+      {
+        "query": "Could you tell me who the ministers of education are for the United States and Mexico starting from 2023-07-10?",
+        "filled_param": {
+          "countries": [
+            "United States",
+            "Mexico"
+          ],
+          "start_date": "2023-07-10"
+        }
+      },
+      {
+        "query": "I need to know the names of the current ministers of education in Italy, Spain, and Portugal as of 2023-09-15.",
+        "filled_param": {
+          "countries": [
+            "Italy",
+            "Spain",
+            "Portugal"
+          ],
+          "start_date": "2023-09-15"
+        }
+      },
+      {
+        "query": "Who are the current ministers of education for the United Kingdom and Ireland as of 2023-11-01?",
+        "filled_param": {
+          "countries": [
+            "United Kingdom",
+            "Ireland"
+          ],
+          "start_date": "2023-11-01"
+        }
+      }
+    ]
+  },
+  "GetPrimeMinisters|:|ministers of science and technology|:|countries,start_date": {
+    "tool_template_name": "GetPrimeMinisters",
+    "derived_class": "ministers of science and technology",
+    "params_for_query": [
+      "countries",
+      "start_date"
+    ],
+    "queries": [
+      {
+        "query": "Who are the current ministers of science and technology in Germany and Japan as of 2023-01-15?",
+        "filled_param": {
+          "countries": [
+            "Germany",
+            "Japan"
+          ],
+          "start_date": "2023-01-15"
+        }
+      },
+      {
+        "query": "Could you provide the names of the ministers of science and technology for Canada and Brazil starting from 2022-07-01?",
+        "filled_param": {
+          "countries": [
+            "Canada",
+            "Brazil"
+          ],
+          "start_date": "2022-07-01"
+        }
+      },
+      {
+        "query": "List the ministers of science and technology for the United States and India as of the start of 2023.",
+        "filled_param": {
+          "countries": [
+            "United States",
+            "India"
+          ],
+          "start_date": "2023-01-01"
+        }
+      },
+      {
+        "query": "I need to know who the ministers of science and technology are in Australia and South Africa since 2021-10-30.",
+        "filled_param": {
+          "countries": [
+            "Australia",
+            "South Africa"
+          ],
+          "start_date": "2021-10-30"
+        }
+      },
+      {
+        "query": "Find out the current ministers of science and technology for France and Italy from 2023-03-10 onwards.",
+        "filled_param": {
+          "countries": [
+            "France",
+            "Italy"
+          ],
+          "start_date": "2023-03-10"
+        }
+      },
+      {
+        "query": "Can you tell me who are the ministers of science and technology in China and Russia as of 2022-01-05?",
+        "filled_param": {
+          "countries": [
+            "China",
+            "Russia"
+          ],
+          "start_date": "2022-01-05"
+        }
+      },
+      {
+        "query": "Please provide the names of the ministers of science and technology for South Korea and Mexico from the date 2023-06-15.",
+        "filled_param": {
+          "countries": [
+            "South Korea",
+            "Mexico"
+          ],
+          "start_date": "2023-06-15"
+        }
+      }
+    ]
+  },
+  "GetPrimeMinisters|:|ministers of transport|:|countries,start_date": {
+    "tool_template_name": "GetPrimeMinisters",
+    "derived_class": "ministers of transport",
+    "params_for_query": [
+      "countries",
+      "start_date"
+    ],
+    "queries": [
+      {
+        "query": "Who are the ministers of transport for Germany, France, and Italy as of 2023-01-15?",
+        "filled_param": {
+          "countries": [
+            "Germany",
+            "France",
+            "Italy"
+          ],
+          "start_date": "2023-01-15"
+        }
+      },
+      {
+        "query": "Can you tell me the names of the ministers of transport for the United States and Canada starting from 2022-05-01?",
+        "filled_param": {
+          "countries": [
+            "United States",
+            "Canada"
+          ],
+          "start_date": "2022-05-01"
+        }
+      },
+      {
+        "query": "Please provide the names of the ministers of transport in Japan, South Korea, and China from 2021-11-10.",
+        "filled_param": {
+          "countries": [
+            "Japan",
+            "South Korea",
+            "China"
+          ],
+          "start_date": "2021-11-10"
+        }
+      },
+      {
+        "query": "I need the names of the ministers of transport for Brazil and Argentina since 2020-07-20.",
+        "filled_param": {
+          "countries": [
+            "Brazil",
+            "Argentina"
+          ],
+          "start_date": "2020-07-20"
+        }
+      },
+      {
+        "query": "Who holds the position of ministers of transport in the United Kingdom, Spain, and Portugal beginning from 2023-03-05?",
+        "filled_param": {
+          "countries": [
+            "United Kingdom",
+            "Spain",
+            "Portugal"
+          ],
+          "start_date": "2023-03-05"
+        }
+      },
+      {
+        "query": "Could you list the ministers of transport for Australia and New Zealand from the date 2022-09-01?",
+        "filled_param": {
+          "countries": [
+            "Australia",
+            "New Zealand"
+          ],
+          "start_date": "2022-09-01"
+        }
+      },
+      {
+        "query": "Find out the current ministers of transport for India and Pakistan as of 2021-01-01.",
+        "filled_param": {
+          "countries": [
+            "India",
+            "Pakistan"
+          ],
+          "start_date": "2021-01-01"
+        }
+      }
+    ]
+  },
+  "GetPrimeMinisters|:|ministers of agriculture|:|countries,start_date": {
+    "tool_template_name": "GetPrimeMinisters",
+    "derived_class": "ministers of agriculture",
+    "params_for_query": [
+      "countries",
+      "start_date"
+    ],
+    "queries": [
+      {
+        "query": "Who are the current ministers of agriculture for Canada and Mexico as of 2023-01-15?",
+        "filled_param": {
+          "countries": [
+            "Canada",
+            "Mexico"
+          ],
+          "start_date": "2023-01-15"
+        }
+      },
+      {
+        "query": "Please provide the names of the ministers of agriculture for Japan, China, and South Korea from 2022-11-01.",
+        "filled_param": {
+          "countries": [
+            "Japan",
+            "China",
+            "South Korea"
+          ],
+          "start_date": "2022-11-01"
+        }
+      },
+      {
+        "query": "Get the names of the ministers of agriculture for Germany and France starting from 2023-03-01.",
+        "filled_param": {
+          "countries": [
+            "Germany",
+            "France"
+          ],
+          "start_date": "2023-03-01"
+        }
+      },
+      {
+        "query": "Could you list the ministers of agriculture in Brazil and Argentina as of 2022-12-01?",
+        "filled_param": {
+          "countries": [
+            "Brazil",
+            "Argentina"
+          ],
+          "start_date": "2022-12-01"
+        }
+      },
+      {
+        "query": "Fetch the current ministers of agriculture for the United States and the United Kingdom from the date 2023-05-01.",
+        "filled_param": {
+          "countries": [
+            "United States",
+            "United Kingdom"
+          ],
+          "start_date": "2023-05-01"
+        }
+      },
+      {
+        "query": "I need to know who the ministers of agriculture are for India and Australia starting on 2023-02-20.",
+        "filled_param": {
+          "countries": [
+            "India",
+            "Australia"
+          ],
+          "start_date": "2023-02-20"
+        }
+      },
+      {
+        "query": "Can you tell me the ministers of agriculture for Italy, Spain, and Portugal as of 2023-04-15?",
+        "filled_param": {
+          "countries": [
+            "Italy",
+            "Spain",
+            "Portugal"
+          ],
+          "start_date": "2023-04-15"
+        }
+      }
+    ]
+  },
+  "GetPrimeMinisters|:|chief justices of the Supreme Court|:|countries,start_date": {
+    "tool_template_name": "GetPrimeMinisters",
+    "derived_class": "chief justices of the Supreme Court",
+    "params_for_query": [
+      "countries",
+      "start_date"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the names of the chief justices of the Supreme Court for the United States and Canada as of 2023-01-01?",
+        "filled_param": {
+          "countries": [
+            "United States",
+            "Canada"
+          ],
+          "start_date": "2023-01-01"
+        }
+      },
+      {
+        "query": "I'd like to know who the current chief justices of the Supreme Court are in India and Australia, effective from 2022-07-15.",
+        "filled_param": {
+          "countries": [
+            "India",
+            "Australia"
+          ],
+          "start_date": "2022-07-15"
+        }
+      },
+      {
+        "query": "Retrieve the names of the chief justices of the Supreme Court for Germany, France, and Brazil from 2021-09-30.",
+        "filled_param": {
+          "countries": [
+            "Germany",
+            "France",
+            "Brazil"
+          ],
+          "start_date": "2021-09-30"
+        }
+      },
+      {
+        "query": "Who are the chief justices of the Supreme Court in Japan and South Korea starting from 2020-03-01?",
+        "filled_param": {
+          "countries": [
+            "Japan",
+            "South Korea"
+          ],
+          "start_date": "2020-03-01"
+        }
+      },
+      {
+        "query": "List the chief justices of the Supreme Court for the United Kingdom and Mexico as of 2019-11-11.",
+        "filled_param": {
+          "countries": [
+            "United Kingdom",
+            "Mexico"
+          ],
+          "start_date": "2019-11-11"
+        }
+      },
+      {
+        "query": "Could you tell me who the chief justices of the Supreme Court are in Italy, Spain, and Russia starting from 2021-05-20?",
+        "filled_param": {
+          "countries": [
+            "Italy",
+            "Spain",
+            "Russia"
+          ],
+          "start_date": "2021-05-20"
+        }
+      },
+      {
+        "query": "Please provide a list of the chief justices of the Supreme Court for China and South Africa effective from 2022-01-01.",
+        "filled_param": {
+          "countries": [
+            "China",
+            "South Africa"
+          ],
+          "start_date": "2022-01-01"
+        }
+      }
+    ]
+  },
+  "GetPrimeMinisters|:|ambassadors to the United Nations|:|countries,start_date": {
+    "tool_template_name": "GetPrimeMinisters",
+    "derived_class": "ambassadors to the United Nations",
+    "params_for_query": [
+      "countries",
+      "start_date"
+    ],
+    "queries": [
+      {
+        "query": "Who are the ambassadors to the United Nations for Germany, Japan, and Brazil as of 2023-01-15?",
+        "filled_param": {
+          "countries": [
+            "Germany",
+            "Japan",
+            "Brazil"
+          ],
+          "start_date": "2023-01-15"
+        }
+      },
+      {
+        "query": "Please provide the names of the ambassadors to the United Nations representing Canada, Italy, and Australia since 2022-11-20.",
+        "filled_param": {
+          "countries": [
+            "Canada",
+            "Italy",
+            "Australia"
+          ],
+          "start_date": "2022-11-20"
+        }
+      },
+      {
+        "query": "I need to know who the ambassadors to the United Nations are for the United Kingdom, France, and China starting from 2023-05-01.",
+        "filled_param": {
+          "countries": [
+            "United Kingdom",
+            "France",
+            "China"
+          ],
+          "start_date": "2023-05-01"
+        }
+      },
+      {
+        "query": "Can you tell me the names of the ambassadors to the United Nations for Russia, South Africa, and Egypt as of 2021-09-10?",
+        "filled_param": {
+          "countries": [
+            "Russia",
+            "South Africa",
+            "Egypt"
+          ],
+          "start_date": "2021-09-10"
+        }
+      },
+      {
+        "query": "Who are the ambassadors to the United Nations from India, Mexico, and South Korea since 2022-03-25?",
+        "filled_param": {
+          "countries": [
+            "India",
+            "Mexico",
+            "South Korea"
+          ],
+          "start_date": "2022-03-25"
+        }
+      },
+      {
+        "query": "List the current ambassadors to the United Nations for the United States, Argentina, and Nigeria starting on 2023-09-01.",
+        "filled_param": {
+          "countries": [
+            "United States",
+            "Argentina",
+            "Nigeria"
+          ],
+          "start_date": "2023-09-01"
+        }
+      },
+      {
+        "query": "Could you provide the names of the ambassadors to the United Nations for Spain, Turkey, and Indonesia as of 2020-12-31?",
+        "filled_param": {
+          "countries": [
+            "Spain",
+            "Turkey",
+            "Indonesia"
+          ],
+          "start_date": "2020-12-31"
+        }
+      }
+    ]
+  }
+}

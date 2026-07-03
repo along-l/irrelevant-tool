@@ -1,0 +1,471 @@
+{
+  "museum_working_hours.get|:|museum|:|venue,location,day": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "museum",
+    "params_for_query": [
+      "venue",
+      "location",
+      "day"
+    ],
+    "queries": [
+      {
+        "query": "What are the opening hours for the Louvre museum in Paris on Wednesday?",
+        "filled_param": {
+          "venue": "Louvre",
+          "location": "Paris",
+          "day": "Wednesday"
+        }
+      },
+      {
+        "query": "Can you tell me the operating hours of the British Museum in London on Saturday?",
+        "filled_param": {
+          "venue": "British Museum",
+          "location": "London",
+          "day": "Saturday"
+        }
+      },
+      {
+        "query": "I'd like to know the working hours for the Met museum in New York on Monday.",
+        "filled_param": {
+          "venue": "Met",
+          "location": "New York",
+          "day": "Monday"
+        }
+      },
+      {
+        "query": "Find out the visiting hours of the National Museum in Tokyo for Thursday.",
+        "filled_param": {
+          "venue": "National Museum",
+          "location": "Tokyo",
+          "day": "Thursday"
+        }
+      },
+      {
+        "query": "Get me the schedule for the Rijksmuseum in Amsterdam on Sunday.",
+        "filled_param": {
+          "venue": "Rijksmuseum",
+          "location": "Amsterdam",
+          "day": "Sunday"
+        }
+      },
+      {
+        "query": "What time does the Hermitage museum in St. Petersburg open on Friday?",
+        "filled_param": {
+          "venue": "Hermitage",
+          "location": "St. Petersburg",
+          "day": "Friday"
+        }
+      },
+      {
+        "query": "Can you provide the opening times for the Guggenheim museum in Bilbao on Tuesday?",
+        "filled_param": {
+          "venue": "Guggenheim",
+          "location": "Bilbao",
+          "day": "Tuesday"
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|art gallery|:|venue,location,day": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "art gallery",
+    "params_for_query": [
+      "venue",
+      "location",
+      "day"
+    ],
+    "queries": [
+      {
+        "query": "What are the working hours of the Louvre art gallery in Paris on Sunday?",
+        "filled_param": {
+          "venue": "Louvre",
+          "location": "Paris",
+          "day": "Sunday"
+        }
+      },
+      {
+        "query": "Can you tell me the opening times for the Metropolitan Museum of Art gallery located in New York on Wednesday?",
+        "filled_param": {
+          "venue": "Metropolitan Museum of Art",
+          "location": "New York",
+          "day": "Wednesday"
+        }
+      },
+      {
+        "query": "I need to know the business hours for the Uffizi art gallery in Florence on Monday.",
+        "filled_param": {
+          "venue": "Uffizi",
+          "location": "Florence",
+          "day": "Monday"
+        }
+      },
+      {
+        "query": "Could you provide the working schedule of the Tate Modern art gallery in London for Friday?",
+        "filled_param": {
+          "venue": "Tate Modern",
+          "location": "London",
+          "day": "Friday"
+        }
+      },
+      {
+        "query": "Find out the operating hours for the Art Institute of Chicago art gallery in Chicago on Thursday.",
+        "filled_param": {
+          "venue": "Art Institute of Chicago",
+          "location": "Chicago",
+          "day": "Thursday"
+        }
+      },
+      {
+        "query": "What time does the Rijksmuseum art gallery in Amsterdam open on Saturday?",
+        "filled_param": {
+          "venue": "Rijksmuseum",
+          "location": "Amsterdam",
+          "day": "Saturday"
+        }
+      },
+      {
+        "query": "Please give me the hours of operation for the National Gallery of Art gallery in Washington D.C. on Tuesday.",
+        "filled_param": {
+          "venue": "National Gallery of Art",
+          "location": "Washington D.C.",
+          "day": "Tuesday"
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|library|:|venue,location,day": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "library",
+    "params_for_query": [
+      "venue",
+      "location",
+      "day"
+    ],
+    "queries": [
+      {
+        "query": "What are the opening hours for the library at Central Library in Boston on Monday?",
+        "filled_param": {
+          "venue": "Central Library",
+          "location": "Boston",
+          "day": "Monday"
+        }
+      },
+      {
+        "query": "Can you tell me the working hours of the library at New York Public Library located in Manhattan on Wednesday?",
+        "filled_param": {
+          "venue": "New York Public Library",
+          "location": "Manhattan",
+          "day": "Wednesday"
+        }
+      },
+      {
+        "query": "I need to know the operating hours of the library at British Library in London for Thursday.",
+        "filled_param": {
+          "venue": "British Library",
+          "location": "London",
+          "day": "Thursday"
+        }
+      },
+      {
+        "query": "Find out the library hours for the Library of Congress in Washington D.C. on Saturday.",
+        "filled_param": {
+          "venue": "Library of Congress",
+          "location": "Washington D.C.",
+          "day": "Saturday"
+        }
+      },
+      {
+        "query": "What time does the library at Seattle Public Library in Seattle open on Friday?",
+        "filled_param": {
+          "venue": "Seattle Public Library",
+          "location": "Seattle",
+          "day": "Friday"
+        }
+      },
+      {
+        "query": "Could you provide the hours for the library at Bibliothèque nationale de France in Paris on Sunday?",
+        "filled_param": {
+          "venue": "Bibliothèque nationale de France",
+          "location": "Paris",
+          "day": "Sunday"
+        }
+      },
+      {
+        "query": "I need the opening times for the library at State Library of Victoria in Melbourne on Tuesday.",
+        "filled_param": {
+          "venue": "State Library of Victoria",
+          "location": "Melbourne",
+          "day": "Tuesday"
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|zoo|:|venue,location,day": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "zoo",
+    "params_for_query": [
+      "venue",
+      "location",
+      "day"
+    ],
+    "queries": [
+      {
+        "query": "What are the working hours for Central Park Zoo in New York on Wednesday?",
+        "filled_param": {
+          "venue": "Central Park Zoo",
+          "location": "New York",
+          "day": "Wednesday"
+        }
+      },
+      {
+        "query": "Can you tell me the opening times for San Diego Zoo in California on Saturday?",
+        "filled_param": {
+          "venue": "San Diego Zoo",
+          "location": "California",
+          "day": "Saturday"
+        }
+      },
+      {
+        "query": "I need the closing hours for Taronga Zoo located in Sydney on Monday.",
+        "filled_param": {
+          "venue": "Taronga Zoo",
+          "location": "Sydney",
+          "day": "Monday"
+        }
+      },
+      {
+        "query": "Could you provide the schedule for the London Zoo on Friday?",
+        "filled_param": {
+          "venue": "London Zoo",
+          "location": "London",
+          "day": "Friday"
+        }
+      },
+      {
+        "query": "What time does Singapore Zoo open on Tuesday?",
+        "filled_param": {
+          "venue": "Singapore Zoo",
+          "location": "Singapore",
+          "day": "Tuesday"
+        }
+      },
+      {
+        "query": "Give me the working hours for Berlin Zoo in Berlin on Sunday.",
+        "filled_param": {
+          "venue": "Berlin Zoo",
+          "location": "Berlin",
+          "day": "Sunday"
+        }
+      },
+      {
+        "query": "Can you find out the hours for Bronx Zoo in New York on Thursday?",
+        "filled_param": {
+          "venue": "Bronx Zoo",
+          "location": "New York",
+          "day": "Thursday"
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|aquarium|:|venue,location,day": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "aquarium",
+    "params_for_query": [
+      "venue",
+      "location",
+      "day"
+    ],
+    "queries": [
+      {
+        "query": "What are the opening hours for the Georgia Aquarium in Atlanta on Friday?",
+        "filled_param": {
+          "venue": "Georgia Aquarium",
+          "location": "Atlanta",
+          "day": "Friday"
+        }
+      },
+      {
+        "query": "Can you tell me the working hours of the Monterey Bay Aquarium in Monterey for Tuesday?",
+        "filled_param": {
+          "venue": "Monterey Bay Aquarium",
+          "location": "Monterey",
+          "day": "Tuesday"
+        }
+      },
+      {
+        "query": "I'd like to know the hours for the Shedd Aquarium located in Chicago on Sunday.",
+        "filled_param": {
+          "venue": "Shedd Aquarium",
+          "location": "Chicago",
+          "day": "Sunday"
+        }
+      },
+      {
+        "query": "Please provide the operating hours of the Vancouver Aquarium in Vancouver on Thursday.",
+        "filled_param": {
+          "venue": "Vancouver Aquarium",
+          "location": "Vancouver",
+          "day": "Thursday"
+        }
+      },
+      {
+        "query": "What time does the Sydney Aquarium in Sydney open on Monday?",
+        "filled_param": {
+          "venue": "Sydney Aquarium",
+          "location": "Sydney",
+          "day": "Monday"
+        }
+      },
+      {
+        "query": "Find out the opening times for the Dubai Aquarium in Dubai on Saturday.",
+        "filled_param": {
+          "venue": "Dubai Aquarium",
+          "location": "Dubai",
+          "day": "Saturday"
+        }
+      },
+      {
+        "query": "Could you give me the working hours for the Oceanografic in Valencia on Wednesday?",
+        "filled_param": {
+          "venue": "Oceanografic",
+          "location": "Valencia",
+          "day": "Wednesday"
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|botanical garden|:|venue,location,day": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "botanical garden",
+    "params_for_query": [
+      "venue",
+      "location",
+      "day"
+    ],
+    "queries": [
+      {
+        "query": "What are the opening hours for the Royal Botanical Gardens in Kew on a Saturday?",
+        "filled_param": {
+          "venue": "Royal Botanical Gardens",
+          "location": "Kew",
+          "day": "Saturday"
+        }
+      },
+      {
+        "query": "Can you tell me the working hours of the Missouri Botanical Garden in St. Louis for this coming Wednesday?",
+        "filled_param": {
+          "venue": "Missouri Botanical Garden",
+          "location": "St. Louis",
+          "day": "Wednesday"
+        }
+      },
+      {
+        "query": "I need to know the hours for Singapore Botanic Gardens in Singapore on Friday.",
+        "filled_param": {
+          "venue": "Singapore Botanic Gardens",
+          "location": "Singapore",
+          "day": "Friday"
+        }
+      },
+      {
+        "query": "Please provide the working hours of the Brooklyn Botanic Garden in New York for next Tuesday.",
+        "filled_param": {
+          "venue": "Brooklyn Botanic Garden",
+          "location": "New York",
+          "day": "Tuesday"
+        }
+      },
+      {
+        "query": "What time does the Kirstenbosch National Botanical Garden in Cape Town open on a Sunday?",
+        "filled_param": {
+          "venue": "Kirstenbosch National Botanical Garden",
+          "location": "Cape Town",
+          "day": "Sunday"
+        }
+      },
+      {
+        "query": "Could you give me the opening times for the Chicago Botanic Garden in Glencoe on a Monday?",
+        "filled_param": {
+          "venue": "Chicago Botanic Garden",
+          "location": "Glencoe",
+          "day": "Monday"
+        }
+      },
+      {
+        "query": "I'm planning to visit the Desert Botanical Garden in Phoenix on Thursday. What are its hours?",
+        "filled_param": {
+          "venue": "Desert Botanical Garden",
+          "location": "Phoenix",
+          "day": "Thursday"
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|amusement park|:|venue,location,day": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "amusement park",
+    "params_for_query": [
+      "venue",
+      "location",
+      "day"
+    ],
+    "queries": [
+      {
+        "query": "What are the working hours for Disneyland in Anaheim on Saturday?",
+        "filled_param": {
+          "venue": "Disneyland",
+          "location": "Anaheim",
+          "day": "Saturday"
+        }
+      },
+      {
+        "query": "Can you tell me the opening and closing times for Universal Studios in Hollywood on Monday?",
+        "filled_param": {
+          "venue": "Universal Studios",
+          "location": "Hollywood",
+          "day": "Monday"
+        }
+      },
+      {
+        "query": "I'd like to know the hours of operation for Six Flags Magic Mountain located in Valencia on Friday.",
+        "filled_param": {
+          "venue": "Six Flags Magic Mountain",
+          "location": "Valencia",
+          "day": "Friday"
+        }
+      },
+      {
+        "query": "Please provide the operating hours for SeaWorld in San Diego on Wednesday.",
+        "filled_param": {
+          "venue": "SeaWorld",
+          "location": "San Diego",
+          "day": "Wednesday"
+        }
+      },
+      {
+        "query": "What time does Legoland in Carlsbad open and close on Sunday?",
+        "filled_param": {
+          "venue": "Legoland",
+          "location": "Carlsbad",
+          "day": "Sunday"
+        }
+      },
+      {
+        "query": "I need to know the working hours for Cedar Point in Sandusky on Thursday.",
+        "filled_param": {
+          "venue": "Cedar Point",
+          "location": "Sandusky",
+          "day": "Thursday"
+        }
+      },
+      {
+        "query": "Could you give me the schedule for Busch Gardens in Tampa on Tuesday?",
+        "filled_param": {
+          "venue": "Busch Gardens",
+          "location": "Tampa",
+          "day": "Tuesday"
+        }
+      }
+    ]
+  }
+}

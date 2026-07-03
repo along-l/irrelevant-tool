@@ -1,0 +1,394 @@
+{
+  "database.create_backup|:|postgresql database|:|db_name,backup_location": {
+    "tool_template_name": "database.create_backup",
+    "derived_class": "postgresql database",
+    "params_for_query": [
+      "db_name",
+      "backup_location"
+    ],
+    "queries": [
+      {
+        "query": "Can you backup the postgresql database named 'sales_data' to the path '/backups/sales/'?",
+        "filled_param": {
+          "db_name": "sales_data",
+          "backup_location": "/backups/sales/"
+        }
+      },
+      {
+        "query": "I need a backup of the postgresql database 'customer_info' saved to '/backup_files/customers/'.",
+        "filled_param": {
+          "db_name": "customer_info",
+          "backup_location": "/backup_files/customers/"
+        }
+      },
+      {
+        "query": "Please create a backup for the postgresql database 'inventory' at the location '/data/backups/inventory/'.",
+        "filled_param": {
+          "db_name": "inventory",
+          "backup_location": "/data/backups/inventory/"
+        }
+      },
+      {
+        "query": "Could you ensure a backup is made for the 'employee_records' postgresql database to '/secure_backups/employees/'?",
+        "filled_param": {
+          "db_name": "employee_records",
+          "backup_location": "/secure_backups/employees/"
+        }
+      },
+      {
+        "query": "Backup the 'financial_reports' postgresql database to the directory '/var/backups/finance/'.",
+        "filled_param": {
+          "db_name": "financial_reports",
+          "backup_location": "/var/backups/finance/"
+        }
+      },
+      {
+        "query": "I want a backup for the 'project_data' postgresql database stored at '/archives/projects/'.",
+        "filled_param": {
+          "db_name": "project_data",
+          "backup_location": "/archives/projects/"
+        }
+      }
+    ]
+  },
+  "database.create_backup|:|mongodb database|:|db_name,backup_location": {
+    "tool_template_name": "database.create_backup",
+    "derived_class": "mongodb database",
+    "params_for_query": [
+      "db_name",
+      "backup_location"
+    ],
+    "queries": [
+      {
+        "query": "Please create a backup of the mongodb database named 'user_data' and store it in the path '/backups/user_data/'.",
+        "filled_param": {
+          "db_name": "user_data",
+          "backup_location": "/backups/user_data/"
+        }
+      },
+      {
+        "query": "Can you back up the 'inventory_db' mongodb database and save the file to '/mnt/backups/inventory/'?",
+        "filled_param": {
+          "db_name": "inventory_db",
+          "backup_location": "/mnt/backups/inventory/"
+        }
+      },
+      {
+        "query": "I need a backup created for the mongodb database called 'customer_records' with the backup stored at '/var/backups/customers/'.",
+        "filled_param": {
+          "db_name": "customer_records",
+          "backup_location": "/var/backups/customers/"
+        }
+      },
+      {
+        "query": "Create a backup of the 'sales_db' mongodb database and place it at '/backup_storage/sales/'.",
+        "filled_param": {
+          "db_name": "sales_db",
+          "backup_location": "/backup_storage/sales/"
+        }
+      },
+      {
+        "query": "Backup the mongodb database 'product_catalog' and ensure it is saved in '/home/user/backups/products/'.",
+        "filled_param": {
+          "db_name": "product_catalog",
+          "backup_location": "/home/user/backups/products/"
+        }
+      },
+      {
+        "query": "I'd like to make a backup of the 'finance_db' mongodb database and store it in the folder '/data/backup/finance/'.",
+        "filled_param": {
+          "db_name": "finance_db",
+          "backup_location": "/data/backup/finance/"
+        }
+      },
+      {
+        "query": "Can you set up a backup for the 'hr_db' mongodb database and save it to '/secure/backups/hr/'?",
+        "filled_param": {
+          "db_name": "hr_db",
+          "backup_location": "/secure/backups/hr/"
+        }
+      }
+    ]
+  },
+  "database.create_backup|:|redis database|:|db_name,backup_location": {
+    "tool_template_name": "database.create_backup",
+    "derived_class": "redis database",
+    "params_for_query": [
+      "db_name",
+      "backup_location"
+    ],
+    "queries": [
+      {
+        "query": "Please create a backup of the redis database named 'session_data' and store it at '/backups/session_bkp.rdb'.",
+        "filled_param": {
+          "db_name": "session_data",
+          "backup_location": "/backups/session_bkp.rdb"
+        }
+      },
+      {
+        "query": "I need you to back up the redis database called 'user_profiles' to the location '/var/backups/user_profiles_backup.rdb'.",
+        "filled_param": {
+          "db_name": "user_profiles",
+          "backup_location": "/var/backups/user_profiles_backup.rdb"
+        }
+      },
+      {
+        "query": "Can you save a backup of the redis database 'order_cache' at '/data/backups/order_backup.rdb'?",
+        "filled_param": {
+          "db_name": "order_cache",
+          "backup_location": "/data/backups/order_backup.rdb"
+        }
+      },
+      {
+        "query": "Backup the redis database 'analytics_db' and store the backup in '/mnt/storage/analytics_backup.rdb'.",
+        "filled_param": {
+          "db_name": "analytics_db",
+          "backup_location": "/mnt/storage/analytics_backup.rdb"
+        }
+      },
+      {
+        "query": "Could you generate a backup for the redis database 'inventory' and save it to '/backup_dir/inventory_backup.rdb'?",
+        "filled_param": {
+          "db_name": "inventory",
+          "backup_location": "/backup_dir/inventory_backup.rdb"
+        }
+      },
+      {
+        "query": "I want a backup of the redis database named 'notifications' placed at '/backups/notifications_backup.rdb'.",
+        "filled_param": {
+          "db_name": "notifications",
+          "backup_location": "/backups/notifications_backup.rdb"
+        }
+      },
+      {
+        "query": "Create a backup for the redis database 'logs_db' and store it at '/archives/logs_backup.rdb'.",
+        "filled_param": {
+          "db_name": "logs_db",
+          "backup_location": "/archives/logs_backup.rdb"
+        }
+      }
+    ]
+  },
+  "database.create_backup|:|sqlite database|:|db_name,backup_location": {
+    "tool_template_name": "database.create_backup",
+    "derived_class": "sqlite database",
+    "params_for_query": [
+      "db_name",
+      "backup_location"
+    ],
+    "queries": [
+      {
+        "query": "Can you create a backup of the sqlite database named 'user_data' to the path '/backups/user_data_backup.db'?",
+        "filled_param": {
+          "db_name": "user_data",
+          "backup_location": "/backups/user_data_backup.db"
+        }
+      },
+      {
+        "query": "Please back up the sqlite database 'inventory_db' and store it at '/backup/inventory_backup.db'.",
+        "filled_param": {
+          "db_name": "inventory_db",
+          "backup_location": "/backup/inventory_backup.db"
+        }
+      },
+      {
+        "query": "I need a backup of the sqlite database called 'finance_records' saved to '/archives/finance_backup.db'.",
+        "filled_param": {
+          "db_name": "finance_records",
+          "backup_location": "/archives/finance_backup.db"
+        }
+      },
+      {
+        "query": "Make a backup of the sqlite database 'project_data' to the directory '/data_backups/project_data_backup.db'.",
+        "filled_param": {
+          "db_name": "project_data",
+          "backup_location": "/data_backups/project_data_backup.db"
+        }
+      },
+      {
+        "query": "Create a backup of the sqlite database 'customer_info' and place it at '/safeguard/customer_info_backup.db'.",
+        "filled_param": {
+          "db_name": "customer_info",
+          "backup_location": "/safeguard/customer_info_backup.db"
+        }
+      },
+      {
+        "query": "Could you back up the sqlite database 'sales_db' to '/backup_location/sales_backup.db'?",
+        "filled_param": {
+          "db_name": "sales_db",
+          "backup_location": "/backup_location/sales_backup.db"
+        }
+      },
+      {
+        "query": "I need to create a backup of the sqlite database 'employee_records' to '/secure_backup/employee_backup.db'.",
+        "filled_param": {
+          "db_name": "employee_records",
+          "backup_location": "/secure_backup/employee_backup.db"
+        }
+      }
+    ]
+  },
+  "database.create_backup|:|sql server database|:|db_name,backup_location": {
+    "tool_template_name": "database.create_backup",
+    "derived_class": "sql server database",
+    "params_for_query": [
+      "db_name",
+      "backup_location"
+    ],
+    "queries": [
+      {
+        "query": "Could you make a backup of the 'CustomerRecords' sql server database and save it to 'D:/backups/CustomerRecords.bak'?",
+        "filled_param": {
+          "db_name": "CustomerRecords",
+          "backup_location": "D:/backups/CustomerRecords.bak"
+        }
+      },
+      {
+        "query": "I need a backup for the 'InventoryDB' sql server database stored at 'C:/sql_backups/InventoryDB.bak'.",
+        "filled_param": {
+          "db_name": "InventoryDB",
+          "backup_location": "C:/sql_backups/InventoryDB.bak"
+        }
+      },
+      {
+        "query": "Please create a backup of the 'SalesData' sql server database and save it to 'E:/data_backups/SalesData.bak'.",
+        "filled_param": {
+          "db_name": "SalesData",
+          "backup_location": "E:/data_backups/SalesData.bak"
+        }
+      },
+      {
+        "query": "Can you back up the 'HR_Management' sql server database to 'F:/HR_backups/HR_Management.bak'?",
+        "filled_param": {
+          "db_name": "HR_Management",
+          "backup_location": "F:/HR_backups/HR_Management.bak"
+        }
+      },
+      {
+        "query": "I want the 'FinanceReports' sql server database backed up to 'G:/backup_folder/FinanceReports.bak'.",
+        "filled_param": {
+          "db_name": "FinanceReports",
+          "backup_location": "G:/backup_folder/FinanceReports.bak"
+        }
+      },
+      {
+        "query": "Backup the 'ProjectData' sql server database to 'H:/backups/ProjectData.bak'.",
+        "filled_param": {
+          "db_name": "ProjectData",
+          "backup_location": "H:/backups/ProjectData.bak"
+        }
+      }
+    ]
+  },
+  "database.create_backup|:|oracle database|:|db_name,backup_location": {
+    "tool_template_name": "database.create_backup",
+    "derived_class": "oracle database",
+    "params_for_query": [
+      "db_name",
+      "backup_location"
+    ],
+    "queries": [
+      {
+        "query": "Can you create a backup of the oracle database named 'SalesDB'? Please store it at '/backups/sales/'.",
+        "filled_param": {
+          "db_name": "SalesDB",
+          "backup_location": "/backups/sales/"
+        }
+      },
+      {
+        "query": "I need to back up the oracle database 'HRData'. Save it in the '/data/backup/hr/' directory.",
+        "filled_param": {
+          "db_name": "HRData",
+          "backup_location": "/data/backup/hr/"
+        }
+      },
+      {
+        "query": "Please create a backup for the oracle database 'InventoryDB' and place it at '/var/backups/inventory/'.",
+        "filled_param": {
+          "db_name": "InventoryDB",
+          "backup_location": "/var/backups/inventory/"
+        }
+      },
+      {
+        "query": "Could you back up the oracle database 'FinanceRecords' to the folder '/backup/finance/'?",
+        "filled_param": {
+          "db_name": "FinanceRecords",
+          "backup_location": "/backup/finance/"
+        }
+      },
+      {
+        "query": "Make a backup copy of the oracle database called 'CustomerInfo' and store it in '/home/user/backups/customer/'.",
+        "filled_param": {
+          "db_name": "CustomerInfo",
+          "backup_location": "/home/user/backups/customer/"
+        }
+      },
+      {
+        "query": "I want to ensure the oracle database 'ProductCatalog' is backed up to '/mnt/backup/product/'.",
+        "filled_param": {
+          "db_name": "ProductCatalog",
+          "backup_location": "/mnt/backup/product/"
+        }
+      },
+      {
+        "query": "Create a backup of the oracle database 'OrderHistory', saving it at '/local/backup/orders/'.",
+        "filled_param": {
+          "db_name": "OrderHistory",
+          "backup_location": "/local/backup/orders/"
+        }
+      }
+    ]
+  },
+  "database.create_backup|:|mariadb database|:|db_name,backup_location": {
+    "tool_template_name": "database.create_backup",
+    "derived_class": "mariadb database",
+    "params_for_query": [
+      "db_name",
+      "backup_location"
+    ],
+    "queries": [
+      {
+        "query": "Please back up the mariadb database 'employee_records' to the directory /backups/employee_backup.",
+        "filled_param": {
+          "db_name": "employee_records",
+          "backup_location": "/backups/employee_backup"
+        }
+      },
+      {
+        "query": "I need to create a backup of the mariadb database 'sales_data' and save it at /var/backups/sales.",
+        "filled_param": {
+          "db_name": "sales_data",
+          "backup_location": "/var/backups/sales"
+        }
+      },
+      {
+        "query": "Back up the mariadb database called 'customer_info' into the folder located at /mnt/storage/customer_backups.",
+        "filled_param": {
+          "db_name": "customer_info",
+          "backup_location": "/mnt/storage/customer_backups"
+        }
+      },
+      {
+        "query": "Can you store a backup of the mariadb database 'inventory' at the path /data/backups/inventory_archive?",
+        "filled_param": {
+          "db_name": "inventory",
+          "backup_location": "/data/backups/inventory_archive"
+        }
+      },
+      {
+        "query": "Make a backup of the mariadb database 'financial_reports' and store it in /home/user/backup_files.",
+        "filled_param": {
+          "db_name": "financial_reports",
+          "backup_location": "/home/user/backup_files"
+        }
+      },
+      {
+        "query": "Could you save a backup of the mariadb database 'project_data' to /tmp/project_backups?",
+        "filled_param": {
+          "db_name": "project_data",
+          "backup_location": "/tmp/project_backups"
+        }
+      }
+    ]
+  }
+}

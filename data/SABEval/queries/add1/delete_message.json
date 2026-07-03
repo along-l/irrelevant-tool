@@ -1,0 +1,646 @@
+{
+  "delete_message|:|SMS message|:|message_id,timestamp": {
+    "tool_template_name": "delete_message",
+    "derived_class": "SMS message",
+    "params_for_query": [
+      "message_id",
+      "timestamp"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the SMS message with message ID 13579 that was created on Unix timestamp 1633014000.",
+        "filled_param": {
+          "message_id": 13579,
+          "timestamp": 1633014000
+        }
+      },
+      {
+        "query": "Can you remove the SMS message that has an ID of 24680 and was created at Unix timestamp 1625097600?",
+        "filled_param": {
+          "message_id": 24680,
+          "timestamp": 1625097600
+        }
+      },
+      {
+        "query": "Erase the SMS message with the ID 11223 which was generated at the timestamp 1617282000.",
+        "filled_param": {
+          "message_id": 11223,
+          "timestamp": 1617282000
+        }
+      },
+      {
+        "query": "I need the SMS message with message ID 99887 and timestamp 1640995200 to be deleted.",
+        "filled_param": {
+          "message_id": 99887,
+          "timestamp": 1640995200
+        }
+      },
+      {
+        "query": "Delete the SMS message having the ID 55678, created at Unix timestamp 1609459200.",
+        "filled_param": {
+          "message_id": 55678,
+          "timestamp": 1609459200
+        }
+      }
+    ]
+  },
+  "delete_message|:|QQ message|:|message_id,timestamp": {
+    "tool_template_name": "delete_message",
+    "derived_class": "QQ message",
+    "params_for_query": [
+      "message_id",
+      "timestamp"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the QQ message with ID 12345 that was sent at the Unix timestamp 1678901234.",
+        "filled_param": {
+          "message_id": 12345,
+          "timestamp": 1678901234
+        }
+      },
+      {
+        "query": "Remove the QQ message having the ID 67890, created at the Unix time 1689012345.",
+        "filled_param": {
+          "message_id": 67890,
+          "timestamp": 1689012345
+        }
+      },
+      {
+        "query": "Can you delete the QQ message with the ID 54321, which was created at the timestamp 1690123456?",
+        "filled_param": {
+          "message_id": 54321,
+          "timestamp": 1690123456
+        }
+      },
+      {
+        "query": "I need to delete the QQ message that has a message ID of 98765 and was made at Unix timestamp 1678912345.",
+        "filled_param": {
+          "message_id": 98765,
+          "timestamp": 1678912345
+        }
+      },
+      {
+        "query": "Erase the QQ message with the ID 19283 from the timestamp 1689012345.",
+        "filled_param": {
+          "message_id": 19283,
+          "timestamp": 1689012345
+        }
+      }
+    ]
+  },
+  "delete_message|:|WeChat message|:|message_id,timestamp": {
+    "tool_template_name": "delete_message",
+    "derived_class": "WeChat message",
+    "params_for_query": [
+      "message_id",
+      "timestamp"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the WeChat message with message ID 12345 that was created at the Unix timestamp 1672531199.",
+        "filled_param": {
+          "message_id": 12345,
+          "timestamp": 1672531199
+        }
+      },
+      {
+        "query": "I need you to remove the WeChat message that has the message ID 54321 and was sent at the Unix timestamp 1683052800.",
+        "filled_param": {
+          "message_id": 54321,
+          "timestamp": 1683052800
+        }
+      },
+      {
+        "query": "Could you erase the WeChat message with the ID 67890 and the timestamp 1695602399?",
+        "filled_param": {
+          "message_id": 67890,
+          "timestamp": 1695602399
+        }
+      },
+      {
+        "query": "Delete the WeChat message whose message ID is 11223 and was created at Unix timestamp 1679925600.",
+        "filled_param": {
+          "message_id": 11223,
+          "timestamp": 1679925600
+        }
+      },
+      {
+        "query": "Kindly remove the WeChat message having the message ID 33445 and the timestamp 1704153600.",
+        "filled_param": {
+          "message_id": 33445,
+          "timestamp": 1704153600
+        }
+      },
+      {
+        "query": "Can you erase the WeChat message with message ID 99887 that was sent at Unix timestamp 1688668800?",
+        "filled_param": {
+          "message_id": 99887,
+          "timestamp": 1688668800
+        }
+      }
+    ]
+  },
+  "delete_message|:|DingTalk message|:|message_id,timestamp": {
+    "tool_template_name": "delete_message",
+    "derived_class": "DingTalk message",
+    "params_for_query": [
+      "message_id",
+      "timestamp"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the DingTalk message with message ID 10234 that was created at Unix timestamp 1678901234.",
+        "filled_param": {
+          "message_id": 10234,
+          "timestamp": 1678901234
+        }
+      },
+      {
+        "query": "Remove the DingTalk message with ID 20456, created on Unix timestamp 1681234567.",
+        "filled_param": {
+          "message_id": 20456,
+          "timestamp": 1681234567
+        }
+      },
+      {
+        "query": "I need you to delete the DingTalk message having message ID 30987 and timestamp 1679432100.",
+        "filled_param": {
+          "message_id": 30987,
+          "timestamp": 1679432100
+        }
+      },
+      {
+        "query": "Can you erase the DingTalk message with ID 78521 and Unix timestamp 1680456789?",
+        "filled_param": {
+          "message_id": 78521,
+          "timestamp": 1680456789
+        }
+      },
+      {
+        "query": "Delete the DingTalk message identified by message ID 56789 and created at timestamp 1680789000.",
+        "filled_param": {
+          "message_id": 56789,
+          "timestamp": 1680789000
+        }
+      }
+    ]
+  },
+  "delete_message|:|WhatsApp message|:|message_id,timestamp": {
+    "tool_template_name": "delete_message",
+    "derived_class": "WhatsApp message",
+    "params_for_query": [
+      "message_id",
+      "timestamp"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the WhatsApp message with ID 12345 that was created at timestamp 1672531199.",
+        "filled_param": {
+          "message_id": 12345,
+          "timestamp": 1672531199
+        }
+      },
+      {
+        "query": "Can you remove the WhatsApp message with ID 67890, which was sent at Unix time 1687654321?",
+        "filled_param": {
+          "message_id": 67890,
+          "timestamp": 1687654321
+        }
+      },
+      {
+        "query": "I need you to delete the WhatsApp message that has the ID 98765 and was created at the Unix timestamp 1623456789.",
+        "filled_param": {
+          "message_id": 98765,
+          "timestamp": 1623456789
+        }
+      },
+      {
+        "query": "Delete the WhatsApp message with ID 54321, created on Unix time 1698765432.",
+        "filled_param": {
+          "message_id": 54321,
+          "timestamp": 1698765432
+        }
+      },
+      {
+        "query": "Remove the WhatsApp message with the ID 19283 that was made at the timestamp 1612345678.",
+        "filled_param": {
+          "message_id": 19283,
+          "timestamp": 1612345678
+        }
+      },
+      {
+        "query": "Could you delete the WhatsApp message with ID 24680, which has a timestamp of 1712345678?",
+        "filled_param": {
+          "message_id": 24680,
+          "timestamp": 1712345678
+        }
+      }
+    ]
+  },
+  "delete_message|:|Facebook message|:|message_id,timestamp": {
+    "tool_template_name": "delete_message",
+    "derived_class": "Facebook message",
+    "params_for_query": [
+      "message_id",
+      "timestamp"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the Facebook message with ID 123456 that was created at 1672531200.",
+        "filled_param": {
+          "message_id": 123456,
+          "timestamp": 1672531200
+        }
+      },
+      {
+        "query": "Remove the Facebook message having the ID 7891011, created on the timestamp 1609459200.",
+        "filled_param": {
+          "message_id": 7891011,
+          "timestamp": 1609459200
+        }
+      },
+      {
+        "query": "Can you delete the Facebook message with message ID 112233 and timestamp 1633046400?",
+        "filled_param": {
+          "message_id": 112233,
+          "timestamp": 1633046400
+        }
+      },
+      {
+        "query": "I want to delete the Facebook message that has the ID 445566, which was created at 1593561600.",
+        "filled_param": {
+          "message_id": 445566,
+          "timestamp": 1593561600
+        }
+      },
+      {
+        "query": "Erase the Facebook message with ID 998877 and a creation timestamp of 1622505600.",
+        "filled_param": {
+          "message_id": 998877,
+          "timestamp": 1622505600
+        }
+      }
+    ]
+  },
+  "delete_message|:|Instagram message|:|message_id,timestamp": {
+    "tool_template_name": "delete_message",
+    "derived_class": "Instagram message",
+    "params_for_query": [
+      "message_id",
+      "timestamp"
+    ],
+    "queries": [
+      {
+        "query": "Please remove the Instagram message with message ID 123456 that was sent on the timestamp 1672531199.",
+        "filled_param": {
+          "message_id": 123456,
+          "timestamp": 1672531199
+        }
+      },
+      {
+        "query": "Delete the Instagram message that has the ID 789012 and was created at the Unix timestamp 1609459200.",
+        "filled_param": {
+          "message_id": 789012,
+          "timestamp": 1609459200
+        }
+      },
+      {
+        "query": "Can you erase the Instagram message with message ID 345678, recorded at the timestamp 1525132800?",
+        "filled_param": {
+          "message_id": 345678,
+          "timestamp": 1525132800
+        }
+      },
+      {
+        "query": "I need the Instagram message with ID 901234 and timestamp 1583020800 to be deleted.",
+        "filled_param": {
+          "message_id": 901234,
+          "timestamp": 1583020800
+        }
+      },
+      {
+        "query": "Kindly get rid of the Instagram message identified by message ID 567890 and timestamp 1612137600.",
+        "filled_param": {
+          "message_id": 567890,
+          "timestamp": 1612137600
+        }
+      }
+    ]
+  },
+  "delete_message|:|LinkedIn message|:|message_id,timestamp": {
+    "tool_template_name": "delete_message",
+    "derived_class": "LinkedIn message",
+    "params_for_query": [
+      "message_id",
+      "timestamp"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the LinkedIn message with message ID 123456789 and timestamp 1633072800.",
+        "filled_param": {
+          "message_id": 123456789,
+          "timestamp": 1633072800
+        }
+      },
+      {
+        "query": "Remove the LinkedIn message that has a message ID of 987654321 and was created at the timestamp 1625073600.",
+        "filled_param": {
+          "message_id": 987654321,
+          "timestamp": 1625073600
+        }
+      },
+      {
+        "query": "Can you delete the LinkedIn message with the message ID 2468101214 and the timestamp 1612137600?",
+        "filled_param": {
+          "message_id": 2468101214,
+          "timestamp": 1612137600
+        }
+      },
+      {
+        "query": "I need you to remove the LinkedIn message that has the message ID 135792468 and was sent at timestamp 1609459200.",
+        "filled_param": {
+          "message_id": 135792468,
+          "timestamp": 1609459200
+        }
+      },
+      {
+        "query": "Erase the LinkedIn message with the message ID of 1122334455 and a timestamp of 1640995200.",
+        "filled_param": {
+          "message_id": 1122334455,
+          "timestamp": 1640995200
+        }
+      }
+    ]
+  },
+  "delete_message|:|Discord message|:|message_id,timestamp": {
+    "tool_template_name": "delete_message",
+    "derived_class": "Discord message",
+    "params_for_query": [
+      "message_id",
+      "timestamp"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the Discord message with ID 123456789 that was created at the timestamp 1672531199.",
+        "filled_param": {
+          "message_id": 123456789,
+          "timestamp": 1672531199
+        }
+      },
+      {
+        "query": "Remove the Discord message identified by the ID 987654321, which has a creation timestamp of 1609459200.",
+        "filled_param": {
+          "message_id": 987654321,
+          "timestamp": 1609459200
+        }
+      },
+      {
+        "query": "Can you delete the Discord message that has the message ID 555555555 and was created at the Unix timestamp 1614556800?",
+        "filled_param": {
+          "message_id": 555555555,
+          "timestamp": 1614556800
+        }
+      },
+      {
+        "query": "I need you to remove the Discord message with the ID 333333333, which has a timestamp of 1627776000.",
+        "filled_param": {
+          "message_id": 333333333,
+          "timestamp": 1627776000
+        }
+      },
+      {
+        "query": "Delete the Discord message whose ID is 222222222 and was created on the timestamp 1633046400.",
+        "filled_param": {
+          "message_id": 222222222,
+          "timestamp": 1633046400
+        }
+      }
+    ]
+  },
+  "delete_message|:|Slack message|:|message_id,timestamp": {
+    "tool_template_name": "delete_message",
+    "derived_class": "Slack message",
+    "params_for_query": [
+      "message_id",
+      "timestamp"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the Slack message with ID 123456 and timestamp 1672531200.",
+        "filled_param": {
+          "message_id": 123456,
+          "timestamp": 1672531200
+        }
+      },
+      {
+        "query": "Remove the Slack message that has the message ID of 789101 and was created at timestamp 1672617600.",
+        "filled_param": {
+          "message_id": 789101,
+          "timestamp": 1672617600
+        }
+      },
+      {
+        "query": "Can you delete the Slack message which has the ID 111213 and a timestamp of 1672704000?",
+        "filled_param": {
+          "message_id": 111213,
+          "timestamp": 1672704000
+        }
+      },
+      {
+        "query": "I need the Slack message with ID 141516 and timestamp 1672790400 to be deleted.",
+        "filled_param": {
+          "message_id": 141516,
+          "timestamp": 1672790400
+        }
+      },
+      {
+        "query": "Kindly delete the Slack message that has ID 171819 and was posted at Unix timestamp 1672876800.",
+        "filled_param": {
+          "message_id": 171819,
+          "timestamp": 1672876800
+        }
+      }
+    ]
+  },
+  "delete_message|:|Twitter message|:|message_id,timestamp": {
+    "tool_template_name": "delete_message",
+    "derived_class": "Twitter message",
+    "params_for_query": [
+      "message_id",
+      "timestamp"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the Twitter message with the message ID 789012 that was created at the Unix timestamp 1693507200.",
+        "filled_param": {
+          "message_id": 789012,
+          "timestamp": 1693507200
+        }
+      },
+      {
+        "query": "Remove the Twitter message that has the message ID of 456789 and the creation timestamp 1687329600.",
+        "filled_param": {
+          "message_id": 456789,
+          "timestamp": 1687329600
+        }
+      },
+      {
+        "query": "Can you delete the Twitter message with ID 123456 and created on Unix time 1691100000?",
+        "filled_param": {
+          "message_id": 123456,
+          "timestamp": 1691100000
+        }
+      },
+      {
+        "query": "I'd like to have the Twitter message deleted which has the message ID 234567 and was created at the timestamp 1689936000.",
+        "filled_param": {
+          "message_id": 234567,
+          "timestamp": 1689936000
+        }
+      },
+      {
+        "query": "Delete the Twitter message identified by ID 567890, created at the Unix timestamp 1692014400.",
+        "filled_param": {
+          "message_id": 567890,
+          "timestamp": 1692014400
+        }
+      }
+    ]
+  },
+  "delete_message|:|TikTok message|:|message_id,timestamp": {
+    "tool_template_name": "delete_message",
+    "derived_class": "TikTok message",
+    "params_for_query": [
+      "message_id",
+      "timestamp"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the TikTok message with ID 45678 that was created at timestamp 1633065600.",
+        "filled_param": {
+          "message_id": 45678,
+          "timestamp": 1633065600
+        }
+      },
+      {
+        "query": "Can you remove the TikTok message from my account with message ID 10923 and timestamp 1615123200?",
+        "filled_param": {
+          "message_id": 10923,
+          "timestamp": 1615123200
+        }
+      },
+      {
+        "query": "Delete the TikTok message identified by ID 98765, created at Unix time 1622505600.",
+        "filled_param": {
+          "message_id": 98765,
+          "timestamp": 1622505600
+        }
+      },
+      {
+        "query": "I need to delete the TikTok message with ID 54321 and timestamp 1609459200.",
+        "filled_param": {
+          "message_id": 54321,
+          "timestamp": 1609459200
+        }
+      },
+      {
+        "query": "Could you help me remove the TikTok message that has the ID 12345 and was created at 1640995200?",
+        "filled_param": {
+          "message_id": 12345,
+          "timestamp": 1640995200
+        }
+      }
+    ]
+  },
+  "delete_message|:|YouTube message|:|message_id,timestamp": {
+    "tool_template_name": "delete_message",
+    "derived_class": "YouTube message",
+    "params_for_query": [
+      "message_id",
+      "timestamp"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the YouTube message with message ID 12345 that was created at the timestamp 1672531199.",
+        "filled_param": {
+          "message_id": 12345,
+          "timestamp": 1672531199
+        }
+      },
+      {
+        "query": "Remove the YouTube message that has the ID 67890 and was posted at the Unix timestamp 1609459200.",
+        "filled_param": {
+          "message_id": 67890,
+          "timestamp": 1609459200
+        }
+      },
+      {
+        "query": "Can you delete the YouTube message with the message ID of 54321 from the timestamp 1612137600?",
+        "filled_param": {
+          "message_id": 54321,
+          "timestamp": 1612137600
+        }
+      },
+      {
+        "query": "I need the YouTube message with ID 98765 removed, which was created at timestamp 1622505600.",
+        "filled_param": {
+          "message_id": 98765,
+          "timestamp": 1622505600
+        }
+      },
+      {
+        "query": "Erase the YouTube message that has the ID 11223 and was created at the timestamp 1630454400.",
+        "filled_param": {
+          "message_id": 11223,
+          "timestamp": 1630454400
+        }
+      }
+    ]
+  },
+  "delete_message|:|Reddit message|:|message_id,timestamp": {
+    "tool_template_name": "delete_message",
+    "derived_class": "Reddit message",
+    "params_for_query": [
+      "message_id",
+      "timestamp"
+    ],
+    "queries": [
+      {
+        "query": "Please remove the Reddit message with the message ID 123456 and timestamp 1633072800.",
+        "filled_param": {
+          "message_id": 123456,
+          "timestamp": 1633072800
+        }
+      },
+      {
+        "query": "Can you delete the Reddit message that has the message ID 789012 and was created at timestamp 1625199600?",
+        "filled_param": {
+          "message_id": 789012,
+          "timestamp": 1625199600
+        }
+      },
+      {
+        "query": "I need the Reddit message with message ID 345678 removed, and it was posted at timestamp 1640995200.",
+        "filled_param": {
+          "message_id": 345678,
+          "timestamp": 1640995200
+        }
+      },
+      {
+        "query": "Delete the Reddit message having the ID 901234 and a timestamp of 1612137600.",
+        "filled_param": {
+          "message_id": 901234,
+          "timestamp": 1612137600
+        }
+      },
+      {
+        "query": "Could you please delete the Reddit message whose message ID is 567890 and timestamp is 1656633600?",
+        "filled_param": {
+          "message_id": 567890,
+          "timestamp": 1656633600
+        }
+      }
+    ]
+  }
+}

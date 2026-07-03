@@ -1,0 +1,61 @@
+{
+  "tool_template_name": "Room_Style_Advisor",
+  "meta_data": {
+    "base_class": "Provide style suggestions for specific <indoor spaces> in a house - refers to independent areas within a building that can be decorated and designed in different styles.",
+    "derived_classes": [
+      "living room",
+      "bedroom",
+      "kitchen",
+      "bathroom",
+      "study room",
+      "dining room",
+      "balcony",
+      "fitness room"
+    ],
+    "base_class_entity": "room"
+  },
+  "tool_template": {
+    "name": "Style_Advisor_For_<class>",
+    "description": "Provide style advice for a <class> based on customer preferences and <class> characteristics.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "customer_style": {
+          "type": "string",
+          "description": "The customer's preferred style, such as 'industrial' or 'bohemian', with a length between 3 and 20 characters."
+        },
+        "room_characteristics": {
+          "type": "string",
+          "description": "A description of the <class>'s characteristics, such as 'spacious' or 'cozy'."
+        }
+      },
+      "required": [
+        "customer_style",
+        "room_characteristics"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "budget_limit": {
+      "type": "number",
+      "description": "The maximum budget available for styling the <class>."
+    },
+    "color_palette": {
+      "type": "string",
+      "description": "Preferred color palette for the <class>, such as 'monochrome' or 'pastel'."
+    },
+    "functionality_priority": {
+      "type": "string",
+      "description": "The primary functionality focus for the <class>, such as 'entertainment', 'relaxation' or 'work'."
+    },
+    "seasonal_theme": {
+      "type": "string",
+      "description": "The preferred seasonal theme for the <class>, options include 'spring', 'summer', 'autumn', and 'winter'."
+    },
+    "material_preference": {
+      "type": "string",
+      "description": "Preferred materials for furniture and decorations in the <class>, such as 'wood' or 'metal'."
+    }
+  }
+}

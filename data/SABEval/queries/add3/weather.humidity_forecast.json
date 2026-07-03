@@ -1,0 +1,573 @@
+{
+  "weather.humidity_forecast|:|humidity|:|location,days,confidence_level,include_historical_data,data_source": {
+    "tool_template_name": "weather.humidity_forecast",
+    "derived_class": "humidity",
+    "params_for_query": [
+      "location",
+      "days",
+      "confidence_level",
+      "include_historical_data",
+      "data_source"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide a 7-day humidity forecast for Miami with a confidence level of 80%, include historical data, and use data from Weather.com?",
+        "filled_param": {
+          "location": "Miami",
+          "days": 7,
+          "confidence_level": 80,
+          "include_historical_data": true,
+          "data_source": "Weather.com"
+        }
+      },
+      {
+        "query": "Get me a 3-day humidity forecast for London with a 95% confidence level, excluding historical data, using NOAA as the data source.",
+        "filled_param": {
+          "location": "London",
+          "days": 3,
+          "confidence_level": 95,
+          "include_historical_data": false,
+          "data_source": "NOAA"
+        }
+      },
+      {
+        "query": "I need a humidity forecast for 10 days in Sydney with a confidence level of 85%, include historical data and use data from AccuWeather.",
+        "filled_param": {
+          "location": "Sydney",
+          "days": 10,
+          "confidence_level": 85,
+          "include_historical_data": true,
+          "data_source": "AccuWeather"
+        }
+      },
+      {
+        "query": "Can you generate a 5-day humidity forecast for Tokyo with 90% confidence level, do not include historical data, use Weather.com as the source?",
+        "filled_param": {
+          "location": "Tokyo",
+          "days": 5,
+          "confidence_level": 90,
+          "include_historical_data": false,
+          "data_source": "Weather.com"
+        }
+      },
+      {
+        "query": "Please retrieve a 2-day humidity forecast for Berlin with 75% confidence, include historical data, and pull from NOAA.",
+        "filled_param": {
+          "location": "Berlin",
+          "days": 2,
+          "confidence_level": 75,
+          "include_historical_data": true,
+          "data_source": "NOAA"
+        }
+      },
+      {
+        "query": "What is the humidity forecast for the next 4 days in New York, with a 70% confidence level, excluding historical data, using AccuWeather?",
+        "filled_param": {
+          "location": "New York",
+          "days": 4,
+          "confidence_level": 70,
+          "include_historical_data": false,
+          "data_source": "AccuWeather"
+        }
+      },
+      {
+        "query": "Provide a 6-day humidity forecast for Paris with 88% confidence, include historical data, using Weather.com.",
+        "filled_param": {
+          "location": "Paris",
+          "days": 6,
+          "confidence_level": 88,
+          "include_historical_data": true,
+          "data_source": "Weather.com"
+        }
+      }
+    ]
+  },
+  "weather.humidity_forecast|:|temperature|:|location,days,confidence_level,include_historical_data,data_source": {
+    "tool_template_name": "weather.humidity_forecast",
+    "derived_class": "temperature",
+    "params_for_query": [
+      "location",
+      "days",
+      "confidence_level",
+      "include_historical_data",
+      "data_source"
+    ],
+    "queries": [
+      {
+        "query": "Can you get the temperature forecast for New York City for the next 5 days with a confidence level of 80% using historical data, sourced from NOAA?",
+        "filled_param": {
+          "location": "New York City",
+          "days": 5,
+          "confidence_level": 80,
+          "include_historical_data": true,
+          "data_source": "NOAA"
+        }
+      },
+      {
+        "query": "I need a 3-day temperature forecast for Tokyo with a 75% confidence level. Please include historical data and get it from Weather.com.",
+        "filled_param": {
+          "location": "Tokyo",
+          "days": 3,
+          "confidence_level": 75,
+          "include_historical_data": true,
+          "data_source": "Weather.com"
+        }
+      },
+      {
+        "query": "Provide a temperature forecast for London for 7 days at a 90% confidence level, without historical data. Use NOAA as the data source.",
+        "filled_param": {
+          "location": "London",
+          "days": 7,
+          "confidence_level": 90,
+          "include_historical_data": false,
+          "data_source": "NOAA"
+        }
+      },
+      {
+        "query": "I'd like to see a 2-day temperature forecast for Sydney with 85% confidence, employing historical data. The data should come from Weather.com.",
+        "filled_param": {
+          "location": "Sydney",
+          "days": 2,
+          "confidence_level": 85,
+          "include_historical_data": true,
+          "data_source": "Weather.com"
+        }
+      },
+      {
+        "query": "Retrieve the temperature forecast for Paris for the upcoming 10 days with a 70% confidence level. Historical data not needed, and use NOAA as the source.",
+        "filled_param": {
+          "location": "Paris",
+          "days": 10,
+          "confidence_level": 70,
+          "include_historical_data": false,
+          "data_source": "NOAA"
+        }
+      },
+      {
+        "query": "Could you give me a temperature forecast for Mumbai for 4 days, with a confidence level of 65%, including historical data, and sourced from Weather.com?",
+        "filled_param": {
+          "location": "Mumbai",
+          "days": 4,
+          "confidence_level": 65,
+          "include_historical_data": true,
+          "data_source": "Weather.com"
+        }
+      },
+      {
+        "query": "Please provide a temperature forecast for Berlin for 6 days with 95% confidence, without historical data, from the NOAA data source.",
+        "filled_param": {
+          "location": "Berlin",
+          "days": 6,
+          "confidence_level": 95,
+          "include_historical_data": false,
+          "data_source": "NOAA"
+        }
+      }
+    ]
+  },
+  "weather.humidity_forecast|:|wind speed|:|location,days,confidence_level,include_historical_data,data_source": {
+    "tool_template_name": "weather.humidity_forecast",
+    "derived_class": "wind speed",
+    "params_for_query": [
+      "location",
+      "days",
+      "confidence_level",
+      "include_historical_data",
+      "data_source"
+    ],
+    "queries": [
+      {
+        "query": "Can you get the wind speed forecast for New York for the next 3 days with a 90% confidence level using NOAA data and include historical data?",
+        "filled_param": {
+          "location": "New York",
+          "days": 3,
+          "confidence_level": 90,
+          "include_historical_data": true,
+          "data_source": "NOAA"
+        }
+      },
+      {
+        "query": "Please retrieve a wind speed forecast for London covering 7 days with a confidence level of 85%, without historical data, using Weather.com as the source.",
+        "filled_param": {
+          "location": "London",
+          "days": 7,
+          "confidence_level": 85,
+          "include_historical_data": false,
+          "data_source": "Weather.com"
+        }
+      },
+      {
+        "query": "I need a 5-day wind speed prediction for Tokyo with 95% confidence, using historical data from NOAA.",
+        "filled_param": {
+          "location": "Tokyo",
+          "days": 5,
+          "confidence_level": 95,
+          "include_historical_data": true,
+          "data_source": "NOAA"
+        }
+      },
+      {
+        "query": "What's the wind speed forecast in Sydney for the upcoming 2 days at a 75% confidence level using Weather.com, without including historical data?",
+        "filled_param": {
+          "location": "Sydney",
+          "days": 2,
+          "confidence_level": 75,
+          "include_historical_data": false,
+          "data_source": "Weather.com"
+        }
+      },
+      {
+        "query": "Generate a wind speed report for Paris over the next 10 days, ensuring an 80% confidence level, with historical data included, sourced from NOAA.",
+        "filled_param": {
+          "location": "Paris",
+          "days": 10,
+          "confidence_level": 80,
+          "include_historical_data": true,
+          "data_source": "NOAA"
+        }
+      },
+      {
+        "query": "Could you provide a 4-day wind speed forecast for Berlin with a confidence level of 70%, using Weather.com and excluding historical data?",
+        "filled_param": {
+          "location": "Berlin",
+          "days": 4,
+          "confidence_level": 70,
+          "include_historical_data": false,
+          "data_source": "Weather.com"
+        }
+      },
+      {
+        "query": "Fetch a detailed 6-day wind speed forecast for Toronto with 88% confidence, including historical data from NOAA.",
+        "filled_param": {
+          "location": "Toronto",
+          "days": 6,
+          "confidence_level": 88,
+          "include_historical_data": true,
+          "data_source": "NOAA"
+        }
+      }
+    ]
+  },
+  "weather.humidity_forecast|:|air pressure|:|location,days,confidence_level,include_historical_data,data_source": {
+    "tool_template_name": "weather.humidity_forecast",
+    "derived_class": "air pressure",
+    "params_for_query": [
+      "location",
+      "days",
+      "confidence_level",
+      "include_historical_data",
+      "data_source"
+    ],
+    "queries": [
+      {
+        "query": "Provide an air pressure forecast for New York City for the next 5 days with a 90% confidence level, using historical data and data from NOAA.",
+        "filled_param": {
+          "location": "New York City",
+          "days": 5,
+          "confidence_level": 90,
+          "include_historical_data": true,
+          "data_source": "NOAA"
+        }
+      },
+      {
+        "query": "Can I have the air pressure forecast for Tokyo for the coming 3 days at a 75% confidence level? Use Weather.com and include historical insights.",
+        "filled_param": {
+          "location": "Tokyo",
+          "days": 3,
+          "confidence_level": 75,
+          "include_historical_data": true,
+          "data_source": "Weather.com"
+        }
+      },
+      {
+        "query": "Retrieve a 7-day air pressure forecast for Sydney with an 85% confidence level, without historical data, sourced from NOAA.",
+        "filled_param": {
+          "location": "Sydney",
+          "days": 7,
+          "confidence_level": 85,
+          "include_historical_data": false,
+          "data_source": "NOAA"
+        }
+      },
+      {
+        "query": "I need an air pressure forecast for Paris for 4 days at 95% confidence. Don't use historical data, and get it from Weather.com.",
+        "filled_param": {
+          "location": "Paris",
+          "days": 4,
+          "confidence_level": 95,
+          "include_historical_data": false,
+          "data_source": "Weather.com"
+        }
+      },
+      {
+        "query": "What is the air pressure forecast for 10 days in Johannesburg with a 60% confidence level, using historical data from NOAA?",
+        "filled_param": {
+          "location": "Johannesburg",
+          "days": 10,
+          "confidence_level": 60,
+          "include_historical_data": true,
+          "data_source": "NOAA"
+        }
+      },
+      {
+        "query": "Generate a 6-day air pressure forecast for Dubai with 80% confidence, utilizing historical data from Weather.com.",
+        "filled_param": {
+          "location": "Dubai",
+          "days": 6,
+          "confidence_level": 80,
+          "include_historical_data": true,
+          "data_source": "Weather.com"
+        }
+      },
+      {
+        "query": "Could I get an air pressure forecast for Berlin for the next 2 days with 70% confidence, excluding historical data, from NOAA?",
+        "filled_param": {
+          "location": "Berlin",
+          "days": 2,
+          "confidence_level": 70,
+          "include_historical_data": false,
+          "data_source": "NOAA"
+        }
+      }
+    ]
+  },
+  "weather.humidity_forecast|:|precipitation|:|location,days,confidence_level,include_historical_data,data_source": {
+    "tool_template_name": "weather.humidity_forecast",
+    "derived_class": "precipitation",
+    "params_for_query": [
+      "location",
+      "days",
+      "confidence_level",
+      "include_historical_data",
+      "data_source"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide a precipitation forecast for New York City for the next 3 days with a confidence level of 85% using Weather.com, and include historical data?",
+        "filled_param": {
+          "location": "New York City",
+          "days": 3,
+          "confidence_level": 85,
+          "include_historical_data": true,
+          "data_source": "Weather.com"
+        }
+      },
+      {
+        "query": "What's the precipitation outlook for Tokyo over the next 5 days with a 90% confidence level, without using historical data and sourced from NOAA?",
+        "filled_param": {
+          "location": "Tokyo",
+          "days": 5,
+          "confidence_level": 90,
+          "include_historical_data": false,
+          "data_source": "NOAA"
+        }
+      },
+      {
+        "query": "I need a 7-day precipitation forecast for Sydney, ensuring a 75% confidence level, include historical data, and sourced from Weather.com.",
+        "filled_param": {
+          "location": "Sydney",
+          "days": 7,
+          "confidence_level": 75,
+          "include_historical_data": true,
+          "data_source": "Weather.com"
+        }
+      },
+      {
+        "query": "Could you give me a 10-day precipitation forecast for Paris with an 80% confidence level from NOAA, and please include historical data?",
+        "filled_param": {
+          "location": "Paris",
+          "days": 10,
+          "confidence_level": 80,
+          "include_historical_data": true,
+          "data_source": "NOAA"
+        }
+      },
+      {
+        "query": "Please retrieve a precipitation forecast for London for the next 2 days with 95% confidence, excluding historical data, from Weather.com.",
+        "filled_param": {
+          "location": "London",
+          "days": 2,
+          "confidence_level": 95,
+          "include_historical_data": false,
+          "data_source": "Weather.com"
+        }
+      },
+      {
+        "query": "I’m planning a trip to Berlin. What's the 14-day precipitation forecast with a confidence level of 70%, using historical data, sourced from NOAA?",
+        "filled_param": {
+          "location": "Berlin",
+          "days": 14,
+          "confidence_level": 70,
+          "include_historical_data": true,
+          "data_source": "NOAA"
+        }
+      },
+      {
+        "query": "Could you tell me the 3-day precipitation forecast for Rio de Janeiro with an 85% confidence level, without historical data, using Weather.com?",
+        "filled_param": {
+          "location": "Rio de Janeiro",
+          "days": 3,
+          "confidence_level": 85,
+          "include_historical_data": false,
+          "data_source": "Weather.com"
+        }
+      }
+    ]
+  },
+  "weather.humidity_forecast|:|visibility|:|location,days,confidence_level,include_historical_data,data_source": {
+    "tool_template_name": "weather.humidity_forecast",
+    "derived_class": "visibility",
+    "params_for_query": [
+      "location",
+      "days",
+      "confidence_level",
+      "include_historical_data",
+      "data_source"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide a visibility forecast for Paris for the next 3 days with 90% confidence, using historical data and sourcing from Weather.com?",
+        "filled_param": {
+          "location": "Paris",
+          "days": 3,
+          "confidence_level": 90,
+          "include_historical_data": true,
+          "data_source": "Weather.com"
+        }
+      },
+      {
+        "query": "I need a 5-day visibility forecast for New York with an 80% confidence level. Please include historical data and use NOAA as the data source.",
+        "filled_param": {
+          "location": "New York",
+          "days": 5,
+          "confidence_level": 80,
+          "include_historical_data": true,
+          "data_source": "NOAA"
+        }
+      },
+      {
+        "query": "Get me the visibility forecast for Tokyo for the next 7 days, with a 75% confidence level, without using historical data, sourced from Weather.com.",
+        "filled_param": {
+          "location": "Tokyo",
+          "days": 7,
+          "confidence_level": 75,
+          "include_historical_data": false,
+          "data_source": "Weather.com"
+        }
+      },
+      {
+        "query": "What is the visibility forecast for London for the upcoming 2 days? Use an 85% confidence level, include historical data, and get the information from NOAA.",
+        "filled_param": {
+          "location": "London",
+          "days": 2,
+          "confidence_level": 85,
+          "include_historical_data": true,
+          "data_source": "NOAA"
+        }
+      },
+      {
+        "query": "Fetch a visibility forecast for Sydney over the next 4 days with 95% confidence. Do not include historical data, and source the forecast from Weather.com.",
+        "filled_param": {
+          "location": "Sydney",
+          "days": 4,
+          "confidence_level": 95,
+          "include_historical_data": false,
+          "data_source": "Weather.com"
+        }
+      },
+      {
+        "query": "I'd like a 6-day visibility forecast for Berlin, using a 70% confidence level and historical data, retrieved from NOAA.",
+        "filled_param": {
+          "location": "Berlin",
+          "days": 6,
+          "confidence_level": 70,
+          "include_historical_data": true,
+          "data_source": "NOAA"
+        }
+      }
+    ]
+  },
+  "weather.humidity_forecast|:|UV index|:|location,days,confidence_level,include_historical_data,data_source": {
+    "tool_template_name": "weather.humidity_forecast",
+    "derived_class": "UV index",
+    "params_for_query": [
+      "location",
+      "days",
+      "confidence_level",
+      "include_historical_data",
+      "data_source"
+    ],
+    "queries": [
+      {
+        "query": "Provide the UV index forecast for Los Angeles for the next 3 days with a 90% confidence level, include historical data, and use data from NOAA.",
+        "filled_param": {
+          "location": "Los Angeles",
+          "days": 3,
+          "confidence_level": 90,
+          "include_historical_data": true,
+          "data_source": "NOAA"
+        }
+      },
+      {
+        "query": "Can I get a 5-day UV index forecast for New York City with 80% confidence, without historical data, from Weather.com?",
+        "filled_param": {
+          "location": "New York City",
+          "days": 5,
+          "confidence_level": 80,
+          "include_historical_data": false,
+          "data_source": "Weather.com"
+        }
+      },
+      {
+        "query": "Get me the UV index forecast for Miami for 2 days at a 95% confidence level, using historical data, sourced from NOAA.",
+        "filled_param": {
+          "location": "Miami",
+          "days": 2,
+          "confidence_level": 95,
+          "include_historical_data": true,
+          "data_source": "NOAA"
+        }
+      },
+      {
+        "query": "I'd like to know the UV index forecast for San Francisco over the next 7 days with 85% confidence, and do not include historical data. Use Weather.com as the source.",
+        "filled_param": {
+          "location": "San Francisco",
+          "days": 7,
+          "confidence_level": 85,
+          "include_historical_data": false,
+          "data_source": "Weather.com"
+        }
+      },
+      {
+        "query": "Please provide a 4-day UV index forecast for Chicago with a 75% confidence level, include historical data, and retrieve the information from NOAA.",
+        "filled_param": {
+          "location": "Chicago",
+          "days": 4,
+          "confidence_level": 75,
+          "include_historical_data": true,
+          "data_source": "NOAA"
+        }
+      },
+      {
+        "query": "Could you give me the UV index forecast for Houston for the next 6 days with a confidence level of 70%, without historical data, using Weather.com?",
+        "filled_param": {
+          "location": "Houston",
+          "days": 6,
+          "confidence_level": 70,
+          "include_historical_data": false,
+          "data_source": "Weather.com"
+        }
+      },
+      {
+        "query": "I need a UV index forecast for Seattle for 10 days with 60% confidence level, using historical data, and sourced from NOAA.",
+        "filled_param": {
+          "location": "Seattle",
+          "days": 10,
+          "confidence_level": 60,
+          "include_historical_data": true,
+          "data_source": "NOAA"
+        }
+      }
+    ]
+  }
+}

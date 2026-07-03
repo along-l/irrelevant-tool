@@ -1,0 +1,890 @@
+{
+  "TechStockInsightGenerator|:|healthcare stocks|:|industry,daysToAnalyze,predictionDays,riskAppetite,region,market_cap_focus": {
+    "tool_template_name": "TechStockInsightGenerator",
+    "derived_class": "healthcare stocks",
+    "params_for_query": [
+      "industry",
+      "daysToAnalyze",
+      "predictionDays",
+      "riskAppetite",
+      "region",
+      "market_cap_focus"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide insights on biotechnology healthcare stocks in North America with a medium risk appetite for the last 30 days and predict the next 10 days, focusing on large-cap companies?",
+        "filled_param": {
+          "industry": "biotechnology",
+          "daysToAnalyze": 30,
+          "predictionDays": 10,
+          "riskAppetite": "medium",
+          "region": "North America",
+          "market_cap_focus": "large_cap"
+        }
+      },
+      {
+        "query": "Analyze healthcare stocks in the pharmaceuticals industry in Europe for the past 15 days and predict for the next 5 days, considering a low-risk appetite and targeting mid-cap stocks.",
+        "filled_param": {
+          "industry": "pharmaceuticals",
+          "daysToAnalyze": 15,
+          "predictionDays": 5,
+          "riskAppetite": "low",
+          "region": "Europe",
+          "market_cap_focus": "mid_cap"
+        }
+      },
+      {
+        "query": "I need insights on healthcare stocks in the medical devices sector focused on the Asia-Pacific region with a high-risk preference, analyzing the last 60 days and predicting the next 20 days for small-cap companies.",
+        "filled_param": {
+          "industry": "medical devices",
+          "daysToAnalyze": 60,
+          "predictionDays": 20,
+          "riskAppetite": "high",
+          "region": "Asia-Pacific",
+          "market_cap_focus": "small_cap"
+        }
+      },
+      {
+        "query": "Generate insights on health technology stocks from the last 45 days in the Middle East, with a prediction for the next 15 days, focusing on investors with a medium risk appetite and large-cap companies.",
+        "filled_param": {
+          "industry": "health technology",
+          "daysToAnalyze": 45,
+          "predictionDays": 15,
+          "riskAppetite": "medium",
+          "region": "Middle East",
+          "market_cap_focus": "large_cap"
+        }
+      },
+      {
+        "query": "What insights can you offer on healthcare stocks in the biotechnology industry in Australia, analyzing the previous 20 days and predicting the next 7 days for small-cap stocks, under a high-risk strategy?",
+        "filled_param": {
+          "industry": "biotechnology",
+          "daysToAnalyze": 20,
+          "predictionDays": 7,
+          "riskAppetite": "high",
+          "region": "Australia",
+          "market_cap_focus": "small_cap"
+        }
+      },
+      {
+        "query": "Please provide an analysis of healthcare stocks in the medical equipment industry in the African region, focusing on the last 90 days and predicting the upcoming 30 days with a low-risk approach, specifically for mid-cap stocks.",
+        "filled_param": {
+          "industry": "medical equipment",
+          "daysToAnalyze": 90,
+          "predictionDays": 30,
+          "riskAppetite": "low",
+          "region": "African",
+          "market_cap_focus": "mid_cap"
+        }
+      },
+      {
+        "query": "Can you analyze hospitals and health services stocks in the UK for the past 25 days and predict their performance for the next 12 days, considering a medium-risk tolerance and focusing on large-cap stocks?",
+        "filled_param": {
+          "industry": "hospitals and health services",
+          "daysToAnalyze": 25,
+          "predictionDays": 12,
+          "riskAppetite": "medium",
+          "region": "UK",
+          "market_cap_focus": "large_cap"
+        }
+      }
+    ]
+  },
+  "TechStockInsightGenerator|:|financials stocks|:|industry,daysToAnalyze,predictionDays,riskAppetite,region,market_cap_focus": {
+    "tool_template_name": "TechStockInsightGenerator",
+    "derived_class": "financials stocks",
+    "params_for_query": [
+      "industry",
+      "daysToAnalyze",
+      "predictionDays",
+      "riskAppetite",
+      "region",
+      "market_cap_focus"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide insights on financials stocks in the banking industry, focusing on the last 30 days and predicting the next 10 days for North America, considering a high risk appetite with a focus on large cap stocks?",
+        "filled_param": {
+          "industry": "banking",
+          "daysToAnalyze": 30,
+          "predictionDays": 10,
+          "riskAppetite": "high",
+          "region": "North America",
+          "market_cap_focus": "large_cap"
+        }
+      },
+      {
+        "query": "I'm interested in insights on financials stocks within the insurance sector over the past 60 days, with projections for the next 15 days. My risk tolerance is medium, and I'd like to analyze the European market, specifically mid cap stocks.",
+        "filled_param": {
+          "industry": "insurance",
+          "daysToAnalyze": 60,
+          "predictionDays": 15,
+          "riskAppetite": "medium",
+          "region": "Europe",
+          "market_cap_focus": "mid_cap"
+        }
+      },
+      {
+        "query": "Generate insights for financials stocks related to investment banking, analyzing the last 90 days and the next 30 days for the Asia Pacific region with a low risk appetite, concentrating on small cap stocks.",
+        "filled_param": {
+          "industry": "investment banking",
+          "daysToAnalyze": 90,
+          "predictionDays": 30,
+          "riskAppetite": "low",
+          "region": "Asia Pacific",
+          "market_cap_focus": "small_cap"
+        }
+      },
+      {
+        "query": "What are the trends in financials stocks for the asset management industry over 45 days, with predictions for the upcoming 20 days in South America, assuming a high risk level and focusing on large cap stocks?",
+        "filled_param": {
+          "industry": "asset management",
+          "daysToAnalyze": 45,
+          "predictionDays": 20,
+          "riskAppetite": "high",
+          "region": "South America",
+          "market_cap_focus": "large_cap"
+        }
+      },
+      {
+        "query": "I'd like an analysis of financials stocks in the real estate sector for the past 50 days, with a 25-day prediction window for the Africa region, tailored to a medium risk profile and small cap stocks.",
+        "filled_param": {
+          "industry": "real estate",
+          "daysToAnalyze": 50,
+          "predictionDays": 25,
+          "riskAppetite": "medium",
+          "region": "Africa",
+          "market_cap_focus": "small_cap"
+        }
+      },
+      {
+        "query": "Give me insights on financials stocks in the fintech industry, looking at the previous 20 days and forecasting the next 5 days for the Middle East region, with a low risk appetite and mid cap stocks.",
+        "filled_param": {
+          "industry": "fintech",
+          "daysToAnalyze": 20,
+          "predictionDays": 5,
+          "riskAppetite": "low",
+          "region": "Middle East",
+          "market_cap_focus": "mid_cap"
+        }
+      },
+      {
+        "query": "Can you analyze financials stocks in the mortgage finance sector over the past 100 days, and predict the future performance for the next 40 days in Australia, with a focus on high risk and large cap stocks?",
+        "filled_param": {
+          "industry": "mortgage finance",
+          "daysToAnalyze": 100,
+          "predictionDays": 40,
+          "riskAppetite": "high",
+          "region": "Australia",
+          "market_cap_focus": "large_cap"
+        }
+      }
+    ]
+  },
+  "TechStockInsightGenerator|:|consumer discretionary stocks|:|industry,daysToAnalyze,predictionDays,riskAppetite,region,market_cap_focus": {
+    "tool_template_name": "TechStockInsightGenerator",
+    "derived_class": "consumer discretionary stocks",
+    "params_for_query": [
+      "industry",
+      "daysToAnalyze",
+      "predictionDays",
+      "riskAppetite",
+      "region",
+      "market_cap_focus"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide insights on the automotive industry within consumer discretionary stocks for the last 30 days, and predict the next 10 days? I prefer a medium risk approach focusing on North America with large cap stocks.",
+        "filled_param": {
+          "industry": "automotive",
+          "daysToAnalyze": 30,
+          "predictionDays": 10,
+          "riskAppetite": "medium",
+          "region": "North America",
+          "market_cap_focus": "large_cap"
+        }
+      },
+      {
+        "query": "I'd like an analysis of the hospitality industry under consumer discretionary stocks from the past 60 days and a forecast for the next 15 days. My risk appetite is high, focusing on European mid cap stocks.",
+        "filled_param": {
+          "industry": "hospitality",
+          "daysToAnalyze": 60,
+          "predictionDays": 15,
+          "riskAppetite": "high",
+          "region": "Europe",
+          "market_cap_focus": "mid_cap"
+        }
+      },
+      {
+        "query": "Generate insights on the entertainment industry related to consumer discretionary stocks over the past 45 days and predict for 7 days ahead. I'm looking for low risk insights and focusing on Asian small cap stocks.",
+        "filled_param": {
+          "industry": "entertainment",
+          "daysToAnalyze": 45,
+          "predictionDays": 7,
+          "riskAppetite": "low",
+          "region": "Asia",
+          "market_cap_focus": "small_cap"
+        }
+      },
+      {
+        "query": "Can you analyze the retail sector within consumer discretionary stocks for the last 90 days and provide predictions for 20 days? I'm interested in medium risk insights focusing on Latin American mid cap stocks.",
+        "filled_param": {
+          "industry": "retail",
+          "daysToAnalyze": 90,
+          "predictionDays": 20,
+          "riskAppetite": "medium",
+          "region": "Latin America",
+          "market_cap_focus": "mid_cap"
+        }
+      },
+      {
+        "query": "Please provide insights on the luxury goods industry as part of consumer discretionary stocks for the past 15 days and forecast for 5 days. I'm focused on high risk opportunities in the African large cap market.",
+        "filled_param": {
+          "industry": "luxury goods",
+          "daysToAnalyze": 15,
+          "predictionDays": 5,
+          "riskAppetite": "high",
+          "region": "Africa",
+          "market_cap_focus": "large_cap"
+        }
+      },
+      {
+        "query": "I need insights on the media industry under consumer discretionary stocks for the past 50 days with predictions for the next 12 days, with a low risk approach in the Australian mid cap sector.",
+        "filled_param": {
+          "industry": "media",
+          "daysToAnalyze": 50,
+          "predictionDays": 12,
+          "riskAppetite": "low",
+          "region": "Australia",
+          "market_cap_focus": "mid_cap"
+        }
+      },
+      {
+        "query": "Could you analyze the apparel industry within consumer discretionary stocks for 40 days and predict for 14 days? Focus on medium risk investments in North American small cap stocks.",
+        "filled_param": {
+          "industry": "apparel",
+          "daysToAnalyze": 40,
+          "predictionDays": 14,
+          "riskAppetite": "medium",
+          "region": "North America",
+          "market_cap_focus": "small_cap"
+        }
+      }
+    ]
+  },
+  "TechStockInsightGenerator|:|consumer staples stocks|:|industry,daysToAnalyze,predictionDays,riskAppetite,region,market_cap_focus": {
+    "tool_template_name": "TechStockInsightGenerator",
+    "derived_class": "consumer staples stocks",
+    "params_for_query": [
+      "industry",
+      "daysToAnalyze",
+      "predictionDays",
+      "riskAppetite",
+      "region",
+      "market_cap_focus"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide insights on consumer staples stocks in the beverage industry for the past 30 days and predict the next 7 days for a medium risk appetite in North America, focusing on large cap companies?",
+        "filled_param": {
+          "industry": "beverage",
+          "daysToAnalyze": 30,
+          "predictionDays": 7,
+          "riskAppetite": "medium",
+          "region": "North America",
+          "market_cap_focus": "large_cap"
+        }
+      },
+      {
+        "query": "I need an analysis of consumer staples stocks within the household products sector, looking at the last 15 days and forecasting for 10 days with a low risk approach in the Europe region, focusing on mid cap stocks.",
+        "filled_param": {
+          "industry": "household products",
+          "daysToAnalyze": 15,
+          "predictionDays": 10,
+          "riskAppetite": "low",
+          "region": "Europe",
+          "market_cap_focus": "mid_cap"
+        }
+      },
+      {
+        "query": "Generate market insights on consumer staples stocks in the food and staples retailing industry, analyzing the previous 20 days and predicting the next 5 days for a high risk investor in Asia, with a focus on small cap companies.",
+        "filled_param": {
+          "industry": "food and staples retailing",
+          "daysToAnalyze": 20,
+          "predictionDays": 5,
+          "riskAppetite": "high",
+          "region": "Asia",
+          "market_cap_focus": "small_cap"
+        }
+      },
+      {
+        "query": "What do recent trends in the personal care sector's consumer staples stocks suggest? Analyze for the past 60 days and predict 14 days ahead for a medium risk preference in the Latin America market with a focus on large cap.",
+        "filled_param": {
+          "industry": "personal care",
+          "daysToAnalyze": 60,
+          "predictionDays": 14,
+          "riskAppetite": "medium",
+          "region": "Latin America",
+          "market_cap_focus": "large_cap"
+        }
+      },
+      {
+        "query": "Please provide a report on the consumer staples stocks in the tobacco industry. Review the last 10 days and forecast the next 3 days with a low risk tolerance for the Africa region, focusing on mid cap companies.",
+        "filled_param": {
+          "industry": "tobacco",
+          "daysToAnalyze": 10,
+          "predictionDays": 3,
+          "riskAppetite": "low",
+          "region": "Africa",
+          "market_cap_focus": "mid_cap"
+        }
+      },
+      {
+        "query": "Analyze trends in consumer staples stocks in the food product industry for the preceding 45 days and predict performance for the next 15 days under a high risk strategy in the Middle East, focusing on small cap stocks.",
+        "filled_param": {
+          "industry": "food product",
+          "daysToAnalyze": 45,
+          "predictionDays": 15,
+          "riskAppetite": "high",
+          "region": "Middle East",
+          "market_cap_focus": "small_cap"
+        }
+      }
+    ]
+  },
+  "TechStockInsightGenerator|:|energy stocks|:|industry,daysToAnalyze,predictionDays,riskAppetite,region,market_cap_focus": {
+    "tool_template_name": "TechStockInsightGenerator",
+    "derived_class": "energy stocks",
+    "params_for_query": [
+      "industry",
+      "daysToAnalyze",
+      "predictionDays",
+      "riskAppetite",
+      "region",
+      "market_cap_focus"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide insights on renewable energy stocks in North America for the next 7 days, analyzing the past 30 days with a low-risk appetite, focusing on large-cap companies?",
+        "filled_param": {
+          "industry": "renewable",
+          "daysToAnalyze": 30,
+          "predictionDays": 7,
+          "riskAppetite": "low",
+          "region": "North America",
+          "market_cap_focus": "large_cap"
+        }
+      },
+      {
+        "query": "What predictions can you make about the oil and gas sector in Europe for the next 5 days, given the trends from the last 10 days, with a medium-risk appetite and targeting mid-cap stocks?",
+        "filled_param": {
+          "industry": "oil and gas",
+          "daysToAnalyze": 10,
+          "predictionDays": 5,
+          "riskAppetite": "medium",
+          "region": "Europe",
+          "market_cap_focus": "mid_cap"
+        }
+      },
+      {
+        "query": "Analyze the Asian coal industry stocks over the past 15 days and predict performance for the next 3 days for an investor with a high-risk appetite, focusing on small-cap companies.",
+        "filled_param": {
+          "industry": "coal",
+          "daysToAnalyze": 15,
+          "predictionDays": 3,
+          "riskAppetite": "high",
+          "region": "Asia",
+          "market_cap_focus": "small_cap"
+        }
+      },
+      {
+        "query": "I need insights on nuclear energy stocks in South America for low-risk investors, analyzing 20 days of past data and projecting 10 days ahead, with an emphasis on large-cap stocks.",
+        "filled_param": {
+          "industry": "nuclear",
+          "daysToAnalyze": 20,
+          "predictionDays": 10,
+          "riskAppetite": "low",
+          "region": "South America",
+          "market_cap_focus": "large_cap"
+        }
+      },
+      {
+        "query": "Explore the trends in the European wind energy market over the last 40 days and predict the next 8 days for a medium-risk appetite investor, focusing on mid-cap stocks.",
+        "filled_param": {
+          "industry": "wind energy",
+          "daysToAnalyze": 40,
+          "predictionDays": 8,
+          "riskAppetite": "medium",
+          "region": "Europe",
+          "market_cap_focus": "mid_cap"
+        }
+      },
+      {
+        "query": "Could you give an analysis on U.S. solar energy stocks for a high-risk portfolio, reviewing 25 days of past data and forecasting the next 14 days, with a focus on small-cap stocks?",
+        "filled_param": {
+          "industry": "solar",
+          "daysToAnalyze": 25,
+          "predictionDays": 14,
+          "riskAppetite": "high",
+          "region": "U.S.",
+          "market_cap_focus": "small_cap"
+        }
+      },
+      {
+        "query": "What are the insights on the Middle East biofuel sector, analyzing 35 days of data to predict 7 days ahead for an investor with a low-risk tolerance, focusing on large-cap stocks?",
+        "filled_param": {
+          "industry": "biofuel",
+          "daysToAnalyze": 35,
+          "predictionDays": 7,
+          "riskAppetite": "low",
+          "region": "Middle East",
+          "market_cap_focus": "large_cap"
+        }
+      }
+    ]
+  },
+  "TechStockInsightGenerator|:|industrials stocks|:|industry,daysToAnalyze,predictionDays,riskAppetite,region,market_cap_focus": {
+    "tool_template_name": "TechStockInsightGenerator",
+    "derived_class": "industrials stocks",
+    "params_for_query": [
+      "industry",
+      "daysToAnalyze",
+      "predictionDays",
+      "riskAppetite",
+      "region",
+      "market_cap_focus"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide insights on the aerospace industry stocks in North America for the past 30 days, with predictions for the next 7 days? I have a high risk appetite and am interested in large cap stocks.",
+        "filled_param": {
+          "industry": "aerospace",
+          "daysToAnalyze": 30,
+          "predictionDays": 7,
+          "riskAppetite": "high",
+          "region": "North America",
+          "market_cap_focus": "large_cap"
+        }
+      },
+      {
+        "query": "What are the recent trends and predictions for the construction industry stocks over the last 15 days in Europe? My risk appetite is medium, and I'm focusing on mid cap stocks.",
+        "filled_param": {
+          "industry": "construction",
+          "daysToAnalyze": 15,
+          "predictionDays": 5,
+          "riskAppetite": "medium",
+          "region": "Europe",
+          "market_cap_focus": "mid_cap"
+        }
+      },
+      {
+        "query": "I'd like an analysis of machinery stocks over the last 60 days in Asia, with forecasts for the next 10 days. I prefer low risk investments and am interested in small cap stocks.",
+        "filled_param": {
+          "industry": "machinery",
+          "daysToAnalyze": 60,
+          "predictionDays": 10,
+          "riskAppetite": "low",
+          "region": "Asia",
+          "market_cap_focus": "small_cap"
+        }
+      },
+      {
+        "query": "Give me insights on transportation industry stocks for the last 20 days with a 3-day forecast. I'm looking at North American markets with a high risk appetite, focusing on mid cap.",
+        "filled_param": {
+          "industry": "transportation",
+          "daysToAnalyze": 20,
+          "predictionDays": 3,
+          "riskAppetite": "high",
+          "region": "North America",
+          "market_cap_focus": "mid_cap"
+        }
+      },
+      {
+        "query": "Could you analyze European manufacturing stocks for the past 40 days and predict the next 5 days? I have a low risk appetite and am interested in large cap stocks.",
+        "filled_param": {
+          "industry": "manufacturing",
+          "daysToAnalyze": 40,
+          "predictionDays": 5,
+          "riskAppetite": "low",
+          "region": "Europe",
+          "market_cap_focus": "large_cap"
+        }
+      },
+      {
+        "query": "What's the market insight for chemical industry stocks in Asia over the past 10 days, with predictions for the coming week? I prefer medium risk and large cap stocks.",
+        "filled_param": {
+          "industry": "chemical",
+          "daysToAnalyze": 10,
+          "predictionDays": 7,
+          "riskAppetite": "medium",
+          "region": "Asia",
+          "market_cap_focus": "large_cap"
+        }
+      },
+      {
+        "query": "I need a report on industrials stocks focusing on textiles in South America for the last 25 days. Provide a 10-day forecast, keeping in mind my high risk tolerance and interest in small cap stocks.",
+        "filled_param": {
+          "industry": "textiles",
+          "daysToAnalyze": 25,
+          "predictionDays": 10,
+          "riskAppetite": "high",
+          "region": "South America",
+          "market_cap_focus": "small_cap"
+        }
+      }
+    ]
+  },
+  "TechStockInsightGenerator|:|utilities stocks|:|industry,daysToAnalyze,predictionDays,riskAppetite,region,market_cap_focus": {
+    "tool_template_name": "TechStockInsightGenerator",
+    "derived_class": "utilities stocks",
+    "params_for_query": [
+      "industry",
+      "daysToAnalyze",
+      "predictionDays",
+      "riskAppetite",
+      "region",
+      "market_cap_focus"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide insights into the renewable energy utilities stocks in North America, analyzing the last 30 days and predicting for the next 7 days, with a medium risk appetite and focusing on large cap companies?",
+        "filled_param": {
+          "industry": "renewable energy",
+          "daysToAnalyze": 30,
+          "predictionDays": 7,
+          "riskAppetite": "medium",
+          "region": "North America",
+          "market_cap_focus": "large_cap"
+        }
+      },
+      {
+        "query": "I'm interested in the water utilities stocks in Europe. Can you analyze the past 60 days and give predictions for the next 14 days with a low risk appetite, focusing on mid cap market capitalization?",
+        "filled_param": {
+          "industry": "water",
+          "daysToAnalyze": 60,
+          "predictionDays": 14,
+          "riskAppetite": "low",
+          "region": "Europe",
+          "market_cap_focus": "mid_cap"
+        }
+      },
+      {
+        "query": "Please generate insights on gas utilities stocks in Asia, analyzing data from the last 45 days and projecting the next 10 days, considering a high-risk profile and targeting small cap companies.",
+        "filled_param": {
+          "industry": "gas",
+          "daysToAnalyze": 45,
+          "predictionDays": 10,
+          "riskAppetite": "high",
+          "region": "Asia",
+          "market_cap_focus": "small_cap"
+        }
+      },
+      {
+        "query": "Can you offer insights into electric utilities stocks within the Australian market, reviewing the last 90 days and predicting for 30 days ahead, with a medium risk tolerance and a focus on large cap segments?",
+        "filled_param": {
+          "industry": "electric",
+          "daysToAnalyze": 90,
+          "predictionDays": 30,
+          "riskAppetite": "medium",
+          "region": "Australia",
+          "market_cap_focus": "large_cap"
+        }
+      },
+      {
+        "query": "I need an analysis of sanitation utilities stocks based on the last 15 days of data and forecasts for the following 5 days in South America, tailored for a low-risk investor and concentrating on mid cap stocks.",
+        "filled_param": {
+          "industry": "sanitation",
+          "daysToAnalyze": 15,
+          "predictionDays": 5,
+          "riskAppetite": "low",
+          "region": "South America",
+          "market_cap_focus": "mid_cap"
+        }
+      },
+      {
+        "query": "Can you provide insights into telecommunications utilities stocks in Africa, analyzing the past 120 days and predicting for the next 20 days, with a high risk appetite and focusing on small cap companies?",
+        "filled_param": {
+          "industry": "telecommunications",
+          "daysToAnalyze": 120,
+          "predictionDays": 20,
+          "riskAppetite": "high",
+          "region": "Africa",
+          "market_cap_focus": "small_cap"
+        }
+      },
+      {
+        "query": "Please give me insights into waste management utilities stocks in the Middle East, focusing on the last 50 days and future projections for 15 days, with medium risk tolerance and targeting large cap stocks.",
+        "filled_param": {
+          "industry": "waste management",
+          "daysToAnalyze": 50,
+          "predictionDays": 15,
+          "riskAppetite": "medium",
+          "region": "Middle East",
+          "market_cap_focus": "large_cap"
+        }
+      }
+    ]
+  },
+  "TechStockInsightGenerator|:|real estate stocks|:|industry,daysToAnalyze,predictionDays,riskAppetite,region,market_cap_focus": {
+    "tool_template_name": "TechStockInsightGenerator",
+    "derived_class": "real estate stocks",
+    "params_for_query": [
+      "industry",
+      "daysToAnalyze",
+      "predictionDays",
+      "riskAppetite",
+      "region",
+      "market_cap_focus"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide insights into the residential real estate stocks in North America, analyzing the past 30 days and predicting the next 10 days, with a medium risk appetite and focusing on large-cap companies?",
+        "filled_param": {
+          "industry": "residential",
+          "daysToAnalyze": 30,
+          "predictionDays": 10,
+          "riskAppetite": "medium",
+          "region": "North America",
+          "market_cap_focus": "large_cap"
+        }
+      },
+      {
+        "query": "What does the market data say about commercial real estate stocks in Europe from the last 15 days, and can you predict their performance for the next 5 days with a low risk preference, focusing on mid-cap stocks?",
+        "filled_param": {
+          "industry": "commercial",
+          "daysToAnalyze": 15,
+          "predictionDays": 5,
+          "riskAppetite": "low",
+          "region": "Europe",
+          "market_cap_focus": "mid_cap"
+        }
+      },
+      {
+        "query": "I need insights on industrial real estate stocks in Asia, analyzing a 10-day trend and predicting for 7 days ahead, with a high-risk tolerance and a focus on small-cap stocks.",
+        "filled_param": {
+          "industry": "industrial",
+          "daysToAnalyze": 10,
+          "predictionDays": 7,
+          "riskAppetite": "high",
+          "region": "Asia",
+          "market_cap_focus": "small_cap"
+        }
+      },
+      {
+        "query": "Can you analyze the healthcare real estate stocks sector in Australia over the past 20 days and project the next 15 days, with a medium risk approach and concentrating on large-cap stocks?",
+        "filled_param": {
+          "industry": "healthcare",
+          "daysToAnalyze": 20,
+          "predictionDays": 15,
+          "riskAppetite": "medium",
+          "region": "Australia",
+          "market_cap_focus": "large_cap"
+        }
+      },
+      {
+        "query": "Please generate insights on retail real estate stocks in South America, examining the last 25 days and anticipating trends for the next 3 days, with a preference for low risk and mid-cap stocks.",
+        "filled_param": {
+          "industry": "retail",
+          "daysToAnalyze": 25,
+          "predictionDays": 3,
+          "riskAppetite": "low",
+          "region": "South America",
+          "market_cap_focus": "mid_cap"
+        }
+      },
+      {
+        "query": "I'd like to know about the logistics real estate stocks in Africa, focusing on a 5-day analysis with predictions for the next 20 days, accommodating a high-risk profile and targeting small-cap firms.",
+        "filled_param": {
+          "industry": "logistics",
+          "daysToAnalyze": 5,
+          "predictionDays": 20,
+          "riskAppetite": "high",
+          "region": "Africa",
+          "market_cap_focus": "small_cap"
+        }
+      },
+      {
+        "query": "What's the outlook for hospitality real estate stocks in the Middle East over a 7-day period, with predictions for 14 days and a medium risk appetite, mainly looking at large-cap stocks?",
+        "filled_param": {
+          "industry": "hospitality",
+          "daysToAnalyze": 7,
+          "predictionDays": 14,
+          "riskAppetite": "medium",
+          "region": "Middle East",
+          "market_cap_focus": "large_cap"
+        }
+      }
+    ]
+  },
+  "TechStockInsightGenerator|:|materials stocks|:|industry,daysToAnalyze,predictionDays,riskAppetite,region,market_cap_focus": {
+    "tool_template_name": "TechStockInsightGenerator",
+    "derived_class": "materials stocks",
+    "params_for_query": [
+      "industry",
+      "daysToAnalyze",
+      "predictionDays",
+      "riskAppetite",
+      "region",
+      "market_cap_focus"
+    ],
+    "queries": [
+      {
+        "query": "Provide insights on North American materials stocks in the mining industry for the past 30 days, predicting the next 10 days with a low risk appetite and focusing on large cap stocks.",
+        "filled_param": {
+          "industry": "mining",
+          "daysToAnalyze": 30,
+          "predictionDays": 10,
+          "riskAppetite": "low",
+          "region": "North America",
+          "market_cap_focus": "large_cap"
+        }
+      },
+      {
+        "query": "What are the recent trends and future predictions for construction materials stocks in Europe over the last 90 days, with a medium risk profile and focusing on mid cap stocks?",
+        "filled_param": {
+          "industry": "construction",
+          "daysToAnalyze": 90,
+          "predictionDays": 15,
+          "riskAppetite": "medium",
+          "region": "Europe",
+          "market_cap_focus": "mid_cap"
+        }
+      },
+      {
+        "query": "Analyze the chemical sector within materials stocks in Asia for the past 60 days and predict the next 20 days with a high risk appetite, concentrating on small cap companies.",
+        "filled_param": {
+          "industry": "chemical",
+          "daysToAnalyze": 60,
+          "predictionDays": 20,
+          "riskAppetite": "high",
+          "region": "Asia",
+          "market_cap_focus": "small_cap"
+        }
+      },
+      {
+        "query": "Can you generate insights on forestry materials stocks in South America for the last 45 days, with predictions for the next 5 days and a high risk tolerance, targeting large cap corporations?",
+        "filled_param": {
+          "industry": "forestry",
+          "daysToAnalyze": 45,
+          "predictionDays": 5,
+          "riskAppetite": "high",
+          "region": "South America",
+          "market_cap_focus": "large_cap"
+        }
+      },
+      {
+        "query": "Give me an analysis of building materials stocks in Africa over the past 120 days, projecting the next 30 days with a low risk strategy, looking at mid cap stocks.",
+        "filled_param": {
+          "industry": "building",
+          "daysToAnalyze": 120,
+          "predictionDays": 30,
+          "riskAppetite": "low",
+          "region": "Africa",
+          "market_cap_focus": "mid_cap"
+        }
+      },
+      {
+        "query": "I need a report on the metals industry within materials stocks in the Middle East for the last 30 days, including predictions for the next 7 days, with medium risk and focusing on small cap stocks.",
+        "filled_param": {
+          "industry": "metals",
+          "daysToAnalyze": 30,
+          "predictionDays": 7,
+          "riskAppetite": "medium",
+          "region": "Middle East",
+          "market_cap_focus": "small_cap"
+        }
+      },
+      {
+        "query": "Create a detailed insight report on textile materials stocks in Oceania over the past 75 days, with a forecast for the next 25 days, under a medium risk preference, and focusing on large cap companies.",
+        "filled_param": {
+          "industry": "textile",
+          "daysToAnalyze": 75,
+          "predictionDays": 25,
+          "riskAppetite": "medium",
+          "region": "Oceania",
+          "market_cap_focus": "large_cap"
+        }
+      }
+    ]
+  },
+  "TechStockInsightGenerator|:|communication services stocks|:|industry,daysToAnalyze,predictionDays,riskAppetite,region,market_cap_focus": {
+    "tool_template_name": "TechStockInsightGenerator",
+    "derived_class": "communication services stocks",
+    "params_for_query": [
+      "industry",
+      "daysToAnalyze",
+      "predictionDays",
+      "riskAppetite",
+      "region",
+      "market_cap_focus"
+    ],
+    "queries": [
+      {
+        "query": "Provide insights on communication services stocks in the telecommunications industry for the past 15 days and predict the next 5 days, considering a high risk appetite, focusing on North America and mid_cap stocks.",
+        "filled_param": {
+          "industry": "telecommunications",
+          "daysToAnalyze": 15,
+          "predictionDays": 5,
+          "riskAppetite": "high",
+          "region": "North America",
+          "market_cap_focus": "mid_cap"
+        }
+      },
+      {
+        "query": "Can you analyze the communication services stocks within the media industry over the last 30 days and forecast the upcoming 10 days for a medium risk investor in Europe focusing on large_cap stocks?",
+        "filled_param": {
+          "industry": "media",
+          "daysToAnalyze": 30,
+          "predictionDays": 10,
+          "riskAppetite": "medium",
+          "region": "Europe",
+          "market_cap_focus": "large_cap"
+        }
+      },
+      {
+        "query": "I need a report on communication services stocks for the entertainment industry covering the last 7 days with predictions for the next 3 days under a low risk strategy, concentrating on Asia and small_cap segments.",
+        "filled_param": {
+          "industry": "entertainment",
+          "daysToAnalyze": 7,
+          "predictionDays": 3,
+          "riskAppetite": "low",
+          "region": "Asia",
+          "market_cap_focus": "small_cap"
+        }
+      },
+      {
+        "query": "Generate a summary of communication services stocks in the broadcasting industry for the past 20 days and future 7 days for a high risk portfolio in the Australia region, focusing on large_cap stocks.",
+        "filled_param": {
+          "industry": "broadcasting",
+          "daysToAnalyze": 20,
+          "predictionDays": 7,
+          "riskAppetite": "high",
+          "region": "Australia",
+          "market_cap_focus": "large_cap"
+        }
+      },
+      {
+        "query": "What are the trends for communication services stocks in the advertising industry over the past 10 days and predictions for the next 5 days for a medium risk approach in South America focusing on mid_cap stocks?",
+        "filled_param": {
+          "industry": "advertising",
+          "daysToAnalyze": 10,
+          "predictionDays": 5,
+          "riskAppetite": "medium",
+          "region": "South America",
+          "market_cap_focus": "mid_cap"
+        }
+      },
+      {
+        "query": "Could you provide an analysis of communication services stocks in the publishing industry over the last 25 days and a forecast for the next 15 days, aimed at a low risk investor in Africa, focusing on small_cap stocks?",
+        "filled_param": {
+          "industry": "publishing",
+          "daysToAnalyze": 25,
+          "predictionDays": 15,
+          "riskAppetite": "low",
+          "region": "Africa",
+          "market_cap_focus": "small_cap"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "museum.get_waiting_time|:|museum|:|venue_name,day": {
+    "tool_template_name": "museum.get_waiting_time",
+    "derived_class": "museum",
+    "params_for_query": [
+      "venue_name",
+      "day"
+    ],
+    "queries": [
+      {
+        "query": "What's the expected waiting time at the Louvre museum on Saturday?",
+        "filled_param": {
+          "venue_name": "Louvre",
+          "day": "Saturday"
+        }
+      },
+      {
+        "query": "Can you tell me the wait time for the British Museum this Wednesday?",
+        "filled_param": {
+          "venue_name": "British Museum",
+          "day": "Wednesday"
+        }
+      },
+      {
+        "query": "How long is the wait at the Metropolitan Museum of Art on a Tuesday?",
+        "filled_param": {
+          "venue_name": "Metropolitan Museum of Art",
+          "day": "Tuesday"
+        }
+      },
+      {
+        "query": "I'm planning a visit to the Vatican Museums on Sunday. What's the wait time?",
+        "filled_param": {
+          "venue_name": "Vatican Museums",
+          "day": "Sunday"
+        }
+      },
+      {
+        "query": "Estimate the waiting time at the Rijksmuseum on Friday.",
+        "filled_param": {
+          "venue_name": "Rijksmuseum",
+          "day": "Friday"
+        }
+      },
+      {
+        "query": "Could you provide the wait time for the National Gallery on Monday?",
+        "filled_param": {
+          "venue_name": "National Gallery",
+          "day": "Monday"
+        }
+      },
+      {
+        "query": "What's the expected queue length at the Museum of Modern Art on Thursday?",
+        "filled_param": {
+          "venue_name": "Museum of Modern Art",
+          "day": "Thursday"
+        }
+      }
+    ]
+  },
+  "museum.get_waiting_time|:|art gallery|:|venue_name,day": {
+    "tool_template_name": "museum.get_waiting_time",
+    "derived_class": "art gallery",
+    "params_for_query": [
+      "venue_name",
+      "day"
+    ],
+    "queries": [
+      {
+        "query": "What's the estimated waiting time at the Louvre art gallery on Saturday?",
+        "filled_param": {
+          "venue_name": "Louvre",
+          "day": "Saturday"
+        }
+      },
+      {
+        "query": "Can you tell me the waiting time for the Guggenheim art gallery this Wednesday?",
+        "filled_param": {
+          "venue_name": "Guggenheim",
+          "day": "Wednesday"
+        }
+      },
+      {
+        "query": "Find out how long the wait is at the National Gallery of Art on Monday.",
+        "filled_param": {
+          "venue_name": "National Gallery of Art",
+          "day": "Monday"
+        }
+      },
+      {
+        "query": "I need to know the waiting time at the Tate Modern art gallery on Friday.",
+        "filled_param": {
+          "venue_name": "Tate Modern",
+          "day": "Friday"
+        }
+      },
+      {
+        "query": "What is the expected wait time at the Uffizi art gallery on Sunday?",
+        "filled_param": {
+          "venue_name": "Uffizi",
+          "day": "Sunday"
+        }
+      },
+      {
+        "query": "Please provide the waiting time for the Museum of Modern Art art gallery on Thursday.",
+        "filled_param": {
+          "venue_name": "Museum of Modern Art",
+          "day": "Thursday"
+        }
+      },
+      {
+        "query": "How long is the wait at the Prado art gallery on Tuesday?",
+        "filled_param": {
+          "venue_name": "Prado",
+          "day": "Tuesday"
+        }
+      }
+    ]
+  },
+  "museum.get_waiting_time|:|zoo|:|venue_name,day": {
+    "tool_template_name": "museum.get_waiting_time",
+    "derived_class": "zoo",
+    "params_for_query": [
+      "venue_name",
+      "day"
+    ],
+    "queries": [
+      {
+        "query": "What's the current waiting time at the San Diego Zoo on a Saturday?",
+        "filled_param": {
+          "venue_name": "San Diego Zoo",
+          "day": "Saturday"
+        }
+      },
+      {
+        "query": "Can you tell me the estimated waiting time for Bronx Zoo on a Tuesday?",
+        "filled_param": {
+          "venue_name": "Bronx Zoo",
+          "day": "Tuesday"
+        }
+      },
+      {
+        "query": "How long is the wait time at the London Zoo on a Sunday?",
+        "filled_param": {
+          "venue_name": "London Zoo",
+          "day": "Sunday"
+        }
+      },
+      {
+        "query": "Please provide the expected waiting time at the Singapore Zoo on a Friday.",
+        "filled_param": {
+          "venue_name": "Singapore Zoo",
+          "day": "Friday"
+        }
+      },
+      {
+        "query": "What's the estimated zoo waiting time at Taronga Zoo on a Wednesday?",
+        "filled_param": {
+          "venue_name": "Taronga Zoo",
+          "day": "Wednesday"
+        }
+      },
+      {
+        "query": "I need to know the waiting time at the Berlin Zoo on a Thursday.",
+        "filled_param": {
+          "venue_name": "Berlin Zoo",
+          "day": "Thursday"
+        }
+      },
+      {
+        "query": "Could you find out the queue time for Melbourne Zoo on a Monday?",
+        "filled_param": {
+          "venue_name": "Melbourne Zoo",
+          "day": "Monday"
+        }
+      }
+    ]
+  },
+  "museum.get_waiting_time|:|botanical garden|:|venue_name,day": {
+    "tool_template_name": "museum.get_waiting_time",
+    "derived_class": "botanical garden",
+    "params_for_query": [
+      "venue_name",
+      "day"
+    ],
+    "queries": [
+      {
+        "query": "Can you tell me the waiting time for the New York Botanical Garden on Wednesday?",
+        "filled_param": {
+          "venue_name": "New York Botanical Garden",
+          "day": "Wednesday"
+        }
+      },
+      {
+        "query": "What's the estimated wait at the Royal Botanic Gardens in Kew this Saturday?",
+        "filled_param": {
+          "venue_name": "Royal Botanic Gardens",
+          "day": "Saturday"
+        }
+      },
+      {
+        "query": "I need to know the waiting time at the Singapore Botanical Garden on Friday.",
+        "filled_param": {
+          "venue_name": "Singapore Botanical Garden",
+          "day": "Friday"
+        }
+      },
+      {
+        "query": "How long is the wait expected to be at the Brooklyn Botanic Garden on Tuesday?",
+        "filled_param": {
+          "venue_name": "Brooklyn Botanic Garden",
+          "day": "Tuesday"
+        }
+      },
+      {
+        "query": "Please provide the waiting time for the Missouri Botanical Garden this Sunday.",
+        "filled_param": {
+          "venue_name": "Missouri Botanical Garden",
+          "day": "Sunday"
+        }
+      },
+      {
+        "query": "What is the current waiting time for the Denver Botanic Gardens on Thursday?",
+        "filled_param": {
+          "venue_name": "Denver Botanic Gardens",
+          "day": "Thursday"
+        }
+      },
+      {
+        "query": "Could you find out the waiting time at the Huntington Botanical Gardens on Monday?",
+        "filled_param": {
+          "venue_name": "Huntington Botanical Gardens",
+          "day": "Monday"
+        }
+      }
+    ]
+  },
+  "museum.get_waiting_time|:|aquarium|:|venue_name,day": {
+    "tool_template_name": "museum.get_waiting_time",
+    "derived_class": "aquarium",
+    "params_for_query": [
+      "venue_name",
+      "day"
+    ],
+    "queries": [
+      {
+        "query": "What's the estimated waiting time at the Monterey Bay Aquarium on Saturday?",
+        "filled_param": {
+          "venue_name": "Monterey Bay Aquarium",
+          "day": "Saturday"
+        }
+      },
+      {
+        "query": "Can you tell me the waiting time for the aquarium visit at Shedd Aquarium on Wednesday?",
+        "filled_param": {
+          "venue_name": "Shedd Aquarium",
+          "day": "Wednesday"
+        }
+      },
+      {
+        "query": "How long is the wait at Georgia Aquarium if I go on a Sunday?",
+        "filled_param": {
+          "venue_name": "Georgia Aquarium",
+          "day": "Sunday"
+        }
+      },
+      {
+        "query": "Find out the waiting time at Ripley's Aquarium of Canada for Monday.",
+        "filled_param": {
+          "venue_name": "Ripley's Aquarium of Canada",
+          "day": "Monday"
+        }
+      },
+      {
+        "query": "I'd like to know the queue time for the National Aquarium on Thursday.",
+        "filled_param": {
+          "venue_name": "National Aquarium",
+          "day": "Thursday"
+        }
+      },
+      {
+        "query": "What is the expected wait time at the Vancouver Aquarium on Tuesday?",
+        "filled_param": {
+          "venue_name": "Vancouver Aquarium",
+          "day": "Tuesday"
+        }
+      },
+      {
+        "query": "Get me the waiting time for SeaWorld Aquarium on Friday.",
+        "filled_param": {
+          "venue_name": "SeaWorld Aquarium",
+          "day": "Friday"
+        }
+      }
+    ]
+  },
+  "museum.get_waiting_time|:|restaurant|:|venue_name,day": {
+    "tool_template_name": "museum.get_waiting_time",
+    "derived_class": "restaurant",
+    "params_for_query": [
+      "venue_name",
+      "day"
+    ],
+    "queries": [
+      {
+        "query": "Can you find out the estimated waiting time at Olive Garden for Friday?",
+        "filled_param": {
+          "venue_name": "Olive Garden",
+          "day": "Friday"
+        }
+      },
+      {
+        "query": "What's the waiting time like at Cheesecake Factory on a typical Tuesday?",
+        "filled_param": {
+          "venue_name": "Cheesecake Factory",
+          "day": "Tuesday"
+        }
+      },
+      {
+        "query": "I'd like to know the wait time for Red Lobster on Wednesday.",
+        "filled_param": {
+          "venue_name": "Red Lobster",
+          "day": "Wednesday"
+        }
+      },
+      {
+        "query": "Please tell me how long I'll have to wait at Chili's Grill & Bar this Saturday.",
+        "filled_param": {
+          "venue_name": "Chili's Grill & Bar",
+          "day": "Saturday"
+        }
+      },
+      {
+        "query": "Could you check the waiting time for Applebee's on Sunday?",
+        "filled_param": {
+          "venue_name": "Applebee's",
+          "day": "Sunday"
+        }
+      },
+      {
+        "query": "How long is the wait at Buffalo Wild Wings on a regular Monday?",
+        "filled_param": {
+          "venue_name": "Buffalo Wild Wings",
+          "day": "Monday"
+        }
+      },
+      {
+        "query": "What is the expected waiting time for Fridays restaurant on Thursday?",
+        "filled_param": {
+          "venue_name": "Fridays",
+          "day": "Thursday"
+        }
+      }
+    ]
+  },
+  "museum.get_waiting_time|:|amusement park|:|venue_name,day": {
+    "tool_template_name": "museum.get_waiting_time",
+    "derived_class": "amusement park",
+    "params_for_query": [
+      "venue_name",
+      "day"
+    ],
+    "queries": [
+      {
+        "query": "What is the estimated waiting time at Disneyland on Wednesday?",
+        "filled_param": {
+          "venue_name": "Disneyland",
+          "day": "Wednesday"
+        }
+      },
+      {
+        "query": "Can you tell me the waiting times for Universal Studios on a Saturday?",
+        "filled_param": {
+          "venue_name": "Universal Studios",
+          "day": "Saturday"
+        }
+      },
+      {
+        "query": "I need to know the waiting time at Six Flags Magic Mountain for Thursday.",
+        "filled_param": {
+          "venue_name": "Six Flags Magic Mountain",
+          "day": "Thursday"
+        }
+      },
+      {
+        "query": "How long is the wait at Epcot on a Monday?",
+        "filled_param": {
+          "venue_name": "Epcot",
+          "day": "Monday"
+        }
+      },
+      {
+        "query": "What's the expected queue time at SeaWorld Orlando on Friday?",
+        "filled_param": {
+          "venue_name": "SeaWorld Orlando",
+          "day": "Friday"
+        }
+      },
+      {
+        "query": "Find out the waiting time at Busch Gardens for a Sunday.",
+        "filled_param": {
+          "venue_name": "Busch Gardens",
+          "day": "Sunday"
+        }
+      },
+      {
+        "query": "Could you give me the wait times for LEGOLAND California on Tuesday?",
+        "filled_param": {
+          "venue_name": "LEGOLAND California",
+          "day": "Tuesday"
+        }
+      }
+    ]
+  }
+}

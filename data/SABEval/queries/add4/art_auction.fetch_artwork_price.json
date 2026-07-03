@@ -1,0 +1,1080 @@
+{
+  "art_auction.fetch_artwork_price|:|sothebys|:|artwork_name,artist,currency,include_tax,price_range,date_of_auction": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "sothebys",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency",
+      "include_tax",
+      "price_range",
+      "date_of_auction"
+    ],
+    "queries": [
+      {
+        "query": "What is the price of 'Starry Night' by Vincent van Gogh in USD, including taxes, for the auction held on 2023-10-15? I'm looking for artworks priced between 1,000,000 and 5,000,000.",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Vincent van Gogh",
+          "currency": "USD",
+          "include_tax": true,
+          "price_range": [
+            1000000,
+            5000000
+          ],
+          "date_of_auction": "2023-10-15"
+        }
+      },
+      {
+        "query": "Can you fetch the price including tax for 'The Persistence of Memory' by Salvador Dalí in EUR for an auction on 2023-11-01? The price range I'm interested in is between 500,000 and 2,000,000.",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí",
+          "currency": "EUR",
+          "include_tax": true,
+          "price_range": [
+            500000,
+            2000000
+          ],
+          "date_of_auction": "2023-11-01"
+        }
+      },
+      {
+        "query": "Find out the price in GBP, excluding taxes, for 'The Scream' by Edvard Munch at the auction on 2023-09-25. I'm targeting a price range of 2,000,000 to 6,000,000.",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "GBP",
+          "include_tax": false,
+          "price_range": [
+            2000000,
+            6000000
+          ],
+          "date_of_auction": "2023-09-25"
+        }
+      },
+      {
+        "query": "Could you get the price for 'Girl with a Pearl Earring' by Johannes Vermeer in USD, without tax, for the auction on 2023-12-05? The desired price range is 3,000,000 to 7,000,000.",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer",
+          "currency": "USD",
+          "include_tax": false,
+          "price_range": [
+            3000000,
+            7000000
+          ],
+          "date_of_auction": "2023-12-05"
+        }
+      },
+      {
+        "query": "Please provide the price in EUR for 'The Night Watch' by Rembrandt, including tax, at the auction on 2023-08-20. The artwork should be within the price range of 4,000,000 to 8,000,000.",
+        "filled_param": {
+          "artwork_name": "The Night Watch",
+          "artist": "Rembrandt",
+          "currency": "EUR",
+          "include_tax": true,
+          "price_range": [
+            4000000,
+            8000000
+          ],
+          "date_of_auction": "2023-08-20"
+        }
+      },
+      {
+        "query": "I need the price for 'Guernica' by Pablo Picasso in GBP, with taxes included, from the auction dated 2023-07-10. The price range I'm considering is 10,000,000 to 15,000,000.",
+        "filled_param": {
+          "artwork_name": "Guernica",
+          "artist": "Pablo Picasso",
+          "currency": "GBP",
+          "include_tax": true,
+          "price_range": [
+            10000000,
+            15000000
+          ],
+          "date_of_auction": "2023-07-10"
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|christies|:|artwork_name,artist,currency,include_tax,price_range,date_of_auction": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "christies",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency",
+      "include_tax",
+      "price_range",
+      "date_of_auction"
+    ],
+    "queries": [
+      {
+        "query": "Can you find the price of 'Starry Night' by Vincent van Gogh in USD including tax, within the range of 1000000 to 5000000, from the auction on 2021-04-25?",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Vincent van Gogh",
+          "currency": "USD",
+          "include_tax": true,
+          "price_range": [
+            1000000,
+            5000000
+          ],
+          "date_of_auction": "2021-04-25"
+        }
+      },
+      {
+        "query": "What was the selling price for 'The Persistence of Memory' by Salvador Dalí in EUR without tax, priced between 2000000 and 10000000, on the 2019-12-15 auction at christies?",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí",
+          "currency": "EUR",
+          "include_tax": false,
+          "price_range": [
+            2000000,
+            10000000
+          ],
+          "date_of_auction": "2019-12-15"
+        }
+      },
+      {
+        "query": "Fetch the auction price for 'Mona Lisa' by Leonardo da Vinci in GBP including taxes, ranging from 50000000 to 100000000, from the auction held on 2020-06-30.",
+        "filled_param": {
+          "artwork_name": "Mona Lisa",
+          "artist": "Leonardo da Vinci",
+          "currency": "GBP",
+          "include_tax": true,
+          "price_range": [
+            50000000,
+            100000000
+          ],
+          "date_of_auction": "2020-06-30"
+        }
+      },
+      {
+        "query": "I need to know the price of 'The Scream' by Edvard Munch in EUR, excluding tax, within the price range of 30000000 to 60000000, from the 2022-03-10 christies event.",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "EUR",
+          "include_tax": false,
+          "price_range": [
+            30000000,
+            60000000
+          ],
+          "date_of_auction": "2022-03-10"
+        }
+      },
+      {
+        "query": "What is the price of 'Girl with a Pearl Earring' by Johannes Vermeer in USD, including taxes, for an auction held on 2021-09-15, with a price range from 10000000 to 30000000?",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer",
+          "currency": "USD",
+          "include_tax": true,
+          "price_range": [
+            10000000,
+            30000000
+          ],
+          "date_of_auction": "2021-09-15"
+        }
+      },
+      {
+        "query": "Retrieve the price for 'The Night Watch' by Rembrandt in GBP, without tax, estimated between 8000000 and 20000000, sold on the 2023-01-20 christies auction.",
+        "filled_param": {
+          "artwork_name": "The Night Watch",
+          "artist": "Rembrandt",
+          "currency": "GBP",
+          "include_tax": false,
+          "price_range": [
+            8000000,
+            20000000
+          ],
+          "date_of_auction": "2023-01-20"
+        }
+      },
+      {
+        "query": "Check the price for 'The Kiss' by Gustav Klimt in USD, excluding tax, with a price range of 4000000 to 15000000, from the auction on 2022-11-08.",
+        "filled_param": {
+          "artwork_name": "The Kiss",
+          "artist": "Gustav Klimt",
+          "currency": "USD",
+          "include_tax": false,
+          "price_range": [
+            4000000,
+            15000000
+          ],
+          "date_of_auction": "2022-11-08"
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|phillips|:|artwork_name,artist,currency,include_tax,price_range,date_of_auction": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "phillips",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency",
+      "include_tax",
+      "price_range",
+      "date_of_auction"
+    ],
+    "queries": [
+      {
+        "query": "What's the price of 'Starry Night' by Vincent van Gogh in USD on the phillips platform, including tax, with a price range between 5,000,000 and 10,000,000 and auction date of 2023-11-15?",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Vincent van Gogh",
+          "currency": "USD",
+          "include_tax": true,
+          "price_range": [
+            5000000,
+            10000000
+          ],
+          "date_of_auction": "2023-11-15"
+        }
+      },
+      {
+        "query": "Can you fetch the price for 'The Persistence of Memory' by Salvador Dalí in GBP on the phillips site, excluding taxes, within 1,000,000 to 2,500,000 price range, auctioned on 2022-04-10?",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí",
+          "currency": "GBP",
+          "include_tax": false,
+          "price_range": [
+            1000000,
+            2500000
+          ],
+          "date_of_auction": "2022-04-10"
+        }
+      },
+      {
+        "query": "Get the phillips auction price for 'The Scream' by Edvard Munch in EUR, inclusive of taxes, for artworks priced between 80,000,000 and 120,000,000, with auction on 2024-06-05.",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "EUR",
+          "include_tax": true,
+          "price_range": [
+            80000000,
+            120000000
+          ],
+          "date_of_auction": "2024-06-05"
+        }
+      },
+      {
+        "query": "Please find out the price of 'Girl with a Pearl Earring' by Johannes Vermeer in USD on phillips, without tax, if it's between 10,000,000 and 20,000,000, auction date 2023-09-01.",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer",
+          "currency": "USD",
+          "include_tax": false,
+          "price_range": [
+            10000000,
+            20000000
+          ],
+          "date_of_auction": "2023-09-01"
+        }
+      },
+      {
+        "query": "I need the price of 'Mona Lisa' by Leonardo da Vinci in EUR on phillips, including taxes, with a price bracket of 50,000,000 to 150,000,000, auctioned on 2025-12-20.",
+        "filled_param": {
+          "artwork_name": "Mona Lisa",
+          "artist": "Leonardo da Vinci",
+          "currency": "EUR",
+          "include_tax": true,
+          "price_range": [
+            50000000,
+            150000000
+          ],
+          "date_of_auction": "2025-12-20"
+        }
+      },
+      {
+        "query": "How much is 'The Night Watch' by Rembrandt van Rijn in GBP on the phillips auction platform, excluding tax, for a price range of 30,000,000 to 60,000,000, auction date 2024-03-28?",
+        "filled_param": {
+          "artwork_name": "The Night Watch",
+          "artist": "Rembrandt van Rijn",
+          "currency": "GBP",
+          "include_tax": false,
+          "price_range": [
+            30000000,
+            60000000
+          ],
+          "date_of_auction": "2024-03-28"
+        }
+      },
+      {
+        "query": "Could you check the price for 'The Birth of Venus' by Sandro Botticelli in USD on phillips, including tax, if priced between 40,000,000 and 80,000,000, with the auction on 2023-10-10?",
+        "filled_param": {
+          "artwork_name": "The Birth of Venus",
+          "artist": "Sandro Botticelli",
+          "currency": "USD",
+          "include_tax": true,
+          "price_range": [
+            40000000,
+            80000000
+          ],
+          "date_of_auction": "2023-10-10"
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|bonhams|:|artwork_name,artist,currency,include_tax,price_range,date_of_auction": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "bonhams",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency",
+      "include_tax",
+      "price_range",
+      "date_of_auction"
+    ],
+    "queries": [
+      {
+        "query": "What's the price of the 'Starry Night Over the Rhône' by Vincent van Gogh on bonhams in GBP, including tax, for the auction on 2023-05-15? Consider artworks priced between 300000 and 500000.",
+        "filled_param": {
+          "artwork_name": "Starry Night Over the Rhône",
+          "artist": "Vincent van Gogh",
+          "currency": "GBP",
+          "include_tax": true,
+          "price_range": [
+            300000,
+            500000
+          ],
+          "date_of_auction": "2023-05-15"
+        }
+      },
+      {
+        "query": "Find the price in EUR for 'The Persistence of Memory' by Salvador Dalí on bonhams, excluding tax, for the auction held on 2023-11-12. Only consider pieces within a price range of 400000 to 600000.",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí",
+          "currency": "EUR",
+          "include_tax": false,
+          "price_range": [
+            400000,
+            600000
+          ],
+          "date_of_auction": "2023-11-12"
+        }
+      },
+      {
+        "query": "Could you get the price for 'Woman with a Parasol' by Claude Monet in USD from bonhams for the auction on 2023-03-10? Please include tax and consider prices between 700000 and 1000000.",
+        "filled_param": {
+          "artwork_name": "Woman with a Parasol",
+          "artist": "Claude Monet",
+          "currency": "USD",
+          "include_tax": true,
+          "price_range": [
+            700000,
+            1000000
+          ],
+          "date_of_auction": "2023-03-10"
+        }
+      },
+      {
+        "query": "I need to know the price of 'The Birth of Venus' by Sandro Botticelli on bonhams in USD, including taxes, for the auction on 2023-09-21. Look for items priced between 1000000 and 1500000.",
+        "filled_param": {
+          "artwork_name": "The Birth of Venus",
+          "artist": "Sandro Botticelli",
+          "currency": "USD",
+          "include_tax": true,
+          "price_range": [
+            1000000,
+            1500000
+          ],
+          "date_of_auction": "2023-09-21"
+        }
+      },
+      {
+        "query": "Retrieve the price for 'The Kiss' by Gustav Klimt in GBP excluding tax on bonhams for the auction dated 2023-07-05. Consider the price range between 200000 and 400000.",
+        "filled_param": {
+          "artwork_name": "The Kiss",
+          "artist": "Gustav Klimt",
+          "currency": "GBP",
+          "include_tax": false,
+          "price_range": [
+            200000,
+            400000
+          ],
+          "date_of_auction": "2023-07-05"
+        }
+      },
+      {
+        "query": "Can you check the price of 'The Scream' by Edvard Munch on bonhams in EUR, including tax, for the auction happening on 2023-02-18? Filter for pieces priced from 1500000 to 2000000.",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "EUR",
+          "include_tax": true,
+          "price_range": [
+            1500000,
+            2000000
+          ],
+          "date_of_auction": "2023-02-18"
+        }
+      },
+      {
+        "query": "I’m looking for the price of 'Girl with a Pearl Earring' by Johannes Vermeer on bonhams in GBP with tax excluded for the auction on 2023-06-30. Focus on a price range of 500000 to 800000.",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer",
+          "currency": "GBP",
+          "include_tax": false,
+          "price_range": [
+            500000,
+            800000
+          ],
+          "date_of_auction": "2023-06-30"
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|poly auction|:|artwork_name,artist,currency,include_tax,price_range,date_of_auction": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "poly auction",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency",
+      "include_tax",
+      "price_range",
+      "date_of_auction"
+    ],
+    "queries": [
+      {
+        "query": "Can you tell me the price of 'Starry Night' by Vincent van Gogh at the poly auction in USD, including tax, within the range of 500000 to 1000000 on 2023-09-15?",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Vincent van Gogh",
+          "currency": "USD",
+          "include_tax": true,
+          "price_range": [
+            500000,
+            1000000
+          ],
+          "date_of_auction": "2023-09-15"
+        }
+      },
+      {
+        "query": "I need the poly auction price for Pablo Picasso's 'Les Demoiselles d'Avignon' in EUR, tax excluded, priced between 1,000,000 and 1,500,000, as of 2023-07-21.",
+        "filled_param": {
+          "artwork_name": "Les Demoiselles d'Avignon",
+          "artist": "Pablo Picasso",
+          "currency": "EUR",
+          "include_tax": false,
+          "price_range": [
+            1000000,
+            1500000
+          ],
+          "date_of_auction": "2023-07-21"
+        }
+      },
+      {
+        "query": "Please fetch the price for the artwork 'The Persistence of Memory' by Salvador Dalí during the poly auction, using GBP currency, without tax, with a price bracket of 200000 to 300000 on 2023-08-10.",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí",
+          "currency": "GBP",
+          "include_tax": false,
+          "price_range": [
+            200000,
+            300000
+          ],
+          "date_of_auction": "2023-08-10"
+        }
+      },
+      {
+        "query": "What was the price for 'The Scream' by Edvard Munch at the poly auction, listed in USD, with tax included, with a minimum bid of 800000 and a maximum of 900000, on 2023-06-30?",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "USD",
+          "include_tax": true,
+          "price_range": [
+            800000,
+            900000
+          ],
+          "date_of_auction": "2023-06-30"
+        }
+      },
+      {
+        "query": "Find the poly auction result for 'The Birth of Venus' by Sandro Botticelli in USD, without including taxes, priced between 2000000 and 2500000, dated 2023-05-05.",
+        "filled_param": {
+          "artwork_name": "The Birth of Venus",
+          "artist": "Sandro Botticelli",
+          "currency": "USD",
+          "include_tax": false,
+          "price_range": [
+            2000000,
+            2500000
+          ],
+          "date_of_auction": "2023-05-05"
+        }
+      },
+      {
+        "query": "What's the price of 'The Night Watch' by Rembrandt at the poly auction, in EUR, with taxes applied, ranging from 1500000 to 2000000, for the auction on 2023-12-01?",
+        "filled_param": {
+          "artwork_name": "The Night Watch",
+          "artist": "Rembrandt",
+          "currency": "EUR",
+          "include_tax": true,
+          "price_range": [
+            1500000,
+            2000000
+          ],
+          "date_of_auction": "2023-12-01"
+        }
+      },
+      {
+        "query": "I want to know the price fetched for 'Girl with a Pearl Earring' by Johannes Vermeer at the poly auction in GBP, excluding taxes, with a price range of 300000 to 400000, on 2023-11-10.",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer",
+          "currency": "GBP",
+          "include_tax": false,
+          "price_range": [
+            300000,
+            400000
+          ],
+          "date_of_auction": "2023-11-10"
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|china guardian|:|artwork_name,artist,currency,include_tax,price_range,date_of_auction": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "china guardian",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency",
+      "include_tax",
+      "price_range",
+      "date_of_auction"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the price, including tax, of 'Autumn Landscape' by Zhang Daqian in USD, for the auction on 2023-07-15, with a price range between 10000 and 50000 on the china guardian platform?",
+        "filled_param": {
+          "artwork_name": "Autumn Landscape",
+          "artist": "Zhang Daqian",
+          "currency": "USD",
+          "include_tax": true,
+          "price_range": [
+            10000,
+            50000
+          ],
+          "date_of_auction": "2023-07-15"
+        }
+      },
+      {
+        "query": "Find the price of 'Red Mountains' by Wu Guanzhong in GBP for the auction held on 2023-09-10, within the range of 20000 to 70000, excluding tax, on the china guardian platform.",
+        "filled_param": {
+          "artwork_name": "Red Mountains",
+          "artist": "Wu Guanzhong",
+          "currency": "GBP",
+          "include_tax": false,
+          "price_range": [
+            20000,
+            70000
+          ],
+          "date_of_auction": "2023-09-10"
+        }
+      },
+      {
+        "query": "What was the taxed price in EUR for 'Spring Blossoms' by Qi Baishi during the auction on 2023-06-05, with a price range from 5000 to 30000 on the china guardian platform?",
+        "filled_param": {
+          "artwork_name": "Spring Blossoms",
+          "artist": "Qi Baishi",
+          "currency": "EUR",
+          "include_tax": true,
+          "price_range": [
+            5000,
+            30000
+          ],
+          "date_of_auction": "2023-06-05"
+        }
+      },
+      {
+        "query": "Check the price of 'Lotus Pond' by Fu Baoshi in USD for the 2023-08-20 auction, excluding taxes, with prices between 8000 and 45000 on the china guardian platform.",
+        "filled_param": {
+          "artwork_name": "Lotus Pond",
+          "artist": "Fu Baoshi",
+          "currency": "USD",
+          "include_tax": false,
+          "price_range": [
+            8000,
+            45000
+          ],
+          "date_of_auction": "2023-08-20"
+        }
+      },
+      {
+        "query": "I am looking for the price, including tax, of 'Mountain Retreat' by Li Keran in USD for the auction that took place on 2023-05-30, with a price filter from 15000 to 60000 on the china guardian platform.",
+        "filled_param": {
+          "artwork_name": "Mountain Retreat",
+          "artist": "Li Keran",
+          "currency": "USD",
+          "include_tax": true,
+          "price_range": [
+            15000,
+            60000
+          ],
+          "date_of_auction": "2023-05-30"
+        }
+      },
+      {
+        "query": "Can you fetch the price for 'Misty Pines' by Pan Tianshou in EUR, excluding taxes, for the auction on 2023-07-18, with a price constraint between 4000 and 20000 on the china guardian platform?",
+        "filled_param": {
+          "artwork_name": "Misty Pines",
+          "artist": "Pan Tianshou",
+          "currency": "EUR",
+          "include_tax": false,
+          "price_range": [
+            4000,
+            20000
+          ],
+          "date_of_auction": "2023-07-18"
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|artnet|:|artwork_name,artist,currency,include_tax,price_range,date_of_auction": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "artnet",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency",
+      "include_tax",
+      "price_range",
+      "date_of_auction"
+    ],
+    "queries": [
+      {
+        "query": "What was the auction price on Artnet for 'Starry Night' by Vincent van Gogh in USD including taxes, within the range of 500000 to 1000000, on 2023-01-15?",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Vincent van Gogh",
+          "currency": "USD",
+          "include_tax": true,
+          "price_range": [
+            500000,
+            1000000
+          ],
+          "date_of_auction": "2023-01-15"
+        }
+      },
+      {
+        "query": "Find the price for 'Mona Lisa' by Leonardo da Vinci on Artnet in Euros without including tax, priced between 700000 and 1200000, auctioned on 2022-06-30.",
+        "filled_param": {
+          "artwork_name": "Mona Lisa",
+          "artist": "Leonardo da Vinci",
+          "currency": "EUR",
+          "include_tax": false,
+          "price_range": [
+            700000,
+            1200000
+          ],
+          "date_of_auction": "2022-06-30"
+        }
+      },
+      {
+        "query": "Can you provide the price of 'The Persistence of Memory' by Salvador Dalí on Artnet in GBP, including tax, with a price range of 450000 to 950000, for the auction held on 2021-11-20?",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí",
+          "currency": "GBP",
+          "include_tax": true,
+          "price_range": [
+            450000,
+            950000
+          ],
+          "date_of_auction": "2021-11-20"
+        }
+      },
+      {
+        "query": "I'd like the auction price for 'The Scream' by Edvard Munch listed in USD on Artnet, excluding taxes, and within a range of 800000 to 1500000, auctioned on 2020-09-10.",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "USD",
+          "include_tax": false,
+          "price_range": [
+            800000,
+            1500000
+          ],
+          "date_of_auction": "2020-09-10"
+        }
+      },
+      {
+        "query": "What was the price for 'Guernica' by Pablo Picasso listed on Artnet in Euros, with taxes, priced between 2000000 and 3000000, for the auction on 2019-03-05?",
+        "filled_param": {
+          "artwork_name": "Guernica",
+          "artist": "Pablo Picasso",
+          "currency": "EUR",
+          "include_tax": true,
+          "price_range": [
+            2000000,
+            3000000
+          ],
+          "date_of_auction": "2019-03-05"
+        }
+      },
+      {
+        "query": "Get the auction price of 'The Last Supper' by Leonardo da Vinci in GBP from Artnet, without taxes, within a range of 1500000 to 2500000, held on 2021-04-25.",
+        "filled_param": {
+          "artwork_name": "The Last Supper",
+          "artist": "Leonardo da Vinci",
+          "currency": "GBP",
+          "include_tax": false,
+          "price_range": [
+            1500000,
+            2500000
+          ],
+          "date_of_auction": "2021-04-25"
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|invaluable|:|artwork_name,artist,currency,include_tax,price_range,date_of_auction": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "invaluable",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency",
+      "include_tax",
+      "price_range",
+      "date_of_auction"
+    ],
+    "queries": [
+      {
+        "query": "How much did the 'Starry Night' by Vincent van Gogh sell for on July 23, 2023, in USD including tax, if it's between 50,000 and 100,000 dollars?",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Vincent van Gogh",
+          "currency": "USD",
+          "include_tax": true,
+          "price_range": [
+            50000,
+            100000
+          ],
+          "date_of_auction": "2023-07-23"
+        }
+      },
+      {
+        "query": "Please provide the price for 'The Persistence of Memory' by Salvador Dalí in EUR, excluding taxes, sold on 2022-11-15, priced between 1,000,000 and 2,000,000.",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí",
+          "currency": "EUR",
+          "include_tax": false,
+          "price_range": [
+            1000000,
+            2000000
+          ],
+          "date_of_auction": "2022-11-15"
+        }
+      },
+      {
+        "query": "Fetch the price for the artwork 'The Scream' by Edvard Munch for the auction held on 2021-03-10 in GBP, make sure it's tax-inclusive and check within the range of 800,000 to 1,500,000.",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "GBP",
+          "include_tax": true,
+          "price_range": [
+            800000,
+            1500000
+          ],
+          "date_of_auction": "2021-03-10"
+        }
+      },
+      {
+        "query": "What's the price for 'Girl with a Pearl Earring' by Johannes Vermeer in CHF, excluding taxes, for the auction dated 2023-05-05, expecting it to be between 200,000 and 500,000?",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer",
+          "currency": "CHF",
+          "include_tax": false,
+          "price_range": [
+            200000,
+            500000
+          ],
+          "date_of_auction": "2023-05-05"
+        }
+      },
+      {
+        "query": "Could you find the selling price of 'Mona Lisa' by Leonardo da Vinci in JPY, including taxes, sold on 2022-09-20, priced between 10,000,000 and 20,000,000 yen?",
+        "filled_param": {
+          "artwork_name": "Mona Lisa",
+          "artist": "Leonardo da Vinci",
+          "currency": "JPY",
+          "include_tax": true,
+          "price_range": [
+            10000000,
+            20000000
+          ],
+          "date_of_auction": "2022-09-20"
+        }
+      },
+      {
+        "query": "I need the price for 'The Night Watch' by Rembrandt van Rijn, sold in CAD on 2023-01-15, excluding taxes, with the price between 5,000,000 and 7,000,000.",
+        "filled_param": {
+          "artwork_name": "The Night Watch",
+          "artist": "Rembrandt van Rijn",
+          "currency": "CAD",
+          "include_tax": false,
+          "price_range": [
+            5000000,
+            7000000
+          ],
+          "date_of_auction": "2023-01-15"
+        }
+      },
+      {
+        "query": "What was the auction price for 'The Birth of Venus' by Sandro Botticelli in AUD, including tax, on 2023-08-30, within 3,000,000 to 4,000,000 dollars?",
+        "filled_param": {
+          "artwork_name": "The Birth of Venus",
+          "artist": "Sandro Botticelli",
+          "currency": "AUD",
+          "include_tax": true,
+          "price_range": [
+            3000000,
+            4000000
+          ],
+          "date_of_auction": "2023-08-30"
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|heritage auctions|:|artwork_name,artist,currency,include_tax,price_range,date_of_auction": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "heritage auctions",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency",
+      "include_tax",
+      "price_range",
+      "date_of_auction"
+    ],
+    "queries": [
+      {
+        "query": "Could you tell me the price for 'Starry Night' by Van Gogh in USD, including tax, within a price range of 1,000,000 to 2,000,000, auctioned on 2021-04-15 on heritage auctions?",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Van Gogh",
+          "currency": "USD",
+          "include_tax": true,
+          "price_range": [
+            1000000,
+            2000000
+          ],
+          "date_of_auction": "2021-04-15"
+        }
+      },
+      {
+        "query": "What is the price of 'The Persistence of Memory' by Salvador Dalí in EUR, excluding tax, priced between 500,000 and 1,000,000, from the 2020-11-22 auction at heritage auctions?",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí",
+          "currency": "EUR",
+          "include_tax": false,
+          "price_range": [
+            500000,
+            1000000
+          ],
+          "date_of_auction": "2020-11-22"
+        }
+      },
+      {
+        "query": "Find out the price for 'The Scream' by Edvard Munch in GBP, with taxes included, priced from 2,000,000 to 3,000,000, from heritage auctions on 2019-05-10.",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "GBP",
+          "include_tax": true,
+          "price_range": [
+            2000000,
+            3000000
+          ],
+          "date_of_auction": "2019-05-10"
+        }
+      },
+      {
+        "query": "How much did 'Girl with a Pearl Earring' by Vermeer go for in USD without tax, ranging from 800,000 to 1,500,000, sold on 2022-02-14 at heritage auctions?",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Vermeer",
+          "currency": "USD",
+          "include_tax": false,
+          "price_range": [
+            800000,
+            1500000
+          ],
+          "date_of_auction": "2022-02-14"
+        }
+      },
+      {
+        "query": "What's the price for 'The Night Watch' by Rembrandt in EUR, tax included, within the range of 3,000,000 to 4,000,000, from the 2018-06-21 heritage auctions?",
+        "filled_param": {
+          "artwork_name": "The Night Watch",
+          "artist": "Rembrandt",
+          "currency": "EUR",
+          "include_tax": true,
+          "price_range": [
+            3000000,
+            4000000
+          ],
+          "date_of_auction": "2018-06-21"
+        }
+      },
+      {
+        "query": "Please provide the price of 'Mona Lisa' by Leonardo da Vinci in USD, excluding taxes, between 50,000,000 to 100,000,000, during the heritage auctions on 2023-01-31.",
+        "filled_param": {
+          "artwork_name": "Mona Lisa",
+          "artist": "Leonardo da Vinci",
+          "currency": "USD",
+          "include_tax": false,
+          "price_range": [
+            50000000,
+            100000000
+          ],
+          "date_of_auction": "2023-01-31"
+        }
+      },
+      {
+        "query": "Can you check the price for 'The Last Supper' by Leonardo da Vinci in GBP, with tax, between 10,000,000 to 20,000,000, auctioned on 2021-09-10 on heritage auctions?",
+        "filled_param": {
+          "artwork_name": "The Last Supper",
+          "artist": "Leonardo da Vinci",
+          "currency": "GBP",
+          "include_tax": true,
+          "price_range": [
+            10000000,
+            20000000
+          ],
+          "date_of_auction": "2021-09-10"
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|mutualart|:|artwork_name,artist,currency,include_tax,price_range,date_of_auction": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "mutualart",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency",
+      "include_tax",
+      "price_range",
+      "date_of_auction"
+    ],
+    "queries": [
+      {
+        "query": "Can you find the price of 'Starry Night' by Vincent van Gogh on mutualart in USD, including taxes? I'm looking for it within the price range of 500,000 to 1,000,000 dollars, and it was auctioned on 2023-09-01.",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Vincent van Gogh",
+          "currency": "USD",
+          "include_tax": true,
+          "price_range": [
+            500000,
+            1000000
+          ],
+          "date_of_auction": "2023-09-01"
+        }
+      },
+      {
+        "query": "Please provide the price details for 'The Persistence of Memory' by Salvador Dalí on mutualart, in EUR without tax. I am looking for a price range of 200,000 to 500,000 euros, auctioned on 2022-07-15.",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí",
+          "currency": "EUR",
+          "include_tax": false,
+          "price_range": [
+            200000,
+            500000
+          ],
+          "date_of_auction": "2022-07-15"
+        }
+      },
+      {
+        "query": "What's the price of 'The Scream' by Edvard Munch listed on mutualart in GBP, including taxes? I'm interested in the piece that falls within the 800,000 to 2,500,000 pounds range, auctioned on 2021-11-20.",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "GBP",
+          "include_tax": true,
+          "price_range": [
+            800000,
+            2500000
+          ],
+          "date_of_auction": "2021-11-20"
+        }
+      },
+      {
+        "query": "Could you check the price on mutualart for 'Girl with a Pearl Earring' by Johannes Vermeer in USD, without taxes? I'm focusing on the 750,000 to 1,500,000 dollars price bracket, and it was auctioned on 2023-02-12.",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer",
+          "currency": "USD",
+          "include_tax": false,
+          "price_range": [
+            750000,
+            1500000
+          ],
+          "date_of_auction": "2023-02-12"
+        }
+      },
+      {
+        "query": "Find the mutualart price in EUR, inclusive of tax, for 'The Birth of Venus' by Sandro Botticelli. I need it within the range of 1,000,000 to 3,000,000 euros, auctioned on 2022-05-05.",
+        "filled_param": {
+          "artwork_name": "The Birth of Venus",
+          "artist": "Sandro Botticelli",
+          "currency": "EUR",
+          "include_tax": true,
+          "price_range": [
+            1000000,
+            3000000
+          ],
+          "date_of_auction": "2022-05-05"
+        }
+      },
+      {
+        "query": "I am looking for the price of 'The Last Supper' by Leonardo da Vinci on mutualart in GBP, excluding taxes. It should be within 500,000 to 2,000,000 pounds and was auctioned on 2021-08-30.",
+        "filled_param": {
+          "artwork_name": "The Last Supper",
+          "artist": "Leonardo da Vinci",
+          "currency": "GBP",
+          "include_tax": false,
+          "price_range": [
+            500000,
+            2000000
+          ],
+          "date_of_auction": "2021-08-30"
+        }
+      },
+      {
+        "query": "Can you fetch the mutualart price for 'Guernica' by Pablo Picasso in USD, including taxes? The price range should be between 2,000,000 and 5,000,000 dollars, and it was auctioned on 2023-03-10.",
+        "filled_param": {
+          "artwork_name": "Guernica",
+          "artist": "Pablo Picasso",
+          "currency": "USD",
+          "include_tax": true,
+          "price_range": [
+            2000000,
+            5000000
+          ],
+          "date_of_auction": "2023-03-10"
+        }
+      }
+    ]
+  }
+}

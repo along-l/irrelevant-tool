@@ -1,0 +1,438 @@
+{
+  "RehabPlanEvaluator|:|psychological counseling|:|plan_id,effectiveness_score,evaluation_date,comments,goal_alignment,implementation_timeframe": {
+    "tool_template_name": "RehabPlanEvaluator",
+    "derived_class": "psychological counseling",
+    "params_for_query": [
+      "plan_id",
+      "effectiveness_score",
+      "evaluation_date",
+      "comments",
+      "goal_alignment",
+      "implementation_timeframe"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide feedback on the psychological counseling plan with ID PL-12345? It scored a 7 for effectiveness during the evaluation on 2023-09-15. The comments suggest improving client engagement strategies, and the plan's goals align with our organization's objectives. It is estimated that implementing the improvements will take about 3 weeks.",
+        "filled_param": {
+          "plan_id": "PL-12345",
+          "effectiveness_score": 7,
+          "evaluation_date": "2023-09-15",
+          "comments": "Improving client engagement strategies",
+          "goal_alignment": true,
+          "implementation_timeframe": "3 weeks"
+        }
+      },
+      {
+        "query": "I need an evaluation for the psychological counseling plan with ID ABCD-98765. The plan was rated 5 for effectiveness on 2023-08-20. The feedback mentions the need for more personalized sessions, and the plan goals are not currently aligned with individual objectives. The timeframe for changes is expected to be 2 months.",
+        "filled_param": {
+          "plan_id": "ABCD-98765",
+          "effectiveness_score": 5,
+          "evaluation_date": "2023-08-20",
+          "comments": "Need for more personalized sessions",
+          "goal_alignment": false,
+          "implementation_timeframe": "2 months"
+        }
+      },
+      {
+        "query": "Evaluate the psychological counseling plan ID 789XYZ with a score of 9 for effectiveness. The evaluation date is 2023-10-01. Comments suggest enhancing group therapy options. The goals are aligned with the organization's targets, and improvements should take approximately 4 weeks.",
+        "filled_param": {
+          "plan_id": "789XYZ",
+          "effectiveness_score": 9,
+          "evaluation_date": "2023-10-01",
+          "comments": "Enhancing group therapy options",
+          "goal_alignment": true,
+          "implementation_timeframe": "4 weeks"
+        }
+      },
+      {
+        "query": "Please assess the psychological counseling plan identified by 002-BB-456. It has an effectiveness score of 3 as of 2023-07-10. The comments highlight the need for better communication techniques. The plan's goals are misaligned with current priorities, and it may take 5 months to implement the necessary changes.",
+        "filled_param": {
+          "plan_id": "002-BB-456",
+          "effectiveness_score": 3,
+          "evaluation_date": "2023-07-10",
+          "comments": "Need for better communication techniques",
+          "goal_alignment": false,
+          "implementation_timeframe": "5 months"
+        }
+      },
+      {
+        "query": "I require an evaluation for the psychological counseling plan with the ID JKLMN-2023. It was given an effectiveness score of 8 on 2023-06-25. The feedback suggests incorporating more feedback loops. The goals align well with individual goals, and the changes could be implemented in 6 weeks.",
+        "filled_param": {
+          "plan_id": "JKLMN-2023",
+          "effectiveness_score": 8,
+          "evaluation_date": "2023-06-25",
+          "comments": "Incorporating more feedback loops",
+          "goal_alignment": true,
+          "implementation_timeframe": "6 weeks"
+        }
+      }
+    ]
+  },
+  "RehabPlanEvaluator|:|language learning|:|plan_id,effectiveness_score,evaluation_date,comments,goal_alignment,implementation_timeframe": {
+    "tool_template_name": "RehabPlanEvaluator",
+    "derived_class": "language learning",
+    "params_for_query": [
+      "plan_id",
+      "effectiveness_score",
+      "evaluation_date",
+      "comments",
+      "goal_alignment",
+      "implementation_timeframe"
+    ],
+    "queries": [
+      {
+        "query": "I reviewed the language learning plan with ID LL-2023-01. It scored a 7 on effectiveness during the evaluation on 2023-09-15. My comments are: 'Focus more on interactive speaking exercises.' The goals align with our organization's objectives, and the implementation of improvements should take about 3 weeks.",
+        "filled_param": {
+          "plan_id": "LL-2023-01",
+          "effectiveness_score": 7,
+          "evaluation_date": "2023-09-15",
+          "comments": "Focus more on interactive speaking exercises.",
+          "goal_alignment": true,
+          "implementation_timeframe": "3 weeks"
+        }
+      },
+      {
+        "query": "For the language learning program identifier LL-2022-33, I gave it an effectiveness score of 5. Evaluated on 2023-10-03, my suggestions include 'Include more listening activities.' The goals do not align with our current targets, and updating the plan will require 1 month.",
+        "filled_param": {
+          "plan_id": "LL-2022-33",
+          "effectiveness_score": 5,
+          "evaluation_date": "2023-10-03",
+          "comments": "Include more listening activities.",
+          "goal_alignment": false,
+          "implementation_timeframe": "1 month"
+        }
+      },
+      {
+        "query": "We evaluated the language learning plan with the ID ENG-123 on 2023-08-22. It received an effectiveness score of 9. My feedback: 'Maintain current structure with slight increase in vocabulary sections.' The plan goals are aligned, and changes can be implemented in 2 weeks.",
+        "filled_param": {
+          "plan_id": "ENG-123",
+          "effectiveness_score": 9,
+          "evaluation_date": "2023-08-22",
+          "comments": "Maintain current structure with slight increase in vocabulary sections.",
+          "goal_alignment": true,
+          "implementation_timeframe": "2 weeks"
+        }
+      },
+      {
+        "query": "Upon reviewing language learning plan ID SPN-2021-88, I rated it a 3 on effectiveness. I evaluated it on 2023-07-19. Comments: 'Revise the grammar modules for better clarity.' It currently does not align with our goals and would need 6 weeks for adjustments.",
+        "filled_param": {
+          "plan_id": "SPN-2021-88",
+          "effectiveness_score": 3,
+          "evaluation_date": "2023-07-19",
+          "comments": "Revise the grammar modules for better clarity.",
+          "goal_alignment": false,
+          "implementation_timeframe": "6 weeks"
+        }
+      },
+      {
+        "query": "Language learning plan ID JPN-4567 was evaluated on 2023-05-30, with an effectiveness score of 10. My comment: 'Excellent integration of cultural context.' The goals are perfectly aligned, and no implementation time is required for improvements.",
+        "filled_param": {
+          "plan_id": "JPN-4567",
+          "effectiveness_score": 10,
+          "evaluation_date": "2023-05-30",
+          "comments": "Excellent integration of cultural context.",
+          "goal_alignment": true,
+          "implementation_timeframe": "0 weeks"
+        }
+      },
+      {
+        "query": "I evaluated the language learning plan ID FRN-300-99 on 2023-06-12, assigning it an effectiveness score of 6. Comments: 'Incorporate more real-world conversation practice.' The goals are aligned, and implementing these suggestions will take approximately 4 months.",
+        "filled_param": {
+          "plan_id": "FRN-300-99",
+          "effectiveness_score": 6,
+          "evaluation_date": "2023-06-12",
+          "comments": "Incorporate more real-world conversation practice.",
+          "goal_alignment": true,
+          "implementation_timeframe": "4 months"
+        }
+      }
+    ]
+  },
+  "RehabPlanEvaluator|:|career|:|plan_id,effectiveness_score,evaluation_date,comments,goal_alignment,implementation_timeframe": {
+    "tool_template_name": "RehabPlanEvaluator",
+    "derived_class": "career",
+    "params_for_query": [
+      "plan_id",
+      "effectiveness_score",
+      "evaluation_date",
+      "comments",
+      "goal_alignment",
+      "implementation_timeframe"
+    ],
+    "queries": [
+      {
+        "query": "Please provide feedback on the career plan with ID 'CP-2023-01'. It received an effectiveness score of 7 on 2023-09-15. The goals align well with the organizational objectives, but it needs clearer milestones. Estimated improvement timeframe is about 2 months.",
+        "filled_param": {
+          "plan_id": "CP-2023-01",
+          "effectiveness_score": 7,
+          "evaluation_date": "2023-09-15",
+          "comments": "The goals align well with the organizational objectives, but it needs clearer milestones.",
+          "goal_alignment": true,
+          "implementation_timeframe": "2 months"
+        }
+      },
+      {
+        "query": "Evaluate the career plan 'Plan-789' which scored 5 in effectiveness on 2023-10-05. Comments: Lacks alignment with personal goals and needs a comprehensive strategy overhaul. The suggested improvements could be completed in 6 weeks.",
+        "filled_param": {
+          "plan_id": "Plan-789",
+          "effectiveness_score": 5,
+          "evaluation_date": "2023-10-05",
+          "comments": "Lacks alignment with personal goals and needs a comprehensive strategy overhaul.",
+          "goal_alignment": false,
+          "implementation_timeframe": "6 weeks"
+        }
+      },
+      {
+        "query": "Can you review the career plan identified by 'careerplan123'? It got an 8 for effectiveness as of 2023-08-21. There is strong alignment with the team's objectives, but consider more regular progress reviews. Implementation timeframe: 4 weeks.",
+        "filled_param": {
+          "plan_id": "careerplan123",
+          "effectiveness_score": 8,
+          "evaluation_date": "2023-08-21",
+          "comments": "Strong alignment with the team's objectives, but consider more regular progress reviews.",
+          "goal_alignment": true,
+          "implementation_timeframe": "4 weeks"
+        }
+      },
+      {
+        "query": "Analyze the plan 'Dev-Plan-456', which was evaluated on 2023-07-30 with a score of 9. The plan aligns perfectly with corporate goals, though it could benefit from more resource allocation. Estimated timeframe for implementation is 3 months.",
+        "filled_param": {
+          "plan_id": "Dev-Plan-456",
+          "effectiveness_score": 9,
+          "evaluation_date": "2023-07-30",
+          "comments": "Aligns perfectly with corporate goals, though it could benefit from more resource allocation.",
+          "goal_alignment": true,
+          "implementation_timeframe": "3 months"
+        }
+      },
+      {
+        "query": "Could you give feedback on the career plan 'growth-2023'? It has an effectiveness score of 4 as of 2023-06-15. The plan is misaligned with departmental priorities and needs a complete review. Improvements expected to take 8 weeks.",
+        "filled_param": {
+          "plan_id": "growth-2023",
+          "effectiveness_score": 4,
+          "evaluation_date": "2023-06-15",
+          "comments": "Misaligned with departmental priorities and needs a complete review.",
+          "goal_alignment": false,
+          "implementation_timeframe": "8 weeks"
+        }
+      },
+      {
+        "query": "Review the career plan ID 'future-001', which got a 6 on effectiveness as evaluated on 2023-09-01. While aligned with the individual's career path, it lacks specific skill development goals. Improvement timeframe should be 5 weeks.",
+        "filled_param": {
+          "plan_id": "future-001",
+          "effectiveness_score": 6,
+          "evaluation_date": "2023-09-01",
+          "comments": "While aligned with the individual's career path, it lacks specific skill development goals.",
+          "goal_alignment": true,
+          "implementation_timeframe": "5 weeks"
+        }
+      }
+    ]
+  },
+  "RehabPlanEvaluator|:|rehabilitation|:|plan_id,effectiveness_score,evaluation_date,comments,goal_alignment,implementation_timeframe": {
+    "tool_template_name": "RehabPlanEvaluator",
+    "derived_class": "rehabilitation",
+    "params_for_query": [
+      "plan_id",
+      "effectiveness_score",
+      "evaluation_date",
+      "comments",
+      "goal_alignment",
+      "implementation_timeframe"
+    ],
+    "queries": [
+      {
+        "query": "Please evaluate the rehabilitation plan with ID 'rehab-1234', which was assessed on 2023-08-15. The effectiveness score is 7, and it aligns with our goals. Comments: Consider adding more strength exercises. Implementation timeframe: 6 weeks.",
+        "filled_param": {
+          "plan_id": "rehab-1234",
+          "effectiveness_score": 7,
+          "evaluation_date": "2023-08-15",
+          "comments": "Consider adding more strength exercises.",
+          "goal_alignment": true,
+          "implementation_timeframe": "6 weeks"
+        }
+      },
+      {
+        "query": "I need an evaluation for rehabilitation plan ID 'plan-5678'. It was reviewed on 2023-09-10 with an effectiveness score of 5. The plan does not align with our objectives. Comments: The exercises seem too advanced for the current patient stage. Estimated timeframe for improvements: 3 months.",
+        "filled_param": {
+          "plan_id": "plan-5678",
+          "effectiveness_score": 5,
+          "evaluation_date": "2023-09-10",
+          "comments": "The exercises seem too advanced for the current patient stage.",
+          "goal_alignment": false,
+          "implementation_timeframe": "3 months"
+        }
+      },
+      {
+        "query": "Generate feedback on the rehabilitation plan ID 'therapy-9012', evaluated on 2023-10-05. The effectiveness score is 9, and the plan aligns with our goals. Comments: Excellent progress noted, maintain the current regimen. Implementation timeframe for improvements: 2 weeks.",
+        "filled_param": {
+          "plan_id": "therapy-9012",
+          "effectiveness_score": 9,
+          "evaluation_date": "2023-10-05",
+          "comments": "Excellent progress noted, maintain the current regimen.",
+          "goal_alignment": true,
+          "implementation_timeframe": "2 weeks"
+        }
+      },
+      {
+        "query": "Requesting evaluation of rehabilitation plan ID 'recov-3456', with an assessment date of 2023-07-20. It scored 4 on effectiveness and doesn't align with the intended goals. Comments: The plan lacks variety and engagement. Suggested implementation timeframe: 1 month.",
+        "filled_param": {
+          "plan_id": "recov-3456",
+          "effectiveness_score": 4,
+          "evaluation_date": "2023-07-20",
+          "comments": "The plan lacks variety and engagement.",
+          "goal_alignment": false,
+          "implementation_timeframe": "1 month"
+        }
+      },
+      {
+        "query": "Evaluate the rehabilitation plan identified by 'prog-2345'. The evaluation date is 2023-06-30, with an effectiveness score of 6. Goal alignment is achieved. Comments: Needs more cardio exercises. Implementation timeframe: 8 weeks.",
+        "filled_param": {
+          "plan_id": "prog-2345",
+          "effectiveness_score": 6,
+          "evaluation_date": "2023-06-30",
+          "comments": "Needs more cardio exercises.",
+          "goal_alignment": true,
+          "implementation_timeframe": "8 weeks"
+        }
+      }
+    ]
+  },
+  "RehabPlanEvaluator|:|financial|:|plan_id,effectiveness_score,evaluation_date,comments,goal_alignment,implementation_timeframe": {
+    "tool_template_name": "RehabPlanEvaluator",
+    "derived_class": "financial",
+    "params_for_query": [
+      "plan_id",
+      "effectiveness_score",
+      "evaluation_date",
+      "comments",
+      "goal_alignment",
+      "implementation_timeframe"
+    ],
+    "queries": [
+      {
+        "query": "Please evaluate the financial plan with ID FP-2023-001. The effectiveness score is 7, evaluated on 2023-10-15. The plan's goals are aligned, but it needs a clearer timeline. Estimated implementation timeframe is 6 weeks.",
+        "filled_param": {
+          "plan_id": "FP-2023-001",
+          "effectiveness_score": 7,
+          "evaluation_date": "2023-10-15",
+          "comments": "The plan's goals are aligned, but it needs a clearer timeline.",
+          "goal_alignment": true,
+          "implementation_timeframe": "6 weeks"
+        }
+      },
+      {
+        "query": "I need an evaluation for the financial plan identified as PL-4587. It received an effectiveness score of 5 on 2023-09-20. Although the plan's goals are not aligned, it has potential. Implementation might take 3 months.",
+        "filled_param": {
+          "plan_id": "PL-4587",
+          "effectiveness_score": 5,
+          "evaluation_date": "2023-09-20",
+          "comments": "Although the plan's goals are not aligned, it has potential.",
+          "goal_alignment": false,
+          "implementation_timeframe": "3 months"
+        }
+      },
+      {
+        "query": "Could you provide feedback for the financial plan with the ID FPLAN-2024. The effectiveness score is 9 as of 2023-08-01. The plan aligns well with our objectives, but we need to refine some cost estimates. Expected implementation time is 8 weeks.",
+        "filled_param": {
+          "plan_id": "FPLAN-2024",
+          "effectiveness_score": 9,
+          "evaluation_date": "2023-08-01",
+          "comments": "The plan aligns well with our objectives, but we need to refine some cost estimates.",
+          "goal_alignment": true,
+          "implementation_timeframe": "8 weeks"
+        }
+      },
+      {
+        "query": "Evaluate the financial plan numbered F-2022-389. It scored 6 on effectiveness as of 2023-07-15. While goals are aligned, it lacks detailed risk analysis. Implementation is estimated at 4 months.",
+        "filled_param": {
+          "plan_id": "F-2022-389",
+          "effectiveness_score": 6,
+          "evaluation_date": "2023-07-15",
+          "comments": "While goals are aligned, it lacks detailed risk analysis.",
+          "goal_alignment": true,
+          "implementation_timeframe": "4 months"
+        }
+      },
+      {
+        "query": "Can you analyze the financial plan with ID FP-9876? It has an effectiveness score of 8, evaluated on 2023-09-10. The plan's objectives are well aligned, though it could benefit from improved cash flow strategies. 5 weeks are needed for implementation.",
+        "filled_param": {
+          "plan_id": "FP-9876",
+          "effectiveness_score": 8,
+          "evaluation_date": "2023-09-10",
+          "comments": "The plan's objectives are well aligned, though it could benefit from improved cash flow strategies.",
+          "goal_alignment": true,
+          "implementation_timeframe": "5 weeks"
+        }
+      }
+    ]
+  },
+  "RehabPlanEvaluator|:|sleep|:|plan_id,effectiveness_score,evaluation_date,comments,goal_alignment,implementation_timeframe": {
+    "tool_template_name": "RehabPlanEvaluator",
+    "derived_class": "sleep",
+    "params_for_query": [
+      "plan_id",
+      "effectiveness_score",
+      "evaluation_date",
+      "comments",
+      "goal_alignment",
+      "implementation_timeframe"
+    ],
+    "queries": [
+      {
+        "query": "Evaluate the sleep plan with ID SP-12345. It received an effectiveness score of 7 on 2023-10-15. Comments: The plan is generally good but needs more consistency. The goals are aligned with our objectives. Implementation timeframe is estimated at 3 months.",
+        "filled_param": {
+          "plan_id": "SP-12345",
+          "effectiveness_score": 7,
+          "evaluation_date": "2023-10-15",
+          "comments": "The plan is generally good but needs more consistency.",
+          "goal_alignment": true,
+          "implementation_timeframe": "3 months"
+        }
+      },
+      {
+        "query": "On 2023-09-20, we evaluated sleep plan ID ABC987, which scored a 5 in effectiveness. Comments: Increase relaxation techniques before sleep. The goals are not aligned. Implementation can be done in 6 weeks.",
+        "filled_param": {
+          "plan_id": "ABC987",
+          "effectiveness_score": 5,
+          "evaluation_date": "2023-09-20",
+          "comments": "Increase relaxation techniques before sleep.",
+          "goal_alignment": false,
+          "implementation_timeframe": "6 weeks"
+        }
+      },
+      {
+        "query": "Please generate feedback for sleep plan ID ZZZ-567. Evaluation date: 2023-08-30. Effectiveness score: 9. Comments: Excellent plan, keep it up. Goals are well aligned. Estimated implementation time is 1 month.",
+        "filled_param": {
+          "plan_id": "ZZZ-567",
+          "effectiveness_score": 9,
+          "evaluation_date": "2023-08-30",
+          "comments": "Excellent plan, keep it up.",
+          "goal_alignment": true,
+          "implementation_timeframe": "1 month"
+        }
+      },
+      {
+        "query": "For sleep plan 2023-PLN-001, evaluated on 2023-07-12, the effectiveness score was 6. Comments: Needs more personalization. Goals are aligned. Implementation timeframe is 2 weeks.",
+        "filled_param": {
+          "plan_id": "2023-PLN-001",
+          "effectiveness_score": 6,
+          "evaluation_date": "2023-07-12",
+          "comments": "Needs more personalization.",
+          "goal_alignment": true,
+          "implementation_timeframe": "2 weeks"
+        }
+      },
+      {
+        "query": "Review the sleep plan with ID SLP2023-B on 2023-06-01, which has an effectiveness score of 4. Comments: Significant improvements needed, not aligned with goals. Estimated time for changes is 4 months.",
+        "filled_param": {
+          "plan_id": "SLP2023-B",
+          "effectiveness_score": 4,
+          "evaluation_date": "2023-06-01",
+          "comments": "Significant improvements needed, not aligned with goals.",
+          "goal_alignment": false,
+          "implementation_timeframe": "4 months"
+        }
+      }
+    ]
+  }
+}

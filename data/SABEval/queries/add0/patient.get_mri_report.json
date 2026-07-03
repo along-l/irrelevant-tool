@@ -1,0 +1,564 @@
+{
+  "patient.get_mri_report|:|brain MRI|:|patient_id,status": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "brain MRI",
+    "params_for_query": [
+      "patient_id",
+      "status"
+    ],
+    "queries": [
+      {
+        "query": "Could you retrieve the concluded brain MRI report for patient ID 123456?",
+        "filled_param": {
+          "patient_id": "123456",
+          "status": "concluded"
+        }
+      },
+      {
+        "query": "Please get the brain MRI report that's currently in draft status for patient 789012.",
+        "filled_param": {
+          "patient_id": "789012",
+          "status": "draft"
+        }
+      },
+      {
+        "query": "I need to access the in-progress brain MRI report for the patient with ID 345678.",
+        "filled_param": {
+          "patient_id": "345678",
+          "status": "in progress"
+        }
+      },
+      {
+        "query": "Fetch the brain MRI report marked as concluded for patient ID 901234.",
+        "filled_param": {
+          "patient_id": "901234",
+          "status": "concluded"
+        }
+      },
+      {
+        "query": "Can you show me the draft status brain MRI report for patient 567890?",
+        "filled_param": {
+          "patient_id": "567890",
+          "status": "draft"
+        }
+      },
+      {
+        "query": "Look up the brain MRI report that's in progress for the patient with the ID 234567.",
+        "filled_param": {
+          "patient_id": "234567",
+          "status": "in progress"
+        }
+      },
+      {
+        "query": "I would like the concluded brain MRI report for patient ID 678901.",
+        "filled_param": {
+          "patient_id": "678901",
+          "status": "concluded"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|chest CT|:|patient_id,status": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "chest CT",
+    "params_for_query": [
+      "patient_id",
+      "status"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the concluded chest CT report for patient with ID 12345?",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "concluded"
+        }
+      },
+      {
+        "query": "I need to check the chest CT report that is currently in progress for patient ID 67890.",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "in progress"
+        }
+      },
+      {
+        "query": "Please fetch the draft of the chest CT report for the patient with ID ABCD1234.",
+        "filled_param": {
+          "patient_id": "ABCD1234",
+          "status": "draft"
+        }
+      },
+      {
+        "query": "What's the status of the chest CT report marked as concluded for patient ID XY-999?",
+        "filled_param": {
+          "patient_id": "XY-999",
+          "status": "concluded"
+        }
+      },
+      {
+        "query": "Could you get the chest CT report that is still a draft for patient number 56789?",
+        "filled_param": {
+          "patient_id": "56789",
+          "status": "draft"
+        }
+      },
+      {
+        "query": "Retrieve the in-progress chest CT report for the patient identified by ID 11223.",
+        "filled_param": {
+          "patient_id": "11223",
+          "status": "in progress"
+        }
+      },
+      {
+        "query": "I am looking for the chest CT report that has been concluded for patient ID LMNOP.",
+        "filled_param": {
+          "patient_id": "LMNOP",
+          "status": "concluded"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|abdominal ultrasound|:|patient_id,status": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "abdominal ultrasound",
+    "params_for_query": [
+      "patient_id",
+      "status"
+    ],
+    "queries": [
+      {
+        "query": "Can you retrieve the abdominal ultrasound report for patient ID 12345 with status 'concluded'?",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "concluded"
+        }
+      },
+      {
+        "query": "I need to see the abdominal ultrasound for patient 98765 that is currently 'in progress'.",
+        "filled_param": {
+          "patient_id": "98765",
+          "status": "in progress"
+        }
+      },
+      {
+        "query": "Please fetch the abdominal ultrasound report marked as 'draft' for patient ID A4567.",
+        "filled_param": {
+          "patient_id": "A4567",
+          "status": "draft"
+        }
+      },
+      {
+        "query": "Could you provide the abdominal ultrasound report for patient ID B3210, and ensure the status is 'concluded'?",
+        "filled_param": {
+          "patient_id": "B3210",
+          "status": "concluded"
+        }
+      },
+      {
+        "query": "Retrieve the 'in progress' abdominal ultrasound report for patient 67890.",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "in progress"
+        }
+      },
+      {
+        "query": "Get the 'draft' abdominal ultrasound results for patient ID C1234.",
+        "filled_param": {
+          "patient_id": "C1234",
+          "status": "draft"
+        }
+      },
+      {
+        "query": "Access the abdominal ultrasound report with status 'concluded' for patient 54321, please.",
+        "filled_param": {
+          "patient_id": "54321",
+          "status": "concluded"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|cardiac echocardiogram|:|patient_id,status": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "cardiac echocardiogram",
+    "params_for_query": [
+      "patient_id",
+      "status"
+    ],
+    "queries": [
+      {
+        "query": "Please retrieve the cardiac echocardiogram report for patient ID 12345 with a status of 'in progress'.",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "in progress"
+        }
+      },
+      {
+        "query": "Can you get the cardiac echocardiogram report for patient 67890 that is marked as 'concluded'?",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "concluded"
+        }
+      },
+      {
+        "query": "I need the cardiac echocardiogram report for the patient with ID 11223, and it should be in 'draft' status.",
+        "filled_param": {
+          "patient_id": "11223",
+          "status": "draft"
+        }
+      },
+      {
+        "query": "Fetch the cardiac echocardiogram report for patient number 44556 where the status is 'concluded'.",
+        "filled_param": {
+          "patient_id": "44556",
+          "status": "concluded"
+        }
+      },
+      {
+        "query": "Could you provide the cardiac echocardiogram report for patient ID 99887 with the status 'in progress'?",
+        "filled_param": {
+          "patient_id": "99887",
+          "status": "in progress"
+        }
+      },
+      {
+        "query": "Retrieve the cardiac echocardiogram report for patient ID 33445 that is currently a 'draft'.",
+        "filled_param": {
+          "patient_id": "33445",
+          "status": "draft"
+        }
+      },
+      {
+        "query": "Get the cardiac echocardiogram report for patient 55678, please, and make sure it's the one with a status of 'in progress'.",
+        "filled_param": {
+          "patient_id": "55678",
+          "status": "in progress"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|spinal X-ray|:|patient_id,status": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "spinal X-ray",
+    "params_for_query": [
+      "patient_id",
+      "status"
+    ],
+    "queries": [
+      {
+        "query": "Please provide the spinal X-ray report for patient ID 12345 with the status 'in progress'.",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "in progress"
+        }
+      },
+      {
+        "query": "I need the concluded spinal X-ray report for patient 67890.",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "concluded"
+        }
+      },
+      {
+        "query": "Fetch the spinal X-ray draft report for patient ID A1123.",
+        "filled_param": {
+          "patient_id": "A1123",
+          "status": "draft"
+        }
+      },
+      {
+        "query": "Can you retrieve the spinal X-ray report for patient ID B4567 with status 'concluded'?",
+        "filled_param": {
+          "patient_id": "B4567",
+          "status": "concluded"
+        }
+      },
+      {
+        "query": "Get me the spinal X-ray report that's currently in progress for patient ID C7890.",
+        "filled_param": {
+          "patient_id": "C7890",
+          "status": "in progress"
+        }
+      },
+      {
+        "query": "I would like to see the draft version of the spinal X-ray for patient ID D6543.",
+        "filled_param": {
+          "patient_id": "D6543",
+          "status": "draft"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|breast MRI|:|patient_id,status": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "breast MRI",
+    "params_for_query": [
+      "patient_id",
+      "status"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the breast MRI report for patient ID 12345 that is currently in progress?",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "in progress"
+        }
+      },
+      {
+        "query": "I need the breast MRI report for patient 98765 with the status set to concluded.",
+        "filled_param": {
+          "patient_id": "98765",
+          "status": "concluded"
+        }
+      },
+      {
+        "query": "Fetch the draft status breast MRI report for patient ID ABC123.",
+        "filled_param": {
+          "patient_id": "ABC123",
+          "status": "draft"
+        }
+      },
+      {
+        "query": "Can you get the breast MRI report for the patient with ID 456DEF that has concluded?",
+        "filled_param": {
+          "patient_id": "456DEF",
+          "status": "concluded"
+        }
+      },
+      {
+        "query": "Retrieve the breast MRI report marked as in progress for patient number ZXCV678.",
+        "filled_param": {
+          "patient_id": "ZXCV678",
+          "status": "in progress"
+        }
+      },
+      {
+        "query": "Please obtain the breast MRI report for patient ID 1122AA with a status of draft.",
+        "filled_param": {
+          "patient_id": "1122AA",
+          "status": "draft"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|liver CT|:|patient_id,status": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "liver CT",
+    "params_for_query": [
+      "patient_id",
+      "status"
+    ],
+    "queries": [
+      {
+        "query": "Can you fetch the liver CT report for patient ID 12345 with the status 'in progress'?",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "in progress"
+        }
+      },
+      {
+        "query": "I need the liver CT report for patient 67890, specifically the one that's concluded.",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "concluded"
+        }
+      },
+      {
+        "query": "Retrieve the liver CT report marked as 'draft' for the patient with ID 24680.",
+        "filled_param": {
+          "patient_id": "24680",
+          "status": "draft"
+        }
+      },
+      {
+        "query": "Please provide the concluded liver CT report for patient identifier 11223.",
+        "filled_param": {
+          "patient_id": "11223",
+          "status": "concluded"
+        }
+      },
+      {
+        "query": "Get the liver CT report for patient ID 33445; it should be the one in progress.",
+        "filled_param": {
+          "patient_id": "33445",
+          "status": "in progress"
+        }
+      },
+      {
+        "query": "Could you show me the liver CT report for the patient with ID 55667 that is currently in draft status?",
+        "filled_param": {
+          "patient_id": "55667",
+          "status": "draft"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|ocular OCT|:|patient_id,status": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "ocular OCT",
+    "params_for_query": [
+      "patient_id",
+      "status"
+    ],
+    "queries": [
+      {
+        "query": "Can you retrieve the ocular OCT report for patient ID 12345 with the status 'concluded'?",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "concluded"
+        }
+      },
+      {
+        "query": "Please fetch the ocular OCT report for the patient with ID 67890, marked as 'in progress'.",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "in progress"
+        }
+      },
+      {
+        "query": "I need to see the ocular OCT report with a 'draft' status for patient 24680.",
+        "filled_param": {
+          "patient_id": "24680",
+          "status": "draft"
+        }
+      },
+      {
+        "query": "What's the latest ocular OCT report showing for patient 13579 with the status 'concluded'?",
+        "filled_param": {
+          "patient_id": "13579",
+          "status": "concluded"
+        }
+      },
+      {
+        "query": "Get the ocular OCT report for patient ID 11223 that is currently 'draft'.",
+        "filled_param": {
+          "patient_id": "11223",
+          "status": "draft"
+        }
+      },
+      {
+        "query": "Could you find the ocular OCT report for the patient with ID 44556 marked 'in progress'?",
+        "filled_param": {
+          "patient_id": "44556",
+          "status": "in progress"
+        }
+      },
+      {
+        "query": "Show me the ocular OCT report of patient ID 77889 which is tagged as 'concluded'.",
+        "filled_param": {
+          "patient_id": "77889",
+          "status": "concluded"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|whole-body PET scan|:|patient_id,status": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "whole-body PET scan",
+    "params_for_query": [
+      "patient_id",
+      "status"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the whole-body PET scan report for patient ID 12345 with the status 'concluded'?",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "concluded"
+        }
+      },
+      {
+        "query": "I'm looking for the whole-body PET scan report with the status 'draft' for patient 67890.",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "draft"
+        }
+      },
+      {
+        "query": "Please fetch the whole-body PET scan report marked as 'in progress' for the patient with ID ABC123.",
+        "filled_param": {
+          "patient_id": "ABC123",
+          "status": "in progress"
+        }
+      },
+      {
+        "query": "Retrieve the whole-body PET scan report for patient ID DEF456 where the status is 'concluded'.",
+        "filled_param": {
+          "patient_id": "DEF456",
+          "status": "concluded"
+        }
+      },
+      {
+        "query": "Could you get the whole-body PET scan report that is 'in progress' for the patient with the identifier 789GHI?",
+        "filled_param": {
+          "patient_id": "789GHI",
+          "status": "in progress"
+        }
+      },
+      {
+        "query": "I need to see the whole-body PET scan report for patient 111XYZ, specifically the 'draft' version.",
+        "filled_param": {
+          "patient_id": "111XYZ",
+          "status": "draft"
+        }
+      },
+      {
+        "query": "What is the status of the whole-body PET scan report for patient ID JKLMN with a status of 'in progress'?",
+        "filled_param": {
+          "patient_id": "JKLMN",
+          "status": "in progress"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|angiography|:|patient_id,status": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "angiography",
+    "params_for_query": [
+      "patient_id",
+      "status"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the angiography report for patient ID 123456 with a status of 'in progress'?",
+        "filled_param": {
+          "patient_id": "123456",
+          "status": "in progress"
+        }
+      },
+      {
+        "query": "I need to see the concluded angiography report for patient 987654.",
+        "filled_param": {
+          "patient_id": "987654",
+          "status": "concluded"
+        }
+      },
+      {
+        "query": "Fetch the angiography report for patient ID 543210, which is currently in draft status.",
+        "filled_param": {
+          "patient_id": "543210",
+          "status": "draft"
+        }
+      },
+      {
+        "query": "Please get me the concluded angiography report of the patient with ID 135790.",
+        "filled_param": {
+          "patient_id": "135790",
+          "status": "concluded"
+        }
+      },
+      {
+        "query": "What is the status of the angiography report for patient 246801 if it's marked as 'in progress'?",
+        "filled_param": {
+          "patient_id": "246801",
+          "status": "in progress"
+        }
+      },
+      {
+        "query": "Retrieve the angiography report for patient number 112233 that is currently a draft.",
+        "filled_param": {
+          "patient_id": "112233",
+          "status": "draft"
+        }
+      }
+    ]
+  }
+}

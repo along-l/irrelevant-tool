@@ -1,0 +1,60 @@
+{
+  "tool_template_name": "finance.fetchGDP",
+  "meta_data": {
+    "base_class": "Fetch the value of a country's <monetary economic indicator> in a specific year - refers to high-level financial metrics expressed in currency units, used to evaluate national economic scale or financial status.",
+    "derived_classes": [
+      "GDP",
+      "government debt",
+      "trade balance",
+      "public spending",
+      "foreign reserves",
+      "military expenditure"
+    ],
+    "base_class_entity": "GDP"
+  },
+  "tool_template": {
+    "name": "finance.fetch_<class>",
+    "description": "Fetch the <class> of the given country in the given year.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "country": {
+          "type": "string",
+          "description": "The name of the country to get the <class> of."
+        },
+        "year": {
+          "type": "integer",
+          "description": "The year to get the <class> of."
+        }
+      },
+      "required": [
+        "country",
+        "year"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "format": {
+      "type": "string",
+      "description": "The format to return the data in. Options are 'JSON', 'XML', or 'CSV'."
+    }
+  },
+  "additional_params": {
+    "include_historical_context": {
+      "type": "boolean",
+      "description": "Whether to include historical context for the <class> of the given country."
+    },
+    "adjust_for_inflation": {
+      "type": "boolean",
+      "description": "Indicate if the <class> values should be adjusted for inflation for the given year."
+    },
+    "data_source": {
+      "type": "string",
+      "description": "Specify the data source to fetch the <class> from, e.g., 'World Bank' or 'IMF'."
+    },
+    "confidence_interval": {
+      "type": "string",
+      "description": "The desired confidence interval for the data retrieved for the <class>, e.g., 'high', 'medium', or 'low'."
+    }
+  }
+}

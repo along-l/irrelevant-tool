@@ -1,0 +1,77 @@
+{
+  "tool_template_name": "EcoTravel_getChargingStations",
+  "meta_data": {
+    "base_class": "Provide real-time data and map integration for nearby <public service points> - refers to various public facilities whose locations and availability can be searched.",
+    "derived_classes": [
+      "EV charging station",
+      "power bank rental station",
+      "gas station",
+      "ATM",
+      "library",
+      "post office",
+      "hospital",
+      "public restroom",
+      "police station",
+      "blood donation site"
+    ],
+    "base_class_entity": "charging station"
+  },
+  "tool_template": {
+    "name": "get_<class>_information",
+    "description": "Provides real-time data and map integration for nearby <class> locations.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "latitude": {
+          "type": "number",
+          "description": "Latitude of the current location."
+        },
+        "longitude": {
+          "type": "number",
+          "description": "Longitude of the current location."
+        },
+        "time": {
+          "type": "string",
+          "description": "Time of the day to check for <class> availability."
+        },
+        "mapProvider": {
+          "type": "string",
+          "description": "The map provider for integrating <class> data into maps and used for displaying locations."
+        }
+      },
+      "required": [
+        "latitude",
+        "longitude",
+        "time",
+        "mapProvider"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "icon": {
+      "type": "string",
+      "description": "Icon to represent <class> on the map."
+    },
+    "color": {
+      "type": "string",
+      "description": "Color code for the <class> markers on the map, with the pattern '^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$'."
+    }
+  },
+  "additional_params": {
+    "availabilityStatus": {
+      "type": "string",
+      "description": "Current availability status of the <class> that would be filtered, one of: 'open', 'closed', 'under maintenance'."
+    },
+    "minimumRating": {
+      "type": "number",
+      "description": "Minimum average rating (0 to 5) for the <class> to be included."
+    },
+    "facilityFeatures": {
+      "type": "array",
+      "description": "Specific features to filter by, e.g., 'wheelchair accessible', '24/7'.",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

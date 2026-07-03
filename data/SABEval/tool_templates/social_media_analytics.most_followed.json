@@ -1,0 +1,65 @@
+{
+  "tool_template_name": "social_media_analytics.most_followed",
+  "meta_data": {
+    "base_class": "find the most followed user related to a certain topic on a given <social media platform> - these platforms all feature follower and subscription mechanisms.",
+    "derived_classes": [
+      "Twitter",
+      "Instagram",
+      "Facebook",
+      "TikTok",
+      "YouTube",
+      "Reddit",
+      "Weibo",
+      "Kuaishou",
+      "Bilibili"
+    ],
+    "base_class_entity": "Twitter"
+  },
+  "tool_template": {
+    "name": "social_media_analytics.most_followed_<class>",
+    "description": "Find the most followed <class> user related to certain topics.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "topic": {
+          "type": "string",
+          "description": "The main topic of interest on <class>."
+        }
+      },
+      "required": [
+        "topic"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "sub_topics": {
+      "type": "array",
+      "description": "Sub-topics related to main topic on <class>.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "region": {
+      "type": "string",
+      "description": "Region of interest for <class> search."
+    }
+  },
+  "additional_params": {
+    "time_range": {
+      "type": "string",
+      "description": "The time range for analyzing follower data on <class>. Format can be 'last 24h', 'weekly', 'monthly', etc."
+    },
+    "verified_only": {
+      "type": "boolean",
+      "description": "Whether to include only verified accounts when searching for the most followed user on <class>."
+    },
+    "account_type": {
+      "type": "string",
+      "description": "The type of accounts to focus on, such as 'individual', 'business', or 'creator', on <class>."
+    },
+    "include_inactive": {
+      "type": "boolean",
+      "description": "Whether to include inactive or dormant accounts on <class> in the analysis."
+    }
+  }
+}

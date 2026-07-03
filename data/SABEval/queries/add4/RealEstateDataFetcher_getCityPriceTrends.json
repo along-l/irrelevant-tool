@@ -1,0 +1,546 @@
+{
+  "RealEstateDataFetcher_getCityPriceTrends|:|real estate|:|city,dataFormat,timeRange,currency,aggregationMethod": {
+    "tool_template_name": "RealEstateDataFetcher_getCityPriceTrends",
+    "derived_class": "real estate",
+    "params_for_query": [
+      "city",
+      "dataFormat",
+      "timeRange",
+      "currency",
+      "aggregationMethod"
+    ],
+    "queries": [
+      {
+        "query": "Show me the real estate price trends in Los Angeles for the last year, formatted in Excel, using USD currency, and aggregated by average.",
+        "filled_param": {
+          "city": "Los Angeles",
+          "dataFormat": "Excel",
+          "timeRange": "last_year",
+          "currency": "USD",
+          "aggregationMethod": "average"
+        }
+      },
+      {
+        "query": "Can you provide the real estate price analysis for New York City over the last month? I need it in JSON format, using EUR currency and the prices should be aggregated by median.",
+        "filled_param": {
+          "city": "New York City",
+          "dataFormat": "JSON",
+          "timeRange": "last_month",
+          "currency": "EUR",
+          "aggregationMethod": "median"
+        }
+      },
+      {
+        "query": "Fetch the latest real estate price trends for Tokyo over the past week in CSV format, with the data in JPY currency and aggregated by mode.",
+        "filled_param": {
+          "city": "Tokyo",
+          "dataFormat": "CSV",
+          "timeRange": "last_week",
+          "currency": "JPY",
+          "aggregationMethod": "mode"
+        }
+      },
+      {
+        "query": "I need real estate price trends for the city of Paris for the last year, in PDF format, in the currency EUR, and aggregated by average.",
+        "filled_param": {
+          "city": "Paris",
+          "dataFormat": "PDF",
+          "timeRange": "last_year",
+          "currency": "EUR",
+          "aggregationMethod": "average"
+        }
+      },
+      {
+        "query": "Could you analyze the real estate prices in Sydney for the last month? Provide the report in XML format, using AUD currency and aggregate by median.",
+        "filled_param": {
+          "city": "Sydney",
+          "dataFormat": "XML",
+          "timeRange": "last_month",
+          "currency": "AUD",
+          "aggregationMethod": "median"
+        }
+      },
+      {
+        "query": "Get the real estate price data for Berlin for the last week in HTML format, currency should be in GBP, and please use the mode for aggregation.",
+        "filled_param": {
+          "city": "Berlin",
+          "dataFormat": "HTML",
+          "timeRange": "last_week",
+          "currency": "GBP",
+          "aggregationMethod": "mode"
+        }
+      }
+    ]
+  },
+  "RealEstateDataFetcher_getCityPriceTrends|:|used cars|:|city,dataFormat,timeRange,currency,aggregationMethod": {
+    "tool_template_name": "RealEstateDataFetcher_getCityPriceTrends",
+    "derived_class": "used cars",
+    "params_for_query": [
+      "city",
+      "dataFormat",
+      "timeRange",
+      "currency",
+      "aggregationMethod"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the latest used cars price trends for New York in CSV format for the last month, using USD currency and the average as the aggregation method?",
+        "filled_param": {
+          "city": "New York",
+          "dataFormat": "CSV",
+          "timeRange": "last_month",
+          "currency": "USD",
+          "aggregationMethod": "average"
+        }
+      },
+      {
+        "query": "I need the used cars price trend analysis for Paris in JSON format for the last year, displayed in EUR using the median aggregation method.",
+        "filled_param": {
+          "city": "Paris",
+          "dataFormat": "JSON",
+          "timeRange": "last_year",
+          "currency": "EUR",
+          "aggregationMethod": "median"
+        }
+      },
+      {
+        "query": "Fetch the used cars price trends for Tokyo for the last week, with results in XML format, converted to JPY, and aggregated by mode.",
+        "filled_param": {
+          "city": "Tokyo",
+          "dataFormat": "XML",
+          "timeRange": "last_week",
+          "currency": "JPY",
+          "aggregationMethod": "mode"
+        }
+      },
+      {
+        "query": "What are the current used cars price trends in London for the past year? I need the data in PDF format, in GBP, aggregated by average.",
+        "filled_param": {
+          "city": "London",
+          "dataFormat": "PDF",
+          "timeRange": "last_year",
+          "currency": "GBP",
+          "aggregationMethod": "average"
+        }
+      },
+      {
+        "query": "Get me the used cars price trends for Sydney for the last month, formatted in Excel, in AUD, using the median aggregation method.",
+        "filled_param": {
+          "city": "Sydney",
+          "dataFormat": "Excel",
+          "timeRange": "last_month",
+          "currency": "AUD",
+          "aggregationMethod": "median"
+        }
+      },
+      {
+        "query": "Provide used cars price trends analysis for Berlin for the past week in JSON format, with prices in EUR, aggregated by mode.",
+        "filled_param": {
+          "city": "Berlin",
+          "dataFormat": "JSON",
+          "timeRange": "last_week",
+          "currency": "EUR",
+          "aggregationMethod": "mode"
+        }
+      }
+    ]
+  },
+  "RealEstateDataFetcher_getCityPriceTrends|:|agricultural products|:|city,dataFormat,timeRange,currency,aggregationMethod": {
+    "tool_template_name": "RealEstateDataFetcher_getCityPriceTrends",
+    "derived_class": "agricultural products",
+    "params_for_query": [
+      "city",
+      "dataFormat",
+      "timeRange",
+      "currency",
+      "aggregationMethod"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the agricultural products price trends for Paris in a PDF format, covering the last month, displayed in euros, using the average as the aggregation method?",
+        "filled_param": {
+          "city": "Paris",
+          "dataFormat": "PDF",
+          "timeRange": "last_month",
+          "currency": "euros",
+          "aggregationMethod": "average"
+        }
+      },
+      {
+        "query": "I need the agricultural products price analysis for Tokyo over the past year in CSV format, using the median method for aggregation, and the prices should be in Japanese yen.",
+        "filled_param": {
+          "city": "Tokyo",
+          "dataFormat": "CSV",
+          "timeRange": "last_year",
+          "currency": "Japanese yen",
+          "aggregationMethod": "median"
+        }
+      },
+      {
+        "query": "Fetch the latest agricultural products price trends for New York City, formatted in JSON, for the last week, with prices in US dollars, and aggregated by mode.",
+        "filled_param": {
+          "city": "New York City",
+          "dataFormat": "JSON",
+          "timeRange": "last_week",
+          "currency": "US dollars",
+          "aggregationMethod": "mode"
+        }
+      },
+      {
+        "query": "What are the agricultural products price trends in Sydney, provided in Excel format for the last month, using the average for aggregation and showing prices in Australian dollars?",
+        "filled_param": {
+          "city": "Sydney",
+          "dataFormat": "Excel",
+          "timeRange": "last_month",
+          "currency": "Australian dollars",
+          "aggregationMethod": "average"
+        }
+      },
+      {
+        "query": "I am looking for agricultural products price data for Mumbai for the last year, in a PDF format, aggregated by median, with the values in Indian rupees.",
+        "filled_param": {
+          "city": "Mumbai",
+          "dataFormat": "PDF",
+          "timeRange": "last_year",
+          "currency": "Indian rupees",
+          "aggregationMethod": "median"
+        }
+      }
+    ]
+  },
+  "RealEstateDataFetcher_getCityPriceTrends|:|petroleum|:|city,dataFormat,timeRange,currency,aggregationMethod": {
+    "tool_template_name": "RealEstateDataFetcher_getCityPriceTrends",
+    "derived_class": "petroleum",
+    "params_for_query": [
+      "city",
+      "dataFormat",
+      "timeRange",
+      "currency",
+      "aggregationMethod"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the petroleum price trends for Houston over the last month in USD, using the average as the aggregation method and output in a tabular format?",
+        "filled_param": {
+          "city": "Houston",
+          "dataFormat": "tabular",
+          "timeRange": "last_month",
+          "currency": "USD",
+          "aggregationMethod": "average"
+        }
+      },
+      {
+        "query": "Fetch the petroleum price analysis for Tokyo for the past year in JPY, with the data in a graphical format and using median as the aggregation method.",
+        "filled_param": {
+          "city": "Tokyo",
+          "dataFormat": "graphical",
+          "timeRange": "last_year",
+          "currency": "JPY",
+          "aggregationMethod": "median"
+        }
+      },
+      {
+        "query": "I'd like a report on petroleum price trends in London for last week, represented in GBP, using the mode as the aggregation method and delivered in a textual format.",
+        "filled_param": {
+          "city": "London",
+          "dataFormat": "textual",
+          "timeRange": "last_week",
+          "currency": "GBP",
+          "aggregationMethod": "mode"
+        }
+      },
+      {
+        "query": "Provide me with the analysis of petroleum prices in Mumbai for the previous month, in INR currency, using average prices displayed in a chart.",
+        "filled_param": {
+          "city": "Mumbai",
+          "dataFormat": "chart",
+          "timeRange": "last_month",
+          "currency": "INR",
+          "aggregationMethod": "average"
+        }
+      },
+      {
+        "query": "What are the petroleum price trends for Sydney over the last week, in AUD, shown in a spreadsheet format and using the median value for aggregation?",
+        "filled_param": {
+          "city": "Sydney",
+          "dataFormat": "spreadsheet",
+          "timeRange": "last_week",
+          "currency": "AUD",
+          "aggregationMethod": "median"
+        }
+      },
+      {
+        "query": "Can you analyze the petroleum price trends in New York City over the last year, with data provided in USD and aggregated using mode, shown in a PDF format?",
+        "filled_param": {
+          "city": "New York City",
+          "dataFormat": "PDF",
+          "timeRange": "last_year",
+          "currency": "USD",
+          "aggregationMethod": "mode"
+        }
+      }
+    ]
+  },
+  "RealEstateDataFetcher_getCityPriceTrends|:|digital products|:|city,dataFormat,timeRange,currency,aggregationMethod": {
+    "tool_template_name": "RealEstateDataFetcher_getCityPriceTrends",
+    "derived_class": "digital products",
+    "params_for_query": [
+      "city",
+      "dataFormat",
+      "timeRange",
+      "currency",
+      "aggregationMethod"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide an average price trend analysis of digital products in New York for the last month in USD, formatted as a JSON file?",
+        "filled_param": {
+          "city": "New York",
+          "dataFormat": "JSON",
+          "timeRange": "last_month",
+          "currency": "USD",
+          "aggregationMethod": "average"
+        }
+      },
+      {
+        "query": "Fetch the digital products price trends in Tokyo for the past year using a CSV format, aggregated by median and displayed in JPY.",
+        "filled_param": {
+          "city": "Tokyo",
+          "dataFormat": "CSV",
+          "timeRange": "last_year",
+          "currency": "JPY",
+          "aggregationMethod": "median"
+        }
+      },
+      {
+        "query": "I need the digital products price data for the last week in Berlin, showing the mode of prices in Euro, in an XML format.",
+        "filled_param": {
+          "city": "Berlin",
+          "dataFormat": "XML",
+          "timeRange": "last_week",
+          "currency": "Euro",
+          "aggregationMethod": "mode"
+        }
+      },
+      {
+        "query": "Provide last week's digital products price trends in London as a PDF file with prices averaged and displayed in GBP.",
+        "filled_param": {
+          "city": "London",
+          "dataFormat": "PDF",
+          "timeRange": "last_week",
+          "currency": "GBP",
+          "aggregationMethod": "average"
+        }
+      },
+      {
+        "query": "Get a summary of digital products price trends in Sydney over the last month, averaged in AUD, and present it in an Excel sheet.",
+        "filled_param": {
+          "city": "Sydney",
+          "dataFormat": "Excel",
+          "timeRange": "last_month",
+          "currency": "AUD",
+          "aggregationMethod": "average"
+        }
+      }
+    ]
+  },
+  "RealEstateDataFetcher_getCityPriceTrends|:|education courses|:|city,dataFormat,timeRange,currency,aggregationMethod": {
+    "tool_template_name": "RealEstateDataFetcher_getCityPriceTrends",
+    "derived_class": "education courses",
+    "params_for_query": [
+      "city",
+      "dataFormat",
+      "timeRange",
+      "currency",
+      "aggregationMethod"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the education courses price trends for New York over the last month in USD using the average aggregation method and present it in a JSON format?",
+        "filled_param": {
+          "city": "New York",
+          "dataFormat": "JSON",
+          "timeRange": "last_month",
+          "currency": "USD",
+          "aggregationMethod": "average"
+        }
+      },
+      {
+        "query": "I would like to see the median price trends for education courses in London for the past year. Please present it in XML format and use GBP as the currency.",
+        "filled_param": {
+          "city": "London",
+          "dataFormat": "XML",
+          "timeRange": "last_year",
+          "currency": "GBP",
+          "aggregationMethod": "median"
+        }
+      },
+      {
+        "query": "Fetch the education courses price trends in Tokyo for last week using Euros, aggregate by mode, and deliver the data in CSV format.",
+        "filled_param": {
+          "city": "Tokyo",
+          "dataFormat": "CSV",
+          "timeRange": "last_week",
+          "currency": "EUR",
+          "aggregationMethod": "mode"
+        }
+      },
+      {
+        "query": "Please analyze the average price trends of education courses in Paris over the last month, using USD, and return the results in a PDF file.",
+        "filled_param": {
+          "city": "Paris",
+          "dataFormat": "PDF",
+          "timeRange": "last_month",
+          "currency": "USD",
+          "aggregationMethod": "average"
+        }
+      },
+      {
+        "query": "Could you show me the latest education courses price trends for Berlin for the past year in CSV format? Use the median aggregation method and represent the prices in EUR.",
+        "filled_param": {
+          "city": "Berlin",
+          "dataFormat": "CSV",
+          "timeRange": "last_year",
+          "currency": "EUR",
+          "aggregationMethod": "median"
+        }
+      },
+      {
+        "query": "Get the education courses price trends in Sydney for last week, use AUD for currency, aggregate by average, and display the data in a JSON format.",
+        "filled_param": {
+          "city": "Sydney",
+          "dataFormat": "JSON",
+          "timeRange": "last_week",
+          "currency": "AUD",
+          "aggregationMethod": "average"
+        }
+      }
+    ]
+  },
+  "RealEstateDataFetcher_getCityPriceTrends|:|dairy products|:|city,dataFormat,timeRange,currency,aggregationMethod": {
+    "tool_template_name": "RealEstateDataFetcher_getCityPriceTrends",
+    "derived_class": "dairy products",
+    "params_for_query": [
+      "city",
+      "dataFormat",
+      "timeRange",
+      "currency",
+      "aggregationMethod"
+    ],
+    "queries": [
+      {
+        "query": "What are the dairy products price trends in New York over the last month with data shown as a CSV in USD using the average method?",
+        "filled_param": {
+          "city": "New York",
+          "dataFormat": "CSV",
+          "timeRange": "last_month",
+          "currency": "USD",
+          "aggregationMethod": "average"
+        }
+      },
+      {
+        "query": "Please analyze the dairy products price trends for Chicago for the last week in JSON format, priced in EUR, and aggregated by median.",
+        "filled_param": {
+          "city": "Chicago",
+          "dataFormat": "JSON",
+          "timeRange": "last_week",
+          "currency": "EUR",
+          "aggregationMethod": "median"
+        }
+      },
+      {
+        "query": "Can you provide dairy products price data for Los Angeles for the past year in XML format, presented in GBP and using the mode for aggregation?",
+        "filled_param": {
+          "city": "Los Angeles",
+          "dataFormat": "XML",
+          "timeRange": "last_year",
+          "currency": "GBP",
+          "aggregationMethod": "mode"
+        }
+      },
+      {
+        "query": "Fetch the recent dairy products price trends in Paris, focusing on the previous month, displaying results in HTML in the CAD currency, and calculating averages.",
+        "filled_param": {
+          "city": "Paris",
+          "dataFormat": "HTML",
+          "timeRange": "last_month",
+          "currency": "CAD",
+          "aggregationMethod": "average"
+        }
+      },
+      {
+        "query": "I'd like to see the dairy products price changes in Sydney for the last year, with data output in PDF, prices in AUD, and using a median aggregation.",
+        "filled_param": {
+          "city": "Sydney",
+          "dataFormat": "PDF",
+          "timeRange": "last_year",
+          "currency": "AUD",
+          "aggregationMethod": "median"
+        }
+      }
+    ]
+  },
+  "RealEstateDataFetcher_getCityPriceTrends|:|clothing|:|city,dataFormat,timeRange,currency,aggregationMethod": {
+    "tool_template_name": "RealEstateDataFetcher_getCityPriceTrends",
+    "derived_class": "clothing",
+    "params_for_query": [
+      "city",
+      "dataFormat",
+      "timeRange",
+      "currency",
+      "aggregationMethod"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the clothing price trends for New York over the last month in USD using the average aggregation method, and present the data in a CSV format?",
+        "filled_param": {
+          "city": "New York",
+          "dataFormat": "CSV",
+          "timeRange": "last_month",
+          "currency": "USD",
+          "aggregationMethod": "average"
+        }
+      },
+      {
+        "query": "I need the latest clothing price trends for Tokyo for the past year, expressed in JPY, using the median as the aggregation method. Please present the data in a PDF format.",
+        "filled_param": {
+          "city": "Tokyo",
+          "dataFormat": "PDF",
+          "timeRange": "last_year",
+          "currency": "JPY",
+          "aggregationMethod": "median"
+        }
+      },
+      {
+        "query": "Fetch the clothing price trend data for Sydney, focusing on the last week, and show it in EUR currency using mode for aggregation. I prefer the data in JSON format.",
+        "filled_param": {
+          "city": "Sydney",
+          "dataFormat": "JSON",
+          "timeRange": "last_week",
+          "currency": "EUR",
+          "aggregationMethod": "mode"
+        }
+      },
+      {
+        "query": "Get me the clothing price trends for Mumbai for last month. The data should be in INR currency and averaged, with the output in Excel format.",
+        "filled_param": {
+          "city": "Mumbai",
+          "dataFormat": "Excel",
+          "timeRange": "last_month",
+          "currency": "INR",
+          "aggregationMethod": "average"
+        }
+      },
+      {
+        "query": "Please analyze the clothing price trends for Paris over the last year. Use the mode for aggregation and present the data in GBP currency, formatted in XML.",
+        "filled_param": {
+          "city": "Paris",
+          "dataFormat": "XML",
+          "timeRange": "last_year",
+          "currency": "GBP",
+          "aggregationMethod": "mode"
+        }
+      }
+    ]
+  }
+}

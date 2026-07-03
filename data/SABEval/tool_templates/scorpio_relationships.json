@@ -1,0 +1,56 @@
+{
+  "tool_template_name": "scorpio_relationships",
+  "meta_data": {
+    "base_class": "Explores unique relationship traits of individuals with <a specific zodiac sign>. - This is an application that analyzes the behavior of a specific zodiac sign across different relationship types (e.g., friendship, love, family, work).",
+    "derived_classes": [
+      "Aries",
+      "Taurus",
+      "Gemini",
+      "Cancer",
+      "Leo",
+      "Virgo",
+      "Libra",
+      "Scorpio",
+      "Sagittarius",
+      "Capricorn",
+      "Aquarius",
+      "Pisces"
+    ],
+    "base_class_entity": "Scorpio"
+  },
+  "tool_template": {
+    "name": "<class>_relationship_traits",
+    "description": "Explore unique relationship traits of individuals with the <class> zodiac sign.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "relationship_type": {
+          "type": "string",
+          "description": "Type of relationship to explore for a <class> (e.g., friendship, love, family, work)."
+        }
+      },
+      "required": [
+        "relationship_type"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "gender_focus": {
+      "type": "string",
+      "description": "Specifies the gender for the analysis of the <class>. Choose from 'male', 'female', or 'both'."
+    },
+    "analysis_focus": {
+      "type": "string",
+      "description": "The specific aspect of the relationship to focus the analysis on for the <class>. Options include 'strengths', 'challenges', 'compatibility_summary', or 'communication_tips'."
+    },
+    "analysis_depth": {
+      "type": "string",
+      "description": "The level of detail required for the analysis of the <class> traits. Options include 'summary', 'detailed_report', or 'bullet_points'."
+    },
+    "decan": {
+      "type": "integer",
+      "description": "Specifies the decan (1, 2, or 3) of the <class> zodiac sign for a more nuanced analysis. Options are 1, 2, or 3."
+    }
+  }
+}

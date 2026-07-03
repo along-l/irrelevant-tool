@@ -1,0 +1,59 @@
+{
+  "tool_template_name": "calendar_event_query",
+  "meta_data": {
+    "base_class": "search for events within a specific <calendar platform> - these platforms all support keyword and time-range based schedule queries.",
+    "derived_classes": [
+      "Google calendar",
+      "Apple calendar",
+      "Outlook calendar",
+      "Yahoo calendar",
+      "Samsung calendar",
+      "Proton calendar",
+      "Zoho calendar"
+    ],
+    "base_class_entity": "calendar"
+  },
+  "tool_template": {
+    "name": "search_<class>_events",
+    "description": "Searches a user's <class> for events that match a given query string.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "The query string used to search for <class> events."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "time_hint": {
+      "type": "string",
+      "description": "A hint to narrow the search within a specific time window, formatted as 'YYYY-MM-DD HH:MM'."
+    }
+  },
+  "additional_params": {
+    "timezone": {
+      "type": "string",
+      "description": "The timezone in which the events should be searched, formatted as an IANA time zone identifier, e.g., 'America/Los_Angeles'."
+    },
+    "include_recurring": {
+      "type": "boolean",
+      "description": "Boolean value indicating whether to include recurring events in the search results within the <class>."
+    },
+    "max_results": {
+      "type": "integer",
+      "description": "The maximum number of events search results to return."
+    },
+    "event_type_filter": {
+      "type": "array",
+      "description": "Types of events to filter during the search, such as 'meeting', 'reminder', 'appointment', etc.",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

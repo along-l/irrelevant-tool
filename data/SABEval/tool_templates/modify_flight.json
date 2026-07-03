@@ -1,0 +1,71 @@
+{
+  "tool_template_name": "modify_flight",
+  "meta_data": {
+    "base_class": "Modify a <public transportation> booking, including changing flight number, cabin class, and extra baggage, and handling payment balance updates if necessary - refers to types of public transport requiring scheduled booking and class differentiation.",
+    "derived_classes": [
+      "flight",
+      "high-speed train",
+      "cruise ship",
+      "long-distance bus"
+    ],
+    "base_class_entity": ""
+  },
+  "tool_template": {
+    "name": "modify_<class>",
+    "description": "Modify a <class> reservation.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "user_id": {
+          "type": "string",
+          "description": "The ID of the user making the <class> modification."
+        },
+        "reservation_id": {
+          "type": "string",
+          "description": "The reservation ID of the <class> booking to be modified."
+        },
+        "new_schedule_no": {
+          "type": "string",
+          "description": "The new schedule number to change to."
+        }
+      },
+      "required": [
+        "user_id",
+        "reservation_id",
+        "new_schedule_no"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "new_cabin": {
+      "type": "string",
+      "description": "The new cabin class of the <class> to change to. (e.g., economy class, business class)"
+    },
+    "extra_baggage": {
+      "type": "integer",
+      "description": "The number of additional checked baggage items to add."
+    },
+    "new_payment_method": {
+      "type": "string",
+      "description": "Payment method for any additional charges. One of: 'cash', 'bank'."
+    }
+  },
+  "additional_params": {
+    "cancellation_policy_agreement": {
+      "type": "boolean",
+      "description": "Indicates whether the user agrees to the cancellation and modification policy of the <class>."
+    },
+    "modification_reason": {
+      "type": "string",
+      "description": "The reason provided by the user for modifying the <class> reservation."
+    },
+    "notification_preference": {
+      "type": "string",
+      "description": "Preferred method of notification for updates related to the <class> modification, should be one of: 'email', 'SMS', 'app notification'."
+    },
+    "loyalty_program_id": {
+      "type": "string",
+      "description": "The user's loyalty program ID associated with the <class> reservation for potential benefits or discounts."
+    }
+  }
+}

@@ -1,0 +1,1075 @@
+{
+  "SocialMediaInvestigator_findMissingPerson|:|Facebook|:|socialMediaAccounts,startDate,endDate,locationAnalysis": {
+    "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+    "derived_class": "Facebook",
+    "params_for_query": [
+      "socialMediaAccounts",
+      "startDate",
+      "endDate",
+      "locationAnalysis"
+    ],
+    "queries": [
+      {
+        "query": "Can you analyze Facebook data for accounts 'john.doe.123' and 'jane.smith.456' from 2023-01-01 to 2023-02-01 and include location analysis?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "john.doe.123",
+            "jane.smith.456"
+          ],
+          "startDate": "2023-01-01",
+          "endDate": "2023-02-01",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "I need an analysis of Facebook profiles 'alice.wonder' and 'bob.builder' between 2023-03-15 and 2023-04-15 without any location tracking.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "alice.wonder",
+            "bob.builder"
+          ],
+          "startDate": "2023-03-15",
+          "endDate": "2023-04-15",
+          "locationAnalysis": false
+        }
+      },
+      {
+        "query": "Please perform a Facebook analysis on 'charlie.brown' from 2023-05-01 to 2023-06-01 and track locations.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "charlie.brown"
+          ],
+          "startDate": "2023-05-01",
+          "endDate": "2023-06-01",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "Can you check the activity on Facebook for 'david.king' and 'elena.queen' from 2023-07-01 to 2023-08-01, excluding location details?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "david.king",
+            "elena.queen"
+          ],
+          "startDate": "2023-07-01",
+          "endDate": "2023-08-01",
+          "locationAnalysis": false
+        }
+      },
+      {
+        "query": "Analyze Facebook data for 'frank.castle' starting from 2023-09-01 to 2023-10-01 with location analysis enabled.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "frank.castle"
+          ],
+          "startDate": "2023-09-01",
+          "endDate": "2023-10-01",
+          "locationAnalysis": true
+        }
+      }
+    ]
+  },
+  "SocialMediaInvestigator_findMissingPerson|:|Instagram|:|socialMediaAccounts,startDate,endDate,locationAnalysis": {
+    "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+    "derived_class": "Instagram",
+    "params_for_query": [
+      "socialMediaAccounts",
+      "startDate",
+      "endDate",
+      "locationAnalysis"
+    ],
+    "queries": [
+      {
+        "query": "Investigate Instagram accounts user123 and user456 for clues about missing persons from 2023-01-01 to 2023-02-01, including location analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user123",
+            "user456"
+          ],
+          "startDate": "2023-01-01",
+          "endDate": "2023-02-01",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "Can you analyze the Instagram accounts missing_person1 and missing_person2 for any activities related to missing persons between 2023-03-15 and 2023-04-15 without checking locations?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "missing_person1",
+            "missing_person2"
+          ],
+          "startDate": "2023-03-15",
+          "endDate": "2023-04-15",
+          "locationAnalysis": false
+        }
+      },
+      {
+        "query": "I'd like an investigation into the Instagram account identifiers john_doe and jane_doe from 2022-12-01 to 2023-01-10, with a focus on location analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "john_doe",
+            "jane_doe"
+          ],
+          "startDate": "2022-12-01",
+          "endDate": "2023-01-10",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "Analyze Instagram data for the accounts alice_wonder and bob_builder from 2023-07-01 through 2023-08-01, excluding any location information.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "alice_wonder",
+            "bob_builder"
+          ],
+          "startDate": "2023-07-01",
+          "endDate": "2023-08-01",
+          "locationAnalysis": false
+        }
+      },
+      {
+        "query": "Can you extract details from Instagram accounts traveler_01 and explorer_99 regarding missing persons from 2023-05-21 to 2023-06-21, with location tracking?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "traveler_01",
+            "explorer_99"
+          ],
+          "startDate": "2023-05-21",
+          "endDate": "2023-06-21",
+          "locationAnalysis": true
+        }
+      }
+    ]
+  },
+  "SocialMediaInvestigator_findMissingPerson|:|Twitter|:|socialMediaAccounts,startDate,endDate,locationAnalysis": {
+    "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+    "derived_class": "Twitter",
+    "params_for_query": [
+      "socialMediaAccounts",
+      "startDate",
+      "endDate",
+      "locationAnalysis"
+    ],
+    "queries": [
+      {
+        "query": "Please analyze Twitter data for accounts @JohnDoe and @JaneSmith from 2023-01-01 to 2023-01-31, and include location tracking.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "@JohnDoe",
+            "@JaneSmith"
+          ],
+          "startDate": "2023-01-01",
+          "endDate": "2023-01-31",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "Investigate activities related to missing persons on Twitter accounts @LostPerson1 and @MissingCase2 between 2023-05-15 and 2023-06-15 without focusing on location data.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "@LostPerson1",
+            "@MissingCase2"
+          ],
+          "startDate": "2023-05-15",
+          "endDate": "2023-06-15",
+          "locationAnalysis": false
+        }
+      },
+      {
+        "query": "Could you check Twitter posts from @FindMeHelp and @RescueTeam from 2023-07-01 to 2023-07-31 and do a location analysis?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "@FindMeHelp",
+            "@RescueTeam"
+          ],
+          "startDate": "2023-07-01",
+          "endDate": "2023-07-31",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "Analyze the Twitter accounts @CaseClosed and @MysterySolver from 2023-03-01 to 2023-03-31, and location analysis is not required.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "@CaseClosed",
+            "@MysterySolver"
+          ],
+          "startDate": "2023-03-01",
+          "endDate": "2023-03-31",
+          "locationAnalysis": false
+        }
+      },
+      {
+        "query": "Can you perform an analysis on Twitter for @HelpFindThem and @SearchOperation from 2023-09-01 to 2023-09-15 and include location tracking?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "@HelpFindThem",
+            "@SearchOperation"
+          ],
+          "startDate": "2023-09-01",
+          "endDate": "2023-09-15",
+          "locationAnalysis": true
+        }
+      }
+    ]
+  },
+  "SocialMediaInvestigator_findMissingPerson|:|TikTok|:|socialMediaAccounts,startDate,endDate,locationAnalysis": {
+    "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+    "derived_class": "TikTok",
+    "params_for_query": [
+      "socialMediaAccounts",
+      "startDate",
+      "endDate",
+      "locationAnalysis"
+    ],
+    "queries": [
+      {
+        "query": "Please analyze TikTok accounts @john_doe123 and @jane_smith789 for any clues related to missing persons from 2023-01-01 to 2023-01-31, including location tracking.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "@john_doe123",
+            "@jane_smith789"
+          ],
+          "startDate": "2023-01-01",
+          "endDate": "2023-01-31",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "Investigate the TikTok account @mystery_sleuth between 2023-06-01 and 2023-06-15 for missing persons clues without location analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "@mystery_sleuth"
+          ],
+          "startDate": "2023-06-01",
+          "endDate": "2023-06-15",
+          "locationAnalysis": false
+        }
+      },
+      {
+        "query": "Can you find any clues about missing persons from TikTok users @explorer_99 and @lost_and_found from 2023-02-15 to 2023-03-01 with location tracking?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "@explorer_99",
+            "@lost_and_found"
+          ],
+          "startDate": "2023-02-15",
+          "endDate": "2023-03-01",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "Analyze TikTok data from account @travel_bliss from 2023-07-10 to 2023-07-20 for missing persons activities, but skip location tracking.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "@travel_bliss"
+          ],
+          "startDate": "2023-07-10",
+          "endDate": "2023-07-20",
+          "locationAnalysis": false
+        }
+      },
+      {
+        "query": "Look into the TikTok accounts @adventure_guru and @mystic_wanderer for missing persons-related activities between 2023-04-01 and 2023-04-30, including location data.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "@adventure_guru",
+            "@mystic_wanderer"
+          ],
+          "startDate": "2023-04-01",
+          "endDate": "2023-04-30",
+          "locationAnalysis": true
+        }
+      }
+    ]
+  },
+  "SocialMediaInvestigator_findMissingPerson|:|Discord|:|socialMediaAccounts,startDate,endDate,locationAnalysis": {
+    "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+    "derived_class": "Discord",
+    "params_for_query": [
+      "socialMediaAccounts",
+      "startDate",
+      "endDate",
+      "locationAnalysis"
+    ],
+    "queries": [
+      {
+        "query": "Can you investigate Discord accounts user123 and user456 for any clues related to missing persons from 2023-01-01 to 2023-02-01, including location tracking?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user123",
+            "user456"
+          ],
+          "startDate": "2023-01-01",
+          "endDate": "2023-02-01",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "I need an analysis on Discord accounts mysteryUser and hiddenAlias from 2022-11-15 to 2022-12-15 without considering location data.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "mysteryUser",
+            "hiddenAlias"
+          ],
+          "startDate": "2022-11-15",
+          "endDate": "2022-12-15",
+          "locationAnalysis": false
+        }
+      },
+      {
+        "query": "Please extract any information regarding missing persons from the Discord account detectiveX from 2023-03-01 to 2023-03-31 and include location tracking.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "detectiveX"
+          ],
+          "startDate": "2023-03-01",
+          "endDate": "2023-03-31",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "Could you analyze Discord accounts seeker1 and observer2 for activities related to missing persons between 2023-05-10 and 2023-06-10 without location tracking?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "seeker1",
+            "observer2"
+          ],
+          "startDate": "2023-05-10",
+          "endDate": "2023-06-10",
+          "locationAnalysis": false
+        }
+      },
+      {
+        "query": "Analyze the Discord account shadowUser for any missing persons clues from 2023-07-01 to 2023-07-15, and ensure to track location.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "shadowUser"
+          ],
+          "startDate": "2023-07-01",
+          "endDate": "2023-07-15",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "Look into the Discord accounts agent99 and agent100 for activities between 2023-08-20 to 2023-09-20 related to missing persons, and skip location tracking.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "agent99",
+            "agent100"
+          ],
+          "startDate": "2023-08-20",
+          "endDate": "2023-09-20",
+          "locationAnalysis": false
+        }
+      }
+    ]
+  },
+  "SocialMediaInvestigator_findMissingPerson|:|Reddit|:|socialMediaAccounts,startDate,endDate,locationAnalysis": {
+    "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+    "derived_class": "Reddit",
+    "params_for_query": [
+      "socialMediaAccounts",
+      "startDate",
+      "endDate",
+      "locationAnalysis"
+    ],
+    "queries": [
+      {
+        "query": "Investigate the Reddit activities of users john_doe123 and jane_smith456 for clues about missing persons between 2022-01-01 and 2022-06-30 with location tracking enabled.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "john_doe123",
+            "jane_smith456"
+          ],
+          "startDate": "2022-01-01",
+          "endDate": "2022-06-30",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "Analyze the Reddit data of accounts mysterySolver77 and detectiveLana from 2023-03-15 to 2023-04-15 without location tracking.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "mysterySolver77",
+            "detectiveLana"
+          ],
+          "startDate": "2023-03-15",
+          "endDate": "2023-04-15",
+          "locationAnalysis": false
+        }
+      },
+      {
+        "query": "Can you look into the Reddit posts of user findTheTruth22 for the period from 2021-07-01 to 2021-12-31 and track their locations?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "findTheTruth22"
+          ],
+          "startDate": "2021-07-01",
+          "endDate": "2021-12-31",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "Please analyze the Reddit data for users caseClosed999 and missingLink2020 from 2020-05-01 to 2020-10-01, ensuring location tracking is not performed.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "caseClosed999",
+            "missingLink2020"
+          ],
+          "startDate": "2020-05-01",
+          "endDate": "2020-10-01",
+          "locationAnalysis": false
+        }
+      },
+      {
+        "query": "Review Reddit activity of the account named search4Truth from 2022-11-01 to 2023-02-01 with the location analysis feature turned on.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "search4Truth"
+          ],
+          "startDate": "2022-11-01",
+          "endDate": "2023-02-01",
+          "locationAnalysis": true
+        }
+      }
+    ]
+  },
+  "SocialMediaInvestigator_findMissingPerson|:|YouTube|:|socialMediaAccounts,startDate,endDate,locationAnalysis": {
+    "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+    "derived_class": "YouTube",
+    "params_for_query": [
+      "socialMediaAccounts",
+      "startDate",
+      "endDate",
+      "locationAnalysis"
+    ],
+    "queries": [
+      {
+        "query": "Can you analyze YouTube data from the channels 'JohnDoeYT' and 'JaneSmithVlogs' between 2023-01-01 and 2023-03-01 with location analysis enabled?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "JohnDoeYT",
+            "JaneSmithVlogs"
+          ],
+          "startDate": "2023-01-01",
+          "endDate": "2023-03-01",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "I need an investigation done on the YouTube accounts 'TravelGuru' and 'LocalExplorer' for the period starting from 2023-02-15 to 2023-02-28 without considering their location data.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "TravelGuru",
+            "LocalExplorer"
+          ],
+          "startDate": "2023-02-15",
+          "endDate": "2023-02-28",
+          "locationAnalysis": false
+        }
+      },
+      {
+        "query": "Analyze the YouTube activity of 'BeautyBlogger' and 'GadgetGeek' from 2023-04-01 to 2023-04-30, excluding location analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "BeautyBlogger",
+            "GadgetGeek"
+          ],
+          "startDate": "2023-04-01",
+          "endDate": "2023-04-30",
+          "locationAnalysis": false
+        }
+      },
+      {
+        "query": "Please perform an analysis on 'ChefMaster' and 'FitnessFreak' YouTube channels with location tracking enabled from 2023-05-01 to 2023-05-31.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "ChefMaster",
+            "FitnessFreak"
+          ],
+          "startDate": "2023-05-01",
+          "endDate": "2023-05-31",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "Investigate 'HistoryBuff' and 'ScienceNerd' YouTube data from 2023-06-01 to 2023-06-15, focusing also on their locations.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "HistoryBuff",
+            "ScienceNerd"
+          ],
+          "startDate": "2023-06-01",
+          "endDate": "2023-06-15",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "I want to know about the YouTube activities of 'MusicManiac' and 'ArtLover' from 2023-07-01 to 2023-07-20 but no location analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "MusicManiac",
+            "ArtLover"
+          ],
+          "startDate": "2023-07-01",
+          "endDate": "2023-07-20",
+          "locationAnalysis": false
+        }
+      }
+    ]
+  },
+  "SocialMediaInvestigator_findMissingPerson|:|Weibo|:|socialMediaAccounts,startDate,endDate,locationAnalysis": {
+    "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+    "derived_class": "Weibo",
+    "params_for_query": [
+      "socialMediaAccounts",
+      "startDate",
+      "endDate",
+      "locationAnalysis"
+    ],
+    "queries": [
+      {
+        "query": "Analyze activities related to missing persons on the following Weibo accounts: user123, user456 from 2023-01-01 to 2023-01-31 with location tracking enabled.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user123",
+            "user456"
+          ],
+          "startDate": "2023-01-01",
+          "endDate": "2023-01-31",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "I need an analysis of Weibo data for missing person activities from accounts user789 and user101, from March 1, 2023, to March 15, 2023, without location tracking.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user789",
+            "user101"
+          ],
+          "startDate": "2023-03-01",
+          "endDate": "2023-03-15",
+          "locationAnalysis": false
+        }
+      },
+      {
+        "query": "Please extract clues about missing persons from Weibo profiles user202 and user303 using data from 2023-05-10 to 2023-05-20 with the location feature turned on.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user202",
+            "user303"
+          ],
+          "startDate": "2023-05-10",
+          "endDate": "2023-05-20",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "Carry out an investigation on Weibo accounts user404 and user505 for missing person activities from April 1, 2023, to April 10, 2023, excluding location tracking.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user404",
+            "user505"
+          ],
+          "startDate": "2023-04-01",
+          "endDate": "2023-04-10",
+          "locationAnalysis": false
+        }
+      },
+      {
+        "query": "Can you look into Weibo data for missing persons from accounts user606 and user707 between 2023-06-01 and 2023-06-15 with location analysis enabled?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user606",
+            "user707"
+          ],
+          "startDate": "2023-06-01",
+          "endDate": "2023-06-15",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "Investigate reports of missing persons on Weibo from user808 and user909 from 2023-07-01 to 2023-07-15, but disable the location tracking.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user808",
+            "user909"
+          ],
+          "startDate": "2023-07-01",
+          "endDate": "2023-07-15",
+          "locationAnalysis": false
+        }
+      }
+    ]
+  },
+  "SocialMediaInvestigator_findMissingPerson|:|Douyin|:|socialMediaAccounts,startDate,endDate,locationAnalysis": {
+    "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+    "derived_class": "Douyin",
+    "params_for_query": [
+      "socialMediaAccounts",
+      "startDate",
+      "endDate",
+      "locationAnalysis"
+    ],
+    "queries": [
+      {
+        "query": "Analyze Douyin data for accounts user123 and influencer789 between 2023-01-01 and 2023-02-01, including location tracking.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user123",
+            "influencer789"
+          ],
+          "startDate": "2023-01-01",
+          "endDate": "2023-02-01",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "Can you investigate the Douyin profiles john_doe and jane_smith from 2022-05-01 to 2022-06-01 without checking their locations?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "john_doe",
+            "jane_smith"
+          ],
+          "startDate": "2022-05-01",
+          "endDate": "2022-06-01",
+          "locationAnalysis": false
+        }
+      },
+      {
+        "query": "Look into Douyin data for accounts travel_blogger and food_enthusiast from 2023-03-15 to 2023-04-15 with location tracking enabled.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "travel_blogger",
+            "food_enthusiast"
+          ],
+          "startDate": "2023-03-15",
+          "endDate": "2023-04-15",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "Check Douyin accounts student001 and artist456 from 2023-07-01 to 2023-07-31, excluding any location analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "student001",
+            "artist456"
+          ],
+          "startDate": "2023-07-01",
+          "endDate": "2023-07-31",
+          "locationAnalysis": false
+        }
+      },
+      {
+        "query": "Please analyze the Douyin profiles of influencer_x and content_creator_y between 2023-09-01 and 2023-09-30, and include location data.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "influencer_x",
+            "content_creator_y"
+          ],
+          "startDate": "2023-09-01",
+          "endDate": "2023-09-30",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "Investigate Douyin accounts fashionista and tech_guru from 2022-11-01 to 2022-12-01 without considering location tracking.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "fashionista",
+            "tech_guru"
+          ],
+          "startDate": "2022-11-01",
+          "endDate": "2022-12-01",
+          "locationAnalysis": false
+        }
+      }
+    ]
+  },
+  "SocialMediaInvestigator_findMissingPerson|:|Xiaohongshu|:|socialMediaAccounts,startDate,endDate,locationAnalysis": {
+    "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+    "derived_class": "Xiaohongshu",
+    "params_for_query": [
+      "socialMediaAccounts",
+      "startDate",
+      "endDate",
+      "locationAnalysis"
+    ],
+    "queries": [
+      {
+        "query": "Investigate Xiaohongshu accounts user123 and user456 for activities related to missing persons from 2023-01-01 to 2023-02-01, including location tracking.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user123",
+            "user456"
+          ],
+          "startDate": "2023-01-01",
+          "endDate": "2023-02-01",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "Analyze the Xiaohongshu data of accounts user789 and user101 for any clues regarding missing individuals between 2022-05-15 and 2022-06-15 without focusing on locations.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user789",
+            "user101"
+          ],
+          "startDate": "2022-05-15",
+          "endDate": "2022-06-15",
+          "locationAnalysis": false
+        }
+      },
+      {
+        "query": "Can you check Xiaohongshu profiles user333 and user444 for information about missing persons from 2023-03-01 to 2023-03-31, and include location insights?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user333",
+            "user444"
+          ],
+          "startDate": "2023-03-01",
+          "endDate": "2023-03-31",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "Please examine Xiaohongshu user accounts user555 and user666 for any activity related to missing cases from 2023-04-10 to 2023-05-10, excluding location analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user555",
+            "user666"
+          ],
+          "startDate": "2023-04-10",
+          "endDate": "2023-05-10",
+          "locationAnalysis": false
+        }
+      },
+      {
+        "query": "Look into Xiaohongshu accounts user777 and user888 for potential leads on missing persons from February 1, 2023, to March 1, 2023, and perform location tracking.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user777",
+            "user888"
+          ],
+          "startDate": "2023-02-01",
+          "endDate": "2023-03-01",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "Could you analyze Xiaohongshu data for accounts user999 and user000 for missing persons clues between 2023-06-01 and 2023-06-30 without location tracking?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user999",
+            "user000"
+          ],
+          "startDate": "2023-06-01",
+          "endDate": "2023-06-30",
+          "locationAnalysis": false
+        }
+      }
+    ]
+  },
+  "SocialMediaInvestigator_findMissingPerson|:|Zhihu|:|socialMediaAccounts,startDate,endDate,locationAnalysis": {
+    "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+    "derived_class": "Zhihu",
+    "params_for_query": [
+      "socialMediaAccounts",
+      "startDate",
+      "endDate",
+      "locationAnalysis"
+    ],
+    "queries": [
+      {
+        "query": "Investigate activities on Zhihu for the accounts [\"zhihu_user123\", \"missing_person456\"] from 2023-01-01 to 2023-02-01 with location tracking enabled.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "zhihu_user123",
+            "missing_person456"
+          ],
+          "startDate": "2023-01-01",
+          "endDate": "2023-02-01",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "Can you analyze Zhihu data for the users [\"user789\", \"person999\"] between 2023-03-15 and 2023-03-25 without tracking their locations?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user789",
+            "person999"
+          ],
+          "startDate": "2023-03-15",
+          "endDate": "2023-03-25",
+          "locationAnalysis": false
+        }
+      },
+      {
+        "query": "Please review the Zhihu posts of accounts [\"exampleUser1\", \"missingCase22\"] from 2023-05-01 to 2023-06-01 and include location tracking.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "exampleUser1",
+            "missingCase22"
+          ],
+          "startDate": "2023-05-01",
+          "endDate": "2023-06-01",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "I need an analysis on Zhihu for accounts [\"searchUserA\", \"lostPersonB\"] from 2023-07-10 to 2023-07-20 with no location analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "searchUserA",
+            "lostPersonB"
+          ],
+          "startDate": "2023-07-10",
+          "endDate": "2023-07-20",
+          "locationAnalysis": false
+        }
+      },
+      {
+        "query": "Could you look into Zhihu activities for [\"tracker01\", \"disappeared99\"] from 2023-08-01 to 2023-08-31 and ensure location tracking is performed?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "tracker01",
+            "disappeared99"
+          ],
+          "startDate": "2023-08-01",
+          "endDate": "2023-08-31",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "Analyze the Zhihu data for [\"personA10\", \"caseB20\"] covering the period from 2023-09-05 to 2023-09-15, excluding any location tracking.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "personA10",
+            "caseB20"
+          ],
+          "startDate": "2023-09-05",
+          "endDate": "2023-09-15",
+          "locationAnalysis": false
+        }
+      }
+    ]
+  },
+  "SocialMediaInvestigator_findMissingPerson|:|Quora|:|socialMediaAccounts,startDate,endDate,locationAnalysis": {
+    "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+    "derived_class": "Quora",
+    "params_for_query": [
+      "socialMediaAccounts",
+      "startDate",
+      "endDate",
+      "locationAnalysis"
+    ],
+    "queries": [
+      {
+        "query": "Investigate the Quora activities of the accounts user123 and user456 from 2023-01-01 to 2023-03-01 with location analysis enabled.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user123",
+            "user456"
+          ],
+          "startDate": "2023-01-01",
+          "endDate": "2023-03-01",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "Can you analyze the Quora data for these accounts: personA and personB, between 2022-05-15 and 2022-06-15, without location tracking?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "personA",
+            "personB"
+          ],
+          "startDate": "2022-05-15",
+          "endDate": "2022-06-15",
+          "locationAnalysis": false
+        }
+      },
+      {
+        "query": "Please perform an analysis on Quora for the accounts john_doe and jane_doe from 2023-07-01 to 2023-07-31, including location details.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "john_doe",
+            "jane_doe"
+          ],
+          "startDate": "2023-07-01",
+          "endDate": "2023-07-31",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "I need an analysis of Quora activities for the handles mysticTraveler and urbanExplorer from 2023-04-01 to 2023-04-30, with the location analysis turned off.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "mysticTraveler",
+            "urbanExplorer"
+          ],
+          "startDate": "2023-04-01",
+          "endDate": "2023-04-30",
+          "locationAnalysis": false
+        }
+      },
+      {
+        "query": "Analyze the Quora profiles of adventureSeeker and techGuru between 2022-11-01 and 2022-12-01, make sure to track locations.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "adventureSeeker",
+            "techGuru"
+          ],
+          "startDate": "2022-11-01",
+          "endDate": "2022-12-01",
+          "locationAnalysis": true
+        }
+      }
+    ]
+  },
+  "SocialMediaInvestigator_findMissingPerson|:|VK|:|socialMediaAccounts,startDate,endDate,locationAnalysis": {
+    "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+    "derived_class": "VK",
+    "params_for_query": [
+      "socialMediaAccounts",
+      "startDate",
+      "endDate",
+      "locationAnalysis"
+    ],
+    "queries": [
+      {
+        "query": "Investigate VK accounts vkuser123 and vkuser456 for activity related to missing persons from 2023-01-01 to 2023-02-01, including location analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "vkuser123",
+            "vkuser456"
+          ],
+          "startDate": "2023-01-01",
+          "endDate": "2023-02-01",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "Please analyze VK accounts vkuser789 and vkuser1011 for any clues from 2023-03-01 to 2023-03-15, with location tracking enabled.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "vkuser789",
+            "vkuser1011"
+          ],
+          "startDate": "2023-03-01",
+          "endDate": "2023-03-15",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "Can you check VK accounts vkuser202 and vkuser303 for information on missing persons from 2023-04-01 to 2023-04-30, but skip location analysis?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "vkuser202",
+            "vkuser303"
+          ],
+          "startDate": "2023-04-01",
+          "endDate": "2023-04-30",
+          "locationAnalysis": false
+        }
+      },
+      {
+        "query": "Analyze the VK data for accounts vkuser404 and vkuser505 between 2023-05-10 and 2023-05-20 without performing any location tracking.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "vkuser404",
+            "vkuser505"
+          ],
+          "startDate": "2023-05-10",
+          "endDate": "2023-05-20",
+          "locationAnalysis": false
+        }
+      },
+      {
+        "query": "Could you look into VK accounts vkuser606 and vkuser707 for activities from 2023-02-15 to 2023-03-01, ensuring to include location analysis?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "vkuser606",
+            "vkuser707"
+          ],
+          "startDate": "2023-02-15",
+          "endDate": "2023-03-01",
+          "locationAnalysis": true
+        }
+      }
+    ]
+  },
+  "SocialMediaInvestigator_findMissingPerson|:|Bilibili|:|socialMediaAccounts,startDate,endDate,locationAnalysis": {
+    "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+    "derived_class": "Bilibili",
+    "params_for_query": [
+      "socialMediaAccounts",
+      "startDate",
+      "endDate",
+      "locationAnalysis"
+    ],
+    "queries": [
+      {
+        "query": "Please investigate Bilibili accounts 12345 and 67890 for any activities related to missing persons between 2023-01-01 and 2023-06-30, and include location analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "12345",
+            "67890"
+          ],
+          "startDate": "2023-01-01",
+          "endDate": "2023-06-30",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "Analyze Bilibili accounts userA, userB, and userC for clues on missing persons from 2023-05-01 to 2023-09-01, without performing location tracking.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "userA",
+            "userB",
+            "userC"
+          ],
+          "startDate": "2023-05-01",
+          "endDate": "2023-09-01",
+          "locationAnalysis": false
+        }
+      },
+      {
+        "query": "I need a detailed analysis of Bilibili IDs 54321 and 98765 for any missing person activities from 2022-11-15 to 2023-02-15, ensure location data is included.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "54321",
+            "98765"
+          ],
+          "startDate": "2022-11-15",
+          "endDate": "2023-02-15",
+          "locationAnalysis": true
+        }
+      },
+      {
+        "query": "Could you check on Bilibili users alpha and beta for signs related to missing persons from 2023-03-01 until 2023-04-30, but skip location analysis?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "alpha",
+            "beta"
+          ],
+          "startDate": "2023-03-01",
+          "endDate": "2023-04-30",
+          "locationAnalysis": false
+        }
+      },
+      {
+        "query": "Investigate the accounts 11111 and 22222 on Bilibili for any missing person activities between 2023-07-01 and 2023-08-31, including location tracking.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "11111",
+            "22222"
+          ],
+          "startDate": "2023-07-01",
+          "endDate": "2023-08-31",
+          "locationAnalysis": true
+        }
+      }
+    ]
+  }
+}

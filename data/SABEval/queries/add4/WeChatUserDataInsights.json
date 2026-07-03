@@ -1,0 +1,1257 @@
+{
+  "WeChatUserDataInsights|:|WeChat|:|auth_token,analysis_period,data_type,interaction_threshold,timezone,language": {
+    "tool_template_name": "WeChatUserDataInsights",
+    "derived_class": "WeChat",
+    "params_for_query": [
+      "auth_token",
+      "analysis_period",
+      "data_type",
+      "interaction_threshold",
+      "timezone",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the last month's WeChat text interactions with at least 50 interactions, using auth token 'a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0', in the timezone Europe/Paris and in French.",
+        "filled_param": {
+          "auth_token": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0",
+          "analysis_period": "last_month",
+          "data_type": "text",
+          "interaction_threshold": 50,
+          "timezone": "Europe/Paris",
+          "language": "fr"
+        }
+      },
+      {
+        "query": "I need insights from last week's WeChat video data where interactions exceed 100, using token 'z9y8x7w6v5u4t3s2r1q0p9o8n7m6l5k4j3i2h1g0', timezone is America/New_York, and in English.",
+        "filled_param": {
+          "auth_token": "z9y8x7w6v5u4t3s2r1q0p9o8n7m6l5k4j3i2h1g0",
+          "analysis_period": "last_week",
+          "data_type": "video",
+          "interaction_threshold": 100,
+          "timezone": "America/New_York",
+          "language": "en"
+        }
+      },
+      {
+        "query": "Can you provide insights on WeChat image data from the last year with a minimum of 200 interactions? Use auth token 'l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1d2e3', timezone is Asia/Tokyo, and language is Japanese.",
+        "filled_param": {
+          "auth_token": "l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1d2e3",
+          "analysis_period": "last_year",
+          "data_type": "image",
+          "interaction_threshold": 200,
+          "timezone": "Asia/Tokyo",
+          "language": "ja"
+        }
+      },
+      {
+        "query": "Get insights from last week's WeChat text data with at least 30 interactions. The auth token is 'r9s8t7u6v5w4x3y2z1a0b1c2d3e4f5g6h7i8j9k0', timezone should be Europe/London, and the language is Spanish.",
+        "filled_param": {
+          "auth_token": "r9s8t7u6v5w4x3y2z1a0b1c2d3e4f5g6h7i8j9k0",
+          "analysis_period": "last_week",
+          "data_type": "text",
+          "interaction_threshold": 30,
+          "timezone": "Europe/London",
+          "language": "es"
+        }
+      },
+      {
+        "query": "Look into last month's WeChat video interactions with a threshold of 75 interactions. Use the auth token 'u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0', set timezone to America/Los_Angeles, and focus on Italian language.",
+        "filled_param": {
+          "auth_token": "u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0",
+          "analysis_period": "last_month",
+          "data_type": "video",
+          "interaction_threshold": 75,
+          "timezone": "America/Los_Angeles",
+          "language": "it"
+        }
+      },
+      {
+        "query": "Analyze the last year's WeChat image interactions with at least 150 interactions using token 'k9j8h7g6f5e4d3c2b1a0z9x8w7v6u5t4s3r2q1p0', timezone is Australia/Sydney, and it should be in German.",
+        "filled_param": {
+          "auth_token": "k9j8h7g6f5e4d3c2b1a0z9x8w7v6u5t4s3r2q1p0",
+          "analysis_period": "last_year",
+          "data_type": "image",
+          "interaction_threshold": 150,
+          "timezone": "Australia/Sydney",
+          "language": "de"
+        }
+      }
+    ]
+  },
+  "WeChatUserDataInsights|:|QQ|:|auth_token,analysis_period,data_type,interaction_threshold,timezone,language": {
+    "tool_template_name": "WeChatUserDataInsights",
+    "derived_class": "QQ",
+    "params_for_query": [
+      "auth_token",
+      "analysis_period",
+      "data_type",
+      "interaction_threshold",
+      "timezone",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "Can you analyze QQ interactions using auth token 'aB3dE4fG5hI6jK7lM8nO9pQrS0tU1vWxYz' for the last month focusing on text data with an interaction threshold of 50 in the America/New_York timezone for Spanish language?",
+        "filled_param": {
+          "auth_token": "aB3dE4fG5hI6jK7lM8nO9pQrS0tU1vWxYz",
+          "analysis_period": "last_month",
+          "data_type": "text",
+          "interaction_threshold": 50,
+          "timezone": "America/New_York",
+          "language": "es"
+        }
+      },
+      {
+        "query": "Provide insights from QQ using token 'zA1bC2dE3fG4hI5jK6lM7nO8pQ9rS0tU1vWxY' for the last year on image data, requiring 100 interactions, using Europe/London timezone, and English language.",
+        "filled_param": {
+          "auth_token": "zA1bC2dE3fG4hI5jK6lM7nO8pQ9rS0tU1vWxY",
+          "analysis_period": "last_year",
+          "data_type": "image",
+          "interaction_threshold": 100,
+          "timezone": "Europe/London",
+          "language": "en"
+        }
+      },
+      {
+        "query": "Extract insights from QQ with token 'mN1oP2qR3sT4uV5wX6yZ7aB8cD9eF0gH1iJkK' during the last week on video data with a minimum of 10 interactions in Asia/Tokyo timezone for interactions in Japanese.",
+        "filled_param": {
+          "auth_token": "mN1oP2qR3sT4uV5wX6yZ7aB8cD9eF0gH1iJkK",
+          "analysis_period": "last_week",
+          "data_type": "video",
+          "interaction_threshold": 10,
+          "timezone": "Asia/Tokyo",
+          "language": "ja"
+        }
+      },
+      {
+        "query": "Analyze user data on QQ using token 'pQ1rS2tU3vW4xY5zA6bC7dE8fG9hI0jK1lMnO' from last month for text interactions above 25 occurrences in the Australia/Sydney timezone for German language.",
+        "filled_param": {
+          "auth_token": "pQ1rS2tU3vW4xY5zA6bC7dE8fG9hI0jK1lMnO",
+          "analysis_period": "last_month",
+          "data_type": "text",
+          "interaction_threshold": 25,
+          "timezone": "Australia/Sydney",
+          "language": "de"
+        }
+      },
+      {
+        "query": "Can you get QQ insights with token 'xY1zA2bC3dE4fG5hI6jK7lM8nO9pQ0rS1tUvW' for the last year on video data with at least 0 interactions, in the America/Chicago timezone, and Portuguese language?",
+        "filled_param": {
+          "auth_token": "xY1zA2bC3dE4fG5hI6jK7lM8nO9pQ0rS1tUvW",
+          "analysis_period": "last_year",
+          "data_type": "video",
+          "interaction_threshold": 0,
+          "timezone": "America/Chicago",
+          "language": "pt"
+        }
+      },
+      {
+        "query": "Perform an analysis on QQ data using token 'lK1mN2oP3qR4sT5uV6wX7yZ8aB9cD0eF1gHiJ' from last week focusing on image content with a threshold of 5 interactions in Europe/Berlin timezone for French language.",
+        "filled_param": {
+          "auth_token": "lK1mN2oP3qR4sT5uV6wX7yZ8aB9cD0eF1gHiJ",
+          "analysis_period": "last_week",
+          "data_type": "image",
+          "interaction_threshold": 5,
+          "timezone": "Europe/Berlin",
+          "language": "fr"
+        }
+      }
+    ]
+  },
+  "WeChatUserDataInsights|:|Weibo|:|auth_token,analysis_period,data_type,interaction_threshold,timezone,language": {
+    "tool_template_name": "WeChatUserDataInsights",
+    "derived_class": "Weibo",
+    "params_for_query": [
+      "auth_token",
+      "analysis_period",
+      "data_type",
+      "interaction_threshold",
+      "timezone",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "Provide insights on Weibo interactions using auth token 'abcdef1234567890abcdef1234567890abcdef12' for text data from last week, focusing on English language and using UTC timezone with a significant interaction threshold of 100.",
+        "filled_param": {
+          "auth_token": "abcdef1234567890abcdef1234567890abcdef12",
+          "analysis_period": "last_week",
+          "data_type": "text",
+          "interaction_threshold": 100,
+          "timezone": "UTC",
+          "language": "en"
+        }
+      },
+      {
+        "query": "Analyze Weibo image data interactions with the token '12345abcde12345abcde12345abcde12345abcde' over the last month. Set the interaction threshold at 50, use the Asia/Shanghai timezone, and target the Spanish language.",
+        "filled_param": {
+          "auth_token": "12345abcde12345abcde12345abcde12345abcde",
+          "analysis_period": "last_month",
+          "data_type": "image",
+          "interaction_threshold": 50,
+          "timezone": "Asia/Shanghai",
+          "language": "es"
+        }
+      },
+      {
+        "query": "Could you extract insights from Weibo video data using token '67890fghij67890fghij67890fghij67890fghij' for the past year focusing on interactions in French within the Europe/Paris timezone with a threshold of 200?",
+        "filled_param": {
+          "auth_token": "67890fghij67890fghij67890fghij67890fghij",
+          "analysis_period": "last_year",
+          "data_type": "video",
+          "interaction_threshold": 200,
+          "timezone": "Europe/Paris",
+          "language": "fr"
+        }
+      },
+      {
+        "query": "Using auth token 'zxywvutspm987654321098765432109876543210', analyze last month's Weibo text interactions in Japanese, setting the threshold at 300 and working within the Asia/Tokyo timezone.",
+        "filled_param": {
+          "auth_token": "zxywvutspm987654321098765432109876543210",
+          "analysis_period": "last_month",
+          "data_type": "text",
+          "interaction_threshold": 300,
+          "timezone": "Asia/Tokyo",
+          "language": "ja"
+        }
+      },
+      {
+        "query": "Evaluate Weibo interactions for video content using token 'mnopqrstuv123456789012345678901234567890' over the last month in the America/New_York timezone with a minimum interaction count of 70 focusing on the German language.",
+        "filled_param": {
+          "auth_token": "mnopqrstuv123456789012345678901234567890",
+          "analysis_period": "last_month",
+          "data_type": "video",
+          "interaction_threshold": 70,
+          "timezone": "America/New_York",
+          "language": "de"
+        }
+      },
+      {
+        "query": "Can you check interactions on Weibo for image data using auth token 'hijklmnopq1234567890hijklmnopq1234567890' from the last week, concentrating on Russian language and using the Europe/Moscow timezone with a threshold of 150?",
+        "filled_param": {
+          "auth_token": "hijklmnopq1234567890hijklmnopq1234567890",
+          "analysis_period": "last_week",
+          "data_type": "image",
+          "interaction_threshold": 150,
+          "timezone": "Europe/Moscow",
+          "language": "ru"
+        }
+      },
+      {
+        "query": "Generate insights from Weibo text interactions over the last year using token 'rstuvwxyz0123456789012345678901234567890' in Portuguese, within the America/Sao_Paulo timezone with a significant interaction threshold of 400.",
+        "filled_param": {
+          "auth_token": "rstuvwxyz0123456789012345678901234567890",
+          "analysis_period": "last_year",
+          "data_type": "text",
+          "interaction_threshold": 400,
+          "timezone": "America/Sao_Paulo",
+          "language": "pt"
+        }
+      }
+    ]
+  },
+  "WeChatUserDataInsights|:|DingTalk|:|auth_token,analysis_period,data_type,interaction_threshold,timezone,language": {
+    "tool_template_name": "WeChatUserDataInsights",
+    "derived_class": "DingTalk",
+    "params_for_query": [
+      "auth_token",
+      "analysis_period",
+      "data_type",
+      "interaction_threshold",
+      "timezone",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "Can you analyze the text data from my DingTalk account for the last_week period using the token abcdef1234567890abcdef123456789012345678 and a minimum interaction threshold of 10 in the America/New_York timezone? Please focus on data in English.",
+        "filled_param": {
+          "auth_token": "abcdef1234567890abcdef123456789012345678",
+          "analysis_period": "last_week",
+          "data_type": "text",
+          "interaction_threshold": 10,
+          "timezone": "America/New_York",
+          "language": "en"
+        }
+      },
+      {
+        "query": "I need insights from video interactions in my DingTalk account for the last_month using token 12345abcdef67890abcdef1234567890abcdef678. Set the interaction threshold to 20, consider the Asia/Shanghai timezone, and analyze data in Chinese.",
+        "filled_param": {
+          "auth_token": "12345abcdef67890abcdef1234567890abcdef678",
+          "analysis_period": "last_month",
+          "data_type": "video",
+          "interaction_threshold": 20,
+          "timezone": "Asia/Shanghai",
+          "language": "zh"
+        }
+      },
+      {
+        "query": "Generate a report on image data from my DingTalk account for the last_year period. Use the auth token abcdef1234567890abcdef123456789012abcde, set the interaction threshold at 5, and use the Europe/London timezone. Focus on interactions in Spanish.",
+        "filled_param": {
+          "auth_token": "abcdef1234567890abcdef123456789012abcde",
+          "analysis_period": "last_year",
+          "data_type": "image",
+          "interaction_threshold": 5,
+          "timezone": "Europe/London",
+          "language": "es"
+        }
+      },
+      {
+        "query": "Could you provide insights on text user data on DingTalk from the last_month? My auth token is a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0, with a significant interaction threshold of 15. Set the timezone to Pacific/Auckland and focus on French language data.",
+        "filled_param": {
+          "auth_token": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0",
+          "analysis_period": "last_month",
+          "data_type": "text",
+          "interaction_threshold": 15,
+          "timezone": "Pacific/Auckland",
+          "language": "fr"
+        }
+      },
+      {
+        "query": "Analyze the image data for the last_week period in my DingTalk account using token 09876abcdef54321abcdef1234567890abcdef111. Set the interaction threshold to 8 and align timestamps with the America/Los_Angeles timezone. The language of focus should be Japanese.",
+        "filled_param": {
+          "auth_token": "09876abcdef54321abcdef1234567890abcdef111",
+          "analysis_period": "last_week",
+          "data_type": "image",
+          "interaction_threshold": 8,
+          "timezone": "America/Los_Angeles",
+          "language": "ja"
+        }
+      },
+      {
+        "query": "Can you extract insights from video data over the last_year from DingTalk with the token 56789abcde1234567890abcdef1234567890abcde and a minimum of 25 interactions? Use the timezone Europe/Paris and analyze the data in German.",
+        "filled_param": {
+          "auth_token": "56789abcde1234567890abcdef1234567890abcde",
+          "analysis_period": "last_year",
+          "data_type": "video",
+          "interaction_threshold": 25,
+          "timezone": "Europe/Paris",
+          "language": "de"
+        }
+      }
+    ]
+  },
+  "WeChatUserDataInsights|:|Discord|:|auth_token,analysis_period,data_type,interaction_threshold,timezone,language": {
+    "tool_template_name": "WeChatUserDataInsights",
+    "derived_class": "Discord",
+    "params_for_query": [
+      "auth_token",
+      "analysis_period",
+      "data_type",
+      "interaction_threshold",
+      "timezone",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "Analyze Discord text data with auth token abcdef123456ghijklmn7890opqrstuv12345678 for the last month, considering interactions above 50, in the timezone America/New_York, and focusing on English language.",
+        "filled_param": {
+          "auth_token": "abcdef123456ghijklmn7890opqrstuv12345678",
+          "analysis_period": "last_month",
+          "data_type": "text",
+          "interaction_threshold": 50,
+          "timezone": "America/New_York",
+          "language": "en"
+        }
+      },
+      {
+        "query": "I want an analysis of image data on Discord using token zyxwvut9876543210rqponm654321lkjihgfedcba for the last week, with a threshold of 10 interactions, set to Europe/London timezone, and focusing on Spanish.",
+        "filled_param": {
+          "auth_token": "zyxwvut9876543210rqponm654321lkjihgfedcba",
+          "analysis_period": "last_week",
+          "data_type": "image",
+          "interaction_threshold": 10,
+          "timezone": "Europe/London",
+          "language": "es"
+        }
+      },
+      {
+        "query": "Please provide insights from Discord video data using auth token 123456abcdef7890ghijklmnopqrstuv12345678 for the last year, considering at least 100 interactions, in the timezone Asia/Tokyo, with the data in Japanese.",
+        "filled_param": {
+          "auth_token": "123456abcdef7890ghijklmnopqrstuv12345678",
+          "analysis_period": "last_year",
+          "data_type": "video",
+          "interaction_threshold": 100,
+          "timezone": "Asia/Tokyo",
+          "language": "ja"
+        }
+      },
+      {
+        "query": "Can you generate insights from text data on Discord with auth token 098765fedcba4321lkjihgfedcba123456789012, focusing on last week, and only consider interactions above 25, using timezone Australia/Sydney, in French?",
+        "filled_param": {
+          "auth_token": "098765fedcba4321lkjihgfedcba123456789012",
+          "analysis_period": "last_week",
+          "data_type": "text",
+          "interaction_threshold": 25,
+          "timezone": "Australia/Sydney",
+          "language": "fr"
+        }
+      },
+      {
+        "query": "Review Discord image data with token 567890mnopqrstuv123456abcdfe0987654321, focusing on last month, analyzing interactions over 15, with timezone set to America/Los_Angeles, and language set to German.",
+        "filled_param": {
+          "auth_token": "567890mnopqrstuv123456abcdfe0987654321",
+          "analysis_period": "last_month",
+          "data_type": "image",
+          "interaction_threshold": 15,
+          "timezone": "America/Los_Angeles",
+          "language": "de"
+        }
+      },
+      {
+        "query": "Get insights from Discord for video data using auth token 234567mnopqrstu0987654lkjihgfedcba123456 for the last year, only considering interactions above 30, in timezone Africa/Johannesburg, and focusing on Italian.",
+        "filled_param": {
+          "auth_token": "234567mnopqrstu0987654lkjihgfedcba123456",
+          "analysis_period": "last_year",
+          "data_type": "video",
+          "interaction_threshold": 30,
+          "timezone": "Africa/Johannesburg",
+          "language": "it"
+        }
+      }
+    ]
+  },
+  "WeChatUserDataInsights|:|Slack|:|auth_token,analysis_period,data_type,interaction_threshold,timezone,language": {
+    "tool_template_name": "WeChatUserDataInsights",
+    "derived_class": "Slack",
+    "params_for_query": [
+      "auth_token",
+      "analysis_period",
+      "data_type",
+      "interaction_threshold",
+      "timezone",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "Analyze text interactions on my Slack account from last month using the auth token 'aBcDefGhiJklMnopQRsTuVWxYz0123456789' with a minimum of 50 interactions, in the timezone 'America/New_York' and language 'en'.",
+        "filled_param": {
+          "auth_token": "aBcDefGhiJklMnopQRsTuVWxYz0123456789",
+          "analysis_period": "last_month",
+          "data_type": "text",
+          "interaction_threshold": 50,
+          "timezone": "America/New_York",
+          "language": "en"
+        }
+      },
+      {
+        "query": "Provide insights on image data with at least 20 interactions from last year in my Slack account. Use auth token '123456789abcdefGHIJKLmnopQRStuvwXYz0' and set the timezone to 'Europe/London', focusing on Spanish language.",
+        "filled_param": {
+          "auth_token": "123456789abcdefGHIJKLmnopQRStuvwXYz0",
+          "analysis_period": "last_year",
+          "data_type": "image",
+          "interaction_threshold": 20,
+          "timezone": "Europe/London",
+          "language": "es"
+        }
+      },
+      {
+        "query": "Using the token '9876543210ZyxWvutsrqponmLKJihgfedcba', get insights on video interactions for the past week in Slack. Consider only those with a threshold of 75 interactions, timezone 'Asia/Tokyo', language set to 'ja'.",
+        "filled_param": {
+          "auth_token": "9876543210ZyxWvutsrqponmLKJihgfedcba",
+          "analysis_period": "last_week",
+          "data_type": "video",
+          "interaction_threshold": 75,
+          "timezone": "Asia/Tokyo",
+          "language": "ja"
+        }
+      },
+      {
+        "query": "I'm interested in text data insights from last week on my Slack account. Use the auth token 'QwerTYuiopASDfghJKLzxcvbnm1234567890', with a focus on interactions greater than 30, timezone 'Australia/Sydney', and language 'fr'.",
+        "filled_param": {
+          "auth_token": "QwerTYuiopASDfghJKLzxcvbnm1234567890",
+          "analysis_period": "last_week",
+          "data_type": "text",
+          "interaction_threshold": 30,
+          "timezone": "Australia/Sydney",
+          "language": "fr"
+        }
+      },
+      {
+        "query": "Can you analyze video interactions on my Slack using the token '1A2b3C4d5E6f7G8h9I0jKlmNopQrstUvWxYz', for last month with a minimum of 100 interactions? Set the timezone to 'America/Los_Angeles' and language to 'de'.",
+        "filled_param": {
+          "auth_token": "1A2b3C4d5E6f7G8h9I0jKlmNopQrstUvWxYz",
+          "analysis_period": "last_month",
+          "data_type": "video",
+          "interaction_threshold": 100,
+          "timezone": "America/Los_Angeles",
+          "language": "de"
+        }
+      },
+      {
+        "query": "Examine image data from last year on my Slack account with auth token 'ZYXwvuTSRqpONMlKJihGFedcba0987654321'. Only include those with a threshold of 10 interactions, timezone 'Africa/Johannesburg', and language 'pt'.",
+        "filled_param": {
+          "auth_token": "ZYXwvuTSRqpONMlKJihGFedcba0987654321",
+          "analysis_period": "last_year",
+          "data_type": "image",
+          "interaction_threshold": 10,
+          "timezone": "Africa/Johannesburg",
+          "language": "pt"
+        }
+      }
+    ]
+  },
+  "WeChatUserDataInsights|:|Reddit|:|auth_token,analysis_period,data_type,interaction_threshold,timezone,language": {
+    "tool_template_name": "WeChatUserDataInsights",
+    "derived_class": "Reddit",
+    "params_for_query": [
+      "auth_token",
+      "analysis_period",
+      "data_type",
+      "interaction_threshold",
+      "timezone",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "Analyze text interactions on my Reddit account using auth token 1234567890abcdef1234567890abcdef12345678 for the last month, focusing on posts with at least 50 interactions in the timezone America/New_York and in English language.",
+        "filled_param": {
+          "auth_token": "1234567890abcdef1234567890abcdef12345678",
+          "analysis_period": "last_month",
+          "data_type": "text",
+          "interaction_threshold": 50,
+          "timezone": "America/New_York",
+          "language": "en"
+        }
+      },
+      {
+        "query": "I'm interested in gaining insights from video data on my Reddit account for the last year. Use the auth token abcdefabcdefabcdefabcdefabcdefabcdefabcdef and ensure only interactions above 100 are considered, aligned with timezone Europe/London, in Spanish.",
+        "filled_param": {
+          "auth_token": "abcdefabcdefabcdefabcdefabcdefabcdefabcdef",
+          "analysis_period": "last_year",
+          "data_type": "video",
+          "interaction_threshold": 100,
+          "timezone": "Europe/London",
+          "language": "es"
+        }
+      },
+      {
+        "query": "Could you provide an analysis of image interactions on Reddit using token 0987654321fedcba0987654321fedcba09876543 for the past week? I'm interested in posts with a minimum of 30 interactions, using timezone Asia/Tokyo, and the data should be in French.",
+        "filled_param": {
+          "auth_token": "0987654321fedcba0987654321fedcba09876543",
+          "analysis_period": "last_week",
+          "data_type": "image",
+          "interaction_threshold": 30,
+          "timezone": "Asia/Tokyo",
+          "language": "fr"
+        }
+      },
+      {
+        "query": "Please generate insights from text posts on Reddit from the last week using this token: fedcba0987654321abcdef1234567890abcdef1234. Only consider those with more than 10 interactions in the timezone America/Los_Angeles, focusing on German language.",
+        "filled_param": {
+          "auth_token": "fedcba0987654321abcdef1234567890abcdef1234",
+          "analysis_period": "last_week",
+          "data_type": "text",
+          "interaction_threshold": 10,
+          "timezone": "America/Los_Angeles",
+          "language": "de"
+        }
+      },
+      {
+        "query": "Look into image data from Reddit posts over the past month. The auth token is abcdef1234567890fedcba0987654321fedcba09. Analyze content with at least 75 interactions, using the timezone Pacific/Auckland, and in Italian.",
+        "filled_param": {
+          "auth_token": "abcdef1234567890fedcba0987654321fedcba09",
+          "analysis_period": "last_month",
+          "data_type": "image",
+          "interaction_threshold": 75,
+          "timezone": "Pacific/Auckland",
+          "language": "it"
+        }
+      },
+      {
+        "query": "I want to extract insights from video interactions on Reddit using token 1234abcde5678fghij1234klmn5678opqr1234stuv for the past year. Consider a threshold of 200 interactions, adjusted to timezone Africa/Johannesburg in Portuguese.",
+        "filled_param": {
+          "auth_token": "1234abcde5678fghij1234klmn5678opqr1234stuv",
+          "analysis_period": "last_year",
+          "data_type": "video",
+          "interaction_threshold": 200,
+          "timezone": "Africa/Johannesburg",
+          "language": "pt"
+        }
+      }
+    ]
+  },
+  "WeChatUserDataInsights|:|TikTok|:|auth_token,analysis_period,data_type,interaction_threshold,timezone,language": {
+    "tool_template_name": "WeChatUserDataInsights",
+    "derived_class": "TikTok",
+    "params_for_query": [
+      "auth_token",
+      "analysis_period",
+      "data_type",
+      "interaction_threshold",
+      "timezone",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "Can you analyze TikTok interactions in the last month focusing on video content? Use the token 'a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0' with a threshold of 100 in timezone 'America/New_York' and for English language.",
+        "filled_param": {
+          "auth_token": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0",
+          "analysis_period": "last_month",
+          "data_type": "video",
+          "interaction_threshold": 100,
+          "timezone": "America/New_York",
+          "language": "en"
+        }
+      },
+      {
+        "query": "I need insights from my TikTok account for text content over the past year with interactions above 50. The token is 'b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0a1', set to timezone 'Europe/Paris' and analyze Spanish language data.",
+        "filled_param": {
+          "auth_token": "b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0a1",
+          "analysis_period": "last_year",
+          "data_type": "text",
+          "interaction_threshold": 50,
+          "timezone": "Europe/Paris",
+          "language": "es"
+        }
+      },
+      {
+        "query": "Please provide an analysis of image interactions on TikTok from last week, needing a minimum of 10 interactions. Use token 'c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0a1b2', timezone set to 'Australia/Sydney', and check for English interactions.",
+        "filled_param": {
+          "auth_token": "c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0a1b2",
+          "analysis_period": "last_week",
+          "data_type": "image",
+          "interaction_threshold": 10,
+          "timezone": "Australia/Sydney",
+          "language": "en"
+        }
+      },
+      {
+        "query": "Generate insights from video data in my TikTok account over the last month with at least 200 interactions. The auth token is 'd4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0a1b2c3', timezone 'Asia/Tokyo', and focus on Japanese language data.",
+        "filled_param": {
+          "auth_token": "d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0a1b2c3",
+          "analysis_period": "last_month",
+          "data_type": "video",
+          "interaction_threshold": 200,
+          "timezone": "Asia/Tokyo",
+          "language": "ja"
+        }
+      },
+      {
+        "query": "I want to see TikTok insights for image data from the past year, looking at interactions that exceed 30. My token is 'e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0a1b2c3d4', timezone is 'Africa/Johannesburg', and only include French language content.",
+        "filled_param": {
+          "auth_token": "e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0a1b2c3d4",
+          "analysis_period": "last_year",
+          "data_type": "image",
+          "interaction_threshold": 30,
+          "timezone": "Africa/Johannesburg",
+          "language": "fr"
+        }
+      },
+      {
+        "query": "Get insights from text data on TikTok for the last week with a threshold of 5 interactions. Use 'f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0a1b2c3d4e5' as the token, set timezone to 'America/Los_Angeles', and focus on German interactions.",
+        "filled_param": {
+          "auth_token": "f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0a1b2c3d4e5",
+          "analysis_period": "last_week",
+          "data_type": "text",
+          "interaction_threshold": 5,
+          "timezone": "America/Los_Angeles",
+          "language": "de"
+        }
+      },
+      {
+        "query": "Please analyze my TikTok video interactions from the last year with a minimum of 150 interactions. The token is 'g7h8i9j0k1l2m3n4o5p6q7r8s9t0a1b2c3d4e5f6', use timezone 'Europe/Berlin', and focus on Italian language data.",
+        "filled_param": {
+          "auth_token": "g7h8i9j0k1l2m3n4o5p6q7r8s9t0a1b2c3d4e5f6",
+          "analysis_period": "last_year",
+          "data_type": "video",
+          "interaction_threshold": 150,
+          "timezone": "Europe/Berlin",
+          "language": "it"
+        }
+      }
+    ]
+  },
+  "WeChatUserDataInsights|:|Facebook|:|auth_token,analysis_period,data_type,interaction_threshold,timezone,language": {
+    "tool_template_name": "WeChatUserDataInsights",
+    "derived_class": "Facebook",
+    "params_for_query": [
+      "auth_token",
+      "analysis_period",
+      "data_type",
+      "interaction_threshold",
+      "timezone",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "Please analyze the Facebook user data with auth token abcdef1234567890ABCDEFGHijklmnopQRSTUVWX, focusing on text interactions from the last month with at least 50 interactions, using the America/New_York timezone, in English.",
+        "filled_param": {
+          "auth_token": "abcdef1234567890ABCDEFGHijklmnopQRSTUVWX",
+          "analysis_period": "last_month",
+          "data_type": "text",
+          "interaction_threshold": 50,
+          "timezone": "America/New_York",
+          "language": "en"
+        }
+      },
+      {
+        "query": "I need insights from Facebook, using token QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiop123456, analyzing video data for the last year with a minimum of 100 interactions, in Pacific/Auckland timezone, and Spanish language.",
+        "filled_param": {
+          "auth_token": "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiop123456",
+          "analysis_period": "last_year",
+          "data_type": "video",
+          "interaction_threshold": 100,
+          "timezone": "Pacific/Auckland",
+          "language": "es"
+        }
+      },
+      {
+        "query": "Generate a report on image data from Facebook interactions over the last week using token 1234567890abcdefghijKLMNOPQRSTUVXYZabcdEFGH, requiring at least 20 interactions, in Europe/London timezone, in French.",
+        "filled_param": {
+          "auth_token": "1234567890abcdefghijKLMNOPQRSTUVXYZabcdEFGH",
+          "analysis_period": "last_week",
+          "data_type": "image",
+          "interaction_threshold": 20,
+          "timezone": "Europe/London",
+          "language": "fr"
+        }
+      },
+      {
+        "query": "Using Facebook token zyxwvutsrqponmlkjihgFEDCBA0987654321QWERTY, find insights on text data for the past month with a threshold of 75 interactions, in timezone America/Los_Angeles, focusing on German.",
+        "filled_param": {
+          "auth_token": "zyxwvutsrqponmlkjihgFEDCBA0987654321QWERTY",
+          "analysis_period": "last_month",
+          "data_type": "text",
+          "interaction_threshold": 75,
+          "timezone": "America/Los_Angeles",
+          "language": "de"
+        }
+      },
+      {
+        "query": "Can you provide insights on video interactions from last week using Facebook token 0987654321poiuytrewqLKJHGFDSAmnbvcxzQWERTYUI, requiring 10 interactions minimum, in timezone Asia/Tokyo, and in Japanese?",
+        "filled_param": {
+          "auth_token": "0987654321poiuytrewqLKJHGFDSAmnbvcxzQWERTYUI",
+          "analysis_period": "last_week",
+          "data_type": "video",
+          "interaction_threshold": 10,
+          "timezone": "Asia/Tokyo",
+          "language": "ja"
+        }
+      },
+      {
+        "query": "What are the insights from image data on Facebook over the last year? Use token ASDFGHJKLQWERTYUIOPZXCVBNMlkjhgfdsapoiuyt, with a threshold of 30 interactions, timezone Africa/Cairo, and Arabic language.",
+        "filled_param": {
+          "auth_token": "ASDFGHJKLQWERTYUIOPZXCVBNMlkjhgfdsapoiuyt",
+          "analysis_period": "last_year",
+          "data_type": "image",
+          "interaction_threshold": 30,
+          "timezone": "Africa/Cairo",
+          "language": "ar"
+        }
+      },
+      {
+        "query": "Analyze Facebook text interactions from the last week with auth token ZYXWVUTSRQPONMLKJIHGFEDCBA1234567890qwerty, needing at least 40 interactions, in Indian Standard Time, in Hindi.",
+        "filled_param": {
+          "auth_token": "ZYXWVUTSRQPONMLKJIHGFEDCBA1234567890qwerty",
+          "analysis_period": "last_week",
+          "data_type": "text",
+          "interaction_threshold": 40,
+          "timezone": "Asia/Kolkata",
+          "language": "hi"
+        }
+      }
+    ]
+  },
+  "WeChatUserDataInsights|:|Twitter|:|auth_token,analysis_period,data_type,interaction_threshold,timezone,language": {
+    "tool_template_name": "WeChatUserDataInsights",
+    "derived_class": "Twitter",
+    "params_for_query": [
+      "auth_token",
+      "analysis_period",
+      "data_type",
+      "interaction_threshold",
+      "timezone",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "Conduct a Twitter analysis for text interactions using auth token 'a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0' for the last year with a minimum interaction threshold of 50 in the timezone America/New_York and English language.",
+        "filled_param": {
+          "auth_token": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0",
+          "analysis_period": "last_year",
+          "data_type": "text",
+          "interaction_threshold": 50,
+          "timezone": "America/New_York",
+          "language": "en"
+        }
+      },
+      {
+        "query": "I'd like insights on image interactions on Twitter for the past month using token 'z9y8x7w6v5u4t3s2r1q0p9o8n7m6l5k4j3i2h1g0' with interactions over 100, focusing on timezone Europe/London and Spanish language.",
+        "filled_param": {
+          "auth_token": "z9y8x7w6v5u4t3s2r1q0p9o8n7m6l5k4j3i2h1g0",
+          "analysis_period": "last_month",
+          "data_type": "image",
+          "interaction_threshold": 100,
+          "timezone": "Europe/London",
+          "language": "es"
+        }
+      },
+      {
+        "query": "Use the auth token 'm1n2b3v4c5x6z7a8s9d0f1g2h3j4k5l6q7w8e9r0' to analyze video data on Twitter for the last week, requiring at least 20 interactions in the timezone Asia/Tokyo and Japanese language.",
+        "filled_param": {
+          "auth_token": "m1n2b3v4c5x6z7a8s9d0f1g2h3j4k5l6q7w8e9r0",
+          "analysis_period": "last_week",
+          "data_type": "video",
+          "interaction_threshold": 20,
+          "timezone": "Asia/Tokyo",
+          "language": "ja"
+        }
+      },
+      {
+        "query": "Can you provide insights on text data interactions from Twitter for the last month using the token 'q1w2e3r4t5y6u7i8o9p0a1s2d3f4g5h6j7k8l9' with a minimum of 10 interactions, timezone set to Australia/Sydney, and data in German?",
+        "filled_param": {
+          "auth_token": "q1w2e3r4t5y6u7i8o9p0a1s2d3f4g5h6j7k8l9",
+          "analysis_period": "last_month",
+          "data_type": "text",
+          "interaction_threshold": 10,
+          "timezone": "Australia/Sydney",
+          "language": "de"
+        }
+      },
+      {
+        "query": "Analyze video content interactions on Twitter over the last year using auth token 'u0i9o8p7y6t5r4e3w2q1a0s9d8f7g6h5j4k3l2' with an interaction threshold of 200 in the timezone America/Los_Angeles using French language.",
+        "filled_param": {
+          "auth_token": "u0i9o8p7y6t5r4e3w2q1a0s9d8f7g6h5j4k3l2",
+          "analysis_period": "last_year",
+          "data_type": "video",
+          "interaction_threshold": 200,
+          "timezone": "America/Los_Angeles",
+          "language": "fr"
+        }
+      },
+      {
+        "query": "Please get insights on image interactions on Twitter using token 'o1p2l3k4j5h6g7f8d9s0a1q2w3e4r5t6y7u8i9' for the last week with a significant interaction threshold of 5, in the timezone Europe/Berlin and in the Italian language.",
+        "filled_param": {
+          "auth_token": "o1p2l3k4j5h6g7f8d9s0a1q2w3e4r5t6y7u8i9",
+          "analysis_period": "last_week",
+          "data_type": "image",
+          "interaction_threshold": 5,
+          "timezone": "Europe/Berlin",
+          "language": "it"
+        }
+      }
+    ]
+  },
+  "WeChatUserDataInsights|:|Instagram|:|auth_token,analysis_period,data_type,interaction_threshold,timezone,language": {
+    "tool_template_name": "WeChatUserDataInsights",
+    "derived_class": "Instagram",
+    "params_for_query": [
+      "auth_token",
+      "analysis_period",
+      "data_type",
+      "interaction_threshold",
+      "timezone",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "Analyze text data interactions on Instagram for the last month with a minimum of 50 interactions in the timezone Europe/London using the auth token 12345abcde67890fghij12345klmn67890opqrst and focusing on English language.",
+        "filled_param": {
+          "auth_token": "12345abcde67890fghij12345klmn67890opqrst",
+          "analysis_period": "last_month",
+          "data_type": "text",
+          "interaction_threshold": 50,
+          "timezone": "Europe/London",
+          "language": "en"
+        }
+      },
+      {
+        "query": "Can you provide insights on video data from Instagram over the last week? Use auth token abcdef1234567890ghijklmnopqrstuvwx and set the interaction threshold to 100 in the America/New_York timezone, focusing on Spanish.",
+        "filled_param": {
+          "auth_token": "abcdef1234567890ghijklmnopqrstuvwx",
+          "analysis_period": "last_week",
+          "data_type": "video",
+          "interaction_threshold": 100,
+          "timezone": "America/New_York",
+          "language": "es"
+        }
+      },
+      {
+        "query": "I need to analyze image data interactions on Instagram for the past year with a minimum of 200 interactions in Asia/Tokyo timezone. The auth token is 09876zyxwvutsrnmlkjihgfedcba54321qwerty, and focus on Japanese content.",
+        "filled_param": {
+          "auth_token": "09876zyxwvutsrnmlkjihgfedcba54321qwerty",
+          "analysis_period": "last_year",
+          "data_type": "image",
+          "interaction_threshold": 200,
+          "timezone": "Asia/Tokyo",
+          "language": "ja"
+        }
+      },
+      {
+        "query": "Extract insights from the text interactions on Instagram for the last year using auth token a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8t9u0 and threshold of 20 interactions, in the timezone America/Los_Angeles, targeting French.",
+        "filled_param": {
+          "auth_token": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8t9u0",
+          "analysis_period": "last_year",
+          "data_type": "text",
+          "interaction_threshold": 20,
+          "timezone": "America/Los_Angeles",
+          "language": "fr"
+        }
+      },
+      {
+        "query": "Generate insights on Instagram image data over last week with at least 150 interactions. Use the token qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfgh and look into German interactions in Europe/Berlin timezone.",
+        "filled_param": {
+          "auth_token": "qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfgh",
+          "analysis_period": "last_week",
+          "data_type": "image",
+          "interaction_threshold": 150,
+          "timezone": "Europe/Berlin",
+          "language": "de"
+        }
+      },
+      {
+        "query": "I want insights on video interactions from Instagram for last month. The auth token is zyxwvutsrqponmlkjihgfedcba09876zyxwvut54321, with a threshold of 75 interactions, in timezone Asia/Dubai, and focus on Arabic.",
+        "filled_param": {
+          "auth_token": "zyxwvutsrqponmlkjihgfedcba09876zyxwvut54321",
+          "analysis_period": "last_month",
+          "data_type": "video",
+          "interaction_threshold": 75,
+          "timezone": "Asia/Dubai",
+          "language": "ar"
+        }
+      }
+    ]
+  },
+  "WeChatUserDataInsights|:|LinkedIn|:|auth_token,analysis_period,data_type,interaction_threshold,timezone,language": {
+    "tool_template_name": "WeChatUserDataInsights",
+    "derived_class": "LinkedIn",
+    "params_for_query": [
+      "auth_token",
+      "analysis_period",
+      "data_type",
+      "interaction_threshold",
+      "timezone",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "Please analyze the LinkedIn interactions using auth token abcdef1234567890abcdef1234567890abcdef12 for text data over the last month with at least 10 interactions in the Europe/London timezone and in English.",
+        "filled_param": {
+          "auth_token": "abcdef1234567890abcdef1234567890abcdef12",
+          "analysis_period": "last_month",
+          "data_type": "text",
+          "interaction_threshold": 10,
+          "timezone": "Europe/London",
+          "language": "en"
+        }
+      },
+      {
+        "query": "I'd like insights from my LinkedIn account with token 1234abcdef5678901234abcdef567890abcdefabcd focusing on image data for the last week, requiring a minimum of 5 interactions, in the America/New_York timezone, and in Spanish.",
+        "filled_param": {
+          "auth_token": "1234abcdef5678901234abcdef567890abcdefabcd",
+          "analysis_period": "last_week",
+          "data_type": "image",
+          "interaction_threshold": 5,
+          "timezone": "America/New_York",
+          "language": "es"
+        }
+      },
+      {
+        "query": "Can you provide insights from my LinkedIn interactions using token fedcba0987654321fedcba0987654321fedcba09 for video content over the last year, with a minimum of 20 interactions, using the Asia/Tokyo timezone, in Japanese?",
+        "filled_param": {
+          "auth_token": "fedcba0987654321fedcba0987654321fedcba09",
+          "analysis_period": "last_year",
+          "data_type": "video",
+          "interaction_threshold": 20,
+          "timezone": "Asia/Tokyo",
+          "language": "ja"
+        }
+      },
+      {
+        "query": "Generate insights from my LinkedIn text data interactions using token 09abcdef1234567890abcdef1234567890abcdef for the last week with at least 15 interactions, in the Pacific/Auckland timezone, and in French.",
+        "filled_param": {
+          "auth_token": "09abcdef1234567890abcdef1234567890abcdef",
+          "analysis_period": "last_week",
+          "data_type": "text",
+          "interaction_threshold": 15,
+          "timezone": "Pacific/Auckland",
+          "language": "fr"
+        }
+      },
+      {
+        "query": "I'd like you to derive insights from LinkedIn video data with token abcdefabcdefabcdefabcdefabcdefabcdefabcd over the last month, considering data points with minimum 0 interactions, in the America/Los_Angeles timezone, in English.",
+        "filled_param": {
+          "auth_token": "abcdefabcdefabcdefabcdefabcdefabcdefabcd",
+          "analysis_period": "last_month",
+          "data_type": "video",
+          "interaction_threshold": 0,
+          "timezone": "America/Los_Angeles",
+          "language": "en"
+        }
+      },
+      {
+        "query": "Obtain insights from my LinkedIn account using token fedcbafedcbafedcbafedcbafedcbafedcbafedc for image interactions in the last year, with at least 25 interactions, analyzed in the Europe/Paris timezone, in German.",
+        "filled_param": {
+          "auth_token": "fedcbafedcbafedcbafedcbafedcbafedcbafedc",
+          "analysis_period": "last_year",
+          "data_type": "image",
+          "interaction_threshold": 25,
+          "timezone": "Europe/Paris",
+          "language": "de"
+        }
+      }
+    ]
+  },
+  "WeChatUserDataInsights|:|Telegram|:|auth_token,analysis_period,data_type,interaction_threshold,timezone,language": {
+    "tool_template_name": "WeChatUserDataInsights",
+    "derived_class": "Telegram",
+    "params_for_query": [
+      "auth_token",
+      "analysis_period",
+      "data_type",
+      "interaction_threshold",
+      "timezone",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the text interactions on my Telegram service account for the last month using auth token 'a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s' with an interaction threshold of 10, and align timestamps to the 'America/New_York' timezone focusing on English language data.",
+        "filled_param": {
+          "auth_token": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s",
+          "analysis_period": "last_month",
+          "data_type": "text",
+          "interaction_threshold": 10,
+          "timezone": "America/New_York",
+          "language": "en"
+        }
+      },
+      {
+        "query": "Can you provide insights from video data on my Telegram account for the last week using token 'z9y8x7w6v5u4t3s2r1q0p9o8n7m6l5k4j3i2' with a minimum of 25 interactions per data point, adjusted to the 'Europe/London' timezone, in Spanish?",
+        "filled_param": {
+          "auth_token": "z9y8x7w6v5u4t3s2r1q0p9o8n7m6l5k4j3i2",
+          "analysis_period": "last_week",
+          "data_type": "video",
+          "interaction_threshold": 25,
+          "timezone": "Europe/London",
+          "language": "es"
+        }
+      },
+      {
+        "query": "Using the auth token 'p0o9i8u7y6t5r4e3w2q1a2s3d4f5g6h7j8k9', analyze image interactions in the last year on Telegram, requiring at least 5 interactions, using 'Asia/Tokyo' timezone in Japanese.",
+        "filled_param": {
+          "auth_token": "p0o9i8u7y6t5r4e3w2q1a2s3d4f5g6h7j8k9",
+          "analysis_period": "last_year",
+          "data_type": "image",
+          "interaction_threshold": 5,
+          "timezone": "Asia/Tokyo",
+          "language": "ja"
+        }
+      },
+      {
+        "query": "Get insights on text interaction data from my Telegram account over the past year, using auth token 'm9n8b7v6c5x4z3a2s1d0f9g8h7j6k5l4p3o', with a threshold of 15 interactions, adapted to 'Australia/Sydney' timezone, focusing on French.",
+        "filled_param": {
+          "auth_token": "m9n8b7v6c5x4z3a2s1d0f9g8h7j6k5l4p3o",
+          "analysis_period": "last_year",
+          "data_type": "text",
+          "interaction_threshold": 15,
+          "timezone": "Australia/Sydney",
+          "language": "fr"
+        }
+      },
+      {
+        "query": "Could you analyze the image data for my Telegram account from the previous month with the token 'k9j8h7g6f5d4s3a2w1e2r3t4y5u6i7o8p9l', needing at least 20 interactions, set to 'America/Los_Angeles' timezone, examining German language content?",
+        "filled_param": {
+          "auth_token": "k9j8h7g6f5d4s3a2w1e2r3t4y5u6i7o8p9l",
+          "analysis_period": "last_month",
+          "data_type": "image",
+          "interaction_threshold": 20,
+          "timezone": "America/Los_Angeles",
+          "language": "de"
+        }
+      },
+      {
+        "query": "Please extract insights from video interactions on my Telegram service account for the last week with the auth token 'l4k3j2h1g0f9d8s7a6p5q4w3e2r1t6y5u4', requiring a minimum of 30 interactions, in 'Africa/Johannesburg' timezone, focusing on Dutch content.",
+        "filled_param": {
+          "auth_token": "l4k3j2h1g0f9d8s7a6p5q4w3e2r1t6y5u4",
+          "analysis_period": "last_week",
+          "data_type": "video",
+          "interaction_threshold": 30,
+          "timezone": "Africa/Johannesburg",
+          "language": "nl"
+        }
+      }
+    ]
+  },
+  "WeChatUserDataInsights|:|WhatsApp|:|auth_token,analysis_period,data_type,interaction_threshold,timezone,language": {
+    "tool_template_name": "WeChatUserDataInsights",
+    "derived_class": "WhatsApp",
+    "params_for_query": [
+      "auth_token",
+      "analysis_period",
+      "data_type",
+      "interaction_threshold",
+      "timezone",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the text data in my WhatsApp account using the auth token 12345abcdeFGHIJ67890klmnoPQRSTUVwxYzab, focusing on the last month, with a minimum of 10 interactions per user, in the America/New_York timezone and English language.",
+        "filled_param": {
+          "auth_token": "12345abcdeFGHIJ67890klmnoPQRSTUVwxYzab",
+          "analysis_period": "last_month",
+          "data_type": "text",
+          "interaction_threshold": 10,
+          "timezone": "America/New_York",
+          "language": "en"
+        }
+      },
+      {
+        "query": "Can you provide insights on video interactions from last year in my WhatsApp account with the token a1b2C3d4E5f6G7h8I9j0KlmnoPqRstUvwxyZ, considering at least 5 interactions, set to Europe/London time and in Spanish?",
+        "filled_param": {
+          "auth_token": "a1b2C3d4E5f6G7h8I9j0KlmnoPqRstUvwxyZ",
+          "analysis_period": "last_year",
+          "data_type": "video",
+          "interaction_threshold": 5,
+          "timezone": "Europe/London",
+          "language": "es"
+        }
+      },
+      {
+        "query": "I'd like a report on image data from the last week on my WhatsApp account, using the token QWERTYuiopASDFGHjklZXCVBNm1234567890, with interaction counts of at least 20, in the Asia/Tokyo timezone and Japanese language.",
+        "filled_param": {
+          "auth_token": "QWERTYuiopASDFGHjklZXCVBNm1234567890",
+          "analysis_period": "last_week",
+          "data_type": "image",
+          "interaction_threshold": 20,
+          "timezone": "Asia/Tokyo",
+          "language": "ja"
+        }
+      },
+      {
+        "query": "Please evaluate the text data for the past year on my WhatsApp using token LMNOPQRStuvwxyZ1234567890abcdeFGHIJKL, considering a minimum of 15 interactions in the Pacific/Auckland timezone, using the French language.",
+        "filled_param": {
+          "auth_token": "LMNOPQRStuvwxyZ1234567890abcdeFGHIJKL",
+          "analysis_period": "last_year",
+          "data_type": "text",
+          "interaction_threshold": 15,
+          "timezone": "Pacific/Auckland",
+          "language": "fr"
+        }
+      },
+      {
+        "query": "Get insights on my WhatsApp's image interactions for the last month using token abcdefgHIJKLmnopqrSTUVWxyz0123456789AB, filtering by at least 30 interactions in the timezone America/Los_Angeles with data in German.",
+        "filled_param": {
+          "auth_token": "abcdefgHIJKLmnopqrSTUVWxyz0123456789AB",
+          "analysis_period": "last_month",
+          "data_type": "image",
+          "interaction_threshold": 30,
+          "timezone": "America/Los_Angeles",
+          "language": "de"
+        }
+      },
+      {
+        "query": "Examine the video data from last week on my WhatsApp profile, with auth token 98765ZXYWVUTSRQPONMLKJIHGFEDCBA43210, requiring at least 25 interactions, in the timezone Africa/Johannesburg and Italian language.",
+        "filled_param": {
+          "auth_token": "98765ZXYWVUTSRQPONMLKJIHGFEDCBA43210",
+          "analysis_period": "last_week",
+          "data_type": "video",
+          "interaction_threshold": 25,
+          "timezone": "Africa/Johannesburg",
+          "language": "it"
+        }
+      },
+      {
+        "query": "I'd like an analysis of my WhatsApp text interactions over the past year with token XYZ9876543210abcdefghijklmnopqrstUVWX, using a 10-interaction threshold, in the timezone Australia/Sydney and the Russian language.",
+        "filled_param": {
+          "auth_token": "XYZ9876543210abcdefghijklmnopqrstUVWX",
+          "analysis_period": "last_year",
+          "data_type": "text",
+          "interaction_threshold": 10,
+          "timezone": "Australia/Sydney",
+          "language": "ru"
+        }
+      }
+    ]
+  },
+  "WeChatUserDataInsights|:|Line|:|auth_token,analysis_period,data_type,interaction_threshold,timezone,language": {
+    "tool_template_name": "WeChatUserDataInsights",
+    "derived_class": "Line",
+    "params_for_query": [
+      "auth_token",
+      "analysis_period",
+      "data_type",
+      "interaction_threshold",
+      "timezone",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "Please analyze the last month's video interactions on my Line account with auth token ABCDE12345FGHIJ67890KLMNOPQRST12345UVWX and set a threshold of 50 interactions. Use the timezone Asia/Tokyo and focus on Japanese language data.",
+        "filled_param": {
+          "auth_token": "ABCDE12345FGHIJ67890KLMNOPQRST12345UVWX",
+          "analysis_period": "last_month",
+          "data_type": "video",
+          "interaction_threshold": 50,
+          "timezone": "Asia/Tokyo",
+          "language": "ja"
+        }
+      },
+      {
+        "query": "I'd like insights into last week's text data from my Line account. The auth token is 12345ABCDEFGHIJKLM67890NOPQRSTUVWXYZ12345 and set the interaction threshold to 10, using Europe/Berlin timezone for English language.",
+        "filled_param": {
+          "auth_token": "12345ABCDEFGHIJKLM67890NOPQRSTUVWXYZ12345",
+          "analysis_period": "last_week",
+          "data_type": "text",
+          "interaction_threshold": 10,
+          "timezone": "Europe/Berlin",
+          "language": "en"
+        }
+      },
+      {
+        "query": "Analyze image interactions on Line from the last year. Use the auth token ZYXWVUTSRQPONMLKJIHGFEDCBA987654321098765 and focus on data with at least 100 interactions in timezone America/New_York. Language should be Spanish.",
+        "filled_param": {
+          "auth_token": "ZYXWVUTSRQPONMLKJIHGFEDCBA987654321098765",
+          "analysis_period": "last_year",
+          "data_type": "image",
+          "interaction_threshold": 100,
+          "timezone": "America/New_York",
+          "language": "es"
+        }
+      },
+      {
+        "query": "Can you gather insights from last month's text data on my Line account with a minimum of 25 interactions? The auth token is 56789ABCDEFGHIJKLMN012345OPQRSTUVWXYZ67890 and use the timezone Pacific/Auckland, focusing on German language.",
+        "filled_param": {
+          "auth_token": "56789ABCDEFGHIJKLMN012345OPQRSTUVWXYZ67890",
+          "analysis_period": "last_month",
+          "data_type": "text",
+          "interaction_threshold": 25,
+          "timezone": "Pacific/Auckland",
+          "language": "de"
+        }
+      },
+      {
+        "query": "What can you tell me about last year's video data on Line? Use auth token 09876ABCDEFGHIJKLMN54321OPQRSTUVWXYZ65432 and set the interaction threshold at 5. The timezone is Europe/London and the language should be Italian.",
+        "filled_param": {
+          "auth_token": "09876ABCDEFGHIJKLMN54321OPQRSTUVWXYZ65432",
+          "analysis_period": "last_year",
+          "data_type": "video",
+          "interaction_threshold": 5,
+          "timezone": "Europe/London",
+          "language": "it"
+        }
+      },
+      {
+        "query": "Evaluate last week's image data interactions on Line with the auth token 54321ZYXWVUTSRQPONMLKJIHGFEDCBA9876501234. Set a minimum of 30 interactions, using Asia/Seoul timezone, and analyze for Korean language.",
+        "filled_param": {
+          "auth_token": "54321ZYXWVUTSRQPONMLKJIHGFEDCBA9876501234",
+          "analysis_period": "last_week",
+          "data_type": "image",
+          "interaction_threshold": 30,
+          "timezone": "Asia/Seoul",
+          "language": "ko"
+        }
+      },
+      {
+        "query": "I'd like to understand last month's interactions with image data on my Line account. Here is the auth token 24680ABCDEFGHIJKLMN97531OPQRSTUVWXYZ86420, with a threshold of 20 interactions in timezone America/Los_Angeles, focusing on French.",
+        "filled_param": {
+          "auth_token": "24680ABCDEFGHIJKLMN97531OPQRSTUVWXYZ86420",
+          "analysis_period": "last_month",
+          "data_type": "image",
+          "interaction_threshold": 20,
+          "timezone": "America/Los_Angeles",
+          "language": "fr"
+        }
+      }
+    ]
+  }
+}

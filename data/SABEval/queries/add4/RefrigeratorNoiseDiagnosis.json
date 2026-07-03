@@ -1,0 +1,589 @@
+{
+  "RefrigeratorNoiseDiagnosis|:|refrigerator|:|noise_level,include_diy_solutions,ambient_temperature,operating_duration,maintenance_history": {
+    "tool_template_name": "RefrigeratorNoiseDiagnosis",
+    "derived_class": "refrigerator",
+    "params_for_query": [
+      "noise_level",
+      "include_diy_solutions",
+      "ambient_temperature",
+      "operating_duration",
+      "maintenance_history"
+    ],
+    "queries": [
+      {
+        "query": "My refrigerator is making a loud rattling noise, and it's been running for 120 minutes in an environment that's about 22 degrees Celsius. It hasn't been serviced in over a year. Could you diagnose the issue and provide DIY solutions for noise reduction?",
+        "filled_param": {
+          "noise_level": "loud rattling",
+          "include_diy_solutions": true,
+          "ambient_temperature": 22,
+          "operating_duration": 120,
+          "maintenance_history": "hasn't been serviced in over a year"
+        }
+      },
+      {
+        "query": "The refrigerator is creating a constant humming noise. It's been operating for about 60 minutes at an ambient temperature of 18 degrees Celsius. It was last serviced six months ago. Can you help identify the cause of this noise without suggesting DIY solutions?",
+        "filled_param": {
+          "noise_level": "constant humming",
+          "include_diy_solutions": false,
+          "ambient_temperature": 18,
+          "operating_duration": 60,
+          "maintenance_history": "last serviced six months ago"
+        }
+      },
+      {
+        "query": "I hear a buzzing noise from my refrigerator, and it's been running for 90 minutes. The ambient temperature is currently 25 degrees Celsius. The last maintenance was conducted three months ago. Could you diagnose this and include DIY fixes?",
+        "filled_param": {
+          "noise_level": "buzzing",
+          "include_diy_solutions": true,
+          "ambient_temperature": 25,
+          "operating_duration": 90,
+          "maintenance_history": "last maintenance was conducted three months ago"
+        }
+      },
+      {
+        "query": "There's a clunking sound coming from the refrigerator which has been operational for 150 minutes at an ambient temperature of 20 degrees Celsius. It was serviced two years ago. Can you diagnose the noise issue and include potential DIY solutions?",
+        "filled_param": {
+          "noise_level": "clunking sound",
+          "include_diy_solutions": true,
+          "ambient_temperature": 20,
+          "operating_duration": 150,
+          "maintenance_history": "serviced two years ago"
+        }
+      },
+      {
+        "query": "The fridge is emitting a whirring noise after running continuously for 200 minutes. The surrounding temperature is 21 degrees Celsius. It underwent maintenance a year ago. Could you help diagnose this issue and exclude DIY solutions?",
+        "filled_param": {
+          "noise_level": "whirring",
+          "include_diy_solutions": false,
+          "ambient_temperature": 21,
+          "operating_duration": 200,
+          "maintenance_history": "underwent maintenance a year ago"
+        }
+      }
+    ]
+  },
+  "RefrigeratorNoiseDiagnosis|:|washing machine|:|noise_level,include_diy_solutions,ambient_temperature,operating_duration,maintenance_history": {
+    "tool_template_name": "RefrigeratorNoiseDiagnosis",
+    "derived_class": "washing machine",
+    "params_for_query": [
+      "noise_level",
+      "include_diy_solutions",
+      "ambient_temperature",
+      "operating_duration",
+      "maintenance_history"
+    ],
+    "queries": [
+      {
+        "query": "My washing machine has been making a loud rattling noise, and it has been running for about 45 minutes in a room that's 22 degrees Celsius. It hasn't been serviced for over a year. Can you diagnose the issue and include some DIY solutions?",
+        "filled_param": {
+          "noise_level": "loud rattling",
+          "include_diy_solutions": true,
+          "ambient_temperature": 22,
+          "operating_duration": 45,
+          "maintenance_history": "hasn't been serviced for over a year"
+        }
+      },
+      {
+        "query": "The washing machine is emitting a low humming noise, operating for 30 minutes in a 18-degree Celsius environment. It was last maintained six months ago. Please identify the cause but exclude DIY repair methods.",
+        "filled_param": {
+          "noise_level": "low humming",
+          "include_diy_solutions": false,
+          "ambient_temperature": 18,
+          "operating_duration": 30,
+          "maintenance_history": "last maintained six months ago"
+        }
+      },
+      {
+        "query": "Why is my washing machine producing a constant banging sound? It has been running for 60 minutes in a 25-degree Celsius room. The last maintenance was two years ago. I'd like some DIY repair suggestions.",
+        "filled_param": {
+          "noise_level": "constant banging",
+          "include_diy_solutions": true,
+          "ambient_temperature": 25,
+          "operating_duration": 60,
+          "maintenance_history": "last maintenance was two years ago"
+        }
+      },
+      {
+        "query": "After running for 20 minutes in a 20-degree Celsius environment, my washing machine started making a squeaking noise. It was serviced just last month. Can you tell me what's wrong without suggesting DIY fixes?",
+        "filled_param": {
+          "noise_level": "squeaking",
+          "include_diy_solutions": false,
+          "ambient_temperature": 20,
+          "operating_duration": 20,
+          "maintenance_history": "serviced just last month"
+        }
+      },
+      {
+        "query": "The washing machine is making a vibrating noise and has been operating for 50 minutes. The room temperature is 19 degrees Celsius, and it was last serviced a year and a half ago. What could be the problem, and do you have any DIY solutions?",
+        "filled_param": {
+          "noise_level": "vibrating",
+          "include_diy_solutions": true,
+          "ambient_temperature": 19,
+          "operating_duration": 50,
+          "maintenance_history": "last serviced a year and a half ago"
+        }
+      }
+    ]
+  },
+  "RefrigeratorNoiseDiagnosis|:|air conditioner|:|noise_level,include_diy_solutions,ambient_temperature,operating_duration,maintenance_history": {
+    "tool_template_name": "RefrigeratorNoiseDiagnosis",
+    "derived_class": "air conditioner",
+    "params_for_query": [
+      "noise_level",
+      "include_diy_solutions",
+      "ambient_temperature",
+      "operating_duration",
+      "maintenance_history"
+    ],
+    "queries": [
+      {
+        "query": "What could be causing a rattling noise in my air conditioner that has been running for 45 minutes in 22°C? It hasn't had any maintenance in the last two years. Also, I prefer DIY solutions.",
+        "filled_param": {
+          "noise_level": "rattling",
+          "include_diy_solutions": true,
+          "ambient_temperature": 22,
+          "operating_duration": 45,
+          "maintenance_history": "No maintenance in the last two years"
+        }
+      },
+      {
+        "query": "My air conditioner makes a humming noise after operating for 60 minutes at 18°C, despite having a filter change three months ago. Can you diagnose it without DIY solutions?",
+        "filled_param": {
+          "noise_level": "humming",
+          "include_diy_solutions": false,
+          "ambient_temperature": 18,
+          "operating_duration": 60,
+          "maintenance_history": "Filter change three months ago"
+        }
+      },
+      {
+        "query": "I've noticed increased noise, kind of like a grinding sound, from the air conditioner after it runs for 30 minutes in a 25°C room. The unit was serviced last month. I'd like to know DIY solutions to fix this.",
+        "filled_param": {
+          "noise_level": "grinding",
+          "include_diy_solutions": true,
+          "ambient_temperature": 25,
+          "operating_duration": 30,
+          "maintenance_history": "Serviced last month"
+        }
+      },
+      {
+        "query": "The air conditioner starts making a whistling noise after 15 minutes of operation when it's 30°C outside. There hasn't been any maintenance in over a year. Please provide solutions but exclude DIY options.",
+        "filled_param": {
+          "noise_level": "whistling",
+          "include_diy_solutions": false,
+          "ambient_temperature": 30,
+          "operating_duration": 15,
+          "maintenance_history": "No maintenance in over a year"
+        }
+      },
+      {
+        "query": "Why does the air conditioner produce a clunking sound when it has been running for 90 minutes at 20°C? Last serviced six months ago. DIY solutions would be helpful.",
+        "filled_param": {
+          "noise_level": "clunking",
+          "include_diy_solutions": true,
+          "ambient_temperature": 20,
+          "operating_duration": 90,
+          "maintenance_history": "Last serviced six months ago"
+        }
+      },
+      {
+        "query": "There's a buzzing noise coming from the air conditioner after 50 minutes of continuous operation at an ambient temperature of 28°C. The last maintenance check was a year ago. I would like suggestions without any DIY solutions.",
+        "filled_param": {
+          "noise_level": "buzzing",
+          "include_diy_solutions": false,
+          "ambient_temperature": 28,
+          "operating_duration": 50,
+          "maintenance_history": "Last maintenance check a year ago"
+        }
+      }
+    ]
+  },
+  "RefrigeratorNoiseDiagnosis|:|dishwasher|:|noise_level,include_diy_solutions,ambient_temperature,operating_duration,maintenance_history": {
+    "tool_template_name": "RefrigeratorNoiseDiagnosis",
+    "derived_class": "dishwasher",
+    "params_for_query": [
+      "noise_level",
+      "include_diy_solutions",
+      "ambient_temperature",
+      "operating_duration",
+      "maintenance_history"
+    ],
+    "queries": [
+      {
+        "query": "My dishwasher has started making a loud rattling noise. Can you diagnose this issue? I would appreciate DIY solutions if possible. It's currently operating at 22 degrees Celsius and has been running for about 45 minutes. The maintenance history shows it was serviced six months ago for general cleaning.",
+        "filled_param": {
+          "noise_level": "loud rattling",
+          "include_diy_solutions": true,
+          "ambient_temperature": 22,
+          "operating_duration": 45,
+          "maintenance_history": "Serviced six months ago for general cleaning"
+        }
+      },
+      {
+        "query": "I noticed a persistent humming noise from my dishwasher. Please help me understand the cause and include any DIY fixes you have. The ambient temperature is 20 degrees Celsius, and it has been running non-stop for 90 minutes. It hasn't been maintained since its purchase two years ago.",
+        "filled_param": {
+          "noise_level": "persistent humming",
+          "include_diy_solutions": true,
+          "ambient_temperature": 20,
+          "operating_duration": 90,
+          "maintenance_history": "No maintenance since purchase two years ago"
+        }
+      },
+      {
+        "query": "There's a strange grinding sound coming from my dishwasher. I don't need DIY solutions, just a diagnosis. The current temperature is 25 degrees Celsius, and it has been operating for 30 minutes. Its last maintenance was a year ago when the motor was replaced.",
+        "filled_param": {
+          "noise_level": "strange grinding",
+          "include_diy_solutions": false,
+          "ambient_temperature": 25,
+          "operating_duration": 30,
+          "maintenance_history": "Last maintenance a year ago, motor replaced"
+        }
+      },
+      {
+        "query": "Could you help diagnose a high-pitched squealing noise from my dishwasher? I'd like to know any possible causes, but I don't need DIY solutions. It's functioning at an ambient temperature of 18 degrees Celsius and has been running for 60 minutes. It was last serviced three months ago for a filter change.",
+        "filled_param": {
+          "noise_level": "high-pitched squealing",
+          "include_diy_solutions": false,
+          "ambient_temperature": 18,
+          "operating_duration": 60,
+          "maintenance_history": "Serviced three months ago for a filter change"
+        }
+      },
+      {
+        "query": "I'm hearing an unusual clanking sound from my dishwasher. Please diagnose this and include any DIY suggestions. The ambient temperature is currently 21 degrees Celsius, and it's been running for 75 minutes. Maintenance was done eight months ago, including a hose replacement.",
+        "filled_param": {
+          "noise_level": "unusual clanking",
+          "include_diy_solutions": true,
+          "ambient_temperature": 21,
+          "operating_duration": 75,
+          "maintenance_history": "Maintenance eight months ago, hose replacement"
+        }
+      }
+    ]
+  },
+  "RefrigeratorNoiseDiagnosis|:|range hood|:|noise_level,include_diy_solutions,ambient_temperature,operating_duration,maintenance_history": {
+    "tool_template_name": "RefrigeratorNoiseDiagnosis",
+    "derived_class": "range hood",
+    "params_for_query": [
+      "noise_level",
+      "include_diy_solutions",
+      "ambient_temperature",
+      "operating_duration",
+      "maintenance_history"
+    ],
+    "queries": [
+      {
+        "query": "My range hood is making a loud rattling noise. Can you help diagnose it, including some DIY solutions? The ambient temperature is 25 degrees Celsius, it has been running for 45 minutes, and it was last serviced six months ago.",
+        "filled_param": {
+          "noise_level": "loud rattling",
+          "include_diy_solutions": true,
+          "ambient_temperature": 25,
+          "operating_duration": 45,
+          "maintenance_history": "last serviced six months ago"
+        }
+      },
+      {
+        "query": "Could you identify the reason for the constant humming noise from my range hood without any DIY fixes? It's 30 degrees Celsius in the kitchen, the hood's been on for 30 minutes, and it hasn't been maintained in over a year.",
+        "filled_param": {
+          "noise_level": "constant humming",
+          "include_diy_solutions": false,
+          "ambient_temperature": 30,
+          "operating_duration": 30,
+          "maintenance_history": "hasn't been maintained in over a year"
+        }
+      },
+      {
+        "query": "My range hood has started making a high-pitched whistling noise. I'm interested in potential DIY solutions. The current ambient temperature is 20 degrees Celsius, it has been operational for 90 minutes, and was cleaned just last month.",
+        "filled_param": {
+          "noise_level": "high-pitched whistling",
+          "include_diy_solutions": true,
+          "ambient_temperature": 20,
+          "operating_duration": 90,
+          "maintenance_history": "cleaned just last month"
+        }
+      },
+      {
+        "query": "There is a weird grinding sound coming from my range hood. Can you give me some insights, excluding DIY options? The temperature is about 22 degrees Celsius, it's been used for 60 minutes, and regular maintenance was done last year.",
+        "filled_param": {
+          "noise_level": "weird grinding",
+          "include_diy_solutions": false,
+          "ambient_temperature": 22,
+          "operating_duration": 60,
+          "maintenance_history": "regular maintenance was done last year"
+        }
+      },
+      {
+        "query": "Why is my range hood making a buzzing noise? I would like to have some DIY suggestions as well. The ambient temperature is 18 degrees Celsius, it has been used continuously for 120 minutes, and it was last checked two years ago.",
+        "filled_param": {
+          "noise_level": "buzzing",
+          "include_diy_solutions": true,
+          "ambient_temperature": 18,
+          "operating_duration": 120,
+          "maintenance_history": "last checked two years ago"
+        }
+      },
+      {
+        "query": "There's a clanking noise from my range hood, and I'm curious to know the cause without any DIY remedies. It's 28 degrees Celsius, it has been running for 15 minutes, and I had it tuned up three months ago.",
+        "filled_param": {
+          "noise_level": "clanking",
+          "include_diy_solutions": false,
+          "ambient_temperature": 28,
+          "operating_duration": 15,
+          "maintenance_history": "had it tuned up three months ago"
+        }
+      }
+    ]
+  },
+  "RefrigeratorNoiseDiagnosis|:|microwave oven|:|noise_level,include_diy_solutions,ambient_temperature,operating_duration,maintenance_history": {
+    "tool_template_name": "RefrigeratorNoiseDiagnosis",
+    "derived_class": "microwave oven",
+    "params_for_query": [
+      "noise_level",
+      "include_diy_solutions",
+      "ambient_temperature",
+      "operating_duration",
+      "maintenance_history"
+    ],
+    "queries": [
+      {
+        "query": "My microwave oven is making a rattling noise. Can you diagnose the issue? Include DIY solutions. The ambient temperature is 22 degrees Celsius, and it has been running for 10 minutes. It was last serviced 6 months ago.",
+        "filled_param": {
+          "noise_level": "rattling",
+          "include_diy_solutions": true,
+          "ambient_temperature": 22,
+          "operating_duration": 10,
+          "maintenance_history": "Last serviced 6 months ago."
+        }
+      },
+      {
+        "query": "The microwave oven in my kitchen has started humming loudly. I don't need DIY solutions. The room is usually around 25 degrees Celsius, and it runs for about 15 minutes straight. It hasn't been maintained in over a year.",
+        "filled_param": {
+          "noise_level": "humming",
+          "include_diy_solutions": false,
+          "ambient_temperature": 25,
+          "operating_duration": 15,
+          "maintenance_history": "No maintenance for over a year."
+        }
+      },
+      {
+        "query": "Help me figure out why my microwave oven is buzzing. Please provide DIY fixes as well. The temperature here is 20 degrees Celsius, and it's been used continuously for 7 minutes. It had a maintenance check last month.",
+        "filled_param": {
+          "noise_level": "buzzing",
+          "include_diy_solutions": true,
+          "ambient_temperature": 20,
+          "operating_duration": 7,
+          "maintenance_history": "Checked last month."
+        }
+      },
+      {
+        "query": "I have a microwave oven that is making a clunking noise. What could be the cause? Skip the DIY suggestions. The ambient temperature is 27 degrees Celsius, and it has been on for 5 minutes. It's a new unit with no maintenance history.",
+        "filled_param": {
+          "noise_level": "clunking",
+          "include_diy_solutions": false,
+          "ambient_temperature": 27,
+          "operating_duration": 5,
+          "maintenance_history": "New unit with no maintenance history."
+        }
+      },
+      {
+        "query": "My microwave oven is emitting a screeching sound. Can you help identify the issue and suggest DIY fixes? The environment temperature is 18 degrees Celsius, and it runs for 12 minutes at a time. It was last maintained two months ago.",
+        "filled_param": {
+          "noise_level": "screeching",
+          "include_diy_solutions": true,
+          "ambient_temperature": 18,
+          "operating_duration": 12,
+          "maintenance_history": "Last maintained two months ago."
+        }
+      }
+    ]
+  },
+  "RefrigeratorNoiseDiagnosis|:|vacuum cleaner|:|noise_level,include_diy_solutions,ambient_temperature,operating_duration,maintenance_history": {
+    "tool_template_name": "RefrigeratorNoiseDiagnosis",
+    "derived_class": "vacuum cleaner",
+    "params_for_query": [
+      "noise_level",
+      "include_diy_solutions",
+      "ambient_temperature",
+      "operating_duration",
+      "maintenance_history"
+    ],
+    "queries": [
+      {
+        "query": "My vacuum cleaner is making a loud rattling noise, and it has been running in a room at 22 degrees Celsius for 45 minutes. I haven't done any maintenance recently. Can you include some DIY solutions to fix this?",
+        "filled_param": {
+          "noise_level": "loud rattling",
+          "include_diy_solutions": true,
+          "ambient_temperature": 22,
+          "operating_duration": 45,
+          "maintenance_history": "No recent maintenance."
+        }
+      },
+      {
+        "query": "The vacuum cleaner has a persistent humming sound, and it's been used continuously for 30 minutes in an environment with a temperature of 25 degrees. Last maintenance was a month ago. DIY solutions are welcome.",
+        "filled_param": {
+          "noise_level": "persistent humming",
+          "include_diy_solutions": true,
+          "ambient_temperature": 25,
+          "operating_duration": 30,
+          "maintenance_history": "Last maintenance was a month ago."
+        }
+      },
+      {
+        "query": "After 60 minutes of vacuuming at 18 degrees Celsius, my vacuum cleaner started producing a strange buzzing noise. It was serviced about two weeks ago. Should I try fixing it myself?",
+        "filled_param": {
+          "noise_level": "strange buzzing",
+          "include_diy_solutions": true,
+          "ambient_temperature": 18,
+          "operating_duration": 60,
+          "maintenance_history": "Serviced about two weeks ago."
+        }
+      },
+      {
+        "query": "There's an unusual whirring sound coming from my vacuum cleaner. It has been operating for 20 minutes in a room at 20 degrees Celsius, and it was last checked six months ago. I prefer professional solutions.",
+        "filled_param": {
+          "noise_level": "unusual whirring",
+          "include_diy_solutions": false,
+          "ambient_temperature": 20,
+          "operating_duration": 20,
+          "maintenance_history": "Last checked six months ago."
+        }
+      },
+      {
+        "query": "The vacuum cleaner is making a grinding noise after 50 minutes of use at 24 degrees Celsius. There's been no maintenance for over a year. I need detailed DIY repair options.",
+        "filled_param": {
+          "noise_level": "grinding noise",
+          "include_diy_solutions": true,
+          "ambient_temperature": 24,
+          "operating_duration": 50,
+          "maintenance_history": "No maintenance for over a year."
+        }
+      }
+    ]
+  },
+  "RefrigeratorNoiseDiagnosis|:|water heater|:|noise_level,include_diy_solutions,ambient_temperature,operating_duration,maintenance_history": {
+    "tool_template_name": "RefrigeratorNoiseDiagnosis",
+    "derived_class": "water heater",
+    "params_for_query": [
+      "noise_level",
+      "include_diy_solutions",
+      "ambient_temperature",
+      "operating_duration",
+      "maintenance_history"
+    ],
+    "queries": [
+      {
+        "query": "My water heater has been making a persistent humming noise, and it's been running for about 45 minutes in a room that's currently 22 degrees Celsius. The last maintenance was done about a year ago. Could you diagnose the problem and let me know if there are any DIY solutions?",
+        "filled_param": {
+          "noise_level": "humming",
+          "include_diy_solutions": true,
+          "ambient_temperature": 22,
+          "operating_duration": 45,
+          "maintenance_history": "Last maintenance was done about a year ago."
+        }
+      },
+      {
+        "query": "I've noticed a rattling noise from my water heater when it runs for 60 minutes at an ambient temperature of 18 degrees Celsius. It was serviced six months ago. Can you identify the issue and include DIY fixes?",
+        "filled_param": {
+          "noise_level": "rattling",
+          "include_diy_solutions": true,
+          "ambient_temperature": 18,
+          "operating_duration": 60,
+          "maintenance_history": "Serviced six months ago."
+        }
+      },
+      {
+        "query": "The water heater in my basement, where the temperature is around 15 degrees Celsius, has started buzzing loudly after just 30 minutes of use. It hasn't been serviced in over two years. What's causing this, and what solutions are available?",
+        "filled_param": {
+          "noise_level": "buzzing loudly",
+          "include_diy_solutions": false,
+          "ambient_temperature": 15,
+          "operating_duration": 30,
+          "maintenance_history": "Hasn't been serviced in over two years."
+        }
+      },
+      {
+        "query": "My water heater, which operates in a 25 degrees Celsius environment, produces a screeching sound after running for about 90 minutes. The last maintenance was three months ago. Could you diagnose and advise on potential DIY remedies?",
+        "filled_param": {
+          "noise_level": "screeching",
+          "include_diy_solutions": true,
+          "ambient_temperature": 25,
+          "operating_duration": 90,
+          "maintenance_history": "Last maintenance was three months ago."
+        }
+      },
+      {
+        "query": "There is a clicking noise coming from my water heater after it operates continuously for 40 minutes at 20 degrees Celsius. It was maintained a year and a half ago. Can you determine the problem and suggest solutions, without DIY approaches?",
+        "filled_param": {
+          "noise_level": "clicking",
+          "include_diy_solutions": false,
+          "ambient_temperature": 20,
+          "operating_duration": 40,
+          "maintenance_history": "Maintained a year and a half ago."
+        }
+      }
+    ]
+  },
+  "RefrigeratorNoiseDiagnosis|:|air purifier|:|noise_level,include_diy_solutions,ambient_temperature,operating_duration,maintenance_history": {
+    "tool_template_name": "RefrigeratorNoiseDiagnosis",
+    "derived_class": "air purifier",
+    "params_for_query": [
+      "noise_level",
+      "include_diy_solutions",
+      "ambient_temperature",
+      "operating_duration",
+      "maintenance_history"
+    ],
+    "queries": [
+      {
+        "query": "My air purifier has started making a rattling noise. Can you tell me the cause and include DIY solutions? The room temperature is 22 degrees Celsius, and it has been running for 120 minutes. It was last serviced 6 months ago.",
+        "filled_param": {
+          "noise_level": "rattling",
+          "include_diy_solutions": true,
+          "ambient_temperature": 22,
+          "operating_duration": 120,
+          "maintenance_history": "last serviced 6 months ago"
+        }
+      },
+      {
+        "query": "There's a constant humming noise from the air purifier. No need for DIY fixes. The temperature is 25 degrees Celsius, and it's been on for 200 minutes. Its last maintenance was performed 3 months ago.",
+        "filled_param": {
+          "noise_level": "humming",
+          "include_diy_solutions": false,
+          "ambient_temperature": 25,
+          "operating_duration": 200,
+          "maintenance_history": "last maintenance was performed 3 months ago"
+        }
+      },
+      {
+        "query": "Could you diagnose why my air purifier is making a buzzing sound? Including DIY solutions would be helpful. It is currently operating at 20 degrees Celsius and has been running for 300 minutes. The filter was changed last month.",
+        "filled_param": {
+          "noise_level": "buzzing",
+          "include_diy_solutions": true,
+          "ambient_temperature": 20,
+          "operating_duration": 300,
+          "maintenance_history": "filter was changed last month"
+        }
+      },
+      {
+        "query": "The air purifier has developed a whirring noise with no need for DIY solutions. The ambient temperature is 18 degrees Celsius, and it's been operating for 90 minutes. It was last checked over a year ago.",
+        "filled_param": {
+          "noise_level": "whirring",
+          "include_diy_solutions": false,
+          "ambient_temperature": 18,
+          "operating_duration": 90,
+          "maintenance_history": "last checked over a year ago"
+        }
+      },
+      {
+        "query": "Help me understand the cause of a loud clicking sound in my air purifier. I'm interested in DIY solutions. The room is at 24 degrees Celsius, and the machine has been on for 150 minutes. It was last maintained 2 months ago.",
+        "filled_param": {
+          "noise_level": "clicking",
+          "include_diy_solutions": true,
+          "ambient_temperature": 24,
+          "operating_duration": 150,
+          "maintenance_history": "last maintained 2 months ago"
+        }
+      }
+    ]
+  }
+}

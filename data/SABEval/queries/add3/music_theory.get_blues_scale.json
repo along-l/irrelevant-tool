@@ -1,0 +1,1322 @@
+{
+  "music_theory.get_blues_scale|:|major scale|:|key,show_intervals,octave_range,enharmonic_preference": {
+    "tool_template_name": "music_theory.get_blues_scale",
+    "derived_class": "major scale",
+    "params_for_query": [
+      "key",
+      "show_intervals",
+      "octave_range",
+      "enharmonic_preference"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the major scale in the key of C with interval details, for octaves 3 to 5 using sharps?",
+        "filled_param": {
+          "key": "C",
+          "show_intervals": true,
+          "octave_range": [
+            3,
+            5
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "I need the major scale in G major without intervals, spanning octaves 2 through 4, and prefer flats.",
+        "filled_param": {
+          "key": "G",
+          "show_intervals": false,
+          "octave_range": [
+            2,
+            4
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "Generate the major scale for F# key including intervals, for octaves 1 to 3, and show in sharps.",
+        "filled_param": {
+          "key": "F#",
+          "show_intervals": true,
+          "octave_range": [
+            1,
+            3
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "Show the major scale in the key of Bb with intervals, covering octaves 0 to 2, using flats.",
+        "filled_param": {
+          "key": "Bb",
+          "show_intervals": true,
+          "octave_range": [
+            0,
+            2
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "I want to see the major scale in D, without interval details, over octaves 5 to 7, using contextual notation.",
+        "filled_param": {
+          "key": "D",
+          "show_intervals": false,
+          "octave_range": [
+            5,
+            7
+          ],
+          "enharmonic_preference": "contextual"
+        }
+      },
+      {
+        "query": "Provide the major scale in A key, including intervals, across octaves 4 through 6, in flats.",
+        "filled_param": {
+          "key": "A",
+          "show_intervals": true,
+          "octave_range": [
+            4,
+            6
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "Could you list the major scale for Eb without showing intervals, from octaves 2 to 3, and use contextual enharmonic representation?",
+        "filled_param": {
+          "key": "Eb",
+          "show_intervals": false,
+          "octave_range": [
+            2,
+            3
+          ],
+          "enharmonic_preference": "contextual"
+        }
+      }
+    ]
+  },
+  "music_theory.get_blues_scale|:|natural minor scale|:|key,show_intervals,octave_range,enharmonic_preference": {
+    "tool_template_name": "music_theory.get_blues_scale",
+    "derived_class": "natural minor scale",
+    "params_for_query": [
+      "key",
+      "show_intervals",
+      "octave_range",
+      "enharmonic_preference"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the natural minor scale starting in G with intervals shown, spanning octaves 3 to 5, using flats for enharmonic notes?",
+        "filled_param": {
+          "key": "G",
+          "show_intervals": true,
+          "octave_range": [
+            3,
+            5
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "I'd like to see the natural minor scale in D, without intervals, covering the range from octave 2 to 4, and using sharps for enharmonic notes.",
+        "filled_param": {
+          "key": "D",
+          "show_intervals": false,
+          "octave_range": [
+            2,
+            4
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "Generate the natural minor scale for the key of E, display the intervals, across octaves 1 to 3, with a contextual preference for enharmonic notes.",
+        "filled_param": {
+          "key": "E",
+          "show_intervals": true,
+          "octave_range": [
+            1,
+            3
+          ],
+          "enharmonic_preference": "contextual"
+        }
+      },
+      {
+        "query": "Could you list the natural minor scale in B flat, show the intervals, and span octaves 4 through 6 with enharmonic notes represented as flats?",
+        "filled_param": {
+          "key": "B flat",
+          "show_intervals": true,
+          "octave_range": [
+            4,
+            6
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "I need the natural minor scale for the key of F sharp, without intervals, covering octave 5 to 7, using sharps in enharmonic notes.",
+        "filled_param": {
+          "key": "F sharp",
+          "show_intervals": false,
+          "octave_range": [
+            5,
+            7
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "What is the natural minor scale in C, with intervals included, spanning octaves from 0 to 2, and using the contextual approach for enharmonics?",
+        "filled_param": {
+          "key": "C",
+          "show_intervals": true,
+          "octave_range": [
+            0,
+            2
+          ],
+          "enharmonic_preference": "contextual"
+        }
+      },
+      {
+        "query": "Please show me the natural minor scale in A flat, without intervals, over octaves 3 to 5, represented with flats for enharmonic notes.",
+        "filled_param": {
+          "key": "A flat",
+          "show_intervals": false,
+          "octave_range": [
+            3,
+            5
+          ],
+          "enharmonic_preference": "flats"
+        }
+      }
+    ]
+  },
+  "music_theory.get_blues_scale|:|harmonic minor scale|:|key,show_intervals,octave_range,enharmonic_preference": {
+    "tool_template_name": "music_theory.get_blues_scale",
+    "derived_class": "harmonic minor scale",
+    "params_for_query": [
+      "key",
+      "show_intervals",
+      "octave_range",
+      "enharmonic_preference"
+    ],
+    "queries": [
+      {
+        "query": "Can you generate the harmonic minor scale in A with intervals shown, spanning octaves 2 to 4, and using sharps?",
+        "filled_param": {
+          "key": "A",
+          "show_intervals": true,
+          "octave_range": [
+            2,
+            4
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "Please provide the harmonic minor scale in G with interval information hidden, for octaves 3 to 5, using flats.",
+        "filled_param": {
+          "key": "G",
+          "show_intervals": false,
+          "octave_range": [
+            3,
+            5
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "What is the harmonic minor scale for E, without displaying intervals, across octaves 1 to 3, and using contextual notes?",
+        "filled_param": {
+          "key": "E",
+          "show_intervals": false,
+          "octave_range": [
+            1,
+            3
+          ],
+          "enharmonic_preference": "contextual"
+        }
+      },
+      {
+        "query": "Generate the D harmonic minor scale showing intervals from octave 4 to 6 using sharps.",
+        "filled_param": {
+          "key": "D",
+          "show_intervals": true,
+          "octave_range": [
+            4,
+            6
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "I'd like to see the harmonic minor scale in B with intervals visible, for octaves 2 to 5, using flats for enharmonic notes.",
+        "filled_param": {
+          "key": "B",
+          "show_intervals": true,
+          "octave_range": [
+            2,
+            5
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "Show me the harmonic minor scale in C# without intervals, covering octaves 0 to 2, preferring contextual representation.",
+        "filled_param": {
+          "key": "C#",
+          "show_intervals": false,
+          "octave_range": [
+            0,
+            2
+          ],
+          "enharmonic_preference": "contextual"
+        }
+      },
+      {
+        "query": "Could you provide the F harmonic minor scale with intervals for octaves 3 to 7, using flats?",
+        "filled_param": {
+          "key": "F",
+          "show_intervals": true,
+          "octave_range": [
+            3,
+            7
+          ],
+          "enharmonic_preference": "flats"
+        }
+      }
+    ]
+  },
+  "music_theory.get_blues_scale|:|melodic minor scale|:|key,show_intervals,octave_range,enharmonic_preference": {
+    "tool_template_name": "music_theory.get_blues_scale",
+    "derived_class": "melodic minor scale",
+    "params_for_query": [
+      "key",
+      "show_intervals",
+      "octave_range",
+      "enharmonic_preference"
+    ],
+    "queries": [
+      {
+        "query": "Please generate the melodic minor scale in the key of A with intervals shown, spanning octaves 3 to 5 using sharps.",
+        "filled_param": {
+          "key": "A",
+          "show_intervals": true,
+          "octave_range": [
+            3,
+            5
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "What is the melodic minor scale in F# with intervals hidden, covering octaves 2 to 4 and using flats?",
+        "filled_param": {
+          "key": "F#",
+          "show_intervals": false,
+          "octave_range": [
+            2,
+            4
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "Generate the G melodic minor scale, use contextual notation for enharmonics, include intervals, and cover octaves 1 to 3.",
+        "filled_param": {
+          "key": "G",
+          "show_intervals": true,
+          "octave_range": [
+            1,
+            3
+          ],
+          "enharmonic_preference": "contextual"
+        }
+      },
+      {
+        "query": "I'd like the melodic minor scale in D, without intervals, spanning octaves 4 to 6 in flats.",
+        "filled_param": {
+          "key": "D",
+          "show_intervals": false,
+          "octave_range": [
+            4,
+            6
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "Can you show me the melodic minor scale for E with intervals, over octaves 0 to 2, using sharps?",
+        "filled_param": {
+          "key": "E",
+          "show_intervals": true,
+          "octave_range": [
+            0,
+            2
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "Provide the melodic minor scale in the key of C#, hiding intervals, in octaves 2 to 5, and use sharps for notation.",
+        "filled_param": {
+          "key": "C#",
+          "show_intervals": false,
+          "octave_range": [
+            2,
+            5
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "I'd like the B melodic minor scale with intervals shown, spanning octaves 3 to 4, using contextual enharmonics.",
+        "filled_param": {
+          "key": "B",
+          "show_intervals": true,
+          "octave_range": [
+            3,
+            4
+          ],
+          "enharmonic_preference": "contextual"
+        }
+      }
+    ]
+  },
+  "music_theory.get_blues_scale|:|major pentatonic scale|:|key,show_intervals,octave_range,enharmonic_preference": {
+    "tool_template_name": "music_theory.get_blues_scale",
+    "derived_class": "major pentatonic scale",
+    "params_for_query": [
+      "key",
+      "show_intervals",
+      "octave_range",
+      "enharmonic_preference"
+    ],
+    "queries": [
+      {
+        "query": "Can you show me the C major pentatonic scale across octaves 3 to 5 with intervals using sharps?",
+        "filled_param": {
+          "key": "C",
+          "show_intervals": true,
+          "octave_range": [
+            3,
+            5
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "Generate the major pentatonic scale in the key of G, from octave 2 to 4, displaying intervals, and use flats.",
+        "filled_param": {
+          "key": "G",
+          "show_intervals": true,
+          "octave_range": [
+            2,
+            4
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "Please provide the D major pentatonic scale without showing intervals, spanning octaves 1 to 3, and use a contextual approach for enharmonics.",
+        "filled_param": {
+          "key": "D",
+          "show_intervals": false,
+          "octave_range": [
+            1,
+            3
+          ],
+          "enharmonic_preference": "contextual"
+        }
+      },
+      {
+        "query": "What is the major pentatonic scale for the key of E, over octaves 4 and 5, without intervals, and in sharps?",
+        "filled_param": {
+          "key": "E",
+          "show_intervals": false,
+          "octave_range": [
+            4,
+            5
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "List the A major pentatonic scale including intervals, starting from octave 2 to 4, using flats.",
+        "filled_param": {
+          "key": "A",
+          "show_intervals": true,
+          "octave_range": [
+            2,
+            4
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "I'd like to see the major pentatonic scale for the key of B, covering octaves 1 to 2, with intervals shown, in a contextual manner.",
+        "filled_param": {
+          "key": "B",
+          "show_intervals": true,
+          "octave_range": [
+            1,
+            2
+          ],
+          "enharmonic_preference": "contextual"
+        }
+      },
+      {
+        "query": "Can you display the F major pentatonic scale in octaves 3 through 5 without intervals and with enharmonic context set to sharps?",
+        "filled_param": {
+          "key": "F",
+          "show_intervals": false,
+          "octave_range": [
+            3,
+            5
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      }
+    ]
+  },
+  "music_theory.get_blues_scale|:|minor pentatonic scale|:|key,show_intervals,octave_range,enharmonic_preference": {
+    "tool_template_name": "music_theory.get_blues_scale",
+    "derived_class": "minor pentatonic scale",
+    "params_for_query": [
+      "key",
+      "show_intervals",
+      "octave_range",
+      "enharmonic_preference"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the minor pentatonic scale starting from the key of A, showing intervals, across octaves 2 to 4, using sharps?",
+        "filled_param": {
+          "key": "A",
+          "show_intervals": true,
+          "octave_range": [
+            2,
+            4
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "I need the minor pentatonic scale in the key of C#, without intervals, for octaves 3 to 5, using flats.",
+        "filled_param": {
+          "key": "C#",
+          "show_intervals": false,
+          "octave_range": [
+            3,
+            5
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "Generate the minor pentatonic scale for the key of D, include intervals, from octave 1 to 3, with contextual note representation.",
+        "filled_param": {
+          "key": "D",
+          "show_intervals": true,
+          "octave_range": [
+            1,
+            3
+          ],
+          "enharmonic_preference": "contextual"
+        }
+      },
+      {
+        "query": "What's the minor pentatonic scale for E, without showing intervals, across octaves 4 to 6, using sharps?",
+        "filled_param": {
+          "key": "E",
+          "show_intervals": false,
+          "octave_range": [
+            4,
+            6
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "Give me the minor pentatonic scale in G, show intervals, for octaves 2 through 5, with flats.",
+        "filled_param": {
+          "key": "G",
+          "show_intervals": true,
+          "octave_range": [
+            2,
+            5
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "Could you list the minor pentatonic scale starting from F, excluding intervals, for octaves 1 to 2, using contextual enharmonics?",
+        "filled_param": {
+          "key": "F",
+          "show_intervals": false,
+          "octave_range": [
+            1,
+            2
+          ],
+          "enharmonic_preference": "contextual"
+        }
+      },
+      {
+        "query": "Please show me the minor pentatonic scale in B, including intervals, spanning octaves 3 to 5, represented with sharps.",
+        "filled_param": {
+          "key": "B",
+          "show_intervals": true,
+          "octave_range": [
+            3,
+            5
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      }
+    ]
+  },
+  "music_theory.get_blues_scale|:|blues scale|:|key,show_intervals,octave_range,enharmonic_preference": {
+    "tool_template_name": "music_theory.get_blues_scale",
+    "derived_class": "blues scale",
+    "params_for_query": [
+      "key",
+      "show_intervals",
+      "octave_range",
+      "enharmonic_preference"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the blues scale in the key of A with intervals shown, covering octaves 2 to 4 using sharps?",
+        "filled_param": {
+          "key": "A",
+          "show_intervals": true,
+          "octave_range": [
+            2,
+            4
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "Generate the blues scale for G key without showing intervals between octaves 1 and 3, using flats.",
+        "filled_param": {
+          "key": "G",
+          "show_intervals": false,
+          "octave_range": [
+            1,
+            3
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "I need the C blues scale with intervals displayed, spanning octaves 3 to 5, and using a contextual approach for enharmonics.",
+        "filled_param": {
+          "key": "C",
+          "show_intervals": true,
+          "octave_range": [
+            3,
+            5
+          ],
+          "enharmonic_preference": "contextual"
+        }
+      },
+      {
+        "query": "What is the blues scale for D key where intervals are not shown, covering octaves 4 to 6 and using sharps?",
+        "filled_param": {
+          "key": "D",
+          "show_intervals": false,
+          "octave_range": [
+            4,
+            6
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "Please show me the blues scale in the key of E with intervals, across octaves 2 to 4, represented with flats.",
+        "filled_param": {
+          "key": "E",
+          "show_intervals": true,
+          "octave_range": [
+            2,
+            4
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "Can you generate the blues scale for B flat key, no intervals shown, from octaves 1 to 2, using a contextual enharmonic approach?",
+        "filled_param": {
+          "key": "B flat",
+          "show_intervals": false,
+          "octave_range": [
+            1,
+            2
+          ],
+          "enharmonic_preference": "contextual"
+        }
+      },
+      {
+        "query": "Give me the blues scale in the key of F sharp, include intervals, for octaves 3 to 4, and prefer sharps.",
+        "filled_param": {
+          "key": "F sharp",
+          "show_intervals": true,
+          "octave_range": [
+            3,
+            4
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      }
+    ]
+  },
+  "music_theory.get_blues_scale|:|dorian mode|:|key,show_intervals,octave_range,enharmonic_preference": {
+    "tool_template_name": "music_theory.get_blues_scale",
+    "derived_class": "dorian mode",
+    "params_for_query": [
+      "key",
+      "show_intervals",
+      "octave_range",
+      "enharmonic_preference"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the dorian mode scale starting with G, showing the intervals, over octaves 2 to 4 using flats?",
+        "filled_param": {
+          "key": "G",
+          "show_intervals": true,
+          "octave_range": [
+            2,
+            4
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "I'm looking for the dorian mode scale in the key of E, without intervals, covering octaves 1 to 3, and using sharps.",
+        "filled_param": {
+          "key": "E",
+          "show_intervals": false,
+          "octave_range": [
+            1,
+            3
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "Please generate the dorian mode scale for the key of B, including intervals, octaves 3 to 5, and preference for contextual note representation.",
+        "filled_param": {
+          "key": "B",
+          "show_intervals": true,
+          "octave_range": [
+            3,
+            5
+          ],
+          "enharmonic_preference": "contextual"
+        }
+      },
+      {
+        "query": "What is the dorian mode scale from the root note D, excluding intervals, spanning octaves 0 to 2, and using flats?",
+        "filled_param": {
+          "key": "D",
+          "show_intervals": false,
+          "octave_range": [
+            0,
+            2
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "Generate the dorian mode scale in C#, with intervals visible, over octaves 4 through 6, preferring sharps.",
+        "filled_param": {
+          "key": "C#",
+          "show_intervals": true,
+          "octave_range": [
+            4,
+            6
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "I'd like to see the dorian mode scale starting from F, hiding intervals, in octaves 2 to 3, using flats.",
+        "filled_param": {
+          "key": "F",
+          "show_intervals": false,
+          "octave_range": [
+            2,
+            3
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "Can you create the dorian mode scale for A, showing intervals, for octaves 5 to 7, using contextual representation for notes?",
+        "filled_param": {
+          "key": "A",
+          "show_intervals": true,
+          "octave_range": [
+            5,
+            7
+          ],
+          "enharmonic_preference": "contextual"
+        }
+      }
+    ]
+  },
+  "music_theory.get_blues_scale|:|phrygian mode|:|key,show_intervals,octave_range,enharmonic_preference": {
+    "tool_template_name": "music_theory.get_blues_scale",
+    "derived_class": "phrygian mode",
+    "params_for_query": [
+      "key",
+      "show_intervals",
+      "octave_range",
+      "enharmonic_preference"
+    ],
+    "queries": [
+      {
+        "query": "Can you generate the phrygian mode scale in the key of C, showing the intervals, for octaves 3 to 5 using sharps?",
+        "filled_param": {
+          "key": "C",
+          "show_intervals": true,
+          "octave_range": [
+            3,
+            5
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "I need the phrygian mode for the note E, without showing intervals, spanning octaves 1 to 2, and using flats for enharmonic notes.",
+        "filled_param": {
+          "key": "E",
+          "show_intervals": false,
+          "octave_range": [
+            1,
+            2
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "Provide the phrygian mode scale for G#, displaying intervals, across octaves 2 to 4, and use contextual for enharmonic representation.",
+        "filled_param": {
+          "key": "G#",
+          "show_intervals": true,
+          "octave_range": [
+            2,
+            4
+          ],
+          "enharmonic_preference": "contextual"
+        }
+      },
+      {
+        "query": "Could you give me the phrygian mode starting on Bb, not showing intervals, for octaves 3 to 6, represented with sharps?",
+        "filled_param": {
+          "key": "Bb",
+          "show_intervals": false,
+          "octave_range": [
+            3,
+            6
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "What is the phrygian mode scale in D with intervals included, from octave 4 to 5, using flats for enharmonic notes?",
+        "filled_param": {
+          "key": "D",
+          "show_intervals": true,
+          "octave_range": [
+            4,
+            5
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "Please list the phrygian mode scale for the key of F#, excluding interval details, over octaves 1 to 3 and with contextual enharmonic notes.",
+        "filled_param": {
+          "key": "F#",
+          "show_intervals": false,
+          "octave_range": [
+            1,
+            3
+          ],
+          "enharmonic_preference": "contextual"
+        }
+      },
+      {
+        "query": "Generate the phrygian mode scale for the key of A, including intervals, for octaves 2 to 5, and use flats in enharmonics.",
+        "filled_param": {
+          "key": "A",
+          "show_intervals": true,
+          "octave_range": [
+            2,
+            5
+          ],
+          "enharmonic_preference": "flats"
+        }
+      }
+    ]
+  },
+  "music_theory.get_blues_scale|:|lydian mode|:|key,show_intervals,octave_range,enharmonic_preference": {
+    "tool_template_name": "music_theory.get_blues_scale",
+    "derived_class": "lydian mode",
+    "params_for_query": [
+      "key",
+      "show_intervals",
+      "octave_range",
+      "enharmonic_preference"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the lydian mode scale in the key of G, showing the intervals over octaves 3 to 5 with sharps?",
+        "filled_param": {
+          "key": "G",
+          "show_intervals": true,
+          "octave_range": [
+            3,
+            5
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "Generate the lydian mode scale for the key of C, without intervals, spanning octaves 2 to 4, using flats.",
+        "filled_param": {
+          "key": "C",
+          "show_intervals": false,
+          "octave_range": [
+            2,
+            4
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "I need the lydian mode scale in the key of D, with interval information included, for octaves 1 through 3, preferring contextual enharmonics.",
+        "filled_param": {
+          "key": "D",
+          "show_intervals": true,
+          "octave_range": [
+            1,
+            3
+          ],
+          "enharmonic_preference": "contextual"
+        }
+      },
+      {
+        "query": "What does the lydian mode scale look like in F#, without showing intervals, across octaves 4 to 6, and using sharps?",
+        "filled_param": {
+          "key": "F#",
+          "show_intervals": false,
+          "octave_range": [
+            4,
+            6
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "Can you list the lydian mode scale in the key of A flat, showing intervals, from octave 2 to 5, preferring flats?",
+        "filled_param": {
+          "key": "A flat",
+          "show_intervals": true,
+          "octave_range": [
+            2,
+            5
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "Please generate the lydian mode scale for the key of B, without intervals, over the octaves 3 to 4, with contextual enharmonic preference.",
+        "filled_param": {
+          "key": "B",
+          "show_intervals": false,
+          "octave_range": [
+            3,
+            4
+          ],
+          "enharmonic_preference": "contextual"
+        }
+      },
+      {
+        "query": "Show me the lydian mode scale for E, including intervals, spanning octaves 5 to 7, with sharps.",
+        "filled_param": {
+          "key": "E",
+          "show_intervals": true,
+          "octave_range": [
+            5,
+            7
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      }
+    ]
+  },
+  "music_theory.get_blues_scale|:|mixolydian mode|:|key,show_intervals,octave_range,enharmonic_preference": {
+    "tool_template_name": "music_theory.get_blues_scale",
+    "derived_class": "mixolydian mode",
+    "params_for_query": [
+      "key",
+      "show_intervals",
+      "octave_range",
+      "enharmonic_preference"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the Mixolydian mode scale in the key of D, showing the intervals, across octaves 2 to 4, using sharps?",
+        "filled_param": {
+          "key": "D",
+          "show_intervals": true,
+          "octave_range": [
+            2,
+            4
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "Generate the Mixolydian mode scale for the key of F, without showing intervals, covering octaves 3 to 5, and prefer flats.",
+        "filled_param": {
+          "key": "F",
+          "show_intervals": false,
+          "octave_range": [
+            3,
+            5
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "What is the Mixolydian mode scale in the key of A, with interval display, for octaves 1 through 3, using contextual enharmonic preference?",
+        "filled_param": {
+          "key": "A",
+          "show_intervals": true,
+          "octave_range": [
+            1,
+            3
+          ],
+          "enharmonic_preference": "contextual"
+        }
+      },
+      {
+        "query": "Show me the Mixolydian mode scale starting from the note G, not displaying intervals, spanning octaves 4 to 6, and using sharps.",
+        "filled_param": {
+          "key": "G",
+          "show_intervals": false,
+          "octave_range": [
+            4,
+            6
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "I need the Mixolydian mode scale in B flat, showing intervals for octaves 0 to 2, with a preference for flats.",
+        "filled_param": {
+          "key": "B flat",
+          "show_intervals": true,
+          "octave_range": [
+            0,
+            2
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "Can you display the Mixolydian mode scale in the key of E, without intervals, over octaves 5 to 6, using contextual enharmonic notation?",
+        "filled_param": {
+          "key": "E",
+          "show_intervals": false,
+          "octave_range": [
+            5,
+            6
+          ],
+          "enharmonic_preference": "contextual"
+        }
+      },
+      {
+        "query": "Please generate the Mixolydian mode scale for the root note C, including intervals, from octaves 2 to 3, with a preference for flats.",
+        "filled_param": {
+          "key": "C",
+          "show_intervals": true,
+          "octave_range": [
+            2,
+            3
+          ],
+          "enharmonic_preference": "flats"
+        }
+      }
+    ]
+  },
+  "music_theory.get_blues_scale|:|locrian mode|:|key,show_intervals,octave_range,enharmonic_preference": {
+    "tool_template_name": "music_theory.get_blues_scale",
+    "derived_class": "locrian mode",
+    "params_for_query": [
+      "key",
+      "show_intervals",
+      "octave_range",
+      "enharmonic_preference"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the locrian mode scale for the key of C, showing the intervals, across octaves 3 to 5 using sharps?",
+        "filled_param": {
+          "key": "C",
+          "show_intervals": true,
+          "octave_range": [
+            3,
+            5
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "Generate the locrian mode for B flat without displaying intervals, ranging from octave 2 to 4, and use flats.",
+        "filled_param": {
+          "key": "B flat",
+          "show_intervals": false,
+          "octave_range": [
+            2,
+            4
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "I want to see the locrian mode in D, with intervals shown, spanning octaves 1 to 3, and use contextual enharmonic notes.",
+        "filled_param": {
+          "key": "D",
+          "show_intervals": true,
+          "octave_range": [
+            1,
+            3
+          ],
+          "enharmonic_preference": "contextual"
+        }
+      },
+      {
+        "query": "Can you list the locrian mode scale of E, without showing intervals, in octaves 4 to 6, preferring sharps?",
+        "filled_param": {
+          "key": "E",
+          "show_intervals": false,
+          "octave_range": [
+            4,
+            6
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "What is the locrian mode starting on F sharp, including intervals, over octaves 0 to 2, using flats?",
+        "filled_param": {
+          "key": "F sharp",
+          "show_intervals": true,
+          "octave_range": [
+            0,
+            2
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "Provide the locrian mode scale for G, do not display intervals, from octave 5 to 7, and choose contextual for enharmonic notes.",
+        "filled_param": {
+          "key": "G",
+          "show_intervals": false,
+          "octave_range": [
+            5,
+            7
+          ],
+          "enharmonic_preference": "contextual"
+        }
+      }
+    ]
+  },
+  "music_theory.get_blues_scale|:|whole tone scale|:|key,show_intervals,octave_range,enharmonic_preference": {
+    "tool_template_name": "music_theory.get_blues_scale",
+    "derived_class": "whole tone scale",
+    "params_for_query": [
+      "key",
+      "show_intervals",
+      "octave_range",
+      "enharmonic_preference"
+    ],
+    "queries": [
+      {
+        "query": "Can you generate a whole tone scale starting from the key of G with intervals shown, spanning octaves 3 to 5, using sharps?",
+        "filled_param": {
+          "key": "G",
+          "show_intervals": true,
+          "octave_range": [
+            3,
+            5
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "Please provide the whole tone scale in the key of Bb, without showing intervals, for octaves 2 to 4, and use flats.",
+        "filled_param": {
+          "key": "Bb",
+          "show_intervals": false,
+          "octave_range": [
+            2,
+            4
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "I'd like to see a whole tone scale starting from D, include intervals, and cover octaves 4 to 6, with a contextual enharmonic preference.",
+        "filled_param": {
+          "key": "D",
+          "show_intervals": true,
+          "octave_range": [
+            4,
+            6
+          ],
+          "enharmonic_preference": "contextual"
+        }
+      },
+      {
+        "query": "Generate a whole tone scale from the key of F#, don't show intervals, for octaves 1 to 3, using sharps.",
+        "filled_param": {
+          "key": "F#",
+          "show_intervals": false,
+          "octave_range": [
+            1,
+            3
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "What is the whole tone scale in the key of A, without intervals, spanning octaves 5 to 7, and using flats?",
+        "filled_param": {
+          "key": "A",
+          "show_intervals": false,
+          "octave_range": [
+            5,
+            7
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "Could you show me the whole tone scale starting from E, with intervals displayed, across octaves 0 to 2, using a contextual preference?",
+        "filled_param": {
+          "key": "E",
+          "show_intervals": true,
+          "octave_range": [
+            0,
+            2
+          ],
+          "enharmonic_preference": "contextual"
+        }
+      }
+    ]
+  },
+  "music_theory.get_blues_scale|:|chromatic scale|:|key,show_intervals,octave_range,enharmonic_preference": {
+    "tool_template_name": "music_theory.get_blues_scale",
+    "derived_class": "chromatic scale",
+    "params_for_query": [
+      "key",
+      "show_intervals",
+      "octave_range",
+      "enharmonic_preference"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the chromatic scale for the key of C, showing intervals, across octaves 3 to 5, with a preference for sharps?",
+        "filled_param": {
+          "key": "C",
+          "show_intervals": true,
+          "octave_range": [
+            3,
+            5
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "I'd like to see the chromatic scale in the key of G with the intervals hidden, covering octaves 2 to 4, using flats.",
+        "filled_param": {
+          "key": "G",
+          "show_intervals": false,
+          "octave_range": [
+            2,
+            4
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "Generate the chromatic scale for F# key, show intervals please, across octave range 1 to 2, and use sharps.",
+        "filled_param": {
+          "key": "F#",
+          "show_intervals": true,
+          "octave_range": [
+            1,
+            2
+          ],
+          "enharmonic_preference": "sharps"
+        }
+      },
+      {
+        "query": "Can you create the chromatic scale in the D key, without showing intervals, for octaves 4 to 6, with a contextual enharmonic preference?",
+        "filled_param": {
+          "key": "D",
+          "show_intervals": false,
+          "octave_range": [
+            4,
+            6
+          ],
+          "enharmonic_preference": "contextual"
+        }
+      },
+      {
+        "query": "For the key of Bb, please provide the chromatic scale with intervals shown over octaves 5 to 7, and utilize flats.",
+        "filled_param": {
+          "key": "Bb",
+          "show_intervals": true,
+          "octave_range": [
+            5,
+            7
+          ],
+          "enharmonic_preference": "flats"
+        }
+      },
+      {
+        "query": "I'd like the chromatic scale in E, without intervals, spanning octaves 0 to 2, using a contextual enharmonic approach.",
+        "filled_param": {
+          "key": "E",
+          "show_intervals": false,
+          "octave_range": [
+            0,
+            2
+          ],
+          "enharmonic_preference": "contextual"
+        }
+      },
+      {
+        "query": "What does the chromatic scale look like in Ab, showing intervals, for octaves 3 to 5, with flats preferred?",
+        "filled_param": {
+          "key": "Ab",
+          "show_intervals": true,
+          "octave_range": [
+            3,
+            5
+          ],
+          "enharmonic_preference": "flats"
+        }
+      }
+    ]
+  }
+}

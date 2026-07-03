@@ -1,0 +1,390 @@
+{
+  "RehabPlanEvaluator|:|psychological counseling|:|plan_id,effectiveness_score,evaluation_date,comments,goal_alignment": {
+    "tool_template_name": "RehabPlanEvaluator",
+    "derived_class": "psychological counseling",
+    "params_for_query": [
+      "plan_id",
+      "effectiveness_score",
+      "evaluation_date",
+      "comments",
+      "goal_alignment"
+    ],
+    "queries": [
+      {
+        "query": "Evaluate the psychological counseling plan identified as PC-12345, which was assessed on 2023-09-15. The effectiveness score given was 8. The plan aligns with our goals, but I suggest incorporating more interactive sessions.",
+        "filled_param": {
+          "plan_id": "PC-12345",
+          "effectiveness_score": 8,
+          "evaluation_date": "2023-09-15",
+          "comments": "I suggest incorporating more interactive sessions.",
+          "goal_alignment": true
+        }
+      },
+      {
+        "query": "For psychological counseling plan 6778-PL, evaluated on 2023-07-10, assign an effectiveness score of 5. Although it aligns with our objectives, consider introducing more evidence-based techniques.",
+        "filled_param": {
+          "plan_id": "6778-PL",
+          "effectiveness_score": 5,
+          "evaluation_date": "2023-07-10",
+          "comments": "Consider introducing more evidence-based techniques.",
+          "goal_alignment": true
+        }
+      },
+      {
+        "query": "Review the psychological counseling strategy coded as XY-22, which received a score of 9 on 2023-08-25. The goals are not aligned, and a suggestion is to focus more on client-centered approaches.",
+        "filled_param": {
+          "plan_id": "XY-22",
+          "effectiveness_score": 9,
+          "evaluation_date": "2023-08-25",
+          "comments": "Focus more on client-centered approaches.",
+          "goal_alignment": false
+        }
+      },
+      {
+        "query": "Provide feedback on psychological counseling plan AB-6789. It was rated 4 for effectiveness during the evaluation on 2023-06-01. The plan does not align with our objectives. Increase focus on measurable outcomes.",
+        "filled_param": {
+          "plan_id": "AB-6789",
+          "effectiveness_score": 4,
+          "evaluation_date": "2023-06-01",
+          "comments": "Increase focus on measurable outcomes.",
+          "goal_alignment": false
+        }
+      },
+      {
+        "query": "Analyze the psychological counseling plan with ID PLAN-9090. The evaluation date is 2023-10-10, and the effectiveness score is 7. It aligns with goals, but I recommend integrating more mindfulness exercises.",
+        "filled_param": {
+          "plan_id": "PLAN-9090",
+          "effectiveness_score": 7,
+          "evaluation_date": "2023-10-10",
+          "comments": "Recommend integrating more mindfulness exercises.",
+          "goal_alignment": true
+        }
+      }
+    ]
+  },
+  "RehabPlanEvaluator|:|language learning|:|plan_id,effectiveness_score,evaluation_date,comments,goal_alignment": {
+    "tool_template_name": "RehabPlanEvaluator",
+    "derived_class": "language learning",
+    "params_for_query": [
+      "plan_id",
+      "effectiveness_score",
+      "evaluation_date",
+      "comments",
+      "goal_alignment"
+    ],
+    "queries": [
+      {
+        "query": "Please provide feedback for the language learning plan with ID abc123. The effectiveness score is 7, evaluated on 2023-09-15. My main comment is that the plan could include more interactive sessions. The goals are aligned with our objectives.",
+        "filled_param": {
+          "plan_id": "abc123",
+          "effectiveness_score": 7,
+          "evaluation_date": "2023-09-15",
+          "comments": "The plan could include more interactive sessions.",
+          "goal_alignment": true
+        }
+      },
+      {
+        "query": "I need an evaluation of the language learning plan, ID plan-456def, which scored 9 on effectiveness. The evaluation was done on 2023-08-30. I suggest incorporating more vocabulary exercises. The goals are not aligned with our broader goals.",
+        "filled_param": {
+          "plan_id": "plan-456def",
+          "effectiveness_score": 9,
+          "evaluation_date": "2023-08-30",
+          "comments": "I suggest incorporating more vocabulary exercises.",
+          "goal_alignment": false
+        }
+      },
+      {
+        "query": "Can you generate feedback for the language learning plan identified by ID 789xyz? It received an effectiveness score of 5 during the evaluation on 2023-07-20. My comment is that the plan lacks sufficient speaking practice. The goals align with the desired outcomes.",
+        "filled_param": {
+          "plan_id": "789xyz",
+          "effectiveness_score": 5,
+          "evaluation_date": "2023-07-20",
+          "comments": "The plan lacks sufficient speaking practice.",
+          "goal_alignment": true
+        }
+      },
+      {
+        "query": "Evaluate the language learning plan with ID lang-001, which was rated 10 for effectiveness on 2023-06-10. The main feedback is to maintain current content as it is highly engaging. The objectives of the plan are aligned.",
+        "filled_param": {
+          "plan_id": "lang-001",
+          "effectiveness_score": 10,
+          "evaluation_date": "2023-06-10",
+          "comments": "Maintain current content as it is highly engaging.",
+          "goal_alignment": true
+        }
+      },
+      {
+        "query": "Could you assess the language learning plan, ID 333-alpha, with an effectiveness score of 3 given on 2023-05-05? Comments include a need for more structured lessons. These goals are not aligned with our language objectives.",
+        "filled_param": {
+          "plan_id": "333-alpha",
+          "effectiveness_score": 3,
+          "evaluation_date": "2023-05-05",
+          "comments": "Need for more structured lessons.",
+          "goal_alignment": false
+        }
+      }
+    ]
+  },
+  "RehabPlanEvaluator|:|career|:|plan_id,effectiveness_score,evaluation_date,comments,goal_alignment": {
+    "tool_template_name": "RehabPlanEvaluator",
+    "derived_class": "career",
+    "params_for_query": [
+      "plan_id",
+      "effectiveness_score",
+      "evaluation_date",
+      "comments",
+      "goal_alignment"
+    ],
+    "queries": [
+      {
+        "query": "Evaluate the career plan with ID CP-2023-01; it received an effectiveness score of 8 on 2023-10-01. The plan aligns with goals, but consider adding more skill development sessions.",
+        "filled_param": {
+          "plan_id": "CP-2023-01",
+          "effectiveness_score": 8,
+          "evaluation_date": "2023-10-01",
+          "comments": "Consider adding more skill development sessions.",
+          "goal_alignment": true
+        }
+      },
+      {
+        "query": "For career plan ID CP-2023-02, rated with a score of 5 on 2023-09-15, the goals do not align perfectly. Feedback suggests improved mentorship is needed.",
+        "filled_param": {
+          "plan_id": "CP-2023-02",
+          "effectiveness_score": 5,
+          "evaluation_date": "2023-09-15",
+          "comments": "Feedback suggests improved mentorship is needed.",
+          "goal_alignment": false
+        }
+      },
+      {
+        "query": "Please evaluate the career plan identified by CP-2023-03; it has an effectiveness score of 9 as of 2023-08-20. The plan aligns well with goals, though additional networking opportunities would be beneficial.",
+        "filled_param": {
+          "plan_id": "CP-2023-03",
+          "effectiveness_score": 9,
+          "evaluation_date": "2023-08-20",
+          "comments": "Additional networking opportunities would be beneficial.",
+          "goal_alignment": true
+        }
+      },
+      {
+        "query": "Check the career plan with ID CP-2023-04, scored 6 on 2023-07-10. The plan’s goals are not fully aligned, and increasing focus on leadership training is suggested.",
+        "filled_param": {
+          "plan_id": "CP-2023-04",
+          "effectiveness_score": 6,
+          "evaluation_date": "2023-07-10",
+          "comments": "Increasing focus on leadership training is suggested.",
+          "goal_alignment": false
+        }
+      },
+      {
+        "query": "Evaluate the career plan number CP-2023-05, which has an effectiveness score of 3 as of 2023-06-25. Despite goal alignment, it's advised to revise the career advancement strategies.",
+        "filled_param": {
+          "plan_id": "CP-2023-05",
+          "effectiveness_score": 3,
+          "evaluation_date": "2023-06-25",
+          "comments": "It's advised to revise the career advancement strategies.",
+          "goal_alignment": true
+        }
+      }
+    ]
+  },
+  "RehabPlanEvaluator|:|rehabilitation|:|plan_id,effectiveness_score,evaluation_date,comments,goal_alignment": {
+    "tool_template_name": "RehabPlanEvaluator",
+    "derived_class": "rehabilitation",
+    "params_for_query": [
+      "plan_id",
+      "effectiveness_score",
+      "evaluation_date",
+      "comments",
+      "goal_alignment"
+    ],
+    "queries": [
+      {
+        "query": "Please provide evaluation feedback for the rehabilitation plan with ID RP-2023-001. The effectiveness score is 8, evaluated on 2023-10-15. The goals are aligned, and I suggest focusing more on flexibility exercises.",
+        "filled_param": {
+          "plan_id": "RP-2023-001",
+          "effectiveness_score": 8,
+          "evaluation_date": "2023-10-15",
+          "comments": "I suggest focusing more on flexibility exercises.",
+          "goal_alignment": true
+        }
+      },
+      {
+        "query": "Can you evaluate the rehabilitation plan identified as RehabPlan-897? It received a score of 6 on 2023-09-30, and there are concerns about the goals not being fully aligned. My comment is to reassess the cardiovascular section.",
+        "filled_param": {
+          "plan_id": "RehabPlan-897",
+          "effectiveness_score": 6,
+          "evaluation_date": "2023-09-30",
+          "comments": "Reassess the cardiovascular section.",
+          "goal_alignment": false
+        }
+      },
+      {
+        "query": "Evaluate the rehabilitation plan with ID 2023-REHAB-002. The score is 9 as of 2023-08-01, with comments on excellent progress in strength goals. The goals are aligned.",
+        "filled_param": {
+          "plan_id": "2023-REHAB-002",
+          "effectiveness_score": 9,
+          "evaluation_date": "2023-08-01",
+          "comments": "Excellent progress in strength goals.",
+          "goal_alignment": true
+        }
+      },
+      {
+        "query": "I need an evaluation of Plan1234. It was scored 5 on 2023-07-20. My comments include enhancing support for psychological aspects, as the goals do not seem aligned.",
+        "filled_param": {
+          "plan_id": "Plan1234",
+          "effectiveness_score": 5,
+          "evaluation_date": "2023-07-20",
+          "comments": "Enhance support for psychological aspects.",
+          "goal_alignment": false
+        }
+      },
+      {
+        "query": "Generate feedback for rehabilitation plan ID ABC-XYZ-2023 with an effectiveness score of 7 on 2023-06-15. The goals are aligned, and I recommend incorporating more aquatic therapy.",
+        "filled_param": {
+          "plan_id": "ABC-XYZ-2023",
+          "effectiveness_score": 7,
+          "evaluation_date": "2023-06-15",
+          "comments": "Incorporate more aquatic therapy.",
+          "goal_alignment": true
+        }
+      }
+    ]
+  },
+  "RehabPlanEvaluator|:|financial|:|plan_id,effectiveness_score,evaluation_date,comments,goal_alignment": {
+    "tool_template_name": "RehabPlanEvaluator",
+    "derived_class": "financial",
+    "params_for_query": [
+      "plan_id",
+      "effectiveness_score",
+      "evaluation_date",
+      "comments",
+      "goal_alignment"
+    ],
+    "queries": [
+      {
+        "query": "I reviewed the financial plan with ID 123-ABC and gave it an effectiveness score of 8. The evaluation was done on 2023-10-05. The plan aligns well with our goals, but it could benefit from more detailed expense tracking.",
+        "filled_param": {
+          "plan_id": "123-ABC",
+          "effectiveness_score": 8,
+          "evaluation_date": "2023-10-05",
+          "comments": "The plan aligns well with our goals, but it could benefit from more detailed expense tracking.",
+          "goal_alignment": true
+        }
+      },
+      {
+        "query": "For the financial plan ID FP-2023-07, I rated its effectiveness as 5 on 2023-09-15. It doesn't align with our current goals and needs a revised risk assessment approach.",
+        "filled_param": {
+          "plan_id": "FP-2023-07",
+          "effectiveness_score": 5,
+          "evaluation_date": "2023-09-15",
+          "comments": "It doesn't align with our current goals and needs a revised risk assessment approach.",
+          "goal_alignment": false
+        }
+      },
+      {
+        "query": "The financial plan identified by code PLAN-456 scored a 9 in effectiveness on 2023-08-10. It perfectly aligns with our goals; however, consider incorporating more frequent cash flow analyses.",
+        "filled_param": {
+          "plan_id": "PLAN-456",
+          "effectiveness_score": 9,
+          "evaluation_date": "2023-08-10",
+          "comments": "It perfectly aligns with our goals; however, consider incorporating more frequent cash flow analyses.",
+          "goal_alignment": true
+        }
+      },
+      {
+        "query": "Evaluate the financial plan with ID 789XYZ, which received an effectiveness score of 6 on 2023-07-01. The alignment with our goals is lacking, and the plan should include a stronger focus on long-term investment strategies.",
+        "filled_param": {
+          "plan_id": "789XYZ",
+          "effectiveness_score": 6,
+          "evaluation_date": "2023-07-01",
+          "comments": "The alignment with our goals is lacking, and the plan should include a stronger focus on long-term investment strategies.",
+          "goal_alignment": false
+        }
+      },
+      {
+        "query": "On 2023-06-20, I evaluated financial plan ID QWE-890 and gave it an effectiveness score of 7. It's aligned with our goals, but could be improved by reducing unnecessary overhead costs.",
+        "filled_param": {
+          "plan_id": "QWE-890",
+          "effectiveness_score": 7,
+          "evaluation_date": "2023-06-20",
+          "comments": "It's aligned with our goals, but could be improved by reducing unnecessary overhead costs.",
+          "goal_alignment": true
+        }
+      }
+    ]
+  },
+  "RehabPlanEvaluator|:|sleep|:|plan_id,effectiveness_score,evaluation_date,comments,goal_alignment": {
+    "tool_template_name": "RehabPlanEvaluator",
+    "derived_class": "sleep",
+    "params_for_query": [
+      "plan_id",
+      "effectiveness_score",
+      "evaluation_date",
+      "comments",
+      "goal_alignment"
+    ],
+    "queries": [
+      {
+        "query": "Please evaluate the sleep plan with ID 12A34B and rate its effectiveness as 8. The evaluation was conducted on 2023-09-15. I found the plan helpful but suggest incorporating more relaxation techniques. The plan aligns well with our objectives.",
+        "filled_param": {
+          "plan_id": "12A34B",
+          "effectiveness_score": 8,
+          "evaluation_date": "2023-09-15",
+          "comments": "I found the plan helpful but suggest incorporating more relaxation techniques.",
+          "goal_alignment": true
+        }
+      },
+      {
+        "query": "Review the sleep plan identified by plan123, assigning it a 6 for effectiveness. The evaluation took place on 2023-08-25. The plan needs better pacing as it feels rushed. It does not align with our goals.",
+        "filled_param": {
+          "plan_id": "plan123",
+          "effectiveness_score": 6,
+          "evaluation_date": "2023-08-25",
+          "comments": "The plan needs better pacing as it feels rushed.",
+          "goal_alignment": false
+        }
+      },
+      {
+        "query": "Assess the effectiveness of the sleep strategy with ID XYZ-789. It deserves a score of 9 after the 2023-07-30 review. The strategy was excellent, although more flexible timings would aid our needs. The objectives of the plan align perfectly.",
+        "filled_param": {
+          "plan_id": "XYZ-789",
+          "effectiveness_score": 9,
+          "evaluation_date": "2023-07-30",
+          "comments": "The strategy was excellent, although more flexible timings would aid our needs.",
+          "goal_alignment": true
+        }
+      },
+      {
+        "query": "Look into the sleep regimen coded as 456def, evaluated on 2023-09-02 with a score of 7. The plan is decent, but increasing the duration of rest phases is advised. The goals do not match our expectations.",
+        "filled_param": {
+          "plan_id": "456def",
+          "effectiveness_score": 7,
+          "evaluation_date": "2023-09-02",
+          "comments": "The plan is decent, but increasing the duration of rest phases is advised.",
+          "goal_alignment": false
+        }
+      },
+      {
+        "query": "Conduct an evaluation of sleep plan ID plan-XYZ123 with a given effectiveness score of 5, dated 2023-10-01. The plan lacks personalization, and changes to the approach are necessary. The sleep plan does not align with our overarching goals.",
+        "filled_param": {
+          "plan_id": "plan-XYZ123",
+          "effectiveness_score": 5,
+          "evaluation_date": "2023-10-01",
+          "comments": "The plan lacks personalization, and changes to the approach are necessary.",
+          "goal_alignment": false
+        }
+      },
+      {
+        "query": "Evaluate sleep schedule ID 999-abc, which was reviewed on 2023-08-10 and scored an 8. The plan is effective, though it could benefit from more detailed guidance on sleep hygiene. It aligns well with our objectives.",
+        "filled_param": {
+          "plan_id": "999-abc",
+          "effectiveness_score": 8,
+          "evaluation_date": "2023-08-10",
+          "comments": "The plan is effective, though it could benefit from more detailed guidance on sleep hygiene.",
+          "goal_alignment": true
+        }
+      }
+    ]
+  }
+}

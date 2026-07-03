@@ -1,0 +1,65 @@
+{
+  "tool_template_name": "WeChatUserDataInsights",
+  "meta_data": {
+    "base_class": "Gain insights from user data interactions on a <specific social platform> service account. - applicable for querying various social or messaging platforms that require an authentication token and operate within a specific analysis period.",
+    "derived_classes": [
+      "WeChat",
+      "QQ",
+      "Weibo",
+      "DingTalk",
+      "Discord",
+      "Slack",
+      "Reddit",
+      "TikTok",
+      "Facebook",
+      "Twitter",
+      "Instagram",
+      "LinkedIn",
+      "Telegram",
+      "WhatsApp",
+      "Line"
+    ],
+    "base_class_entity": "WeChat"
+  },
+  "tool_template": {
+    "name": "UserDataInsights_<class>",
+    "description": "Gain insights from user data interactions on a <class> service account.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "auth_token": {
+          "type": "string",
+          "description": "The authentication token for accessing <class> data."
+        },
+        "analysis_period": {
+          "type": "string",
+          "description": "The period for analysis, specified as 'last_week', 'last_month', or 'last_year'."
+        }
+      },
+      "required": [
+        "auth_token",
+        "analysis_period"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "data_type": {
+      "type": "string",
+      "description": "Type of user data to analyze in the <class> account, one of 'text', 'image', or 'video'."
+    },
+    "interaction_threshold": {
+      "type": "integer",
+      "description": "Minimum number of interactions required for a user data point in the <class> account to be considered significant. Should be a non-negative integer.",
+      "minimum": 0
+    },
+    "timezone": {
+      "type": "string",
+      "description": "The timezone to use for aligning interaction timestamps in the <class> account."
+    },
+    "language": {
+      "type": "string",
+      "description": "Language of the user data interactions to focus on in the <class> account, such as 'en' for English or 'es' for Spanish."
+    }
+  }
+}

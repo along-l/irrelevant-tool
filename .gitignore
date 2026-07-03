@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environment
+.venv
+
+# Secrets
+.env
+
+# Editor / agent local state
+.claude/
+.vscode/
+
+# Generated model outputs (recreate with the run_*.sh scripts). Keep the SABEval dataset.
+/data/*/
+!/data/SABEval/
+/results/
+/figs/
+
+# Jupyter
+.ipynb_checkpoints/

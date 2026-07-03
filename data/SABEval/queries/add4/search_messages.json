@@ -1,0 +1,1056 @@
+{
+  "search_messages|:|SMS message|:|user_name,keyword,start_time,end_time,include_attachments,priority": {
+    "tool_template_name": "search_messages",
+    "derived_class": "SMS message",
+    "params_for_query": [
+      "user_name",
+      "keyword",
+      "start_time",
+      "end_time",
+      "include_attachments",
+      "priority"
+    ],
+    "queries": [
+      {
+        "query": "Find all SMS message messages from John Doe containing the keyword 'meeting' between 2023-09-01T09:00:00 and 2023-09-01T17:00:00, including attachments, with high priority.",
+        "filled_param": {
+          "user_name": "John Doe",
+          "keyword": "meeting",
+          "start_time": "2023-09-01T09:00:00",
+          "end_time": "2023-09-01T17:00:00",
+          "include_attachments": true,
+          "priority": "high"
+        }
+      },
+      {
+        "query": "Search for SMS message messages by Alice Smith with the keyword 'invoice' from 2023-10-15T00:00:00 to 2023-10-15T23:59:59, excluding attachments, marked as normal priority.",
+        "filled_param": {
+          "user_name": "Alice Smith",
+          "keyword": "invoice",
+          "start_time": "2023-10-15T00:00:00",
+          "end_time": "2023-10-15T23:59:59",
+          "include_attachments": false,
+          "priority": "normal"
+        }
+      },
+      {
+        "query": "Retrieve SMS message messages from Michael Brown mentioning 'project update' between 2023-08-01T08:30:00 and 2023-08-01T18:30:00, without attachments, at low priority.",
+        "filled_param": {
+          "user_name": "Michael Brown",
+          "keyword": "project update",
+          "start_time": "2023-08-01T08:30:00",
+          "end_time": "2023-08-01T18:30:00",
+          "include_attachments": false,
+          "priority": "low"
+        }
+      },
+      {
+        "query": "Can you search SMS message messages from Sarah Connor with 'contract' as the keyword from 2023-07-20T10:00:00 to 2023-07-20T20:00:00, including any that have attachments, and are of high priority?",
+        "filled_param": {
+          "user_name": "Sarah Connor",
+          "keyword": "contract",
+          "start_time": "2023-07-20T10:00:00",
+          "end_time": "2023-07-20T20:00:00",
+          "include_attachments": true,
+          "priority": "high"
+        }
+      },
+      {
+        "query": "Locate SMS message messages from David Lee that contain the keyword 'holiday plans' between 2023-12-01T06:00:00 and 2023-12-01T22:00:00. Include attachments, if any, and prioritize them as normal.",
+        "filled_param": {
+          "user_name": "David Lee",
+          "keyword": "holiday plans",
+          "start_time": "2023-12-01T06:00:00",
+          "end_time": "2023-12-01T22:00:00",
+          "include_attachments": true,
+          "priority": "normal"
+        }
+      },
+      {
+        "query": "Please find SMS message messages from Emily White with 'appointment' as a keyword between 2023-11-10T07:00:00 and 2023-11-10T19:00:00. Attachments should not be included, and the priority should be set to low.",
+        "filled_param": {
+          "user_name": "Emily White",
+          "keyword": "appointment",
+          "start_time": "2023-11-10T07:00:00",
+          "end_time": "2023-11-10T19:00:00",
+          "include_attachments": false,
+          "priority": "low"
+        }
+      }
+    ]
+  },
+  "search_messages|:|QQ message|:|user_name,keyword,start_time,end_time,include_attachments,priority": {
+    "tool_template_name": "search_messages",
+    "derived_class": "QQ message",
+    "params_for_query": [
+      "user_name",
+      "keyword",
+      "start_time",
+      "end_time",
+      "include_attachments",
+      "priority"
+    ],
+    "queries": [
+      {
+        "query": "Find QQ message messages from Alex containing 'project update' between 2023-01-01T00:00:00Z and 2023-01-31T23:59:59Z, and include those with attachments, prioritizing high priority messages.",
+        "filled_param": {
+          "user_name": "Alex",
+          "keyword": "project update",
+          "start_time": "2023-01-01T00:00:00Z",
+          "end_time": "2023-01-31T23:59:59Z",
+          "include_attachments": true,
+          "priority": "high"
+        }
+      },
+      {
+        "query": "Search for QQ message messages from user Jessica that mention 'vacation plans' from 2023-06-01T08:00:00Z to 2023-06-15T20:00:00Z. Exclude any that have attachments and focus on normal priority.",
+        "filled_param": {
+          "user_name": "Jessica",
+          "keyword": "vacation plans",
+          "start_time": "2023-06-01T08:00:00Z",
+          "end_time": "2023-06-15T20:00:00Z",
+          "include_attachments": false,
+          "priority": "normal"
+        }
+      },
+      {
+        "query": "Could you search QQ message messages for all correspondence from Sarah with the keyword 'meeting minutes' between 2023-05-10T09:00:00Z and 2023-05-15T18:00:00Z, and be sure to include messages with attachments if they exist, with a focus on low priority?",
+        "filled_param": {
+          "user_name": "Sarah",
+          "keyword": "meeting minutes",
+          "start_time": "2023-05-10T09:00:00Z",
+          "end_time": "2023-05-15T18:00:00Z",
+          "include_attachments": true,
+          "priority": "low"
+        }
+      },
+      {
+        "query": "Look up all QQ message messages from John containing 'birthday party' from 2023-03-20T12:00:00Z to 2023-03-21T12:00:00Z, even those with attachments, focusing on messages marked as high priority.",
+        "filled_param": {
+          "user_name": "John",
+          "keyword": "birthday party",
+          "start_time": "2023-03-20T12:00:00Z",
+          "end_time": "2023-03-21T12:00:00Z",
+          "include_attachments": true,
+          "priority": "high"
+        }
+      },
+      {
+        "query": "Retrieve all QQ message messages from Emily that have the keyword 'budget report' spanning from 2023-02-01T00:00:00Z to 2023-02-28T23:59:59Z, excluding attachments, with normal priority.",
+        "filled_param": {
+          "user_name": "Emily",
+          "keyword": "budget report",
+          "start_time": "2023-02-01T00:00:00Z",
+          "end_time": "2023-02-28T23:59:59Z",
+          "include_attachments": false,
+          "priority": "normal"
+        }
+      },
+      {
+        "query": "I need to find QQ message messages from Michael that talk about 'product launch' between 2023-04-01T09:00:00Z and 2023-04-05T18:00:00Z, making sure to include any messages with attachments, and prioritizing those marked as low priority.",
+        "filled_param": {
+          "user_name": "Michael",
+          "keyword": "product launch",
+          "start_time": "2023-04-01T09:00:00Z",
+          "end_time": "2023-04-05T18:00:00Z",
+          "include_attachments": true,
+          "priority": "low"
+        }
+      }
+    ]
+  },
+  "search_messages|:|WeChat message|:|user_name,keyword,start_time,end_time,include_attachments,priority": {
+    "tool_template_name": "search_messages",
+    "derived_class": "WeChat message",
+    "params_for_query": [
+      "user_name",
+      "keyword",
+      "start_time",
+      "end_time",
+      "include_attachments",
+      "priority"
+    ],
+    "queries": [
+      {
+        "query": "Find WeChat message messages from Alice containing 'project update' between 2023-08-01T09:00:00Z and 2023-08-31T17:00:00Z. Include attachments and focus on high priority messages.",
+        "filled_param": {
+          "user_name": "Alice",
+          "keyword": "project update",
+          "start_time": "2023-08-01T09:00:00Z",
+          "end_time": "2023-08-31T17:00:00Z",
+          "include_attachments": true,
+          "priority": "high"
+        }
+      },
+      {
+        "query": "Search for all WeChat message messages from Bob mentioning 'meeting' from 2023-09-15T08:00:00Z to 2023-09-15T18:00:00Z, without including attachments, and with normal priority.",
+        "filled_param": {
+          "user_name": "Bob",
+          "keyword": "meeting",
+          "start_time": "2023-09-15T08:00:00Z",
+          "end_time": "2023-09-15T18:00:00Z",
+          "include_attachments": false,
+          "priority": "normal"
+        }
+      },
+      {
+        "query": "Locate WeChat message messages from Charlie that contain 'budget report' between 2023-07-01T00:00:00Z and 2023-07-31T23:59:59Z. Do not include messages with attachments, and filter for low priority.",
+        "filled_param": {
+          "user_name": "Charlie",
+          "keyword": "budget report",
+          "start_time": "2023-07-01T00:00:00Z",
+          "end_time": "2023-07-31T23:59:59Z",
+          "include_attachments": false,
+          "priority": "low"
+        }
+      },
+      {
+        "query": "Please search for WeChat message messages sent by Daisy that discuss 'holiday plans' from 2023-12-01T12:00:00Z to 2023-12-25T12:00:00Z, include those with attachments, and set the priority to normal.",
+        "filled_param": {
+          "user_name": "Daisy",
+          "keyword": "holiday plans",
+          "start_time": "2023-12-01T12:00:00Z",
+          "end_time": "2023-12-25T12:00:00Z",
+          "include_attachments": true,
+          "priority": "normal"
+        }
+      },
+      {
+        "query": "Retrieve WeChat message messages from Evan about 'new hire' within the period 2023-11-01T00:00:00Z to 2023-11-30T23:59:59Z, exclude attachments, and only show messages with high priority.",
+        "filled_param": {
+          "user_name": "Evan",
+          "keyword": "new hire",
+          "start_time": "2023-11-01T00:00:00Z",
+          "end_time": "2023-11-30T23:59:59Z",
+          "include_attachments": false,
+          "priority": "high"
+        }
+      },
+      {
+        "query": "Look for WeChat message messages by Fiona containing 'training schedule' during 2023-10-05T10:00:00Z to 2023-10-05T18:00:00Z, attachments should be included and keep the priority as low.",
+        "filled_param": {
+          "user_name": "Fiona",
+          "keyword": "training schedule",
+          "start_time": "2023-10-05T10:00:00Z",
+          "end_time": "2023-10-05T18:00:00Z",
+          "include_attachments": true,
+          "priority": "low"
+        }
+      }
+    ]
+  },
+  "search_messages|:|DingTalk message|:|user_name,keyword,start_time,end_time,include_attachments,priority": {
+    "tool_template_name": "search_messages",
+    "derived_class": "DingTalk message",
+    "params_for_query": [
+      "user_name",
+      "keyword",
+      "start_time",
+      "end_time",
+      "include_attachments",
+      "priority"
+    ],
+    "queries": [
+      {
+        "query": "Could you search for DingTalk messages from Alice containing the keyword 'project' between 2023-09-01T00:00:00Z and 2023-09-30T23:59:59Z, including attachments, with a high priority?",
+        "filled_param": {
+          "user_name": "Alice",
+          "keyword": "project",
+          "start_time": "2023-09-01T00:00:00Z",
+          "end_time": "2023-09-30T23:59:59Z",
+          "include_attachments": true,
+          "priority": "high"
+        }
+      },
+      {
+        "query": "I need to find all DingTalk messages sent by Bob with the word 'deadline' from 2023-10-01T08:00:00Z to 2023-10-05T17:00:00Z, excluding attachments, that have normal priority.",
+        "filled_param": {
+          "user_name": "Bob",
+          "keyword": "deadline",
+          "start_time": "2023-10-01T08:00:00Z",
+          "end_time": "2023-10-05T17:00:00Z",
+          "include_attachments": false,
+          "priority": "normal"
+        }
+      },
+      {
+        "query": "Please look up DingTalk messages from Charlie that mention 'meeting' within the period from 2023-08-15T09:00:00Z to 2023-08-20T18:00:00Z, consider messages with attachments, and low priority.",
+        "filled_param": {
+          "user_name": "Charlie",
+          "keyword": "meeting",
+          "start_time": "2023-08-15T09:00:00Z",
+          "end_time": "2023-08-20T18:00:00Z",
+          "include_attachments": true,
+          "priority": "low"
+        }
+      },
+      {
+        "query": "Find all DingTalk messages from David that contain 'budget' between 2023-07-01T00:00:00Z and 2023-07-31T23:59:59Z, disregarding any attachments, with high priority.",
+        "filled_param": {
+          "user_name": "David",
+          "keyword": "budget",
+          "start_time": "2023-07-01T00:00:00Z",
+          "end_time": "2023-07-31T23:59:59Z",
+          "include_attachments": false,
+          "priority": "high"
+        }
+      },
+      {
+        "query": "Can you search for DingTalk messages from Emma using the term 'invoice' from 2023-06-10T10:00:00Z to 2023-06-15T15:00:00Z, with attachments included, and prioritize normal messages?",
+        "filled_param": {
+          "user_name": "Emma",
+          "keyword": "invoice",
+          "start_time": "2023-06-10T10:00:00Z",
+          "end_time": "2023-06-15T15:00:00Z",
+          "include_attachments": true,
+          "priority": "normal"
+        }
+      },
+      {
+        "query": "Retrieve DingTalk messages from Fiona that mention 'vacation' in the time frame from 2023-05-01T12:00:00Z to 2023-05-05T12:00:00Z, attachments are not required, and prioritize low level messages.",
+        "filled_param": {
+          "user_name": "Fiona",
+          "keyword": "vacation",
+          "start_time": "2023-05-01T12:00:00Z",
+          "end_time": "2023-05-05T12:00:00Z",
+          "include_attachments": false,
+          "priority": "low"
+        }
+      }
+    ]
+  },
+  "search_messages|:|WhatsApp message|:|user_name,keyword,start_time,end_time,include_attachments,priority": {
+    "tool_template_name": "search_messages",
+    "derived_class": "WhatsApp message",
+    "params_for_query": [
+      "user_name",
+      "keyword",
+      "start_time",
+      "end_time",
+      "include_attachments",
+      "priority"
+    ],
+    "queries": [
+      {
+        "query": "Search for WhatsApp message messages from Alice containing the word 'meeting' between 2023-08-01T09:00:00Z and 2023-08-01T17:00:00Z, including attachments, and prioritize high-priority messages.",
+        "filled_param": {
+          "user_name": "Alice",
+          "keyword": "meeting",
+          "start_time": "2023-08-01T09:00:00Z",
+          "end_time": "2023-08-01T17:00:00Z",
+          "include_attachments": true,
+          "priority": "high"
+        }
+      },
+      {
+        "query": "Please find WhatsApp message messages from Bob that have the keyword 'project' from 2023-09-15T00:00:00Z to 2023-09-15T23:59:59Z, exclude attachments, and show only normal-priority messages.",
+        "filled_param": {
+          "user_name": "Bob",
+          "keyword": "project",
+          "start_time": "2023-09-15T00:00:00Z",
+          "end_time": "2023-09-15T23:59:59Z",
+          "include_attachments": false,
+          "priority": "normal"
+        }
+      },
+      {
+        "query": "Look up WhatsApp message messages from Charlie mentioning 'vacation' between 2023-07-01T00:00:00Z and 2023-07-31T23:59:59Z, include messages with attachments, and focus on low-priority messages.",
+        "filled_param": {
+          "user_name": "Charlie",
+          "keyword": "vacation",
+          "start_time": "2023-07-01T00:00:00Z",
+          "end_time": "2023-07-31T23:59:59Z",
+          "include_attachments": true,
+          "priority": "low"
+        }
+      },
+      {
+        "query": "Retrieve WhatsApp message messages from Dana that contain 'deadline' from 2023-10-10T10:00:00Z to 2023-10-10T18:00:00Z, avoid attachments, and emphasize high-priority messages.",
+        "filled_param": {
+          "user_name": "Dana",
+          "keyword": "deadline",
+          "start_time": "2023-10-10T10:00:00Z",
+          "end_time": "2023-10-10T18:00:00Z",
+          "include_attachments": false,
+          "priority": "high"
+        }
+      },
+      {
+        "query": "Can you find WhatsApp message messages from Evan that include 'appointment' between 2023-06-01T09:00:00Z and 2023-06-01T17:00:00Z, do not include attachments, and prioritize normal-priority messages?",
+        "filled_param": {
+          "user_name": "Evan",
+          "keyword": "appointment",
+          "start_time": "2023-06-01T09:00:00Z",
+          "end_time": "2023-06-01T17:00:00Z",
+          "include_attachments": false,
+          "priority": "normal"
+        }
+      }
+    ]
+  },
+  "search_messages|:|Facebook message|:|user_name,keyword,start_time,end_time,include_attachments,priority": {
+    "tool_template_name": "search_messages",
+    "derived_class": "Facebook message",
+    "params_for_query": [
+      "user_name",
+      "keyword",
+      "start_time",
+      "end_time",
+      "include_attachments",
+      "priority"
+    ],
+    "queries": [
+      {
+        "query": "Find Facebook message messages from John Doe that contain the keyword 'vacation' sent between 2023-07-01T00:00:00Z and 2023-07-31T23:59:59Z, including those with attachments and marked as high priority.",
+        "filled_param": {
+          "user_name": "John Doe",
+          "keyword": "vacation",
+          "start_time": "2023-07-01T00:00:00Z",
+          "end_time": "2023-07-31T23:59:59Z",
+          "include_attachments": true,
+          "priority": "high"
+        }
+      },
+      {
+        "query": "I need to search for Facebook message messages from Jane Smith mentioning 'meeting' from 2023-09-01T08:00:00Z to 2023-09-07T18:00:00Z, excluding any with attachments and with normal priority.",
+        "filled_param": {
+          "user_name": "Jane Smith",
+          "keyword": "meeting",
+          "start_time": "2023-09-01T08:00:00Z",
+          "end_time": "2023-09-07T18:00:00Z",
+          "include_attachments": false,
+          "priority": "normal"
+        }
+      },
+      {
+        "query": "Search in Facebook message messages from Alice Johnson for the keyword 'concert' between 2023-06-15T12:00:00Z and 2023-06-20T12:00:00Z, including attachments, and prioritize high priority messages.",
+        "filled_param": {
+          "user_name": "Alice Johnson",
+          "keyword": "concert",
+          "start_time": "2023-06-15T12:00:00Z",
+          "end_time": "2023-06-20T12:00:00Z",
+          "include_attachments": true,
+          "priority": "high"
+        }
+      },
+      {
+        "query": "Can you look through Facebook message messages from Mike Lee for any mention of 'birthday' during the period from 2023-08-10T00:00:00Z to 2023-08-12T23:59:59Z, with attachments excluded and any priority level acceptable?",
+        "filled_param": {
+          "user_name": "Mike Lee",
+          "keyword": "birthday",
+          "start_time": "2023-08-10T00:00:00Z",
+          "end_time": "2023-08-12T23:59:59Z",
+          "include_attachments": false,
+          "priority": "normal"
+        }
+      },
+      {
+        "query": "Please retrieve Facebook message messages from Emma Wilson that include the keyword 'project' sent from 2023-10-01T09:00:00Z to 2023-10-05T17:00:00Z, attachments included, focusing on low priority ones.",
+        "filled_param": {
+          "user_name": "Emma Wilson",
+          "keyword": "project",
+          "start_time": "2023-10-01T09:00:00Z",
+          "end_time": "2023-10-05T17:00:00Z",
+          "include_attachments": true,
+          "priority": "low"
+        }
+      }
+    ]
+  },
+  "search_messages|:|Instagram message|:|user_name,keyword,start_time,end_time,include_attachments,priority": {
+    "tool_template_name": "search_messages",
+    "derived_class": "Instagram message",
+    "params_for_query": [
+      "user_name",
+      "keyword",
+      "start_time",
+      "end_time",
+      "include_attachments",
+      "priority"
+    ],
+    "queries": [
+      {
+        "query": "Could you find Instagram message messages from user john_doe that mention 'meeting' within the time range from 2023-09-01T09:00:00Z to 2023-09-07T18:00:00Z, including those with attachments, prioritizing high importance?",
+        "filled_param": {
+          "user_name": "john_doe",
+          "keyword": "meeting",
+          "start_time": "2023-09-01T09:00:00Z",
+          "end_time": "2023-09-07T18:00:00Z",
+          "include_attachments": true,
+          "priority": "high"
+        }
+      },
+      {
+        "query": "Search the Instagram message messages sent by user jane_smith containing the keyword 'urgent' between 2023-08-15T00:00:00Z and 2023-08-20T23:59:59Z. Exclude any with attachments and focus on normal priority.",
+        "filled_param": {
+          "user_name": "jane_smith",
+          "keyword": "urgent",
+          "start_time": "2023-08-15T00:00:00Z",
+          "end_time": "2023-08-20T23:59:59Z",
+          "include_attachments": false,
+          "priority": "normal"
+        }
+      },
+      {
+        "query": "Find Instagram message messages from user alice_walker mentioning 'project' from 2023-07-01T12:00:00Z to 2023-07-10T12:00:00Z. Please include messages with attachments and look for low priority ones.",
+        "filled_param": {
+          "user_name": "alice_walker",
+          "keyword": "project",
+          "start_time": "2023-07-01T12:00:00Z",
+          "end_time": "2023-07-10T12:00:00Z",
+          "include_attachments": true,
+          "priority": "low"
+        }
+      },
+      {
+        "query": "Can you retrieve Instagram message messages from user mike_jones that include the word 'deadline' from 2023-06-01T00:00:00Z to 2023-06-05T23:59:59Z? Make sure to exclude attachments and only show high priority messages.",
+        "filled_param": {
+          "user_name": "mike_jones",
+          "keyword": "deadline",
+          "start_time": "2023-06-01T00:00:00Z",
+          "end_time": "2023-06-05T23:59:59Z",
+          "include_attachments": false,
+          "priority": "high"
+        }
+      },
+      {
+        "query": "Look for Instagram message messages from user emma_thomas containing 'holiday' keywords within 2023-05-21T09:00:00Z to 2023-05-25T17:00:00Z. Attachments should be included, and prioritize normal messages.",
+        "filled_param": {
+          "user_name": "emma_thomas",
+          "keyword": "holiday",
+          "start_time": "2023-05-21T09:00:00Z",
+          "end_time": "2023-05-25T17:00:00Z",
+          "include_attachments": true,
+          "priority": "normal"
+        }
+      },
+      {
+        "query": "Please search for Instagram message messages from user michael_clark with the word 'party' dated between 2023-04-10T00:00:00Z and 2023-04-15T23:59:59Z. Exclude any with attachments and focus on low priority messages.",
+        "filled_param": {
+          "user_name": "michael_clark",
+          "keyword": "party",
+          "start_time": "2023-04-10T00:00:00Z",
+          "end_time": "2023-04-15T23:59:59Z",
+          "include_attachments": false,
+          "priority": "low"
+        }
+      }
+    ]
+  },
+  "search_messages|:|LinkedIn message|:|user_name,keyword,start_time,end_time,include_attachments,priority": {
+    "tool_template_name": "search_messages",
+    "derived_class": "LinkedIn message",
+    "params_for_query": [
+      "user_name",
+      "keyword",
+      "start_time",
+      "end_time",
+      "include_attachments",
+      "priority"
+    ],
+    "queries": [
+      {
+        "query": "Can you find LinkedIn message messages from John Doe that mention 'project update' between 2023-01-01T00:00:00Z and 2023-01-31T23:59:59Z, including those with attachments and with a high priority?",
+        "filled_param": {
+          "user_name": "John Doe",
+          "keyword": "project update",
+          "start_time": "2023-01-01T00:00:00Z",
+          "end_time": "2023-01-31T23:59:59Z",
+          "include_attachments": true,
+          "priority": "high"
+        }
+      },
+      {
+        "query": "Search LinkedIn message messages sent by Emily Smith containing the keyword 'budget' from 2023-02-01T00:00:00Z to 2023-02-28T23:59:59Z, with attachments excluded and normal priority.",
+        "filled_param": {
+          "user_name": "Emily Smith",
+          "keyword": "budget",
+          "start_time": "2023-02-01T00:00:00Z",
+          "end_time": "2023-02-28T23:59:59Z",
+          "include_attachments": false,
+          "priority": "normal"
+        }
+      },
+      {
+        "query": "Retrieve LinkedIn message messages from Michael Johnson, focusing on 'meeting schedule' within the period 2023-03-10T00:00:00Z to 2023-03-15T23:59:59Z, including attachments, with low priority.",
+        "filled_param": {
+          "user_name": "Michael Johnson",
+          "keyword": "meeting schedule",
+          "start_time": "2023-03-10T00:00:00Z",
+          "end_time": "2023-03-15T23:59:59Z",
+          "include_attachments": true,
+          "priority": "low"
+        }
+      },
+      {
+        "query": "Find LinkedIn message messages from Sarah Lee that have 'conference details' between 2023-04-01T00:00:00Z and 2023-04-30T23:59:59Z, without attachments, and prioritize them as high.",
+        "filled_param": {
+          "user_name": "Sarah Lee",
+          "keyword": "conference details",
+          "start_time": "2023-04-01T00:00:00Z",
+          "end_time": "2023-04-30T23:59:59Z",
+          "include_attachments": false,
+          "priority": "high"
+        }
+      },
+      {
+        "query": "Look up LinkedIn message messages from Robert Brown mentioning 'team lunch', occurring from 2023-05-01T00:00:00Z to 2023-05-07T23:59:59Z, including any with attachments, marked as normal priority.",
+        "filled_param": {
+          "user_name": "Robert Brown",
+          "keyword": "team lunch",
+          "start_time": "2023-05-01T00:00:00Z",
+          "end_time": "2023-05-07T23:59:59Z",
+          "include_attachments": true,
+          "priority": "normal"
+        }
+      },
+      {
+        "query": "Could you locate LinkedIn message messages from Anna Wilson that contain 'client feedback' sent between 2023-06-01T00:00:00Z and 2023-06-15T23:59:59Z, excluding attachments, with low priority?",
+        "filled_param": {
+          "user_name": "Anna Wilson",
+          "keyword": "client feedback",
+          "start_time": "2023-06-01T00:00:00Z",
+          "end_time": "2023-06-15T23:59:59Z",
+          "include_attachments": false,
+          "priority": "low"
+        }
+      }
+    ]
+  },
+  "search_messages|:|Discord message|:|user_name,keyword,start_time,end_time,include_attachments,priority": {
+    "tool_template_name": "search_messages",
+    "derived_class": "Discord message",
+    "params_for_query": [
+      "user_name",
+      "keyword",
+      "start_time",
+      "end_time",
+      "include_attachments",
+      "priority"
+    ],
+    "queries": [
+      {
+        "query": "Find Discord message messages from user 'Alice123' that mention the keyword 'project update' between 2023-09-01T00:00:00Z and 2023-09-30T23:59:59Z, including attachments, with a high priority.",
+        "filled_param": {
+          "user_name": "Alice123",
+          "keyword": "project update",
+          "start_time": "2023-09-01T00:00:00Z",
+          "end_time": "2023-09-30T23:59:59Z",
+          "include_attachments": true,
+          "priority": "high"
+        }
+      },
+      {
+        "query": "Search for Discord message messages by 'BobTheBuilder' containing 'server issues' from 2023-10-01T08:00:00Z to 2023-10-05T18:00:00Z without attachments, and prioritize normal.",
+        "filled_param": {
+          "user_name": "BobTheBuilder",
+          "keyword": "server issues",
+          "start_time": "2023-10-01T08:00:00Z",
+          "end_time": "2023-10-05T18:00:00Z",
+          "include_attachments": false,
+          "priority": "normal"
+        }
+      },
+      {
+        "query": "Retrieve Discord message messages from 'Charlie' that include the keyword 'meeting notes' starting 2023-07-15T10:00:00Z until 2023-07-15T14:00:00Z, attachments included, with low priority.",
+        "filled_param": {
+          "user_name": "Charlie",
+          "keyword": "meeting notes",
+          "start_time": "2023-07-15T10:00:00Z",
+          "end_time": "2023-07-15T14:00:00Z",
+          "include_attachments": true,
+          "priority": "low"
+        }
+      },
+      {
+        "query": "Locate Discord message messages from user 'Delta' with the keyword 'budget' within the timeframe 2023-08-01T09:00:00Z to 2023-08-07T17:00:00Z, excluding attachments, with high priority.",
+        "filled_param": {
+          "user_name": "Delta",
+          "keyword": "budget",
+          "start_time": "2023-08-01T09:00:00Z",
+          "end_time": "2023-08-07T17:00:00Z",
+          "include_attachments": false,
+          "priority": "high"
+        }
+      },
+      {
+        "query": "Can you find Discord message messages from 'EmmaW' that discuss 'team outing' between 2023-06-10T12:00:00Z and 2023-06-12T20:00:00Z? Include attachments and set priority to normal.",
+        "filled_param": {
+          "user_name": "EmmaW",
+          "keyword": "team outing",
+          "start_time": "2023-06-10T12:00:00Z",
+          "end_time": "2023-06-12T20:00:00Z",
+          "include_attachments": true,
+          "priority": "normal"
+        }
+      }
+    ]
+  },
+  "search_messages|:|Slack message|:|user_name,keyword,start_time,end_time,include_attachments,priority": {
+    "tool_template_name": "search_messages",
+    "derived_class": "Slack message",
+    "params_for_query": [
+      "user_name",
+      "keyword",
+      "start_time",
+      "end_time",
+      "include_attachments",
+      "priority"
+    ],
+    "queries": [
+      {
+        "query": "Find Slack message messages sent by JohnDoe containing the word 'deadline' between 2023-09-01T00:00:00Z and 2023-09-30T23:59:59Z, including those with attachments, and filter for high priority only.",
+        "filled_param": {
+          "user_name": "JohnDoe",
+          "keyword": "deadline",
+          "start_time": "2023-09-01T00:00:00Z",
+          "end_time": "2023-09-30T23:59:59Z",
+          "include_attachments": true,
+          "priority": "high"
+        }
+      },
+      {
+        "query": "Search for Slack message messages from JaneSmith that mention 'update' from 2023-10-01T08:00:00Z to 2023-10-15T17:00:00Z, exclude any with attachments, and focus on normal priority.",
+        "filled_param": {
+          "user_name": "JaneSmith",
+          "keyword": "update",
+          "start_time": "2023-10-01T08:00:00Z",
+          "end_time": "2023-10-15T17:00:00Z",
+          "include_attachments": false,
+          "priority": "normal"
+        }
+      },
+      {
+        "query": "Retrieve all Slack message messages by AliceW mentioning 'budget' from 2023-07-01T12:00:00Z to 2023-07-31T12:00:00Z, including those with attachments, at any priority level.",
+        "filled_param": {
+          "user_name": "AliceW",
+          "keyword": "budget",
+          "start_time": "2023-07-01T12:00:00Z",
+          "end_time": "2023-07-31T12:00:00Z",
+          "include_attachments": true,
+          "priority": "normal"
+        }
+      },
+      {
+        "query": "Locate Slack message messages from Bob_Anderson that include the term 'meeting' between 2023-06-15T09:00:00Z and 2023-06-20T18:00:00Z, do not include attachments, and restrict search to low priority.",
+        "filled_param": {
+          "user_name": "Bob_Anderson",
+          "keyword": "meeting",
+          "start_time": "2023-06-15T09:00:00Z",
+          "end_time": "2023-06-20T18:00:00Z",
+          "include_attachments": false,
+          "priority": "low"
+        }
+      },
+      {
+        "query": "Can you find Slack message messages by ChrisP that contain 'launch' from 2023-08-01T00:00:00Z to 2023-08-31T23:59:59Z, with attachment inclusion enabled, and filter for normal priority?",
+        "filled_param": {
+          "user_name": "ChrisP",
+          "keyword": "launch",
+          "start_time": "2023-08-01T00:00:00Z",
+          "end_time": "2023-08-31T23:59:59Z",
+          "include_attachments": true,
+          "priority": "normal"
+        }
+      }
+    ]
+  },
+  "search_messages|:|Twitter message|:|user_name,keyword,start_time,end_time,include_attachments,priority": {
+    "tool_template_name": "search_messages",
+    "derived_class": "Twitter message",
+    "params_for_query": [
+      "user_name",
+      "keyword",
+      "start_time",
+      "end_time",
+      "include_attachments",
+      "priority"
+    ],
+    "queries": [
+      {
+        "query": "Find Twitter message messages from user @john_doe containing the keyword 'launch' between 2023-01-01T00:00:00Z and 2023-02-01T00:00:00Z, including attachments and with high priority.",
+        "filled_param": {
+          "user_name": "@john_doe",
+          "keyword": "launch",
+          "start_time": "2023-01-01T00:00:00Z",
+          "end_time": "2023-02-01T00:00:00Z",
+          "include_attachments": true,
+          "priority": "high"
+        }
+      },
+      {
+        "query": "Search Twitter message messages from @jane_smith that mention 'climate change', occurring between 2023-03-01T00:00:00Z and 2023-04-01T00:00:00Z, no attachments, normal priority.",
+        "filled_param": {
+          "user_name": "@jane_smith",
+          "keyword": "climate change",
+          "start_time": "2023-03-01T00:00:00Z",
+          "end_time": "2023-04-01T00:00:00Z",
+          "include_attachments": false,
+          "priority": "normal"
+        }
+      },
+      {
+        "query": "Look up Twitter message messages from user @travel_guru about 'beach vacation' from 2023-06-01T00:00:00Z to 2023-07-01T00:00:00Z, attach images and prioritize as low.",
+        "filled_param": {
+          "user_name": "@travel_guru",
+          "keyword": "beach vacation",
+          "start_time": "2023-06-01T00:00:00Z",
+          "end_time": "2023-07-01T00:00:00Z",
+          "include_attachments": true,
+          "priority": "low"
+        }
+      },
+      {
+        "query": "Retrieve Twitter message messages from @tech_guy containing 'AI advancements' between 2023-05-01T00:00:00Z and 2023-06-01T00:00:00Z, without attachments, with high priority.",
+        "filled_param": {
+          "user_name": "@tech_guy",
+          "keyword": "AI advancements",
+          "start_time": "2023-05-01T00:00:00Z",
+          "end_time": "2023-06-01T00:00:00Z",
+          "include_attachments": false,
+          "priority": "high"
+        }
+      },
+      {
+        "query": "Get Twitter message messages from @foodie_blog related to 'vegan recipes' from 2023-08-01T00:00:00Z to 2023-09-01T00:00:00Z, including attachments, set priority to normal.",
+        "filled_param": {
+          "user_name": "@foodie_blog",
+          "keyword": "vegan recipes",
+          "start_time": "2023-08-01T00:00:00Z",
+          "end_time": "2023-09-01T00:00:00Z",
+          "include_attachments": true,
+          "priority": "normal"
+        }
+      },
+      {
+        "query": "Can you find Twitter message messages from @finance_expert with the keyword 'stock market' between 2023-10-01T00:00:00Z and 2023-11-01T00:00:00Z, exclude attachments, and prioritize them as low?",
+        "filled_param": {
+          "user_name": "@finance_expert",
+          "keyword": "stock market",
+          "start_time": "2023-10-01T00:00:00Z",
+          "end_time": "2023-11-01T00:00:00Z",
+          "include_attachments": false,
+          "priority": "low"
+        }
+      }
+    ]
+  },
+  "search_messages|:|TikTok message|:|user_name,keyword,start_time,end_time,include_attachments,priority": {
+    "tool_template_name": "search_messages",
+    "derived_class": "TikTok message",
+    "params_for_query": [
+      "user_name",
+      "keyword",
+      "start_time",
+      "end_time",
+      "include_attachments",
+      "priority"
+    ],
+    "queries": [
+      {
+        "query": "Find TikTok message messages from user lily_jones that mention 'party' between 2023-09-01T00:00:00Z and 2023-09-30T23:59:59Z, including ones with attachments, and prioritize high importance.",
+        "filled_param": {
+          "user_name": "lily_jones",
+          "keyword": "party",
+          "start_time": "2023-09-01T00:00:00Z",
+          "end_time": "2023-09-30T23:59:59Z",
+          "include_attachments": true,
+          "priority": "high"
+        }
+      },
+      {
+        "query": "Search TikTok message messages by user john_doe that contain 'project update' from 2023-08-15T08:00:00Z to 2023-09-15T18:00:00Z, exclude all messages with attachments, and sort by normal priority.",
+        "filled_param": {
+          "user_name": "john_doe",
+          "keyword": "project update",
+          "start_time": "2023-08-15T08:00:00Z",
+          "end_time": "2023-09-15T18:00:00Z",
+          "include_attachments": false,
+          "priority": "normal"
+        }
+      },
+      {
+        "query": "Retrieve TikTok message messages from user anna.smith mentioning 'vacation plans' that were sent between 2023-07-01T12:00:00Z and 2023-07-10T12:00:00Z. Include only those with attachments, marked as low priority.",
+        "filled_param": {
+          "user_name": "anna.smith",
+          "keyword": "vacation plans",
+          "start_time": "2023-07-01T12:00:00Z",
+          "end_time": "2023-07-10T12:00:00Z",
+          "include_attachments": true,
+          "priority": "low"
+        }
+      },
+      {
+        "query": "I need to find TikTok message messages from user tom_hardy containing 'recipe' within the time frame 2023-10-01T00:00:00Z to 2023-10-31T23:59:59Z, attachments excluded, and display those with high priority.",
+        "filled_param": {
+          "user_name": "tom_hardy",
+          "keyword": "recipe",
+          "start_time": "2023-10-01T00:00:00Z",
+          "end_time": "2023-10-31T23:59:59Z",
+          "include_attachments": false,
+          "priority": "high"
+        }
+      },
+      {
+        "query": "Can you look for TikTok message messages sent by user emily_r that reference 'concert tickets' between 2023-05-05T10:00:00Z and 2023-05-10T22:00:00Z? Please include attachments and filter for normal priority.",
+        "filled_param": {
+          "user_name": "emily_r",
+          "keyword": "concert tickets",
+          "start_time": "2023-05-05T10:00:00Z",
+          "end_time": "2023-05-10T22:00:00Z",
+          "include_attachments": true,
+          "priority": "normal"
+        }
+      }
+    ]
+  },
+  "search_messages|:|YouTube message|:|user_name,keyword,start_time,end_time,include_attachments,priority": {
+    "tool_template_name": "search_messages",
+    "derived_class": "YouTube message",
+    "params_for_query": [
+      "user_name",
+      "keyword",
+      "start_time",
+      "end_time",
+      "include_attachments",
+      "priority"
+    ],
+    "queries": [
+      {
+        "query": "Find YouTube message messages from JohnDoe that contain the keyword 'tutorial' between 2023-01-01T00:00:00Z and 2023-01-31T23:59:59Z, including those with attachments, and prioritize high importance.",
+        "filled_param": {
+          "user_name": "JohnDoe",
+          "keyword": "tutorial",
+          "start_time": "2023-01-01T00:00:00Z",
+          "end_time": "2023-01-31T23:59:59Z",
+          "include_attachments": true,
+          "priority": "high"
+        }
+      },
+      {
+        "query": "Can you search for YouTube message messages by user SarahSmith with the keyword 'vlog' from 2023-02-01T00:00:00Z to 2023-02-28T23:59:59Z, without including attachments, and filter for normal priority only?",
+        "filled_param": {
+          "user_name": "SarahSmith",
+          "keyword": "vlog",
+          "start_time": "2023-02-01T00:00:00Z",
+          "end_time": "2023-02-28T23:59:59Z",
+          "include_attachments": false,
+          "priority": "normal"
+        }
+      },
+      {
+        "query": "Look for YouTube message messages sent by GamingGuru using the word 'strategy' from 2023-03-01T00:00:00Z to 2023-03-07T23:59:59Z, check messages with attachments, and focus on low-priority messages.",
+        "filled_param": {
+          "user_name": "GamingGuru",
+          "keyword": "strategy",
+          "start_time": "2023-03-01T00:00:00Z",
+          "end_time": "2023-03-07T23:59:59Z",
+          "include_attachments": true,
+          "priority": "low"
+        }
+      },
+      {
+        "query": "Retrieve YouTube message messages by user TechWorld containing the keyword 'review' from 2023-04-15T00:00:00Z to 2023-05-15T23:59:59Z, excluding attachments, and sort by high priority.",
+        "filled_param": {
+          "user_name": "TechWorld",
+          "keyword": "review",
+          "start_time": "2023-04-15T00:00:00Z",
+          "end_time": "2023-05-15T23:59:59Z",
+          "include_attachments": false,
+          "priority": "high"
+        }
+      },
+      {
+        "query": "I need to find YouTube message messages from user ArtLover with the keyword 'painting' between 2023-06-01T00:00:00Z and 2023-06-30T23:59:59Z, include messages with attachments, and filter for normal priority.",
+        "filled_param": {
+          "user_name": "ArtLover",
+          "keyword": "painting",
+          "start_time": "2023-06-01T00:00:00Z",
+          "end_time": "2023-06-30T23:59:59Z",
+          "include_attachments": true,
+          "priority": "normal"
+        }
+      },
+      {
+        "query": "Could you search YouTube message messages from user ChefMike with the keyword 'recipe' spanning from 2023-07-01T00:00:00Z to 2023-07-15T23:59:59Z, excluding attachments, and select low-priority messages?",
+        "filled_param": {
+          "user_name": "ChefMike",
+          "keyword": "recipe",
+          "start_time": "2023-07-01T00:00:00Z",
+          "end_time": "2023-07-15T23:59:59Z",
+          "include_attachments": false,
+          "priority": "low"
+        }
+      }
+    ]
+  },
+  "search_messages|:|Reddit message|:|user_name,keyword,start_time,end_time,include_attachments,priority": {
+    "tool_template_name": "search_messages",
+    "derived_class": "Reddit message",
+    "params_for_query": [
+      "user_name",
+      "keyword",
+      "start_time",
+      "end_time",
+      "include_attachments",
+      "priority"
+    ],
+    "queries": [
+      {
+        "query": "Find all Reddit message messages by user johndoe containing the keyword 'climate change' from 2023-01-01T00:00:00Z to 2023-01-31T23:59:59Z, including any with attachments, and filter for high priority.",
+        "filled_param": {
+          "user_name": "johndoe",
+          "keyword": "climate change",
+          "start_time": "2023-01-01T00:00:00Z",
+          "end_time": "2023-01-31T23:59:59Z",
+          "include_attachments": true,
+          "priority": "high"
+        }
+      },
+      {
+        "query": "Search Reddit message messages from user alice_wonder, looking for the word 'cryptocurrency' between 2022-05-15T08:00:00Z and 2022-06-15T20:00:00Z. Exclude messages with attachments and focus on normal priority ones.",
+        "filled_param": {
+          "user_name": "alice_wonder",
+          "keyword": "cryptocurrency",
+          "start_time": "2022-05-15T08:00:00Z",
+          "end_time": "2022-06-15T20:00:00Z",
+          "include_attachments": false,
+          "priority": "normal"
+        }
+      },
+      {
+        "query": "Retrieve Reddit message messages posted by the user tech_guru that include 'AI trends' from 2023-03-01T00:00:00Z to 2023-03-15T23:59:59Z, ensuring attachments are included, with a focus on low priority.",
+        "filled_param": {
+          "user_name": "tech_guru",
+          "keyword": "AI trends",
+          "start_time": "2023-03-01T00:00:00Z",
+          "end_time": "2023-03-15T23:59:59Z",
+          "include_attachments": true,
+          "priority": "low"
+        }
+      },
+      {
+        "query": "Look for Reddit message messages from user sophia_smith containing 'recipe ideas' starting from 2023-07-01T10:00:00Z to 2023-07-31T22:00:00Z. Exclude any with attachments and check for high priority level.",
+        "filled_param": {
+          "user_name": "sophia_smith",
+          "keyword": "recipe ideas",
+          "start_time": "2023-07-01T10:00:00Z",
+          "end_time": "2023-07-31T22:00:00Z",
+          "include_attachments": false,
+          "priority": "high"
+        }
+      },
+      {
+        "query": "Can you get me Reddit message messages by user mark_traveler about 'travel tips' from 2022-10-01T00:00:00Z to 2022-10-31T23:59:59Z, with attachments included, and filter those with normal priority?",
+        "filled_param": {
+          "user_name": "mark_traveler",
+          "keyword": "travel tips",
+          "start_time": "2022-10-01T00:00:00Z",
+          "end_time": "2022-10-31T23:59:59Z",
+          "include_attachments": true,
+          "priority": "normal"
+        }
+      }
+    ]
+  }
+}

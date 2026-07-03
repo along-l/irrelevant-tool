@@ -1,0 +1,77 @@
+{
+  "tool_template_name": "petNutritionAnalyzer_analyzeBirdDiet",
+  "meta_data": {
+    "base_class": "Analyze and provide dietary and nutritional advice for <pet animals> - refers to various common pet species. Note: when generalizing this tool, avoid enumerating species (e.g., specific dog breeds or bird types) and instead describe them as open string types.",
+    "derived_classes": [
+      "bird",
+      "dog",
+      "cat",
+      "rabbit",
+      "hamster",
+      "turtle",
+      "snake",
+      "fish",
+      "lizard"
+    ],
+    "base_class_entity": "Bird"
+  },
+  "tool_template": {
+    "name": "petNutritionAnalyzer_analyze<class>Diet",
+    "description": "Analyzes and provides dietary recommendations for common pet <class> based on their species and age.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "species": {
+          "type": "string",
+          "description": "The species of the <class>."
+        },
+        "age": {
+          "type": "integer",
+          "description": "The age of the <class> in years. Minimum value is 0."
+        }
+      },
+      "required": [
+        "species",
+        "age"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "healthConditions": {
+      "type": "array",
+      "description": "List of any known health conditions the <class> has.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "timeOfDay": {
+      "type": "string",
+      "description": "Preferred time of day for feeding analysis to consider."
+    }
+  },
+  "additional_params": {
+    "activityLevel": {
+      "type": "string",
+      "description": "The activity level of the <class>, which may influence dietary needs (e.g., low, moderate, high)."
+    },
+    "dietaryRestrictions": {
+      "type": "array",
+      "description": "List of any known dietary restrictions or allergies the <class> has.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "environment": {
+      "type": "string",
+      "description": "The type of environment where the <class> resides, which might affect its diet (e.g., indoor, outdoor, mixed)."
+    },
+    "weight": {
+      "type": "number",
+      "description": "The weight of the <class> in kilograms, which can impact dietary analysis."
+    },
+    "feedingFrequency": {
+      "type": "integer",
+      "description": "The number of times the <class> is fed per day."
+    }
+  }
+}

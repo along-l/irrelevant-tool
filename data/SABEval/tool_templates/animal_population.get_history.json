@@ -1,0 +1,73 @@
+{
+  "tool_template_name": "animal_population.get_history",
+  "meta_data": {
+    "base_class": "retrieve the historical population size of a specific animal species in a given <country> - each country has independent ecological and data systems but shares the same query structure.",
+    "derived_classes": [
+      "United States",
+      "China",
+      "India",
+      "Brazil",
+      "Russia",
+      "Australia",
+      "South Africa",
+      "Canada",
+      "Japan",
+      "Germany",
+      "Mexico",
+      "France",
+      "Argentina",
+      "Egypt",
+      "Indonesia",
+      "Saudi Arabia",
+      "Italy",
+      "Kenya",
+      "Norway",
+      "Chile"
+    ],
+    "base_class_entity": "country"
+  },
+  "tool_template": {
+    "name": "animal_population.get_<class>_history",
+    "description": "Retrieve historical population size of a specific species in <class>.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "species": {
+          "type": "string",
+          "description": "Species of the animal for which the historical population size is requested in <class>."
+        },
+        "years": {
+          "type": "integer",
+          "description": "Number of years of historical data to retrieve."
+        }
+      },
+      "required": [
+        "species",
+        "years"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "data_source": {
+      "type": "string",
+      "description": "The preferred data source for retrieving historical population data of the species in <class>."
+    },
+    "granularity": {
+      "type": "string",
+      "description": "The level of detail in the historical data, being 'national', 'regional', or 'local', when retrieving species population size in <class>."
+    },
+    "confidence_interval": {
+      "type": "number",
+      "description": "The confidence interval to apply to the species population estimates in <class>, expressed as a percentage."
+    },
+    "output_format": {
+      "type": "string",
+      "description": "The desired output format of the species population history data in <class>, being 'json', 'csv', or 'xml'."
+    },
+    "time_interval": {
+      "type": "string",
+      "description": "The time interval for data aggregation, being 'monthly', 'quarterly', or 'yearly', for the species historical population data in <country>."
+    }
+  }
+}

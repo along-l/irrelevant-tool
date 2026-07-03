@@ -1,0 +1,537 @@
+{
+  "finance.fetchGDP|:|GDP|:|country,year,format,include_historical_context,adjust_for_inflation,data_source": {
+    "tool_template_name": "finance.fetchGDP",
+    "derived_class": "GDP",
+    "params_for_query": [
+      "country",
+      "year",
+      "format",
+      "include_historical_context",
+      "adjust_for_inflation",
+      "data_source"
+    ],
+    "queries": [
+      {
+        "query": "What was the GDP of Japan in 2015 in USD, including historical context, adjusted for inflation, using data from World Bank?",
+        "filled_param": {
+          "country": "Japan",
+          "year": 2015,
+          "format": "USD",
+          "include_historical_context": true,
+          "adjust_for_inflation": true,
+          "data_source": "World Bank"
+        }
+      },
+      {
+        "query": "Fetch the GDP of Germany for the year 2020 in EUR without historical context, adjusted for inflation, from the IMF.",
+        "filled_param": {
+          "country": "Germany",
+          "year": 2020,
+          "format": "EUR",
+          "include_historical_context": false,
+          "adjust_for_inflation": true,
+          "data_source": "IMF"
+        }
+      },
+      {
+        "query": "Can you tell me the GDP of Brazil in 2018 in GBP, including historical context and not adjusted for inflation, using data from World Bank?",
+        "filled_param": {
+          "country": "Brazil",
+          "year": 2018,
+          "format": "GBP",
+          "include_historical_context": true,
+          "adjust_for_inflation": false,
+          "data_source": "World Bank"
+        }
+      },
+      {
+        "query": "I need the GDP of India for 2010 in USD, without historical context and adjusted for inflation, from the IMF.",
+        "filled_param": {
+          "country": "India",
+          "year": 2010,
+          "format": "USD",
+          "include_historical_context": false,
+          "adjust_for_inflation": true,
+          "data_source": "IMF"
+        }
+      },
+      {
+        "query": "What's the GDP of the United Kingdom in 2005 in EUR, with historical context, not adjusted for inflation, using World Bank data?",
+        "filled_param": {
+          "country": "United Kingdom",
+          "year": 2005,
+          "format": "EUR",
+          "include_historical_context": true,
+          "adjust_for_inflation": false,
+          "data_source": "World Bank"
+        }
+      },
+      {
+        "query": "Provide the GDP for Canada in 2019 in GBP, without historical context, and adjusted for inflation, using IMF as the data source.",
+        "filled_param": {
+          "country": "Canada",
+          "year": 2019,
+          "format": "GBP",
+          "include_historical_context": false,
+          "adjust_for_inflation": true,
+          "data_source": "IMF"
+        }
+      },
+      {
+        "query": "Could you retrieve the GDP of China for 2021 in USD, with historical context, adjusted for inflation, from World Bank?",
+        "filled_param": {
+          "country": "China",
+          "year": 2021,
+          "format": "USD",
+          "include_historical_context": true,
+          "adjust_for_inflation": true,
+          "data_source": "World Bank"
+        }
+      }
+    ]
+  },
+  "finance.fetchGDP|:|government debt|:|country,year,format,include_historical_context,adjust_for_inflation,data_source": {
+    "tool_template_name": "finance.fetchGDP",
+    "derived_class": "government debt",
+    "params_for_query": [
+      "country",
+      "year",
+      "format",
+      "include_historical_context",
+      "adjust_for_inflation",
+      "data_source"
+    ],
+    "queries": [
+      {
+        "query": "What was the government debt of Japan in 2020 in USD, including historical context, adjusted for inflation, and sourced from World Bank?",
+        "filled_param": {
+          "country": "Japan",
+          "year": 2020,
+          "format": "USD",
+          "include_historical_context": true,
+          "adjust_for_inflation": true,
+          "data_source": "World Bank"
+        }
+      },
+      {
+        "query": "Fetch the government debt data for Brazil for the year 2015 in EUR, without historical context, not adjusted for inflation, using IMF as the source.",
+        "filled_param": {
+          "country": "Brazil",
+          "year": 2015,
+          "format": "EUR",
+          "include_historical_context": false,
+          "adjust_for_inflation": false,
+          "data_source": "IMF"
+        }
+      },
+      {
+        "query": "Can you provide the government debt figures for Canada in 2018, displayed in GBP, with historical context, adjusted for inflation, from the World Bank?",
+        "filled_param": {
+          "country": "Canada",
+          "year": 2018,
+          "format": "GBP",
+          "include_historical_context": true,
+          "adjust_for_inflation": true,
+          "data_source": "World Bank"
+        }
+      },
+      {
+        "query": "I need the government debt for Italy in 2010 in USD, no historical context, adjusted for inflation, data sourced from IMF.",
+        "filled_param": {
+          "country": "Italy",
+          "year": 2010,
+          "format": "USD",
+          "include_historical_context": false,
+          "adjust_for_inflation": true,
+          "data_source": "IMF"
+        }
+      },
+      {
+        "query": "Provide the 1995 government debt for Germany in EUR, with historical context included, without adjusting for inflation, from the World Bank.",
+        "filled_param": {
+          "country": "Germany",
+          "year": 1995,
+          "format": "EUR",
+          "include_historical_context": true,
+          "adjust_for_inflation": false,
+          "data_source": "World Bank"
+        }
+      },
+      {
+        "query": "What was the government debt of India in 2005 reported in GBP, excluding historical context, with inflation adjustments, from IMF?",
+        "filled_param": {
+          "country": "India",
+          "year": 2005,
+          "format": "GBP",
+          "include_historical_context": false,
+          "adjust_for_inflation": true,
+          "data_source": "IMF"
+        }
+      },
+      {
+        "query": "Could you find the government debt data for the United Kingdom in 2021 in USD, including historical context, not adjusted for inflation, and from the World Bank?",
+        "filled_param": {
+          "country": "United Kingdom",
+          "year": 2021,
+          "format": "USD",
+          "include_historical_context": true,
+          "adjust_for_inflation": false,
+          "data_source": "World Bank"
+        }
+      }
+    ]
+  },
+  "finance.fetchGDP|:|trade balance|:|country,year,format,include_historical_context,adjust_for_inflation,data_source": {
+    "tool_template_name": "finance.fetchGDP",
+    "derived_class": "trade balance",
+    "params_for_query": [
+      "country",
+      "year",
+      "format",
+      "include_historical_context",
+      "adjust_for_inflation",
+      "data_source"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the trade balance for Germany in 2020, formatted in EUR utilizing data from the World Bank, including historical context and adjusted for inflation?",
+        "filled_param": {
+          "country": "Germany",
+          "year": 2020,
+          "format": "EUR",
+          "include_historical_context": true,
+          "adjust_for_inflation": true,
+          "data_source": "World Bank"
+        }
+      },
+      {
+        "query": "Fetch the UK trade balance for 2019 in GBP without historical context, but make sure it's adjusted for inflation, using IMF data.",
+        "filled_param": {
+          "country": "UK",
+          "year": 2019,
+          "format": "GBP",
+          "include_historical_context": false,
+          "adjust_for_inflation": true,
+          "data_source": "IMF"
+        }
+      },
+      {
+        "query": "I need the trade balance figures for China in 2018, presented in USD. Use World Bank data, include historical context, but do not adjust for inflation.",
+        "filled_param": {
+          "country": "China",
+          "year": 2018,
+          "format": "USD",
+          "include_historical_context": true,
+          "adjust_for_inflation": false,
+          "data_source": "World Bank"
+        }
+      },
+      {
+        "query": "What's the trade balance for Canada in 2021 in USD? No historical context, but adjusted for inflation, sourced from the IMF.",
+        "filled_param": {
+          "country": "Canada",
+          "year": 2021,
+          "format": "USD",
+          "include_historical_context": false,
+          "adjust_for_inflation": true,
+          "data_source": "IMF"
+        }
+      },
+      {
+        "query": "Can you get the trade balance of Japan for 2017 in EUR, including historical context, without adjusting for inflation, using World Bank data?",
+        "filled_param": {
+          "country": "Japan",
+          "year": 2017,
+          "format": "EUR",
+          "include_historical_context": true,
+          "adjust_for_inflation": false,
+          "data_source": "World Bank"
+        }
+      },
+      {
+        "query": "Provide the trade balance for Australia in 2015 formatted in GBP with historical context and inflation adjustment from the IMF.",
+        "filled_param": {
+          "country": "Australia",
+          "year": 2015,
+          "format": "GBP",
+          "include_historical_context": true,
+          "adjust_for_inflation": true,
+          "data_source": "IMF"
+        }
+      },
+      {
+        "query": "I need information on Brazil's trade balance for 2022 in EUR, without historical context or inflation adjustment, sourced from the World Bank.",
+        "filled_param": {
+          "country": "Brazil",
+          "year": 2022,
+          "format": "EUR",
+          "include_historical_context": false,
+          "adjust_for_inflation": false,
+          "data_source": "World Bank"
+        }
+      }
+    ]
+  },
+  "finance.fetchGDP|:|public spending|:|country,year,format,include_historical_context,adjust_for_inflation,data_source": {
+    "tool_template_name": "finance.fetchGDP",
+    "derived_class": "public spending",
+    "params_for_query": [
+      "country",
+      "year",
+      "format",
+      "include_historical_context",
+      "adjust_for_inflation",
+      "data_source"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the public spending of Germany for the year 2020 in USD, including historical context, adjusted for inflation, using data from the World Bank?",
+        "filled_param": {
+          "country": "Germany",
+          "year": 2020,
+          "format": "USD",
+          "include_historical_context": true,
+          "adjust_for_inflation": true,
+          "data_source": "World Bank"
+        }
+      },
+      {
+        "query": "Fetch the public spending figures for Canada in 2018, reported in EUR. Please include historical context and adjust for inflation, and use the IMF as the data source.",
+        "filled_param": {
+          "country": "Canada",
+          "year": 2018,
+          "format": "EUR",
+          "include_historical_context": true,
+          "adjust_for_inflation": true,
+          "data_source": "IMF"
+        }
+      },
+      {
+        "query": "I need to know the public spending of Japan for 2021, formatted in GBP without historical context, adjusted for inflation, sourced from the World Bank.",
+        "filled_param": {
+          "country": "Japan",
+          "year": 2021,
+          "format": "GBP",
+          "include_historical_context": false,
+          "adjust_for_inflation": true,
+          "data_source": "World Bank"
+        }
+      },
+      {
+        "query": "What was the public spending of Brazil in 2019? Please give me the data in USD, with historical context included, no inflation adjustment, using the IMF as the source.",
+        "filled_param": {
+          "country": "Brazil",
+          "year": 2019,
+          "format": "USD",
+          "include_historical_context": true,
+          "adjust_for_inflation": false,
+          "data_source": "IMF"
+        }
+      },
+      {
+        "query": "Provide the public spending information for Australia in the year 2022 in EUR. Historical context is not required, but please adjust for inflation. Use World Bank data.",
+        "filled_param": {
+          "country": "Australia",
+          "year": 2022,
+          "format": "EUR",
+          "include_historical_context": false,
+          "adjust_for_inflation": true,
+          "data_source": "World Bank"
+        }
+      },
+      {
+        "query": "Can you fetch the public spending details for India for 2017, shown in GBP, with historical context, no inflation adjustment, from the IMF?",
+        "filled_param": {
+          "country": "India",
+          "year": 2017,
+          "format": "GBP",
+          "include_historical_context": true,
+          "adjust_for_inflation": false,
+          "data_source": "IMF"
+        }
+      },
+      {
+        "query": "I'd like to know the public spending of France in 2015, in USD, without historical context or inflation adjustment, using the World Bank as the source.",
+        "filled_param": {
+          "country": "France",
+          "year": 2015,
+          "format": "USD",
+          "include_historical_context": false,
+          "adjust_for_inflation": false,
+          "data_source": "World Bank"
+        }
+      }
+    ]
+  },
+  "finance.fetchGDP|:|foreign reserves|:|country,year,format,include_historical_context,adjust_for_inflation,data_source": {
+    "tool_template_name": "finance.fetchGDP",
+    "derived_class": "foreign reserves",
+    "params_for_query": [
+      "country",
+      "year",
+      "format",
+      "include_historical_context",
+      "adjust_for_inflation",
+      "data_source"
+    ],
+    "queries": [
+      {
+        "query": "What were the foreign reserves of Japan in 2020, adjusted for inflation and including historical context, using data from the IMF in USD?",
+        "filled_param": {
+          "country": "Japan",
+          "year": 2020,
+          "format": "USD",
+          "include_historical_context": true,
+          "adjust_for_inflation": true,
+          "data_source": "IMF"
+        }
+      },
+      {
+        "query": "Fetch the foreign reserves for Brazil for the year 2015 in EUR, without adjusting for inflation, but include historical context. Use World Bank as the data source.",
+        "filled_param": {
+          "country": "Brazil",
+          "year": 2015,
+          "format": "EUR",
+          "include_historical_context": true,
+          "adjust_for_inflation": false,
+          "data_source": "World Bank"
+        }
+      },
+      {
+        "query": "Can you provide Germany's foreign reserves for 2018 in GBP, adjusted for inflation? No need for historical context, data from the IMF.",
+        "filled_param": {
+          "country": "Germany",
+          "year": 2018,
+          "format": "GBP",
+          "include_historical_context": false,
+          "adjust_for_inflation": true,
+          "data_source": "IMF"
+        }
+      },
+      {
+        "query": "Get me the foreign reserves of India for 2021 in USD with both historical context and inflation adjustment included, using World Bank data.",
+        "filled_param": {
+          "country": "India",
+          "year": 2021,
+          "format": "USD",
+          "include_historical_context": true,
+          "adjust_for_inflation": true,
+          "data_source": "World Bank"
+        }
+      },
+      {
+        "query": "I need the foreign reserves of Russia for the year 2017, in EUR, with inflation adjustment but without historical context, sourced from IMF.",
+        "filled_param": {
+          "country": "Russia",
+          "year": 2017,
+          "format": "EUR",
+          "include_historical_context": false,
+          "adjust_for_inflation": true,
+          "data_source": "IMF"
+        }
+      },
+      {
+        "query": "Could you retrieve the foreign reserves data for South Korea in 2019, formatted in GBP? Historical context is needed, but do not adjust for inflation. Source: World Bank.",
+        "filled_param": {
+          "country": "South Korea",
+          "year": 2019,
+          "format": "GBP",
+          "include_historical_context": true,
+          "adjust_for_inflation": false,
+          "data_source": "World Bank"
+        }
+      },
+      {
+        "query": "Please provide the foreign reserves for Canada for 2022 in USD, without historical context and not adjusted for inflation, using IMF data.",
+        "filled_param": {
+          "country": "Canada",
+          "year": 2022,
+          "format": "USD",
+          "include_historical_context": false,
+          "adjust_for_inflation": false,
+          "data_source": "IMF"
+        }
+      }
+    ]
+  },
+  "finance.fetchGDP|:|military expenditure|:|country,year,format,include_historical_context,adjust_for_inflation,data_source": {
+    "tool_template_name": "finance.fetchGDP",
+    "derived_class": "military expenditure",
+    "params_for_query": [
+      "country",
+      "year",
+      "format",
+      "include_historical_context",
+      "adjust_for_inflation",
+      "data_source"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the military expenditure of Germany in 2020, adjusted for inflation, with historical context, in USD, using the World Bank as the data source?",
+        "filled_param": {
+          "country": "Germany",
+          "year": 2020,
+          "format": "USD",
+          "include_historical_context": true,
+          "adjust_for_inflation": true,
+          "data_source": "World Bank"
+        }
+      },
+      {
+        "query": "Fetch the military expenditure for Japan in the year 2015, without inflation adjustment but with historical context. Please use IMF as the source and return the data in EUR.",
+        "filled_param": {
+          "country": "Japan",
+          "year": 2015,
+          "format": "EUR",
+          "include_historical_context": true,
+          "adjust_for_inflation": false,
+          "data_source": "IMF"
+        }
+      },
+      {
+        "query": "I need the military expenditure data for Brazil for 2019, with both inflation adjustment and historical context. Fetch this in GBP from World Bank.",
+        "filled_param": {
+          "country": "Brazil",
+          "year": 2019,
+          "format": "GBP",
+          "include_historical_context": true,
+          "adjust_for_inflation": true,
+          "data_source": "World Bank"
+        }
+      },
+      {
+        "query": "Could you get the 2018 military expenditure details of India, without historical context or inflation adjustment, in USD, from the IMF?",
+        "filled_param": {
+          "country": "India",
+          "year": 2018,
+          "format": "USD",
+          "include_historical_context": false,
+          "adjust_for_inflation": false,
+          "data_source": "IMF"
+        }
+      },
+      {
+        "query": "Retrieve the military expenditure for Canada in 2021, with historical context but without inflation adjustment, reported in EUR using the World Bank as the source.",
+        "filled_param": {
+          "country": "Canada",
+          "year": 2021,
+          "format": "EUR",
+          "include_historical_context": true,
+          "adjust_for_inflation": false,
+          "data_source": "World Bank"
+        }
+      },
+      {
+        "query": "What was the military expenditure of Russia in 2017, adjusted for inflation but without historical context, in GBP, sourced from IMF?",
+        "filled_param": {
+          "country": "Russia",
+          "year": 2017,
+          "format": "GBP",
+          "include_historical_context": false,
+          "adjust_for_inflation": true,
+          "data_source": "IMF"
+        }
+      }
+    ]
+  }
+}

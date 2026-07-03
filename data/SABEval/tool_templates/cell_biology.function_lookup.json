@@ -1,0 +1,59 @@
+{
+  "tool_template_name": "cell_biology.function_lookup",
+  "meta_data": {
+    "base_class": "look up the function of a molecule within a specific <organelle> - different organelles are structurally and functionally independent yet comparable.",
+    "derived_classes": [
+      "mitochondria",
+      "nucleus",
+      "endoplasmic reticulum",
+      "Golgi apparatus",
+      "lysosome",
+      "chloroplast"
+    ],
+    "base_class_entity": ""
+  },
+  "tool_template": {
+    "name": "function_lookup_in_<class>",
+    "description": "Look up the function of a given molecule in the <class>.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "molecule": {
+          "type": "string",
+          "description": "The molecule of interest in the <class>."
+        },
+        "specific_function": {
+          "type": "boolean",
+          "description": "If set to true, a specific function of the molecule within the <class> will be provided, if such information exists."
+        }
+      },
+      "required": [
+        "molecule",
+        "specific_function"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "organism_type": {
+      "type": "string",
+      "description": "The type of organism which contains the <class> being studied."
+    },
+    "temperature_condition": {
+      "type": "number",
+      "description": "The temperature condition under which the function of the molecule in the <class> is examined."
+    },
+    "pH_level": {
+      "type": "number",
+      "description": "The pH level at which the molecule's function is being analyzed in the <class>."
+    },
+    "time_of_day": {
+      "type": "string",
+      "description": "The time of day during which the molecule's function is being observed in the <class>."
+    },
+    "is_mutated": {
+      "type": "boolean",
+      "description": "Indicates whether the molecule in the <class> has any known mutations affecting its function."
+    }
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "get_flight_details|:|flight|:|origin,destination": {
+    "tool_template_name": "get_flight_details",
+    "derived_class": "flight",
+    "params_for_query": [
+      "origin",
+      "destination"
+    ],
+    "queries": [
+      {
+        "query": "Could you find flight details for a trip from New York to London?",
+        "filled_param": {
+          "origin": "New York",
+          "destination": "London"
+        }
+      },
+      {
+        "query": "I'd like to know about flights departing from Tokyo and arriving in Los Angeles.",
+        "filled_param": {
+          "origin": "Tokyo",
+          "destination": "Los Angeles"
+        }
+      },
+      {
+        "query": "What flights are available between Paris and Dubai?",
+        "filled_param": {
+          "origin": "Paris",
+          "destination": "Dubai"
+        }
+      },
+      {
+        "query": "Can you get me the flight options from Sydney to Singapore?",
+        "filled_param": {
+          "origin": "Sydney",
+          "destination": "Singapore"
+        }
+      },
+      {
+        "query": "Show me the flight schedules from Beijing to San Francisco.",
+        "filled_param": {
+          "origin": "Beijing",
+          "destination": "San Francisco"
+        }
+      }
+    ]
+  },
+  "get_flight_details|:|high-speed train|:|origin,destination": {
+    "tool_template_name": "get_flight_details",
+    "derived_class": "high-speed train",
+    "params_for_query": [
+      "origin",
+      "destination"
+    ],
+    "queries": [
+      {
+        "query": "What high-speed train options are available from Paris to Lyon?",
+        "filled_param": {
+          "origin": "Paris",
+          "destination": "Lyon"
+        }
+      },
+      {
+        "query": "Can you provide details on high-speed trains traveling from Tokyo to Osaka?",
+        "filled_param": {
+          "origin": "Tokyo",
+          "destination": "Osaka"
+        }
+      },
+      {
+        "query": "I'm looking for high-speed train routes from New York to Washington D.C.",
+        "filled_param": {
+          "origin": "New York",
+          "destination": "Washington D.C."
+        }
+      },
+      {
+        "query": "Tell me about the high-speed train schedule from Madrid to Barcelona.",
+        "filled_param": {
+          "origin": "Madrid",
+          "destination": "Barcelona"
+        }
+      },
+      {
+        "query": "Are there any high-speed train connections between Beijing and Shanghai?",
+        "filled_param": {
+          "origin": "Beijing",
+          "destination": "Shanghai"
+        }
+      }
+    ]
+  },
+  "get_flight_details|:|cruise ship|:|origin,destination": {
+    "tool_template_name": "get_flight_details",
+    "derived_class": "cruise ship",
+    "params_for_query": [
+      "origin",
+      "destination"
+    ],
+    "queries": [
+      {
+        "query": "I'm looking for cruise ship details traveling from Miami to the Bahamas.",
+        "filled_param": {
+          "origin": "Miami",
+          "destination": "Bahamas"
+        }
+      },
+      {
+        "query": "Can you provide information on cruise ships departing from Barcelona and heading to Rome?",
+        "filled_param": {
+          "origin": "Barcelona",
+          "destination": "Rome"
+        }
+      },
+      {
+        "query": "Find cruise ship options that sail from Sydney to Auckland.",
+        "filled_param": {
+          "origin": "Sydney",
+          "destination": "Auckland"
+        }
+      },
+      {
+        "query": "What are the available cruise ships traveling from New York to Bermuda?",
+        "filled_param": {
+          "origin": "New York",
+          "destination": "Bermuda"
+        }
+      },
+      {
+        "query": "I need details on cruise ships going from Vancouver to Alaska.",
+        "filled_param": {
+          "origin": "Vancouver",
+          "destination": "Alaska"
+        }
+      },
+      {
+        "query": "Could you get me the information on cruise ships that route from Tokyo to Osaka?",
+        "filled_param": {
+          "origin": "Tokyo",
+          "destination": "Osaka"
+        }
+      }
+    ]
+  },
+  "get_flight_details|:|long-distance bus|:|origin,destination": {
+    "tool_template_name": "get_flight_details",
+    "derived_class": "long-distance bus",
+    "params_for_query": [
+      "origin",
+      "destination"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide details of the long-distance bus going from New York City to Washington D.C.?",
+        "filled_param": {
+          "origin": "New York City",
+          "destination": "Washington D.C."
+        }
+      },
+      {
+        "query": "I need information on the long-distance bus traveling from Los Angeles to San Francisco.",
+        "filled_param": {
+          "origin": "Los Angeles",
+          "destination": "San Francisco"
+        }
+      },
+      {
+        "query": "What are the details for a long-distance bus trip from Chicago to Detroit?",
+        "filled_param": {
+          "origin": "Chicago",
+          "destination": "Detroit"
+        }
+      },
+      {
+        "query": "Find long-distance bus details for a route between Miami and Orlando.",
+        "filled_param": {
+          "origin": "Miami",
+          "destination": "Orlando"
+        }
+      },
+      {
+        "query": "Could you tell me about the long-distance bus service connecting Houston to Dallas?",
+        "filled_param": {
+          "origin": "Houston",
+          "destination": "Dallas"
+        }
+      },
+      {
+        "query": "I am looking for long-distance bus information from Seattle to Portland. Can you help?",
+        "filled_param": {
+          "origin": "Seattle",
+          "destination": "Portland"
+        }
+      }
+    ]
+  }
+}

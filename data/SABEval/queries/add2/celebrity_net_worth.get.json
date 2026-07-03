@@ -1,0 +1,500 @@
+{
+  "celebrity_net_worth.get|:|sports celebrity|:|name,currency,include_assets,tax_adjusted": {
+    "tool_template_name": "celebrity_net_worth.get",
+    "derived_class": "sports celebrity",
+    "params_for_query": [
+      "name",
+      "currency",
+      "include_assets",
+      "tax_adjusted"
+    ],
+    "queries": [
+      {
+        "query": "What's the net worth of sports celebrity Serena Williams in USD including assets and adjusted for tax?",
+        "filled_param": {
+          "name": "Serena Williams",
+          "currency": "USD",
+          "include_assets": true,
+          "tax_adjusted": true
+        }
+      },
+      {
+        "query": "Can you provide the net worth of sports celebrity Cristiano Ronaldo in Euros, without including assets and not tax adjusted?",
+        "filled_param": {
+          "name": "Cristiano Ronaldo",
+          "currency": "EUR",
+          "include_assets": false,
+          "tax_adjusted": false
+        }
+      },
+      {
+        "query": "Please give me the net worth for sports celebrity Lionel Messi in CNY, excluding assets and adjusted for tax.",
+        "filled_param": {
+          "name": "Lionel Messi",
+          "currency": "CNY",
+          "include_assets": false,
+          "tax_adjusted": true
+        }
+      },
+      {
+        "query": "I need to know the net worth of sports celebrity Roger Federer in USD, with assets included and not tax adjusted.",
+        "filled_param": {
+          "name": "Roger Federer",
+          "currency": "USD",
+          "include_assets": true,
+          "tax_adjusted": false
+        }
+      },
+      {
+        "query": "Find out the net worth of sports celebrity LeBron James in GBP, including assets and tax adjusted.",
+        "filled_param": {
+          "name": "LeBron James",
+          "currency": "GBP",
+          "include_assets": true,
+          "tax_adjusted": true
+        }
+      },
+      {
+        "query": "What is the net worth of sports celebrity Naomi Osaka in JPY, without asset details and not adjusted for tax?",
+        "filled_param": {
+          "name": "Naomi Osaka",
+          "currency": "JPY",
+          "include_assets": false,
+          "tax_adjusted": false
+        }
+      }
+    ]
+  },
+  "celebrity_net_worth.get|:|musician celebrity|:|name,currency,include_assets,tax_adjusted": {
+    "tool_template_name": "celebrity_net_worth.get",
+    "derived_class": "musician celebrity",
+    "params_for_query": [
+      "name",
+      "currency",
+      "include_assets",
+      "tax_adjusted"
+    ],
+    "queries": [
+      {
+        "query": "What is the net worth of musician celebrity Taylor Swift in USD, and please include detailed asset information without tax adjustment?",
+        "filled_param": {
+          "name": "Taylor Swift",
+          "currency": "USD",
+          "include_assets": true,
+          "tax_adjusted": false
+        }
+      },
+      {
+        "query": "Can you provide the net worth of musician celebrity Ed Sheeran in CNY, excluding assets and calculated post-tax?",
+        "filled_param": {
+          "name": "Ed Sheeran",
+          "currency": "CNY",
+          "include_assets": false,
+          "tax_adjusted": true
+        }
+      },
+      {
+        "query": "I need to know the total net worth of musician celebrity Beyoncé in EUR, with asset details and no tax adjustment.",
+        "filled_param": {
+          "name": "Beyoncé",
+          "currency": "EUR",
+          "include_assets": true,
+          "tax_adjusted": false
+        }
+      },
+      {
+        "query": "How much is musician celebrity Drake worth in GBP, considering assets and after tax adjustments?",
+        "filled_param": {
+          "name": "Drake",
+          "currency": "GBP",
+          "include_assets": true,
+          "tax_adjusted": true
+        }
+      },
+      {
+        "query": "Please find the net worth of musician celebrity Rihanna in JPY, without including any asset details and not tax adjusted.",
+        "filled_param": {
+          "name": "Rihanna",
+          "currency": "JPY",
+          "include_assets": false,
+          "tax_adjusted": false
+        }
+      },
+      {
+        "query": "Get the estimated net worth for musician celebrity Justin Bieber in AUD, including assets and before tax.",
+        "filled_param": {
+          "name": "Justin Bieber",
+          "currency": "AUD",
+          "include_assets": true,
+          "tax_adjusted": false
+        }
+      },
+      {
+        "query": "What's the current net worth of musician celebrity Lady Gaga in CAD, excluding assets and post-tax?",
+        "filled_param": {
+          "name": "Lady Gaga",
+          "currency": "CAD",
+          "include_assets": false,
+          "tax_adjusted": true
+        }
+      }
+    ]
+  },
+  "celebrity_net_worth.get|:|writer celebrity|:|name,currency,include_assets,tax_adjusted": {
+    "tool_template_name": "celebrity_net_worth.get",
+    "derived_class": "writer celebrity",
+    "params_for_query": [
+      "name",
+      "currency",
+      "include_assets",
+      "tax_adjusted"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the net worth of the writer celebrity J.K. Rowling in GBP, including all her assets, but not tax-adjusted?",
+        "filled_param": {
+          "name": "J.K. Rowling",
+          "currency": "GBP",
+          "include_assets": true,
+          "tax_adjusted": false
+        }
+      },
+      {
+        "query": "What's the tax-adjusted net worth of writer celebrity Stephen King, shown in USD, without including his assets?",
+        "filled_param": {
+          "name": "Stephen King",
+          "currency": "USD",
+          "include_assets": false,
+          "tax_adjusted": true
+        }
+      },
+      {
+        "query": "I need to know the net worth of writer celebrity Haruki Murakami in JPY, including his assets and tax-adjusted.",
+        "filled_param": {
+          "name": "Haruki Murakami",
+          "currency": "JPY",
+          "include_assets": true,
+          "tax_adjusted": true
+        }
+      },
+      {
+        "query": "Tell me the non-tax-adjusted net worth of writer celebrity Margaret Atwood in CAD, without asset details.",
+        "filled_param": {
+          "name": "Margaret Atwood",
+          "currency": "CAD",
+          "include_assets": false,
+          "tax_adjusted": false
+        }
+      },
+      {
+        "query": "Calculate the net worth of writer celebrity Dan Brown in EUR, including assets, and make it tax-adjusted.",
+        "filled_param": {
+          "name": "Dan Brown",
+          "currency": "EUR",
+          "include_assets": true,
+          "tax_adjusted": true
+        }
+      },
+      {
+        "query": "What is the net worth of writer celebrity Isabel Allende in CLP, excluding her assets and not tax-adjusted?",
+        "filled_param": {
+          "name": "Isabel Allende",
+          "currency": "CLP",
+          "include_assets": false,
+          "tax_adjusted": false
+        }
+      },
+      {
+        "query": "Find out the tax-adjusted net worth of writer celebrity Paulo Coelho in BRL, without including his assets.",
+        "filled_param": {
+          "name": "Paulo Coelho",
+          "currency": "BRL",
+          "include_assets": false,
+          "tax_adjusted": true
+        }
+      }
+    ]
+  },
+  "celebrity_net_worth.get|:|esports celebrity|:|name,currency,include_assets,tax_adjusted": {
+    "tool_template_name": "celebrity_net_worth.get",
+    "derived_class": "esports celebrity",
+    "params_for_query": [
+      "name",
+      "currency",
+      "include_assets",
+      "tax_adjusted"
+    ],
+    "queries": [
+      {
+        "query": "Can you tell me the net worth of the esports celebrity Faker in USD, including his assets, and make sure it's tax adjusted?",
+        "filled_param": {
+          "name": "Faker",
+          "currency": "USD",
+          "include_assets": true,
+          "tax_adjusted": true
+        }
+      },
+      {
+        "query": "Find out what the esports celebrity Ninja is currently worth in Euros, excluding assets and not adjusted for taxes.",
+        "filled_param": {
+          "name": "Ninja",
+          "currency": "EUR",
+          "include_assets": false,
+          "tax_adjusted": false
+        }
+      },
+      {
+        "query": "What's the total net worth of esports celebrity Dendi in Japanese Yen, ensuring to include asset details but not post-tax?",
+        "filled_param": {
+          "name": "Dendi",
+          "currency": "JPY",
+          "include_assets": true,
+          "tax_adjusted": false
+        }
+      },
+      {
+        "query": "Could you provide the net worth of esports celebrity s1mple in GBP, without asset details, and with tax adjustments?",
+        "filled_param": {
+          "name": "s1mple",
+          "currency": "GBP",
+          "include_assets": false,
+          "tax_adjusted": true
+        }
+      },
+      {
+        "query": "I need the net worth of esports celebrity Shroud in Canadian dollars, including all assets and calculated before tax.",
+        "filled_param": {
+          "name": "Shroud",
+          "currency": "CAD",
+          "include_assets": true,
+          "tax_adjusted": false
+        }
+      },
+      {
+        "query": "What's the current net worth of the esports celebrity xPeke in Brazilian Real, with detailed assets included, and adjusted for taxes?",
+        "filled_param": {
+          "name": "xPeke",
+          "currency": "BRL",
+          "include_assets": true,
+          "tax_adjusted": true
+        }
+      },
+      {
+        "query": "Determine the net worth of esports celebrity Zywoo in South Korean Won, excluding assets and before tax adjustment.",
+        "filled_param": {
+          "name": "Zywoo",
+          "currency": "KRW",
+          "include_assets": false,
+          "tax_adjusted": false
+        }
+      }
+    ]
+  },
+  "celebrity_net_worth.get|:|director celebrity|:|name,currency,include_assets,tax_adjusted": {
+    "tool_template_name": "celebrity_net_worth.get",
+    "derived_class": "director celebrity",
+    "params_for_query": [
+      "name",
+      "currency",
+      "include_assets",
+      "tax_adjusted"
+    ],
+    "queries": [
+      {
+        "query": "What is the net worth of director celebrity Christopher Nolan in USD, including his assets and after tax adjustments?",
+        "filled_param": {
+          "name": "Christopher Nolan",
+          "currency": "USD",
+          "include_assets": true,
+          "tax_adjusted": true
+        }
+      },
+      {
+        "query": "Can you provide the net worth of director celebrity Ang Lee in CNY, excluding asset details and not adjusted for taxes?",
+        "filled_param": {
+          "name": "Ang Lee",
+          "currency": "CNY",
+          "include_assets": false,
+          "tax_adjusted": false
+        }
+      },
+      {
+        "query": "I'd like to know the tax-adjusted net worth of director celebrity Quentin Tarantino in euros without including asset information.",
+        "filled_param": {
+          "name": "Quentin Tarantino",
+          "currency": "EUR",
+          "include_assets": false,
+          "tax_adjusted": true
+        }
+      },
+      {
+        "query": "Please find out the net worth of director celebrity Sofia Coppola in GBP with asset details included but without tax adjustments.",
+        "filled_param": {
+          "name": "Sofia Coppola",
+          "currency": "GBP",
+          "include_assets": true,
+          "tax_adjusted": false
+        }
+      },
+      {
+        "query": "Get the net worth of director celebrity Martin Scorsese in USD, after taxes, but excluding any asset breakdown.",
+        "filled_param": {
+          "name": "Martin Scorsese",
+          "currency": "USD",
+          "include_assets": false,
+          "tax_adjusted": true
+        }
+      },
+      {
+        "query": "What is the net worth of director celebrity Kathryn Bigelow in AUD, with all assets included and before tax deductions?",
+        "filled_param": {
+          "name": "Kathryn Bigelow",
+          "currency": "AUD",
+          "include_assets": true,
+          "tax_adjusted": false
+        }
+      }
+    ]
+  },
+  "celebrity_net_worth.get|:|painter celebrity|:|name,currency,include_assets,tax_adjusted": {
+    "tool_template_name": "celebrity_net_worth.get",
+    "derived_class": "painter celebrity",
+    "params_for_query": [
+      "name",
+      "currency",
+      "include_assets",
+      "tax_adjusted"
+    ],
+    "queries": [
+      {
+        "query": "What is the net worth of painter celebrity Jeff Koons in USD, including asset details and post-tax adjustment?",
+        "filled_param": {
+          "name": "Jeff Koons",
+          "currency": "USD",
+          "include_assets": true,
+          "tax_adjusted": true
+        }
+      },
+      {
+        "query": "Could you provide the net worth of painter celebrity Yayoi Kusama in EUR without asset details and not post-tax?",
+        "filled_param": {
+          "name": "Yayoi Kusama",
+          "currency": "EUR",
+          "include_assets": false,
+          "tax_adjusted": false
+        }
+      },
+      {
+        "query": "Get me the current net worth of painter celebrity Banksy in GBP, excluding asset specifics and including tax adjustments.",
+        "filled_param": {
+          "name": "Banksy",
+          "currency": "GBP",
+          "include_assets": false,
+          "tax_adjusted": true
+        }
+      },
+      {
+        "query": "I'd like to know the net worth of painter celebrity Gerhard Richter in CNY, with asset details and not adjusted for tax.",
+        "filled_param": {
+          "name": "Gerhard Richter",
+          "currency": "CNY",
+          "include_assets": true,
+          "tax_adjusted": false
+        }
+      },
+      {
+        "query": "Can you tell me the net worth of painter celebrity Damien Hirst in JPY, including assets and tax-adjusted?",
+        "filled_param": {
+          "name": "Damien Hirst",
+          "currency": "JPY",
+          "include_assets": true,
+          "tax_adjusted": true
+        }
+      },
+      {
+        "query": "What's the value of painter celebrity Takashi Murakami's net worth in USD, without asset details and pre-tax?",
+        "filled_param": {
+          "name": "Takashi Murakami",
+          "currency": "USD",
+          "include_assets": false,
+          "tax_adjusted": false
+        }
+      },
+      {
+        "query": "Find the net worth of painter celebrity Ai Weiwei in AUD, with asset information included and after tax adjustment.",
+        "filled_param": {
+          "name": "Ai Weiwei",
+          "currency": "AUD",
+          "include_assets": true,
+          "tax_adjusted": true
+        }
+      }
+    ]
+  },
+  "celebrity_net_worth.get|:|chef celebrity|:|name,currency,include_assets,tax_adjusted": {
+    "tool_template_name": "celebrity_net_worth.get",
+    "derived_class": "chef celebrity",
+    "params_for_query": [
+      "name",
+      "currency",
+      "include_assets",
+      "tax_adjusted"
+    ],
+    "queries": [
+      {
+        "query": "What is the net worth of the chef celebrity Gordon Ramsay in USD, including his assets, and adjusted for taxes?",
+        "filled_param": {
+          "name": "Gordon Ramsay",
+          "currency": "USD",
+          "include_assets": true,
+          "tax_adjusted": true
+        }
+      },
+      {
+        "query": "Could you provide the net worth of chef celebrity Jamie Oliver in GBP without considering asset details and without tax adjustment?",
+        "filled_param": {
+          "name": "Jamie Oliver",
+          "currency": "GBP",
+          "include_assets": false,
+          "tax_adjusted": false
+        }
+      },
+      {
+        "query": "I need to know the net worth of chef celebrity Nigella Lawson in EUR, excluding any detailed asset information but after taxes.",
+        "filled_param": {
+          "name": "Nigella Lawson",
+          "currency": "EUR",
+          "include_assets": false,
+          "tax_adjusted": true
+        }
+      },
+      {
+        "query": "How much is the chef celebrity Rachael Ray worth in AUD, with asset details included and no tax adjustments?",
+        "filled_param": {
+          "name": "Rachael Ray",
+          "currency": "AUD",
+          "include_assets": true,
+          "tax_adjusted": false
+        }
+      },
+      {
+        "query": "Tell me the net worth of chef celebrity Wolfgang Puck in JPY, excluding detailed assets and including tax adjustments.",
+        "filled_param": {
+          "name": "Wolfgang Puck",
+          "currency": "JPY",
+          "include_assets": false,
+          "tax_adjusted": true
+        }
+      },
+      {
+        "query": "Can you find out chef celebrity Emeril Lagasse's net worth in CNY, with asset details and after tax considerations?",
+        "filled_param": {
+          "name": "Emeril Lagasse",
+          "currency": "CNY",
+          "include_assets": true,
+          "tax_adjusted": true
+        }
+      }
+    ]
+  }
+}

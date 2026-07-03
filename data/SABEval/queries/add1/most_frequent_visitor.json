@@ -1,0 +1,500 @@
+{
+  "most_frequent_visitor|:|museum|:|venue_name,start_date,end_date,minimum_visits": {
+    "tool_template_name": "most_frequent_visitor",
+    "derived_class": "museum",
+    "params_for_query": [
+      "venue_name",
+      "start_date",
+      "end_date",
+      "minimum_visits"
+    ],
+    "queries": [
+      {
+        "query": "Who was the most frequent visitor to the Museum of Modern Art between 2023-01-01 and 2023-06-30 with at least 10 visits?",
+        "filled_param": {
+          "venue_name": "Museum of Modern Art",
+          "start_date": "2023-01-01",
+          "end_date": "2023-06-30",
+          "minimum_visits": 10
+        }
+      },
+      {
+        "query": "Identify the top visitor to the Louvre museum from 2022-05-01 to 2022-12-31 who visited at least 15 times.",
+        "filled_param": {
+          "venue_name": "Louvre",
+          "start_date": "2022-05-01",
+          "end_date": "2022-12-31",
+          "minimum_visits": 15
+        }
+      },
+      {
+        "query": "Can you tell me who visited the British Museum most frequently between 2023-07-01 and 2023-09-30, with a minimum of 8 visits?",
+        "filled_param": {
+          "venue_name": "British Museum",
+          "start_date": "2023-07-01",
+          "end_date": "2023-09-30",
+          "minimum_visits": 8
+        }
+      },
+      {
+        "query": "Find the person who went to the National Gallery of Art most often from 2023-03-15 to 2023-04-15, requiring at least 5 visits.",
+        "filled_param": {
+          "venue_name": "National Gallery of Art",
+          "start_date": "2023-03-15",
+          "end_date": "2023-04-15",
+          "minimum_visits": 5
+        }
+      },
+      {
+        "query": "Who is the most frequent visitor of the Tate Modern in the period from 2023-02-01 to 2023-05-01 with at least 20 visits?",
+        "filled_param": {
+          "venue_name": "Tate Modern",
+          "start_date": "2023-02-01",
+          "end_date": "2023-05-01",
+          "minimum_visits": 20
+        }
+      },
+      {
+        "query": "Determine the individual with the most visits to the Smithsonian American Art Museum between 2023-01-15 and 2023-03-15, with a criterion of at least 12 visits.",
+        "filled_param": {
+          "venue_name": "Smithsonian American Art Museum",
+          "start_date": "2023-01-15",
+          "end_date": "2023-03-15",
+          "minimum_visits": 12
+        }
+      },
+      {
+        "query": "Who topped the list of visitors to the Rijksmuseum from 2023-06-01 to 2023-07-01, visiting no less than 7 times?",
+        "filled_param": {
+          "venue_name": "Rijksmuseum",
+          "start_date": "2023-06-01",
+          "end_date": "2023-07-01",
+          "minimum_visits": 7
+        }
+      }
+    ]
+  },
+  "most_frequent_visitor|:|art gallery|:|venue_name,start_date,end_date,minimum_visits": {
+    "tool_template_name": "most_frequent_visitor",
+    "derived_class": "art gallery",
+    "params_for_query": [
+      "venue_name",
+      "start_date",
+      "end_date",
+      "minimum_visits"
+    ],
+    "queries": [
+      {
+        "query": "Who was the most frequent visitor at the Louvre art gallery between 2023-01-01 and 2023-01-31 with at least 5 visits?",
+        "filled_param": {
+          "venue_name": "Louvre",
+          "start_date": "2023-01-01",
+          "end_date": "2023-01-31",
+          "minimum_visits": 5
+        }
+      },
+      {
+        "query": "Can you find out which visitor attended the Metropolitan art gallery the most from 2023-06-01 to 2023-06-30 with a minimum of 10 visits?",
+        "filled_param": {
+          "venue_name": "Metropolitan",
+          "start_date": "2023-06-01",
+          "end_date": "2023-06-30",
+          "minimum_visits": 10
+        }
+      },
+      {
+        "query": "Identify the person with the most visits to the Tate Modern art gallery from 2023-04-15 to 2023-05-15, requiring at least 3 visits.",
+        "filled_param": {
+          "venue_name": "Tate Modern",
+          "start_date": "2023-04-15",
+          "end_date": "2023-05-15",
+          "minimum_visits": 3
+        }
+      },
+      {
+        "query": "I need to know who visited the National Gallery art gallery the most between 2023-08-01 and 2023-08-31 with no less than 7 visits.",
+        "filled_param": {
+          "venue_name": "National Gallery",
+          "start_date": "2023-08-01",
+          "end_date": "2023-08-31",
+          "minimum_visits": 7
+        }
+      },
+      {
+        "query": "Find the top visitor to the Art Institute of Chicago art gallery during the period of 2023-03-01 to 2023-03-31, with a minimum threshold of 4 visits.",
+        "filled_param": {
+          "venue_name": "Art Institute of Chicago",
+          "start_date": "2023-03-01",
+          "end_date": "2023-03-31",
+          "minimum_visits": 4
+        }
+      },
+      {
+        "query": "Who visited the Uffizi Gallery art gallery the most frequently from 2023-07-10 to 2023-07-20, with at least 2 visits?",
+        "filled_param": {
+          "venue_name": "Uffizi Gallery",
+          "start_date": "2023-07-10",
+          "end_date": "2023-07-20",
+          "minimum_visits": 2
+        }
+      }
+    ]
+  },
+  "most_frequent_visitor|:|library|:|venue_name,start_date,end_date,minimum_visits": {
+    "tool_template_name": "most_frequent_visitor",
+    "derived_class": "library",
+    "params_for_query": [
+      "venue_name",
+      "start_date",
+      "end_date",
+      "minimum_visits"
+    ],
+    "queries": [
+      {
+        "query": "Who visited the library at Central Library the most from 2023-01-01 to 2023-01-31, with at least 10 visits?",
+        "filled_param": {
+          "venue_name": "Central Library",
+          "start_date": "2023-01-01",
+          "end_date": "2023-01-31",
+          "minimum_visits": 10
+        }
+      },
+      {
+        "query": "Find the person with the most visits to Greenfield Public Library between 2023-06-01 and 2023-06-30, with a minimum of 5 visits.",
+        "filled_param": {
+          "venue_name": "Greenfield Public Library",
+          "start_date": "2023-06-01",
+          "end_date": "2023-06-30",
+          "minimum_visits": 5
+        }
+      },
+      {
+        "query": "Retrieve the most frequent visitor to the library at Oakville Community Library from 2023-09-01 to 2023-09-10, who came at least 3 times.",
+        "filled_param": {
+          "venue_name": "Oakville Community Library",
+          "start_date": "2023-09-01",
+          "end_date": "2023-09-10",
+          "minimum_visits": 3
+        }
+      },
+      {
+        "query": "During the period 2023-03-15 to 2023-03-20, who was the top visitor of Westside Library with at least 2 visits?",
+        "filled_param": {
+          "venue_name": "Westside Library",
+          "start_date": "2023-03-15",
+          "end_date": "2023-03-20",
+          "minimum_visits": 2
+        }
+      },
+      {
+        "query": "Get the name of the person who frequented the library at Downtown Library the most from 2023-07-01 to 2023-07-31, ensuring at least 8 visits.",
+        "filled_param": {
+          "venue_name": "Downtown Library",
+          "start_date": "2023-07-01",
+          "end_date": "2023-07-31",
+          "minimum_visits": 8
+        }
+      },
+      {
+        "query": "Identify the most regular library visitor at Eastside Library between 2023-02-01 and 2023-02-28, with a minimum visit count of 15.",
+        "filled_param": {
+          "venue_name": "Eastside Library",
+          "start_date": "2023-02-01",
+          "end_date": "2023-02-28",
+          "minimum_visits": 15
+        }
+      }
+    ]
+  },
+  "most_frequent_visitor|:|zoo|:|venue_name,start_date,end_date,minimum_visits": {
+    "tool_template_name": "most_frequent_visitor",
+    "derived_class": "zoo",
+    "params_for_query": [
+      "venue_name",
+      "start_date",
+      "end_date",
+      "minimum_visits"
+    ],
+    "queries": [
+      {
+        "query": "Who was the most frequent zoo visitor at Central Park Zoo between 2023-01-01 and 2023-06-30 with at least 5 visits?",
+        "filled_param": {
+          "venue_name": "Central Park Zoo",
+          "start_date": "2023-01-01",
+          "end_date": "2023-06-30",
+          "minimum_visits": 5
+        }
+      },
+      {
+        "query": "Can you tell me the top visitor to San Diego Zoo from 2022-05-01 to 2022-08-31, requiring at least 10 visits?",
+        "filled_param": {
+          "venue_name": "San Diego Zoo",
+          "start_date": "2022-05-01",
+          "end_date": "2022-08-31",
+          "minimum_visits": 10
+        }
+      },
+      {
+        "query": "Find the most frequent guest at London Zoo for the period of 2023-03-15 to 2023-09-15 who visited at least 8 times.",
+        "filled_param": {
+          "venue_name": "London Zoo",
+          "start_date": "2023-03-15",
+          "end_date": "2023-09-15",
+          "minimum_visits": 8
+        }
+      },
+      {
+        "query": "Who visited the zoo most frequently at Berlin Zoo from 2023-07-01 to 2023-12-31, with a minimum of 12 visits?",
+        "filled_param": {
+          "venue_name": "Berlin Zoo",
+          "start_date": "2023-07-01",
+          "end_date": "2023-12-31",
+          "minimum_visits": 12
+        }
+      },
+      {
+        "query": "Retrieve the person who visited Taronga Zoo the most between 2023-02-01 and 2023-11-30 with no less than 15 visits.",
+        "filled_param": {
+          "venue_name": "Taronga Zoo",
+          "start_date": "2023-02-01",
+          "end_date": "2023-11-30",
+          "minimum_visits": 15
+        }
+      },
+      {
+        "query": "I'd like to know who the most frequent visitor is at Singapore Zoo from 2022-11-01 to 2023-04-30, requiring at least 20 visits.",
+        "filled_param": {
+          "venue_name": "Singapore Zoo",
+          "start_date": "2022-11-01",
+          "end_date": "2023-04-30",
+          "minimum_visits": 20
+        }
+      },
+      {
+        "query": "Identify the top visitor at Bronx Zoo during the period from 2023-01-01 to 2023-03-31, with a minimum of 7 visits.",
+        "filled_param": {
+          "venue_name": "Bronx Zoo",
+          "start_date": "2023-01-01",
+          "end_date": "2023-03-31",
+          "minimum_visits": 7
+        }
+      }
+    ]
+  },
+  "most_frequent_visitor|:|aquarium|:|venue_name,start_date,end_date,minimum_visits": {
+    "tool_template_name": "most_frequent_visitor",
+    "derived_class": "aquarium",
+    "params_for_query": [
+      "venue_name",
+      "start_date",
+      "end_date",
+      "minimum_visits"
+    ],
+    "queries": [
+      {
+        "query": "Who visited the aquarium most frequently at Sea Life Sydney between 2023-01-01 and 2023-06-30, with at least 10 visits?",
+        "filled_param": {
+          "venue_name": "Sea Life Sydney",
+          "start_date": "2023-01-01",
+          "end_date": "2023-06-30",
+          "minimum_visits": 10
+        }
+      },
+      {
+        "query": "Find the top aquarium visitor at Georgia Aquarium from 2023-03-15 to 2023-08-15 who visited at least 5 times.",
+        "filled_param": {
+          "venue_name": "Georgia Aquarium",
+          "start_date": "2023-03-15",
+          "end_date": "2023-08-15",
+          "minimum_visits": 5
+        }
+      },
+      {
+        "query": "During the period from 2022-09-01 to 2023-01-31, who visited the Monterey Bay Aquarium most often, with a minimum of 8 visits?",
+        "filled_param": {
+          "venue_name": "Monterey Bay Aquarium",
+          "start_date": "2022-09-01",
+          "end_date": "2023-01-31",
+          "minimum_visits": 8
+        }
+      },
+      {
+        "query": "Can you tell me who the most frequent visitor was at the Vancouver Aquarium from 2023-04-01 to 2023-07-01, considering a minimum of 12 visits?",
+        "filled_param": {
+          "venue_name": "Vancouver Aquarium",
+          "start_date": "2023-04-01",
+          "end_date": "2023-07-01",
+          "minimum_visits": 12
+        }
+      },
+      {
+        "query": "Identify the visitor at Dubai Aquarium with the highest attendance from 2022-11-01 to 2023-03-01, requiring at least 15 visits.",
+        "filled_param": {
+          "venue_name": "Dubai Aquarium",
+          "start_date": "2022-11-01",
+          "end_date": "2023-03-01",
+          "minimum_visits": 15
+        }
+      },
+      {
+        "query": "Who has been the most frequent visitor to the Osaka Aquarium Kaiyukan from 2023-05-01 to 2023-09-01, with at least 20 visits?",
+        "filled_param": {
+          "venue_name": "Osaka Aquarium Kaiyukan",
+          "start_date": "2023-05-01",
+          "end_date": "2023-09-01",
+          "minimum_visits": 20
+        }
+      },
+      {
+        "query": "Find out who visited the Berlin Aquarium the most between 2023-02-01 and 2023-07-31, with a minimum threshold of 7 visits.",
+        "filled_param": {
+          "venue_name": "Berlin Aquarium",
+          "start_date": "2023-02-01",
+          "end_date": "2023-07-31",
+          "minimum_visits": 7
+        }
+      }
+    ]
+  },
+  "most_frequent_visitor|:|botanical garden|:|venue_name,start_date,end_date,minimum_visits": {
+    "tool_template_name": "most_frequent_visitor",
+    "derived_class": "botanical garden",
+    "params_for_query": [
+      "venue_name",
+      "start_date",
+      "end_date",
+      "minimum_visits"
+    ],
+    "queries": [
+      {
+        "query": "Who was the most frequent visitor to the botanical garden called 'Green Scape' between 2023-01-01 and 2023-06-30, with at least 10 visits?",
+        "filled_param": {
+          "venue_name": "Green Scape",
+          "start_date": "2023-01-01",
+          "end_date": "2023-06-30",
+          "minimum_visits": 10
+        }
+      },
+      {
+        "query": "Identify the top visitor to 'Flora Haven' botanical garden from 2022-07-01 to 2022-12-31, requiring them to have visited a minimum of 15 times.",
+        "filled_param": {
+          "venue_name": "Flora Haven",
+          "start_date": "2022-07-01",
+          "end_date": "2022-12-31",
+          "minimum_visits": 15
+        }
+      },
+      {
+        "query": "Can you tell me who frequented 'Nature's Delight' botanical garden the most from 2023-03-01 to 2023-09-30 with a minimum of 5 visits?",
+        "filled_param": {
+          "venue_name": "Nature's Delight",
+          "start_date": "2023-03-01",
+          "end_date": "2023-09-30",
+          "minimum_visits": 5
+        }
+      },
+      {
+        "query": "Find out the most regular visitor at 'Botany Bay' botanical garden during the period of 2022-05-01 to 2022-11-30, with at least 20 visits required.",
+        "filled_param": {
+          "venue_name": "Botany Bay",
+          "start_date": "2022-05-01",
+          "end_date": "2022-11-30",
+          "minimum_visits": 20
+        }
+      },
+      {
+        "query": "I need to know who visited 'Garden of Eden' botanical garden the most often between 2021-11-01 and 2022-04-30, considering only those with 8 visits or more.",
+        "filled_param": {
+          "venue_name": "Garden of Eden",
+          "start_date": "2021-11-01",
+          "end_date": "2022-04-30",
+          "minimum_visits": 8
+        }
+      },
+      {
+        "query": "Retrieve the most frequent visitor to 'Herb Haven' botanical garden for the dates 2023-02-01 to 2023-08-01, ensuring they visited at least 12 times.",
+        "filled_param": {
+          "venue_name": "Herb Haven",
+          "start_date": "2023-02-01",
+          "end_date": "2023-08-01",
+          "minimum_visits": 12
+        }
+      }
+    ]
+  },
+  "most_frequent_visitor|:|amusement park|:|venue_name,start_date,end_date,minimum_visits": {
+    "tool_template_name": "most_frequent_visitor",
+    "derived_class": "amusement park",
+    "params_for_query": [
+      "venue_name",
+      "start_date",
+      "end_date",
+      "minimum_visits"
+    ],
+    "queries": [
+      {
+        "query": "Who was the most frequent visitor at Disneyland between 2023-01-01 and 2023-06-30, with at least 5 visits?",
+        "filled_param": {
+          "venue_name": "Disneyland",
+          "start_date": "2023-01-01",
+          "end_date": "2023-06-30",
+          "minimum_visits": 5
+        }
+      },
+      {
+        "query": "Find the person who visited Six Flags Magic Mountain the most from 2022-05-01 to 2022-12-31, with a minimum of 10 visits.",
+        "filled_param": {
+          "venue_name": "Six Flags Magic Mountain",
+          "start_date": "2022-05-01",
+          "end_date": "2022-12-31",
+          "minimum_visits": 10
+        }
+      },
+      {
+        "query": "Identify the top visitor at Universal Studios Hollywood during the period from 2023-03-01 to 2023-09-01, requiring at least 8 visits.",
+        "filled_param": {
+          "venue_name": "Universal Studios Hollywood",
+          "start_date": "2023-03-01",
+          "end_date": "2023-09-01",
+          "minimum_visits": 8
+        }
+      },
+      {
+        "query": "Can you tell me who frequented Cedar Point the most between 2022-06-15 and 2022-11-15, with at least 7 visits?",
+        "filled_param": {
+          "venue_name": "Cedar Point",
+          "start_date": "2022-06-15",
+          "end_date": "2022-11-15",
+          "minimum_visits": 7
+        }
+      },
+      {
+        "query": "Get the name of the individual who visited Alton Towers the most from 2022-09-01 to 2023-02-28, with a minimum of 6 visits.",
+        "filled_param": {
+          "venue_name": "Alton Towers",
+          "start_date": "2022-09-01",
+          "end_date": "2023-02-28",
+          "minimum_visits": 6
+        }
+      },
+      {
+        "query": "Who was the top visitor at Busch Gardens Williamsburg from 2023-02-01 to 2023-07-31, needing at least 9 visits?",
+        "filled_param": {
+          "venue_name": "Busch Gardens Williamsburg",
+          "start_date": "2023-02-01",
+          "end_date": "2023-07-31",
+          "minimum_visits": 9
+        }
+      },
+      {
+        "query": "Determine the most frequent attendee at Legoland California between 2023-01-15 and 2023-06-15, with no less than 4 visits.",
+        "filled_param": {
+          "venue_name": "Legoland California",
+          "start_date": "2023-01-15",
+          "end_date": "2023-06-15",
+          "minimum_visits": 4
+        }
+      }
+    ]
+  }
+}

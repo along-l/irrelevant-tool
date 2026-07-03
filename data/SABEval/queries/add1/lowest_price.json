@@ -1,0 +1,404 @@
+{
+  "lowest_price|:|electronic product|:|city,product_name,currency": {
+    "tool_template_name": "lowest_price",
+    "derived_class": "electronic product",
+    "params_for_query": [
+      "city",
+      "product_name",
+      "currency"
+    ],
+    "queries": [
+      {
+        "query": "What's the lowest price for a Samsung Galaxy S21 in New York City in USD?",
+        "filled_param": {
+          "city": "New York City",
+          "product_name": "Samsung Galaxy S21",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "Find the cheapest price of a Sony WH-1000XM4 in London, priced in GBP.",
+        "filled_param": {
+          "city": "London",
+          "product_name": "Sony WH-1000XM4",
+          "currency": "GBP"
+        }
+      },
+      {
+        "query": "Where can I get the lowest price for an Apple MacBook Air in Tokyo, with the price in JPY?",
+        "filled_param": {
+          "city": "Tokyo",
+          "product_name": "Apple MacBook Air",
+          "currency": "JPY"
+        }
+      },
+      {
+        "query": "Could you tell me the lowest price for a Canon EOS 90D in Berlin, and please provide it in EUR?",
+        "filled_param": {
+          "city": "Berlin",
+          "product_name": "Canon EOS 90D",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "Get the best deal for a Fitbit Charge 5 available in Sydney, showing the price in AUD.",
+        "filled_param": {
+          "city": "Sydney",
+          "product_name": "Fitbit Charge 5",
+          "currency": "AUD"
+        }
+      },
+      {
+        "query": "How much is the lowest price for a Dell XPS 13 in Mumbai when priced in INR?",
+        "filled_param": {
+          "city": "Mumbai",
+          "product_name": "Dell XPS 13",
+          "currency": "INR"
+        }
+      },
+      {
+        "query": "Check the least expensive option for a Microsoft Surface Pro 7 in Toronto, in CAD.",
+        "filled_param": {
+          "city": "Toronto",
+          "product_name": "Microsoft Surface Pro 7",
+          "currency": "CAD"
+        }
+      }
+    ]
+  },
+  "lowest_price|:|clothing product|:|city,product_name,currency": {
+    "tool_template_name": "lowest_price",
+    "derived_class": "clothing product",
+    "params_for_query": [
+      "city",
+      "product_name",
+      "currency"
+    ],
+    "queries": [
+      {
+        "query": "What's the lowest price for a winter jacket in Toronto, listed in Canadian Dollars?",
+        "filled_param": {
+          "city": "Toronto",
+          "product_name": "winter jacket",
+          "currency": "Canadian Dollars"
+        }
+      },
+      {
+        "query": "Find me the cheapest pair of running shoes in Berlin with the price in Euros.",
+        "filled_param": {
+          "city": "Berlin",
+          "product_name": "running shoes",
+          "currency": "Euros"
+        }
+      },
+      {
+        "query": "Could you check the lowest cost of a men's leather belt in New York City, displayed in US Dollars?",
+        "filled_param": {
+          "city": "New York City",
+          "product_name": "men's leather belt",
+          "currency": "US Dollars"
+        }
+      },
+      {
+        "query": "I need to know the cheapest price for a denim jacket in Tokyo, priced in Japanese Yen.",
+        "filled_param": {
+          "city": "Tokyo",
+          "product_name": "denim jacket",
+          "currency": "Japanese Yen"
+        }
+      },
+      {
+        "query": "What's the most affordable price for a silk scarf in Paris, shown in Euros?",
+        "filled_param": {
+          "city": "Paris",
+          "product_name": "silk scarf",
+          "currency": "Euros"
+        }
+      },
+      {
+        "query": "Search for the lowest price of a baseball cap in Sydney, and provide it in Australian Dollars.",
+        "filled_param": {
+          "city": "Sydney",
+          "product_name": "baseball cap",
+          "currency": "Australian Dollars"
+        }
+      },
+      {
+        "query": "Can you find the cheapest price for a pair of jeans in Mumbai, in Indian Rupees?",
+        "filled_param": {
+          "city": "Mumbai",
+          "product_name": "pair of jeans",
+          "currency": "Indian Rupees"
+        }
+      }
+    ]
+  },
+  "lowest_price|:|furniture|:|city,product_name,currency": {
+    "tool_template_name": "lowest_price",
+    "derived_class": "furniture",
+    "params_for_query": [
+      "city",
+      "product_name",
+      "currency"
+    ],
+    "queries": [
+      {
+        "query": "What is the lowest price for a sofa in New York, and can you provide it in USD?",
+        "filled_param": {
+          "city": "New York",
+          "product_name": "sofa",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "Could you find the cheapest dining table available in Tokyo, listed in JPY?",
+        "filled_param": {
+          "city": "Tokyo",
+          "product_name": "dining table",
+          "currency": "JPY"
+        }
+      },
+      {
+        "query": "Please provide the lowest cost for a bed in Mumbai, and I'd like to know it in INR.",
+        "filled_param": {
+          "city": "Mumbai",
+          "product_name": "bed",
+          "currency": "INR"
+        }
+      },
+      {
+        "query": "I'm looking for the least expensive chair in Berlin; can you tell me the price in EUR?",
+        "filled_param": {
+          "city": "Berlin",
+          "product_name": "chair",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "Find the lowest-priced wardrobe in Sydney, priced in AUD.",
+        "filled_param": {
+          "city": "Sydney",
+          "product_name": "wardrobe",
+          "currency": "AUD"
+        }
+      },
+      {
+        "query": "What is the cheapest coffee table available in Paris, and please state the price in EUR?",
+        "filled_param": {
+          "city": "Paris",
+          "product_name": "coffee table",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "Can you provide the lowest price for a bookshelf in Los Angeles in USD?",
+        "filled_param": {
+          "city": "Los Angeles",
+          "product_name": "bookshelf",
+          "currency": "USD"
+        }
+      }
+    ]
+  },
+  "lowest_price|:|sporting goods|:|city,product_name,currency": {
+    "tool_template_name": "lowest_price",
+    "derived_class": "sporting goods",
+    "params_for_query": [
+      "city",
+      "product_name",
+      "currency"
+    ],
+    "queries": [
+      {
+        "query": "What's the lowest price for a treadmill in London, and can you provide the cost in GBP?",
+        "filled_param": {
+          "city": "London",
+          "product_name": "treadmill",
+          "currency": "GBP"
+        }
+      },
+      {
+        "query": "I need the cheapest price for a yoga mat in New York City. Please give the price in USD.",
+        "filled_param": {
+          "city": "New York City",
+          "product_name": "yoga mat",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "Could you find the least expensive basketball available in Toronto and list the price in CAD?",
+        "filled_param": {
+          "city": "Toronto",
+          "product_name": "basketball",
+          "currency": "CAD"
+        }
+      },
+      {
+        "query": "Get me the lowest price for a pair of running shoes in Berlin, and make sure it's in EUR.",
+        "filled_param": {
+          "city": "Berlin",
+          "product_name": "running shoes",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "Find the minimum cost of a tennis racket in Sydney, reported in AUD.",
+        "filled_param": {
+          "city": "Sydney",
+          "product_name": "tennis racket",
+          "currency": "AUD"
+        }
+      },
+      {
+        "query": "Can you check the lowest price for dumbbells in Dubai and provide the amount in AED?",
+        "filled_param": {
+          "city": "Dubai",
+          "product_name": "dumbbells",
+          "currency": "AED"
+        }
+      },
+      {
+        "query": "What's the cheapest option for an exercise bike in Tokyo, and I need the price in JPY?",
+        "filled_param": {
+          "city": "Tokyo",
+          "product_name": "exercise bike",
+          "currency": "JPY"
+        }
+      }
+    ]
+  },
+  "lowest_price|:|food product|:|city,product_name,currency": {
+    "tool_template_name": "lowest_price",
+    "derived_class": "food product",
+    "params_for_query": [
+      "city",
+      "product_name",
+      "currency"
+    ],
+    "queries": [
+      {
+        "query": "What is the lowest price for the food product 'organic apples' in New York City, using USD?",
+        "filled_param": {
+          "city": "New York City",
+          "product_name": "organic apples",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "Can you find the minimum cost for the food product 'whole grain bread' available in Berlin, priced in EUR?",
+        "filled_param": {
+          "city": "Berlin",
+          "product_name": "whole grain bread",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "I need to know the cheapest price for the food product 'cheddar cheese' in Toronto, listed in CAD.",
+        "filled_param": {
+          "city": "Toronto",
+          "product_name": "cheddar cheese",
+          "currency": "CAD"
+        }
+      },
+      {
+        "query": "Please tell me the lowest cost of the food product 'almond milk' in Sydney, in AUD.",
+        "filled_param": {
+          "city": "Sydney",
+          "product_name": "almond milk",
+          "currency": "AUD"
+        }
+      },
+      {
+        "query": "Find the least expensive price for the food product 'brown rice' in Mumbai, with the amount in INR.",
+        "filled_param": {
+          "city": "Mumbai",
+          "product_name": "brown rice",
+          "currency": "INR"
+        }
+      },
+      {
+        "query": "What is the lowest price available for the food product 'Greek yogurt' in Paris, shown in EUR?",
+        "filled_param": {
+          "city": "Paris",
+          "product_name": "Greek yogurt",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "Could you look up the cheapest rate for the food product 'quinoa' in Tokyo, converted to JPY?",
+        "filled_param": {
+          "city": "Tokyo",
+          "product_name": "quinoa",
+          "currency": "JPY"
+        }
+      }
+    ]
+  },
+  "lowest_price|:|children toy|:|city,product_name,currency": {
+    "tool_template_name": "lowest_price",
+    "derived_class": "children toy",
+    "params_for_query": [
+      "city",
+      "product_name",
+      "currency"
+    ],
+    "queries": [
+      {
+        "query": "What is the lowest price of a children toy robot in New York, and can you provide it in USD?",
+        "filled_param": {
+          "city": "New York",
+          "product_name": "robot",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "Can you find the lowest price for a children toy train set in Paris and give it to me in EUR?",
+        "filled_param": {
+          "city": "Paris",
+          "product_name": "train set",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "Please tell me the cheapest price for a children toy puzzle in Sydney, listed in AUD.",
+        "filled_param": {
+          "city": "Sydney",
+          "product_name": "puzzle",
+          "currency": "AUD"
+        }
+      },
+      {
+        "query": "Find the lowest price for a children toy dollhouse in London, and report it in GBP.",
+        "filled_param": {
+          "city": "London",
+          "product_name": "dollhouse",
+          "currency": "GBP"
+        }
+      },
+      {
+        "query": "I need the lowest price for a children toy action figure in Tokyo, shown in JPY.",
+        "filled_param": {
+          "city": "Tokyo",
+          "product_name": "action figure",
+          "currency": "JPY"
+        }
+      },
+      {
+        "query": "What's the best price for a children toy LEGO set in Berlin, and could you convert it to EUR?",
+        "filled_param": {
+          "city": "Berlin",
+          "product_name": "LEGO set",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "List the lowest price for a children toy teddy bear available in Toronto, displayed in CAD.",
+        "filled_param": {
+          "city": "Toronto",
+          "product_name": "teddy bear",
+          "currency": "CAD"
+        }
+      }
+    ]
+  }
+}

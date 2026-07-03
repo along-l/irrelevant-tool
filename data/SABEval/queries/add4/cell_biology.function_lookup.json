@@ -1,0 +1,537 @@
+{
+  "cell_biology.function_lookup|:|mitochondria|:|molecule,specific_function,organism_type,temperature_condition,pH_level,time_of_day": {
+    "tool_template_name": "cell_biology.function_lookup",
+    "derived_class": "mitochondria",
+    "params_for_query": [
+      "molecule",
+      "specific_function",
+      "organism_type",
+      "temperature_condition",
+      "pH_level",
+      "time_of_day"
+    ],
+    "queries": [
+      {
+        "query": "Can you explain the function of cytochrome c in the mitochondria of a human during the morning at a temperature of 37°C and pH level of 7.4, and please provide specific details?",
+        "filled_param": {
+          "molecule": "cytochrome c",
+          "specific_function": true,
+          "organism_type": "human",
+          "temperature_condition": 37,
+          "pH_level": 7.4,
+          "time_of_day": "morning"
+        }
+      },
+      {
+        "query": "What does ATP synthase do in mouse mitochondria at 22°C, pH 7.0, during the evening, focusing on specific functions?",
+        "filled_param": {
+          "molecule": "ATP synthase",
+          "specific_function": true,
+          "organism_type": "mouse",
+          "temperature_condition": 22,
+          "pH_level": 7.0,
+          "time_of_day": "evening"
+        }
+      },
+      {
+        "query": "For yeast mitochondria, describe the role of coenzyme Q at 30°C, pH of 6.8, at night with a focus on its specific functions.",
+        "filled_param": {
+          "molecule": "coenzyme Q",
+          "specific_function": true,
+          "organism_type": "yeast",
+          "temperature_condition": 30,
+          "pH_level": 6.8,
+          "time_of_day": "night"
+        }
+      },
+      {
+        "query": "In the mitochondria of plants, what's the specific function of NADH dehydrogenase in the afternoon at a temperature of 25°C and pH level 7.5?",
+        "filled_param": {
+          "molecule": "NADH dehydrogenase",
+          "specific_function": true,
+          "organism_type": "plants",
+          "temperature_condition": 25,
+          "pH_level": 7.5,
+          "time_of_day": "afternoon"
+        }
+      },
+      {
+        "query": "Could you tell me what creatine kinase does in rat mitochondria at noon with conditions of 36°C and pH 7.1, including specific functions?",
+        "filled_param": {
+          "molecule": "creatine kinase",
+          "specific_function": true,
+          "organism_type": "rat",
+          "temperature_condition": 36,
+          "pH_level": 7.1,
+          "time_of_day": "noon"
+        }
+      },
+      {
+        "query": "How does succinate dehydrogenase function specifically in fish mitochondria during the afternoon at 20°C and pH 7.3?",
+        "filled_param": {
+          "molecule": "succinate dehydrogenase",
+          "specific_function": true,
+          "organism_type": "fish",
+          "temperature_condition": 20,
+          "pH_level": 7.3,
+          "time_of_day": "afternoon"
+        }
+      }
+    ]
+  },
+  "cell_biology.function_lookup|:|nucleus|:|molecule,specific_function,organism_type,temperature_condition,pH_level,time_of_day": {
+    "tool_template_name": "cell_biology.function_lookup",
+    "derived_class": "nucleus",
+    "params_for_query": [
+      "molecule",
+      "specific_function",
+      "organism_type",
+      "temperature_condition",
+      "pH_level",
+      "time_of_day"
+    ],
+    "queries": [
+      {
+        "query": "What is the function of DNA in the nucleus of a human at a temperature of 37 degrees, with a pH level of 7.4, during the morning? Please provide specific details.",
+        "filled_param": {
+          "molecule": "DNA",
+          "specific_function": true,
+          "organism_type": "human",
+          "temperature_condition": 37,
+          "pH_level": 7.4,
+          "time_of_day": "morning"
+        }
+      },
+      {
+        "query": "Can you tell me the role of RNA in a plant nucleus when the temperature is 25 degrees and the pH is 6.8, observed in the afternoon?",
+        "filled_param": {
+          "molecule": "RNA",
+          "specific_function": false,
+          "organism_type": "plant",
+          "temperature_condition": 25,
+          "pH_level": 6.8,
+          "time_of_day": "afternoon"
+        }
+      },
+      {
+        "query": "Explain the specific function of histones in the nucleus of a yeast organism at 30 degrees Celsius, under a pH of 5.5, during the evening.",
+        "filled_param": {
+          "molecule": "histones",
+          "specific_function": true,
+          "organism_type": "yeast",
+          "temperature_condition": 30,
+          "pH_level": 5.5,
+          "time_of_day": "evening"
+        }
+      },
+      {
+        "query": "What's the general role of enzymes in the nucleus of a bacterial cell at 37 degrees, pH 7, during the night time?",
+        "filled_param": {
+          "molecule": "enzymes",
+          "specific_function": false,
+          "organism_type": "bacterial",
+          "temperature_condition": 37,
+          "pH_level": 7,
+          "time_of_day": "night"
+        }
+      },
+      {
+        "query": "Describe the specific role of nucleosomes in the mouse nucleus observed at 34 degrees with a pH of 7.2 in the afternoon.",
+        "filled_param": {
+          "molecule": "nucleosomes",
+          "specific_function": true,
+          "organism_type": "mouse",
+          "temperature_condition": 34,
+          "pH_level": 7.2,
+          "time_of_day": "afternoon"
+        }
+      },
+      {
+        "query": "What is the function of mRNA in the nucleus of a fish at 20 degrees Celsius, with a pH level of 7.5, during the morning?",
+        "filled_param": {
+          "molecule": "mRNA",
+          "specific_function": false,
+          "organism_type": "fish",
+          "temperature_condition": 20,
+          "pH_level": 7.5,
+          "time_of_day": "morning"
+        }
+      },
+      {
+        "query": "Can you identify the specific function of ribosomal proteins in the nucleus of an amphibian cell at 22 degrees, with a pH of 7.8, observed at midday?",
+        "filled_param": {
+          "molecule": "ribosomal proteins",
+          "specific_function": true,
+          "organism_type": "amphibian",
+          "temperature_condition": 22,
+          "pH_level": 7.8,
+          "time_of_day": "midday"
+        }
+      }
+    ]
+  },
+  "cell_biology.function_lookup|:|endoplasmic reticulum|:|molecule,specific_function,organism_type,temperature_condition,pH_level,time_of_day": {
+    "tool_template_name": "cell_biology.function_lookup",
+    "derived_class": "endoplasmic reticulum",
+    "params_for_query": [
+      "molecule",
+      "specific_function",
+      "organism_type",
+      "temperature_condition",
+      "pH_level",
+      "time_of_day"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the function of ribosome in the endoplasmic reticulum of a human at a temperature of 37 degrees, pH 7.4, during nighttime?",
+        "filled_param": {
+          "molecule": "ribosome",
+          "specific_function": true,
+          "organism_type": "human",
+          "temperature_condition": 37,
+          "pH_level": 7.4,
+          "time_of_day": "nighttime"
+        }
+      },
+      {
+        "query": "What is the function of the molecule calnexin in the endoplasmic reticulum of a mouse if the temperature is 36 degrees, pH is 7.2, and it's the afternoon?",
+        "filled_param": {
+          "molecule": "calnexin",
+          "specific_function": true,
+          "organism_type": "mouse",
+          "temperature_condition": 36,
+          "pH_level": 7.2,
+          "time_of_day": "afternoon"
+        }
+      },
+      {
+        "query": "I need details on the function of glucose-6-phosphatase in the endoplasmic reticulum of a dog, assuming the temperature is 39 degrees, pH 6.8, and the observation is in the morning.",
+        "filled_param": {
+          "molecule": "glucose-6-phosphatase",
+          "specific_function": true,
+          "organism_type": "dog",
+          "temperature_condition": 39,
+          "pH_level": 6.8,
+          "time_of_day": "morning"
+        }
+      },
+      {
+        "query": "Explain the role of the molecule chaperonin in the endoplasmic reticulum of a yeast, considering a temperature of 30 degrees, pH 5.5, during the early evening.",
+        "filled_param": {
+          "molecule": "chaperonin",
+          "specific_function": true,
+          "organism_type": "yeast",
+          "temperature_condition": 30,
+          "pH_level": 5.5,
+          "time_of_day": "early evening"
+        }
+      },
+      {
+        "query": "Could you look up the function of cytochrome P450 in the endoplasmic reticulum of a zebrafish at a temperature of 28 degrees, pH 7.0, during midday?",
+        "filled_param": {
+          "molecule": "cytochrome P450",
+          "specific_function": true,
+          "organism_type": "zebrafish",
+          "temperature_condition": 28,
+          "pH_level": 7.0,
+          "time_of_day": "midday"
+        }
+      },
+      {
+        "query": "Tell me the specific function of the molecule protein disulfide isomerase in the endoplasmic reticulum of a plant at 25 degrees, pH 6.0, during the late afternoon.",
+        "filled_param": {
+          "molecule": "protein disulfide isomerase",
+          "specific_function": true,
+          "organism_type": "plant",
+          "temperature_condition": 25,
+          "pH_level": 6.0,
+          "time_of_day": "late afternoon"
+        }
+      },
+      {
+        "query": "What role does the molecule Sec61 play in the endoplasmic reticulum of a cat at 37 degrees temperature, pH 7.3, during dawn?",
+        "filled_param": {
+          "molecule": "Sec61",
+          "specific_function": true,
+          "organism_type": "cat",
+          "temperature_condition": 37,
+          "pH_level": 7.3,
+          "time_of_day": "dawn"
+        }
+      }
+    ]
+  },
+  "cell_biology.function_lookup|:|Golgi apparatus|:|molecule,specific_function,organism_type,temperature_condition,pH_level,time_of_day": {
+    "tool_template_name": "cell_biology.function_lookup",
+    "derived_class": "Golgi apparatus",
+    "params_for_query": [
+      "molecule",
+      "specific_function",
+      "organism_type",
+      "temperature_condition",
+      "pH_level",
+      "time_of_day"
+    ],
+    "queries": [
+      {
+        "query": "What role does the protein glycoprotein play in the Golgi apparatus of a human at a temperature of 37 degrees Celsius, pH 7.4, and during the afternoon? Please provide specific functions if available.",
+        "filled_param": {
+          "molecule": "glycoprotein",
+          "specific_function": true,
+          "organism_type": "human",
+          "temperature_condition": 37,
+          "pH_level": 7.4,
+          "time_of_day": "afternoon"
+        }
+      },
+      {
+        "query": "Can you tell me the function of the lipid ceramide in the Golgi apparatus of a yeast organism at 30 degrees Celsius and pH 5.5 during morning hours? I am looking for specific functions.",
+        "filled_param": {
+          "molecule": "ceramide",
+          "specific_function": true,
+          "organism_type": "yeast",
+          "temperature_condition": 30,
+          "pH_level": 5.5,
+          "time_of_day": "morning"
+        }
+      },
+      {
+        "query": "Please describe the general function of the molecule choline in the Golgi apparatus of a plant organism, given a temperature of 25 degrees Celsius, pH of 6.0, during nighttime.",
+        "filled_param": {
+          "molecule": "choline",
+          "specific_function": false,
+          "organism_type": "plant",
+          "temperature_condition": 25,
+          "pH_level": 6.0,
+          "time_of_day": "night"
+        }
+      },
+      {
+        "query": "How does the enzyme mannosidase function in the Golgi apparatus of an amphibian at 22 degrees Celsius, pH level 6.8, and during the early evening? Specific details are needed.",
+        "filled_param": {
+          "molecule": "mannosidase",
+          "specific_function": true,
+          "organism_type": "amphibian",
+          "temperature_condition": 22,
+          "pH_level": 6.8,
+          "time_of_day": "evening"
+        }
+      },
+      {
+        "query": "Find out the action of the transport protein COPI in the Golgi apparatus of a fungus at 18 degrees Celsius, with a pH value of 5.0, taking place in the late afternoon. I am interested in any specific functions.",
+        "filled_param": {
+          "molecule": "COPI",
+          "specific_function": true,
+          "organism_type": "fungus",
+          "temperature_condition": 18,
+          "pH_level": 5.0,
+          "time_of_day": "late afternoon"
+        }
+      },
+      {
+        "query": "What is the role of the carbohydrate N-acetylgalactosamine within the Golgi apparatus of a bacterial organism at 37 degrees Celsius, with a pH of 7.0, during midday? Specific details are not necessary.",
+        "filled_param": {
+          "molecule": "N-acetylgalactosamine",
+          "specific_function": false,
+          "organism_type": "bacteria",
+          "temperature_condition": 37,
+          "pH_level": 7.0,
+          "time_of_day": "midday"
+        }
+      },
+      {
+        "query": "In the context of the Golgi apparatus of mammals, what is the function of the phospholipid phosphatidylinositol, observed at 36 degrees Celsius, pH 7.2, in the early morning? Specific insights would be appreciated.",
+        "filled_param": {
+          "molecule": "phosphatidylinositol",
+          "specific_function": true,
+          "organism_type": "mammal",
+          "temperature_condition": 36,
+          "pH_level": 7.2,
+          "time_of_day": "early morning"
+        }
+      }
+    ]
+  },
+  "cell_biology.function_lookup|:|lysosome|:|molecule,specific_function,organism_type,temperature_condition,pH_level,time_of_day": {
+    "tool_template_name": "cell_biology.function_lookup",
+    "derived_class": "lysosome",
+    "params_for_query": [
+      "molecule",
+      "specific_function",
+      "organism_type",
+      "temperature_condition",
+      "pH_level",
+      "time_of_day"
+    ],
+    "queries": [
+      {
+        "query": "Can you find out what role cathepsin D plays in the lysosome of a human when the temperature is 37 degrees Celsius, the pH level is 5.0, and during nighttime?",
+        "filled_param": {
+          "molecule": "cathepsin D",
+          "specific_function": true,
+          "organism_type": "human",
+          "temperature_condition": 37,
+          "pH_level": 5.0,
+          "time_of_day": "nighttime"
+        }
+      },
+      {
+        "query": "What function does the molecule acid phosphatase have in the lysosome of a mouse at a temperature of 25 degrees Celsius, pH of 4.5, and at noon?",
+        "filled_param": {
+          "molecule": "acid phosphatase",
+          "specific_function": true,
+          "organism_type": "mouse",
+          "temperature_condition": 25,
+          "pH_level": 4.5,
+          "time_of_day": "noon"
+        }
+      },
+      {
+        "query": "Please determine the function of the molecule lipase in the lysosome of a plant when it is 30 degrees Celsius, the pH level is 6.0, and during the afternoon.",
+        "filled_param": {
+          "molecule": "lipase",
+          "specific_function": true,
+          "organism_type": "plant",
+          "temperature_condition": 30,
+          "pH_level": 6.0,
+          "time_of_day": "afternoon"
+        }
+      },
+      {
+        "query": "Find out the specific role of hydrolase in a yeast lysosome at 28 degrees Celsius, pH 5.5, and during early morning.",
+        "filled_param": {
+          "molecule": "hydrolase",
+          "specific_function": true,
+          "organism_type": "yeast",
+          "temperature_condition": 28,
+          "pH_level": 5.5,
+          "time_of_day": "early morning"
+        }
+      },
+      {
+        "query": "What is the function of the molecule protease in the lysosome of a fish under 22 degrees Celsius, pH level 4.0, and at midnight?",
+        "filled_param": {
+          "molecule": "protease",
+          "specific_function": true,
+          "organism_type": "fish",
+          "temperature_condition": 22,
+          "pH_level": 4.0,
+          "time_of_day": "midnight"
+        }
+      },
+      {
+        "query": "Could you look up the specific function of nucleotidase in a frog's lysosome when it is 20 degrees Celsius, with a pH of 5.2, and during sunrise?",
+        "filled_param": {
+          "molecule": "nucleotidase",
+          "specific_function": true,
+          "organism_type": "frog",
+          "temperature_condition": 20,
+          "pH_level": 5.2,
+          "time_of_day": "sunrise"
+        }
+      },
+      {
+        "query": "Investigate the role of glycosidase in the lysosome of a bacterium at a temperature of 15 degrees Celsius, pH level 5.8, and during the evening.",
+        "filled_param": {
+          "molecule": "glycosidase",
+          "specific_function": true,
+          "organism_type": "bacterium",
+          "temperature_condition": 15,
+          "pH_level": 5.8,
+          "time_of_day": "evening"
+        }
+      }
+    ]
+  },
+  "cell_biology.function_lookup|:|chloroplast|:|molecule,specific_function,organism_type,temperature_condition,pH_level,time_of_day": {
+    "tool_template_name": "cell_biology.function_lookup",
+    "derived_class": "chloroplast",
+    "params_for_query": [
+      "molecule",
+      "specific_function",
+      "organism_type",
+      "temperature_condition",
+      "pH_level",
+      "time_of_day"
+    ],
+    "queries": [
+      {
+        "query": "What is the specific function of ATP in the chloroplast of a plant when the temperature is 25 degrees Celsius, the pH level is 7.0, and it is observed during midday?",
+        "filled_param": {
+          "molecule": "ATP",
+          "specific_function": true,
+          "organism_type": "plant",
+          "temperature_condition": 25,
+          "pH_level": 7.0,
+          "time_of_day": "midday"
+        }
+      },
+      {
+        "query": "Can you tell me the function of NADPH in the chloroplast of an algae species under 20 degrees Celsius, pH 8.5, and during the evening?",
+        "filled_param": {
+          "molecule": "NADPH",
+          "specific_function": false,
+          "organism_type": "algae",
+          "temperature_condition": 20,
+          "pH_level": 8.5,
+          "time_of_day": "evening"
+        }
+      },
+      {
+        "query": "I need to know the specific role of RuBisCO within the chloroplast of a cyanobacterium at a temperature of 30 degrees Celsius, pH 6.5, in the morning.",
+        "filled_param": {
+          "molecule": "RuBisCO",
+          "specific_function": true,
+          "organism_type": "cyanobacterium",
+          "temperature_condition": 30,
+          "pH_level": 6.5,
+          "time_of_day": "morning"
+        }
+      },
+      {
+        "query": "Explain the function of chlorophyll in the chloroplast of a plant at night when the temperature is 15 degrees Celsius and the pH is 7.2.",
+        "filled_param": {
+          "molecule": "chlorophyll",
+          "specific_function": false,
+          "organism_type": "plant",
+          "temperature_condition": 15,
+          "pH_level": 7.2,
+          "time_of_day": "night"
+        }
+      },
+      {
+        "query": "Could you provide the specific function of ferredoxin in the chloroplast of a seaweed at noon, with a temperature of 22 degrees Celsius and pH 7.8?",
+        "filled_param": {
+          "molecule": "ferredoxin",
+          "specific_function": true,
+          "organism_type": "seaweed",
+          "temperature_condition": 22,
+          "pH_level": 7.8,
+          "time_of_day": "noon"
+        }
+      },
+      {
+        "query": "What function does plastoquinone serve in the chloroplast of an aquatic plant at dawn with a temperature of 18 degrees Celsius and pH 8.0?",
+        "filled_param": {
+          "molecule": "plastoquinone",
+          "specific_function": false,
+          "organism_type": "aquatic plant",
+          "temperature_condition": 18,
+          "pH_level": 8.0,
+          "time_of_day": "dawn"
+        }
+      },
+      {
+        "query": "Can you describe the specific function of thylakoid membrane proteins in the chloroplast of a moss under 28 degrees Celsius, pH 6.8, and at dusk?",
+        "filled_param": {
+          "molecule": "thylakoid membrane proteins",
+          "specific_function": true,
+          "organism_type": "moss",
+          "temperature_condition": 28,
+          "pH_level": 6.8,
+          "time_of_day": "dusk"
+        }
+      }
+    ]
+  }
+}

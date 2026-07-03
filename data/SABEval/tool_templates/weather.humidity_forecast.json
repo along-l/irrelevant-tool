@@ -1,0 +1,56 @@
+{
+  "tool_template_name": "weather.humidity_forecast",
+  "meta_data": {
+    "base_class": "Retrieve a <meteorological variable> forecast for a specific location and time frame - these variables are quantifiable weather indicators sharing the same input structure.",
+    "derived_classes": [
+      "humidity",
+      "temperature",
+      "wind speed",
+      "air pressure",
+      "precipitation",
+      "visibility",
+      "UV index"
+    ],
+    "base_class_entity": "humidity"
+  },
+  "tool_template": {
+    "name": "<class>_forecast",
+    "description": "Retrieve a <class> forecast for a specific location and time frame.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "location": {
+          "type": "string",
+          "description": "The city that you want to get the <class> forecast for."
+        },
+        "days": {
+          "type": "integer",
+          "description": "Number of days for the forecast."
+        }
+      },
+      "required": [
+        "location",
+        "days"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "confidence_level": {
+      "type": "integer",
+      "description": "The confidence level percentage for the <class> forecast, indicating the certainty of the forecasted data."
+    },
+    "include_historical_data": {
+      "type": "boolean",
+      "description": "Whether to include historical data in the <class> forecast to enhance accuracy (true or false)."
+    },
+    "data_source": {
+      "type": "string",
+      "description": "The source from which the <class> forecast data is retrieved, e.g., 'NOAA', 'Weather.com'."
+    },
+    "time_interval": {
+      "type": "string",
+      "description": "Interval between forecast data points, such as 'hourly', '3-hourly', or 'daily' (maximum)."
+    }
+  }
+}

@@ -1,0 +1,1100 @@
+{
+  "getTemperature|:|Chinese city|:|city_name,timestamp,unit_preference,include_forecast": {
+    "tool_template_name": "getTemperature",
+    "derived_class": "Chinese city",
+    "params_for_query": [
+      "city_name",
+      "timestamp",
+      "unit_preference",
+      "include_forecast"
+    ],
+    "queries": [
+      {
+        "query": "What's the current temperature in Beijing for the date March 15, 2023, at 3 PM, in Celsius? I don't need the forecast.",
+        "filled_param": {
+          "city_name": "Beijing",
+          "timestamp": 1678875600,
+          "unit_preference": "Celsius",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "Could you provide the temperature in Shanghai on July 22, 2023, at 9 AM, in Fahrenheit, and include a short-term forecast?",
+        "filled_param": {
+          "city_name": "Shanghai",
+          "timestamp": 1690003200,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "I need the temperature for Guangzhou, on December 1, 2023, at 6 PM, using Celsius. Skip the forecast.",
+        "filled_param": {
+          "city_name": "Guangzhou",
+          "timestamp": 1701457200,
+          "unit_preference": "Celsius",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "Tell me the temperature in Chengdu for October 10, 2023, at noon, in Fahrenheit. Please include the weather forecast.",
+        "filled_param": {
+          "city_name": "Chengdu",
+          "timestamp": 1696929600,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Retrieve the temperature for Hangzhou on February 2, 2023, at 8 AM, with the unit in Celsius and exclude the forecast.",
+        "filled_param": {
+          "city_name": "Hangzhou",
+          "timestamp": 1675315200,
+          "unit_preference": "Celsius",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "Can you get the temperature in Xi'an for May 5, 2023, at 11 PM, in Fahrenheit and include a forecast?",
+        "filled_param": {
+          "city_name": "Xi'an",
+          "timestamp": 1683316800,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "I want to know the current temperature for Qingdao on August 20, 2023, at 4 PM, using Celsius, without the forecast.",
+        "filled_param": {
+          "city_name": "Qingdao",
+          "timestamp": 1692544800,
+          "unit_preference": "Celsius",
+          "include_forecast": false
+        }
+      }
+    ]
+  },
+  "getTemperature|:|American city|:|city_name,timestamp,unit_preference,include_forecast": {
+    "tool_template_name": "getTemperature",
+    "derived_class": "American city",
+    "params_for_query": [
+      "city_name",
+      "timestamp",
+      "unit_preference",
+      "include_forecast"
+    ],
+    "queries": [
+      {
+        "query": "What's the temperature in New York City at 1672531200 in Celsius, and could you include the forecast?",
+        "filled_param": {
+          "city_name": "New York City",
+          "timestamp": 1672531200,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Can you provide the current temperature for Los Angeles at the Unix time 1672617600 in Fahrenheit without the forecast?",
+        "filled_param": {
+          "city_name": "Los Angeles",
+          "timestamp": 1672617600,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "I need to know the temperature for Chicago at timestamp 1672704000, using Celsius, and please include the weather forecast.",
+        "filled_param": {
+          "city_name": "Chicago",
+          "timestamp": 1672704000,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "What's the temperature in Miami at 1672790400 in Fahrenheit? No need for the forecast.",
+        "filled_param": {
+          "city_name": "Miami",
+          "timestamp": 1672790400,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "Could you tell me the temperature for San Francisco at Unix time 1672876800 in Celsius, and also include the forecast?",
+        "filled_param": {
+          "city_name": "San Francisco",
+          "timestamp": 1672876800,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Find the temperature for Austin at the timestamp 1672963200 in Fahrenheit, and I would like the forecast included.",
+        "filled_param": {
+          "city_name": "Austin",
+          "timestamp": 1672963200,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Provide the temperature in Seattle at Unix time 1673049600 in Celsius, and skip the forecast.",
+        "filled_param": {
+          "city_name": "Seattle",
+          "timestamp": 1673049600,
+          "unit_preference": "Celsius",
+          "include_forecast": false
+        }
+      }
+    ]
+  },
+  "getTemperature|:|Vietnamese city|:|city_name,timestamp,unit_preference,include_forecast": {
+    "tool_template_name": "getTemperature",
+    "derived_class": "Vietnamese city",
+    "params_for_query": [
+      "city_name",
+      "timestamp",
+      "unit_preference",
+      "include_forecast"
+    ],
+    "queries": [
+      {
+        "query": "What's the temperature in Hanoi right now in Celsius and could you include the forecast?",
+        "filled_param": {
+          "city_name": "Hanoi",
+          "timestamp": 1698796800,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Please provide the current temperature for Ho Chi Minh City in Fahrenheit, no forecast needed.",
+        "filled_param": {
+          "city_name": "Ho Chi Minh City",
+          "timestamp": 1698796800,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "Can you tell me the temperature in Da Nang for this moment in Celsius, and also include a weather forecast?",
+        "filled_param": {
+          "city_name": "Da Nang",
+          "timestamp": 1698796800,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "What's the current temperature in Nha Trang using Fahrenheit, and without any forecast?",
+        "filled_param": {
+          "city_name": "Nha Trang",
+          "timestamp": 1698796800,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "Give me the temperature details for Hue at the moment, prefer Celsius, and add the forecast as well.",
+        "filled_param": {
+          "city_name": "Hue",
+          "timestamp": 1698796800,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "What is the current temperature for Ha Long in Fahrenheit, no need for a forecast?",
+        "filled_param": {
+          "city_name": "Ha Long",
+          "timestamp": 1698796800,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      }
+    ]
+  },
+  "getTemperature|:|Kenyan city|:|city_name,timestamp,unit_preference,include_forecast": {
+    "tool_template_name": "getTemperature",
+    "derived_class": "Kenyan city",
+    "params_for_query": [
+      "city_name",
+      "timestamp",
+      "unit_preference",
+      "include_forecast"
+    ],
+    "queries": [
+      {
+        "query": "Could you tell me the current temperature in Nairobi at Unix time 1672531200, displayed in Celsius, and also include a short-term forecast?",
+        "filled_param": {
+          "city_name": "Nairobi",
+          "timestamp": 1672531200,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "I need to know the temperature in Mombasa for the Unix timestamp 1672617600 in Fahrenheit, but I don't need the forecast.",
+        "filled_param": {
+          "city_name": "Mombasa",
+          "timestamp": 1672617600,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "What's the temperature in Kisumu at Unix time 1672704000 in Celsius? Please include a forecast.",
+        "filled_param": {
+          "city_name": "Kisumu",
+          "timestamp": 1672704000,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Get me the current temperature for Eldoret at Unix timestamp 1672790400 in Fahrenheit, without the weather forecast.",
+        "filled_param": {
+          "city_name": "Eldoret",
+          "timestamp": 1672790400,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "I'm interested in the temperature reading for Nakuru at Unix time 1672876800, using Celsius and with a short-term forecast.",
+        "filled_param": {
+          "city_name": "Nakuru",
+          "timestamp": 1672876800,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Can you provide the temperature in Malindi for Unix timestamp 1672963200 in Fahrenheit and include a forecast?",
+        "filled_param": {
+          "city_name": "Malindi",
+          "timestamp": 1672963200,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "What's the current temperature in Naivasha at Unix time 1673049600, expressed in Celsius, without any forecast?",
+        "filled_param": {
+          "city_name": "Naivasha",
+          "timestamp": 1673049600,
+          "unit_preference": "Celsius",
+          "include_forecast": false
+        }
+      }
+    ]
+  },
+  "getTemperature|:|Ukrainian city|:|city_name,timestamp,unit_preference,include_forecast": {
+    "tool_template_name": "getTemperature",
+    "derived_class": "Ukrainian city",
+    "params_for_query": [
+      "city_name",
+      "timestamp",
+      "unit_preference",
+      "include_forecast"
+    ],
+    "queries": [
+      {
+        "query": "What is the current temperature in Kyiv at 1698355200, and please provide it in Celsius along with a weather forecast?",
+        "filled_param": {
+          "city_name": "Kyiv",
+          "timestamp": 1698355200,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Could you tell me the temperature for Lviv on 1698441600 in Fahrenheit, without a weather forecast?",
+        "filled_param": {
+          "city_name": "Lviv",
+          "timestamp": 1698441600,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "I need the temperature for Odesa at the Unix timestamp 1698528000 in Celsius, and include the weather forecast as well.",
+        "filled_param": {
+          "city_name": "Odesa",
+          "timestamp": 1698528000,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Fetch the temperature in Kharkiv for 1698614400, using Fahrenheit, and no forecast is needed.",
+        "filled_param": {
+          "city_name": "Kharkiv",
+          "timestamp": 1698614400,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "Can you provide the temperature in Dnipro at 1698700800 in Celsius, and include the forecast?",
+        "filled_param": {
+          "city_name": "Dnipro",
+          "timestamp": 1698700800,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Get me the current temperature for Zaporizhia on 1698787200 in Fahrenheit, please exclude the forecast.",
+        "filled_param": {
+          "city_name": "Zaporizhia",
+          "timestamp": 1698787200,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      }
+    ]
+  },
+  "getTemperature|:|Egyptian city|:|city_name,timestamp,unit_preference,include_forecast": {
+    "tool_template_name": "getTemperature",
+    "derived_class": "Egyptian city",
+    "params_for_query": [
+      "city_name",
+      "timestamp",
+      "unit_preference",
+      "include_forecast"
+    ],
+    "queries": [
+      {
+        "query": "What is the current temperature in Cairo at 1697040000 in Celsius, and can you include a short weather forecast?",
+        "filled_param": {
+          "city_name": "Cairo",
+          "timestamp": 1697040000,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Could you give me the current temperature for Alexandria at Unix time 1698091200, in Fahrenheit, without the forecast?",
+        "filled_param": {
+          "city_name": "Alexandria",
+          "timestamp": 1698091200,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "I'm interested in knowing the temperature in Luxor at 1698979200 in Celsius. Skip the forecast, please.",
+        "filled_param": {
+          "city_name": "Luxor",
+          "timestamp": 1698979200,
+          "unit_preference": "Celsius",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "Provide the temperature reading for Aswan at Unix timestamp 1700236800, in Fahrenheit, with the forecast included.",
+        "filled_param": {
+          "city_name": "Aswan",
+          "timestamp": 1700236800,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Tell me the current temperature in Giza at 1701350400 with readings in Celsius, and I'd like to see a forecast.",
+        "filled_param": {
+          "city_name": "Giza",
+          "timestamp": 1701350400,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Can you find out the temperature for Sharm El Sheikh at Unix time 1702483200, preferring Fahrenheit, and don't include the forecast?",
+        "filled_param": {
+          "city_name": "Sharm El Sheikh",
+          "timestamp": 1702483200,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "I need the current temperature in Hurghada at 1703616000 with measurements in Celsius, including any forecast details.",
+        "filled_param": {
+          "city_name": "Hurghada",
+          "timestamp": 1703616000,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      }
+    ]
+  },
+  "getTemperature|:|Canadian city|:|city_name,timestamp,unit_preference,include_forecast": {
+    "tool_template_name": "getTemperature",
+    "derived_class": "Canadian city",
+    "params_for_query": [
+      "city_name",
+      "timestamp",
+      "unit_preference",
+      "include_forecast"
+    ],
+    "queries": [
+      {
+        "query": "What is the temperature in Toronto on March 15, 2023 at 3 PM in Celsius, and does it include a forecast?",
+        "filled_param": {
+          "city_name": "Toronto",
+          "timestamp": 1678897200,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Get me the current temperature for Vancouver on July 4, 2023 at 9 AM in Fahrenheit, and skip the forecast.",
+        "filled_param": {
+          "city_name": "Vancouver",
+          "timestamp": 1688463600,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "I need the temperature reading for Montreal on December 1, 2023 at midnight in Celsius with a forecast.",
+        "filled_param": {
+          "city_name": "Montreal",
+          "timestamp": 1701388800,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Could you give me the temperature for Calgary on June 20, 2023 at 6 PM in Fahrenheit without a forecast?",
+        "filled_param": {
+          "city_name": "Calgary",
+          "timestamp": 1687288800,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "Please tell me the current temperature in Halifax on November 12, 2023 at 2 AM in Celsius with the forecast.",
+        "filled_param": {
+          "city_name": "Halifax",
+          "timestamp": 1699768800,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "What's the weather like in Winnipeg on August 14, 2023 at 12 PM, in Fahrenheit, and include the forecast?",
+        "filled_param": {
+          "city_name": "Winnipeg",
+          "timestamp": 1692024000,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Retrieve the temperature for Ottawa on October 25, 2023 at 7 AM in Celsius, without the forecast.",
+        "filled_param": {
+          "city_name": "Ottawa",
+          "timestamp": 1698238800,
+          "unit_preference": "Celsius",
+          "include_forecast": false
+        }
+      }
+    ]
+  },
+  "getTemperature|:|Japanese city|:|city_name,timestamp,unit_preference,include_forecast": {
+    "tool_template_name": "getTemperature",
+    "derived_class": "Japanese city",
+    "params_for_query": [
+      "city_name",
+      "timestamp",
+      "unit_preference",
+      "include_forecast"
+    ],
+    "queries": [
+      {
+        "query": "What's the current temperature in Kyoto at the Unix timestamp 1700000000? Please provide the temperature in Celsius and include the short-term forecast.",
+        "filled_param": {
+          "city_name": "Kyoto",
+          "timestamp": 1700000000,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Can you tell me the temperature for Tokyo at Unix timestamp 1700100000? I prefer it in Fahrenheit and don't need the forecast.",
+        "filled_param": {
+          "city_name": "Tokyo",
+          "timestamp": 1700100000,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "Retrieve the current temperature for Sapporo at the Unix timestamp 1700200000. Provide the details in Celsius and include the weather forecast.",
+        "filled_param": {
+          "city_name": "Sapporo",
+          "timestamp": 1700200000,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "I need the temperature in Hiroshima at 1700300000 Unix time, in Fahrenheit, and without a forecast.",
+        "filled_param": {
+          "city_name": "Hiroshima",
+          "timestamp": 1700300000,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "What's the temperature in Osaka at the Unix timestamp 1700400000? Use Celsius and include the forecast.",
+        "filled_param": {
+          "city_name": "Osaka",
+          "timestamp": 1700400000,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Get the current temperature for Nagoya at Unix time 1700500000, showing it in Fahrenheit, and please include the short-term forecast.",
+        "filled_param": {
+          "city_name": "Nagoya",
+          "timestamp": 1700500000,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Please provide the temperature for Fukuoka at Unix timestamp 1700600000. I want it in Celsius and no need for the forecast.",
+        "filled_param": {
+          "city_name": "Fukuoka",
+          "timestamp": 1700600000,
+          "unit_preference": "Celsius",
+          "include_forecast": false
+        }
+      }
+    ]
+  },
+  "getTemperature|:|Indian city|:|city_name,timestamp,unit_preference,include_forecast": {
+    "tool_template_name": "getTemperature",
+    "derived_class": "Indian city",
+    "params_for_query": [
+      "city_name",
+      "timestamp",
+      "unit_preference",
+      "include_forecast"
+    ],
+    "queries": [
+      {
+        "query": "Can you tell me the current temperature in Mumbai at 1678900000 in Celsius, and also include a weather forecast?",
+        "filled_param": {
+          "city_name": "Mumbai",
+          "timestamp": 1678900000,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "I need to know the temperature for the Indian city of Bangalore at the Unix time 1680000000 in Fahrenheit, without any forecast.",
+        "filled_param": {
+          "city_name": "Bangalore",
+          "timestamp": 1680000000,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "What is the temperature in Chennai on the timestamp 1681100000, please provide it in Celsius and include a short-term forecast.",
+        "filled_param": {
+          "city_name": "Chennai",
+          "timestamp": 1681100000,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Retrieve the current temperature for the Indian city of Kolkata at Unix timestamp 1682200000 in Fahrenheit and exclude the forecast.",
+        "filled_param": {
+          "city_name": "Kolkata",
+          "timestamp": 1682200000,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "I'd like to know the temperature in Delhi for timestamp 1683300000 in Celsius, and please include the weather forecast.",
+        "filled_param": {
+          "city_name": "Delhi",
+          "timestamp": 1683300000,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Provide the current temperature in Hyderabad at the Unix time 1684400000 in Fahrenheit, without a forecast.",
+        "filled_param": {
+          "city_name": "Hyderabad",
+          "timestamp": 1684400000,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      }
+    ]
+  },
+  "getTemperature|:|French city|:|city_name,timestamp,unit_preference,include_forecast": {
+    "tool_template_name": "getTemperature",
+    "derived_class": "French city",
+    "params_for_query": [
+      "city_name",
+      "timestamp",
+      "unit_preference",
+      "include_forecast"
+    ],
+    "queries": [
+      {
+        "query": "What's the current temperature in Paris at the timestamp 1672531200, and could you provide it in Celsius along with a forecast?",
+        "filled_param": {
+          "city_name": "Paris",
+          "timestamp": 1672531200,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "I need to know the temperature for Marseille at Unix timestamp 1683003600 in Fahrenheit, including the forecast.",
+        "filled_param": {
+          "city_name": "Marseille",
+          "timestamp": 1683003600,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Can you check the temperature in Lyon at timestamp 1695604800 and provide it in Celsius without the forecast?",
+        "filled_param": {
+          "city_name": "Lyon",
+          "timestamp": 1695604800,
+          "unit_preference": "Celsius",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "I’m interested in the temperature for Nice on Unix timestamp 1704118800, in Fahrenheit, but no forecast is necessary.",
+        "filled_param": {
+          "city_name": "Nice",
+          "timestamp": 1704118800,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "Provide the current temperature for Bordeaux at timestamp 1714646400 in Celsius and include the upcoming weather forecast.",
+        "filled_param": {
+          "city_name": "Bordeaux",
+          "timestamp": 1714646400,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "What's the temperature in Toulouse at Unix timestamp 1725153600? Please give it in Fahrenheit and include a forecast.",
+        "filled_param": {
+          "city_name": "Toulouse",
+          "timestamp": 1725153600,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Could you tell me the current temperature in Strasbourg at timestamp 1735684800, in Celsius without needing a forecast?",
+        "filled_param": {
+          "city_name": "Strasbourg",
+          "timestamp": 1735684800,
+          "unit_preference": "Celsius",
+          "include_forecast": false
+        }
+      }
+    ]
+  },
+  "getTemperature|:|German city|:|city_name,timestamp,unit_preference,include_forecast": {
+    "tool_template_name": "getTemperature",
+    "derived_class": "German city",
+    "params_for_query": [
+      "city_name",
+      "timestamp",
+      "unit_preference",
+      "include_forecast"
+    ],
+    "queries": [
+      {
+        "query": "What is the current temperature in Berlin at the timestamp 1677849600, and please provide it in Celsius including a forecast?",
+        "filled_param": {
+          "city_name": "Berlin",
+          "timestamp": 1677849600,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Give me the temperature for Munich on 1661990400 in Fahrenheit without any forecast.",
+        "filled_param": {
+          "city_name": "Munich",
+          "timestamp": 1661990400,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "Retrieve the temperature for Hamburg using the timestamp 1683561600 in Celsius, no need for a forecast.",
+        "filled_param": {
+          "city_name": "Hamburg",
+          "timestamp": 1683561600,
+          "unit_preference": "Celsius",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "Could you tell me the current temperature in Cologne at the timestamp 1696224000 with Fahrenheit as the unit, and include the forecast?",
+        "filled_param": {
+          "city_name": "Cologne",
+          "timestamp": 1696224000,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "I’d like to know the temperature in Frankfurt on 1672531200 in Celsius and I want the forecast too.",
+        "filled_param": {
+          "city_name": "Frankfurt",
+          "timestamp": 1672531200,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Can you provide the current temperature in Stuttgart at 1704067200, in Fahrenheit, and skip the forecast?",
+        "filled_param": {
+          "city_name": "Stuttgart",
+          "timestamp": 1704067200,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "What is the temperature in Düsseldorf at the Unix timestamp 1677624000? Please use Celsius and include the forecast.",
+        "filled_param": {
+          "city_name": "Düsseldorf",
+          "timestamp": 1677624000,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      }
+    ]
+  },
+  "getTemperature|:|Brazilian city|:|city_name,timestamp,unit_preference,include_forecast": {
+    "tool_template_name": "getTemperature",
+    "derived_class": "Brazilian city",
+    "params_for_query": [
+      "city_name",
+      "timestamp",
+      "unit_preference",
+      "include_forecast"
+    ],
+    "queries": [
+      {
+        "query": "Can you tell me the current temperature in Rio de Janeiro at Unix timestamp 1696857600 using Fahrenheit and include the forecast?",
+        "filled_param": {
+          "city_name": "Rio de Janeiro",
+          "timestamp": 1696857600,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "What is the temperature in São Paulo at Unix timestamp 1696933200 in Celsius, and can you exclude the forecast?",
+        "filled_param": {
+          "city_name": "São Paulo",
+          "timestamp": 1696933200,
+          "unit_preference": "Celsius",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "I'd like to know the temperature for Salvador at Unix timestamp 1697019600 in Fahrenheit. Please include the forecast.",
+        "filled_param": {
+          "city_name": "Salvador",
+          "timestamp": 1697019600,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Get me the current Celsius temperature and forecast for Fortaleza at Unix timestamp 1697106000.",
+        "filled_param": {
+          "city_name": "Fortaleza",
+          "timestamp": 1697106000,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Could you provide the temperature in Belo Horizonte at Unix timestamp 1697192400 using Fahrenheit without the forecast?",
+        "filled_param": {
+          "city_name": "Belo Horizonte",
+          "timestamp": 1697192400,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "What is the current temperature in Recife at Unix timestamp 1697278800 in Celsius? Include the forecast.",
+        "filled_param": {
+          "city_name": "Recife",
+          "timestamp": 1697278800,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Check the temperature at Porto Alegre for Unix timestamp 1697365200 in Fahrenheit, forecast not needed.",
+        "filled_param": {
+          "city_name": "Porto Alegre",
+          "timestamp": 1697365200,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      }
+    ]
+  },
+  "getTemperature|:|Australian city|:|city_name,timestamp,unit_preference,include_forecast": {
+    "tool_template_name": "getTemperature",
+    "derived_class": "Australian city",
+    "params_for_query": [
+      "city_name",
+      "timestamp",
+      "unit_preference",
+      "include_forecast"
+    ],
+    "queries": [
+      {
+        "query": "What's the current temperature in Sydney at Unix timestamp 1672531200 in Celsius, and could you include a short-term forecast?",
+        "filled_param": {
+          "city_name": "Sydney",
+          "timestamp": 1672531200,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Can you provide the temperature for Melbourne at timestamp 1680393600 in Fahrenheit, without the forecast?",
+        "filled_param": {
+          "city_name": "Melbourne",
+          "timestamp": 1680393600,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "I need to know the temperature in Perth for Unix time 1675125600 in Celsius, and make sure to include the weather forecast.",
+        "filled_param": {
+          "city_name": "Perth",
+          "timestamp": 1675125600,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Get the current temperature and forecast for Brisbane at timestamp 1677811200 in Fahrenheit.",
+        "filled_param": {
+          "city_name": "Brisbane",
+          "timestamp": 1677811200,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "What's the temperature in Adelaide at Unix time 1672982400 in Celsius? No need for the forecast.",
+        "filled_param": {
+          "city_name": "Adelaide",
+          "timestamp": 1672982400,
+          "unit_preference": "Celsius",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "Could you tell me the temperature for Canberra at timestamp 1683062400, in Fahrenheit, and include the forecast?",
+        "filled_param": {
+          "city_name": "Canberra",
+          "timestamp": 1683062400,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Provide the current temperature in Hobart at Unix timestamp 1685740800, using Celsius without the weather forecast.",
+        "filled_param": {
+          "city_name": "Hobart",
+          "timestamp": 1685740800,
+          "unit_preference": "Celsius",
+          "include_forecast": false
+        }
+      }
+    ]
+  },
+  "getTemperature|:|Russian city|:|city_name,timestamp,unit_preference,include_forecast": {
+    "tool_template_name": "getTemperature",
+    "derived_class": "Russian city",
+    "params_for_query": [
+      "city_name",
+      "timestamp",
+      "unit_preference",
+      "include_forecast"
+    ],
+    "queries": [
+      {
+        "query": "What's the temperature in Moscow right now in Celsius and could you include the forecast?",
+        "filled_param": {
+          "city_name": "Moscow",
+          "timestamp": 1697043600,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "I'd like to know the current temperature in Saint Petersburg in Fahrenheit, without any forecast.",
+        "filled_param": {
+          "city_name": "Saint Petersburg",
+          "timestamp": 1697043600,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "Can you get the temperature for Novosibirsk at 3 PM on September 30, 2023, in Celsius, and include the short-term forecast?",
+        "filled_param": {
+          "city_name": "Novosibirsk",
+          "timestamp": 1696156800,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Please provide the current temperature for Yekaterinburg in Fahrenheit, and I don't need the forecast.",
+        "filled_param": {
+          "city_name": "Yekaterinburg",
+          "timestamp": 1697043600,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "Retrieve the temperature in Kazan for October 15, 2023, at 10 AM in Celsius with the forecast.",
+        "filled_param": {
+          "city_name": "Kazan",
+          "timestamp": 1697356800,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "What is the temperature in Vladivostok currently, measured in Fahrenheit, excluding any forecasts?",
+        "filled_param": {
+          "city_name": "Vladivostok",
+          "timestamp": 1697043600,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "Could you tell me the current temperature in Samara in Celsius and also include the forecast?",
+        "filled_param": {
+          "city_name": "Samara",
+          "timestamp": 1697043600,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      }
+    ]
+  },
+  "getTemperature|:|South Korean city|:|city_name,timestamp,unit_preference,include_forecast": {
+    "tool_template_name": "getTemperature",
+    "derived_class": "South Korean city",
+    "params_for_query": [
+      "city_name",
+      "timestamp",
+      "unit_preference",
+      "include_forecast"
+    ],
+    "queries": [
+      {
+        "query": "What is the current temperature in Seoul at the timestamp 1698672000 in Celsius, and can you include a short-term forecast?",
+        "filled_param": {
+          "city_name": "Seoul",
+          "timestamp": 1698672000,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Check the temperature for Busan on Unix timestamp 1698758400 in Fahrenheit without the forecast.",
+        "filled_param": {
+          "city_name": "Busan",
+          "timestamp": 1698758400,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "I need the temperature and forecast for Incheon at timestamp 1698844800, preferably in Celsius.",
+        "filled_param": {
+          "city_name": "Incheon",
+          "timestamp": 1698844800,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Retrieve the Fahrenheit temperature for Daegu on timestamp 1698931200 with no forecast.",
+        "filled_param": {
+          "city_name": "Daegu",
+          "timestamp": 1698931200,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": false
+        }
+      },
+      {
+        "query": "Can you provide the current temperature in Gwangju at Unix timestamp 1699017600, including a forecast, in Celsius?",
+        "filled_param": {
+          "city_name": "Gwangju",
+          "timestamp": 1699017600,
+          "unit_preference": "Celsius",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "Find the current temperature for Suwon at timestamp 1699104000, in Fahrenheit, and please include the short-term forecast.",
+        "filled_param": {
+          "city_name": "Suwon",
+          "timestamp": 1699104000,
+          "unit_preference": "Fahrenheit",
+          "include_forecast": true
+        }
+      },
+      {
+        "query": "I'm looking for the temperature in Ulsan on timestamp 1699190400 in Celsius, without any forecast.",
+        "filled_param": {
+          "city_name": "Ulsan",
+          "timestamp": 1699190400,
+          "unit_preference": "Celsius",
+          "include_forecast": false
+        }
+      }
+    ]
+  }
+}

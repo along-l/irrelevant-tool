@@ -1,0 +1,527 @@
+{
+  "whole_foods.find_top_brands|:|Whole Foods|:|product,number,organic,region": {
+    "tool_template_name": "whole_foods.find_top_brands",
+    "derived_class": "Whole Foods",
+    "params_for_query": [
+      "product",
+      "number",
+      "organic",
+      "region"
+    ],
+    "queries": [
+      {
+        "query": "Can you list the top 3 organic brands of almond milk available in Whole Foods stores in Northern California?",
+        "filled_param": {
+          "product": "almond milk",
+          "number": 3,
+          "organic": true,
+          "region": "Northern California"
+        }
+      },
+      {
+        "query": "What are the top 5 non-organic chocolate brands in Whole Foods located in the Midwest region?",
+        "filled_param": {
+          "product": "chocolate",
+          "number": 5,
+          "organic": false,
+          "region": "Midwest"
+        }
+      },
+      {
+        "query": "Show me the top 10 organic brands of olive oil in Whole Foods stores across the Southern United States.",
+        "filled_param": {
+          "product": "olive oil",
+          "number": 10,
+          "organic": true,
+          "region": "Southern United States"
+        }
+      },
+      {
+        "query": "Find the top 2 non-organic cereal brands available in Whole Foods in New York City.",
+        "filled_param": {
+          "product": "cereal",
+          "number": 2,
+          "organic": false,
+          "region": "New York City"
+        }
+      },
+      {
+        "query": "I’m curious about the top 8 organic tea brands found in Whole Foods across the Pacific Northwest.",
+        "filled_param": {
+          "product": "tea",
+          "number": 8,
+          "organic": true,
+          "region": "Pacific Northwest"
+        }
+      },
+      {
+        "query": "Which are the top 6 brands for non-organic peanut butter in Whole Foods in the Southeastern region?",
+        "filled_param": {
+          "product": "peanut butter",
+          "number": 6,
+          "organic": false,
+          "region": "Southeastern region"
+        }
+      },
+      {
+        "query": "Provide a list of the top 4 organic yogurt brands available in Whole Foods stores in the Southwest.",
+        "filled_param": {
+          "product": "yogurt",
+          "number": 4,
+          "organic": true,
+          "region": "Southwest"
+        }
+      }
+    ]
+  },
+  "whole_foods.find_top_brands|:|Walmart|:|product,number,organic,region": {
+    "tool_template_name": "whole_foods.find_top_brands",
+    "derived_class": "Walmart",
+    "params_for_query": [
+      "product",
+      "number",
+      "organic",
+      "region"
+    ],
+    "queries": [
+      {
+        "query": "What are the top 5 non-organic brands of coffee available in Walmart stores in Texas?",
+        "filled_param": {
+          "product": "coffee",
+          "number": 5,
+          "organic": false,
+          "region": "Texas"
+        }
+      },
+      {
+        "query": "Can you list the top 3 organic baby food brands sold in Walmart in California?",
+        "filled_param": {
+          "product": "baby food",
+          "number": 3,
+          "organic": true,
+          "region": "California"
+        }
+      },
+      {
+        "query": "I need the top 10 brands of non-organic olive oil in New York's Walmart stores.",
+        "filled_param": {
+          "product": "olive oil",
+          "number": 10,
+          "organic": false,
+          "region": "New York"
+        }
+      },
+      {
+        "query": "Find the top 7 organic cereal brands available in Florida's Walmart locations.",
+        "filled_param": {
+          "product": "cereal",
+          "number": 7,
+          "organic": true,
+          "region": "Florida"
+        }
+      },
+      {
+        "query": "Please provide the top 4 non-organic cheese brands in Walmart stores across Illinois.",
+        "filled_param": {
+          "product": "cheese",
+          "number": 4,
+          "organic": false,
+          "region": "Illinois"
+        }
+      },
+      {
+        "query": "What are the top 6 brands of organic milk available in Walmart in the state of Washington?",
+        "filled_param": {
+          "product": "milk",
+          "number": 6,
+          "organic": true,
+          "region": "Washington"
+        }
+      },
+      {
+        "query": "Could you give me the top 8 non-organic chocolate brands found in Walmart in Nevada?",
+        "filled_param": {
+          "product": "chocolate",
+          "number": 8,
+          "organic": false,
+          "region": "Nevada"
+        }
+      }
+    ]
+  },
+  "whole_foods.find_top_brands|:|Costco|:|product,number,organic,region": {
+    "tool_template_name": "whole_foods.find_top_brands",
+    "derived_class": "Costco",
+    "params_for_query": [
+      "product",
+      "number",
+      "organic",
+      "region"
+    ],
+    "queries": [
+      {
+        "query": "Can you list the top 5 organic coffee brands available in Costco stores in California?",
+        "filled_param": {
+          "product": "coffee",
+          "number": 5,
+          "organic": true,
+          "region": "California"
+        }
+      },
+      {
+        "query": "What are the top 3 non-organic cheese brands at Costco in New York?",
+        "filled_param": {
+          "product": "cheese",
+          "number": 3,
+          "organic": false,
+          "region": "New York"
+        }
+      },
+      {
+        "query": "Please find the top 10 organic olive oil brands in Costco within the Texas region.",
+        "filled_param": {
+          "product": "olive oil",
+          "number": 10,
+          "organic": true,
+          "region": "Texas"
+        }
+      },
+      {
+        "query": "Identify the top 7 organic cereal brands sold at Costco in the state of Florida.",
+        "filled_param": {
+          "product": "cereal",
+          "number": 7,
+          "organic": true,
+          "region": "Florida"
+        }
+      },
+      {
+        "query": "What are the top 2 brands of non-organic chocolate available at Costco in Washington?",
+        "filled_param": {
+          "product": "chocolate",
+          "number": 2,
+          "organic": false,
+          "region": "Washington"
+        }
+      },
+      {
+        "query": "Could you give me a list of the top 6 organic yogurt brands at Costco in Illinois?",
+        "filled_param": {
+          "product": "yogurt",
+          "number": 6,
+          "organic": true,
+          "region": "Illinois"
+        }
+      },
+      {
+        "query": "Find the top 4 brands of non-organic peanut butter at Costco in the Michigan region.",
+        "filled_param": {
+          "product": "peanut butter",
+          "number": 4,
+          "organic": false,
+          "region": "Michigan"
+        }
+      }
+    ]
+  },
+  "whole_foods.find_top_brands|:|Amazon Fresh|:|product,number,organic,region": {
+    "tool_template_name": "whole_foods.find_top_brands",
+    "derived_class": "Amazon Fresh",
+    "params_for_query": [
+      "product",
+      "number",
+      "organic",
+      "region"
+    ],
+    "queries": [
+      {
+        "query": "Find the top 3 brands of organic apples in the Amazon Fresh section of New York City.",
+        "filled_param": {
+          "product": "apples",
+          "number": 3,
+          "organic": true,
+          "region": "New York City"
+        }
+      },
+      {
+        "query": "Can you list the top 5 brands of non-organic bananas available on Amazon Fresh in Los Angeles?",
+        "filled_param": {
+          "product": "bananas",
+          "number": 5,
+          "organic": false,
+          "region": "Los Angeles"
+        }
+      },
+      {
+        "query": "What are the top 2 brands of organic milk offered by Amazon Fresh in the Chicago area?",
+        "filled_param": {
+          "product": "milk",
+          "number": 2,
+          "organic": true,
+          "region": "Chicago"
+        }
+      },
+      {
+        "query": "I need the top 4 non-organic bread brands from Amazon Fresh located in Miami.",
+        "filled_param": {
+          "product": "bread",
+          "number": 4,
+          "organic": false,
+          "region": "Miami"
+        }
+      },
+      {
+        "query": "Get the top 6 brands of organic eggs from Amazon Fresh in Seattle.",
+        "filled_param": {
+          "product": "eggs",
+          "number": 6,
+          "organic": true,
+          "region": "Seattle"
+        }
+      },
+      {
+        "query": "Show me the top 3 non-organic yogurt brands available in Amazon Fresh for the Houston region.",
+        "filled_param": {
+          "product": "yogurt",
+          "number": 3,
+          "organic": false,
+          "region": "Houston"
+        }
+      },
+      {
+        "query": "Please provide the top 7 brands of organic tomatoes through Amazon Fresh in the Boston area.",
+        "filled_param": {
+          "product": "tomatoes",
+          "number": 7,
+          "organic": true,
+          "region": "Boston"
+        }
+      }
+    ]
+  },
+  "whole_foods.find_top_brands|:|Target|:|product,number,organic,region": {
+    "tool_template_name": "whole_foods.find_top_brands",
+    "derived_class": "Target",
+    "params_for_query": [
+      "product",
+      "number",
+      "organic",
+      "region"
+    ],
+    "queries": [
+      {
+        "query": "Can you list the top 5 organic coffee brands available in Target stores in California?",
+        "filled_param": {
+          "product": "coffee",
+          "number": 5,
+          "organic": true,
+          "region": "California"
+        }
+      },
+      {
+        "query": "What are the top 3 organic skincare brands at Target in the New York region?",
+        "filled_param": {
+          "product": "skincare",
+          "number": 3,
+          "organic": true,
+          "region": "New York"
+        }
+      },
+      {
+        "query": "Find the top 7 non-organic cereal brands sold at Target locations in Texas.",
+        "filled_param": {
+          "product": "cereal",
+          "number": 7,
+          "organic": false,
+          "region": "Texas"
+        }
+      },
+      {
+        "query": "What are the top 4 organic tea brands you can buy in Target stores in Florida?",
+        "filled_param": {
+          "product": "tea",
+          "number": 4,
+          "organic": true,
+          "region": "Florida"
+        }
+      },
+      {
+        "query": "Please provide the top 6 non-organic snack brands available in Target outlets in the Ohio area.",
+        "filled_param": {
+          "product": "snack",
+          "number": 6,
+          "organic": false,
+          "region": "Ohio"
+        }
+      },
+      {
+        "query": "Get the top 2 organic haircare brands in Target stores located in Illinois.",
+        "filled_param": {
+          "product": "haircare",
+          "number": 2,
+          "organic": true,
+          "region": "Illinois"
+        }
+      },
+      {
+        "query": "Could you tell me the top 8 non-organic pasta brands found in Target in the Michigan region?",
+        "filled_param": {
+          "product": "pasta",
+          "number": 8,
+          "organic": false,
+          "region": "Michigan"
+        }
+      }
+    ]
+  },
+  "whole_foods.find_top_brands|:|Carrefour|:|product,number,organic,region": {
+    "tool_template_name": "whole_foods.find_top_brands",
+    "derived_class": "Carrefour",
+    "params_for_query": [
+      "product",
+      "number",
+      "organic",
+      "region"
+    ],
+    "queries": [
+      {
+        "query": "Can you find the top 5 organic dairy brands available in Carrefour stores located in the southern region of France?",
+        "filled_param": {
+          "product": "dairy",
+          "number": 5,
+          "organic": true,
+          "region": "southern region of France"
+        }
+      },
+      {
+        "query": "List the top 3 brands of organic olive oil you can buy at Carrefour in the Barcelona area.",
+        "filled_param": {
+          "product": "olive oil",
+          "number": 3,
+          "organic": true,
+          "region": "Barcelona area"
+        }
+      },
+      {
+        "query": "Please provide the top 7 non-organic snack brands found in Carrefour stores around Lisbon.",
+        "filled_param": {
+          "product": "snack",
+          "number": 7,
+          "organic": false,
+          "region": "Lisbon"
+        }
+      },
+      {
+        "query": "What are the top 4 organic chocolate brands available in Carrefour in the northern part of Italy?",
+        "filled_param": {
+          "product": "chocolate",
+          "number": 4,
+          "organic": true,
+          "region": "northern part of Italy"
+        }
+      },
+      {
+        "query": "Could you give me a list of the top 6 brands for non-organic pasta sold at Carrefour in the Munich area?",
+        "filled_param": {
+          "product": "pasta",
+          "number": 6,
+          "organic": false,
+          "region": "Munich area"
+        }
+      },
+      {
+        "query": "Show me the top 2 brands of organic tea that Carrefour offers in and around Amsterdam.",
+        "filled_param": {
+          "product": "tea",
+          "number": 2,
+          "organic": true,
+          "region": "Amsterdam"
+        }
+      },
+      {
+        "query": "I'd like to know the top 5 non-organic juice brands found in Carrefour near the Paris suburbs.",
+        "filled_param": {
+          "product": "juice",
+          "number": 5,
+          "organic": false,
+          "region": "Paris suburbs"
+        }
+      }
+    ]
+  },
+  "whole_foods.find_top_brands|:|Sam's Club|:|product,number,organic,region": {
+    "tool_template_name": "whole_foods.find_top_brands",
+    "derived_class": "Sam's Club",
+    "params_for_query": [
+      "product",
+      "number",
+      "organic",
+      "region"
+    ],
+    "queries": [
+      {
+        "query": "Could you list the top 5 organic coffee brands available in Sam's Club in the Northeast region?",
+        "filled_param": {
+          "product": "coffee",
+          "number": 5,
+          "organic": true,
+          "region": "Northeast"
+        }
+      },
+      {
+        "query": "What are the top 3 brands of non-organic peanut butter in Sam's Club located in the West Coast area?",
+        "filled_param": {
+          "product": "peanut butter",
+          "number": 3,
+          "organic": false,
+          "region": "West Coast"
+        }
+      },
+      {
+        "query": "Please provide the top 2 organic apple juice brands from Sam's Club in the Midwest region.",
+        "filled_param": {
+          "product": "apple juice",
+          "number": 2,
+          "organic": true,
+          "region": "Midwest"
+        }
+      },
+      {
+        "query": "I need to know the top 6 brands of non-organic olive oil available at Sam's Club in the Southeast.",
+        "filled_param": {
+          "product": "olive oil",
+          "number": 6,
+          "organic": false,
+          "region": "Southeast"
+        }
+      },
+      {
+        "query": "Can you find the top 4 organic cheese brands from Sam's Club in the Southwest region?",
+        "filled_param": {
+          "product": "cheese",
+          "number": 4,
+          "organic": true,
+          "region": "Southwest"
+        }
+      },
+      {
+        "query": "List the top 7 non-organic cereal brands available at Sam's Club in the Pacific Northwest.",
+        "filled_param": {
+          "product": "cereal",
+          "number": 7,
+          "organic": false,
+          "region": "Pacific Northwest"
+        }
+      },
+      {
+        "query": "What are the top 5 brands of organic green tea available in Sam's Club stores in the Great Plains region?",
+        "filled_param": {
+          "product": "green tea",
+          "number": 5,
+          "organic": true,
+          "region": "Great Plains"
+        }
+      }
+    ]
+  }
+}

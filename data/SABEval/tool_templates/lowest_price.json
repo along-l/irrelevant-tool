@@ -1,0 +1,55 @@
+{
+  "tool_template_name": "lowest_price",
+  "meta_data": {
+    "base_class": "find the lowest price within a city for a specific <consumer goods category products> - these categories refer to tangible retail products whose prices can be directly compared.",
+    "derived_classes": [
+      "electronic product",
+      "clothing product",
+      "furniture",
+      "sporting goods",
+      "food product",
+      "children toy"
+    ],
+    "base_class_entity": "product"
+  },
+  "tool_template": {
+    "name": "lowest_price_<class>",
+    "description": "Returns the lowest price for a particular <class> within a given city.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "city": {
+          "type": "string",
+          "description": "The city where the <class> will be searched."
+        },
+        "product_name": {
+          "type": "string",
+          "description": "The <class> name for which the lowest price will be searched."
+        }
+      },
+      "required": [
+        "city",
+        "product_name"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "currency": {
+      "type": "string",
+      "description": "The currency in which the price of the <class> should be returned."
+    },
+    "include_taxes": {
+      "type": "boolean",
+      "description": "Indicates whether the price should include applicable taxes for the <class>."
+    },
+    "retailer_preference": {
+      "type": "string",
+      "description": "Preferred retailer to consider when searching for the <class>."
+    },
+    "discounts": {
+      "type": "boolean",
+      "description": "Whether to consider discounted prices for the <class>."
+    }
+  }
+}

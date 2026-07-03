@@ -1,0 +1,617 @@
+{
+  "database.create_backup|:|postgresql database|:|db_name,backup_location,timestamp,compression,encryption,retention_period": {
+    "tool_template_name": "database.create_backup",
+    "derived_class": "postgresql database",
+    "params_for_query": [
+      "db_name",
+      "backup_location",
+      "timestamp",
+      "compression",
+      "encryption",
+      "retention_period"
+    ],
+    "queries": [
+      {
+        "query": "Please create a backup of the postgresql database named 'salesdb' and store it at '/backups/sales/'. Make sure to append a timestamp, enable compression, and apply encryption. Keep this backup for 30 days.",
+        "filled_param": {
+          "db_name": "salesdb",
+          "backup_location": "/backups/sales/",
+          "timestamp": true,
+          "compression": true,
+          "encryption": true,
+          "retention_period": 30
+        }
+      },
+      {
+        "query": "I need a backup of the postgresql database 'inventory' saved in '/backups/inventory/'. Include a timestamp and enable both compression and encryption. The retention period should be 60 days.",
+        "filled_param": {
+          "db_name": "inventory",
+          "backup_location": "/backups/inventory/",
+          "timestamp": true,
+          "compression": true,
+          "encryption": true,
+          "retention_period": 60
+        }
+      },
+      {
+        "query": "Backup the postgresql database 'customer_data'. Save it at '/backups/customer/', without adding a timestamp. Compress and encrypt the backup, and retain it for 15 days.",
+        "filled_param": {
+          "db_name": "customer_data",
+          "backup_location": "/backups/customer/",
+          "timestamp": false,
+          "compression": true,
+          "encryption": true,
+          "retention_period": 15
+        }
+      },
+      {
+        "query": "Could you back up the postgresql database 'analytics' to the folder '/backups/analytics/'? Append a timestamp, enable only encryption, and keep the backup for 45 days. No compression needed.",
+        "filled_param": {
+          "db_name": "analytics",
+          "backup_location": "/backups/analytics/",
+          "timestamp": true,
+          "compression": false,
+          "encryption": true,
+          "retention_period": 45
+        }
+      },
+      {
+        "query": "Make a backup of the postgresql database 'employee_records' and store it in '/backups/employee/'. A timestamp should be added, but no compression or encryption is required. Set the retention period to 10 days.",
+        "filled_param": {
+          "db_name": "employee_records",
+          "backup_location": "/backups/employee/",
+          "timestamp": true,
+          "compression": false,
+          "encryption": false,
+          "retention_period": 10
+        }
+      },
+      {
+        "query": "Can you backup the postgresql database 'finance' at '/backups/finance/'? No timestamp is necessary. Apply compression but skip encryption. Retention should be 90 days.",
+        "filled_param": {
+          "db_name": "finance",
+          "backup_location": "/backups/finance/",
+          "timestamp": false,
+          "compression": true,
+          "encryption": false,
+          "retention_period": 90
+        }
+      },
+      {
+        "query": "Create a backup for the postgresql database 'marketing_data' and place it in '/backups/marketing/'. Do not append a timestamp. Ensure both compression and encryption are applied. Keep the backup for 7 days.",
+        "filled_param": {
+          "db_name": "marketing_data",
+          "backup_location": "/backups/marketing/",
+          "timestamp": false,
+          "compression": true,
+          "encryption": true,
+          "retention_period": 7
+        }
+      }
+    ]
+  },
+  "database.create_backup|:|mongodb database|:|db_name,backup_location,timestamp,compression,encryption,retention_period": {
+    "tool_template_name": "database.create_backup",
+    "derived_class": "mongodb database",
+    "params_for_query": [
+      "db_name",
+      "backup_location",
+      "timestamp",
+      "compression",
+      "encryption",
+      "retention_period"
+    ],
+    "queries": [
+      {
+        "query": "Please create a backup of the mongodb database named 'sales_db' and store it in '/backups/sales/'. Ensure that a timestamp is included, with compression and encryption enabled, and keep it for 30 days.",
+        "filled_param": {
+          "db_name": "sales_db",
+          "backup_location": "/backups/sales/",
+          "timestamp": true,
+          "compression": true,
+          "encryption": true,
+          "retention_period": 30
+        }
+      },
+      {
+        "query": "I need a backup of the mongodb database 'user_data' saved at '/data/backups/'. Include a timestamp in the file name, compress the file, no encryption, and set retention for 14 days.",
+        "filled_param": {
+          "db_name": "user_data",
+          "backup_location": "/data/backups/",
+          "timestamp": true,
+          "compression": true,
+          "encryption": false,
+          "retention_period": 14
+        }
+      },
+      {
+        "query": "Can you backup the 'inventory_mgmt' mongodb database to '/secure/backups/' with encryption and no compression? Include a timestamp and keep it for 60 days.",
+        "filled_param": {
+          "db_name": "inventory_mgmt",
+          "backup_location": "/secure/backups/",
+          "timestamp": true,
+          "compression": false,
+          "encryption": true,
+          "retention_period": 60
+        }
+      },
+      {
+        "query": "Backup the mongodb database 'analytics' to '/backups/archive/'. Do not append a timestamp, but compress and encrypt the backup. Retain it for 7 days.",
+        "filled_param": {
+          "db_name": "analytics",
+          "backup_location": "/backups/archive/",
+          "timestamp": false,
+          "compression": true,
+          "encryption": true,
+          "retention_period": 7
+        }
+      },
+      {
+        "query": "Create a backup of the 'financial_reports' mongodb database, save it at '/external/backup/'. Add a timestamp, no compression, enable encryption, and maintain the backup for 90 days.",
+        "filled_param": {
+          "db_name": "financial_reports",
+          "backup_location": "/external/backup/",
+          "timestamp": true,
+          "compression": false,
+          "encryption": true,
+          "retention_period": 90
+        }
+      },
+      {
+        "query": "I need a backup of 'project_data' mongodb database at '/backups/projects/'. Exclude the timestamp, apply compression, do not encrypt, and keep it for 45 days.",
+        "filled_param": {
+          "db_name": "project_data",
+          "backup_location": "/backups/projects/",
+          "timestamp": false,
+          "compression": true,
+          "encryption": false,
+          "retention_period": 45
+        }
+      },
+      {
+        "query": "Could you backup the mongodb database 'customer_info' in the directory '/backups/customer/' with no timestamp, no compression, and include encryption? Retain the backup for 120 days.",
+        "filled_param": {
+          "db_name": "customer_info",
+          "backup_location": "/backups/customer/",
+          "timestamp": false,
+          "compression": false,
+          "encryption": true,
+          "retention_period": 120
+        }
+      }
+    ]
+  },
+  "database.create_backup|:|redis database|:|db_name,backup_location,timestamp,compression,encryption,retention_period": {
+    "tool_template_name": "database.create_backup",
+    "derived_class": "redis database",
+    "params_for_query": [
+      "db_name",
+      "backup_location",
+      "timestamp",
+      "compression",
+      "encryption",
+      "retention_period"
+    ],
+    "queries": [
+      {
+        "query": "I need to back up the redis database named 'user_data' to the path '/backups/user_data_backup', with a timestamp on the file, compression enabled, encrypted for security, and retained for 30 days.",
+        "filled_param": {
+          "db_name": "user_data",
+          "backup_location": "/backups/user_data_backup",
+          "timestamp": true,
+          "compression": true,
+          "encryption": true,
+          "retention_period": 30
+        }
+      },
+      {
+        "query": "Create a backup of the redis database 'analytics_db' at '/var/backups/analytics', make sure the file has a timestamp, no compression, encryption enabled, and set it to be kept for 15 days.",
+        "filled_param": {
+          "db_name": "analytics_db",
+          "backup_location": "/var/backups/analytics",
+          "timestamp": true,
+          "compression": false,
+          "encryption": true,
+          "retention_period": 15
+        }
+      },
+      {
+        "query": "Please back up the redis database 'cache_store' to '/mnt/backups/cache_backup' without a timestamp, ensure it's compressed, do not encrypt, and retain it for 7 days.",
+        "filled_param": {
+          "db_name": "cache_store",
+          "backup_location": "/mnt/backups/cache_backup",
+          "timestamp": false,
+          "compression": true,
+          "encryption": false,
+          "retention_period": 7
+        }
+      },
+      {
+        "query": "Can you back up the redis database called 'session_data' to '/data/backups/session_backup' with a timestamp, no compression, encryption enabled, and retain for 60 days?",
+        "filled_param": {
+          "db_name": "session_data",
+          "backup_location": "/data/backups/session_backup",
+          "timestamp": true,
+          "compression": false,
+          "encryption": true,
+          "retention_period": 60
+        }
+      },
+      {
+        "query": "Set up a backup for the redis database 'inventory' at the location '/srv/backups/inventory_db'. Add a timestamp, compress the backup, do not encrypt, and keep it for 90 days.",
+        "filled_param": {
+          "db_name": "inventory",
+          "backup_location": "/srv/backups/inventory_db",
+          "timestamp": true,
+          "compression": true,
+          "encryption": false,
+          "retention_period": 90
+        }
+      },
+      {
+        "query": "Backup the redis database named 'customer_records' to '/opt/backups/customer' without adding a timestamp, make sure it is compressed, encrypted, and stored for 45 days.",
+        "filled_param": {
+          "db_name": "customer_records",
+          "backup_location": "/opt/backups/customer",
+          "timestamp": false,
+          "compression": true,
+          "encryption": true,
+          "retention_period": 45
+        }
+      }
+    ]
+  },
+  "database.create_backup|:|sqlite database|:|db_name,backup_location,timestamp,compression,encryption,retention_period": {
+    "tool_template_name": "database.create_backup",
+    "derived_class": "sqlite database",
+    "params_for_query": [
+      "db_name",
+      "backup_location",
+      "timestamp",
+      "compression",
+      "encryption",
+      "retention_period"
+    ],
+    "queries": [
+      {
+        "query": "Could you backup the sqlite database named 'user_data' to the path '/backups/user_data_backup', adding a timestamp, compressing it, encrypting it, and keeping it for 30 days?",
+        "filled_param": {
+          "db_name": "user_data",
+          "backup_location": "/backups/user_data_backup",
+          "timestamp": true,
+          "compression": true,
+          "encryption": true,
+          "retention_period": 30
+        }
+      },
+      {
+        "query": "I need a backup for the sqlite database 'sales_records' stored at '/archives/sales_backup', without a timestamp, compressed and encrypted, retaining for 90 days.",
+        "filled_param": {
+          "db_name": "sales_records",
+          "backup_location": "/archives/sales_backup",
+          "timestamp": false,
+          "compression": true,
+          "encryption": true,
+          "retention_period": 90
+        }
+      },
+      {
+        "query": "Create a backup of the sqlite database 'inventory_db' at '/backups/inventory', with a timestamp, no compression or encryption, and a retention of 60 days.",
+        "filled_param": {
+          "db_name": "inventory_db",
+          "backup_location": "/backups/inventory",
+          "timestamp": true,
+          "compression": false,
+          "encryption": false,
+          "retention_period": 60
+        }
+      },
+      {
+        "query": "Backup the sqlite database 'employee_records' to '/var/backups/employee', adding a timestamp and encryption but no compression, and keep it for 45 days.",
+        "filled_param": {
+          "db_name": "employee_records",
+          "backup_location": "/var/backups/employee",
+          "timestamp": true,
+          "compression": false,
+          "encryption": true,
+          "retention_period": 45
+        }
+      },
+      {
+        "query": "I need to create a backup of the sqlite database 'project_data' at '/data_backups/project', with no timestamp, compression, or encryption, and a retention period of 15 days.",
+        "filled_param": {
+          "db_name": "project_data",
+          "backup_location": "/data_backups/project",
+          "timestamp": false,
+          "compression": false,
+          "encryption": false,
+          "retention_period": 15
+        }
+      },
+      {
+        "query": "Please generate a backup for the sqlite database 'finance_db' to '/backup_storage/finance', including a timestamp, compressing it, without encryption, and storing it for 120 days.",
+        "filled_param": {
+          "db_name": "finance_db",
+          "backup_location": "/backup_storage/finance",
+          "timestamp": true,
+          "compression": true,
+          "encryption": false,
+          "retention_period": 120
+        }
+      },
+      {
+        "query": "Can you backup the sqlite database called 'customer_info' into the directory '/data/backup/customer', apply a timestamp and encryption, but no compression, and hold for 180 days?",
+        "filled_param": {
+          "db_name": "customer_info",
+          "backup_location": "/data/backup/customer",
+          "timestamp": true,
+          "compression": false,
+          "encryption": true,
+          "retention_period": 180
+        }
+      }
+    ]
+  },
+  "database.create_backup|:|sql server database|:|db_name,backup_location,timestamp,compression,encryption,retention_period": {
+    "tool_template_name": "database.create_backup",
+    "derived_class": "sql server database",
+    "params_for_query": [
+      "db_name",
+      "backup_location",
+      "timestamp",
+      "compression",
+      "encryption",
+      "retention_period"
+    ],
+    "queries": [
+      {
+        "query": "Create a backup for the sql server database named 'SalesDB' and store it at '/backups/sales'. Add a timestamp to the file name, compress the backup, encrypt it, and set the retention period to 30 days.",
+        "filled_param": {
+          "db_name": "SalesDB",
+          "backup_location": "/backups/sales",
+          "timestamp": true,
+          "compression": true,
+          "encryption": true,
+          "retention_period": 30
+        }
+      },
+      {
+        "query": "I need to back up the sql server database 'Inventory' to the path '/backups/inventory'. Include a timestamp, enable compression, use encryption, and retain the backup for 60 days.",
+        "filled_param": {
+          "db_name": "Inventory",
+          "backup_location": "/backups/inventory",
+          "timestamp": true,
+          "compression": true,
+          "encryption": true,
+          "retention_period": 60
+        }
+      },
+      {
+        "query": "Please back up the sql server database 'HRDatabase' to '/backups/hr'. Do not add a timestamp, but compress and encrypt the backup, and keep it for 15 days.",
+        "filled_param": {
+          "db_name": "HRDatabase",
+          "backup_location": "/backups/hr",
+          "timestamp": false,
+          "compression": true,
+          "encryption": true,
+          "retention_period": 15
+        }
+      },
+      {
+        "query": "Backup the sql server database 'FinanceDB' into '/backup/finance'. Append a timestamp, don't compress the backup, enable encryption, and retain it for 45 days.",
+        "filled_param": {
+          "db_name": "FinanceDB",
+          "backup_location": "/backup/finance",
+          "timestamp": true,
+          "compression": false,
+          "encryption": true,
+          "retention_period": 45
+        }
+      },
+      {
+        "query": "I want a backup of the sql server database 'CustomerRecords' at '/backups/customers'. Skip the timestamp, do not compress, but encrypt it, and set a retention period of 90 days.",
+        "filled_param": {
+          "db_name": "CustomerRecords",
+          "backup_location": "/backups/customers",
+          "timestamp": false,
+          "compression": false,
+          "encryption": true,
+          "retention_period": 90
+        }
+      },
+      {
+        "query": "Can you create a backup for the sql server database 'LogisticsDB' to the directory '/backup/logistics'? Ensure the timestamp is included, compression is used, encryption is off, and keep it for 10 days.",
+        "filled_param": {
+          "db_name": "LogisticsDB",
+          "backup_location": "/backup/logistics",
+          "timestamp": true,
+          "compression": true,
+          "encryption": false,
+          "retention_period": 10
+        }
+      }
+    ]
+  },
+  "database.create_backup|:|oracle database|:|db_name,backup_location,timestamp,compression,encryption,retention_period": {
+    "tool_template_name": "database.create_backup",
+    "derived_class": "oracle database",
+    "params_for_query": [
+      "db_name",
+      "backup_location",
+      "timestamp",
+      "compression",
+      "encryption",
+      "retention_period"
+    ],
+    "queries": [
+      {
+        "query": "Can you create a backup for the oracle database named 'FinanceDB' and store it at '/backups/finance'? Please include a timestamp, compress the file, encrypt it, and keep it for 30 days.",
+        "filled_param": {
+          "db_name": "FinanceDB",
+          "backup_location": "/backups/finance",
+          "timestamp": true,
+          "compression": true,
+          "encryption": true,
+          "retention_period": 30
+        }
+      },
+      {
+        "query": "I need a backup of the oracle database 'InventoryDB' to be saved at '/var/backups/inventory'. Ensure it has a timestamp, but do not compress or encrypt it, and retain it for 7 days.",
+        "filled_param": {
+          "db_name": "InventoryDB",
+          "backup_location": "/var/backups/inventory",
+          "timestamp": true,
+          "compression": false,
+          "encryption": false,
+          "retention_period": 7
+        }
+      },
+      {
+        "query": "Create a backup for the oracle database 'HRDB' in '/backup/hr'. Do not add a timestamp or compress the file, but encrypt it and keep it for 14 days.",
+        "filled_param": {
+          "db_name": "HRDB",
+          "backup_location": "/backup/hr",
+          "timestamp": false,
+          "compression": false,
+          "encryption": true,
+          "retention_period": 14
+        }
+      },
+      {
+        "query": "Please backup the oracle database 'SalesDB', placing it in '/mnt/sales_backup'. Include a timestamp and compress the backup, but do not encrypt it. Retention should be set for 90 days.",
+        "filled_param": {
+          "db_name": "SalesDB",
+          "backup_location": "/mnt/sales_backup",
+          "timestamp": true,
+          "compression": true,
+          "encryption": false,
+          "retention_period": 90
+        }
+      },
+      {
+        "query": "I want a backup for the oracle database 'ResearchDB' to be made at '/data/backups/research'. Ensure no timestamp, compression, or encryption, and keep it for 60 days.",
+        "filled_param": {
+          "db_name": "ResearchDB",
+          "backup_location": "/data/backups/research",
+          "timestamp": false,
+          "compression": false,
+          "encryption": false,
+          "retention_period": 60
+        }
+      },
+      {
+        "query": "Create a backup of the oracle database 'CustomerDB' and store it at '/secure_backups/customer'. Add a timestamp and encrypt the file, but don't compress it. Retain the backup for 45 days.",
+        "filled_param": {
+          "db_name": "CustomerDB",
+          "backup_location": "/secure_backups/customer",
+          "timestamp": true,
+          "compression": false,
+          "encryption": true,
+          "retention_period": 45
+        }
+      },
+      {
+        "query": "Backup the oracle database 'LogisticsDB' to '/backup/logistics'. Make sure to include a timestamp, compress, and encrypt the file, keeping it for 15 days.",
+        "filled_param": {
+          "db_name": "LogisticsDB",
+          "backup_location": "/backup/logistics",
+          "timestamp": true,
+          "compression": true,
+          "encryption": true,
+          "retention_period": 15
+        }
+      }
+    ]
+  },
+  "database.create_backup|:|mariadb database|:|db_name,backup_location,timestamp,compression,encryption,retention_period": {
+    "tool_template_name": "database.create_backup",
+    "derived_class": "mariadb database",
+    "params_for_query": [
+      "db_name",
+      "backup_location",
+      "timestamp",
+      "compression",
+      "encryption",
+      "retention_period"
+    ],
+    "queries": [
+      {
+        "query": "I need to back up the mariadb database named 'sales_data' to the path '/backups/sales' with the file being timestamped and encrypted. It should be compressed and kept for 30 days.",
+        "filled_param": {
+          "db_name": "sales_data",
+          "backup_location": "/backups/sales",
+          "timestamp": true,
+          "compression": true,
+          "encryption": true,
+          "retention_period": 30
+        }
+      },
+      {
+        "query": "Please create a backup for the mariadb database 'user_accounts' and store it at '/backups/accounts'. Ensure the file is timestamped, not compressed, encrypted, and retained for 15 days.",
+        "filled_param": {
+          "db_name": "user_accounts",
+          "backup_location": "/backups/accounts",
+          "timestamp": true,
+          "compression": false,
+          "encryption": true,
+          "retention_period": 15
+        }
+      },
+      {
+        "query": "Backup the 'inventory_db' mariadb database to '/backups/inventory'. I want the backup to be compressed and timestamped without encryption, and it should be kept for 45 days.",
+        "filled_param": {
+          "db_name": "inventory_db",
+          "backup_location": "/backups/inventory",
+          "timestamp": true,
+          "compression": true,
+          "encryption": false,
+          "retention_period": 45
+        }
+      },
+      {
+        "query": "Could you back up the mariadb database titled 'finance_records' to the directory '/backups/finance'? The backup should not have a timestamp or encryption but must be compressed and maintained for 60 days.",
+        "filled_param": {
+          "db_name": "finance_records",
+          "backup_location": "/backups/finance",
+          "timestamp": false,
+          "compression": true,
+          "encryption": false,
+          "retention_period": 60
+        }
+      },
+      {
+        "query": "Create a backup of the 'hr_database' mariadb database at '/backups/hr'. It should include a timestamp, be encrypted, not compressed, and stored for a duration of 10 days.",
+        "filled_param": {
+          "db_name": "hr_database",
+          "backup_location": "/backups/hr",
+          "timestamp": true,
+          "compression": false,
+          "encryption": true,
+          "retention_period": 10
+        }
+      },
+      {
+        "query": "I want a backup for the mariadb database 'product_catalog' placed in '/backup/storage'. No need for a timestamp or compression, but please encrypt it and keep it for 20 days.",
+        "filled_param": {
+          "db_name": "product_catalog",
+          "backup_location": "/backup/storage",
+          "timestamp": false,
+          "compression": false,
+          "encryption": true,
+          "retention_period": 20
+        }
+      },
+      {
+        "query": "Save a backup of the 'project_data' mariadb database to '/backup/projects'. The backup should be timestamped, without compression or encryption, and retained for 90 days.",
+        "filled_param": {
+          "db_name": "project_data",
+          "backup_location": "/backup/projects",
+          "timestamp": true,
+          "compression": false,
+          "encryption": false,
+          "retention_period": 90
+        }
+      }
+    ]
+  }
+}

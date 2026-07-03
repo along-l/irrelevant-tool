@@ -1,0 +1,707 @@
+{
+  "patient.get_mri_report|:|brain MRI|:|patient_id,status,report_date,image_quality": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "brain MRI",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date",
+      "image_quality"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the brain MRI report for patient ID 12345, which is concluded, dated 2023-07-15, with high image quality?",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "concluded",
+          "report_date": "2023-07-15",
+          "image_quality": "high"
+        }
+      },
+      {
+        "query": "I need the brain MRI report of the patient with ID 67890, marked as draft, created on 2023-02-10, having medium image quality.",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "draft",
+          "report_date": "2023-02-10",
+          "image_quality": "medium"
+        }
+      },
+      {
+        "query": "Fetch the brain MRI report for patient 54321, which is in progress, dated 2023-05-22, and has low image quality.",
+        "filled_param": {
+          "patient_id": "54321",
+          "status": "in progress",
+          "report_date": "2023-05-22",
+          "image_quality": "low"
+        }
+      },
+      {
+        "query": "Could you retrieve the brain MRI report for patient ID A98765, concluded on 2023-08-30, with medium image quality?",
+        "filled_param": {
+          "patient_id": "A98765",
+          "status": "concluded",
+          "report_date": "2023-08-30",
+          "image_quality": "medium"
+        }
+      },
+      {
+        "query": "Please get the brain MRI report for patient ID B12345, currently in progress, with a report date of 2023-09-12 and high image quality.",
+        "filled_param": {
+          "patient_id": "B12345",
+          "status": "in progress",
+          "report_date": "2023-09-12",
+          "image_quality": "high"
+        }
+      },
+      {
+        "query": "I am looking for the brain MRI report for the patient with ID C6789, listed as draft, from 2023-06-18, with low image quality.",
+        "filled_param": {
+          "patient_id": "C6789",
+          "status": "draft",
+          "report_date": "2023-06-18",
+          "image_quality": "low"
+        }
+      },
+      {
+        "query": "Can you find the brain MRI report of patient ID 32100, concluded as of 2023-10-05, with high-quality images?",
+        "filled_param": {
+          "patient_id": "32100",
+          "status": "concluded",
+          "report_date": "2023-10-05",
+          "image_quality": "high"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|chest CT|:|patient_id,status,report_date,image_quality": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "chest CT",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date",
+      "image_quality"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the chest CT report for patient 12345 with the status 'concluded', dated 2023-08-15, and ensure the image quality is high?",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "concluded",
+          "report_date": "2023-08-15",
+          "image_quality": "high"
+        }
+      },
+      {
+        "query": "I need to see the chest CT report for patient ID 67890 with an 'in progress' status from 2023-07-20, with medium image quality.",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "in progress",
+          "report_date": "2023-07-20",
+          "image_quality": "medium"
+        }
+      },
+      {
+        "query": "Fetch the chest CT report for patient 54321, which has a draft status as of 2023-09-10, and the images are of low quality.",
+        "filled_param": {
+          "patient_id": "54321",
+          "status": "draft",
+          "report_date": "2023-09-10",
+          "image_quality": "low"
+        }
+      },
+      {
+        "query": "Retrieve the chest CT report for patient 98765, concluded on 2023-05-25, with high image quality.",
+        "filled_param": {
+          "patient_id": "98765",
+          "status": "concluded",
+          "report_date": "2023-05-25",
+          "image_quality": "high"
+        }
+      },
+      {
+        "query": "Could you get me the chest CT report for patient ID 24680 that is currently in progress, dated 2023-06-30, with medium quality images?",
+        "filled_param": {
+          "patient_id": "24680",
+          "status": "in progress",
+          "report_date": "2023-06-30",
+          "image_quality": "medium"
+        }
+      },
+      {
+        "query": "I would like the draft chest CT report for patient 13579 from 2023-04-12, ensuring the image quality is low.",
+        "filled_param": {
+          "patient_id": "13579",
+          "status": "draft",
+          "report_date": "2023-04-12",
+          "image_quality": "low"
+        }
+      },
+      {
+        "query": "Access the chest CT report for patient 19283, marked as concluded on 2023-03-11, with high-quality images.",
+        "filled_param": {
+          "patient_id": "19283",
+          "status": "concluded",
+          "report_date": "2023-03-11",
+          "image_quality": "high"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|abdominal ultrasound|:|patient_id,status,report_date,image_quality": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "abdominal ultrasound",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date",
+      "image_quality"
+    ],
+    "queries": [
+      {
+        "query": "Retrieve the abdominal ultrasound report for patient ID 12345 with a status of 'concluded', generated on 2023-01-15, having high image quality.",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "concluded",
+          "report_date": "2023-01-15",
+          "image_quality": "high"
+        }
+      },
+      {
+        "query": "Can you get the abdominal ultrasound report with a 'draft' status for patient 67890, dated 2023-03-22, and medium image quality?",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "draft",
+          "report_date": "2023-03-22",
+          "image_quality": "medium"
+        }
+      },
+      {
+        "query": "I need the abdominal ultrasound report for patient ID A1001, which is 'in progress', from 2023-07-30, with low-quality images.",
+        "filled_param": {
+          "patient_id": "A1001",
+          "status": "in progress",
+          "report_date": "2023-07-30",
+          "image_quality": "low"
+        }
+      },
+      {
+        "query": "Please fetch the abdominal ultrasound report of patient B2002, concluded on 2023-05-18, with image quality rated as medium.",
+        "filled_param": {
+          "patient_id": "B2002",
+          "status": "concluded",
+          "report_date": "2023-05-18",
+          "image_quality": "medium"
+        }
+      },
+      {
+        "query": "Get the draft abdominal ultrasound report for patient C3003, from 2023-09-05, with high image quality.",
+        "filled_param": {
+          "patient_id": "C3003",
+          "status": "draft",
+          "report_date": "2023-09-05",
+          "image_quality": "high"
+        }
+      },
+      {
+        "query": "Show me the abdominal ultrasound report for patient ID 13579, with status 'in progress', made on 2023-02-28, and low image quality.",
+        "filled_param": {
+          "patient_id": "13579",
+          "status": "in progress",
+          "report_date": "2023-02-28",
+          "image_quality": "low"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|cardiac echocardiogram|:|patient_id,status,report_date,image_quality": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "cardiac echocardiogram",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date",
+      "image_quality"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the cardiac echocardiogram report for patient ID 12345 with a status of 'concluded' from April 5, 2023, and an image quality of high?",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "concluded",
+          "report_date": "April 5, 2023",
+          "image_quality": "high"
+        }
+      },
+      {
+        "query": "Fetch the cardiac echocardiogram report for patient 67890, which is currently 'in progress', dated August 15, 2023, with medium image quality.",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "in progress",
+          "report_date": "August 15, 2023",
+          "image_quality": "medium"
+        }
+      },
+      {
+        "query": "I need the cardiac echocardiogram report for patient number 112233 that has a 'draft' status as of September 22, 2023, and is marked with low image quality.",
+        "filled_param": {
+          "patient_id": "112233",
+          "status": "draft",
+          "report_date": "September 22, 2023",
+          "image_quality": "low"
+        }
+      },
+      {
+        "query": "Retrieve the cardiac echocardiogram report for the patient with ID 445566, concluded on July 10, 2023, with high-quality images.",
+        "filled_param": {
+          "patient_id": "445566",
+          "status": "concluded",
+          "report_date": "July 10, 2023",
+          "image_quality": "high"
+        }
+      },
+      {
+        "query": "Can you get the cardiac echocardiogram report for the patient ID 778899, status 'in progress', from March 1, 2023, with a low image quality rating?",
+        "filled_param": {
+          "patient_id": "778899",
+          "status": "in progress",
+          "report_date": "March 1, 2023",
+          "image_quality": "low"
+        }
+      },
+      {
+        "query": "Please provide the cardiac echocardiogram report for patient 334455, with a draft status, dated June 25, 2023, and medium-quality images.",
+        "filled_param": {
+          "patient_id": "334455",
+          "status": "draft",
+          "report_date": "June 25, 2023",
+          "image_quality": "medium"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|spinal X-ray|:|patient_id,status,report_date,image_quality": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "spinal X-ray",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date",
+      "image_quality"
+    ],
+    "queries": [
+      {
+        "query": "Please provide the spinal X-ray report for patient ID 12345 with the status concluded and report date of 2023-09-01, ensuring the image quality is high.",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "concluded",
+          "report_date": "2023-09-01",
+          "image_quality": "high"
+        }
+      },
+      {
+        "query": "Fetch the spinal X-ray report for patient 67890. The report should have a draft status, be dated on 2023-08-15, and have medium image quality.",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "draft",
+          "report_date": "2023-08-15",
+          "image_quality": "medium"
+        }
+      },
+      {
+        "query": "Can you get the spinal X-ray report for patient ID 24680 with in progress status, generated on 2023-07-20, and with low image quality?",
+        "filled_param": {
+          "patient_id": "24680",
+          "status": "in progress",
+          "report_date": "2023-07-20",
+          "image_quality": "low"
+        }
+      },
+      {
+        "query": "I need the spinal X-ray report for patient 13579, concluded status, dated 2023-06-10, with high image quality.",
+        "filled_param": {
+          "patient_id": "13579",
+          "status": "concluded",
+          "report_date": "2023-06-10",
+          "image_quality": "high"
+        }
+      },
+      {
+        "query": "Retrieve the spinal X-ray report of patient 98765 marked as draft on 2023-05-05, with medium image quality.",
+        "filled_param": {
+          "patient_id": "98765",
+          "status": "draft",
+          "report_date": "2023-05-05",
+          "image_quality": "medium"
+        }
+      },
+      {
+        "query": "Get the spinal X-ray report for patient ID 54321, status in progress, from 2023-04-30, with high image quality.",
+        "filled_param": {
+          "patient_id": "54321",
+          "status": "in progress",
+          "report_date": "2023-04-30",
+          "image_quality": "high"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|breast MRI|:|patient_id,status,report_date,image_quality": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "breast MRI",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date",
+      "image_quality"
+    ],
+    "queries": [
+      {
+        "query": "Can you retrieve the breast MRI report for patient ID 12345 with a status of 'concluded' from the date 2023-05-14, ensuring the image quality was 'high'?",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "concluded",
+          "report_date": "2023-05-14",
+          "image_quality": "high"
+        }
+      },
+      {
+        "query": "I need the breast MRI report for patient ID 67890 that is currently 'in progress' from the date 2023-07-21, where the image quality is marked as 'medium'.",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "in progress",
+          "report_date": "2023-07-21",
+          "image_quality": "medium"
+        }
+      },
+      {
+        "query": "Fetch the breast MRI report dated 2023-03-10 for patient ID 24680 with a 'draft' status and 'low' image quality.",
+        "filled_param": {
+          "patient_id": "24680",
+          "status": "draft",
+          "report_date": "2023-03-10",
+          "image_quality": "low"
+        }
+      },
+      {
+        "query": "Please get the breast MRI report for patient ID 13579 that has a 'concluded' status from the date 2023-06-15, with image quality rated as 'medium'.",
+        "filled_param": {
+          "patient_id": "13579",
+          "status": "concluded",
+          "report_date": "2023-06-15",
+          "image_quality": "medium"
+        }
+      },
+      {
+        "query": "What is the breast MRI report for patient ID 98765, dated 2023-09-30, with a status of 'in progress' and 'high' image quality?",
+        "filled_param": {
+          "patient_id": "98765",
+          "status": "in progress",
+          "report_date": "2023-09-30",
+          "image_quality": "high"
+        }
+      },
+      {
+        "query": "Find the breast MRI report for patient ID 11223 with a status of 'draft', dated 2023-08-05, and image quality marked as 'low'.",
+        "filled_param": {
+          "patient_id": "11223",
+          "status": "draft",
+          "report_date": "2023-08-05",
+          "image_quality": "low"
+        }
+      },
+      {
+        "query": "Retrieve the breast MRI report for patient ID 33445 from the date 2023-04-20, with a 'concluded' status and 'high' image quality.",
+        "filled_param": {
+          "patient_id": "33445",
+          "status": "concluded",
+          "report_date": "2023-04-20",
+          "image_quality": "high"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|liver CT|:|patient_id,status,report_date,image_quality": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "liver CT",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date",
+      "image_quality"
+    ],
+    "queries": [
+      {
+        "query": "Can you get the liver CT report for patient ID 12345 with status 'concluded' from September 15, 2023, where the image quality is high?",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "concluded",
+          "report_date": "September 15, 2023",
+          "image_quality": "high"
+        }
+      },
+      {
+        "query": "Fetch the liver CT report for patient 67890. The report should have 'in progress' status, be from October 1, 2023, and have medium image quality.",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "in progress",
+          "report_date": "October 1, 2023",
+          "image_quality": "medium"
+        }
+      },
+      {
+        "query": "I need the liver CT report with patient ID A1122, dated August 20, 2023, having 'draft' status and low image quality.",
+        "filled_param": {
+          "patient_id": "A1122",
+          "status": "draft",
+          "report_date": "August 20, 2023",
+          "image_quality": "low"
+        }
+      },
+      {
+        "query": "Retrieve the liver CT report for patient ID 45678 with a 'concluded' status from July 10, 2023, and ensure the image quality is medium.",
+        "filled_param": {
+          "patient_id": "45678",
+          "status": "concluded",
+          "report_date": "July 10, 2023",
+          "image_quality": "medium"
+        }
+      },
+      {
+        "query": "Please provide the liver CT report for patient B3344, marked as 'in progress' on March 5, 2023, with high image quality.",
+        "filled_param": {
+          "patient_id": "B3344",
+          "status": "in progress",
+          "report_date": "March 5, 2023",
+          "image_quality": "high"
+        }
+      },
+      {
+        "query": "Get me the liver CT report for patient ID C5567, status 'draft', dated April 30, 2023, with low image quality.",
+        "filled_param": {
+          "patient_id": "C5567",
+          "status": "draft",
+          "report_date": "April 30, 2023",
+          "image_quality": "low"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|ocular OCT|:|patient_id,status,report_date,image_quality": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "ocular OCT",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date",
+      "image_quality"
+    ],
+    "queries": [
+      {
+        "query": "Retrieve the ocular OCT report for patient ID 'A1234' with a status of 'concluded' from 2023-09-12 and ensure the image quality is high.",
+        "filled_param": {
+          "patient_id": "A1234",
+          "status": "concluded",
+          "report_date": "2023-09-12",
+          "image_quality": "high"
+        }
+      },
+      {
+        "query": "Can you get the ocular OCT report for the patient with ID 'B5678', marked as 'draft', dated 2023-08-25, with medium image quality?",
+        "filled_param": {
+          "patient_id": "B5678",
+          "status": "draft",
+          "report_date": "2023-08-25",
+          "image_quality": "medium"
+        }
+      },
+      {
+        "query": "Fetch the ocular OCT report for 'C9012', which is currently 'in progress', from the date 2023-07-30, and check that the image quality is low.",
+        "filled_param": {
+          "patient_id": "C9012",
+          "status": "in progress",
+          "report_date": "2023-07-30",
+          "image_quality": "low"
+        }
+      },
+      {
+        "query": "I need the ocular OCT report for patient ID 'D3456', which concluded on 2023-06-15, with high quality images.",
+        "filled_param": {
+          "patient_id": "D3456",
+          "status": "concluded",
+          "report_date": "2023-06-15",
+          "image_quality": "high"
+        }
+      },
+      {
+        "query": "Please provide the ocular OCT report for patient 'E7890', with a status of 'draft', dated 2023-05-20, and ensure that the images are of medium quality.",
+        "filled_param": {
+          "patient_id": "E7890",
+          "status": "draft",
+          "report_date": "2023-05-20",
+          "image_quality": "medium"
+        }
+      },
+      {
+        "query": "Find the ocular OCT report for the patient ID 'F2345', status 'in progress', from 2023-04-10, with an image quality of low.",
+        "filled_param": {
+          "patient_id": "F2345",
+          "status": "in progress",
+          "report_date": "2023-04-10",
+          "image_quality": "low"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|whole-body PET scan|:|patient_id,status,report_date,image_quality": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "whole-body PET scan",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date",
+      "image_quality"
+    ],
+    "queries": [
+      {
+        "query": "Could you please provide the whole-body PET scan report for patient ID P12345, marked as concluded, dated 2023-08-01 with high image quality?",
+        "filled_param": {
+          "patient_id": "P12345",
+          "status": "concluded",
+          "report_date": "2023-08-01",
+          "image_quality": "high"
+        }
+      },
+      {
+        "query": "I need the whole-body PET scan report for patient ID A98765 that is currently in progress, from the date 2023-09-15, and has medium image quality.",
+        "filled_param": {
+          "patient_id": "A98765",
+          "status": "in progress",
+          "report_date": "2023-09-15",
+          "image_quality": "medium"
+        }
+      },
+      {
+        "query": "Fetch the whole-body PET scan report for patient ID B11223, with status draft, dated 2023-07-22, and low image quality.",
+        "filled_param": {
+          "patient_id": "B11223",
+          "status": "draft",
+          "report_date": "2023-07-22",
+          "image_quality": "low"
+        }
+      },
+      {
+        "query": "Can you check the whole-body PET scan report for patient ID C56789 which concluded on 2023-06-30, with a high image quality?",
+        "filled_param": {
+          "patient_id": "C56789",
+          "status": "concluded",
+          "report_date": "2023-06-30",
+          "image_quality": "high"
+        }
+      },
+      {
+        "query": "Please provide the whole-body PET scan report for patient ID D44556, in progress, dated 2023-05-10, with medium image quality.",
+        "filled_param": {
+          "patient_id": "D44556",
+          "status": "in progress",
+          "report_date": "2023-05-10",
+          "image_quality": "medium"
+        }
+      },
+      {
+        "query": "I want the whole-body PET scan report for patient ID E99887 set as draft, from the date 2023-04-25, with low image quality.",
+        "filled_param": {
+          "patient_id": "E99887",
+          "status": "draft",
+          "report_date": "2023-04-25",
+          "image_quality": "low"
+        }
+      },
+      {
+        "query": "Retrieve the whole-body PET scan report for patient ID F33445, concluded on 2023-03-12, featuring high image quality.",
+        "filled_param": {
+          "patient_id": "F33445",
+          "status": "concluded",
+          "report_date": "2023-03-12",
+          "image_quality": "high"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|angiography|:|patient_id,status,report_date,image_quality": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "angiography",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date",
+      "image_quality"
+    ],
+    "queries": [
+      {
+        "query": "Can you locate the angiography report for patient ID 12345 with the status 'in progress', dated 2023-09-15, and with medium image quality?",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "in progress",
+          "report_date": "2023-09-15",
+          "image_quality": "medium"
+        }
+      },
+      {
+        "query": "I need the angiography report for the patient with ID 67890. The report is concluded, dated 2023-08-07, and the image quality is high.",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "concluded",
+          "report_date": "2023-08-07",
+          "image_quality": "high"
+        }
+      },
+      {
+        "query": "Fetch the angiography report for patient 54321 which is currently a draft, generated on 2023-07-20, with low image quality.",
+        "filled_param": {
+          "patient_id": "54321",
+          "status": "draft",
+          "report_date": "2023-07-20",
+          "image_quality": "low"
+        }
+      },
+      {
+        "query": "Please provide the angiography report for patient ID 98765 with status 'in progress', from the date 2023-06-30, and high image quality.",
+        "filled_param": {
+          "patient_id": "98765",
+          "status": "in progress",
+          "report_date": "2023-06-30",
+          "image_quality": "high"
+        }
+      },
+      {
+        "query": "I’m looking for the angiography report of patient 24680. It should have the status of 'concluded', be from the date 2023-05-15, and possess medium image quality.",
+        "filled_param": {
+          "patient_id": "24680",
+          "status": "concluded",
+          "report_date": "2023-05-15",
+          "image_quality": "medium"
+        }
+      },
+      {
+        "query": "Retrieve the angiography report for patient ID 13579, marked as a draft, dated 2023-04-05, with low image quality.",
+        "filled_param": {
+          "patient_id": "13579",
+          "status": "draft",
+          "report_date": "2023-04-05",
+          "image_quality": "low"
+        }
+      },
+      {
+        "query": "Get the angiography report for patient 19283 which is concluded, from the date 2023-10-01, and has images of medium quality.",
+        "filled_param": {
+          "patient_id": "19283",
+          "status": "concluded",
+          "report_date": "2023-10-01",
+          "image_quality": "medium"
+        }
+      }
+    ]
+  }
+}

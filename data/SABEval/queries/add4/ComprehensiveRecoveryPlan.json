@@ -1,0 +1,727 @@
+{
+  "ComprehensiveRecoveryPlan|:|hand surgery|:|surgery_type,recovery_goals,age,weight,comorbid_conditions,has_primary_caregiver": {
+    "tool_template_name": "ComprehensiveRecoveryPlan",
+    "derived_class": "hand surgery",
+    "params_for_query": [
+      "surgery_type",
+      "recovery_goals",
+      "age",
+      "weight",
+      "comorbid_conditions",
+      "has_primary_caregiver"
+    ],
+    "queries": [
+      {
+        "query": "Can you create a recovery plan for hand surgery involving tendon repair for a 45-year-old weighing 75 kg? The patient aims to regain full mobility in their hand and has diabetes and hypertension. They do have a primary caregiver.",
+        "filled_param": {
+          "surgery_type": "tendon repair",
+          "recovery_goals": "regain full mobility in their hand",
+          "age": 45,
+          "weight": 75.0,
+          "comorbid_conditions": [
+            "diabetes",
+            "hypertension"
+          ],
+          "has_primary_caregiver": true
+        }
+      },
+      {
+        "query": "Please devise a recovery strategy for a 30-year-old patient who underwent carpal tunnel release hand surgery. The patient weighs 68 kg, wants to reduce pain and swelling, and has no comorbid conditions. They do not have a primary caregiver.",
+        "filled_param": {
+          "surgery_type": "carpal tunnel release",
+          "recovery_goals": "reduce pain and swelling",
+          "age": 30,
+          "weight": 68.0,
+          "comorbid_conditions": [],
+          "has_primary_caregiver": false
+        }
+      },
+      {
+        "query": "What would a recovery plan look like for a 60-year-old, 82 kg patient recovering from a metacarpal fracture hand surgery? Their goals include strengthening their grip, and they suffer from osteoarthritis. They have a caregiver.",
+        "filled_param": {
+          "surgery_type": "metacarpal fracture",
+          "recovery_goals": "strengthening their grip",
+          "age": 60,
+          "weight": 82.0,
+          "comorbid_conditions": [
+            "osteoarthritis"
+          ],
+          "has_primary_caregiver": true
+        }
+      },
+      {
+        "query": "I need a detailed recovery plan for a 25-year-old who had corrective surgery for a congenital hand deformity. They weigh 60 kg, aim to improve dexterity, and have no other health issues. They are supported by a caregiver.",
+        "filled_param": {
+          "surgery_type": "corrective surgery for a congenital hand deformity",
+          "recovery_goals": "improve dexterity",
+          "age": 25,
+          "weight": 60.0,
+          "comorbid_conditions": [],
+          "has_primary_caregiver": true
+        }
+      },
+      {
+        "query": "Could you provide a recovery plan for a 55-year-old undergoing finger joint fusion hand surgery, weighing 70 kg? Their goal is to enhance joint stability, and they have rheumatoid arthritis and need caregiver support.",
+        "filled_param": {
+          "surgery_type": "finger joint fusion",
+          "recovery_goals": "enhance joint stability",
+          "age": 55,
+          "weight": 70.0,
+          "comorbid_conditions": [
+            "rheumatoid arthritis"
+          ],
+          "has_primary_caregiver": true
+        }
+      }
+    ]
+  },
+  "ComprehensiveRecoveryPlan|:|cardiac surgery|:|surgery_type,recovery_goals,age,weight,comorbid_conditions,has_primary_caregiver": {
+    "tool_template_name": "ComprehensiveRecoveryPlan",
+    "derived_class": "cardiac surgery",
+    "params_for_query": [
+      "surgery_type",
+      "recovery_goals",
+      "age",
+      "weight",
+      "comorbid_conditions",
+      "has_primary_caregiver"
+    ],
+    "queries": [
+      {
+        "query": "Create a recovery plan for a 65-year-old patient who underwent coronary artery bypass surgery. The patient weighs 80 kg, has diabetes and hypertension, aims for walking 30 minutes daily, and has a primary caregiver.",
+        "filled_param": {
+          "surgery_type": "coronary artery bypass",
+          "recovery_goals": "walking 30 minutes daily",
+          "age": 65,
+          "weight": 80,
+          "comorbid_conditions": [
+            "diabetes",
+            "hypertension"
+          ],
+          "has_primary_caregiver": true
+        }
+      },
+      {
+        "query": "Can you generate a recovery plan for a 50-year-old following aortic valve replacement? The weight is 75 kg, with atrial fibrillation as the only condition, and the goal is to resume normal activities within 3 months. No primary caregiver is available.",
+        "filled_param": {
+          "surgery_type": "aortic valve replacement",
+          "recovery_goals": "resume normal activities within 3 months",
+          "age": 50,
+          "weight": 75,
+          "comorbid_conditions": [
+            "atrial fibrillation"
+          ],
+          "has_primary_caregiver": false
+        }
+      },
+      {
+        "query": "I need a detailed recovery strategy for a 58-year-old post-mitral valve repair. The patient weighs 68 kg, struggles with obesity and hyperlipidemia, wants to reduce weight by 5 kg, and has a caregiver.",
+        "filled_param": {
+          "surgery_type": "mitral valve repair",
+          "recovery_goals": "reduce weight by 5 kg",
+          "age": 58,
+          "weight": 68,
+          "comorbid_conditions": [
+            "obesity",
+            "hyperlipidemia"
+          ],
+          "has_primary_caregiver": true
+        }
+      },
+      {
+        "query": "What should be included in a recovery plan for a 72-year-old who underwent heart transplant surgery? The individual weighs 85 kg, has chronic kidney disease, intends to engage in moderate exercise, and doesn't have a primary caregiver.",
+        "filled_param": {
+          "surgery_type": "heart transplant",
+          "recovery_goals": "engage in moderate exercise",
+          "age": 72,
+          "weight": 85,
+          "comorbid_conditions": [
+            "chronic kidney disease"
+          ],
+          "has_primary_caregiver": false
+        }
+      },
+      {
+        "query": "Plan a recovery for a 45-year-old who had a pacemaker installed. The patient is 70 kg, suffers from hypertension and asthma, aims to return to work in 6 weeks, and has family support.",
+        "filled_param": {
+          "surgery_type": "pacemaker installation",
+          "recovery_goals": "return to work in 6 weeks",
+          "age": 45,
+          "weight": 70,
+          "comorbid_conditions": [
+            "hypertension",
+            "asthma"
+          ],
+          "has_primary_caregiver": true
+        }
+      }
+    ]
+  },
+  "ComprehensiveRecoveryPlan|:|stomach surgery|:|surgery_type,recovery_goals,age,weight,comorbid_conditions,has_primary_caregiver": {
+    "tool_template_name": "ComprehensiveRecoveryPlan",
+    "derived_class": "stomach surgery",
+    "params_for_query": [
+      "surgery_type",
+      "recovery_goals",
+      "age",
+      "weight",
+      "comorbid_conditions",
+      "has_primary_caregiver"
+    ],
+    "queries": [
+      {
+        "query": "Create a recovery plan for a 45-year-old patient who underwent gastric bypass surgery, aims to achieve weight stability and manage blood sugar levels, weighs 85 kg, has diabetes and hypertension, and has a primary caregiver.",
+        "filled_param": {
+          "surgery_type": "gastric bypass surgery",
+          "recovery_goals": "achieve weight stability and manage blood sugar levels",
+          "age": 45,
+          "weight": 85,
+          "comorbid_conditions": [
+            "diabetes",
+            "hypertension"
+          ],
+          "has_primary_caregiver": true
+        }
+      },
+      {
+        "query": "I need a comprehensive stomach surgery recovery plan for a 60-year-old who had an adjustable gastric band surgery, wishes to return to normal activities, weighs 90 kg, has sleep apnea, and does not have a primary caregiver.",
+        "filled_param": {
+          "surgery_type": "adjustable gastric band surgery",
+          "recovery_goals": "return to normal activities",
+          "age": 60,
+          "weight": 90,
+          "comorbid_conditions": [
+            "sleep apnea"
+          ],
+          "has_primary_caregiver": false
+        }
+      },
+      {
+        "query": "Generate a recovery plan for a 30-year-old after sleeve gastrectomy, with goals to improve digestion and lose weight, who weighs 70 kg, suffers from anemia, and has a primary caregiver.",
+        "filled_param": {
+          "surgery_type": "sleeve gastrectomy",
+          "recovery_goals": "improve digestion and lose weight",
+          "age": 30,
+          "weight": 70,
+          "comorbid_conditions": [
+            "anemia"
+          ],
+          "has_primary_caregiver": true
+        }
+      },
+      {
+        "query": "What is a good recovery strategy for a 55-year-old post stomach cancer surgery patient focused on gaining muscle mass, weighing 68 kg, with arthritis and no primary caregiver?",
+        "filled_param": {
+          "surgery_type": "stomach cancer surgery",
+          "recovery_goals": "gaining muscle mass",
+          "age": 55,
+          "weight": 68,
+          "comorbid_conditions": [
+            "arthritis"
+          ],
+          "has_primary_caregiver": false
+        }
+      },
+      {
+        "query": "I am looking for a recovery plan for a 50-year-old after a pyloroplasty surgery, aiming to alleviate gastrointestinal discomfort, who weighs 80 kg, has no comorbid conditions, and has a primary caregiver.",
+        "filled_param": {
+          "surgery_type": "pyloroplasty surgery",
+          "recovery_goals": "alleviate gastrointestinal discomfort",
+          "age": 50,
+          "weight": 80,
+          "comorbid_conditions": [],
+          "has_primary_caregiver": true
+        }
+      }
+    ]
+  },
+  "ComprehensiveRecoveryPlan|:|spine surgery|:|surgery_type,recovery_goals,age,weight,comorbid_conditions,has_primary_caregiver": {
+    "tool_template_name": "ComprehensiveRecoveryPlan",
+    "derived_class": "spine surgery",
+    "params_for_query": [
+      "surgery_type",
+      "recovery_goals",
+      "age",
+      "weight",
+      "comorbid_conditions",
+      "has_primary_caregiver"
+    ],
+    "queries": [
+      {
+        "query": "I had lumbar fusion surgery and aim to regain full mobility. I'm 45 years old, weigh 70 kg, have hypertension, and my spouse is my caregiver. Can you help me with a recovery plan?",
+        "filled_param": {
+          "surgery_type": "lumbar fusion",
+          "recovery_goals": "regain full mobility",
+          "age": 45,
+          "weight": 70,
+          "comorbid_conditions": [
+            "hypertension"
+          ],
+          "has_primary_caregiver": true
+        }
+      },
+      {
+        "query": "I recently underwent cervical disk replacement to alleviate chronic neck pain. My goal is to return to work within three months. I'm 38, weigh 80 kg, have no other health issues, and live alone. What should my recovery plan include?",
+        "filled_param": {
+          "surgery_type": "cervical disk replacement",
+          "recovery_goals": "return to work within three months",
+          "age": 38,
+          "weight": 80,
+          "comorbid_conditions": [],
+          "has_primary_caregiver": false
+        }
+      },
+      {
+        "query": "Following scoliosis correction surgery, I want to participate in sports activities again. I'm 16, weigh 55 kg, and have asthma but my parents are assisting me during recovery. Could you provide a plan?",
+        "filled_param": {
+          "surgery_type": "scoliosis correction",
+          "recovery_goals": "participate in sports activities",
+          "age": 16,
+          "weight": 55,
+          "comorbid_conditions": [
+            "asthma"
+          ],
+          "has_primary_caregiver": true
+        }
+      },
+      {
+        "query": "After microdiscectomy for herniated disc, I aim to walk without discomfort. I'm 60 years old, weigh 65 kg, have diabetes, and my daughter is taking care of me. What should my recovery plan entail?",
+        "filled_param": {
+          "surgery_type": "microdiscectomy",
+          "recovery_goals": "walk without discomfort",
+          "age": 60,
+          "weight": 65,
+          "comorbid_conditions": [
+            "diabetes"
+          ],
+          "has_primary_caregiver": true
+        }
+      },
+      {
+        "query": "I just had a spinal stenosis decompression and want to return to hiking. I'm 72, weigh 76 kg, and suffer from arthritis. I have a caregiver at home. Can you suggest a recovery plan?",
+        "filled_param": {
+          "surgery_type": "spinal stenosis decompression",
+          "recovery_goals": "return to hiking",
+          "age": 72,
+          "weight": 76,
+          "comorbid_conditions": [
+            "arthritis"
+          ],
+          "has_primary_caregiver": true
+        }
+      },
+      {
+        "query": "Post-laminectomy, I wish to reduce chronic back pain and I'm 50 years old, weighing 90 kg. I have no comorbid conditions but no caregiver at home. What recovery plan do you recommend?",
+        "filled_param": {
+          "surgery_type": "laminectomy",
+          "recovery_goals": "reduce chronic back pain",
+          "age": 50,
+          "weight": 90,
+          "comorbid_conditions": [],
+          "has_primary_caregiver": false
+        }
+      }
+    ]
+  },
+  "ComprehensiveRecoveryPlan|:|neurosurgery|:|surgery_type,recovery_goals,age,weight,comorbid_conditions,has_primary_caregiver": {
+    "tool_template_name": "ComprehensiveRecoveryPlan",
+    "derived_class": "neurosurgery",
+    "params_for_query": [
+      "surgery_type",
+      "recovery_goals",
+      "age",
+      "weight",
+      "comorbid_conditions",
+      "has_primary_caregiver"
+    ],
+    "queries": [
+      {
+        "query": "Create a neurosurgery recovery plan for a 65-year-old who has undergone spinal cord decompression surgery, with recovery goals focused on regaining full mobility and managing chronic pain, weighing 75 kilograms, with hypertension and diabetes, and having a primary caregiver.",
+        "filled_param": {
+          "surgery_type": "spinal cord decompression",
+          "recovery_goals": "regaining full mobility and managing chronic pain",
+          "age": 65,
+          "weight": 75,
+          "comorbid_conditions": [
+            "hypertension",
+            "diabetes"
+          ],
+          "has_primary_caregiver": true
+        }
+      },
+      {
+        "query": "I need a comprehensive recovery plan for neurosurgery: a 50-year-old patient after a brain tumor removal aiming for cognitive function improvement, weighing 68 kg, who has epilepsy and no primary caregiver.",
+        "filled_param": {
+          "surgery_type": "brain tumor removal",
+          "recovery_goals": "cognitive function improvement",
+          "age": 50,
+          "weight": 68,
+          "comorbid_conditions": [
+            "epilepsy"
+          ],
+          "has_primary_caregiver": false
+        }
+      },
+      {
+        "query": "Can you generate a neurosurgery recovery plan for a 40-year-old with a pituitary gland surgery, focused on hormonal balance and reducing fatigue, weighing 82 kilos, with hypothyroidism and a primary caregiver present?",
+        "filled_param": {
+          "surgery_type": "pituitary gland surgery",
+          "recovery_goals": "hormonal balance and reducing fatigue",
+          "age": 40,
+          "weight": 82,
+          "comorbid_conditions": [
+            "hypothyroidism"
+          ],
+          "has_primary_caregiver": true
+        }
+      },
+      {
+        "query": "Develop a neurosurgery recovery plan for a 30-year-old after deep brain stimulation surgery, aiming for improved motor skills, weighing 70 kg, suffering from Parkinson's disease, without a primary caregiver.",
+        "filled_param": {
+          "surgery_type": "deep brain stimulation",
+          "recovery_goals": "improved motor skills",
+          "age": 30,
+          "weight": 70,
+          "comorbid_conditions": [
+            "Parkinson's disease"
+          ],
+          "has_primary_caregiver": false
+        }
+      },
+      {
+        "query": "What would be the neurosurgery recovery plan for a 55-year-old after an endoscopic skull base surgery targeting enhanced balance and coordination, weighing 90 kilograms, with a history of migraines and having a caregiver?",
+        "filled_param": {
+          "surgery_type": "endoscopic skull base surgery",
+          "recovery_goals": "enhanced balance and coordination",
+          "age": 55,
+          "weight": 90,
+          "comorbid_conditions": [
+            "migraines"
+          ],
+          "has_primary_caregiver": true
+        }
+      }
+    ]
+  },
+  "ComprehensiveRecoveryPlan|:|eye surgery|:|surgery_type,recovery_goals,age,weight,comorbid_conditions,has_primary_caregiver": {
+    "tool_template_name": "ComprehensiveRecoveryPlan",
+    "derived_class": "eye surgery",
+    "params_for_query": [
+      "surgery_type",
+      "recovery_goals",
+      "age",
+      "weight",
+      "comorbid_conditions",
+      "has_primary_caregiver"
+    ],
+    "queries": [
+      {
+        "query": "I need a recovery plan for cataract surgery aimed at achieving full vision clarity, for a 65-year-old patient weighing 70 kg, who has diabetes and hypertension, and has a primary caregiver.",
+        "filled_param": {
+          "surgery_type": "cataract surgery",
+          "recovery_goals": "achieving full vision clarity",
+          "age": 65,
+          "weight": 70,
+          "comorbid_conditions": [
+            "diabetes",
+            "hypertension"
+          ],
+          "has_primary_caregiver": true
+        }
+      },
+      {
+        "query": "Can you provide a recovery plan for LASIK eye surgery with goals of minimizing dry eye symptoms, for a 30-year-old weighing 60 kg, with no comorbid conditions, and no primary caregiver?",
+        "filled_param": {
+          "surgery_type": "LASIK eye surgery",
+          "recovery_goals": "minimizing dry eye symptoms",
+          "age": 30,
+          "weight": 60,
+          "comorbid_conditions": [],
+          "has_primary_caregiver": false
+        }
+      },
+      {
+        "query": "Develop a recovery plan for retinal detachment repair with the aim to prevent recurrence, for a 45-year-old patient weighing 75 kg, who has asthma, and has a caregiver.",
+        "filled_param": {
+          "surgery_type": "retinal detachment repair",
+          "recovery_goals": "prevent recurrence",
+          "age": 45,
+          "weight": 75,
+          "comorbid_conditions": [
+            "asthma"
+          ],
+          "has_primary_caregiver": true
+        }
+      },
+      {
+        "query": "What recovery plan would you recommend for glaucoma surgery focusing on stabilizing intraocular pressure, for an 80-year-old who weighs 65 kg, with arthritis, and has no primary caregiver?",
+        "filled_param": {
+          "surgery_type": "glaucoma surgery",
+          "recovery_goals": "stabilizing intraocular pressure",
+          "age": 80,
+          "weight": 65,
+          "comorbid_conditions": [
+            "arthritis"
+          ],
+          "has_primary_caregiver": false
+        }
+      },
+      {
+        "query": "Create a recovery plan for corneal transplant with the goal of returning to normal activities smoothly, for a 50-year-old weighing 68 kg, who has hypertension, and a primary caregiver.",
+        "filled_param": {
+          "surgery_type": "corneal transplant",
+          "recovery_goals": "returning to normal activities smoothly",
+          "age": 50,
+          "weight": 68,
+          "comorbid_conditions": [
+            "hypertension"
+          ],
+          "has_primary_caregiver": true
+        }
+      }
+    ]
+  },
+  "ComprehensiveRecoveryPlan|:|ENT surgery|:|surgery_type,recovery_goals,age,weight,comorbid_conditions,has_primary_caregiver": {
+    "tool_template_name": "ComprehensiveRecoveryPlan",
+    "derived_class": "ENT surgery",
+    "params_for_query": [
+      "surgery_type",
+      "recovery_goals",
+      "age",
+      "weight",
+      "comorbid_conditions",
+      "has_primary_caregiver"
+    ],
+    "queries": [
+      {
+        "query": "I need a recovery plan for my mother's septoplasty surgery. Her recovery goals include regaining full nasal function and reducing congestion. She is 55 years old and weighs 70 kg. She has hypertension and diabetes. A primary caregiver is present.",
+        "filled_param": {
+          "surgery_type": "septoplasty",
+          "recovery_goals": "regaining full nasal function and reducing congestion",
+          "age": 55,
+          "weight": 70,
+          "comorbid_conditions": [
+            "hypertension",
+            "diabetes"
+          ],
+          "has_primary_caregiver": true
+        }
+      },
+      {
+        "query": "Can you create a recovery plan for my father's tonsillectomy? His recovery goals are to minimize pain and avoid infections. He is 40 years old, weighs 85 kg, and has asthma. He does not have a primary caregiver.",
+        "filled_param": {
+          "surgery_type": "tonsillectomy",
+          "recovery_goals": "minimize pain and avoid infections",
+          "age": 40,
+          "weight": 85,
+          "comorbid_conditions": [
+            "asthma"
+          ],
+          "has_primary_caregiver": false
+        }
+      },
+      {
+        "query": "My sister underwent sinus surgery. Her recovery goals are to breathe easily and prevent swelling. She is 30 years old, weighs 60 kg, and has allergies. A primary caregiver is available.",
+        "filled_param": {
+          "surgery_type": "sinus surgery",
+          "recovery_goals": "breathe easily and prevent swelling",
+          "age": 30,
+          "weight": 60,
+          "comorbid_conditions": [
+            "allergies"
+          ],
+          "has_primary_caregiver": true
+        }
+      },
+      {
+        "query": "Please provide a recovery plan for my friend's cochlear implant surgery. Her goals are to adapt to the implant and improve hearing clarity. She is 25 years old, weighs 55 kg, and has no other medical conditions. She has a primary caregiver.",
+        "filled_param": {
+          "surgery_type": "cochlear implant surgery",
+          "recovery_goals": "adapt to the implant and improve hearing clarity",
+          "age": 25,
+          "weight": 55,
+          "comorbid_conditions": [],
+          "has_primary_caregiver": true
+        }
+      },
+      {
+        "query": "I'm looking for a recovery plan for my uncle's laryngectomy. His recovery goals focus on adjusting to a tracheostomy and improving vocal communication. He is 60 years old, weighs 90 kg, and has hypertension. There is no primary caregiver.",
+        "filled_param": {
+          "surgery_type": "laryngectomy",
+          "recovery_goals": "adjusting to a tracheostomy and improving vocal communication",
+          "age": 60,
+          "weight": 90,
+          "comorbid_conditions": [
+            "hypertension"
+          ],
+          "has_primary_caregiver": false
+        }
+      },
+      {
+        "query": "Generate a recovery plan for my niece who had a mastoidectomy. Her goals include preventing infection and ensuring proper healing. She is 12 years old, weighs 45 kg, and has no other health issues. She is cared for by her parents.",
+        "filled_param": {
+          "surgery_type": "mastoidectomy",
+          "recovery_goals": "preventing infection and ensuring proper healing",
+          "age": 12,
+          "weight": 45,
+          "comorbid_conditions": [],
+          "has_primary_caregiver": true
+        }
+      }
+    ]
+  },
+  "ComprehensiveRecoveryPlan|:|urinary surgery|:|surgery_type,recovery_goals,age,weight,comorbid_conditions,has_primary_caregiver": {
+    "tool_template_name": "ComprehensiveRecoveryPlan",
+    "derived_class": "urinary surgery",
+    "params_for_query": [
+      "surgery_type",
+      "recovery_goals",
+      "age",
+      "weight",
+      "comorbid_conditions",
+      "has_primary_caregiver"
+    ],
+    "queries": [
+      {
+        "query": "I need a recovery plan after a cystolitholapaxy with goals to manage pain and avoid infection for a 67-year-old patient weighing 75 kg, who has diabetes and hypertension and lacks a primary caregiver.",
+        "filled_param": {
+          "surgery_type": "cystolitholapaxy",
+          "recovery_goals": "manage pain and avoid infection",
+          "age": 67,
+          "weight": 75,
+          "comorbid_conditions": [
+            "diabetes",
+            "hypertension"
+          ],
+          "has_primary_caregiver": false
+        }
+      },
+      {
+        "query": "Can you create a recovery strategy for a 45-year-old patient weighing 82 kg who underwent a ureteral reimplantation, aiming to regain bladder control and improve overall mobility? The patient has no comorbid conditions and has a dedicated caregiver.",
+        "filled_param": {
+          "surgery_type": "ureteral reimplantation",
+          "recovery_goals": "regain bladder control and improve overall mobility",
+          "age": 45,
+          "weight": 82,
+          "comorbid_conditions": [],
+          "has_primary_caregiver": true
+        }
+      },
+      {
+        "query": "Develop a recovery plan for a nephrectomy patient aiming to reduce fatigue and increase daily activity. The patient is 55 years old, weighs 90 kg, has a history of chronic kidney disease and is without a primary caregiver.",
+        "filled_param": {
+          "surgery_type": "nephrectomy",
+          "recovery_goals": "reduce fatigue and increase daily activity",
+          "age": 55,
+          "weight": 90,
+          "comorbid_conditions": [
+            "chronic kidney disease"
+          ],
+          "has_primary_caregiver": false
+        }
+      },
+      {
+        "query": "I need a detailed recovery outline for a 30-year-old patient weighing 65 kg who had a urethroplasty. Their goals include avoiding urinary tract infections and improving psychological well-being. They have asthma and no caregiver support.",
+        "filled_param": {
+          "surgery_type": "urethroplasty",
+          "recovery_goals": "avoiding urinary tract infections and improving psychological well-being",
+          "age": 30,
+          "weight": 65,
+          "comorbid_conditions": [
+            "asthma"
+          ],
+          "has_primary_caregiver": false
+        }
+      },
+      {
+        "query": "What recovery measures should be put in place for a 74-year-old, 70 kg patient after a pyeloplasty, aiming at minimizing risk of infection and ensuring proper wound healing? They suffer from hypertension and arthritis, and have a caregiver.",
+        "filled_param": {
+          "surgery_type": "pyeloplasty",
+          "recovery_goals": "minimizing risk of infection and ensuring proper wound healing",
+          "age": 74,
+          "weight": 70,
+          "comorbid_conditions": [
+            "hypertension",
+            "arthritis"
+          ],
+          "has_primary_caregiver": true
+        }
+      }
+    ]
+  },
+  "ComprehensiveRecoveryPlan|:|obstetric surgery|:|surgery_type,recovery_goals,age,weight,comorbid_conditions,has_primary_caregiver": {
+    "tool_template_name": "ComprehensiveRecoveryPlan",
+    "derived_class": "obstetric surgery",
+    "params_for_query": [
+      "surgery_type",
+      "recovery_goals",
+      "age",
+      "weight",
+      "comorbid_conditions",
+      "has_primary_caregiver"
+    ],
+    "queries": [
+      {
+        "query": "I recently had a cesarean section and my recovery goals include regaining mobility and reducing pain. I'm 32 years old, weighing 68 kg, with a history of hypertension. I do have a primary caregiver. Can you help with a recovery plan?",
+        "filled_param": {
+          "surgery_type": "cesarean section",
+          "recovery_goals": "regaining mobility and reducing pain",
+          "age": 32,
+          "weight": 68,
+          "comorbid_conditions": [
+            "hypertension"
+          ],
+          "has_primary_caregiver": true
+        }
+      },
+      {
+        "query": "I am looking for a recovery plan after having a hysterectomy. My goals are to manage post-surgical fatigue and improve my diet. I'm 45 years old, weigh 70 kg, and have diabetes. No primary caregiver is available. Can you assist?",
+        "filled_param": {
+          "surgery_type": "hysterectomy",
+          "recovery_goals": "manage post-surgical fatigue and improve diet",
+          "age": 45,
+          "weight": 70,
+          "comorbid_conditions": [
+            "diabetes"
+          ],
+          "has_primary_caregiver": false
+        }
+      },
+      {
+        "query": "Following a myomectomy, I want to focus on restoring my energy levels and enhancing my overall health. I'm 29 years old, 55 kg, with no comorbid conditions. I do not have a primary caregiver. Could you provide a recovery strategy?",
+        "filled_param": {
+          "surgery_type": "myomectomy",
+          "recovery_goals": "restoring energy levels and enhancing overall health",
+          "age": 29,
+          "weight": 55,
+          "comorbid_conditions": [],
+          "has_primary_caregiver": false
+        }
+      },
+      {
+        "query": "Create a recovery plan for me after undergoing an episiotomy. My goals are to reduce swelling and improve healing speed. I am 30 years old, weigh 60 kg, and have no other medical conditions. I have a primary caregiver.",
+        "filled_param": {
+          "surgery_type": "episiotomy",
+          "recovery_goals": "reduce swelling and improve healing speed",
+          "age": 30,
+          "weight": 60,
+          "comorbid_conditions": [],
+          "has_primary_caregiver": true
+        }
+      },
+      {
+        "query": "I had a uterine artery embolization and my recovery goals include maintaining a healthy lifestyle and ensuring proper wound care. I am 38, weigh 80 kg, and have a history of asthma. I do have a primary caregiver. What can you suggest?",
+        "filled_param": {
+          "surgery_type": "uterine artery embolization",
+          "recovery_goals": "maintaining a healthy lifestyle and ensuring proper wound care",
+          "age": 38,
+          "weight": 80,
+          "comorbid_conditions": [
+            "asthma"
+          ],
+          "has_primary_caregiver": true
+        }
+      }
+    ]
+  }
+}

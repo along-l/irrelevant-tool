@@ -1,0 +1,748 @@
+{
+  "delete_message|:|SMS message|:|message_id,timestamp,softDelete": {
+    "tool_template_name": "delete_message",
+    "derived_class": "SMS message",
+    "params_for_query": [
+      "message_id",
+      "timestamp",
+      "softDelete"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the SMS message with message ID 10245, which was created at timestamp 1677721600, and make sure it's a soft delete.",
+        "filled_param": {
+          "message_id": 10245,
+          "timestamp": 1677721600,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "I'd like to permanently remove the SMS message that has the message ID 20468 and was created at the Unix timestamp 1688322000.",
+        "filled_param": {
+          "message_id": 20468,
+          "timestamp": 1688322000,
+          "softDelete": false
+        }
+      },
+      {
+        "query": "Can you conduct a soft deletion for the SMS message with the ID of 30579, which originated at timestamp 1690924800?",
+        "filled_param": {
+          "message_id": 30579,
+          "timestamp": 1690924800,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "Execute a deletion for the SMS message identified by message ID 40689, created at Unix timestamp 1701525600, ensuring no recovery is possible.",
+        "filled_param": {
+          "message_id": 40689,
+          "timestamp": 1701525600,
+          "softDelete": false
+        }
+      },
+      {
+        "query": "Can you delete the SMS message with ID 50799 and timestamp 1712126400 while allowing for a soft delete option?",
+        "filled_param": {
+          "message_id": 50799,
+          "timestamp": 1712126400,
+          "softDelete": true
+        }
+      }
+    ]
+  },
+  "delete_message|:|QQ message|:|message_id,timestamp,softDelete": {
+    "tool_template_name": "delete_message",
+    "derived_class": "QQ message",
+    "params_for_query": [
+      "message_id",
+      "timestamp",
+      "softDelete"
+    ],
+    "queries": [
+      {
+        "query": "Please remove the QQ message with ID 12345 that was sent at timestamp 1627833600, and make it a soft delete.",
+        "filled_param": {
+          "message_id": 12345,
+          "timestamp": 1627833600,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "Delete the QQ message having message ID 67890 created at 1627937200, ensuring it is permanently deleted.",
+        "filled_param": {
+          "message_id": 67890,
+          "timestamp": 1627937200,
+          "softDelete": false
+        }
+      },
+      {
+        "query": "Can you soft delete the QQ message with the ID 54321 and timestamp 1628040800?",
+        "filled_param": {
+          "message_id": 54321,
+          "timestamp": 1628040800,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "Remove the QQ message identified by ID 98765 at the timestamp 1628144400; it should not be recoverable.",
+        "filled_param": {
+          "message_id": 98765,
+          "timestamp": 1628144400,
+          "softDelete": false
+        }
+      },
+      {
+        "query": "I need you to perform a soft delete on the QQ message with ID 13579 created at 1628248000.",
+        "filled_param": {
+          "message_id": 13579,
+          "timestamp": 1628248000,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "Permanently delete the QQ message with message ID 24680 sent at 1628351600.",
+        "filled_param": {
+          "message_id": 24680,
+          "timestamp": 1628351600,
+          "softDelete": false
+        }
+      }
+    ]
+  },
+  "delete_message|:|WeChat message|:|message_id,timestamp,softDelete": {
+    "tool_template_name": "delete_message",
+    "derived_class": "WeChat message",
+    "params_for_query": [
+      "message_id",
+      "timestamp",
+      "softDelete"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the WeChat message with the message ID 34567 that was sent at timestamp 1672531200, and make sure to soft delete it.",
+        "filled_param": {
+          "message_id": 34567,
+          "timestamp": 1672531200,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "I need the WeChat message with ID 78910 and timestamp 1672617600 to be permanently deleted.",
+        "filled_param": {
+          "message_id": 78910,
+          "timestamp": 1672617600,
+          "softDelete": false
+        }
+      },
+      {
+        "query": "Can you remove the WeChat message having the ID 45678 which was created at the Unix timestamp 1672704000, using soft delete?",
+        "filled_param": {
+          "message_id": 45678,
+          "timestamp": 1672704000,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "Delete the WeChat message with message ID 11223 and timestamp 1672790400 without soft deleting it.",
+        "filled_param": {
+          "message_id": 11223,
+          "timestamp": 1672790400,
+          "softDelete": false
+        }
+      },
+      {
+        "query": "I would like the WeChat message with ID 33445 created at timestamp 1672876800 to be softly deleted.",
+        "filled_param": {
+          "message_id": 33445,
+          "timestamp": 1672876800,
+          "softDelete": true
+        }
+      }
+    ]
+  },
+  "delete_message|:|DingTalk message|:|message_id,timestamp,softDelete": {
+    "tool_template_name": "delete_message",
+    "derived_class": "DingTalk message",
+    "params_for_query": [
+      "message_id",
+      "timestamp",
+      "softDelete"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the DingTalk message with ID 12345 that was created at Unix time 1627890000 and make sure it is a soft delete.",
+        "filled_param": {
+          "message_id": 12345,
+          "timestamp": 1627890000,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "I need you to remove the DingTalk message identified by ID 67890, created on Unix timestamp 1629100800, but don't use soft delete.",
+        "filled_param": {
+          "message_id": 67890,
+          "timestamp": 1629100800,
+          "softDelete": false
+        }
+      },
+      {
+        "query": "Can you delete the DingTalk message with ID 54321, which has a creation timestamp of 1631023200, utilizing the soft delete option?",
+        "filled_param": {
+          "message_id": 54321,
+          "timestamp": 1631023200,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "Remove the DingTalk message whose ID is 98765 and was generated at 1632000000 Unix time; make it a permanent deletion.",
+        "filled_param": {
+          "message_id": 98765,
+          "timestamp": 1632000000,
+          "softDelete": false
+        }
+      },
+      {
+        "query": "Kindly delete the DingTalk message with message_id 24680 and timestamp 1640000000 using a soft delete method.",
+        "filled_param": {
+          "message_id": 24680,
+          "timestamp": 1640000000,
+          "softDelete": true
+        }
+      }
+    ]
+  },
+  "delete_message|:|WhatsApp message|:|message_id,timestamp,softDelete": {
+    "tool_template_name": "delete_message",
+    "derived_class": "WhatsApp message",
+    "params_for_query": [
+      "message_id",
+      "timestamp",
+      "softDelete"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the WhatsApp message with message ID 12345 created at Unix timestamp 1672531199, and make sure it's a soft delete.",
+        "filled_param": {
+          "message_id": 12345,
+          "timestamp": 1672531199,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "Can you permanently remove the WhatsApp message that has the ID 67890 and was sent on Unix timestamp 1683024800?",
+        "filled_param": {
+          "message_id": 67890,
+          "timestamp": 1683024800,
+          "softDelete": false
+        }
+      },
+      {
+        "query": "I need to soft delete the WhatsApp message with ID 54321, created at timestamp 1661990400.",
+        "filled_param": {
+          "message_id": 54321,
+          "timestamp": 1661990400,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "Could you delete the WhatsApp message with message ID 98765 from the Unix timestamp 1678035600, but ensure it's done permanently?",
+        "filled_param": {
+          "message_id": 98765,
+          "timestamp": 1678035600,
+          "softDelete": false
+        }
+      },
+      {
+        "query": "Attempt a soft delete for the WhatsApp message having message ID 11223 that was created at timestamp 1691025000.",
+        "filled_param": {
+          "message_id": 11223,
+          "timestamp": 1691025000,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "Please delete the WhatsApp message with the ID 44556, created at the Unix timestamp 1700000000, and do a permanent delete.",
+        "filled_param": {
+          "message_id": 44556,
+          "timestamp": 1700000000,
+          "softDelete": false
+        }
+      }
+    ]
+  },
+  "delete_message|:|Facebook message|:|message_id,timestamp,softDelete": {
+    "tool_template_name": "delete_message",
+    "derived_class": "Facebook message",
+    "params_for_query": [
+      "message_id",
+      "timestamp",
+      "softDelete"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the Facebook message with ID 123456, created at the Unix timestamp 1678901234, and ensure it is soft deleted.",
+        "filled_param": {
+          "message_id": 123456,
+          "timestamp": 1678901234,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "I need the Facebook message with ID 789012, timestamped at 1675509876, to be permanently deleted.",
+        "filled_param": {
+          "message_id": 789012,
+          "timestamp": 1675509876,
+          "softDelete": false
+        }
+      },
+      {
+        "query": "Can you remove the Facebook message that has the ID 345678 and was created at 1674456789? Make sure to soft delete it.",
+        "filled_param": {
+          "message_id": 345678,
+          "timestamp": 1674456789,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "Delete the Facebook message with ID 901234 which was created at Unix time 1671123456 with soft delete set to false.",
+        "filled_param": {
+          "message_id": 901234,
+          "timestamp": 1671123456,
+          "softDelete": false
+        }
+      },
+      {
+        "query": "Could you please soft delete the Facebook message with the ID 234567, created at timestamp 1678909876?",
+        "filled_param": {
+          "message_id": 234567,
+          "timestamp": 1678909876,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "I want the Facebook message with ID 678901, created at 1673345678, to be deleted permanently.",
+        "filled_param": {
+          "message_id": 678901,
+          "timestamp": 1673345678,
+          "softDelete": false
+        }
+      }
+    ]
+  },
+  "delete_message|:|Instagram message|:|message_id,timestamp,softDelete": {
+    "tool_template_name": "delete_message",
+    "derived_class": "Instagram message",
+    "params_for_query": [
+      "message_id",
+      "timestamp",
+      "softDelete"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the Instagram message with message ID 10245 that was created at timestamp 1694542400, and make sure to soft delete it.",
+        "filled_param": {
+          "message_id": 10245,
+          "timestamp": 1694542400,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "Remove the Instagram message identified by message ID 54321. It was created at timestamp 1689456000, and do a hard delete.",
+        "filled_param": {
+          "message_id": 54321,
+          "timestamp": 1689456000,
+          "softDelete": false
+        }
+      },
+      {
+        "query": "Could you delete the Instagram message with ID 67890? It has a timestamp of 1700000000, and I need it to be soft deleted.",
+        "filled_param": {
+          "message_id": 67890,
+          "timestamp": 1700000000,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "I need to delete the Instagram message having the ID 13579 and timestamp 1690001000. Do not soft delete it.",
+        "filled_param": {
+          "message_id": 13579,
+          "timestamp": 1690001000,
+          "softDelete": false
+        }
+      },
+      {
+        "query": "Erase the Instagram message with message ID 24680, created at timestamp 1678900000, and perform a soft delete.",
+        "filled_param": {
+          "message_id": 24680,
+          "timestamp": 1678900000,
+          "softDelete": true
+        }
+      }
+    ]
+  },
+  "delete_message|:|LinkedIn message|:|message_id,timestamp,softDelete": {
+    "tool_template_name": "delete_message",
+    "derived_class": "LinkedIn message",
+    "params_for_query": [
+      "message_id",
+      "timestamp",
+      "softDelete"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the LinkedIn message with ID 12345 that was sent at the timestamp 1678901234 and ensure it's only a soft delete for future recovery.",
+        "filled_param": {
+          "message_id": 12345,
+          "timestamp": 1678901234,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "I need you to remove the LinkedIn message with message ID 67890, created at timestamp 1623456789. Perform a permanent delete.",
+        "filled_param": {
+          "message_id": 67890,
+          "timestamp": 1623456789,
+          "softDelete": false
+        }
+      },
+      {
+        "query": "Can you perform a soft delete on the LinkedIn message that has the ID 54321 and was posted at timestamp 1654321000?",
+        "filled_param": {
+          "message_id": 54321,
+          "timestamp": 1654321000,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "Delete the LinkedIn message identified by ID 98765, timestamp 1682345678, and make sure it's not recoverable.",
+        "filled_param": {
+          "message_id": 98765,
+          "timestamp": 1682345678,
+          "softDelete": false
+        }
+      },
+      {
+        "query": "Remove the LinkedIn message with the ID 11223, which was created at timestamp 1698765432, but allow it to be recovered later.",
+        "filled_param": {
+          "message_id": 11223,
+          "timestamp": 1698765432,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "I want the LinkedIn message with ID 33445, timestamped 1609459200, to be permanently deleted.",
+        "filled_param": {
+          "message_id": 33445,
+          "timestamp": 1609459200,
+          "softDelete": false
+        }
+      }
+    ]
+  },
+  "delete_message|:|Discord message|:|message_id,timestamp,softDelete": {
+    "tool_template_name": "delete_message",
+    "derived_class": "Discord message",
+    "params_for_query": [
+      "message_id",
+      "timestamp",
+      "softDelete"
+    ],
+    "queries": [
+      {
+        "query": "Delete the Discord message with ID 123456789 and timestamp 1634167200, but make sure to soft delete it.",
+        "filled_param": {
+          "message_id": 123456789,
+          "timestamp": 1634167200,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "I want to permanently remove the Discord message that was created at 1625097600 with the message ID 987654321.",
+        "filled_param": {
+          "message_id": 987654321,
+          "timestamp": 1625097600,
+          "softDelete": false
+        }
+      },
+      {
+        "query": "Could you soft delete the Discord message with the ID 246813579 and timestamp 1651238400 for potential recovery later?",
+        "filled_param": {
+          "message_id": 246813579,
+          "timestamp": 1651238400,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "Remove the Discord message with ID 1122334455 that was created on 1678900000, and it should be a hard delete.",
+        "filled_param": {
+          "message_id": 1122334455,
+          "timestamp": 1678900000,
+          "softDelete": false
+        }
+      },
+      {
+        "query": "Can you ensure the Discord message with ID 3344556677 and a timestamp of 1609459200 is soft deleted?",
+        "filled_param": {
+          "message_id": 3344556677,
+          "timestamp": 1609459200,
+          "softDelete": true
+        }
+      }
+    ]
+  },
+  "delete_message|:|Slack message|:|message_id,timestamp,softDelete": {
+    "tool_template_name": "delete_message",
+    "derived_class": "Slack message",
+    "params_for_query": [
+      "message_id",
+      "timestamp",
+      "softDelete"
+    ],
+    "queries": [
+      {
+        "query": "Please remove the Slack message with ID 12345 that was created at timestamp 1678901234, and ensure it's a soft delete.",
+        "filled_param": {
+          "message_id": 12345,
+          "timestamp": 1678901234,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "Can you delete the Slack message with ID 67890, created at timestamp 1700000000, and perform a permanent deletion?",
+        "filled_param": {
+          "message_id": 67890,
+          "timestamp": 1700000000,
+          "softDelete": false
+        }
+      },
+      {
+        "query": "I need the Slack message with ID 23456, created at 1654321234, to be deleted softly.",
+        "filled_param": {
+          "message_id": 23456,
+          "timestamp": 1654321234,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "Delete the Slack message with ID 34567, timestamp 1687654321, and do not allow it to be recovered later.",
+        "filled_param": {
+          "message_id": 34567,
+          "timestamp": 1687654321,
+          "softDelete": false
+        }
+      },
+      {
+        "query": "Kindly delete the Slack message with ID 55678 that was created at 1666666666. It should be a soft deletion.",
+        "filled_param": {
+          "message_id": 55678,
+          "timestamp": 1666666666,
+          "softDelete": true
+        }
+      }
+    ]
+  },
+  "delete_message|:|Twitter message|:|message_id,timestamp,softDelete": {
+    "tool_template_name": "delete_message",
+    "derived_class": "Twitter message",
+    "params_for_query": [
+      "message_id",
+      "timestamp",
+      "softDelete"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the Twitter message with message ID 12345 that was created at the timestamp 1617187200, and make it a soft delete.",
+        "filled_param": {
+          "message_id": 12345,
+          "timestamp": 1617187200,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "Remove the Twitter message identified by message ID 67890, created at timestamp 1627893600, and ensure it's not recoverable.",
+        "filled_param": {
+          "message_id": 67890,
+          "timestamp": 1627893600,
+          "softDelete": false
+        }
+      },
+      {
+        "query": "I need to soft delete the Twitter message with message ID 24680 that was posted at 1633112400.",
+        "filled_param": {
+          "message_id": 24680,
+          "timestamp": 1633112400,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "Delete the Twitter message with ID 13579 from the timestamp 1648818000 permanently.",
+        "filled_param": {
+          "message_id": 13579,
+          "timestamp": 1648818000,
+          "softDelete": false
+        }
+      },
+      {
+        "query": "Can you perform a soft delete on the Twitter message with message ID 55788, created at timestamp 1650412800?",
+        "filled_param": {
+          "message_id": 55788,
+          "timestamp": 1650412800,
+          "softDelete": true
+        }
+      }
+    ]
+  },
+  "delete_message|:|TikTok message|:|message_id,timestamp,softDelete": {
+    "tool_template_name": "delete_message",
+    "derived_class": "TikTok message",
+    "params_for_query": [
+      "message_id",
+      "timestamp",
+      "softDelete"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the TikTok message with message ID 12345 created at the timestamp 1672531199 and perform a soft delete.",
+        "filled_param": {
+          "message_id": 12345,
+          "timestamp": 1672531199,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "I need the TikTok message that has the ID 67890 and a timestamp of 1680422399 to be permanently removed.",
+        "filled_param": {
+          "message_id": 67890,
+          "timestamp": 1680422399,
+          "softDelete": false
+        }
+      },
+      {
+        "query": "Could you soft delete the TikTok message with the ID 54321 and timestamp 1675628399?",
+        "filled_param": {
+          "message_id": 54321,
+          "timestamp": 1675628399,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "Remove the TikTok message having the message ID 98765 and the creation timestamp 1690123999 without soft deletion.",
+        "filled_param": {
+          "message_id": 98765,
+          "timestamp": 1690123999,
+          "softDelete": false
+        }
+      },
+      {
+        "query": "Can you ensure the TikTok message with ID 23456 and timestamp 1700000000 is deleted and allow for its recovery later?",
+        "filled_param": {
+          "message_id": 23456,
+          "timestamp": 1700000000,
+          "softDelete": true
+        }
+      }
+    ]
+  },
+  "delete_message|:|YouTube message|:|message_id,timestamp,softDelete": {
+    "tool_template_name": "delete_message",
+    "derived_class": "YouTube message",
+    "params_for_query": [
+      "message_id",
+      "timestamp",
+      "softDelete"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the YouTube message with ID 482910, created at timestamp 1678901234, and ensure it can be recovered later.",
+        "filled_param": {
+          "message_id": 482910,
+          "timestamp": 1678901234,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "I need the YouTube message with ID 782341 and timestamp 1680123456 removed permanently.",
+        "filled_param": {
+          "message_id": 782341,
+          "timestamp": 1680123456,
+          "softDelete": false
+        }
+      },
+      {
+        "query": "Can you soft delete the YouTube message with ID 993254, which was posted at Unix time 1667890123?",
+        "filled_param": {
+          "message_id": 993254,
+          "timestamp": 1667890123,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "Delete the YouTube message with message ID 135790 and timestamp 1689102345, but make sure it's not retrievable.",
+        "filled_param": {
+          "message_id": 135790,
+          "timestamp": 1689102345,
+          "softDelete": false
+        }
+      },
+      {
+        "query": "Execute a soft delete for the YouTube message identified by ID 659832, created at timestamp 1676543210.",
+        "filled_param": {
+          "message_id": 659832,
+          "timestamp": 1676543210,
+          "softDelete": true
+        }
+      }
+    ]
+  },
+  "delete_message|:|Reddit message|:|message_id,timestamp,softDelete": {
+    "tool_template_name": "delete_message",
+    "derived_class": "Reddit message",
+    "params_for_query": [
+      "message_id",
+      "timestamp",
+      "softDelete"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the Reddit message with ID 12345678 that was created on 1678901234 and use soft delete.",
+        "filled_param": {
+          "message_id": 12345678,
+          "timestamp": 1678901234,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "I need to permanently remove the Reddit message with the ID 87654321 from 1689012345.",
+        "filled_param": {
+          "message_id": 87654321,
+          "timestamp": 1689012345,
+          "softDelete": false
+        }
+      },
+      {
+        "query": "Could you soft delete the Reddit message? The ID is 23456789 and it was created at 1690123456.",
+        "filled_param": {
+          "message_id": 23456789,
+          "timestamp": 1690123456,
+          "softDelete": true
+        }
+      },
+      {
+        "query": "Please hard delete the Reddit message with message ID 34567890. The creation timestamp is 1691234567.",
+        "filled_param": {
+          "message_id": 34567890,
+          "timestamp": 1691234567,
+          "softDelete": false
+        }
+      },
+      {
+        "query": "Delete the Reddit message with ID 45678901, created on 1692345678, and allow for recovery.",
+        "filled_param": {
+          "message_id": 45678901,
+          "timestamp": 1692345678,
+          "softDelete": true
+        }
+      }
+    ]
+  }
+}

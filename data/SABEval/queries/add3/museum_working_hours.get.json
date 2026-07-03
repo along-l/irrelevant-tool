@@ -1,0 +1,583 @@
+{
+  "museum_working_hours.get|:|museum|:|venue,location,day,season,show_break_times": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "museum",
+    "params_for_query": [
+      "venue",
+      "location",
+      "day",
+      "season",
+      "show_break_times"
+    ],
+    "queries": [
+      {
+        "query": "What are the working hours of the Louvre museum in Paris on a Tuesday in winter, and include any break times?",
+        "filled_param": {
+          "venue": "Louvre",
+          "location": "Paris",
+          "day": "Tuesday",
+          "season": "winter",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "Can you tell me the operating hours for the Metropolitan Museum of Art in New York on a Thursday during summer, including any break periods?",
+        "filled_param": {
+          "venue": "Metropolitan Museum of Art",
+          "location": "New York",
+          "day": "Thursday",
+          "season": "summer",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "I would like to know the visiting hours of the British Museum in London on a Saturday in autumn, with break times detailed.",
+        "filled_param": {
+          "venue": "British Museum",
+          "location": "London",
+          "day": "Saturday",
+          "season": "autumn",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "Please provide the working hours for the Getty Museum in Los Angeles on a Wednesday in spring, and let me know if there are any breaks.",
+        "filled_param": {
+          "venue": "Getty Museum",
+          "location": "Los Angeles",
+          "day": "Wednesday",
+          "season": "spring",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "What are the opening hours of the Rijksmuseum in Amsterdam on a Sunday in winter, including any mid-day closures?",
+        "filled_param": {
+          "venue": "Rijksmuseum",
+          "location": "Amsterdam",
+          "day": "Sunday",
+          "season": "winter",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "Find out the museum hours for the Vatican Museums in Vatican City on a Monday in summer, showing any break times.",
+        "filled_param": {
+          "venue": "Vatican Museums",
+          "location": "Vatican City",
+          "day": "Monday",
+          "season": "summer",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "Could you provide the Mütter Museum's schedule in Philadelphia for a Friday during the autumn and include any break times?",
+        "filled_param": {
+          "venue": "Mütter Museum",
+          "location": "Philadelphia",
+          "day": "Friday",
+          "season": "autumn",
+          "show_break_times": true
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|art gallery|:|venue,location,day,season,show_break_times": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "art gallery",
+    "params_for_query": [
+      "venue",
+      "location",
+      "day",
+      "season",
+      "show_break_times"
+    ],
+    "queries": [
+      {
+        "query": "What are the working hours of the Louvre art gallery in Paris on Wednesday during summer, including the break times?",
+        "filled_param": {
+          "venue": "Louvre",
+          "location": "Paris",
+          "day": "Wednesday",
+          "season": "summer",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "Can you provide the opening hours for the Metropolitan Museum of Art in New York on Saturday in winter, and please include any break periods?",
+        "filled_param": {
+          "venue": "Metropolitan Museum of Art",
+          "location": "New York",
+          "day": "Saturday",
+          "season": "winter",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "Tell me the operating hours of the Uffizi art gallery in Florence on Monday in the spring, with break times.",
+        "filled_param": {
+          "venue": "Uffizi",
+          "location": "Florence",
+          "day": "Monday",
+          "season": "spring",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "I need to know the working hours for the Rijksmuseum art gallery in Amsterdam on Thursday during autumn, showing any break periods.",
+        "filled_param": {
+          "venue": "Rijksmuseum",
+          "location": "Amsterdam",
+          "day": "Thursday",
+          "season": "autumn",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "What are the hours of operation for the Tate Modern art gallery in London on Friday in the summer, with breaks?",
+        "filled_param": {
+          "venue": "Tate Modern",
+          "location": "London",
+          "day": "Friday",
+          "season": "summer",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "Could you tell me the opening times for the National Gallery of Art in Washington, D.C. on Sunday during spring, including any midday closures?",
+        "filled_param": {
+          "venue": "National Gallery of Art",
+          "location": "Washington, D.C.",
+          "day": "Sunday",
+          "season": "spring",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "Find out the working hours for the Art Institute of Chicago on Tuesday in winter, and include any break times.",
+        "filled_param": {
+          "venue": "Art Institute of Chicago",
+          "location": "Chicago",
+          "day": "Tuesday",
+          "season": "winter",
+          "show_break_times": true
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|library|:|venue,location,day,season,show_break_times": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "library",
+    "params_for_query": [
+      "venue",
+      "location",
+      "day",
+      "season",
+      "show_break_times"
+    ],
+    "queries": [
+      {
+        "query": "What are the working hours of the Central Library in New York on Monday during summer, including any break times?",
+        "filled_param": {
+          "venue": "Central Library",
+          "location": "New York",
+          "day": "Monday",
+          "season": "summer",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "Please provide the opening and closing times for the City Library located in Los Angeles on Wednesday in the winter, and include the break periods.",
+        "filled_param": {
+          "venue": "City Library",
+          "location": "Los Angeles",
+          "day": "Wednesday",
+          "season": "winter",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "Can you tell me the operating hours of the University Library in Chicago for Friday during the spring season without the break times?",
+        "filled_param": {
+          "venue": "University Library",
+          "location": "Chicago",
+          "day": "Friday",
+          "season": "spring",
+          "show_break_times": false
+        }
+      },
+      {
+        "query": "I need the detailed schedule of the Downtown Library in San Francisco on Saturday this autumn, including any midday closures.",
+        "filled_param": {
+          "venue": "Downtown Library",
+          "location": "San Francisco",
+          "day": "Saturday",
+          "season": "autumn",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "What are the hours for the County Library in Miami on Sunday during fall? Exclude any break times.",
+        "filled_param": {
+          "venue": "County Library",
+          "location": "Miami",
+          "day": "Sunday",
+          "season": "fall",
+          "show_break_times": false
+        }
+      },
+      {
+        "query": "Could you provide the working hours for the National Library in Washington D.C. on Tuesday in the winter season, including break times?",
+        "filled_param": {
+          "venue": "National Library",
+          "location": "Washington D.C.",
+          "day": "Tuesday",
+          "season": "winter",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "Find out the opening times of the Regional Library in Boston for Thursday this summer, excluding any break periods.",
+        "filled_param": {
+          "venue": "Regional Library",
+          "location": "Boston",
+          "day": "Thursday",
+          "season": "summer",
+          "show_break_times": false
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|zoo|:|venue,location,day,season,show_break_times": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "zoo",
+    "params_for_query": [
+      "venue",
+      "location",
+      "day",
+      "season",
+      "show_break_times"
+    ],
+    "queries": [
+      {
+        "query": "What are the Wednesday opening hours for the San Diego Zoo in California during summer, including any break times?",
+        "filled_param": {
+          "venue": "San Diego Zoo",
+          "location": "California",
+          "day": "Wednesday",
+          "season": "summer",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "I need to know the working hours of the London Zoo in the UK on a Saturday in winter, including any mid-day closures.",
+        "filled_param": {
+          "venue": "London Zoo",
+          "location": "UK",
+          "day": "Saturday",
+          "season": "winter",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "Could you tell me the Friday operating hours for the Bronx Zoo in New York during autumn without showing break times?",
+        "filled_param": {
+          "venue": "Bronx Zoo",
+          "location": "New York",
+          "day": "Friday",
+          "season": "autumn",
+          "show_break_times": false
+        }
+      },
+      {
+        "query": "What's the schedule for the Berlin Zoological Garden in Germany on a Monday this spring, and please include any breaks?",
+        "filled_param": {
+          "venue": "Berlin Zoological Garden",
+          "location": "Germany",
+          "day": "Monday",
+          "season": "spring",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "Provide the Sunday hours for the Taronga Zoo in Sydney during winter, excluding any break periods.",
+        "filled_param": {
+          "venue": "Taronga Zoo",
+          "location": "Sydney",
+          "day": "Sunday",
+          "season": "winter",
+          "show_break_times": false
+        }
+      },
+      {
+        "query": "Can you give me the details of the Thursday timings for the Singapore Zoo in Singapore during the summer, including mid-day closures?",
+        "filled_param": {
+          "venue": "Singapore Zoo",
+          "location": "Singapore",
+          "day": "Thursday",
+          "season": "summer",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "I would like to know the Saturday opening times for the Melbourne Zoo in Australia in spring, without showing any break times.",
+        "filled_param": {
+          "venue": "Melbourne Zoo",
+          "location": "Australia",
+          "day": "Saturday",
+          "season": "spring",
+          "show_break_times": false
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|aquarium|:|venue,location,day,season,show_break_times": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "aquarium",
+    "params_for_query": [
+      "venue",
+      "location",
+      "day",
+      "season",
+      "show_break_times"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the working hours for the Georgia Aquarium in Atlanta on a Monday during the summer, including any break times?",
+        "filled_param": {
+          "venue": "Georgia Aquarium",
+          "location": "Atlanta",
+          "day": "Monday",
+          "season": "summer",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "I need to know the hours for the Monterey Bay Aquarium in Monterey for a Wednesday in the winter, without break times.",
+        "filled_param": {
+          "venue": "Monterey Bay Aquarium",
+          "location": "Monterey",
+          "day": "Wednesday",
+          "season": "winter",
+          "show_break_times": false
+        }
+      },
+      {
+        "query": "What are the opening hours of the Vancouver Aquarium in Vancouver on a Friday in spring, with details on any closure times during the day?",
+        "filled_param": {
+          "venue": "Vancouver Aquarium",
+          "location": "Vancouver",
+          "day": "Friday",
+          "season": "spring",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "Can you tell me the operating hours for the Sydney Aquarium in Sydney on Sunday this fall, excluding any breaks?",
+        "filled_param": {
+          "venue": "Sydney Aquarium",
+          "location": "Sydney",
+          "day": "Sunday",
+          "season": "fall",
+          "show_break_times": false
+        }
+      },
+      {
+        "query": "I'd like to find out the working hours for the Okinawa Churaumi Aquarium in Okinawa on a Thursday during the autumn, including midday closures.",
+        "filled_param": {
+          "venue": "Okinawa Churaumi Aquarium",
+          "location": "Okinawa",
+          "day": "Thursday",
+          "season": "autumn",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "Please let me know the hours for the Berlin Aquarium in Berlin on a Tuesday in the springtime, without showing break periods.",
+        "filled_param": {
+          "venue": "Berlin Aquarium",
+          "location": "Berlin",
+          "day": "Tuesday",
+          "season": "spring",
+          "show_break_times": false
+        }
+      },
+      {
+        "query": "What are the working hours for the Dubai Aquarium and Underwater Zoo in Dubai on a Saturday in summer, with break times included?",
+        "filled_param": {
+          "venue": "Dubai Aquarium and Underwater Zoo",
+          "location": "Dubai",
+          "day": "Saturday",
+          "season": "summer",
+          "show_break_times": true
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|botanical garden|:|venue,location,day,season,show_break_times": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "botanical garden",
+    "params_for_query": [
+      "venue",
+      "location",
+      "day",
+      "season",
+      "show_break_times"
+    ],
+    "queries": [
+      {
+        "query": "What are the working hours for the Royal Botanical Gardens in London on Saturdays during the summer, including any break times?",
+        "filled_param": {
+          "venue": "Royal Botanical Gardens",
+          "location": "London",
+          "day": "Saturday",
+          "season": "summer",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "Could you tell me the opening times of the Brooklyn Botanical Garden in New York on Wednesdays in the winter, with details on any breaks?",
+        "filled_param": {
+          "venue": "Brooklyn Botanical Garden",
+          "location": "New York",
+          "day": "Wednesday",
+          "season": "winter",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "I'd like to know the hours for the Singapore Botanic Gardens on Mondays during the spring. Can you include break times?",
+        "filled_param": {
+          "venue": "Singapore Botanic Gardens",
+          "location": "Singapore",
+          "day": "Monday",
+          "season": "spring",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "Please provide the operational hours of the National Botanic Garden of Wales in Carmarthenshire on a Friday in autumn, including any mid-day closures.",
+        "filled_param": {
+          "venue": "National Botanic Garden of Wales",
+          "location": "Carmarthenshire",
+          "day": "Friday",
+          "season": "autumn",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "Can you find out the working hours for the Montreal Botanical Garden in Canada on Sundays during fall, and let me know if there are any break times?",
+        "filled_param": {
+          "venue": "Montreal Botanical Garden",
+          "location": "Canada",
+          "day": "Sunday",
+          "season": "fall",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "What are the visiting hours for Kirstenbosch National Botanical Garden in Cape Town on Tuesdays in the summer, including break periods?",
+        "filled_param": {
+          "venue": "Kirstenbosch National Botanical Garden",
+          "location": "Cape Town",
+          "day": "Tuesday",
+          "season": "summer",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "Please tell me the opening times of the Botanical Garden of Curitiba in Brazil on Thursdays in winter, along with any break times.",
+        "filled_param": {
+          "venue": "Botanical Garden of Curitiba",
+          "location": "Brazil",
+          "day": "Thursday",
+          "season": "winter",
+          "show_break_times": true
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|amusement park|:|venue,location,day,season,show_break_times": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "amusement park",
+    "params_for_query": [
+      "venue",
+      "location",
+      "day",
+      "season",
+      "show_break_times"
+    ],
+    "queries": [
+      {
+        "query": "What are the working hours for Disneyland in California on a Wednesday during the summer, and do they have any break times?",
+        "filled_param": {
+          "venue": "Disneyland",
+          "location": "California",
+          "day": "Wednesday",
+          "season": "summer",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "Could you provide the opening and closing times for Alton Towers in Staffordshire on a Saturday in the winter, including any midday breaks?",
+        "filled_param": {
+          "venue": "Alton Towers",
+          "location": "Staffordshire",
+          "day": "Saturday",
+          "season": "winter",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "I'm planning a visit to Lotte World in Seoul on a Monday in the spring. What are their operating hours, and do they close for any breaks?",
+        "filled_param": {
+          "venue": "Lotte World",
+          "location": "Seoul",
+          "day": "Monday",
+          "season": "spring",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "Can you tell me the working hours for PortAventura in Spain on a Friday during autumn without break periods?",
+        "filled_param": {
+          "venue": "PortAventura",
+          "location": "Spain",
+          "day": "Friday",
+          "season": "autumn",
+          "show_break_times": false
+        }
+      },
+      {
+        "query": "Please let me know the hours of operation for Fuji-Q Highland in Japan on a Sunday in the summer season, and specify if there are any closures during the day.",
+        "filled_param": {
+          "venue": "Fuji-Q Highland",
+          "location": "Japan",
+          "day": "Sunday",
+          "season": "summer",
+          "show_break_times": true
+        }
+      },
+      {
+        "query": "What are the opening hours for Efteling in the Netherlands on a Thursday in winter, excluding any break times?",
+        "filled_param": {
+          "venue": "Efteling",
+          "location": "Netherlands",
+          "day": "Thursday",
+          "season": "winter",
+          "show_break_times": false
+        }
+      },
+      {
+        "query": "I need the working hours of Universal Studios in Florida on a Tuesday in spring. Please include any break times if applicable.",
+        "filled_param": {
+          "venue": "Universal Studios",
+          "location": "Florida",
+          "day": "Tuesday",
+          "season": "spring",
+          "show_break_times": true
+        }
+      }
+    ]
+  }
+}

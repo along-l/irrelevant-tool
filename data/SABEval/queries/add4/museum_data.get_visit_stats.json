@@ -1,0 +1,537 @@
+{
+  "museum_data.get_visit_stats|:|museum|:|city,year,time_granularity,visitor_type,age_group,seasonal_period": {
+    "tool_template_name": "museum_data.get_visit_stats",
+    "derived_class": "museum",
+    "params_for_query": [
+      "city",
+      "year",
+      "time_granularity",
+      "visitor_type",
+      "age_group",
+      "seasonal_period"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the daily visitation stats for museums in Paris for the year 2022, focusing on individual adult visitors during summer?",
+        "filled_param": {
+          "city": "Paris",
+          "year": 2022,
+          "time_granularity": "daily",
+          "visitor_type": "individual",
+          "age_group": "adults",
+          "seasonal_period": "summer"
+        }
+      },
+      {
+        "query": "I need the monthly museum visitor statistics for families with children in New York City for 2021 during the winter season.",
+        "filled_param": {
+          "city": "New York City",
+          "year": 2021,
+          "time_granularity": "monthly",
+          "visitor_type": "family",
+          "age_group": "children",
+          "seasonal_period": "winter"
+        }
+      },
+      {
+        "query": "What are the yearly statistics for museum visits by groups of teens in Tokyo for 2020, specifically in the spring?",
+        "filled_param": {
+          "city": "Tokyo",
+          "year": 2020,
+          "time_granularity": "yearly",
+          "visitor_type": "group",
+          "age_group": "teens",
+          "seasonal_period": "spring"
+        }
+      },
+      {
+        "query": "Please give me the monthly data on adult individual visitors to museums in Berlin for 2019 during fall.",
+        "filled_param": {
+          "city": "Berlin",
+          "year": 2019,
+          "time_granularity": "monthly",
+          "visitor_type": "individual",
+          "age_group": "adults",
+          "seasonal_period": "fall"
+        }
+      },
+      {
+        "query": "I'm looking for daily stats for family visits to museums in Rome during summer of 2018, focusing on teens.",
+        "filled_param": {
+          "city": "Rome",
+          "year": 2018,
+          "time_granularity": "daily",
+          "visitor_type": "family",
+          "age_group": "teens",
+          "seasonal_period": "summer"
+        }
+      },
+      {
+        "query": "Could you fetch the yearly stats on group visitors of all ages to museums in Sydney for 2023 during spring?",
+        "filled_param": {
+          "city": "Sydney",
+          "year": 2023,
+          "time_granularity": "yearly",
+          "visitor_type": "group",
+          "age_group": "all",
+          "seasonal_period": "spring"
+        }
+      },
+      {
+        "query": "Get me the monthly statistics for individual visits by children to museums in Madrid for 2025 during winter.",
+        "filled_param": {
+          "city": "Madrid",
+          "year": 2025,
+          "time_granularity": "monthly",
+          "visitor_type": "individual",
+          "age_group": "children",
+          "seasonal_period": "winter"
+        }
+      }
+    ]
+  },
+  "museum_data.get_visit_stats|:|library|:|city,year,time_granularity,visitor_type,age_group,seasonal_period": {
+    "tool_template_name": "museum_data.get_visit_stats",
+    "derived_class": "library",
+    "params_for_query": [
+      "city",
+      "year",
+      "time_granularity",
+      "visitor_type",
+      "age_group",
+      "seasonal_period"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide me with the daily visitation stats for adults visiting libraries in New York during the summer of 2022 at the library?",
+        "filled_param": {
+          "city": "New York",
+          "year": 2022,
+          "time_granularity": "daily",
+          "visitor_type": "individual",
+          "age_group": "adults",
+          "seasonal_period": "summer"
+        }
+      },
+      {
+        "query": "I need the yearly statistics for family visitors to the library in Los Angeles for all age groups in 2021.",
+        "filled_param": {
+          "city": "Los Angeles",
+          "year": 2021,
+          "time_granularity": "yearly",
+          "visitor_type": "family",
+          "age_group": "all",
+          "seasonal_period": "all"
+        }
+      },
+      {
+        "query": "Show me the monthly library visitation data for group visits of children in Chicago during the spring of 2020.",
+        "filled_param": {
+          "city": "Chicago",
+          "year": 2020,
+          "time_granularity": "monthly",
+          "visitor_type": "group",
+          "age_group": "children",
+          "seasonal_period": "spring"
+        }
+      },
+      {
+        "query": "Can you retrieve the winter statistics for individual teen visitors to the library in Boston in 2019, broken down by month?",
+        "filled_param": {
+          "city": "Boston",
+          "year": 2019,
+          "time_granularity": "monthly",
+          "visitor_type": "individual",
+          "age_group": "teens",
+          "seasonal_period": "winter"
+        }
+      },
+      {
+        "query": "What are the visitation stats for families visiting the library in Miami during the fall of 2023, focusing on adults, at a daily level?",
+        "filled_param": {
+          "city": "Miami",
+          "year": 2023,
+          "time_granularity": "daily",
+          "visitor_type": "family",
+          "age_group": "adults",
+          "seasonal_period": "fall"
+        }
+      },
+      {
+        "query": "Please provide the library's yearly visitation data in Seattle for group visits covering all age groups in 2022.",
+        "filled_param": {
+          "city": "Seattle",
+          "year": 2022,
+          "time_granularity": "yearly",
+          "visitor_type": "group",
+          "age_group": "all",
+          "seasonal_period": "all"
+        }
+      },
+      {
+        "query": "Retrieve the monthly library visit statistics for families in San Francisco, focusing on children, during the summer of 2021.",
+        "filled_param": {
+          "city": "San Francisco",
+          "year": 2021,
+          "time_granularity": "monthly",
+          "visitor_type": "family",
+          "age_group": "children",
+          "seasonal_period": "summer"
+        }
+      }
+    ]
+  },
+  "museum_data.get_visit_stats|:|art gallery|:|city,year,time_granularity,visitor_type,age_group,seasonal_period": {
+    "tool_template_name": "museum_data.get_visit_stats",
+    "derived_class": "art gallery",
+    "params_for_query": [
+      "city",
+      "year",
+      "time_granularity",
+      "visitor_type",
+      "age_group",
+      "seasonal_period"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the yearly visitation stats for the art gallery in Paris for individuals in the adult age group during summer 2022?",
+        "filled_param": {
+          "city": "Paris",
+          "year": 2022,
+          "time_granularity": "yearly",
+          "visitor_type": "individual",
+          "age_group": "adults",
+          "seasonal_period": "summer"
+        }
+      },
+      {
+        "query": "Get the monthly statistics for family visits to the art gallery in New York for teens during the winter of 2021.",
+        "filled_param": {
+          "city": "New York",
+          "year": 2021,
+          "time_granularity": "monthly",
+          "visitor_type": "family",
+          "age_group": "teens",
+          "seasonal_period": "winter"
+        }
+      },
+      {
+        "query": "I need daily visitation data for groups visiting the art gallery in Tokyo, focusing on children, for the spring season of 2020.",
+        "filled_param": {
+          "city": "Tokyo",
+          "year": 2020,
+          "time_granularity": "daily",
+          "visitor_type": "group",
+          "age_group": "children",
+          "seasonal_period": "spring"
+        }
+      },
+      {
+        "query": "Retrieve the stats for the art gallery in Berlin, highlighting the yearly data for family visits by all age groups in the fall of 2019.",
+        "filled_param": {
+          "city": "Berlin",
+          "year": 2019,
+          "time_granularity": "yearly",
+          "visitor_type": "family",
+          "age_group": "all",
+          "seasonal_period": "fall"
+        }
+      },
+      {
+        "query": "Can you find the monthly art gallery visit stats in Sydney for groups of adults during summer 2023?",
+        "filled_param": {
+          "city": "Sydney",
+          "year": 2023,
+          "time_granularity": "monthly",
+          "visitor_type": "group",
+          "age_group": "adults",
+          "seasonal_period": "summer"
+        }
+      },
+      {
+        "query": "Please give me the daily visitation figures for the art gallery in London for individual children during spring 2021.",
+        "filled_param": {
+          "city": "London",
+          "year": 2021,
+          "time_granularity": "daily",
+          "visitor_type": "individual",
+          "age_group": "children",
+          "seasonal_period": "spring"
+        }
+      },
+      {
+        "query": "What are the art gallery's yearly stats for teen group visits in Los Angeles during the winter of 2022?",
+        "filled_param": {
+          "city": "Los Angeles",
+          "year": 2022,
+          "time_granularity": "yearly",
+          "visitor_type": "group",
+          "age_group": "teens",
+          "seasonal_period": "winter"
+        }
+      }
+    ]
+  },
+  "museum_data.get_visit_stats|:|zoo|:|city,year,time_granularity,visitor_type,age_group,seasonal_period": {
+    "tool_template_name": "museum_data.get_visit_stats",
+    "derived_class": "zoo",
+    "params_for_query": [
+      "city",
+      "year",
+      "time_granularity",
+      "visitor_type",
+      "age_group",
+      "seasonal_period"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the daily visitation stats for the zoo in San Diego for the year 2022, specifically focusing on family visits during the summer season for all age groups?",
+        "filled_param": {
+          "city": "San Diego",
+          "year": 2022,
+          "time_granularity": "daily",
+          "visitor_type": "family",
+          "age_group": "all",
+          "seasonal_period": "summer"
+        }
+      },
+      {
+        "query": "I'd like to see the monthly visitor numbers for adults visiting the zoo in Berlin in 2021, particularly during the winter season, categorized by individual visitors.",
+        "filled_param": {
+          "city": "Berlin",
+          "year": 2021,
+          "time_granularity": "monthly",
+          "visitor_type": "individual",
+          "age_group": "adults",
+          "seasonal_period": "winter"
+        }
+      },
+      {
+        "query": "Please provide the yearly statistics for group visits to the zoo in Sydney for teens during the spring of 2020.",
+        "filled_param": {
+          "city": "Sydney",
+          "year": 2020,
+          "time_granularity": "yearly",
+          "visitor_type": "group",
+          "age_group": "teens",
+          "seasonal_period": "spring"
+        }
+      },
+      {
+        "query": "What are the monthly statistics for children's visits in groups to the zoo located in New York for the fall of 2019?",
+        "filled_param": {
+          "city": "New York",
+          "year": 2019,
+          "time_granularity": "monthly",
+          "visitor_type": "group",
+          "age_group": "children",
+          "seasonal_period": "fall"
+        }
+      },
+      {
+        "query": "Can you show the daily stats for family visits to the zoo in Tokyo during the summer of 2023 for all age categories?",
+        "filled_param": {
+          "city": "Tokyo",
+          "year": 2023,
+          "time_granularity": "daily",
+          "visitor_type": "family",
+          "age_group": "all",
+          "seasonal_period": "summer"
+        }
+      },
+      {
+        "query": "I'd like to know the yearly visitation numbers for individual adults visiting the zoo in Paris during the winter of 2021.",
+        "filled_param": {
+          "city": "Paris",
+          "year": 2021,
+          "time_granularity": "yearly",
+          "visitor_type": "individual",
+          "age_group": "adults",
+          "seasonal_period": "winter"
+        }
+      },
+      {
+        "query": "Provide me with the spring 2022 monthly stats for children visiting the zoo in London in family groups.",
+        "filled_param": {
+          "city": "London",
+          "year": 2022,
+          "time_granularity": "monthly",
+          "visitor_type": "family",
+          "age_group": "children",
+          "seasonal_period": "spring"
+        }
+      }
+    ]
+  },
+  "museum_data.get_visit_stats|:|botanical garden|:|city,year,time_granularity,visitor_type,age_group,seasonal_period": {
+    "tool_template_name": "museum_data.get_visit_stats",
+    "derived_class": "botanical garden",
+    "params_for_query": [
+      "city",
+      "year",
+      "time_granularity",
+      "visitor_type",
+      "age_group",
+      "seasonal_period"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the yearly visitation statistics for individual adults visiting the botanical garden in San Francisco during the summer of 2022?",
+        "filled_param": {
+          "city": "San Francisco",
+          "year": 2022,
+          "time_granularity": "yearly",
+          "visitor_type": "individual",
+          "age_group": "adults",
+          "seasonal_period": "summer"
+        }
+      },
+      {
+        "query": "I'd like to know the monthly stats for families visiting the botanical garden in New York during the fall of 2021. Please focus on teens.",
+        "filled_param": {
+          "city": "New York",
+          "year": 2021,
+          "time_granularity": "monthly",
+          "visitor_type": "family",
+          "age_group": "teens",
+          "seasonal_period": "fall"
+        }
+      },
+      {
+        "query": "Get the daily visitation data for groups of children at the botanical garden located in Chicago, specifically for the winter season of 2020.",
+        "filled_param": {
+          "city": "Chicago",
+          "year": 2020,
+          "time_granularity": "daily",
+          "visitor_type": "group",
+          "age_group": "children",
+          "seasonal_period": "winter"
+        }
+      },
+      {
+        "query": "Could you provide statistical data on individual visitors of all ages to the botanical garden in Los Angeles during the spring of 2023, with monthly details?",
+        "filled_param": {
+          "city": "Los Angeles",
+          "year": 2023,
+          "time_granularity": "monthly",
+          "visitor_type": "individual",
+          "age_group": "all",
+          "seasonal_period": "spring"
+        }
+      },
+      {
+        "query": "What's the yearly visitation summary for family groups to the botanical garden in Seattle for adults during the summer of 2019?",
+        "filled_param": {
+          "city": "Seattle",
+          "year": 2019,
+          "time_granularity": "yearly",
+          "visitor_type": "family",
+          "age_group": "adults",
+          "seasonal_period": "summer"
+        }
+      },
+      {
+        "query": "I'd like to see the daily visitation numbers for groups of teens at the botanical garden in Miami during the fall of 2022.",
+        "filled_param": {
+          "city": "Miami",
+          "year": 2022,
+          "time_granularity": "daily",
+          "visitor_type": "group",
+          "age_group": "teens",
+          "seasonal_period": "fall"
+        }
+      },
+      {
+        "query": "Can you give the monthly statistics for individual children visiting the botanical garden in Boston during the winter of 2021?",
+        "filled_param": {
+          "city": "Boston",
+          "year": 2021,
+          "time_granularity": "monthly",
+          "visitor_type": "individual",
+          "age_group": "children",
+          "seasonal_period": "winter"
+        }
+      }
+    ]
+  },
+  "museum_data.get_visit_stats|:|aquarium|:|city,year,time_granularity,visitor_type,age_group,seasonal_period": {
+    "tool_template_name": "museum_data.get_visit_stats",
+    "derived_class": "aquarium",
+    "params_for_query": [
+      "city",
+      "year",
+      "time_granularity",
+      "visitor_type",
+      "age_group",
+      "seasonal_period"
+    ],
+    "queries": [
+      {
+        "query": "What are the daily visitation stats for the aquarium in Sydney for the year 2022, focusing on family visitors in the summer season for all age groups?",
+        "filled_param": {
+          "city": "Sydney",
+          "year": 2022,
+          "time_granularity": "daily",
+          "visitor_type": "family",
+          "age_group": "all",
+          "seasonal_period": "summer"
+        }
+      },
+      {
+        "query": "Retrieve the monthly visitor statistics for group visits in the Chicago aquarium for the year 2023, particularly for children during the winter season.",
+        "filled_param": {
+          "city": "Chicago",
+          "year": 2023,
+          "time_granularity": "monthly",
+          "visitor_type": "group",
+          "age_group": "children",
+          "seasonal_period": "winter"
+        }
+      },
+      {
+        "query": "Can you provide the yearly statistics of individual visitors aged teens at the Tokyo aquarium in 2021 for the fall season?",
+        "filled_param": {
+          "city": "Tokyo",
+          "year": 2021,
+          "time_granularity": "yearly",
+          "visitor_type": "individual",
+          "age_group": "teens",
+          "seasonal_period": "fall"
+        }
+      },
+      {
+        "query": "I need the weekly statistics for family visits in the New York aquarium for adults during spring 2020.",
+        "filled_param": {
+          "city": "New York",
+          "year": 2020,
+          "time_granularity": "weekly",
+          "visitor_type": "family",
+          "age_group": "adults",
+          "seasonal_period": "spring"
+        }
+      },
+      {
+        "query": "What are the yearly visitor statistics for all age groups visiting in groups at the Lisbon aquarium for the year 2019 in the summer?",
+        "filled_param": {
+          "city": "Lisbon",
+          "year": 2019,
+          "time_granularity": "yearly",
+          "visitor_type": "group",
+          "age_group": "all",
+          "seasonal_period": "summer"
+        }
+      },
+      {
+        "query": "Find the daily stats of family visits for adults at the aquarium in Berlin in 2022 during the spring season.",
+        "filled_param": {
+          "city": "Berlin",
+          "year": 2022,
+          "time_granularity": "daily",
+          "visitor_type": "family",
+          "age_group": "adults",
+          "seasonal_period": "spring"
+        }
+      }
+    ]
+  }
+}

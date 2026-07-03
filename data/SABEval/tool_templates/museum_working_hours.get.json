@@ -1,0 +1,61 @@
+{
+  "tool_template_name": "museum_working_hours.get",
+  "meta_data": {
+    "base_class": "get the working hours of a specific <public venue> in a given location - these venues all have fixed opening schedules and similar management structures.",
+    "derived_classes": [
+      "museum",
+      "art gallery",
+      "library",
+      "zoo",
+      "aquarium",
+      "botanical garden",
+      "amusement park"
+    ],
+    "base_class_entity": "museum"
+  },
+  "tool_template": {
+    "name": "<class>_working_hours.get",
+    "description": "Get the working hours of a <class> in a specific location.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "venue": {
+          "type": "string",
+          "description": "The name of the <class>."
+        },
+        "location": {
+          "type": "string",
+          "description": "The location of the <class>."
+        }
+      },
+      "required": [
+        "venue",
+        "location"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "day": {
+      "type": "string",
+      "description": "Specific day of the week."
+    }
+  },
+  "additional_params": {
+    "season": {
+      "type": "string",
+      "description": "The season during which the <class>'s working hours are needed."
+    },
+    "show_break_times": {
+      "type": "boolean",
+      "description": "If true, includes any mid-day closure or break periods within the <class>'s daily working hours."
+    },
+    "include_partial_closures": {
+      "type": "boolean",
+      "description": "Indicates whether to include information about partial closures of certain areas or sections within the <class>."
+    },
+    "include_additional_notes": {
+      "type": "boolean",
+      "description": "If true, includes supplementary notes such as 'last entry time' for the <class>."
+    }
+  }
+}

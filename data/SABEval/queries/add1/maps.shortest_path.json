@@ -1,0 +1,262 @@
+{
+  "maps.shortest_path|:|walk|:|start_location,end_location,departure_time": {
+    "tool_template_name": "maps.shortest_path",
+    "derived_class": "walk",
+    "params_for_query": [
+      "start_location",
+      "end_location",
+      "departure_time"
+    ],
+    "queries": [
+      {
+        "query": "What's the shortest walk path from Central Park to Times Square if I leave at 09:00?",
+        "filled_param": {
+          "start_location": "Central Park",
+          "end_location": "Times Square",
+          "departure_time": "09:00"
+        }
+      },
+      {
+        "query": "Find the shortest walking route from 123 Main Street to the library departing at 14:30.",
+        "filled_param": {
+          "start_location": "123 Main Street",
+          "end_location": "the library",
+          "departure_time": "14:30"
+        }
+      },
+      {
+        "query": "If I start at Union Station at 07:45, what's the shortest path on foot to the Art Museum?",
+        "filled_param": {
+          "start_location": "Union Station",
+          "end_location": "Art Museum",
+          "departure_time": "07:45"
+        }
+      },
+      {
+        "query": "Can you calculate the shortest walking path from Baker Street to Hyde Park if I leave at 18:15?",
+        "filled_param": {
+          "start_location": "Baker Street",
+          "end_location": "Hyde Park",
+          "departure_time": "18:15"
+        }
+      },
+      {
+        "query": "Determine the shortest walk route starting from Eiffel Tower and ending at Louvre Museum with a departure time of 11:00.",
+        "filled_param": {
+          "start_location": "Eiffel Tower",
+          "end_location": "Louvre Museum",
+          "departure_time": "11:00"
+        }
+      },
+      {
+        "query": "If I begin my walk from the station at 20:00, what is the shortest route to the nearest park?",
+        "filled_param": {
+          "start_location": "the station",
+          "end_location": "the nearest park",
+          "departure_time": "20:00"
+        }
+      },
+      {
+        "query": "What is the shortest path by foot from the university to the city hall if I start at 15:20?",
+        "filled_param": {
+          "start_location": "the university",
+          "end_location": "city hall",
+          "departure_time": "15:20"
+        }
+      }
+    ]
+  },
+  "maps.shortest_path|:|bike|:|start_location,end_location,departure_time": {
+    "tool_template_name": "maps.shortest_path",
+    "derived_class": "bike",
+    "params_for_query": [
+      "start_location",
+      "end_location",
+      "departure_time"
+    ],
+    "queries": [
+      {
+        "query": "Can you find the shortest bike path from Central Park to Times Square if I leave at 08:30?",
+        "filled_param": {
+          "start_location": "Central Park",
+          "end_location": "Times Square",
+          "departure_time": "08:30"
+        }
+      },
+      {
+        "query": "What is the shortest route by bike from Union Station to the White House leaving at 10:00?",
+        "filled_param": {
+          "start_location": "Union Station",
+          "end_location": "White House",
+          "departure_time": "10:00"
+        }
+      },
+      {
+        "query": "Please calculate the shortest biking path from Buckingham Palace to the British Museum at 14:15.",
+        "filled_param": {
+          "start_location": "Buckingham Palace",
+          "end_location": "British Museum",
+          "departure_time": "14:15"
+        }
+      },
+      {
+        "query": "If I start at 09:00, what’s the shortest bike route from the Eiffel Tower to Notre-Dame Cathedral?",
+        "filled_param": {
+          "start_location": "Eiffel Tower",
+          "end_location": "Notre-Dame Cathedral",
+          "departure_time": "09:00"
+        }
+      },
+      {
+        "query": "Could you determine the shortest bike path from Sydney Opera House to Bondi Beach if departing at 07:45?",
+        "filled_param": {
+          "start_location": "Sydney Opera House",
+          "end_location": "Bondi Beach",
+          "departure_time": "07:45"
+        }
+      },
+      {
+        "query": "Find the shortest biking route from Golden Gate Park to Pier 39 starting at 11:30.",
+        "filled_param": {
+          "start_location": "Golden Gate Park",
+          "end_location": "Pier 39",
+          "departure_time": "11:30"
+        }
+      }
+    ]
+  },
+  "maps.shortest_path|:|drive|:|start_location,end_location,departure_time": {
+    "tool_template_name": "maps.shortest_path",
+    "derived_class": "drive",
+    "params_for_query": [
+      "start_location",
+      "end_location",
+      "departure_time"
+    ],
+    "queries": [
+      {
+        "query": "What is the shortest drive route from Times Square to Central Park, leaving at 14:30?",
+        "filled_param": {
+          "start_location": "Times Square",
+          "end_location": "Central Park",
+          "departure_time": "14:30"
+        }
+      },
+      {
+        "query": "Can you find the quickest driving path from Los Angeles International Airport to Disneyland when departing at 09:15?",
+        "filled_param": {
+          "start_location": "Los Angeles International Airport",
+          "end_location": "Disneyland",
+          "departure_time": "09:15"
+        }
+      },
+      {
+        "query": "Show me the shortest drive option from Golden Gate Bridge to Pier 39 if I start at 11:45.",
+        "filled_param": {
+          "start_location": "Golden Gate Bridge",
+          "end_location": "Pier 39",
+          "departure_time": "11:45"
+        }
+      },
+      {
+        "query": "I need the most efficient driving path from Empire State Building to Brooklyn Bridge, leaving at 18:00.",
+        "filled_param": {
+          "start_location": "Empire State Building",
+          "end_location": "Brooklyn Bridge",
+          "departure_time": "18:00"
+        }
+      },
+      {
+        "query": "Find the shortest driving route from Miami Beach to Key West with a departure time of 05:00.",
+        "filled_param": {
+          "start_location": "Miami Beach",
+          "end_location": "Key West",
+          "departure_time": "05:00"
+        }
+      },
+      {
+        "query": "What's the quickest drive from Seattle Space Needle to Pike Place Market if leaving at 13:30?",
+        "filled_param": {
+          "start_location": "Seattle Space Needle",
+          "end_location": "Pike Place Market",
+          "departure_time": "13:30"
+        }
+      },
+      {
+        "query": "Calculate the fastest driving route from Harvard University to MIT with a departure at 07:45.",
+        "filled_param": {
+          "start_location": "Harvard University",
+          "end_location": "MIT",
+          "departure_time": "07:45"
+        }
+      }
+    ]
+  },
+  "maps.shortest_path|:|transit|:|start_location,end_location,departure_time": {
+    "tool_template_name": "maps.shortest_path",
+    "derived_class": "transit",
+    "params_for_query": [
+      "start_location",
+      "end_location",
+      "departure_time"
+    ],
+    "queries": [
+      {
+        "query": "What's the shortest transit route from Union Square to Central Park if I leave at 09:30?",
+        "filled_param": {
+          "start_location": "Union Square",
+          "end_location": "Central Park",
+          "departure_time": "09:30"
+        }
+      },
+      {
+        "query": "Find the quickest way using transit from Los Angeles International Airport to Santa Monica Pier, departing at 14:15.",
+        "filled_param": {
+          "start_location": "Los Angeles International Airport",
+          "end_location": "Santa Monica Pier",
+          "departure_time": "14:15"
+        }
+      },
+      {
+        "query": "Can you give me the shortest transit path from Times Square to Brooklyn Bridge leaving at 18:00?",
+        "filled_param": {
+          "start_location": "Times Square",
+          "end_location": "Brooklyn Bridge",
+          "departure_time": "18:00"
+        }
+      },
+      {
+        "query": "Calculate the shortest transit route from Berlin Hauptbahnhof to Brandenburg Gate for a 07:45 departure.",
+        "filled_param": {
+          "start_location": "Berlin Hauptbahnhof",
+          "end_location": "Brandenburg Gate",
+          "departure_time": "07:45"
+        }
+      },
+      {
+        "query": "What's the fastest public transit route from Tokyo Tower to Shibuya Crossing if I leave at 12:00?",
+        "filled_param": {
+          "start_location": "Tokyo Tower",
+          "end_location": "Shibuya Crossing",
+          "departure_time": "12:00"
+        }
+      },
+      {
+        "query": "I need the shortest transit path from Eiffel Tower to Louvre Museum with a departure time of 10:30.",
+        "filled_param": {
+          "start_location": "Eiffel Tower",
+          "end_location": "Louvre Museum",
+          "departure_time": "10:30"
+        }
+      },
+      {
+        "query": "What's the quickest way to get from Sydney Opera House to Bondi Beach using transit, departing at 16:00?",
+        "filled_param": {
+          "start_location": "Sydney Opera House",
+          "end_location": "Bondi Beach",
+          "departure_time": "16:00"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "tool_template_name": "getTemperature",
+  "meta_data": {
+    "base_class": "Retrieve the current temperature for a specified <country city>, given in degrees Celsius - <country city> refers to any city located within a specific nation-state for which real-time weather data (especially temperature) is available and queryable via public or proprietary data services.",
+    "derived_classes": [
+      "Chinese city",
+      "American city",
+      "Vietnamese city",
+      "Kenyan city",
+      "Ukrainian city",
+      "Egyptian city",
+      "Canadian city",
+      "Japanese city",
+      "Indian city",
+      "French city",
+      "German city",
+      "Brazilian city",
+      "Australian city",
+      "Russian city",
+      "South Korean city"
+    ],
+    "base_class_entity": "city"
+  },
+  "tool_template": {
+    "name": "get<class>Temperature",
+    "description": "Retrieve the current temperature for a specified <class>.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "city_name": {
+          "type": "string",
+          "description": "The city name of a <class>."
+        }
+      },
+      "required": [
+        "city_name"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "timestamp": {
+      "type": "integer",
+      "description": "The Unix timestamp representing the specific date and time for which the <class> temperature is requested."
+    },
+    "unit_preference": {
+      "type": "string",
+      "description": "The preferred unit of temperature measurement. Options: 'Celsius', 'Fahrenheit'."
+    },
+    "include_forecast": {
+      "type": "boolean",
+      "description": "Whether to include a short-term weather forecast along with the current temperature for the <class>."
+    },
+    "language": {
+      "type": "string",
+      "description": "The language in which to return information, e.g., 'en', 'fr', 'de'."
+    }
+  }
+}

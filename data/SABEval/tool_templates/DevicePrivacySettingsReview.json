@@ -1,0 +1,57 @@
+{
+  "tool_template_name": "DevicePrivacySettingsReview",
+  "meta_data": {
+    "base_class": "Review and suggest improvements for the privacy settings of <electronic devices> - refers to any physical electronic hardware with configurable privacy options.",
+    "derived_classes": [
+      "personal computer",
+      "smartphone",
+      "smart car",
+      "drone",
+      "digital camera",
+      "smartwatch",
+      "gaming console",
+      "NAS"
+    ],
+    "base_class_entity": "a smart home device"
+  },
+  "tool_template": {
+    "name": "<class>PrivacySettingsReview",
+    "description": "Review and suggest improvements for the privacy settings of a <class>.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "device_serial": {
+          "type": "string",
+          "description": "The serial number of the <class>. It must be a string of 10 to 20 alphanumeric characters."
+        },
+        "current_privacy_level": {
+          "type": "string",
+          "description": "The current privacy level setting of the <class>, e.g., 'low', 'medium', 'high'."
+        }
+      },
+      "required": [
+        "device_serial",
+        "current_privacy_level"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "user_consent_status": {
+      "type": "boolean",
+      "description": "Indicates whether the user has provided consent for the <class> to collect personal data."
+    },
+    "location_services_enabled": {
+      "type": "boolean",
+      "description": "Specifies if location services are enabled on the <class>."
+    },
+    "third_party_integrations": {
+      "type": "integer",
+      "description": "Number of external third-party integrations connected to the <class>."
+    },
+    "data_sharing_scope": {
+      "type": "string",
+      "description": "Current scope of user data sharing by the <class>: 'internal', 'third-party', or 'public'."
+    }
+  }
+}

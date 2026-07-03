@@ -1,0 +1,912 @@
+{
+  "corporate_finance.product_price|:|smartphone|:|company,product,currency,region,date,include_discount": {
+    "tool_template_name": "corporate_finance.product_price",
+    "derived_class": "smartphone",
+    "params_for_query": [
+      "company",
+      "product",
+      "currency",
+      "region",
+      "date",
+      "include_discount"
+    ],
+    "queries": [
+      {
+        "query": "What is the price of the smartphone Galaxy S21 by Samsung in the United States in USD on 2023-09-15, including discounts?",
+        "filled_param": {
+          "company": "Samsung",
+          "product": "Galaxy S21",
+          "currency": "USD",
+          "region": "United States",
+          "date": "2023-09-15",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "Can you find the current selling price of the iPhone 13 sold by Apple in the European Union in EUR for 2023-07-30, excluding any discounts?",
+        "filled_param": {
+          "company": "Apple",
+          "product": "iPhone 13",
+          "currency": "EUR",
+          "region": "European Union",
+          "date": "2023-07-30",
+          "include_discount": false
+        }
+      },
+      {
+        "query": "Please fetch the price for the Xiaomi Mi 11 Lite smartphone in Japan in JPY on 2023-10-01, taking into account any discounts.",
+        "filled_param": {
+          "company": "Xiaomi",
+          "product": "Mi 11 Lite",
+          "currency": "JPY",
+          "region": "Japan",
+          "date": "2023-10-01",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "How much is the smartphone Pixel 6 by Google in Australia, priced in AUD on 2023-08-20, without considering discounts?",
+        "filled_param": {
+          "company": "Google",
+          "product": "Pixel 6",
+          "currency": "AUD",
+          "region": "Australia",
+          "date": "2023-08-20",
+          "include_discount": false
+        }
+      },
+      {
+        "query": "Get the latest price for the OnePlus 9 smartphone in India, listed in INR on 2023-05-10, and make sure to apply any available discounts.",
+        "filled_param": {
+          "company": "OnePlus",
+          "product": "OnePlus 9",
+          "currency": "INR",
+          "region": "India",
+          "date": "2023-05-10",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "I need to know the selling price of the smartphone Galaxy A52s by Samsung in South Africa, in ZAR on 2023-03-25, excluding discounts.",
+        "filled_param": {
+          "company": "Samsung",
+          "product": "Galaxy A52s",
+          "currency": "ZAR",
+          "region": "South Africa",
+          "date": "2023-03-25",
+          "include_discount": false
+        }
+      },
+      {
+        "query": "Find out the current price of the Oppo Reno6 smartphone in the United Kingdom in GBP on 2023-11-05, with discounts included.",
+        "filled_param": {
+          "company": "Oppo",
+          "product": "Reno6",
+          "currency": "GBP",
+          "region": "United Kingdom",
+          "date": "2023-11-05",
+          "include_discount": true
+        }
+      }
+    ]
+  },
+  "corporate_finance.product_price|:|laptop|:|company,product,currency,region,date,include_discount": {
+    "tool_template_name": "corporate_finance.product_price",
+    "derived_class": "laptop",
+    "params_for_query": [
+      "company",
+      "product",
+      "currency",
+      "region",
+      "date",
+      "include_discount"
+    ],
+    "queries": [
+      {
+        "query": "What's the price of the laptop Dell XPS 13 in USD for the North America region on 2023-09-15 without any discounts?",
+        "filled_param": {
+          "company": "Dell",
+          "product": "XPS 13",
+          "currency": "USD",
+          "region": "North America",
+          "date": "2023-09-15",
+          "include_discount": false
+        }
+      },
+      {
+        "query": "Can you fetch the cost of Apple's MacBook Air in EUR for the Europe region as of 2023-10-01, including any discounts?",
+        "filled_param": {
+          "company": "Apple",
+          "product": "MacBook Air",
+          "currency": "EUR",
+          "region": "Europe",
+          "date": "2023-10-01",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "Find out the selling price of Lenovo ThinkPad X1 in GBP in the United Kingdom on 2023-08-20, applying discounts.",
+        "filled_param": {
+          "company": "Lenovo",
+          "product": "ThinkPad X1",
+          "currency": "GBP",
+          "region": "United Kingdom",
+          "date": "2023-08-20",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "I need the price of HP Spectre x360 in CAD for Canada on 2023-07-10, without any discount included.",
+        "filled_param": {
+          "company": "HP",
+          "product": "Spectre x360",
+          "currency": "CAD",
+          "region": "Canada",
+          "date": "2023-07-10",
+          "include_discount": false
+        }
+      },
+      {
+        "query": "Check the price for the Microsoft Surface Pro 7 in AUD in Australia on 2023-11-05, with discounts applied.",
+        "filled_param": {
+          "company": "Microsoft",
+          "product": "Surface Pro 7",
+          "currency": "AUD",
+          "region": "Australia",
+          "date": "2023-11-05",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "What is the price of Acer Aspire 5 in INR for India on 2023-12-25, excluding any discounts?",
+        "filled_param": {
+          "company": "Acer",
+          "product": "Aspire 5",
+          "currency": "INR",
+          "region": "India",
+          "date": "2023-12-25",
+          "include_discount": false
+        }
+      },
+      {
+        "query": "Retrieve the cost of Asus ZenBook 14 in JPY for Japan on 2024-01-15, considering discounts.",
+        "filled_param": {
+          "company": "Asus",
+          "product": "ZenBook 14",
+          "currency": "JPY",
+          "region": "Japan",
+          "date": "2024-01-15",
+          "include_discount": true
+        }
+      }
+    ]
+  },
+  "corporate_finance.product_price|:|television|:|company,product,currency,region,date,include_discount": {
+    "tool_template_name": "corporate_finance.product_price",
+    "derived_class": "television",
+    "params_for_query": [
+      "company",
+      "product",
+      "currency",
+      "region",
+      "date",
+      "include_discount"
+    ],
+    "queries": [
+      {
+        "query": "Can you get me the price of the television model QLED 8K from Samsung on October 10th, 2023, in the United States, listed in USD, and make sure to apply any available discounts?",
+        "filled_param": {
+          "company": "Samsung",
+          "product": "QLED 8K",
+          "currency": "USD",
+          "region": "United States",
+          "date": "October 10th, 2023",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "What's the selling price of LG's OLED CX television in EUR for Germany on the date of September 1st, 2023, without any discounts?",
+        "filled_param": {
+          "company": "LG",
+          "product": "OLED CX",
+          "currency": "EUR",
+          "region": "Germany",
+          "date": "September 1st, 2023",
+          "include_discount": false
+        }
+      },
+      {
+        "query": "Fetch the current price for Sony's Bravia XR model TV in Canada on November 20th, 2023, listed in CAD, and do not include any discounts.",
+        "filled_param": {
+          "company": "Sony",
+          "product": "Bravia XR",
+          "currency": "CAD",
+          "region": "Canada",
+          "date": "November 20th, 2023",
+          "include_discount": false
+        }
+      },
+      {
+        "query": "I need to know the discounted price for the TCL 6-Series television in Australia on December 15th, 2023, with the price shown in AUD.",
+        "filled_param": {
+          "company": "TCL",
+          "product": "6-Series",
+          "currency": "AUD",
+          "region": "Australia",
+          "date": "December 15th, 2023",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "What's the price of the Vizio M-Series television in GBP for the UK on August 5th, 2023, including any applicable discounts?",
+        "filled_param": {
+          "company": "Vizio",
+          "product": "M-Series",
+          "currency": "GBP",
+          "region": "UK",
+          "date": "August 5th, 2023",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "Check the price of the Panasonic GX800 TV in India, priced in INR, as of October 25th, 2023, and ensure any discounts are applied.",
+        "filled_param": {
+          "company": "Panasonic",
+          "product": "GX800",
+          "currency": "INR",
+          "region": "India",
+          "date": "October 25th, 2023",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "Please provide the price of Philips Ambilight TV in France, in the currency EUR, for the date November 11th, 2023, without any discounts.",
+        "filled_param": {
+          "company": "Philips",
+          "product": "Ambilight TV",
+          "currency": "EUR",
+          "region": "France",
+          "date": "November 11th, 2023",
+          "include_discount": false
+        }
+      }
+    ]
+  },
+  "corporate_finance.product_price|:|refrigerator|:|company,product,currency,region,date,include_discount": {
+    "tool_template_name": "corporate_finance.product_price",
+    "derived_class": "refrigerator",
+    "params_for_query": [
+      "company",
+      "product",
+      "currency",
+      "region",
+      "date",
+      "include_discount"
+    ],
+    "queries": [
+      {
+        "query": "What is the price of the Samsung refrigerator in USD for the North American region on 2023-09-01, including any discounts?",
+        "filled_param": {
+          "company": "Samsung",
+          "product": "refrigerator",
+          "currency": "USD",
+          "region": "North America",
+          "date": "2023-09-01",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "Can you find the selling price for LG's refrigerator in GBP for Europe on 2023-08-15, with discounts applied?",
+        "filled_param": {
+          "company": "LG",
+          "product": "refrigerator",
+          "currency": "GBP",
+          "region": "Europe",
+          "date": "2023-08-15",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "Fetch the current selling price of a Whirlpool refrigerator in INR for the Indian market on 2023-10-05, without including discounts.",
+        "filled_param": {
+          "company": "Whirlpool",
+          "product": "refrigerator",
+          "currency": "INR",
+          "region": "India",
+          "date": "2023-10-05",
+          "include_discount": false
+        }
+      },
+      {
+        "query": "I need the price of a Haier refrigerator in AUD for the Australian region on 2023-07-20. Please provide the price without any discounts.",
+        "filled_param": {
+          "company": "Haier",
+          "product": "refrigerator",
+          "currency": "AUD",
+          "region": "Australia",
+          "date": "2023-07-20",
+          "include_discount": false
+        }
+      },
+      {
+        "query": "What would be the cost of a Bosch refrigerator in EUR for Germany on the date 2023-06-10, factoring in any discounts?",
+        "filled_param": {
+          "company": "Bosch",
+          "product": "refrigerator",
+          "currency": "EUR",
+          "region": "Germany",
+          "date": "2023-06-10",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "Could you tell me the price of a GE refrigerator in CAD for Canada on 2023-05-25, excluding discounts?",
+        "filled_param": {
+          "company": "GE",
+          "product": "refrigerator",
+          "currency": "CAD",
+          "region": "Canada",
+          "date": "2023-05-25",
+          "include_discount": false
+        }
+      },
+      {
+        "query": "How much is the Panasonic refrigerator in JPY for Japan on 2023-11-11, with discounts considered?",
+        "filled_param": {
+          "company": "Panasonic",
+          "product": "refrigerator",
+          "currency": "JPY",
+          "region": "Japan",
+          "date": "2023-11-11",
+          "include_discount": true
+        }
+      }
+    ]
+  },
+  "corporate_finance.product_price|:|air conditioner|:|company,product,currency,region,date,include_discount": {
+    "tool_template_name": "corporate_finance.product_price",
+    "derived_class": "air conditioner",
+    "params_for_query": [
+      "company",
+      "product",
+      "currency",
+      "region",
+      "date",
+      "include_discount"
+    ],
+    "queries": [
+      {
+        "query": "Could you fetch the price of the air conditioner model 'CoolBreeze 3000' sold by CoolAir Corp in USD for the North America region on 2023-07-15, including any discounts?",
+        "filled_param": {
+          "company": "CoolAir Corp",
+          "product": "CoolBreeze 3000",
+          "currency": "USD",
+          "region": "North America",
+          "date": "2023-07-15",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "What was the selling price of the air conditioner named 'ArcticChill X2' from ArcticCo in EUR for Europe on 2023-08-20 without applying any discounts?",
+        "filled_param": {
+          "company": "ArcticCo",
+          "product": "ArcticChill X2",
+          "currency": "EUR",
+          "region": "Europe",
+          "date": "2023-08-20",
+          "include_discount": false
+        }
+      },
+      {
+        "query": "I need the current price of the air conditioner 'SunnyCool Pro' from SunTech in JPY for the Japan market on 2023-09-01, inclusive of discounts.",
+        "filled_param": {
+          "company": "SunTech",
+          "product": "SunnyCool Pro",
+          "currency": "JPY",
+          "region": "Japan",
+          "date": "2023-09-01",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "Can you provide the price for the air conditioner 'FrostMaster 500' by FrostyAir in GBP for the UK on 2023-10-05, not considering any discounts?",
+        "filled_param": {
+          "company": "FrostyAir",
+          "product": "FrostMaster 500",
+          "currency": "GBP",
+          "region": "UK",
+          "date": "2023-10-05",
+          "include_discount": false
+        }
+      },
+      {
+        "query": "What's the price of the air conditioner 'ChillWave Ultra' from BreezyTech in AUD for the Australia region on 2023-07-30, including any applicable discounts?",
+        "filled_param": {
+          "company": "BreezyTech",
+          "product": "ChillWave Ultra",
+          "currency": "AUD",
+          "region": "Australia",
+          "date": "2023-07-30",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "Find out the price of the air conditioner 'CoolQuest Mini' sold by QuestCool in CAD for Canada on 2023-08-10, with discounts excluded.",
+        "filled_param": {
+          "company": "QuestCool",
+          "product": "CoolQuest Mini",
+          "currency": "CAD",
+          "region": "Canada",
+          "date": "2023-08-10",
+          "include_discount": false
+        }
+      },
+      {
+        "query": "Retrieve the price of the air conditioner 'WindFree S' from Samsung in INR for the Indian market on 2023-09-15, counting any discounts.",
+        "filled_param": {
+          "company": "Samsung",
+          "product": "WindFree S",
+          "currency": "INR",
+          "region": "India",
+          "date": "2023-09-15",
+          "include_discount": true
+        }
+      }
+    ]
+  },
+  "corporate_finance.product_price|:|electric car|:|company,product,currency,region,date,include_discount": {
+    "tool_template_name": "corporate_finance.product_price",
+    "derived_class": "electric car",
+    "params_for_query": [
+      "company",
+      "product",
+      "currency",
+      "region",
+      "date",
+      "include_discount"
+    ],
+    "queries": [
+      {
+        "query": "What's the current price of the electric car Tesla Model 3 in the United States in USD on 2023-10-15, including discounts if available?",
+        "filled_param": {
+          "company": "Tesla",
+          "product": "Model 3",
+          "currency": "USD",
+          "region": "United States",
+          "date": "2023-10-15",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "Fetch the selling price of the electric car Nissan Leaf in Japan, listed in JPY on 2023-09-30, without any discounts.",
+        "filled_param": {
+          "company": "Nissan",
+          "product": "Leaf",
+          "currency": "JPY",
+          "region": "Japan",
+          "date": "2023-09-30",
+          "include_discount": false
+        }
+      },
+      {
+        "query": "Can you tell me the price of the electric car BMW i3 in Germany in EUR on 2023-08-01, factoring in any discounts?",
+        "filled_param": {
+          "company": "BMW",
+          "product": "i3",
+          "currency": "EUR",
+          "region": "Germany",
+          "date": "2023-08-01",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "Get the electric car Chevrolet Bolt price as of 2023-07-20 in Canada, using CAD, and do not include any discounts.",
+        "filled_param": {
+          "company": "Chevrolet",
+          "product": "Bolt",
+          "currency": "CAD",
+          "region": "Canada",
+          "date": "2023-07-20",
+          "include_discount": false
+        }
+      },
+      {
+        "query": "I need the price of the electric car Hyundai Kona Electric in South Korea on 2023-06-15, presented in KRW, with all discounts included.",
+        "filled_param": {
+          "company": "Hyundai",
+          "product": "Kona Electric",
+          "currency": "KRW",
+          "region": "South Korea",
+          "date": "2023-06-15",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "What is the current selling price of the electric car Audi e-tron in Australia, displayed in AUD on 2023-05-10, excluding discounts?",
+        "filled_param": {
+          "company": "Audi",
+          "product": "e-tron",
+          "currency": "AUD",
+          "region": "Australia",
+          "date": "2023-05-10",
+          "include_discount": false
+        }
+      },
+      {
+        "query": "Tell me the price for the electric car Renault Zoe in France, in EUR as of 2023-04-05, with available discounts applied.",
+        "filled_param": {
+          "company": "Renault",
+          "product": "Zoe",
+          "currency": "EUR",
+          "region": "France",
+          "date": "2023-04-05",
+          "include_discount": true
+        }
+      }
+    ]
+  },
+  "corporate_finance.product_price|:|smartwatch|:|company,product,currency,region,date,include_discount": {
+    "tool_template_name": "corporate_finance.product_price",
+    "derived_class": "smartwatch",
+    "params_for_query": [
+      "company",
+      "product",
+      "currency",
+      "region",
+      "date",
+      "include_discount"
+    ],
+    "queries": [
+      {
+        "query": "What is the current selling price of the smartwatch Galaxy Watch 4 from Samsung in the US on October 10, 2023, in USD, including any discounts?",
+        "filled_param": {
+          "company": "Samsung",
+          "product": "Galaxy Watch 4",
+          "currency": "USD",
+          "region": "US",
+          "date": "October 10, 2023",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "Can you find the price for Apple's Apple Watch Series 8 in Europe as of September 15, 2023, in EUR, applying any available discounts?",
+        "filled_param": {
+          "company": "Apple",
+          "product": "Apple Watch Series 8",
+          "currency": "EUR",
+          "region": "Europe",
+          "date": "September 15, 2023",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "Fetch the price of the Fitbit Versa 3 sold by Fitbit in Canada on August 25, 2023, in CAD, without any discounts.",
+        "filled_param": {
+          "company": "Fitbit",
+          "product": "Fitbit Versa 3",
+          "currency": "CAD",
+          "region": "Canada",
+          "date": "August 25, 2023",
+          "include_discount": false
+        }
+      },
+      {
+        "query": "Get me the selling price of Huawei's Huawei Watch GT 3 in China on July 1, 2023, in CNY, excluding discounts.",
+        "filled_param": {
+          "company": "Huawei",
+          "product": "Huawei Watch GT 3",
+          "currency": "CNY",
+          "region": "China",
+          "date": "July 1, 2023",
+          "include_discount": false
+        }
+      },
+      {
+        "query": "I need the current price for Garmin's Garmin Forerunner 245 in Australia as of June 30, 2023, in AUD, with discounts included.",
+        "filled_param": {
+          "company": "Garmin",
+          "product": "Garmin Forerunner 245",
+          "currency": "AUD",
+          "region": "Australia",
+          "date": "June 30, 2023",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "What is the price of the Oppo Watch 3 sold by Oppo in the UK on November 5, 2023, in GBP, considering any discounts available?",
+        "filled_param": {
+          "company": "Oppo",
+          "product": "Oppo Watch 3",
+          "currency": "GBP",
+          "region": "UK",
+          "date": "November 5, 2023",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "Find the price for Xiaomi's Mi Watch in India on December 12, 2023, in INR, not applying any discounts.",
+        "filled_param": {
+          "company": "Xiaomi",
+          "product": "Mi Watch",
+          "currency": "INR",
+          "region": "India",
+          "date": "December 12, 2023",
+          "include_discount": false
+        }
+      }
+    ]
+  },
+  "corporate_finance.product_price|:|headphones|:|company,product,currency,region,date,include_discount": {
+    "tool_template_name": "corporate_finance.product_price",
+    "derived_class": "headphones",
+    "params_for_query": [
+      "company",
+      "product",
+      "currency",
+      "region",
+      "date",
+      "include_discount"
+    ],
+    "queries": [
+      {
+        "query": "What was the price of Sony's WH-1000XM4 headphones in the US on October 1, 2023, in USD without discounts?",
+        "filled_param": {
+          "company": "Sony",
+          "product": "WH-1000XM4",
+          "currency": "USD",
+          "region": "US",
+          "date": "2023-10-01",
+          "include_discount": false
+        }
+      },
+      {
+        "query": "Fetch the discounted price for Bose QuietComfort 45 headphones in the UK for September 15, 2023, in GBP.",
+        "filled_param": {
+          "company": "Bose",
+          "product": "QuietComfort 45",
+          "currency": "GBP",
+          "region": "UK",
+          "date": "2023-09-15",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "I need the price of Apple's AirPods Max in Canada on October 5, 2023, in CAD including any discounts.",
+        "filled_param": {
+          "company": "Apple",
+          "product": "AirPods Max",
+          "currency": "CAD",
+          "region": "Canada",
+          "date": "2023-10-05",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "How much were Sennheiser HD 450BT headphones selling for in Germany on September 30, 2023, in EUR without discounts?",
+        "filled_param": {
+          "company": "Sennheiser",
+          "product": "HD 450BT",
+          "currency": "EUR",
+          "region": "Germany",
+          "date": "2023-09-30",
+          "include_discount": false
+        }
+      },
+      {
+        "query": "Tell me the discounted price of JBL Live 660NC headphones in Australia on October 3, 2023, in AUD.",
+        "filled_param": {
+          "company": "JBL",
+          "product": "Live 660NC",
+          "currency": "AUD",
+          "region": "Australia",
+          "date": "2023-10-03",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "What was the retail price of Bang & Olufsen Beoplay H95 in Japan on October 2, 2023, in JPY excluding discounts?",
+        "filled_param": {
+          "company": "Bang & Olufsen",
+          "product": "Beoplay H95",
+          "currency": "JPY",
+          "region": "Japan",
+          "date": "2023-10-02",
+          "include_discount": false
+        }
+      },
+      {
+        "query": "Check the price for the discounted Beats Studio3 Wireless headphones in France on September 25, 2023, in EUR.",
+        "filled_param": {
+          "company": "Beats",
+          "product": "Studio3 Wireless",
+          "currency": "EUR",
+          "region": "France",
+          "date": "2023-09-25",
+          "include_discount": true
+        }
+      }
+    ]
+  },
+  "corporate_finance.product_price|:|gaming console|:|company,product,currency,region,date,include_discount": {
+    "tool_template_name": "corporate_finance.product_price",
+    "derived_class": "gaming console",
+    "params_for_query": [
+      "company",
+      "product",
+      "currency",
+      "region",
+      "date",
+      "include_discount"
+    ],
+    "queries": [
+      {
+        "query": "What's the price of the gaming console PlayStation 5 from Sony in Japan on 2023-11-01 in JPY, including any discounts?",
+        "filled_param": {
+          "company": "Sony",
+          "product": "PlayStation 5",
+          "currency": "JPY",
+          "region": "Japan",
+          "date": "2023-11-01",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "Fetch the price of Microsoft's Xbox Series X in USD for the United States on 2023-10-15, and don't include discounts.",
+        "filled_param": {
+          "company": "Microsoft",
+          "product": "Xbox Series X",
+          "currency": "USD",
+          "region": "United States",
+          "date": "2023-10-15",
+          "include_discount": false
+        }
+      },
+      {
+        "query": "How much does the Nintendo Switch cost with discounts in the UK in GBP on 2023-12-05?",
+        "filled_param": {
+          "company": "Nintendo",
+          "product": "Nintendo Switch",
+          "currency": "GBP",
+          "region": "UK",
+          "date": "2023-12-05",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "Can you tell me the price in EUR for Sony's PlayStation 4 in Germany on 2023-11-20, excluding discounts?",
+        "filled_param": {
+          "company": "Sony",
+          "product": "PlayStation 4",
+          "currency": "EUR",
+          "region": "Germany",
+          "date": "2023-11-20",
+          "include_discount": false
+        }
+      },
+      {
+        "query": "What is the current selling price of the gaming console Xbox Series S from Microsoft in Australia on 2023-10-25 in AUD, with discounts applied?",
+        "filled_param": {
+          "company": "Microsoft",
+          "product": "Xbox Series S",
+          "currency": "AUD",
+          "region": "Australia",
+          "date": "2023-10-25",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "Please provide the price of Nintendo's gaming console Wii U in CAD for Canada on 2023-11-10, without considering discounts.",
+        "filled_param": {
+          "company": "Nintendo",
+          "product": "Wii U",
+          "currency": "CAD",
+          "region": "Canada",
+          "date": "2023-11-10",
+          "include_discount": false
+        }
+      },
+      {
+        "query": "Find out how much Sony's PlayStation 5 costs in Brazil in BRL on 2023-11-30, including any discounts.",
+        "filled_param": {
+          "company": "Sony",
+          "product": "PlayStation 5",
+          "currency": "BRL",
+          "region": "Brazil",
+          "date": "2023-11-30",
+          "include_discount": true
+        }
+      }
+    ]
+  },
+  "corporate_finance.product_price|:|printer|:|company,product,currency,region,date,include_discount": {
+    "tool_template_name": "corporate_finance.product_price",
+    "derived_class": "printer",
+    "params_for_query": [
+      "company",
+      "product",
+      "currency",
+      "region",
+      "date",
+      "include_discount"
+    ],
+    "queries": [
+      {
+        "query": "What was the price of the HP LaserJet Pro in the USA on 2023-08-01, including any discounts, in USD?",
+        "filled_param": {
+          "company": "HP",
+          "product": "LaserJet Pro",
+          "currency": "USD",
+          "region": "USA",
+          "date": "2023-08-01",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "Fetch the price of Canon PIXMA printer for Europe on 2023-09-15, excluding any discounts, in EUR.",
+        "filled_param": {
+          "company": "Canon",
+          "product": "PIXMA",
+          "currency": "EUR",
+          "region": "Europe",
+          "date": "2023-09-15",
+          "include_discount": false
+        }
+      },
+      {
+        "query": "Please provide the selling price for Epson EcoTank in Japan as of 2023-07-20, without discounts, using JPY.",
+        "filled_param": {
+          "company": "Epson",
+          "product": "EcoTank",
+          "currency": "JPY",
+          "region": "Japan",
+          "date": "2023-07-20",
+          "include_discount": false
+        }
+      },
+      {
+        "query": "How much did Brother HL-L2350DW cost in Canada on 2023-06-10, inclusive of discounts, in CAD?",
+        "filled_param": {
+          "company": "Brother",
+          "product": "HL-L2350DW",
+          "currency": "CAD",
+          "region": "Canada",
+          "date": "2023-06-10",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "I need the price for the Samsung Xpress printer in the UK on 2023-05-05, with any applicable discounts, in GBP.",
+        "filled_param": {
+          "company": "Samsung",
+          "product": "Xpress",
+          "currency": "GBP",
+          "region": "UK",
+          "date": "2023-05-05",
+          "include_discount": true
+        }
+      },
+      {
+        "query": "Can you check the price of the Lexmark MB2236adw for Australia on 2023-04-01, excluding discounts, in AUD?",
+        "filled_param": {
+          "company": "Lexmark",
+          "product": "MB2236adw",
+          "currency": "AUD",
+          "region": "Australia",
+          "date": "2023-04-01",
+          "include_discount": false
+        }
+      },
+      {
+        "query": "Tell me the price for the Xerox Phaser printer in India on 2023-03-11, with discounts applied, in INR.",
+        "filled_param": {
+          "company": "Xerox",
+          "product": "Phaser",
+          "currency": "INR",
+          "region": "India",
+          "date": "2023-03-11",
+          "include_discount": true
+        }
+      }
+    ]
+  }
+}

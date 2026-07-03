@@ -1,0 +1,522 @@
+{
+  "Payment_1_MakePayment|:|visa credit card|:|amount,receiver,private_visibility": {
+    "tool_template_name": "Payment_1_MakePayment",
+    "derived_class": "visa credit card",
+    "params_for_query": [
+      "amount",
+      "receiver",
+      "private_visibility"
+    ],
+    "queries": [
+      {
+        "query": "Please transfer $150 to john.doe@example.com using my visa credit card. Make sure this transaction remains private.",
+        "filled_param": {
+          "amount": 150.0,
+          "receiver": "john.doe@example.com",
+          "private_visibility": true
+        }
+      },
+      {
+        "query": "I need to send $75 to the phone number 123-456-7890 via visa credit card and keep the transaction public.",
+        "filled_param": {
+          "amount": 75.0,
+          "receiver": "123-456-7890",
+          "private_visibility": false
+        }
+      },
+      {
+        "query": "Send $200 to the username 'alex_smith' through visa credit card and ensure it's not visible to others.",
+        "filled_param": {
+          "amount": 200.0,
+          "receiver": "alex_smith",
+          "private_visibility": true
+        }
+      },
+      {
+        "query": "Transfer $50 to jane.doe@service.com using my visa credit card and set the visibility to public.",
+        "filled_param": {
+          "amount": 50.0,
+          "receiver": "jane.doe@service.com",
+          "private_visibility": false
+        }
+      },
+      {
+        "query": "Can you use my visa credit card to send $300 to the email michael@domain.com, and make this a private transaction?",
+        "filled_param": {
+          "amount": 300.0,
+          "receiver": "michael@domain.com",
+          "private_visibility": true
+        }
+      },
+      {
+        "query": "Use visa credit card to pay $120 to 987-654-3210 and keep the transaction public.",
+        "filled_param": {
+          "amount": 120.0,
+          "receiver": "987-654-3210",
+          "private_visibility": false
+        }
+      },
+      {
+        "query": "Initiate a payment of $250 to the contact email laura@exampleservice.com using visa credit card, with private visibility.",
+        "filled_param": {
+          "amount": 250.0,
+          "receiver": "laura@exampleservice.com",
+          "private_visibility": true
+        }
+      }
+    ]
+  },
+  "Payment_1_MakePayment|:|mastercard credit card|:|amount,receiver,private_visibility": {
+    "tool_template_name": "Payment_1_MakePayment",
+    "derived_class": "mastercard credit card",
+    "params_for_query": [
+      "amount",
+      "receiver",
+      "private_visibility"
+    ],
+    "queries": [
+      {
+        "query": "Transfer 120.50 to john.doe@example.com using my mastercard credit card and keep the transaction private.",
+        "filled_param": {
+          "amount": 120.5,
+          "receiver": "john.doe@example.com",
+          "private_visibility": true
+        }
+      },
+      {
+        "query": "I need to send 75.00 to Sarah at +1234567890 through my mastercard credit card. Make sure the transaction is visible.",
+        "filled_param": {
+          "amount": 75.0,
+          "receiver": "+1234567890",
+          "private_visibility": false
+        }
+      },
+      {
+        "query": "Could you make a 300.00 payment to my friend with username 'friend123' via mastercard credit card and hide the transaction details?",
+        "filled_param": {
+          "amount": 300.0,
+          "receiver": "friend123",
+          "private_visibility": true
+        }
+      },
+      {
+        "query": "Initiate a mastercard credit card payment of 50.25 to alice.b@example.com and ensure it's publicly visible.",
+        "filled_param": {
+          "amount": 50.25,
+          "receiver": "alice.b@example.com",
+          "private_visibility": false
+        }
+      },
+      {
+        "query": "Can you send 200.00 to Bob's account with email bob@example.com using my mastercard credit card? Make the transaction private.",
+        "filled_param": {
+          "amount": 200.0,
+          "receiver": "bob@example.com",
+          "private_visibility": true
+        }
+      },
+      {
+        "query": "I want to pay 500.00 to contact 'jane456' using my mastercard credit card and keep it in the public transaction feed.",
+        "filled_param": {
+          "amount": 500.0,
+          "receiver": "jane456",
+          "private_visibility": false
+        }
+      },
+      {
+        "query": "Please send 30.75 to my cousin at cousin@example.com with a mastercard credit card and do not hide the transaction.",
+        "filled_param": {
+          "amount": 30.75,
+          "receiver": "cousin@example.com",
+          "private_visibility": false
+        }
+      }
+    ]
+  },
+  "Payment_1_MakePayment|:|visa debit card|:|amount,receiver,private_visibility": {
+    "tool_template_name": "Payment_1_MakePayment",
+    "derived_class": "visa debit card",
+    "params_for_query": [
+      "amount",
+      "receiver",
+      "private_visibility"
+    ],
+    "queries": [
+      {
+        "query": "Please send $150 to john.doe@example.com using my visa debit card, and make sure the transaction is private.",
+        "filled_param": {
+          "amount": 150.0,
+          "receiver": "john.doe@example.com",
+          "private_visibility": true
+        }
+      },
+      {
+        "query": "Transfer $75 to the phone number +123456789 with my visa debit card, and keep this transaction public.",
+        "filled_param": {
+          "amount": 75.0,
+          "receiver": "+123456789",
+          "private_visibility": false
+        }
+      },
+      {
+        "query": "I need to send $200 to my friend using their username @friendUser, using a visa debit card, and ensure it's a private transaction.",
+        "filled_param": {
+          "amount": 200.0,
+          "receiver": "@friendUser",
+          "private_visibility": true
+        }
+      },
+      {
+        "query": "Can you make a $50 payment to jane_smith123 via visa debit card? I want this transaction to be visible.",
+        "filled_param": {
+          "amount": 50.0,
+          "receiver": "jane_smith123",
+          "private_visibility": false
+        }
+      },
+      {
+        "query": "Initiate a transfer of $300 to the email tom@example.net using my visa debit card, and keep it anonymous.",
+        "filled_param": {
+          "amount": 300.0,
+          "receiver": "tom@example.net",
+          "private_visibility": true
+        }
+      },
+      {
+        "query": "I'd like to send $125 to the account number 987654321 with my visa debit card, and it should be a public transaction.",
+        "filled_param": {
+          "amount": 125.0,
+          "receiver": "987654321",
+          "private_visibility": false
+        }
+      },
+      {
+        "query": "Process a $400 payment to the contact mike@payments.com using my visa debit card, and set it to private.",
+        "filled_param": {
+          "amount": 400.0,
+          "receiver": "mike@payments.com",
+          "private_visibility": true
+        }
+      }
+    ]
+  },
+  "Payment_1_MakePayment|:|mastercard debit card|:|amount,receiver,private_visibility": {
+    "tool_template_name": "Payment_1_MakePayment",
+    "derived_class": "mastercard debit card",
+    "params_for_query": [
+      "amount",
+      "receiver",
+      "private_visibility"
+    ],
+    "queries": [
+      {
+        "query": "Transfer $150 to john.doe@example.com using my mastercard debit card, and keep it private.",
+        "filled_param": {
+          "amount": 150.0,
+          "receiver": "john.doe@example.com",
+          "private_visibility": true
+        }
+      },
+      {
+        "query": "I need to send $200 to +123456789 via mastercard debit card; make sure it's public.",
+        "filled_param": {
+          "amount": 200.0,
+          "receiver": "+123456789",
+          "private_visibility": false
+        }
+      },
+      {
+        "query": "Can you initiate a payment of $75 to contact@business.com with my mastercard debit card and keep it visible?",
+        "filled_param": {
+          "amount": 75.0,
+          "receiver": "contact@business.com",
+          "private_visibility": false
+        }
+      },
+      {
+        "query": "Please send $320 to jane_smith using mastercard debit card and ensure it's not visible.",
+        "filled_param": {
+          "amount": 320.0,
+          "receiver": "jane_smith",
+          "private_visibility": true
+        }
+      },
+      {
+        "query": "Use my mastercard debit card to send $50 to 9876543210 and make it a private transaction.",
+        "filled_param": {
+          "amount": 50.0,
+          "receiver": "9876543210",
+          "private_visibility": true
+        }
+      },
+      {
+        "query": "Pay $100 to alice@example.com through my mastercard debit card, and don't hide it.",
+        "filled_param": {
+          "amount": 100.0,
+          "receiver": "alice@example.com",
+          "private_visibility": false
+        }
+      }
+    ]
+  },
+  "Payment_1_MakePayment|:|american express card|:|amount,receiver,private_visibility": {
+    "tool_template_name": "Payment_1_MakePayment",
+    "derived_class": "american express card",
+    "params_for_query": [
+      "amount",
+      "receiver",
+      "private_visibility"
+    ],
+    "queries": [
+      {
+        "query": "Please send $150.75 to john.doe@example.com using my american express card, and make sure the transaction is private.",
+        "filled_param": {
+          "amount": 150.75,
+          "receiver": "john.doe@example.com",
+          "private_visibility": true
+        }
+      },
+      {
+        "query": "Transfer 200 dollars to +1234567890 via american express card with public visibility.",
+        "filled_param": {
+          "amount": 200.0,
+          "receiver": "+1234567890",
+          "private_visibility": false
+        }
+      },
+      {
+        "query": "I need to pay $45.20 to user123 using american express card, and ensure the transaction is hidden.",
+        "filled_param": {
+          "amount": 45.2,
+          "receiver": "user123",
+          "private_visibility": true
+        }
+      },
+      {
+        "query": "Can you send $89.99 to mike_b@example.com via american express card? Make it a public transaction.",
+        "filled_param": {
+          "amount": 89.99,
+          "receiver": "mike_b@example.com",
+          "private_visibility": false
+        }
+      },
+      {
+        "query": "Initiate a payment of $300.50 to the phone number +19876543210 using my american express card and keep it private.",
+        "filled_param": {
+          "amount": 300.5,
+          "receiver": "+19876543210",
+          "private_visibility": true
+        }
+      },
+      {
+        "query": "I'd like to transfer 75 dollars to jane.doe123, using my american express card, with public visibility.",
+        "filled_param": {
+          "amount": 75.0,
+          "receiver": "jane.doe123",
+          "private_visibility": false
+        }
+      },
+      {
+        "query": "Send $120.00 to tom.smith@service.com through american express card and mark it as private.",
+        "filled_param": {
+          "amount": 120.0,
+          "receiver": "tom.smith@service.com",
+          "private_visibility": true
+        }
+      }
+    ]
+  },
+  "Payment_1_MakePayment|:|unionpay credit card|:|amount,receiver,private_visibility": {
+    "tool_template_name": "Payment_1_MakePayment",
+    "derived_class": "unionpay credit card",
+    "params_for_query": [
+      "amount",
+      "receiver",
+      "private_visibility"
+    ],
+    "queries": [
+      {
+        "query": "Send 50.75 USD to john.doe@example.com using unionpay credit card and keep it private.",
+        "filled_param": {
+          "amount": 50.75,
+          "receiver": "john.doe@example.com",
+          "private_visibility": true
+        }
+      },
+      {
+        "query": "Transfer 200.00 to +1234567890 via unionpay credit card, and make sure the payment is visible to others.",
+        "filled_param": {
+          "amount": 200.0,
+          "receiver": "+1234567890",
+          "private_visibility": false
+        }
+      },
+      {
+        "query": "I want to send 89.99 to jane.smith@bank.net using my unionpay credit card and ensure the transaction is not public.",
+        "filled_param": {
+          "amount": 89.99,
+          "receiver": "jane.smith@bank.net",
+          "private_visibility": true
+        }
+      },
+      {
+        "query": "Could you facilitate a unionpay credit card payment of 150.50 for user alice123 and keep it public?",
+        "filled_param": {
+          "amount": 150.5,
+          "receiver": "alice123",
+          "private_visibility": false
+        }
+      },
+      {
+        "query": "Initiate a transaction of 75.25 USD to the account bob@domain.com using unionpay credit card, make it private.",
+        "filled_param": {
+          "amount": 75.25,
+          "receiver": "bob@domain.com",
+          "private_visibility": true
+        }
+      },
+      {
+        "query": "Please send 120.00 to the number +987654321 using unionpay credit card and ensure it is visible.",
+        "filled_param": {
+          "amount": 120.0,
+          "receiver": "+987654321",
+          "private_visibility": false
+        }
+      },
+      {
+        "query": "Transfer 300.45 to contact mike_hunter@service.org with unionpay credit card and hide the transaction from others.",
+        "filled_param": {
+          "amount": 300.45,
+          "receiver": "mike_hunter@service.org",
+          "private_visibility": true
+        }
+      }
+    ]
+  },
+  "Payment_1_MakePayment|:|unionpay debit card|:|amount,receiver,private_visibility": {
+    "tool_template_name": "Payment_1_MakePayment",
+    "derived_class": "unionpay debit card",
+    "params_for_query": [
+      "amount",
+      "receiver",
+      "private_visibility"
+    ],
+    "queries": [
+      {
+        "query": "Send 150.75 USD to john.doe@example.com using the unionpay debit card and keep it private.",
+        "filled_param": {
+          "amount": 150.75,
+          "receiver": "john.doe@example.com",
+          "private_visibility": true
+        }
+      },
+      {
+        "query": "I need to transfer 200.50 to the phone number +1234567890 with my unionpay debit card and make the transaction public.",
+        "filled_param": {
+          "amount": 200.5,
+          "receiver": "+1234567890",
+          "private_visibility": false
+        }
+      },
+      {
+        "query": "Could you help me send 75.00 USD to my contact jane_doe on the unionpay debit card platform, and ensure it's private?",
+        "filled_param": {
+          "amount": 75.0,
+          "receiver": "jane_doe",
+          "private_visibility": true
+        }
+      },
+      {
+        "query": "Transfer 500.25 dollars to the email sam.smith@mail.com using my unionpay debit card, and let's keep it visible.",
+        "filled_param": {
+          "amount": 500.25,
+          "receiver": "sam.smith@mail.com",
+          "private_visibility": false
+        }
+      },
+      {
+        "query": "Make a unionpay debit card payment of 300 USD to the username mike_b and set it as a private transaction.",
+        "filled_param": {
+          "amount": 300.0,
+          "receiver": "mike_b",
+          "private_visibility": true
+        }
+      },
+      {
+        "query": "I'd like to send 99.99 dollars to the contact number +1987654321 with a unionpay debit card and not hide it.",
+        "filled_param": {
+          "amount": 99.99,
+          "receiver": "+1987654321",
+          "private_visibility": false
+        }
+      },
+      {
+        "query": "Initiate a payment of 45.50 using my unionpay debit card to the recipient email address lisa.green@provider.com and keep it private.",
+        "filled_param": {
+          "amount": 45.5,
+          "receiver": "lisa.green@provider.com",
+          "private_visibility": true
+        }
+      }
+    ]
+  },
+  "Payment_1_MakePayment|:|discover card|:|amount,receiver,private_visibility": {
+    "tool_template_name": "Payment_1_MakePayment",
+    "derived_class": "discover card",
+    "params_for_query": [
+      "amount",
+      "receiver",
+      "private_visibility"
+    ],
+    "queries": [
+      {
+        "query": "Send $150 to john.doe@email.com using discover card and make it private.",
+        "filled_param": {
+          "amount": 150.0,
+          "receiver": "john.doe@email.com",
+          "private_visibility": true
+        }
+      },
+      {
+        "query": "Transfer 45.75 dollars to +1234567890 with discover card, and ensure the transaction is visible.",
+        "filled_param": {
+          "amount": 45.75,
+          "receiver": "+1234567890",
+          "private_visibility": false
+        }
+      },
+      {
+        "query": "I need to pay $200 to alice_smith using my discover card. Make the payment private.",
+        "filled_param": {
+          "amount": 200.0,
+          "receiver": "alice_smith",
+          "private_visibility": true
+        }
+      },
+      {
+        "query": "Use discover card to send $50 to bob@example.com. Keep the transaction public.",
+        "filled_param": {
+          "amount": 50.0,
+          "receiver": "bob@example.com",
+          "private_visibility": false
+        }
+      },
+      {
+        "query": "Please initiate a payment of 75.50 dollars to the phone number 9876543210 using discover card and hide it from feeds.",
+        "filled_param": {
+          "amount": 75.5,
+          "receiver": "9876543210",
+          "private_visibility": true
+        }
+      },
+      {
+        "query": "Transfer $120 to charlotte_username via discover card, make sure it's public.",
+        "filled_param": {
+          "amount": 120.0,
+          "receiver": "charlotte_username",
+          "private_visibility": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1164 @@
+{
+  "SocialMediaInvestigator_findMissingPerson|:|Facebook|:|socialMediaAccounts,startDate,endDate,locationAnalysis,sentimentAnalysis": {
+    "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+    "derived_class": "Facebook",
+    "params_for_query": [
+      "socialMediaAccounts",
+      "startDate",
+      "endDate",
+      "locationAnalysis",
+      "sentimentAnalysis"
+    ],
+    "queries": [
+      {
+        "query": "Could you investigate Facebook profiles user123 and user456 to find clues about a missing person from 2023-01-01 to 2023-01-31, including location and sentiment analysis?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user123",
+            "user456"
+          ],
+          "startDate": "2023-01-01",
+          "endDate": "2023-01-31",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Please analyze the Facebook accounts profileA, profileB, and profileC for activity related to a missing person case from March 1st to March 20th, 2022, without focusing on location but including sentiment analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "profileA",
+            "profileB",
+            "profileC"
+          ],
+          "startDate": "2022-03-01",
+          "endDate": "2022-03-20",
+          "locationAnalysis": false,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "I'd like an analysis of Facebook accounts abc123 and xyz789 between 2023-05-15 and 2023-06-15 with a focus on location tracking, but skip sentiment analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "abc123",
+            "xyz789"
+          ],
+          "startDate": "2023-05-15",
+          "endDate": "2023-06-15",
+          "locationAnalysis": true,
+          "sentimentAnalysis": false
+        }
+      },
+      {
+        "query": "Examine Facebook profiles user001 and user002 for missing person clues from 2022-11-01 to 2022-11-30, including both location and sentiment analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user001",
+            "user002"
+          ],
+          "startDate": "2022-11-01",
+          "endDate": "2022-11-30",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "From January 10 to February 10, 2023, perform an analysis on Facebook accounts john_doe and jane_doe, focusing only on location extraction.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "john_doe",
+            "jane_doe"
+          ],
+          "startDate": "2023-01-10",
+          "endDate": "2023-02-10",
+          "locationAnalysis": true,
+          "sentimentAnalysis": false
+        }
+      },
+      {
+        "query": "Can you analyze the Facebook data for accounts userX and userY from 2022-06-01 to 2022-07-01, concentrating on sentiment analysis only?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "userX",
+            "userY"
+          ],
+          "startDate": "2022-06-01",
+          "endDate": "2022-07-01",
+          "locationAnalysis": false,
+          "sentimentAnalysis": true
+        }
+      }
+    ]
+  },
+  "SocialMediaInvestigator_findMissingPerson|:|Instagram|:|socialMediaAccounts,startDate,endDate,locationAnalysis,sentimentAnalysis": {
+    "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+    "derived_class": "Instagram",
+    "params_for_query": [
+      "socialMediaAccounts",
+      "startDate",
+      "endDate",
+      "locationAnalysis",
+      "sentimentAnalysis"
+    ],
+    "queries": [
+      {
+        "query": "Please analyze the Instagram data for accounts ['john_doe123', 'jane_smith456'] from 2023-01-01 to 2023-02-01, including both location and sentiment analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "john_doe123",
+            "jane_smith456"
+          ],
+          "startDate": "2023-01-01",
+          "endDate": "2023-02-01",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Can you investigate Instagram profiles ['wanderlust_traveller', 'foodie_life876'] between 2023-05-15 and 2023-06-15? Ensure you include location tracking but skip sentiment analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "wanderlust_traveller",
+            "foodie_life876"
+          ],
+          "startDate": "2023-05-15",
+          "endDate": "2023-06-15",
+          "locationAnalysis": true,
+          "sentimentAnalysis": false
+        }
+      },
+      {
+        "query": "I need an analysis of Instagram users ['artist_gal', 'techie_guy'] from 2023-03-01 to 2023-03-31 with sentiment analysis only; location tracking is not required.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "artist_gal",
+            "techie_guy"
+          ],
+          "startDate": "2023-03-01",
+          "endDate": "2023-03-31",
+          "locationAnalysis": false,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Analyze Instagram data of accounts ['fashionista', 'gym_freak'] from 2022-12-01 to 2023-01-01 with both location and sentiment analysis enabled.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "fashionista",
+            "gym_freak"
+          ],
+          "startDate": "2022-12-01",
+          "endDate": "2023-01-01",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Look into Instagram profiles ['nature_lover', 'gamer_guru'] for the period from 2023-04-10 to 2023-04-20, focusing only on location analysis and not sentiment.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "nature_lover",
+            "gamer_guru"
+          ],
+          "startDate": "2023-04-10",
+          "endDate": "2023-04-20",
+          "locationAnalysis": true,
+          "sentimentAnalysis": false
+        }
+      }
+    ]
+  },
+  "SocialMediaInvestigator_findMissingPerson|:|Twitter|:|socialMediaAccounts,startDate,endDate,locationAnalysis,sentimentAnalysis": {
+    "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+    "derived_class": "Twitter",
+    "params_for_query": [
+      "socialMediaAccounts",
+      "startDate",
+      "endDate",
+      "locationAnalysis",
+      "sentimentAnalysis"
+    ],
+    "queries": [
+      {
+        "query": "Could you analyze Twitter data from the accounts @john_doe and @jane_doe for any information about missing persons between 2023-01-01 and 2023-02-01, including location tracking and sentiment analysis?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "@john_doe",
+            "@jane_doe"
+          ],
+          "startDate": "2023-01-01",
+          "endDate": "2023-02-01",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Please review Twitter activities of @missing_person1 and @search_team from 2023-05-10 to 2023-06-10 and perform sentiment analysis without location tracking.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "@missing_person1",
+            "@search_team"
+          ],
+          "startDate": "2023-05-10",
+          "endDate": "2023-06-10",
+          "locationAnalysis": false,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Analyze posts from @rescue_org and @help_center regarding missing individuals from 2023-07-01 to 2023-07-31, focusing on both location and sentiment.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "@rescue_org",
+            "@help_center"
+          ],
+          "startDate": "2023-07-01",
+          "endDate": "2023-07-31",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "I need a detailed Twitter analysis for accounts @family_search and @news_updates from 2023-02-15 to 2023-03-15, with emphasis on location data but not sentiment.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "@family_search",
+            "@news_updates"
+          ],
+          "startDate": "2023-02-15",
+          "endDate": "2023-03-15",
+          "locationAnalysis": true,
+          "sentimentAnalysis": false
+        }
+      },
+      {
+        "query": "Can you examine Twitter data of @investigator01 and @case_tracker for information on missing people between 2023-04-01 and 2023-05-01, enabling only sentiment analysis?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "@investigator01",
+            "@case_tracker"
+          ],
+          "startDate": "2023-04-01",
+          "endDate": "2023-05-01",
+          "locationAnalysis": false,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Investigate Twitter data from @searchparty and @police_department from 2023-08-01 to 2023-08-31, with both location and sentiment analyses.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "@searchparty",
+            "@police_department"
+          ],
+          "startDate": "2023-08-01",
+          "endDate": "2023-08-31",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      }
+    ]
+  },
+  "SocialMediaInvestigator_findMissingPerson|:|TikTok|:|socialMediaAccounts,startDate,endDate,locationAnalysis,sentimentAnalysis": {
+    "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+    "derived_class": "TikTok",
+    "params_for_query": [
+      "socialMediaAccounts",
+      "startDate",
+      "endDate",
+      "locationAnalysis",
+      "sentimentAnalysis"
+    ],
+    "queries": [
+      {
+        "query": "Please analyze TikTok data for accounts ['@john_doe123', '@missing_case_alert'] from 2023-01-01 to 2023-01-31 with location tracking and sentiment analysis enabled.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "@john_doe123",
+            "@missing_case_alert"
+          ],
+          "startDate": "2023-01-01",
+          "endDate": "2023-01-31",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Investigate TikTok activities of ['@jane_doe321'] between 2023-02-01 and 2023-02-28, including sentiment analysis but no location analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "@jane_doe321"
+          ],
+          "startDate": "2023-02-01",
+          "endDate": "2023-02-28",
+          "locationAnalysis": false,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Can you look into TikTok posts from ['@userA'] covering the period from 2023-03-15 to 2023-03-31 with emphasis on location tracking but without sentiment analysis?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "@userA"
+          ],
+          "startDate": "2023-03-15",
+          "endDate": "2023-03-31",
+          "locationAnalysis": true,
+          "sentimentAnalysis": false
+        }
+      },
+      {
+        "query": "Analyze TikTok accounts ['@alert_missing', '@casefile_007'] from 2023-04-01 to 2023-04-15, focusing only on sentiment analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "@alert_missing",
+            "@casefile_007"
+          ],
+          "startDate": "2023-04-01",
+          "endDate": "2023-04-15",
+          "locationAnalysis": false,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Examine the TikTok data for the profile ['@investigation_target'] from 2023-05-01 through 2023-05-10, ensuring both location and sentiment analyses are conducted.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "@investigation_target"
+          ],
+          "startDate": "2023-05-01",
+          "endDate": "2023-05-10",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      }
+    ]
+  },
+  "SocialMediaInvestigator_findMissingPerson|:|Discord|:|socialMediaAccounts,startDate,endDate,locationAnalysis,sentimentAnalysis": {
+    "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+    "derived_class": "Discord",
+    "params_for_query": [
+      "socialMediaAccounts",
+      "startDate",
+      "endDate",
+      "locationAnalysis",
+      "sentimentAnalysis"
+    ],
+    "queries": [
+      {
+        "query": "Investigate the Discord accounts user123 and user456 for any activities related to missing persons from 2023-01-01 to 2023-02-01 and include location tracking but skip sentiment analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user123",
+            "user456"
+          ],
+          "startDate": "2023-01-01",
+          "endDate": "2023-02-01",
+          "locationAnalysis": true,
+          "sentimentAnalysis": false
+        }
+      },
+      {
+        "query": "Please analyze Discord data for accounts alpha777, beta888 from 2022-10-05 to 2022-11-05, with both location and sentiment analyses enabled.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "alpha777",
+            "beta888"
+          ],
+          "startDate": "2022-10-05",
+          "endDate": "2022-11-05",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Can you check the Discord activities of user789 and user101 from 2023-03-15 to 2023-04-15 without any location tracking and perform a sentiment analysis?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user789",
+            "user101"
+          ],
+          "startDate": "2023-03-15",
+          "endDate": "2023-04-15",
+          "locationAnalysis": false,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Analyze the Discord accounts gamma999 and delta000 between 2023-07-01 and 2023-07-31. Enable location analysis but do not perform sentiment analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "gamma999",
+            "delta000"
+          ],
+          "startDate": "2023-07-01",
+          "endDate": "2023-07-31",
+          "locationAnalysis": true,
+          "sentimentAnalysis": false
+        }
+      },
+      {
+        "query": "I need an investigation on Discord accounts zeta111 and eta222 from 2023-05-10 to 2023-05-20. Only perform sentiment analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "zeta111",
+            "eta222"
+          ],
+          "startDate": "2023-05-10",
+          "endDate": "2023-05-20",
+          "locationAnalysis": false,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Conduct an analysis on Discord accounts theta333 and iota444 for activities between 2023-06-01 and 2023-06-30 with both location and sentiment analysis turned off.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "theta333",
+            "iota444"
+          ],
+          "startDate": "2023-06-01",
+          "endDate": "2023-06-30",
+          "locationAnalysis": false,
+          "sentimentAnalysis": false
+        }
+      }
+    ]
+  },
+  "SocialMediaInvestigator_findMissingPerson|:|Reddit|:|socialMediaAccounts,startDate,endDate,locationAnalysis,sentimentAnalysis": {
+    "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+    "derived_class": "Reddit",
+    "params_for_query": [
+      "socialMediaAccounts",
+      "startDate",
+      "endDate",
+      "locationAnalysis",
+      "sentimentAnalysis"
+    ],
+    "queries": [
+      {
+        "query": "Investigate the Reddit accounts user123 and seeker2020 for any activities related to missing persons between 2023-01-01 and 2023-01-31, including sentiment and location analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user123",
+            "seeker2020"
+          ],
+          "startDate": "2023-01-01",
+          "endDate": "2023-01-31",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Analyze the Reddit data of user4567 for the period from 2022-12-01 to 2022-12-15, focusing on location and sentiment insights.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user4567"
+          ],
+          "startDate": "2022-12-01",
+          "endDate": "2022-12-15",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Can you extract any relevant information regarding missing persons from the Reddit accounts mysterySolver and detective42, between 2023-06-01 and 2023-06-30, while conducting both location and sentiment analysis?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "mysterySolver",
+            "detective42"
+          ],
+          "startDate": "2023-06-01",
+          "endDate": "2023-06-30",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Look into user789 and user321's Reddit activities with a focus on missing persons cases, from 2023-04-10 to 2023-05-10. Include both location tracking and sentiment analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user789",
+            "user321"
+          ],
+          "startDate": "2023-04-10",
+          "endDate": "2023-05-10",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Please analyze the posts from userDetective on Reddit from 2023-07-01 to 2023-07-15, including location and sentiment analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "userDetective"
+          ],
+          "startDate": "2023-07-01",
+          "endDate": "2023-07-15",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      }
+    ]
+  },
+  "SocialMediaInvestigator_findMissingPerson|:|YouTube|:|socialMediaAccounts,startDate,endDate,locationAnalysis,sentimentAnalysis": {
+    "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+    "derived_class": "YouTube",
+    "params_for_query": [
+      "socialMediaAccounts",
+      "startDate",
+      "endDate",
+      "locationAnalysis",
+      "sentimentAnalysis"
+    ],
+    "queries": [
+      {
+        "query": "Please analyze YouTube data for accounts user123 and channel456 from 2023-01-01 to 2023-02-01, including both location tracking and sentiment analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user123",
+            "channel456"
+          ],
+          "startDate": "2023-01-01",
+          "endDate": "2023-02-01",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Can you investigate the YouTube accounts 'vloggerA' and 'travelB' for clues from 2023-05-15 to 2023-05-30 and include only sentiment analysis?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "vloggerA",
+            "travelB"
+          ],
+          "startDate": "2023-05-15",
+          "endDate": "2023-05-30",
+          "locationAnalysis": false,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "I need an analysis of the accounts influencerX and creatorY on YouTube from 2023-03-01 to 2023-03-31, focusing on location tracking but excluding sentiment analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "influencerX",
+            "creatorY"
+          ],
+          "startDate": "2023-03-01",
+          "endDate": "2023-03-31",
+          "locationAnalysis": true,
+          "sentimentAnalysis": false
+        }
+      },
+      {
+        "query": "Could you look into the YouTube channels 'artist987' and 'musicFan123' for the period of 2023-06-01 to 2023-06-30, performing both location and sentiment analyses?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "artist987",
+            "musicFan123"
+          ],
+          "startDate": "2023-06-01",
+          "endDate": "2023-06-30",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Investigate YouTube data for the accounts 'techGuru' and 'gamerZone' from 2023-04-01 to 2023-04-15, with a focus on sentiment but not location analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "techGuru",
+            "gamerZone"
+          ],
+          "startDate": "2023-04-01",
+          "endDate": "2023-04-15",
+          "locationAnalysis": false,
+          "sentimentAnalysis": true
+        }
+      }
+    ]
+  },
+  "SocialMediaInvestigator_findMissingPerson|:|Weibo|:|socialMediaAccounts,startDate,endDate,locationAnalysis,sentimentAnalysis": {
+    "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+    "derived_class": "Weibo",
+    "params_for_query": [
+      "socialMediaAccounts",
+      "startDate",
+      "endDate",
+      "locationAnalysis",
+      "sentimentAnalysis"
+    ],
+    "queries": [
+      {
+        "query": "Investigate Weibo accounts user123 and user456 from 2023-01-01 to 2023-01-31, including both location and sentiment analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user123",
+            "user456"
+          ],
+          "startDate": "2023-01-01",
+          "endDate": "2023-01-31",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Analyze Weibo data for accounts user789 and user101 from 2023-02-15 to 2023-03-01. I need insights on location but skip sentiment analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user789",
+            "user101"
+          ],
+          "startDate": "2023-02-15",
+          "endDate": "2023-03-01",
+          "locationAnalysis": true,
+          "sentimentAnalysis": false
+        }
+      },
+      {
+        "query": "Can you check Weibo accounts user1122 and user3344 for their activity between 2023-05-10 and 2023-06-10, focusing only on sentiment?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user1122",
+            "user3344"
+          ],
+          "startDate": "2023-05-10",
+          "endDate": "2023-06-10",
+          "locationAnalysis": false,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Please perform both location and sentiment analysis for Weibo accounts user5522, user6633 from 2023-07-01 to 2023-07-31.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user5522",
+            "user6633"
+          ],
+          "startDate": "2023-07-01",
+          "endDate": "2023-07-31",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "I need an analysis of Weibo users user9988 and user8877 between the dates 2023-08-01 and 2023-08-30, without focusing on location tracking.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user9988",
+            "user8877"
+          ],
+          "startDate": "2023-08-01",
+          "endDate": "2023-08-30",
+          "locationAnalysis": false,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Examine Weibo accounts user4455 and user5566 from 2023-09-01 to 2023-10-01, including location tracking but not sentiment analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user4455",
+            "user5566"
+          ],
+          "startDate": "2023-09-01",
+          "endDate": "2023-10-01",
+          "locationAnalysis": true,
+          "sentimentAnalysis": false
+        }
+      }
+    ]
+  },
+  "SocialMediaInvestigator_findMissingPerson|:|Douyin|:|socialMediaAccounts,startDate,endDate,locationAnalysis,sentimentAnalysis": {
+    "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+    "derived_class": "Douyin",
+    "params_for_query": [
+      "socialMediaAccounts",
+      "startDate",
+      "endDate",
+      "locationAnalysis",
+      "sentimentAnalysis"
+    ],
+    "queries": [
+      {
+        "query": "Please analyze Douyin accounts user123 and user456 for posts between 2023-01-01 and 2023-01-31, including location and sentiment analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user123",
+            "user456"
+          ],
+          "startDate": "2023-01-01",
+          "endDate": "2023-01-31",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Can you investigate the Douyin data from accounts user789 for the period from 2023-02-01 to 2023-02-28, focusing on location tracking only?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user789"
+          ],
+          "startDate": "2023-02-01",
+          "endDate": "2023-02-28",
+          "locationAnalysis": true,
+          "sentimentAnalysis": false
+        }
+      },
+      {
+        "query": "Conduct an analysis of posts from Douyin accounts user111 and user222 from 2023-03-01 to 2023-03-15, but only assess sentiment.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user111",
+            "user222"
+          ],
+          "startDate": "2023-03-01",
+          "endDate": "2023-03-15",
+          "locationAnalysis": false,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "I need a detailed report for accounts user333, user444, and user555 on Douyin from 2023-04-01 to 2023-04-30, including both location and sentiment evaluations.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user333",
+            "user444",
+            "user555"
+          ],
+          "startDate": "2023-04-01",
+          "endDate": "2023-04-30",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Analyze the Douyin activities for accounts user666 over the dates 2023-05-01 to 2023-05-10 and perform only location analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user666"
+          ],
+          "startDate": "2023-05-01",
+          "endDate": "2023-05-10",
+          "locationAnalysis": true,
+          "sentimentAnalysis": false
+        }
+      }
+    ]
+  },
+  "SocialMediaInvestigator_findMissingPerson|:|Xiaohongshu|:|socialMediaAccounts,startDate,endDate,locationAnalysis,sentimentAnalysis": {
+    "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+    "derived_class": "Xiaohongshu",
+    "params_for_query": [
+      "socialMediaAccounts",
+      "startDate",
+      "endDate",
+      "locationAnalysis",
+      "sentimentAnalysis"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the Xiaohongshu data for user accounts ['user123', 'traveler456'] from 2023-01-01 to 2023-01-31 with both location and sentiment analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user123",
+            "traveler456"
+          ],
+          "startDate": "2023-01-01",
+          "endDate": "2023-01-31",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Conduct an investigation on Xiaohongshu accounts ['fashionista789'] between 2023-05-01 and 2023-05-15, focusing only on sentiment analysis without location data.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "fashionista789"
+          ],
+          "startDate": "2023-05-01",
+          "endDate": "2023-05-15",
+          "locationAnalysis": false,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Can you look into Xiaohongshu accounts ['foodie101', 'naturelover202'] for the period from 2023-02-20 to 2023-03-05 and analyze only location information?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "foodie101",
+            "naturelover202"
+          ],
+          "startDate": "2023-02-20",
+          "endDate": "2023-03-05",
+          "locationAnalysis": true,
+          "sentimentAnalysis": false
+        }
+      },
+      {
+        "query": "Please examine Xiaohongshu activities for ['techgurus333'] from 2023-07-10 to 2023-07-20, including location tracking and sentiment analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "techgurus333"
+          ],
+          "startDate": "2023-07-10",
+          "endDate": "2023-07-20",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "I need a detailed report on Xiaohongshu users ['artist555'] from 2023-03-15 to 2023-03-25 with emphasis on sentiment without tracking location.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "artist555"
+          ],
+          "startDate": "2023-03-15",
+          "endDate": "2023-03-25",
+          "locationAnalysis": false,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Investigate Xiaohongshu accounts ['wanderlust999'] over the dates 2023-04-01 to 2023-04-10 with comprehensive location and sentiment insights.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "wanderlust999"
+          ],
+          "startDate": "2023-04-01",
+          "endDate": "2023-04-10",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      }
+    ]
+  },
+  "SocialMediaInvestigator_findMissingPerson|:|Zhihu|:|socialMediaAccounts,startDate,endDate,locationAnalysis,sentimentAnalysis": {
+    "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+    "derived_class": "Zhihu",
+    "params_for_query": [
+      "socialMediaAccounts",
+      "startDate",
+      "endDate",
+      "locationAnalysis",
+      "sentimentAnalysis"
+    ],
+    "queries": [
+      {
+        "query": "Please investigate Zhihu accounts with IDs user123 and user456 for any clues related to missing persons between 2023-01-01 and 2023-03-31, including location tracking and sentiment analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user123",
+            "user456"
+          ],
+          "startDate": "2023-01-01",
+          "endDate": "2023-03-31",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Analyze the Zhihu accounts user789, user101 for activities concerning a missing person. Focus on posts from 2023-02-15 to 2023-04-15, with both sentiment and location analysis enabled.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user789",
+            "user101"
+          ],
+          "startDate": "2023-02-15",
+          "endDate": "2023-04-15",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Could you check the activities on Zhihu for accounts user111 and user222 from 2022-06-01 to 2022-07-01? I need sentiment analysis but not location tracking.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user111",
+            "user222"
+          ],
+          "startDate": "2022-06-01",
+          "endDate": "2022-07-01",
+          "locationAnalysis": false,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Look into Zhihu user accounts user333 and user444 for posts between 2023-05-01 and 2023-06-01, with a focus on location tracking but without sentiment analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user333",
+            "user444"
+          ],
+          "startDate": "2023-05-01",
+          "endDate": "2023-06-01",
+          "locationAnalysis": true,
+          "sentimentAnalysis": false
+        }
+      },
+      {
+        "query": "I need an analysis of the Zhihu accounts user555, user666 from 2023-07-01 to 2023-08-01, including both location and sentiment analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user555",
+            "user666"
+          ],
+          "startDate": "2023-07-01",
+          "endDate": "2023-08-01",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      }
+    ]
+  },
+  "SocialMediaInvestigator_findMissingPerson|:|Quora|:|socialMediaAccounts,startDate,endDate,locationAnalysis,sentimentAnalysis": {
+    "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+    "derived_class": "Quora",
+    "params_for_query": [
+      "socialMediaAccounts",
+      "startDate",
+      "endDate",
+      "locationAnalysis",
+      "sentimentAnalysis"
+    ],
+    "queries": [
+      {
+        "query": "Please examine the Quora activities for accounts userA123 and userB456 from 2023-01-01 to 2023-03-01, including location tracking but not sentiment analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "userA123",
+            "userB456"
+          ],
+          "startDate": "2023-01-01",
+          "endDate": "2023-03-01",
+          "locationAnalysis": true,
+          "sentimentAnalysis": false
+        }
+      },
+      {
+        "query": "I'd like an analysis of Quora data for users xyz987 and abc654 between 2023-02-15 and 2023-04-15. Conduct sentiment analysis but skip location tracking.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "xyz987",
+            "abc654"
+          ],
+          "startDate": "2023-02-15",
+          "endDate": "2023-04-15",
+          "locationAnalysis": false,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Analyze Quora posts for account identifiers person1 and person2 from 2022-12-01 to 2023-01-31, include both location and sentiment analyses.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "person1",
+            "person2"
+          ],
+          "startDate": "2022-12-01",
+          "endDate": "2023-01-31",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Can you investigate Quora data from accounts alpha99 and beta88 for clues about missing persons, from January 10, 2023, to March 10, 2023, focusing solely on sentiment analysis?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "alpha99",
+            "beta88"
+          ],
+          "startDate": "2023-01-10",
+          "endDate": "2023-03-10",
+          "locationAnalysis": false,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Look into the Quora activities of accounts userX1 and userY2 from 2023-03-05 to 2023-05-05 with both location tracking and sentiment analysis enabled.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "userX1",
+            "userY2"
+          ],
+          "startDate": "2023-03-05",
+          "endDate": "2023-05-05",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      }
+    ]
+  },
+  "SocialMediaInvestigator_findMissingPerson|:|VK|:|socialMediaAccounts,startDate,endDate,locationAnalysis,sentimentAnalysis": {
+    "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+    "derived_class": "VK",
+    "params_for_query": [
+      "socialMediaAccounts",
+      "startDate",
+      "endDate",
+      "locationAnalysis",
+      "sentimentAnalysis"
+    ],
+    "queries": [
+      {
+        "query": "Investigate the VK accounts user1 and user2 for activities between 2023-01-01 and 2023-01-31, including location tracking and sentiment analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user1",
+            "user2"
+          ],
+          "startDate": "2023-01-01",
+          "endDate": "2023-01-31",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Can you analyze the VK profiles user123 and user456 for the period from 2022-12-01 to 2022-12-15? Include both location and sentiment analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user123",
+            "user456"
+          ],
+          "startDate": "2022-12-01",
+          "endDate": "2022-12-15",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Please search for any clues on VK accounts vk_user_A and vk_user_B from 2023-02-01 to 2023-02-28. Perform sentiment analysis without location tracking.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "vk_user_A",
+            "vk_user_B"
+          ],
+          "startDate": "2023-02-01",
+          "endDate": "2023-02-28",
+          "locationAnalysis": false,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Analyze VK data for users alpha and beta for activities between 2022-11-01 and 2022-11-30. Only focus on location analysis, not sentiment.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "alpha",
+            "beta"
+          ],
+          "startDate": "2022-11-01",
+          "endDate": "2022-11-30",
+          "locationAnalysis": true,
+          "sentimentAnalysis": false
+        }
+      },
+      {
+        "query": "Find any information on VK accounts user_x and user_y from 2023-03-01 to 2023-03-15, with both location and sentiment analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user_x",
+            "user_y"
+          ],
+          "startDate": "2023-03-01",
+          "endDate": "2023-03-15",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Could you examine VK profiles account1 and account2 for clues from 2023-04-01 to 2023-04-10, including both sentiment and location tracking?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "account1",
+            "account2"
+          ],
+          "startDate": "2023-04-01",
+          "endDate": "2023-04-10",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      }
+    ]
+  },
+  "SocialMediaInvestigator_findMissingPerson|:|Bilibili|:|socialMediaAccounts,startDate,endDate,locationAnalysis,sentimentAnalysis": {
+    "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+    "derived_class": "Bilibili",
+    "params_for_query": [
+      "socialMediaAccounts",
+      "startDate",
+      "endDate",
+      "locationAnalysis",
+      "sentimentAnalysis"
+    ],
+    "queries": [
+      {
+        "query": "Investigate Bilibili accounts ['user123', 'user456'] for missing persons clues from 2023-01-01 to 2023-02-01, with location analysis but no sentiment analysis.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "user123",
+            "user456"
+          ],
+          "startDate": "2023-01-01",
+          "endDate": "2023-02-01",
+          "locationAnalysis": true,
+          "sentimentAnalysis": false
+        }
+      },
+      {
+        "query": "Analyze the following Bilibili accounts ['bilibiliFan1', 'traveler98'] from 2023-03-15 to 2023-04-15 for any signs of missing persons, including sentiment analysis but excluding location tracking.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "bilibiliFan1",
+            "traveler98"
+          ],
+          "startDate": "2023-03-15",
+          "endDate": "2023-04-15",
+          "locationAnalysis": false,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Can you analyze Bilibili accounts ['artist_01', 'gamer_02'] from 2023-05-01 to 2023-06-01 for missing persons, focusing only on location analysis?",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "artist_01",
+            "gamer_02"
+          ],
+          "startDate": "2023-05-01",
+          "endDate": "2023-06-01",
+          "locationAnalysis": true,
+          "sentimentAnalysis": false
+        }
+      },
+      {
+        "query": "Please perform an analysis on Bilibili accounts ['bloggerX', 'vloggerY'] between 2023-07-01 and 2023-08-01, prioritizing sentiment analysis without location data.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "bloggerX",
+            "vloggerY"
+          ],
+          "startDate": "2023-07-01",
+          "endDate": "2023-08-01",
+          "locationAnalysis": false,
+          "sentimentAnalysis": true
+        }
+      },
+      {
+        "query": "Check Bilibili accounts ['userA', 'userB', 'userC'] from 2023-09-01 to 2023-09-30 for missing persons activity with both location and sentiment analysis enabled.",
+        "filled_param": {
+          "socialMediaAccounts": [
+            "userA",
+            "userB",
+            "userC"
+          ],
+          "startDate": "2023-09-01",
+          "endDate": "2023-09-30",
+          "locationAnalysis": true,
+          "sentimentAnalysis": true
+        }
+      }
+    ]
+  }
+}

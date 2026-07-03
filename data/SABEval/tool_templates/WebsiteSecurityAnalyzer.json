@@ -1,0 +1,58 @@
+{
+  "tool_template_name": "WebsiteSecurityAnalyzer",
+  "meta_data": {
+    "base_class": "Analyze the <specific aspect of the website> of the given website - referring to a specific dimension that can be evaluated or measured for the website.",
+    "derived_classes": [
+      "security protocols",
+      "content legality",
+      "internationalization support",
+      "cookie policy transparency",
+      "page load speed"
+    ],
+    "base_class_entity": "security protocols"
+  },
+  "tool_template": {
+    "name": "Website<class>Analyzer",
+    "description": "Analyze the <class> of a given website.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "website_url": {
+          "type": "string",
+          "description": "The URL of the website to be analyzed. It must be a valid URL format."
+        }
+      },
+      "required": [
+        "website_url"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "scan_depth": {
+      "type": "integer",
+      "description": "The depth of the <class> scan, ranging from 1 to 5."
+    }
+  },
+  "additional_params": {
+    "analysis_frequency": {
+      "type": "string",
+      "description": "How often the <class> analysis should be performed, could be 'daily', 'weekly' or 'monthly'."
+    },
+    "report_format": {
+      "type": "string",
+      "description": "The format in which the <class> analysis report should be generated. One of: 'PDF', 'HTML', 'JSON'."
+    },
+    "notification_email": {
+      "type": "string",
+      "description": "Email address where notifications about the <class> analysis results should be sent. Must be a valid email format."
+    },
+    "analysis_timeout": {
+      "type": "number",
+      "description": "Maximum allowed time in seconds for the <class> analysis to complete before timing out, ranging from 30 to 3600 seconds."
+    },
+    "priority_level": {
+      "type": "integer",
+      "description": "Priority level of the <class> analysis, where 1 is the highest priority and 5 the lowest."
+    }
+  }
+}

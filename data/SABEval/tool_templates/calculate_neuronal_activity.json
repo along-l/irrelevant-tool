@@ -1,0 +1,63 @@
+{
+  "tool_template_name": "calculate_neuronal_activity",
+  "meta_data": {
+    "base_class": "calculate neuronal <neuronal activity> given input rate, weight, and decay rate - these metrics are fully determined by the three parameters under the same structural form.",
+    "derived_classes": [
+      "rate of firing",
+      "mean postsynaptic potential",
+      "steady-state membrane potential",
+      "average activation level",
+      "integration time constant"
+    ],
+    "base_class_entity": "neuronal activity"
+  },
+  "tool_template": {
+    "name": "calculate_neuronal_<class>",
+    "description": "Calculate the neuronal <class> given input synaptic rate, weight, and decay rate.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "input_synaptic_rate": {
+          "type": "integer",
+          "description": "The synaptic input rate, usually represented as number of inputs per second."
+        },
+        "weight": {
+          "type": "float",
+          "description": "The weight of the input, denoting its influence on the neuron's state."
+        },
+        "decay_rate": {
+          "type": "float",
+          "description": "The rate at which the neuron's potential decays in the absence of inputs for neuronal <class> calculation ."
+        }
+      },
+      "required": [
+        "input_synaptic_rate",
+        "weight",
+        "decay_rate"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "temperature": {
+      "type": "number",
+      "description": "The temperature of the environment where the neuronal <class> calculation is taking place."
+    },
+    "neuron_type": {
+      "type": "string",
+      "description": "The type of neuron for which the <class> is being calculated (e.g., excitatory or inhibitory)."
+    },
+    "initial_potential": {
+      "type": "float",
+      "description": "The initial potential of the neuron before any synaptic input is applied."
+    },
+    "synaptic_delay": {
+      "type": "float",
+      "description": "The delay in synaptic transmission affecting the timing of inputs considered in the neuronal <class> calculation."
+    },
+    "time_step": {
+      "type": "float",
+      "description": "The time step used in the calculation of the neuronal <class>, influencing the temporal resolution of the result."
+    }
+  }
+}

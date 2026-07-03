@@ -1,0 +1,992 @@
+{
+  "sports_team.standing|:|basketball|:|team_name,league,season_year,region,include_playoffs,include_friendly_matches": {
+    "tool_template_name": "sports_team.standing",
+    "derived_class": "basketball",
+    "params_for_query": [
+      "team_name",
+      "league",
+      "season_year",
+      "region",
+      "include_playoffs",
+      "include_friendly_matches"
+    ],
+    "queries": [
+      {
+        "query": "Can you tell me the current standing of the Los Angeles Lakers in the NBA for the 2023 season in the North America region, including playoffs but not friendly matches?",
+        "filled_param": {
+          "team_name": "Los Angeles Lakers",
+          "league": "NBA",
+          "season_year": 2023,
+          "region": "North America",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "What's the 2021 season standing for Real Madrid in the EuroLeague, region Europe, including both playoffs and friendly matches?",
+        "filled_param": {
+          "team_name": "Real Madrid",
+          "league": "EuroLeague",
+          "season_year": 2021,
+          "region": "Europe",
+          "include_playoffs": true,
+          "include_friendly_matches": true
+        }
+      },
+      {
+        "query": "Please provide the 2022 season standing for the Sydney Kings in the NBL, Oceania region, excluding playoffs and friendly matches.",
+        "filled_param": {
+          "team_name": "Sydney Kings",
+          "league": "NBL",
+          "season_year": 2022,
+          "region": "Oceania",
+          "include_playoffs": false,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "What is the current standing of Toronto Raptors from Canada in the 2023 NBA season, excluding playoffs but including friendly matches?",
+        "filled_param": {
+          "team_name": "Toronto Raptors",
+          "league": "NBA",
+          "season_year": 2023,
+          "region": "Canada",
+          "include_playoffs": false,
+          "include_friendly_matches": true
+        }
+      },
+      {
+        "query": "How did the Tokyo Alvark perform in the 2020 B.League season, Japan region, with playoff results and without friendly matches?",
+        "filled_param": {
+          "team_name": "Tokyo Alvark",
+          "league": "B.League",
+          "season_year": 2020,
+          "region": "Japan",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "Check the standing of the Chicago Bulls for the 2023 NBA season in North America, excluding both playoffs and friendly matches.",
+        "filled_param": {
+          "team_name": "Chicago Bulls",
+          "league": "NBA",
+          "season_year": 2023,
+          "region": "North America",
+          "include_playoffs": false,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "Find the 2019 season standing for the Perth Wildcats in the NBL, Oceania region, without playoff results and considering friendly matches.",
+        "filled_param": {
+          "team_name": "Perth Wildcats",
+          "league": "NBL",
+          "season_year": 2019,
+          "region": "Oceania",
+          "include_playoffs": false,
+          "include_friendly_matches": true
+        }
+      }
+    ]
+  },
+  "sports_team.standing|:|soccer|:|team_name,league,season_year,region,include_playoffs,include_friendly_matches": {
+    "tool_template_name": "sports_team.standing",
+    "derived_class": "soccer",
+    "params_for_query": [
+      "team_name",
+      "league",
+      "season_year",
+      "region",
+      "include_playoffs",
+      "include_friendly_matches"
+    ],
+    "queries": [
+      {
+        "query": "Can you tell me the current standing of FC Barcelona in La Liga for the 2022 season in Europe, including playoffs and without considering friendly matches?",
+        "filled_param": {
+          "team_name": "FC Barcelona",
+          "league": "La Liga",
+          "season_year": 2022,
+          "region": "Europe",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "What's the standing of Manchester United in the English Premier League for the 2021 season within the European region, excluding playoffs and including friendly matches?",
+        "filled_param": {
+          "team_name": "Manchester United",
+          "league": "English Premier League",
+          "season_year": 2021,
+          "region": "Europe",
+          "include_playoffs": false,
+          "include_friendly_matches": true
+        }
+      },
+      {
+        "query": "How is Paris Saint-Germain doing in Ligue 1 for the 2023 season in Europe, taking into account playoffs but disregarding friendly matches?",
+        "filled_param": {
+          "team_name": "Paris Saint-Germain",
+          "league": "Ligue 1",
+          "season_year": 2023,
+          "region": "Europe",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "Please provide the standing of Los Angeles Galaxy in the Major League Soccer for the 2020 season, based in North America, without playoffs and without friendly matches.",
+        "filled_param": {
+          "team_name": "Los Angeles Galaxy",
+          "league": "Major League Soccer",
+          "season_year": 2020,
+          "region": "North America",
+          "include_playoffs": false,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "I need to know the position of Santos FC in the Brazilian Serie A for the 2022 season in South America, including both playoffs and friendly matches.",
+        "filled_param": {
+          "team_name": "Santos FC",
+          "league": "Brazilian Serie A",
+          "season_year": 2022,
+          "region": "South America",
+          "include_playoffs": true,
+          "include_friendly_matches": true
+        }
+      },
+      {
+        "query": "Could you give me the current rank of Inter Milan in Serie A for the 2022 season taking place in Europe, exclude playoffs, and don't include friendly matches?",
+        "filled_param": {
+          "team_name": "Inter Milan",
+          "league": "Serie A",
+          "season_year": 2022,
+          "region": "Europe",
+          "include_playoffs": false,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "What is the standing of Bayern Munich in the Bundesliga for the 2021 season in Europe, with playoffs and friendly matches excluded?",
+        "filled_param": {
+          "team_name": "Bayern Munich",
+          "league": "Bundesliga",
+          "season_year": 2021,
+          "region": "Europe",
+          "include_playoffs": false,
+          "include_friendly_matches": false
+        }
+      }
+    ]
+  },
+  "sports_team.standing|:|baseball|:|team_name,league,season_year,region,include_playoffs,include_friendly_matches": {
+    "tool_template_name": "sports_team.standing",
+    "derived_class": "baseball",
+    "params_for_query": [
+      "team_name",
+      "league",
+      "season_year",
+      "region",
+      "include_playoffs",
+      "include_friendly_matches"
+    ],
+    "queries": [
+      {
+        "query": "Can you tell me the current standing of the New York Yankees in the American League for the 2023 season in the North America region, considering playoffs but excluding friendly matches?",
+        "filled_param": {
+          "team_name": "New York Yankees",
+          "league": "American League",
+          "season_year": 2023,
+          "region": "North America",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "I need to know where the Los Angeles Dodgers stand in the National League for the 2022 season in North America, including both playoffs and friendly matches.",
+        "filled_param": {
+          "team_name": "Los Angeles Dodgers",
+          "league": "National League",
+          "season_year": 2022,
+          "region": "North America",
+          "include_playoffs": true,
+          "include_friendly_matches": true
+        }
+      },
+      {
+        "query": "Retrieve the standing of the Boston Red Sox in the 2021 season within the American League in North America, excluding both playoffs and friendly matches.",
+        "filled_param": {
+          "team_name": "Boston Red Sox",
+          "league": "American League",
+          "season_year": 2021,
+          "region": "North America",
+          "include_playoffs": false,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "What is the 2023 season standing of the Chicago Cubs in the National League, North America region, without playoffs but with friendly matches accounted for?",
+        "filled_param": {
+          "team_name": "Chicago Cubs",
+          "league": "National League",
+          "season_year": 2023,
+          "region": "North America",
+          "include_playoffs": false,
+          "include_friendly_matches": true
+        }
+      },
+      {
+        "query": "Please provide the 2020 season standing for the San Francisco Giants in the National League, North America region, including playoffs and excluding friendly matches.",
+        "filled_param": {
+          "team_name": "San Francisco Giants",
+          "league": "National League",
+          "season_year": 2020,
+          "region": "North America",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "Could you find out how the Toronto Blue Jays are ranked in the American League for 2022 season North America, ignoring playoffs but including friendly matches?",
+        "filled_param": {
+          "team_name": "Toronto Blue Jays",
+          "league": "American League",
+          "season_year": 2022,
+          "region": "North America",
+          "include_playoffs": false,
+          "include_friendly_matches": true
+        }
+      },
+      {
+        "query": "What's the standing of the Houston Astros in the 2019 season within the American League in the North America region, counting playoffs but not friendly matches?",
+        "filled_param": {
+          "team_name": "Houston Astros",
+          "league": "American League",
+          "season_year": 2019,
+          "region": "North America",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      }
+    ]
+  },
+  "sports_team.standing|:|ice hockey|:|team_name,league,season_year,region,include_playoffs,include_friendly_matches": {
+    "tool_template_name": "sports_team.standing",
+    "derived_class": "ice hockey",
+    "params_for_query": [
+      "team_name",
+      "league",
+      "season_year",
+      "region",
+      "include_playoffs",
+      "include_friendly_matches"
+    ],
+    "queries": [
+      {
+        "query": "What is the standing of the New York Rangers in the NHL for the 2022 season in North America, including playoffs but excluding friendly matches?",
+        "filled_param": {
+          "team_name": "New York Rangers",
+          "league": "NHL",
+          "season_year": 2022,
+          "region": "North America",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "Retrieve the 2023 season standing for the Toronto Maple Leafs in the NHL within Canada, considering regular games and playoffs but not friendly matches.",
+        "filled_param": {
+          "team_name": "Toronto Maple Leafs",
+          "league": "NHL",
+          "season_year": 2023,
+          "region": "Canada",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "Can you give me the current standing of the Anaheim Ducks in the NHL for the 2021 season in the USA, only accounting for regular season games and excluding both playoffs and friendly matches?",
+        "filled_param": {
+          "team_name": "Anaheim Ducks",
+          "league": "NHL",
+          "season_year": 2021,
+          "region": "USA",
+          "include_playoffs": false,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "Find out the position of the Helsinki Jokerit in the KHL for the 2020 season in Europe, including both playoffs and friendly matches.",
+        "filled_param": {
+          "team_name": "Helsinki Jokerit",
+          "league": "KHL",
+          "season_year": 2020,
+          "region": "Europe",
+          "include_playoffs": true,
+          "include_friendly_matches": true
+        }
+      },
+      {
+        "query": "What's the standing of the Calgary Flames in the NHL for the 2022 season in North America, considering playoffs but excluding friendly matches?",
+        "filled_param": {
+          "team_name": "Calgary Flames",
+          "league": "NHL",
+          "season_year": 2022,
+          "region": "North America",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "Please provide the standing for the Vancouver Canucks in the NHL's 2023 season within Canada, considering neither playoffs nor friendly matches.",
+        "filled_param": {
+          "team_name": "Vancouver Canucks",
+          "league": "NHL",
+          "season_year": 2023,
+          "region": "Canada",
+          "include_playoffs": false,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "Tell me the standing of the Chicago Blackhawks in the NHL for the 2021 season in the USA, with playoffs and friendly matches both included.",
+        "filled_param": {
+          "team_name": "Chicago Blackhawks",
+          "league": "NHL",
+          "season_year": 2021,
+          "region": "USA",
+          "include_playoffs": true,
+          "include_friendly_matches": true
+        }
+      }
+    ]
+  },
+  "sports_team.standing|:|handball|:|team_name,league,season_year,region,include_playoffs,include_friendly_matches": {
+    "tool_template_name": "sports_team.standing",
+    "derived_class": "handball",
+    "params_for_query": [
+      "team_name",
+      "league",
+      "season_year",
+      "region",
+      "include_playoffs",
+      "include_friendly_matches"
+    ],
+    "queries": [
+      {
+        "query": "What was the standing of the handball team THW Kiel in the Bundesliga for the 2022 season in Germany, including playoffs without friendly matches?",
+        "filled_param": {
+          "team_name": "THW Kiel",
+          "league": "Bundesliga",
+          "season_year": 2022,
+          "region": "Germany",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "Retrieve the current position for the handball team Paris Saint-Germain in the LNH Division 1 during the 2023 season in France, excluding both playoffs and friendly matches.",
+        "filled_param": {
+          "team_name": "Paris Saint-Germain",
+          "league": "LNH Division 1",
+          "season_year": 2023,
+          "region": "France",
+          "include_playoffs": false,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "Find out the 2021 standings of the handball team FC Barcelona in the Liga ASOBAL within Spain, with both playoff results and friendly matches considered.",
+        "filled_param": {
+          "team_name": "FC Barcelona",
+          "league": "Liga ASOBAL",
+          "season_year": 2021,
+          "region": "Spain",
+          "include_playoffs": true,
+          "include_friendly_matches": true
+        }
+      },
+      {
+        "query": "Can you tell me the standing of the handball team Vardar SCJS in the SEHA League for the 2020 season in the Balkans, accounting for playoffs but excluding friendly matches?",
+        "filled_param": {
+          "team_name": "Vardar SCJS",
+          "league": "SEHA League",
+          "season_year": 2020,
+          "region": "Balkans",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "What is the current standing of the handball team Aalborg Håndbold in the Danish League for 2023 in Denmark, excluding playoffs but include friendly matches?",
+        "filled_param": {
+          "team_name": "Aalborg Håndbold",
+          "league": "Danish League",
+          "season_year": 2023,
+          "region": "Denmark",
+          "include_playoffs": false,
+          "include_friendly_matches": true
+        }
+      },
+      {
+        "query": "Check the 2022 standings for the handball team Celje Pivovarna Laško in the Slovenian League within Slovenia, with playoffs included but without friendly matches.",
+        "filled_param": {
+          "team_name": "Celje Pivovarna Laško",
+          "league": "Slovenian League",
+          "season_year": 2022,
+          "region": "Slovenia",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "What was the standing of the handball team Kielce in the Superliga for the 2021 season in Poland, without playoffs and considering friendly matches?",
+        "filled_param": {
+          "team_name": "Kielce",
+          "league": "Superliga",
+          "season_year": 2021,
+          "region": "Poland",
+          "include_playoffs": false,
+          "include_friendly_matches": true
+        }
+      }
+    ]
+  },
+  "sports_team.standing|:|rugby|:|team_name,league,season_year,region,include_playoffs,include_friendly_matches": {
+    "tool_template_name": "sports_team.standing",
+    "derived_class": "rugby",
+    "params_for_query": [
+      "team_name",
+      "league",
+      "season_year",
+      "region",
+      "include_playoffs",
+      "include_friendly_matches"
+    ],
+    "queries": [
+      {
+        "query": "Can you tell me the standing of the rugby team Crusaders in the Super Rugby league for the 2023 season in the Oceania region, including playoff results but excluding friendly matches?",
+        "filled_param": {
+          "team_name": "Crusaders",
+          "league": "Super Rugby",
+          "season_year": 2023,
+          "region": "Oceania",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "What is the position of the rugby team Saracens in the Premiership Rugby league during the 2022 season in Europe, considering both playoffs and friendly matches?",
+        "filled_param": {
+          "team_name": "Saracens",
+          "league": "Premiership Rugby",
+          "season_year": 2022,
+          "region": "Europe",
+          "include_playoffs": true,
+          "include_friendly_matches": true
+        }
+      },
+      {
+        "query": "Find out the current standing of Blues in the 2023 Super Rugby league in Oceania, excluding both playoff and friendly match results.",
+        "filled_param": {
+          "team_name": "Blues",
+          "league": "Super Rugby",
+          "season_year": 2023,
+          "region": "Oceania",
+          "include_playoffs": false,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "I'd like to know the ranking of the rugby team Leinster in the United Rugby Championship for the 2021 season in Europe, with the standings including playoffs but not friendly matches.",
+        "filled_param": {
+          "team_name": "Leinster",
+          "league": "United Rugby Championship",
+          "season_year": 2021,
+          "region": "Europe",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "Retrieve the standings for the rugby team Stormers in the 2020 United Rugby Championship in Africa, without including playoffs or friendly games.",
+        "filled_param": {
+          "team_name": "Stormers",
+          "league": "United Rugby Championship",
+          "season_year": 2020,
+          "region": "Africa",
+          "include_playoffs": false,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "What was the standing of Toulouse in the Top 14 league for the 2019 season in France, considering playoff outcomes but not friendlies?",
+        "filled_param": {
+          "team_name": "Toulouse",
+          "league": "Top 14",
+          "season_year": 2019,
+          "region": "France",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "Check the 2022 standings for Harlequins in the Premiership Rugby league within the UK, excluding playoff results but including friendly matches.",
+        "filled_param": {
+          "team_name": "Harlequins",
+          "league": "Premiership Rugby",
+          "season_year": 2022,
+          "region": "UK",
+          "include_playoffs": false,
+          "include_friendly_matches": true
+        }
+      }
+    ]
+  },
+  "sports_team.standing|:|field hockey|:|team_name,league,season_year,region,include_playoffs,include_friendly_matches": {
+    "tool_template_name": "sports_team.standing",
+    "derived_class": "field hockey",
+    "params_for_query": [
+      "team_name",
+      "league",
+      "season_year",
+      "region",
+      "include_playoffs",
+      "include_friendly_matches"
+    ],
+    "queries": [
+      {
+        "query": "Could you tell me the current standing of the field hockey team Oranje Zwart in the Dutch Hoofdklasse league for the 2023 season, in the Netherlands region, including playoff results but excluding friendly matches?",
+        "filled_param": {
+          "team_name": "Oranje Zwart",
+          "league": "Dutch Hoofdklasse",
+          "season_year": 2023,
+          "region": "Netherlands",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "I need the 2022 standings for the field hockey team Dragons in the Belgian League, focusing on the Flanders region, excluding both playoffs and friendly matches.",
+        "filled_param": {
+          "team_name": "Dragons",
+          "league": "Belgian League",
+          "season_year": 2022,
+          "region": "Flanders",
+          "include_playoffs": false,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "What is the standing of the field hockey team Grange in the Scottish National League for the 2021 season, within the Scotland region, incorporating friendly matches but not playoff results?",
+        "filled_param": {
+          "team_name": "Grange",
+          "league": "Scottish National League",
+          "season_year": 2021,
+          "region": "Scotland",
+          "include_playoffs": false,
+          "include_friendly_matches": true
+        }
+      },
+      {
+        "query": "Please provide the 2020 season standing for the field hockey team Western Wildcats in the England Premier League, considering the United Kingdom region, and include both playoffs and friendly matches.",
+        "filled_param": {
+          "team_name": "Western Wildcats",
+          "league": "England Premier League",
+          "season_year": 2020,
+          "region": "United Kingdom",
+          "include_playoffs": true,
+          "include_friendly_matches": true
+        }
+      },
+      {
+        "query": "Find the standings for the field hockey team HC Rotterdam in the Euro Hockey League for the 2022 season, located in the European region, including playoffs results but excluding friendly matches.",
+        "filled_param": {
+          "team_name": "HC Rotterdam",
+          "league": "Euro Hockey League",
+          "season_year": 2022,
+          "region": "European",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "I’m looking for the current field hockey standings of the team Canterbury in the Australian National League for the 2023 season within the Oceania region, excluding playoffs but including friendly matches.",
+        "filled_param": {
+          "team_name": "Canterbury",
+          "league": "Australian National League",
+          "season_year": 2023,
+          "region": "Oceania",
+          "include_playoffs": false,
+          "include_friendly_matches": true
+        }
+      },
+      {
+        "query": "Retrieve the standings for the field hockey team Club de Campo in the Spanish League for the 2021 season, in the Spain region, without considering playoffs and friendly matches.",
+        "filled_param": {
+          "team_name": "Club de Campo",
+          "league": "Spanish League",
+          "season_year": 2021,
+          "region": "Spain",
+          "include_playoffs": false,
+          "include_friendly_matches": false
+        }
+      }
+    ]
+  },
+  "sports_team.standing|:|lacrosse|:|team_name,league,season_year,region,include_playoffs,include_friendly_matches": {
+    "tool_template_name": "sports_team.standing",
+    "derived_class": "lacrosse",
+    "params_for_query": [
+      "team_name",
+      "league",
+      "season_year",
+      "region",
+      "include_playoffs",
+      "include_friendly_matches"
+    ],
+    "queries": [
+      {
+        "query": "What's the standing of the Toronto Rock in the National Lacrosse League for the 2023 season in the Canadian region, including playoff results and excluding friendly matches?",
+        "filled_param": {
+          "team_name": "Toronto Rock",
+          "league": "National Lacrosse League",
+          "season_year": 2023,
+          "region": "Canadian",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "Could you provide the current position of the Chesapeake Bayhawks in the Major League Lacrosse during the 2022 season in the US region, considering both playoffs and friendly matches?",
+        "filled_param": {
+          "team_name": "Chesapeake Bayhawks",
+          "league": "Major League Lacrosse",
+          "season_year": 2022,
+          "region": "US",
+          "include_playoffs": true,
+          "include_friendly_matches": true
+        }
+      },
+      {
+        "query": "Find out where the Denver Outlaws stood in the Premier Lacrosse League for the 2021 season within the North American region, without playoffs but including friendlies.",
+        "filled_param": {
+          "team_name": "Denver Outlaws",
+          "league": "Premier Lacrosse League",
+          "season_year": 2021,
+          "region": "North American",
+          "include_playoffs": false,
+          "include_friendly_matches": true
+        }
+      },
+      {
+        "query": "What was the position of the Vancouver Warriors in the National Lacrosse League for the 2020 season in the North American region, without considering playoffs or friendly matches?",
+        "filled_param": {
+          "team_name": "Vancouver Warriors",
+          "league": "National Lacrosse League",
+          "season_year": 2020,
+          "region": "North American",
+          "include_playoffs": false,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "Please get the standings for the Boston Cannons in the Major League Lacrosse during the 2023 season in the Eastern region, accounting for playoff results and excluding friendlies.",
+        "filled_param": {
+          "team_name": "Boston Cannons",
+          "league": "Major League Lacrosse",
+          "season_year": 2023,
+          "region": "Eastern",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "How did the Philadelphia Wings rank in the National Lacrosse League for the 2021 season within the US region with playoffs included but not friendly matches?",
+        "filled_param": {
+          "team_name": "Philadelphia Wings",
+          "league": "National Lacrosse League",
+          "season_year": 2021,
+          "region": "US",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      }
+    ]
+  },
+  "sports_team.standing|:|cricket|:|team_name,league,season_year,region,include_playoffs,include_friendly_matches": {
+    "tool_template_name": "sports_team.standing",
+    "derived_class": "cricket",
+    "params_for_query": [
+      "team_name",
+      "league",
+      "season_year",
+      "region",
+      "include_playoffs",
+      "include_friendly_matches"
+    ],
+    "queries": [
+      {
+        "query": "Can you tell me the standing of the cricket team 'Mumbai Indians' in the Indian Premier League for the 2023 season in South Asia, including playoff results but excluding friendly matches?",
+        "filled_param": {
+          "team_name": "Mumbai Indians",
+          "league": "Indian Premier League",
+          "season_year": 2023,
+          "region": "South Asia",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "What's the current standing of 'Sydney Sixers' in the Big Bash League for the 2022 season in Australia, considering both playoff and friendly matches?",
+        "filled_param": {
+          "team_name": "Sydney Sixers",
+          "league": "Big Bash League",
+          "season_year": 2022,
+          "region": "Australia",
+          "include_playoffs": true,
+          "include_friendly_matches": true
+        }
+      },
+      {
+        "query": "Please find the standing of 'Yorkshire Vikings' in the T20 Blast for the 2021 season in the United Kingdom, excluding both playoffs and friendly matches.",
+        "filled_param": {
+          "team_name": "Yorkshire Vikings",
+          "league": "T20 Blast",
+          "season_year": 2021,
+          "region": "United Kingdom",
+          "include_playoffs": false,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "How did 'Chennai Super Kings' rank in the Indian Premier League during the 2020 season in South Asia if playoffs are included but friendly matches are not?",
+        "filled_param": {
+          "team_name": "Chennai Super Kings",
+          "league": "Indian Premier League",
+          "season_year": 2020,
+          "region": "South Asia",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "Check the position of 'Melbourne Stars' in the Big Bash League for the 2019 season in Australia, without considering playoffs and friendly matches.",
+        "filled_param": {
+          "team_name": "Melbourne Stars",
+          "league": "Big Bash League",
+          "season_year": 2019,
+          "region": "Australia",
+          "include_playoffs": false,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "'Kolkata Knight Riders' standings in the Indian Premier League for 2023 in South Asia, taking into account both playoffs and excluding friendly matches.",
+        "filled_param": {
+          "team_name": "Kolkata Knight Riders",
+          "league": "Indian Premier League",
+          "season_year": 2023,
+          "region": "South Asia",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "What is the standing of 'Perth Scorchers' in the Big Bash League during the 2023 season in Australia, considering neither playoffs nor friendly matches?",
+        "filled_param": {
+          "team_name": "Perth Scorchers",
+          "league": "Big Bash League",
+          "season_year": 2023,
+          "region": "Australia",
+          "include_playoffs": false,
+          "include_friendly_matches": false
+        }
+      }
+    ]
+  },
+  "sports_team.standing|:|volleyball|:|team_name,league,season_year,region,include_playoffs,include_friendly_matches": {
+    "tool_template_name": "sports_team.standing",
+    "derived_class": "volleyball",
+    "params_for_query": [
+      "team_name",
+      "league",
+      "season_year",
+      "region",
+      "include_playoffs",
+      "include_friendly_matches"
+    ],
+    "queries": [
+      {
+        "query": "Can you tell me the current standing of the volleyball team 'Spike Masters' in the 'National Volleyball League' for the 2023 season in the North America region, including playoff results but excluding friendly matches?",
+        "filled_param": {
+          "team_name": "Spike Masters",
+          "league": "National Volleyball League",
+          "season_year": 2023,
+          "region": "North America",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "I need the standing of 'Block Busters' in the 'Euro Volleyball Championship' for 2022 in the Europe region. Make sure to include both playoffs and friendly matches.",
+        "filled_param": {
+          "team_name": "Block Busters",
+          "league": "Euro Volleyball Championship",
+          "season_year": 2022,
+          "region": "Europe",
+          "include_playoffs": true,
+          "include_friendly_matches": true
+        }
+      },
+      {
+        "query": "What's the status of 'Net Ninjas' in the 'Asia Volleyball Cup' in the 2021 season for the Asia region, without considering playoffs or friendly matches?",
+        "filled_param": {
+          "team_name": "Net Ninjas",
+          "league": "Asia Volleyball Cup",
+          "season_year": 2021,
+          "region": "Asia",
+          "include_playoffs": false,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "Could you provide the 2020 standing of the 'Serve Aces' team in 'South American Volleyball League' for the South America region, excluding playoffs but including friendly matches?",
+        "filled_param": {
+          "team_name": "Serve Aces",
+          "league": "South American Volleyball League",
+          "season_year": 2020,
+          "region": "South America",
+          "include_playoffs": false,
+          "include_friendly_matches": true
+        }
+      },
+      {
+        "query": "Find out the league position of 'Set Kings' in the 'African Volleyball League' during the 2023 season in the Africa region, considering playoffs but excluding friendly matches.",
+        "filled_param": {
+          "team_name": "Set Kings",
+          "league": "African Volleyball League",
+          "season_year": 2023,
+          "region": "Africa",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "What is the ranking of 'Dig Champs' in the 'Oceania Volleyball Tournament' for 2023 in the Oceania region, including playoffs and excluding friendly matches?",
+        "filled_param": {
+          "team_name": "Dig Champs",
+          "league": "Oceania Volleyball Tournament",
+          "season_year": 2023,
+          "region": "Oceania",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "I need to know where 'Smash Heroes' stand in the 'World Volleyball League' for the 2022 season in the global region, excluding playoffs but including friendly matches.",
+        "filled_param": {
+          "team_name": "Smash Heroes",
+          "league": "World Volleyball League",
+          "season_year": 2022,
+          "region": "global",
+          "include_playoffs": false,
+          "include_friendly_matches": true
+        }
+      }
+    ]
+  },
+  "sports_team.standing|:|table tennis|:|team_name,league,season_year,region,include_playoffs,include_friendly_matches": {
+    "tool_template_name": "sports_team.standing",
+    "derived_class": "table tennis",
+    "params_for_query": [
+      "team_name",
+      "league",
+      "season_year",
+      "region",
+      "include_playoffs",
+      "include_friendly_matches"
+    ],
+    "queries": [
+      {
+        "query": "What is the current standing of the table tennis team Spin Masters in the European Champions League for the 2023 season, focusing on the Western Europe region, including playoffs but excluding friendly matches?",
+        "filled_param": {
+          "team_name": "Spin Masters",
+          "league": "European Champions League",
+          "season_year": 2023,
+          "region": "Western Europe",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "Can you tell me how the table tennis team Ping Pong Heroes is ranked in the Asian Super League for the 2022 season in the Southeast Asia region, considering both playoffs and friendly matches?",
+        "filled_param": {
+          "team_name": "Ping Pong Heroes",
+          "league": "Asian Super League",
+          "season_year": 2022,
+          "region": "Southeast Asia",
+          "include_playoffs": true,
+          "include_friendly_matches": true
+        }
+      },
+      {
+        "query": "Find out the table tennis standings for the team Smashers United in the North American League during the 2021 season for the Northern America region, excluding playoffs and friendly matches.",
+        "filled_param": {
+          "team_name": "Smashers United",
+          "league": "North American League",
+          "season_year": 2021,
+          "region": "Northern America",
+          "include_playoffs": false,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "I need to know the standing of the table tennis team Paddle Warriors in the Australian National League for the 2020 season in the Oceania region, considering playoffs but not friendly matches.",
+        "filled_param": {
+          "team_name": "Paddle Warriors",
+          "league": "Australian National League",
+          "season_year": 2020,
+          "region": "Oceania",
+          "include_playoffs": true,
+          "include_friendly_matches": false
+        }
+      },
+      {
+        "query": "How is the table tennis team Rally Kings performing this 2023 season in the South American League, within the Southern America region, including friendly matches but not playoffs?",
+        "filled_param": {
+          "team_name": "Rally Kings",
+          "league": "South American League",
+          "season_year": 2023,
+          "region": "Southern America",
+          "include_playoffs": false,
+          "include_friendly_matches": true
+        }
+      },
+      {
+        "query": "Could you provide the current standing of the table tennis team Net Crushers in the African Cup for the 2022 season based in the Northern Africa region, excluding playoffs but including friendly matches?",
+        "filled_param": {
+          "team_name": "Net Crushers",
+          "league": "African Cup",
+          "season_year": 2022,
+          "region": "Northern Africa",
+          "include_playoffs": false,
+          "include_friendly_matches": true
+        }
+      },
+      {
+        "query": "Tell me the ranking of the table tennis team Spin Wizards in the Middle Eastern League for 2023 in the Middle East region, including both playoffs and friendly matches.",
+        "filled_param": {
+          "team_name": "Spin Wizards",
+          "league": "Middle Eastern League",
+          "season_year": 2023,
+          "region": "Middle East",
+          "include_playoffs": true,
+          "include_friendly_matches": true
+        }
+      }
+    ]
+  }
+}

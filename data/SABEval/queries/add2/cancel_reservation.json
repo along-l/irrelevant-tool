@@ -1,0 +1,854 @@
+{
+  "cancel_reservation|:|restaurant dining|:|user_id,reservation_id,reason,reschedule_option": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "restaurant dining",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reason",
+      "reschedule_option"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my restaurant dining reservation with user ID 12345 and reservation ID 98765 because I am unwell. I would like to reschedule it.",
+        "filled_param": {
+          "user_id": "12345",
+          "reservation_id": "98765",
+          "reason": "I am unwell",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "I need to cancel the restaurant dining reservation made under user ID 54321 and reservation ID 67890 due to a change in plans, and I am not interested in rescheduling.",
+        "filled_param": {
+          "user_id": "54321",
+          "reservation_id": "67890",
+          "reason": "change in plans",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "Cancel the restaurant dining reservation for user ID A1B2C3 with the reservation ID D4E5F6 as I double-booked myself. Please mark me as interested in rescheduling.",
+        "filled_param": {
+          "user_id": "A1B2C3",
+          "reservation_id": "D4E5F6",
+          "reason": "double-booked myself",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "I have to cancel my restaurant dining reservation. My user ID is 11111, reservation ID is 22222, and I'm canceling because of an emergency. I won't reschedule.",
+        "filled_param": {
+          "user_id": "11111",
+          "reservation_id": "22222",
+          "reason": "emergency",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "Due to unforeseen circumstances, I need to cancel my restaurant dining reservation with user ID XY123 and reservation ID 456XZ. I'm not looking to reschedule.",
+        "filled_param": {
+          "user_id": "XY123",
+          "reservation_id": "456XZ",
+          "reason": "unforeseen circumstances",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "Request to cancel my restaurant dining reservation. User ID: 99999, Reservation ID: 88888, Reason: babysitter canceled, and I wish to reschedule.",
+        "filled_param": {
+          "user_id": "99999",
+          "reservation_id": "88888",
+          "reason": "babysitter canceled",
+          "reschedule_option": true
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|hotel stay|:|user_id,reservation_id,reason,reschedule_option": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "hotel stay",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reason",
+      "reschedule_option"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my hotel stay reservation with reservation ID 4567 for user ID 1234 because I have a scheduling conflict. I do not want to reschedule.",
+        "filled_param": {
+          "user_id": "1234",
+          "reservation_id": "4567",
+          "reason": "scheduling conflict",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "I need to cancel the hotel stay under reservation ID A7890 for user ID U5678 due to a family emergency, but I would like to reschedule.",
+        "filled_param": {
+          "user_id": "U5678",
+          "reservation_id": "A7890",
+          "reason": "family emergency",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "Cancel the hotel stay reservation ID 91234 for user ID 56789 as my travel plans have changed. I am not interested in rescheduling.",
+        "filled_param": {
+          "user_id": "56789",
+          "reservation_id": "91234",
+          "reason": "travel plans changed",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "I would like to cancel my hotel stay reservation with ID R123456 for user ID U98765 because the hotel received negative reviews, and I'm not considering rescheduling.",
+        "filled_param": {
+          "user_id": "U98765",
+          "reservation_id": "R123456",
+          "reason": "negative reviews",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "Please help me cancel my hotel stay reservation, ID 654321, for user ID 112233. The reason is a change in work commitments, and I am open to rescheduling.",
+        "filled_param": {
+          "user_id": "112233",
+          "reservation_id": "654321",
+          "reason": "change in work commitments",
+          "reschedule_option": true
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|Disney park visit|:|user_id,reservation_id,reason,reschedule_option": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "Disney park visit",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reason",
+      "reschedule_option"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my Disney park visit reservation with user ID U12345 and reservation ID R67890. I am unable to attend due to a family emergency. I would like to reschedule.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890",
+          "reason": "family emergency",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "I need to cancel my Disney park visit. My user ID is U54321 and the reservation ID is R09876. The reason for cancellation is a change of plans, and I don't want to reschedule.",
+        "filled_param": {
+          "user_id": "U54321",
+          "reservation_id": "R09876",
+          "reason": "change of plans",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "Can you cancel my Disney park visit reservation? My user ID is U24680, and the reservation ID is R13579. The cancellation is due to health issues, and I would like to explore rescheduling options.",
+        "filled_param": {
+          "user_id": "U24680",
+          "reservation_id": "R13579",
+          "reason": "health issues",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "I am unable to make it to the Disney park visit. Please cancel my reservation. The user ID is U11223 and the reservation ID is R44556. The reason is financial constraints, and I am not looking to reschedule.",
+        "filled_param": {
+          "user_id": "U11223",
+          "reservation_id": "R44556",
+          "reason": "financial constraints",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "Due to an unexpected work commitment, I need to cancel my Disney park visit reservation. My user ID is U33445, and the reservation ID is R66778. I am interested in rescheduling.",
+        "filled_param": {
+          "user_id": "U33445",
+          "reservation_id": "R66778",
+          "reason": "unexpected work commitment",
+          "reschedule_option": true
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|Universal Studios visit|:|user_id,reservation_id,reason,reschedule_option": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "Universal Studios visit",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reason",
+      "reschedule_option"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my Universal Studios visit reservation with user ID 12345 and reservation ID A1B2C3. I can no longer attend due to a scheduling conflict, and I'm not interested in rescheduling.",
+        "filled_param": {
+          "user_id": "12345",
+          "reservation_id": "A1B2C3",
+          "reason": "scheduling conflict",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "I need to cancel my Universal Studios visit. My user ID is 98765, and the reservation ID is Z9Y8X7. The reason for cancellation is illness, but I would like to reschedule.",
+        "filled_param": {
+          "user_id": "98765",
+          "reservation_id": "Z9Y8X7",
+          "reason": "illness",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "Can you cancel my Universal Studios visit? User ID: 54321, Reservation ID: D4E5F6. I'm having travel issues and will not be rescheduling.",
+        "filled_param": {
+          "user_id": "54321",
+          "reservation_id": "D4E5F6",
+          "reason": "travel issues",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "I would like to cancel my Universal Studios visit reservation. My user ID is 67890, and the reservation ID is G7H8I9. The reason is a personal emergency, and I do want to explore rescheduling options.",
+        "filled_param": {
+          "user_id": "67890",
+          "reservation_id": "G7H8I9",
+          "reason": "personal emergency",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "Cancel my Universal Studios visit reservation please. Here are the details: User ID 13579, Reservation ID J1K2L3. The cancellation reason is weather concerns, and I am open to rescheduling.",
+        "filled_param": {
+          "user_id": "13579",
+          "reservation_id": "J1K2L3",
+          "reason": "weather concerns",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "I want to cancel my Universal Studios visit. My user ID is 24680 and the reservation ID is M4N5O6. Plans have changed, and I will not reschedule.",
+        "filled_param": {
+          "user_id": "24680",
+          "reservation_id": "M4N5O6",
+          "reason": "plans have changed",
+          "reschedule_option": false
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|movie theater|:|user_id,reservation_id,reason,reschedule_option": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "movie theater",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reason",
+      "reschedule_option"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my movie theater reservation with reservation ID 78910, as there's been a change in plans. My user ID is 12345. I might be interested in rescheduling.",
+        "filled_param": {
+          "user_id": "12345",
+          "reservation_id": "78910",
+          "reason": "change in plans",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "I need to cancel my movie theater booking because I am unwell. The reservation ID is 55667 and my user ID is 33445. I am not looking to reschedule.",
+        "filled_param": {
+          "user_id": "33445",
+          "reservation_id": "55667",
+          "reason": "unwell",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "Cancel my movie theater reservation due to a family emergency. The reservation ID is 99887 and my user ID is 77665. I would prefer to reschedule if possible.",
+        "filled_param": {
+          "user_id": "77665",
+          "reservation_id": "99887",
+          "reason": "family emergency",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "I won’t be able to make it to the movie and need to cancel my reservation. My user ID is 11223 and reservation ID is 44556. Please note that I am not interested in rescheduling.",
+        "filled_param": {
+          "user_id": "11223",
+          "reservation_id": "44556",
+          "reason": "won’t be able to make it",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "I'm cancelling my movie theater reservation because the showtime is inconvenient. My user ID is 99881 and the reservation ID is 66778. I might consider rescheduling for another day.",
+        "filled_param": {
+          "user_id": "99881",
+          "reservation_id": "66778",
+          "reason": "showtime is inconvenient",
+          "reschedule_option": true
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|flight|:|user_id,reservation_id,reason,reschedule_option": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "flight",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reason",
+      "reschedule_option"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my reservation with ID 987654321 because of a scheduling conflict. I'm not looking to reschedule. My user ID is user123.",
+        "filled_param": {
+          "user_id": "user123",
+          "reservation_id": "987654321",
+          "reason": "scheduling conflict",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "I need to cancel flight reservation 123456789. My user ID is user456. The reason is a medical emergency, and I would like to reschedule.",
+        "filled_param": {
+          "user_id": "user456",
+          "reservation_id": "123456789",
+          "reason": "medical emergency",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "Cancel my flight with reservation ID 543210987 because of a change in travel plans. No rescheduling is needed. User ID: user789.",
+        "filled_param": {
+          "user_id": "user789",
+          "reservation_id": "543210987",
+          "reason": "change in travel plans",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "I need to cancel my flight due to personal reasons. My reservation ID is 192837465 and the user ID is traveler001. I would like to reschedule it.",
+        "filled_param": {
+          "user_id": "traveler001",
+          "reservation_id": "192837465",
+          "reason": "personal reasons",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "Can you cancel my flight reservation 654321987? The user ID is user567 and the reason for cancellation is a family emergency. I do not wish to reschedule.",
+        "filled_param": {
+          "user_id": "user567",
+          "reservation_id": "654321987",
+          "reason": "family emergency",
+          "reschedule_option": false
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|high-speed train|:|user_id,reservation_id,reason,reschedule_option": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "high-speed train",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reason",
+      "reschedule_option"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my high-speed train reservation with ID 12345 due to a change in travel plans. I might be interested in rescheduling.",
+        "filled_param": {
+          "user_id": "12345",
+          "reservation_id": "12345",
+          "reason": "change in travel plans",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "I need to cancel my high-speed train booking because I'm unwell. The reservation ID is 67890, and I'm not looking to reschedule.",
+        "filled_param": {
+          "user_id": "67890",
+          "reservation_id": "67890",
+          "reason": "unwell",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "Cancel the high-speed train reservation for user ID 24680 due to unforeseen circumstances. The reservation ID is 24680. I would like to explore rescheduling.",
+        "filled_param": {
+          "user_id": "24680",
+          "reservation_id": "24680",
+          "reason": "unforeseen circumstances",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "Can you cancel my high-speed train reservation with ID 13579? I'm canceling because of a work commitment, and I do not want to reschedule.",
+        "filled_param": {
+          "user_id": "13579",
+          "reservation_id": "13579",
+          "reason": "work commitment",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "I have to cancel my high-speed train booking with user ID 98765, reservation ID 98765, as my flight schedule has changed. I am interested in rescheduling.",
+        "filled_param": {
+          "user_id": "98765",
+          "reservation_id": "98765",
+          "reason": "flight schedule changed",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "Please proceed with canceling my high-speed train reservation, ID 55555, due to a family emergency. No rescheduling is needed.",
+        "filled_param": {
+          "user_id": "55555",
+          "reservation_id": "55555",
+          "reason": "family emergency",
+          "reschedule_option": false
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|concert|:|user_id,reservation_id,reason,reschedule_option": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "concert",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reason",
+      "reschedule_option"
+    ],
+    "queries": [
+      {
+        "query": "I'd like to cancel my concert reservation. My user ID is U12345, reservation ID is R67890, and the reason is a scheduling conflict. I am not interested in rescheduling.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890",
+          "reason": "scheduling conflict",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "Please cancel the concert booking for user ID U98765 with reservation ID R54321 as I'm unwell and won't be able to attend. I would like to consider rescheduling.",
+        "filled_param": {
+          "user_id": "U98765",
+          "reservation_id": "R54321",
+          "reason": "unwell",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "Can you help me cancel my concert reservation? My user ID is U11111 and the reservation ID is R22222. The reason is due to a family emergency. I do not want to reschedule.",
+        "filled_param": {
+          "user_id": "U11111",
+          "reservation_id": "R22222",
+          "reason": "family emergency",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "I need to cancel my concert reservation because of unforeseen travel plans. My user ID is U33333 and the reservation ID is R44444. I'm open to rescheduling.",
+        "filled_param": {
+          "user_id": "U33333",
+          "reservation_id": "R44444",
+          "reason": "unforeseen travel plans",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "I'd like to cancel my concert reservation. User ID is U55555, reservation ID is R66666, and the reason is a work commitment. I will not be rescheduling.",
+        "filled_param": {
+          "user_id": "U55555",
+          "reservation_id": "R66666",
+          "reason": "work commitment",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "My user ID is U77777, and I need to cancel my concert reservation with ID R88888 due to a double booking. I am interested in rescheduling.",
+        "filled_param": {
+          "user_id": "U77777",
+          "reservation_id": "R88888",
+          "reason": "double booking",
+          "reschedule_option": true
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|sports event|:|user_id,reservation_id,reason,reschedule_option": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "sports event",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reason",
+      "reschedule_option"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my sports event reservation with user ID U12345 and reservation ID R98765 due to a scheduling conflict. I don't want to reschedule.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R98765",
+          "reason": "scheduling conflict",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "I need to cancel my sports event reservation. My user ID is U54321 and the reservation ID is R12345. The reason is because of a personal emergency, and I am interested in rescheduling.",
+        "filled_param": {
+          "user_id": "U54321",
+          "reservation_id": "R12345",
+          "reason": "personal emergency",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "Cancel the sports event booking for user ID U11111 and reservation ID R22222 due to unforeseen circumstances. I would like to reschedule it.",
+        "filled_param": {
+          "user_id": "U11111",
+          "reservation_id": "R22222",
+          "reason": "unforeseen circumstances",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "I want to cancel my sports event reservation because I'm not feeling well. My user ID is U33333, and the reservation ID is R44444. Rescheduling is not an option for me.",
+        "filled_param": {
+          "user_id": "U33333",
+          "reservation_id": "R44444",
+          "reason": "not feeling well",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "Can you cancel my sports event reservation? The user ID is U55555, and the reservation ID is R66666. The reason is a work commitment, but I might want to reschedule.",
+        "filled_param": {
+          "user_id": "U55555",
+          "reservation_id": "R66666",
+          "reason": "work commitment",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "Please cancel my sports event reservation due to travel issues. My user ID is U77777, and the reservation ID is R88888. I do not wish to reschedule.",
+        "filled_param": {
+          "user_id": "U77777",
+          "reservation_id": "R88888",
+          "reason": "travel issues",
+          "reschedule_option": false
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|hospital appointment|:|user_id,reservation_id,reason,reschedule_option": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "hospital appointment",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reason",
+      "reschedule_option"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my hospital appointment with reservation ID 12345. The user ID is user789, and I'm cancelling because I'm feeling better. I would like to reschedule later.",
+        "filled_param": {
+          "user_id": "user789",
+          "reservation_id": "12345",
+          "reason": "I'm feeling better",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "I need to cancel my hospital appointment. My user ID is user456 and reservation ID is 67890. The reason is due to a family emergency, and I don't want to reschedule at this time.",
+        "filled_param": {
+          "user_id": "user456",
+          "reservation_id": "67890",
+          "reason": "family emergency",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "Can you cancel the hospital appointment for reservation ID 11223? My user ID is user321. I have to cancel because of a scheduling conflict, but I'd like to reschedule.",
+        "filled_param": {
+          "user_id": "user321",
+          "reservation_id": "11223",
+          "reason": "scheduling conflict",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "I want to cancel my hospital appointment. My user ID is user999 and the reservation ID is 44556. The cancellation is due to an unexpected trip, and I won't need to reschedule.",
+        "filled_param": {
+          "user_id": "user999",
+          "reservation_id": "44556",
+          "reason": "unexpected trip",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "Could you help me cancel my hospital appointment tied to reservation ID 33445? The user ID is user123, and I'm cancelling because of work obligations, but I wish to reschedule.",
+        "filled_param": {
+          "user_id": "user123",
+          "reservation_id": "33445",
+          "reason": "work obligations",
+          "reschedule_option": true
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|psychological counseling|:|user_id,reservation_id,reason,reschedule_option": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "psychological counseling",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reason",
+      "reschedule_option"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my psychological counseling session with user ID U12345 and reservation ID R98765 because I am feeling better, and I do not wish to reschedule.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R98765",
+          "reason": "I am feeling better",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "I need to cancel my psychological counseling appointment scheduled with reservation ID R24680 under user ID U54321 as an unexpected work commitment has come up, and I would like to reschedule.",
+        "filled_param": {
+          "user_id": "U54321",
+          "reservation_id": "R24680",
+          "reason": "unexpected work commitment",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "Cancel my psychological counseling booking with the reservation ID R13579 for user ID U11223. The reason is due to a scheduling conflict, and I would prefer to reschedule.",
+        "filled_param": {
+          "user_id": "U11223",
+          "reservation_id": "R13579",
+          "reason": "scheduling conflict",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "I need to cancel my psychological counseling session with user ID U33445 and reservation ID R55566 because I'm experiencing health issues, and I do not wish to reschedule.",
+        "filled_param": {
+          "user_id": "U33445",
+          "reservation_id": "R55566",
+          "reason": "experiencing health issues",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "Please cancel my psychological counseling reservation with user ID U77889 and reservation ID R42424 as I have resolved my issues on my own and would not like to reschedule.",
+        "filled_param": {
+          "user_id": "U77889",
+          "reservation_id": "R42424",
+          "reason": "resolved my issues on my own",
+          "reschedule_option": false
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|legal consultation|:|user_id,reservation_id,reason,reschedule_option": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "legal consultation",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reason",
+      "reschedule_option"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my legal consultation. My user ID is 12345, and the reservation ID is LC98765. The reason for cancellation is a scheduling conflict, and I am not interested in rescheduling.",
+        "filled_param": {
+          "user_id": "12345",
+          "reservation_id": "LC98765",
+          "reason": "scheduling conflict",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "I need to cancel the legal consultation with reservation ID A1234567. My user ID is U78901, and the reason is due to a family emergency. I would like to reschedule.",
+        "filled_param": {
+          "user_id": "U78901",
+          "reservation_id": "A1234567",
+          "reason": "family emergency",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "Can you help me cancel my legal consultation reservation? My user ID is 98765U, the reservation ID is C123456, and I have to cancel because of a work commitment. I don’t want to reschedule.",
+        "filled_param": {
+          "user_id": "98765U",
+          "reservation_id": "C123456",
+          "reason": "work commitment",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "I need to cancel a legal consultation. I've got user ID 65432 and reservation ID R87654. The cancellation reason is illness, and I would prefer to reschedule.",
+        "filled_param": {
+          "user_id": "65432",
+          "reservation_id": "R87654",
+          "reason": "illness",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "Cancel my legal consultation appointment. My user ID is U112233 and reservation ID is L998877. The reason for cancellation is travel plans, and I am not interested in a reschedule.",
+        "filled_param": {
+          "user_id": "U112233",
+          "reservation_id": "L998877",
+          "reason": "travel plans",
+          "reschedule_option": false
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|housekeeping service|:|user_id,reservation_id,reason,reschedule_option": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "housekeeping service",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reason",
+      "reschedule_option"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my housekeeping service reservation with reservation ID HSR12345. My user ID is U56789, and the reason for cancellation is due to a sudden change in my schedule. I am interested in rescheduling.",
+        "filled_param": {
+          "user_id": "U56789",
+          "reservation_id": "HSR12345",
+          "reason": "sudden change in my schedule",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "I need to cancel the housekeeping service reservation with ID R09876. My user ID is U43210, and the reason is that I no longer require the service. I do not want to reschedule.",
+        "filled_param": {
+          "user_id": "U43210",
+          "reservation_id": "R09876",
+          "reason": "no longer require the service",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "Cancel the housekeeping service reservation for user ID U11111 with reservation ID HSR22222. The reason for this cancellation is that the service was not needed anymore, and I would like to reschedule.",
+        "filled_param": {
+          "user_id": "U11111",
+          "reservation_id": "HSR22222",
+          "reason": "service was not needed anymore",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "I would like to cancel my housekeeping service reservation. My user ID is U98765 and the reservation ID is R54321. The reason for cancellation is a personal emergency, and I don't want to reschedule.",
+        "filled_param": {
+          "user_id": "U98765",
+          "reservation_id": "R54321",
+          "reason": "personal emergency",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "Can you cancel the housekeeping service reservation ID HSR33333 for user ID U22222? The reason is unexpected travel, and I am not interested in rescheduling.",
+        "filled_param": {
+          "user_id": "U22222",
+          "reservation_id": "HSR33333",
+          "reason": "unexpected travel",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "Cancel my reservation for housekeeping service with user ID U67890 and reservation ID HSR44444. The reason for cancellation is a schedule conflict, and I want to reschedule.",
+        "filled_param": {
+          "user_id": "U67890",
+          "reservation_id": "HSR44444",
+          "reason": "schedule conflict",
+          "reschedule_option": true
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|yoga class|:|user_id,reservation_id,reason,reschedule_option": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "yoga class",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "reason",
+      "reschedule_option"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my yoga class reservation with ID R12345, as I have a scheduling conflict. My user ID is U67890, and I am not interested in rescheduling.",
+        "filled_param": {
+          "user_id": "U67890",
+          "reservation_id": "R12345",
+          "reason": "scheduling conflict",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "I need to cancel my yoga class due to an unexpected appointment. The reservation ID is R23456, and my user ID is U78901. I would like to reschedule it if possible.",
+        "filled_param": {
+          "user_id": "U78901",
+          "reservation_id": "R23456",
+          "reason": "unexpected appointment",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "Cancel my yoga class reservation R34567 because of illness. User ID is U89012. I do not want to reschedule.",
+        "filled_param": {
+          "user_id": "U89012",
+          "reservation_id": "R34567",
+          "reason": "illness",
+          "reschedule_option": false
+        }
+      },
+      {
+        "query": "Due to a family emergency, I need to cancel my yoga class. My reservation ID is R45678 and user ID is U90123. I'm interested in rescheduling.",
+        "filled_param": {
+          "user_id": "U90123",
+          "reservation_id": "R45678",
+          "reason": "family emergency",
+          "reschedule_option": true
+        }
+      },
+      {
+        "query": "I cannot attend my yoga class; please cancel it. My reservation ID is R56789 and user ID is U01234. I'm not interested in rescheduling because of a travel commitment.",
+        "filled_param": {
+          "user_id": "U01234",
+          "reservation_id": "R56789",
+          "reason": "travel commitment",
+          "reschedule_option": false
+        }
+      }
+    ]
+  }
+}

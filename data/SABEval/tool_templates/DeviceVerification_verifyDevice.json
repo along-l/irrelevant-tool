@@ -1,0 +1,66 @@
+{
+  "tool_template_name": "DeviceVerification_verifyDevice",
+  "meta_data": {
+    "base_class": "Verify the device details of the <specific brand> brand before initiating the recycling process - referring to a specific company that manufactures and sells consumer electronic products.",
+    "derived_classes": [
+      "Apple",
+      "Samsung",
+      "Google",
+      "Xiaomi",
+      "Huawei",
+      "Sony",
+      "Dell",
+      "Lenovo",
+      "Microsoft",
+      "ASUS"
+    ],
+    "base_class_entity": "the device details"
+  },
+  "tool_template": {
+    "name": "DeviceVerification_verify<class>Device",
+    "description": "Verify the device details of the <class> brand before initiating the recycling process.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "deviceIdentifiers": {
+          "type": "array",
+          "description": "A list of identifiers for the <class> device, such as IMEI or serial number.",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "deviceIdentifiers"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "userFullName": {
+      "type": "string",
+      "description": "The full name of the user for verification purposes."
+    }
+  },
+  "additional_params": {
+    "ownerConsent": {
+      "type": "boolean",
+      "description": "Indicates whether the owner of the <class> device has given consent for the recycling process."
+    },
+    "purchaseProofAvailable": {
+      "type": "boolean",
+      "description": "Whether the user can provide proof of purchase for the <class> device."
+    },
+    "deviceAgeInYears": {
+      "type": "number",
+      "description": "Approximate age of the <class> device in years."
+    },
+    "isUnderWarranty": {
+      "type": "boolean",
+      "description": "Whether the <class> device is still under warranty."
+    },
+    "returnReason": {
+      "type": "string",
+      "description": "Reason the user wants to recycle the <class> device."
+    }
+  }
+}

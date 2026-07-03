@@ -1,0 +1,206 @@
+{
+  "reserve_flight|:|flight|:|user_id,reservation_no,cabin": {
+    "tool_template_name": "reserve_flight",
+    "derived_class": "flight",
+    "params_for_query": [
+      "user_id",
+      "reservation_no",
+      "cabin"
+    ],
+    "queries": [
+      {
+        "query": "Please book my flight with reservation number ABC1234 in business class, and my user ID is user987.",
+        "filled_param": {
+          "user_id": "user987",
+          "reservation_no": "ABC1234",
+          "cabin": "business"
+        }
+      },
+      {
+        "query": "I'd like to reserve a flight using reservation number XY56789 in economy class. My user ID is ID12345.",
+        "filled_param": {
+          "user_id": "ID12345",
+          "reservation_no": "XY56789",
+          "cabin": "economy"
+        }
+      },
+      {
+        "query": "Can you help me book a flight with reservation number 789XYZ in first class? My user ID is user001.",
+        "filled_param": {
+          "user_id": "user001",
+          "reservation_no": "789XYZ",
+          "cabin": "first"
+        }
+      },
+      {
+        "query": "Reserve a flight for me using reservation number ZYX321 in premium economy. My user ID is user555.",
+        "filled_param": {
+          "user_id": "user555",
+          "reservation_no": "ZYX321",
+          "cabin": "premium economy"
+        }
+      },
+      {
+        "query": "Book the flight with reservation number 123ABC in economy for my user ID user2023.",
+        "filled_param": {
+          "user_id": "user2023",
+          "reservation_no": "123ABC",
+          "cabin": "economy"
+        }
+      }
+    ]
+  },
+  "reserve_flight|:|high-speed train|:|user_id,reservation_no,cabin": {
+    "tool_template_name": "reserve_flight",
+    "derived_class": "high-speed train",
+    "params_for_query": [
+      "user_id",
+      "reservation_no",
+      "cabin"
+    ],
+    "queries": [
+      {
+        "query": "I'd like to reserve a high-speed train using my user ID 12345, reservation number AB7890, and I prefer the first class cabin.",
+        "filled_param": {
+          "user_id": "12345",
+          "reservation_no": "AB7890",
+          "cabin": "first class"
+        }
+      },
+      {
+        "query": "Can you book a seat on a high-speed train for user ID 67890 with reservation number XY1234 in the economy cabin?",
+        "filled_param": {
+          "user_id": "67890",
+          "reservation_no": "XY1234",
+          "cabin": "economy"
+        }
+      },
+      {
+        "query": "Please make a reservation for a high-speed train for me with user ID 54321, reservation number CD4567, selecting the business class cabin.",
+        "filled_param": {
+          "user_id": "54321",
+          "reservation_no": "CD4567",
+          "cabin": "business class"
+        }
+      },
+      {
+        "query": "I need to book a ticket for a high-speed train using my user ID 98765 and reservation number UV9012, and I prefer to travel in the premium cabin.",
+        "filled_param": {
+          "user_id": "98765",
+          "reservation_no": "UV9012",
+          "cabin": "premium"
+        }
+      },
+      {
+        "query": "Reserve a spot on a high-speed train for user ID 11223 with reservation number GH5678 in the luxury cabin.",
+        "filled_param": {
+          "user_id": "11223",
+          "reservation_no": "GH5678",
+          "cabin": "luxury"
+        }
+      }
+    ]
+  },
+  "reserve_flight|:|cruise ship|:|user_id,reservation_no,cabin": {
+    "tool_template_name": "reserve_flight",
+    "derived_class": "cruise ship",
+    "params_for_query": [
+      "user_id",
+      "reservation_no",
+      "cabin"
+    ],
+    "queries": [
+      {
+        "query": "I would like to book a cruise ship with the reservation number 5678AB, using my user ID U12345, for a luxury cabin.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_no": "5678AB",
+          "cabin": "luxury"
+        }
+      },
+      {
+        "query": "Please reserve a cruise ship for user 9876XY with reservation 3452BC, and make sure it's in the economy cabin.",
+        "filled_param": {
+          "user_id": "9876XY",
+          "reservation_no": "3452BC",
+          "cabin": "economy"
+        }
+      },
+      {
+        "query": "I'd like to book a cruise ship under the reservation number 2233ZZ for user ID A1122, in the premium cabin.",
+        "filled_param": {
+          "user_id": "A1122",
+          "reservation_no": "2233ZZ",
+          "cabin": "premium"
+        }
+      },
+      {
+        "query": "Can you please reserve a cruise ship for user ID B3344 with reservation number 9876XY, selecting a deluxe cabin?",
+        "filled_param": {
+          "user_id": "B3344",
+          "reservation_no": "9876XY",
+          "cabin": "deluxe"
+        }
+      },
+      {
+        "query": "Reserve a cruise ship for user C5566 with reservation number 1122DD in a standard cabin.",
+        "filled_param": {
+          "user_id": "C5566",
+          "reservation_no": "1122DD",
+          "cabin": "standard"
+        }
+      }
+    ]
+  },
+  "reserve_flight|:|long-distance bus|:|user_id,reservation_no,cabin": {
+    "tool_template_name": "reserve_flight",
+    "derived_class": "long-distance bus",
+    "params_for_query": [
+      "user_id",
+      "reservation_no",
+      "cabin"
+    ],
+    "queries": [
+      {
+        "query": "I need to book a long-distance bus using user ID U12345 and reservation number R98765 in the economy class cabin.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_no": "R98765",
+          "cabin": "economy"
+        }
+      },
+      {
+        "query": "Please reserve a long-distance bus ticket for user ID U67890 with reservation number R54321 in the business cabin.",
+        "filled_param": {
+          "user_id": "U67890",
+          "reservation_no": "R54321",
+          "cabin": "business"
+        }
+      },
+      {
+        "query": "Can you book me a long-distance bus seat? My user ID is U11223, reservation number is R33445, and I prefer the first class cabin.",
+        "filled_param": {
+          "user_id": "U11223",
+          "reservation_no": "R33445",
+          "cabin": "first class"
+        }
+      },
+      {
+        "query": "Reserve a long-distance bus ticket for user ID U44556 using reservation number R66778 in the standard cabin.",
+        "filled_param": {
+          "user_id": "U44556",
+          "reservation_no": "R66778",
+          "cabin": "standard"
+        }
+      },
+      {
+        "query": "I'd like to make a long-distance bus reservation with my user ID U99887, reservation number R77665, in luxury cabin.",
+        "filled_param": {
+          "user_id": "U99887",
+          "reservation_no": "R77665",
+          "cabin": "luxury"
+        }
+      }
+    ]
+  }
+}

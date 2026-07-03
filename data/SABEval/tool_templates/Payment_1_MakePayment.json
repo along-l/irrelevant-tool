@@ -1,0 +1,62 @@
+{
+  "tool_template_name": "Payment_1_MakePayment",
+  "meta_data": {
+    "base_class": "Initiate a transaction... using <a specific type of bank card>. This is a tool where the payment method is hardcoded to a specific card network or type (e.g., Visa, Mastercard), removing the `payment_method` parameter.",
+    "derived_classes": [
+      "visa credit card",
+      "mastercard credit card",
+      "visa debit card",
+      "mastercard debit card",
+      "american express card",
+      "unionpay credit card",
+      "unionpay debit card",
+      "discover card"
+    ],
+    "base_class_entity": "a chosen payment method"
+  },
+  "tool_template": {
+    "name": "Payment_1_Make<class>Payment",
+    "description": "Initiate a transaction to send a specified amount of money to a friend or contact using the <class> payment method.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "amount": {
+          "type": "float",
+          "description": "The monetary value to send, using <class> payment platform."
+        },
+        "receiver": {
+          "type": "string",
+          "description": "The identifier of the contact or account to receive the payment. This could be a username, phone number, or email address."
+        }
+      },
+      "required": [
+        "amount",
+        "receiver"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "private_visibility": {
+      "type": "boolean",
+      "description": "A flag indicating whether the transaction should be hidden from public transaction feeds."
+    }
+  },
+  "additional_params": {
+    "currency": {
+      "type": "string",
+      "description": "The currency in which the transaction is to be conducted using the <class>. This specifies the currency code like USD, EUR, etc."
+    },
+    "note": {
+      "type": "string",
+      "description": "An note or message that be attached to the transaction using the <class> payment method for the receiver's reference."
+    },
+    "notify_receiver": {
+      "type": "boolean",
+      "description": "A flag indicating whether the receiver should be notified of the transaction of <class> payment via email or SMS."
+    },
+    "transaction_category": {
+      "type": "string",
+      "description": "A category for the transaction of <class> payment (e.g., 'Food', 'Rent', 'Travel') for the sender's own tracking or budgeting purposes."
+    }
+  }
+}

@@ -1,0 +1,776 @@
+{
+  "DeviceVerification_verifyDevice|:|Apple|:|deviceIdentifiers,userFullName,ownerConsent,purchaseProofAvailable,deviceAgeInYears": {
+    "tool_template_name": "DeviceVerification_verifyDevice",
+    "derived_class": "Apple",
+    "params_for_query": [
+      "deviceIdentifiers",
+      "userFullName",
+      "ownerConsent",
+      "purchaseProofAvailable",
+      "deviceAgeInYears"
+    ],
+    "queries": [
+      {
+        "query": "I need to verify my Apple device for recycling. The identifiers are ['C02ZK0P8MD6R', '86QZL63KQ8N'], my full name is Jessica Thompson, and I confirm that I give my consent for recycling. I can provide proof of purchase, and the device is approximately 3 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "C02ZK0P8MD6R",
+            "86QZL63KQ8N"
+          ],
+          "userFullName": "Jessica Thompson",
+          "ownerConsent": true,
+          "purchaseProofAvailable": true,
+          "deviceAgeInYears": 3
+        }
+      },
+      {
+        "query": "Please verify the Apple device using these identifiers: ['F4TGHK2LMN98'], the user is Robert Johnson, and he agrees to the recycling. Unfortunately, he doesn't have the proof of purchase, and the device is around 5 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "F4TGHK2LMN98"
+          ],
+          "userFullName": "Robert Johnson",
+          "ownerConsent": true,
+          "purchaseProofAvailable": false,
+          "deviceAgeInYears": 5
+        }
+      },
+      {
+        "query": "Can you check the details for my Apple device with identifiers ['D72PL7GNJ16M', '98HGF5ASD34'], under the name Emily Brown? I consent to the recycling, but I don’t have the purchase receipt. The device is 2 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "D72PL7GNJ16M",
+            "98HGF5ASD34"
+          ],
+          "userFullName": "Emily Brown",
+          "ownerConsent": true,
+          "purchaseProofAvailable": false,
+          "deviceAgeInYears": 2
+        }
+      },
+      {
+        "query": "Verify my Apple device with the serial numbers ['L8VQ1K2ZB0E9']. The full name is Michael Smith, and he has given consent for recycling. He can provide the proof of purchase. The device is 4 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "L8VQ1K2ZB0E9"
+          ],
+          "userFullName": "Michael Smith",
+          "ownerConsent": true,
+          "purchaseProofAvailable": true,
+          "deviceAgeInYears": 4
+        }
+      },
+      {
+        "query": "I need to verify these Apple device identifiers: ['J6KLMN4B3V2P', 'B4N8P2L9C7V1'], for the user Sarah Lee. She has not provided consent for recycling yet, and she cannot provide proof of purchase. The device is 1 year old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "J6KLMN4B3V2P",
+            "B4N8P2L9C7V1"
+          ],
+          "userFullName": "Sarah Lee",
+          "ownerConsent": false,
+          "purchaseProofAvailable": false,
+          "deviceAgeInYears": 1
+        }
+      }
+    ]
+  },
+  "DeviceVerification_verifyDevice|:|Samsung|:|deviceIdentifiers,userFullName,ownerConsent,purchaseProofAvailable,deviceAgeInYears": {
+    "tool_template_name": "DeviceVerification_verifyDevice",
+    "derived_class": "Samsung",
+    "params_for_query": [
+      "deviceIdentifiers",
+      "userFullName",
+      "ownerConsent",
+      "purchaseProofAvailable",
+      "deviceAgeInYears"
+    ],
+    "queries": [
+      {
+        "query": "Can you verify my Samsung device for recycling? My name is John Doe, I consent to the process, I have purchase proof, and the device is 2 years old with identifiers IMEI123456789012345 and SN987654321.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "IMEI123456789012345",
+            "SN987654321"
+          ],
+          "userFullName": "John Doe",
+          "ownerConsent": true,
+          "purchaseProofAvailable": true,
+          "deviceAgeInYears": 2
+        }
+      },
+      {
+        "query": "Please verify my Samsung device. My full name is Jane Smith, I do not have proof of purchase, but I consent to recycling. The device is 4 years old, and its serial number is SN543216789.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "SN543216789"
+          ],
+          "userFullName": "Jane Smith",
+          "ownerConsent": true,
+          "purchaseProofAvailable": false,
+          "deviceAgeInYears": 4
+        }
+      },
+      {
+        "query": "I am Alex Johnson, and I need my Samsung device verified for recycling. I agree to the process, cannot provide purchase proof, and the device is 3 years old. Here are the identifiers: IMEI098765432109876 and SN123456789.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "IMEI098765432109876",
+            "SN123456789"
+          ],
+          "userFullName": "Alex Johnson",
+          "ownerConsent": true,
+          "purchaseProofAvailable": false,
+          "deviceAgeInYears": 3
+        }
+      },
+      {
+        "query": "Verify my Samsung device details for recycling. My name is Emily Brown, I do not consent to recycling, I have purchase proof, and the device is 1 year old with IMEI129876543210987.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "IMEI129876543210987"
+          ],
+          "userFullName": "Emily Brown",
+          "ownerConsent": false,
+          "purchaseProofAvailable": true,
+          "deviceAgeInYears": 1
+        }
+      },
+      {
+        "query": "I am Michael Lee and I need verification for my Samsung device. I consent to recycling, have purchase proof, and the device is 5 years old. The identifier is SN987654321001.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "SN987654321001"
+          ],
+          "userFullName": "Michael Lee",
+          "ownerConsent": true,
+          "purchaseProofAvailable": true,
+          "deviceAgeInYears": 5
+        }
+      }
+    ]
+  },
+  "DeviceVerification_verifyDevice|:|Google|:|deviceIdentifiers,userFullName,ownerConsent,purchaseProofAvailable,deviceAgeInYears": {
+    "tool_template_name": "DeviceVerification_verifyDevice",
+    "derived_class": "Google",
+    "params_for_query": [
+      "deviceIdentifiers",
+      "userFullName",
+      "ownerConsent",
+      "purchaseProofAvailable",
+      "deviceAgeInYears"
+    ],
+    "queries": [
+      {
+        "query": "Please verify my Google device with identifiers 35-209900-176148-1 and G4AL1A, my name is John Doe, I have given consent for recycling, I can show the purchase proof, and the device is 2 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "35-209900-176148-1",
+            "G4AL1A"
+          ],
+          "userFullName": "John Doe",
+          "ownerConsent": true,
+          "purchaseProofAvailable": true,
+          "deviceAgeInYears": 2
+        }
+      },
+      {
+        "query": "I am Jane Smith. My Google device's identifiers are 8675309 and C0FFEE42. I consent to recycle it, but I don't have the purchase proof. The device is 3 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "8675309",
+            "C0FFEE42"
+          ],
+          "userFullName": "Jane Smith",
+          "ownerConsent": true,
+          "purchaseProofAvailable": false,
+          "deviceAgeInYears": 3
+        }
+      },
+      {
+        "query": "Verify my Google gadget under the names 123456789 and ABCD1234, owner is Michael Johnson, consent given, no proof of purchase, and it's 1 year old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "123456789",
+            "ABCD1234"
+          ],
+          "userFullName": "Michael Johnson",
+          "ownerConsent": true,
+          "purchaseProofAvailable": false,
+          "deviceAgeInYears": 1
+        }
+      },
+      {
+        "query": "Check my Google device, identifiers are 987654321 and XYZ987, full name is Emily Davis, I do not give consent to recycle, and the device is 4 years old. I can also provide the purchase proof.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "987654321",
+            "XYZ987"
+          ],
+          "userFullName": "Emily Davis",
+          "ownerConsent": false,
+          "purchaseProofAvailable": true,
+          "deviceAgeInYears": 4
+        }
+      },
+      {
+        "query": "Can you verify my Google device with identifiers 555555555 and WD40, user name is David Brown, consent is not given, I have proof of purchase, and the device age is 5 years?",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "555555555",
+            "WD40"
+          ],
+          "userFullName": "David Brown",
+          "ownerConsent": false,
+          "purchaseProofAvailable": true,
+          "deviceAgeInYears": 5
+        }
+      },
+      {
+        "query": "Verify these Google device identifiers: 11223344 and 55667788. My full name is Samantha Lee. I consent, proof of purchase is unavailable, and the device is 0.5 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "11223344",
+            "55667788"
+          ],
+          "userFullName": "Samantha Lee",
+          "ownerConsent": true,
+          "purchaseProofAvailable": false,
+          "deviceAgeInYears": 0.5
+        }
+      }
+    ]
+  },
+  "DeviceVerification_verifyDevice|:|Xiaomi|:|deviceIdentifiers,userFullName,ownerConsent,purchaseProofAvailable,deviceAgeInYears": {
+    "tool_template_name": "DeviceVerification_verifyDevice",
+    "derived_class": "Xiaomi",
+    "params_for_query": [
+      "deviceIdentifiers",
+      "userFullName",
+      "ownerConsent",
+      "purchaseProofAvailable",
+      "deviceAgeInYears"
+    ],
+    "queries": [
+      {
+        "query": "Can you verify my Xiaomi device with IMEI 123456789012345, serial number SN987654321? My name is John Doe, and I have given consent for the recycling. I can provide proof of purchase, and the device is 2 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "123456789012345",
+            "SN987654321"
+          ],
+          "userFullName": "John Doe",
+          "ownerConsent": true,
+          "purchaseProofAvailable": true,
+          "deviceAgeInYears": 2
+        }
+      },
+      {
+        "query": "Please verify my Xiaomi device. The IMEI is 987654321098765 and the serial number is SN123498765. I am Jane Smith, and I consent to the recycling. Proof of purchase is available, and the device is 3 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "987654321098765",
+            "SN123498765"
+          ],
+          "userFullName": "Jane Smith",
+          "ownerConsent": true,
+          "purchaseProofAvailable": true,
+          "deviceAgeInYears": 3
+        }
+      },
+      {
+        "query": "I need to verify my Xiaomi device for recycling. My name is Robert Brown. The device identifiers are IMEI 112233445566778 and serial SN3344556677. I have provided consent, but I do not have the proof of purchase. The device is about 1 year old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "112233445566778",
+            "SN3344556677"
+          ],
+          "userFullName": "Robert Brown",
+          "ownerConsent": true,
+          "purchaseProofAvailable": false,
+          "deviceAgeInYears": 1
+        }
+      },
+      {
+        "query": "Verify my Xiaomi device. My full name is Emily Clark. The identifiers are IMEI 223344556677889 and serial number SN9988776655. Owner consent is given, and proof of purchase cannot be provided. The device age is 4 years.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "223344556677889",
+            "SN9988776655"
+          ],
+          "userFullName": "Emily Clark",
+          "ownerConsent": true,
+          "purchaseProofAvailable": false,
+          "deviceAgeInYears": 4
+        }
+      },
+      {
+        "query": "Could you verify my Xiaomi device with IMEI 667788990011223 and serial SN5566778899? I am Alex Johnson. I have not provided consent for recycling yet, proof of purchase is available, and the device is 5 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "667788990011223",
+            "SN5566778899"
+          ],
+          "userFullName": "Alex Johnson",
+          "ownerConsent": false,
+          "purchaseProofAvailable": true,
+          "deviceAgeInYears": 5
+        }
+      }
+    ]
+  },
+  "DeviceVerification_verifyDevice|:|Huawei|:|deviceIdentifiers,userFullName,ownerConsent,purchaseProofAvailable,deviceAgeInYears": {
+    "tool_template_name": "DeviceVerification_verifyDevice",
+    "derived_class": "Huawei",
+    "params_for_query": [
+      "deviceIdentifiers",
+      "userFullName",
+      "ownerConsent",
+      "purchaseProofAvailable",
+      "deviceAgeInYears"
+    ],
+    "queries": [
+      {
+        "query": "I need to verify my Huawei device for recycling. My name is John Doe, and the device identifiers are 123456789012345 and ABCD123456. I consent to the recycling, can provide proof of purchase, and the device is 2 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "123456789012345",
+            "ABCD123456"
+          ],
+          "userFullName": "John Doe",
+          "ownerConsent": true,
+          "purchaseProofAvailable": true,
+          "deviceAgeInYears": 2
+        }
+      },
+      {
+        "query": "Please verify the Huawei device with serial numbers 987654321098765 and WXYZ987654 for recycling. The owner, Jane Smith, has consented, cannot provide proof of purchase, and the device is approximately 3 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "987654321098765",
+            "WXYZ987654"
+          ],
+          "userFullName": "Jane Smith",
+          "ownerConsent": true,
+          "purchaseProofAvailable": false,
+          "deviceAgeInYears": 3
+        }
+      },
+      {
+        "query": "Verify the recycling eligibility of my Huawei phone. My full name is Alex Johnson. The identifiers are 246813579024680 and QWER123456. I have given my consent, but I don't have the proof of purchase. The device is 1 year old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "246813579024680",
+            "QWER123456"
+          ],
+          "userFullName": "Alex Johnson",
+          "ownerConsent": true,
+          "purchaseProofAvailable": false,
+          "deviceAgeInYears": 1
+        }
+      },
+      {
+        "query": "Can you verify my Huawei device for recycling? My name is Emily White, and my device IDs are 135792468013579 and ZXCV098765. I do not consent to the recycling, but I can provide purchase proof, and the device is 4 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "135792468013579",
+            "ZXCV098765"
+          ],
+          "userFullName": "Emily White",
+          "ownerConsent": false,
+          "purchaseProofAvailable": true,
+          "deviceAgeInYears": 4
+        }
+      },
+      {
+        "query": "I am Michael Brown, and I need verification for recycling my Huawei device, with identifiers 112233445566778 and ASDF567890. I give my consent, can provide proof of purchase, and the device is 5 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "112233445566778",
+            "ASDF567890"
+          ],
+          "userFullName": "Michael Brown",
+          "ownerConsent": true,
+          "purchaseProofAvailable": true,
+          "deviceAgeInYears": 5
+        }
+      }
+    ]
+  },
+  "DeviceVerification_verifyDevice|:|Sony|:|deviceIdentifiers,userFullName,ownerConsent,purchaseProofAvailable,deviceAgeInYears": {
+    "tool_template_name": "DeviceVerification_verifyDevice",
+    "derived_class": "Sony",
+    "params_for_query": [
+      "deviceIdentifiers",
+      "userFullName",
+      "ownerConsent",
+      "purchaseProofAvailable",
+      "deviceAgeInYears"
+    ],
+    "queries": [
+      {
+        "query": "Please verify my Sony device with serial number ABC123456 and IMEI 9876543210. My full name is John Doe, and I do not have the owner's consent for recycling. I can provide proof of purchase, and the device is 3 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "ABC123456",
+            "9876543210"
+          ],
+          "userFullName": "John Doe",
+          "ownerConsent": false,
+          "purchaseProofAvailable": true,
+          "deviceAgeInYears": 3
+        }
+      },
+      {
+        "query": "Verify my Sony device using identifiers SN345678 and IMEI 1234567890. The owner's name is Jane Smith. The owner has given consent, but I cannot provide a proof of purchase. The device is approximately 4 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "SN345678",
+            "1234567890"
+          ],
+          "userFullName": "Jane Smith",
+          "ownerConsent": true,
+          "purchaseProofAvailable": false,
+          "deviceAgeInYears": 4
+        }
+      },
+      {
+        "query": "Can you check the details of my Sony device? The identifiers are 1122334455 and SN987654. My name is Alex Johnson. I have the owner's consent but no purchase proof available, and it's a 2-year-old device.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "1122334455",
+            "SN987654"
+          ],
+          "userFullName": "Alex Johnson",
+          "ownerConsent": true,
+          "purchaseProofAvailable": false,
+          "deviceAgeInYears": 2
+        }
+      },
+      {
+        "query": "I need to verify my Sony gadget with IMEI 5432109876 and serial 321654987. The user name is Emily Carter. I have consent from the owner and can provide proof of purchase. The device age is 1 year.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "5432109876",
+            "321654987"
+          ],
+          "userFullName": "Emily Carter",
+          "ownerConsent": true,
+          "purchaseProofAvailable": true,
+          "deviceAgeInYears": 1
+        }
+      },
+      {
+        "query": "Help verify my Sony device with serial number 6789012345 and IMEI 1357924680. The full name is Michael Brown. I lack owner consent but can provide proof of purchase. The device is 5 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "6789012345",
+            "1357924680"
+          ],
+          "userFullName": "Michael Brown",
+          "ownerConsent": false,
+          "purchaseProofAvailable": true,
+          "deviceAgeInYears": 5
+        }
+      }
+    ]
+  },
+  "DeviceVerification_verifyDevice|:|Dell|:|deviceIdentifiers,userFullName,ownerConsent,purchaseProofAvailable,deviceAgeInYears": {
+    "tool_template_name": "DeviceVerification_verifyDevice",
+    "derived_class": "Dell",
+    "params_for_query": [
+      "deviceIdentifiers",
+      "userFullName",
+      "ownerConsent",
+      "purchaseProofAvailable",
+      "deviceAgeInYears"
+    ],
+    "queries": [
+      {
+        "query": "I need to verify my Dell device with serial number 12345 and IMEI 67890. My name is John Doe, and I have the owner's consent as well as proof of purchase. The device is about 3 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "12345",
+            "67890"
+          ],
+          "userFullName": "John Doe",
+          "ownerConsent": true,
+          "purchaseProofAvailable": true,
+          "deviceAgeInYears": 3
+        }
+      },
+      {
+        "query": "Please verify this Dell device with serial number ABCD-1234 for recycling. My full name is Jane Smith. I have the owner's consent but no proof of purchase, and the device is approximately 5 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "ABCD-1234"
+          ],
+          "userFullName": "Jane Smith",
+          "ownerConsent": true,
+          "purchaseProofAvailable": false,
+          "deviceAgeInYears": 5
+        }
+      },
+      {
+        "query": "Can you confirm the details for my Dell device with identifiers 98765 and 43210? I'm Alice Johnson, and I have consent from the owner but can't provide a purchase receipt. The device is around 2 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "98765",
+            "43210"
+          ],
+          "userFullName": "Alice Johnson",
+          "ownerConsent": true,
+          "purchaseProofAvailable": false,
+          "deviceAgeInYears": 2
+        }
+      },
+      {
+        "query": "Verify the Dell device info with serial number XYZ-987 for me. I am Mark Lee. I have both owner consent and proof of purchase. The device is about 1 year old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "XYZ-987"
+          ],
+          "userFullName": "Mark Lee",
+          "ownerConsent": true,
+          "purchaseProofAvailable": true,
+          "deviceAgeInYears": 1
+        }
+      },
+      {
+        "query": "Help me verify my Dell laptop with serial 54321. Full name is Sarah Connor. I have consent from the owner, but no purchase proof. The device is 4 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "54321"
+          ],
+          "userFullName": "Sarah Connor",
+          "ownerConsent": true,
+          "purchaseProofAvailable": false,
+          "deviceAgeInYears": 4
+        }
+      }
+    ]
+  },
+  "DeviceVerification_verifyDevice|:|Lenovo|:|deviceIdentifiers,userFullName,ownerConsent,purchaseProofAvailable,deviceAgeInYears": {
+    "tool_template_name": "DeviceVerification_verifyDevice",
+    "derived_class": "Lenovo",
+    "params_for_query": [
+      "deviceIdentifiers",
+      "userFullName",
+      "ownerConsent",
+      "purchaseProofAvailable",
+      "deviceAgeInYears"
+    ],
+    "queries": [
+      {
+        "query": "Could you verify my Lenovo device with serial number SN123456789 and IMEI 123456789012345? My name is John Doe, and I consent to the recycling process. I do have proof of purchase, and the device is about 3 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "SN123456789",
+            "123456789012345"
+          ],
+          "userFullName": "John Doe",
+          "ownerConsent": true,
+          "purchaseProofAvailable": true,
+          "deviceAgeInYears": 3
+        }
+      },
+      {
+        "query": "Please verify my Lenovo laptop with the identifier LNV123456789. I'm Jane Smith, and I agree to the recycling. I cannot provide a proof of purchase, and the laptop is 5 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "LNV123456789"
+          ],
+          "userFullName": "Jane Smith",
+          "ownerConsent": true,
+          "purchaseProofAvailable": false,
+          "deviceAgeInYears": 5
+        }
+      },
+      {
+        "query": "I need to verify a Lenovo tablet with serial number TBL123987654321. My full name is Alan Brown. I give my consent for recycling, but I don't have a purchase proof. The device is 2 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "TBL123987654321"
+          ],
+          "userFullName": "Alan Brown",
+          "ownerConsent": true,
+          "purchaseProofAvailable": false,
+          "deviceAgeInYears": 2
+        }
+      },
+      {
+        "query": "Can you check my Lenovo phone with IMEI 987654321098765? My name is Lisa White, and I consent to recycling. I have proof of purchase, and it is 4 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "987654321098765"
+          ],
+          "userFullName": "Lisa White",
+          "ownerConsent": true,
+          "purchaseProofAvailable": true,
+          "deviceAgeInYears": 4
+        }
+      },
+      {
+        "query": "Verify my Lenovo device using the identifier LEN123456. My full name is Robert Black. I agree to the recycling, but I don't have a proof of purchase. The device is approximately 1 year old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "LEN123456"
+          ],
+          "userFullName": "Robert Black",
+          "ownerConsent": true,
+          "purchaseProofAvailable": false,
+          "deviceAgeInYears": 1
+        }
+      }
+    ]
+  },
+  "DeviceVerification_verifyDevice|:|Microsoft|:|deviceIdentifiers,userFullName,ownerConsent,purchaseProofAvailable,deviceAgeInYears": {
+    "tool_template_name": "DeviceVerification_verifyDevice",
+    "derived_class": "Microsoft",
+    "params_for_query": [
+      "deviceIdentifiers",
+      "userFullName",
+      "ownerConsent",
+      "purchaseProofAvailable",
+      "deviceAgeInYears"
+    ],
+    "queries": [
+      {
+        "query": "Please verify my Microsoft device with serial number SN1234567890. My name is John Doe, and I consent to the recycling process. I have the proof of purchase, and the device is approximately 3 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "SN1234567890"
+          ],
+          "userFullName": "John Doe",
+          "ownerConsent": true,
+          "purchaseProofAvailable": true,
+          "deviceAgeInYears": 3
+        }
+      },
+      {
+        "query": "I, Jane Smith, have a Microsoft Surface with IMEI 001234567890123. I give consent for recycling and can provide the purchase proof. The device is around 2 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "001234567890123"
+          ],
+          "userFullName": "Jane Smith",
+          "ownerConsent": true,
+          "purchaseProofAvailable": true,
+          "deviceAgeInYears": 2
+        }
+      },
+      {
+        "query": "Verify my Microsoft device for recycling. User: Michael Johnson. Device IMEI: 123456789012345. I consent to recycling, but I don't have proof of purchase. The device age is about 5 years.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "123456789012345"
+          ],
+          "userFullName": "Michael Johnson",
+          "ownerConsent": true,
+          "purchaseProofAvailable": false,
+          "deviceAgeInYears": 5
+        }
+      },
+      {
+        "query": "This is Emily Davis. I have a Microsoft device with serial number MS0987654321. I agree to recycle it and have the purchase receipt available. It's 4 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "MS0987654321"
+          ],
+          "userFullName": "Emily Davis",
+          "ownerConsent": true,
+          "purchaseProofAvailable": true,
+          "deviceAgeInYears": 4
+        }
+      },
+      {
+        "query": "Can you check my Microsoft device for recycling? My name is Robert Brown, and the serial is SR56789012345. I do not give consent as I lack the purchase proof, and it is 1 year old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "SR56789012345"
+          ],
+          "userFullName": "Robert Brown",
+          "ownerConsent": false,
+          "purchaseProofAvailable": false,
+          "deviceAgeInYears": 1
+        }
+      }
+    ]
+  },
+  "DeviceVerification_verifyDevice|:|ASUS|:|deviceIdentifiers,userFullName,ownerConsent,purchaseProofAvailable,deviceAgeInYears": {
+    "tool_template_name": "DeviceVerification_verifyDevice",
+    "derived_class": "ASUS",
+    "params_for_query": [
+      "deviceIdentifiers",
+      "userFullName",
+      "ownerConsent",
+      "purchaseProofAvailable",
+      "deviceAgeInYears"
+    ],
+    "queries": [
+      {
+        "query": "Please verify my ASUS device for recycling. The serial number is 'ASUS12345678', and my name is John Doe. I have given consent for recycling, can provide proof of purchase, and the device is 3 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "ASUS12345678"
+          ],
+          "userFullName": "John Doe",
+          "ownerConsent": true,
+          "purchaseProofAvailable": true,
+          "deviceAgeInYears": 3
+        }
+      },
+      {
+        "query": "I need to verify my ASUS device with identifiers IMEI: '123456789012345', Serial: 'ASUS87654321'. My full name is Jane Smith. I consent to the recycling process, but I cannot provide proof of purchase. The device is approximately 2 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "123456789012345",
+            "ASUS87654321"
+          ],
+          "userFullName": "Jane Smith",
+          "ownerConsent": true,
+          "purchaseProofAvailable": false,
+          "deviceAgeInYears": 2
+        }
+      },
+      {
+        "query": "Can you check the details for my ASUS device? The identifiers are IMEI: '111222333444555' and Serial: 'ASUS98765432'. I am Alex Johnson, and I have given my consent. I do not have the purchase proof, and the device is 1 year old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "111222333444555",
+            "ASUS98765432"
+          ],
+          "userFullName": "Alex Johnson",
+          "ownerConsent": true,
+          "purchaseProofAvailable": false,
+          "deviceAgeInYears": 1
+        }
+      },
+      {
+        "query": "Verify ASUS device for recycling with serial number 'ASUS24681012'. My name is Emily Davis. I have not consented to recycling yet, but I can provide proof of purchase. The device is 4 years old.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "ASUS24681012"
+          ],
+          "userFullName": "Emily Davis",
+          "ownerConsent": false,
+          "purchaseProofAvailable": true,
+          "deviceAgeInYears": 4
+        }
+      },
+      {
+        "query": "I want to recycle my ASUS device. The identifiers include IMEI '555666777888999' and Serial 'ASUS13579135'. The full name is Michael Brown. I consent to recycling and can show proof of purchase. The device has been used for 5 years.",
+        "filled_param": {
+          "deviceIdentifiers": [
+            "555666777888999",
+            "ASUS13579135"
+          ],
+          "userFullName": "Michael Brown",
+          "ownerConsent": true,
+          "purchaseProofAvailable": true,
+          "deviceAgeInYears": 5
+        }
+      }
+    ]
+  }
+}

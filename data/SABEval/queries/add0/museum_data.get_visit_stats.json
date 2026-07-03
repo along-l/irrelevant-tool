@@ -1,0 +1,342 @@
+{
+  "museum_data.get_visit_stats|:|museum|:|city,year": {
+    "tool_template_name": "museum_data.get_visit_stats",
+    "derived_class": "museum",
+    "params_for_query": [
+      "city",
+      "year"
+    ],
+    "queries": [
+      {
+        "query": "What were the museum visit statistics for London in 2022?",
+        "filled_param": {
+          "city": "London",
+          "year": 2022
+        }
+      },
+      {
+        "query": "Could you provide the museum visitation numbers in Paris for the year 2019?",
+        "filled_param": {
+          "city": "Paris",
+          "year": 2019
+        }
+      },
+      {
+        "query": "I'd like to know the museum visit stats for New York in 2021.",
+        "filled_param": {
+          "city": "New York",
+          "year": 2021
+        }
+      },
+      {
+        "query": "What are the statistics for museum visits in Tokyo during 2020?",
+        "filled_param": {
+          "city": "Tokyo",
+          "year": 2020
+        }
+      },
+      {
+        "query": "Can you tell me about the museum visitation figures for Berlin in 2018?",
+        "filled_param": {
+          "city": "Berlin",
+          "year": 2018
+        }
+      },
+      {
+        "query": "Get the museum visit statistics for Sydney for the year 2017.",
+        "filled_param": {
+          "city": "Sydney",
+          "year": 2017
+        }
+      },
+      {
+        "query": "Please retrieve museum visit data for Amsterdam in 2023.",
+        "filled_param": {
+          "city": "Amsterdam",
+          "year": 2023
+        }
+      }
+    ]
+  },
+  "museum_data.get_visit_stats|:|library|:|city,year": {
+    "tool_template_name": "museum_data.get_visit_stats",
+    "derived_class": "library",
+    "params_for_query": [
+      "city",
+      "year"
+    ],
+    "queries": [
+      {
+        "query": "Can you tell me the library visitation statistics for New York in 2020?",
+        "filled_param": {
+          "city": "New York",
+          "year": 2020
+        }
+      },
+      {
+        "query": "I need the library stats for Chicago from 2021.",
+        "filled_param": {
+          "city": "Chicago",
+          "year": 2021
+        }
+      },
+      {
+        "query": "Fetch the library visit numbers for Los Angeles in the year 2019.",
+        "filled_param": {
+          "city": "Los Angeles",
+          "year": 2019
+        }
+      },
+      {
+        "query": "What were the visitation stats for the library in Boston during 2022?",
+        "filled_param": {
+          "city": "Boston",
+          "year": 2022
+        }
+      },
+      {
+        "query": "Please provide the library visitation data for San Francisco for 2018.",
+        "filled_param": {
+          "city": "San Francisco",
+          "year": 2018
+        }
+      },
+      {
+        "query": "Retrieve the library statistics for Houston in 2023.",
+        "filled_param": {
+          "city": "Houston",
+          "year": 2023
+        }
+      }
+    ]
+  },
+  "museum_data.get_visit_stats|:|art gallery|:|city,year": {
+    "tool_template_name": "museum_data.get_visit_stats",
+    "derived_class": "art gallery",
+    "params_for_query": [
+      "city",
+      "year"
+    ],
+    "queries": [
+      {
+        "query": "What were the visitation stats for art galleries in New York City in 2022?",
+        "filled_param": {
+          "city": "New York City",
+          "year": 2022
+        }
+      },
+      {
+        "query": "Can you provide the 2019 visitor numbers for art galleries located in Paris?",
+        "filled_param": {
+          "city": "Paris",
+          "year": 2019
+        }
+      },
+      {
+        "query": "How many people visited art galleries in Tokyo during the year 2021?",
+        "filled_param": {
+          "city": "Tokyo",
+          "year": 2021
+        }
+      },
+      {
+        "query": "I am curious about the art gallery visitation figures in Berlin for the year 2020.",
+        "filled_param": {
+          "city": "Berlin",
+          "year": 2020
+        }
+      },
+      {
+        "query": "Fetch the art gallery visit statistics for Los Angeles for 2018.",
+        "filled_param": {
+          "city": "Los Angeles",
+          "year": 2018
+        }
+      },
+      {
+        "query": "Could you tell me how many visitors art galleries in London had in 2017?",
+        "filled_param": {
+          "city": "London",
+          "year": 2017
+        }
+      },
+      {
+        "query": "Get the visitation data for art galleries in Sydney for the year 2020.",
+        "filled_param": {
+          "city": "Sydney",
+          "year": 2020
+        }
+      }
+    ]
+  },
+  "museum_data.get_visit_stats|:|zoo|:|city,year": {
+    "tool_template_name": "museum_data.get_visit_stats",
+    "derived_class": "zoo",
+    "params_for_query": [
+      "city",
+      "year"
+    ],
+    "queries": [
+      {
+        "query": "What are the zoo visitation statistics for San Diego in 2021?",
+        "filled_param": {
+          "city": "San Diego",
+          "year": 2021
+        }
+      },
+      {
+        "query": "Can you provide the number of visitors to the zoo in Toronto for the year 2019?",
+        "filled_param": {
+          "city": "Toronto",
+          "year": 2019
+        }
+      },
+      {
+        "query": "I'd like to know the zoo attendance figures for Sydney for 2020.",
+        "filled_param": {
+          "city": "Sydney",
+          "year": 2020
+        }
+      },
+      {
+        "query": "Retrieve the zoo visit statistics for New York in 2022.",
+        "filled_param": {
+          "city": "New York",
+          "year": 2022
+        }
+      },
+      {
+        "query": "How many people visited the zoo in Berlin in the year 2018?",
+        "filled_param": {
+          "city": "Berlin",
+          "year": 2018
+        }
+      },
+      {
+        "query": "Get the 2017 zoo visitation data for the city of London.",
+        "filled_param": {
+          "city": "London",
+          "year": 2017
+        }
+      }
+    ]
+  },
+  "museum_data.get_visit_stats|:|botanical garden|:|city,year": {
+    "tool_template_name": "museum_data.get_visit_stats",
+    "derived_class": "botanical garden",
+    "params_for_query": [
+      "city",
+      "year"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the visitation stats for the botanical garden in New York for the year 2022?",
+        "filled_param": {
+          "city": "New York",
+          "year": 2022
+        }
+      },
+      {
+        "query": "I'm interested in knowing how many people visited the botanical garden in San Francisco in 2020.",
+        "filled_param": {
+          "city": "San Francisco",
+          "year": 2020
+        }
+      },
+      {
+        "query": "What were the visitor numbers for the botanical garden located in Chicago during the year 2021?",
+        "filled_param": {
+          "city": "Chicago",
+          "year": 2021
+        }
+      },
+      {
+        "query": "Can you tell me the visitation figures for the botanical garden in Miami for the year 2019?",
+        "filled_param": {
+          "city": "Miami",
+          "year": 2019
+        }
+      },
+      {
+        "query": "Retrieve the visitor statistics for the botanical garden in Seattle for the year 2018.",
+        "filled_param": {
+          "city": "Seattle",
+          "year": 2018
+        }
+      },
+      {
+        "query": "How many visitors attended the botanical garden in Los Angeles in 2021?",
+        "filled_param": {
+          "city": "Los Angeles",
+          "year": 2021
+        }
+      },
+      {
+        "query": "I'd like to know the number of visitors to the botanical garden in Boston for 2020.",
+        "filled_param": {
+          "city": "Boston",
+          "year": 2020
+        }
+      }
+    ]
+  },
+  "museum_data.get_visit_stats|:|aquarium|:|city,year": {
+    "tool_template_name": "museum_data.get_visit_stats",
+    "derived_class": "aquarium",
+    "params_for_query": [
+      "city",
+      "year"
+    ],
+    "queries": [
+      {
+        "query": "What were the visitation statistics for the aquarium in San Francisco in 2022?",
+        "filled_param": {
+          "city": "San Francisco",
+          "year": 2022
+        }
+      },
+      {
+        "query": "Can you give me the aquarium visit numbers in Sydney for the year 2019?",
+        "filled_param": {
+          "city": "Sydney",
+          "year": 2019
+        }
+      },
+      {
+        "query": "I'd like to know how many people visited the aquarium in Toronto during 2021.",
+        "filled_param": {
+          "city": "Toronto",
+          "year": 2021
+        }
+      },
+      {
+        "query": "Retrieve the aquarium visitor stats for New York City in 2020.",
+        "filled_param": {
+          "city": "New York City",
+          "year": 2020
+        }
+      },
+      {
+        "query": "What are the visitation statistics for the aquarium in Berlin for the year 2018?",
+        "filled_param": {
+          "city": "Berlin",
+          "year": 2018
+        }
+      },
+      {
+        "query": "How many visitors did the aquarium in Tokyo receive in 2017?",
+        "filled_param": {
+          "city": "Tokyo",
+          "year": 2017
+        }
+      },
+      {
+        "query": "Could you tell me the number of visits to the aquarium in London in 2023?",
+        "filled_param": {
+          "city": "London",
+          "year": 2023
+        }
+      }
+    ]
+  }
+}

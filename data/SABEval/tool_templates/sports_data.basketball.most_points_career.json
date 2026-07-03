@@ -1,0 +1,55 @@
+{
+  "tool_template_name": "sports_data.basketball.most_points_career",
+  "meta_data": {
+    "base_class": "Return the record for the most points scored by a player in a <league-based sport> - refers to any competitive sport organized into formal leagues, in which players can accumulate individual point-based statistics over their career.",
+    "derived_classes": [
+      "basketball",
+      "soccer",
+      "baseball",
+      "ice hockey",
+      "handball",
+      "field hockey",
+      "lacrosse",
+      "rugby",
+      "floorball",
+      "water polo",
+      "table tennis"
+    ],
+    "base_class_entity": "league"
+  },
+  "tool_template": {
+    "name": "sports_data.<class>.most_points_career",
+    "description": "Returns the record for the most points scored by a <class> player in a specific league.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "league": {
+          "type": "string",
+          "description": "The specific <class> league for which to fetch the record."
+        }
+      },
+      "required": [
+        "league"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "season_range": {
+      "type": "string",
+      "description": "The range of seasons (e.g., '2000-2010') to consider when fetching the most points record for a <class> player."
+    },
+    "include_playoffs": {
+      "type": "boolean",
+      "description": "A flag indicating whether to include playoff points in the total career points for the <class> player."
+    },
+    "minimum_games_played": {
+      "type": "integer",
+      "description": "The minimum number of games a <class> player must have played in their career to qualify for the most points record."
+    },
+    "data_source": {
+      "type": "string",
+      "description": "Specify which data source to use for fetching historical stats for the <class> player (e.g., 'official league API', 'sports-reference')."
+    }
+  }
+}

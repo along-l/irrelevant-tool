@@ -1,0 +1,341 @@
+{
+  "museum.get_waiting_time|:|museum|:|venue_name": {
+    "tool_template_name": "museum.get_waiting_time",
+    "derived_class": "museum",
+    "params_for_query": [
+      "venue_name"
+    ],
+    "queries": [
+      {
+        "query": "What's the current waiting time to enter the Louvre Museum?",
+        "filled_param": {
+          "venue_name": "Louvre Museum"
+        }
+      },
+      {
+        "query": "How long is the queue at the Metropolitan Museum of Art right now?",
+        "filled_param": {
+          "venue_name": "Metropolitan Museum of Art"
+        }
+      },
+      {
+        "query": "Please provide me with the estimated wait time at the British Museum.",
+        "filled_param": {
+          "venue_name": "British Museum"
+        }
+      },
+      {
+        "query": "Can you tell me the current waiting time for entering the Museum of Modern Art?",
+        "filled_param": {
+          "venue_name": "Museum of Modern Art"
+        }
+      },
+      {
+        "query": "I'm planning to visit the Rijksmuseum. How long will I have to wait?",
+        "filled_param": {
+          "venue_name": "Rijksmuseum"
+        }
+      },
+      {
+        "query": "What is the estimated queue time at the Smithsonian National Museum of Natural History?",
+        "filled_param": {
+          "venue_name": "Smithsonian National Museum of Natural History"
+        }
+      },
+      {
+        "query": "Tell me the waiting time at the Uffizi Gallery.",
+        "filled_param": {
+          "venue_name": "Uffizi Gallery"
+        }
+      }
+    ]
+  },
+  "museum.get_waiting_time|:|art gallery|:|venue_name": {
+    "tool_template_name": "museum.get_waiting_time",
+    "derived_class": "art gallery",
+    "params_for_query": [
+      "venue_name"
+    ],
+    "queries": [
+      {
+        "query": "What's the waiting time at the Louvre art gallery today?",
+        "filled_param": {
+          "venue_name": "Louvre"
+        }
+      },
+      {
+        "query": "Can you find out how long the wait is at the Museum of Modern Art art gallery?",
+        "filled_param": {
+          "venue_name": "Museum of Modern Art"
+        }
+      },
+      {
+        "query": "I need to know the current waiting time for the Rijksmuseum art gallery.",
+        "filled_param": {
+          "venue_name": "Rijksmuseum"
+        }
+      },
+      {
+        "query": "Please give me the waiting time at the Uffizi art gallery.",
+        "filled_param": {
+          "venue_name": "Uffizi"
+        }
+      },
+      {
+        "query": "How long do I have to wait to get into the Tate Modern art gallery?",
+        "filled_param": {
+          "venue_name": "Tate Modern"
+        }
+      },
+      {
+        "query": "Check the wait time at the Guggenheim art gallery for me.",
+        "filled_param": {
+          "venue_name": "Guggenheim"
+        }
+      },
+      {
+        "query": "Could you tell me the estimated waiting time at the National Gallery of Art?",
+        "filled_param": {
+          "venue_name": "National Gallery of Art"
+        }
+      }
+    ]
+  },
+  "museum.get_waiting_time|:|zoo|:|venue_name": {
+    "tool_template_name": "museum.get_waiting_time",
+    "derived_class": "zoo",
+    "params_for_query": [
+      "venue_name"
+    ],
+    "queries": [
+      {
+        "query": "What's the current waiting time at the San Diego Zoo?",
+        "filled_param": {
+          "venue_name": "San Diego Zoo"
+        }
+      },
+      {
+        "query": "Can you tell me how long the wait is at the Bronx Zoo right now?",
+        "filled_param": {
+          "venue_name": "Bronx Zoo"
+        }
+      },
+      {
+        "query": "Find out the estimated wait time at the London Zoo.",
+        "filled_param": {
+          "venue_name": "London Zoo"
+        }
+      },
+      {
+        "query": "I'm planning to visit the Singapore Zoo. How long is the wait currently?",
+        "filled_param": {
+          "venue_name": "Singapore Zoo"
+        }
+      },
+      {
+        "query": "Please provide me with the current waiting time for the Berlin Zoo.",
+        "filled_param": {
+          "venue_name": "Berlin Zoo"
+        }
+      },
+      {
+        "query": "What is the estimated waiting period at the Toronto Zoo at the moment?",
+        "filled_param": {
+          "venue_name": "Toronto Zoo"
+        }
+      },
+      {
+        "query": "Could you check the wait time for the Taronga Zoo?",
+        "filled_param": {
+          "venue_name": "Taronga Zoo"
+        }
+      }
+    ]
+  },
+  "museum.get_waiting_time|:|botanical garden|:|venue_name": {
+    "tool_template_name": "museum.get_waiting_time",
+    "derived_class": "botanical garden",
+    "params_for_query": [
+      "venue_name"
+    ],
+    "queries": [
+      {
+        "query": "What's the current waiting time to enter the Brooklyn Botanical Garden?",
+        "filled_param": {
+          "venue_name": "Brooklyn Botanical Garden"
+        }
+      },
+      {
+        "query": "Can you tell me the estimated waiting time at the Singapore Botanical Garden?",
+        "filled_param": {
+          "venue_name": "Singapore Botanical Garden"
+        }
+      },
+      {
+        "query": "How long is the wait at the Royal Botanical Garden in Melbourne right now?",
+        "filled_param": {
+          "venue_name": "Royal Botanical Garden, Melbourne"
+        }
+      },
+      {
+        "query": "I need to know the waiting duration for the Kew Botanical Garden.",
+        "filled_param": {
+          "venue_name": "Kew Botanical Garden"
+        }
+      },
+      {
+        "query": "Could you provide the current queue time for the Denver Botanical Garden?",
+        "filled_param": {
+          "venue_name": "Denver Botanical Garden"
+        }
+      },
+      {
+        "query": "What's the estimated wait time to visit the Montreal Botanical Garden today?",
+        "filled_param": {
+          "venue_name": "Montreal Botanical Garden"
+        }
+      }
+    ]
+  },
+  "museum.get_waiting_time|:|aquarium|:|venue_name": {
+    "tool_template_name": "museum.get_waiting_time",
+    "derived_class": "aquarium",
+    "params_for_query": [
+      "venue_name"
+    ],
+    "queries": [
+      {
+        "query": "What is the current waiting time at the Monterey Bay Aquarium?",
+        "filled_param": {
+          "venue_name": "Monterey Bay Aquarium"
+        }
+      },
+      {
+        "query": "Can you tell me the estimated wait time for the Georgia Aquarium?",
+        "filled_param": {
+          "venue_name": "Georgia Aquarium"
+        }
+      },
+      {
+        "query": "I'd like to know the waiting time to enter the Shedd Aquarium today.",
+        "filled_param": {
+          "venue_name": "Shedd Aquarium"
+        }
+      },
+      {
+        "query": "How long is the wait at the Ripley's Aquarium right now?",
+        "filled_param": {
+          "venue_name": "Ripley's Aquarium"
+        }
+      },
+      {
+        "query": "Could you provide the waiting time for the National Aquarium at the moment?",
+        "filled_param": {
+          "venue_name": "National Aquarium"
+        }
+      },
+      {
+        "query": "Find out the estimated wait time for the Vancouver Aquarium, please.",
+        "filled_param": {
+          "venue_name": "Vancouver Aquarium"
+        }
+      },
+      {
+        "query": "Is there a long wait at the New England Aquarium currently?",
+        "filled_param": {
+          "venue_name": "New England Aquarium"
+        }
+      }
+    ]
+  },
+  "museum.get_waiting_time|:|restaurant|:|venue_name": {
+    "tool_template_name": "museum.get_waiting_time",
+    "derived_class": "restaurant",
+    "params_for_query": [
+      "venue_name"
+    ],
+    "queries": [
+      {
+        "query": "Can you find out the current waiting time at Olive Garden restaurant?",
+        "filled_param": {
+          "venue_name": "Olive Garden"
+        }
+      },
+      {
+        "query": "What's the estimated wait time for a table at The Cheesecake Factory restaurant?",
+        "filled_param": {
+          "venue_name": "The Cheesecake Factory"
+        }
+      },
+      {
+        "query": "I'd like to know how long the wait is at Nobu restaurant.",
+        "filled_param": {
+          "venue_name": "Nobu"
+        }
+      },
+      {
+        "query": "Please tell me the waiting time at Chipotle restaurant right now.",
+        "filled_param": {
+          "venue_name": "Chipotle"
+        }
+      },
+      {
+        "query": "Could you check the wait time at Joe's Crab Shack restaurant?",
+        "filled_param": {
+          "venue_name": "Joe's Crab Shack"
+        }
+      },
+      {
+        "query": "Can you provide the current wait time at Red Lobster restaurant?",
+        "filled_param": {
+          "venue_name": "Red Lobster"
+        }
+      }
+    ]
+  },
+  "museum.get_waiting_time|:|amusement park|:|venue_name": {
+    "tool_template_name": "museum.get_waiting_time",
+    "derived_class": "amusement park",
+    "params_for_query": [
+      "venue_name"
+    ],
+    "queries": [
+      {
+        "query": "What's the current waiting time at Disneyland amusement park?",
+        "filled_param": {
+          "venue_name": "Disneyland"
+        }
+      },
+      {
+        "query": "Can you tell me the estimated wait time at Universal Studios amusement park?",
+        "filled_param": {
+          "venue_name": "Universal Studios"
+        }
+      },
+      {
+        "query": "I'd like to know the waiting time at Six Flags amusement park right now.",
+        "filled_param": {
+          "venue_name": "Six Flags"
+        }
+      },
+      {
+        "query": "Please provide the current wait times for rides at Tivoli Gardens amusement park.",
+        "filled_param": {
+          "venue_name": "Tivoli Gardens"
+        }
+      },
+      {
+        "query": "How long are the lines at Alton Towers amusement park today?",
+        "filled_param": {
+          "venue_name": "Alton Towers"
+        }
+      },
+      {
+        "query": "What is the expected waiting time now at Busch Gardens amusement park?",
+        "filled_param": {
+          "venue_name": "Busch Gardens"
+        }
+      }
+    ]
+  }
+}

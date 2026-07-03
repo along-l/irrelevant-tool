@@ -1,0 +1,400 @@
+{
+  "ScrumProjectManager_trackProgress|:|Waterfall|:|solutionID,date,progressMetric,teamID,includeBurndownChart": {
+    "tool_template_name": "ScrumProjectManager_trackProgress",
+    "derived_class": "Waterfall",
+    "params_for_query": [
+      "solutionID",
+      "date",
+      "progressMetric",
+      "teamID",
+      "includeBurndownChart"
+    ],
+    "queries": [
+      {
+        "query": "Provide the Waterfall project progress update for solution ID 1234XYZ on 2023-09-15, focusing on Tasks Completed for team A1B2, and include a burndown chart.",
+        "filled_param": {
+          "solutionID": "1234XYZ",
+          "date": "2023-09-15",
+          "progressMetric": "Tasks Completed",
+          "teamID": "A1B2",
+          "includeBurndownChart": true
+        }
+      },
+      {
+        "query": "What's the Waterfall progress for solution ID 9876LMN on 2023-10-01 using Story Points as the metric for team C3D4, without a burndown chart?",
+        "filled_param": {
+          "solutionID": "9876LMN",
+          "date": "2023-10-01",
+          "progressMetric": "Story Points",
+          "teamID": "C3D4",
+          "includeBurndownChart": false
+        }
+      },
+      {
+        "query": "Give me the Waterfall project status for solution 5678GHJ on 2023-08-20, tracking Hours Logged for team E5F6, and ensure the report includes a burndown chart.",
+        "filled_param": {
+          "solutionID": "5678GHJ",
+          "date": "2023-08-20",
+          "progressMetric": "Hours Logged",
+          "teamID": "E5F6",
+          "includeBurndownChart": true
+        }
+      },
+      {
+        "query": "I need the progress of the Waterfall project for solution ID 2468QRS on 2023-11-05, with a focus on the Tasks Completed metric for team G7H8, and exclude the burndown chart.",
+        "filled_param": {
+          "solutionID": "2468QRS",
+          "date": "2023-11-05",
+          "progressMetric": "Tasks Completed",
+          "teamID": "G7H8",
+          "includeBurndownChart": false
+        }
+      },
+      {
+        "query": "Can you report the Waterfall progress for solution ID 1357TUV on 2023-07-30 using Hours Logged for team I9J0, and please include the burndown chart?",
+        "filled_param": {
+          "solutionID": "1357TUV",
+          "date": "2023-07-30",
+          "progressMetric": "Hours Logged",
+          "teamID": "I9J0",
+          "includeBurndownChart": true
+        }
+      }
+    ]
+  },
+  "ScrumProjectManager_trackProgress|:|Iterative|:|solutionID,date,progressMetric,teamID,includeBurndownChart": {
+    "tool_template_name": "ScrumProjectManager_trackProgress",
+    "derived_class": "Iterative",
+    "params_for_query": [
+      "solutionID",
+      "date",
+      "progressMetric",
+      "teamID",
+      "includeBurndownChart"
+    ],
+    "queries": [
+      {
+        "query": "For Iterative project with solution ID 'SOL123', provide the progress update for 2023-09-15 using Story Points for team ID 'TEAM456' with a burndown chart included.",
+        "filled_param": {
+          "solutionID": "SOL123",
+          "date": "2023-09-15",
+          "progressMetric": "Story Points",
+          "teamID": "TEAM456",
+          "includeBurndownChart": true
+        }
+      },
+      {
+        "query": "Can you track the Iterative project's progress using Tasks Completed for solution ID 'SOL789' on 2023-10-01 for team ID 'TEAM101', excluding a burndown chart?",
+        "filled_param": {
+          "solutionID": "SOL789",
+          "date": "2023-10-01",
+          "progressMetric": "Tasks Completed",
+          "teamID": "TEAM101",
+          "includeBurndownChart": false
+        }
+      },
+      {
+        "query": "Get me the project progress report for the Iterative solution 'SOL456' on 2023-08-20 using Hours Logged for team 'TEAM202' and show a burndown chart.",
+        "filled_param": {
+          "solutionID": "SOL456",
+          "date": "2023-08-20",
+          "progressMetric": "Hours Logged",
+          "teamID": "TEAM202",
+          "includeBurndownChart": true
+        }
+      },
+      {
+        "query": "I need an update on the Iterative project status for solution 'SOL321' on 2023-07-10, tracked by Story Points for team 'TEAM303', and do not include a burndown chart.",
+        "filled_param": {
+          "solutionID": "SOL321",
+          "date": "2023-07-10",
+          "progressMetric": "Story Points",
+          "teamID": "TEAM303",
+          "includeBurndownChart": false
+        }
+      },
+      {
+        "query": "Please provide the Iterative project progress details for solution ID 'SOL654', dated 2023-06-25 using Tasks Completed, for team 'TEAM404', and include a burndown chart.",
+        "filled_param": {
+          "solutionID": "SOL654",
+          "date": "2023-06-25",
+          "progressMetric": "Tasks Completed",
+          "teamID": "TEAM404",
+          "includeBurndownChart": true
+        }
+      }
+    ]
+  },
+  "ScrumProjectManager_trackProgress|:|Incremental|:|solutionID,date,progressMetric,teamID,includeBurndownChart": {
+    "tool_template_name": "ScrumProjectManager_trackProgress",
+    "derived_class": "Incremental",
+    "params_for_query": [
+      "solutionID",
+      "date",
+      "progressMetric",
+      "teamID",
+      "includeBurndownChart"
+    ],
+    "queries": [
+      {
+        "query": "I need an update on the Incremental project for solution ID 'SOL123' as of 2023-09-15, focusing on Tasks Completed for team ID 'TEAM456'. Include a burndown chart in the report.",
+        "filled_param": {
+          "solutionID": "SOL123",
+          "date": "2023-09-15",
+          "progressMetric": "Tasks Completed",
+          "teamID": "TEAM456",
+          "includeBurndownChart": true
+        }
+      },
+      {
+        "query": "Could you track the Incremental project progress for the technical solution 'SOL789' on 2023-10-01? I'm interested in Story Points for team 'TEAM321' and don't include a burndown chart.",
+        "filled_param": {
+          "solutionID": "SOL789",
+          "date": "2023-10-01",
+          "progressMetric": "Story Points",
+          "teamID": "TEAM321",
+          "includeBurndownChart": false
+        }
+      },
+      {
+        "query": "Provide a progress update on the Incremental project for solution 'SOL456' dated 2023-08-30, using Hours Logged as the metric for team ID 'TEAM123'. The report should include a burndown chart.",
+        "filled_param": {
+          "solutionID": "SOL456",
+          "date": "2023-08-30",
+          "progressMetric": "Hours Logged",
+          "teamID": "TEAM123",
+          "includeBurndownChart": true
+        }
+      },
+      {
+        "query": "Can you give me the Incremental project progress for solution ID 'SOL101' on 2023-07-20, focusing on Tasks Completed for team 'TEAM789'? Exclude the burndown chart, please.",
+        "filled_param": {
+          "solutionID": "SOL101",
+          "date": "2023-07-20",
+          "progressMetric": "Tasks Completed",
+          "teamID": "TEAM789",
+          "includeBurndownChart": false
+        }
+      },
+      {
+        "query": "I want to see how the Incremental project is progressing for solution 'SOL002', specifically for team 'TEAM002' on 2023-09-10. Use Story Points as the metric and make sure to include a burndown chart.",
+        "filled_param": {
+          "solutionID": "SOL002",
+          "date": "2023-09-10",
+          "progressMetric": "Story Points",
+          "teamID": "TEAM002",
+          "includeBurndownChart": true
+        }
+      },
+      {
+        "query": "Get me the Incremental project update for solution ID 'SOL555' on 2023-07-01. Focus on Hours Logged for team ID 'TEAM654', and skip the burndown chart.",
+        "filled_param": {
+          "solutionID": "SOL555",
+          "date": "2023-07-01",
+          "progressMetric": "Hours Logged",
+          "teamID": "TEAM654",
+          "includeBurndownChart": false
+        }
+      }
+    ]
+  },
+  "ScrumProjectManager_trackProgress|:|Prototyping|:|solutionID,date,progressMetric,teamID,includeBurndownChart": {
+    "tool_template_name": "ScrumProjectManager_trackProgress",
+    "derived_class": "Prototyping",
+    "params_for_query": [
+      "solutionID",
+      "date",
+      "progressMetric",
+      "teamID",
+      "includeBurndownChart"
+    ],
+    "queries": [
+      {
+        "query": "Give me an update on the Prototyping project for solution ID 12345 on 2023-10-01, showing tasks completed by team ID T001, and include a burndown chart.",
+        "filled_param": {
+          "solutionID": "12345",
+          "date": "2023-10-01",
+          "progressMetric": "Tasks Completed",
+          "teamID": "T001",
+          "includeBurndownChart": true
+        }
+      },
+      {
+        "query": "What is the Prototyping progress for solution ID A789 on the date 2023-09-15, based on hours logged by team B12, without a burndown chart?",
+        "filled_param": {
+          "solutionID": "A789",
+          "date": "2023-09-15",
+          "progressMetric": "Hours Logged",
+          "teamID": "B12",
+          "includeBurndownChart": false
+        }
+      },
+      {
+        "query": "Can you provide the Prototyping project progress update for solution ID X456 for 2023-11-05 using story points for team Z900? Exclude a burndown chart, please.",
+        "filled_param": {
+          "solutionID": "X456",
+          "date": "2023-11-05",
+          "progressMetric": "Story Points",
+          "teamID": "Z900",
+          "includeBurndownChart": false
+        }
+      },
+      {
+        "query": "I need the progress metrics for Prototyping project solution ID C333 on 2023-12-01 based on tasks completed by team F45, and include a burndown chart.",
+        "filled_param": {
+          "solutionID": "C333",
+          "date": "2023-12-01",
+          "progressMetric": "Tasks Completed",
+          "teamID": "F45",
+          "includeBurndownChart": true
+        }
+      },
+      {
+        "query": "Please track the Prototyping progress for solution ID Q567 dated 2023-08-10, using hours logged by team G77, and ensure to add a burndown chart.",
+        "filled_param": {
+          "solutionID": "Q567",
+          "date": "2023-08-10",
+          "progressMetric": "Hours Logged",
+          "teamID": "G77",
+          "includeBurndownChart": true
+        }
+      },
+      {
+        "query": "Fetch the Prototyping project status for solution ID Z999 on 2023-07-20, measured by story points for team H23, without a burndown chart.",
+        "filled_param": {
+          "solutionID": "Z999",
+          "date": "2023-07-20",
+          "progressMetric": "Story Points",
+          "teamID": "H23",
+          "includeBurndownChart": false
+        }
+      }
+    ]
+  },
+  "ScrumProjectManager_trackProgress|:|Spiral|:|solutionID,date,progressMetric,teamID,includeBurndownChart": {
+    "tool_template_name": "ScrumProjectManager_trackProgress",
+    "derived_class": "Spiral",
+    "params_for_query": [
+      "solutionID",
+      "date",
+      "progressMetric",
+      "teamID",
+      "includeBurndownChart"
+    ],
+    "queries": [
+      {
+        "query": "Can you give me a progress update on solution ID S12345 for team T67890 on 2023-09-15 using Story Points, including a burndown chart?",
+        "filled_param": {
+          "solutionID": "S12345",
+          "date": "2023-09-15",
+          "progressMetric": "Story Points",
+          "teamID": "T67890",
+          "includeBurndownChart": true
+        }
+      },
+      {
+        "query": "I need to track the progress of solution ID A98765 for team T54321 on 2023-08-01 using the Tasks Completed metric. Please exclude the burndown chart.",
+        "filled_param": {
+          "solutionID": "A98765",
+          "date": "2023-08-01",
+          "progressMetric": "Tasks Completed",
+          "teamID": "T54321",
+          "includeBurndownChart": false
+        }
+      },
+      {
+        "query": "Provide the Spiral project progress for solution B24680, team T11223 on 2023-10-05 with Hours Logged as the metric and include a burndown chart.",
+        "filled_param": {
+          "solutionID": "B24680",
+          "date": "2023-10-05",
+          "progressMetric": "Hours Logged",
+          "teamID": "T11223",
+          "includeBurndownChart": true
+        }
+      },
+      {
+        "query": "What is the status of the Spiral project for solution ID C13579 and team T99887 on 2023-07-20 in terms of Story Points, no burndown chart needed?",
+        "filled_param": {
+          "solutionID": "C13579",
+          "date": "2023-07-20",
+          "progressMetric": "Story Points",
+          "teamID": "T99887",
+          "includeBurndownChart": false
+        }
+      },
+      {
+        "query": "I require a progress report for solution ID D86420, team T33445 as of 2023-09-10 using Tasks Completed metric, with a burndown chart.",
+        "filled_param": {
+          "solutionID": "D86420",
+          "date": "2023-09-10",
+          "progressMetric": "Tasks Completed",
+          "teamID": "T33445",
+          "includeBurndownChart": true
+        }
+      }
+    ]
+  },
+  "ScrumProjectManager_trackProgress|:|Kanban|:|solutionID,date,progressMetric,teamID,includeBurndownChart": {
+    "tool_template_name": "ScrumProjectManager_trackProgress",
+    "derived_class": "Kanban",
+    "params_for_query": [
+      "solutionID",
+      "date",
+      "progressMetric",
+      "teamID",
+      "includeBurndownChart"
+    ],
+    "queries": [
+      {
+        "query": "Please provide the Kanban project progress for solution X123 as of 2023-10-01, using Story Points as the metric for team T789, and include a burndown chart.",
+        "filled_param": {
+          "solutionID": "X123",
+          "date": "2023-10-01",
+          "progressMetric": "Story Points",
+          "teamID": "T789",
+          "includeBurndownChart": true
+        }
+      },
+      {
+        "query": "Can you track the Kanban progress for project Y456 on 2023-09-15 by measuring Tasks Completed, for team A321, without the burndown chart?",
+        "filled_param": {
+          "solutionID": "Y456",
+          "date": "2023-09-15",
+          "progressMetric": "Tasks Completed",
+          "teamID": "A321",
+          "includeBurndownChart": false
+        }
+      },
+      {
+        "query": "I need a report on the Kanban project progress of solution Z789 for the date 2023-11-05, using Hours Logged as the metric. This is for team B654, and a burndown chart is required.",
+        "filled_param": {
+          "solutionID": "Z789",
+          "date": "2023-11-05",
+          "progressMetric": "Hours Logged",
+          "teamID": "B654",
+          "includeBurndownChart": true
+        }
+      },
+      {
+        "query": "Generate a Kanban progress update for solution A111 on 2023-12-10, focusing on Story Points for team C987, excluding the burndown chart.",
+        "filled_param": {
+          "solutionID": "A111",
+          "date": "2023-12-10",
+          "progressMetric": "Story Points",
+          "teamID": "C987",
+          "includeBurndownChart": false
+        }
+      },
+      {
+        "query": "What is the Kanban project status for solution B222 on 2023-08-20, tracked by Tasks Completed for team D123, and include a burndown chart?",
+        "filled_param": {
+          "solutionID": "B222",
+          "date": "2023-08-20",
+          "progressMetric": "Tasks Completed",
+          "teamID": "D123",
+          "includeBurndownChart": true
+        }
+      }
+    ]
+  }
+}

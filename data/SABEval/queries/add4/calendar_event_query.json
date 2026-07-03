@@ -1,0 +1,573 @@
+{
+  "calendar_event_query|:|Google calendar|:|query,time_hint,timezone,include_recurring,max_results": {
+    "tool_template_name": "calendar_event_query",
+    "derived_class": "Google calendar",
+    "params_for_query": [
+      "query",
+      "time_hint",
+      "timezone",
+      "include_recurring",
+      "max_results"
+    ],
+    "queries": [
+      {
+        "query": "Can you find events related to 'project meeting' on my Google calendar starting from 2023-09-15 09:00 in the Europe/London timezone, including recurring ones, and limit the results to 5?",
+        "filled_param": {
+          "query": "project meeting",
+          "time_hint": "2023-09-15 09:00",
+          "timezone": "Europe/London",
+          "include_recurring": true,
+          "max_results": 5
+        }
+      },
+      {
+        "query": "I need to locate 'doctor appointment' entries on my Google calendar from 2023-10-10 08:00 in the America/New_York timezone, include recurring events, and show me up to 3 results.",
+        "filled_param": {
+          "query": "doctor appointment",
+          "time_hint": "2023-10-10 08:00",
+          "timezone": "America/New_York",
+          "include_recurring": true,
+          "max_results": 3
+        }
+      },
+      {
+        "query": "Please search my Google calendar for 'birthday party' events starting 2023-12-01 14:00 in the Asia/Tokyo timezone, exclude recurring ones, and return a maximum of 7 results.",
+        "filled_param": {
+          "query": "birthday party",
+          "time_hint": "2023-12-01 14:00",
+          "timezone": "Asia/Tokyo",
+          "include_recurring": false,
+          "max_results": 7
+        }
+      },
+      {
+        "query": "Could you look for 'conference call' events on my Google calendar from 2023-11-05 10:30 in the Australia/Sydney timezone, exclude recurring, and provide up to 10 entries?",
+        "filled_param": {
+          "query": "conference call",
+          "time_hint": "2023-11-05 10:30",
+          "timezone": "Australia/Sydney",
+          "include_recurring": false,
+          "max_results": 10
+        }
+      },
+      {
+        "query": "Find all 'family dinner' events on my Google calendar starting from 2023-07-20 19:00 in the America/Los_Angeles timezone, include recurring events, and list up to 4 results.",
+        "filled_param": {
+          "query": "family dinner",
+          "time_hint": "2023-07-20 19:00",
+          "timezone": "America/Los_Angeles",
+          "include_recurring": true,
+          "max_results": 4
+        }
+      },
+      {
+        "query": "Search for 'yoga class' in my Google calendar starting on 2023-08-15 06:00 in the Europe/Paris timezone, include recurring events, and show me up to 2 results.",
+        "filled_param": {
+          "query": "yoga class",
+          "time_hint": "2023-08-15 06:00",
+          "timezone": "Europe/Paris",
+          "include_recurring": true,
+          "max_results": 2
+        }
+      },
+      {
+        "query": "Can you find 'workshop' events on my Google calendar beginning 2023-11-01 09:00 in the Asia/Kolkata timezone, without including recurring ones, and limit the output to 6 results?",
+        "filled_param": {
+          "query": "workshop",
+          "time_hint": "2023-11-01 09:00",
+          "timezone": "Asia/Kolkata",
+          "include_recurring": false,
+          "max_results": 6
+        }
+      }
+    ]
+  },
+  "calendar_event_query|:|Apple calendar|:|query,time_hint,timezone,include_recurring,max_results": {
+    "tool_template_name": "calendar_event_query",
+    "derived_class": "Apple calendar",
+    "params_for_query": [
+      "query",
+      "time_hint",
+      "timezone",
+      "include_recurring",
+      "max_results"
+    ],
+    "queries": [
+      {
+        "query": "Search my Apple calendar for meetings scheduled with 'Project Phoenix' on 2023-10-15 14:00 in the Europe/Paris timezone, including recurring events, and show a maximum of 5 results.",
+        "filled_param": {
+          "query": "Project Phoenix",
+          "time_hint": "2023-10-15 14:00",
+          "timezone": "Europe/Paris",
+          "include_recurring": true,
+          "max_results": 5
+        }
+      },
+      {
+        "query": "Look up 'doctor appointment' in my Apple calendar around 2023-11-20 09:00 for the America/New_York timezone. Include recurring events and limit the results to 10.",
+        "filled_param": {
+          "query": "doctor appointment",
+          "time_hint": "2023-11-20 09:00",
+          "timezone": "America/New_York",
+          "include_recurring": true,
+          "max_results": 10
+        }
+      },
+      {
+        "query": "Find 'team lunch' events set for 2023-12-01 12:30 in the Asia/Tokyo timezone on my Apple calendar, without including recurring ones, and show up to 3 results.",
+        "filled_param": {
+          "query": "team lunch",
+          "time_hint": "2023-12-01 12:30",
+          "timezone": "Asia/Tokyo",
+          "include_recurring": false,
+          "max_results": 3
+        }
+      },
+      {
+        "query": "Can you locate 'weekly sync' on my Apple calendar scheduled for 2023-09-05 15:00 in the Europe/London timezone, excluding recurring events, with a maximum of 7 results?",
+        "filled_param": {
+          "query": "weekly sync",
+          "time_hint": "2023-09-05 15:00",
+          "timezone": "Europe/London",
+          "include_recurring": false,
+          "max_results": 7
+        }
+      },
+      {
+        "query": "Search for 'gym session' in my Apple calendar on 2023-08-10 18:00 in the Australia/Sydney timezone, include recurring, and return up to 2 results.",
+        "filled_param": {
+          "query": "gym session",
+          "time_hint": "2023-08-10 18:00",
+          "timezone": "Australia/Sydney",
+          "include_recurring": true,
+          "max_results": 2
+        }
+      },
+      {
+        "query": "Retrieve 'birthday party' events on my Apple calendar for 2023-07-23 19:00 in the America/Chicago timezone, include recurring, with a cap of 4 results.",
+        "filled_param": {
+          "query": "birthday party",
+          "time_hint": "2023-07-23 19:00",
+          "timezone": "America/Chicago",
+          "include_recurring": true,
+          "max_results": 4
+        }
+      },
+      {
+        "query": "Look for 'conference call' entries in my Apple calendar on 2023-06-30 11:00, timezone Europe/Berlin, without recurring events, and display no more than 8 results.",
+        "filled_param": {
+          "query": "conference call",
+          "time_hint": "2023-06-30 11:00",
+          "timezone": "Europe/Berlin",
+          "include_recurring": false,
+          "max_results": 8
+        }
+      }
+    ]
+  },
+  "calendar_event_query|:|Outlook calendar|:|query,time_hint,timezone,include_recurring,max_results": {
+    "tool_template_name": "calendar_event_query",
+    "derived_class": "Outlook calendar",
+    "params_for_query": [
+      "query",
+      "time_hint",
+      "timezone",
+      "include_recurring",
+      "max_results"
+    ],
+    "queries": [
+      {
+        "query": "Find all Outlook calendar events related to 'team meeting' happening around 2023-10-15 09:00 in Europe/London time, including recurring ones, and limit the results to 5 events.",
+        "filled_param": {
+          "query": "team meeting",
+          "time_hint": "2023-10-15 09:00",
+          "timezone": "Europe/London",
+          "include_recurring": true,
+          "max_results": 5
+        }
+      },
+      {
+        "query": "Search my Outlook calendar for 'project deadline' events on 2023-11-01 00:00 in Asia/Tokyo timezone, excluding recurring events, and show up to 10 results.",
+        "filled_param": {
+          "query": "project deadline",
+          "time_hint": "2023-11-01 00:00",
+          "timezone": "Asia/Tokyo",
+          "include_recurring": false,
+          "max_results": 10
+        }
+      },
+      {
+        "query": "Are there any 'doctor appointment' events in my Outlook calendar around 2023-08-20 14:00 in America/New_York, including all recurring ones, with a maximum of 3 results?",
+        "filled_param": {
+          "query": "doctor appointment",
+          "time_hint": "2023-08-20 14:00",
+          "timezone": "America/New_York",
+          "include_recurring": true,
+          "max_results": 3
+        }
+      },
+      {
+        "query": "Look for 'workshop' events in my Outlook calendar for 2024-01-10 13:00 in Australia/Sydney timezone, without including recurring events, and return no more than 7 results.",
+        "filled_param": {
+          "query": "workshop",
+          "time_hint": "2024-01-10 13:00",
+          "timezone": "Australia/Sydney",
+          "include_recurring": false,
+          "max_results": 7
+        }
+      },
+      {
+        "query": "Can you locate 'budget review' events in my Outlook calendar near 2023-09-05 15:00 in Europe/Paris time zone, include recurring entries, and give a list of up to 4 events?",
+        "filled_param": {
+          "query": "budget review",
+          "time_hint": "2023-09-05 15:00",
+          "timezone": "Europe/Paris",
+          "include_recurring": true,
+          "max_results": 4
+        }
+      },
+      {
+        "query": "Search for 'conference call' events on my Outlook calendar at 2023-07-21 11:00 in America/Chicago, exclude recurring events, and limit the findings to 6.",
+        "filled_param": {
+          "query": "conference call",
+          "time_hint": "2023-07-21 11:00",
+          "timezone": "America/Chicago",
+          "include_recurring": false,
+          "max_results": 6
+        }
+      },
+      {
+        "query": "Please find 'client meeting' events on my Outlook calendar set for 2023-12-25 10:00 in Asia/Dubai time, keep recurring events included, and provide no more than 8 events.",
+        "filled_param": {
+          "query": "client meeting",
+          "time_hint": "2023-12-25 10:00",
+          "timezone": "Asia/Dubai",
+          "include_recurring": true,
+          "max_results": 8
+        }
+      }
+    ]
+  },
+  "calendar_event_query|:|Yahoo calendar|:|query,time_hint,timezone,include_recurring,max_results": {
+    "tool_template_name": "calendar_event_query",
+    "derived_class": "Yahoo calendar",
+    "params_for_query": [
+      "query",
+      "time_hint",
+      "timezone",
+      "include_recurring",
+      "max_results"
+    ],
+    "queries": [
+      {
+        "query": "On my Yahoo calendar, find events with the keyword 'meeting' scheduled around 2023-10-15 09:00 in the Europe/London timezone, including recurring ones, and show me up to 5 results.",
+        "filled_param": {
+          "query": "meeting",
+          "time_hint": "2023-10-15 09:00",
+          "timezone": "Europe/London",
+          "include_recurring": true,
+          "max_results": 5
+        }
+      },
+      {
+        "query": "Look for 'birthday' events in my Yahoo calendar happening near 2023-12-25 00:00 in the timezone Asia/Tokyo, excluding recurring events, and list up to 10 of them.",
+        "filled_param": {
+          "query": "birthday",
+          "time_hint": "2023-12-25 00:00",
+          "timezone": "Asia/Tokyo",
+          "include_recurring": false,
+          "max_results": 10
+        }
+      },
+      {
+        "query": "Search my Yahoo calendar for events containing 'conference' around 2024-01-10 14:30 in the timezone America/New_York, and include recurring ones with a maximum of 3 results.",
+        "filled_param": {
+          "query": "conference",
+          "time_hint": "2024-01-10 14:30",
+          "timezone": "America/New_York",
+          "include_recurring": true,
+          "max_results": 3
+        }
+      },
+      {
+        "query": "Find in my Yahoo calendar any 'webinar' planned on or near 2023-11-20 08:00 within the timezone Australia/Sydney, excluding recurring events, and display up to 7 results.",
+        "filled_param": {
+          "query": "webinar",
+          "time_hint": "2023-11-20 08:00",
+          "timezone": "Australia/Sydney",
+          "include_recurring": false,
+          "max_results": 7
+        }
+      },
+      {
+        "query": "Can you check my Yahoo calendar for 'workshop' events close to 2023-09-01 15:00 in the timezone America/Los_Angeles, including recurring ones, and list up to 6?",
+        "filled_param": {
+          "query": "workshop",
+          "time_hint": "2023-09-01 15:00",
+          "timezone": "America/Los_Angeles",
+          "include_recurring": true,
+          "max_results": 6
+        }
+      },
+      {
+        "query": "Please search my Yahoo calendar for any 'training' events around 2023-08-05 10:00 in the timezone Africa/Johannesburg, include recurring events and limit the results to 4.",
+        "filled_param": {
+          "query": "training",
+          "time_hint": "2023-08-05 10:00",
+          "timezone": "Africa/Johannesburg",
+          "include_recurring": true,
+          "max_results": 4
+        }
+      },
+      {
+        "query": "Look up 'appointment' events on my Yahoo calendar near 2024-02-14 13:00 in the timezone Europe/Berlin, and please exclude recurring ones, with a maximum of 8 results.",
+        "filled_param": {
+          "query": "appointment",
+          "time_hint": "2024-02-14 13:00",
+          "timezone": "Europe/Berlin",
+          "include_recurring": false,
+          "max_results": 8
+        }
+      }
+    ]
+  },
+  "calendar_event_query|:|Samsung calendar|:|query,time_hint,timezone,include_recurring,max_results": {
+    "tool_template_name": "calendar_event_query",
+    "derived_class": "Samsung calendar",
+    "params_for_query": [
+      "query",
+      "time_hint",
+      "timezone",
+      "include_recurring",
+      "max_results"
+    ],
+    "queries": [
+      {
+        "query": "Find Samsung calendar events related to 'Project Alpha' from March 15, 2023, 09:00 in Europe/Paris timezone, including recurring ones, and show up to 5 results.",
+        "filled_param": {
+          "query": "Project Alpha",
+          "time_hint": "2023-03-15 09:00",
+          "timezone": "Europe/Paris",
+          "include_recurring": true,
+          "max_results": 5
+        }
+      },
+      {
+        "query": "Search my Samsung calendar for meetings with 'Client XYZ' starting from 2023-07-01 14:30 in Asia/Tokyo time zone, exclude recurring events, and limit results to 3.",
+        "filled_param": {
+          "query": "Client XYZ",
+          "time_hint": "2023-07-01 14:30",
+          "timezone": "Asia/Tokyo",
+          "include_recurring": false,
+          "max_results": 3
+        }
+      },
+      {
+        "query": "Look up 'Doctor Appointment' in my Samsung calendar starting at 2023-09-10 08:00 in America/New_York timezone, include all recurring appointments, and return up to 10 results.",
+        "filled_param": {
+          "query": "Doctor Appointment",
+          "time_hint": "2023-09-10 08:00",
+          "timezone": "America/New_York",
+          "include_recurring": true,
+          "max_results": 10
+        }
+      },
+      {
+        "query": "Check Samsung calendar for any 'Workshop' scheduled from 2023-05-25 16:00 in Australia/Sydney timezone, including recurring workshops, and show a maximum of 7 results.",
+        "filled_param": {
+          "query": "Workshop",
+          "time_hint": "2023-05-25 16:00",
+          "timezone": "Australia/Sydney",
+          "include_recurring": true,
+          "max_results": 7
+        }
+      },
+      {
+        "query": "Can you search for 'Holiday Party' in my Samsung calendar starting from 2022-12-05 19:00 in Africa/Johannesburg timezone, don't include recurring events, and give me up to 4 results?",
+        "filled_param": {
+          "query": "Holiday Party",
+          "time_hint": "2022-12-05 19:00",
+          "timezone": "Africa/Johannesburg",
+          "include_recurring": false,
+          "max_results": 4
+        }
+      },
+      {
+        "query": "Find Samsung calendar entries with 'Team Lunch' from 2023-04-20 12:00 in America/Chicago timezone, exclude recurring events, and show the top 2 results.",
+        "filled_param": {
+          "query": "Team Lunch",
+          "time_hint": "2023-04-20 12:00",
+          "timezone": "America/Chicago",
+          "include_recurring": false,
+          "max_results": 2
+        }
+      },
+      {
+        "query": "Look for 'Conference Call' in my Samsung calendar starting at 2023-11-11 15:15 in Europe/London timezone, include recurring calls, and limit the output to 6 results.",
+        "filled_param": {
+          "query": "Conference Call",
+          "time_hint": "2023-11-11 15:15",
+          "timezone": "Europe/London",
+          "include_recurring": true,
+          "max_results": 6
+        }
+      }
+    ]
+  },
+  "calendar_event_query|:|Proton calendar|:|query,time_hint,timezone,include_recurring,max_results": {
+    "tool_template_name": "calendar_event_query",
+    "derived_class": "Proton calendar",
+    "params_for_query": [
+      "query",
+      "time_hint",
+      "timezone",
+      "include_recurring",
+      "max_results"
+    ],
+    "queries": [
+      {
+        "query": "Find Proton calendar events related to 'team meeting' scheduled around 2023-12-01 10:00 in the timezone Europe/Paris, including recurring ones, and show up to 10 results.",
+        "filled_param": {
+          "query": "team meeting",
+          "time_hint": "2023-12-01 10:00",
+          "timezone": "Europe/Paris",
+          "include_recurring": true,
+          "max_results": 10
+        }
+      },
+      {
+        "query": "Search for Proton calendar entries with 'doctor appointment' on 2023-11-15 15:00 in the timezone America/New_York, exclude recurring events, and limit the results to 5.",
+        "filled_param": {
+          "query": "doctor appointment",
+          "time_hint": "2023-11-15 15:00",
+          "timezone": "America/New_York",
+          "include_recurring": false,
+          "max_results": 5
+        }
+      },
+      {
+        "query": "Locate Proton calendar events under 'project deadline' for 2023-10-25 09:00 in the timezone Asia/Tokyo, including all recurring ones, and show a maximum of 3 results.",
+        "filled_param": {
+          "query": "project deadline",
+          "time_hint": "2023-10-25 09:00",
+          "timezone": "Asia/Tokyo",
+          "include_recurring": true,
+          "max_results": 3
+        }
+      },
+      {
+        "query": "Pull up Proton calendar events with the keyword 'birthday party' around 2023-11-20 18:00, timezone Australia/Sydney, without any recurring instances, and show no more than 8 entries.",
+        "filled_param": {
+          "query": "birthday party",
+          "time_hint": "2023-11-20 18:00",
+          "timezone": "Australia/Sydney",
+          "include_recurring": false,
+          "max_results": 8
+        }
+      },
+      {
+        "query": "Get Proton calendar events for 'conference call' on 2023-12-05 11:30 in the timezone America/Chicago, include recurring events, and display up to 6 results.",
+        "filled_param": {
+          "query": "conference call",
+          "time_hint": "2023-12-05 11:30",
+          "timezone": "America/Chicago",
+          "include_recurring": true,
+          "max_results": 6
+        }
+      },
+      {
+        "query": "Look for Proton calendar entries titled 'workshop' scheduled around 2023-12-10 14:00 in the timezone Europe/London, ensuring no recurring events are included, and limit the results to 4.",
+        "filled_param": {
+          "query": "workshop",
+          "time_hint": "2023-12-10 14:00",
+          "timezone": "Europe/London",
+          "include_recurring": false,
+          "max_results": 4
+        }
+      },
+      {
+        "query": "Check Proton calendar for 'holiday trip' events on 2023-11-30 07:00, timezone Africa/Johannesburg, include all recurring events, and show only 2 results.",
+        "filled_param": {
+          "query": "holiday trip",
+          "time_hint": "2023-11-30 07:00",
+          "timezone": "Africa/Johannesburg",
+          "include_recurring": true,
+          "max_results": 2
+        }
+      }
+    ]
+  },
+  "calendar_event_query|:|Zoho calendar|:|query,time_hint,timezone,include_recurring,max_results": {
+    "tool_template_name": "calendar_event_query",
+    "derived_class": "Zoho calendar",
+    "params_for_query": [
+      "query",
+      "time_hint",
+      "timezone",
+      "include_recurring",
+      "max_results"
+    ],
+    "queries": [
+      {
+        "query": "Find all Zoho calendar events related to 'project meeting' happening on 2023-11-05 14:00 in the timezone 'America/New_York', including recurring events, and limit the results to 10.",
+        "filled_param": {
+          "query": "project meeting",
+          "time_hint": "2023-11-05 14:00",
+          "timezone": "America/New_York",
+          "include_recurring": true,
+          "max_results": 10
+        }
+      },
+      {
+        "query": "Could you search for 'doctor appointment' events in my Zoho calendar on 2023-07-20 09:00, within the 'Europe/London' timezone, excluding recurring ones, and show up to 5 results?",
+        "filled_param": {
+          "query": "doctor appointment",
+          "time_hint": "2023-07-20 09:00",
+          "timezone": "Europe/London",
+          "include_recurring": false,
+          "max_results": 5
+        }
+      },
+      {
+        "query": "Look up 'team lunch' in the Zoho calendar for 2024-01-15 12:00, in timezone 'Asia/Tokyo', including recurring events, and return a maximum of 7 results.",
+        "filled_param": {
+          "query": "team lunch",
+          "time_hint": "2024-01-15 12:00",
+          "timezone": "Asia/Tokyo",
+          "include_recurring": true,
+          "max_results": 7
+        }
+      },
+      {
+        "query": "Search all 'conference call' events on my Zoho calendar for 2023-09-01 15:00, timezone set to 'Australia/Sydney', don't include recurring events, and cap results at 3.",
+        "filled_param": {
+          "query": "conference call",
+          "time_hint": "2023-09-01 15:00",
+          "timezone": "Australia/Sydney",
+          "include_recurring": false,
+          "max_results": 3
+        }
+      },
+      {
+        "query": "Please search for 'birthday celebration' events in the Zoho calendar on 2023-12-25 18:00, using the 'America/Los_Angeles' timezone, including recurring ones, and limit the results to 15.",
+        "filled_param": {
+          "query": "birthday celebration",
+          "time_hint": "2023-12-25 18:00",
+          "timezone": "America/Los_Angeles",
+          "include_recurring": true,
+          "max_results": 15
+        }
+      },
+      {
+        "query": "Find 'workshop' sessions on my Zoho calendar for 2023-10-10 10:00 in 'Europe/Paris', exclude recurring events, and provide just 8 results.",
+        "filled_param": {
+          "query": "workshop",
+          "time_hint": "2023-10-10 10:00",
+          "timezone": "Europe/Paris",
+          "include_recurring": false,
+          "max_results": 8
+        }
+      }
+    ]
+  }
+}

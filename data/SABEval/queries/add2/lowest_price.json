@@ -1,0 +1,452 @@
+{
+  "lowest_price|:|electronic product|:|city,product_name,currency,include_taxes": {
+    "tool_template_name": "lowest_price",
+    "derived_class": "electronic product",
+    "params_for_query": [
+      "city",
+      "product_name",
+      "currency",
+      "include_taxes"
+    ],
+    "queries": [
+      {
+        "query": "Can you find the lowest price for an iPhone 13 in New York, displayed in USD, including taxes?",
+        "filled_param": {
+          "city": "New York",
+          "product_name": "iPhone 13",
+          "currency": "USD",
+          "include_taxes": true
+        }
+      },
+      {
+        "query": "What is the cheapest price for a Samsung Galaxy Tab in Tokyo, shown in JPY, without taxes?",
+        "filled_param": {
+          "city": "Tokyo",
+          "product_name": "Samsung Galaxy Tab",
+          "currency": "JPY",
+          "include_taxes": false
+        }
+      },
+      {
+        "query": "Please provide the lowest cost of a Sony PlayStation 5 in Berlin, in EUR, taxes included.",
+        "filled_param": {
+          "city": "Berlin",
+          "product_name": "Sony PlayStation 5",
+          "currency": "EUR",
+          "include_taxes": true
+        }
+      },
+      {
+        "query": "Find out the lowest price for a Dell XPS 13 in Sydney, with the amount in AUD, excluding taxes.",
+        "filled_param": {
+          "city": "Sydney",
+          "product_name": "Dell XPS 13",
+          "currency": "AUD",
+          "include_taxes": false
+        }
+      },
+      {
+        "query": "What is the minimum price for a Bose QuietComfort 35 in London, in GBP, with taxes?",
+        "filled_param": {
+          "city": "London",
+          "product_name": "Bose QuietComfort 35",
+          "currency": "GBP",
+          "include_taxes": true
+        }
+      },
+      {
+        "query": "Could you tell me the lowest price for a Canon EOS R5 in Paris, listed in EUR, not including taxes?",
+        "filled_param": {
+          "city": "Paris",
+          "product_name": "Canon EOS R5",
+          "currency": "EUR",
+          "include_taxes": false
+        }
+      },
+      {
+        "query": "Look up the least expensive Nintendo Switch in Toronto, with pricing in CAD, without tax.",
+        "filled_param": {
+          "city": "Toronto",
+          "product_name": "Nintendo Switch",
+          "currency": "CAD",
+          "include_taxes": false
+        }
+      }
+    ]
+  },
+  "lowest_price|:|clothing product|:|city,product_name,currency,include_taxes": {
+    "tool_template_name": "lowest_price",
+    "derived_class": "clothing product",
+    "params_for_query": [
+      "city",
+      "product_name",
+      "currency",
+      "include_taxes"
+    ],
+    "queries": [
+      {
+        "query": "What's the lowest price for a winter coat in New York City, displayed in USD and including taxes?",
+        "filled_param": {
+          "city": "New York City",
+          "product_name": "winter coat",
+          "currency": "USD",
+          "include_taxes": true
+        }
+      },
+      {
+        "query": "Find me the cheapest pair of running shoes available in Tokyo, listed in JPY without taxes.",
+        "filled_param": {
+          "city": "Tokyo",
+          "product_name": "running shoes",
+          "currency": "JPY",
+          "include_taxes": false
+        }
+      },
+      {
+        "query": "Can you tell me the lowest price for a leather jacket in Paris, using EUR and factoring in taxes?",
+        "filled_param": {
+          "city": "Paris",
+          "product_name": "leather jacket",
+          "currency": "EUR",
+          "include_taxes": true
+        }
+      },
+      {
+        "query": "What's the best price for a denim skirt in Sydney, shown in AUD excluding taxes?",
+        "filled_param": {
+          "city": "Sydney",
+          "product_name": "denim skirt",
+          "currency": "AUD",
+          "include_taxes": false
+        }
+      },
+      {
+        "query": "Show me the lowest cost for a formal suit in London in GBP, inclusive of taxes.",
+        "filled_param": {
+          "city": "London",
+          "product_name": "formal suit",
+          "currency": "GBP",
+          "include_taxes": true
+        }
+      },
+      {
+        "query": "Locate the minimum price for a pair of jeans in Berlin, priced in EUR and excluding taxes.",
+        "filled_param": {
+          "city": "Berlin",
+          "product_name": "jeans",
+          "currency": "EUR",
+          "include_taxes": false
+        }
+      },
+      {
+        "query": "I'd like to know the lowest price for a summer dress in Los Angeles, in USD, not including taxes.",
+        "filled_param": {
+          "city": "Los Angeles",
+          "product_name": "summer dress",
+          "currency": "USD",
+          "include_taxes": false
+        }
+      }
+    ]
+  },
+  "lowest_price|:|furniture|:|city,product_name,currency,include_taxes": {
+    "tool_template_name": "lowest_price",
+    "derived_class": "furniture",
+    "params_for_query": [
+      "city",
+      "product_name",
+      "currency",
+      "include_taxes"
+    ],
+    "queries": [
+      {
+        "query": "Could you tell me the lowest price for a dining table in New York, including taxes, in USD?",
+        "filled_param": {
+          "city": "New York",
+          "product_name": "dining table",
+          "currency": "USD",
+          "include_taxes": true
+        }
+      },
+      {
+        "query": "Find the cheapest office chair available in Toronto, priced in CAD and excluding taxes.",
+        "filled_param": {
+          "city": "Toronto",
+          "product_name": "office chair",
+          "currency": "CAD",
+          "include_taxes": false
+        }
+      },
+      {
+        "query": "What's the lowest price for a sofa in Sydney, with taxes included, in AUD?",
+        "filled_param": {
+          "city": "Sydney",
+          "product_name": "sofa",
+          "currency": "AUD",
+          "include_taxes": true
+        }
+      },
+      {
+        "query": "Can you find me the best price for a bookshelf in London in GBP, including taxes?",
+        "filled_param": {
+          "city": "London",
+          "product_name": "bookshelf",
+          "currency": "GBP",
+          "include_taxes": true
+        }
+      },
+      {
+        "query": "Please provide the lowest cost for a bed frame in Tokyo, stated in JPY, without taxes.",
+        "filled_param": {
+          "city": "Tokyo",
+          "product_name": "bed frame",
+          "currency": "JPY",
+          "include_taxes": false
+        }
+      },
+      {
+        "query": "Where can I find the least expensive wardrobe in Berlin, with the price in EUR and taxes included?",
+        "filled_param": {
+          "city": "Berlin",
+          "product_name": "wardrobe",
+          "currency": "EUR",
+          "include_taxes": true
+        }
+      },
+      {
+        "query": "Tell me the lowest price for a coffee table in Paris, in EUR, excluding taxes.",
+        "filled_param": {
+          "city": "Paris",
+          "product_name": "coffee table",
+          "currency": "EUR",
+          "include_taxes": false
+        }
+      }
+    ]
+  },
+  "lowest_price|:|sporting goods|:|city,product_name,currency,include_taxes": {
+    "tool_template_name": "lowest_price",
+    "derived_class": "sporting goods",
+    "params_for_query": [
+      "city",
+      "product_name",
+      "currency",
+      "include_taxes"
+    ],
+    "queries": [
+      {
+        "query": "Can you find the lowest price for a tennis racket in New York, including taxes, with the amount shown in USD?",
+        "filled_param": {
+          "city": "New York",
+          "product_name": "tennis racket",
+          "currency": "USD",
+          "include_taxes": true
+        }
+      },
+      {
+        "query": "I'd like to know the lowest cost of a basketball in Tokyo. Please ensure the price is in JPY and excludes taxes.",
+        "filled_param": {
+          "city": "Tokyo",
+          "product_name": "basketball",
+          "currency": "JPY",
+          "include_taxes": false
+        }
+      },
+      {
+        "query": "What's the lowest price of a mountain bike in Berlin, with taxes included, priced in EUR?",
+        "filled_param": {
+          "city": "Berlin",
+          "product_name": "mountain bike",
+          "currency": "EUR",
+          "include_taxes": true
+        }
+      },
+      {
+        "query": "Find me the cheapest pair of running shoes in Sydney, without including taxes, and display the price in AUD.",
+        "filled_param": {
+          "city": "Sydney",
+          "product_name": "running shoes",
+          "currency": "AUD",
+          "include_taxes": false
+        }
+      },
+      {
+        "query": "Where can I get the lowest price for a cricket bat in London, including taxes, in GBP?",
+        "filled_param": {
+          "city": "London",
+          "product_name": "cricket bat",
+          "currency": "GBP",
+          "include_taxes": true
+        }
+      },
+      {
+        "query": "Could you tell me the lowest price for a yoga mat available in Paris? The price should be in EUR and exclude taxes.",
+        "filled_param": {
+          "city": "Paris",
+          "product_name": "yoga mat",
+          "currency": "EUR",
+          "include_taxes": false
+        }
+      },
+      {
+        "query": "What's the cheapest price for a set of golf clubs in Los Angeles, with taxes included, priced in USD?",
+        "filled_param": {
+          "city": "Los Angeles",
+          "product_name": "golf clubs",
+          "currency": "USD",
+          "include_taxes": true
+        }
+      }
+    ]
+  },
+  "lowest_price|:|food product|:|city,product_name,currency,include_taxes": {
+    "tool_template_name": "lowest_price",
+    "derived_class": "food product",
+    "params_for_query": [
+      "city",
+      "product_name",
+      "currency",
+      "include_taxes"
+    ],
+    "queries": [
+      {
+        "query": "Find the lowest price for apples in New York, including taxes, and provide it in USD.",
+        "filled_param": {
+          "city": "New York",
+          "product_name": "apples",
+          "currency": "USD",
+          "include_taxes": true
+        }
+      },
+      {
+        "query": "What is the cheapest available price for a loaf of bread in London, excluding taxes, in GBP?",
+        "filled_param": {
+          "city": "London",
+          "product_name": "loaf of bread",
+          "currency": "GBP",
+          "include_taxes": false
+        }
+      },
+      {
+        "query": "I'd like to know the lowest price for a bottle of olive oil in Rome, taxes included, shown in EUR.",
+        "filled_param": {
+          "city": "Rome",
+          "product_name": "bottle of olive oil",
+          "currency": "EUR",
+          "include_taxes": true
+        }
+      },
+      {
+        "query": "Can you tell me the minimum cost for a bag of rice in Tokyo, without taxes, in JPY?",
+        "filled_param": {
+          "city": "Tokyo",
+          "product_name": "bag of rice",
+          "currency": "JPY",
+          "include_taxes": false
+        }
+      },
+      {
+        "query": "Look up the lowest price for a carton of milk in Sydney, including taxes, and return it in AUD.",
+        "filled_param": {
+          "city": "Sydney",
+          "product_name": "carton of milk",
+          "currency": "AUD",
+          "include_taxes": true
+        }
+      },
+      {
+        "query": "Get me the cheapest price for bananas in Mumbai, excluding taxes, and provide it in INR.",
+        "filled_param": {
+          "city": "Mumbai",
+          "product_name": "bananas",
+          "currency": "INR",
+          "include_taxes": false
+        }
+      },
+      {
+        "query": "What is the lowest price for a pack of cheese in Paris, with taxes included, in EUR?",
+        "filled_param": {
+          "city": "Paris",
+          "product_name": "pack of cheese",
+          "currency": "EUR",
+          "include_taxes": true
+        }
+      }
+    ]
+  },
+  "lowest_price|:|children toy|:|city,product_name,currency,include_taxes": {
+    "tool_template_name": "lowest_price",
+    "derived_class": "children toy",
+    "params_for_query": [
+      "city",
+      "product_name",
+      "currency",
+      "include_taxes"
+    ],
+    "queries": [
+      {
+        "query": "What is the lowest price for the children toy, Lego City Police Station, in New York in USD, including taxes?",
+        "filled_param": {
+          "city": "New York",
+          "product_name": "Lego City Police Station",
+          "currency": "USD",
+          "include_taxes": true
+        }
+      },
+      {
+        "query": "Find me the cheapest price for the children toy, Barbie Dreamhouse, in London, in GBP without including taxes.",
+        "filled_param": {
+          "city": "London",
+          "product_name": "Barbie Dreamhouse",
+          "currency": "GBP",
+          "include_taxes": false
+        }
+      },
+      {
+        "query": "Can you check the lowest price for the children toy, Hot Wheels Track Builder, in Tokyo with taxes included in JPY?",
+        "filled_param": {
+          "city": "Tokyo",
+          "product_name": "Hot Wheels Track Builder",
+          "currency": "JPY",
+          "include_taxes": true
+        }
+      },
+      {
+        "query": "I'd like to know the minimum price of the children toy, Nerf Elite Blaster, in Sydney in AUD, excluding taxes.",
+        "filled_param": {
+          "city": "Sydney",
+          "product_name": "Nerf Elite Blaster",
+          "currency": "AUD",
+          "include_taxes": false
+        }
+      },
+      {
+        "query": "What is the lowest price for the children toy, Fisher-Price Laugh & Learn, in Paris in EUR, including taxes?",
+        "filled_param": {
+          "city": "Paris",
+          "product_name": "Fisher-Price Laugh & Learn",
+          "currency": "EUR",
+          "include_taxes": true
+        }
+      },
+      {
+        "query": "Could you find the cheapest price for the children toy, Play-Doh Fun Factory, in Mumbai in INR, without taxes?",
+        "filled_param": {
+          "city": "Mumbai",
+          "product_name": "Play-Doh Fun Factory",
+          "currency": "INR",
+          "include_taxes": false
+        }
+      },
+      {
+        "query": "Please provide the lowest price of the children toy, Transformers Optimus Prime, in Toronto in CAD with taxes included.",
+        "filled_param": {
+          "city": "Toronto",
+          "product_name": "Transformers Optimus Prime",
+          "currency": "CAD",
+          "include_taxes": true
+        }
+      }
+    ]
+  }
+}

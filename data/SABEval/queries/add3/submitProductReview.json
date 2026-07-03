@@ -1,0 +1,800 @@
+{
+  "submitProductReview|:|movie disc|:|UserName,ProductName,ReviewText,Rating,PurchaseDate,UsageDuration,Location": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "movie disc",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate",
+      "UsageDuration",
+      "Location"
+    ],
+    "queries": [
+      {
+        "query": "I am John Doe and I'd like to submit a review for the movie disc 'Inception'. I found it absolutely thrilling and visually stunning! I give it a rating of 5. I bought it on March 10, 2023, and have watched it over five days. I primarily used it at my home in Los Angeles.",
+        "filled_param": {
+          "UserName": "John Doe",
+          "ProductName": "Inception",
+          "ReviewText": "I found it absolutely thrilling and visually stunning!",
+          "Rating": 5,
+          "PurchaseDate": "March 10, 2023",
+          "UsageDuration": 5,
+          "Location": "Los Angeles"
+        }
+      },
+      {
+        "query": "Emily Smith here. I want to review the movie disc 'The Godfather'. It was classic and engaging but a bit long for my taste. My rating is 4. I purchased it on February 5, 2022, and I spent about ten days watching it. The primary location was in New York.",
+        "filled_param": {
+          "UserName": "Emily Smith",
+          "ProductName": "The Godfather",
+          "ReviewText": "It was classic and engaging but a bit long for my taste.",
+          "Rating": 4,
+          "PurchaseDate": "February 5, 2022",
+          "UsageDuration": 10,
+          "Location": "New York"
+        }
+      },
+      {
+        "query": "This is Alex Johnson. I'm submitting my review for the movie disc 'Avatar'. The effects were groundbreaking, although the story was predictable. I'd rate it a 3. I bought it on December 1, 2021, and it took me seven days to watch it fully. I used it at my apartment in Chicago.",
+        "filled_param": {
+          "UserName": "Alex Johnson",
+          "ProductName": "Avatar",
+          "ReviewText": "The effects were groundbreaking, although the story was predictable.",
+          "Rating": 3,
+          "PurchaseDate": "December 1, 2021",
+          "UsageDuration": 7,
+          "Location": "Chicago"
+        }
+      },
+      {
+        "query": "My name is Sarah Lee and I'm reviewing the movie disc 'Titanic'. It was an emotional rollercoaster with stunning performances. I give it a 5-star rating. I purchased it on April 15, 2023, and watched it over three days. The disc was used mainly in San Francisco.",
+        "filled_param": {
+          "UserName": "Sarah Lee",
+          "ProductName": "Titanic",
+          "ReviewText": "It was an emotional rollercoaster with stunning performances.",
+          "Rating": 5,
+          "PurchaseDate": "April 15, 2023",
+          "UsageDuration": 3,
+          "Location": "San Francisco"
+        }
+      },
+      {
+        "query": "This is Michael Brown. I'd like to share my review for the movie disc 'The Shawshank Redemption'. It's a masterpiece in storytelling, but some parts felt slow. I rate it a 4. I got the disc on January 20, 2023, and took eight days to finish it. It was mostly used at my place in Miami.",
+        "filled_param": {
+          "UserName": "Michael Brown",
+          "ProductName": "The Shawshank Redemption",
+          "ReviewText": "It's a masterpiece in storytelling, but some parts felt slow.",
+          "Rating": 4,
+          "PurchaseDate": "January 20, 2023",
+          "UsageDuration": 8,
+          "Location": "Miami"
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|book|:|UserName,ProductName,ReviewText,Rating,PurchaseDate,UsageDuration,Location": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "book",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate",
+      "UsageDuration",
+      "Location"
+    ],
+    "queries": [
+      {
+        "query": "My name is Alex Johnson, and I want to submit a review for the book 'The Great Gatsby'. I found it to be an intriguing read, and I rate it 4 out of 5. I bought it on 2023-03-15 and have spent 10 days reading it in New York.",
+        "filled_param": {
+          "UserName": "Alex Johnson",
+          "ProductName": "The Great Gatsby",
+          "ReviewText": "I found it to be an intriguing read.",
+          "Rating": 4,
+          "PurchaseDate": "2023-03-15",
+          "UsageDuration": 10,
+          "Location": "New York"
+        }
+      },
+      {
+        "query": "I'm Jamie Lee and I’d like to post a review for 'To Kill a Mockingbird'. It's a wonderful book, deeply moving. I give it a 5-star rating. I bought it on 2023-05-20 and spent about 15 days with it here in Sydney.",
+        "filled_param": {
+          "UserName": "Jamie Lee",
+          "ProductName": "To Kill a Mockingbird",
+          "ReviewText": "It's a wonderful book, deeply moving.",
+          "Rating": 5,
+          "PurchaseDate": "2023-05-20",
+          "UsageDuration": 15,
+          "Location": "Sydney"
+        }
+      },
+      {
+        "query": "This is Emma Brown. I would like to leave a review for '1984'. I found the narrative compelling, but sometimes a bit dense. I rate it 3 stars. I purchased it on 2023-02-10 and read it over 7 days while in Chicago.",
+        "filled_param": {
+          "UserName": "Emma Brown",
+          "ProductName": "1984",
+          "ReviewText": "I found the narrative compelling, but sometimes a bit dense.",
+          "Rating": 3,
+          "PurchaseDate": "2023-02-10",
+          "UsageDuration": 7,
+          "Location": "Chicago"
+        }
+      },
+      {
+        "query": "My name is David Smith, and I would like to provide a review for 'The Catcher in the Rye'. In my opinion, it's a classic with timeless appeal, deserving a 5-star rating. I bought it on 2023-01-05 and spent 12 days reading it in London.",
+        "filled_param": {
+          "UserName": "David Smith",
+          "ProductName": "The Catcher in the Rye",
+          "ReviewText": "In my opinion, it's a classic with timeless appeal.",
+          "Rating": 5,
+          "PurchaseDate": "2023-01-05",
+          "UsageDuration": 12,
+          "Location": "London"
+        }
+      },
+      {
+        "query": "Hello, this is Sarah Green. I wish to share my thoughts on 'Pride and Prejudice'. I found the story charming but a bit slow in parts, so I rate it 3 stars. The purchase date was 2023-04-10, and I dedicated 8 days to reading it in Toronto.",
+        "filled_param": {
+          "UserName": "Sarah Green",
+          "ProductName": "Pride and Prejudice",
+          "ReviewText": "I found the story charming but a bit slow in parts.",
+          "Rating": 3,
+          "PurchaseDate": "2023-04-10",
+          "UsageDuration": 8,
+          "Location": "Toronto"
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|App Store app|:|UserName,ProductName,ReviewText,Rating,PurchaseDate,UsageDuration,Location": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "App Store app",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate",
+      "UsageDuration",
+      "Location"
+    ],
+    "queries": [
+      {
+        "query": "My name is Sarah Collins, and I just left a review for the App Store app 'Fitness Pro'. Here it is: 'Great app for tracking workouts and progress. It has helped me stay motivated.' I gave it a rating of 4. I purchased it on January 15, 2023, and have been using it for 45 days primarily in New York.",
+        "filled_param": {
+          "UserName": "Sarah Collins",
+          "ProductName": "Fitness Pro",
+          "ReviewText": "Great app for tracking workouts and progress. It has helped me stay motivated.",
+          "Rating": 4,
+          "PurchaseDate": "January 15, 2023",
+          "UsageDuration": 45,
+          "Location": "New York"
+        }
+      },
+      {
+        "query": "I'd like to submit my review for the App Store app 'Photo Editor Plus'. My username is Michael Brown. The review text is: 'User-friendly interface but lacks advanced features.' I rated it 3 stars. I bought it on March 8, 2023, and I have used it for 20 days in Los Angeles.",
+        "filled_param": {
+          "UserName": "Michael Brown",
+          "ProductName": "Photo Editor Plus",
+          "ReviewText": "User-friendly interface but lacks advanced features.",
+          "Rating": 3,
+          "PurchaseDate": "March 8, 2023",
+          "UsageDuration": 20,
+          "Location": "Los Angeles"
+        }
+      },
+      {
+        "query": "This is Emily Nguyen's review for the App Store app 'Cooking Mastery': 'An excellent resource for home cooking. Recipes are easy to follow.' I rated it 5 stars. Purchased on February 20, 2023, and I've been using it for 30 days in Chicago.",
+        "filled_param": {
+          "UserName": "Emily Nguyen",
+          "ProductName": "Cooking Mastery",
+          "ReviewText": "An excellent resource for home cooking. Recipes are easy to follow.",
+          "Rating": 5,
+          "PurchaseDate": "February 20, 2023",
+          "UsageDuration": 30,
+          "Location": "Chicago"
+        }
+      },
+      {
+        "query": "Here's my review for the App Store app 'Travel Buddy': My name is John Smith. I wrote: 'Useful for planning trips, but the map feature needs improvement.' I gave it a 3-star rating. I bought it on April 1, 2023, and I've used it for 15 days in San Francisco.",
+        "filled_param": {
+          "UserName": "John Smith",
+          "ProductName": "Travel Buddy",
+          "ReviewText": "Useful for planning trips, but the map feature needs improvement.",
+          "Rating": 3,
+          "PurchaseDate": "April 1, 2023",
+          "UsageDuration": 15,
+          "Location": "San Francisco"
+        }
+      },
+      {
+        "query": "I'd like to submit my review for the App Store app 'Language Learner'. My name is Alex Lee. Review: 'Great for beginners, but lacks content for advanced learners.' I rated it 3. Bought it on February 10, 2023, and have been using it for 60 days in Seattle.",
+        "filled_param": {
+          "UserName": "Alex Lee",
+          "ProductName": "Language Learner",
+          "ReviewText": "Great for beginners, but lacks content for advanced learners.",
+          "Rating": 3,
+          "PurchaseDate": "February 10, 2023",
+          "UsageDuration": 60,
+          "Location": "Seattle"
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|instant food|:|UserName,ProductName,ReviewText,Rating,PurchaseDate,UsageDuration,Location": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "instant food",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate",
+      "UsageDuration",
+      "Location"
+    ],
+    "queries": [
+      {
+        "query": "I'm John Doe and I want to review the instant food product 'Quick Noodles'. I bought it on 2023-05-12, used it for 14 days, and I'm based in New York. My review: 'The noodles were surprisingly flavorful and very easy to prepare. I'd rate them a 4 out of 5.'",
+        "filled_param": {
+          "UserName": "John Doe",
+          "ProductName": "Quick Noodles",
+          "ReviewText": "The noodles were surprisingly flavorful and very easy to prepare.",
+          "Rating": 4,
+          "PurchaseDate": "2023-05-12",
+          "UsageDuration": 14,
+          "Location": "New York"
+        }
+      },
+      {
+        "query": "Please submit my review for the instant food 'Speedy Oats'. My name is Jane Smith. I purchased it on 2023-06-05 in London. Over 10 days of using it, I've found them very convenient for busy mornings. The rating is 5. Review text: 'Quick to prepare and perfect for a healthy breakfast routine.'",
+        "filled_param": {
+          "UserName": "Jane Smith",
+          "ProductName": "Speedy Oats",
+          "ReviewText": "Quick to prepare and perfect for a healthy breakfast routine.",
+          "Rating": 5,
+          "PurchaseDate": "2023-06-05",
+          "UsageDuration": 10,
+          "Location": "London"
+        }
+      },
+      {
+        "query": "My name is Alex Turner. I'd like to submit a review for 'Instant Soup Mix'. I bought it on 2023-07-20, used it for 5 days in Sydney, and I'd give it a 3 out of 5. My review: 'The taste was okay, but it could use more seasoning.'",
+        "filled_param": {
+          "UserName": "Alex Turner",
+          "ProductName": "Instant Soup Mix",
+          "ReviewText": "The taste was okay, but it could use more seasoning.",
+          "Rating": 3,
+          "PurchaseDate": "2023-07-20",
+          "UsageDuration": 5,
+          "Location": "Sydney"
+        }
+      },
+      {
+        "query": "Submit a review for me, Olivia Brown, on the instant food 'Microwave Pasta'. Purchased on 2023-08-15, I used it over 7 days here in Toronto. Here's my feedback: 'Convenient but lacks authentic taste. I'd rate it 2.'",
+        "filled_param": {
+          "UserName": "Olivia Brown",
+          "ProductName": "Microwave Pasta",
+          "ReviewText": "Convenient but lacks authentic taste.",
+          "Rating": 2,
+          "PurchaseDate": "2023-08-15",
+          "UsageDuration": 7,
+          "Location": "Toronto"
+        }
+      },
+      {
+        "query": "I'd like to give a review for 'Fast Rice Meal', purchased on 2023-09-10. I've been using it for 20 days in San Francisco. I'm Michael Lee. My review: 'Excellent quick meal option, though a bit pricey. I give it 4 stars.'",
+        "filled_param": {
+          "UserName": "Michael Lee",
+          "ProductName": "Fast Rice Meal",
+          "ReviewText": "Excellent quick meal option, though a bit pricey.",
+          "Rating": 4,
+          "PurchaseDate": "2023-09-10",
+          "UsageDuration": 20,
+          "Location": "San Francisco"
+        }
+      },
+      {
+        "query": "This is Emma Wilson. I want to submit my review for 'Instant Porridge'. Bought on 2023-04-25 and used over a period of 12 days in Berlin. My review is: 'A practical breakfast solution, but could be creamier. I rate it a 3.'",
+        "filled_param": {
+          "UserName": "Emma Wilson",
+          "ProductName": "Instant Porridge",
+          "ReviewText": "A practical breakfast solution, but could be creamier.",
+          "Rating": 3,
+          "PurchaseDate": "2023-04-25",
+          "UsageDuration": 12,
+          "Location": "Berlin"
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|music album|:|UserName,ProductName,ReviewText,Rating,PurchaseDate,UsageDuration,Location": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "music album",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate",
+      "UsageDuration",
+      "Location"
+    ],
+    "queries": [
+      {
+        "query": "My name is Alex Brown, and I purchased the music album 'Nostalgia Waves' on September 15, 2023. After listening for about 30 days here in New York, I'd rate it a 4 out of 5. Here's my review: The album delivers a refreshing mix of vintage and modern sounds, though a couple of tracks felt repetitive.",
+        "filled_param": {
+          "UserName": "Alex Brown",
+          "ProductName": "Nostalgia Waves",
+          "ReviewText": "The album delivers a refreshing mix of vintage and modern sounds, though a couple of tracks felt repetitive.",
+          "Rating": 4,
+          "PurchaseDate": "September 15, 2023",
+          "UsageDuration": 30,
+          "Location": "New York"
+        }
+      },
+      {
+        "query": "I'm Jessica M., and I bought 'Echoes of Silence' on October 3, 2023. After enjoying it for 15 days in Los Angeles, I give it a 5-star rating. The album is stunning with its deep, immersive soundscapes.",
+        "filled_param": {
+          "UserName": "Jessica M.",
+          "ProductName": "Echoes of Silence",
+          "ReviewText": "The album is stunning with its deep, immersive soundscapes.",
+          "Rating": 5,
+          "PurchaseDate": "October 3, 2023",
+          "UsageDuration": 15,
+          "Location": "Los Angeles"
+        }
+      },
+      {
+        "query": "John Doe here, reviewing the music album 'Melodic Journeys'. I bought it on August 20, 2023, and have listened to it for 45 days in Chicago. I rate it 3 out of 5. The melodies are intriguing, but the lyrics lack depth.",
+        "filled_param": {
+          "UserName": "John Doe",
+          "ProductName": "Melodic Journeys",
+          "ReviewText": "The melodies are intriguing, but the lyrics lack depth.",
+          "Rating": 3,
+          "PurchaseDate": "August 20, 2023",
+          "UsageDuration": 45,
+          "Location": "Chicago"
+        }
+      },
+      {
+        "query": "This is Emma Wright. I purchased 'Rhythmic Beats' on July 10, 2023, and spent 60 days listening to it in Miami. I'd rate it a solid 4. Some tracks are absolute bangers, while others are just okay.",
+        "filled_param": {
+          "UserName": "Emma Wright",
+          "ProductName": "Rhythmic Beats",
+          "ReviewText": "Some tracks are absolute bangers, while others are just okay.",
+          "Rating": 4,
+          "PurchaseDate": "July 10, 2023",
+          "UsageDuration": 60,
+          "Location": "Miami"
+        }
+      },
+      {
+        "query": "I'm Michael Smith, and I've been listening to 'Harmony Lands' for 10 days in Seattle after purchasing it on October 1, 2023. My rating is a 2. The album lacks innovation and feels quite monotonous.",
+        "filled_param": {
+          "UserName": "Michael Smith",
+          "ProductName": "Harmony Lands",
+          "ReviewText": "The album lacks innovation and feels quite monotonous.",
+          "Rating": 2,
+          "PurchaseDate": "October 1, 2023",
+          "UsageDuration": 10,
+          "Location": "Seattle"
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|video game|:|UserName,ProductName,ReviewText,Rating,PurchaseDate,UsageDuration,Location": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "video game",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate",
+      "UsageDuration",
+      "Location"
+    ],
+    "queries": [
+      {
+        "query": "I am Alex Johnson, and I recently purchased 'Elden Ring' on March 15th, 2023. I've played it for 30 days here in Los Angeles, and I would rate it 5 stars. My review: 'One of the best open-world experiences with stunning graphics and challenging gameplay.'",
+        "filled_param": {
+          "UserName": "Alex Johnson",
+          "ProductName": "Elden Ring",
+          "ReviewText": "One of the best open-world experiences with stunning graphics and challenging gameplay.",
+          "Rating": 5,
+          "PurchaseDate": "March 15th, 2023",
+          "UsageDuration": 30,
+          "Location": "Los Angeles"
+        }
+      },
+      {
+        "query": "This is Sarah Lee. I bought 'Animal Crossing: New Horizons' on December 25th, 2022, and I've spent about 45 days playing it in Chicago. I would give it 4 stars. My review: 'A relaxing and endlessly charming game with plenty of activities to keep you engaged.'",
+        "filled_param": {
+          "UserName": "Sarah Lee",
+          "ProductName": "Animal Crossing: New Horizons",
+          "ReviewText": "A relaxing and endlessly charming game with plenty of activities to keep you engaged.",
+          "Rating": 4,
+          "PurchaseDate": "December 25th, 2022",
+          "UsageDuration": 45,
+          "Location": "Chicago"
+        }
+      },
+      {
+        "query": "My name is David Nguyen, and I got 'The Last of Us Part II' on July 1st, 2023. After playing it for 20 days in New York City, I would rate it 3 stars. Here's my review: 'The story is compelling, but some gameplay elements felt repetitive.'",
+        "filled_param": {
+          "UserName": "David Nguyen",
+          "ProductName": "The Last of Us Part II",
+          "ReviewText": "The story is compelling, but some gameplay elements felt repetitive.",
+          "Rating": 3,
+          "PurchaseDate": "July 1st, 2023",
+          "UsageDuration": 20,
+          "Location": "New York City"
+        }
+      },
+      {
+        "query": "Jennifer Adams here. I purchased 'Cyberpunk 2077' on January 10th, 2023, and have played it for 50 days in Houston. I'd give it a 2-star rating. My review: 'Despite the ambitious world-building, the game is plagued with bugs and performance issues.'",
+        "filled_param": {
+          "UserName": "Jennifer Adams",
+          "ProductName": "Cyberpunk 2077",
+          "ReviewText": "Despite the ambitious world-building, the game is plagued with bugs and performance issues.",
+          "Rating": 2,
+          "PurchaseDate": "January 10th, 2023",
+          "UsageDuration": 50,
+          "Location": "Houston"
+        }
+      },
+      {
+        "query": "I'm Michael Brown, and I bought 'Mario Kart 8 Deluxe' on February 5th, 2023. I've enjoyed it for 15 days in Miami, and I'd rate it 5 stars. Review: 'An absolute blast with friends, offering endless fun and competitive racing.'",
+        "filled_param": {
+          "UserName": "Michael Brown",
+          "ProductName": "Mario Kart 8 Deluxe",
+          "ReviewText": "An absolute blast with friends, offering endless fun and competitive racing.",
+          "Rating": 5,
+          "PurchaseDate": "February 5th, 2023",
+          "UsageDuration": 15,
+          "Location": "Miami"
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|car|:|UserName,ProductName,ReviewText,Rating,PurchaseDate,UsageDuration,Location": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "car",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate",
+      "UsageDuration",
+      "Location"
+    ],
+    "queries": [
+      {
+        "query": "My name is Sarah, and I purchased the Tesla Model 3 on April 15, 2023. I've been using it for 180 days here in San Francisco. I would rate it a 5 for its incredible performance and innovative features.",
+        "filled_param": {
+          "UserName": "Sarah",
+          "ProductName": "Tesla Model 3",
+          "ReviewText": "I've been using it for 180 days here in San Francisco. I would rate it a 5 for its incredible performance and innovative features.",
+          "Rating": 5,
+          "PurchaseDate": "April 15, 2023",
+          "UsageDuration": 180,
+          "Location": "San Francisco"
+        }
+      },
+      {
+        "query": "I'm Alex, I bought a Honda Civic on January 10, 2023, and I've been driving it for 240 days in New York. I'd give it a 4 because of its fuel efficiency and comfortable ride, though the infotainment could be better.",
+        "filled_param": {
+          "UserName": "Alex",
+          "ProductName": "Honda Civic",
+          "ReviewText": "I'd give it a 4 because of its fuel efficiency and comfortable ride, though the infotainment could be better.",
+          "Rating": 4,
+          "PurchaseDate": "January 10, 2023",
+          "UsageDuration": 240,
+          "Location": "New York"
+        }
+      },
+      {
+        "query": "This is Jamie, and I purchased a Ford F-150 on March 5, 2023. I've been using it for 200 days in Dallas. I rate it a 3 due to its robust towing capacity but average interior design.",
+        "filled_param": {
+          "UserName": "Jamie",
+          "ProductName": "Ford F-150",
+          "ReviewText": "I rate it a 3 due to its robust towing capacity but average interior design.",
+          "Rating": 3,
+          "PurchaseDate": "March 5, 2023",
+          "UsageDuration": 200,
+          "Location": "Dallas"
+        }
+      },
+      {
+        "query": "I'm Emily, and I bought a BMW X5 on July 20, 2023. After 90 days of use in Miami, I'd rate it a 5 for its luxury and smooth driving experience.",
+        "filled_param": {
+          "UserName": "Emily",
+          "ProductName": "BMW X5",
+          "ReviewText": "After 90 days of use in Miami, I'd rate it a 5 for its luxury and smooth driving experience.",
+          "Rating": 5,
+          "PurchaseDate": "July 20, 2023",
+          "UsageDuration": 90,
+          "Location": "Miami"
+        }
+      },
+      {
+        "query": "My name is John, and I bought a Nissan Altima on February 18, 2023. Having driven it for 210 days in Chicago, I give it a 4 for its reliability and spacious interior.",
+        "filled_param": {
+          "UserName": "John",
+          "ProductName": "Nissan Altima",
+          "ReviewText": "Having driven it for 210 days in Chicago, I give it a 4 for its reliability and spacious interior.",
+          "Rating": 4,
+          "PurchaseDate": "February 18, 2023",
+          "UsageDuration": 210,
+          "Location": "Chicago"
+        }
+      },
+      {
+        "query": "This is Lisa, and I purchased an Audi A4 on May 30, 2023. After using it for 130 days here in Seattle, I would rate it a 5 because of its impressive handling and stylish design.",
+        "filled_param": {
+          "UserName": "Lisa",
+          "ProductName": "Audi A4",
+          "ReviewText": "After using it for 130 days here in Seattle, I would rate it a 5 because of its impressive handling and stylish design.",
+          "Rating": 5,
+          "PurchaseDate": "May 30, 2023",
+          "UsageDuration": 130,
+          "Location": "Seattle"
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|cosmetic product|:|UserName,ProductName,ReviewText,Rating,PurchaseDate,UsageDuration,Location": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "cosmetic product",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate",
+      "UsageDuration",
+      "Location"
+    ],
+    "queries": [
+      {
+        "query": "Hi, I'm Sarah Johnson, and I'd like to review the cosmetic product 'Luminous Skin Serum'. I purchased it on March 15, 2023, used it for 45 days, and I'd rate it 4 out of 5. I found it to be quite effective in improving skin texture, though it took a while to show results. I primarily used it in New York City.",
+        "filled_param": {
+          "UserName": "Sarah Johnson",
+          "ProductName": "Luminous Skin Serum",
+          "ReviewText": "I found it to be quite effective in improving skin texture, though it took a while to show results.",
+          "Rating": 4,
+          "PurchaseDate": "March 15, 2023",
+          "UsageDuration": 45,
+          "Location": "New York City"
+        }
+      },
+      {
+        "query": "Hello, my name is David Lee. I purchased the cosmetic product 'HydraGlow Moisturizer' on February 20, 2023, and I've been using it for 30 days in Los Angeles. I would give it a rating of 5. The moisturizer is fantastic and keeps my skin hydrated all day.",
+        "filled_param": {
+          "UserName": "David Lee",
+          "ProductName": "HydraGlow Moisturizer",
+          "ReviewText": "The moisturizer is fantastic and keeps my skin hydrated all day.",
+          "Rating": 5,
+          "PurchaseDate": "February 20, 2023",
+          "UsageDuration": 30,
+          "Location": "Los Angeles"
+        }
+      },
+      {
+        "query": "I'm Emily Brown from Chicago, and I'd like to submit a review for the cosmetic product 'Revitalize Eye Cream'. I bought it on December 1, 2022, and have been using it for 60 days. I would rate it 3. It's decent, but I didn't notice any significant changes.",
+        "filled_param": {
+          "UserName": "Emily Brown",
+          "ProductName": "Revitalize Eye Cream",
+          "ReviewText": "It's decent, but I didn't notice any significant changes.",
+          "Rating": 3,
+          "PurchaseDate": "December 1, 2022",
+          "UsageDuration": 60,
+          "Location": "Chicago"
+        }
+      },
+      {
+        "query": "This is Michael Wong. I'm reviewing the cosmetic product 'SunGuard SPF 50' which I bought on January 10, 2023, used for 20 days in Miami, and I give it a 2-star rating. It didn't provide the sun protection I was expecting.",
+        "filled_param": {
+          "UserName": "Michael Wong",
+          "ProductName": "SunGuard SPF 50",
+          "ReviewText": "It didn't provide the sun protection I was expecting.",
+          "Rating": 2,
+          "PurchaseDate": "January 10, 2023",
+          "UsageDuration": 20,
+          "Location": "Miami"
+        }
+      },
+      {
+        "query": "Hi, I'm Amanda Clark. I want to leave a review for the cosmetic product 'Pure Radiance Foundation'. Purchased on April 5, 2023, used for 15 days in Seattle, and I give it a 1-star rating. Unfortunately, the foundation caused breakouts on my skin.",
+        "filled_param": {
+          "UserName": "Amanda Clark",
+          "ProductName": "Pure Radiance Foundation",
+          "ReviewText": "Unfortunately, the foundation caused breakouts on my skin.",
+          "Rating": 1,
+          "PurchaseDate": "April 5, 2023",
+          "UsageDuration": 15,
+          "Location": "Seattle"
+        }
+      },
+      {
+        "query": "Greetings, I'm John Kim, and I would like to submit a review for the cosmetic product 'Silk Smooth Lip Balm'. I bought it on May 25, 2023, used it for 10 days in San Francisco, and I rate it a 5. The lip balm is amazing, providing long-lasting moisture.",
+        "filled_param": {
+          "UserName": "John Kim",
+          "ProductName": "Silk Smooth Lip Balm",
+          "ReviewText": "The lip balm is amazing, providing long-lasting moisture.",
+          "Rating": 5,
+          "PurchaseDate": "May 25, 2023",
+          "UsageDuration": 10,
+          "Location": "San Francisco"
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|home appliance|:|UserName,ProductName,ReviewText,Rating,PurchaseDate,UsageDuration,Location": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "home appliance",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate",
+      "UsageDuration",
+      "Location"
+    ],
+    "queries": [
+      {
+        "query": "My name is Sarah Thompson and I'd like to submit a review for the Samsung Smart Refrigerator. I purchased it on March 10th, 2023, and have been using it for 120 days in Chicago. I'd rate it a 4. It's efficient and has a lot of useful features, but the ice maker is a bit slow.",
+        "filled_param": {
+          "UserName": "Sarah Thompson",
+          "ProductName": "Samsung Smart Refrigerator",
+          "ReviewText": "It's efficient and has a lot of useful features, but the ice maker is a bit slow.",
+          "Rating": 4,
+          "PurchaseDate": "March 10th, 2023",
+          "UsageDuration": 120,
+          "Location": "Chicago"
+        }
+      },
+      {
+        "query": "I am John Doe, and I want to review the Dyson V11 Vacuum Cleaner. I bought it on April 15, 2023, and I’ve used it for about 60 days here in New York. I give it a 5 because it’s incredibly powerful and easy to use.",
+        "filled_param": {
+          "UserName": "John Doe",
+          "ProductName": "Dyson V11 Vacuum Cleaner",
+          "ReviewText": "It’s incredibly powerful and easy to use.",
+          "Rating": 5,
+          "PurchaseDate": "April 15, 2023",
+          "UsageDuration": 60,
+          "Location": "New York"
+        }
+      },
+      {
+        "query": "This is Emily Clark submitting a review for the Philips Air Fryer. I bought it on February 1st, 2023, and have been using it for 150 days in San Francisco. I rate it a 3. It's good but doesn’t cook evenly sometimes.",
+        "filled_param": {
+          "UserName": "Emily Clark",
+          "ProductName": "Philips Air Fryer",
+          "ReviewText": "It's good but doesn’t cook evenly sometimes.",
+          "Rating": 3,
+          "PurchaseDate": "February 1st, 2023",
+          "UsageDuration": 150,
+          "Location": "San Francisco"
+        }
+      },
+      {
+        "query": "I'm Alex Johnson, reviewing the LG Washing Machine I purchased on January 5th, 2023. I've been using it for 180 days in Miami and would give it a 2. It’s not very efficient and has caused issues with my clothes.",
+        "filled_param": {
+          "UserName": "Alex Johnson",
+          "ProductName": "LG Washing Machine",
+          "ReviewText": "It’s not very efficient and has caused issues with my clothes.",
+          "Rating": 2,
+          "PurchaseDate": "January 5th, 2023",
+          "UsageDuration": 180,
+          "Location": "Miami"
+        }
+      },
+      {
+        "query": "My name is Lisa Wong, and here's my review for the Breville Espresso Machine. I purchased it on June 10, 2023, and have used it for 30 days in Los Angeles. I’m giving it a 4. It makes great coffee, but cleaning it is a bit of a hassle.",
+        "filled_param": {
+          "UserName": "Lisa Wong",
+          "ProductName": "Breville Espresso Machine",
+          "ReviewText": "It makes great coffee, but cleaning it is a bit of a hassle.",
+          "Rating": 4,
+          "PurchaseDate": "June 10, 2023",
+          "UsageDuration": 30,
+          "Location": "Los Angeles"
+        }
+      },
+      {
+        "query": "I'm Michael Brown, sharing my experience with the iRobot Roomba. Purchased it on May 1st, 2023, and have been using it for 90 days in Dallas. I rate it 5. It’s very convenient and keeps my floors spotless.",
+        "filled_param": {
+          "UserName": "Michael Brown",
+          "ProductName": "iRobot Roomba",
+          "ReviewText": "It’s very convenient and keeps my floors spotless.",
+          "Rating": 5,
+          "PurchaseDate": "May 1st, 2023",
+          "UsageDuration": 90,
+          "Location": "Dallas"
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|clothing|:|UserName,ProductName,ReviewText,Rating,PurchaseDate,UsageDuration,Location": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "clothing",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate",
+      "UsageDuration",
+      "Location"
+    ],
+    "queries": [
+      {
+        "query": "I am John Doe, and I bought the 'Winter Wonderland Jacket' on 12-03-2023. After using it for 45 days, I can say it's incredibly warm and comfortable, but a bit bulky. I give it a 4 out of 5, and I've been wearing it mostly in Chicago.",
+        "filled_param": {
+          "UserName": "John Doe",
+          "ProductName": "Winter Wonderland Jacket",
+          "ReviewText": "After using it for 45 days, I can say it's incredibly warm and comfortable, but a bit bulky.",
+          "Rating": 4,
+          "PurchaseDate": "12-03-2023",
+          "UsageDuration": 45,
+          "Location": "Chicago"
+        }
+      },
+      {
+        "query": "Jessica Smith here! I purchased the 'Sunny Day Dress' on 07-15-2023. I used it over 20 days for summer outings in Los Angeles. It's stylish but fades quickly in sunlight. Rating it a 3.",
+        "filled_param": {
+          "UserName": "Jessica Smith",
+          "ProductName": "Sunny Day Dress",
+          "ReviewText": "It's stylish but fades quickly in sunlight.",
+          "Rating": 3,
+          "PurchaseDate": "07-15-2023",
+          "UsageDuration": 20,
+          "Location": "Los Angeles"
+        }
+      },
+      {
+        "query": "This is Mark Lee. I bought the 'Adventure Hiker Boots' on 09-22-2023. I've been using them for 60 days in the Rocky Mountains. They're durable and comfortable, earning a full 5-star rating from me.",
+        "filled_param": {
+          "UserName": "Mark Lee",
+          "ProductName": "Adventure Hiker Boots",
+          "ReviewText": "They're durable and comfortable.",
+          "Rating": 5,
+          "PurchaseDate": "09-22-2023",
+          "UsageDuration": 60,
+          "Location": "Rocky Mountains"
+        }
+      },
+      {
+        "query": "My name is Emily Clark. I purchased the 'Elegant Evening Gown' on 11-01-2023 and used it for 10 days during events in New York. It's beautiful and fits well, but the fabric is a bit itchy. I rate it a 4.",
+        "filled_param": {
+          "UserName": "Emily Clark",
+          "ProductName": "Elegant Evening Gown",
+          "ReviewText": "It's beautiful and fits well, but the fabric is a bit itchy.",
+          "Rating": 4,
+          "PurchaseDate": "11-01-2023",
+          "UsageDuration": 10,
+          "Location": "New York"
+        }
+      },
+      {
+        "query": "Hello, I'm Alex Johnson. I bought the 'Rainy Day Trench Coat' on 08-10-2023 and have used it for 75 days. It's been reliable in the rainy weather of Seattle, though it's a bit heavy. I'd give it a 4 out of 5.",
+        "filled_param": {
+          "UserName": "Alex Johnson",
+          "ProductName": "Rainy Day Trench Coat",
+          "ReviewText": "It's been reliable in the rainy weather of Seattle, though it's a bit heavy.",
+          "Rating": 4,
+          "PurchaseDate": "08-10-2023",
+          "UsageDuration": 75,
+          "Location": "Seattle"
+        }
+      }
+    ]
+  }
+}

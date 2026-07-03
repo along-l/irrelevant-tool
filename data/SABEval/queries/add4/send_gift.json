@@ -1,0 +1,764 @@
+{
+  "send_gift|:|flower bouquet|:|recipient_name,address,selected_item_id,delivery_date,gift_message,tracking_notification,signature_required": {
+    "tool_template_name": "send_gift",
+    "derived_class": "flower bouquet",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date",
+      "gift_message",
+      "tracking_notification",
+      "signature_required"
+    ],
+    "queries": [
+      {
+        "query": "Please send a flower bouquet to Emily Smith at 123 Cherry Lane, Springfield, with item ID FL12345 on March 15th. Include the message 'Happy Birthday, Emily!' and make sure I receive tracking notifications. A signature upon delivery is required.",
+        "filled_param": {
+          "recipient_name": "Emily Smith",
+          "address": "123 Cherry Lane, Springfield",
+          "selected_item_id": "FL12345",
+          "delivery_date": "March 15th",
+          "gift_message": "Happy Birthday, Emily!",
+          "tracking_notification": true,
+          "signature_required": true
+        }
+      },
+      {
+        "query": "I need a flower bouquet sent to John Doe at 456 Maple Street, Oceanside. Use the item ID FL56789 for delivery on April 10th, and include the message 'Congratulations on your new job!' I don't need tracking notifications, and no signature is required.",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "456 Maple Street, Oceanside",
+          "selected_item_id": "FL56789",
+          "delivery_date": "April 10th",
+          "gift_message": "Congratulations on your new job!",
+          "tracking_notification": false,
+          "signature_required": false
+        }
+      },
+      {
+        "query": "Send a flower bouquet to Lisa Turner at 789 Pine Road, Lakeside, with the item ID FL24680, for delivery on February 14th. The message should read 'Happy Valentine's Day, Lisa!' Please ensure tracking notifications are sent, and a signature is required upon delivery.",
+        "filled_param": {
+          "recipient_name": "Lisa Turner",
+          "address": "789 Pine Road, Lakeside",
+          "selected_item_id": "FL24680",
+          "delivery_date": "February 14th",
+          "gift_message": "Happy Valentine's Day, Lisa!",
+          "tracking_notification": true,
+          "signature_required": true
+        }
+      },
+      {
+        "query": "Can you deliver a flower bouquet to Michael Brown at 321 Elm Street, Rivertown, using item ID FL13579? The delivery date should be May 20th, and the message is 'Best wishes for your future endeavors.' I want to receive tracking notifications, but no signature is needed.",
+        "filled_param": {
+          "recipient_name": "Michael Brown",
+          "address": "321 Elm Street, Rivertown",
+          "selected_item_id": "FL13579",
+          "delivery_date": "May 20th",
+          "gift_message": "Best wishes for your future endeavors.",
+          "tracking_notification": true,
+          "signature_required": false
+        }
+      },
+      {
+        "query": "Arrange for a flower bouquet delivery to Sarah Johnson at 654 Oak Avenue, Hilltop, with item ID FL98765 on December 25th. The message should say 'Merry Christmas, Sarah!' Do not send tracking notifications, but a signature is required upon delivery.",
+        "filled_param": {
+          "recipient_name": "Sarah Johnson",
+          "address": "654 Oak Avenue, Hilltop",
+          "selected_item_id": "FL98765",
+          "delivery_date": "December 25th",
+          "gift_message": "Merry Christmas, Sarah!",
+          "tracking_notification": false,
+          "signature_required": true
+        }
+      }
+    ]
+  },
+  "send_gift|:|handmade chocolate|:|recipient_name,address,selected_item_id,delivery_date,gift_message,tracking_notification,signature_required": {
+    "tool_template_name": "send_gift",
+    "derived_class": "handmade chocolate",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date",
+      "gift_message",
+      "tracking_notification",
+      "signature_required"
+    ],
+    "queries": [
+      {
+        "query": "Please send a box of handmade chocolate with item ID CHOCO123 to John Doe at 123 Maple Street, Springfield. Deliver it on December 15th and include the message 'Happy Holidays, John!' I want tracking updates, and make sure a signature is required upon delivery.",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "123 Maple Street, Springfield",
+          "selected_item_id": "CHOCO123",
+          "delivery_date": "December 15th",
+          "gift_message": "Happy Holidays, John!",
+          "tracking_notification": true,
+          "signature_required": true
+        }
+      },
+      {
+        "query": "Send the handmade chocolate with ID CHOCO456 to Jane Smith at 456 Oak Avenue, Rivertown. Set the delivery for November 20th and include the message 'Congratulations on your new job!' I do not need tracking notifications, but require a signature upon delivery.",
+        "filled_param": {
+          "recipient_name": "Jane Smith",
+          "address": "456 Oak Avenue, Rivertown",
+          "selected_item_id": "CHOCO456",
+          "delivery_date": "November 20th",
+          "gift_message": "Congratulations on your new job!",
+          "tracking_notification": false,
+          "signature_required": true
+        }
+      },
+      {
+        "query": "I want to send handmade chocolate with item ID CHOCO789 to Michael Brown at 789 Pine Road, Lakeside. Deliver it on March 10th with the message 'Happy Birthday, Mike!' Please provide tracking updates, but no signature is necessary.",
+        "filled_param": {
+          "recipient_name": "Michael Brown",
+          "address": "789 Pine Road, Lakeside",
+          "selected_item_id": "CHOCO789",
+          "delivery_date": "March 10th",
+          "gift_message": "Happy Birthday, Mike!",
+          "tracking_notification": true,
+          "signature_required": false
+        }
+      },
+      {
+        "query": "Arrange for handmade chocolate with ID CHOCO321 to be sent to Emily Davis at 321 Birch Lane, Mountainview. Schedule the delivery for February 14th and include 'Thinking of you, love always!' I do not want tracking updates, and no signature is needed.",
+        "filled_param": {
+          "recipient_name": "Emily Davis",
+          "address": "321 Birch Lane, Mountainview",
+          "selected_item_id": "CHOCO321",
+          "delivery_date": "February 14th",
+          "gift_message": "Thinking of you, love always!",
+          "tracking_notification": false,
+          "signature_required": false
+        }
+      },
+      {
+        "query": "Can you send handmade chocolate with item ID CHOCO654 to Sarah Johnson at 654 Cedar Street, Hilltop? The delivery should be on January 5th with the message 'Happy Anniversary!' I would like to receive tracking notifications, and ensure a signature is required.",
+        "filled_param": {
+          "recipient_name": "Sarah Johnson",
+          "address": "654 Cedar Street, Hilltop",
+          "selected_item_id": "CHOCO654",
+          "delivery_date": "January 5th",
+          "gift_message": "Happy Anniversary!",
+          "tracking_notification": true,
+          "signature_required": true
+        }
+      }
+    ]
+  },
+  "send_gift|:|hardcover book|:|recipient_name,address,selected_item_id,delivery_date,gift_message,tracking_notification,signature_required": {
+    "tool_template_name": "send_gift",
+    "derived_class": "hardcover book",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date",
+      "gift_message",
+      "tracking_notification",
+      "signature_required"
+    ],
+    "queries": [
+      {
+        "query": "Please send the hardcover book with ID 978-0345816023 to John Doe at 123 Elm Street, Springfield, IL 62704, on March 15, 2024, with a gift message saying 'Happy Birthday, John! Enjoy the read!' and ensure tracking notifications are enabled. Also, make sure a signature is required upon delivery.",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "123 Elm Street, Springfield, IL 62704",
+          "selected_item_id": "978-0345816023",
+          "delivery_date": "March 15, 2024",
+          "gift_message": "Happy Birthday, John! Enjoy the read!",
+          "tracking_notification": true,
+          "signature_required": true
+        }
+      },
+      {
+        "query": "I need the hardcover book with ID 978-0525555373 sent to Emily Parker at 456 Maple Avenue, Boston, MA 02118. Deliver it by April 10, 2024, with the message 'Congratulations on your new job!' I want tracking updates, and no signature is needed.",
+        "filled_param": {
+          "recipient_name": "Emily Parker",
+          "address": "456 Maple Avenue, Boston, MA 02118",
+          "selected_item_id": "978-0525555373",
+          "delivery_date": "April 10, 2024",
+          "gift_message": "Congratulations on your new job!",
+          "tracking_notification": true,
+          "signature_required": false
+        }
+      },
+      {
+        "query": "Can you arrange for the hardcover book with ID 978-0062316110 to be sent to Michael Lee at 789 Pine Road, Seattle, WA 98101, with delivery scheduled for February 20, 2024? Include a message: 'Warm wishes on your graduation, Michael.' I don't need tracking notifications, but require a signature upon delivery.",
+        "filled_param": {
+          "recipient_name": "Michael Lee",
+          "address": "789 Pine Road, Seattle, WA 98101",
+          "selected_item_id": "978-0062316110",
+          "delivery_date": "February 20, 2024",
+          "gift_message": "Warm wishes on your graduation, Michael.",
+          "tracking_notification": false,
+          "signature_required": true
+        }
+      },
+      {
+        "query": "Send the hardcover book with ID 978-0143127741 to Amanda Reyes at 321 Oak Lane, Austin, TX 73301, and make sure it arrives by January 5, 2024. The gift message should read 'To Amanda, with love and joy this New Year.' I would like to receive tracking updates, but a signature isn't needed.",
+        "filled_param": {
+          "recipient_name": "Amanda Reyes",
+          "address": "321 Oak Lane, Austin, TX 73301",
+          "selected_item_id": "978-0143127741",
+          "delivery_date": "January 5, 2024",
+          "gift_message": "To Amanda, with love and joy this New Year.",
+          "tracking_notification": true,
+          "signature_required": false
+        }
+      },
+      {
+        "query": "Organize the delivery of the hardcover book with ID 978-0307277671 to Daniel Kim at 654 Cedar Street, Miami, FL 33101 by May 25, 2024. Add a note saying 'Happy Anniversary, Daniel! Love, Sarah.' I don't need any tracking alerts but please require a signature on delivery.",
+        "filled_param": {
+          "recipient_name": "Daniel Kim",
+          "address": "654 Cedar Street, Miami, FL 33101",
+          "selected_item_id": "978-0307277671",
+          "delivery_date": "May 25, 2024",
+          "gift_message": "Happy Anniversary, Daniel! Love, Sarah.",
+          "tracking_notification": false,
+          "signature_required": true
+        }
+      }
+    ]
+  },
+  "send_gift|:|Bluetooth earphones|:|recipient_name,address,selected_item_id,delivery_date,gift_message,tracking_notification,signature_required": {
+    "tool_template_name": "send_gift",
+    "derived_class": "Bluetooth earphones",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date",
+      "gift_message",
+      "tracking_notification",
+      "signature_required"
+    ],
+    "queries": [
+      {
+        "query": "Please send the Bluetooth earphones with ID BE1234 to John Doe at 123 Elm Street, Springfield, IL, on October 15th. Include the gift message: 'Happy birthday, John! Enjoy your new tunes!' I would like to receive tracking notifications, and ensure a signature is required upon delivery.",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "123 Elm Street, Springfield, IL",
+          "selected_item_id": "BE1234",
+          "delivery_date": "October 15th",
+          "gift_message": "Happy birthday, John! Enjoy your new tunes!",
+          "tracking_notification": true,
+          "signature_required": true
+        }
+      },
+      {
+        "query": "Organize the delivery of Bluetooth earphones (ID: BE5678) to Emily Clark, residing at 456 Pine Avenue, Boston, MA, on November 1st. Add this gift message: 'Congrats on your new job, Emily!' Ensure tracking notifications are on, but no signature is needed.",
+        "filled_param": {
+          "recipient_name": "Emily Clark",
+          "address": "456 Pine Avenue, Boston, MA",
+          "selected_item_id": "BE5678",
+          "delivery_date": "November 1st",
+          "gift_message": "Congrats on your new job, Emily!",
+          "tracking_notification": true,
+          "signature_required": false
+        }
+      },
+      {
+        "query": "Could you deliver the Bluetooth earphones with ID BE9012 to Michael Brown at 789 Oak Blvd, Seattle, WA, by December 10th? The gift message should say: 'Merry Christmas, Michael!'. Please send tracking updates and require a signature upon delivery.",
+        "filled_param": {
+          "recipient_name": "Michael Brown",
+          "address": "789 Oak Blvd, Seattle, WA",
+          "selected_item_id": "BE9012",
+          "delivery_date": "December 10th",
+          "gift_message": "Merry Christmas, Michael!",
+          "tracking_notification": true,
+          "signature_required": true
+        }
+      },
+      {
+        "query": "I want the Bluetooth earphones identified by BE3456 sent to Sarah Lee at 101 Maple Lane, Dallas, TX, on September 25th. Include the message: 'Enjoy the music, Sarah!' Please do not activate tracking notifications, but require a signature for delivery.",
+        "filled_param": {
+          "recipient_name": "Sarah Lee",
+          "address": "101 Maple Lane, Dallas, TX",
+          "selected_item_id": "BE3456",
+          "delivery_date": "September 25th",
+          "gift_message": "Enjoy the music, Sarah!",
+          "tracking_notification": false,
+          "signature_required": true
+        }
+      },
+      {
+        "query": "Ship the Bluetooth earphones with ID BE7890 to Kevin James at 202 Birch Road, Miami, FL, scheduled for delivery on November 20th. The message should read: 'Kevin, here's to many more musical adventures!' I do not need tracking notifications, and no signature is required.",
+        "filled_param": {
+          "recipient_name": "Kevin James",
+          "address": "202 Birch Road, Miami, FL",
+          "selected_item_id": "BE7890",
+          "delivery_date": "November 20th",
+          "gift_message": "Kevin, here's to many more musical adventures!",
+          "tracking_notification": false,
+          "signature_required": false
+        }
+      }
+    ]
+  },
+  "send_gift|:|red wine|:|recipient_name,address,selected_item_id,delivery_date,gift_message,tracking_notification,signature_required": {
+    "tool_template_name": "send_gift",
+    "derived_class": "red wine",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date",
+      "gift_message",
+      "tracking_notification",
+      "signature_required"
+    ],
+    "queries": [
+      {
+        "query": "Please send a bottle of red wine with ID RW123 to John Doe at 123 Elm Street, Springfield, on October 15th. Include the message: 'Happy Birthday, John! Enjoy your special day.' I want to receive tracking notifications, and make sure a signature is required upon delivery.",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "123 Elm Street, Springfield",
+          "selected_item_id": "RW123",
+          "delivery_date": "October 15th",
+          "gift_message": "Happy Birthday, John! Enjoy your special day.",
+          "tracking_notification": true,
+          "signature_required": true
+        }
+      },
+      {
+        "query": "Arrange for the delivery of red wine ID RW456 to Jane Smith at 456 Oak Avenue, Metropolis, on November 20th. The gift message should say: 'Congratulations on your new job, Jane!' I do not need tracking updates, and a signature upon delivery is not necessary.",
+        "filled_param": {
+          "recipient_name": "Jane Smith",
+          "address": "456 Oak Avenue, Metropolis",
+          "selected_item_id": "RW456",
+          "delivery_date": "November 20th",
+          "gift_message": "Congratulations on your new job, Jane!",
+          "tracking_notification": false,
+          "signature_required": false
+        }
+      },
+      {
+        "query": "Send red wine with the ID RW789 to Mike Johnson at 789 Pine Road, Gotham City, to be delivered on December 1st. Add the message: 'Merry Christmas, Mike! Cheers to a wonderful holiday season.' Tracking notifications are required, but a signature is not needed.",
+        "filled_param": {
+          "recipient_name": "Mike Johnson",
+          "address": "789 Pine Road, Gotham City",
+          "selected_item_id": "RW789",
+          "delivery_date": "December 1st",
+          "gift_message": "Merry Christmas, Mike! Cheers to a wonderful holiday season.",
+          "tracking_notification": true,
+          "signature_required": false
+        }
+      },
+      {
+        "query": "Deliver a red wine, item number RW321, to Emily Clark at 321 Birch Lane, Star City, on October 5th. Please write: 'To Emily, with love and appreciation.' I do not wish to receive tracking updates, and ensure that a signature is collected upon delivery.",
+        "filled_param": {
+          "recipient_name": "Emily Clark",
+          "address": "321 Birch Lane, Star City",
+          "selected_item_id": "RW321",
+          "delivery_date": "October 5th",
+          "gift_message": "To Emily, with love and appreciation.",
+          "tracking_notification": false,
+          "signature_required": true
+        }
+      },
+      {
+        "query": "I want to send red wine with ID RW654 to Robert Brown at 654 Cedar Street, Emerald City, on November 10th. Include this message: 'Robert, enjoy this fine wine. Best wishes!' Tracking updates are not needed, and a signature is required.",
+        "filled_param": {
+          "recipient_name": "Robert Brown",
+          "address": "654 Cedar Street, Emerald City",
+          "selected_item_id": "RW654",
+          "delivery_date": "November 10th",
+          "gift_message": "Robert, enjoy this fine wine. Best wishes!",
+          "tracking_notification": false,
+          "signature_required": true
+        }
+      }
+    ]
+  },
+  "send_gift|:|tea|:|recipient_name,address,selected_item_id,delivery_date,gift_message,tracking_notification,signature_required": {
+    "tool_template_name": "send_gift",
+    "derived_class": "tea",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date",
+      "gift_message",
+      "tracking_notification",
+      "signature_required"
+    ],
+    "queries": [
+      {
+        "query": "Please send the selected tea, item ID 12345, to John Doe at 123 Elm Street, Springfield, with a message saying 'Enjoy your relaxing moments!'. Deliver it by March 15th and send me tracking updates. A signature is required.",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "123 Elm Street, Springfield",
+          "selected_item_id": "12345",
+          "delivery_date": "March 15th",
+          "gift_message": "Enjoy your relaxing moments!",
+          "tracking_notification": true,
+          "signature_required": true
+        }
+      },
+      {
+        "query": "Can you send tea with item ID 67890 to Emily White at 456 Oak Avenue, Metropolis? Make sure it arrives by April 10th. Include the message 'A warm hug in a cup' and keep me updated with tracking info. No need for a signature upon delivery.",
+        "filled_param": {
+          "recipient_name": "Emily White",
+          "address": "456 Oak Avenue, Metropolis",
+          "selected_item_id": "67890",
+          "delivery_date": "April 10th",
+          "gift_message": "A warm hug in a cup",
+          "tracking_notification": true,
+          "signature_required": false
+        }
+      },
+      {
+        "query": "I want to send the tea (item ID 54321) to Michael Smith at 789 Maple Road, Gotham City. Deliver it by February 20th, and include the note 'Tea time is me time'. Please notify me for tracking, but no signature is needed.",
+        "filled_param": {
+          "recipient_name": "Michael Smith",
+          "address": "789 Maple Road, Gotham City",
+          "selected_item_id": "54321",
+          "delivery_date": "February 20th",
+          "gift_message": "Tea time is me time",
+          "tracking_notification": true,
+          "signature_required": false
+        }
+      },
+      {
+        "query": "Send the tea with ID 13579 to Sarah Connor at 321 Birch Street, Los Angeles. I would like it to be delivered by May 5th. Add a message that says 'Sip and savor every moment'. Please ensure I receive tracking notifications, and a signature is required on delivery.",
+        "filled_param": {
+          "recipient_name": "Sarah Connor",
+          "address": "321 Birch Street, Los Angeles",
+          "selected_item_id": "13579",
+          "delivery_date": "May 5th",
+          "gift_message": "Sip and savor every moment",
+          "tracking_notification": true,
+          "signature_required": true
+        }
+      },
+      {
+        "query": "Could you send out tea item 24680 to Robert Brown at 654 Pine Avenue, New York? It needs to arrive by March 30th. The gift message should read 'A cup of calm'. I don't need tracking updates, but please require a signature upon delivery.",
+        "filled_param": {
+          "recipient_name": "Robert Brown",
+          "address": "654 Pine Avenue, New York",
+          "selected_item_id": "24680",
+          "delivery_date": "March 30th",
+          "gift_message": "A cup of calm",
+          "tracking_notification": false,
+          "signature_required": true
+        }
+      }
+    ]
+  },
+  "send_gift|:|fountain pen|:|recipient_name,address,selected_item_id,delivery_date,gift_message,tracking_notification,signature_required": {
+    "tool_template_name": "send_gift",
+    "derived_class": "fountain pen",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date",
+      "gift_message",
+      "tracking_notification",
+      "signature_required"
+    ],
+    "queries": [
+      {
+        "query": "Please send the fountain pen with ID FP123 to John Doe at 123 Elm Street, Springfield, to arrive on March 3rd. Include the message 'Happy Birthday, enjoy writing!' and send me tracking updates. Require a signature upon delivery.",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "123 Elm Street, Springfield",
+          "selected_item_id": "FP123",
+          "delivery_date": "March 3rd",
+          "gift_message": "Happy Birthday, enjoy writing!",
+          "tracking_notification": true,
+          "signature_required": true
+        }
+      },
+      {
+        "query": "I need to ship the fountain pen ID FP456 to Jane Smith at 456 Oak Avenue, Metropolis on April 10th. The gift message should read 'Congratulations on your new job!' Please do not send tracking notifications. Delivery should not require a signature.",
+        "filled_param": {
+          "recipient_name": "Jane Smith",
+          "address": "456 Oak Avenue, Metropolis",
+          "selected_item_id": "FP456",
+          "delivery_date": "April 10th",
+          "gift_message": "Congratulations on your new job!",
+          "tracking_notification": false,
+          "signature_required": false
+        }
+      },
+      {
+        "query": "Send the fountain pen with ID FP789 to Robert Brown at 789 Pine Road, Central City. It should arrive by July 15th. Include the message 'Wishing you creative inspiration!' I would like to receive tracking notifications, and a signature should be required upon delivery.",
+        "filled_param": {
+          "recipient_name": "Robert Brown",
+          "address": "789 Pine Road, Central City",
+          "selected_item_id": "FP789",
+          "delivery_date": "July 15th",
+          "gift_message": "Wishing you creative inspiration!",
+          "tracking_notification": true,
+          "signature_required": true
+        }
+      },
+      {
+        "query": "Arrange to send the fountain pen ID FP321 to Emily Green at 321 Birch Lane, Riverdale, for delivery on August 20th. The accompanying message is 'Enjoy your new writing adventures!' Do not require a signature, but do provide tracking updates.",
+        "filled_param": {
+          "recipient_name": "Emily Green",
+          "address": "321 Birch Lane, Riverdale",
+          "selected_item_id": "FP321",
+          "delivery_date": "August 20th",
+          "gift_message": "Enjoy your new writing adventures!",
+          "tracking_notification": true,
+          "signature_required": false
+        }
+      },
+      {
+        "query": "Deliver the fountain pen with ID FP654 to Michael Johnson at 654 Willow Street, Gotham on October 5th. The gift message should say 'Best wishes on your special day!' I don't need tracking updates, but a signature is required when delivered.",
+        "filled_param": {
+          "recipient_name": "Michael Johnson",
+          "address": "654 Willow Street, Gotham",
+          "selected_item_id": "FP654",
+          "delivery_date": "October 5th",
+          "gift_message": "Best wishes on your special day!",
+          "tracking_notification": false,
+          "signature_required": true
+        }
+      },
+      {
+        "query": "Send the fountain pen ID FP987 to Lisa White at 987 Maple Avenue, Star City for delivery by December 12th. The message should be 'Merry Christmas, enjoy writing!' No tracking notifications, and no signature required upon delivery.",
+        "filled_param": {
+          "recipient_name": "Lisa White",
+          "address": "987 Maple Avenue, Star City",
+          "selected_item_id": "FP987",
+          "delivery_date": "December 12th",
+          "gift_message": "Merry Christmas, enjoy writing!",
+          "tracking_notification": false,
+          "signature_required": false
+        }
+      }
+    ]
+  },
+  "send_gift|:|skincare|:|recipient_name,address,selected_item_id,delivery_date,gift_message,tracking_notification,signature_required": {
+    "tool_template_name": "send_gift",
+    "derived_class": "skincare",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date",
+      "gift_message",
+      "tracking_notification",
+      "signature_required"
+    ],
+    "queries": [
+      {
+        "query": "Please send the skincare item with ID SK12345 to Emily Smith at 123 Maple Street, Springfield, IL 62704, to be delivered on November 15, 2023. Include the message 'Happy Birthday, Emily!' and ensure tracking notifications are enabled and a signature is required on delivery.",
+        "filled_param": {
+          "recipient_name": "Emily Smith",
+          "address": "123 Maple Street, Springfield, IL 62704",
+          "selected_item_id": "SK12345",
+          "delivery_date": "November 15, 2023",
+          "gift_message": "Happy Birthday, Emily!",
+          "tracking_notification": true,
+          "signature_required": true
+        }
+      },
+      {
+        "query": "Arrange to send the skincare product with ID SK98765 to John Doe at 456 Oak Avenue, Los Angeles, CA 90001. Schedule the delivery for December 1, 2023, with the message 'Congratulations on your new job!' Please enable tracking notifications and require a signature upon delivery.",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "456 Oak Avenue, Los Angeles, CA 90001",
+          "selected_item_id": "SK98765",
+          "delivery_date": "December 1, 2023",
+          "gift_message": "Congratulations on your new job!",
+          "tracking_notification": true,
+          "signature_required": true
+        }
+      },
+      {
+        "query": "Send the skincare item ID SK54321 to Sarah Johnson at 789 Birch Road, Miami, FL 33101. Deliver it on January 10, 2024, with the message 'Wishing you a speedy recovery.' I don't need tracking notifications, and a signature isn't required.",
+        "filled_param": {
+          "recipient_name": "Sarah Johnson",
+          "address": "789 Birch Road, Miami, FL 33101",
+          "selected_item_id": "SK54321",
+          "delivery_date": "January 10, 2024",
+          "gift_message": "Wishing you a speedy recovery.",
+          "tracking_notification": false,
+          "signature_required": false
+        }
+      },
+      {
+        "query": "Can you send the skincare product with ID SK67890 to Michael Brown at 321 Pine Lane, Boston, MA 02110? Please deliver it by November 22, 2023, with the note 'Thanks for being an amazing friend!' Enable tracking and no signature on delivery is necessary.",
+        "filled_param": {
+          "recipient_name": "Michael Brown",
+          "address": "321 Pine Lane, Boston, MA 02110",
+          "selected_item_id": "SK67890",
+          "delivery_date": "November 22, 2023",
+          "gift_message": "Thanks for being an amazing friend!",
+          "tracking_notification": true,
+          "signature_required": false
+        }
+      },
+      {
+        "query": "I'd like to send the skincare item with ID SK11223 to Lisa White at 852 Cedar Boulevard, Houston, TX 77002, to arrive on December 25, 2023. Add the message 'Merry Christmas, Lisa!' with tracking updates and signature required.",
+        "filled_param": {
+          "recipient_name": "Lisa White",
+          "address": "852 Cedar Boulevard, Houston, TX 77002",
+          "selected_item_id": "SK11223",
+          "delivery_date": "December 25, 2023",
+          "gift_message": "Merry Christmas, Lisa!",
+          "tracking_notification": true,
+          "signature_required": true
+        }
+      }
+    ]
+  },
+  "send_gift|:|board game|:|recipient_name,address,selected_item_id,delivery_date,gift_message,tracking_notification,signature_required": {
+    "tool_template_name": "send_gift",
+    "derived_class": "board game",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date",
+      "gift_message",
+      "tracking_notification",
+      "signature_required"
+    ],
+    "queries": [
+      {
+        "query": "Please send the board game with ID BG1234 to Alice Johnson at 123 Elm Street, Springfield, on October 15th, 2023, with the message 'Happy Birthday, enjoy the game!'. I want tracking updates and require a signature upon delivery.",
+        "filled_param": {
+          "recipient_name": "Alice Johnson",
+          "address": "123 Elm Street, Springfield",
+          "selected_item_id": "BG1234",
+          "delivery_date": "October 15th, 2023",
+          "gift_message": "Happy Birthday, enjoy the game!",
+          "tracking_notification": true,
+          "signature_required": true
+        }
+      },
+      {
+        "query": "I'd like to send the board game identified as BG5678 to John Doe at 456 Oak Avenue, Metropolis, by November 1st, 2023. Include the message 'Congratulations on your new job!' and please ensure I receive tracking updates. No signature needed upon delivery.",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "456 Oak Avenue, Metropolis",
+          "selected_item_id": "BG5678",
+          "delivery_date": "November 1st, 2023",
+          "gift_message": "Congratulations on your new job!",
+          "tracking_notification": true,
+          "signature_required": false
+        }
+      },
+      {
+        "query": "Can you ship the board game with ID BG9012 to Emily Carter at 789 Pine Road, Gotham? Delivery should be on December 20th, 2023. Include, 'Merry Christmas, have fun!' I don't need tracking, but require a signature upon delivery.",
+        "filled_param": {
+          "recipient_name": "Emily Carter",
+          "address": "789 Pine Road, Gotham",
+          "selected_item_id": "BG9012",
+          "delivery_date": "December 20th, 2023",
+          "gift_message": "Merry Christmas, have fun!",
+          "tracking_notification": false,
+          "signature_required": true
+        }
+      },
+      {
+        "query": "Send board game BG3456 to Sarah Lee at 321 Maple Street, Star City for September 5th, 2023, with 'Enjoy your new adventure!'. I want tracking updates, no signature required.",
+        "filled_param": {
+          "recipient_name": "Sarah Lee",
+          "address": "321 Maple Street, Star City",
+          "selected_item_id": "BG3456",
+          "delivery_date": "September 5th, 2023",
+          "gift_message": "Enjoy your new adventure!",
+          "tracking_notification": true,
+          "signature_required": false
+        }
+      },
+      {
+        "query": "I'd like to send the board game numbered BG7890 to Mark Brown at 654 Cedar Blvd, Central City by October 30th, 2023. Please include the message: 'Best wishes on your birthday!'. No tracking is needed, but a signature is required.",
+        "filled_param": {
+          "recipient_name": "Mark Brown",
+          "address": "654 Cedar Blvd, Central City",
+          "selected_item_id": "BG7890",
+          "delivery_date": "October 30th, 2023",
+          "gift_message": "Best wishes on your birthday!",
+          "tracking_notification": false,
+          "signature_required": true
+        }
+      }
+    ]
+  },
+  "send_gift|:|perfume|:|recipient_name,address,selected_item_id,delivery_date,gift_message,tracking_notification,signature_required": {
+    "tool_template_name": "send_gift",
+    "derived_class": "perfume",
+    "params_for_query": [
+      "recipient_name",
+      "address",
+      "selected_item_id",
+      "delivery_date",
+      "gift_message",
+      "tracking_notification",
+      "signature_required"
+    ],
+    "queries": [
+      {
+        "query": "Please send the perfume with ID P12345 to Emily Clarke at 456 Elm Street, Springfield, for delivery on 2023-11-15, with the message 'Happy Birthday, Emily!', and provide tracking updates. A signature will be needed upon delivery.",
+        "filled_param": {
+          "recipient_name": "Emily Clarke",
+          "address": "456 Elm Street, Springfield",
+          "selected_item_id": "P12345",
+          "delivery_date": "2023-11-15",
+          "gift_message": "Happy Birthday, Emily!",
+          "tracking_notification": true,
+          "signature_required": true
+        }
+      },
+      {
+        "query": "I would like to send perfume item K98765 to John Doe at 789 Pine Avenue, Atlanta, and deliver it on 2023-12-01. Include the message 'Congratulations on your new job!', with tracking updates but no signature required.",
+        "filled_param": {
+          "recipient_name": "John Doe",
+          "address": "789 Pine Avenue, Atlanta",
+          "selected_item_id": "K98765",
+          "delivery_date": "2023-12-01",
+          "gift_message": "Congratulations on your new job!",
+          "tracking_notification": true,
+          "signature_required": false
+        }
+      },
+      {
+        "query": "Send the perfume S33333 to Sarah Lee at 1010 Maple Street, Boston, by 2023-11-20. The message should read 'Wishing you a speedy recovery!' and no tracking notifications are needed. Ensure a signature is required.",
+        "filled_param": {
+          "recipient_name": "Sarah Lee",
+          "address": "1010 Maple Street, Boston",
+          "selected_item_id": "S33333",
+          "delivery_date": "2023-11-20",
+          "gift_message": "Wishing you a speedy recovery!",
+          "tracking_notification": false,
+          "signature_required": true
+        }
+      },
+      {
+        "query": "I'd like you to deliver perfume item B24680 to Alice Johnson at 222 Cherry Lane, New York, by 2023-11-25. The gift message will be 'Thank you for everything!' with no tracking updates, and no signature required.",
+        "filled_param": {
+          "recipient_name": "Alice Johnson",
+          "address": "222 Cherry Lane, New York",
+          "selected_item_id": "B24680",
+          "delivery_date": "2023-11-25",
+          "gift_message": "Thank you for everything!",
+          "tracking_notification": false,
+          "signature_required": false
+        }
+      },
+      {
+        "query": "Could you send the perfume J55555 to Mark Smith at 999 Aspen Court, Chicago? The delivery date should be 2023-12-10, with the message 'Merry Christmas, Mark!' I want tracking notifications but no signature required upon delivery.",
+        "filled_param": {
+          "recipient_name": "Mark Smith",
+          "address": "999 Aspen Court, Chicago",
+          "selected_item_id": "J55555",
+          "delivery_date": "2023-12-10",
+          "gift_message": "Merry Christmas, Mark!",
+          "tracking_notification": true,
+          "signature_required": false
+        }
+      }
+    ]
+  }
+}

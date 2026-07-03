@@ -1,0 +1,775 @@
+{
+  "FreeRepairInquiry_service|:|laptop|:|purchase_receipt,customer_id,warranty_check": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "laptop",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check"
+    ],
+    "queries": [
+      {
+        "query": "Is my laptop eligible for free repair if I have a purchase receipt number 12345 and customer ID A6789? Also, let's check the warranty status.",
+        "filled_param": {
+          "purchase_receipt": "12345",
+          "customer_id": "A6789",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Please verify if my laptop can be repaired for free. The receipt number is 98765, and my customer ID is B4321. Also, ensure to check the warranty.",
+        "filled_param": {
+          "purchase_receipt": "98765",
+          "customer_id": "B4321",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "I need to know if my laptop is covered for free repairs. My receipt number is 54321 and the customer ID is C1234. Let's also perform a warranty check.",
+        "filled_param": {
+          "purchase_receipt": "54321",
+          "customer_id": "C1234",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Can you find out if my laptop qualifies for a free repair? The purchase receipt is 67890, and the customer ID is D5678. Include a warranty verification in the check.",
+        "filled_param": {
+          "purchase_receipt": "67890",
+          "customer_id": "D5678",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Is there a possibility for my laptop to get repaired at no cost? My purchase receipt is 11223, and the customer ID is E8901. Please check the warranty status as well.",
+        "filled_param": {
+          "purchase_receipt": "11223",
+          "customer_id": "E8901",
+          "warranty_check": true
+        }
+      }
+    ]
+  },
+  "FreeRepairInquiry_service|:|television|:|purchase_receipt,customer_id,warranty_check": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "television",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check"
+    ],
+    "queries": [
+      {
+        "query": "Can you check if my television is eligible for free repair? My receipt number is 12345-ABC, customer ID is CUST1001, and I need a warranty check.",
+        "filled_param": {
+          "purchase_receipt": "12345-ABC",
+          "customer_id": "CUST1001",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "I need to confirm if my television can be repaired for free. The purchase receipt is 67890-XYZ and the customer ID is CUSTOMER2002. Please include a warranty check.",
+        "filled_param": {
+          "purchase_receipt": "67890-XYZ",
+          "customer_id": "CUSTOMER2002",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Is my television still under warranty for a free repair? The receipt number is ABC-54321 and my customer ID is ID3003. Perform a warranty check, please.",
+        "filled_param": {
+          "purchase_receipt": "ABC-54321",
+          "customer_id": "ID3003",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Could you verify if my television qualifies for free repair? My purchase receipt number is RECEIPT-11223, and my customer ID is CUST-004. I would like a warranty check.",
+        "filled_param": {
+          "purchase_receipt": "RECEIPT-11223",
+          "customer_id": "CUST-004",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "I want to know if my television is eligible for free repair services. The receipt is 99887-QWE and the customer ID is CUSTID5005, and I need a warranty check.",
+        "filled_param": {
+          "purchase_receipt": "99887-QWE",
+          "customer_id": "CUSTID5005",
+          "warranty_check": true
+        }
+      }
+    ]
+  },
+  "FreeRepairInquiry_service|:|mobile phone|:|purchase_receipt,customer_id,warranty_check": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "mobile phone",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check"
+    ],
+    "queries": [
+      {
+        "query": "I need to check if my mobile phone can be repaired for free. My purchase receipt number is 12345-6789 and my customer ID is CUST001. Can you also check the warranty status?",
+        "filled_param": {
+          "purchase_receipt": "12345-6789",
+          "customer_id": "CUST001",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Please verify if my mobile phone is eligible for free repair under warranty. The receipt is 98765-4321 and my customer ID is A987654. Conduct a warranty check as well.",
+        "filled_param": {
+          "purchase_receipt": "98765-4321",
+          "customer_id": "A987654",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "My mobile phone has issues, and I want to know if it qualifies for a free repair. The receipt number is 55555-3333, and my customer ID is USER123. Can you perform a warranty verification?",
+        "filled_param": {
+          "purchase_receipt": "55555-3333",
+          "customer_id": "USER123",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Could you tell me if my mobile phone is still covered for free repairs? The purchase receipt number is 24680-1357 and my customer ID is CLIENT007. Please check the warranty status.",
+        "filled_param": {
+          "purchase_receipt": "24680-1357",
+          "customer_id": "CLIENT007",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "I would like to know if my mobile phone can be repaired at no cost. The receipt reference is 11223-4455, and my ID as a customer is CUST789. Make sure to run a warranty check.",
+        "filled_param": {
+          "purchase_receipt": "11223-4455",
+          "customer_id": "CUST789",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Check if my mobile phone is eligible for a free repair with receipt number 99887-7766 and customer ID ID009876. Verify the warranty as well.",
+        "filled_param": {
+          "purchase_receipt": "99887-7766",
+          "customer_id": "ID009876",
+          "warranty_check": true
+        }
+      }
+    ]
+  },
+  "FreeRepairInquiry_service|:|camera|:|purchase_receipt,customer_id,warranty_check": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "camera",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check"
+    ],
+    "queries": [
+      {
+        "query": "I need to check if my camera is eligible for free repairs. My receipt number is ABC123456 and my customer ID is CUST78910. Please verify the warranty status.",
+        "filled_param": {
+          "purchase_receipt": "ABC123456",
+          "customer_id": "CUST78910",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Can you confirm if my camera can be repaired for free? The purchase receipt is XYZ987654 and my customer ID is USER32145.",
+        "filled_param": {
+          "purchase_receipt": "XYZ987654",
+          "customer_id": "USER32145",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "I have a camera that might need repairs. The receipt number is RECEIPT2023 and my customer ID is ID567890. Please check the warranty eligibility.",
+        "filled_param": {
+          "purchase_receipt": "RECEIPT2023",
+          "customer_id": "ID567890",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "My camera requires a warranty check for free repair eligibility. The receipt number is 12345678PO and my customer ID is CUSTOMER09876.",
+        "filled_param": {
+          "purchase_receipt": "12345678PO",
+          "customer_id": "CUSTOMER09876",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Please check if my camera is under warranty for free repairs. My purchase receipt is NUM456321 and customer ID is ID098765.",
+        "filled_param": {
+          "purchase_receipt": "NUM456321",
+          "customer_id": "ID098765",
+          "warranty_check": true
+        }
+      }
+    ]
+  },
+  "FreeRepairInquiry_service|:|router|:|purchase_receipt,customer_id,warranty_check": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "router",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check"
+    ],
+    "queries": [
+      {
+        "query": "Can you check if my router is eligible for free repair? My purchase receipt is 12345ABC and my customer ID is CUST67890. Please perform a warranty check.",
+        "filled_param": {
+          "purchase_receipt": "12345ABC",
+          "customer_id": "CUST67890",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "I need to verify if my router qualifies for complimentary repairs. The purchase receipt number is RCPT987654 and the customer ID is ID4321. Make sure to do a warranty check.",
+        "filled_param": {
+          "purchase_receipt": "RCPT987654",
+          "customer_id": "ID4321",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Please confirm my router's eligibility for free servicing under warranty. The receipt number is A1B2C3D4E5 and the customer ID is USER112233.",
+        "filled_param": {
+          "purchase_receipt": "A1B2C3D4E5",
+          "customer_id": "USER112233",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Is my router still covered for free repair? My receipt is 555666777 and my customer ID is CLIENT2468. Perform a warranty check as well.",
+        "filled_param": {
+          "purchase_receipt": "555666777",
+          "customer_id": "CLIENT2468",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Check if I'm eligible for a free router repair under warranty with receipt number ZXY123987 and customer ID ACC456321.",
+        "filled_param": {
+          "purchase_receipt": "ZXY123987",
+          "customer_id": "ACC456321",
+          "warranty_check": true
+        }
+      }
+    ]
+  },
+  "FreeRepairInquiry_service|:|projector|:|purchase_receipt,customer_id,warranty_check": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "projector",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check"
+    ],
+    "queries": [
+      {
+        "query": "Can you check if my projector is eligible for free repair? My receipt number is 12345AB and my customer ID is CUST7890.",
+        "filled_param": {
+          "purchase_receipt": "12345AB",
+          "customer_id": "CUST7890",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "I have a projector that might need repairs. The purchase receipt is 67890CD and the customer ID is XYZ1234. Can you verify if it's covered under warranty for a free repair?",
+        "filled_param": {
+          "purchase_receipt": "67890CD",
+          "customer_id": "XYZ1234",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Please let me know if my projector qualifies for complimentary repair. The receipt number is 11223EF and my customer ID is ABC9876.",
+        "filled_param": {
+          "purchase_receipt": "11223EF",
+          "customer_id": "ABC9876",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "I need to check the warranty status for a free projector repair. My receipt is 33445GH and customer ID is DEF6543.",
+        "filled_param": {
+          "purchase_receipt": "33445GH",
+          "customer_id": "DEF6543",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Is my projector eligible for free repairs under its warranty? My purchase receipt is 55667IJ and the customer ID is GHI3210.",
+        "filled_param": {
+          "purchase_receipt": "55667IJ",
+          "customer_id": "GHI3210",
+          "warranty_check": true
+        }
+      }
+    ]
+  },
+  "FreeRepairInquiry_service|:|printer|:|purchase_receipt,customer_id,warranty_check": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "printer",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check"
+    ],
+    "queries": [
+      {
+        "query": "I need to verify if my printer is eligible for a free repair. My purchase receipt number is 7823-ABCD and my customer ID is CUST1023. Please check the warranty.",
+        "filled_param": {
+          "purchase_receipt": "7823-ABCD",
+          "customer_id": "CUST1023",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Could you confirm if I can get a free repair for my printer? The receipt number is 12345XYZ, and my customer ID is 98765. Perform a warranty check for this.",
+        "filled_param": {
+          "purchase_receipt": "12345XYZ",
+          "customer_id": "98765",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "My printer might need repairs. The purchase receipt is PR-2023-7890 and the customer ID is ID-56789. Please do a warranty check to see if it's covered for free repair.",
+        "filled_param": {
+          "purchase_receipt": "PR-2023-7890",
+          "customer_id": "ID-56789",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "I'm checking if my printer qualifies for free repair. The receipt number is RECEIPT-67890 and the customer ID is CX-12345. Initiate a warranty check.",
+        "filled_param": {
+          "purchase_receipt": "RECEIPT-67890",
+          "customer_id": "CX-12345",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Let me know if my printer repair can be done for free. My purchase receipt is 45678-PRINT and customer ID is 13579. Check the warranty status.",
+        "filled_param": {
+          "purchase_receipt": "45678-PRINT",
+          "customer_id": "13579",
+          "warranty_check": true
+        }
+      }
+    ]
+  },
+  "FreeRepairInquiry_service|:|monitor|:|purchase_receipt,customer_id,warranty_check": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "monitor",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check"
+    ],
+    "queries": [
+      {
+        "query": "Could you verify if my monitor is eligible for a free repair? Here is my purchase receipt: 12345ABC and my customer ID: CUST6789. Please perform a warranty check.",
+        "filled_param": {
+          "purchase_receipt": "12345ABC",
+          "customer_id": "CUST6789",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "I need to know if my monitor can be repaired for free under warranty. The purchase receipt number is 98765XYZ, and my customer ID is USER54321. Please check the warranty status.",
+        "filled_param": {
+          "purchase_receipt": "98765XYZ",
+          "customer_id": "USER54321",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Is my monitor still covered for a free repair? My receipt number is ABCD1234, and my customer ID is CLIENT1111. Please do a warranty check.",
+        "filled_param": {
+          "purchase_receipt": "ABCD1234",
+          "customer_id": "CLIENT1111",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "I want to confirm if my monitor qualifies for a free repair. The purchase details are as follows: receipt number 56789DEF and customer ID ACCT2222. Perform a warranty check, please.",
+        "filled_param": {
+          "purchase_receipt": "56789DEF",
+          "customer_id": "ACCT2222",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Can you check the warranty on my monitor for free repair eligibility? My receipt is numbered 24680GHI and my customer ID is MEMBER3333.",
+        "filled_param": {
+          "purchase_receipt": "24680GHI",
+          "customer_id": "MEMBER3333",
+          "warranty_check": true
+        }
+      }
+    ]
+  },
+  "FreeRepairInquiry_service|:|refrigerator|:|purchase_receipt,customer_id,warranty_check": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "refrigerator",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check"
+    ],
+    "queries": [
+      {
+        "query": "Could you check if my refrigerator is eligible for free repair? My receipt number is 847392 and my customer ID is CUST19875. Please perform a warranty check.",
+        "filled_param": {
+          "purchase_receipt": "847392",
+          "customer_id": "CUST19875",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "I need to know if my refrigerator can be repaired for free. The purchase receipt number is RCP123456 and the customer ID is 102938. Ensure to check the warranty status.",
+        "filled_param": {
+          "purchase_receipt": "RCP123456",
+          "customer_id": "102938",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Please verify my refrigerator's eligibility for a complimentary repair. My receipt number is 123789 and my customer ID is ID567890. Conduct a warranty check.",
+        "filled_param": {
+          "purchase_receipt": "123789",
+          "customer_id": "ID567890",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Is my refrigerator still under warranty for a free repair? The receipt number is 555111 and the customer ID is CX998877. Perform a warranty verification.",
+        "filled_param": {
+          "purchase_receipt": "555111",
+          "customer_id": "CX998877",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Can you confirm if my refrigerator qualifies for a no-cost repair? The receipt number is 444222 and the customer ID is USER1234. Please do a warranty check.",
+        "filled_param": {
+          "purchase_receipt": "444222",
+          "customer_id": "USER1234",
+          "warranty_check": true
+        }
+      }
+    ]
+  },
+  "FreeRepairInquiry_service|:|washing machine|:|purchase_receipt,customer_id,warranty_check": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "washing machine",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check"
+    ],
+    "queries": [
+      {
+        "query": "Please verify if my washing machine is eligible for free repair. The receipt number is 12345XYZ, and my customer ID is A987654. Make sure to perform a warranty check.",
+        "filled_param": {
+          "purchase_receipt": "12345XYZ",
+          "customer_id": "A987654",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "I need to know if my washing machine can be repaired for free. My purchase receipt is ABC-567890, and my customer ID is ZX123456. Conduct a warranty check as well.",
+        "filled_param": {
+          "purchase_receipt": "ABC-567890",
+          "customer_id": "ZX123456",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Can you check the warranty status for free repair of my washing machine? The receipt number is 09876LMN and my customer ID is QWERTY123.",
+        "filled_param": {
+          "purchase_receipt": "09876LMN",
+          "customer_id": "QWERTY123",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Is my washing machine under warranty for a free repair service? The receipt number is RECEIPT98765, and my customer ID is CUST987654. Please verify the warranty.",
+        "filled_param": {
+          "purchase_receipt": "RECEIPT98765",
+          "customer_id": "CUST987654",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "I want to inquire about free repair eligibility for my washing machine. The receipt number is DEF456321, and my customer ID is USER321456. Ensure you check the warranty.",
+        "filled_param": {
+          "purchase_receipt": "DEF456321",
+          "customer_id": "USER321456",
+          "warranty_check": true
+        }
+      }
+    ]
+  },
+  "FreeRepairInquiry_service|:|air conditioner|:|purchase_receipt,customer_id,warranty_check": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "air conditioner",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check"
+    ],
+    "queries": [
+      {
+        "query": "Can you check if my air conditioner is eligible for free repair? My purchase receipt number is AC123456 and my customer ID is CUST7890.",
+        "filled_param": {
+          "purchase_receipt": "AC123456",
+          "customer_id": "CUST7890",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "I need to know if my air conditioner is still under warranty for free repairs. The receipt number is REC987654 and the customer ID is ID456123.",
+        "filled_param": {
+          "purchase_receipt": "REC987654",
+          "customer_id": "ID456123",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Please verify the free repair eligibility for my air conditioner. Here is my purchase receipt: 5678ABCD and my customer ID: USER12345.",
+        "filled_param": {
+          "purchase_receipt": "5678ABCD",
+          "customer_id": "USER12345",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Is my air conditioner eligible for a free repair under warranty? The receipt number is NO456789 and my customer ID is ID998877.",
+        "filled_param": {
+          "purchase_receipt": "NO456789",
+          "customer_id": "ID998877",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "I'm checking if my air conditioner is covered for free repairs. The purchase receipt is 123XYZ and my customer ID is CLIENT222.",
+        "filled_param": {
+          "purchase_receipt": "123XYZ",
+          "customer_id": "CLIENT222",
+          "warranty_check": true
+        }
+      }
+    ]
+  },
+  "FreeRepairInquiry_service|:|microwave oven|:|purchase_receipt,customer_id,warranty_check": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "microwave oven",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check"
+    ],
+    "queries": [
+      {
+        "query": "I need to check if my microwave oven is eligible for a free repair. My purchase receipt number is 12345A and my customer ID is CUST9876. Please perform the warranty check.",
+        "filled_param": {
+          "purchase_receipt": "12345A",
+          "customer_id": "CUST9876",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Can you verify if my microwave oven can be repaired under warranty? The receipt for the purchase is 67890B and my customer ID is A12345.",
+        "filled_param": {
+          "purchase_receipt": "67890B",
+          "customer_id": "A12345",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Check warranty status for free repair on my microwave oven. Purchase receipt: RCV123456, Customer ID: CLIENT123.",
+        "filled_param": {
+          "purchase_receipt": "RCV123456",
+          "customer_id": "CLIENT123",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "I want to know if my microwave oven is still under warranty for a free repair. The receipt is 98765C and my customer ID is ID67890.",
+        "filled_param": {
+          "purchase_receipt": "98765C",
+          "customer_id": "ID67890",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Could you confirm if my microwave oven qualifies for a free repair under warranty? My customer ID is B98765 and the receipt number is 54321D.",
+        "filled_param": {
+          "purchase_receipt": "54321D",
+          "customer_id": "B98765",
+          "warranty_check": true
+        }
+      }
+    ]
+  },
+  "FreeRepairInquiry_service|:|dishwasher|:|purchase_receipt,customer_id,warranty_check": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "dishwasher",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check"
+    ],
+    "queries": [
+      {
+        "query": "Could you check if my dishwasher is eligible for a free repair? My purchase receipt is 12345ABC, and my customer ID is CUST67890.",
+        "filled_param": {
+          "purchase_receipt": "12345ABC",
+          "customer_id": "CUST67890",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "I need to know if my dishwasher can be repaired for free. The receipt number is RECEIPT98765 and the customer ID is ID45321.",
+        "filled_param": {
+          "purchase_receipt": "RECEIPT98765",
+          "customer_id": "ID45321",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Perform a warranty check on my dishwasher for a free repair. My receipt number is ABCD1234 and the customer ID is 112233.",
+        "filled_param": {
+          "purchase_receipt": "ABCD1234",
+          "customer_id": "112233",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Please verify if my dishwasher is under warranty for a free repair. The purchase receipt is 987654321 and my customer ID is ZXCVB098.",
+        "filled_param": {
+          "purchase_receipt": "987654321",
+          "customer_id": "ZXCVB098",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "I want to inquire about a possible free repair for my dishwasher. The receipt number is 5678DEF and my customer ID is USER123.",
+        "filled_param": {
+          "purchase_receipt": "5678DEF",
+          "customer_id": "USER123",
+          "warranty_check": true
+        }
+      }
+    ]
+  },
+  "FreeRepairInquiry_service|:|soy milk maker|:|purchase_receipt,customer_id,warranty_check": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "soy milk maker",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check"
+    ],
+    "queries": [
+      {
+        "query": "Can you check if my soy milk maker is eligible for free repair? My customer ID is CUST12345 and the receipt number is REC67890.",
+        "filled_param": {
+          "purchase_receipt": "REC67890",
+          "customer_id": "CUST12345",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "I need to know if my soy milk maker can be repaired for free. The purchase receipt number is 123ABC456 and my customer ID is USER9876.",
+        "filled_param": {
+          "purchase_receipt": "123ABC456",
+          "customer_id": "USER9876",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Please verify the warranty status of my soy milk maker. My receipt is 456XYZ789 and my customer ID is ID234567.",
+        "filled_param": {
+          "purchase_receipt": "456XYZ789",
+          "customer_id": "ID234567",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Check if I'm eligible for a free repair on my soy milk maker. Customer ID: 789USER654, Receipt: 987REC321.",
+        "filled_param": {
+          "purchase_receipt": "987REC321",
+          "customer_id": "789USER654",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "I need assistance to find out if my soy milk maker is still under warranty for free repair. My customer ID is 111222, and the receipt number is 333444.",
+        "filled_param": {
+          "purchase_receipt": "333444",
+          "customer_id": "111222",
+          "warranty_check": true
+        }
+      }
+    ]
+  },
+  "FreeRepairInquiry_service|:|vacuum cleaner|:|purchase_receipt,customer_id,warranty_check": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "vacuum cleaner",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check"
+    ],
+    "queries": [
+      {
+        "query": "Is my vacuum cleaner eligible for a free repair? My receipt number is 12345ABC and my customer ID is CUST98765.",
+        "filled_param": {
+          "purchase_receipt": "12345ABC",
+          "customer_id": "CUST98765",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "I have a vacuum cleaner purchased with receipt 67890XYZ and my customer identifier is ID34567. Can you check if it's still under warranty for a free repair?",
+        "filled_param": {
+          "purchase_receipt": "67890XYZ",
+          "customer_id": "ID34567",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Please verify the warranty status for my vacuum cleaner purchased with receipt number DEF56789, customer ID 101112ID.",
+        "filled_param": {
+          "purchase_receipt": "DEF56789",
+          "customer_id": "101112ID",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "Can you tell me if my vacuum cleaner is eligible for free repair? My purchase receipt is 54321XYZ, and my customer ID is CUST12345.",
+        "filled_param": {
+          "purchase_receipt": "54321XYZ",
+          "customer_id": "CUST12345",
+          "warranty_check": true
+        }
+      },
+      {
+        "query": "I need to check the free repair eligibility for my vacuum cleaner. The receipt number is ABC12345 and my customer ID is CUSTOMER67890.",
+        "filled_param": {
+          "purchase_receipt": "ABC12345",
+          "customer_id": "CUSTOMER67890",
+          "warranty_check": true
+        }
+      }
+    ]
+  }
+}

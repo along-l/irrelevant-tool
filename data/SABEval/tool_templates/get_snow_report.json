@@ -1,0 +1,57 @@
+{
+  "tool_template_name": "get_snow_report",
+  "meta_data": {
+    "base_class": "Retrieve the latest <weather phenomenon report> for a specific location, including relevant measurements and weather temperature - <weather phenomenon report> refers to automatically generated summaries about a specific type of weather event affecting a particular region, such as snowfall, rainfall, or fog.",
+    "derived_classes": [
+      "snow report",
+      "fog report",
+      "thunderstorm report",
+      "hail report",
+      "typhoon report",
+      "dust storm report",
+      "heatwave report",
+      "rain report"
+    ],
+    "base_class_entity": "location"
+  },
+  "tool_template": {
+    "name": "get_<class>_report",
+    "description": "Retrieves the latest <class> for a specified location, providing details about the conditions and weather temperature.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "location": {
+          "type": "string",
+          "description": "The location for which to get the <class> report, in the format of 'City, State'."
+        }
+      },
+      "required": [
+        "location"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "unit": {
+      "type": "string",
+      "description": "The temperature unit to be used in the report. Options are 'celsius', 'fahrenheit', or 'kelvin'."
+    }
+  },
+  "additional_params": {
+    "report_source": {
+      "type": "string",
+      "description": "The data source or weather monitoring agency providing the latest <class> report, such as 'NOAA', 'Met Office', or 'Japan Meteorological Agency'."
+    },
+    "include_alerts": {
+      "type": "boolean",
+      "description": "If true, include any active weather alerts or warnings related to the <class> in the specified location."
+    },
+    "detail_level": {
+      "type": "string",
+      "description": "Specifies the level of detail to include in the <class> report. Options are 'summary', 'standard', or 'detailed'."
+    },
+    "report_format": {
+      "type": "string",
+      "description": "The preferred output format of the <class> report. Options are 'text', 'json', or 'graphical'."
+    }
+  }
+}

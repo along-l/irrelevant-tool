@@ -1,0 +1,463 @@
+{
+  "whole_foods.find_top_brands|:|Whole Foods|:|product,number,organic": {
+    "tool_template_name": "whole_foods.find_top_brands",
+    "derived_class": "Whole Foods",
+    "params_for_query": [
+      "product",
+      "number",
+      "organic"
+    ],
+    "queries": [
+      {
+        "query": "What are the top 5 brands of organic almond milk available at Whole Foods?",
+        "filled_param": {
+          "product": "almond milk",
+          "number": 5,
+          "organic": true
+        }
+      },
+      {
+        "query": "Can you find the 3 best-selling organic granola brands in Whole Foods?",
+        "filled_param": {
+          "product": "granola",
+          "number": 3,
+          "organic": true
+        }
+      },
+      {
+        "query": "List the top 10 brands of non-organic pasta available at Whole Foods.",
+        "filled_param": {
+          "product": "pasta",
+          "number": 10,
+          "organic": false
+        }
+      },
+      {
+        "query": "Which are the top 7 organic yogurt brands that I can buy from Whole Foods?",
+        "filled_param": {
+          "product": "yogurt",
+          "number": 7,
+          "organic": true
+        }
+      },
+      {
+        "query": "Please provide the top 4 brands of non-organic olive oil in Whole Foods.",
+        "filled_param": {
+          "product": "olive oil",
+          "number": 4,
+          "organic": false
+        }
+      },
+      {
+        "query": "I need the top 6 brands of organic peanut butter available at Whole Foods.",
+        "filled_param": {
+          "product": "peanut butter",
+          "number": 6,
+          "organic": true
+        }
+      },
+      {
+        "query": "What are the leading 8 brands of non-organic coffee sold in Whole Foods?",
+        "filled_param": {
+          "product": "coffee",
+          "number": 8,
+          "organic": false
+        }
+      }
+    ]
+  },
+  "whole_foods.find_top_brands|:|Walmart|:|product,number,organic": {
+    "tool_template_name": "whole_foods.find_top_brands",
+    "derived_class": "Walmart",
+    "params_for_query": [
+      "product",
+      "number",
+      "organic"
+    ],
+    "queries": [
+      {
+        "query": "Which are the top 5 organic cereal brands available in Walmart?",
+        "filled_param": {
+          "product": "cereal",
+          "number": 5,
+          "organic": true
+        }
+      },
+      {
+        "query": "Can you list the top 3 non-organic shampoo brands at Walmart?",
+        "filled_param": {
+          "product": "shampoo",
+          "number": 3,
+          "organic": false
+        }
+      },
+      {
+        "query": "I'm looking for the top 4 organic coffee brands sold by Walmart.",
+        "filled_param": {
+          "product": "coffee",
+          "number": 4,
+          "organic": true
+        }
+      },
+      {
+        "query": "What are the top 10 organic baby food brands that Walmart offers?",
+        "filled_param": {
+          "product": "baby food",
+          "number": 10,
+          "organic": true
+        }
+      },
+      {
+        "query": "Find the top 7 non-organic chocolate brands in Walmart.",
+        "filled_param": {
+          "product": "chocolate",
+          "number": 7,
+          "organic": false
+        }
+      },
+      {
+        "query": "Could you provide a list of the top 6 organic skincare brands at Walmart?",
+        "filled_param": {
+          "product": "skincare",
+          "number": 6,
+          "organic": true
+        }
+      }
+    ]
+  },
+  "whole_foods.find_top_brands|:|Costco|:|product,number,organic": {
+    "tool_template_name": "whole_foods.find_top_brands",
+    "derived_class": "Costco",
+    "params_for_query": [
+      "product",
+      "number",
+      "organic"
+    ],
+    "queries": [
+      {
+        "query": "What are the top 3 organic coffee brands available at Costco?",
+        "filled_param": {
+          "product": "coffee",
+          "number": 3,
+          "organic": true
+        }
+      },
+      {
+        "query": "Could you list the 5 best non-organic chocolate brands found in Costco?",
+        "filled_param": {
+          "product": "chocolate",
+          "number": 5,
+          "organic": false
+        }
+      },
+      {
+        "query": "Please provide the top 2 organic olive oil brands at Costco.",
+        "filled_param": {
+          "product": "olive oil",
+          "number": 2,
+          "organic": true
+        }
+      },
+      {
+        "query": "Find me the 4 leading non-organic rice brands sold at Costco.",
+        "filled_param": {
+          "product": "rice",
+          "number": 4,
+          "organic": false
+        }
+      },
+      {
+        "query": "Can you supply the list of the top 6 organic cereal brands in Costco?",
+        "filled_param": {
+          "product": "cereal",
+          "number": 6,
+          "organic": true
+        }
+      },
+      {
+        "query": "What are the top 8 non-organic detergent brands available in Costco?",
+        "filled_param": {
+          "product": "detergent",
+          "number": 8,
+          "organic": false
+        }
+      },
+      {
+        "query": "Get me the top 7 organic tea brands that Costco stocks.",
+        "filled_param": {
+          "product": "tea",
+          "number": 7,
+          "organic": true
+        }
+      }
+    ]
+  },
+  "whole_foods.find_top_brands|:|Amazon Fresh|:|product,number,organic": {
+    "tool_template_name": "whole_foods.find_top_brands",
+    "derived_class": "Amazon Fresh",
+    "params_for_query": [
+      "product",
+      "number",
+      "organic"
+    ],
+    "queries": [
+      {
+        "query": "Could you list the top 5 brands of organic apples available on Amazon Fresh?",
+        "filled_param": {
+          "product": "apples",
+          "number": 5,
+          "organic": true
+        }
+      },
+      {
+        "query": "Find the top 3 brands of non-organic chicken breasts on Amazon Fresh.",
+        "filled_param": {
+          "product": "chicken breasts",
+          "number": 3,
+          "organic": false
+        }
+      },
+      {
+        "query": "What are the top 10 brands for organic almond milk in Amazon Fresh?",
+        "filled_param": {
+          "product": "almond milk",
+          "number": 10,
+          "organic": true
+        }
+      },
+      {
+        "query": "Please provide the top 7 brands of non-organic bananas from Amazon Fresh.",
+        "filled_param": {
+          "product": "bananas",
+          "number": 7,
+          "organic": false
+        }
+      },
+      {
+        "query": "I need to know the top 4 organic coffee brands available through Amazon Fresh.",
+        "filled_param": {
+          "product": "coffee",
+          "number": 4,
+          "organic": true
+        }
+      },
+      {
+        "query": "Can you show me the top 6 brands of non-organic peanut butter in Amazon Fresh?",
+        "filled_param": {
+          "product": "peanut butter",
+          "number": 6,
+          "organic": false
+        }
+      },
+      {
+        "query": "List the top 8 brands of organic baby spinach available on Amazon Fresh.",
+        "filled_param": {
+          "product": "baby spinach",
+          "number": 8,
+          "organic": true
+        }
+      }
+    ]
+  },
+  "whole_foods.find_top_brands|:|Target|:|product,number,organic": {
+    "tool_template_name": "whole_foods.find_top_brands",
+    "derived_class": "Target",
+    "params_for_query": [
+      "product",
+      "number",
+      "organic"
+    ],
+    "queries": [
+      {
+        "query": "What are the top 3 brands of organic almond milk available at Target?",
+        "filled_param": {
+          "product": "almond milk",
+          "number": 3,
+          "organic": true
+        }
+      },
+      {
+        "query": "Can you list the top 5 brands of non-organic peanut butter sold at Target?",
+        "filled_param": {
+          "product": "peanut butter",
+          "number": 5,
+          "organic": false
+        }
+      },
+      {
+        "query": "I need to find the top 2 organic olive oil brands available from Target.",
+        "filled_param": {
+          "product": "olive oil",
+          "number": 2,
+          "organic": true
+        }
+      },
+      {
+        "query": "Give me the top 4 brands of non-organic cereal that Target offers.",
+        "filled_param": {
+          "product": "cereal",
+          "number": 4,
+          "organic": false
+        }
+      },
+      {
+        "query": "Could you tell me the top brand of organic honey at Target?",
+        "filled_param": {
+          "product": "honey",
+          "number": 1,
+          "organic": true
+        }
+      },
+      {
+        "query": "Find the top 6 brands of non-organic bottled water sold at Target.",
+        "filled_param": {
+          "product": "bottled water",
+          "number": 6,
+          "organic": false
+        }
+      },
+      {
+        "query": "What are the top 3 organic yogurt brands available in Target stores?",
+        "filled_param": {
+          "product": "yogurt",
+          "number": 3,
+          "organic": true
+        }
+      }
+    ]
+  },
+  "whole_foods.find_top_brands|:|Carrefour|:|product,number,organic": {
+    "tool_template_name": "whole_foods.find_top_brands",
+    "derived_class": "Carrefour",
+    "params_for_query": [
+      "product",
+      "number",
+      "organic"
+    ],
+    "queries": [
+      {
+        "query": "Can you list the top 5 brands of organic olive oil available in Carrefour?",
+        "filled_param": {
+          "product": "olive oil",
+          "number": 5,
+          "organic": true
+        }
+      },
+      {
+        "query": "I am looking for the top 3 non-organic chocolate brands in Carrefour. What are they?",
+        "filled_param": {
+          "product": "chocolate",
+          "number": 3,
+          "organic": false
+        }
+      },
+      {
+        "query": "What are the top 10 organic coffee brands sold at Carrefour?",
+        "filled_param": {
+          "product": "coffee",
+          "number": 10,
+          "organic": true
+        }
+      },
+      {
+        "query": "Please provide the top 4 brands of non-organic cereal you can find in Carrefour.",
+        "filled_param": {
+          "product": "cereal",
+          "number": 4,
+          "organic": false
+        }
+      },
+      {
+        "query": "I need a list of the top 6 organic tea brands available at Carrefour.",
+        "filled_param": {
+          "product": "tea",
+          "number": 6,
+          "organic": true
+        }
+      },
+      {
+        "query": "Can you give me the top 7 non-organic pasta brands at Carrefour?",
+        "filled_param": {
+          "product": "pasta",
+          "number": 7,
+          "organic": false
+        }
+      },
+      {
+        "query": "What are the top 2 brands of organic honey available at Carrefour?",
+        "filled_param": {
+          "product": "honey",
+          "number": 2,
+          "organic": true
+        }
+      }
+    ]
+  },
+  "whole_foods.find_top_brands|:|Sam's Club|:|product,number,organic": {
+    "tool_template_name": "whole_foods.find_top_brands",
+    "derived_class": "Sam's Club",
+    "params_for_query": [
+      "product",
+      "number",
+      "organic"
+    ],
+    "queries": [
+      {
+        "query": "Can you tell me the top 5 brands of organic coffee available at Sam's Club?",
+        "filled_param": {
+          "product": "coffee",
+          "number": 5,
+          "organic": true
+        }
+      },
+      {
+        "query": "I need a list of the top 3 non-organic cereal brands at Sam's Club.",
+        "filled_param": {
+          "product": "cereal",
+          "number": 3,
+          "organic": false
+        }
+      },
+      {
+        "query": "Find the top 10 brands for organic olive oil in Sam's Club.",
+        "filled_param": {
+          "product": "olive oil",
+          "number": 10,
+          "organic": true
+        }
+      },
+      {
+        "query": "What are the top 7 brands of non-organic laundry detergent at Sam's Club?",
+        "filled_param": {
+          "product": "laundry detergent",
+          "number": 7,
+          "organic": false
+        }
+      },
+      {
+        "query": "List the top 4 organic milk brands found in Sam's Club.",
+        "filled_param": {
+          "product": "milk",
+          "number": 4,
+          "organic": true
+        }
+      },
+      {
+        "query": "Can you provide the top 6 non-organic peanut butter brands available in Sam's Club?",
+        "filled_param": {
+          "product": "peanut butter",
+          "number": 6,
+          "organic": false
+        }
+      },
+      {
+        "query": "Show me the top 8 brands of organic tea at Sam's Club.",
+        "filled_param": {
+          "product": "tea",
+          "number": 8,
+          "organic": true
+        }
+      }
+    ]
+  }
+}

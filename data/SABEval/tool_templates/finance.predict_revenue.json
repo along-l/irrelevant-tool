@@ -1,0 +1,65 @@
+{
+  "tool_template_name": "finance.predict_revenue",
+  "meta_data": {
+    "base_class": "Predict the revenue of a specific <industry-specific company> over a defined time period - refers to a business entity operating within a specific industry sector, for which financial projections can be made based on trends and past performance.",
+    "derived_classes": [
+      "automotive company",
+      "pharmaceutical company",
+      "commercial bank",
+      "insurance company",
+      "airline company",
+      "telecommunications company",
+      "construction company",
+      "logistics company",
+      "food company",
+      "oil company",
+      "electric power company"
+    ],
+    "base_class_entity": "company"
+  },
+  "tool_template": {
+    "name": "predict_<class>_revenue",
+    "description": "Predict the revenue of a <class> for a specific period based on historical data.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "company_name": {
+          "type": "string",
+          "description": "The name of the <class>."
+        },
+        "period": {
+          "type": "string",
+          "description": "The period for which revenue is to be predicted."
+        }
+      },
+      "required": [
+        "company_name",
+        "period"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "industry_trends": {
+      "type": "boolean",
+      "description": "Whether to consider trends of the <class> in prediction."
+    }
+  },
+  "additional_params": {
+    "historical_data_years": {
+      "type": "integer",
+      "description": "The number of past years of data to consider for predicting the <class> revenue."
+    },
+    "economic_indicators": {
+      "type": "boolean",
+      "description": "Whether to include economic indicators like GDP growth and unemployment rate in the prediction for the <class>."
+    },
+    "prediction_confidence_interval": {
+      "type": "number",
+      "description": "The confidence interval for the revenue prediction, providing a range of uncertainty for the <class> revenue forecast."
+    },
+    "include_seasonality": {
+      "type": "boolean",
+      "description": "Whether to account for seasonal fluctuations in revenue for the <class>."
+    }
+  }
+}

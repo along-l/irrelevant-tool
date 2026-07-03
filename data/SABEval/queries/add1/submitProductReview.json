@@ -1,0 +1,672 @@
+{
+  "submitProductReview|:|movie disc|:|UserName,ProductName,ReviewText,Rating,PurchaseDate": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "movie disc",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate"
+    ],
+    "queries": [
+      {
+        "query": "My name is John Doe, and I want to submit a review for the movie disc 'Inception'. I think it's absolutely mind-bending, and I would rate it 5 stars. I bought it on September 15, 2023.",
+        "filled_param": {
+          "UserName": "John Doe",
+          "ProductName": "Inception",
+          "ReviewText": "I think it's absolutely mind-bending.",
+          "Rating": 5,
+          "PurchaseDate": "September 15, 2023"
+        }
+      },
+      {
+        "query": "This is Jane Smith. Please submit my review for the movie disc 'The Godfather'. It's a masterpiece, so I'm giving it a 5 out of 5. I purchased it on August 20, 2023.",
+        "filled_param": {
+          "UserName": "Jane Smith",
+          "ProductName": "The Godfather",
+          "ReviewText": "It's a masterpiece.",
+          "Rating": 5,
+          "PurchaseDate": "August 20, 2023"
+        }
+      },
+      {
+        "query": "Submit this review from Michael Johnson for 'Avatar' movie disc: The visual effects are stunning, but the story could be better. Rating: 3. Purchase date was July 5, 2023.",
+        "filled_param": {
+          "UserName": "Michael Johnson",
+          "ProductName": "Avatar",
+          "ReviewText": "The visual effects are stunning, but the story could be better.",
+          "Rating": 3,
+          "PurchaseDate": "July 5, 2023"
+        }
+      },
+      {
+        "query": "I'm Emily Brown, and here's my review for 'Titanic' movie disc. It's a timeless classic, deserves a 4-star rating. Bought on October 10, 2023.",
+        "filled_param": {
+          "UserName": "Emily Brown",
+          "ProductName": "Titanic",
+          "ReviewText": "It's a timeless classic.",
+          "Rating": 4,
+          "PurchaseDate": "October 10, 2023"
+        }
+      },
+      {
+        "query": "Review by Alex Wilson for 'The Matrix' movie disc: A revolutionary sci-fi film, I'd score it 5 stars. Purchased it on June 1, 2023.",
+        "filled_param": {
+          "UserName": "Alex Wilson",
+          "ProductName": "The Matrix",
+          "ReviewText": "A revolutionary sci-fi film.",
+          "Rating": 5,
+          "PurchaseDate": "June 1, 2023"
+        }
+      },
+      {
+        "query": "Please post my review for 'Jurassic Park' movie disc. I'm Sarah Lee, and I think the movie is spectacular, so it gets a 4. Bought on April 12, 2023.",
+        "filled_param": {
+          "UserName": "Sarah Lee",
+          "ProductName": "Jurassic Park",
+          "ReviewText": "I think the movie is spectacular.",
+          "Rating": 4,
+          "PurchaseDate": "April 12, 2023"
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|book|:|UserName,ProductName,ReviewText,Rating,PurchaseDate": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "book",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate"
+    ],
+    "queries": [
+      {
+        "query": "Hi, I'm John Doe and I recently read 'The Silent Patient'. I purchased it on 2023-09-15 and would rate it 4 stars. My review is: 'A gripping psychological thriller that kept me on the edge of my seat. The twist was just phenomenal.'",
+        "filled_param": {
+          "UserName": "John Doe",
+          "ProductName": "The Silent Patient",
+          "ReviewText": "A gripping psychological thriller that kept me on the edge of my seat. The twist was just phenomenal.",
+          "Rating": 4,
+          "PurchaseDate": "2023-09-15"
+        }
+      },
+      {
+        "query": "Hello, my name is Emily Smith. I would like to submit a review for 'Where the Crawdads Sing'. I bought it on 2023-06-21, and it's a 5-star read for me. Here's my review: 'A beautiful and haunting narrative that intertwines a murder mystery with a coming-of-age story.'",
+        "filled_param": {
+          "UserName": "Emily Smith",
+          "ProductName": "Where the Crawdads Sing",
+          "ReviewText": "A beautiful and haunting narrative that intertwines a murder mystery with a coming-of-age story.",
+          "Rating": 5,
+          "PurchaseDate": "2023-06-21"
+        }
+      },
+      {
+        "query": "I am Alex Johnson. I’d like to leave a review for 'Educated' which I purchased on 2023-05-10. I rate it 3 stars. My thoughts: 'An inspiring memoir that occasionally felt disjointed, but overall worth a read.'",
+        "filled_param": {
+          "UserName": "Alex Johnson",
+          "ProductName": "Educated",
+          "ReviewText": "An inspiring memoir that occasionally felt disjointed, but overall worth a read.",
+          "Rating": 3,
+          "PurchaseDate": "2023-05-10"
+        }
+      },
+      {
+        "query": "My name is Sarah Lee. I bought 'Becoming' on 2023-04-05 and would like to review it. I give it 5 stars. Here's my review: 'Michelle Obama’s journey is both empowering and deeply personal. A must-read for anyone seeking inspiration.'",
+        "filled_param": {
+          "UserName": "Sarah Lee",
+          "ProductName": "Becoming",
+          "ReviewText": "Michelle Obama’s journey is both empowering and deeply personal. A must-read for anyone seeking inspiration.",
+          "Rating": 5,
+          "PurchaseDate": "2023-04-05"
+        }
+      },
+      {
+        "query": "I’m Michael Brown and I purchased 'The Midnight Library' on 2023-08-30. I’d like to give it 2 stars. My review: 'An intriguing premise but the execution fell flat for me.'",
+        "filled_param": {
+          "UserName": "Michael Brown",
+          "ProductName": "The Midnight Library",
+          "ReviewText": "An intriguing premise but the execution fell flat for me.",
+          "Rating": 2,
+          "PurchaseDate": "2023-08-30"
+        }
+      },
+      {
+        "query": "Hello, this is Rachel Green. I'm submitting a review for 'Normal People', which I bought on 2023-07-19. I rate it 4 stars. Review: 'A deeply moving and realistic portrayal of love and friendship.'",
+        "filled_param": {
+          "UserName": "Rachel Green",
+          "ProductName": "Normal People",
+          "ReviewText": "A deeply moving and realistic portrayal of love and friendship.",
+          "Rating": 4,
+          "PurchaseDate": "2023-07-19"
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|App Store app|:|UserName,ProductName,ReviewText,Rating,PurchaseDate": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "App Store app",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate"
+    ],
+    "queries": [
+      {
+        "query": "I recently bought the App Store app 'WeatherPro' on March 10, 2023. My name is Alice Johnson, and I'd like to give it a 4-star rating. The app is quite user-friendly, but I wish it had more customization options.",
+        "filled_param": {
+          "UserName": "Alice Johnson",
+          "ProductName": "WeatherPro",
+          "ReviewText": "The app is quite user-friendly, but I wish it had more customization options.",
+          "Rating": 4,
+          "PurchaseDate": "March 10, 2023"
+        }
+      },
+      {
+        "query": "Submit my review for the App Store app 'Calm'. I purchased it on February 15, 2023. My name is John Smith. I am giving it a 5-star rating because it has helped me a lot with stress management.",
+        "filled_param": {
+          "UserName": "John Smith",
+          "ProductName": "Calm",
+          "ReviewText": "I am giving it a 5-star rating because it has helped me a lot with stress management.",
+          "Rating": 5,
+          "PurchaseDate": "February 15, 2023"
+        }
+      },
+      {
+        "query": "I'd like to submit a review for the App Store app 'FitnessPal'. My name is Emily Davis, and I bought the app on April 5, 2023. I give it a 3-star rating because it lacks some nutritional tracking features.",
+        "filled_param": {
+          "UserName": "Emily Davis",
+          "ProductName": "FitnessPal",
+          "ReviewText": "I give it a 3-star rating because it lacks some nutritional tracking features.",
+          "Rating": 3,
+          "PurchaseDate": "April 5, 2023"
+        }
+      },
+      {
+        "query": "I am Michael Brown, and I purchased the App Store app 'ProCamera' on January 20, 2023. I would like to rate it 2 stars. The app crashes frequently, making it unusable.",
+        "filled_param": {
+          "UserName": "Michael Brown",
+          "ProductName": "ProCamera",
+          "ReviewText": "The app crashes frequently, making it unusable.",
+          "Rating": 2,
+          "PurchaseDate": "January 20, 2023"
+        }
+      },
+      {
+        "query": "Please help me write a review for 'Mindfulness Coach', an App Store app I purchased on March 25, 2023. My name is Sophia Lee. I want to give it a 5-star rating. The guided meditations are excellent and have greatly improved my mindfulness practice.",
+        "filled_param": {
+          "UserName": "Sophia Lee",
+          "ProductName": "Mindfulness Coach",
+          "ReviewText": "The guided meditations are excellent and have greatly improved my mindfulness practice.",
+          "Rating": 5,
+          "PurchaseDate": "March 25, 2023"
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|instant food|:|UserName,ProductName,ReviewText,Rating,PurchaseDate": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "instant food",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate"
+    ],
+    "queries": [
+      {
+        "query": "I am John Doe, and I recently bought the instant food 'QuickMeal Noodles'. Here's my review: The flavor was rich and authentic, but the portion size was a bit too small. I would rate it 4 out of 5 stars. I purchased it on September 15, 2023.",
+        "filled_param": {
+          "UserName": "John Doe",
+          "ProductName": "QuickMeal Noodles",
+          "ReviewText": "The flavor was rich and authentic, but the portion size was a bit too small.",
+          "Rating": 4,
+          "PurchaseDate": "September 15, 2023"
+        }
+      },
+      {
+        "query": "This is Emily Carter. My review for 'Instant Delight Soup' is: I found the soup to be comforting and easy to prepare, perfect for those cold evenings. I give it a 5-star rating. I bought it on October 1, 2023.",
+        "filled_param": {
+          "UserName": "Emily Carter",
+          "ProductName": "Instant Delight Soup",
+          "ReviewText": "I found the soup to be comforting and easy to prepare, perfect for those cold evenings.",
+          "Rating": 5,
+          "PurchaseDate": "October 1, 2023"
+        }
+      },
+      {
+        "query": "My name is Alex Brown. I want to review the instant food 'Speedy Pasta'. It was quick to cook and tasted okay, but a bit salty for my liking. I'd rate it 3 out of 5. I purchased it on August 21, 2023.",
+        "filled_param": {
+          "UserName": "Alex Brown",
+          "ProductName": "Speedy Pasta",
+          "ReviewText": "It was quick to cook and tasted okay, but a bit salty for my liking.",
+          "Rating": 3,
+          "PurchaseDate": "August 21, 2023"
+        }
+      },
+      {
+        "query": "This is Sarah Nguyen with a review for 'Rapid Rice Bowl'. The meal was filling and flavorful, though slightly pricey. My rating is 4 stars. I bought it on July 10, 2023.",
+        "filled_param": {
+          "UserName": "Sarah Nguyen",
+          "ProductName": "Rapid Rice Bowl",
+          "ReviewText": "The meal was filling and flavorful, though slightly pricey.",
+          "Rating": 4,
+          "PurchaseDate": "July 10, 2023"
+        }
+      },
+      {
+        "query": "I'm Michael Lee, leaving a review for 'Instant Oatmeal Mix'. The oats were convenient for a quick breakfast, but lacked variety in flavor. I would rate it 2 stars. Bought on June 5, 2023.",
+        "filled_param": {
+          "UserName": "Michael Lee",
+          "ProductName": "Instant Oatmeal Mix",
+          "ReviewText": "The oats were convenient for a quick breakfast, but lacked variety in flavor.",
+          "Rating": 2,
+          "PurchaseDate": "June 5, 2023"
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|music album|:|UserName,ProductName,ReviewText,Rating,PurchaseDate": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "music album",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate"
+    ],
+    "queries": [
+      {
+        "query": "Hi, I'm Alex and I'd like to submit a review for the music album 'Euphoria'. I bought it on 2023-08-15 and would rate it 4 stars. Here's my review: 'The album has a great mix of upbeat and mellow tracks that I truly enjoyed.'",
+        "filled_param": {
+          "UserName": "Alex",
+          "ProductName": "Euphoria",
+          "ReviewText": "The album has a great mix of upbeat and mellow tracks that I truly enjoyed.",
+          "Rating": 4,
+          "PurchaseDate": "2023-08-15"
+        }
+      },
+      {
+        "query": "This is Jamie. I recently purchased the music album 'Moonlight Serenade' on 2023-07-10. I would give it a 5-star rating. My review: 'Absolutely enchanting! Every song is a masterpiece.'",
+        "filled_param": {
+          "UserName": "Jamie",
+          "ProductName": "Moonlight Serenade",
+          "ReviewText": "Absolutely enchanting! Every song is a masterpiece.",
+          "Rating": 5,
+          "PurchaseDate": "2023-07-10"
+        }
+      },
+      {
+        "query": "I'd like to give my feedback on the music album 'Cosmic Journey'. I'm Sam, and I bought it on 2023-09-05. Rating: 3. Review: 'While it has some standout tracks, a few songs felt repetitive.'",
+        "filled_param": {
+          "UserName": "Sam",
+          "ProductName": "Cosmic Journey",
+          "ReviewText": "While it has some standout tracks, a few songs felt repetitive.",
+          "Rating": 3,
+          "PurchaseDate": "2023-09-05"
+        }
+      },
+      {
+        "query": "My name is Taylor, and I want to review 'Urban Beats'. I purchased the music album on 2023-08-20 and would rate it 2 stars. Review: 'Not my cup of tea. Found it lacking depth.'",
+        "filled_param": {
+          "UserName": "Taylor",
+          "ProductName": "Urban Beats",
+          "ReviewText": "Not my cup of tea. Found it lacking depth.",
+          "Rating": 2,
+          "PurchaseDate": "2023-08-20"
+        }
+      },
+      {
+        "query": "Hello, I'm Jordan. I bought the music album 'Rock Revival' on 2023-07-01 and would like to give it a 5-star rating. Review: 'A brilliant revival of classic rock sounds with a modern twist.'",
+        "filled_param": {
+          "UserName": "Jordan",
+          "ProductName": "Rock Revival",
+          "ReviewText": "A brilliant revival of classic rock sounds with a modern twist.",
+          "Rating": 5,
+          "PurchaseDate": "2023-07-01"
+        }
+      },
+      {
+        "query": "I'm Casey and I want to share my thoughts on 'Electronic Dreams'. Purchased on 2023-09-15, I rate this music album 4 stars. My review: 'Innovative beats and rhythms, but could use more variety in melody.'",
+        "filled_param": {
+          "UserName": "Casey",
+          "ProductName": "Electronic Dreams",
+          "ReviewText": "Innovative beats and rhythms, but could use more variety in melody.",
+          "Rating": 4,
+          "PurchaseDate": "2023-09-15"
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|video game|:|UserName,ProductName,ReviewText,Rating,PurchaseDate": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "video game",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate"
+    ],
+    "queries": [
+      {
+        "query": "My name is Alex Johnson. I recently bought the video game 'Super Racing 2023' on June 5, 2023, and I'd like to submit a review. I think the game is fantastic with great graphics and innovative gameplay. I'm giving it a 5-star rating.",
+        "filled_param": {
+          "UserName": "Alex Johnson",
+          "ProductName": "Super Racing 2023",
+          "ReviewText": "I think the game is fantastic with great graphics and innovative gameplay.",
+          "Rating": 5,
+          "PurchaseDate": "June 5, 2023"
+        }
+      },
+      {
+        "query": "I am Emily Smith, and I purchased the video game 'Mystic Quest' on April 12, 2023. My review is that the storyline was captivating, but I encountered several bugs. I'd rate it a 3.",
+        "filled_param": {
+          "UserName": "Emily Smith",
+          "ProductName": "Mystic Quest",
+          "ReviewText": "The storyline was captivating, but I encountered several bugs.",
+          "Rating": 3,
+          "PurchaseDate": "April 12, 2023"
+        }
+      },
+      {
+        "query": "This is Michael Brown. I got the ‘Alien Invaders’ game on January 20, 2023. Here’s my review: The multiplayer mode is fantastic, but the single-player campaign lacks depth. I'm giving it a 4-star rating.",
+        "filled_param": {
+          "UserName": "Michael Brown",
+          "ProductName": "Alien Invaders",
+          "ReviewText": "The multiplayer mode is fantastic, but the single-player campaign lacks depth.",
+          "Rating": 4,
+          "PurchaseDate": "January 20, 2023"
+        }
+      },
+      {
+        "query": "My name is Sarah Lee. I purchased 'Castle Defenders' on March 15, 2023. In my opinion, the game is quite repetitive and lacks new challenges. I would rate it a 2.",
+        "filled_param": {
+          "UserName": "Sarah Lee",
+          "ProductName": "Castle Defenders",
+          "ReviewText": "In my opinion, the game is quite repetitive and lacks new challenges.",
+          "Rating": 2,
+          "PurchaseDate": "March 15, 2023"
+        }
+      },
+      {
+        "query": "I'm Daniel White and I bought the video game 'Space Odyssey' on May 22, 2023. My review: It offers an immersive experience with stunning visuals, deserving of a 5-star rating.",
+        "filled_param": {
+          "UserName": "Daniel White",
+          "ProductName": "Space Odyssey",
+          "ReviewText": "It offers an immersive experience with stunning visuals.",
+          "Rating": 5,
+          "PurchaseDate": "May 22, 2023"
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|car|:|UserName,ProductName,ReviewText,Rating,PurchaseDate": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "car",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate"
+    ],
+    "queries": [
+      {
+        "query": "I am John Doe, and I want to submit a review for the car Tesla Model 3. I purchased it on 2023-06-15. Here's my review: 'The car has a fantastic range and smooth acceleration. I love the autopilot feature.' I would rate it a 5.",
+        "filled_param": {
+          "UserName": "John Doe",
+          "ProductName": "Tesla Model 3",
+          "ReviewText": "The car has a fantastic range and smooth acceleration. I love the autopilot feature.",
+          "Rating": 5,
+          "PurchaseDate": "2023-06-15"
+        }
+      },
+      {
+        "query": "Submit a car review for me. My name is Sarah Lee, and I bought a Toyota Corolla on 2022-04-30. Review: 'Reliable and fuel-efficient, but lacks advanced tech features compared to newer models.' I give it a 4.",
+        "filled_param": {
+          "UserName": "Sarah Lee",
+          "ProductName": "Toyota Corolla",
+          "ReviewText": "Reliable and fuel-efficient, but lacks advanced tech features compared to newer models.",
+          "Rating": 4,
+          "PurchaseDate": "2022-04-30"
+        }
+      },
+      {
+        "query": "I'm Alex Johnson, and I'd like to review my 2021 Honda Civic. Purchased it on 2021-09-10. The car is comfortable and sporty, but the infotainment system can be laggy. My rating is 3.",
+        "filled_param": {
+          "UserName": "Alex Johnson",
+          "ProductName": "Honda Civic",
+          "ReviewText": "The car is comfortable and sporty, but the infotainment system can be laggy.",
+          "Rating": 3,
+          "PurchaseDate": "2021-09-10"
+        }
+      },
+      {
+        "query": "My name is Emily Clark and I want to leave a review for the car Ford Mustang. I purchased it on 2023-05-20. The review is: 'Powerful engine and stylish design, but the gas mileage is not great.' My rating is 4.",
+        "filled_param": {
+          "UserName": "Emily Clark",
+          "ProductName": "Ford Mustang",
+          "ReviewText": "Powerful engine and stylish design, but the gas mileage is not great.",
+          "Rating": 4,
+          "PurchaseDate": "2023-05-20"
+        }
+      },
+      {
+        "query": "This is David Kim, and I need to submit my car review for the BMW X5 purchased on 2022-11-01. 'Luxurious interior and excellent driving dynamics, though the maintenance costs are high.' I rate it 4.",
+        "filled_param": {
+          "UserName": "David Kim",
+          "ProductName": "BMW X5",
+          "ReviewText": "Luxurious interior and excellent driving dynamics, though the maintenance costs are high.",
+          "Rating": 4,
+          "PurchaseDate": "2022-11-01"
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|cosmetic product|:|UserName,ProductName,ReviewText,Rating,PurchaseDate": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "cosmetic product",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate"
+    ],
+    "queries": [
+      {
+        "query": "Hi, I'm Emily Johnson. I recently purchased the 'Radiant Glow Serum' and would like to submit a review. I think it's fantastic because it made my skin feel smoother and brighter. I would rate it a 5 out of 5. I bought it on October 1, 2023.",
+        "filled_param": {
+          "UserName": "Emily Johnson",
+          "ProductName": "Radiant Glow Serum",
+          "ReviewText": "I think it's fantastic because it made my skin feel smoother and brighter.",
+          "Rating": 5,
+          "PurchaseDate": "October 1, 2023"
+        }
+      },
+      {
+        "query": "This is Mark Lee. I purchased 'Gentle Foaming Cleanser' about a month ago, on September 5, 2023. I found it to be too drying for my skin, so I would give it a 2. My review is: Not suitable for dry skin types.",
+        "filled_param": {
+          "UserName": "Mark Lee",
+          "ProductName": "Gentle Foaming Cleanser",
+          "ReviewText": "Not suitable for dry skin types.",
+          "Rating": 2,
+          "PurchaseDate": "September 5, 2023"
+        }
+      },
+      {
+        "query": "I'm Sarah O'Neil, and I want to review the 'Vivid Lipstick'. I purchased it on August 15, 2023, and found the color to be vibrant and long-lasting, so I'd rate it 4. Loved the texture!",
+        "filled_param": {
+          "UserName": "Sarah O'Neil",
+          "ProductName": "Vivid Lipstick",
+          "ReviewText": "Loved the texture! The color is vibrant and long-lasting.",
+          "Rating": 4,
+          "PurchaseDate": "August 15, 2023"
+        }
+      },
+      {
+        "query": "I'm Alex Kim, and I bought 'Hydrating Face Cream' on July 20, 2023. I'd like to submit a review. It was quite moisturizing, but a bit greasy for my taste. I'd rate it a 3.",
+        "filled_param": {
+          "UserName": "Alex Kim",
+          "ProductName": "Hydrating Face Cream",
+          "ReviewText": "It was quite moisturizing, but a bit greasy for my taste.",
+          "Rating": 3,
+          "PurchaseDate": "July 20, 2023"
+        }
+      },
+      {
+        "query": "Hello, my name is Rachel Green. I bought 'Volume Boost Mascara' on September 10, 2023. I think it's wonderful, as it really adds volume to my lashes. I rate it a 5. Highly recommended!",
+        "filled_param": {
+          "UserName": "Rachel Green",
+          "ProductName": "Volume Boost Mascara",
+          "ReviewText": "Highly recommended! It really adds volume to my lashes.",
+          "Rating": 5,
+          "PurchaseDate": "September 10, 2023"
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|home appliance|:|UserName,ProductName,ReviewText,Rating,PurchaseDate": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "home appliance",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate"
+    ],
+    "queries": [
+      {
+        "query": "I am John Doe and I would like to submit a review for the home appliance I bought, the Samsung Refrigerator. I purchased it on 2023-05-15 and my review is: 'Excellent cooling performance and energy efficient. Highly recommend it!' I'm giving it a rating of 5.",
+        "filled_param": {
+          "UserName": "John Doe",
+          "ProductName": "Samsung Refrigerator",
+          "ReviewText": "Excellent cooling performance and energy efficient. Highly recommend it!",
+          "Rating": 5,
+          "PurchaseDate": "2023-05-15"
+        }
+      },
+      {
+        "query": "Hello, this is Jane Smith. I want to review a home appliance called Dyson Vacuum Cleaner. I bought it on 2023-02-20. My review is: 'Powerful suction and easy to maneuver, but a bit costly.' My rating for this product is 4.",
+        "filled_param": {
+          "UserName": "Jane Smith",
+          "ProductName": "Dyson Vacuum Cleaner",
+          "ReviewText": "Powerful suction and easy to maneuver, but a bit costly.",
+          "Rating": 4,
+          "PurchaseDate": "2023-02-20"
+        }
+      },
+      {
+        "query": "My name is Mike Johnson. I am submitting a review for the home appliance I recently purchased, the Instant Pot Pressure Cooker. The purchase date was 2023-07-10. My review reads: 'Very convenient for making quick meals, though sometimes it takes a while to build pressure.' I rate it 4 out of 5.",
+        "filled_param": {
+          "UserName": "Mike Johnson",
+          "ProductName": "Instant Pot Pressure Cooker",
+          "ReviewText": "Very convenient for making quick meals, though sometimes it takes a while to build pressure.",
+          "Rating": 4,
+          "PurchaseDate": "2023-07-10"
+        }
+      },
+      {
+        "query": "I'm Emily Davis, and I'm providing a review for a home appliance: LG Washing Machine. I bought it on 2023-03-05. Here's my review: 'Quiet operation and cleans well, but the cycles are a bit long.' I would give it a rating of 3.",
+        "filled_param": {
+          "UserName": "Emily Davis",
+          "ProductName": "LG Washing Machine",
+          "ReviewText": "Quiet operation and cleans well, but the cycles are a bit long.",
+          "Rating": 3,
+          "PurchaseDate": "2023-03-05"
+        }
+      },
+      {
+        "query": "This is Alex Brown. I need to submit my review for the home appliance I purchased, the Philips Air Fryer. The purchase date was 2023-04-08. My review is: 'Healthy cooking and easy to clean with great results. I love it!' I am giving it a rating of 5.",
+        "filled_param": {
+          "UserName": "Alex Brown",
+          "ProductName": "Philips Air Fryer",
+          "ReviewText": "Healthy cooking and easy to clean with great results. I love it!",
+          "Rating": 5,
+          "PurchaseDate": "2023-04-08"
+        }
+      },
+      {
+        "query": "Hi, I'm Sarah Wilson. I purchased a home appliance known as the Bosch Dishwasher on 2023-06-25. My review is as follows: 'Impressive cleaning, but the drying function could be better.' I rate it 4 stars.",
+        "filled_param": {
+          "UserName": "Sarah Wilson",
+          "ProductName": "Bosch Dishwasher",
+          "ReviewText": "Impressive cleaning, but the drying function could be better.",
+          "Rating": 4,
+          "PurchaseDate": "2023-06-25"
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|clothing|:|UserName,ProductName,ReviewText,Rating,PurchaseDate": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "clothing",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate"
+    ],
+    "queries": [
+      {
+        "query": "As Jasmine, I want to review the clothing item 'Classic Blue Denim Jeans'. I bought them on 2023-09-15 and gave them a rating of 4 because the fit is perfect, but the color faded slightly after a few washes.",
+        "filled_param": {
+          "UserName": "Jasmine",
+          "ProductName": "Classic Blue Denim Jeans",
+          "ReviewText": "The fit is perfect, but the color faded slightly after a few washes.",
+          "Rating": 4,
+          "PurchaseDate": "2023-09-15"
+        }
+      },
+      {
+        "query": "Submit a review as Liam for the 'Summer Breeze T-Shirt'. I purchased it on 2023-08-20, and I rate it a 5. It's incredibly comfortable and the fabric is breathable.",
+        "filled_param": {
+          "UserName": "Liam",
+          "ProductName": "Summer Breeze T-Shirt",
+          "ReviewText": "It's incredibly comfortable and the fabric is breathable.",
+          "Rating": 5,
+          "PurchaseDate": "2023-08-20"
+        }
+      },
+      {
+        "query": "I'm Sarah, and I bought the 'Winter Wool Sweater' on 2023-10-05. My review: it's warm but a little itchy. I would rate it a 3.",
+        "filled_param": {
+          "UserName": "Sarah",
+          "ProductName": "Winter Wool Sweater",
+          "ReviewText": "It's warm but a little itchy.",
+          "Rating": 3,
+          "PurchaseDate": "2023-10-05"
+        }
+      },
+      {
+        "query": "Please post my review as Ethan for the 'Lightweight Running Jacket'. I got it on 2023-07-10 and I'll give it a 5. It's perfect for morning runs, very light and keeps me dry.",
+        "filled_param": {
+          "UserName": "Ethan",
+          "ProductName": "Lightweight Running Jacket",
+          "ReviewText": "It's perfect for morning runs, very light and keeps me dry.",
+          "Rating": 5,
+          "PurchaseDate": "2023-07-10"
+        }
+      },
+      {
+        "query": "Hi, I'm Ava. I'd like to review the clothing 'Elegant Black Dress'. Purchased on 2023-09-25, it's stylish and fits well, although the zipper is a bit flimsy. I rate it a 4.",
+        "filled_param": {
+          "UserName": "Ava",
+          "ProductName": "Elegant Black Dress",
+          "ReviewText": "It's stylish and fits well, although the zipper is a bit flimsy.",
+          "Rating": 4,
+          "PurchaseDate": "2023-09-25"
+        }
+      }
+    ]
+  }
+}

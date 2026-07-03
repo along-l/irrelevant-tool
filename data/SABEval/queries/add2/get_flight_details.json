@@ -1,0 +1,239 @@
+{
+  "get_flight_details|:|flight|:|origin,destination,departure_time,arrival_time": {
+    "tool_template_name": "get_flight_details",
+    "derived_class": "flight",
+    "params_for_query": [
+      "origin",
+      "destination",
+      "departure_time",
+      "arrival_time"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide flight details for a journey from New York to Los Angeles, departing at 08:00 and arriving at 11:00?",
+        "filled_param": {
+          "origin": "New York",
+          "destination": "Los Angeles",
+          "departure_time": "08:00",
+          "arrival_time": "11:00"
+        }
+      },
+      {
+        "query": "I'm looking for a flight from Chicago to Miami that departs at 14:30 and arrives at 18:00. Can you help with the details?",
+        "filled_param": {
+          "origin": "Chicago",
+          "destination": "Miami",
+          "departure_time": "14:30",
+          "arrival_time": "18:00"
+        }
+      },
+      {
+        "query": "What are the details for a flight leaving from London to Paris at 09:45 and reaching there by 11:05?",
+        "filled_param": {
+          "origin": "London",
+          "destination": "Paris",
+          "departure_time": "09:45",
+          "arrival_time": "11:05"
+        }
+      },
+      {
+        "query": "Please provide flight information for a trip from Sydney to Melbourne, departing at 07:00 and arriving at 08:30.",
+        "filled_param": {
+          "origin": "Sydney",
+          "destination": "Melbourne",
+          "departure_time": "07:00",
+          "arrival_time": "08:30"
+        }
+      },
+      {
+        "query": "I'd like to know about flights from Tokyo to Osaka with a departure time of 15:00 and an arrival time of 16:30.",
+        "filled_param": {
+          "origin": "Tokyo",
+          "destination": "Osaka",
+          "departure_time": "15:00",
+          "arrival_time": "16:30"
+        }
+      }
+    ]
+  },
+  "get_flight_details|:|high-speed train|:|origin,destination,departure_time,arrival_time": {
+    "tool_template_name": "get_flight_details",
+    "derived_class": "high-speed train",
+    "params_for_query": [
+      "origin",
+      "destination",
+      "departure_time",
+      "arrival_time"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the details for a high-speed train departing from Tokyo to Osaka at 09:00 and arriving at 11:30?",
+        "filled_param": {
+          "origin": "Tokyo",
+          "destination": "Osaka",
+          "departure_time": "09:00",
+          "arrival_time": "11:30"
+        }
+      },
+      {
+        "query": "I need information on a high-speed train leaving Paris for Lyon at 14:00 with an arrival time of 16:00.",
+        "filled_param": {
+          "origin": "Paris",
+          "destination": "Lyon",
+          "departure_time": "14:00",
+          "arrival_time": "16:00"
+        }
+      },
+      {
+        "query": "Could you tell me about the high-speed train from Beijing to Shanghai that departs at 07:30 and arrives at 12:00?",
+        "filled_param": {
+          "origin": "Beijing",
+          "destination": "Shanghai",
+          "departure_time": "07:30",
+          "arrival_time": "12:00"
+        }
+      },
+      {
+        "query": "Find the high-speed train details traveling from New York to Washington, D.C. leaving at 10:15 and arriving at 12:45.",
+        "filled_param": {
+          "origin": "New York",
+          "destination": "Washington, D.C.",
+          "departure_time": "10:15",
+          "arrival_time": "12:45"
+        }
+      },
+      {
+        "query": "List the details for a high-speed train from Munich to Berlin with a departure at 17:45 and arrival at 20:30.",
+        "filled_param": {
+          "origin": "Munich",
+          "destination": "Berlin",
+          "departure_time": "17:45",
+          "arrival_time": "20:30"
+        }
+      }
+    ]
+  },
+  "get_flight_details|:|cruise ship|:|origin,destination,departure_time,arrival_time": {
+    "tool_template_name": "get_flight_details",
+    "derived_class": "cruise ship",
+    "params_for_query": [
+      "origin",
+      "destination",
+      "departure_time",
+      "arrival_time"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide details for the cruise ship departing from Miami to Nassau at 08:30, arriving at 14:00?",
+        "filled_param": {
+          "origin": "Miami",
+          "destination": "Nassau",
+          "departure_time": "08:30",
+          "arrival_time": "14:00"
+        }
+      },
+      {
+        "query": "I'd like to know about the cruise ship going from Seattle to Vancouver, leaving at 10:00 and arriving at 15:20.",
+        "filled_param": {
+          "origin": "Seattle",
+          "destination": "Vancouver",
+          "departure_time": "10:00",
+          "arrival_time": "15:20"
+        }
+      },
+      {
+        "query": "What are the details for the cruise ship traveling from Barcelona to Ibiza, departing at 17:45 and arriving at 22:30?",
+        "filled_param": {
+          "origin": "Barcelona",
+          "destination": "Ibiza",
+          "departure_time": "17:45",
+          "arrival_time": "22:30"
+        }
+      },
+      {
+        "query": "Could you tell me about the cruise ship from Sydney to Auckland that departs at 07:00 and arrives at 19:00?",
+        "filled_param": {
+          "origin": "Sydney",
+          "destination": "Auckland",
+          "departure_time": "07:00",
+          "arrival_time": "19:00"
+        }
+      },
+      {
+        "query": "Please give me the details of the cruise ship departing from Los Angeles to Honolulu at 16:00 and arriving at 07:00.",
+        "filled_param": {
+          "origin": "Los Angeles",
+          "destination": "Honolulu",
+          "departure_time": "16:00",
+          "arrival_time": "07:00"
+        }
+      }
+    ]
+  },
+  "get_flight_details|:|long-distance bus|:|origin,destination,departure_time,arrival_time": {
+    "tool_template_name": "get_flight_details",
+    "derived_class": "long-distance bus",
+    "params_for_query": [
+      "origin",
+      "destination",
+      "departure_time",
+      "arrival_time"
+    ],
+    "queries": [
+      {
+        "query": "Can you give me the details of the long-distance bus traveling from New York to Boston that departs at 07:30 and arrives at 11:45?",
+        "filled_param": {
+          "origin": "New York",
+          "destination": "Boston",
+          "departure_time": "07:30",
+          "arrival_time": "11:45"
+        }
+      },
+      {
+        "query": "Get me information on the long-distance bus going from Los Angeles to San Francisco. It should leave at 09:00 and reach by 15:30.",
+        "filled_param": {
+          "origin": "Los Angeles",
+          "destination": "San Francisco",
+          "departure_time": "09:00",
+          "arrival_time": "15:30"
+        }
+      },
+      {
+        "query": "I'd like the details for the long-distance bus from Chicago to Detroit that departs at 13:15 and arrives at 18:00.",
+        "filled_param": {
+          "origin": "Chicago",
+          "destination": "Detroit",
+          "departure_time": "13:15",
+          "arrival_time": "18:00"
+        }
+      },
+      {
+        "query": "Find the long-distance bus info for the route between Miami and Orlando, departing at 06:45 and arriving at 10:30.",
+        "filled_param": {
+          "origin": "Miami",
+          "destination": "Orlando",
+          "departure_time": "06:45",
+          "arrival_time": "10:30"
+        }
+      },
+      {
+        "query": "Provide the details of the long-distance bus from Houston to Dallas leaving at 10:00 and expected to arrive at 13:45.",
+        "filled_param": {
+          "origin": "Houston",
+          "destination": "Dallas",
+          "departure_time": "10:00",
+          "arrival_time": "13:45"
+        }
+      },
+      {
+        "query": "What are the details for the long-distance bus departing from Seattle to Portland at 08:30 and arriving at 12:15?",
+        "filled_param": {
+          "origin": "Seattle",
+          "destination": "Portland",
+          "departure_time": "08:30",
+          "arrival_time": "12:15"
+        }
+      }
+    ]
+  }
+}

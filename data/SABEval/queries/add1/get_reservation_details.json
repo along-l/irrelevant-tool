@@ -1,0 +1,691 @@
+{
+  "get_reservation_details|:|restaurant dining|:|user_id,reservation_id": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "restaurant dining",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "What are the details for my restaurant dining reservation with reservation ID 4567 and user ID 1234?",
+        "filled_param": {
+          "user_id": "1234",
+          "reservation_id": "4567"
+        }
+      },
+      {
+        "query": "Can you provide the reservation specifics for restaurant dining for user ID U5678 with reservation ID R9876?",
+        "filled_param": {
+          "user_id": "U5678",
+          "reservation_id": "R9876"
+        }
+      },
+      {
+        "query": "I need the restaurant dining reservation details associated with user ID A1111 and reservation ID B2222.",
+        "filled_param": {
+          "user_id": "A1111",
+          "reservation_id": "B2222"
+        }
+      },
+      {
+        "query": "Please retrieve the restaurant dining booking information for reservation ID 3344 and user ID U2020.",
+        "filled_param": {
+          "user_id": "U2020",
+          "reservation_id": "3344"
+        }
+      },
+      {
+        "query": "Could you tell me the reservation details for restaurant dining linked to user ID Z7890 and reservation ID X1234?",
+        "filled_param": {
+          "user_id": "Z7890",
+          "reservation_id": "X1234"
+        }
+      }
+    ]
+  },
+  "get_reservation_details|:|hotel stay|:|user_id,reservation_id": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "hotel stay",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the hotel stay reservation details for user ID 'U123456' and reservation ID 'R7891011'?",
+        "filled_param": {
+          "user_id": "U123456",
+          "reservation_id": "R7891011"
+        }
+      },
+      {
+        "query": "I need the details of my hotel stay with user ID 'U987654' and reservation ID 'R1122334'.",
+        "filled_param": {
+          "user_id": "U987654",
+          "reservation_id": "R1122334"
+        }
+      },
+      {
+        "query": "What are the details of the hotel stay reservation linked to user ID 'U135792' and reservation ID 'R2468135'?",
+        "filled_param": {
+          "user_id": "U135792",
+          "reservation_id": "R2468135"
+        }
+      },
+      {
+        "query": "Retrieve the hotel stay booking information for user ID 'U564738' and reservation ID 'R9101112'.",
+        "filled_param": {
+          "user_id": "U564738",
+          "reservation_id": "R9101112"
+        }
+      },
+      {
+        "query": "Please show me the hotel stay reservation details for user ID 'U314159' and reservation ID 'R2718281'.",
+        "filled_param": {
+          "user_id": "U314159",
+          "reservation_id": "R2718281"
+        }
+      }
+    ]
+  },
+  "get_reservation_details|:|Disney park visit|:|user_id,reservation_id": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "Disney park visit",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "Please provide the details of my Disney park visit reservation with user ID U12345 and reservation ID R67890.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890"
+        }
+      },
+      {
+        "query": "What are the specifics for my Disney park visit under user ID U54321 and reservation ID R09876?",
+        "filled_param": {
+          "user_id": "U54321",
+          "reservation_id": "R09876"
+        }
+      },
+      {
+        "query": "Retrieve my Disney park visit information using user ID U11111 and reservation ID R22222.",
+        "filled_param": {
+          "user_id": "U11111",
+          "reservation_id": "R22222"
+        }
+      },
+      {
+        "query": "I need my Disney park visit reservation details. My user ID is U33333 and the reservation ID is R44444.",
+        "filled_param": {
+          "user_id": "U33333",
+          "reservation_id": "R44444"
+        }
+      },
+      {
+        "query": "Can you find my Disney park visit reservation details with user ID U55555 and reservation ID R66666?",
+        "filled_param": {
+          "user_id": "U55555",
+          "reservation_id": "R66666"
+        }
+      }
+    ]
+  },
+  "get_reservation_details|:|Universal Studios visit|:|user_id,reservation_id": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "Universal Studios visit",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the details for my Universal Studios visit using user ID U12345 and reservation ID R67890?",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890"
+        }
+      },
+      {
+        "query": "Retrieve the reservation information for my Universal Studios visit. The user ID is user789 and the reservation ID is res456.",
+        "filled_param": {
+          "user_id": "user789",
+          "reservation_id": "res456"
+        }
+      },
+      {
+        "query": "I need to check the details of my Universal Studios visit with user ID user123 and reservation ID 123res.",
+        "filled_param": {
+          "user_id": "user123",
+          "reservation_id": "123res"
+        }
+      },
+      {
+        "query": "What are the reservation details for my upcoming Universal Studios visit? My user ID is UID999 and reservation ID is RES888.",
+        "filled_param": {
+          "user_id": "UID999",
+          "reservation_id": "RES888"
+        }
+      },
+      {
+        "query": "Could you fetch the details for my Universal Studios visit using user ID ID34567 and reservation ID 6789RES?",
+        "filled_param": {
+          "user_id": "ID34567",
+          "reservation_id": "6789RES"
+        }
+      }
+    ]
+  },
+  "get_reservation_details|:|movie theater|:|user_id,reservation_id": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "movie theater",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "Can you give me the details of my movie theater reservation with reservation ID 98765 and user ID user123?",
+        "filled_param": {
+          "user_id": "user123",
+          "reservation_id": "98765"
+        }
+      },
+      {
+        "query": "I need to check my movie theater booking details. My user ID is user456 and the reservation ID is 54321.",
+        "filled_param": {
+          "user_id": "user456",
+          "reservation_id": "54321"
+        }
+      },
+      {
+        "query": "Could you retrieve my movie theater reservation information? The user ID is johnDoe and the reservation ID is 112233.",
+        "filled_param": {
+          "user_id": "johnDoe",
+          "reservation_id": "112233"
+        }
+      },
+      {
+        "query": "Please provide the details for my movie theater reservation. My user ID is janeSmith and the reservation ID is 78910.",
+        "filled_param": {
+          "user_id": "janeSmith",
+          "reservation_id": "78910"
+        }
+      },
+      {
+        "query": "What are the reservation details for my movie theater booking with user ID user789 and reservation ID 123456?",
+        "filled_param": {
+          "user_id": "user789",
+          "reservation_id": "123456"
+        }
+      }
+    ]
+  },
+  "get_reservation_details|:|flight|:|user_id,reservation_id": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "flight",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "Could you fetch the flight reservation details for user ID U12345 and reservation ID R67890?",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890"
+        }
+      },
+      {
+        "query": "I need the flight booking information for user ID A98765 and reservation ID B54321.",
+        "filled_param": {
+          "user_id": "A98765",
+          "reservation_id": "B54321"
+        }
+      },
+      {
+        "query": "Please retrieve the flight reservation details for the user with ID Z11111 and reservation ID Y22222.",
+        "filled_param": {
+          "user_id": "Z11111",
+          "reservation_id": "Y22222"
+        }
+      },
+      {
+        "query": "Get me the flight booking details for user ID X33333 and reservation ID W44444.",
+        "filled_param": {
+          "user_id": "X33333",
+          "reservation_id": "W44444"
+        }
+      },
+      {
+        "query": "Can you provide the flight reservation details for user ID M55555 and reservation ID N66666?",
+        "filled_param": {
+          "user_id": "M55555",
+          "reservation_id": "N66666"
+        }
+      }
+    ]
+  },
+  "get_reservation_details|:|high-speed train|:|user_id,reservation_id": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "high-speed train",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the reservation details for user ID U12345 on the high-speed train with reservation ID R67890?",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890"
+        }
+      },
+      {
+        "query": "I need to check the high-speed train reservation for user ID U98765 and reservation ID R43210.",
+        "filled_param": {
+          "user_id": "U98765",
+          "reservation_id": "R43210"
+        }
+      },
+      {
+        "query": "Please retrieve the details of my high-speed train reservation with user ID A11223 and reservation ID B33445.",
+        "filled_param": {
+          "user_id": "A11223",
+          "reservation_id": "B33445"
+        }
+      },
+      {
+        "query": "What are the specifics of the high-speed train booking under user ID Z55432 with reservation ID X99887?",
+        "filled_param": {
+          "user_id": "Z55432",
+          "reservation_id": "X99887"
+        }
+      },
+      {
+        "query": "Fetch the details for my high-speed train reservation using my user ID M76543 and reservation ID N12321.",
+        "filled_param": {
+          "user_id": "M76543",
+          "reservation_id": "N12321"
+        }
+      }
+    ]
+  },
+  "get_reservation_details|:|concert|:|user_id,reservation_id": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "concert",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the concert details for user ID 12345 and reservation ID abc6789?",
+        "filled_param": {
+          "user_id": "12345",
+          "reservation_id": "abc6789"
+        }
+      },
+      {
+        "query": "I need to check the concert reservation for user ID U09876 with reservation ID RES4321.",
+        "filled_param": {
+          "user_id": "U09876",
+          "reservation_id": "RES4321"
+        }
+      },
+      {
+        "query": "Please retrieve the booking details for the concert under user ID 56789 and reservation ID def1234.",
+        "filled_param": {
+          "user_id": "56789",
+          "reservation_id": "def1234"
+        }
+      },
+      {
+        "query": "What are the reservation details for the concert linked to user ID user4321 and reservation ID ZZ12345?",
+        "filled_param": {
+          "user_id": "user4321",
+          "reservation_id": "ZZ12345"
+        }
+      },
+      {
+        "query": "Find the concert booking information for user ID C98765 and reservation ID RES0099.",
+        "filled_param": {
+          "user_id": "C98765",
+          "reservation_id": "RES0099"
+        }
+      },
+      {
+        "query": "Could you get the concert reservation info for user ID 13579 and reservation ID GHI2468?",
+        "filled_param": {
+          "user_id": "13579",
+          "reservation_id": "GHI2468"
+        }
+      }
+    ]
+  },
+  "get_reservation_details|:|sports event|:|user_id,reservation_id": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "sports event",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the reservation details for the sports event with my user ID 12345 and reservation ID ABC987?",
+        "filled_param": {
+          "user_id": "12345",
+          "reservation_id": "ABC987"
+        }
+      },
+      {
+        "query": "Retrieve the details of my sports event booking. My user ID is 67890 and the reservation ID is XYZ123.",
+        "filled_param": {
+          "user_id": "67890",
+          "reservation_id": "XYZ123"
+        }
+      },
+      {
+        "query": "I need the reservation information for the sports event. The user ID is 24680 and the reservation ID is DEF456.",
+        "filled_param": {
+          "user_id": "24680",
+          "reservation_id": "DEF456"
+        }
+      },
+      {
+        "query": "What are the details of the sports event reservation with user ID 13579 and reservation ID GHI789?",
+        "filled_param": {
+          "user_id": "13579",
+          "reservation_id": "GHI789"
+        }
+      },
+      {
+        "query": "Fetch my sports event reservation details. My user ID is 11223 and the reservation ID is JKL321.",
+        "filled_param": {
+          "user_id": "11223",
+          "reservation_id": "JKL321"
+        }
+      }
+    ]
+  },
+  "get_reservation_details|:|hospital appointment|:|user_id,reservation_id": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "hospital appointment",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "Can you fetch the hospital appointment details for user ID U12345 and reservation ID R98765?",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R98765"
+        }
+      },
+      {
+        "query": "I need the reservation details of my hospital appointment. My user ID is A67890, and the reservation ID is B11223.",
+        "filled_param": {
+          "user_id": "A67890",
+          "reservation_id": "B11223"
+        }
+      },
+      {
+        "query": "Retrieve the details for my hospital appointment with user ID P54321 and reservation ID Q33445.",
+        "filled_param": {
+          "user_id": "P54321",
+          "reservation_id": "Q33445"
+        }
+      },
+      {
+        "query": "What are the details of the hospital appointment for user ID M13579 and reservation ID N24680?",
+        "filled_param": {
+          "user_id": "M13579",
+          "reservation_id": "N24680"
+        }
+      },
+      {
+        "query": "Please get the reservation information for my hospital appointment. The user ID is Z11223 and the reservation ID is Y44556.",
+        "filled_param": {
+          "user_id": "Z11223",
+          "reservation_id": "Y44556"
+        }
+      }
+    ]
+  },
+  "get_reservation_details|:|psychological counseling|:|user_id,reservation_id": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "psychological counseling",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "Please fetch the reservation details for psychological counseling with user ID 12345 and reservation ID A9876.",
+        "filled_param": {
+          "user_id": "12345",
+          "reservation_id": "A9876"
+        }
+      },
+      {
+        "query": "Can you provide the details of my psychological counseling reservation? My user ID is U2021 and the reservation ID is B1234.",
+        "filled_param": {
+          "user_id": "U2021",
+          "reservation_id": "B1234"
+        }
+      },
+      {
+        "query": "I need to check the information for my psychological counseling appointment. The user ID is 67890 and the reservation ID is C4567.",
+        "filled_param": {
+          "user_id": "67890",
+          "reservation_id": "C4567"
+        }
+      },
+      {
+        "query": "Retrieve the reservation details of psychological counseling with user ID P4321 and reservation ID D7890.",
+        "filled_param": {
+          "user_id": "P4321",
+          "reservation_id": "D7890"
+        }
+      },
+      {
+        "query": "What are the details of the psychological counseling reservation under user ID 98765 with reservation ID E1234?",
+        "filled_param": {
+          "user_id": "98765",
+          "reservation_id": "E1234"
+        }
+      }
+    ]
+  },
+  "get_reservation_details|:|legal consultation|:|user_id,reservation_id": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "legal consultation",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the details of my legal consultation booking with user ID 12345 and reservation ID ABC67890?",
+        "filled_param": {
+          "user_id": "12345",
+          "reservation_id": "ABC67890"
+        }
+      },
+      {
+        "query": "I need to retrieve my legal consultation reservation details. My user ID is 98765 and the reservation ID is XYZ12345.",
+        "filled_param": {
+          "user_id": "98765",
+          "reservation_id": "XYZ12345"
+        }
+      },
+      {
+        "query": "Please fetch the information for my legal consultation using user ID 54321 and reservation ID DEF98765.",
+        "filled_param": {
+          "user_id": "54321",
+          "reservation_id": "DEF98765"
+        }
+      },
+      {
+        "query": "What are the details of the legal consultation with user ID 24680 and reservation ID GHI24680?",
+        "filled_param": {
+          "user_id": "24680",
+          "reservation_id": "GHI24680"
+        }
+      },
+      {
+        "query": "I'd like to know the details of my legal consultation reservation. My user ID is 13579 and the reservation ID is JKL13579.",
+        "filled_param": {
+          "user_id": "13579",
+          "reservation_id": "JKL13579"
+        }
+      }
+    ]
+  },
+  "get_reservation_details|:|housekeeping service|:|user_id,reservation_id": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "housekeeping service",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "Please provide the details for housekeeping service reservation with user ID U12345 and reservation ID R67890.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890"
+        }
+      },
+      {
+        "query": "I need information about my housekeeping service booking. My user ID is U23456 and reservation ID is R78901.",
+        "filled_param": {
+          "user_id": "U23456",
+          "reservation_id": "R78901"
+        }
+      },
+      {
+        "query": "Could you fetch the housekeeping service reservation details for user ID U34567 and reservation ID R89012?",
+        "filled_param": {
+          "user_id": "U34567",
+          "reservation_id": "R89012"
+        }
+      },
+      {
+        "query": "What are the reservation details for the housekeeping service under user ID U45678 with reservation ID R90123?",
+        "filled_param": {
+          "user_id": "U45678",
+          "reservation_id": "R90123"
+        }
+      },
+      {
+        "query": "Get the details of my housekeeping service reservation. My user ID is U56789 and the reservation ID is R01234.",
+        "filled_param": {
+          "user_id": "U56789",
+          "reservation_id": "R01234"
+        }
+      }
+    ]
+  },
+  "get_reservation_details|:|yoga class|:|user_id,reservation_id": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "yoga class",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the reservation details for yoga class with user ID U12345 and reservation ID R98765?",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R98765"
+        }
+      },
+      {
+        "query": "I need to know the specifics of my yoga class booking. My user ID is A67890 and the reservation ID is B54321.",
+        "filled_param": {
+          "user_id": "A67890",
+          "reservation_id": "B54321"
+        }
+      },
+      {
+        "query": "Fetch the details of yoga class reservation for user ID Z11223 and reservation ID X33445.",
+        "filled_param": {
+          "user_id": "Z11223",
+          "reservation_id": "X33445"
+        }
+      },
+      {
+        "query": "Please give me the reservation information for my yoga class. My user ID is M45678 and the reservation ID is N87654.",
+        "filled_param": {
+          "user_id": "M45678",
+          "reservation_id": "N87654"
+        }
+      },
+      {
+        "query": "What are the details of my yoga class booking? The user ID is Q22134 and the reservation ID is V66532.",
+        "filled_param": {
+          "user_id": "Q22134",
+          "reservation_id": "V66532"
+        }
+      }
+    ]
+  },
+  "get_reservation_details|:|karaoke room|:|user_id,reservation_id": {
+    "tool_template_name": "get_reservation_details",
+    "derived_class": "karaoke room",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "Can you find the karaoke room reservation details for user ID 12345 and reservation ID A56789?",
+        "filled_param": {
+          "user_id": "12345",
+          "reservation_id": "A56789"
+        }
+      },
+      {
+        "query": "I need the details of my karaoke room booking with user ID 98765 and reservation ID R98712.",
+        "filled_param": {
+          "user_id": "98765",
+          "reservation_id": "R98712"
+        }
+      },
+      {
+        "query": "Please provide the karaoke room reservation information for user ID 112233 and reservation ID B65432.",
+        "filled_param": {
+          "user_id": "112233",
+          "reservation_id": "B65432"
+        }
+      },
+      {
+        "query": "What are the details of the karaoke room reservation linked to user ID 556677 with reservation ID C77654?",
+        "filled_param": {
+          "user_id": "556677",
+          "reservation_id": "C77654"
+        }
+      },
+      {
+        "query": "Retrieve the karaoke room booking information for user ID 334455 and reservation ID D88399.",
+        "filled_param": {
+          "user_id": "334455",
+          "reservation_id": "D88399"
+        }
+      },
+      {
+        "query": "Could you look up the karaoke room reservation for user ID 223344 and reservation ID E99887?",
+        "filled_param": {
+          "user_id": "223344",
+          "reservation_id": "E99887"
+        }
+      }
+    ]
+  }
+}

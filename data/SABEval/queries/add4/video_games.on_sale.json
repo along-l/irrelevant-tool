@@ -1,0 +1,324 @@
+{
+  "video_games.on_sale|:|PlayStation|:|game_title,region,currency,include_discount_percentage,check_additional_content": {
+    "tool_template_name": "video_games.on_sale",
+    "derived_class": "PlayStation",
+    "params_for_query": [
+      "game_title",
+      "region",
+      "currency",
+      "include_discount_percentage",
+      "check_additional_content"
+    ],
+    "queries": [
+      {
+        "query": "Can you check if 'The Last of Us Part II' is on sale in the PlayStation store for the US region, displaying prices in USD, and include the discount percentage while also checking if any additional content is on sale?",
+        "filled_param": {
+          "game_title": "The Last of Us Part II",
+          "region": "US",
+          "currency": "USD",
+          "include_discount_percentage": true,
+          "check_additional_content": true
+        }
+      },
+      {
+        "query": "Find out if 'Ghost of Tsushima' is currently discounted on the PlayStation store in the EU region, showing the price in EUR, and include the discount rate but don't check for additional content.",
+        "filled_param": {
+          "game_title": "Ghost of Tsushima",
+          "region": "EU",
+          "currency": "EUR",
+          "include_discount_percentage": true,
+          "check_additional_content": false
+        }
+      },
+      {
+        "query": "Is 'Spider-Man: Miles Morales' on sale in the Japanese PlayStation store, with the price in JPY and without showing the discount percentage, but do check if the additional content is on sale?",
+        "filled_param": {
+          "game_title": "Spider-Man: Miles Morales",
+          "region": "Japan",
+          "currency": "JPY",
+          "include_discount_percentage": false,
+          "check_additional_content": true
+        }
+      },
+      {
+        "query": "Please verify if 'Final Fantasy VII Remake' is available at a discount in the PlayStation store for the UK region, showing prices in GBP, and include both the discount information and additional content sale information.",
+        "filled_param": {
+          "game_title": "Final Fantasy VII Remake",
+          "region": "UK",
+          "currency": "GBP",
+          "include_discount_percentage": true,
+          "check_additional_content": true
+        }
+      },
+      {
+        "query": "Check 'Horizon Zero Dawn' for any current sales in the PlayStation store in the Australia region, using AUD for pricing, and do not include discount percentages or check for additional content.",
+        "filled_param": {
+          "game_title": "Horizon Zero Dawn",
+          "region": "Australia",
+          "currency": "AUD",
+          "include_discount_percentage": false,
+          "check_additional_content": false
+        }
+      },
+      {
+        "query": "Look into whether 'Cyberpunk 2077' is being sold at a lower price on the Brazilian PlayStation store, with prices in BRL, and include the discount percentage but exclude additional content sales.",
+        "filled_param": {
+          "game_title": "Cyberpunk 2077",
+          "region": "Brazil",
+          "currency": "BRL",
+          "include_discount_percentage": true,
+          "check_additional_content": false
+        }
+      }
+    ]
+  },
+  "video_games.on_sale|:|Xbox|:|game_title,region,currency,include_discount_percentage,check_additional_content": {
+    "tool_template_name": "video_games.on_sale",
+    "derived_class": "Xbox",
+    "params_for_query": [
+      "game_title",
+      "region",
+      "currency",
+      "include_discount_percentage",
+      "check_additional_content"
+    ],
+    "queries": [
+      {
+        "query": "Is the game Halo Infinite on sale in the US Xbox store, show the price in USD and also include the discount percentage. Additionally, check if any DLCs are on sale too.",
+        "filled_param": {
+          "game_title": "Halo Infinite",
+          "region": "US",
+          "currency": "USD",
+          "include_discount_percentage": true,
+          "check_additional_content": true
+        }
+      },
+      {
+        "query": "Can you find out if FIFA 2023 is on sale in the UK Xbox store? Show the price in GBP and include the discount percentage. Check for sale on DLCs as well.",
+        "filled_param": {
+          "game_title": "FIFA 2023",
+          "region": "UK",
+          "currency": "GBP",
+          "include_discount_percentage": true,
+          "check_additional_content": true
+        }
+      },
+      {
+        "query": "Please check if Forza Horizon 5 is currently on sale in the Canadian Xbox store, and provide the price in CAD without the discount percentage. Is there any DLC on sale?",
+        "filled_param": {
+          "game_title": "Forza Horizon 5",
+          "region": "Canada",
+          "currency": "CAD",
+          "include_discount_percentage": false,
+          "check_additional_content": true
+        }
+      },
+      {
+        "query": "I want to know if Cyberpunk 2077 is on sale in the Australian Xbox store and display the price in AUD. No need to include the discount percentage, but please check for any DLC discounts.",
+        "filled_param": {
+          "game_title": "Cyberpunk 2077",
+          "region": "Australia",
+          "currency": "AUD",
+          "include_discount_percentage": false,
+          "check_additional_content": true
+        }
+      },
+      {
+        "query": "Check if Minecraft is on sale in the German Xbox store with the price shown in EUR including the discount percentage. Also, is there any additional content on sale?",
+        "filled_param": {
+          "game_title": "Minecraft",
+          "region": "Germany",
+          "currency": "EUR",
+          "include_discount_percentage": true,
+          "check_additional_content": true
+        }
+      },
+      {
+        "query": "Is Assassin's Creed Valhalla available at a discounted price in the Japanese Xbox store? Show the price in JPY and include the discount percentage. Also, confirm if any DLCs are on sale.",
+        "filled_param": {
+          "game_title": "Assassin's Creed Valhalla",
+          "region": "Japan",
+          "currency": "JPY",
+          "include_discount_percentage": true,
+          "check_additional_content": true
+        }
+      },
+      {
+        "query": "Find out if Red Dead Redemption 2 is on sale in the Brazilian Xbox store. Provide the price in BRL and include the discount percentage. Check for any additional content on sale as well.",
+        "filled_param": {
+          "game_title": "Red Dead Redemption 2",
+          "region": "Brazil",
+          "currency": "BRL",
+          "include_discount_percentage": true,
+          "check_additional_content": true
+        }
+      }
+    ]
+  },
+  "video_games.on_sale|:|Nintendo Switch|:|game_title,region,currency,include_discount_percentage,check_additional_content": {
+    "tool_template_name": "video_games.on_sale",
+    "derived_class": "Nintendo Switch",
+    "params_for_query": [
+      "game_title",
+      "region",
+      "currency",
+      "include_discount_percentage",
+      "check_additional_content"
+    ],
+    "queries": [
+      {
+        "query": "Is the Nintendo Switch game 'The Legend of Zelda: Breath of the Wild' on sale in the US store, displayed in USD, including discount details and additional content offers?",
+        "filled_param": {
+          "game_title": "The Legend of Zelda: Breath of the Wild",
+          "region": "US",
+          "currency": "USD",
+          "include_discount_percentage": true,
+          "check_additional_content": true
+        }
+      },
+      {
+        "query": "Could you check if 'Super Mario Odyssey' for Nintendo Switch is on sale in the UK store? I want the price in GBP and make sure to include any discount percentages and DLC sales.",
+        "filled_param": {
+          "game_title": "Super Mario Odyssey",
+          "region": "UK",
+          "currency": "GBP",
+          "include_discount_percentage": true,
+          "check_additional_content": true
+        }
+      },
+      {
+        "query": "Please find out if the game 'Animal Crossing: New Horizons' is on sale for Nintendo Switch in the Japan region, in JPY, and tell me about any discount percentages and downloadable content sales.",
+        "filled_param": {
+          "game_title": "Animal Crossing: New Horizons",
+          "region": "Japan",
+          "currency": "JPY",
+          "include_discount_percentage": true,
+          "check_additional_content": true
+        }
+      },
+      {
+        "query": "Is 'Splatoon 3' available at a discounted price in the Australian Nintendo Switch store? Display the price in AUD and let me know if there is any additional content on sale too, including the discount rate.",
+        "filled_param": {
+          "game_title": "Splatoon 3",
+          "region": "Australia",
+          "currency": "AUD",
+          "include_discount_percentage": true,
+          "check_additional_content": true
+        }
+      },
+      {
+        "query": "Check if 'Pokémon Sword' for Nintendo Switch is currently on sale in the Canadian store. I need the information in CAD with both discount percentages and any DLC included.",
+        "filled_param": {
+          "game_title": "Pokémon Sword",
+          "region": "Canada",
+          "currency": "CAD",
+          "include_discount_percentage": true,
+          "check_additional_content": true
+        }
+      },
+      {
+        "query": "Verify if 'Mario Kart 8 Deluxe' is on sale in the European Nintendo Switch store in EUR, and inform me about any discounts and extra content offers.",
+        "filled_param": {
+          "game_title": "Mario Kart 8 Deluxe",
+          "region": "Europe",
+          "currency": "EUR",
+          "include_discount_percentage": true,
+          "check_additional_content": true
+        }
+      },
+      {
+        "query": "Is 'Fire Emblem: Three Houses' discounted in the Brazilian Nintendo Switch store with BRL as the currency? Include any sale percentages and additional content info.",
+        "filled_param": {
+          "game_title": "Fire Emblem: Three Houses",
+          "region": "Brazil",
+          "currency": "BRL",
+          "include_discount_percentage": true,
+          "check_additional_content": true
+        }
+      }
+    ]
+  },
+  "video_games.on_sale|:|Steam Deck|:|game_title,region,currency,include_discount_percentage,check_additional_content": {
+    "tool_template_name": "video_games.on_sale",
+    "derived_class": "Steam Deck",
+    "params_for_query": [
+      "game_title",
+      "region",
+      "currency",
+      "include_discount_percentage",
+      "check_additional_content"
+    ],
+    "queries": [
+      {
+        "query": "Is the game 'Elden Ring' on sale in the Steam Deck store for the US region with prices in USD? Also, show me the discount percentage and if any DLC is on sale.",
+        "filled_param": {
+          "game_title": "Elden Ring",
+          "region": "US",
+          "currency": "USD",
+          "include_discount_percentage": true,
+          "check_additional_content": true
+        }
+      },
+      {
+        "query": "Can you check if 'Cyberpunk 2077' is on sale in the Steam Deck store for the EU region with pricing in Euros? I want to know the discount percentage but no need to check for DLC.",
+        "filled_param": {
+          "game_title": "Cyberpunk 2077",
+          "region": "EU",
+          "currency": "EUR",
+          "include_discount_percentage": true,
+          "check_additional_content": false
+        }
+      },
+      {
+        "query": "Is 'The Witcher 3: Wild Hunt' available at a discount in the Steam Deck store for the UK region with GBP as the currency? Include a check for any additional content on sale but skip the discount percentage.",
+        "filled_param": {
+          "game_title": "The Witcher 3: Wild Hunt",
+          "region": "UK",
+          "currency": "GBP",
+          "include_discount_percentage": false,
+          "check_additional_content": true
+        }
+      },
+      {
+        "query": "Find out if 'Hades' is on sale in the Steam Deck store for Australia's region with AUD as the currency. I don't need the discount percentage, and no need to check DLC sales.",
+        "filled_param": {
+          "game_title": "Hades",
+          "region": "Australia",
+          "currency": "AUD",
+          "include_discount_percentage": false,
+          "check_additional_content": false
+        }
+      },
+      {
+        "query": "Please tell me if 'Stardew Valley' has a sale in the Steam Deck store for the Japanese region in JPY, and include both the discount percentage and any DLC sales.",
+        "filled_param": {
+          "game_title": "Stardew Valley",
+          "region": "Japan",
+          "currency": "JPY",
+          "include_discount_percentage": true,
+          "check_additional_content": true
+        }
+      },
+      {
+        "query": "Check if 'Dark Souls III' is discounted in the Steam Deck store for the Canadian region using CAD. I need to know the discount percentage, but ignore DLC sales.",
+        "filled_param": {
+          "game_title": "Dark Souls III",
+          "region": "Canada",
+          "currency": "CAD",
+          "include_discount_percentage": true,
+          "check_additional_content": false
+        }
+      },
+      {
+        "query": "Let me know if 'Death Stranding' is on sale in the Steam Deck store for the Brazilian region in BRL, without the discount percentage, but include DLC sales details.",
+        "filled_param": {
+          "game_title": "Death Stranding",
+          "region": "Brazil",
+          "currency": "BRL",
+          "include_discount_percentage": false,
+          "check_additional_content": true
+        }
+      }
+    ]
+  }
+}

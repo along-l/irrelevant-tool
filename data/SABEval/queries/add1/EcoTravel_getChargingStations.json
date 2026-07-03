@@ -1,0 +1,662 @@
+{
+  "EcoTravel_getChargingStations|:|EV charging station|:|latitude,longitude,time,mapProvider,icon": {
+    "tool_template_name": "EcoTravel_getChargingStations",
+    "derived_class": "EV charging station",
+    "params_for_query": [
+      "latitude",
+      "longitude",
+      "time",
+      "mapProvider",
+      "icon"
+    ],
+    "queries": [
+      {
+        "query": "Can you show me EV charging station locations near 51.5074 latitude and -0.1278 longitude at 3 PM using Google Maps with a plug icon?",
+        "filled_param": {
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "time": "3 PM",
+          "mapProvider": "Google Maps",
+          "icon": "plug"
+        }
+      },
+      {
+        "query": "Locate EV charging stations around 40.7128 latitude and -74.006 longitude at 9 AM on Apple Maps using a battery icon.",
+        "filled_param": {
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "time": "9 AM",
+          "mapProvider": "Apple Maps",
+          "icon": "battery"
+        }
+      },
+      {
+        "query": "Where can I find EV charging stations at latitude 34.0522 and longitude -118.2437 at 6 PM displayed on Bing Maps with a charger icon?",
+        "filled_param": {
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "time": "6 PM",
+          "mapProvider": "Bing Maps",
+          "icon": "charger"
+        }
+      },
+      {
+        "query": "Find EV charging station spots around 48.8566 N and 2.3522 E at noon on OpenStreetMap with a lightning bolt icon.",
+        "filled_param": {
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "time": "noon",
+          "mapProvider": "OpenStreetMap",
+          "icon": "lightning bolt"
+        }
+      },
+      {
+        "query": "Please provide me with the EV charging station locations near -33.8688 latitude and 151.2093 longitude at 11 PM on Waze Maps using an electric icon.",
+        "filled_param": {
+          "latitude": -33.8688,
+          "longitude": 151.2093,
+          "time": "11 PM",
+          "mapProvider": "Waze Maps",
+          "icon": "electric"
+        }
+      }
+    ]
+  },
+  "EcoTravel_getChargingStations|:|power bank rental station|:|latitude,longitude,time,mapProvider,icon": {
+    "tool_template_name": "EcoTravel_getChargingStations",
+    "derived_class": "power bank rental station",
+    "params_for_query": [
+      "latitude",
+      "longitude",
+      "time",
+      "mapProvider",
+      "icon"
+    ],
+    "queries": [
+      {
+        "query": "Can you show me where the nearest power bank rental station is at 37.7749 latitude and -122.4194 longitude, around 3 PM using Google Maps with a battery icon?",
+        "filled_param": {
+          "latitude": 37.7749,
+          "longitude": -122.4194,
+          "time": "3 PM",
+          "mapProvider": "Google Maps",
+          "icon": "battery"
+        }
+      },
+      {
+        "query": "I need the location of a power bank rental station nearby at 40.7128 latitude, -74.0060 longitude, available at 9 AM on OpenStreetMap with a plug icon.",
+        "filled_param": {
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "time": "9 AM",
+          "mapProvider": "OpenStreetMap",
+          "icon": "plug"
+        }
+      },
+      {
+        "query": "Find the closest power bank rental station for me at latitude 34.0522 and longitude -118.2437 around 6 PM on Bing Maps displayed with a bolt icon.",
+        "filled_param": {
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "time": "6 PM",
+          "mapProvider": "Bing Maps",
+          "icon": "bolt"
+        }
+      },
+      {
+        "query": "Where is the nearest power bank rental station located at 51.5074 latitude, -0.1278 longitude, available at noon using Apple Maps, and mark it with a charging icon?",
+        "filled_param": {
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "time": "noon",
+          "mapProvider": "Apple Maps",
+          "icon": "charging"
+        }
+      },
+      {
+        "query": "Show me the power bank rental station locations at 48.8566 latitude and 2.3522 longitude for 8 PM on TomTom Maps with an energy icon.",
+        "filled_param": {
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "time": "8 PM",
+          "mapProvider": "TomTom Maps",
+          "icon": "energy"
+        }
+      }
+    ]
+  },
+  "EcoTravel_getChargingStations|:|gas station|:|latitude,longitude,time,mapProvider,icon": {
+    "tool_template_name": "EcoTravel_getChargingStations",
+    "derived_class": "gas station",
+    "params_for_query": [
+      "latitude",
+      "longitude",
+      "time",
+      "mapProvider",
+      "icon"
+    ],
+    "queries": [
+      {
+        "query": "I'm currently at 37.7749 latitude and -122.4194 longitude. Can you tell me which gas stations are nearby at 3 PM using Google Maps with a fuel pump icon?",
+        "filled_param": {
+          "latitude": 37.7749,
+          "longitude": -122.4194,
+          "time": "3 PM",
+          "mapProvider": "Google Maps",
+          "icon": "fuel pump"
+        }
+      },
+      {
+        "query": "Locate gas stations around my area with coordinates 40.7128 and -74.0060 at 10 AM, and show them on Bing Maps using a gas icon.",
+        "filled_param": {
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "time": "10 AM",
+          "mapProvider": "Bing Maps",
+          "icon": "gas"
+        }
+      },
+      {
+        "query": "Can you find gas station options near 34.0522 latitude and -118.2437 longitude at noon, and display them on Apple Maps marked with a station icon?",
+        "filled_param": {
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "time": "noon",
+          "mapProvider": "Apple Maps",
+          "icon": "station"
+        }
+      },
+      {
+        "query": "Show me the gas station locations near 51.5074 latitude and -0.1278 longitude at 7 AM, using OpenStreetMap with a pump icon.",
+        "filled_param": {
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "time": "7 AM",
+          "mapProvider": "OpenStreetMap",
+          "icon": "pump"
+        }
+      },
+      {
+        "query": "At 5 PM, which gas stations are close to 48.8566 latitude and 2.3522 longitude on MapQuest, represented by a tanker icon?",
+        "filled_param": {
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "time": "5 PM",
+          "mapProvider": "MapQuest",
+          "icon": "tanker"
+        }
+      }
+    ]
+  },
+  "EcoTravel_getChargingStations|:|ATM|:|latitude,longitude,time,mapProvider,icon": {
+    "tool_template_name": "EcoTravel_getChargingStations",
+    "derived_class": "ATM",
+    "params_for_query": [
+      "latitude",
+      "longitude",
+      "time",
+      "mapProvider",
+      "icon"
+    ],
+    "queries": [
+      {
+        "query": "Can you show me ATMs near latitude 40.7128 and longitude -74.0060 at 3 PM using Google Maps with a dollar sign icon?",
+        "filled_param": {
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "time": "3 PM",
+          "mapProvider": "Google Maps",
+          "icon": "dollar sign"
+        }
+      },
+      {
+        "query": "Find ATMs available at 7 AM around latitude 48.8566 and longitude 2.3522, using OpenStreetMap, and display them with an ATM machine icon.",
+        "filled_param": {
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "time": "7 AM",
+          "mapProvider": "OpenStreetMap",
+          "icon": "ATM machine"
+        }
+      },
+      {
+        "query": "Locate ATMs at latitude 34.0522 and longitude -118.2437 for 11 AM, use Bing Maps, and use a cash icon for representation.",
+        "filled_param": {
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "time": "11 AM",
+          "mapProvider": "Bing Maps",
+          "icon": "cash"
+        }
+      },
+      {
+        "query": "At 9 PM, what ATMs can I find near latitude 51.5074, longitude -0.1278, shown on Apple Maps with a currency exchange icon?",
+        "filled_param": {
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "time": "9 PM",
+          "mapProvider": "Apple Maps",
+          "icon": "currency exchange"
+        }
+      },
+      {
+        "query": "Please list ATMs around latitude 35.6895 and longitude 139.6917 at 5 PM, using Here Maps with a bank icon.",
+        "filled_param": {
+          "latitude": 35.6895,
+          "longitude": 139.6917,
+          "time": "5 PM",
+          "mapProvider": "Here Maps",
+          "icon": "bank"
+        }
+      }
+    ]
+  },
+  "EcoTravel_getChargingStations|:|library|:|latitude,longitude,time,mapProvider,icon": {
+    "tool_template_name": "EcoTravel_getChargingStations",
+    "derived_class": "library",
+    "params_for_query": [
+      "latitude",
+      "longitude",
+      "time",
+      "mapProvider",
+      "icon"
+    ],
+    "queries": [
+      {
+        "query": "Can you show me libraries near the coordinates 40.7128, -74.0060 at 3 PM using Google Maps and mark them with a book icon?",
+        "filled_param": {
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "time": "3 PM",
+          "mapProvider": "Google Maps",
+          "icon": "book"
+        }
+      },
+      {
+        "query": "I need a list of libraries around 34.0522, -118.2437 available at 10 AM on Bing Maps, using a library icon.",
+        "filled_param": {
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "time": "10 AM",
+          "mapProvider": "Bing Maps",
+          "icon": "library"
+        }
+      },
+      {
+        "query": "Find nearby libraries at 51.5074, -0.1278 at 2 PM, displayed on OpenStreetMap with a book marker.",
+        "filled_param": {
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "time": "2 PM",
+          "mapProvider": "OpenStreetMap",
+          "icon": "book"
+        }
+      },
+      {
+        "query": "What libraries are open near 48.8566, 2.3522 at 11 AM on Apple Maps, represented with a library icon?",
+        "filled_param": {
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "time": "11 AM",
+          "mapProvider": "Apple Maps",
+          "icon": "library"
+        }
+      },
+      {
+        "query": "Could you provide information on libraries around 35.6895, 139.6917 at 4 PM using Google Maps with a book symbol?",
+        "filled_param": {
+          "latitude": 35.6895,
+          "longitude": 139.6917,
+          "time": "4 PM",
+          "mapProvider": "Google Maps",
+          "icon": "book"
+        }
+      },
+      {
+        "query": "Locate libraries near 55.7558, 37.6173 at 9 AM on MapQuest, marked with a library icon.",
+        "filled_param": {
+          "latitude": 55.7558,
+          "longitude": 37.6173,
+          "time": "9 AM",
+          "mapProvider": "MapQuest",
+          "icon": "library"
+        }
+      }
+    ]
+  },
+  "EcoTravel_getChargingStations|:|post office|:|latitude,longitude,time,mapProvider,icon": {
+    "tool_template_name": "EcoTravel_getChargingStations",
+    "derived_class": "post office",
+    "params_for_query": [
+      "latitude",
+      "longitude",
+      "time",
+      "mapProvider",
+      "icon"
+    ],
+    "queries": [
+      {
+        "query": "Can you show me the nearest post office locations at 10:00 AM using Google Maps with a blue marker icon? My coordinates are 40.73061, -73.935242.",
+        "filled_param": {
+          "latitude": 40.73061,
+          "longitude": -73.935242,
+          "time": "10:00 AM",
+          "mapProvider": "Google Maps",
+          "icon": "blue marker"
+        }
+      },
+      {
+        "query": "Find post office information around the coordinates 34.052235, -118.243683 for 3 PM using Apple Maps with a red pin.",
+        "filled_param": {
+          "latitude": 34.052235,
+          "longitude": -118.243683,
+          "time": "3 PM",
+          "mapProvider": "Apple Maps",
+          "icon": "red pin"
+        }
+      },
+      {
+        "query": "I need details on nearby post offices at 2:30 PM displayed on Bing Maps with a green flag. My location is 51.5074, -0.1278.",
+        "filled_param": {
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "time": "2:30 PM",
+          "mapProvider": "Bing Maps",
+          "icon": "green flag"
+        }
+      },
+      {
+        "query": "What are the available post offices around here at 9 AM on OpenStreetMap using an orange circle icon? I'm at 48.8566, 2.3522.",
+        "filled_param": {
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "time": "9 AM",
+          "mapProvider": "OpenStreetMap",
+          "icon": "orange circle"
+        }
+      },
+      {
+        "query": "Give me post office locations near 35.6895, 139.6917 at 11:00 AM using the Waze app with a purple dot icon.",
+        "filled_param": {
+          "latitude": 35.6895,
+          "longitude": 139.6917,
+          "time": "11:00 AM",
+          "mapProvider": "Waze",
+          "icon": "purple dot"
+        }
+      },
+      {
+        "query": "Please provide information on nearby post offices at 4 PM in HERE WeGo maps with a yellow square icon for my location 37.7749, -122.4194.",
+        "filled_param": {
+          "latitude": 37.7749,
+          "longitude": -122.4194,
+          "time": "4 PM",
+          "mapProvider": "HERE WeGo",
+          "icon": "yellow square"
+        }
+      }
+    ]
+  },
+  "EcoTravel_getChargingStations|:|hospital|:|latitude,longitude,time,mapProvider,icon": {
+    "tool_template_name": "EcoTravel_getChargingStations",
+    "derived_class": "hospital",
+    "params_for_query": [
+      "latitude",
+      "longitude",
+      "time",
+      "mapProvider",
+      "icon"
+    ],
+    "queries": [
+      {
+        "query": "Show me the hospital locations near 34.0522 latitude and -118.2437 longitude at 3 PM using Google Maps with a red cross icon.",
+        "filled_param": {
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "time": "3 PM",
+          "mapProvider": "Google Maps",
+          "icon": "red cross"
+        }
+      },
+      {
+        "query": "I need information on hospitals around 40.7128 latitude and -74.0060 longitude for 10 AM, displayed on Bing Maps with a blue H icon.",
+        "filled_param": {
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "time": "10 AM",
+          "mapProvider": "Bing Maps",
+          "icon": "blue H"
+        }
+      },
+      {
+        "query": "Find nearby hospitals at 51.5074 latitude and -0.1278 longitude for 8 PM, using OpenStreetMap and a green cross icon.",
+        "filled_param": {
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "time": "8 PM",
+          "mapProvider": "OpenStreetMap",
+          "icon": "green cross"
+        }
+      },
+      {
+        "query": "Provide hospital location data around 48.8566 latitude and 2.3522 longitude for noon, using Apple Maps with a white hospital icon.",
+        "filled_param": {
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "time": "noon",
+          "mapProvider": "Apple Maps",
+          "icon": "white hospital"
+        }
+      },
+      {
+        "query": "Locate hospitals at 35.6895 latitude and 139.6917 longitude at 6 AM, mapped on Here Maps with a yellow star icon.",
+        "filled_param": {
+          "latitude": 35.6895,
+          "longitude": 139.6917,
+          "time": "6 AM",
+          "mapProvider": "Here Maps",
+          "icon": "yellow star"
+        }
+      },
+      {
+        "query": "Can you show hospital locations near 37.7749 latitude and -122.4194 longitude for 4 PM with MapQuest using a pink heart icon?",
+        "filled_param": {
+          "latitude": 37.7749,
+          "longitude": -122.4194,
+          "time": "4 PM",
+          "mapProvider": "MapQuest",
+          "icon": "pink heart"
+        }
+      }
+    ]
+  },
+  "EcoTravel_getChargingStations|:|public restroom|:|latitude,longitude,time,mapProvider,icon": {
+    "tool_template_name": "EcoTravel_getChargingStations",
+    "derived_class": "public restroom",
+    "params_for_query": [
+      "latitude",
+      "longitude",
+      "time",
+      "mapProvider",
+      "icon"
+    ],
+    "queries": [
+      {
+        "query": "Can you find public restroom locations at latitude 40.7128, longitude -74.0060 at 3 PM using Google Maps with a blue icon?",
+        "filled_param": {
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "time": "3 PM",
+          "mapProvider": "Google Maps",
+          "icon": "blue"
+        }
+      },
+      {
+        "query": "Show me the public restroom availability near latitude 34.0522 and longitude -118.2437 at 10 AM on an OpenStreetMap with a green icon.",
+        "filled_param": {
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "time": "10 AM",
+          "mapProvider": "OpenStreetMap",
+          "icon": "green"
+        }
+      },
+      {
+        "query": "I'm looking for public restroom facilities at coordinates 51.5074, -0.1278 right now (current time is 1 PM) on Bing Maps with a red icon. Can you assist?",
+        "filled_param": {
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "time": "1 PM",
+          "mapProvider": "Bing Maps",
+          "icon": "red"
+        }
+      },
+      {
+        "query": "Locate public restrooms at latitude 48.8566, longitude 2.3522 at 8 AM using Apple Maps with a yellow icon.",
+        "filled_param": {
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "time": "8 AM",
+          "mapProvider": "Apple Maps",
+          "icon": "yellow"
+        }
+      },
+      {
+        "query": "Find public restroom data for the location with latitude 35.6895 and longitude 139.6917 at noon, displayed on Here WeGo maps with a purple icon.",
+        "filled_param": {
+          "latitude": 35.6895,
+          "longitude": 139.6917,
+          "time": "noon",
+          "mapProvider": "Here WeGo",
+          "icon": "purple"
+        }
+      }
+    ]
+  },
+  "EcoTravel_getChargingStations|:|police station|:|latitude,longitude,time,mapProvider,icon": {
+    "tool_template_name": "EcoTravel_getChargingStations",
+    "derived_class": "police station",
+    "params_for_query": [
+      "latitude",
+      "longitude",
+      "time",
+      "mapProvider",
+      "icon"
+    ],
+    "queries": [
+      {
+        "query": "Can you show me the locations of nearby police stations at 10 AM using Google Maps with a badge icon? My coordinates are 34.0522, -118.2437.",
+        "filled_param": {
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "time": "10 AM",
+          "mapProvider": "Google Maps",
+          "icon": "badge"
+        }
+      },
+      {
+        "query": "I need to find police station locations around me using Bing Maps with a shield icon at 3 PM. My location is at latitude 51.5074 and longitude -0.1278.",
+        "filled_param": {
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "time": "3 PM",
+          "mapProvider": "Bing Maps",
+          "icon": "shield"
+        }
+      },
+      {
+        "query": "Locate the police stations near my current position of 40.7128, -74.0060 at 8 PM on OpenStreetMap with a star icon.",
+        "filled_param": {
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "time": "8 PM",
+          "mapProvider": "OpenStreetMap",
+          "icon": "star"
+        }
+      },
+      {
+        "query": "What are the nearby police station locations at 6 AM displayed on MapQuest with a siren icon? I'm located at latitude 48.8566 and longitude 2.3522.",
+        "filled_param": {
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "time": "6 AM",
+          "mapProvider": "MapQuest",
+          "icon": "siren"
+        }
+      },
+      {
+        "query": "Show me police stations around 35.6895, 139.6917 at 11 PM with a target icon on TomTom maps.",
+        "filled_param": {
+          "latitude": 35.6895,
+          "longitude": 139.6917,
+          "time": "11 PM",
+          "mapProvider": "TomTom",
+          "icon": "target"
+        }
+      }
+    ]
+  },
+  "EcoTravel_getChargingStations|:|blood donation site|:|latitude,longitude,time,mapProvider,icon": {
+    "tool_template_name": "EcoTravel_getChargingStations",
+    "derived_class": "blood donation site",
+    "params_for_query": [
+      "latitude",
+      "longitude",
+      "time",
+      "mapProvider",
+      "icon"
+    ],
+    "queries": [
+      {
+        "query": "Can you find blood donation site locations near me with coordinates 34.0522, -118.2437 at 10:00 AM using Google Maps and represent them with a red cross icon?",
+        "filled_param": {
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "time": "10:00 AM",
+          "mapProvider": "Google Maps",
+          "icon": "red cross"
+        }
+      },
+      {
+        "query": "Please provide information about blood donation sites around coordinates 51.5074, -0.1278 at 3:00 PM with Apple Maps and show them with a blood drop icon.",
+        "filled_param": {
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "time": "3:00 PM",
+          "mapProvider": "Apple Maps",
+          "icon": "blood drop"
+        }
+      },
+      {
+        "query": "What blood donation site options are available near 40.7128, -74.0060 at 9:00 AM on OpenStreetMap with a heart icon to mark them?",
+        "filled_param": {
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "time": "9:00 AM",
+          "mapProvider": "OpenStreetMap",
+          "icon": "heart"
+        }
+      },
+      {
+        "query": "Show me blood donation sites at 48.8566, 2.3522 around 2:00 PM using Bing Maps with a healthcare icon.",
+        "filled_param": {
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "time": "2:00 PM",
+          "mapProvider": "Bing Maps",
+          "icon": "healthcare"
+        }
+      },
+      {
+        "query": "Find nearby blood donation sites at coordinates 35.6895, 139.6917 at noon using MapQuest and mark them with a red cross.",
+        "filled_param": {
+          "latitude": 35.6895,
+          "longitude": 139.6917,
+          "time": "12:00 PM",
+          "mapProvider": "MapQuest",
+          "icon": "red cross"
+        }
+      }
+    ]
+  }
+}

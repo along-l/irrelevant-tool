@@ -1,0 +1,92 @@
+{
+  "tool_template_name": "SocialMediaInvestigator_findMissingPerson",
+  "meta_data": {
+    "base_class": "Analyze data from <social media platforms> to extract clues about missing persons - refers to various social media platforms that can be used for data analysis.",
+    "derived_classes": [
+      "Facebook",
+      "Instagram",
+      "Twitter",
+      "TikTok",
+      "Discord",
+      "Reddit",
+      "YouTube",
+      "Weibo",
+      "Douyin",
+      "Xiaohongshu",
+      "Zhihu",
+      "Quora",
+      "VK",
+      "Bilibili"
+    ],
+    "base_class_entity": ""
+  },
+  "tool_template": {
+    "name": "SocialMediaInvestigator_analyze_<class>_data",
+    "description": "Analyzes data from <class> to extract clues about activities related to missing persons.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "socialMediaAccounts": {
+          "type": "array",
+          "description": "List of <class> account identifiers to be analyzed.",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "socialMediaAccounts"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "startDate": {
+      "description": "Start date in YYYY-MM-DD format.",
+      "type": "string"
+    },
+    "endDate": {
+      "description": "End date in YYYY-MM-DD format.",
+      "type": "string"
+    },
+    "locationAnalysis": {
+      "type": "boolean",
+      "description": "Specifies whether to perform location tracking from <class> posts."
+    },
+    "sentimentAnalysis": {
+      "type": "boolean",
+      "description": "Specifies whether to analyze the sentiment of the <class> posts."
+    },
+    "languagePreferences": {
+      "type": "array",
+      "description": "Preferred languages for the <class> posts to be analyzed.",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additional_params": {
+    "dataPrivacyLevel": {
+      "type": "string",
+      "description": "The level of data privacy compliance to adhere to while analyzing <class> data, such as 'low', 'medium', or 'high'."
+    },
+    "dataFormat": {
+      "type": "string",
+      "description": "The preferred data format for exporting <class> analysis results, e.g., 'JSON', 'CSV'."
+    },
+    "keywordFilters": {
+      "type": "array",
+      "description": "A list of keywords to filter the <class> posts for specific content relevance.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "timeZone": {
+      "type": "string",
+      "description": "The time zone context for interpreting the timestamps of <class> data, e.g., 'UTC', 'PST'."
+    },
+    "contentType": {
+      "type": "string",
+      "description": "Type of content to focus on during analysis on <class>, such as 'text', 'image', or 'video'."
+    }
+  }
+}

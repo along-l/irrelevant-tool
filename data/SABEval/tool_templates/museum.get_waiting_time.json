@@ -1,0 +1,56 @@
+{
+  "tool_template_name": "museum.get_waiting_time",
+  "meta_data": {
+    "base_class": "retrieve the estimated waiting time at a specific <public venue> - these venues usually involve queues or reservations for entry or service.",
+    "derived_classes": [
+      "museum",
+      "art gallery",
+      "zoo",
+      "botanical garden",
+      "aquarium",
+      "restaurant",
+      "amusement park"
+    ],
+    "base_class_entity": "museum"
+  },
+  "tool_template": {
+    "name": "get_<class>_waiting_time",
+    "description": "Retrieve the estimated waiting time at a specific <class>.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "venue_name": {
+          "type": "string",
+          "description": "The name of the <class>."
+        }
+      },
+      "required": [
+        "venue_name"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "day": {
+      "type": "string",
+      "description": "Day of the week."
+    }
+  },
+  "additional_params": {
+    "time_of_day": {
+      "type": "string",
+      "description": "Specific time of day for which <class> waiting time is requested, e.g., 'morning', 'afternoon', 'evening'."
+    },
+    "entry_type": {
+      "type": "string",
+      "description": "Type of entry for the <class>, such as 'general admission' or 'membership'."
+    },
+    "return_waiting_range": {
+      "type": "boolean",
+      "description": "If true, returns a waiting time range (e.g., 20-35 minutes) instead of a single average value for the <class>."
+    },
+    "wait_time_accuracy": {
+      "type": "string",
+      "description": "Required accuracy level for the estimated waiting time (upper bound), e.g., 'approximate' or 'precise'."
+    }
+  }
+}

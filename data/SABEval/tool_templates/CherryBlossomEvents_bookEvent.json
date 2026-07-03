@@ -1,0 +1,68 @@
+{
+  "tool_template_name": "CherryBlossomEvents_bookEvent",
+  "meta_data": {
+    "base_class": "Allow booking for selected <themed events> in specific regions - refers to public or private gatherings with specific themes, usually held at certain times or seasons, where participants can reserve attendance.",
+    "derived_classes": [
+      "music festival",
+      "film festival",
+      "food festival",
+      "painting exhibition",
+      "tech conference",
+      "anime expo",
+      "fireworks show",
+      "marathon",
+      "theater performance",
+      "fashion week"
+    ],
+    "base_class_entity": "cherry blossom-related event"
+  },
+  "tool_template": {
+    "name": "<class>_bookEvent",
+    "description": "Allows booking a spot for a selected <class> event in a specified region.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "eventName": {
+          "type": "string",
+          "description": "The name of the <class> event to book."
+        },
+        "attendeeContact": {
+          "type": "string",
+          "description": "Contact information of the attendee (e.g., email or phone number)."
+        }
+      },
+      "required": [
+        "eventName",
+        "attendeeContact"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "attendeeName": {
+      "type": "string",
+      "description": "The full name of the attendee who will participate in the <class> event."
+    }
+  },
+  "additional_params": {
+    "eventDate": {
+      "type": "string",
+      "description": "The date of the <class> event in YYYY-MM-DD format."
+    },
+    "region": {
+      "type": "string",
+      "description": "The geographical location or region where the <class> event will take place."
+    },
+    "numberOfAttendees": {
+      "type": "integer",
+      "description": "The number of attendees that the booking is being made for at the <class> event."
+    },
+    "specialRequirements": {
+      "type": "string",
+      "description": "Any special requirements or accommodations needed for the attendee at the <class> event."
+    },
+    "paymentConfirmed": {
+      "type": "boolean",
+      "description": "Indicates whether payment has been confirmed for the <class> event booking."
+    }
+  }
+}

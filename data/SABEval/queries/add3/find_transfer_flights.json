@@ -1,0 +1,278 @@
+{
+  "find_transfer_flights|:|flight|:|origin_city,transfer_city,destination_city,departure_time,ticket_class,maximum_duration": {
+    "tool_template_name": "find_transfer_flights",
+    "derived_class": "flight",
+    "params_for_query": [
+      "origin_city",
+      "transfer_city",
+      "destination_city",
+      "departure_time",
+      "ticket_class",
+      "maximum_duration"
+    ],
+    "queries": [
+      {
+        "query": "Can you find a flight from New York to Sydney with a layover in Los Angeles, departing at 2023-05-20T08:00:00 and I prefer it to be in business class with a maximum duration of 20 hours?",
+        "filled_param": {
+          "origin_city": "New York",
+          "transfer_city": "Los Angeles",
+          "destination_city": "Sydney",
+          "departure_time": "2023-05-20T08:00:00",
+          "ticket_class": "business",
+          "maximum_duration": 20
+        }
+      },
+      {
+        "query": "I need an economy class flight from Paris to Tokyo, with a stopover in Hong Kong, leaving on 2023-11-15T14:30:00, and it shouldn't take more than 18 hours.",
+        "filled_param": {
+          "origin_city": "Paris",
+          "transfer_city": "Hong Kong",
+          "destination_city": "Tokyo",
+          "departure_time": "2023-11-15T14:30:00",
+          "ticket_class": "economy",
+          "maximum_duration": 18
+        }
+      },
+      {
+        "query": "Book me a first-class flight that goes from Toronto to Cairo with a stop in London, departing on 2023-12-01T10:00:00, and it must be under 22 hours.",
+        "filled_param": {
+          "origin_city": "Toronto",
+          "transfer_city": "London",
+          "destination_city": "Cairo",
+          "departure_time": "2023-12-01T10:00:00",
+          "ticket_class": "first",
+          "maximum_duration": 22
+        }
+      },
+      {
+        "query": "Could you find a flight route from San Francisco to Rome via Amsterdam, departing on 2023-06-25T18:45:00 in business class, with a maximum duration of 17 hours?",
+        "filled_param": {
+          "origin_city": "San Francisco",
+          "transfer_city": "Amsterdam",
+          "destination_city": "Rome",
+          "departure_time": "2023-06-25T18:45:00",
+          "ticket_class": "business",
+          "maximum_duration": 17
+        }
+      },
+      {
+        "query": "Please look up an economy flight from Beijing to New Delhi with a stop in Dubai, departing on 2023-07-10T07:15:00, and the total journey shouldn't exceed 15 hours.",
+        "filled_param": {
+          "origin_city": "Beijing",
+          "transfer_city": "Dubai",
+          "destination_city": "New Delhi",
+          "departure_time": "2023-07-10T07:15:00",
+          "ticket_class": "economy",
+          "maximum_duration": 15
+        }
+      }
+    ]
+  },
+  "find_transfer_flights|:|high-speed train|:|origin_city,transfer_city,destination_city,departure_time,ticket_class,maximum_duration": {
+    "tool_template_name": "find_transfer_flights",
+    "derived_class": "high-speed train",
+    "params_for_query": [
+      "origin_city",
+      "transfer_city",
+      "destination_city",
+      "departure_time",
+      "ticket_class",
+      "maximum_duration"
+    ],
+    "queries": [
+      {
+        "query": "Find a high-speed train route leaving from Tokyo at 2023-11-10T08:00:00 with a transfer in Osaka and arriving in Hiroshima. I prefer to travel in economy class and the journey should not take longer than 6 hours.",
+        "filled_param": {
+          "origin_city": "Tokyo",
+          "transfer_city": "Osaka",
+          "destination_city": "Hiroshima",
+          "departure_time": "2023-11-10T08:00:00",
+          "ticket_class": "economy",
+          "maximum_duration": 6
+        }
+      },
+      {
+        "query": "I'm looking for a high-speed train journey from Paris to Lyon via Bordeaux, departing at 2023-12-01T15:30:00. I want to travel in first class, and the total travel time shouldn't exceed 5 hours.",
+        "filled_param": {
+          "origin_city": "Paris",
+          "transfer_city": "Bordeaux",
+          "destination_city": "Lyon",
+          "departure_time": "2023-12-01T15:30:00",
+          "ticket_class": "first",
+          "maximum_duration": 5
+        }
+      },
+      {
+        "query": "Can you provide a high-speed train route from Beijing to Guangzhou with a stop in Wuhan? I need to leave at 2023-11-15T09:00:00 in business class, and the trip should be under 8 hours.",
+        "filled_param": {
+          "origin_city": "Beijing",
+          "transfer_city": "Wuhan",
+          "destination_city": "Guangzhou",
+          "departure_time": "2023-11-15T09:00:00",
+          "ticket_class": "business",
+          "maximum_duration": 8
+        }
+      },
+      {
+        "query": "Get me a high-speed train itinerary from Berlin to Munich with a transfer in Frankfurt, departing at 2023-11-20T12:00:00. I'd like the travel to be in economy class and the total duration should not exceed 4 hours.",
+        "filled_param": {
+          "origin_city": "Berlin",
+          "transfer_city": "Frankfurt",
+          "destination_city": "Munich",
+          "departure_time": "2023-11-20T12:00:00",
+          "ticket_class": "economy",
+          "maximum_duration": 4
+        }
+      },
+      {
+        "query": "I need a high-speed train schedule from Madrid to Seville with a layover in Córdoba, departing at 2023-11-18T07:45:00. I will travel in business class and require a maximum journey duration of 3 hours.",
+        "filled_param": {
+          "origin_city": "Madrid",
+          "transfer_city": "Córdoba",
+          "destination_city": "Seville",
+          "departure_time": "2023-11-18T07:45:00",
+          "ticket_class": "business",
+          "maximum_duration": 3
+        }
+      }
+    ]
+  },
+  "find_transfer_flights|:|cruise ship|:|origin_city,transfer_city,destination_city,departure_time,ticket_class,maximum_duration": {
+    "tool_template_name": "find_transfer_flights",
+    "derived_class": "cruise ship",
+    "params_for_query": [
+      "origin_city",
+      "transfer_city",
+      "destination_city",
+      "departure_time",
+      "ticket_class",
+      "maximum_duration"
+    ],
+    "queries": [
+      {
+        "query": "Can you help me find a cruise ship route from Miami to Barcelona with a transfer in Lisbon, departing on 2023-12-15T09:00:00Z? I'm looking for a first class ticket, and the total journey should not exceed 72 hours.",
+        "filled_param": {
+          "origin_city": "Miami",
+          "transfer_city": "Lisbon",
+          "destination_city": "Barcelona",
+          "departure_time": "2023-12-15T09:00:00Z",
+          "ticket_class": "first",
+          "maximum_duration": 72
+        }
+      },
+      {
+        "query": "Find a cruise ship route from Tokyo to Sydney with a stopover in Singapore. I want to depart on 2024-02-20T14:00:00Z in business class, and the trip duration should be no more than 96 hours.",
+        "filled_param": {
+          "origin_city": "Tokyo",
+          "transfer_city": "Singapore",
+          "destination_city": "Sydney",
+          "departure_time": "2024-02-20T14:00:00Z",
+          "ticket_class": "business",
+          "maximum_duration": 96
+        }
+      },
+      {
+        "query": "Please provide a cruise ship route from New York to Athens via Istanbul, departing at 2023-11-10T18:00:00Z. I need an economy class ticket and the journey must not exceed 120 hours.",
+        "filled_param": {
+          "origin_city": "New York",
+          "transfer_city": "Istanbul",
+          "destination_city": "Athens",
+          "departure_time": "2023-11-10T18:00:00Z",
+          "ticket_class": "economy",
+          "maximum_duration": 120
+        }
+      },
+      {
+        "query": "I'm searching for a cruise ship route from Cape Town to Venice with a transfer in Dubai. The departure should be on 2024-01-05T07:00:00Z in first class, and the total trip duration should be under 150 hours.",
+        "filled_param": {
+          "origin_city": "Cape Town",
+          "transfer_city": "Dubai",
+          "destination_city": "Venice",
+          "departure_time": "2024-01-05T07:00:00Z",
+          "ticket_class": "first",
+          "maximum_duration": 150
+        }
+      },
+      {
+        "query": "Could you find me a cruise ship route traveling from Rio de Janeiro to Tokyo with a stop in Los Angeles? I prefer to leave on 2023-10-25T12:00:00Z, in economy class, and the trip should be under 200 hours.",
+        "filled_param": {
+          "origin_city": "Rio de Janeiro",
+          "transfer_city": "Los Angeles",
+          "destination_city": "Tokyo",
+          "departure_time": "2023-10-25T12:00:00Z",
+          "ticket_class": "economy",
+          "maximum_duration": 200
+        }
+      }
+    ]
+  },
+  "find_transfer_flights|:|long-distance bus|:|origin_city,transfer_city,destination_city,departure_time,ticket_class,maximum_duration": {
+    "tool_template_name": "find_transfer_flights",
+    "derived_class": "long-distance bus",
+    "params_for_query": [
+      "origin_city",
+      "transfer_city",
+      "destination_city",
+      "departure_time",
+      "ticket_class",
+      "maximum_duration"
+    ],
+    "queries": [
+      {
+        "query": "Can you find long-distance bus routes from New York to Miami with a transfer in Atlanta, departing at 2023-11-15T08:00:00 and travelling in business class within 20 hours?",
+        "filled_param": {
+          "origin_city": "New York",
+          "transfer_city": "Atlanta",
+          "destination_city": "Miami",
+          "departure_time": "2023-11-15T08:00:00",
+          "ticket_class": "business",
+          "maximum_duration": 20
+        }
+      },
+      {
+        "query": "I need a long-distance bus itinerary from Chicago to Dallas stopping over in Memphis, leaving on 2023-12-05T09:30:00. I prefer economy class, and the journey should not exceed 18 hours.",
+        "filled_param": {
+          "origin_city": "Chicago",
+          "transfer_city": "Memphis",
+          "destination_city": "Dallas",
+          "departure_time": "2023-12-05T09:30:00",
+          "ticket_class": "economy",
+          "maximum_duration": 18
+        }
+      },
+      {
+        "query": "Show me a long-distance bus route going from Los Angeles to Seattle via Portland, leaving at 2023-12-20T07:00:00. I want to travel first class with a maximum duration of 24 hours.",
+        "filled_param": {
+          "origin_city": "Los Angeles",
+          "transfer_city": "Portland",
+          "destination_city": "Seattle",
+          "departure_time": "2023-12-20T07:00:00",
+          "ticket_class": "first",
+          "maximum_duration": 24
+        }
+      },
+      {
+        "query": "Find a long-distance bus from Boston to Philadelphia with a stop in New York City, departing on 2023-11-10T06:00:00 in economy class, with a journey time under 10 hours.",
+        "filled_param": {
+          "origin_city": "Boston",
+          "transfer_city": "New York City",
+          "destination_city": "Philadelphia",
+          "departure_time": "2023-11-10T06:00:00",
+          "ticket_class": "economy",
+          "maximum_duration": 10
+        }
+      },
+      {
+        "query": "Can you arrange a long-distance bus trip from San Francisco to Las Vegas with a change in Sacramento, leaving at 2023-12-01T14:00:00 in business class, keeping the travel time below 12 hours?",
+        "filled_param": {
+          "origin_city": "San Francisco",
+          "transfer_city": "Sacramento",
+          "destination_city": "Las Vegas",
+          "departure_time": "2023-12-01T14:00:00",
+          "ticket_class": "business",
+          "maximum_duration": 12
+        }
+      }
+    ]
+  }
+}

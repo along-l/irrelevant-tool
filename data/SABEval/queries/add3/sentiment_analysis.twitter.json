@@ -1,0 +1,938 @@
+{
+  "sentiment_analysis.twitter|:|Twitter|:|topic,language,num_content,filter_date_range,region": {
+    "tool_template_name": "sentiment_analysis.twitter",
+    "derived_class": "Twitter",
+    "params_for_query": [
+      "topic",
+      "language",
+      "num_content",
+      "filter_date_range",
+      "region"
+    ],
+    "queries": [
+      {
+        "query": "What's the sentiment on Twitter regarding climate change tweets posted in English, from 2023-01-01 to 2023-01-10, focusing on the United States, analyzing 100 tweets?",
+        "filled_param": {
+          "topic": "climate change",
+          "language": "English",
+          "num_content": 100,
+          "filter_date_range": [
+            "2023-01-01",
+            "2023-01-10"
+          ],
+          "region": "United States"
+        }
+      },
+      {
+        "query": "Analyze the sentiment on Twitter about the FIFA World Cup in Spanish, using 50 tweets from Spain, dated between 2022-11-20 and 2022-12-18.",
+        "filled_param": {
+          "topic": "FIFA World Cup",
+          "language": "Spanish",
+          "num_content": 50,
+          "filter_date_range": [
+            "2022-11-20",
+            "2022-12-18"
+          ],
+          "region": "Spain"
+        }
+      },
+      {
+        "query": "Could you check the sentiment on Twitter towards electric cars in German, focusing on 200 tweets from Germany between 2023-03-01 and 2023-03-31?",
+        "filled_param": {
+          "topic": "electric cars",
+          "language": "German",
+          "num_content": 200,
+          "filter_date_range": [
+            "2023-03-01",
+            "2023-03-31"
+          ],
+          "region": "Germany"
+        }
+      },
+      {
+        "query": "What is the sentiment on Twitter about cryptocurrency in French from Canada, based on 150 tweets posted from 2023-02-01 to 2023-02-28?",
+        "filled_param": {
+          "topic": "cryptocurrency",
+          "language": "French",
+          "num_content": 150,
+          "filter_date_range": [
+            "2023-02-01",
+            "2023-02-28"
+          ],
+          "region": "Canada"
+        }
+      },
+      {
+        "query": "Find out the sentiment on Twitter for renewable energy in Japanese, analyzing 75 tweets from Japan, during the period from 2023-04-01 to 2023-04-15.",
+        "filled_param": {
+          "topic": "renewable energy",
+          "language": "Japanese",
+          "num_content": 75,
+          "filter_date_range": [
+            "2023-04-01",
+            "2023-04-15"
+          ],
+          "region": "Japan"
+        }
+      },
+      {
+        "query": "Evaluate the sentiment on Twitter on the topic of mental health awareness in Arabic, using 125 tweets from the Middle East between 2023-05-01 and 2023-05-31.",
+        "filled_param": {
+          "topic": "mental health awareness",
+          "language": "Arabic",
+          "num_content": 125,
+          "filter_date_range": [
+            "2023-05-01",
+            "2023-05-31"
+          ],
+          "region": "Middle East"
+        }
+      },
+      {
+        "query": "Determine the sentiment on Twitter concerning space exploration in Russian, focusing on 80 tweets from Russia, from 2023-06-01 to 2023-06-15.",
+        "filled_param": {
+          "topic": "space exploration",
+          "language": "Russian",
+          "num_content": 80,
+          "filter_date_range": [
+            "2023-06-01",
+            "2023-06-15"
+          ],
+          "region": "Russia"
+        }
+      }
+    ]
+  },
+  "sentiment_analysis.twitter|:|Facebook|:|topic,language,num_content,filter_date_range,region": {
+    "tool_template_name": "sentiment_analysis.twitter",
+    "derived_class": "Facebook",
+    "params_for_query": [
+      "topic",
+      "language",
+      "num_content",
+      "filter_date_range",
+      "region"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the sentiment on Facebook about climate change posts in English from the USA, considering 50 pieces of content between 2023-01-01 and 2023-01-31.",
+        "filled_param": {
+          "topic": "climate change",
+          "language": "English",
+          "num_content": 50,
+          "filter_date_range": [
+            "2023-01-01",
+            "2023-01-31"
+          ],
+          "region": "USA"
+        }
+      },
+      {
+        "query": "What is the sentiment on Facebook regarding the new iPhone release among Spanish posts from Spain, analyzing 30 posts made from 2023-05-01 to 2023-05-15?",
+        "filled_param": {
+          "topic": "new iPhone release",
+          "language": "Spanish",
+          "num_content": 30,
+          "filter_date_range": [
+            "2023-05-01",
+            "2023-05-15"
+          ],
+          "region": "Spain"
+        }
+      },
+      {
+        "query": "Can you assess the sentiment towards the World Cup in French posts from Canada on Facebook by evaluating 40 pieces of content between 2022-12-01 and 2022-12-18?",
+        "filled_param": {
+          "topic": "World Cup",
+          "language": "French",
+          "num_content": 40,
+          "filter_date_range": [
+            "2022-12-01",
+            "2022-12-18"
+          ],
+          "region": "Canada"
+        }
+      },
+      {
+        "query": "Determine the sentiment about electric cars in Portuguese Facebook posts from Brazil by analyzing 20 posts from 2023-06-01 to 2023-06-10.",
+        "filled_param": {
+          "topic": "electric cars",
+          "language": "Portuguese",
+          "num_content": 20,
+          "filter_date_range": [
+            "2023-06-01",
+            "2023-06-10"
+          ],
+          "region": "Brazil"
+        }
+      },
+      {
+        "query": "I'd like to know the sentiment on Facebook regarding remote work in German content from Germany, analyzing 25 posts from 2023-02-01 to 2023-02-28.",
+        "filled_param": {
+          "topic": "remote work",
+          "language": "German",
+          "num_content": 25,
+          "filter_date_range": [
+            "2023-02-01",
+            "2023-02-28"
+          ],
+          "region": "Germany"
+        }
+      },
+      {
+        "query": "Please provide an analysis of the sentiment towards vegan diets in Italian posts on Facebook from Italy, considering 15 pieces of content dated from 2023-03-01 to 2023-03-15.",
+        "filled_param": {
+          "topic": "vegan diets",
+          "language": "Italian",
+          "num_content": 15,
+          "filter_date_range": [
+            "2023-03-01",
+            "2023-03-15"
+          ],
+          "region": "Italy"
+        }
+      },
+      {
+        "query": "Explore the sentiment on Facebook about cryptocurrency in Russian posts from Russia by analyzing 45 pieces of content between 2023-07-01 and 2023-07-10.",
+        "filled_param": {
+          "topic": "cryptocurrency",
+          "language": "Russian",
+          "num_content": 45,
+          "filter_date_range": [
+            "2023-07-01",
+            "2023-07-10"
+          ],
+          "region": "Russia"
+        }
+      }
+    ]
+  },
+  "sentiment_analysis.twitter|:|Instagram|:|topic,language,num_content,filter_date_range,region": {
+    "tool_template_name": "sentiment_analysis.twitter",
+    "derived_class": "Instagram",
+    "params_for_query": [
+      "topic",
+      "language",
+      "num_content",
+      "filter_date_range",
+      "region"
+    ],
+    "queries": [
+      {
+        "query": "What's the sentiment on Instagram about the latest iPhone in English, focusing on US content from September 1, 2023, to September 15, 2023, analyzing 50 posts?",
+        "filled_param": {
+          "topic": "latest iPhone",
+          "language": "English",
+          "num_content": 50,
+          "filter_date_range": [
+            "2023-09-01",
+            "2023-09-15"
+          ],
+          "region": "US"
+        }
+      },
+      {
+        "query": "Analyze the sentiment towards climate change on Instagram in Spanish, drawing from 100 posts in Spain from June 1, 2023, to June 30, 2023.",
+        "filled_param": {
+          "topic": "climate change",
+          "language": "Spanish",
+          "num_content": 100,
+          "filter_date_range": [
+            "2023-06-01",
+            "2023-06-30"
+          ],
+          "region": "Spain"
+        }
+      },
+      {
+        "query": "Can you tell me the Instagram sentiment regarding artificial intelligence in French, looking at 30 pieces of content from France between August 10, 2023, and August 20, 2023?",
+        "filled_param": {
+          "topic": "artificial intelligence",
+          "language": "French",
+          "num_content": 30,
+          "filter_date_range": [
+            "2023-08-10",
+            "2023-08-20"
+          ],
+          "region": "France"
+        }
+      },
+      {
+        "query": "I'd like to know the sentiment on Instagram about vegan diets in German, focused on content from Germany, analyzing 40 posts from July 1, 2023, to July 15, 2023.",
+        "filled_param": {
+          "topic": "vegan diets",
+          "language": "German",
+          "num_content": 40,
+          "filter_date_range": [
+            "2023-07-01",
+            "2023-07-15"
+          ],
+          "region": "Germany"
+        }
+      },
+      {
+        "query": "What is the sentiment on Instagram about electric cars in Italian with 60 posts from Italy between May 5, 2023, and May 25, 2023?",
+        "filled_param": {
+          "topic": "electric cars",
+          "language": "Italian",
+          "num_content": 60,
+          "filter_date_range": [
+            "2023-05-05",
+            "2023-05-25"
+          ],
+          "region": "Italy"
+        }
+      },
+      {
+        "query": "Please analyze the sentiment on Instagram concerning cryptocurrency in Portuguese, targeting content from Brazil, with an analysis of 70 posts from April 1, 2023, to April 30, 2023.",
+        "filled_param": {
+          "topic": "cryptocurrency",
+          "language": "Portuguese",
+          "num_content": 70,
+          "filter_date_range": [
+            "2023-04-01",
+            "2023-04-30"
+          ],
+          "region": "Brazil"
+        }
+      },
+      {
+        "query": "Investigate the sentiment surrounding mental health on Instagram in Japanese, reviewing 20 pieces of content from Japan from March 1, 2023, to March 10, 2023.",
+        "filled_param": {
+          "topic": "mental health",
+          "language": "Japanese",
+          "num_content": 20,
+          "filter_date_range": [
+            "2023-03-01",
+            "2023-03-10"
+          ],
+          "region": "Japan"
+        }
+      }
+    ]
+  },
+  "sentiment_analysis.twitter|:|TikTok|:|topic,language,num_content,filter_date_range,region": {
+    "tool_template_name": "sentiment_analysis.twitter",
+    "derived_class": "TikTok",
+    "params_for_query": [
+      "topic",
+      "language",
+      "num_content",
+      "filter_date_range",
+      "region"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the sentiment on TikTok regarding climate change in English, looking at 100 contents between 2023-01-01 and 2023-06-30 from the United States.",
+        "filled_param": {
+          "topic": "climate change",
+          "language": "English",
+          "num_content": 100,
+          "filter_date_range": [
+            "2023-01-01",
+            "2023-06-30"
+          ],
+          "region": "United States"
+        }
+      },
+      {
+        "query": "Can you assess the sentiment towards electric vehicles on TikTok in Chinese, reviewing 50 posts from 2022-11-01 to 2023-02-28 in China?",
+        "filled_param": {
+          "topic": "electric vehicles",
+          "language": "Chinese",
+          "num_content": 50,
+          "filter_date_range": [
+            "2022-11-01",
+            "2023-02-28"
+          ],
+          "region": "China"
+        }
+      },
+      {
+        "query": "Perform a sentiment analysis on TikTok for the topic of vegan diet in Spanish. Examine 75 pieces of content from 2023-05-01 to 2023-07-31 within Spain.",
+        "filled_param": {
+          "topic": "vegan diet",
+          "language": "Spanish",
+          "num_content": 75,
+          "filter_date_range": [
+            "2023-05-01",
+            "2023-07-31"
+          ],
+          "region": "Spain"
+        }
+      },
+      {
+        "query": "Evaluate TikTok's sentiment on cryptocurrency in Japanese by analyzing 150 contents from 2023-03-01 to 2023-09-01, focusing on Japan.",
+        "filled_param": {
+          "topic": "cryptocurrency",
+          "language": "Japanese",
+          "num_content": 150,
+          "filter_date_range": [
+            "2023-03-01",
+            "2023-09-01"
+          ],
+          "region": "Japan"
+        }
+      },
+      {
+        "query": "What is the sentiment on TikTok about remote work in French? Please analyze 200 pieces of content from 2022-01-01 to 2022-12-31 in France.",
+        "filled_param": {
+          "topic": "remote work",
+          "language": "French",
+          "num_content": 200,
+          "filter_date_range": [
+            "2022-01-01",
+            "2022-12-31"
+          ],
+          "region": "France"
+        }
+      },
+      {
+        "query": "Look into the sentiment on TikTok for renewable energy in German, analyzing 80 posts from 2021-05-01 to 2021-08-31 originating from Germany.",
+        "filled_param": {
+          "topic": "renewable energy",
+          "language": "German",
+          "num_content": 80,
+          "filter_date_range": [
+            "2021-05-01",
+            "2021-08-31"
+          ],
+          "region": "Germany"
+        }
+      },
+      {
+        "query": "I'd like to know the sentiment on TikTok about mental health in Portuguese. Please review 120 contents from 2023-04-01 to 2023-10-01 in Brazil.",
+        "filled_param": {
+          "topic": "mental health",
+          "language": "Portuguese",
+          "num_content": 120,
+          "filter_date_range": [
+            "2023-04-01",
+            "2023-10-01"
+          ],
+          "region": "Brazil"
+        }
+      }
+    ]
+  },
+  "sentiment_analysis.twitter|:|YouTube|:|topic,language,num_content,filter_date_range,region": {
+    "tool_template_name": "sentiment_analysis.twitter",
+    "derived_class": "YouTube",
+    "params_for_query": [
+      "topic",
+      "language",
+      "num_content",
+      "filter_date_range",
+      "region"
+    ],
+    "queries": [
+      {
+        "query": "Please analyze the sentiment on YouTube regarding electric cars in English, focusing on 50 videos from the United States between 2023-01-01 and 2023-01-31.",
+        "filled_param": {
+          "topic": "electric cars",
+          "language": "English",
+          "num_content": 50,
+          "filter_date_range": [
+            "2023-01-01",
+            "2023-01-31"
+          ],
+          "region": "United States"
+        }
+      },
+      {
+        "query": "What is the sentiment towards vegan diets on YouTube in French? Analyze 30 pieces of content from Canada between 2022-07-01 and 2022-07-31.",
+        "filled_param": {
+          "topic": "vegan diets",
+          "language": "French",
+          "num_content": 30,
+          "filter_date_range": [
+            "2022-07-01",
+            "2022-07-31"
+          ],
+          "region": "Canada"
+        }
+      },
+      {
+        "query": "I'd like to know the YouTube sentiment on climate change. Look at 100 Spanish videos from Spain from 2022-12-01 to 2022-12-31.",
+        "filled_param": {
+          "topic": "climate change",
+          "language": "Spanish",
+          "num_content": 100,
+          "filter_date_range": [
+            "2022-12-01",
+            "2022-12-31"
+          ],
+          "region": "Spain"
+        }
+      },
+      {
+        "query": "Can you find the sentiment in German on YouTube regarding cryptocurrency? Check 40 pieces of content from Germany between 2023-03-01 and 2023-03-31.",
+        "filled_param": {
+          "topic": "cryptocurrency",
+          "language": "German",
+          "num_content": 40,
+          "filter_date_range": [
+            "2023-03-01",
+            "2023-03-31"
+          ],
+          "region": "Germany"
+        }
+      },
+      {
+        "query": "Examine the sentiment analysis on YouTube for the topic of renewable energy in Japanese. Focus on 20 pieces of content from Japan from 2023-02-01 to 2023-02-28.",
+        "filled_param": {
+          "topic": "renewable energy",
+          "language": "Japanese",
+          "num_content": 20,
+          "filter_date_range": [
+            "2023-02-01",
+            "2023-02-28"
+          ],
+          "region": "Japan"
+        }
+      },
+      {
+        "query": "I'd like a sentiment analysis on YouTube for mental health discussions in Italian, focusing on 75 videos from Italy between 2023-04-01 and 2023-04-30.",
+        "filled_param": {
+          "topic": "mental health",
+          "language": "Italian",
+          "num_content": 75,
+          "filter_date_range": [
+            "2023-04-01",
+            "2023-04-30"
+          ],
+          "region": "Italy"
+        }
+      },
+      {
+        "query": "What is the sentiment on YouTube about remote work in Portuguese? Analyze 60 pieces of content from Brazil from 2022-11-01 to 2022-11-30.",
+        "filled_param": {
+          "topic": "remote work",
+          "language": "Portuguese",
+          "num_content": 60,
+          "filter_date_range": [
+            "2022-11-01",
+            "2022-11-30"
+          ],
+          "region": "Brazil"
+        }
+      }
+    ]
+  },
+  "sentiment_analysis.twitter|:|Reddit|:|topic,language,num_content,filter_date_range,region": {
+    "tool_template_name": "sentiment_analysis.twitter",
+    "derived_class": "Reddit",
+    "params_for_query": [
+      "topic",
+      "language",
+      "num_content",
+      "filter_date_range",
+      "region"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the sentiment on Reddit about electric cars in English from 2023-01-01 to 2023-03-31, looking at 50 posts from the United States.",
+        "filled_param": {
+          "topic": "electric cars",
+          "language": "English",
+          "num_content": 50,
+          "filter_date_range": [
+            "2023-01-01",
+            "2023-03-31"
+          ],
+          "region": "United States"
+        }
+      },
+      {
+        "query": "What is the sentiment on Reddit towards climate change in Spanish during the first half of 2023, based on 100 articles from Spain?",
+        "filled_param": {
+          "topic": "climate change",
+          "language": "Spanish",
+          "num_content": 100,
+          "filter_date_range": [
+            "2023-01-01",
+            "2023-06-30"
+          ],
+          "region": "Spain"
+        }
+      },
+      {
+        "query": "Can you provide the sentiment analysis for Reddit discussions on cryptocurrency in French from 2023-04-01 to 2023-05-31, considering 75 posts in France?",
+        "filled_param": {
+          "topic": "cryptocurrency",
+          "language": "French",
+          "num_content": 75,
+          "filter_date_range": [
+            "2023-04-01",
+            "2023-05-31"
+          ],
+          "region": "France"
+        }
+      },
+      {
+        "query": "Explore the Reddit sentiment regarding remote work in German between 2023-02-01 and 2023-07-01, based on 60 comments from Germany.",
+        "filled_param": {
+          "topic": "remote work",
+          "language": "German",
+          "num_content": 60,
+          "filter_date_range": [
+            "2023-02-01",
+            "2023-07-01"
+          ],
+          "region": "Germany"
+        }
+      },
+      {
+        "query": "What do Reddit users think about vegan diets in Italian from 2023-05-01 to 2023-09-01, analyzing 80 posts from Italy?",
+        "filled_param": {
+          "topic": "vegan diets",
+          "language": "Italian",
+          "num_content": 80,
+          "filter_date_range": [
+            "2023-05-01",
+            "2023-09-01"
+          ],
+          "region": "Italy"
+        }
+      },
+      {
+        "query": "Assess the sentiment on Reddit about artificial intelligence in Japanese between 2023-03-01 and 2023-06-30, reviewing 90 discussions from Japan.",
+        "filled_param": {
+          "topic": "artificial intelligence",
+          "language": "Japanese",
+          "num_content": 90,
+          "filter_date_range": [
+            "2023-03-01",
+            "2023-06-30"
+          ],
+          "region": "Japan"
+        }
+      },
+      {
+        "query": "Determine the English sentiment towards online education on Reddit during the last quarter of 2023, examining 120 threads from Canada.",
+        "filled_param": {
+          "topic": "online education",
+          "language": "English",
+          "num_content": 120,
+          "filter_date_range": [
+            "2023-10-01",
+            "2023-12-31"
+          ],
+          "region": "Canada"
+        }
+      }
+    ]
+  },
+  "sentiment_analysis.twitter|:|Weibo|:|topic,language,num_content,filter_date_range,region": {
+    "tool_template_name": "sentiment_analysis.twitter",
+    "derived_class": "Weibo",
+    "params_for_query": [
+      "topic",
+      "language",
+      "num_content",
+      "filter_date_range",
+      "region"
+    ],
+    "queries": [
+      {
+        "query": "Perform a sentiment analysis on Weibo for the topic 'climate change' in simplified Chinese, analyzing 100 pieces of content from Beijing between 2023-08-01 and 2023-08-31.",
+        "filled_param": {
+          "topic": "climate change",
+          "language": "simplified Chinese",
+          "num_content": 100,
+          "filter_date_range": [
+            "2023-08-01",
+            "2023-08-31"
+          ],
+          "region": "Beijing"
+        }
+      },
+      {
+        "query": "Can you analyze Weibo's sentiment towards 'artificial intelligence' for 50 posts in English from Shanghai, from 2023-09-01 to 2023-09-15?",
+        "filled_param": {
+          "topic": "artificial intelligence",
+          "language": "English",
+          "num_content": 50,
+          "filter_date_range": [
+            "2023-09-01",
+            "2023-09-15"
+          ],
+          "region": "Shanghai"
+        }
+      },
+      {
+        "query": "I need a sentiment analysis on Weibo for 'COVID-19 vaccination' articles in traditional Chinese, sampling 200 entries from Taiwan from 2023-07-01 to 2023-07-20.",
+        "filled_param": {
+          "topic": "COVID-19 vaccination",
+          "language": "traditional Chinese",
+          "num_content": 200,
+          "filter_date_range": [
+            "2023-07-01",
+            "2023-07-20"
+          ],
+          "region": "Taiwan"
+        }
+      },
+      {
+        "query": "What is the sentiment on Weibo regarding 'electric vehicles', written in simplified Chinese, considering 75 posts from Shenzhen between the dates 2023-06-01 and 2023-06-30?",
+        "filled_param": {
+          "topic": "electric vehicles",
+          "language": "simplified Chinese",
+          "num_content": 75,
+          "filter_date_range": [
+            "2023-06-01",
+            "2023-06-30"
+          ],
+          "region": "Shenzhen"
+        }
+      },
+      {
+        "query": "Analyze the sentiment of 'food safety' on Weibo, in English, from Hong Kong for 120 contents dated from 2023-05-01 to 2023-05-15.",
+        "filled_param": {
+          "topic": "food safety",
+          "language": "English",
+          "num_content": 120,
+          "filter_date_range": [
+            "2023-05-01",
+            "2023-05-15"
+          ],
+          "region": "Hong Kong"
+        }
+      },
+      {
+        "query": "Can you tell me the sentiment on Weibo about 'gaming industry' in simplified Chinese, focusing on 90 entries from Guangdong province, for the period 2023-04-01 to 2023-04-10?",
+        "filled_param": {
+          "topic": "gaming industry",
+          "language": "simplified Chinese",
+          "num_content": 90,
+          "filter_date_range": [
+            "2023-04-01",
+            "2023-04-10"
+          ],
+          "region": "Guangdong"
+        }
+      },
+      {
+        "query": "What's the overall sentiment on Weibo about 'renewable energy', written in traditional Chinese, analyzing 110 posts originating from Fujian from 2023-03-01 to 2023-03-31?",
+        "filled_param": {
+          "topic": "renewable energy",
+          "language": "traditional Chinese",
+          "num_content": 110,
+          "filter_date_range": [
+            "2023-03-01",
+            "2023-03-31"
+          ],
+          "region": "Fujian"
+        }
+      }
+    ]
+  },
+  "sentiment_analysis.twitter|:|Kuaishou|:|topic,language,num_content,filter_date_range,region": {
+    "tool_template_name": "sentiment_analysis.twitter",
+    "derived_class": "Kuaishou",
+    "params_for_query": [
+      "topic",
+      "language",
+      "num_content",
+      "filter_date_range",
+      "region"
+    ],
+    "queries": [
+      {
+        "query": "What is the sentiment on Kuaishou regarding electric vehicles in Chinese, analyzing 50 contents between 2023-01-01 and 2023-01-31 from Shanghai?",
+        "filled_param": {
+          "topic": "electric vehicles",
+          "language": "Chinese",
+          "num_content": 50,
+          "filter_date_range": [
+            "2023-01-01",
+            "2023-01-31"
+          ],
+          "region": "Shanghai"
+        }
+      },
+      {
+        "query": "Analyze the sentiment towards climate change on Kuaishou in English, focusing on 100 posts from the United States during the dates 2022-12-01 to 2022-12-31.",
+        "filled_param": {
+          "topic": "climate change",
+          "language": "English",
+          "num_content": 100,
+          "filter_date_range": [
+            "2022-12-01",
+            "2022-12-31"
+          ],
+          "region": "United States"
+        }
+      },
+      {
+        "query": "Could you assess the sentiment on Kuaishou about cryptocurrency in Spanish, looking at 200 entries from Spain between 2023-06-01 and 2023-06-15?",
+        "filled_param": {
+          "topic": "cryptocurrency",
+          "language": "Spanish",
+          "num_content": 200,
+          "filter_date_range": [
+            "2023-06-01",
+            "2023-06-15"
+          ],
+          "region": "Spain"
+        }
+      },
+      {
+        "query": "What is the overall sentiment on Kuaishou about mental health awareness in Japanese, considering 75 posts originating from Japan during 2023-07-01 to 2023-07-10?",
+        "filled_param": {
+          "topic": "mental health awareness",
+          "language": "Japanese",
+          "num_content": 75,
+          "filter_date_range": [
+            "2023-07-01",
+            "2023-07-10"
+          ],
+          "region": "Japan"
+        }
+      },
+      {
+        "query": "How do users on Kuaishou feel about sustainable fashion in French, analyzing 120 contents posted from France from 2023-02-01 to 2023-02-28?",
+        "filled_param": {
+          "topic": "sustainable fashion",
+          "language": "French",
+          "num_content": 120,
+          "filter_date_range": [
+            "2023-02-01",
+            "2023-02-28"
+          ],
+          "region": "France"
+        }
+      },
+      {
+        "query": "Please determine the sentiment on Kuaishou towards renewable energy in German, by looking into 90 pieces of content from Germany between 2023-03-01 and 2023-03-31.",
+        "filled_param": {
+          "topic": "renewable energy",
+          "language": "German",
+          "num_content": 90,
+          "filter_date_range": [
+            "2023-03-01",
+            "2023-03-31"
+          ],
+          "region": "Germany"
+        }
+      },
+      {
+        "query": "Evaluate the sentiment on Kuaishou about vegan recipes in Italian, focusing on 60 contents from Italy during the timeframe 2023-05-01 to 2023-05-20.",
+        "filled_param": {
+          "topic": "vegan recipes",
+          "language": "Italian",
+          "num_content": 60,
+          "filter_date_range": [
+            "2023-05-01",
+            "2023-05-20"
+          ],
+          "region": "Italy"
+        }
+      }
+    ]
+  },
+  "sentiment_analysis.twitter|:|Bilibili|:|topic,language,num_content,filter_date_range,region": {
+    "tool_template_name": "sentiment_analysis.twitter",
+    "derived_class": "Bilibili",
+    "params_for_query": [
+      "topic",
+      "language",
+      "num_content",
+      "filter_date_range",
+      "region"
+    ],
+    "queries": [
+      {
+        "query": "Perform a sentiment analysis on Bilibili about the topic 'digital art' in Chinese, analyzing 50 pieces of content from 2023-01-01 to 2023-03-01, specifically from the Guangdong region.",
+        "filled_param": {
+          "topic": "digital art",
+          "language": "Chinese",
+          "num_content": 50,
+          "filter_date_range": [
+            "2023-01-01",
+            "2023-03-01"
+          ],
+          "region": "Guangdong"
+        }
+      },
+      {
+        "query": "Can you analyze the sentiment towards 'sustainable energy' on Bilibili in English, over the course of 100 articles between 2023-04-01 and 2023-06-30, focusing on the United States?",
+        "filled_param": {
+          "topic": "sustainable energy",
+          "language": "English",
+          "num_content": 100,
+          "filter_date_range": [
+            "2023-04-01",
+            "2023-06-30"
+          ],
+          "region": "United States"
+        }
+      },
+      {
+        "query": "I want to know the sentiment on Bilibili regarding 'blockchain technology' content in Japanese. Please evaluate 75 entries from 2023-07-01 to 2023-08-15, concentrating on Osaka.",
+        "filled_param": {
+          "topic": "blockchain technology",
+          "language": "Japanese",
+          "num_content": 75,
+          "filter_date_range": [
+            "2023-07-01",
+            "2023-08-15"
+          ],
+          "region": "Osaka"
+        }
+      },
+      {
+        "query": "Analyze how Bilibili feels about 'climate change' in Spanish by assessing 30 pieces from 2023-02-01 to 2023-04-01, with a focus on content from Argentina.",
+        "filled_param": {
+          "topic": "climate change",
+          "language": "Spanish",
+          "num_content": 30,
+          "filter_date_range": [
+            "2023-02-01",
+            "2023-04-01"
+          ],
+          "region": "Argentina"
+        }
+      },
+      {
+        "query": "Could you conduct a sentiment analysis on Bilibili for 'electric vehicles' in French, examining 45 videos published between 2023-05-01 and 2023-07-01, centered around content from Quebec?",
+        "filled_param": {
+          "topic": "electric vehicles",
+          "language": "French",
+          "num_content": 45,
+          "filter_date_range": [
+            "2023-05-01",
+            "2023-07-01"
+          ],
+          "region": "Quebec"
+        }
+      },
+      {
+        "query": "What is the sentiment on Bilibili about 'indie games' content in Korean? Please look into 80 posts from 2023-09-01 to 2023-10-15, particularly from South Korea.",
+        "filled_param": {
+          "topic": "indie games",
+          "language": "Korean",
+          "num_content": 80,
+          "filter_date_range": [
+            "2023-09-01",
+            "2023-10-15"
+          ],
+          "region": "South Korea"
+        }
+      },
+      {
+        "query": "Investigate the sentiment surrounding 'vegan diets' on Bilibili in German, by reviewing 60 pieces of information from 2023-03-01 to 2023-05-31, focusing on the content from Berlin.",
+        "filled_param": {
+          "topic": "vegan diets",
+          "language": "German",
+          "num_content": 60,
+          "filter_date_range": [
+            "2023-03-01",
+            "2023-05-31"
+          ],
+          "region": "Berlin"
+        }
+      }
+    ]
+  }
+}

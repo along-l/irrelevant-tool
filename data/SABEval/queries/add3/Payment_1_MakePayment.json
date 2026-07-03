@@ -1,0 +1,636 @@
+{
+  "Payment_1_MakePayment|:|visa credit card|:|amount,receiver,private_visibility,currency,note": {
+    "tool_template_name": "Payment_1_MakePayment",
+    "derived_class": "visa credit card",
+    "params_for_query": [
+      "amount",
+      "receiver",
+      "private_visibility",
+      "currency",
+      "note"
+    ],
+    "queries": [
+      {
+        "query": "Send $150.75 to john.doe@example.com using my visa credit card with a private note saying 'Dinner at Luigi's'. Make sure it's in USD and mark it as private.",
+        "filled_param": {
+          "amount": 150.75,
+          "receiver": "john.doe@example.com",
+          "private_visibility": true,
+          "currency": "USD",
+          "note": "Dinner at Luigi's"
+        }
+      },
+      {
+        "query": "I need to pay 200 EUR to +49123456789 with my visa credit card. Keep the transaction public and add a note 'Concert tickets'.",
+        "filled_param": {
+          "amount": 200.0,
+          "receiver": "+49123456789",
+          "private_visibility": false,
+          "currency": "EUR",
+          "note": "Concert tickets"
+        }
+      },
+      {
+        "query": "Transfer 1000 GBP to jane_smith using my visa credit card. Set it as private and include the note 'Rent for April'.",
+        "filled_param": {
+          "amount": 1000.0,
+          "receiver": "jane_smith",
+          "private_visibility": true,
+          "currency": "GBP",
+          "note": "Rent for April"
+        }
+      },
+      {
+        "query": "I want to send 5000 JPY to haruki.yamada@tokyo.jp via visa credit card. Make it public with the message 'Happy Birthday!'.",
+        "filled_param": {
+          "amount": 5000.0,
+          "receiver": "haruki.yamada@tokyo.jp",
+          "private_visibility": false,
+          "currency": "JPY",
+          "note": "Happy Birthday!"
+        }
+      },
+      {
+        "query": "Initiate a transaction of 300 CAD to michael12345. Keep it private and attach the note 'Project Expenses'. Use my visa credit card.",
+        "filled_param": {
+          "amount": 300.0,
+          "receiver": "michael12345",
+          "private_visibility": true,
+          "currency": "CAD",
+          "note": "Project Expenses"
+        }
+      },
+      {
+        "query": "Pay 75 AUD to lily.white@example.com using my visa credit card. Make the transaction public and write 'Brunch meeting' as the note.",
+        "filled_param": {
+          "amount": 75.0,
+          "receiver": "lily.white@example.com",
+          "private_visibility": false,
+          "currency": "AUD",
+          "note": "Brunch meeting"
+        }
+      },
+      {
+        "query": "Please send 250 CHF to +41791234567 with my visa credit card. Ensure the payment is private and the note reads 'Consultation fee'.",
+        "filled_param": {
+          "amount": 250.0,
+          "receiver": "+41791234567",
+          "private_visibility": true,
+          "currency": "CHF",
+          "note": "Consultation fee"
+        }
+      }
+    ]
+  },
+  "Payment_1_MakePayment|:|mastercard credit card|:|amount,receiver,private_visibility,currency,note": {
+    "tool_template_name": "Payment_1_MakePayment",
+    "derived_class": "mastercard credit card",
+    "params_for_query": [
+      "amount",
+      "receiver",
+      "private_visibility",
+      "currency",
+      "note"
+    ],
+    "queries": [
+      {
+        "query": "Send $150 to john.doe@example.com with a note 'Happy Birthday!' using mastercard credit card in USD, and keep it private.",
+        "filled_param": {
+          "amount": 150.0,
+          "receiver": "john.doe@example.com",
+          "private_visibility": true,
+          "currency": "USD",
+          "note": "Happy Birthday!"
+        }
+      },
+      {
+        "query": "I need to transfer 200 EUR to +49123456789 with a mastercard credit card and make sure the transaction is public. Add the note 'Thanks for your help'.",
+        "filled_param": {
+          "amount": 200.0,
+          "receiver": "+49123456789",
+          "private_visibility": false,
+          "currency": "EUR",
+          "note": "Thanks for your help"
+        }
+      },
+      {
+        "query": "Use mastercard credit card to pay 75 GBP to alice.smith@domain.com with a message 'Dinner last night' and keep the transaction hidden.",
+        "filled_param": {
+          "amount": 75.0,
+          "receiver": "alice.smith@domain.com",
+          "private_visibility": true,
+          "currency": "GBP",
+          "note": "Dinner last night"
+        }
+      },
+      {
+        "query": "I'd like to send 500 CAD to friend123 with a mastercard credit card, with the note 'Loan repayment'. Make it visible to others.",
+        "filled_param": {
+          "amount": 500.0,
+          "receiver": "friend123",
+          "private_visibility": false,
+          "currency": "CAD",
+          "note": "Loan repayment"
+        }
+      },
+      {
+        "query": "Transfer 1200 AUD to 9876543210 using mastercard credit card with a note 'For the project', and ensure privacy.",
+        "filled_param": {
+          "amount": 1200.0,
+          "receiver": "9876543210",
+          "private_visibility": true,
+          "currency": "AUD",
+          "note": "For the project"
+        }
+      },
+      {
+        "query": "Pay 3000 JPY to email@server.jp via mastercard credit card. The note should read 'Conference fees', and let it be public.",
+        "filled_param": {
+          "amount": 3000.0,
+          "receiver": "email@server.jp",
+          "private_visibility": false,
+          "currency": "JPY",
+          "note": "Conference fees"
+        }
+      }
+    ]
+  },
+  "Payment_1_MakePayment|:|visa debit card|:|amount,receiver,private_visibility,currency,note": {
+    "tool_template_name": "Payment_1_MakePayment",
+    "derived_class": "visa debit card",
+    "params_for_query": [
+      "amount",
+      "receiver",
+      "private_visibility",
+      "currency",
+      "note"
+    ],
+    "queries": [
+      {
+        "query": "Send $150 to john.doe@example.com using my visa debit card with a note saying 'Dinner on me'. Make sure this transaction is private in USD.",
+        "filled_param": {
+          "amount": 150.0,
+          "receiver": "john.doe@example.com",
+          "private_visibility": true,
+          "currency": "USD",
+          "note": "Dinner on me"
+        }
+      },
+      {
+        "query": "Please transfer 200 EUR to the username 'jane123' via visa debit card. Include a note 'Happy Birthday!' and keep it public.",
+        "filled_param": {
+          "amount": 200.0,
+          "receiver": "jane123",
+          "private_visibility": false,
+          "currency": "EUR",
+          "note": "Happy Birthday!"
+        }
+      },
+      {
+        "query": "I need to send 3000 JPY to +819012345678 with my visa debit card, marked as private, with the message 'Rent for April'.",
+        "filled_param": {
+          "amount": 3000.0,
+          "receiver": "+819012345678",
+          "private_visibility": true,
+          "currency": "JPY",
+          "note": "Rent for April"
+        }
+      },
+      {
+        "query": "Transfer 50 CAD to the account 'friend@example.ca' using my visa debit card, and make the transaction public with the note 'Thank you for your help'.",
+        "filled_param": {
+          "amount": 50.0,
+          "receiver": "friend@example.ca",
+          "private_visibility": false,
+          "currency": "CAD",
+          "note": "Thank you for your help"
+        }
+      },
+      {
+        "query": "Can you send 75 GBP to the contact 'alice.b@example.co.uk' as a visa debit card payment? The transaction should be private and include the note 'Lunch money'.",
+        "filled_param": {
+          "amount": 75.0,
+          "receiver": "alice.b@example.co.uk",
+          "private_visibility": true,
+          "currency": "GBP",
+          "note": "Lunch money"
+        }
+      },
+      {
+        "query": "Initiate a payment of 1200 INR to the email id 'customer@service.in' using my visa debit card with a note 'Service Charge'. This should be visible to everyone.",
+        "filled_param": {
+          "amount": 1200.0,
+          "receiver": "customer@service.in",
+          "private_visibility": false,
+          "currency": "INR",
+          "note": "Service Charge"
+        }
+      },
+      {
+        "query": "I want to make a private payment of 500 AUD to 'friend.phn@contact.com' via visa debit card. Add the note 'Conference fee' to the transaction.",
+        "filled_param": {
+          "amount": 500.0,
+          "receiver": "friend.phn@contact.com",
+          "private_visibility": true,
+          "currency": "AUD",
+          "note": "Conference fee"
+        }
+      }
+    ]
+  },
+  "Payment_1_MakePayment|:|mastercard debit card|:|amount,receiver,private_visibility,currency,note": {
+    "tool_template_name": "Payment_1_MakePayment",
+    "derived_class": "mastercard debit card",
+    "params_for_query": [
+      "amount",
+      "receiver",
+      "private_visibility",
+      "currency",
+      "note"
+    ],
+    "queries": [
+      {
+        "query": "Please send $50 to john.doe@example.com using mastercard debit card and make sure it's private. Use USD as the currency and add a note saying 'Thanks for dinner!'",
+        "filled_param": {
+          "amount": 50.0,
+          "receiver": "john.doe@example.com",
+          "private_visibility": true,
+          "currency": "USD",
+          "note": "Thanks for dinner!"
+        }
+      },
+      {
+        "query": "Transfer 75 EUR to +491234567890 via mastercard debit card. Keep it visible and include the note 'Happy Birthday!'",
+        "filled_param": {
+          "amount": 75.0,
+          "receiver": "+491234567890",
+          "private_visibility": false,
+          "currency": "EUR",
+          "note": "Happy Birthday!"
+        }
+      },
+      {
+        "query": "I want to pay 120 GBP to friend@example.co.uk with mastercard debit card. Make this transaction private and add 'For the concert tickets' as a note.",
+        "filled_param": {
+          "amount": 120.0,
+          "receiver": "friend@example.co.uk",
+          "private_visibility": true,
+          "currency": "GBP",
+          "note": "For the concert tickets"
+        }
+      },
+      {
+        "query": "Send 200 AUD to 9876543210 using mastercard debit card, publicly visible, with the note 'Payment for project'.",
+        "filled_param": {
+          "amount": 200.0,
+          "receiver": "9876543210",
+          "private_visibility": false,
+          "currency": "AUD",
+          "note": "Payment for project"
+        }
+      },
+      {
+        "query": "Could you initiate a mastercard debit card payment of 300 CAD to alice.smith@domain.com, keeping it private, with a note saying 'Loan repayment'.",
+        "filled_param": {
+          "amount": 300.0,
+          "receiver": "alice.smith@domain.com",
+          "private_visibility": true,
+          "currency": "CAD",
+          "note": "Loan repayment"
+        }
+      },
+      {
+        "query": "Make a payment of 45 USD to contact@example.com with mastercard debit card. It should be visible to everyone. Include the note 'Lunch expense'.",
+        "filled_param": {
+          "amount": 45.0,
+          "receiver": "contact@example.com",
+          "private_visibility": false,
+          "currency": "USD",
+          "note": "Lunch expense"
+        }
+      },
+      {
+        "query": "I need to send 1500 JPY to 555667788 via mastercard debit card, ensuring the transaction is private. Add 'Charity donation' as a note.",
+        "filled_param": {
+          "amount": 1500.0,
+          "receiver": "555667788",
+          "private_visibility": true,
+          "currency": "JPY",
+          "note": "Charity donation"
+        }
+      }
+    ]
+  },
+  "Payment_1_MakePayment|:|american express card|:|amount,receiver,private_visibility,currency,note": {
+    "tool_template_name": "Payment_1_MakePayment",
+    "derived_class": "american express card",
+    "params_for_query": [
+      "amount",
+      "receiver",
+      "private_visibility",
+      "currency",
+      "note"
+    ],
+    "queries": [
+      {
+        "query": "Send $150 to john.doe@example.com through an american express card, keep it private and use USD. Add a note saying 'Thanks for the dinner!'",
+        "filled_param": {
+          "amount": 150.0,
+          "receiver": "john.doe@example.com",
+          "private_visibility": true,
+          "currency": "USD",
+          "note": "Thanks for the dinner!"
+        }
+      },
+      {
+        "query": "I'd like to transfer 200 euros to +1234567890 using my american express card, make it visible to my network with a note saying 'Happy Birthday!'",
+        "filled_param": {
+          "amount": 200.0,
+          "receiver": "+1234567890",
+          "private_visibility": false,
+          "currency": "EUR",
+          "note": "Happy Birthday!"
+        }
+      },
+      {
+        "query": "Could you initiate a 500 GBP american express card payment to jane.smith@company.com, make the transaction private, and include a note that says 'Business Services Payment'?",
+        "filled_param": {
+          "amount": 500.0,
+          "receiver": "jane.smith@company.com",
+          "private_visibility": true,
+          "currency": "GBP",
+          "note": "Business Services Payment"
+        }
+      },
+      {
+        "query": "Please send 75 CAD via american express card to friend123 with public visibility and attach the message 'For the tickets'.",
+        "filled_param": {
+          "amount": 75.0,
+          "receiver": "friend123",
+          "private_visibility": false,
+          "currency": "CAD",
+          "note": "For the tickets"
+        }
+      },
+      {
+        "query": "I need to pay 30 AUD to sam@example.com through my american express card, keep it hidden, and add 'Coffee meetup' as a note.",
+        "filled_param": {
+          "amount": 30.0,
+          "receiver": "sam@example.com",
+          "private_visibility": true,
+          "currency": "AUD",
+          "note": "Coffee meetup"
+        }
+      },
+      {
+        "query": "Transfer 1000 JPY to +819012345678 using an american express card, let the transaction be visible, and include 'Conference Fee' in the note.",
+        "filled_param": {
+          "amount": 1000.0,
+          "receiver": "+819012345678",
+          "private_visibility": false,
+          "currency": "JPY",
+          "note": "Conference Fee"
+        }
+      },
+      {
+        "query": "Can you make a $250 american express card payment to my_contact@mail.com, ensure it's private, and add 'Vacation expenses' in the note?",
+        "filled_param": {
+          "amount": 250.0,
+          "receiver": "my_contact@mail.com",
+          "private_visibility": true,
+          "currency": "USD",
+          "note": "Vacation expenses"
+        }
+      }
+    ]
+  },
+  "Payment_1_MakePayment|:|unionpay credit card|:|amount,receiver,private_visibility,currency,note": {
+    "tool_template_name": "Payment_1_MakePayment",
+    "derived_class": "unionpay credit card",
+    "params_for_query": [
+      "amount",
+      "receiver",
+      "private_visibility",
+      "currency",
+      "note"
+    ],
+    "queries": [
+      {
+        "query": "Please send $150 to john.doe@example.com using unionpay credit card. Make sure the transaction is private and in USD with the note 'Happy Birthday!'",
+        "filled_param": {
+          "amount": 150.0,
+          "receiver": "john.doe@example.com",
+          "private_visibility": true,
+          "currency": "USD",
+          "note": "Happy Birthday!"
+        }
+      },
+      {
+        "query": "Transfer 200 euros to +1234567890 via unionpay credit card. The transaction should be public, and include the note 'Loan repayment'.",
+        "filled_param": {
+          "amount": 200.0,
+          "receiver": "+1234567890",
+          "private_visibility": false,
+          "currency": "EUR",
+          "note": "Loan repayment"
+        }
+      },
+      {
+        "query": "I need to send 1000 CNY to alice.smith@paymail.com using unionpay credit card. This payment should be hidden and include the message 'Congrats on your promotion'.",
+        "filled_param": {
+          "amount": 1000.0,
+          "receiver": "alice.smith@paymail.com",
+          "private_visibility": true,
+          "currency": "CNY",
+          "note": "Congrats on your promotion"
+        }
+      },
+      {
+        "query": "Send 75 GBP to user123 via unionpay credit card. Keep it public and add 'Dinner expenses' as the note.",
+        "filled_param": {
+          "amount": 75.0,
+          "receiver": "user123",
+          "private_visibility": false,
+          "currency": "GBP",
+          "note": "Dinner expenses"
+        }
+      },
+      {
+        "query": "Initiate a transfer of 250 AUD to bob@example.com using unionpay credit card, ensuring the transaction is private. Include the note 'House rent'.",
+        "filled_param": {
+          "amount": 250.0,
+          "receiver": "bob@example.com",
+          "private_visibility": true,
+          "currency": "AUD",
+          "note": "House rent"
+        }
+      },
+      {
+        "query": "Make a payment of 5000 JPY to +987654321 using unionpay credit card, keeping it private. Note it as 'Travel expenses'.",
+        "filled_param": {
+          "amount": 5000.0,
+          "receiver": "+987654321",
+          "private_visibility": true,
+          "currency": "JPY",
+          "note": "Travel expenses"
+        }
+      }
+    ]
+  },
+  "Payment_1_MakePayment|:|unionpay debit card|:|amount,receiver,private_visibility,currency,note": {
+    "tool_template_name": "Payment_1_MakePayment",
+    "derived_class": "unionpay debit card",
+    "params_for_query": [
+      "amount",
+      "receiver",
+      "private_visibility",
+      "currency",
+      "note"
+    ],
+    "queries": [
+      {
+        "query": "Please send 150.75 USD to john.doe@example.com using my unionpay debit card. Make sure the transaction remains private and add a note saying 'Dinner last week'.",
+        "filled_param": {
+          "amount": 150.75,
+          "receiver": "john.doe@example.com",
+          "private_visibility": true,
+          "currency": "USD",
+          "note": "Dinner last week"
+        }
+      },
+      {
+        "query": "Transfer 300 EUR to +49123456789 through my unionpay debit card. Keep the transaction public and include the note 'Concert tickets'.",
+        "filled_param": {
+          "amount": 300,
+          "receiver": "+49123456789",
+          "private_visibility": false,
+          "currency": "EUR",
+          "note": "Concert tickets"
+        }
+      },
+      {
+        "query": "Use my unionpay debit card to send 500 CAD to alice@payments.com. The transaction should be private and say 'Happy Birthday!'.",
+        "filled_param": {
+          "amount": 500,
+          "receiver": "alice@payments.com",
+          "private_visibility": true,
+          "currency": "CAD",
+          "note": "Happy Birthday!"
+        }
+      },
+      {
+        "query": "I'd like to pay 75 GBP to 9876543210 using my unionpay debit card. Make this transaction public and add 'Lunch this weekend' as the note.",
+        "filled_param": {
+          "amount": 75,
+          "receiver": "9876543210",
+          "private_visibility": false,
+          "currency": "GBP",
+          "note": "Lunch this weekend"
+        }
+      },
+      {
+        "query": "Send 200 JPY to david.smith@contacts.com, using the unionpay debit card payment method. Keep it private and mention 'Movie night snacks'.",
+        "filled_param": {
+          "amount": 200,
+          "receiver": "david.smith@contacts.com",
+          "private_visibility": true,
+          "currency": "JPY",
+          "note": "Movie night snacks"
+        }
+      },
+      {
+        "query": "Could you transfer 1200 INR to +919876543210 via my unionpay debit card? Make the transaction visible to the public and add a note about 'Travel expenses'.",
+        "filled_param": {
+          "amount": 1200,
+          "receiver": "+919876543210",
+          "private_visibility": false,
+          "currency": "INR",
+          "note": "Travel expenses"
+        }
+      }
+    ]
+  },
+  "Payment_1_MakePayment|:|discover card|:|amount,receiver,private_visibility,currency,note": {
+    "tool_template_name": "Payment_1_MakePayment",
+    "derived_class": "discover card",
+    "params_for_query": [
+      "amount",
+      "receiver",
+      "private_visibility",
+      "currency",
+      "note"
+    ],
+    "queries": [
+      {
+        "query": "I'd like to send $75.50 to john.doe@example.com using my discover card. Keep it private and use USD. The note should say 'For concert tickets'.",
+        "filled_param": {
+          "amount": 75.5,
+          "receiver": "john.doe@example.com",
+          "private_visibility": true,
+          "currency": "USD",
+          "note": "For concert tickets"
+        }
+      },
+      {
+        "query": "Transfer 150 EUR to +49123456789 with my discover card, make it public. Add a note: 'Happy Birthday!'.",
+        "filled_param": {
+          "amount": 150,
+          "receiver": "+49123456789",
+          "private_visibility": false,
+          "currency": "EUR",
+          "note": "Happy Birthday!"
+        }
+      },
+      {
+        "query": "Please use my discover card to pay $200 to jane.smith@domain.com. Don't show the transaction publicly. The currency is USD and the note should read 'Rent for September'.",
+        "filled_param": {
+          "amount": 200,
+          "receiver": "jane.smith@domain.com",
+          "private_visibility": true,
+          "currency": "USD",
+          "note": "Rent for September"
+        }
+      },
+      {
+        "query": "Send 5000 JPY to friend123 using discover card, visible to all. Note: 'For the new project'.",
+        "filled_param": {
+          "amount": 5000,
+          "receiver": "friend123",
+          "private_visibility": false,
+          "currency": "JPY",
+          "note": "For the new project"
+        }
+      },
+      {
+        "query": "I want to make a private payment of 300 GBP to +447712345678 via discover card. Include the note 'Thanks for your help!'.",
+        "filled_param": {
+          "amount": 300,
+          "receiver": "+447712345678",
+          "private_visibility": true,
+          "currency": "GBP",
+          "note": "Thanks for your help!"
+        }
+      },
+      {
+        "query": "Can you initiate a transfer of 50 CAD to alice@example.com using my discover card, keep it public? The note should be 'Lunch reimbursement'.",
+        "filled_param": {
+          "amount": 50,
+          "receiver": "alice@example.com",
+          "private_visibility": false,
+          "currency": "CAD",
+          "note": "Lunch reimbursement"
+        }
+      },
+      {
+        "query": "I'd like to pay $1000 to contact12345 using my discover card, in USD, and don't show it on public feeds. The note is 'For the furniture'.",
+        "filled_param": {
+          "amount": 1000,
+          "receiver": "contact12345",
+          "private_visibility": true,
+          "currency": "USD",
+          "note": "For the furniture"
+        }
+      }
+    ]
+  }
+}

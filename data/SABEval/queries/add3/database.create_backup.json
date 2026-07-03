@@ -1,0 +1,573 @@
+{
+  "database.create_backup|:|postgresql database|:|db_name,backup_location,timestamp,compression,encryption": {
+    "tool_template_name": "database.create_backup",
+    "derived_class": "postgresql database",
+    "params_for_query": [
+      "db_name",
+      "backup_location",
+      "timestamp",
+      "compression",
+      "encryption"
+    ],
+    "queries": [
+      {
+        "query": "Could you make a backup of the postgresql database named 'sales_data' and store it at '/backups/sales_data/' with a timestamp, compression, and encryption?",
+        "filled_param": {
+          "db_name": "sales_data",
+          "backup_location": "/backups/sales_data/",
+          "timestamp": true,
+          "compression": true,
+          "encryption": true
+        }
+      },
+      {
+        "query": "I need to create a backup for the postgresql database 'inventory' at '/mnt/storage/inventory', without appending a timestamp, but with compression and encryption enabled.",
+        "filled_param": {
+          "db_name": "inventory",
+          "backup_location": "/mnt/storage/inventory",
+          "timestamp": false,
+          "compression": true,
+          "encryption": true
+        }
+      },
+      {
+        "query": "Please backup the postgresql database 'user_profiles' to '/data/backups/user_profiles' with a timestamp but no compression or encryption.",
+        "filled_param": {
+          "db_name": "user_profiles",
+          "backup_location": "/data/backups/user_profiles",
+          "timestamp": true,
+          "compression": false,
+          "encryption": false
+        }
+      },
+      {
+        "query": "Backup the postgresql database 'financial_records' to the location '/backups/financials' with compression and encryption, but do not include a timestamp in the file name.",
+        "filled_param": {
+          "db_name": "financial_records",
+          "backup_location": "/backups/financials",
+          "timestamp": false,
+          "compression": true,
+          "encryption": true
+        }
+      },
+      {
+        "query": "Create a backup of the postgresql database 'customer_data' at '/var/backups/customer_data', including a timestamp, but with neither compression nor encryption applied.",
+        "filled_param": {
+          "db_name": "customer_data",
+          "backup_location": "/var/backups/customer_data",
+          "timestamp": true,
+          "compression": false,
+          "encryption": false
+        }
+      },
+      {
+        "query": "Generate a backup for 'project_metrics' postgresql database at '/backup/project_metrics', ensuring the backup is compressed and timestamped, but without encryption.",
+        "filled_param": {
+          "db_name": "project_metrics",
+          "backup_location": "/backup/project_metrics",
+          "timestamp": true,
+          "compression": true,
+          "encryption": false
+        }
+      },
+      {
+        "query": "I want a backup of the postgresql database 'orders_db' at '/mnt/backup/orders', with only encryption enabled, no timestamp or compression needed.",
+        "filled_param": {
+          "db_name": "orders_db",
+          "backup_location": "/mnt/backup/orders",
+          "timestamp": false,
+          "compression": false,
+          "encryption": true
+        }
+      }
+    ]
+  },
+  "database.create_backup|:|mongodb database|:|db_name,backup_location,timestamp,compression,encryption": {
+    "tool_template_name": "database.create_backup",
+    "derived_class": "mongodb database",
+    "params_for_query": [
+      "db_name",
+      "backup_location",
+      "timestamp",
+      "compression",
+      "encryption"
+    ],
+    "queries": [
+      {
+        "query": "Create a backup for the mongodb database named 'inventory_db' and store it at '/backups/inventory'. Please include a timestamp, compress it, and ensure the backup is encrypted.",
+        "filled_param": {
+          "db_name": "inventory_db",
+          "backup_location": "/backups/inventory",
+          "timestamp": true,
+          "compression": true,
+          "encryption": true
+        }
+      },
+      {
+        "query": "I need a backup for the mongodb database 'user_data' saved at '/archives/user_data_backup'. Do not append a timestamp, but the backup should be compressed and encrypted.",
+        "filled_param": {
+          "db_name": "user_data",
+          "backup_location": "/archives/user_data_backup",
+          "timestamp": false,
+          "compression": true,
+          "encryption": true
+        }
+      },
+      {
+        "query": "Backup the mongodb database 'sales_records' to '/data/backups/sales'. Make sure to add a timestamp, without compression, but with encryption.",
+        "filled_param": {
+          "db_name": "sales_records",
+          "backup_location": "/data/backups/sales",
+          "timestamp": true,
+          "compression": false,
+          "encryption": true
+        }
+      },
+      {
+        "query": "Could you back up the mongodb database 'project_docs' into '/backup_dir/projects' without a timestamp or encryption, but compress it?",
+        "filled_param": {
+          "db_name": "project_docs",
+          "backup_location": "/backup_dir/projects",
+          "timestamp": false,
+          "compression": true,
+          "encryption": false
+        }
+      },
+      {
+        "query": "Please perform a backup on the mongodb database 'client_info' with storage at '/clients/backups'. The backup should include a timestamp and be encrypted, but no need for compression.",
+        "filled_param": {
+          "db_name": "client_info",
+          "backup_location": "/clients/backups",
+          "timestamp": true,
+          "compression": false,
+          "encryption": true
+        }
+      },
+      {
+        "query": "Generate a backup for the mongodb database 'analytics_data' to '/secure_backups/analytics'. Use a timestamp, and enable both compression and encryption.",
+        "filled_param": {
+          "db_name": "analytics_data",
+          "backup_location": "/secure_backups/analytics",
+          "timestamp": true,
+          "compression": true,
+          "encryption": true
+        }
+      },
+      {
+        "query": "I need a backup of the mongodb database 'logs' stored at '/path/to/logs_backup' with no timestamp or encryption, but with compression.",
+        "filled_param": {
+          "db_name": "logs",
+          "backup_location": "/path/to/logs_backup",
+          "timestamp": false,
+          "compression": true,
+          "encryption": false
+        }
+      }
+    ]
+  },
+  "database.create_backup|:|redis database|:|db_name,backup_location,timestamp,compression,encryption": {
+    "tool_template_name": "database.create_backup",
+    "derived_class": "redis database",
+    "params_for_query": [
+      "db_name",
+      "backup_location",
+      "timestamp",
+      "compression",
+      "encryption"
+    ],
+    "queries": [
+      {
+        "query": "Please create a backup of the redis database named 'user_sessions' and store it at '/backups/db/' with a timestamp, compression, and encryption enabled.",
+        "filled_param": {
+          "db_name": "user_sessions",
+          "backup_location": "/backups/db/",
+          "timestamp": true,
+          "compression": true,
+          "encryption": true
+        }
+      },
+      {
+        "query": "I need a backup for the redis database called 'inventory_data' saved in '/data/backups/' without a timestamp, but make sure to compress and encrypt it.",
+        "filled_param": {
+          "db_name": "inventory_data",
+          "backup_location": "/data/backups/",
+          "timestamp": false,
+          "compression": true,
+          "encryption": true
+        }
+      },
+      {
+        "query": "Can you back up the redis database 'cache_store' to '/var/db_backups/'? Use a timestamp and enable compression, but skip encryption.",
+        "filled_param": {
+          "db_name": "cache_store",
+          "backup_location": "/var/db_backups/",
+          "timestamp": true,
+          "compression": true,
+          "encryption": false
+        }
+      },
+      {
+        "query": "Create a backup for the redis database 'analytics' and store it at '/backup/files' with no timestamp, encryption, or compression.",
+        "filled_param": {
+          "db_name": "analytics",
+          "backup_location": "/backup/files",
+          "timestamp": false,
+          "compression": false,
+          "encryption": false
+        }
+      },
+      {
+        "query": "Backup the 'payment_records' redis database to '/secure_backup/' including a timestamp and encryption, but do not compress it.",
+        "filled_param": {
+          "db_name": "payment_records",
+          "backup_location": "/secure_backup/",
+          "timestamp": true,
+          "compression": false,
+          "encryption": true
+        }
+      },
+      {
+        "query": "I want you to back up the redis database 'log_entries' and save it in '/system/backups/', including a timestamp and compressing it, but without encryption.",
+        "filled_param": {
+          "db_name": "log_entries",
+          "backup_location": "/system/backups/",
+          "timestamp": true,
+          "compression": true,
+          "encryption": false
+        }
+      },
+      {
+        "query": "Could you back up the 'session_data' redis database to the path '/db/backup/location' with encryption and a timestamp, but without compression?",
+        "filled_param": {
+          "db_name": "session_data",
+          "backup_location": "/db/backup/location",
+          "timestamp": true,
+          "compression": false,
+          "encryption": true
+        }
+      }
+    ]
+  },
+  "database.create_backup|:|sqlite database|:|db_name,backup_location,timestamp,compression,encryption": {
+    "tool_template_name": "database.create_backup",
+    "derived_class": "sqlite database",
+    "params_for_query": [
+      "db_name",
+      "backup_location",
+      "timestamp",
+      "compression",
+      "encryption"
+    ],
+    "queries": [
+      {
+        "query": "Please create a backup of the sqlite database called 'user_data' and save it to '/backups/user_data_backup'. Include a timestamp and make sure the file is compressed and encrypted.",
+        "filled_param": {
+          "db_name": "user_data",
+          "backup_location": "/backups/user_data_backup",
+          "timestamp": true,
+          "compression": true,
+          "encryption": true
+        }
+      },
+      {
+        "query": "I need a backup for the sqlite database 'inventory_db' stored at '/data_backups/inventory'. Do not append a timestamp, but compress and encrypt the file.",
+        "filled_param": {
+          "db_name": "inventory_db",
+          "backup_location": "/data_backups/inventory",
+          "timestamp": false,
+          "compression": true,
+          "encryption": true
+        }
+      },
+      {
+        "query": "Can you back up the sqlite database 'sales_records' to '/backup/sales' without compression or encryption, but with a timestamp?",
+        "filled_param": {
+          "db_name": "sales_records",
+          "backup_location": "/backup/sales",
+          "timestamp": true,
+          "compression": false,
+          "encryption": false
+        }
+      },
+      {
+        "query": "Create a backup of the sqlite database 'customer_info' at '/archives/customer'. Don't include a timestamp, but ensure both compression and encryption are applied.",
+        "filled_param": {
+          "db_name": "customer_info",
+          "backup_location": "/archives/customer",
+          "timestamp": false,
+          "compression": true,
+          "encryption": true
+        }
+      },
+      {
+        "query": "Generate a backup for the sqlite database named 'products' and store it at '/storage/products_backup'. The file should be timestamped and encrypted, but no compression is needed.",
+        "filled_param": {
+          "db_name": "products",
+          "backup_location": "/storage/products_backup",
+          "timestamp": true,
+          "compression": false,
+          "encryption": true
+        }
+      },
+      {
+        "query": "Back up the sqlite database 'employee_records' to '/backup/employee_files', with compression and timestamp, but don't encrypt the backup file.",
+        "filled_param": {
+          "db_name": "employee_records",
+          "backup_location": "/backup/employee_files",
+          "timestamp": true,
+          "compression": true,
+          "encryption": false
+        }
+      },
+      {
+        "query": "I need a backup for the sqlite database 'financials' at '/backups/financials_backup'. Skip timestamp and compression, but make sure the backup is encrypted.",
+        "filled_param": {
+          "db_name": "financials",
+          "backup_location": "/backups/financials_backup",
+          "timestamp": false,
+          "compression": false,
+          "encryption": true
+        }
+      }
+    ]
+  },
+  "database.create_backup|:|sql server database|:|db_name,backup_location,timestamp,compression,encryption": {
+    "tool_template_name": "database.create_backup",
+    "derived_class": "sql server database",
+    "params_for_query": [
+      "db_name",
+      "backup_location",
+      "timestamp",
+      "compression",
+      "encryption"
+    ],
+    "queries": [
+      {
+        "query": "Can you create a backup for the sql server database named 'SalesDB' and store it at 'C:/backups/sales' with a timestamp, without compression, but with encryption?",
+        "filled_param": {
+          "db_name": "SalesDB",
+          "backup_location": "C:/backups/sales",
+          "timestamp": true,
+          "compression": false,
+          "encryption": true
+        }
+      },
+      {
+        "query": "I need a backup of the sql server database called 'EmployeeRecords'. Store it at '/var/backups/records' with compression and no encryption, and please add a timestamp.",
+        "filled_param": {
+          "db_name": "EmployeeRecords",
+          "backup_location": "/var/backups/records",
+          "timestamp": true,
+          "compression": true,
+          "encryption": false
+        }
+      },
+      {
+        "query": "Backup the sql server database 'InventoryDB', save it to '/backups/inventory' without a timestamp, include compression, and ensure encryption is off.",
+        "filled_param": {
+          "db_name": "InventoryDB",
+          "backup_location": "/backups/inventory",
+          "timestamp": false,
+          "compression": true,
+          "encryption": false
+        }
+      },
+      {
+        "query": "Please make a backup of the 'FinanceData' sql server database. It should be saved at 'D:/backups/finance', include a timestamp, and utilize both compression and encryption.",
+        "filled_param": {
+          "db_name": "FinanceData",
+          "backup_location": "D:/backups/finance",
+          "timestamp": true,
+          "compression": true,
+          "encryption": true
+        }
+      },
+      {
+        "query": "Can you back up the sql server database 'CustomerInfo' and place it in 'E:/backups/customer' with encryption and compression, but no timestamp?",
+        "filled_param": {
+          "db_name": "CustomerInfo",
+          "backup_location": "E:/backups/customer",
+          "timestamp": false,
+          "compression": true,
+          "encryption": true
+        }
+      },
+      {
+        "query": "Create a backup for the sql server database 'ProjectData' to '/data/backups/project', with no compression or encryption, and append a timestamp.",
+        "filled_param": {
+          "db_name": "ProjectData",
+          "backup_location": "/data/backups/project",
+          "timestamp": true,
+          "compression": false,
+          "encryption": false
+        }
+      },
+      {
+        "query": "I need a backup for the sql server database 'HRRecords' at 'F:/backup/hr', without timestamp, compression, or encryption.",
+        "filled_param": {
+          "db_name": "HRRecords",
+          "backup_location": "F:/backup/hr",
+          "timestamp": false,
+          "compression": false,
+          "encryption": false
+        }
+      }
+    ]
+  },
+  "database.create_backup|:|oracle database|:|db_name,backup_location,timestamp,compression,encryption": {
+    "tool_template_name": "database.create_backup",
+    "derived_class": "oracle database",
+    "params_for_query": [
+      "db_name",
+      "backup_location",
+      "timestamp",
+      "compression",
+      "encryption"
+    ],
+    "queries": [
+      {
+        "query": "Create a backup of the oracle database named 'FinanceDB' at '/backups/finance' with a timestamp, compression, and encryption enabled.",
+        "filled_param": {
+          "db_name": "FinanceDB",
+          "backup_location": "/backups/finance",
+          "timestamp": true,
+          "compression": true,
+          "encryption": true
+        }
+      },
+      {
+        "query": "Can you back up the oracle database 'InventoryDB' to '/mnt/backups/inventory' without a timestamp, but with compression and encryption?",
+        "filled_param": {
+          "db_name": "InventoryDB",
+          "backup_location": "/mnt/backups/inventory",
+          "timestamp": false,
+          "compression": true,
+          "encryption": true
+        }
+      },
+      {
+        "query": "I need a backup of the oracle database 'HRDB' stored at '/data/backups/hr' with both a timestamp and encryption, but no compression.",
+        "filled_param": {
+          "db_name": "HRDB",
+          "backup_location": "/data/backups/hr",
+          "timestamp": true,
+          "compression": false,
+          "encryption": true
+        }
+      },
+      {
+        "query": "Please create a backup for the oracle database called 'SalesDB' at '/backups/sales' with timestamp, no compression, and no encryption.",
+        "filled_param": {
+          "db_name": "SalesDB",
+          "backup_location": "/backups/sales",
+          "timestamp": true,
+          "compression": false,
+          "encryption": false
+        }
+      },
+      {
+        "query": "Backup the oracle database 'CustomerDB' to '/secure_backups/customers' with compression and timestamp, but without encryption.",
+        "filled_param": {
+          "db_name": "CustomerDB",
+          "backup_location": "/secure_backups/customers",
+          "timestamp": true,
+          "compression": true,
+          "encryption": false
+        }
+      },
+      {
+        "query": "Initiate a backup for the oracle database 'LogisticsDB' at '/backup/logistics' with no timestamp, compression, or encryption.",
+        "filled_param": {
+          "db_name": "LogisticsDB",
+          "backup_location": "/backup/logistics",
+          "timestamp": false,
+          "compression": false,
+          "encryption": false
+        }
+      },
+      {
+        "query": "Can you generate a backup for the oracle database named 'ResearchDB' in '/backups/research' with no timestamp, but ensure both compression and encryption?",
+        "filled_param": {
+          "db_name": "ResearchDB",
+          "backup_location": "/backups/research",
+          "timestamp": false,
+          "compression": true,
+          "encryption": true
+        }
+      }
+    ]
+  },
+  "database.create_backup|:|mariadb database|:|db_name,backup_location,timestamp,compression,encryption": {
+    "tool_template_name": "database.create_backup",
+    "derived_class": "mariadb database",
+    "params_for_query": [
+      "db_name",
+      "backup_location",
+      "timestamp",
+      "compression",
+      "encryption"
+    ],
+    "queries": [
+      {
+        "query": "Please create a backup of the mariadb database named 'customer_data' and store it at '/backups/customers/'. Add a timestamp to the file name and ensure the backup is compressed and encrypted.",
+        "filled_param": {
+          "db_name": "customer_data",
+          "backup_location": "/backups/customers/",
+          "timestamp": true,
+          "compression": true,
+          "encryption": true
+        }
+      },
+      {
+        "query": "I need a backup for the mariadb database 'sales_records'. Store it at '/backups/sales/' without a timestamp, but make sure to compress and encrypt it.",
+        "filled_param": {
+          "db_name": "sales_records",
+          "backup_location": "/backups/sales/",
+          "timestamp": false,
+          "compression": true,
+          "encryption": true
+        }
+      },
+      {
+        "query": "Can you back up the mariadb database called 'inventory'. Use '/backups/inventory/' as the location, include a timestamp, compress the file, but do not encrypt it.",
+        "filled_param": {
+          "db_name": "inventory",
+          "backup_location": "/backups/inventory/",
+          "timestamp": true,
+          "compression": true,
+          "encryption": false
+        }
+      },
+      {
+        "query": "Create a backup of the mariadb database 'employee_db', save it at '/backups/employees/', do not add a timestamp, do not compress, and ensure encryption.",
+        "filled_param": {
+          "db_name": "employee_db",
+          "backup_location": "/backups/employees/",
+          "timestamp": false,
+          "compression": false,
+          "encryption": true
+        }
+      },
+      {
+        "query": "Back up the mariadb database 'finance_reports'. Store the backup at '/backups/finance/' with a timestamp, no compression, but encrypt the file.",
+        "filled_param": {
+          "db_name": "finance_reports",
+          "backup_location": "/backups/finance/",
+          "timestamp": true,
+          "compression": false,
+          "encryption": true
+        }
+      },
+      {
+        "query": "I want a backup of the mariadb database 'project_management'. Save it to '/backups/projects/' with a timestamp, compress, and do not encrypt the backup.",
+        "filled_param": {
+          "db_name": "project_management",
+          "backup_location": "/backups/projects/",
+          "timestamp": true,
+          "compression": true,
+          "encryption": false
+        }
+      }
+    ]
+  }
+}

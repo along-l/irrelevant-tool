@@ -1,0 +1,53 @@
+{
+  "tool_template_name": "maps.shortest_path",
+  "meta_data": {
+    "base_class": "find the shortest route between two locations based on a specific <travel mode> - different modes share the same start and end inputs but differ in transportation method.",
+    "derived_classes": [
+      "walk",
+      "bike",
+      "drive",
+      "transit"
+    ],
+    "base_class_entity": "mode"
+  },
+  "tool_template": {
+    "name": "find_shortest_<class>_path",
+    "description": "Find the shortest path from one location to another using <class> mode of transportation.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "start_location": {
+          "type": "string",
+          "description": "The name or coordinates of the start location for the <class> route."
+        },
+        "end_location": {
+          "type": "string",
+          "description": "The name or coordinates of the end location for the <class> route."
+        }
+      },
+      "required": [
+        "start_location",
+        "end_location"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "departure_time": {
+      "type": "string",
+      "description": "Specifies the departure time in 'HH:MM' format for the <class> path calculation."
+    },
+    "include_elevation_data": {
+      "type": "boolean",
+      "description": "If true, includes elevation and slope information for the <class> path."
+    },
+    "return_distance": {
+      "type": "boolean",
+      "description": "Indicates whether to include the total travel distance in the <class> path output."
+    },
+    "return_duration": {
+      "type": "boolean",
+      "description": "Indicates whether to include the estimated travel duration in the <class> path output."
+    }
+  }
+}

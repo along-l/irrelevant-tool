@@ -1,0 +1,389 @@
+{
+  "ScrumProjectManager_trackProgress|:|Waterfall|:|solutionID,date,progressMetric,teamID": {
+    "tool_template_name": "ScrumProjectManager_trackProgress",
+    "derived_class": "Waterfall",
+    "params_for_query": [
+      "solutionID",
+      "date",
+      "progressMetric",
+      "teamID"
+    ],
+    "queries": [
+      {
+        "query": "Provide the Waterfall progress update for solution ID SOL12345 as of 2023-08-15 using Story Points for team ID TEAM789.",
+        "filled_param": {
+          "solutionID": "SOL12345",
+          "date": "2023-08-15",
+          "progressMetric": "Story Points",
+          "teamID": "TEAM789"
+        }
+      },
+      {
+        "query": "How many tasks have been completed in the Waterfall project for solution ID SOL67890 by team ID TEAM456 on date 2023-07-10?",
+        "filled_param": {
+          "solutionID": "SOL67890",
+          "date": "2023-07-10",
+          "progressMetric": "Tasks Completed",
+          "teamID": "TEAM456"
+        }
+      },
+      {
+        "query": "Can you track the Waterfall project progress using the Hours Logged metric for solution ID SOL11223 for the team TEAM001 on 2023-09-01?",
+        "filled_param": {
+          "solutionID": "SOL11223",
+          "date": "2023-09-01",
+          "progressMetric": "Hours Logged",
+          "teamID": "TEAM001"
+        }
+      },
+      {
+        "query": "I need an update for solution ID SOL33445 in our Waterfall project from 2023-10-05, measured in Story Points for team ID TEAM999.",
+        "filled_param": {
+          "solutionID": "SOL33445",
+          "date": "2023-10-05",
+          "progressMetric": "Story Points",
+          "teamID": "TEAM999"
+        }
+      },
+      {
+        "query": "Check the Waterfall project progress for solution ID SOL55678 as of 2023-11-20 using the Tasks Completed metric for team ID TEAM202.",
+        "filled_param": {
+          "solutionID": "SOL55678",
+          "date": "2023-11-20",
+          "progressMetric": "Tasks Completed",
+          "teamID": "TEAM202"
+        }
+      },
+      {
+        "query": "What's the progress on solution ID SOL99887 for the Waterfall project on 2023-06-15 in terms of Hours Logged by team ID TEAM303?",
+        "filled_param": {
+          "solutionID": "SOL99887",
+          "date": "2023-06-15",
+          "progressMetric": "Hours Logged",
+          "teamID": "TEAM303"
+        }
+      }
+    ]
+  },
+  "ScrumProjectManager_trackProgress|:|Iterative|:|solutionID,date,progressMetric,teamID": {
+    "tool_template_name": "ScrumProjectManager_trackProgress",
+    "derived_class": "Iterative",
+    "params_for_query": [
+      "solutionID",
+      "date",
+      "progressMetric",
+      "teamID"
+    ],
+    "queries": [
+      {
+        "query": "Provide the progress update for the Iterative project with solution ID 'SOL123' as of 2023-09-15 using Story Points for team ID 'TEAM456'.",
+        "filled_param": {
+          "solutionID": "SOL123",
+          "date": "2023-09-15",
+          "progressMetric": "Story Points",
+          "teamID": "TEAM456"
+        }
+      },
+      {
+        "query": "Can you track the Iterative project progress for team ID 'TEAM789' on 2023-10-01 using Tasks Completed for solution ID 'SOL567'?",
+        "filled_param": {
+          "solutionID": "SOL567",
+          "date": "2023-10-01",
+          "progressMetric": "Tasks Completed",
+          "teamID": "TEAM789"
+        }
+      },
+      {
+        "query": "I need the Iterative project update for team 'TEAM234' on 2023-08-20, focusing on Hours Logged for solution 'SOL890'.",
+        "filled_param": {
+          "solutionID": "SOL890",
+          "date": "2023-08-20",
+          "progressMetric": "Hours Logged",
+          "teamID": "TEAM234"
+        }
+      },
+      {
+        "query": "What's the progress status of the Iterative project by team ID 'TEAM654' for solution 'SOL321' on 2023-09-30 using Story Points?",
+        "filled_param": {
+          "solutionID": "SOL321",
+          "date": "2023-09-30",
+          "progressMetric": "Story Points",
+          "teamID": "TEAM654"
+        }
+      },
+      {
+        "query": "Get the Iterative project progress details for team 'TEAM567' as of 2023-07-15, measured by Tasks Completed for solution 'SOL234'.",
+        "filled_param": {
+          "solutionID": "SOL234",
+          "date": "2023-07-15",
+          "progressMetric": "Tasks Completed",
+          "teamID": "TEAM567"
+        }
+      },
+      {
+        "query": "Report the progress of the Iterative project for solution ID 'SOL789' on 2023-06-10 using Hours Logged with team ID 'TEAM123'.",
+        "filled_param": {
+          "solutionID": "SOL789",
+          "date": "2023-06-10",
+          "progressMetric": "Hours Logged",
+          "teamID": "TEAM123"
+        }
+      }
+    ]
+  },
+  "ScrumProjectManager_trackProgress|:|Incremental|:|solutionID,date,progressMetric,teamID": {
+    "tool_template_name": "ScrumProjectManager_trackProgress",
+    "derived_class": "Incremental",
+    "params_for_query": [
+      "solutionID",
+      "date",
+      "progressMetric",
+      "teamID"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide an update on the Incremental project with solution ID SOL1234 for the team T5678 as of 2023-07-15, using Story Points as the progress metric?",
+        "filled_param": {
+          "solutionID": "SOL1234",
+          "date": "2023-07-15",
+          "progressMetric": "Story Points",
+          "teamID": "T5678"
+        }
+      },
+      {
+        "query": "What is the progress of the Incremental project for solution ID SOL9876 on 2023-08-20 using Tasks Completed for team T3456?",
+        "filled_param": {
+          "solutionID": "SOL9876",
+          "date": "2023-08-20",
+          "progressMetric": "Tasks Completed",
+          "teamID": "T3456"
+        }
+      },
+      {
+        "query": "Tell me about the status of the Incremental project with solution ID SOL4567 for team T1234 on 2023-09-01, focusing on Hours Logged.",
+        "filled_param": {
+          "solutionID": "SOL4567",
+          "date": "2023-09-01",
+          "progressMetric": "Hours Logged",
+          "teamID": "T1234"
+        }
+      },
+      {
+        "query": "I'd like an update on the Incremental project progress for solution ID SOL5432 on 2023-10-10 for team T6789, using Story Points.",
+        "filled_param": {
+          "solutionID": "SOL5432",
+          "date": "2023-10-10",
+          "progressMetric": "Story Points",
+          "teamID": "T6789"
+        }
+      },
+      {
+        "query": "Give me the Incremental project progress details for solution ID SOL2222 as of 2023-06-30 for team T1122, measuring by Tasks Completed.",
+        "filled_param": {
+          "solutionID": "SOL2222",
+          "date": "2023-06-30",
+          "progressMetric": "Tasks Completed",
+          "teamID": "T1122"
+        }
+      },
+      {
+        "query": "Requesting a progress report on the Incremental project with solution ID SOL6789 for the team T2345 as of 2023-05-25, with a focus on Hours Logged.",
+        "filled_param": {
+          "solutionID": "SOL6789",
+          "date": "2023-05-25",
+          "progressMetric": "Hours Logged",
+          "teamID": "T2345"
+        }
+      }
+    ]
+  },
+  "ScrumProjectManager_trackProgress|:|Prototyping|:|solutionID,date,progressMetric,teamID": {
+    "tool_template_name": "ScrumProjectManager_trackProgress",
+    "derived_class": "Prototyping",
+    "params_for_query": [
+      "solutionID",
+      "date",
+      "progressMetric",
+      "teamID"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide an update on the Prototyping project for solution ID 1234ABC on 2023-08-15 using Story Points for team ID TEAM123?",
+        "filled_param": {
+          "solutionID": "1234ABC",
+          "date": "2023-08-15",
+          "progressMetric": "Story Points",
+          "teamID": "TEAM123"
+        }
+      },
+      {
+        "query": "What's the progress of the Prototyping project for solution 5678DEF as of 2023-09-01, based on Tasks Completed for team ID TEAM456?",
+        "filled_param": {
+          "solutionID": "5678DEF",
+          "date": "2023-09-01",
+          "progressMetric": "Tasks Completed",
+          "teamID": "TEAM456"
+        }
+      },
+      {
+        "query": "I need a Prototyping project update for solution 9101GHI on 2023-07-20, using Hours Logged as the metric for team TEAM789.",
+        "filled_param": {
+          "solutionID": "9101GHI",
+          "date": "2023-07-20",
+          "progressMetric": "Hours Logged",
+          "teamID": "TEAM789"
+        }
+      },
+      {
+        "query": "Please track the progress of the Prototyping project for solution ID 2468JKL on 2023-10-05, focusing on Story Points for team ID TEAM012.",
+        "filled_param": {
+          "solutionID": "2468JKL",
+          "date": "2023-10-05",
+          "progressMetric": "Story Points",
+          "teamID": "TEAM012"
+        }
+      },
+      {
+        "query": "Could you update me on the Prototyping project's status for solution 1357MNO on 2023-11-10, with Tasks Completed for team TEAM345?",
+        "filled_param": {
+          "solutionID": "1357MNO",
+          "date": "2023-11-10",
+          "progressMetric": "Tasks Completed",
+          "teamID": "TEAM345"
+        }
+      },
+      {
+        "query": "Give me the Prototyping progress details for solution 8642PQR as of 2023-12-25, using Hours Logged for team TEAM678.",
+        "filled_param": {
+          "solutionID": "8642PQR",
+          "date": "2023-12-25",
+          "progressMetric": "Hours Logged",
+          "teamID": "TEAM678"
+        }
+      }
+    ]
+  },
+  "ScrumProjectManager_trackProgress|:|Spiral|:|solutionID,date,progressMetric,teamID": {
+    "tool_template_name": "ScrumProjectManager_trackProgress",
+    "derived_class": "Spiral",
+    "params_for_query": [
+      "solutionID",
+      "date",
+      "progressMetric",
+      "teamID"
+    ],
+    "queries": [
+      {
+        "query": "Can you give me the Spiral project update for solution ID 'SOL123' on 2023-09-15, focusing on Tasks Completed for team ID 'TEAM456'?",
+        "filled_param": {
+          "solutionID": "SOL123",
+          "date": "2023-09-15",
+          "progressMetric": "Tasks Completed",
+          "teamID": "TEAM456"
+        }
+      },
+      {
+        "query": "I need the Spiral project's progress details for solution 'ABC789' on 2023-08-01, using Story Points for team 'DEVT002'.",
+        "filled_param": {
+          "solutionID": "ABC789",
+          "date": "2023-08-01",
+          "progressMetric": "Story Points",
+          "teamID": "DEVT002"
+        }
+      },
+      {
+        "query": "Please provide the Spiral project progress for the technical solution 'XYZ456' for the date 2023-10-10, using the Hours Logged metric for team 'TEAM789'.",
+        "filled_param": {
+          "solutionID": "XYZ456",
+          "date": "2023-10-10",
+          "progressMetric": "Hours Logged",
+          "teamID": "TEAM789"
+        }
+      },
+      {
+        "query": "What's the progress update for the Spiral-based project with solution ID 'MNO321' on 2023-07-20, based on the Tasks Completed metric for team 'TEAM123'?",
+        "filled_param": {
+          "solutionID": "MNO321",
+          "date": "2023-07-20",
+          "progressMetric": "Tasks Completed",
+          "teamID": "TEAM123"
+        }
+      },
+      {
+        "query": "Requesting Spiral project status for 'PQR654' on 2023-06-30, focusing on Story Points for team ID 'ALPHA001'.",
+        "filled_param": {
+          "solutionID": "PQR654",
+          "date": "2023-06-30",
+          "progressMetric": "Story Points",
+          "teamID": "ALPHA001"
+        }
+      }
+    ]
+  },
+  "ScrumProjectManager_trackProgress|:|Kanban|:|solutionID,date,progressMetric,teamID": {
+    "tool_template_name": "ScrumProjectManager_trackProgress",
+    "derived_class": "Kanban",
+    "params_for_query": [
+      "solutionID",
+      "date",
+      "progressMetric",
+      "teamID"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide a Kanban project progress update for solution ID 12345 on 2023-09-15 using the Story Points metric for team ID alpha_team?",
+        "filled_param": {
+          "solutionID": "12345",
+          "date": "2023-09-15",
+          "progressMetric": "Story Points",
+          "teamID": "alpha_team"
+        }
+      },
+      {
+        "query": "I need the Kanban progress details for solution ID B6789 on the date 2023-10-01, focusing on the number of Tasks Completed by team ID beta_group.",
+        "filled_param": {
+          "solutionID": "B6789",
+          "date": "2023-10-01",
+          "progressMetric": "Tasks Completed",
+          "teamID": "beta_group"
+        }
+      },
+      {
+        "query": "What is the Kanban progress update for the project with solution ID XYZ321 on 2023-07-30? Please use Hours Logged as the metric and report for team ID gamma_unit.",
+        "filled_param": {
+          "solutionID": "XYZ321",
+          "date": "2023-07-30",
+          "progressMetric": "Hours Logged",
+          "teamID": "gamma_unit"
+        }
+      },
+      {
+        "query": "Track the Kanban progress for solution ID 987ZYX on the date 2023-08-20 using Story Points for team ID delta_team.",
+        "filled_param": {
+          "solutionID": "987ZYX",
+          "date": "2023-08-20",
+          "progressMetric": "Story Points",
+          "teamID": "delta_team"
+        }
+      },
+      {
+        "query": "Could you give me the Kanban project status for solution ID A1234 on 2023-11-05, focusing on Tasks Completed for team ID epsilon_group?",
+        "filled_param": {
+          "solutionID": "A1234",
+          "date": "2023-11-05",
+          "progressMetric": "Tasks Completed",
+          "teamID": "epsilon_group"
+        }
+      },
+      {
+        "query": "Please update me on the Kanban progress for solution ID LMN456 on 2023-06-10, using Hours Logged as the measurement for team ID zeta_team.",
+        "filled_param": {
+          "solutionID": "LMN456",
+          "date": "2023-06-10",
+          "progressMetric": "Hours Logged",
+          "teamID": "zeta_team"
+        }
+      }
+    ]
+  }
+}

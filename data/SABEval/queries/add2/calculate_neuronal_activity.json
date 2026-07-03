@@ -1,0 +1,377 @@
+{
+  "calculate_neuronal_activity|:|rate of firing|:|input_synaptic_rate,weight,decay_rate,temperature,neuron_type": {
+    "tool_template_name": "calculate_neuronal_activity",
+    "derived_class": "rate of firing",
+    "params_for_query": [
+      "input_synaptic_rate",
+      "weight",
+      "decay_rate",
+      "temperature",
+      "neuron_type"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the rate of firing for an inhibitory neuron with an input synaptic rate of 50 inputs per second, a weight of 0.85, a decay rate of 0.05, and a temperature of 37.2 degrees.",
+        "filled_param": {
+          "input_synaptic_rate": 50,
+          "weight": 0.85,
+          "decay_rate": 0.05,
+          "temperature": 37.2,
+          "neuron_type": "inhibitory"
+        }
+      },
+      {
+        "query": "I need the rate of firing for an excitatory neuron given an input synaptic rate of 120, a weight of 1.2, a decay rate of 0.1, at a temperature of 36.5.",
+        "filled_param": {
+          "input_synaptic_rate": 120,
+          "weight": 1.2,
+          "decay_rate": 0.1,
+          "temperature": 36.5,
+          "neuron_type": "excitatory"
+        }
+      },
+      {
+        "query": "What is the rate of firing for an inhibitory neuron with a synaptic rate of 95, a weight of 0.65, a decay rate of 0.09, at 38 degrees temperature?",
+        "filled_param": {
+          "input_synaptic_rate": 95,
+          "weight": 0.65,
+          "decay_rate": 0.09,
+          "temperature": 38,
+          "neuron_type": "inhibitory"
+        }
+      },
+      {
+        "query": "Find the rate of firing for an excitatory neuron. The input synaptic rate is 75, weight is 0.9, decay rate is 0.03, and the temperature is 35.8.",
+        "filled_param": {
+          "input_synaptic_rate": 75,
+          "weight": 0.9,
+          "decay_rate": 0.03,
+          "temperature": 35.8,
+          "neuron_type": "excitatory"
+        }
+      },
+      {
+        "query": "Determine the rate of firing for an inhibitory neuron with these parameters: input synaptic rate of 100, weight of 1.15, decay rate of 0.08, and a temperature of 37.0.",
+        "filled_param": {
+          "input_synaptic_rate": 100,
+          "weight": 1.15,
+          "decay_rate": 0.08,
+          "temperature": 37.0,
+          "neuron_type": "inhibitory"
+        }
+      },
+      {
+        "query": "I'd like to know the rate of firing for an excitatory neuron with an input synaptic rate of 60, a weight of 0.75, a decay rate of 0.07, and a temperature of 36.0 degrees.",
+        "filled_param": {
+          "input_synaptic_rate": 60,
+          "weight": 0.75,
+          "decay_rate": 0.07,
+          "temperature": 36.0,
+          "neuron_type": "excitatory"
+        }
+      },
+      {
+        "query": "Please compute the rate of firing for an inhibitory neuron given these values: synaptic rate at 110, weight at 0.95, decay rate at 0.1, and temperature at 39.5.",
+        "filled_param": {
+          "input_synaptic_rate": 110,
+          "weight": 0.95,
+          "decay_rate": 0.1,
+          "temperature": 39.5,
+          "neuron_type": "inhibitory"
+        }
+      }
+    ]
+  },
+  "calculate_neuronal_activity|:|mean postsynaptic potential|:|input_synaptic_rate,weight,decay_rate,temperature,neuron_type": {
+    "tool_template_name": "calculate_neuronal_activity",
+    "derived_class": "mean postsynaptic potential",
+    "params_for_query": [
+      "input_synaptic_rate",
+      "weight",
+      "decay_rate",
+      "temperature",
+      "neuron_type"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the mean postsynaptic potential for an excitatory neuron with an input synaptic rate of 50 inputs per second, a weight of 0.8, a decay rate of 0.2, and at a temperature of 36.5 degrees Celsius.",
+        "filled_param": {
+          "input_synaptic_rate": 50,
+          "weight": 0.8,
+          "decay_rate": 0.2,
+          "temperature": 36.5,
+          "neuron_type": "excitatory"
+        }
+      },
+      {
+        "query": "What is the mean postsynaptic potential for an inhibitory neuron when the synaptic input rate is 75 per second, the weight is 0.5, the decay rate is 0.1, and the temperature is at 37 degrees Celsius?",
+        "filled_param": {
+          "input_synaptic_rate": 75,
+          "weight": 0.5,
+          "decay_rate": 0.1,
+          "temperature": 37,
+          "neuron_type": "inhibitory"
+        }
+      },
+      {
+        "query": "Determine the mean postsynaptic potential for an excitatory neuron given an input synaptic rate of 60 per second, a weight of 1.0, a decay rate of 0.3, and a temperature of 35 degrees Celsius.",
+        "filled_param": {
+          "input_synaptic_rate": 60,
+          "weight": 1.0,
+          "decay_rate": 0.3,
+          "temperature": 35,
+          "neuron_type": "excitatory"
+        }
+      },
+      {
+        "query": "Can you find the mean postsynaptic potential for an inhibitory neuron with a synaptic rate of 90 inputs per second, a weight of 0.7, a decay rate of 0.25, and operating at a temperature of 36 degrees Celsius?",
+        "filled_param": {
+          "input_synaptic_rate": 90,
+          "weight": 0.7,
+          "decay_rate": 0.25,
+          "temperature": 36,
+          "neuron_type": "inhibitory"
+        }
+      },
+      {
+        "query": "What would be the mean postsynaptic potential for an excitatory neuron, if the synaptic input rate is 100 per second, the weight is 0.9, the decay rate is 0.4, and the environment temperature is 38 degrees Celsius?",
+        "filled_param": {
+          "input_synaptic_rate": 100,
+          "weight": 0.9,
+          "decay_rate": 0.4,
+          "temperature": 38,
+          "neuron_type": "excitatory"
+        }
+      },
+      {
+        "query": "Calculate the mean postsynaptic potential for an inhibitory neuron with a synaptic input rate of 85 per second, a weight of 0.6, a decay rate of 0.15, and a temperature of 39 degrees Celsius.",
+        "filled_param": {
+          "input_synaptic_rate": 85,
+          "weight": 0.6,
+          "decay_rate": 0.15,
+          "temperature": 39,
+          "neuron_type": "inhibitory"
+        }
+      }
+    ]
+  },
+  "calculate_neuronal_activity|:|steady-state membrane potential|:|input_synaptic_rate,weight,decay_rate,temperature,neuron_type": {
+    "tool_template_name": "calculate_neuronal_activity",
+    "derived_class": "steady-state membrane potential",
+    "params_for_query": [
+      "input_synaptic_rate",
+      "weight",
+      "decay_rate",
+      "temperature",
+      "neuron_type"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the steady-state membrane potential for an excitatory neuron with a synaptic input rate of 120 inputs per second, a weight of 0.8, a decay rate of 0.05, and an environmental temperature of 37°C.",
+        "filled_param": {
+          "input_synaptic_rate": 120,
+          "weight": 0.8,
+          "decay_rate": 0.05,
+          "temperature": 37,
+          "neuron_type": "excitatory"
+        }
+      },
+      {
+        "query": "What is the steady-state membrane potential of an inhibitory neuron if the input synaptic rate is 85, the weight is 0.6, the decay rate is 0.02, and the surrounding temperature is 25 degrees Celsius?",
+        "filled_param": {
+          "input_synaptic_rate": 85,
+          "weight": 0.6,
+          "decay_rate": 0.02,
+          "temperature": 25,
+          "neuron_type": "inhibitory"
+        }
+      },
+      {
+        "query": "For an excitatory neuron, determine the steady-state membrane potential with an input synaptic rate of 200 inputs/sec, a weight of 1.0, a decay rate of 0.1, and a temperature of 40°C.",
+        "filled_param": {
+          "input_synaptic_rate": 200,
+          "weight": 1.0,
+          "decay_rate": 0.1,
+          "temperature": 40,
+          "neuron_type": "excitatory"
+        }
+      },
+      {
+        "query": "I need to find out the steady-state membrane potential for an inhibitory neuron. The input synaptic rate is 70, the weight is 0.4, the decay rate is 0.03, and the ambient temperature is 20 degrees Celsius.",
+        "filled_param": {
+          "input_synaptic_rate": 70,
+          "weight": 0.4,
+          "decay_rate": 0.03,
+          "temperature": 20,
+          "neuron_type": "inhibitory"
+        }
+      },
+      {
+        "query": "Can you compute the steady-state membrane potential for an excitatory neuron with an input synaptic rate of 150, weight 0.9, decay rate 0.05, and a temperature of 30°C?",
+        "filled_param": {
+          "input_synaptic_rate": 150,
+          "weight": 0.9,
+          "decay_rate": 0.05,
+          "temperature": 30,
+          "neuron_type": "excitatory"
+        }
+      },
+      {
+        "query": "What would be the steady-state membrane potential of an inhibitory neuron if the synaptic input rate is 95 per second, the weight is 0.7, the decay rate is 0.08, and the temperature is 35 degrees Celsius?",
+        "filled_param": {
+          "input_synaptic_rate": 95,
+          "weight": 0.7,
+          "decay_rate": 0.08,
+          "temperature": 35,
+          "neuron_type": "inhibitory"
+        }
+      }
+    ]
+  },
+  "calculate_neuronal_activity|:|average activation level|:|input_synaptic_rate,weight,decay_rate,temperature,neuron_type": {
+    "tool_template_name": "calculate_neuronal_activity",
+    "derived_class": "average activation level",
+    "params_for_query": [
+      "input_synaptic_rate",
+      "weight",
+      "decay_rate",
+      "temperature",
+      "neuron_type"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the average activation level for an excitatory neuron with an input synaptic rate of 300 inputs per second, a weight of 0.8, a decay rate of 0.05, and a temperature of 37.5 degrees Celsius.",
+        "filled_param": {
+          "input_synaptic_rate": 300,
+          "weight": 0.8,
+          "decay_rate": 0.05,
+          "temperature": 37.5,
+          "neuron_type": "excitatory"
+        }
+      },
+      {
+        "query": "What is the average activation level of an inhibitory neuron if the synaptic input rate is 150 inputs per second, the weight is 1.2, the decay rate is 0.1, and the environment temperature is 36.8 degrees?",
+        "filled_param": {
+          "input_synaptic_rate": 150,
+          "weight": 1.2,
+          "decay_rate": 0.1,
+          "temperature": 36.8,
+          "neuron_type": "inhibitory"
+        }
+      },
+      {
+        "query": "Determine the average activation level for a neuron of type excitatory with a synaptic input rate of 250 per second, a weight of 0.5, a decay rate of 0.03, and temperature setting at 39 degrees.",
+        "filled_param": {
+          "input_synaptic_rate": 250,
+          "weight": 0.5,
+          "decay_rate": 0.03,
+          "temperature": 39,
+          "neuron_type": "excitatory"
+        }
+      },
+      {
+        "query": "How does the average activation level turn out for an inhibitory neuron with 200 inputs per second, a weight of 0.9, a decay rate of 0.07, under a temperature of 35.5 degrees Celsius?",
+        "filled_param": {
+          "input_synaptic_rate": 200,
+          "weight": 0.9,
+          "decay_rate": 0.07,
+          "temperature": 35.5,
+          "neuron_type": "inhibitory"
+        }
+      },
+      {
+        "query": "Find the average activation level for a neuron, specifically an excitatory one, where the input rate is 180 per second, the weight is 1.0, the decay rate is 0.04, and the temperature is 37 degrees Celsius.",
+        "filled_param": {
+          "input_synaptic_rate": 180,
+          "weight": 1.0,
+          "decay_rate": 0.04,
+          "temperature": 37,
+          "neuron_type": "excitatory"
+        }
+      },
+      {
+        "query": "Please compute the average activation level for an inhibitory neuron with an input synaptic rate of 120 per second, weight of 1.5, decay rate of 0.06, and a temperature environment of 34.2 degrees.",
+        "filled_param": {
+          "input_synaptic_rate": 120,
+          "weight": 1.5,
+          "decay_rate": 0.06,
+          "temperature": 34.2,
+          "neuron_type": "inhibitory"
+        }
+      }
+    ]
+  },
+  "calculate_neuronal_activity|:|integration time constant|:|input_synaptic_rate,weight,decay_rate,temperature,neuron_type": {
+    "tool_template_name": "calculate_neuronal_activity",
+    "derived_class": "integration time constant",
+    "params_for_query": [
+      "input_synaptic_rate",
+      "weight",
+      "decay_rate",
+      "temperature",
+      "neuron_type"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the integration time constant for an excitatory neuron with an input synaptic rate of 300 inputs per second, weight of 0.5, decay rate of 0.2, and a temperature of 37 degrees.",
+        "filled_param": {
+          "input_synaptic_rate": 300,
+          "weight": 0.5,
+          "decay_rate": 0.2,
+          "temperature": 37,
+          "neuron_type": "excitatory"
+        }
+      },
+      {
+        "query": "What is the integration time constant for an inhibitory neuron if the synaptic input rate is 450 per second, weight is 1.2, decay rate is 0.5, and the temperature is 25 degrees?",
+        "filled_param": {
+          "input_synaptic_rate": 450,
+          "weight": 1.2,
+          "decay_rate": 0.5,
+          "temperature": 25,
+          "neuron_type": "inhibitory"
+        }
+      },
+      {
+        "query": "I need to find the integration time constant for an excitatory neuron given a synaptic rate of 200, weight of 0.8, decay rate of 0.3, and environment temperature of 15 degrees.",
+        "filled_param": {
+          "input_synaptic_rate": 200,
+          "weight": 0.8,
+          "decay_rate": 0.3,
+          "temperature": 15,
+          "neuron_type": "excitatory"
+        }
+      },
+      {
+        "query": "Determine the integration time constant for an inhibitory neuron where the input synaptic rate is 600, weight is 1.5, decay rate is 0.4, and the temperature is 20 degrees.",
+        "filled_param": {
+          "input_synaptic_rate": 600,
+          "weight": 1.5,
+          "decay_rate": 0.4,
+          "temperature": 20,
+          "neuron_type": "inhibitory"
+        }
+      },
+      {
+        "query": "Can you compute the integration time constant for an excitatory neuron with a synaptic rate of 100 inputs per second, a weight of 0.9, a decay rate of 0.1, and at a temperature of 30 degrees?",
+        "filled_param": {
+          "input_synaptic_rate": 100,
+          "weight": 0.9,
+          "decay_rate": 0.1,
+          "temperature": 30,
+          "neuron_type": "excitatory"
+        }
+      },
+      {
+        "query": "What's the integration time constant for an inhibitory neuron if the input rate is 250, the weight is 2.0, decay rate is 0.6, and the temperature is 10 degrees?",
+        "filled_param": {
+          "input_synaptic_rate": 250,
+          "weight": 2.0,
+          "decay_rate": 0.6,
+          "temperature": 10,
+          "neuron_type": "inhibitory"
+        }
+      }
+    ]
+  }
+}

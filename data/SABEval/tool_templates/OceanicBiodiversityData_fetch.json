@@ -1,0 +1,67 @@
+{
+  "tool_template_name": "OceanicBiodiversityData_fetch",
+  "meta_data": {
+    "base_class": "Fetch comprehensive data on marine biodiversity for specified <ecosystems> - refers to natural systems formed by the interaction of biological communities and non-biological environments, such as oceans and deserts.",
+    "derived_classes": [
+      "oceanic",
+      "tropical rainforest",
+      "desert",
+      "wetland",
+      "alpine meadow",
+      "polar tundra",
+      "freshwater lake"
+    ],
+    "base_class_entity": "oceanic"
+  },
+  "tool_template": {
+    "name": "<class>_biodiversity_data_fetch",
+    "description": "Fetch comprehensive data on biodiversity for specified <class> ecosystems.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "zone_identifier": {
+          "type": "string",
+          "description": "Identifier for the specific <class> ecosystem zone."
+        }
+      },
+      "required": [
+        "zone_identifier"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "include_population_estimates": {
+      "type": "boolean",
+      "description": "Whether to include population estimates for species in the <class> ecosystem."
+    },
+    "data_format": {
+      "type": "string",
+      "description": "Preferred format for the data output (e.g., JSON, XML)."
+    }
+  },
+  "additional_params": {
+    "time_period": {
+      "type": "string",
+      "description": "The specific time period or range for which biodiversity data should be fetched for the <class> ecosystem (e.g., current, historical, projected)."
+    },
+    "data_source": {
+      "type": "string",
+      "description": "The source or organization providing the biodiversity data for the <class> ecosystem (e.g., government, NGO, research institution)."
+    },
+    "include_climate_data": {
+      "type": "boolean",
+      "description": "Whether to include climate data alongside biodiversity data for the <class> ecosystem."
+    },
+    "species_focus": {
+      "type": "array",
+      "description": "A list of specific species or groups of species for focused data retrieval within the <class> ecosystem.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "threat_level": {
+      "type": "string",
+      "description": "The level of threat to biodiversity in the <class> ecosystem as per recognized environmental standards (e.g., low, moderate, high)."
+    }
+  }
+}

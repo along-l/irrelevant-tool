@@ -1,0 +1,69 @@
+{
+  "tool_template_name": "get_museum_artists",
+  "meta_data": {
+    "base_class": "retrieve artists exhibited in museums of a specific <country> during a given period - museum systems across countries are independent but share the same query structure.",
+    "derived_classes": [
+      "United States",
+      "United Kingdom",
+      "France",
+      "Germany",
+      "Italy",
+      "Japan",
+      "China",
+      "Spain",
+      "Russia",
+      "South Korea",
+      "Canada",
+      "Australia",
+      "Netherlands",
+      "Brazil",
+      "Switzerland",
+      "India",
+      "Mexico",
+      "Egypt",
+      "Turkey",
+      "Sweden"
+    ],
+    "base_class_entity": "United States"
+  },
+  "tool_template": {
+    "name": "get_<class>_museum_artists",
+    "description": "Retrieves a list of all artists whose works are present in a museum of <class> during a particular period.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "museum_name": {
+          "type": "string",
+          "description": "The name of the museum in <class>."
+        },
+        "period": {
+          "type": "string",
+          "description": "The time period for which to retrieve the artists, e.g., 19th Century."
+        }
+      },
+      "required": [
+        "museum_name",
+        "period"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "artist_nationality": {
+      "type": "string",
+      "description": "The nationality of the artists to filter the list."
+    },
+    "art_style": {
+      "type": "string",
+      "description": "The art style to filter the artists by, e.g., 'Impressionism', for the given museum in <class>."
+    },
+    "exhibition_type": {
+      "type": "string",
+      "description": "The type of exhibition to focus on, such as 'permanent' or 'temporary', for the given museum in <class>."
+    },
+    "max_results": {
+      "type": "integer",
+      "description": "The maximum number of artists to retrieve from the the given museum in <class>."
+    }
+  }
+}

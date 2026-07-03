@@ -1,0 +1,418 @@
+{
+  "symbol_frequency|:|uppercase letters|:|input_string,file_path,sort_order": {
+    "tool_template_name": "symbol_frequency",
+    "derived_class": "uppercase letters",
+    "params_for_query": [
+      "input_string",
+      "file_path",
+      "sort_order"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the frequency of uppercase letters in the string 'Hello WORLD! This is an EXAMPLE.' and save the result to '/user/data/frequency.txt' in Descending order.",
+        "filled_param": {
+          "input_string": "Hello WORLD! This is an EXAMPLE.",
+          "file_path": "/user/data/frequency.txt",
+          "sort_order": "Descending"
+        }
+      },
+      {
+        "query": "I need the analysis of uppercase letters from 'The QUICK Brown FOX jumps OVER the lazy DOG' with results stored at '/reports/uppercase_analysis.txt' sorted in Ascending order.",
+        "filled_param": {
+          "input_string": "The QUICK Brown FOX jumps OVER the lazy DOG",
+          "file_path": "/reports/uppercase_analysis.txt",
+          "sort_order": "Ascending"
+        }
+      },
+      {
+        "query": "Find the frequency of uppercase letters in the text 'Python Programming LANGUAGE is FUN' and write the output to '/output/uppercase_frequency.txt' in Alphabetical order.",
+        "filled_param": {
+          "input_string": "Python Programming LANGUAGE is FUN",
+          "file_path": "/output/uppercase_frequency.txt",
+          "sort_order": "Alphabetical"
+        }
+      },
+      {
+        "query": "Could you provide the frequency of uppercase letters for 'THIS IS A TEST STRING to CHECK FREQUENCY.' and store it at '/results/frequency_report.txt' sorted Descending?",
+        "filled_param": {
+          "input_string": "THIS IS A TEST STRING to CHECK FREQUENCY.",
+          "file_path": "/results/frequency_report.txt",
+          "sort_order": "Descending"
+        }
+      },
+      {
+        "query": "Please determine the frequency of uppercase letters in 'Learning AI and ML WITH OpenAI GPT MODELS' and save it to '/documents/letter_frequency.txt' in Ascending order.",
+        "filled_param": {
+          "input_string": "Learning AI and ML WITH OpenAI GPT MODELS",
+          "file_path": "/documents/letter_frequency.txt",
+          "sort_order": "Ascending"
+        }
+      }
+    ]
+  },
+  "symbol_frequency|:|lowercase letters|:|input_string,file_path,sort_order": {
+    "tool_template_name": "symbol_frequency",
+    "derived_class": "lowercase letters",
+    "params_for_query": [
+      "input_string",
+      "file_path",
+      "sort_order"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the frequency of lowercase letters in the string 'hello world and beyond', and save the results in 'output1.txt' sorted in Descending order.",
+        "filled_param": {
+          "input_string": "hello world and beyond",
+          "file_path": "output1.txt",
+          "sort_order": "Descending"
+        }
+      },
+      {
+        "query": "Please check the frequency of lowercase letters in 'example input text' and store the results in 'results.txt' sorted Alphabetically.",
+        "filled_param": {
+          "input_string": "example input text",
+          "file_path": "results.txt",
+          "sort_order": "Alphabetical"
+        }
+      },
+      {
+        "query": "I need the frequency of lowercase letters for the string 'quick brown fox jumps', saved to 'data.txt' in Ascending order.",
+        "filled_param": {
+          "input_string": "quick brown fox jumps",
+          "file_path": "data.txt",
+          "sort_order": "Ascending"
+        }
+      },
+      {
+        "query": "Count how often each lowercase letter appears in 'simple sentence' and write it to 'output2.txt', sorted Descending.",
+        "filled_param": {
+          "input_string": "simple sentence",
+          "file_path": "output2.txt",
+          "sort_order": "Descending"
+        }
+      },
+      {
+        "query": "Determine the frequency of lowercase letters in 'random words everywhere' and save the results in 'report.txt' with Alphabetical sorting.",
+        "filled_param": {
+          "input_string": "random words everywhere",
+          "file_path": "report.txt",
+          "sort_order": "Alphabetical"
+        }
+      }
+    ]
+  },
+  "symbol_frequency|:|emojis|:|input_string,file_path,sort_order": {
+    "tool_template_name": "symbol_frequency",
+    "derived_class": "emojis",
+    "params_for_query": [
+      "input_string",
+      "file_path",
+      "sort_order"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the emojis in the string 'I love pizza 🍕 and ice cream 🍦!' and save the results to '/user/documents/emoji_frequency.txt' with a descending order of frequency.",
+        "filled_param": {
+          "input_string": "I love pizza 🍕 and ice cream 🍦!",
+          "file_path": "/user/documents/emoji_frequency.txt",
+          "sort_order": "Descending"
+        }
+      },
+      {
+        "query": "Find the frequency of emojis in 'Sunshine ☀️ and rain ☔ make a rainbow 🌈' and store it in '/desktop/emoji_output.txt' sorted alphabetically.",
+        "filled_param": {
+          "input_string": "Sunshine ☀️ and rain ☔ make a rainbow 🌈",
+          "file_path": "/desktop/emoji_output.txt",
+          "sort_order": "Alphabetical"
+        }
+      },
+      {
+        "query": "Could you determine how often each emoji appears in the text 'Happy 🥳 Birthday 🎉 to you!' and save the findings to '/data/emoji_stats.txt' in ascending order?",
+        "filled_param": {
+          "input_string": "Happy 🥳 Birthday 🎉 to you!",
+          "file_path": "/data/emoji_stats.txt",
+          "sort_order": "Ascending"
+        }
+      },
+      {
+        "query": "Identify emoji frequencies in 'Good morning ☀️, have a great day! 🌟' and write the results to '/reports/emoji_report.txt', sorted by descending frequency.",
+        "filled_param": {
+          "input_string": "Good morning ☀️, have a great day! 🌟",
+          "file_path": "/reports/emoji_report.txt",
+          "sort_order": "Descending"
+        }
+      },
+      {
+        "query": "Can you list the emojis from 'Let's rock this party 🎸🎶!' by frequency and save it to '/logs/emoji_list.txt' with alphabetical sorting?",
+        "filled_param": {
+          "input_string": "Let's rock this party 🎸🎶!",
+          "file_path": "/logs/emoji_list.txt",
+          "sort_order": "Alphabetical"
+        }
+      },
+      {
+        "query": "Please evaluate the emoji usage in 'Adventure awaits 🚀🌍' and output the analysis to '/exports/emoji_analysis.txt' in ascending order.",
+        "filled_param": {
+          "input_string": "Adventure awaits 🚀🌍",
+          "file_path": "/exports/emoji_analysis.txt",
+          "sort_order": "Ascending"
+        }
+      }
+    ]
+  },
+  "symbol_frequency|:|Chinese characters|:|input_string,file_path,sort_order": {
+    "tool_template_name": "symbol_frequency",
+    "derived_class": "Chinese characters",
+    "params_for_query": [
+      "input_string",
+      "file_path",
+      "sort_order"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the frequency of Chinese characters in the text '我喜欢学习汉语，因为汉语很有趣。' and save the results in descending order to '/user/documents/character_frequency.txt'.",
+        "filled_param": {
+          "input_string": "我喜欢学习汉语，因为汉语很有趣。",
+          "file_path": "/user/documents/character_frequency.txt",
+          "sort_order": "Descending"
+        }
+      },
+      {
+        "query": "Please determine the frequency of Chinese characters from the sentence '春天来了，花儿都开了。' and store the results alphabetically in '/home/user/results/chinese_characters.txt'.",
+        "filled_param": {
+          "input_string": "春天来了，花儿都开了。",
+          "file_path": "/home/user/results/chinese_characters.txt",
+          "sort_order": "Alphabetical"
+        }
+      },
+      {
+        "query": "Find the frequency of Chinese characters in the string '他去了图书馆，借了一本新书。' and save the output in ascending order at '/data/analysis/output.txt'.",
+        "filled_param": {
+          "input_string": "他去了图书馆，借了一本新书。",
+          "file_path": "/data/analysis/output.txt",
+          "sort_order": "Ascending"
+        }
+      },
+      {
+        "query": "Calculate the frequency of Chinese characters for '今天的天气真不错！' and write the results in descending order to '/reports/chinese_freq.txt'.",
+        "filled_param": {
+          "input_string": "今天的天气真不错！",
+          "file_path": "/reports/chinese_freq.txt",
+          "sort_order": "Descending"
+        }
+      },
+      {
+        "query": "Can you check the frequency of Chinese characters in '这个周末我打算去爬山。' and list them in alphabetical order at '/output/frequency_analysis.txt'?",
+        "filled_param": {
+          "input_string": "这个周末我打算去爬山。",
+          "file_path": "/output/frequency_analysis.txt",
+          "sort_order": "Alphabetical"
+        }
+      }
+    ]
+  },
+  "symbol_frequency|:|Korean Hangul characters|:|input_string,file_path,sort_order": {
+    "tool_template_name": "symbol_frequency",
+    "derived_class": "Korean Hangul characters",
+    "params_for_query": [
+      "input_string",
+      "file_path",
+      "sort_order"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the frequency of Korean Hangul characters in the string '안녕하세요, 여러분!' and save it at '/results/hangul_freq.txt' in Descending order.",
+        "filled_param": {
+          "input_string": "안녕하세요, 여러분!",
+          "file_path": "/results/hangul_freq.txt",
+          "sort_order": "Descending"
+        }
+      },
+      {
+        "query": "Please calculate the Korean Hangul characters frequency for '오늘은 날씨가 좋네요' and store the result in '/data/output.txt' using Alphabetical order.",
+        "filled_param": {
+          "input_string": "오늘은 날씨가 좋네요",
+          "file_path": "/data/output.txt",
+          "sort_order": "Alphabetical"
+        }
+      },
+      {
+        "query": "Count the frequency of Korean Hangul characters in '축구는 재미있는 스포츠입니다' and save the analysis to '/home/user/hangul_analysis.txt' sorted in Ascending order.",
+        "filled_param": {
+          "input_string": "축구는 재미있는 스포츠입니다",
+          "file_path": "/home/user/hangul_analysis.txt",
+          "sort_order": "Ascending"
+        }
+      },
+      {
+        "query": "Could you find how often each Korean Hangul character appears in '한국어는 아름다운 언어입니다' and write it to '/output/frequency_report.txt' with Descending order?",
+        "filled_param": {
+          "input_string": "한국어는 아름다운 언어입니다",
+          "file_path": "/output/frequency_report.txt",
+          "sort_order": "Descending"
+        }
+      },
+      {
+        "query": "I need a frequency analysis of Korean Hangul characters in '서울에서 만나요' and please save the results alphabetically to '/analysis/results.txt'.",
+        "filled_param": {
+          "input_string": "서울에서 만나요",
+          "file_path": "/analysis/results.txt",
+          "sort_order": "Alphabetical"
+        }
+      }
+    ]
+  },
+  "symbol_frequency|:|digit characters|:|input_string,file_path,sort_order": {
+    "tool_template_name": "symbol_frequency",
+    "derived_class": "digit characters",
+    "params_for_query": [
+      "input_string",
+      "file_path",
+      "sort_order"
+    ],
+    "queries": [
+      {
+        "query": "Please analyze the digit characters in 'My phone numbers are 1234 and 5678' and save the results in descending order to /user/documents/digits.txt.",
+        "filled_param": {
+          "input_string": "My phone numbers are 1234 and 5678",
+          "file_path": "/user/documents/digits.txt",
+          "sort_order": "Descending"
+        }
+      },
+      {
+        "query": "I need the frequency of digit characters from 'The years 1999 and 2023 are special' sorted alphabetically and saved to /home/user/output/frequency.txt.",
+        "filled_param": {
+          "input_string": "The years 1999 and 2023 are special",
+          "file_path": "/home/user/output/frequency.txt",
+          "sort_order": "Alphabetical"
+        }
+      },
+      {
+        "query": "Can you find how often digit characters appear in 'My voucher codes are 8976 and 3241' and save it sorted in ascending order to /data/results/digit_frequency.txt?",
+        "filled_param": {
+          "input_string": "My voucher codes are 8976 and 3241",
+          "file_path": "/data/results/digit_frequency.txt",
+          "sort_order": "Ascending"
+        }
+      },
+      {
+        "query": "Sort the frequency of digit characters descending from 'Invoice numbers: 001234, 567890' and store in /var/logs/invoice_digits.txt.",
+        "filled_param": {
+          "input_string": "Invoice numbers: 001234, 567890",
+          "file_path": "/var/logs/invoice_digits.txt",
+          "sort_order": "Descending"
+        }
+      },
+      {
+        "query": "Extract the digit character frequency from 'Our seats are A12, B34, C56' in alphabetical order and write to /tmp/seat_digits.txt.",
+        "filled_param": {
+          "input_string": "Our seats are A12, B34, C56",
+          "file_path": "/tmp/seat_digits.txt",
+          "sort_order": "Alphabetical"
+        }
+      }
+    ]
+  },
+  "symbol_frequency|:|Hebrew characters|:|input_string,file_path,sort_order": {
+    "tool_template_name": "symbol_frequency",
+    "derived_class": "Hebrew characters",
+    "params_for_query": [
+      "input_string",
+      "file_path",
+      "sort_order"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the frequency of Hebrew characters in the text 'שלום עולם' and save the results in descending order at /user/results/heb_freq1.txt.",
+        "filled_param": {
+          "input_string": "שלום עולם",
+          "file_path": "/user/results/heb_freq1.txt",
+          "sort_order": "Descending"
+        }
+      },
+      {
+        "query": "Please find out how often Hebrew characters appear in 'אבגדהוזחט' and store the alphabetical results at /documents/analysis/hebrew_freq.txt.",
+        "filled_param": {
+          "input_string": "אבגדהוזחט",
+          "file_path": "/documents/analysis/hebrew_freq.txt",
+          "sort_order": "Alphabetical"
+        }
+      },
+      {
+        "query": "Could you check the Hebrew character frequency for 'ישראל' and save the ascending ordered results to /data/output/hebrew_character_frequency.txt?",
+        "filled_param": {
+          "input_string": "ישראל",
+          "file_path": "/data/output/hebrew_character_frequency.txt",
+          "sort_order": "Ascending"
+        }
+      },
+      {
+        "query": "I need an analysis of the Hebrew characters in 'תל אביב' with results sorted in alphabetical order, saved to /home/user/heb_analysis/alphabetical.txt.",
+        "filled_param": {
+          "input_string": "תל אביב",
+          "file_path": "/home/user/heb_analysis/alphabetical.txt",
+          "sort_order": "Alphabetical"
+        }
+      },
+      {
+        "query": "Determine the Hebrew character frequency for 'ברוך הבא' and store the results descendingly at /output/results/hebrew_freq_desc.txt.",
+        "filled_param": {
+          "input_string": "ברוך הבא",
+          "file_path": "/output/results/hebrew_freq_desc.txt",
+          "sort_order": "Descending"
+        }
+      }
+    ]
+  },
+  "symbol_frequency|:|whitespace characters|:|input_string,file_path,sort_order": {
+    "tool_template_name": "symbol_frequency",
+    "derived_class": "whitespace characters",
+    "params_for_query": [
+      "input_string",
+      "file_path",
+      "sort_order"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the whitespace characters in the string 'Hello   World!\nHow are you today?' and save the results to '/user/documents/output1.txt' in Descending order.",
+        "filled_param": {
+          "input_string": "Hello   World!\nHow are you today?",
+          "file_path": "/user/documents/output1.txt",
+          "sort_order": "Descending"
+        }
+      },
+      {
+        "query": "Calculate the frequency of whitespace characters in 'This is a test.\tTesting, one, two, three.', save it at '/user/documents/whitespace_count.txt', and sort the results in Ascending order.",
+        "filled_param": {
+          "input_string": "This is a test.\tTesting, one, two, three.",
+          "file_path": "/user/documents/whitespace_count.txt",
+          "sort_order": "Ascending"
+        }
+      },
+      {
+        "query": "I need the frequency analysis of whitespace characters in 'New line\nTab\tSpace  Space' with the results saved to '/user/documents/analysis.txt', sorted Alphabetically.",
+        "filled_param": {
+          "input_string": "New line\nTab\tSpace  Space",
+          "file_path": "/user/documents/analysis.txt",
+          "sort_order": "Alphabetical"
+        }
+      },
+      {
+        "query": "Please determine how often whitespace characters appear in 'Line 1\nLine 2  Line 3\tEnd' and store this information in '/user/documents/result.txt' with a Descending sort order.",
+        "filled_param": {
+          "input_string": "Line 1\nLine 2  Line 3\tEnd",
+          "file_path": "/user/documents/result.txt",
+          "sort_order": "Descending"
+        }
+      },
+      {
+        "query": "Find the frequency of whitespace characters in the text 'Whitespace\tcharacters\nare\tspecial' and save it to '/user/documents/freq_analysis.txt', sorted by Ascending order.",
+        "filled_param": {
+          "input_string": "Whitespace\tcharacters\nare\tspecial",
+          "file_path": "/user/documents/freq_analysis.txt",
+          "sort_order": "Ascending"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "tool_template_name": "music_theory.get_blues_scale",
+  "meta_data": {
+    "base_class": "Generates <a specific type of musical scale> in a given key. This is a general music theory tool that generates a specific scale structure (e.g., major, minor, pentatonic, blues) for a given root note (key).",
+    "derived_classes": [
+      "major scale",
+      "natural minor scale",
+      "harmonic minor scale",
+      "melodic minor scale",
+      "major pentatonic scale",
+      "minor pentatonic scale",
+      "blues scale",
+      "dorian mode",
+      "phrygian mode",
+      "lydian mode",
+      "mixolydian mode",
+      "locrian mode",
+      "whole tone scale",
+      "chromatic scale"
+    ],
+    "base_class_entity": "blues scale"
+  },
+  "tool_template": {
+    "name": "music_theory.get_<class>_scale",
+    "description": "Generates the <class> scale in a given key.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "key": {
+          "type": "string",
+          "description": "The root note or key of the <class> scale."
+        }
+      },
+      "required": [
+        "key"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "show_intervals": {
+      "type": "boolean",
+      "description": "Flag to show the intervals of the <class> scale."
+    }
+  },
+  "additional_params": {
+    "octave_range": {
+      "type": "array",
+      "description": "Defines the range of octaves over which the <class> scale should be generated. Format: [start_octave, end_octave].",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "enharmonic_preference": {
+      "type": "string",
+      "description": "Specifies whether to represent enharmonically equivalent notes using sharps or flats. Options: 'flats', 'sharps', 'contextual'."
+    },
+    "output_as_midi": {
+      "type": "boolean",
+      "description": "If true, the output notes will be represented as MIDI note numbers (e.g., 60) instead of note names (e.g., 'C4')."
+    },
+    "output_format": {
+      "type": "string",
+      "description": "Specifies the format in which the <class> scale should be outputted. Options: 'list', 'string', 'dict'."
+    }
+  }
+}

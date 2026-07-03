@@ -1,0 +1,463 @@
+{
+  "calc_heat_capacity|:|heat capacity|:|temp,volume,gas": {
+    "tool_template_name": "calc_heat_capacity",
+    "derived_class": "heat capacity",
+    "params_for_query": [
+      "temp",
+      "volume",
+      "gas"
+    ],
+    "queries": [
+      {
+        "query": "What is the heat capacity of air if the temperature is 300 K and the volume is 2 m^3?",
+        "filled_param": {
+          "temp": 300,
+          "volume": 2,
+          "gas": "air"
+        }
+      },
+      {
+        "query": "Calculate the heat capacity for helium at a temperature of 150 K and a volume of 1 m^3.",
+        "filled_param": {
+          "temp": 150,
+          "volume": 1,
+          "gas": "helium"
+        }
+      },
+      {
+        "query": "Determine the heat capacity of nitrogen at 500 Kelvin with a volume of 3 cubic meters.",
+        "filled_param": {
+          "temp": 500,
+          "volume": 3,
+          "gas": "nitrogen"
+        }
+      },
+      {
+        "query": "Can you find the heat capacity for carbon dioxide when it is at 275 K and occupies 4 m^3?",
+        "filled_param": {
+          "temp": 275,
+          "volume": 4,
+          "gas": "carbon dioxide"
+        }
+      },
+      {
+        "query": "What's the heat capacity of oxygen if it is at a temperature of 350 K and a volume of 5 m^3?",
+        "filled_param": {
+          "temp": 350,
+          "volume": 5,
+          "gas": "oxygen"
+        }
+      },
+      {
+        "query": "I need to know the heat capacity for argon at 450 Kelvin with a 2 m^3 volume.",
+        "filled_param": {
+          "temp": 450,
+          "volume": 2,
+          "gas": "argon"
+        }
+      },
+      {
+        "query": "Please calculate the heat capacity of hydrogen at 400 K and in a volume of 1 m^3.",
+        "filled_param": {
+          "temp": 400,
+          "volume": 1,
+          "gas": "hydrogen"
+        }
+      }
+    ]
+  },
+  "calc_heat_capacity|:|entropy|:|temp,volume,gas": {
+    "tool_template_name": "calc_heat_capacity",
+    "derived_class": "entropy",
+    "params_for_query": [
+      "temp",
+      "volume",
+      "gas"
+    ],
+    "queries": [
+      {
+        "query": "What is the entropy of air at a temperature of 300 Kelvin and a volume of 2 m^3?",
+        "filled_param": {
+          "temp": 300,
+          "volume": 2,
+          "gas": "air"
+        }
+      },
+      {
+        "query": "Calculate the entropy for helium gas at a constant pressure when the temperature is 250 Kelvin, and the volume is 1 m^3.",
+        "filled_param": {
+          "temp": 250,
+          "volume": 1,
+          "gas": "helium"
+        }
+      },
+      {
+        "query": "How much is the entropy of nitrogen gas if it's at 275 Kelvin and occupies 3 m^3?",
+        "filled_param": {
+          "temp": 275,
+          "volume": 3,
+          "gas": "nitrogen"
+        }
+      },
+      {
+        "query": "Determine the entropy for hydrogen at a volume of 4 m^3 and a temperature of 320 Kelvin.",
+        "filled_param": {
+          "temp": 320,
+          "volume": 4,
+          "gas": "hydrogen"
+        }
+      },
+      {
+        "query": "Find the entropy of carbon dioxide when it has a temperature of 290 Kelvin and fills a volume of 5 m^3.",
+        "filled_param": {
+          "temp": 290,
+          "volume": 5,
+          "gas": "carbon dioxide"
+        }
+      },
+      {
+        "query": "Can you calculate the entropy for oxygen gas at 310 Kelvin with a volume of 6 m^3?",
+        "filled_param": {
+          "temp": 310,
+          "volume": 6,
+          "gas": "oxygen"
+        }
+      },
+      {
+        "query": "What would the entropy be for argon at 260 Kelvin when the gas occupies a volume of 2 m^3?",
+        "filled_param": {
+          "temp": 260,
+          "volume": 2,
+          "gas": "argon"
+        }
+      }
+    ]
+  },
+  "calc_heat_capacity|:|compressibility factor|:|temp,volume,gas": {
+    "tool_template_name": "calc_heat_capacity",
+    "derived_class": "compressibility factor",
+    "params_for_query": [
+      "temp",
+      "volume",
+      "gas"
+    ],
+    "queries": [
+      {
+        "query": "What is the compressibility factor of nitrogen at 300 Kelvin with a volume of 2 m^3?",
+        "filled_param": {
+          "temp": 300,
+          "volume": 2,
+          "gas": "nitrogen"
+        }
+      },
+      {
+        "query": "Calculate the compressibility factor for helium at a temperature of 150 Kelvin and volume of 5 m^3.",
+        "filled_param": {
+          "temp": 150,
+          "volume": 5,
+          "gas": "helium"
+        }
+      },
+      {
+        "query": "Can you determine the compressibility factor of oxygen when the temperature is 400 Kelvin and the gas occupies a volume of 3 m^3?",
+        "filled_param": {
+          "temp": 400,
+          "volume": 3,
+          "gas": "oxygen"
+        }
+      },
+      {
+        "query": "I'd like to know the compressibility factor for carbon dioxide at 250 Kelvin with a volume of 6 m^3.",
+        "filled_param": {
+          "temp": 250,
+          "volume": 6,
+          "gas": "carbon dioxide"
+        }
+      },
+      {
+        "query": "What would be the compressibility factor of methane at 350 Kelvin and a volume of 4 m^3?",
+        "filled_param": {
+          "temp": 350,
+          "volume": 4,
+          "gas": "methane"
+        }
+      },
+      {
+        "query": "Please provide the compressibility factor for argon at 200 Kelvin and a volume of 7 m^3.",
+        "filled_param": {
+          "temp": 200,
+          "volume": 7,
+          "gas": "argon"
+        }
+      },
+      {
+        "query": "Find the compressibility factor for hydrogen when it is at 500 Kelvin with a volume of 1 m^3.",
+        "filled_param": {
+          "temp": 500,
+          "volume": 1,
+          "gas": "hydrogen"
+        }
+      }
+    ]
+  },
+  "calc_heat_capacity|:|thermal expansion coefficient|:|temp,volume,gas": {
+    "tool_template_name": "calc_heat_capacity",
+    "derived_class": "thermal expansion coefficient",
+    "params_for_query": [
+      "temp",
+      "volume",
+      "gas"
+    ],
+    "queries": [
+      {
+        "query": "What is the thermal expansion coefficient for oxygen at a temperature of 300 Kelvin and a volume of 5 m^3?",
+        "filled_param": {
+          "temp": 300,
+          "volume": 5,
+          "gas": "oxygen"
+        }
+      },
+      {
+        "query": "Calculate the thermal expansion coefficient of nitrogen when the temperature is 250 K and the volume is 10 m^3.",
+        "filled_param": {
+          "temp": 250,
+          "volume": 10,
+          "gas": "nitrogen"
+        }
+      },
+      {
+        "query": "Determine the thermal expansion coefficient for helium at 500 Kelvin with a volume of 2 m^3.",
+        "filled_param": {
+          "temp": 500,
+          "volume": 2,
+          "gas": "helium"
+        }
+      },
+      {
+        "query": "Could you find the thermal expansion coefficient for CO2 with a temperature of 400 K and a volume of 8 cubic meters?",
+        "filled_param": {
+          "temp": 400,
+          "volume": 8,
+          "gas": "CO2"
+        }
+      },
+      {
+        "query": "I need the thermal expansion coefficient of hydrogen at a temperature of 350 Kelvin and a volume of 4 m^3.",
+        "filled_param": {
+          "temp": 350,
+          "volume": 4,
+          "gas": "hydrogen"
+        }
+      },
+      {
+        "query": "What's the thermal expansion coefficient for argon at 275 Kelvin with a volume of 7 m^3?",
+        "filled_param": {
+          "temp": 275,
+          "volume": 7,
+          "gas": "argon"
+        }
+      },
+      {
+        "query": "Please calculate the thermal expansion coefficient of air at 320 Kelvin and a volume of 9 m^3.",
+        "filled_param": {
+          "temp": 320,
+          "volume": 9,
+          "gas": "air"
+        }
+      }
+    ]
+  },
+  "calc_heat_capacity|:|isothermal compressibility|:|temp,volume,gas": {
+    "tool_template_name": "calc_heat_capacity",
+    "derived_class": "isothermal compressibility",
+    "params_for_query": [
+      "temp",
+      "volume",
+      "gas"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the isothermal compressibility for helium gas at 300 Kelvin with a volume of 2 m^3.",
+        "filled_param": {
+          "temp": 300,
+          "volume": 2,
+          "gas": "helium"
+        }
+      },
+      {
+        "query": "What is the isothermal compressibility of nitrogen at a temperature of 250 Kelvin and a volume of 5 m^3?",
+        "filled_param": {
+          "temp": 250,
+          "volume": 5,
+          "gas": "nitrogen"
+        }
+      },
+      {
+        "query": "I need the isothermal compressibility for oxygen gas at 500 Kelvin and 3 m^3 volume.",
+        "filled_param": {
+          "temp": 500,
+          "volume": 3,
+          "gas": "oxygen"
+        }
+      },
+      {
+        "query": "Find the isothermal compressibility for carbon dioxide at 273 Kelvin with a volume of 10 m^3.",
+        "filled_param": {
+          "temp": 273,
+          "volume": 10,
+          "gas": "carbon dioxide"
+        }
+      },
+      {
+        "query": "Can you determine the isothermal compressibility of argon gas at 400 Kelvin and 7 m^3?",
+        "filled_param": {
+          "temp": 400,
+          "volume": 7,
+          "gas": "argon"
+        }
+      },
+      {
+        "query": "I am looking for the isothermal compressibility of hydrogen at 350 Kelvin and 1 m^3 volume.",
+        "filled_param": {
+          "temp": 350,
+          "volume": 1,
+          "gas": "hydrogen"
+        }
+      },
+      {
+        "query": "Please provide the isothermal compressibility for methane at 320 Kelvin with a 4 m^3 volume.",
+        "filled_param": {
+          "temp": 320,
+          "volume": 4,
+          "gas": "methane"
+        }
+      }
+    ]
+  },
+  "calc_heat_capacity|:|partial molar volume|:|temp,volume,gas": {
+    "tool_template_name": "calc_heat_capacity",
+    "derived_class": "partial molar volume",
+    "params_for_query": [
+      "temp",
+      "volume",
+      "gas"
+    ],
+    "queries": [
+      {
+        "query": "What is the partial molar volume of oxygen at a temperature of 300K and volume of 2 cubic meters?",
+        "filled_param": {
+          "temp": 300,
+          "volume": 2,
+          "gas": "oxygen"
+        }
+      },
+      {
+        "query": "Calculate the partial molar volume for nitrogen when the temperature is 250 Kelvin and the volume is 5 m^3.",
+        "filled_param": {
+          "temp": 250,
+          "volume": 5,
+          "gas": "nitrogen"
+        }
+      },
+      {
+        "query": "Determine the partial molar volume of helium at a temperature of 1000K with a volume of 1 m^3.",
+        "filled_param": {
+          "temp": 1000,
+          "volume": 1,
+          "gas": "helium"
+        }
+      },
+      {
+        "query": "I need to find the partial molar volume of argon given a temperature of 500 Kelvin and a volume of 3 cubic meters.",
+        "filled_param": {
+          "temp": 500,
+          "volume": 3,
+          "gas": "argon"
+        }
+      },
+      {
+        "query": "Can you compute the partial molar volume for carbon dioxide at 360K and a volume of 4 m^3?",
+        "filled_param": {
+          "temp": 360,
+          "volume": 4,
+          "gas": "carbon dioxide"
+        }
+      },
+      {
+        "query": "What's the partial molar volume of hydrogen when the temperature is 273 Kelvin and the volume is 0.5 m^3?",
+        "filled_param": {
+          "temp": 273,
+          "volume": 0.5,
+          "gas": "hydrogen"
+        }
+      },
+      {
+        "query": "Could you provide the partial molar volume for methane with a temperature of 350K and a volume of 6 cubic meters?",
+        "filled_param": {
+          "temp": 350,
+          "volume": 6,
+          "gas": "methane"
+        }
+      }
+    ]
+  },
+  "calc_heat_capacity|:|mean free path|:|temp,volume,gas": {
+    "tool_template_name": "calc_heat_capacity",
+    "derived_class": "mean free path",
+    "params_for_query": [
+      "temp",
+      "volume",
+      "gas"
+    ],
+    "queries": [
+      {
+        "query": "What is the mean free path of nitrogen gas at a temperature of 300 Kelvin and a volume of 1 m^3?",
+        "filled_param": {
+          "temp": 300,
+          "volume": 1,
+          "gas": "nitrogen"
+        }
+      },
+      {
+        "query": "Calculate the mean free path for oxygen at 250 K with a volume of 0.8 cubic meters.",
+        "filled_param": {
+          "temp": 250,
+          "volume": 0.8,
+          "gas": "oxygen"
+        }
+      },
+      {
+        "query": "How long is the mean free path of hydrogen gas at 500 Kelvin and a 2 m^3 volume?",
+        "filled_param": {
+          "temp": 500,
+          "volume": 2,
+          "gas": "hydrogen"
+        }
+      },
+      {
+        "query": "Determine the mean free path for helium at 273 Kelvin in a container with a volume of 1.5 m^3.",
+        "filled_param": {
+          "temp": 273,
+          "volume": 1.5,
+          "gas": "helium"
+        }
+      },
+      {
+        "query": "Can you find the mean free path of argon at 400 Kelvin with a volume of 3 m^3?",
+        "filled_param": {
+          "temp": 400,
+          "volume": 3,
+          "gas": "argon"
+        }
+      },
+      {
+        "query": "What would be the mean free path of methane at 350 K and a 2.5 cubic meter volume?",
+        "filled_param": {
+          "temp": 350,
+          "volume": 2.5,
+          "gas": "methane"
+        }
+      }
+    ]
+  }
+}

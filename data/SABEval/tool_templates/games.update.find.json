@@ -1,0 +1,53 @@
+{
+  "tool_template_name": "games.update.find",
+  "meta_data": {
+    "base_class": "Find the latest updates or patches for a specific game on the <video game platform> platform - refers to a dedicated gaming hardware platform such as PlayStation or Xbox that has its own game distribution and pricing system.",
+    "derived_classes": [
+      "PlayStation",
+      "Xbox",
+      "Nintendo Switch",
+      "Steam Deck"
+    ],
+    "base_class_entity": "PlayStation"
+  },
+  "tool_template": {
+    "name": "<class>.update.find",
+    "description": "Find the latest updates or patches for a specific game on the <class> platform.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "game": {
+          "type": "string",
+          "description": "The name of the game for which to find updates on the <class> platform."
+        }
+      },
+      "required": [
+        "game"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "region": {
+      "type": "string",
+      "description": "The region of the update on the <class> platform. e.g., US, EU, JP."
+    }
+  },
+  "additional_params": {
+    "release_start_date": {
+      "type": "string",
+      "description": "The start date (inclusive) of the time range during which the update was released on the <class> platform, in ISO 8601 format (YYYY-MM-DD)."
+    },
+    "release_end_date": {
+      "type": "string",
+      "description": "The end date (inclusive) of the time range during which the update was released on the <class> platform, in ISO 8601 format (YYYY-MM-DD)."
+    },
+    "changelog_required": {
+      "type": "boolean",
+      "description": "Indicates if the changelog of the update are required for the <class>."
+    },
+    "update_type": {
+      "type": "string",
+      "description": "The type of update to find for the <class>, such as 'security', 'feature', or 'bug fix'."
+    }
+  }
+}

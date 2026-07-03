@@ -1,0 +1,987 @@
+{
+  "FreeRepairInquiry_service|:|laptop|:|purchase_receipt,customer_id,warranty_check,include_support_contact,issue_description": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "laptop",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check",
+      "include_support_contact",
+      "issue_description"
+    ],
+    "queries": [
+      {
+        "query": "I bought a laptop with receipt number 12345ABC and my customer ID is 98765. Can you check if it's under warranty and provide support contact details? It has a flickering screen issue.",
+        "filled_param": {
+          "purchase_receipt": "12345ABC",
+          "customer_id": "98765",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "flickering screen issue"
+        }
+      },
+      {
+        "query": "The laptop I purchased has a broken hinge. My receipt number is 67890XYZ and my customer ID is 54321. Could you verify the warranty and send me customer support contact info?",
+        "filled_param": {
+          "purchase_receipt": "67890XYZ",
+          "customer_id": "54321",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "broken hinge"
+        }
+      },
+      {
+        "query": "Please confirm if my laptop with receipt 13579QWE and customer ID 24680 is eligible for warranty repair. Also, provide support contacts. The problem is it won't charge.",
+        "filled_param": {
+          "purchase_receipt": "13579QWE",
+          "customer_id": "24680",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "won't charge"
+        }
+      },
+      {
+        "query": "I need to know if my laptop under purchase receipt 24680RTY and customer ID 13579 is under warranty. It keeps overheating, and I need the support contact details.",
+        "filled_param": {
+          "purchase_receipt": "24680RTY",
+          "customer_id": "13579",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "overheating"
+        }
+      },
+      {
+        "query": "Check warranty eligibility for my laptop with receipt 11223UOI and customer ID 55667 and include support contact information. The laptop has a faulty trackpad.",
+        "filled_param": {
+          "purchase_receipt": "11223UOI",
+          "customer_id": "55667",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "faulty trackpad"
+        }
+      }
+    ]
+  },
+  "FreeRepairInquiry_service|:|television|:|purchase_receipt,customer_id,warranty_check,include_support_contact,issue_description": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "television",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check",
+      "include_support_contact",
+      "issue_description"
+    ],
+    "queries": [
+      {
+        "query": "I need to check if my television is eligible for free repair. The receipt number is 789456123, my customer ID is CUST1009, and it's showing a blank screen. Please include support contact details.",
+        "filled_param": {
+          "purchase_receipt": "789456123",
+          "customer_id": "CUST1009",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "blank screen"
+        }
+      },
+      {
+        "query": "Could you verify if my television can be repaired for free under warranty? The receipt number is 123987456, customer ID is CUST2020, and the sound isn't working. Exclude support contact details, please.",
+        "filled_param": {
+          "purchase_receipt": "123987456",
+          "customer_id": "CUST2020",
+          "warranty_check": true,
+          "include_support_contact": false,
+          "issue_description": "sound isn't working"
+        }
+      },
+      {
+        "query": "My TV is not turning on. Can you check free repair eligibility using receipt 654321789 and customer ID CUST3030? I'd like support contact details included.",
+        "filled_param": {
+          "purchase_receipt": "654321789",
+          "customer_id": "CUST3030",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "not turning on"
+        }
+      },
+      {
+        "query": "Please perform a warranty check for free repair eligibility on my television. The receipt number is 987654321, customer ID is CUST5050, and the issue is a flickering screen. Do not include support contact details.",
+        "filled_param": {
+          "purchase_receipt": "987654321",
+          "customer_id": "CUST5050",
+          "warranty_check": true,
+          "include_support_contact": false,
+          "issue_description": "flickering screen"
+        }
+      },
+      {
+        "query": "I have a problem with my television where the picture is distorted. My purchase receipt number is 321654987, and my customer ID is CUST7070. I need warranty verification along with support contact details.",
+        "filled_param": {
+          "purchase_receipt": "321654987",
+          "customer_id": "CUST7070",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "picture is distorted"
+        }
+      }
+    ]
+  },
+  "FreeRepairInquiry_service|:|mobile phone|:|purchase_receipt,customer_id,warranty_check,include_support_contact,issue_description": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "mobile phone",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check",
+      "include_support_contact",
+      "issue_description"
+    ],
+    "queries": [
+      {
+        "query": "I need to check if my mobile phone is eligible for free repair. The purchase receipt number is 123456789, my customer ID is CUST98765. Please perform a warranty check and include support contact details. The issue is that the screen is flickering.",
+        "filled_param": {
+          "purchase_receipt": "123456789",
+          "customer_id": "CUST98765",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "The screen is flickering."
+        }
+      },
+      {
+        "query": "Can you verify if there's a free repair option for my mobile phone? Receipt number 987654321, customer ID CUST54321. Do a warranty check and provide customer support contact info. The issue is that the battery is draining rapidly.",
+        "filled_param": {
+          "purchase_receipt": "987654321",
+          "customer_id": "CUST54321",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "The battery is draining rapidly."
+        }
+      },
+      {
+        "query": "I have a problem with my mobile phone. The Bluetooth is not working. My purchase receipt number is 1122334455 and customer ID is CUST12345. Check warranty eligibility and include support contact details.",
+        "filled_param": {
+          "purchase_receipt": "1122334455",
+          "customer_id": "CUST12345",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "The Bluetooth is not working."
+        }
+      },
+      {
+        "query": "Please find out if my mobile phone qualifies for a free repair. The issue is that the camera is blurry. My purchase receipt number is 5566778899, and my customer ID is CUST56789. Include warranty check and support contact details.",
+        "filled_param": {
+          "purchase_receipt": "5566778899",
+          "customer_id": "CUST56789",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "The camera is blurry."
+        }
+      },
+      {
+        "query": "Is my mobile phone eligible for a free repair? The speaker has stopped working. My receipt number is 9988776655 and customer ID is CUST67890. Please check warranty and include support contact.",
+        "filled_param": {
+          "purchase_receipt": "9988776655",
+          "customer_id": "CUST67890",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "The speaker has stopped working."
+        }
+      },
+      {
+        "query": "I need warranty information for a free repair assessment of my mobile phone. The phone is overheating. Purchase receipt: 4433221100, and customer ID: CUST09876. Perform a warranty check and provide support contact info.",
+        "filled_param": {
+          "purchase_receipt": "4433221100",
+          "customer_id": "CUST09876",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "The phone is overheating."
+        }
+      }
+    ]
+  },
+  "FreeRepairInquiry_service|:|camera|:|purchase_receipt,customer_id,warranty_check,include_support_contact,issue_description": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "camera",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check",
+      "include_support_contact",
+      "issue_description"
+    ],
+    "queries": [
+      {
+        "query": "I have a camera problem where the lens is stuck, and I need to check if it's eligible for free repair. My receipt number is 98765AB, and my customer ID is CUST12345. Please verify the warranty and provide support contact details.",
+        "filled_param": {
+          "purchase_receipt": "98765AB",
+          "customer_id": "CUST12345",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "lens is stuck"
+        }
+      },
+      {
+        "query": "My camera's flash isn't working correctly. Can you check if it's still under warranty for a free repair? The proof of purchase is 12345XYZ and my customer ID is ID67890. Also, please include the support contact info.",
+        "filled_param": {
+          "purchase_receipt": "12345XYZ",
+          "customer_id": "ID67890",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "flash isn't working"
+        }
+      },
+      {
+        "query": "I need assistance with my camera as it's not powering on. My receipt number is 54321ZYX, and my customer ID is USER987. Please check the warranty status and include any support contacts.",
+        "filled_param": {
+          "purchase_receipt": "54321ZYX",
+          "customer_id": "USER987",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "not powering on"
+        }
+      },
+      {
+        "query": "The shutter button on my camera is unresponsive. Could you determine if it's under warranty for a free repair? My purchase receipt is A1B2C3 and customer ID is CLIENT456. Also, I need the support contact details.",
+        "filled_param": {
+          "purchase_receipt": "A1B2C3",
+          "customer_id": "CLIENT456",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "shutter button is unresponsive"
+        }
+      },
+      {
+        "query": "There is a sensor error on my camera. Can you confirm if it's eligible for a free repair under warranty? My receipt is 65432WXY and customer ID is ACCT321. Please provide me with support contact details as well.",
+        "filled_param": {
+          "purchase_receipt": "65432WXY",
+          "customer_id": "ACCT321",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "sensor error"
+        }
+      },
+      {
+        "query": "The camera's screen is flickering badly. Check if it's still under warranty for a free repair. Receipt number is 11223CDE, customer ID is USER112. Include support contact information too.",
+        "filled_param": {
+          "purchase_receipt": "11223CDE",
+          "customer_id": "USER112",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "screen is flickering"
+        }
+      }
+    ]
+  },
+  "FreeRepairInquiry_service|:|router|:|purchase_receipt,customer_id,warranty_check,include_support_contact,issue_description": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "router",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check",
+      "include_support_contact",
+      "issue_description"
+    ],
+    "queries": [
+      {
+        "query": "I have a router with receipt number 12345-67890, and my customer ID is CUST001. Can you check if it's eligible for a free repair under warranty? The issue is that the router intermittently loses connection. Please include support contact details.",
+        "filled_param": {
+          "purchase_receipt": "12345-67890",
+          "customer_id": "CUST001",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "The router intermittently loses connection."
+        }
+      },
+      {
+        "query": "Please verify the warranty status for my router with a receipt number of 98765-43210. The customer ID is CUST234, and I'm facing slow speed issues. Include support contact details in the response.",
+        "filled_param": {
+          "purchase_receipt": "98765-43210",
+          "customer_id": "CUST234",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "Facing slow speed issues."
+        }
+      },
+      {
+        "query": "My router is under warranty, and I'm experiencing frequent disconnections. The receipt number is A1B2C3D4, and my customer ID is USER456. Can you confirm if a free repair is possible and provide support contact info?",
+        "filled_param": {
+          "purchase_receipt": "A1B2C3D4",
+          "customer_id": "USER456",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "Experiencing frequent disconnections."
+        }
+      },
+      {
+        "query": "With receipt number 1122334455, my customer ID is CUST789. The router is not powering on. Check warranty eligibility and send me support contact details.",
+        "filled_param": {
+          "purchase_receipt": "1122334455",
+          "customer_id": "CUST789",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "The router is not powering on."
+        }
+      },
+      {
+        "query": "I'm having trouble with my router; it's overheating. My receipt number is 9988776655, and the customer ID is ABC123. Will a free repair be possible under warranty? Include support contact details.",
+        "filled_param": {
+          "purchase_receipt": "9988776655",
+          "customer_id": "ABC123",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "The router is overheating."
+        }
+      }
+    ]
+  },
+  "FreeRepairInquiry_service|:|projector|:|purchase_receipt,customer_id,warranty_check,include_support_contact,issue_description": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "projector",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check",
+      "include_support_contact",
+      "issue_description"
+    ],
+    "queries": [
+      {
+        "query": "I need to check the warranty status for my projector with receipt number 473829 and customer ID CUST12345. The projector won't power on. Can you also include support contact information?",
+        "filled_param": {
+          "purchase_receipt": "473829",
+          "customer_id": "CUST12345",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "The projector won't power on"
+        }
+      },
+      {
+        "query": "My projector is displaying distorted images. Please check if it's eligible for a free repair. The receipt number is 987654, and my customer ID is USER67890. I also want the customer support contact info.",
+        "filled_param": {
+          "purchase_receipt": "987654",
+          "customer_id": "USER67890",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "The projector is displaying distorted images"
+        }
+      },
+      {
+        "query": "Verify the warranty for my projector with purchase receipt 112233 and customer ID ABCD1234. It's overheating during use. Provide support contacts as well.",
+        "filled_param": {
+          "purchase_receipt": "112233",
+          "customer_id": "ABCD1234",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "The projector is overheating during use"
+        }
+      },
+      {
+        "query": "Can you confirm if my projector, which has receipt number 556677 and customer ID XY7890, is eligible for free repair? It randomly shuts off. I need the support contact info too.",
+        "filled_param": {
+          "purchase_receipt": "556677",
+          "customer_id": "XY7890",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "The projector randomly shuts off"
+        }
+      },
+      {
+        "query": "The projector I'm using has a flickering screen. Check warranty eligibility with receipt number 334455 and customer ID WXYZ567. Include contact details for support.",
+        "filled_param": {
+          "purchase_receipt": "334455",
+          "customer_id": "WXYZ567",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "The projector has a flickering screen"
+        }
+      }
+    ]
+  },
+  "FreeRepairInquiry_service|:|printer|:|purchase_receipt,customer_id,warranty_check,include_support_contact,issue_description": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "printer",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check",
+      "include_support_contact",
+      "issue_description"
+    ],
+    "queries": [
+      {
+        "query": "I have a printer that's malfunctioning, and I need to check if it's eligible for free repair. My receipt number is 12345ABC, and my customer ID is CUST67890. Can you verify the warranty and provide support contact details? The issue is that it won't print in color.",
+        "filled_param": {
+          "purchase_receipt": "12345ABC",
+          "customer_id": "CUST67890",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "It won't print in color."
+        }
+      },
+      {
+        "query": "Please check if my printer, which jams paper frequently, can be repaired under warranty. The receipt number is REC98765, and my customer ID is ID54321. Also, include the support contact info.",
+        "filled_param": {
+          "purchase_receipt": "REC98765",
+          "customer_id": "ID54321",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "It jams paper frequently."
+        }
+      },
+      {
+        "query": "Could you confirm if my printer is eligible for free repair? It has stopped connecting to Wi-Fi. My purchase receipt number is PR56789, and my customer ID is CUSTOMER1122. I also need the support contact details.",
+        "filled_param": {
+          "purchase_receipt": "PR56789",
+          "customer_id": "CUSTOMER1122",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "It has stopped connecting to Wi-Fi."
+        }
+      },
+      {
+        "query": "I need assistance with a warranty check for my printer that is printing faded text. Receipt ID is 87654RECEIPT and customer number is 99887ID. Please include the support contact info too.",
+        "filled_param": {
+          "purchase_receipt": "87654RECEIPT",
+          "customer_id": "99887ID",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "It is printing faded text."
+        }
+      },
+      {
+        "query": "I have trouble with my printer as it keeps displaying a paper jam error. Can you check its warranty status and send me the support contact details? My receipt number is 23456RECEIPT and my customer ID is ID45678.",
+        "filled_param": {
+          "purchase_receipt": "23456RECEIPT",
+          "customer_id": "ID45678",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "It keeps displaying a paper jam error."
+        }
+      }
+    ]
+  },
+  "FreeRepairInquiry_service|:|monitor|:|purchase_receipt,customer_id,warranty_check,include_support_contact,issue_description": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "monitor",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check",
+      "include_support_contact",
+      "issue_description"
+    ],
+    "queries": [
+      {
+        "query": "I've got a flickering issue with my monitor. My receipt number is 789456123, and my customer ID is CUST00123. Can you confirm if it's still under warranty and provide support contact info?",
+        "filled_param": {
+          "purchase_receipt": "789456123",
+          "customer_id": "CUST00123",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "flickering issue"
+        }
+      },
+      {
+        "query": "My monitor suddenly turns off randomly. The purchase receipt is PR123456, and the customer ID is ABCD98765. Can you verify the warranty and let me know whom to contact for help?",
+        "filled_param": {
+          "purchase_receipt": "PR123456",
+          "customer_id": "ABCD98765",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "suddenly turns off randomly"
+        }
+      },
+      {
+        "query": "I have a cracked screen on my monitor. Receipt number 654321987, customer ID XYZ12345. Is it still covered by warranty, and can you send me the support contact details?",
+        "filled_param": {
+          "purchase_receipt": "654321987",
+          "customer_id": "XYZ12345",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "cracked screen"
+        }
+      },
+      {
+        "query": "The colors on my monitor are distorted. My receipt number is 1122334455 and the customer ID is DEF67890. Could you check if it's under warranty and provide the customer support details?",
+        "filled_param": {
+          "purchase_receipt": "1122334455",
+          "customer_id": "DEF67890",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "colors are distorted"
+        }
+      },
+      {
+        "query": "There's a persistent buzzing noise coming from my monitor. Receipt: 9988776655, Customer ID: GHJ56789. Please confirm its warranty status and share the support contact info.",
+        "filled_param": {
+          "purchase_receipt": "9988776655",
+          "customer_id": "GHJ56789",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "persistent buzzing noise"
+        }
+      },
+      {
+        "query": "My monitor is not displaying any image. The receipt number is 4455667788 and my customer ID is LMN23456. Can you check if it's eligible for free repair under warranty and give me the support contact?",
+        "filled_param": {
+          "purchase_receipt": "4455667788",
+          "customer_id": "LMN23456",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "not displaying any image"
+        }
+      }
+    ]
+  },
+  "FreeRepairInquiry_service|:|refrigerator|:|purchase_receipt,customer_id,warranty_check,include_support_contact,issue_description": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "refrigerator",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check",
+      "include_support_contact",
+      "issue_description"
+    ],
+    "queries": [
+      {
+        "query": "My refrigerator isn't cooling properly. My customer ID is 123456 and my receipt number is 7890ABC. Please verify the warranty, and include support contact information.",
+        "filled_param": {
+          "purchase_receipt": "7890ABC",
+          "customer_id": "123456",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "Refrigerator isn't cooling properly"
+        }
+      },
+      {
+        "query": "The refrigerator is making loud noises. Can you check if it's still under warranty? My receipt number is 5555DEF and the customer ID is A1B2C3. Also, provide the support contact details.",
+        "filled_param": {
+          "purchase_receipt": "5555DEF",
+          "customer_id": "A1B2C3",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "Refrigerator is making loud noises"
+        }
+      },
+      {
+        "query": "I have a leakage issue with my refrigerator. My purchase receipt is 8888GHI and my customer ID is XYZ789. Check the warranty status and include the support contact info.",
+        "filled_param": {
+          "purchase_receipt": "8888GHI",
+          "customer_id": "XYZ789",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "Leakage issue"
+        }
+      },
+      {
+        "query": "The refrigerator light is not working. My customer ID is 2468ACE and the receipt number is 1357BDF. Can you confirm if it’s under warranty and give me the support contact?",
+        "filled_param": {
+          "purchase_receipt": "1357BDF",
+          "customer_id": "2468ACE",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "Refrigerator light is not working"
+        }
+      },
+      {
+        "query": "Can you tell me if my refrigerator with receipt 2222JKL and customer ID LMN123 is eligible for a free repair? It's not cooling sufficiently. Include the support contact details as well.",
+        "filled_param": {
+          "purchase_receipt": "2222JKL",
+          "customer_id": "LMN123",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "Not cooling sufficiently"
+        }
+      },
+      {
+        "query": "Please check whether my refrigerator is under warranty. The door seal is loose. Receipt number: 7777MNO, Customer ID: 555AAA. Also, send me the support contact information.",
+        "filled_param": {
+          "purchase_receipt": "7777MNO",
+          "customer_id": "555AAA",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "Door seal is loose"
+        }
+      }
+    ]
+  },
+  "FreeRepairInquiry_service|:|washing machine|:|purchase_receipt,customer_id,warranty_check,include_support_contact,issue_description": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "washing machine",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check",
+      "include_support_contact",
+      "issue_description"
+    ],
+    "queries": [
+      {
+        "query": "My washing machine is making loud noises and needs repair. The purchase receipt number is 12345-ABC, and my customer ID is CUST7890. Can you check the warranty status and provide customer support contact details?",
+        "filled_param": {
+          "purchase_receipt": "12345-ABC",
+          "customer_id": "CUST7890",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "washing machine is making loud noises"
+        }
+      },
+      {
+        "query": "I have a problem with my washing machine leaking water. The receipt number is XYZ6789 and my customer ID is USER123. Please verify if it's under warranty and include support contacts.",
+        "filled_param": {
+          "purchase_receipt": "XYZ6789",
+          "customer_id": "USER123",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "washing machine leaking water"
+        }
+      },
+      {
+        "query": "The washing machine is not spinning properly. My purchase receipt number is 56789-DEF, and the associated customer ID is CUST456. Could you perform a warranty check and send me the support contact information?",
+        "filled_param": {
+          "purchase_receipt": "56789-DEF",
+          "customer_id": "CUST456",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "washing machine is not spinning properly"
+        }
+      },
+      {
+        "query": "I need assistance as my washing machine won't start. My receipt number is 98765-GHI, and my customer ID is ID12345. Check the warranty and include support contact details, please.",
+        "filled_param": {
+          "purchase_receipt": "98765-GHI",
+          "customer_id": "ID12345",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "washing machine won't start"
+        }
+      },
+      {
+        "query": "The washing machine is vibrating excessively. Receipt number: 24680-JKL, Customer ID: CUST2020. Can you confirm its warranty status and provide contact for support?",
+        "filled_param": {
+          "purchase_receipt": "24680-JKL",
+          "customer_id": "CUST2020",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "washing machine vibrating excessively"
+        }
+      }
+    ]
+  },
+  "FreeRepairInquiry_service|:|air conditioner|:|purchase_receipt,customer_id,warranty_check,include_support_contact,issue_description": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "air conditioner",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check",
+      "include_support_contact",
+      "issue_description"
+    ],
+    "queries": [
+      {
+        "query": "Please help me check if my air conditioner can be repaired for free. My purchase receipt number is AC123456789, customer ID is CUST987654321, and there is a leakage issue. Could you also confirm the warranty and include support contact details?",
+        "filled_param": {
+          "purchase_receipt": "AC123456789",
+          "customer_id": "CUST987654321",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "leakage issue"
+        }
+      },
+      {
+        "query": "I need to know if my air conditioner qualifies for free repair. The receipt number is REC987654321 and the customer ID is ID123456789. The problem is that it's not cooling. Please perform a warranty check but no need for support contact information.",
+        "filled_param": {
+          "purchase_receipt": "REC987654321",
+          "customer_id": "ID123456789",
+          "warranty_check": true,
+          "include_support_contact": false,
+          "issue_description": "not cooling"
+        }
+      },
+      {
+        "query": "Check free repair eligibility for my air conditioner. The purchase receipt is 1122334455 and customer ID is 5544332211. It's making strange noises. I don't need support contact, but please verify the warranty.",
+        "filled_param": {
+          "purchase_receipt": "1122334455",
+          "customer_id": "5544332211",
+          "warranty_check": true,
+          "include_support_contact": false,
+          "issue_description": "making strange noises"
+        }
+      },
+      {
+        "query": "My air conditioner has stopped working and I want to know if a free repair is possible. The receipt number is AC0987654321, and the customer ID is CUST123098. Please check the warranty and provide support contact details.",
+        "filled_param": {
+          "purchase_receipt": "AC0987654321",
+          "customer_id": "CUST123098",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "stopped working"
+        }
+      },
+      {
+        "query": "Can you verify if my air conditioner can be repaired for free? The purchase receipt is 3344556677 and the customer ID is ID0987654321. It's having a power issue. I need both the warranty check and support contact details.",
+        "filled_param": {
+          "purchase_receipt": "3344556677",
+          "customer_id": "ID0987654321",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "power issue"
+        }
+      }
+    ]
+  },
+  "FreeRepairInquiry_service|:|microwave oven|:|purchase_receipt,customer_id,warranty_check,include_support_contact,issue_description": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "microwave oven",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check",
+      "include_support_contact",
+      "issue_description"
+    ],
+    "queries": [
+      {
+        "query": "I need to check if my microwave oven is eligible for a free repair. My receipt number is 12345ABCD, customer ID is CUST67890, and the microwave won't heat up properly. Please check the warranty and include support contact information.",
+        "filled_param": {
+          "purchase_receipt": "12345ABCD",
+          "customer_id": "CUST67890",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "the microwave won't heat up properly"
+        }
+      },
+      {
+        "query": "Can you verify if my microwave oven is still under warranty for a free repair? The purchase receipt is REC67891, and my customer ID is ID123456. The issue is that the buttons are not responding. Also, include the support contact details.",
+        "filled_param": {
+          "purchase_receipt": "REC67891",
+          "customer_id": "ID123456",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "the buttons are not responding"
+        }
+      },
+      {
+        "query": "I bought a microwave oven with the receipt number 67890XYZ and customer ID 98765CUST. The microwave is making unusual noises during operation. Could you check the warranty status and provide me with the support contact info?",
+        "filled_param": {
+          "purchase_receipt": "67890XYZ",
+          "customer_id": "98765CUST",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "microwave is making unusual noises during operation"
+        }
+      },
+      {
+        "query": "Please see if my microwave oven qualifies for a free repair. My purchase receipt is A1B2C3D4 and customer ID is U1234567. It has a problem where it shuts off unexpectedly. Also, share the support contact details.",
+        "filled_param": {
+          "purchase_receipt": "A1B2C3D4",
+          "customer_id": "U1234567",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "microwave shuts off unexpectedly"
+        }
+      },
+      {
+        "query": "My microwave oven, with receipt number 5555AAAA and customer ID CUST99999, has a broken door latch. Can you confirm if it's eligible for free repair under warranty and include the customer support contact?",
+        "filled_param": {
+          "purchase_receipt": "5555AAAA",
+          "customer_id": "CUST99999",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "broken door latch"
+        }
+      }
+    ]
+  },
+  "FreeRepairInquiry_service|:|dishwasher|:|purchase_receipt,customer_id,warranty_check,include_support_contact,issue_description": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "dishwasher",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check",
+      "include_support_contact",
+      "issue_description"
+    ],
+    "queries": [
+      {
+        "query": "I need to check if my dishwasher is eligible for free repair. The purchase receipt number is 12345ABC, and my customer ID is CUST7890. The dishwasher is not draining properly. Please include customer support contact details.",
+        "filled_param": {
+          "purchase_receipt": "12345ABC",
+          "customer_id": "CUST7890",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "The dishwasher is not draining properly."
+        }
+      },
+      {
+        "query": "Can you confirm if my dishwasher qualifies for a free repair? My purchase receipt is 98765XYZ, and customer ID is CUST1234. The issue is that it's making a loud noise. I don't need customer support contact.",
+        "filled_param": {
+          "purchase_receipt": "98765XYZ",
+          "customer_id": "CUST1234",
+          "warranty_check": true,
+          "include_support_contact": false,
+          "issue_description": "The dishwasher is making a loud noise."
+        }
+      },
+      {
+        "query": "I've got a dishwasher that's leaking water. My purchase receipt is RECEIPT5678, and my customer ID is USER2468. Can you check the warranty for a free repair and provide support contacts?",
+        "filled_param": {
+          "purchase_receipt": "RECEIPT5678",
+          "customer_id": "USER2468",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "The dishwasher is leaking water."
+        }
+      },
+      {
+        "query": "I want to inquire about free repair for my dishwasher. The purchase receipt number is 54321DEF and my customer ID is CUST9876. There is an issue with the cleaning cycle not completing. No need for customer support contact.",
+        "filled_param": {
+          "purchase_receipt": "54321DEF",
+          "customer_id": "CUST9876",
+          "warranty_check": true,
+          "include_support_contact": false,
+          "issue_description": "The cleaning cycle is not completing."
+        }
+      },
+      {
+        "query": "Please help me with a free repair inquiry for my dishwasher. My purchase receipt number is 11223GHI, and my customer ID is CLIENT1357. It keeps showing an error code. I also need customer support contact details.",
+        "filled_param": {
+          "purchase_receipt": "11223GHI",
+          "customer_id": "CLIENT1357",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "The dishwasher keeps showing an error code."
+        }
+      }
+    ]
+  },
+  "FreeRepairInquiry_service|:|soy milk maker|:|purchase_receipt,customer_id,warranty_check,include_support_contact,issue_description": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "soy milk maker",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check",
+      "include_support_contact",
+      "issue_description"
+    ],
+    "queries": [
+      {
+        "query": "I have a problem with my soy milk maker; it's leaking. My purchase receipt number is 1234-5678, and my customer ID is CUST-001. Can you check if it's still under warranty and provide the support contact information?",
+        "filled_param": {
+          "purchase_receipt": "1234-5678",
+          "customer_id": "CUST-001",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "it's leaking"
+        }
+      },
+      {
+        "query": "My soy milk maker isn't turning on. The receipt number is 8765-4321 and my customer ID is CUST-002. Please confirm if I can get a free repair under warranty and include support contact details.",
+        "filled_param": {
+          "purchase_receipt": "8765-4321",
+          "customer_id": "CUST-002",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "isn't turning on"
+        }
+      },
+      {
+        "query": "The soy milk maker I bought is making a loud noise. Here's my receipt number 1122-3344 and my customer ID is CUST-003. I need to know if it's covered under warranty, but I don't need the support contact details.",
+        "filled_param": {
+          "purchase_receipt": "1122-3344",
+          "customer_id": "CUST-003",
+          "warranty_check": true,
+          "include_support_contact": false,
+          "issue_description": "making a loud noise"
+        }
+      },
+      {
+        "query": "Can you verify if my soy milk maker, which is overheating, is eligible for warranty repair? My purchase receipt is 5566-7788, and my customer ID is CUST-004. I also want the contact details for support.",
+        "filled_param": {
+          "purchase_receipt": "5566-7788",
+          "customer_id": "CUST-004",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "overheating"
+        }
+      },
+      {
+        "query": "I've noticed my soy milk maker is not producing milk properly. My receipt number is 9999-0000, customer ID CUST-005. Can you check for warranty eligibility? No need for support contact.",
+        "filled_param": {
+          "purchase_receipt": "9999-0000",
+          "customer_id": "CUST-005",
+          "warranty_check": true,
+          "include_support_contact": false,
+          "issue_description": "not producing milk properly"
+        }
+      }
+    ]
+  },
+  "FreeRepairInquiry_service|:|vacuum cleaner|:|purchase_receipt,customer_id,warranty_check,include_support_contact,issue_description": {
+    "tool_template_name": "FreeRepairInquiry_service",
+    "derived_class": "vacuum cleaner",
+    "params_for_query": [
+      "purchase_receipt",
+      "customer_id",
+      "warranty_check",
+      "include_support_contact",
+      "issue_description"
+    ],
+    "queries": [
+      {
+        "query": "I need to know if my vacuum cleaner is eligible for free repair. The purchase receipt number is 12345AB, customer ID is CUST6789, and it has a broken handle. Please include support contact and perform a warranty check.",
+        "filled_param": {
+          "purchase_receipt": "12345AB",
+          "customer_id": "CUST6789",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "broken handle"
+        }
+      },
+      {
+        "query": "Can you verify free repair eligibility for my vacuum cleaner? The receipt is 78910XZ, customer ID is USER1234. It's making unusual noises. Please check the warranty and provide support contact details.",
+        "filled_param": {
+          "purchase_receipt": "78910XZ",
+          "customer_id": "USER1234",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "making unusual noises"
+        }
+      },
+      {
+        "query": "My vacuum cleaner's suction power is reduced; receipt number 54321CD, customer ID CLIENT8765. I need a warranty check and support contact.",
+        "filled_param": {
+          "purchase_receipt": "54321CD",
+          "customer_id": "CLIENT8765",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "reduced suction power"
+        }
+      },
+      {
+        "query": "Please inform me if my vacuum cleaner with receipt 11223EF and customer ID ACCOUNT3456 is under warranty for a free repair. The issue is a non-responsive power button. Include contact for support.",
+        "filled_param": {
+          "purchase_receipt": "11223EF",
+          "customer_id": "ACCOUNT3456",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "non-responsive power button"
+        }
+      },
+      {
+        "query": "For my vacuum cleaner with receipt 66789GH and customer ID CLIENT5678, the brush roll is not spinning. Perform a warranty check and provide support contact.",
+        "filled_param": {
+          "purchase_receipt": "66789GH",
+          "customer_id": "CLIENT5678",
+          "warranty_check": true,
+          "include_support_contact": true,
+          "issue_description": "brush roll not spinning"
+        }
+      }
+    ]
+  }
+}

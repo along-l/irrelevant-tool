@@ -1,0 +1,64 @@
+{
+  "tool_template_name": "get_reservation_details",
+  "meta_data": {
+    "base_class": "Retrieve booking details of <services> based on user ID - refers to various types of reservable services.",
+    "derived_classes": [
+      "restaurant dining",
+      "hotel stay",
+      "Disney park visit",
+      "Universal Studios visit",
+      "movie theater",
+      "flight",
+      "high-speed train",
+      "concert",
+      "sports event",
+      "hospital appointment",
+      "psychological counseling",
+      "legal consultation",
+      "housekeeping service",
+      "yoga class",
+      "karaoke room"
+    ],
+    "base_class_entity": ""
+  },
+  "tool_template": {
+    "name": "get_<class>_reservation_details",
+    "description": "Retrieve <class> reservation details based on user ID.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "user_id": {
+          "type": "string",
+          "description": "The ID of the user."
+        }
+      },
+      "required": [
+        "user_id"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "reservation_id": {
+      "type": "string",
+      "description": "The reservation ID of the <class> booking."
+    }
+  },
+  "additional_params": {
+    "reservation_date": {
+      "type": "string",
+      "description": "The date for which the <class> reservation is booked, in YYYY-MM-DD format."
+    },
+    "reservation_time": {
+      "type": "string",
+      "description": "The time of day for the <class> reservation, in 24-hour format (HH:MM). Information around this time will be retrieved."
+    },
+    "reservation_status": {
+      "type": "string",
+      "description": "The current status of the <class> reservation, such as confirmed, pending, or canceled."
+    },
+    "special_requests": {
+      "type": "string",
+      "description": "Any special requests or notes associated with the <class> reservation."
+    }
+  }
+}

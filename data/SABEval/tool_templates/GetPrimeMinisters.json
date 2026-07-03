@@ -1,0 +1,62 @@
+{
+  "tool_template_name": "GetPrimeMinisters",
+  "meta_data": {
+    "base_class": "Retrieve the current names of <political leadership positions> for specified countries — these positions are all queried with countries as the indexing parameter.",
+    "derived_classes": [
+      "presidents",
+      "ministers of defense",
+      "ministers of foreign affairs",
+      "ministers of finance",
+      "ministers of health",
+      "ministers of education",
+      "ministers of science and technology",
+      "ministers of transport",
+      "ministers of agriculture",
+      "chief justices of the Supreme Court",
+      "ambassadors to the United Nations"
+    ],
+    "base_class_entity": "prime ministers"
+  },
+  "tool_template": {
+    "name": "Get<class>Names",
+    "description": "Retrieves the current <class> names for a list of specified countries.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "countries": {
+          "type": "array",
+          "description": "An array of country names for which to retrieve the current <class> names. Each country name should be in the format of its common English full name.",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "countries"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "start_date": {
+      "type": "string",
+      "description": "The start date from which to retrieve the current <class> names, in the format YYYY-MM-DD."
+    },
+    "end_date": {
+      "type": "string",
+      "description": "The end date up to which to retrieve the current <class> names, in the format YYYY-MM-DD."
+    },
+    "include_interim": {
+      "type": "boolean",
+      "description": "Indicates whether to include interim or acting <class> in the results."
+    },
+    "sort_order": {
+      "type": "string",
+      "description": "Specifies the order in which to return the <class> names, being 'by start date', 'by country' or 'by tenure'"
+    },
+    "output_format": {
+      "type": "string",
+      "description": "The format in which to return the results. Options are 'json', 'csv'."
+    }
+  }
+}

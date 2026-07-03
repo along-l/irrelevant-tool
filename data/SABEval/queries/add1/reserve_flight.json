@@ -1,0 +1,230 @@
+{
+  "reserve_flight|:|flight|:|user_id,reservation_no,cabin,password": {
+    "tool_template_name": "reserve_flight",
+    "derived_class": "flight",
+    "params_for_query": [
+      "user_id",
+      "reservation_no",
+      "cabin",
+      "password"
+    ],
+    "queries": [
+      {
+        "query": "Please book my flight using user ID 12345 and reservation number ABC123 in economy class. My password is P@ssw0rd!",
+        "filled_param": {
+          "user_id": "12345",
+          "reservation_no": "ABC123",
+          "cabin": "economy",
+          "password": "P@ssw0rd!"
+        }
+      },
+      {
+        "query": "I need to reserve a flight with reservation number DEF456 under business class. User ID is 67890, and the password is 5ecureP@ss.",
+        "filled_param": {
+          "user_id": "67890",
+          "reservation_no": "DEF456",
+          "cabin": "business",
+          "password": "5ecureP@ss"
+        }
+      },
+      {
+        "query": "Can you help me book a flight? My user ID is 11223, reservation number is GHI789, and I want first class. The password is Tr@v3l123.",
+        "filled_param": {
+          "user_id": "11223",
+          "reservation_no": "GHI789",
+          "cabin": "first",
+          "password": "Tr@v3l123"
+        }
+      },
+      {
+        "query": "Reserve a flight for me in premium economy using reservation number JKL012. My user ID is 33445, and the password is Fl1ghtP@ss.",
+        "filled_param": {
+          "user_id": "33445",
+          "reservation_no": "JKL012",
+          "cabin": "premium economy",
+          "password": "Fl1ghtP@ss"
+        }
+      },
+      {
+        "query": "Book the flight with reservation number MNO345 for user ID 55667 in the business class. My password is MyP@ssw0rd4.",
+        "filled_param": {
+          "user_id": "55667",
+          "reservation_no": "MNO345",
+          "cabin": "business",
+          "password": "MyP@ssw0rd4"
+        }
+      }
+    ]
+  },
+  "reserve_flight|:|high-speed train|:|user_id,reservation_no,cabin,password": {
+    "tool_template_name": "reserve_flight",
+    "derived_class": "high-speed train",
+    "params_for_query": [
+      "user_id",
+      "reservation_no",
+      "cabin",
+      "password"
+    ],
+    "queries": [
+      {
+        "query": "Please book a high-speed train for me using user ID u12345, reservation number res67890, in first-class cabin. My password is pass1234.",
+        "filled_param": {
+          "user_id": "u12345",
+          "reservation_no": "res67890",
+          "cabin": "first-class",
+          "password": "pass1234"
+        }
+      },
+      {
+        "query": "I need to reserve a seat on a high-speed train. My user ID is user789, the reservation number is 456def, I'd like to travel in economy cabin, and my password is secure5678.",
+        "filled_param": {
+          "user_id": "user789",
+          "reservation_no": "456def",
+          "cabin": "economy",
+          "password": "secure5678"
+        }
+      },
+      {
+        "query": "Book a high-speed train ticket for me. User ID: johnDoe44, reservation number: 222aaa, cabin: business, password: myPassword!",
+        "filled_param": {
+          "user_id": "johnDoe44",
+          "reservation_no": "222aaa",
+          "cabin": "business",
+          "password": "myPassword!"
+        }
+      },
+      {
+        "query": "Can you reserve a high-speed train seat for user ID alpha99 with reservation no. 999xyz in the premium cabin? My password is alphaPass9.",
+        "filled_param": {
+          "user_id": "alpha99",
+          "reservation_no": "999xyz",
+          "cabin": "premium",
+          "password": "alphaPass9"
+        }
+      },
+      {
+        "query": "I'd like to book a high-speed train with user ID beta_1234, reservation code 12345zxc, in the standard cabin. My password is secureMe123.",
+        "filled_param": {
+          "user_id": "beta_1234",
+          "reservation_no": "12345zxc",
+          "cabin": "standard",
+          "password": "secureMe123"
+        }
+      }
+    ]
+  },
+  "reserve_flight|:|cruise ship|:|user_id,reservation_no,cabin,password": {
+    "tool_template_name": "reserve_flight",
+    "derived_class": "cruise ship",
+    "params_for_query": [
+      "user_id",
+      "reservation_no",
+      "cabin",
+      "password"
+    ],
+    "queries": [
+      {
+        "query": "I want to book a cruise ship with user ID U12345, reservation number R67890, in the deluxe cabin section, and my account password is Pass@1234.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_no": "R67890",
+          "cabin": "deluxe",
+          "password": "Pass@1234"
+        }
+      },
+      {
+        "query": "Please reserve a cruise ship for me with user ID U54321, reservation number R98765, in the economy cabin. My password is SecurePass!567.",
+        "filled_param": {
+          "user_id": "U54321",
+          "reservation_no": "R98765",
+          "cabin": "economy",
+          "password": "SecurePass!567"
+        }
+      },
+      {
+        "query": "Can you book a cruise ship for user ID U11223 using reservation number R33445? I want the suite cabin, and my password is MyP@ssw0rd.",
+        "filled_param": {
+          "user_id": "U11223",
+          "reservation_no": "R33445",
+          "cabin": "suite",
+          "password": "MyP@ssw0rd"
+        }
+      },
+      {
+        "query": "I'd like to make a cruise ship reservation with user ID U99887, reservation number R77665, in the balcony cabin. My password is Passw0rd#123.",
+        "filled_param": {
+          "user_id": "U99887",
+          "reservation_no": "R77665",
+          "cabin": "balcony",
+          "password": "Passw0rd#123"
+        }
+      },
+      {
+        "query": "Reserve a cruise ship under user ID U56789 for reservation number R12345 in the interior cabin. The account password is StrongPass!789.",
+        "filled_param": {
+          "user_id": "U56789",
+          "reservation_no": "R12345",
+          "cabin": "interior",
+          "password": "StrongPass!789"
+        }
+      }
+    ]
+  },
+  "reserve_flight|:|long-distance bus|:|user_id,reservation_no,cabin,password": {
+    "tool_template_name": "reserve_flight",
+    "derived_class": "long-distance bus",
+    "params_for_query": [
+      "user_id",
+      "reservation_no",
+      "cabin",
+      "password"
+    ],
+    "queries": [
+      {
+        "query": "Please book a long-distance bus using user ID 12345 with reservation number 67890 in the premium cabin. My password is mySecurePass123.",
+        "filled_param": {
+          "user_id": "12345",
+          "reservation_no": "67890",
+          "cabin": "premium",
+          "password": "mySecurePass123"
+        }
+      },
+      {
+        "query": "I need to reserve a long-distance bus seat in the economy class. My user ID is user987, and the reservation number is 54321. My password is PassWord321.",
+        "filled_param": {
+          "user_id": "user987",
+          "reservation_no": "54321",
+          "cabin": "economy",
+          "password": "PassWord321"
+        }
+      },
+      {
+        "query": "Can you book a long-distance bus for me? My user ID is U1234, reservation number is R5678, and I want a seat in the standard cabin. The password is Pass1234.",
+        "filled_param": {
+          "user_id": "U1234",
+          "reservation_no": "R5678",
+          "cabin": "standard",
+          "password": "Pass1234"
+        }
+      },
+      {
+        "query": "I would like to confirm a long-distance bus reservation using user ID ID567, reservation number 90123, in the business cabin. The password is MyPass567!",
+        "filled_param": {
+          "user_id": "ID567",
+          "reservation_no": "90123",
+          "cabin": "business",
+          "password": "MyPass567!"
+        }
+      },
+      {
+        "query": "Reserve a long-distance bus for me with user ID 7890, reservation number 11223, in the luxury cabin. My password for authentication is Secure7890.",
+        "filled_param": {
+          "user_id": "7890",
+          "reservation_no": "11223",
+          "cabin": "luxury",
+          "password": "Secure7890"
+        }
+      }
+    ]
+  }
+}

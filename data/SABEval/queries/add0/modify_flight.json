@@ -1,0 +1,206 @@
+{
+  "modify_flight|:|flight|:|user_id,reservation_id,new_schedule_no": {
+    "tool_template_name": "modify_flight",
+    "derived_class": "flight",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "new_schedule_no"
+    ],
+    "queries": [
+      {
+        "query": "I need to change my flight with reservation ID 12345 to the new schedule number 67890 as user ID U001.",
+        "filled_param": {
+          "user_id": "U001",
+          "reservation_id": "12345",
+          "new_schedule_no": "67890"
+        }
+      },
+      {
+        "query": "As user ID A123, please modify my flight reservation with ID 98765 to the new schedule number 54321.",
+        "filled_param": {
+          "user_id": "A123",
+          "reservation_id": "98765",
+          "new_schedule_no": "54321"
+        }
+      },
+      {
+        "query": "Update my flight booking for user ID B456 with reservation ID 11223 to new schedule number 33445.",
+        "filled_param": {
+          "user_id": "B456",
+          "reservation_id": "11223",
+          "new_schedule_no": "33445"
+        }
+      },
+      {
+        "query": "I'd like to change my flight for user ID Z789 from reservation ID 44556 to the new schedule 66778.",
+        "filled_param": {
+          "user_id": "Z789",
+          "reservation_id": "44556",
+          "new_schedule_no": "66778"
+        }
+      },
+      {
+        "query": "For user ID C333, can you modify my flight reservation 88990 to new schedule number 99887?",
+        "filled_param": {
+          "user_id": "C333",
+          "reservation_id": "88990",
+          "new_schedule_no": "99887"
+        }
+      }
+    ]
+  },
+  "modify_flight|:|high-speed train|:|user_id,reservation_id,new_schedule_no": {
+    "tool_template_name": "modify_flight",
+    "derived_class": "high-speed train",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "new_schedule_no"
+    ],
+    "queries": [
+      {
+        "query": "I'd like to change my high-speed train booking with reservation ID 12345 to the new schedule number 6789. My user ID is user_001.",
+        "filled_param": {
+          "user_id": "user_001",
+          "reservation_id": "12345",
+          "new_schedule_no": "6789"
+        }
+      },
+      {
+        "query": "Please modify my high-speed train reservation. The reservation ID is 54321, and I want to switch to schedule number 9876. My user ID is user_999.",
+        "filled_param": {
+          "user_id": "user_999",
+          "reservation_id": "54321",
+          "new_schedule_no": "9876"
+        }
+      },
+      {
+        "query": "I need to update my high-speed train booking. The reservation ID is AB123, and I want to change it to schedule number CD456. My user ID is traveler_123.",
+        "filled_param": {
+          "user_id": "traveler_123",
+          "reservation_id": "AB123",
+          "new_schedule_no": "CD456"
+        }
+      },
+      {
+        "query": "Switch my high-speed train reservation from its current schedule to the new schedule number 1122. The reservation ID is 3344, and my user ID is user_567.",
+        "filled_param": {
+          "user_id": "user_567",
+          "reservation_id": "3344",
+          "new_schedule_no": "1122"
+        }
+      },
+      {
+        "query": "Can you alter my high-speed train reservation with ID 7890 to the schedule 1234? My user ID is user_abc.",
+        "filled_param": {
+          "user_id": "user_abc",
+          "reservation_id": "7890",
+          "new_schedule_no": "1234"
+        }
+      }
+    ]
+  },
+  "modify_flight|:|cruise ship|:|user_id,reservation_id,new_schedule_no": {
+    "tool_template_name": "modify_flight",
+    "derived_class": "cruise ship",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "new_schedule_no"
+    ],
+    "queries": [
+      {
+        "query": "I need to change my cruise ship reservation with user ID U12345 to the new schedule number S98765. The current reservation ID is R54321.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R54321",
+          "new_schedule_no": "S98765"
+        }
+      },
+      {
+        "query": "Please update my cruise ship booking. User ID: U67890, Reservation ID: R67890, switch to schedule number S12345.",
+        "filled_param": {
+          "user_id": "U67890",
+          "reservation_id": "R67890",
+          "new_schedule_no": "S12345"
+        }
+      },
+      {
+        "query": "Can you modify my cruise ship reservation? My user ID is U22222, reservation ID is R33333, and I want to switch to schedule number S44444.",
+        "filled_param": {
+          "user_id": "U22222",
+          "reservation_id": "R33333",
+          "new_schedule_no": "S44444"
+        }
+      },
+      {
+        "query": "I'd like to alter my cruise ship booking. User ID: U99999, Reservation ID to change: R88888, new schedule number: S77777.",
+        "filled_param": {
+          "user_id": "U99999",
+          "reservation_id": "R88888",
+          "new_schedule_no": "S77777"
+        }
+      },
+      {
+        "query": "Assist me in updating my cruise ship reservation. My user ID is U55555, current reservation ID is R44444, and I want the new schedule number S33333.",
+        "filled_param": {
+          "user_id": "U55555",
+          "reservation_id": "R44444",
+          "new_schedule_no": "S33333"
+        }
+      }
+    ]
+  },
+  "modify_flight|:|long-distance bus|:|user_id,reservation_id,new_schedule_no": {
+    "tool_template_name": "modify_flight",
+    "derived_class": "long-distance bus",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "new_schedule_no"
+    ],
+    "queries": [
+      {
+        "query": "I need to modify my long-distance bus reservation. My user ID is U12345, the reservation ID is R67890, and I want to change to the new schedule number S09876.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890",
+          "new_schedule_no": "S09876"
+        }
+      },
+      {
+        "query": "Can you update my long-distance bus reservation? The user ID is U54321, the reservation ID is R98765, and please switch to the schedule number S12345.",
+        "filled_param": {
+          "user_id": "U54321",
+          "reservation_id": "R98765",
+          "new_schedule_no": "S12345"
+        }
+      },
+      {
+        "query": "Please modify my long-distance bus booking. My user ID is A11223, with reservation ID B33445, to the new schedule number C55667.",
+        "filled_param": {
+          "user_id": "A11223",
+          "reservation_id": "B33445",
+          "new_schedule_no": "C55667"
+        }
+      },
+      {
+        "query": "I'd like to change my long-distance bus reservation. The user ID is X99999, the reservation ID is Y88888, and I want to switch to schedule number Z77777.",
+        "filled_param": {
+          "user_id": "X99999",
+          "reservation_id": "Y88888",
+          "new_schedule_no": "Z77777"
+        }
+      },
+      {
+        "query": "Help me update my long-distance bus booking. My user ID is M45678, reservation ID is N12345, and I wish to change to schedule number P98765.",
+        "filled_param": {
+          "user_id": "M45678",
+          "reservation_id": "N12345",
+          "new_schedule_no": "P98765"
+        }
+      }
+    ]
+  }
+}

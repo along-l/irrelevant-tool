@@ -1,0 +1,64 @@
+{
+  "tool_template_name": "create_player_profile",
+  "meta_data": {
+    "base_class": "create a controllable character profile within a given <specific game name> game - these games all support player creation, class selection, and level progression systems.",
+    "derived_classes": [
+      "World of Warcraft",
+      "Diablo III",
+      "The Elder Scrolls V: Skyrim",
+      "Final Fantasy XIV",
+      "Baldur's Gate 3",
+      "Dragon Age: Inquisition",
+      "Star Wars: The Old Republic",
+      "Guild Wars 2",
+      "ArcheAge",
+      "Path of Exile"
+    ],
+    "base_class_entity": "player character"
+  },
+  "tool_template": {
+    "name": "create_<class>_profile",
+    "description": "Create a new profile in game <class> with character name, class, and starting level.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "player_name": {
+          "type": "string",
+          "description": "The desired name of the player in <class>."
+        },
+        "_class": {
+          "type": "string",
+          "description": "The character class (or profession) for the player in <class>."
+        }
+      },
+      "required": [
+        "player_name",
+        "_class"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "starting_level": {
+      "type": "integer",
+      "description": "The starting level for the player in <class>."
+    }
+  },
+  "additional_params": {
+    "race": {
+      "type": "string",
+      "description": "The race or species of the character in <class>, which may affect the character's abilities or attributes."
+    },
+    "difficulty_level": {
+      "type": "string",
+      "description": "The difficulty level setting for the game in <class>, which can range from easy to challenging modes."
+    },
+    "game_region": {
+      "type": "string",
+      "description": "The in-game region where the player wishes to start in <class>."
+    },
+    "appearance_customization": {
+      "type": "boolean",
+      "description": "Whether to enable detailed appearance customization for the character in <class>, allowing for latter unique visual personalization."
+    }
+  }
+}

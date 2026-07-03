@@ -1,0 +1,54 @@
+{
+  "tool_template_name": "team_api.TeamApi.delete_api_key",
+  "meta_data": {
+    "base_class": "delete a specified <service platform> API key from the team's account, removing its access to the API - these platforms all provide API key management and access control functions.",
+    "derived_classes": [
+      "OpenAI",
+      "Google Cloud",
+      "AWS",
+      "Azure",
+      "GitHub",
+      "Hugging Face",
+      "Slack",
+      "Notion",
+      "Anthropic",
+      "IBM Cloud"
+    ],
+    "base_class_entity": "API platform"
+  },
+  "tool_template": {
+    "name": "delete_<class>_api_key",
+    "description": "Delete a specified <class> platform API key from the team's account, removing its access to the API.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "apikey": {
+          "type": "string",
+          "description": "The unique identifier for the <class> platform API key that needs to be deleted."
+        }
+      },
+      "required": [
+        "apikey"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "confirmation_required": {
+      "type": "boolean",
+      "description": "Indicates whether a confirmation prompt should be shown before deleting the <class> API key."
+    },
+    "deletion_reason": {
+      "type": "string",
+      "description": "The reason for deleting the <class> API key, to be logged for audit purposes."
+    },
+    "user_id": {
+      "type": "string",
+      "description": "The identifier of the user requesting the deletion of the <class> API key."
+    },
+    "notify_team": {
+      "type": "boolean",
+      "description": "Determines if a notification should be sent to the team upon successful deletion of the <class> API key."
+    }
+  }
+}

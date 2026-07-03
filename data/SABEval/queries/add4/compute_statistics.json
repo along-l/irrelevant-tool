@@ -1,0 +1,729 @@
+{
+  "compute_statistics|:|mean|:|data_path,decimal_places,column_name,missing_value_handling,output_format": {
+    "tool_template_name": "compute_statistics",
+    "derived_class": "mean",
+    "params_for_query": [
+      "data_path",
+      "decimal_places",
+      "column_name",
+      "missing_value_handling",
+      "output_format"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the mean for the column 'temperature' in the dataset located at '/data/weather_data.csv', rounding to 2 decimal places, ignoring missing values, and output the result in JSON format.",
+        "filled_param": {
+          "data_path": "/data/weather_data.csv",
+          "decimal_places": 2,
+          "column_name": "temperature",
+          "missing_value_handling": "ignore",
+          "output_format": "json"
+        }
+      },
+      {
+        "query": "What's the mean of the 'sales' column found in '/mnt/data/sales_records.csv'? Round the result to 3 decimal places, fill missing values with zero, and provide the output as a CSV file.",
+        "filled_param": {
+          "data_path": "/mnt/data/sales_records.csv",
+          "decimal_places": 3,
+          "column_name": "sales",
+          "missing_value_handling": "fill_zero",
+          "output_format": "csv"
+        }
+      },
+      {
+        "query": "Please compute the mean for 'height' from '/home/user/height_data.csv', rounded to 1 decimal, handling missing values by filling with one, and deliver the result in text format.",
+        "filled_param": {
+          "data_path": "/home/user/height_data.csv",
+          "decimal_places": 1,
+          "column_name": "height",
+          "missing_value_handling": "fill_one",
+          "output_format": "text"
+        }
+      },
+      {
+        "query": "Find the mean of the 'weight' column in the dataset at '/datasets/weight_data.csv', rounding to 2 decimal places, ignore any missing values, and generate the output in CSV format.",
+        "filled_param": {
+          "data_path": "/datasets/weight_data.csv",
+          "decimal_places": 2,
+          "column_name": "weight",
+          "missing_value_handling": "ignore",
+          "output_format": "csv"
+        }
+      },
+      {
+        "query": "Determine the mean for 'income' in the file located at '/files/income.csv', round to 4 decimal places, fill missing entries with zero, and present the output as a JSON file.",
+        "filled_param": {
+          "data_path": "/files/income.csv",
+          "decimal_places": 4,
+          "column_name": "income",
+          "missing_value_handling": "fill_zero",
+          "output_format": "json"
+        }
+      },
+      {
+        "query": "Please calculate the mean of 'age' in '/local/data/population.csv', rounded to 0 decimal places, fill any missing values with one, and provide the result in text format.",
+        "filled_param": {
+          "data_path": "/local/data/population.csv",
+          "decimal_places": 0,
+          "column_name": "age",
+          "missing_value_handling": "fill_one",
+          "output_format": "text"
+        }
+      }
+    ]
+  },
+  "compute_statistics|:|median|:|data_path,decimal_places,column_name,missing_value_handling,output_format": {
+    "tool_template_name": "compute_statistics",
+    "derived_class": "median",
+    "params_for_query": [
+      "data_path",
+      "decimal_places",
+      "column_name",
+      "missing_value_handling",
+      "output_format"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the median for the 'height' column from the dataset located at '/datasets/person_data.csv', rounding to 2 decimal places. Please ignore any missing values and output the result in JSON format.",
+        "filled_param": {
+          "data_path": "/datasets/person_data.csv",
+          "decimal_places": 2,
+          "column_name": "height",
+          "missing_value_handling": "ignore",
+          "output_format": "json"
+        }
+      },
+      {
+        "query": "Find the median of the 'sales' column in '/datasets/monthly_sales.csv'. Use 1 decimal place, fill missing values with zero, and provide the result in a text file.",
+        "filled_param": {
+          "data_path": "/datasets/monthly_sales.csv",
+          "decimal_places": 1,
+          "column_name": "sales",
+          "missing_value_handling": "fill_zero",
+          "output_format": "text"
+        }
+      },
+      {
+        "query": "Compute the median for the column 'age' from '/data/employee_records.csv', rounding to 3 decimals. Handle missing data by filling with one, and deliver the output as a CSV.",
+        "filled_param": {
+          "data_path": "/data/employee_records.csv",
+          "decimal_places": 3,
+          "column_name": "age",
+          "missing_value_handling": "fill_one",
+          "output_format": "csv"
+        }
+      },
+      {
+        "query": "I need the median of the 'income' field from the file '/user_data/financials.csv', with a precision of 2 decimal places. Ignore any missing entries and export the data in text format.",
+        "filled_param": {
+          "data_path": "/user_data/financials.csv",
+          "decimal_places": 2,
+          "column_name": "income",
+          "missing_value_handling": "ignore",
+          "output_format": "text"
+        }
+      },
+      {
+        "query": "Please provide the median of the 'temperature' column located at '/weather_data/records.csv'. Use 0 decimal places, fill missing spots with zeroes, and provide a JSON output.",
+        "filled_param": {
+          "data_path": "/weather_data/records.csv",
+          "decimal_places": 0,
+          "column_name": "temperature",
+          "missing_value_handling": "fill_zero",
+          "output_format": "json"
+        }
+      },
+      {
+        "query": "Can you determine the median for the 'score' column in the dataset '/games/score_data.csv'? Use 1 decimal place and fill missing values with ones. The result should be in CSV format.",
+        "filled_param": {
+          "data_path": "/games/score_data.csv",
+          "decimal_places": 1,
+          "column_name": "score",
+          "missing_value_handling": "fill_one",
+          "output_format": "csv"
+        }
+      }
+    ]
+  },
+  "compute_statistics|:|mode|:|data_path,decimal_places,column_name,missing_value_handling,output_format": {
+    "tool_template_name": "compute_statistics",
+    "derived_class": "mode",
+    "params_for_query": [
+      "data_path",
+      "decimal_places",
+      "column_name",
+      "missing_value_handling",
+      "output_format"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the mode of the 'temperature' column in my dataset located at '/datasets/weather_data.csv', rounding to 2 decimal places and fill missing values with zero. I need the result in CSV format.",
+        "filled_param": {
+          "data_path": "/datasets/weather_data.csv",
+          "decimal_places": 2,
+          "column_name": "temperature",
+          "missing_value_handling": "fill_zero",
+          "output_format": "csv"
+        }
+      },
+      {
+        "query": "Can you find the mode of the 'sales' column from the file '/data/sales_report.csv', ignoring any missing values, and produce the output in JSON format rounded to 1 decimal place?",
+        "filled_param": {
+          "data_path": "/data/sales_report.csv",
+          "decimal_places": 1,
+          "column_name": "sales",
+          "missing_value_handling": "ignore",
+          "output_format": "json"
+        }
+      },
+      {
+        "query": "What is the mode of the 'age' column in the CSV found at '/user_data/profiles.csv', fill missing data with one, and return the result in text format with 0 decimal places?",
+        "filled_param": {
+          "data_path": "/user_data/profiles.csv",
+          "decimal_places": 0,
+          "column_name": "age",
+          "missing_value_handling": "fill_one",
+          "output_format": "text"
+        }
+      },
+      {
+        "query": "I need to compute the mode for the 'price' column in the dataset '/finance/prices.csv', rounding to 3 decimal places, and any missing values should be ignored. Please give me the output in CSV format.",
+        "filled_param": {
+          "data_path": "/finance/prices.csv",
+          "decimal_places": 3,
+          "column_name": "price",
+          "missing_value_handling": "ignore",
+          "output_format": "csv"
+        }
+      },
+      {
+        "query": "Determine the mode of the 'height' column in the file at '/data/measurements.csv', using zero to fill missing values, and return the results in a JSON file with 4 decimal places.",
+        "filled_param": {
+          "data_path": "/data/measurements.csv",
+          "decimal_places": 4,
+          "column_name": "height",
+          "missing_value_handling": "fill_zero",
+          "output_format": "json"
+        }
+      },
+      {
+        "query": "Calculate the mode for the 'weight' column from '/datasets/body_metrics.csv', rounding to 2 decimal places, with missing values filled by one, and provide the output in text format.",
+        "filled_param": {
+          "data_path": "/datasets/body_metrics.csv",
+          "decimal_places": 2,
+          "column_name": "weight",
+          "missing_value_handling": "fill_one",
+          "output_format": "text"
+        }
+      },
+      {
+        "query": "What's the mode for the 'duration' column in the file '/activity/log.csv'? Round it to 1 decimal place, ignore missing values, and return the result in JSON format.",
+        "filled_param": {
+          "data_path": "/activity/log.csv",
+          "decimal_places": 1,
+          "column_name": "duration",
+          "missing_value_handling": "ignore",
+          "output_format": "json"
+        }
+      }
+    ]
+  },
+  "compute_statistics|:|standard deviation|:|data_path,decimal_places,column_name,missing_value_handling,output_format": {
+    "tool_template_name": "compute_statistics",
+    "derived_class": "standard deviation",
+    "params_for_query": [
+      "data_path",
+      "decimal_places",
+      "column_name",
+      "missing_value_handling",
+      "output_format"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the standard deviation for the 'sales' column in the dataset at /data/financials.csv with missing values filled with zero, rounded to 2 decimal places, and output as JSON.",
+        "filled_param": {
+          "data_path": "/data/financials.csv",
+          "decimal_places": 2,
+          "column_name": "sales",
+          "missing_value_handling": "fill_zero",
+          "output_format": "json"
+        }
+      },
+      {
+        "query": "I need the standard deviation of 'temperature' from /datasets/weather.csv, ignoring missing values, with the result rounded to 3 decimal places and saved in CSV format.",
+        "filled_param": {
+          "data_path": "/datasets/weather.csv",
+          "decimal_places": 3,
+          "column_name": "temperature",
+          "missing_value_handling": "ignore",
+          "output_format": "csv"
+        }
+      },
+      {
+        "query": "Can you find the standard deviation for the 'height' column located at /data/measurements.csv, rounding to 1 decimal place, handling missing values by filling with one, and output as text?",
+        "filled_param": {
+          "data_path": "/data/measurements.csv",
+          "decimal_places": 1,
+          "column_name": "height",
+          "missing_value_handling": "fill_one",
+          "output_format": "text"
+        }
+      },
+      {
+        "query": "Determine the standard deviation of 'weight' from the file at /input/body_metrics.csv, ignoring any missing numbers, rounding to 4 decimal places, and provide the results in JSON format.",
+        "filled_param": {
+          "data_path": "/input/body_metrics.csv",
+          "decimal_places": 4,
+          "column_name": "weight",
+          "missing_value_handling": "ignore",
+          "output_format": "json"
+        }
+      },
+      {
+        "query": "Get the standard deviation for 'profit' in /files/accounts.csv, filling missing values with zero, rounded to 2 decimal places, and deliver the output as a CSV.",
+        "filled_param": {
+          "data_path": "/files/accounts.csv",
+          "decimal_places": 2,
+          "column_name": "profit",
+          "missing_value_handling": "fill_zero",
+          "output_format": "csv"
+        }
+      },
+      {
+        "query": "Compute the standard deviation for 'age' from /records/population_data.csv, fill missing values with one, rounded to three decimal places, and export the result in text format.",
+        "filled_param": {
+          "data_path": "/records/population_data.csv",
+          "decimal_places": 3,
+          "column_name": "age",
+          "missing_value_handling": "fill_one",
+          "output_format": "text"
+        }
+      },
+      {
+        "query": "What is the standard deviation for 'income' in /yearly_reports/2023_data.csv, with missing values ignored, rounded to 5 decimal places, and formatted as a JSON?",
+        "filled_param": {
+          "data_path": "/yearly_reports/2023_data.csv",
+          "decimal_places": 5,
+          "column_name": "income",
+          "missing_value_handling": "ignore",
+          "output_format": "json"
+        }
+      }
+    ]
+  },
+  "compute_statistics|:|maximum value|:|data_path,decimal_places,column_name,missing_value_handling,output_format": {
+    "tool_template_name": "compute_statistics",
+    "derived_class": "maximum value",
+    "params_for_query": [
+      "data_path",
+      "decimal_places",
+      "column_name",
+      "missing_value_handling",
+      "output_format"
+    ],
+    "queries": [
+      {
+        "query": "Determine the maximum value from the 'temperature' column in the dataset located at '/datasets/weather_data.csv', rounding to 2 decimal places, ignoring missing values and outputting as a JSON file.",
+        "filled_param": {
+          "data_path": "/datasets/weather_data.csv",
+          "decimal_places": 2,
+          "column_name": "temperature",
+          "missing_value_handling": "ignore",
+          "output_format": "json"
+        }
+      },
+      {
+        "query": "What is the maximum value in the 'sales' column of the CSV file at '/data/sales_report.csv'? Round the result to 3 decimal places, fill missing values with zero, and save the output in text format.",
+        "filled_param": {
+          "data_path": "/data/sales_report.csv",
+          "decimal_places": 3,
+          "column_name": "sales",
+          "missing_value_handling": "fill_zero",
+          "output_format": "text"
+        }
+      },
+      {
+        "query": "Find the maximum value of the 'altitude' values in '/data/mountains.csv', rounded to 1 decimal place, handling missing data by filling with one, and export the result as a CSV.",
+        "filled_param": {
+          "data_path": "/data/mountains.csv",
+          "decimal_places": 1,
+          "column_name": "altitude",
+          "missing_value_handling": "fill_one",
+          "output_format": "csv"
+        }
+      },
+      {
+        "query": "Calculate the maximum value for 'humidity' in '/datasets/climate_data.csv', round to 4 decimal places, ignore missing entries, and provide the result in JSON format.",
+        "filled_param": {
+          "data_path": "/datasets/climate_data.csv",
+          "decimal_places": 4,
+          "column_name": "humidity",
+          "missing_value_handling": "ignore",
+          "output_format": "json"
+        }
+      },
+      {
+        "query": "Extract the maximum value from the 'population' column in the file '/data/city_population.csv', rounding to 0 decimal places, with missing values set to zero, and deliver the output as text.",
+        "filled_param": {
+          "data_path": "/data/city_population.csv",
+          "decimal_places": 0,
+          "column_name": "population",
+          "missing_value_handling": "fill_zero",
+          "output_format": "text"
+        }
+      },
+      {
+        "query": "Can you get the maximum value of 'profit' from '/financials/quarterly_report.csv', rounding to 5 decimal places, treating missing values as one, and output the result in CSV?",
+        "filled_param": {
+          "data_path": "/financials/quarterly_report.csv",
+          "decimal_places": 5,
+          "column_name": "profit",
+          "missing_value_handling": "fill_one",
+          "output_format": "csv"
+        }
+      },
+      {
+        "query": "Retrieve the maximum value of 'weight' from the dataset '/data/body_measurements.csv', with the result rounded to 2 decimal places, ignoring any missing data, and save the output in CSV format.",
+        "filled_param": {
+          "data_path": "/data/body_measurements.csv",
+          "decimal_places": 2,
+          "column_name": "weight",
+          "missing_value_handling": "ignore",
+          "output_format": "csv"
+        }
+      }
+    ]
+  },
+  "compute_statistics|:|minimum value|:|data_path,decimal_places,column_name,missing_value_handling,output_format": {
+    "tool_template_name": "compute_statistics",
+    "derived_class": "minimum value",
+    "params_for_query": [
+      "data_path",
+      "decimal_places",
+      "column_name",
+      "missing_value_handling",
+      "output_format"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the minimum value for the 'temperature' column in the dataset at /data/weather_data.csv, rounding to 2 decimal places, ignoring missing values, and output the result in JSON format.",
+        "filled_param": {
+          "data_path": "/data/weather_data.csv",
+          "decimal_places": 2,
+          "column_name": "temperature",
+          "missing_value_handling": "ignore",
+          "output_format": "json"
+        }
+      },
+      {
+        "query": "I need the minimum value of the 'sales' column in /data/sales_records.csv, rounded to 1 decimal place, fill missing values with zero, and save the output as a CSV.",
+        "filled_param": {
+          "data_path": "/data/sales_records.csv",
+          "decimal_places": 1,
+          "column_name": "sales",
+          "missing_value_handling": "fill_zero",
+          "output_format": "csv"
+        }
+      },
+      {
+        "query": "Find the minimum value in the 'height' column from the file located at /datasets/athletes.csv, with 3 decimal places, treat missing values as one, and provide the output in text format.",
+        "filled_param": {
+          "data_path": "/datasets/athletes.csv",
+          "decimal_places": 3,
+          "column_name": "height",
+          "missing_value_handling": "fill_one",
+          "output_format": "text"
+        }
+      },
+      {
+        "query": "What is the minimum value for the 'price' field in the dataset found at /home/user/market_data.csv? Please round it to 0 decimal places, ignore any missing values, and present the result in CSV format.",
+        "filled_param": {
+          "data_path": "/home/user/market_data.csv",
+          "decimal_places": 0,
+          "column_name": "price",
+          "missing_value_handling": "ignore",
+          "output_format": "csv"
+        }
+      },
+      {
+        "query": "Compute the minimum value for 'age' from /path/to/dataset/people.csv, rounding to 4 decimal places, use zero for missing values, and give me the output in JSON format.",
+        "filled_param": {
+          "data_path": "/path/to/dataset/people.csv",
+          "decimal_places": 4,
+          "column_name": "age",
+          "missing_value_handling": "fill_zero",
+          "output_format": "json"
+        }
+      },
+      {
+        "query": "I'm looking for the minimum value in the 'humidity' column at /data/climate_data.csv, rounded to 2 decimal places, treating missing entries as one, and output the result as a text file.",
+        "filled_param": {
+          "data_path": "/data/climate_data.csv",
+          "decimal_places": 2,
+          "column_name": "humidity",
+          "missing_value_handling": "fill_one",
+          "output_format": "text"
+        }
+      },
+      {
+        "query": "Determine the minimum value for the 'weight' column in /datasets/body_metrics.csv, rounded to 5 decimal places, missing values should be ignored, and provide the result in CSV format.",
+        "filled_param": {
+          "data_path": "/datasets/body_metrics.csv",
+          "decimal_places": 5,
+          "column_name": "weight",
+          "missing_value_handling": "ignore",
+          "output_format": "csv"
+        }
+      }
+    ]
+  },
+  "compute_statistics|:|sum|:|data_path,decimal_places,column_name,missing_value_handling,output_format": {
+    "tool_template_name": "compute_statistics",
+    "derived_class": "sum",
+    "params_for_query": [
+      "data_path",
+      "decimal_places",
+      "column_name",
+      "missing_value_handling",
+      "output_format"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the sum of the dataset located at '/data/sales_data.csv', rounding to 2 decimal places, using the 'revenue' column. Handle missing values by ignoring them and provide the output in JSON format.",
+        "filled_param": {
+          "data_path": "/data/sales_data.csv",
+          "decimal_places": 2,
+          "column_name": "revenue",
+          "missing_value_handling": "ignore",
+          "output_format": "json"
+        }
+      },
+      {
+        "query": "I need the sum of the numbers in the 'expenses' column from the file at '/files/budget.csv'. The result should be rounded to 3 decimal places, missing values should be filled with zero, and the output should be in CSV format.",
+        "filled_param": {
+          "data_path": "/files/budget.csv",
+          "decimal_places": 3,
+          "column_name": "expenses",
+          "missing_value_handling": "fill_zero",
+          "output_format": "csv"
+        }
+      },
+      {
+        "query": "Compute the sum for the 'temperature' column in '/datasets/weather_records.csv', ignore missing values, round to 1 decimal place, and give me the result in a text file.",
+        "filled_param": {
+          "data_path": "/datasets/weather_records.csv",
+          "decimal_places": 1,
+          "column_name": "temperature",
+          "missing_value_handling": "ignore",
+          "output_format": "text"
+        }
+      },
+      {
+        "query": "Please sum up the 'sales' data from '/tmp/monthly_sales.csv', fill missing values with one, and round the result to 4 decimal places. I want the output as a JSON file.",
+        "filled_param": {
+          "data_path": "/tmp/monthly_sales.csv",
+          "decimal_places": 4,
+          "column_name": "sales",
+          "missing_value_handling": "fill_one",
+          "output_format": "json"
+        }
+      },
+      {
+        "query": "Get the sum of the 'cost' column in the dataset at '/var/reports/financials.csv', rounding to no decimal places, ignore any missing values, and export the result in text format.",
+        "filled_param": {
+          "data_path": "/var/reports/financials.csv",
+          "decimal_places": 0,
+          "column_name": "cost",
+          "missing_value_handling": "ignore",
+          "output_format": "text"
+        }
+      },
+      {
+        "query": "I'd like the sum of the 'distance' column from '/home/user/travel_log.csv', filling missing spots with zero, rounded to 2 decimal places, and outputted as a CSV.",
+        "filled_param": {
+          "data_path": "/home/user/travel_log.csv",
+          "decimal_places": 2,
+          "column_name": "distance",
+          "missing_value_handling": "fill_zero",
+          "output_format": "csv"
+        }
+      },
+      {
+        "query": "Could you calculate the sum for the 'profit' column in '/resources/company_annual_report.csv', filling any missing values with one, rounded to 1 decimal point, and return the result in JSON?",
+        "filled_param": {
+          "data_path": "/resources/company_annual_report.csv",
+          "decimal_places": 1,
+          "column_name": "profit",
+          "missing_value_handling": "fill_one",
+          "output_format": "json"
+        }
+      }
+    ]
+  },
+  "compute_statistics|:|skewness|:|data_path,decimal_places,column_name,missing_value_handling,output_format": {
+    "tool_template_name": "compute_statistics",
+    "derived_class": "skewness",
+    "params_for_query": [
+      "data_path",
+      "decimal_places",
+      "column_name",
+      "missing_value_handling",
+      "output_format"
+    ],
+    "queries": [
+      {
+        "query": "Could you calculate the skewness for the column 'Age' in my dataset located at '/home/user/data.csv', rounding to 2 decimal places, ignoring any missing values, and output the result as JSON?",
+        "filled_param": {
+          "data_path": "/home/user/data.csv",
+          "decimal_places": 2,
+          "column_name": "Age",
+          "missing_value_handling": "ignore",
+          "output_format": "json"
+        }
+      },
+      {
+        "query": "I need the skewness of the 'Revenue' column from '/path/to/sales.csv', rounded to 3 decimal places, with missing values filled with zeros, and the format should be CSV.",
+        "filled_param": {
+          "data_path": "/path/to/sales.csv",
+          "decimal_places": 3,
+          "column_name": "Revenue",
+          "missing_value_handling": "fill_zero",
+          "output_format": "csv"
+        }
+      },
+      {
+        "query": "Compute the skewness for 'Height' in the file located at '/datasets/people.csv', round to 1 decimal place, fill missing values with one, and export the result in text format.",
+        "filled_param": {
+          "data_path": "/datasets/people.csv",
+          "decimal_places": 1,
+          "column_name": "Height",
+          "missing_value_handling": "fill_one",
+          "output_format": "text"
+        }
+      },
+      {
+        "query": "Get the skewness of the 'Temperature' data from '/weather/data.csv', using 4 decimal places, ignore missing entries, and provide the output as a JSON file.",
+        "filled_param": {
+          "data_path": "/weather/data.csv",
+          "decimal_places": 4,
+          "column_name": "Temperature",
+          "missing_value_handling": "ignore",
+          "output_format": "json"
+        }
+      },
+      {
+        "query": "Calculate skewness for the 'Sales' column found in '/finance/records.csv', round to 2 decimal places, fill missing with zero, and present the results in a text file.",
+        "filled_param": {
+          "data_path": "/finance/records.csv",
+          "decimal_places": 2,
+          "column_name": "Sales",
+          "missing_value_handling": "fill_zero",
+          "output_format": "text"
+        }
+      },
+      {
+        "query": "Determine the skewness of 'Population' in '/data/demographics.csv', rounding to 3 decimal places, replacing missing with one, and save as CSV.",
+        "filled_param": {
+          "data_path": "/data/demographics.csv",
+          "decimal_places": 3,
+          "column_name": "Population",
+          "missing_value_handling": "fill_one",
+          "output_format": "csv"
+        }
+      },
+      {
+        "query": "Please find the skewness for 'Income' in '/stats/economy.csv', using 0 decimal places, handle missing values by ignoring, and output as text.",
+        "filled_param": {
+          "data_path": "/stats/economy.csv",
+          "decimal_places": 0,
+          "column_name": "Income",
+          "missing_value_handling": "ignore",
+          "output_format": "text"
+        }
+      }
+    ]
+  },
+  "compute_statistics|:|kurtosis|:|data_path,decimal_places,column_name,missing_value_handling,output_format": {
+    "tool_template_name": "compute_statistics",
+    "derived_class": "kurtosis",
+    "params_for_query": [
+      "data_path",
+      "decimal_places",
+      "column_name",
+      "missing_value_handling",
+      "output_format"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the kurtosis of the 'sales' column from the dataset at '/user/data/sales_data.csv', rounding to 2 decimal places, ignoring missing values, and output the result in JSON format.",
+        "filled_param": {
+          "data_path": "/user/data/sales_data.csv",
+          "decimal_places": 2,
+          "column_name": "sales",
+          "missing_value_handling": "ignore",
+          "output_format": "json"
+        }
+      },
+      {
+        "query": "I need the kurtosis for 'temperature' from '/data/weather.csv', rounded to 3 decimals, fill missing values with zero, and save the result as a CSV file.",
+        "filled_param": {
+          "data_path": "/data/weather.csv",
+          "decimal_places": 3,
+          "column_name": "temperature",
+          "missing_value_handling": "fill_zero",
+          "output_format": "csv"
+        }
+      },
+      {
+        "query": "Could you compute the kurtosis for the 'profits' column in the dataset located at '/datasets/financial_report.csv', rounding off to 1 decimal place and treating missing values as one, with the output in text format?",
+        "filled_param": {
+          "data_path": "/datasets/financial_report.csv",
+          "decimal_places": 1,
+          "column_name": "profits",
+          "missing_value_handling": "fill_one",
+          "output_format": "text"
+        }
+      },
+      {
+        "query": "Get the kurtosis of 'revenue' from '/user/docs/business_data.csv', round to 0 decimal places, ignore any missing entries, and format the output as JSON.",
+        "filled_param": {
+          "data_path": "/user/docs/business_data.csv",
+          "decimal_places": 0,
+          "column_name": "revenue",
+          "missing_value_handling": "ignore",
+          "output_format": "json"
+        }
+      },
+      {
+        "query": "Determine the kurtosis for the 'age' column in dataset '/files/participants.csv', round to 4 decimal places, fill missing with zero, and output the result in CSV format.",
+        "filled_param": {
+          "data_path": "/files/participants.csv",
+          "decimal_places": 4,
+          "column_name": "age",
+          "missing_value_handling": "fill_zero",
+          "output_format": "csv"
+        }
+      },
+      {
+        "query": "Please calculate the kurtosis of the 'weight' column from the file '/home/data/health_stats.csv', rounding to 5 decimal points, and fill missing values with one. I'd like the output as a text file.",
+        "filled_param": {
+          "data_path": "/home/data/health_stats.csv",
+          "decimal_places": 5,
+          "column_name": "weight",
+          "missing_value_handling": "fill_one",
+          "output_format": "text"
+        }
+      },
+      {
+        "query": "Compute the kurtosis for 'earnings' in '/archive/quarterly_report.csv', use 2 decimal places, fill missing values with zero, and provide the result in JSON format.",
+        "filled_param": {
+          "data_path": "/archive/quarterly_report.csv",
+          "decimal_places": 2,
+          "column_name": "earnings",
+          "missing_value_handling": "fill_zero",
+          "output_format": "json"
+        }
+      }
+    ]
+  }
+}

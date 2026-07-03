@@ -1,0 +1,807 @@
+{
+  "CelebritySentimentAnalysis.performAnalysis|:|football player|:|entity,start,end": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "football player",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end"
+    ],
+    "queries": [
+      {
+        "query": "I'd like to know the sentiment around Lionel Messi from news articles between 2023-01-01 and 2023-01-31.",
+        "filled_param": {
+          "entity": "Lionel Messi",
+          "start": "2023-01-01",
+          "end": "2023-01-31"
+        }
+      },
+      {
+        "query": "Can you perform a sentiment analysis on articles about Cristiano Ronaldo for the period from 2023-03-15 to 2023-03-31?",
+        "filled_param": {
+          "entity": "Cristiano Ronaldo",
+          "start": "2023-03-15",
+          "end": "2023-03-31"
+        }
+      },
+      {
+        "query": "Analyze the sentiment towards Neymar in news reports from 2023-02-01 to 2023-02-20.",
+        "filled_param": {
+          "entity": "Neymar",
+          "start": "2023-02-01",
+          "end": "2023-02-20"
+        }
+      },
+      {
+        "query": "What is the sentiment trend for Kylian Mbappe between 2023-04-10 and 2023-04-25 based on news articles?",
+        "filled_param": {
+          "entity": "Kylian Mbappe",
+          "start": "2023-04-10",
+          "end": "2023-04-25"
+        }
+      },
+      {
+        "query": "I want to know how the sentiment around Mohamed Salah has evolved from 2023-05-01 to 2023-05-15.",
+        "filled_param": {
+          "entity": "Mohamed Salah",
+          "start": "2023-05-01",
+          "end": "2023-05-15"
+        }
+      },
+      {
+        "query": "Please conduct a sentiment analysis for news articles about Kevin De Bruyne from 2023-06-01 to 2023-06-10.",
+        "filled_param": {
+          "entity": "Kevin De Bruyne",
+          "start": "2023-06-01",
+          "end": "2023-06-10"
+        }
+      }
+    ]
+  },
+  "CelebritySentimentAnalysis.performAnalysis|:|basketball player|:|entity,start,end": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "basketball player",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end"
+    ],
+    "queries": [
+      {
+        "query": "What is the sentiment in news articles about the basketball player LeBron James from 2023-01-01 to 2023-01-31?",
+        "filled_param": {
+          "entity": "LeBron James",
+          "start": "2023-01-01",
+          "end": "2023-01-31"
+        }
+      },
+      {
+        "query": "Analyze the sentiment of articles discussing the basketball player Stephen Curry between 2023-03-15 and 2023-03-22.",
+        "filled_param": {
+          "entity": "Stephen Curry",
+          "start": "2023-03-15",
+          "end": "2023-03-22"
+        }
+      },
+      {
+        "query": "Perform a sentiment analysis on news articles about the basketball player Giannis Antetokounmpo from 2023-07-01 to 2023-07-31.",
+        "filled_param": {
+          "entity": "Giannis Antetokounmpo",
+          "start": "2023-07-01",
+          "end": "2023-07-31"
+        }
+      },
+      {
+        "query": "Can you tell me the sentiment trend for news related to the basketball player Kevin Durant from 2023-02-01 to 2023-02-28?",
+        "filled_param": {
+          "entity": "Kevin Durant",
+          "start": "2023-02-01",
+          "end": "2023-02-28"
+        }
+      },
+      {
+        "query": "I'd like to know the sentiment of media coverage on the basketball player Luka Dončić for the period 2023-08-01 to 2023-08-15.",
+        "filled_param": {
+          "entity": "Luka Dončić",
+          "start": "2023-08-01",
+          "end": "2023-08-15"
+        }
+      }
+    ]
+  },
+  "CelebritySentimentAnalysis.performAnalysis|:|volleyball player|:|entity,start,end": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "volleyball player",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end"
+    ],
+    "queries": [
+      {
+        "query": "What has been the sentiment towards the volleyball player Jordan Larson in news articles from 2023-01-01 to 2023-06-30?",
+        "filled_param": {
+          "entity": "Jordan Larson",
+          "start": "2023-01-01",
+          "end": "2023-06-30"
+        }
+      },
+      {
+        "query": "Perform a sentiment analysis on the volleyball player Karch Kiraly for news published between 2022-05-01 and 2022-12-31.",
+        "filled_param": {
+          "entity": "Karch Kiraly",
+          "start": "2022-05-01",
+          "end": "2022-12-31"
+        }
+      },
+      {
+        "query": "I'd like to know the sentiment of media coverage about the volleyball player Kim Yeon-koung from 2021-07-15 to 2021-08-31.",
+        "filled_param": {
+          "entity": "Kim Yeon-koung",
+          "start": "2021-07-15",
+          "end": "2021-08-31"
+        }
+      },
+      {
+        "query": "Could you analyze the sentiment of articles about the volleyball player Giba from 2020-02-20 to 2020-12-24?",
+        "filled_param": {
+          "entity": "Giba",
+          "start": "2020-02-20",
+          "end": "2020-12-24"
+        }
+      },
+      {
+        "query": "Analyze the sentiment in news articles related to the volleyball player Zhu Ting from 2019-11-01 to 2020-03-01.",
+        "filled_param": {
+          "entity": "Zhu Ting",
+          "start": "2019-11-01",
+          "end": "2020-03-01"
+        }
+      }
+    ]
+  },
+  "CelebritySentimentAnalysis.performAnalysis|:|tennis player|:|entity,start,end": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "tennis player",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end"
+    ],
+    "queries": [
+      {
+        "query": "Could you perform a sentiment analysis on news about the tennis player Novak Djokovic from 2023-01-01 to 2023-01-31?",
+        "filled_param": {
+          "entity": "Novak Djokovic",
+          "start": "2023-01-01",
+          "end": "2023-01-31"
+        }
+      },
+      {
+        "query": "Analyze the sentiment of articles related to tennis player Serena Williams between 2023-02-15 and 2023-03-15.",
+        "filled_param": {
+          "entity": "Serena Williams",
+          "start": "2023-02-15",
+          "end": "2023-03-15"
+        }
+      },
+      {
+        "query": "What is the sentiment in news coverage about tennis player Roger Federer from 2023-04-01 to 2023-04-30?",
+        "filled_param": {
+          "entity": "Roger Federer",
+          "start": "2023-04-01",
+          "end": "2023-04-30"
+        }
+      },
+      {
+        "query": "Can you analyze how tennis player Rafael Nadal was portrayed in the media during the period from 2023-05-01 to 2023-05-31?",
+        "filled_param": {
+          "entity": "Rafael Nadal",
+          "start": "2023-05-01",
+          "end": "2023-05-31"
+        }
+      },
+      {
+        "query": "Please provide a sentiment analysis for articles about tennis player Naomi Osaka between 2023-06-01 and 2023-06-30.",
+        "filled_param": {
+          "entity": "Naomi Osaka",
+          "start": "2023-06-01",
+          "end": "2023-06-30"
+        }
+      }
+    ]
+  },
+  "CelebritySentimentAnalysis.performAnalysis|:|boxer|:|entity,start,end": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "boxer",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end"
+    ],
+    "queries": [
+      {
+        "query": "What has been the sentiment towards the boxer Canelo Alvarez in news articles from 2023-01-01 to 2023-03-01?",
+        "filled_param": {
+          "entity": "Canelo Alvarez",
+          "start": "2023-01-01",
+          "end": "2023-03-01"
+        }
+      },
+      {
+        "query": "Analyze the sentiment of news articles about the boxer Tyson Fury between 2023-05-01 and 2023-06-01.",
+        "filled_param": {
+          "entity": "Tyson Fury",
+          "start": "2023-05-01",
+          "end": "2023-06-01"
+        }
+      },
+      {
+        "query": "Please provide a sentiment analysis for news related to the boxer Anthony Joshua from 2023-07-15 to 2023-08-15.",
+        "filled_param": {
+          "entity": "Anthony Joshua",
+          "start": "2023-07-15",
+          "end": "2023-08-15"
+        }
+      },
+      {
+        "query": "How have news articles characterized the boxer Gervonta Davis from 2023-02-01 to 2023-04-01?",
+        "filled_param": {
+          "entity": "Gervonta Davis",
+          "start": "2023-02-01",
+          "end": "2023-04-01"
+        }
+      },
+      {
+        "query": "Could you perform a sentiment analysis on news articles about the boxer Manny Pacquiao from 2023-09-01 to 2023-10-01?",
+        "filled_param": {
+          "entity": "Manny Pacquiao",
+          "start": "2023-09-01",
+          "end": "2023-10-01"
+        }
+      }
+    ]
+  },
+  "CelebritySentimentAnalysis.performAnalysis|:|novelist|:|entity,start,end": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "novelist",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end"
+    ],
+    "queries": [
+      {
+        "query": "Can you perform a sentiment analysis on news articles about the novelist Haruki Murakami from 2023-01-01 to 2023-03-01?",
+        "filled_param": {
+          "entity": "Haruki Murakami",
+          "start": "2023-01-01",
+          "end": "2023-03-01"
+        }
+      },
+      {
+        "query": "I would like to know the sentiment surrounding novelist J.K. Rowling in news articles between 2022-05-01 and 2022-06-01.",
+        "filled_param": {
+          "entity": "J.K. Rowling",
+          "start": "2022-05-01",
+          "end": "2022-06-01"
+        }
+      },
+      {
+        "query": "Analyze the sentiment of news coverage on novelist Stephen King from 2023-07-15 to 2023-09-15.",
+        "filled_param": {
+          "entity": "Stephen King",
+          "start": "2023-07-15",
+          "end": "2023-09-15"
+        }
+      },
+      {
+        "query": "What is the sentiment in the media about novelist Chimamanda Ngozi Adichie from 2023-02-01 to 2023-04-01?",
+        "filled_param": {
+          "entity": "Chimamanda Ngozi Adichie",
+          "start": "2023-02-01",
+          "end": "2023-04-01"
+        }
+      },
+      {
+        "query": "Please provide a sentiment analysis of articles about the novelist George R.R. Martin between 2022-11-01 and 2023-01-01.",
+        "filled_param": {
+          "entity": "George R.R. Martin",
+          "start": "2022-11-01",
+          "end": "2023-01-01"
+        }
+      }
+    ]
+  },
+  "CelebritySentimentAnalysis.performAnalysis|:|chef|:|entity,start,end": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "chef",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end"
+    ],
+    "queries": [
+      {
+        "query": "Can you analyze the sentiment of news articles about chef Gordon Ramsay from 2023-01-01 to 2023-01-31?",
+        "filled_param": {
+          "entity": "Gordon Ramsay",
+          "start": "2023-01-01",
+          "end": "2023-01-31"
+        }
+      },
+      {
+        "query": "I'd like to know the sentiment analysis results for chef Jamie Oliver from March 15, 2023, to April 15, 2023.",
+        "filled_param": {
+          "entity": "Jamie Oliver",
+          "start": "2023-03-15",
+          "end": "2023-04-15"
+        }
+      },
+      {
+        "query": "Perform a sentiment analysis on articles about the chef Nigella Lawson covering the period from 2022-11-01 to 2022-12-01.",
+        "filled_param": {
+          "entity": "Nigella Lawson",
+          "start": "2022-11-01",
+          "end": "2022-12-01"
+        }
+      },
+      {
+        "query": "What is the sentiment in news articles related to chef Massimo Bottura between 2023-02-01 and 2023-02-28?",
+        "filled_param": {
+          "entity": "Massimo Bottura",
+          "start": "2023-02-01",
+          "end": "2023-02-28"
+        }
+      },
+      {
+        "query": "Could you provide a sentiment analysis for articles about chef René Redzepi from 2023-05-01 to 2023-06-01?",
+        "filled_param": {
+          "entity": "René Redzepi",
+          "start": "2023-05-01",
+          "end": "2023-06-01"
+        }
+      },
+      {
+        "query": "Analyze the sentiment of news articles on chef Alice Waters between the dates 2023-07-01 and 2023-07-31.",
+        "filled_param": {
+          "entity": "Alice Waters",
+          "start": "2023-07-01",
+          "end": "2023-07-31"
+        }
+      }
+    ]
+  },
+  "CelebritySentimentAnalysis.performAnalysis|:|actor|:|entity,start,end": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "actor",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end"
+    ],
+    "queries": [
+      {
+        "query": "Can you analyze the sentiment of news articles about actor Brad Pitt between 2023-01-01 and 2023-01-31?",
+        "filled_param": {
+          "entity": "Brad Pitt",
+          "start": "2023-01-01",
+          "end": "2023-01-31"
+        }
+      },
+      {
+        "query": "I'd like a sentiment analysis of recent news concerning actor Scarlett Johansson from 2023-06-01 to 2023-06-30.",
+        "filled_param": {
+          "entity": "Scarlett Johansson",
+          "start": "2023-06-01",
+          "end": "2023-06-30"
+        }
+      },
+      {
+        "query": "Perform a sentiment analysis on articles related to actor Tom Hanks from 2022-09-15 to 2022-10-15.",
+        "filled_param": {
+          "entity": "Tom Hanks",
+          "start": "2022-09-15",
+          "end": "2022-10-15"
+        }
+      },
+      {
+        "query": "Can you check the sentiment of news pieces discussing actor Emma Watson from 2023-03-01 to 2023-03-31?",
+        "filled_param": {
+          "entity": "Emma Watson",
+          "start": "2023-03-01",
+          "end": "2023-03-31"
+        }
+      },
+      {
+        "query": "Analyze the sentiment in news articles about actor Robert Downey Jr. during the period from 2023-05-10 to 2023-06-10.",
+        "filled_param": {
+          "entity": "Robert Downey Jr.",
+          "start": "2023-05-10",
+          "end": "2023-06-10"
+        }
+      },
+      {
+        "query": "I need sentiment analysis for news articles about actor Jennifer Lopez from 2022-11-01 to 2022-11-30.",
+        "filled_param": {
+          "entity": "Jennifer Lopez",
+          "start": "2022-11-01",
+          "end": "2022-11-30"
+        }
+      }
+    ]
+  },
+  "CelebritySentimentAnalysis.performAnalysis|:|politician|:|entity,start,end": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "politician",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end"
+    ],
+    "queries": [
+      {
+        "query": "What is the sentiment towards the politician Angela Merkel in news articles from 2023-01-01 to 2023-01-31?",
+        "filled_param": {
+          "entity": "Angela Merkel",
+          "start": "2023-01-01",
+          "end": "2023-01-31"
+        }
+      },
+      {
+        "query": "Analyze the sentiment of articles about the politician Boris Johnson between 2022-06-01 and 2022-06-30.",
+        "filled_param": {
+          "entity": "Boris Johnson",
+          "start": "2022-06-01",
+          "end": "2022-06-30"
+        }
+      },
+      {
+        "query": "Could you evaluate the sentiment of news pieces concerning the politician Narendra Modi from 2023-03-15 to 2023-04-15?",
+        "filled_param": {
+          "entity": "Narendra Modi",
+          "start": "2023-03-15",
+          "end": "2023-04-15"
+        }
+      },
+      {
+        "query": "I need sentiment analysis on articles discussing the politician Kamala Harris from 2023-05-01 to 2023-05-31.",
+        "filled_param": {
+          "entity": "Kamala Harris",
+          "start": "2023-05-01",
+          "end": "2023-05-31"
+        }
+      },
+      {
+        "query": "Please perform a sentiment analysis for news articles about the politician Emmanuel Macron dated between 2022-11-01 and 2022-11-30.",
+        "filled_param": {
+          "entity": "Emmanuel Macron",
+          "start": "2022-11-01",
+          "end": "2022-11-30"
+        }
+      },
+      {
+        "query": "How was the sentiment towards the politician Justin Trudeau in articles from 2023-07-01 to 2023-07-31?",
+        "filled_param": {
+          "entity": "Justin Trudeau",
+          "start": "2023-07-01",
+          "end": "2023-07-31"
+        }
+      }
+    ]
+  },
+  "CelebritySentimentAnalysis.performAnalysis|:|esports player|:|entity,start,end": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "esports player",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end"
+    ],
+    "queries": [
+      {
+        "query": "Can you analyze the sentiment of news articles about the esports player Faker from 2023-01-01 to 2023-03-01?",
+        "filled_param": {
+          "entity": "Faker",
+          "start": "2023-01-01",
+          "end": "2023-03-01"
+        }
+      },
+      {
+        "query": "Please perform a sentiment analysis on articles related to the esports player s1mple between 2023-05-15 and 2023-06-15.",
+        "filled_param": {
+          "entity": "s1mple",
+          "start": "2023-05-15",
+          "end": "2023-06-15"
+        }
+      },
+      {
+        "query": "I want to know the sentiment of news regarding esports player Shroud from 2022-11-01 to 2022-12-31.",
+        "filled_param": {
+          "entity": "Shroud",
+          "start": "2022-11-01",
+          "end": "2022-12-31"
+        }
+      },
+      {
+        "query": "Analyze the sentiment in news articles about the esports player Doublelift for the period from 2023-02-01 to 2023-04-01.",
+        "filled_param": {
+          "entity": "Doublelift",
+          "start": "2023-02-01",
+          "end": "2023-04-01"
+        }
+      },
+      {
+        "query": "Could you perform sentiment analysis on stories about esports player TenZ from 2023-07-01 to 2023-08-01?",
+        "filled_param": {
+          "entity": "TenZ",
+          "start": "2023-07-01",
+          "end": "2023-08-01"
+        }
+      }
+    ]
+  },
+  "CelebritySentimentAnalysis.performAnalysis|:|painter|:|entity,start,end": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "painter",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end"
+    ],
+    "queries": [
+      {
+        "query": "What was the overall sentiment towards the painter Banksy in news articles from 2023-01-01 to 2023-01-31?",
+        "filled_param": {
+          "entity": "Banksy",
+          "start": "2023-01-01",
+          "end": "2023-01-31"
+        }
+      },
+      {
+        "query": "Analyze the sentiment in the media about the painter Frida Kahlo during the time period from 2022-05-01 to 2022-06-01.",
+        "filled_param": {
+          "entity": "Frida Kahlo",
+          "start": "2022-05-01",
+          "end": "2022-06-01"
+        }
+      },
+      {
+        "query": "Perform a sentiment analysis on news articles mentioning the painter Pablo Picasso between 2021-11-15 and 2021-12-15.",
+        "filled_param": {
+          "entity": "Pablo Picasso",
+          "start": "2021-11-15",
+          "end": "2021-12-15"
+        }
+      },
+      {
+        "query": "Could you find out what the sentiment was towards the painter Georgia O'Keeffe from 2020-07-01 to 2020-07-31?",
+        "filled_param": {
+          "entity": "Georgia O'Keeffe",
+          "start": "2020-07-01",
+          "end": "2020-07-31"
+        }
+      },
+      {
+        "query": "I am interested in the sentiment analysis of articles about the painter Vincent van Gogh for the dates between 2023-02-01 and 2023-03-01.",
+        "filled_param": {
+          "entity": "Vincent van Gogh",
+          "start": "2023-02-01",
+          "end": "2023-03-01"
+        }
+      }
+    ]
+  },
+  "CelebritySentimentAnalysis.performAnalysis|:|photographer|:|entity,start,end": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "photographer",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end"
+    ],
+    "queries": [
+      {
+        "query": "Could you analyze the sentiment of articles about the photographer Annie Leibovitz from 2023-01-01 to 2023-03-31?",
+        "filled_param": {
+          "entity": "Annie Leibovitz",
+          "start": "2023-01-01",
+          "end": "2023-03-31"
+        }
+      },
+      {
+        "query": "I am interested in the sentiment of recent news articles about the photographer Steve McCurry between 2022-11-15 and 2022-12-15.",
+        "filled_param": {
+          "entity": "Steve McCurry",
+          "start": "2022-11-15",
+          "end": "2022-12-15"
+        }
+      },
+      {
+        "query": "Please perform a sentiment analysis on news articles regarding the photographer Dorothea Lange from 2023-06-01 to 2023-09-01.",
+        "filled_param": {
+          "entity": "Dorothea Lange",
+          "start": "2023-06-01",
+          "end": "2023-09-01"
+        }
+      },
+      {
+        "query": "What is the sentiment trend in articles about the photographer Henri Cartier-Bresson from 2022-07-01 to 2022-10-01?",
+        "filled_param": {
+          "entity": "Henri Cartier-Bresson",
+          "start": "2022-07-01",
+          "end": "2022-10-01"
+        }
+      },
+      {
+        "query": "Analyze the sentiment of news articles on the photographer Cindy Sherman for the period from 2023-02-01 to 2023-05-01.",
+        "filled_param": {
+          "entity": "Cindy Sherman",
+          "start": "2023-02-01",
+          "end": "2023-05-01"
+        }
+      }
+    ]
+  },
+  "CelebritySentimentAnalysis.performAnalysis|:|composer|:|entity,start,end": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "composer",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end"
+    ],
+    "queries": [
+      {
+        "query": "Could you analyze the sentiment of articles about composer Ludwig van Beethoven from 2023-01-01 to 2023-01-31?",
+        "filled_param": {
+          "entity": "Ludwig van Beethoven",
+          "start": "2023-01-01",
+          "end": "2023-01-31"
+        }
+      },
+      {
+        "query": "Please perform a sentiment analysis of news related to composer Johann Sebastian Bach between 2023-03-15 and 2023-03-25.",
+        "filled_param": {
+          "entity": "Johann Sebastian Bach",
+          "start": "2023-03-15",
+          "end": "2023-03-25"
+        }
+      },
+      {
+        "query": "What is the sentiment of the coverage about composer Wolfgang Amadeus Mozart from 2023-05-10 to 2023-05-20?",
+        "filled_param": {
+          "entity": "Wolfgang Amadeus Mozart",
+          "start": "2023-05-10",
+          "end": "2023-05-20"
+        }
+      },
+      {
+        "query": "I'd like to know the sentiment of news articles on composer Pyotr Ilyich Tchaikovsky from 2023-02-01 through 2023-02-28.",
+        "filled_param": {
+          "entity": "Pyotr Ilyich Tchaikovsky",
+          "start": "2023-02-01",
+          "end": "2023-02-28"
+        }
+      },
+      {
+        "query": "Analyze the sentiment of articles concerning composer Claude Debussy for the period from 2023-04-01 to 2023-04-15.",
+        "filled_param": {
+          "entity": "Claude Debussy",
+          "start": "2023-04-01",
+          "end": "2023-04-15"
+        }
+      }
+    ]
+  },
+  "CelebritySentimentAnalysis.performAnalysis|:|magician|:|entity,start,end": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "magician",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the sentiment of news articles about magician David Copperfield from 2023-01-01 to 2023-02-01.",
+        "filled_param": {
+          "entity": "David Copperfield",
+          "start": "2023-01-01",
+          "end": "2023-02-01"
+        }
+      },
+      {
+        "query": "Could you perform a sentiment analysis on news articles related to magician Criss Angel between 2023-03-15 and 2023-04-15?",
+        "filled_param": {
+          "entity": "Criss Angel",
+          "start": "2023-03-15",
+          "end": "2023-04-15"
+        }
+      },
+      {
+        "query": "What is the sentiment of articles about magician Penn Jillette from 2023-05-01 to 2023-05-31?",
+        "filled_param": {
+          "entity": "Penn Jillette",
+          "start": "2023-05-01",
+          "end": "2023-05-31"
+        }
+      },
+      {
+        "query": "Can you check the sentiment of news concerning magician Derren Brown from 2023-06-01 to 2023-06-30?",
+        "filled_param": {
+          "entity": "Derren Brown",
+          "start": "2023-06-01",
+          "end": "2023-06-30"
+        }
+      },
+      {
+        "query": "Please analyze sentiment in news articles about magician Dynamo from 2023-07-01 to 2023-08-01.",
+        "filled_param": {
+          "entity": "Dynamo",
+          "start": "2023-07-01",
+          "end": "2023-08-01"
+        }
+      },
+      {
+        "query": "I'd like to know the sentiment of news pieces on magician Shin Lim from 2023-09-01 to 2023-10-01.",
+        "filled_param": {
+          "entity": "Shin Lim",
+          "start": "2023-09-01",
+          "end": "2023-10-01"
+        }
+      }
+    ]
+  },
+  "CelebritySentimentAnalysis.performAnalysis|:|medical expert|:|entity,start,end": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "medical expert",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end"
+    ],
+    "queries": [
+      {
+        "query": "Can you analyze the sentiment of news articles about the medical expert Dr. John Smith from 2022-01-01 to 2022-03-31?",
+        "filled_param": {
+          "entity": "Dr. John Smith",
+          "start": "2022-01-01",
+          "end": "2022-03-31"
+        }
+      },
+      {
+        "query": "I need a sentiment analysis of media coverage on the medical expert Dr. Emily Brown between 2021-05-15 and 2021-07-15.",
+        "filled_param": {
+          "entity": "Dr. Emily Brown",
+          "start": "2021-05-15",
+          "end": "2021-07-15"
+        }
+      },
+      {
+        "query": "Please provide a sentiment analysis for articles about the medical expert Dr. Alan Thompson from the period 2020-11-01 to 2021-01-31.",
+        "filled_param": {
+          "entity": "Dr. Alan Thompson",
+          "start": "2020-11-01",
+          "end": "2021-01-31"
+        }
+      },
+      {
+        "query": "What is the sentiment of news articles concerning the medical expert Dr. Sophia Lee from the last quarter of 2020, starting at 2020-10-01 and ending at 2020-12-31?",
+        "filled_param": {
+          "entity": "Dr. Sophia Lee",
+          "start": "2020-10-01",
+          "end": "2020-12-31"
+        }
+      },
+      {
+        "query": "Could you perform a sentiment analysis on news articles covering the medical expert Dr. Michael Johnson from 2023-03-01 to 2023-06-01?",
+        "filled_param": {
+          "entity": "Dr. Michael Johnson",
+          "start": "2023-03-01",
+          "end": "2023-06-01"
+        }
+      }
+    ]
+  }
+}

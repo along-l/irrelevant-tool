@@ -1,0 +1,353 @@
+{
+  "RehabPlanEvaluator|:|psychological counseling|:|plan_id,effectiveness_score,evaluation_date,comments": {
+    "tool_template_name": "RehabPlanEvaluator",
+    "derived_class": "psychological counseling",
+    "params_for_query": [
+      "plan_id",
+      "effectiveness_score",
+      "evaluation_date",
+      "comments"
+    ],
+    "queries": [
+      {
+        "query": "Please provide feedback on the psychological counseling plan with ID 'PC-1234' that was evaluated on 2023-09-15, giving it an effectiveness score of 8. My suggestion is to include more group therapy sessions.",
+        "filled_param": {
+          "plan_id": "PC-1234",
+          "effectiveness_score": 8,
+          "evaluation_date": "2023-09-15",
+          "comments": "My suggestion is to include more group therapy sessions."
+        }
+      },
+      {
+        "query": "Evaluate the psychological counseling plan identified by 'plan-5678'. It scored a 6 for effectiveness on the date 2023-08-20. I recommend focusing on personalized approaches for better outcomes.",
+        "filled_param": {
+          "plan_id": "plan-5678",
+          "effectiveness_score": 6,
+          "evaluation_date": "2023-08-20",
+          "comments": "I recommend focusing on personalized approaches for better outcomes."
+        }
+      },
+      {
+        "query": "Provide a review of the psychological counseling plan 'ABC-91011' with an effectiveness rating of 9 as of 2023-07-10. My comment is to maintain the current strategy as it seems very effective.",
+        "filled_param": {
+          "plan_id": "ABC-91011",
+          "effectiveness_score": 9,
+          "evaluation_date": "2023-07-10",
+          "comments": "My comment is to maintain the current strategy as it seems very effective."
+        }
+      },
+      {
+        "query": "Can you give feedback on the psychological counseling plan 'XYZ-2023', which received an effectiveness score of 4 during its review on 2023-06-25? I think it could benefit from more frequent follow-up sessions.",
+        "filled_param": {
+          "plan_id": "XYZ-2023",
+          "effectiveness_score": 4,
+          "evaluation_date": "2023-06-25",
+          "comments": "I think it could benefit from more frequent follow-up sessions."
+        }
+      },
+      {
+        "query": "Assess the psychological counseling plan with the identifier 'CPL-13579', evaluated with a score of 7 on 2023-05-30. My suggestion is to incorporate more cognitive behavioral therapy elements.",
+        "filled_param": {
+          "plan_id": "CPL-13579",
+          "effectiveness_score": 7,
+          "evaluation_date": "2023-05-30",
+          "comments": "My suggestion is to incorporate more cognitive behavioral therapy elements."
+        }
+      }
+    ]
+  },
+  "RehabPlanEvaluator|:|language learning|:|plan_id,effectiveness_score,evaluation_date,comments": {
+    "tool_template_name": "RehabPlanEvaluator",
+    "derived_class": "language learning",
+    "params_for_query": [
+      "plan_id",
+      "effectiveness_score",
+      "evaluation_date",
+      "comments"
+    ],
+    "queries": [
+      {
+        "query": "I evaluated the language learning plan with ID LL-2023-ABC and gave it an effectiveness score of 8 on 2023-08-15. The plan is well-structured, but incorporating more interactive exercises could enhance learner engagement.",
+        "filled_param": {
+          "plan_id": "LL-2023-ABC",
+          "effectiveness_score": 8,
+          "evaluation_date": "2023-08-15",
+          "comments": "The plan is well-structured, but incorporating more interactive exercises could enhance learner engagement."
+        }
+      },
+      {
+        "query": "Please provide feedback for the language learning plan identified by 12345XYZ. I rated its effectiveness as 6 on 2023-09-10, noting that while the content is comprehensive, it could benefit from clearer progression guidelines.",
+        "filled_param": {
+          "plan_id": "12345XYZ",
+          "effectiveness_score": 6,
+          "evaluation_date": "2023-09-10",
+          "comments": "While the content is comprehensive, it could benefit from clearer progression guidelines."
+        }
+      },
+      {
+        "query": "On 2023-07-20, I evaluated the language learning plan with the identifier LANG-PLAN-098 and gave it a 9 for effectiveness. My comment is that it's highly effective, though offering more varied practice scenarios might make it even better.",
+        "filled_param": {
+          "plan_id": "LANG-PLAN-098",
+          "effectiveness_score": 9,
+          "evaluation_date": "2023-07-20",
+          "comments": "It's highly effective, though offering more varied practice scenarios might make it even better."
+        }
+      },
+      {
+        "query": "I reviewed the language learning scheme with plan_id A1B2C3 on 2023-06-30 and assigned an effectiveness score of 7. Although the lessons are well-paced, integrating more multimedia resources could improve understanding.",
+        "filled_param": {
+          "plan_id": "A1B2C3",
+          "effectiveness_score": 7,
+          "evaluation_date": "2023-06-30",
+          "comments": "Although the lessons are well-paced, integrating more multimedia resources could improve understanding."
+        }
+      },
+      {
+        "query": "The language learning plan with the ID PL-2023-QWERTY was evaluated by me on 2023-11-01 with an effectiveness score of 5. I suggest that the material should include more real-life conversational examples to be more engaging.",
+        "filled_param": {
+          "plan_id": "PL-2023-QWERTY",
+          "effectiveness_score": 5,
+          "evaluation_date": "2023-11-01",
+          "comments": "I suggest that the material should include more real-life conversational examples to be more engaging."
+        }
+      }
+    ]
+  },
+  "RehabPlanEvaluator|:|career|:|plan_id,effectiveness_score,evaluation_date,comments": {
+    "tool_template_name": "RehabPlanEvaluator",
+    "derived_class": "career",
+    "params_for_query": [
+      "plan_id",
+      "effectiveness_score",
+      "evaluation_date",
+      "comments"
+    ],
+    "queries": [
+      {
+        "query": "Please evaluate the career plan with ID CP12345 using an effectiveness score of 7 dated 2023-08-15, and include comments on how it could better align with industry trends.",
+        "filled_param": {
+          "plan_id": "CP12345",
+          "effectiveness_score": 7,
+          "evaluation_date": "2023-08-15",
+          "comments": "how it could better align with industry trends"
+        }
+      },
+      {
+        "query": "I'd like a feedback report on the career plan identified by the code PL-6789. Rate its effectiveness a 9 as of 2023-09-21, and suggest ways to enhance its technical skill focus.",
+        "filled_param": {
+          "plan_id": "PL-6789",
+          "effectiveness_score": 9,
+          "evaluation_date": "2023-09-21",
+          "comments": "suggest ways to enhance its technical skill focus"
+        }
+      },
+      {
+        "query": "Review the career path outlined in plan XY-9876, giving it an effectiveness score of 5 on 2023-10-02. Please provide feedback on potential improvements for leadership development.",
+        "filled_param": {
+          "plan_id": "XY-9876",
+          "effectiveness_score": 5,
+          "evaluation_date": "2023-10-02",
+          "comments": "potential improvements for leadership development"
+        }
+      },
+      {
+        "query": "Can you analyze the career plan with ID CR00321, assigning it an effectiveness score of 6 for the evaluation on 2023-07-30, and offer suggestions to improve networking opportunities?",
+        "filled_param": {
+          "plan_id": "CR00321",
+          "effectiveness_score": 6,
+          "evaluation_date": "2023-07-30",
+          "comments": "offer suggestions to improve networking opportunities"
+        }
+      },
+      {
+        "query": "Evaluate the career strategy under plan ID 2022-BF45. Rate its effectiveness as 8 on 2023-11-05, and include comments on enhancing its adaptability to market changes.",
+        "filled_param": {
+          "plan_id": "2022-BF45",
+          "effectiveness_score": 8,
+          "evaluation_date": "2023-11-05",
+          "comments": "enhancing its adaptability to market changes"
+        }
+      },
+      {
+        "query": "I'd like an evaluation of the career plan labeled AB-1234 with a score of 4 on 2023-12-01. Provide feedback on how it can improve in aligning with personal goals.",
+        "filled_param": {
+          "plan_id": "AB-1234",
+          "effectiveness_score": 4,
+          "evaluation_date": "2023-12-01",
+          "comments": "how it can improve in aligning with personal goals"
+        }
+      }
+    ]
+  },
+  "RehabPlanEvaluator|:|rehabilitation|:|plan_id,effectiveness_score,evaluation_date,comments": {
+    "tool_template_name": "RehabPlanEvaluator",
+    "derived_class": "rehabilitation",
+    "params_for_query": [
+      "plan_id",
+      "effectiveness_score",
+      "evaluation_date",
+      "comments"
+    ],
+    "queries": [
+      {
+        "query": "Please evaluate the rehabilitation plan with ID 'rehab-001' which was reviewed on 2023-08-15, giving it an effectiveness score of 7. The plan could be improved by incorporating more flexibility exercises.",
+        "filled_param": {
+          "plan_id": "rehab-001",
+          "effectiveness_score": 7,
+          "evaluation_date": "2023-08-15",
+          "comments": "The plan could be improved by incorporating more flexibility exercises."
+        }
+      },
+      {
+        "query": "Generate feedback for the rehabilitation plan identified as 'plan1234' with an effectiveness score of 5. The review was conducted on 2023-09-10. One suggestion is to add more cardiovascular activities.",
+        "filled_param": {
+          "plan_id": "plan1234",
+          "effectiveness_score": 5,
+          "evaluation_date": "2023-09-10",
+          "comments": "One suggestion is to add more cardiovascular activities."
+        }
+      },
+      {
+        "query": "Evaluate the rehab plan with ID 'ABC-987' that received an effectiveness score of 9 on 2023-07-22. It's highly effective, but more rest days could be beneficial.",
+        "filled_param": {
+          "plan_id": "ABC-987",
+          "effectiveness_score": 9,
+          "evaluation_date": "2023-07-22",
+          "comments": "It's highly effective, but more rest days could be beneficial."
+        }
+      },
+      {
+        "query": "I need an evaluation of the rehabilitation plan with ID 'rehab-plan-456', evaluated on 2023-06-30 with a score of 3. Consider increasing frequency of strength training sessions.",
+        "filled_param": {
+          "plan_id": "rehab-plan-456",
+          "effectiveness_score": 3,
+          "evaluation_date": "2023-06-30",
+          "comments": "Consider increasing frequency of strength training sessions."
+        }
+      },
+      {
+        "query": "Can you provide feedback for the plan 'XYZ-321' reviewed on 2023-10-01 with an effectiveness score of 6? It could benefit from more personalized physiotherapy sessions.",
+        "filled_param": {
+          "plan_id": "XYZ-321",
+          "effectiveness_score": 6,
+          "evaluation_date": "2023-10-01",
+          "comments": "It could benefit from more personalized physiotherapy sessions."
+        }
+      }
+    ]
+  },
+  "RehabPlanEvaluator|:|financial|:|plan_id,effectiveness_score,evaluation_date,comments": {
+    "tool_template_name": "RehabPlanEvaluator",
+    "derived_class": "financial",
+    "params_for_query": [
+      "plan_id",
+      "effectiveness_score",
+      "evaluation_date",
+      "comments"
+    ],
+    "queries": [
+      {
+        "query": "Evaluate the financial plan with ID FP-12345. It scored an 8 on effectiveness during the evaluation on 2023-10-15. The main comment was to consider diversifying investments.",
+        "filled_param": {
+          "plan_id": "FP-12345",
+          "effectiveness_score": 8,
+          "evaluation_date": "2023-10-15",
+          "comments": "The main comment was to consider diversifying investments."
+        }
+      },
+      {
+        "query": "Provide feedback on the financial plan identified by plan ID ABCD-987-ZYX. It received a score of 6 on 2023-09-25. Suggestions included reducing overhead costs.",
+        "filled_param": {
+          "plan_id": "ABCD-987-ZYX",
+          "effectiveness_score": 6,
+          "evaluation_date": "2023-09-25",
+          "comments": "Suggestions included reducing overhead costs."
+        }
+      },
+      {
+        "query": "The financial plan with ID 2022XYZ received a score of 9 on its evaluation conducted on 2023-01-12. The feedback was to continue with the current strategy.",
+        "filled_param": {
+          "plan_id": "2022XYZ",
+          "effectiveness_score": 9,
+          "evaluation_date": "2023-01-12",
+          "comments": "The feedback was to continue with the current strategy."
+        }
+      },
+      {
+        "query": "Assess the financial plan FP-789KLM. It was rated 4 for effectiveness on 2023-05-20, with comments urging to enhance risk management protocols.",
+        "filled_param": {
+          "plan_id": "FP-789KLM",
+          "effectiveness_score": 4,
+          "evaluation_date": "2023-05-20",
+          "comments": "Comments urging to enhance risk management protocols."
+        }
+      },
+      {
+        "query": "I need a structured evaluation for the financial plan with ID 5566-XYZ-334. It had an effectiveness score of 7 on 2023-03-05, with the suggestion to focus on long-term growth strategies.",
+        "filled_param": {
+          "plan_id": "5566-XYZ-334",
+          "effectiveness_score": 7,
+          "evaluation_date": "2023-03-05",
+          "comments": "Suggestion to focus on long-term growth strategies."
+        }
+      }
+    ]
+  },
+  "RehabPlanEvaluator|:|sleep|:|plan_id,effectiveness_score,evaluation_date,comments": {
+    "tool_template_name": "RehabPlanEvaluator",
+    "derived_class": "sleep",
+    "params_for_query": [
+      "plan_id",
+      "effectiveness_score",
+      "evaluation_date",
+      "comments"
+    ],
+    "queries": [
+      {
+        "query": "I evaluated sleep plan ID SP123-ABC on 2023-08-15. It scored a 7. My comments: Consider incorporating a consistent wake-up time for better results.",
+        "filled_param": {
+          "plan_id": "SP123-ABC",
+          "effectiveness_score": 7,
+          "evaluation_date": "2023-08-15",
+          "comments": "Consider incorporating a consistent wake-up time for better results."
+        }
+      },
+      {
+        "query": "The sleep plan with ID 987ZYX was reviewed on 2023-09-10 and received a score of 5. Comments: The routine needs more relaxation techniques before bedtime.",
+        "filled_param": {
+          "plan_id": "987ZYX",
+          "effectiveness_score": 5,
+          "evaluation_date": "2023-09-10",
+          "comments": "The routine needs more relaxation techniques before bedtime."
+        }
+      },
+      {
+        "query": "For sleep plan 456DEF reviewed on 2023-07-22, I gave it a 9. My suggestion: Maintain the current schedule, as it’s quite effective.",
+        "filled_param": {
+          "plan_id": "456DEF",
+          "effectiveness_score": 9,
+          "evaluation_date": "2023-07-22",
+          "comments": "Maintain the current schedule, as it’s quite effective."
+        }
+      },
+      {
+        "query": "On 2023-06-30, I rated sleep plan NoPlan01 with a 3. Comments: The plan lacks consistency and needs a major overhaul.",
+        "filled_param": {
+          "plan_id": "NoPlan01",
+          "effectiveness_score": 3,
+          "evaluation_date": "2023-06-30",
+          "comments": "The plan lacks consistency and needs a major overhaul."
+        }
+      },
+      {
+        "query": "I assessed sleep plan ID PlanB-2023 on 2023-05-05, giving it an 8. Feedback: Adding a winding down period could make it more effective.",
+        "filled_param": {
+          "plan_id": "PlanB-2023",
+          "effectiveness_score": 8,
+          "evaluation_date": "2023-05-05",
+          "comments": "Adding a winding down period could make it more effective."
+        }
+      }
+    ]
+  }
+}

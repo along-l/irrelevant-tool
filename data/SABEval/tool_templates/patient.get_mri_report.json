@@ -1,0 +1,59 @@
+{
+  "tool_template_name": "patient.get_mri_report",
+  "meta_data": {
+    "base_class": "retrieve the report of a patient's <medical imaging examination> - these examinations share the same parameter structure but differ in imaging region or modality.",
+    "derived_classes": [
+      "brain MRI",
+      "chest CT",
+      "abdominal ultrasound",
+      "cardiac echocardiogram",
+      "spinal X-ray",
+      "breast MRI",
+      "liver CT",
+      "ocular OCT",
+      "whole-body PET scan",
+      "angiography"
+    ],
+    "base_class_entity": "brain MRI"
+  },
+  "tool_template": {
+    "name": "patient.get_<class>_report",
+    "description": "Fetch the <class> report of the patient for a given status.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "patient_id": {
+          "type": "string",
+          "description": "The patient identifier."
+        },
+        "status": {
+          "type": "string",
+          "description": "Status of the <class> report, could be 'in progress', 'concluded' or 'draft'."
+        }
+      },
+      "required": [
+        "patient_id",
+        "status"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "report_date": {
+      "type": "string",
+      "description": "The date when the <class> report was generated."
+    },
+    "image_quality": {
+      "type": "string",
+      "description": "The quality of the images in the <class> report, such as 'high', 'medium', or 'low'."
+    },
+    "include_ai_analysis": {
+      "type": "boolean",
+      "description": "If true, includes AI-assisted quantitative findings or measurements from the <class> report, when available."
+    },
+    "language": {
+      "type": "string",
+      "description": "Specifies the preferred language for the <class> report, e.g., 'en' or 'zh'."
+    }
+  }
+}

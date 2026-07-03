@@ -1,0 +1,248 @@
+{
+  "modify_flight|:|flight|:|user_id,reservation_id,new_schedule_no,new_cabin": {
+    "tool_template_name": "modify_flight",
+    "derived_class": "flight",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "new_schedule_no",
+      "new_cabin"
+    ],
+    "queries": [
+      {
+        "query": "Please modify my flight with user ID U12345 and reservation ID R67890 to new schedule number S11111 in business class.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890",
+          "new_schedule_no": "S11111",
+          "new_cabin": "business class"
+        }
+      },
+      {
+        "query": "I need to change my flight under user ID U98765 and reservation ID R54321 to schedule number S22222 and switch to economy class.",
+        "filled_param": {
+          "user_id": "U98765",
+          "reservation_id": "R54321",
+          "new_schedule_no": "S22222",
+          "new_cabin": "economy class"
+        }
+      },
+      {
+        "query": "Can you update my flight with user ID U65432 and reservation ID R12345 to the new schedule S33333 in premium economy?",
+        "filled_param": {
+          "user_id": "U65432",
+          "reservation_id": "R12345",
+          "new_schedule_no": "S33333",
+          "new_cabin": "premium economy"
+        }
+      },
+      {
+        "query": "I want to change my reservation for user ID U11111 and reservation ID R99999 to schedule S44444 and move to first class.",
+        "filled_param": {
+          "user_id": "U11111",
+          "reservation_id": "R99999",
+          "new_schedule_no": "S44444",
+          "new_cabin": "first class"
+        }
+      },
+      {
+        "query": "Could you modify the flight details for user ID U22222 with reservation ID R88888 to schedule number S55555 and change to business class?",
+        "filled_param": {
+          "user_id": "U22222",
+          "reservation_id": "R88888",
+          "new_schedule_no": "S55555",
+          "new_cabin": "business class"
+        }
+      }
+    ]
+  },
+  "modify_flight|:|high-speed train|:|user_id,reservation_id,new_schedule_no,new_cabin": {
+    "tool_template_name": "modify_flight",
+    "derived_class": "high-speed train",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "new_schedule_no",
+      "new_cabin"
+    ],
+    "queries": [
+      {
+        "query": "Please change my high-speed train booking with reservation ID 1234 to schedule number 5678 and upgrade to business class. My user ID is A1B2C3.",
+        "filled_param": {
+          "user_id": "A1B2C3",
+          "reservation_id": "1234",
+          "new_schedule_no": "5678",
+          "new_cabin": "business class"
+        }
+      },
+      {
+        "query": "I need to modify my high-speed train reservation. The reservation ID is 4321. Change it to schedule number 8765 and switch to economy class. My user ID is XY987.",
+        "filled_param": {
+          "user_id": "XY987",
+          "reservation_id": "4321",
+          "new_schedule_no": "8765",
+          "new_cabin": "economy class"
+        }
+      },
+      {
+        "query": "For user ID LMNOPQR, update the high-speed train reservation with ID 5678 to schedule number 1357 and change the cabin to premium economy.",
+        "filled_param": {
+          "user_id": "LMNOPQR",
+          "reservation_id": "5678",
+          "new_schedule_no": "1357",
+          "new_cabin": "premium economy"
+        }
+      },
+      {
+        "query": "Can you modify my high-speed train reservation? My user ID is 123XYZ and reservation ID is 2468. I want to switch to schedule 9753 and change to first class.",
+        "filled_param": {
+          "user_id": "123XYZ",
+          "reservation_id": "2468",
+          "new_schedule_no": "9753",
+          "new_cabin": "first class"
+        }
+      },
+      {
+        "query": "Update my high-speed train booking for reservation ID 1122 to the new schedule number 3344 and change the cabin to luxury suite. My user ID is ABC789.",
+        "filled_param": {
+          "user_id": "ABC789",
+          "reservation_id": "1122",
+          "new_schedule_no": "3344",
+          "new_cabin": "luxury suite"
+        }
+      },
+      {
+        "query": "I'd like to alter my high-speed train booking with reservation ID 9988. Change it to schedule number 7766 and upgrade to deluxe cabin. My user ID is USER001.",
+        "filled_param": {
+          "user_id": "USER001",
+          "reservation_id": "9988",
+          "new_schedule_no": "7766",
+          "new_cabin": "deluxe cabin"
+        }
+      }
+    ]
+  },
+  "modify_flight|:|cruise ship|:|user_id,reservation_id,new_schedule_no,new_cabin": {
+    "tool_template_name": "modify_flight",
+    "derived_class": "cruise ship",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "new_schedule_no",
+      "new_cabin"
+    ],
+    "queries": [
+      {
+        "query": "Please update my cruise ship booking with user ID U12345 and reservation ID R67890 to the new schedule number S1122 and change the cabin to business class.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890",
+          "new_schedule_no": "S1122",
+          "new_cabin": "business class"
+        }
+      },
+      {
+        "query": "I need to modify my cruise ship reservation. My user ID is U98765, and the reservation ID is R54321. Change the schedule to S3344 and upgrade to a suite cabin.",
+        "filled_param": {
+          "user_id": "U98765",
+          "reservation_id": "R54321",
+          "new_schedule_no": "S3344",
+          "new_cabin": "suite cabin"
+        }
+      },
+      {
+        "query": "Can you switch my cruise ship booking? The user ID is U11223 and the reservation is R44556. I want the new schedule S7788 and a downgrade to economy class.",
+        "filled_param": {
+          "user_id": "U11223",
+          "reservation_id": "R44556",
+          "new_schedule_no": "S7788",
+          "new_cabin": "economy class"
+        }
+      },
+      {
+        "query": "Modify my cruise ship reservation: user ID U55678, reservation ID R33442. Please change to schedule S9911 and an ocean view cabin.",
+        "filled_param": {
+          "user_id": "U55678",
+          "reservation_id": "R33442",
+          "new_schedule_no": "S9911",
+          "new_cabin": "ocean view cabin"
+        }
+      },
+      {
+        "query": "I would like to alter my cruise ship booking. My user ID is U44321, reservation ID is R12345. Switch to schedule S2233 and move to a family cabin.",
+        "filled_param": {
+          "user_id": "U44321",
+          "reservation_id": "R12345",
+          "new_schedule_no": "S2233",
+          "new_cabin": "family cabin"
+        }
+      }
+    ]
+  },
+  "modify_flight|:|long-distance bus|:|user_id,reservation_id,new_schedule_no,new_cabin": {
+    "tool_template_name": "modify_flight",
+    "derived_class": "long-distance bus",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "new_schedule_no",
+      "new_cabin"
+    ],
+    "queries": [
+      {
+        "query": "Please modify my long-distance bus reservation using user ID 12345, switching reservation ID ABCD123 to schedule number 67890 in business class.",
+        "filled_param": {
+          "user_id": "12345",
+          "reservation_id": "ABCD123",
+          "new_schedule_no": "67890",
+          "new_cabin": "business class"
+        }
+      },
+      {
+        "query": "I need to change my long-distance bus booking: user ID 98765, reservation ID XYZ987 to new schedule 34567 in economy class.",
+        "filled_param": {
+          "user_id": "98765",
+          "reservation_id": "XYZ987",
+          "new_schedule_no": "34567",
+          "new_cabin": "economy class"
+        }
+      },
+      {
+        "query": "Update my long-distance bus reservation for user ID 54321 to schedule 11223, using reservation ID LMN456, and shift to the premium class cabin.",
+        "filled_param": {
+          "user_id": "54321",
+          "reservation_id": "LMN456",
+          "new_schedule_no": "11223",
+          "new_cabin": "premium class"
+        }
+      },
+      {
+        "query": "Can you modify my reservation for the long-distance bus? My user ID is 11111 and the reservation ID is QWE789, changing it to schedule 90123 and upgrading to luxury class.",
+        "filled_param": {
+          "user_id": "11111",
+          "reservation_id": "QWE789",
+          "new_schedule_no": "90123",
+          "new_cabin": "luxury class"
+        }
+      },
+      {
+        "query": "Change my long-distance bus booking with user ID 22222, reservation ID HJK654 to schedule 55678 and switch to the economy class.",
+        "filled_param": {
+          "user_id": "22222",
+          "reservation_id": "HJK654",
+          "new_schedule_no": "55678",
+          "new_cabin": "economy class"
+        }
+      },
+      {
+        "query": "I would like to modify my long-distance bus trip: user ID 33333, reservation ID UVW321, switch to new schedule 78901 in the standard cabin class.",
+        "filled_param": {
+          "user_id": "33333",
+          "reservation_id": "UVW321",
+          "new_schedule_no": "78901",
+          "new_cabin": "standard cabin"
+        }
+      }
+    ]
+  }
+}

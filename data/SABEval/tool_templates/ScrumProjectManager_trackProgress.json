@@ -1,0 +1,59 @@
+{
+  "tool_template_name": "ScrumProjectManager_trackProgress",
+  "meta_data": {
+    "base_class": "Track the progress of projects based on specific <software development paradigms> - refers to structured processes, models, or methodologies used for building software.",
+    "derived_classes": [
+      "Waterfall",
+      "Iterative",
+      "Incremental",
+      "Prototyping",
+      "Spiral",
+      "Kanban"
+    ],
+    "base_class_entity": "a Scrum-based project"
+  },
+  "tool_template": {
+    "name": "track_<class>_project_progress",
+    "description": "Track the progress of a <class>-based project, providing updates on completed and pending tasks.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "solutionID": {
+          "type": "string",
+          "description": "The unique identifier for the technical solution whose progress is being tracked in the <class> project."
+        },
+        "date": {
+          "type": "string",
+          "description": "The date for which the progress update is requested, format YYYY-MM-DD."
+        }
+      },
+      "required": [
+        "solutionID",
+        "date"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "progressMetric": {
+      "type": "string",
+      "description": "Specifies the metric used to measure progress for the <class> project. Options include 'Story Points', 'Tasks Completed', and 'Hours Logged'."
+    },
+    "teamID": {
+      "type": "string",
+      "description": "Identifier of the team whose progress is being tracked within the <class> project."
+    },
+    "includeBurndownChart": {
+      "type": "boolean",
+      "description": "Indicates whether the progress report should include a burndown chart visualization for the <class> project."
+    },
+    "communicationMode": {
+      "type": "string",
+      "description": "Defines how progress updates should be communicated to stakeholders for the <class> project. Options include 'Email Summary', 'Dashboard Only', 'Slack Notification', and 'Report Export'."
+    },
+    "riskFocus": {
+      "type": "boolean",
+      "description": "If true, the progress tracking output will highlight high-risk items or impediments within the <class> project."
+    }
+  }
+}

@@ -1,0 +1,703 @@
+{
+  "sports_db.find_athlete|:|basketball|:|name,team": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "basketball",
+    "params_for_query": [
+      "name",
+      "team"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the profile of the basketball player LeBron James from the Los Angeles Lakers?",
+        "filled_param": {
+          "name": "LeBron James",
+          "team": "Los Angeles Lakers"
+        }
+      },
+      {
+        "query": "I need information about the basketball athlete Stephen Curry who plays for the Golden State Warriors.",
+        "filled_param": {
+          "name": "Stephen Curry",
+          "team": "Golden State Warriors"
+        }
+      },
+      {
+        "query": "Who is the basketball player Kevin Durant, and what are his details from the Brooklyn Nets?",
+        "filled_param": {
+          "name": "Kevin Durant",
+          "team": "Brooklyn Nets"
+        }
+      },
+      {
+        "query": "Find the profile of Giannis Antetokounmpo from the Milwaukee Bucks in the basketball league.",
+        "filled_param": {
+          "name": "Giannis Antetokounmpo",
+          "team": "Milwaukee Bucks"
+        }
+      },
+      {
+        "query": "Can you tell me more about the basketball player Luka Dončić from the Dallas Mavericks?",
+        "filled_param": {
+          "name": "Luka Dončić",
+          "team": "Dallas Mavericks"
+        }
+      },
+      {
+        "query": "I’m looking for details on the basketball player Kawhi Leonard who is part of the Los Angeles Clippers.",
+        "filled_param": {
+          "name": "Kawhi Leonard",
+          "team": "Los Angeles Clippers"
+        }
+      },
+      {
+        "query": "Please give me the profile of the basketball athlete Jayson Tatum from the Boston Celtics.",
+        "filled_param": {
+          "name": "Jayson Tatum",
+          "team": "Boston Celtics"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|soccer|:|name,team": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "soccer",
+    "params_for_query": [
+      "name",
+      "team"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the profile of Lionel Messi from Paris Saint-Germain?",
+        "filled_param": {
+          "name": "Lionel Messi",
+          "team": "Paris Saint-Germain"
+        }
+      },
+      {
+        "query": "I need the profile information for Cristiano Ronaldo who plays for Al-Nassr.",
+        "filled_param": {
+          "name": "Cristiano Ronaldo",
+          "team": "Al-Nassr"
+        }
+      },
+      {
+        "query": "Find the details about Neymar Jr. from Paris Saint-Germain.",
+        "filled_param": {
+          "name": "Neymar Jr.",
+          "team": "Paris Saint-Germain"
+        }
+      },
+      {
+        "query": "Could you look up the profile of Kylian Mbappé currently with Paris Saint-Germain?",
+        "filled_param": {
+          "name": "Kylian Mbappé",
+          "team": "Paris Saint-Germain"
+        }
+      },
+      {
+        "query": "What's the profile information for Mohamed Salah from Liverpool?",
+        "filled_param": {
+          "name": "Mohamed Salah",
+          "team": "Liverpool"
+        }
+      },
+      {
+        "query": "Tell me about Kevin De Bruyne's profile, who is on Manchester City.",
+        "filled_param": {
+          "name": "Kevin De Bruyne",
+          "team": "Manchester City"
+        }
+      },
+      {
+        "query": "I'd like to know about the soccer player Robert Lewandowski from FC Barcelona.",
+        "filled_param": {
+          "name": "Robert Lewandowski",
+          "team": "FC Barcelona"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|baseball|:|name,team": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "baseball",
+    "params_for_query": [
+      "name",
+      "team"
+    ],
+    "queries": [
+      {
+        "query": "Can you get the profile information for the baseball player Mike Trout from the Los Angeles Angels?",
+        "filled_param": {
+          "name": "Mike Trout",
+          "team": "Los Angeles Angels"
+        }
+      },
+      {
+        "query": "I need the details of the baseball athlete Mookie Betts who plays for the Los Angeles Dodgers.",
+        "filled_param": {
+          "name": "Mookie Betts",
+          "team": "Los Angeles Dodgers"
+        }
+      },
+      {
+        "query": "Find the profile of baseball player Aaron Judge from the New York Yankees.",
+        "filled_param": {
+          "name": "Aaron Judge",
+          "team": "New York Yankees"
+        }
+      },
+      {
+        "query": "What is the profile information for the baseball player Shohei Ohtani from the Los Angeles Angels?",
+        "filled_param": {
+          "name": "Shohei Ohtani",
+          "team": "Los Angeles Angels"
+        }
+      },
+      {
+        "query": "I would like to know more about the baseball player Fernando Tatis Jr. from the San Diego Padres.",
+        "filled_param": {
+          "name": "Fernando Tatis Jr.",
+          "team": "San Diego Padres"
+        }
+      },
+      {
+        "query": "Could you provide the profile for the baseball athlete Bryce Harper who is with the Philadelphia Phillies?",
+        "filled_param": {
+          "name": "Bryce Harper",
+          "team": "Philadelphia Phillies"
+        }
+      },
+      {
+        "query": "Retrieve details about baseball player Jacob deGrom from the Texas Rangers.",
+        "filled_param": {
+          "name": "Jacob deGrom",
+          "team": "Texas Rangers"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|american football|:|name,team": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "american football",
+    "params_for_query": [
+      "name",
+      "team"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the profile information for Tom Brady who plays for the Tampa Bay Buccaneers in american football?",
+        "filled_param": {
+          "name": "Tom Brady",
+          "team": "Tampa Bay Buccaneers"
+        }
+      },
+      {
+        "query": "I need details on the american football athlete Russell Wilson from the Denver Broncos.",
+        "filled_param": {
+          "name": "Russell Wilson",
+          "team": "Denver Broncos"
+        }
+      },
+      {
+        "query": "Find the profile of Aaron Donald, the american football player from Los Angeles Rams.",
+        "filled_param": {
+          "name": "Aaron Donald",
+          "team": "Los Angeles Rams"
+        }
+      },
+      {
+        "query": "Tell me about the american football player Patrick Mahomes who is on the Kansas City Chiefs team.",
+        "filled_param": {
+          "name": "Patrick Mahomes",
+          "team": "Kansas City Chiefs"
+        }
+      },
+      {
+        "query": "Can you look up the profile for Lamar Jackson from the Baltimore Ravens in american football?",
+        "filled_param": {
+          "name": "Lamar Jackson",
+          "team": "Baltimore Ravens"
+        }
+      },
+      {
+        "query": "Please find the profile information for the american football athlete Ezekiel Elliott who plays for the Dallas Cowboys.",
+        "filled_param": {
+          "name": "Ezekiel Elliott",
+          "team": "Dallas Cowboys"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|ice hockey|:|name,team": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "ice hockey",
+    "params_for_query": [
+      "name",
+      "team"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the profile information for Alex Ovechkin from the Washington Capitals in ice hockey?",
+        "filled_param": {
+          "name": "Alex Ovechkin",
+          "team": "Washington Capitals"
+        }
+      },
+      {
+        "query": "Who is the ice hockey player named Sidney Crosby that plays for the Pittsburgh Penguins?",
+        "filled_param": {
+          "name": "Sidney Crosby",
+          "team": "Pittsburgh Penguins"
+        }
+      },
+      {
+        "query": "I'd like to know more about the ice hockey athlete Connor McDavid from the Edmonton Oilers.",
+        "filled_param": {
+          "name": "Connor McDavid",
+          "team": "Edmonton Oilers"
+        }
+      },
+      {
+        "query": "Find the profile for ice hockey player Auston Matthews from the Toronto Maple Leafs.",
+        "filled_param": {
+          "name": "Auston Matthews",
+          "team": "Toronto Maple Leafs"
+        }
+      },
+      {
+        "query": "Could you get the details of the ice hockey athlete Henrik Lundqvist who was part of the New York Rangers?",
+        "filled_param": {
+          "name": "Henrik Lundqvist",
+          "team": "New York Rangers"
+        }
+      },
+      {
+        "query": "I am looking for information about ice hockey player Patrick Kane from the Chicago Blackhawks.",
+        "filled_param": {
+          "name": "Patrick Kane",
+          "team": "Chicago Blackhawks"
+        }
+      },
+      {
+        "query": "What can you tell me about the ice hockey player Jonathan Toews on the Chicago Blackhawks?",
+        "filled_param": {
+          "name": "Jonathan Toews",
+          "team": "Chicago Blackhawks"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|volleyball|:|name,team": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "volleyball",
+    "params_for_query": [
+      "name",
+      "team"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the profile details for the volleyball player Samantha Carter who plays for the Atlantics?",
+        "filled_param": {
+          "name": "Samantha Carter",
+          "team": "Atlantics"
+        }
+      },
+      {
+        "query": "I'm looking for information on the volleyball athlete Marcus Brown from the Strikers team.",
+        "filled_param": {
+          "name": "Marcus Brown",
+          "team": "Strikers"
+        }
+      },
+      {
+        "query": "Find the profile of the volleyball player named Elena Fernandez who is a member of the Tigers.",
+        "filled_param": {
+          "name": "Elena Fernandez",
+          "team": "Tigers"
+        }
+      },
+      {
+        "query": "Please get the details for volleyball athlete Jamie Lee, who plays for the Mavericks team.",
+        "filled_param": {
+          "name": "Jamie Lee",
+          "team": "Mavericks"
+        }
+      },
+      {
+        "query": "What is the profile information for the volleyball player Oliver Smith from the Eagles?",
+        "filled_param": {
+          "name": "Oliver Smith",
+          "team": "Eagles"
+        }
+      },
+      {
+        "query": "Retrieve the profile of volleyball player Nora Johnson who is part of the Warriors.",
+        "filled_param": {
+          "name": "Nora Johnson",
+          "team": "Warriors"
+        }
+      },
+      {
+        "query": "I'd like to know more about the volleyball athlete Emily Davis associated with the Panthers.",
+        "filled_param": {
+          "name": "Emily Davis",
+          "team": "Panthers"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|esports|:|name,team": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "esports",
+    "params_for_query": [
+      "name",
+      "team"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the profile information for esports athlete Faker from team T1?",
+        "filled_param": {
+          "name": "Faker",
+          "team": "T1"
+        }
+      },
+      {
+        "query": "I'm looking for details on the esports player s1mple who plays for Natus Vincere.",
+        "filled_param": {
+          "name": "s1mple",
+          "team": "Natus Vincere"
+        }
+      },
+      {
+        "query": "Please find the profile of esports athlete Doinb from team LNG Esports.",
+        "filled_param": {
+          "name": "Doinb",
+          "team": "LNG Esports"
+        }
+      },
+      {
+        "query": "Give me the information about esports competitor Rekkles, currently with team Karmine Corp.",
+        "filled_param": {
+          "name": "Rekkles",
+          "team": "Karmine Corp"
+        }
+      },
+      {
+        "query": "I want the details of esports player ZywOo who is part of Team Vitality.",
+        "filled_param": {
+          "name": "ZywOo",
+          "team": "Team Vitality"
+        }
+      },
+      {
+        "query": "Fetch the profile for esports athlete Perkz from the team Team Heretics.",
+        "filled_param": {
+          "name": "Perkz",
+          "team": "Team Heretics"
+        }
+      },
+      {
+        "query": "What can you tell me about esports player Doublelift from team 100 Thieves?",
+        "filled_param": {
+          "name": "Doublelift",
+          "team": "100 Thieves"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|cricket|:|name,team": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "cricket",
+    "params_for_query": [
+      "name",
+      "team"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the profile of cricket athlete Virat Kohli from the Indian national team?",
+        "filled_param": {
+          "name": "Virat Kohli",
+          "team": "Indian national team"
+        }
+      },
+      {
+        "query": "I want to know more about cricket player Steve Smith who plays for the Australian national team.",
+        "filled_param": {
+          "name": "Steve Smith",
+          "team": "Australian national team"
+        }
+      },
+      {
+        "query": "Please find information on cricket athlete Joe Root from England's cricket team.",
+        "filled_param": {
+          "name": "Joe Root",
+          "team": "England's cricket team"
+        }
+      },
+      {
+        "query": "What can you tell me about the cricket player Kane Williamson from the New Zealand national team?",
+        "filled_param": {
+          "name": "Kane Williamson",
+          "team": "New Zealand national team"
+        }
+      },
+      {
+        "query": "Get the profile details of cricket athlete Babar Azam who is part of Pakistan's national team.",
+        "filled_param": {
+          "name": "Babar Azam",
+          "team": "Pakistan's national team"
+        }
+      },
+      {
+        "query": "Find the details of cricket player Jason Holder from the West Indies cricket team.",
+        "filled_param": {
+          "name": "Jason Holder",
+          "team": "West Indies cricket team"
+        }
+      },
+      {
+        "query": "Could you give me info on cricket athlete Rashid Khan from the Afghanistan national team?",
+        "filled_param": {
+          "name": "Rashid Khan",
+          "team": "Afghanistan national team"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|rugby union|:|name,team": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "rugby union",
+    "params_for_query": [
+      "name",
+      "team"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the profile of the rugby union player Owen Farrell from the England team?",
+        "filled_param": {
+          "name": "Owen Farrell",
+          "team": "England"
+        }
+      },
+      {
+        "query": "I need information on the rugby union athlete from New Zealand named Beauden Barrett.",
+        "filled_param": {
+          "name": "Beauden Barrett",
+          "team": "New Zealand"
+        }
+      },
+      {
+        "query": "Who is the rugby union player Siya Kolisi from South Africa?",
+        "filled_param": {
+          "name": "Siya Kolisi",
+          "team": "South Africa"
+        }
+      },
+      {
+        "query": "Find the profile details of rugby union player Alun Wyn Jones who plays for Wales.",
+        "filled_param": {
+          "name": "Alun Wyn Jones",
+          "team": "Wales"
+        }
+      },
+      {
+        "query": "Get me the details of the rugby union athlete Antoine Dupont from the France team.",
+        "filled_param": {
+          "name": "Antoine Dupont",
+          "team": "France"
+        }
+      },
+      {
+        "query": "Could you look up information about the rugby union player Johnny Sexton from Ireland?",
+        "filled_param": {
+          "name": "Johnny Sexton",
+          "team": "Ireland"
+        }
+      },
+      {
+        "query": "I'm interested in the profile of the rugby union athlete Eben Etzebeth of the South Africa team.",
+        "filled_param": {
+          "name": "Eben Etzebeth",
+          "team": "South Africa"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|handball|:|name,team": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "handball",
+    "params_for_query": [
+      "name",
+      "team"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the profile information for the handball athlete named Kim Andersson who plays for the Ystads IF team?",
+        "filled_param": {
+          "name": "Kim Andersson",
+          "team": "Ystads IF"
+        }
+      },
+      {
+        "query": "Please find details about the handball player Cristina Neagu from the CSM Bucharest team.",
+        "filled_param": {
+          "name": "Cristina Neagu",
+          "team": "CSM Bucharest"
+        }
+      },
+      {
+        "query": "I'm looking for information on the handball athlete Nikola Karabatić who is part of the Paris Saint-Germain team.",
+        "filled_param": {
+          "name": "Nikola Karabatić",
+          "team": "Paris Saint-Germain"
+        }
+      },
+      {
+        "query": "Can you tell me more about the handball player Andrea Lekic, who plays for the RK Krim team?",
+        "filled_param": {
+          "name": "Andrea Lekic",
+          "team": "RK Krim"
+        }
+      },
+      {
+        "query": "Find the profile of the handball athlete Mikkel Hansen from Team Holstebro.",
+        "filled_param": {
+          "name": "Mikkel Hansen",
+          "team": "Team Holstebro"
+        }
+      },
+      {
+        "query": "What are the details of the handball player Nora Mørk who is associated with the Győri Audi ETO team?",
+        "filled_param": {
+          "name": "Nora Mørk",
+          "team": "Győri Audi ETO"
+        }
+      },
+      {
+        "query": "Get the athlete profile for the handball player Uwe Gensheimer from Rhein-Neckar Löwen.",
+        "filled_param": {
+          "name": "Uwe Gensheimer",
+          "team": "Rhein-Neckar Löwen"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|futsal|:|name,team": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "futsal",
+    "params_for_query": [
+      "name",
+      "team"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the profile information of the futsal player Diego Maradona from the team Boca Juniors?",
+        "filled_param": {
+          "name": "Diego Maradona",
+          "team": "Boca Juniors"
+        }
+      },
+      {
+        "query": "I need the details of the futsal athlete Lionel Messi who plays for Paris Saint-Germain.",
+        "filled_param": {
+          "name": "Lionel Messi",
+          "team": "Paris Saint-Germain"
+        }
+      },
+      {
+        "query": "Could you find the profile for the futsal player Cristiano Ronaldo from team Juventus?",
+        "filled_param": {
+          "name": "Cristiano Ronaldo",
+          "team": "Juventus"
+        }
+      },
+      {
+        "query": "What can you tell me about the futsal player Neymar Jr. on the team Santos FC?",
+        "filled_param": {
+          "name": "Neymar Jr.",
+          "team": "Santos FC"
+        }
+      },
+      {
+        "query": "I'd like some information on the futsal player Ronaldinho from the team Flamengo.",
+        "filled_param": {
+          "name": "Ronaldinho",
+          "team": "Flamengo"
+        }
+      },
+      {
+        "query": "Find the profile of the futsal athlete Zinedine Zidane who is part of the Real Madrid team.",
+        "filled_param": {
+          "name": "Zinedine Zidane",
+          "team": "Real Madrid"
+        }
+      },
+      {
+        "query": "Can you check the details of futsal player Andrea Pirlo from the team AC Milan?",
+        "filled_param": {
+          "name": "Andrea Pirlo",
+          "team": "AC Milan"
+        }
+      }
+    ]
+  },
+  "sports_db.find_athlete|:|field hockey|:|name,team": {
+    "tool_template_name": "sports_db.find_athlete",
+    "derived_class": "field hockey",
+    "params_for_query": [
+      "name",
+      "team"
+    ],
+    "queries": [
+      {
+        "query": "Can you find the profile of the field hockey player Alex Johnson who plays for the Blue Hawks team?",
+        "filled_param": {
+          "name": "Alex Johnson",
+          "team": "Blue Hawks"
+        }
+      },
+      {
+        "query": "I need information on the field hockey athlete Maria Gonzalez from the Golden Eagles team.",
+        "filled_param": {
+          "name": "Maria Gonzalez",
+          "team": "Golden Eagles"
+        }
+      },
+      {
+        "query": "Please provide the profile details of field hockey player Liam O'Reilly from the Red Warriors.",
+        "filled_param": {
+          "name": "Liam O'Reilly",
+          "team": "Red Warriors"
+        }
+      },
+      {
+        "query": "Who is the field hockey athlete named Sofia Patel playing for the Silver Knights?",
+        "filled_param": {
+          "name": "Sofia Patel",
+          "team": "Silver Knights"
+        }
+      },
+      {
+        "query": "Get the profile of field hockey player Ethan Smith from the Green Tigers team.",
+        "filled_param": {
+          "name": "Ethan Smith",
+          "team": "Green Tigers"
+        }
+      },
+      {
+        "query": "What can you tell me about field hockey athlete Chloe Nguyen on the Black Panthers team?",
+        "filled_param": {
+          "name": "Chloe Nguyen",
+          "team": "Black Panthers"
+        }
+      },
+      {
+        "query": "I am looking for the profile of field hockey player David Kim from the Orange Lions.",
+        "filled_param": {
+          "name": "David Kim",
+          "team": "Orange Lions"
+        }
+      }
+    ]
+  }
+}

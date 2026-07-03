@@ -1,0 +1,289 @@
+{
+  "get_flight_details|:|flight|:|origin,destination,departure_time,arrival_time,travel_class,availability_status": {
+    "tool_template_name": "get_flight_details",
+    "derived_class": "flight",
+    "params_for_query": [
+      "origin",
+      "destination",
+      "departure_time",
+      "arrival_time",
+      "travel_class",
+      "availability_status"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide details for a flight from New York to Los Angeles that departs at 08:30 and arrives at 11:45, in economy class, and is currently available?",
+        "filled_param": {
+          "origin": "New York",
+          "destination": "Los Angeles",
+          "departure_time": "08:30",
+          "arrival_time": "11:45",
+          "travel_class": "economy",
+          "availability_status": "available"
+        }
+      },
+      {
+        "query": "I need information on a first-class flight leaving from London to Paris at 14:00 and reaching at 16:15, which is fully booked.",
+        "filled_param": {
+          "origin": "London",
+          "destination": "Paris",
+          "departure_time": "14:00",
+          "arrival_time": "16:15",
+          "travel_class": "first class",
+          "availability_status": "fully booked"
+        }
+      },
+      {
+        "query": "What's the status of a business class flight from Tokyo to Sydney scheduled to leave at 22:45 and arrive at 08:30, especially if it's waitlisted?",
+        "filled_param": {
+          "origin": "Tokyo",
+          "destination": "Sydney",
+          "departure_time": "22:45",
+          "arrival_time": "08:30",
+          "travel_class": "business",
+          "availability_status": "waitlisted"
+        }
+      },
+      {
+        "query": "Tell me about a flight in economy from Berlin to Rome departing at 09:20 and arriving at 11:55 that is currently available.",
+        "filled_param": {
+          "origin": "Berlin",
+          "destination": "Rome",
+          "departure_time": "09:20",
+          "arrival_time": "11:55",
+          "travel_class": "economy",
+          "availability_status": "available"
+        }
+      },
+      {
+        "query": "Could you give me the details of a flight going from Dubai to Mumbai that departs at 18:00 and is scheduled to arrive at 23:30, in first class, with a status of fully booked?",
+        "filled_param": {
+          "origin": "Dubai",
+          "destination": "Mumbai",
+          "departure_time": "18:00",
+          "arrival_time": "23:30",
+          "travel_class": "first class",
+          "availability_status": "fully booked"
+        }
+      },
+      {
+        "query": "I'm looking for a business class flight from San Francisco to Chicago that leaves at 06:15 and arrives at 12:30, which is currently waitlisted.",
+        "filled_param": {
+          "origin": "San Francisco",
+          "destination": "Chicago",
+          "departure_time": "06:15",
+          "arrival_time": "12:30",
+          "travel_class": "business",
+          "availability_status": "waitlisted"
+        }
+      }
+    ]
+  },
+  "get_flight_details|:|high-speed train|:|origin,destination,departure_time,arrival_time,travel_class,availability_status": {
+    "tool_template_name": "get_flight_details",
+    "derived_class": "high-speed train",
+    "params_for_query": [
+      "origin",
+      "destination",
+      "departure_time",
+      "arrival_time",
+      "travel_class",
+      "availability_status"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide details for a high-speed train leaving from Paris to Lyon at 08:30, expected to arrive by 10:45, in business class with current availability status as available?",
+        "filled_param": {
+          "origin": "Paris",
+          "destination": "Lyon",
+          "departure_time": "08:30",
+          "arrival_time": "10:45",
+          "travel_class": "business",
+          "availability_status": "available"
+        }
+      },
+      {
+        "query": "I need information on a high-speed train traveling from Tokyo to Osaka, departing at 14:00 and arriving at 16:30, in first class, and the train is fully booked.",
+        "filled_param": {
+          "origin": "Tokyo",
+          "destination": "Osaka",
+          "departure_time": "14:00",
+          "arrival_time": "16:30",
+          "travel_class": "first class",
+          "availability_status": "fully booked"
+        }
+      },
+      {
+        "query": "Find me details about a high-speed train journey from Berlin to Munich, scheduled to leave at 09:15 and arriving by 12:00, in economy class, and it should be waitlisted.",
+        "filled_param": {
+          "origin": "Berlin",
+          "destination": "Munich",
+          "departure_time": "09:15",
+          "arrival_time": "12:00",
+          "travel_class": "economy",
+          "availability_status": "waitlisted"
+        }
+      },
+      {
+        "query": "What are the details of the high-speed train departing from Madrid to Barcelona at 11:00, reaching by 13:45, in business class, with the availability status as available?",
+        "filled_param": {
+          "origin": "Madrid",
+          "destination": "Barcelona",
+          "departure_time": "11:00",
+          "arrival_time": "13:45",
+          "travel_class": "business",
+          "availability_status": "available"
+        }
+      },
+      {
+        "query": "Could you tell me about a high-speed train from New York to Washington, D.C., leaving at 17:00, arriving at 19:30, in economy class, and it is currently available?",
+        "filled_param": {
+          "origin": "New York",
+          "destination": "Washington, D.C.",
+          "departure_time": "17:00",
+          "arrival_time": "19:30",
+          "travel_class": "economy",
+          "availability_status": "available"
+        }
+      }
+    ]
+  },
+  "get_flight_details|:|cruise ship|:|origin,destination,departure_time,arrival_time,travel_class,availability_status": {
+    "tool_template_name": "get_flight_details",
+    "derived_class": "cruise ship",
+    "params_for_query": [
+      "origin",
+      "destination",
+      "departure_time",
+      "arrival_time",
+      "travel_class",
+      "availability_status"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide details on a cruise ship traveling from Miami to Nassau, departing at 09:30 and arriving at 13:45 in business class with availability status marked as available?",
+        "filled_param": {
+          "origin": "Miami",
+          "destination": "Nassau",
+          "departure_time": "09:30",
+          "arrival_time": "13:45",
+          "travel_class": "business",
+          "availability_status": "available"
+        }
+      },
+      {
+        "query": "I'm looking for a cruise ship leaving from Barcelona to Marseille, scheduled to depart at 18:00 and arrive at 22:15, in first class with the status being fully booked.",
+        "filled_param": {
+          "origin": "Barcelona",
+          "destination": "Marseille",
+          "departure_time": "18:00",
+          "arrival_time": "22:15",
+          "travel_class": "first class",
+          "availability_status": "fully booked"
+        }
+      },
+      {
+        "query": "Find details of a cruise ship journey from Sydney to Auckland, leaving at 07:00 and reaching at 14:30 with an economy class service that's waitlisted.",
+        "filled_param": {
+          "origin": "Sydney",
+          "destination": "Auckland",
+          "departure_time": "07:00",
+          "arrival_time": "14:30",
+          "travel_class": "economy",
+          "availability_status": "waitlisted"
+        }
+      },
+      {
+        "query": "What are the details of a cruise ship going from New York to Bermuda, departing at 10:30 and arriving at 18:00 in business class with availability listed as available?",
+        "filled_param": {
+          "origin": "New York",
+          "destination": "Bermuda",
+          "departure_time": "10:30",
+          "arrival_time": "18:00",
+          "travel_class": "business",
+          "availability_status": "available"
+        }
+      },
+      {
+        "query": "Please fetch details for a cruise ship traveling from San Francisco to Honolulu, which departs at 15:00 and arrives at 20:30 with a first class service, and the booking status is fully booked.",
+        "filled_param": {
+          "origin": "San Francisco",
+          "destination": "Honolulu",
+          "departure_time": "15:00",
+          "arrival_time": "20:30",
+          "travel_class": "first class",
+          "availability_status": "fully booked"
+        }
+      }
+    ]
+  },
+  "get_flight_details|:|long-distance bus|:|origin,destination,departure_time,arrival_time,travel_class,availability_status": {
+    "tool_template_name": "get_flight_details",
+    "derived_class": "long-distance bus",
+    "params_for_query": [
+      "origin",
+      "destination",
+      "departure_time",
+      "arrival_time",
+      "travel_class",
+      "availability_status"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide details on a long-distance bus traveling from New York to Boston, departing at 08:00 and arriving at 12:00, in economy class with current availability as waitlisted?",
+        "filled_param": {
+          "origin": "New York",
+          "destination": "Boston",
+          "departure_time": "08:00",
+          "arrival_time": "12:00",
+          "travel_class": "economy",
+          "availability_status": "waitlisted"
+        }
+      },
+      {
+        "query": "I'm looking for information on a long-distance bus that goes from Los Angeles to San Francisco, leaves at 14:30, reaches by 19:30, offers a business class service, and is currently fully booked. Can you help?",
+        "filled_param": {
+          "origin": "Los Angeles",
+          "destination": "San Francisco",
+          "departure_time": "14:30",
+          "arrival_time": "19:30",
+          "travel_class": "business",
+          "availability_status": "fully booked"
+        }
+      },
+      {
+        "query": "Give me the details of a long-distance bus service from Chicago to Detroit, departing at 16:00 and arriving at 21:00, available in first class and currently open for booking.",
+        "filled_param": {
+          "origin": "Chicago",
+          "destination": "Detroit",
+          "departure_time": "16:00",
+          "arrival_time": "21:00",
+          "travel_class": "first class",
+          "availability_status": "available"
+        }
+      },
+      {
+        "query": "Can you find a long-distance bus from Miami to Orlando with a departure time of 07:00 and arrival at 10:30, in economy class and currently available?",
+        "filled_param": {
+          "origin": "Miami",
+          "destination": "Orlando",
+          "departure_time": "07:00",
+          "arrival_time": "10:30",
+          "travel_class": "economy",
+          "availability_status": "available"
+        }
+      },
+      {
+        "query": "I need to know about a long-distance bus that starts from Houston to Austin at 09:00, arrives by 12:00, is in business class, and is waitlisted. Can you provide the details?",
+        "filled_param": {
+          "origin": "Houston",
+          "destination": "Austin",
+          "departure_time": "09:00",
+          "arrival_time": "12:00",
+          "travel_class": "business",
+          "availability_status": "waitlisted"
+        }
+      }
+    ]
+  }
+}

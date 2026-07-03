@@ -1,0 +1,60 @@
+{
+  "tool_template_name": "celebrity_net_worth.get",
+  "meta_data": {
+    "base_class": "retrieve the latest net worth data of a given <celebrity type> - categories of public figures distinguished by their primary field of fame",
+    "derived_classes": [
+      "sports celebrity",
+      "musician celebrity",
+      "writer celebrity",
+      "esports celebrity",
+      "director celebrity",
+      "painter celebrity",
+      "chef celebrity"
+    ],
+    "base_class_entity": "sports celebrity"
+  },
+  "tool_template": {
+    "name": "<class>_net_worth.get",
+    "description": "Get the total net worth of a <class> based on most recent data.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The full name of the <class>."
+        },
+        "currency": {
+          "type": "string",
+          "description": "The currency in which the net worth will be returned, e.g., 'USD', 'CNY'."
+        }
+      },
+      "required": [
+        "name",
+        "currency"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "include_assets": {
+      "type": "boolean",
+      "description": "Flag to include detailed asset information in the net worth calculation of the <class>."
+    },
+    "tax_adjusted": {
+      "type": "boolean",
+      "description": "Specify whether the net worth of the <class> should be calculated post-tax."
+    },
+    "net_worth_history": {
+      "type": "boolean",
+      "description": "Flag to include historical net worth data trends for the <class>."
+    },
+    "data_source": {
+      "type": "string",
+      "description": "Identifier for the source of data used to calculate the net worth of the <class>, e.g., 'Forbes', 'Financial Times'."
+    },
+    "verification_level": {
+      "type": "string",
+      "description": "The level of verification required for the net worth data of the <class>, e.g., 'basic', 'medium', 'high'."
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "tool_template_name": "corporate_finance.product_price",
+  "meta_data": {
+    "base_class": "Fetch the current selling price of a specific <product> sold by a company - refers to any commercially distributed item belonging to a distinct product category, whose market price can be tracked individually when associated with a seller.",
+    "derived_classes": [
+      "smartphone",
+      "laptop",
+      "television",
+      "refrigerator",
+      "air conditioner",
+      "electric car",
+      "smartwatch",
+      "headphones",
+      "gaming console",
+      "printer"
+    ],
+    "base_class_entity": "product"
+  },
+  "tool_template": {
+    "name": "corporate_finance.<class>_price",
+    "description": "Fetch the current selling price of a <class> sold by a specific company.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "company": {
+          "type": "string",
+          "description": "The company that sells the <class>."
+        },
+        "product": {
+          "type": "string",
+          "description": "The name of <class> whose price we want to fetch."
+        }
+      },
+      "required": [
+        "company",
+        "product"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "currency": {
+      "type": "string",
+      "description": "The currency code (e.g., USD, EUR) in which the price of the <product> should be fetched."
+    },
+    "region": {
+      "type": "string",
+      "description": "The geographical region where the current selling price of the <product> is to be fetched."
+    },
+    "date": {
+      "type": "string",
+      "description": "The specific date for which the selling price of the <product> is requested."
+    },
+    "include_discount": {
+      "type": "boolean",
+      "description": "A flag indicating whether any available discounts should be applied to the fetched selling price of the <product>."
+    },
+    "price_source": {
+      "type": "string",
+      "description": "The preferred source or platform from which the price information for the <product> should be retrieved."
+    }
+  }
+}

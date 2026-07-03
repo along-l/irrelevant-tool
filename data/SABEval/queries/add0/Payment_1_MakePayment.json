@@ -1,0 +1,467 @@
+{
+  "Payment_1_MakePayment|:|visa credit card|:|amount,receiver": {
+    "tool_template_name": "Payment_1_MakePayment",
+    "derived_class": "visa credit card",
+    "params_for_query": [
+      "amount",
+      "receiver"
+    ],
+    "queries": [
+      {
+        "query": "Can you send $150 via visa credit card to john.doe@example.com?",
+        "filled_param": {
+          "amount": 150.0,
+          "receiver": "john.doe@example.com"
+        }
+      },
+      {
+        "query": "I need to transfer $75 to +1234567890 using my visa credit card.",
+        "filled_param": {
+          "amount": 75.0,
+          "receiver": "+1234567890"
+        }
+      },
+      {
+        "query": "Please initiate a visa credit card payment of $200 to alice_smith123.",
+        "filled_param": {
+          "amount": 200.0,
+          "receiver": "alice_smith123"
+        }
+      },
+      {
+        "query": "Make a visa credit card transaction of $50 to contact@friend.com.",
+        "filled_param": {
+          "amount": 50.0,
+          "receiver": "contact@friend.com"
+        }
+      },
+      {
+        "query": "Transfer $120 via visa credit card to user_jane_doe.",
+        "filled_param": {
+          "amount": 120.0,
+          "receiver": "user_jane_doe"
+        }
+      },
+      {
+        "query": "Could you process a visa credit card payment of $300 to +9876543210?",
+        "filled_param": {
+          "amount": 300.0,
+          "receiver": "+9876543210"
+        }
+      },
+      {
+        "query": "Send $45 using visa credit card to mike_brown@example.com.",
+        "filled_param": {
+          "amount": 45.0,
+          "receiver": "mike_brown@example.com"
+        }
+      }
+    ]
+  },
+  "Payment_1_MakePayment|:|mastercard credit card|:|amount,receiver": {
+    "tool_template_name": "Payment_1_MakePayment",
+    "derived_class": "mastercard credit card",
+    "params_for_query": [
+      "amount",
+      "receiver"
+    ],
+    "queries": [
+      {
+        "query": "Please use my mastercard credit card to send $150 to john.doe@example.com.",
+        "filled_param": {
+          "amount": 150.0,
+          "receiver": "john.doe@example.com"
+        }
+      },
+      {
+        "query": "I need to transfer 250.75 dollars to the phone number +1234567890 using my mastercard credit card.",
+        "filled_param": {
+          "amount": 250.75,
+          "receiver": "+1234567890"
+        }
+      },
+      {
+        "query": "Send 1000 dollars via mastercard credit card to the username friend123.",
+        "filled_param": {
+          "amount": 1000.0,
+          "receiver": "friend123"
+        }
+      },
+      {
+        "query": "Can you make a payment of 45.99 USD to jane_smith@payment.com using my mastercard credit card?",
+        "filled_param": {
+          "amount": 45.99,
+          "receiver": "jane_smith@payment.com"
+        }
+      },
+      {
+        "query": "Initiate a mastercard credit card payment of 300 dollars to the email payee@service.org.",
+        "filled_param": {
+          "amount": 300.0,
+          "receiver": "payee@service.org"
+        }
+      },
+      {
+        "query": "Transfer 75.50 using mastercard credit card to the account number 9876543210.",
+        "filled_param": {
+          "amount": 75.5,
+          "receiver": "9876543210"
+        }
+      },
+      {
+        "query": "Execute a mastercard credit card transaction of 500.25 dollars to contact@transactionhub.net.",
+        "filled_param": {
+          "amount": 500.25,
+          "receiver": "contact@transactionhub.net"
+        }
+      }
+    ]
+  },
+  "Payment_1_MakePayment|:|visa debit card|:|amount,receiver": {
+    "tool_template_name": "Payment_1_MakePayment",
+    "derived_class": "visa debit card",
+    "params_for_query": [
+      "amount",
+      "receiver"
+    ],
+    "queries": [
+      {
+        "query": "Please use visa debit card to send $150 to john.doe@example.com.",
+        "filled_param": {
+          "amount": 150.0,
+          "receiver": "john.doe@example.com"
+        }
+      },
+      {
+        "query": "Transfer 75 dollars to +1234567890 using my visa debit card.",
+        "filled_param": {
+          "amount": 75.0,
+          "receiver": "+1234567890"
+        }
+      },
+      {
+        "query": "I need to pay my friend Alex $200 via visa debit card. His username is alex_1985.",
+        "filled_param": {
+          "amount": 200.0,
+          "receiver": "alex_1985"
+        }
+      },
+      {
+        "query": "Send $50 to emily.smith@finances.com through the visa debit card.",
+        "filled_param": {
+          "amount": 50.0,
+          "receiver": "emily.smith@finances.com"
+        }
+      },
+      {
+        "query": "Can you make a visa debit card payment of $30 to my colleague's number +11234567890?",
+        "filled_param": {
+          "amount": 30.0,
+          "receiver": "+11234567890"
+        }
+      },
+      {
+        "query": "I'd like to send 250.5 dollars to j.smith43@example.com using a visa debit card.",
+        "filled_param": {
+          "amount": 250.5,
+          "receiver": "j.smith43@example.com"
+        }
+      },
+      {
+        "query": "Initiate a visa debit card payment of 100 dollars to my friend's email, mark.jones@workmail.com.",
+        "filled_param": {
+          "amount": 100.0,
+          "receiver": "mark.jones@workmail.com"
+        }
+      }
+    ]
+  },
+  "Payment_1_MakePayment|:|mastercard debit card|:|amount,receiver": {
+    "tool_template_name": "Payment_1_MakePayment",
+    "derived_class": "mastercard debit card",
+    "params_for_query": [
+      "amount",
+      "receiver"
+    ],
+    "queries": [
+      {
+        "query": "Please send $150 to my friend Mike using my mastercard debit card.",
+        "filled_param": {
+          "amount": 150.0,
+          "receiver": "Mike"
+        }
+      },
+      {
+        "query": "Transfer 200.75 dollars to janedoe@example.com via mastercard debit card.",
+        "filled_param": {
+          "amount": 200.75,
+          "receiver": "janedoe@example.com"
+        }
+      },
+      {
+        "query": "I want to pay $50.25 to the phone number 123-456-7890 using my mastercard debit card.",
+        "filled_param": {
+          "amount": 50.25,
+          "receiver": "123-456-7890"
+        }
+      },
+      {
+        "query": "Can you send $85 to my contact Sarah via mastercard debit card?",
+        "filled_param": {
+          "amount": 85.0,
+          "receiver": "Sarah"
+        }
+      },
+      {
+        "query": "Initiate a mastercard debit card payment of 99.99 to the user johnsmith.",
+        "filled_param": {
+          "amount": 99.99,
+          "receiver": "johnsmith"
+        }
+      },
+      {
+        "query": "Make a payment of $300 to alex@example.com using my mastercard debit card.",
+        "filled_param": {
+          "amount": 300.0,
+          "receiver": "alex@example.com"
+        }
+      },
+      {
+        "query": "Send $42.50 to the username 'friend123' through my mastercard debit card.",
+        "filled_param": {
+          "amount": 42.5,
+          "receiver": "friend123"
+        }
+      }
+    ]
+  },
+  "Payment_1_MakePayment|:|american express card|:|amount,receiver": {
+    "tool_template_name": "Payment_1_MakePayment",
+    "derived_class": "american express card",
+    "params_for_query": [
+      "amount",
+      "receiver"
+    ],
+    "queries": [
+      {
+        "query": "Please send $150 to my friend's email, jack.smith@example.com, using my American Express card.",
+        "filled_param": {
+          "amount": 150.0,
+          "receiver": "jack.smith@example.com"
+        }
+      },
+      {
+        "query": "Transfer 250.75 dollars to the phone number 123-456-7890 via American Express card.",
+        "filled_param": {
+          "amount": 250.75,
+          "receiver": "123-456-7890"
+        }
+      },
+      {
+        "query": "Can you use my American Express card to send $50 to the username @emilyr?",
+        "filled_param": {
+          "amount": 50.0,
+          "receiver": "@emilyr"
+        }
+      },
+      {
+        "query": "I need to pay my brother $300 using my American Express card. His email is brother.joe@example.com.",
+        "filled_param": {
+          "amount": 300.0,
+          "receiver": "brother.joe@example.com"
+        }
+      },
+      {
+        "query": "Initiate a payment of 75 dollars to contact number 987-654-3210 with my American Express card.",
+        "filled_param": {
+          "amount": 75.0,
+          "receiver": "987-654-3210"
+        }
+      },
+      {
+        "query": "Can you make a payment of $125.50 to mike.brown@example.com using American Express?",
+        "filled_param": {
+          "amount": 125.5,
+          "receiver": "mike.brown@example.com"
+        }
+      },
+      {
+        "query": "Use my American Express card to send 200 dollars to the user ID john_doe123.",
+        "filled_param": {
+          "amount": 200.0,
+          "receiver": "john_doe123"
+        }
+      }
+    ]
+  },
+  "Payment_1_MakePayment|:|unionpay credit card|:|amount,receiver": {
+    "tool_template_name": "Payment_1_MakePayment",
+    "derived_class": "unionpay credit card",
+    "params_for_query": [
+      "amount",
+      "receiver"
+    ],
+    "queries": [
+      {
+        "query": "Send $150 using my unionpay credit card to john.doe@gmail.com.",
+        "filled_param": {
+          "amount": 150.0,
+          "receiver": "john.doe@gmail.com"
+        }
+      },
+      {
+        "query": "I need to transfer 250 dollars via unionpay credit card to 555-123-4567.",
+        "filled_param": {
+          "amount": 250.0,
+          "receiver": "555-123-4567"
+        }
+      },
+      {
+        "query": "Make a unionpay credit card payment of 99.99 to user@network.org.",
+        "filled_param": {
+          "amount": 99.99,
+          "receiver": "user@network.org"
+        }
+      },
+      {
+        "query": "Please send 500 units through unionpay credit card to Sarah_123.",
+        "filled_param": {
+          "amount": 500.0,
+          "receiver": "Sarah_123"
+        }
+      },
+      {
+        "query": "Could you transfer 75.5 dollars using unionpay credit card to 888-555-1212?",
+        "filled_param": {
+          "amount": 75.5,
+          "receiver": "888-555-1212"
+        }
+      },
+      {
+        "query": "Initiate a payment of 300.75 via unionpay credit card to mike@website.com.",
+        "filled_param": {
+          "amount": 300.75,
+          "receiver": "mike@website.com"
+        }
+      }
+    ]
+  },
+  "Payment_1_MakePayment|:|unionpay debit card|:|amount,receiver": {
+    "tool_template_name": "Payment_1_MakePayment",
+    "derived_class": "unionpay debit card",
+    "params_for_query": [
+      "amount",
+      "receiver"
+    ],
+    "queries": [
+      {
+        "query": "Please send $150 to mike.johnson@example.com using my unionpay debit card.",
+        "filled_param": {
+          "amount": 150.0,
+          "receiver": "mike.johnson@example.com"
+        }
+      },
+      {
+        "query": "I need to transfer $200.50 to my friend at 123-456-7890 via unionpay debit card.",
+        "filled_param": {
+          "amount": 200.5,
+          "receiver": "123-456-7890"
+        }
+      },
+      {
+        "query": "Initiate a payment of $75 to my contact with username 'travelbuddy' using the unionpay debit card.",
+        "filled_param": {
+          "amount": 75.0,
+          "receiver": "travelbuddy"
+        }
+      },
+      {
+        "query": "Can you send $500 to john.doe@paymail.com through my unionpay debit card?",
+        "filled_param": {
+          "amount": 500.0,
+          "receiver": "john.doe@paymail.com"
+        }
+      },
+      {
+        "query": "Make a unionpay debit card payment of $320.75 to the account associated with the email address sarah.smith@mailservice.com.",
+        "filled_param": {
+          "amount": 320.75,
+          "receiver": "sarah.smith@mailservice.com"
+        }
+      },
+      {
+        "query": "Transfer $45 to the user with phone number 098-765-4321 using my unionpay debit card.",
+        "filled_param": {
+          "amount": 45.0,
+          "receiver": "098-765-4321"
+        }
+      },
+      {
+        "query": "I'd like to send $250 to my friend using the unionpay debit card. Their contact is ajames@contacts.org.",
+        "filled_param": {
+          "amount": 250.0,
+          "receiver": "ajames@contacts.org"
+        }
+      }
+    ]
+  },
+  "Payment_1_MakePayment|:|discover card|:|amount,receiver": {
+    "tool_template_name": "Payment_1_MakePayment",
+    "derived_class": "discover card",
+    "params_for_query": [
+      "amount",
+      "receiver"
+    ],
+    "queries": [
+      {
+        "query": "Send $75.50 to john.doe@example.com using my discover card.",
+        "filled_param": {
+          "amount": 75.5,
+          "receiver": "john.doe@example.com"
+        }
+      },
+      {
+        "query": "I need to transfer 200 dollars to my friend at 555-1234 via discover card.",
+        "filled_param": {
+          "amount": 200.0,
+          "receiver": "555-1234"
+        }
+      },
+      {
+        "query": "Can you pay Jane $15 using my discover card? Her contact is jane.smith@example.com.",
+        "filled_param": {
+          "amount": 15.0,
+          "receiver": "jane.smith@example.com"
+        }
+      },
+      {
+        "query": "Initiate a payment of $120 to the contact number 987-6543 with my discover card.",
+        "filled_param": {
+          "amount": 120.0,
+          "receiver": "987-6543"
+        }
+      },
+      {
+        "query": "Help me send $50 to mike123 via discover card.",
+        "filled_param": {
+          "amount": 50.0,
+          "receiver": "mike123"
+        }
+      },
+      {
+        "query": "Make a discover card payment of $350.75 to the email address sarah.connor@example.com.",
+        "filled_param": {
+          "amount": 350.75,
+          "receiver": "sarah.connor@example.com"
+        }
+      },
+      {
+        "query": "Transfer 125 dollars to user alex_b via my discover card.",
+        "filled_param": {
+          "amount": 125.0,
+          "receiver": "alex_b"
+        }
+      }
+    ]
+  }
+}

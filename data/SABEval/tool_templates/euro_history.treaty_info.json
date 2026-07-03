@@ -1,0 +1,58 @@
+{
+  "tool_template_name": "euro_history.treaty_info",
+  "meta_data": {
+    "base_class": "Retrieve specific information about a signed <regional treaty> - <regional treaty> refers to a formal agreement signed between countries or political entities within a specific geographic region, typically regulating diplomatic, economic, military, or legal matters relevant to that region.",
+    "derived_classes": [
+      "European treaty",
+      "African treaty",
+      "North American treaty",
+      "South American treaty",
+      "Middle Eastern treaty",
+      "Arctic treaty"
+    ],
+    "base_class_entity": "European treaty"
+  },
+  "tool_template": {
+    "name": "regional_treaty_info",
+    "description": "Retrieve specific information about a signed <class>.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "treaty_name": {
+          "type": "string",
+          "description": "The name of the <class>."
+        },
+        "info_requested": {
+          "type": "array",
+          "description": "Specific aspects of the <class> for which to return information.",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "treaty_name",
+        "info_requested"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "time_period": {
+      "type": "string",
+      "description": "A time range or approximate period when the <class> was signed, typically expressed in years (e.g., '1945-1960')."
+    },
+    "treaty_type": {
+      "type": "string",
+      "description": "The category or focus of the <class>, such as 'economic', 'military', 'diplomatic', or 'environmental'."
+    },
+    "status": {
+      "type": "string",
+      "description": "The current legal or operational status of the <class>, such as 'active', 'terminated', or 'pending ratification'."
+    },
+    "country_involved": {
+      "type": "string",
+      "description": "A specific country that is a signatory to the <class>, used to filter treaties involving that nation."
+    }
+  }
+}

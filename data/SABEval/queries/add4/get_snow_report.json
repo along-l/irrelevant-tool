@@ -1,0 +1,646 @@
+{
+  "get_snow_report|:|snow report|:|location,unit,report_source,include_alerts,detail_level": {
+    "tool_template_name": "get_snow_report",
+    "derived_class": "snow report",
+    "params_for_query": [
+      "location",
+      "unit",
+      "report_source",
+      "include_alerts",
+      "detail_level"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide a snow report for Aspen, Colorado in celsius using data from NOAA, with alerts and a detailed analysis?",
+        "filled_param": {
+          "location": "Aspen, Colorado",
+          "unit": "celsius",
+          "report_source": "NOAA",
+          "include_alerts": true,
+          "detail_level": "detailed"
+        }
+      },
+      {
+        "query": "I need the latest snow report for Zermatt, Switzerland in fahrenheit from the Met Office, summary only and include any alerts.",
+        "filled_param": {
+          "location": "Zermatt, Switzerland",
+          "unit": "fahrenheit",
+          "report_source": "Met Office",
+          "include_alerts": true,
+          "detail_level": "summary"
+        }
+      },
+      {
+        "query": "Get me the snow report for Sapporo, Japan in kelvin, sourced from the Japan Meteorological Agency, without alerts but with a standard level of detail.",
+        "filled_param": {
+          "location": "Sapporo, Japan",
+          "unit": "kelvin",
+          "report_source": "Japan Meteorological Agency",
+          "include_alerts": false,
+          "detail_level": "standard"
+        }
+      },
+      {
+        "query": "What's the snow report for Whistler, British Columbia in fahrenheit? Use NOAA as the source, include alerts, and provide a standard report.",
+        "filled_param": {
+          "location": "Whistler, British Columbia",
+          "unit": "fahrenheit",
+          "report_source": "NOAA",
+          "include_alerts": true,
+          "detail_level": "standard"
+        }
+      },
+      {
+        "query": "Can you retrieve a snow report for Chamonix, France, in celsius, using data from Met Office? I need it to be a detailed report without any alerts.",
+        "filled_param": {
+          "location": "Chamonix, France",
+          "unit": "celsius",
+          "report_source": "Met Office",
+          "include_alerts": false,
+          "detail_level": "detailed"
+        }
+      },
+      {
+        "query": "Provide the snow report for Banff, Alberta in kelvin from the Japan Meteorological Agency, with a summary detail level and no alerts.",
+        "filled_param": {
+          "location": "Banff, Alberta",
+          "unit": "kelvin",
+          "report_source": "Japan Meteorological Agency",
+          "include_alerts": false,
+          "detail_level": "summary"
+        }
+      },
+      {
+        "query": "I would like a snow report for Vail, Colorado in celsius sourced from NOAA. Please include any active alerts and give a detailed report.",
+        "filled_param": {
+          "location": "Vail, Colorado",
+          "unit": "celsius",
+          "report_source": "NOAA",
+          "include_alerts": true,
+          "detail_level": "detailed"
+        }
+      }
+    ]
+  },
+  "get_snow_report|:|fog report|:|location,unit,report_source,include_alerts,detail_level": {
+    "tool_template_name": "get_snow_report",
+    "derived_class": "fog report",
+    "params_for_query": [
+      "location",
+      "unit",
+      "report_source",
+      "include_alerts",
+      "detail_level"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the fog report for San Francisco, California, using NOAA as the source, in celsius, and include any alerts at a detailed level?",
+        "filled_param": {
+          "location": "San Francisco, California",
+          "unit": "celsius",
+          "report_source": "NOAA",
+          "include_alerts": true,
+          "detail_level": "detailed"
+        }
+      },
+      {
+        "query": "Give me a fog report for Sydney, New South Wales. Please use the Met Office as the source, report temperatures in fahrenheit, and include alerts with a summary level of detail.",
+        "filled_param": {
+          "location": "Sydney, New South Wales",
+          "unit": "fahrenheit",
+          "report_source": "Met Office",
+          "include_alerts": true,
+          "detail_level": "summary"
+        }
+      },
+      {
+        "query": "I need the latest fog report for Tokyo, Japan from the Japan Meteorological Agency. Use kelvin for temperature, and exclude any alerts with a standard detail level.",
+        "filled_param": {
+          "location": "Tokyo, Japan",
+          "unit": "kelvin",
+          "report_source": "Japan Meteorological Agency",
+          "include_alerts": false,
+          "detail_level": "standard"
+        }
+      },
+      {
+        "query": "Fetch a fog report for London, England with data from the Met Office, in celsius but without alerts, and make it detailed.",
+        "filled_param": {
+          "location": "London, England",
+          "unit": "celsius",
+          "report_source": "Met Office",
+          "include_alerts": false,
+          "detail_level": "detailed"
+        }
+      },
+      {
+        "query": "Can you get me the fog report for Miami, Florida, using NOAA, with temperatures in fahrenheit, and include alerts at a standard level?",
+        "filled_param": {
+          "location": "Miami, Florida",
+          "unit": "fahrenheit",
+          "report_source": "NOAA",
+          "include_alerts": true,
+          "detail_level": "standard"
+        }
+      },
+      {
+        "query": "Retrieve a fog report for Vancouver, British Columbia from the Japan Meteorological Agency, in kelvin, and provide a summary without alerts.",
+        "filled_param": {
+          "location": "Vancouver, British Columbia",
+          "unit": "kelvin",
+          "report_source": "Japan Meteorological Agency",
+          "include_alerts": false,
+          "detail_level": "summary"
+        }
+      }
+    ]
+  },
+  "get_snow_report|:|thunderstorm report|:|location,unit,report_source,include_alerts,detail_level": {
+    "tool_template_name": "get_snow_report",
+    "derived_class": "thunderstorm report",
+    "params_for_query": [
+      "location",
+      "unit",
+      "report_source",
+      "include_alerts",
+      "detail_level"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide a thunderstorm report for Miami, Florida using the NOAA data source with temperatures in celsius, including any alerts, and a detailed level of detail?",
+        "filled_param": {
+          "location": "Miami, Florida",
+          "unit": "celsius",
+          "report_source": "NOAA",
+          "include_alerts": true,
+          "detail_level": "detailed"
+        }
+      },
+      {
+        "query": "I need a thunderstorm report for Tokyo, Japan from the Japan Meteorological Agency in fahrenheit without alerts and a standard detail level.",
+        "filled_param": {
+          "location": "Tokyo, Japan",
+          "unit": "fahrenheit",
+          "report_source": "Japan Meteorological Agency",
+          "include_alerts": false,
+          "detail_level": "standard"
+        }
+      },
+      {
+        "query": "What's the latest thunderstorm report for Sydney, Australia from the Met Office, using kelvin for temperature, with alerts, and provide a summary?",
+        "filled_param": {
+          "location": "Sydney, Australia",
+          "unit": "kelvin",
+          "report_source": "Met Office",
+          "include_alerts": true,
+          "detail_level": "summary"
+        }
+      },
+      {
+        "query": "Retrieve a thunderstorm report for Berlin, Germany with data from the Met Office in celsius, no alerts, and detailed details.",
+        "filled_param": {
+          "location": "Berlin, Germany",
+          "unit": "celsius",
+          "report_source": "Met Office",
+          "include_alerts": false,
+          "detail_level": "detailed"
+        }
+      },
+      {
+        "query": "Get me the thunderstorm report for New York City, New York with NOAA, temperatures in fahrenheit, include alerts, and have it in standard detail level.",
+        "filled_param": {
+          "location": "New York City, New York",
+          "unit": "fahrenheit",
+          "report_source": "NOAA",
+          "include_alerts": true,
+          "detail_level": "standard"
+        }
+      },
+      {
+        "query": "Could you fetch a thunderstorm report for Zurich, Switzerland using the Japan Meteorological Agency, in kelvin, excluding alerts, and summarized?",
+        "filled_param": {
+          "location": "Zurich, Switzerland",
+          "unit": "kelvin",
+          "report_source": "Japan Meteorological Agency",
+          "include_alerts": false,
+          "detail_level": "summary"
+        }
+      },
+      {
+        "query": "Please provide a thunderstorm report for Paris, France from the Met Office, temperature in celsius, include alerts, and a standard level of detail.",
+        "filled_param": {
+          "location": "Paris, France",
+          "unit": "celsius",
+          "report_source": "Met Office",
+          "include_alerts": true,
+          "detail_level": "standard"
+        }
+      }
+    ]
+  },
+  "get_snow_report|:|hail report|:|location,unit,report_source,include_alerts,detail_level": {
+    "tool_template_name": "get_snow_report",
+    "derived_class": "hail report",
+    "params_for_query": [
+      "location",
+      "unit",
+      "report_source",
+      "include_alerts",
+      "detail_level"
+    ],
+    "queries": [
+      {
+        "query": "Can you get the hail report for 'Denver, Colorado' using fahrenheit from NOAA, and include any alerts with a detailed report?",
+        "filled_param": {
+          "location": "Denver, Colorado",
+          "unit": "fahrenheit",
+          "report_source": "NOAA",
+          "include_alerts": true,
+          "detail_level": "detailed"
+        }
+      },
+      {
+        "query": "Please provide a summary hail report for 'Tokyo, Japan' in celsius from the Japan Meteorological Agency without any alerts.",
+        "filled_param": {
+          "location": "Tokyo, Japan",
+          "unit": "celsius",
+          "report_source": "Japan Meteorological Agency",
+          "include_alerts": false,
+          "detail_level": "summary"
+        }
+      },
+      {
+        "query": "I need a standard hail report for 'London, UK', in kelvin using the Met Office as the source, with alerts included.",
+        "filled_param": {
+          "location": "London, UK",
+          "unit": "kelvin",
+          "report_source": "Met Office",
+          "include_alerts": true,
+          "detail_level": "standard"
+        }
+      },
+      {
+        "query": "Could you fetch the latest hail report for 'Sydney, Australia' in fahrenheit from NOAA, without any weather alerts, and just a summary?",
+        "filled_param": {
+          "location": "Sydney, Australia",
+          "unit": "fahrenheit",
+          "report_source": "NOAA",
+          "include_alerts": false,
+          "detail_level": "summary"
+        }
+      },
+      {
+        "query": "What is the detailed hail report for 'Berlin, Germany' in celsius from the Met Office, including any alerts?",
+        "filled_param": {
+          "location": "Berlin, Germany",
+          "unit": "celsius",
+          "report_source": "Met Office",
+          "include_alerts": true,
+          "detail_level": "detailed"
+        }
+      },
+      {
+        "query": "Give me a standard hail report for 'New York, USA' using kelvin from the Japan Meteorological Agency, and do not include alerts.",
+        "filled_param": {
+          "location": "New York, USA",
+          "unit": "kelvin",
+          "report_source": "Japan Meteorological Agency",
+          "include_alerts": false,
+          "detail_level": "standard"
+        }
+      },
+      {
+        "query": "Fetch the hail report for 'Toronto, Canada' in fahrenheit from the Met Office, including alerts, with detailed information.",
+        "filled_param": {
+          "location": "Toronto, Canada",
+          "unit": "fahrenheit",
+          "report_source": "Met Office",
+          "include_alerts": true,
+          "detail_level": "detailed"
+        }
+      }
+    ]
+  },
+  "get_snow_report|:|typhoon report|:|location,unit,report_source,include_alerts,detail_level": {
+    "tool_template_name": "get_snow_report",
+    "derived_class": "typhoon report",
+    "params_for_query": [
+      "location",
+      "unit",
+      "report_source",
+      "include_alerts",
+      "detail_level"
+    ],
+    "queries": [
+      {
+        "query": "Provide a detailed typhoon report for Miami, Florida using NOAA data in celsius, and include any alerts.",
+        "filled_param": {
+          "location": "Miami, Florida",
+          "unit": "celsius",
+          "report_source": "NOAA",
+          "include_alerts": true,
+          "detail_level": "detailed"
+        }
+      },
+      {
+        "query": "Can you get the standard typhoon report for Tokyo, Japan from the Japan Meteorological Agency in fahrenheit with no alerts?",
+        "filled_param": {
+          "location": "Tokyo, Japan",
+          "unit": "fahrenheit",
+          "report_source": "Japan Meteorological Agency",
+          "include_alerts": false,
+          "detail_level": "standard"
+        }
+      },
+      {
+        "query": "Retrieve a summary typhoon report for Sydney, New South Wales with Met Office data in kelvin, including alerts.",
+        "filled_param": {
+          "location": "Sydney, New South Wales",
+          "unit": "kelvin",
+          "report_source": "Met Office",
+          "include_alerts": true,
+          "detail_level": "summary"
+        }
+      },
+      {
+        "query": "Get a standard typhoon report for Manila, Philippines from NOAA in celsius, and include any weather alerts.",
+        "filled_param": {
+          "location": "Manila, Philippines",
+          "unit": "celsius",
+          "report_source": "NOAA",
+          "include_alerts": true,
+          "detail_level": "standard"
+        }
+      },
+      {
+        "query": "Could you provide a detailed typhoon report for New York, New York using Met Office data in fahrenheit without alerts?",
+        "filled_param": {
+          "location": "New York, New York",
+          "unit": "fahrenheit",
+          "report_source": "Met Office",
+          "include_alerts": false,
+          "detail_level": "detailed"
+        }
+      },
+      {
+        "query": "I need a summary typhoon report for Mumbai, Maharashtra from the Japan Meteorological Agency in kelvin, without any active alerts.",
+        "filled_param": {
+          "location": "Mumbai, Maharashtra",
+          "unit": "kelvin",
+          "report_source": "Japan Meteorological Agency",
+          "include_alerts": false,
+          "detail_level": "summary"
+        }
+      },
+      {
+        "query": "Please provide a standard typhoon report for Honolulu, Hawaii using NOAA data in celsius, and include alerts if there are any.",
+        "filled_param": {
+          "location": "Honolulu, Hawaii",
+          "unit": "celsius",
+          "report_source": "NOAA",
+          "include_alerts": true,
+          "detail_level": "standard"
+        }
+      }
+    ]
+  },
+  "get_snow_report|:|dust storm report|:|location,unit,report_source,include_alerts,detail_level": {
+    "tool_template_name": "get_snow_report",
+    "derived_class": "dust storm report",
+    "params_for_query": [
+      "location",
+      "unit",
+      "report_source",
+      "include_alerts",
+      "detail_level"
+    ],
+    "queries": [
+      {
+        "query": "Can you get the latest dust storm report for Phoenix, Arizona in Celsius from the Met Office, including alerts with a detailed level of information?",
+        "filled_param": {
+          "location": "Phoenix, Arizona",
+          "unit": "celsius",
+          "report_source": "Met Office",
+          "include_alerts": true,
+          "detail_level": "detailed"
+        }
+      },
+      {
+        "query": "Provide a dust storm report for Riyadh, Saudi Arabia using NOAA data, with temperature in Fahrenheit, no alerts, and a summary of details.",
+        "filled_param": {
+          "location": "Riyadh, Saudi Arabia",
+          "unit": "fahrenheit",
+          "report_source": "NOAA",
+          "include_alerts": false,
+          "detail_level": "summary"
+        }
+      },
+      {
+        "query": "Fetch the latest dust storm report for Beijing, China in Kelvin from the Japan Meteorological Agency, with all alerts included and standard details.",
+        "filled_param": {
+          "location": "Beijing, China",
+          "unit": "kelvin",
+          "report_source": "Japan Meteorological Agency",
+          "include_alerts": true,
+          "detail_level": "standard"
+        }
+      },
+      {
+        "query": "I need a dust storm report for Las Vegas, Nevada with temperatures in Celsius, sourced from the Met Office, no alerts, and detailed information.",
+        "filled_param": {
+          "location": "Las Vegas, Nevada",
+          "unit": "celsius",
+          "report_source": "Met Office",
+          "include_alerts": false,
+          "detail_level": "detailed"
+        }
+      },
+      {
+        "query": "Get a dust storm report for Cairo, Egypt using NOAA's data, temperature in Fahrenheit, including alerts, and a standard level of detail.",
+        "filled_param": {
+          "location": "Cairo, Egypt",
+          "unit": "fahrenheit",
+          "report_source": "NOAA",
+          "include_alerts": true,
+          "detail_level": "standard"
+        }
+      },
+      {
+        "query": "Retrieve a dust storm report for Dubai, UAE from the Japan Meteorological Agency, using Kelvin for temperature, exclude alerts, with summary details.",
+        "filled_param": {
+          "location": "Dubai, UAE",
+          "unit": "kelvin",
+          "report_source": "Japan Meteorological Agency",
+          "include_alerts": false,
+          "detail_level": "summary"
+        }
+      },
+      {
+        "query": "Can you provide me with a dust storm report for New Delhi, India in Celsius from NOAA, with alerts included and standard information level?",
+        "filled_param": {
+          "location": "New Delhi, India",
+          "unit": "celsius",
+          "report_source": "NOAA",
+          "include_alerts": true,
+          "detail_level": "standard"
+        }
+      }
+    ]
+  },
+  "get_snow_report|:|heatwave report|:|location,unit,report_source,include_alerts,detail_level": {
+    "tool_template_name": "get_snow_report",
+    "derived_class": "heatwave report",
+    "params_for_query": [
+      "location",
+      "unit",
+      "report_source",
+      "include_alerts",
+      "detail_level"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the heatwave report for Phoenix, Arizona using data from NOAA in celsius, with alerts included, and at a detailed level?",
+        "filled_param": {
+          "location": "Phoenix, Arizona",
+          "unit": "celsius",
+          "report_source": "NOAA",
+          "include_alerts": true,
+          "detail_level": "detailed"
+        }
+      },
+      {
+        "query": "What's the current heatwave report for Tokyo, Japan with information from the Japan Meteorological Agency, displayed in fahrenheit, including any alerts, and summarized?",
+        "filled_param": {
+          "location": "Tokyo, Japan",
+          "unit": "fahrenheit",
+          "report_source": "Japan Meteorological Agency",
+          "include_alerts": true,
+          "detail_level": "summary"
+        }
+      },
+      {
+        "query": "Get me a standard heatwave report for Sydney, New South Wales, sourced from the Met Office, shown in kelvin, with no alerts included.",
+        "filled_param": {
+          "location": "Sydney, New South Wales",
+          "unit": "kelvin",
+          "report_source": "Met Office",
+          "include_alerts": false,
+          "detail_level": "standard"
+        }
+      },
+      {
+        "query": "Retrieve the heatwave report for Los Angeles, California in fahrenheit from NOAA, excluding alerts, with a detailed description.",
+        "filled_param": {
+          "location": "Los Angeles, California",
+          "unit": "fahrenheit",
+          "report_source": "NOAA",
+          "include_alerts": false,
+          "detail_level": "detailed"
+        }
+      },
+      {
+        "query": "I'd like a summary of the heatwave report for Nairobi, Kenya in celsius from the Met Office, with alerts if there are any.",
+        "filled_param": {
+          "location": "Nairobi, Kenya",
+          "unit": "celsius",
+          "report_source": "Met Office",
+          "include_alerts": true,
+          "detail_level": "summary"
+        }
+      },
+      {
+        "query": "Can you fetch the heatwave report for Delhi, India with data from the Japan Meteorological Agency in kelvin, no alerts, and at a standard detail level?",
+        "filled_param": {
+          "location": "Delhi, India",
+          "unit": "kelvin",
+          "report_source": "Japan Meteorological Agency",
+          "include_alerts": false,
+          "detail_level": "standard"
+        }
+      }
+    ]
+  },
+  "get_snow_report|:|rain report|:|location,unit,report_source,include_alerts,detail_level": {
+    "tool_template_name": "get_snow_report",
+    "derived_class": "rain report",
+    "params_for_query": [
+      "location",
+      "unit",
+      "report_source",
+      "include_alerts",
+      "detail_level"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the rain report for 'Seattle, Washington' using celsius from the 'NOAA', and include any current alerts in a detailed format?",
+        "filled_param": {
+          "location": "Seattle, Washington",
+          "unit": "celsius",
+          "report_source": "NOAA",
+          "include_alerts": true,
+          "detail_level": "detailed"
+        }
+      },
+      {
+        "query": "I need a rain report for 'London, England' in fahrenheit from the 'Met Office', with no alerts included, and just a summary.",
+        "filled_param": {
+          "location": "London, England",
+          "unit": "fahrenheit",
+          "report_source": "Met Office",
+          "include_alerts": false,
+          "detail_level": "summary"
+        }
+      },
+      {
+        "query": "Get the rain report for 'Tokyo, Japan' in kelvin from the 'Japan Meteorological Agency', including any weather alerts, with standard details.",
+        "filled_param": {
+          "location": "Tokyo, Japan",
+          "unit": "kelvin",
+          "report_source": "Japan Meteorological Agency",
+          "include_alerts": true,
+          "detail_level": "standard"
+        }
+      },
+      {
+        "query": "What's the latest rain report for 'New York, New York' in celsius from 'NOAA', with alerts excluded, and in detailed format?",
+        "filled_param": {
+          "location": "New York, New York",
+          "unit": "celsius",
+          "report_source": "NOAA",
+          "include_alerts": false,
+          "detail_level": "detailed"
+        }
+      },
+      {
+        "query": "Can you get a rain report for 'Sydney, Australia' using fahrenheit from the 'Met Office', with any active alerts, summarized?",
+        "filled_param": {
+          "location": "Sydney, Australia",
+          "unit": "fahrenheit",
+          "report_source": "Met Office",
+          "include_alerts": true,
+          "detail_level": "summary"
+        }
+      },
+      {
+        "query": "Retrieve the rain report for 'Berlin, Germany' in kelvin from 'Japan Meteorological Agency', excluding alerts, in a standard format.",
+        "filled_param": {
+          "location": "Berlin, Germany",
+          "unit": "kelvin",
+          "report_source": "Japan Meteorological Agency",
+          "include_alerts": false,
+          "detail_level": "standard"
+        }
+      },
+      {
+        "query": "Please provide a rain report for 'Toronto, Canada', using celsius from the 'NOAA', without any alerts, and summarized.",
+        "filled_param": {
+          "location": "Toronto, Canada",
+          "unit": "celsius",
+          "report_source": "NOAA",
+          "include_alerts": false,
+          "detail_level": "summary"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,617 @@
+{
+  "most_frequent_visitor|:|museum|:|venue_name,start_date,end_date,minimum_visits,include_special_events,age_group": {
+    "tool_template_name": "most_frequent_visitor",
+    "derived_class": "museum",
+    "params_for_query": [
+      "venue_name",
+      "start_date",
+      "end_date",
+      "minimum_visits",
+      "include_special_events",
+      "age_group"
+    ],
+    "queries": [
+      {
+        "query": "Who visited the museum most frequently at the Louvre between 2023-01-01 and 2023-06-30, considering only adults and including special events? The minimum visits should be 5.",
+        "filled_param": {
+          "venue_name": "Louvre",
+          "start_date": "2023-01-01",
+          "end_date": "2023-06-30",
+          "minimum_visits": 5,
+          "include_special_events": true,
+          "age_group": "adult"
+        }
+      },
+      {
+        "query": "Identify the person who visited the British Museum most often from 2022-05-01 to 2022-12-31, even during special events. Only consider children with at least 3 visits.",
+        "filled_param": {
+          "venue_name": "British Museum",
+          "start_date": "2022-05-01",
+          "end_date": "2022-12-31",
+          "minimum_visits": 3,
+          "include_special_events": true,
+          "age_group": "child"
+        }
+      },
+      {
+        "query": "Find out the top museum visitor at the Met who visited at least 8 times from 2023-03-15 to 2023-08-15, excluding special events, for all age groups.",
+        "filled_param": {
+          "venue_name": "Met",
+          "start_date": "2023-03-15",
+          "end_date": "2023-08-15",
+          "minimum_visits": 8,
+          "include_special_events": false,
+          "age_group": "all"
+        }
+      },
+      {
+        "query": "Can you tell me who visited the museum most frequently at the Guggenheim between 2023-07-01 and 2023-09-30, including special events? Focus on adults with a minimum of 10 visits.",
+        "filled_param": {
+          "venue_name": "Guggenheim",
+          "start_date": "2023-07-01",
+          "end_date": "2023-09-30",
+          "minimum_visits": 10,
+          "include_special_events": true,
+          "age_group": "adult"
+        }
+      },
+      {
+        "query": "Who has been the most frequent visitor to the Smithsonian from 2023-01-01 to 2023-12-31, ignoring special events and considering all age groups? They should have visited at least 15 times.",
+        "filled_param": {
+          "venue_name": "Smithsonian",
+          "start_date": "2023-01-01",
+          "end_date": "2023-12-31",
+          "minimum_visits": 15,
+          "include_special_events": false,
+          "age_group": "all"
+        }
+      },
+      {
+        "query": "Please find the most frequent visitor of the museum at the Uffizi Gallery from 2023-06-01 to 2023-11-30, excluding special events, for children with at least 2 visits.",
+        "filled_param": {
+          "venue_name": "Uffizi Gallery",
+          "start_date": "2023-06-01",
+          "end_date": "2023-11-30",
+          "minimum_visits": 2,
+          "include_special_events": false,
+          "age_group": "child"
+        }
+      },
+      {
+        "query": "Determine the person who visited the museum most often at the Tate Modern between 2023-04-01 and 2023-09-30, counting special events, considering only adults with a minimum of 7 visits.",
+        "filled_param": {
+          "venue_name": "Tate Modern",
+          "start_date": "2023-04-01",
+          "end_date": "2023-09-30",
+          "minimum_visits": 7,
+          "include_special_events": true,
+          "age_group": "adult"
+        }
+      }
+    ]
+  },
+  "most_frequent_visitor|:|art gallery|:|venue_name,start_date,end_date,minimum_visits,include_special_events,age_group": {
+    "tool_template_name": "most_frequent_visitor",
+    "derived_class": "art gallery",
+    "params_for_query": [
+      "venue_name",
+      "start_date",
+      "end_date",
+      "minimum_visits",
+      "include_special_events",
+      "age_group"
+    ],
+    "queries": [
+      {
+        "query": "Who visited the Modern Art Gallery the most between 2023-01-01 and 2023-06-30, with at least 5 visits and including special events, focusing on adults?",
+        "filled_param": {
+          "venue_name": "Modern Art Gallery",
+          "start_date": "2023-01-01",
+          "end_date": "2023-06-30",
+          "minimum_visits": 5,
+          "include_special_events": true,
+          "age_group": "adult"
+        }
+      },
+      {
+        "query": "Find the child visitor who frequented the National Art Gallery the most from 2023-03-01 to 2023-09-01, requiring a minimum of 3 visits and not counting special event days.",
+        "filled_param": {
+          "venue_name": "National Art Gallery",
+          "start_date": "2023-03-01",
+          "end_date": "2023-09-01",
+          "minimum_visits": 3,
+          "include_special_events": false,
+          "age_group": "child"
+        }
+      },
+      {
+        "query": "Identify the top visitor at the City Art Gallery for the period of 2023-05-15 to 2023-07-15, including special events, with at least 10 visits, considering all age groups.",
+        "filled_param": {
+          "venue_name": "City Art Gallery",
+          "start_date": "2023-05-15",
+          "end_date": "2023-07-15",
+          "minimum_visits": 10,
+          "include_special_events": true,
+          "age_group": "all"
+        }
+      },
+      {
+        "query": "Can you find out who visited the Village Art Gallery the most from 2022-09-01 to 2023-03-01? Focus on adults who visited at least 7 times, excluding any special event days.",
+        "filled_param": {
+          "venue_name": "Village Art Gallery",
+          "start_date": "2022-09-01",
+          "end_date": "2023-03-01",
+          "minimum_visits": 7,
+          "include_special_events": false,
+          "age_group": "adult"
+        }
+      },
+      {
+        "query": "During the period from 2023-01-01 to 2023-12-31, who was the most frequent visitor to the Downtown Art Gallery, including all special occasions, with at least 15 visits, regardless of age?",
+        "filled_param": {
+          "venue_name": "Downtown Art Gallery",
+          "start_date": "2023-01-01",
+          "end_date": "2023-12-31",
+          "minimum_visits": 15,
+          "include_special_events": true,
+          "age_group": "all"
+        }
+      },
+      {
+        "query": "For the Picasso Art Gallery, find the child visitor with the highest number of visits from 2023-04-01 to 2023-10-01, requiring at least 8 visits and accounting for special events.",
+        "filled_param": {
+          "venue_name": "Picasso Art Gallery",
+          "start_date": "2023-04-01",
+          "end_date": "2023-10-01",
+          "minimum_visits": 8,
+          "include_special_events": true,
+          "age_group": "child"
+        }
+      },
+      {
+        "query": "Who is the most frequent visitor to the Grand Art Gallery in the period of 2023-06-01 to 2023-08-31, with a minimum of 4 visits and excluding visits during special events, for all age groups?",
+        "filled_param": {
+          "venue_name": "Grand Art Gallery",
+          "start_date": "2023-06-01",
+          "end_date": "2023-08-31",
+          "minimum_visits": 4,
+          "include_special_events": false,
+          "age_group": "all"
+        }
+      }
+    ]
+  },
+  "most_frequent_visitor|:|library|:|venue_name,start_date,end_date,minimum_visits,include_special_events,age_group": {
+    "tool_template_name": "most_frequent_visitor",
+    "derived_class": "library",
+    "params_for_query": [
+      "venue_name",
+      "start_date",
+      "end_date",
+      "minimum_visits",
+      "include_special_events",
+      "age_group"
+    ],
+    "queries": [
+      {
+        "query": "Who was the most frequent visitor to the Central City Library between 2023-01-01 and 2023-06-30, considering at least 10 visits and including special events? Focus on adults.",
+        "filled_param": {
+          "venue_name": "Central City Library",
+          "start_date": "2023-01-01",
+          "end_date": "2023-06-30",
+          "minimum_visits": 10,
+          "include_special_events": true,
+          "age_group": "adult"
+        }
+      },
+      {
+        "query": "Find the top library visitor at Green Valley Library from 2022-07-01 to 2022-12-31 with a minimum of 5 visits. Include special events and look at all age groups.",
+        "filled_param": {
+          "venue_name": "Green Valley Library",
+          "start_date": "2022-07-01",
+          "end_date": "2022-12-31",
+          "minimum_visits": 5,
+          "include_special_events": true,
+          "age_group": "all"
+        }
+      },
+      {
+        "query": "Identify the individual with the most visits to the Downtown Library between 2023-03-01 and 2023-03-31, with at least 8 visits, considering children's visits and excluding special events.",
+        "filled_param": {
+          "venue_name": "Downtown Library",
+          "start_date": "2023-03-01",
+          "end_date": "2023-03-31",
+          "minimum_visits": 8,
+          "include_special_events": false,
+          "age_group": "child"
+        }
+      },
+      {
+        "query": "Retrieve the most frequent visitor at the Riverbank Library from 2023-05-01 to 2023-05-31. Exclude special events and check for a minimum of 12 visits among adults.",
+        "filled_param": {
+          "venue_name": "Riverbank Library",
+          "start_date": "2023-05-01",
+          "end_date": "2023-05-31",
+          "minimum_visits": 12,
+          "include_special_events": false,
+          "age_group": "adult"
+        }
+      },
+      {
+        "query": "Who visited the Maple Leaf Library the most between 2023-02-01 and 2023-02-28, with at least 3 visits, including special events and focusing on children?",
+        "filled_param": {
+          "venue_name": "Maple Leaf Library",
+          "start_date": "2023-02-01",
+          "end_date": "2023-02-28",
+          "minimum_visits": 3,
+          "include_special_events": true,
+          "age_group": "child"
+        }
+      },
+      {
+        "query": "Determine the most frequent visitor to the Springdale Library in the period from 2023-04-01 to 2023-04-30, with at least 15 visits, not including special events, looking at all ages.",
+        "filled_param": {
+          "venue_name": "Springdale Library",
+          "start_date": "2023-04-01",
+          "end_date": "2023-04-30",
+          "minimum_visits": 15,
+          "include_special_events": false,
+          "age_group": "all"
+        }
+      },
+      {
+        "query": "Can you tell me who was the top visitor at the Oceanview Library from 2023-06-01 to 2023-06-30, requiring at least 20 visits, while excluding special events and considering adults?",
+        "filled_param": {
+          "venue_name": "Oceanview Library",
+          "start_date": "2023-06-01",
+          "end_date": "2023-06-30",
+          "minimum_visits": 20,
+          "include_special_events": false,
+          "age_group": "adult"
+        }
+      }
+    ]
+  },
+  "most_frequent_visitor|:|zoo|:|venue_name,start_date,end_date,minimum_visits,include_special_events,age_group": {
+    "tool_template_name": "most_frequent_visitor",
+    "derived_class": "zoo",
+    "params_for_query": [
+      "venue_name",
+      "start_date",
+      "end_date",
+      "minimum_visits",
+      "include_special_events",
+      "age_group"
+    ],
+    "queries": [
+      {
+        "query": "Who was the most frequent visitor at the Woodland Park Zoo between 2022-01-01 and 2022-12-31, with at least 5 visits, including special events, focusing on the adult age group?",
+        "filled_param": {
+          "venue_name": "Woodland Park Zoo",
+          "start_date": "2022-01-01",
+          "end_date": "2022-12-31",
+          "minimum_visits": 5,
+          "include_special_events": true,
+          "age_group": "adult"
+        }
+      },
+      {
+        "query": "Get the most frequent child visitor to the Bronx Zoo from 2023-05-01 to 2023-08-31, with a minimum of 3 visits, excluding special events.",
+        "filled_param": {
+          "venue_name": "Bronx Zoo",
+          "start_date": "2023-05-01",
+          "end_date": "2023-08-31",
+          "minimum_visits": 3,
+          "include_special_events": false,
+          "age_group": "child"
+        }
+      },
+      {
+        "query": "Identify the top visitor at the San Diego Zoo from 2022-04-15 to 2022-10-20, requiring at least 10 visits, ignoring special event days, for the 'all' age group.",
+        "filled_param": {
+          "venue_name": "San Diego Zoo",
+          "start_date": "2022-04-15",
+          "end_date": "2022-10-20",
+          "minimum_visits": 10,
+          "include_special_events": false,
+          "age_group": "all"
+        }
+      },
+      {
+        "query": "Find out who visited the Berlin Zoo the most between 2023-06-01 and 2023-09-30, ensuring at least 8 visits, with special events included, for children.",
+        "filled_param": {
+          "venue_name": "Berlin Zoo",
+          "start_date": "2023-06-01",
+          "end_date": "2023-09-30",
+          "minimum_visits": 8,
+          "include_special_events": true,
+          "age_group": "child"
+        }
+      },
+      {
+        "query": "Retrieve the name of the person with the highest visits to the Singapore Zoo between 2023-01-01 and 2023-12-31, with no less than 6 visits, without including special events, focusing on adults.",
+        "filled_param": {
+          "venue_name": "Singapore Zoo",
+          "start_date": "2023-01-01",
+          "end_date": "2023-12-31",
+          "minimum_visits": 6,
+          "include_special_events": false,
+          "age_group": "adult"
+        }
+      },
+      {
+        "query": "Can you tell me who visited the Toronto Zoo the most often from 2022-07-01 to 2022-07-31, with at least 2 visits, considering special events, for all ages?",
+        "filled_param": {
+          "venue_name": "Toronto Zoo",
+          "start_date": "2022-07-01",
+          "end_date": "2022-07-31",
+          "minimum_visits": 2,
+          "include_special_events": true,
+          "age_group": "all"
+        }
+      }
+    ]
+  },
+  "most_frequent_visitor|:|aquarium|:|venue_name,start_date,end_date,minimum_visits,include_special_events,age_group": {
+    "tool_template_name": "most_frequent_visitor",
+    "derived_class": "aquarium",
+    "params_for_query": [
+      "venue_name",
+      "start_date",
+      "end_date",
+      "minimum_visits",
+      "include_special_events",
+      "age_group"
+    ],
+    "queries": [
+      {
+        "query": "Who visited Aquarium of the Pacific the most between 2023-01-01 and 2023-06-30, with at least 5 visits, including special events, considering all age groups?",
+        "filled_param": {
+          "venue_name": "Aquarium of the Pacific",
+          "start_date": "2023-01-01",
+          "end_date": "2023-06-30",
+          "minimum_visits": 5,
+          "include_special_events": true,
+          "age_group": "all"
+        }
+      },
+      {
+        "query": "Find the most frequent visitor to the Georgia Aquarium from 2022-05-01 to 2022-09-30, requiring a minimum of 10 visits and not counting special events, focusing on the adult age group.",
+        "filled_param": {
+          "venue_name": "Georgia Aquarium",
+          "start_date": "2022-05-01",
+          "end_date": "2022-09-30",
+          "minimum_visits": 10,
+          "include_special_events": false,
+          "age_group": "adult"
+        }
+      },
+      {
+        "query": "For the Monterey Bay Aquarium, identify the child who visited the most frequently between 2021-07-15 and 2021-08-15, with at least 3 visits, including special events.",
+        "filled_param": {
+          "venue_name": "Monterey Bay Aquarium",
+          "start_date": "2021-07-15",
+          "end_date": "2021-08-15",
+          "minimum_visits": 3,
+          "include_special_events": true,
+          "age_group": "child"
+        }
+      },
+      {
+        "query": "Who was the most regular visitor to the Vancouver Aquarium from 2020-11-01 to 2021-03-01, considering a minimum of 8 visits, excluding special events, across all age categories?",
+        "filled_param": {
+          "venue_name": "Vancouver Aquarium",
+          "start_date": "2020-11-01",
+          "end_date": "2021-03-01",
+          "minimum_visits": 8,
+          "include_special_events": false,
+          "age_group": "all"
+        }
+      },
+      {
+        "query": "Determine the top child visitor to the Sydney Aquarium for the period of 2023-01-01 to 2023-12-31, with at least 15 visits, excluding special events.",
+        "filled_param": {
+          "venue_name": "Sydney Aquarium",
+          "start_date": "2023-01-01",
+          "end_date": "2023-12-31",
+          "minimum_visits": 15,
+          "include_special_events": false,
+          "age_group": "child"
+        }
+      },
+      {
+        "query": "Can you tell me who visited the Shedd Aquarium the most often from 2022-03-01 to 2022-06-01, requiring at least 12 visits, including special events, focusing on adults?",
+        "filled_param": {
+          "venue_name": "Shedd Aquarium",
+          "start_date": "2022-03-01",
+          "end_date": "2022-06-01",
+          "minimum_visits": 12,
+          "include_special_events": true,
+          "age_group": "adult"
+        }
+      },
+      {
+        "query": "Identify the visitor who frequented the Okinawa Churaumi Aquarium the most between 2021-09-01 and 2021-12-31, with a minimum of 20 visits, including special events, across all age groups.",
+        "filled_param": {
+          "venue_name": "Okinawa Churaumi Aquarium",
+          "start_date": "2021-09-01",
+          "end_date": "2021-12-31",
+          "minimum_visits": 20,
+          "include_special_events": true,
+          "age_group": "all"
+        }
+      }
+    ]
+  },
+  "most_frequent_visitor|:|botanical garden|:|venue_name,start_date,end_date,minimum_visits,include_special_events,age_group": {
+    "tool_template_name": "most_frequent_visitor",
+    "derived_class": "botanical garden",
+    "params_for_query": [
+      "venue_name",
+      "start_date",
+      "end_date",
+      "minimum_visits",
+      "include_special_events",
+      "age_group"
+    ],
+    "queries": [
+      {
+        "query": "Who was the most frequent visitor to the New York Botanical Garden from 2023-01-01 to 2023-03-31, excluding visits during special events, with at least 5 visits, considering only adults?",
+        "filled_param": {
+          "venue_name": "New York Botanical Garden",
+          "start_date": "2023-01-01",
+          "end_date": "2023-03-31",
+          "minimum_visits": 5,
+          "include_special_events": false,
+          "age_group": "adult"
+        }
+      },
+      {
+        "query": "Find out the top visitor to the Singapore Botanical Gardens between 2023-06-01 and 2023-08-31, including special event days, who visited at least 10 times, for all age groups.",
+        "filled_param": {
+          "venue_name": "Singapore Botanical Gardens",
+          "start_date": "2023-06-01",
+          "end_date": "2023-08-31",
+          "minimum_visits": 10,
+          "include_special_events": true,
+          "age_group": "all"
+        }
+      },
+      {
+        "query": "Retrieve the most frequent child visitor at the Royal Botanic Gardens, Kew, from 2023-04-01 to 2023-06-30 with a minimum of 3 visits, excluding special events.",
+        "filled_param": {
+          "venue_name": "Royal Botanic Gardens, Kew",
+          "start_date": "2023-04-01",
+          "end_date": "2023-06-30",
+          "minimum_visits": 3,
+          "include_special_events": false,
+          "age_group": "child"
+        }
+      },
+      {
+        "query": "Can you tell me who visited the Missouri Botanical Garden the most from 2023-07-01 to 2023-09-30, including all special events, with at least 7 visits, considering children only?",
+        "filled_param": {
+          "venue_name": "Missouri Botanical Garden",
+          "start_date": "2023-07-01",
+          "end_date": "2023-09-30",
+          "minimum_visits": 7,
+          "include_special_events": true,
+          "age_group": "child"
+        }
+      },
+      {
+        "query": "I need to know the top visitor statistics for the Atlanta Botanical Garden from 2023-05-01 to 2023-07-31, without special event days, with a minimum of 12 visits, for adults.",
+        "filled_param": {
+          "venue_name": "Atlanta Botanical Garden",
+          "start_date": "2023-05-01",
+          "end_date": "2023-07-31",
+          "minimum_visits": 12,
+          "include_special_events": false,
+          "age_group": "adult"
+        }
+      },
+      {
+        "query": "Who had the most visits to the Brooklyn Botanic Garden during the period 2023-09-01 to 2023-11-30, including special event days, with at least 8 visits, considering all ages?",
+        "filled_param": {
+          "venue_name": "Brooklyn Botanic Garden",
+          "start_date": "2023-09-01",
+          "end_date": "2023-11-30",
+          "minimum_visits": 8,
+          "include_special_events": true,
+          "age_group": "all"
+        }
+      },
+      {
+        "query": "Identify the leading visitor at the Denver Botanic Gardens from 2023-02-01 to 2023-04-30, requiring a minimum of 15 visits, excluding special events, for adults only.",
+        "filled_param": {
+          "venue_name": "Denver Botanic Gardens",
+          "start_date": "2023-02-01",
+          "end_date": "2023-04-30",
+          "minimum_visits": 15,
+          "include_special_events": false,
+          "age_group": "adult"
+        }
+      }
+    ]
+  },
+  "most_frequent_visitor|:|amusement park|:|venue_name,start_date,end_date,minimum_visits,include_special_events,age_group": {
+    "tool_template_name": "most_frequent_visitor",
+    "derived_class": "amusement park",
+    "params_for_query": [
+      "venue_name",
+      "start_date",
+      "end_date",
+      "minimum_visits",
+      "include_special_events",
+      "age_group"
+    ],
+    "queries": [
+      {
+        "query": "Who visited the amusement park 'Funland Adventure' the most between 2023-01-01 and 2023-12-31, considering at least 5 visits, and including special events for adults?",
+        "filled_param": {
+          "venue_name": "Funland Adventure",
+          "start_date": "2023-01-01",
+          "end_date": "2023-12-31",
+          "minimum_visits": 5,
+          "include_special_events": true,
+          "age_group": "adult"
+        }
+      },
+      {
+        "query": "Find the most frequent visitor at 'Magic Kingdom' from 2022-06-01 to 2022-08-31, requiring a minimum of 10 visits, excluding special events, focusing on children.",
+        "filled_param": {
+          "venue_name": "Magic Kingdom",
+          "start_date": "2022-06-01",
+          "end_date": "2022-08-31",
+          "minimum_visits": 10,
+          "include_special_events": false,
+          "age_group": "child"
+        }
+      },
+      {
+        "query": "Could you tell me who the top visitor was at 'Adventure World' from 2023-07-01 to 2023-07-31? The person should have visited at least 3 times, and include visits during special events for all age groups.",
+        "filled_param": {
+          "venue_name": "Adventure World",
+          "start_date": "2023-07-01",
+          "end_date": "2023-07-31",
+          "minimum_visits": 3,
+          "include_special_events": true,
+          "age_group": "all"
+        }
+      },
+      {
+        "query": "Who was the most frequent visitor to 'Wonderland Park' between 2022-01-01 and 2022-12-31? Consider at least 20 visits, exclude special events, and focus on adults.",
+        "filled_param": {
+          "venue_name": "Wonderland Park",
+          "start_date": "2022-01-01",
+          "end_date": "2022-12-31",
+          "minimum_visits": 20,
+          "include_special_events": false,
+          "age_group": "adult"
+        }
+      },
+      {
+        "query": "For 'Happy Land', identify the visitor who frequented the park the most from 2021-05-01 to 2021-09-01, with a minimum of 8 visits including special events, considering all age groups.",
+        "filled_param": {
+          "venue_name": "Happy Land",
+          "start_date": "2021-05-01",
+          "end_date": "2021-09-01",
+          "minimum_visits": 8,
+          "include_special_events": true,
+          "age_group": "all"
+        }
+      },
+      {
+        "query": "Who had the most visits to 'Dreamland Amusement Park' from 2022-11-01 to 2022-11-30, expecting at least 2 visits, not counting special events, and focusing on children?",
+        "filled_param": {
+          "venue_name": "Dreamland Amusement Park",
+          "start_date": "2022-11-01",
+          "end_date": "2022-11-30",
+          "minimum_visits": 2,
+          "include_special_events": false,
+          "age_group": "child"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "museum_data.get_visit_stats|:|museum|:|city,year,time_granularity": {
+    "tool_template_name": "museum_data.get_visit_stats",
+    "derived_class": "museum",
+    "params_for_query": [
+      "city",
+      "year",
+      "time_granularity"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the yearly visitation statistics for museums in Paris for the year 2022?",
+        "filled_param": {
+          "city": "Paris",
+          "year": 2022,
+          "time_granularity": "yearly"
+        }
+      },
+      {
+        "query": "I'm interested in the monthly museum visitation data for Tokyo in 2021.",
+        "filled_param": {
+          "city": "Tokyo",
+          "year": 2021,
+          "time_granularity": "monthly"
+        }
+      },
+      {
+        "query": "Please get the daily museum visit stats for New York for the year 2020.",
+        "filled_param": {
+          "city": "New York",
+          "year": 2020,
+          "time_granularity": "daily"
+        }
+      },
+      {
+        "query": "What are the yearly museum visitation numbers for London in 2019?",
+        "filled_param": {
+          "city": "London",
+          "year": 2019,
+          "time_granularity": "yearly"
+        }
+      },
+      {
+        "query": "Fetch the monthly statistics for museum visits in Berlin for 2023.",
+        "filled_param": {
+          "city": "Berlin",
+          "year": 2023,
+          "time_granularity": "monthly"
+        }
+      },
+      {
+        "query": "Could you give me the daily museum visit statistics for Sydney in 2022?",
+        "filled_param": {
+          "city": "Sydney",
+          "year": 2022,
+          "time_granularity": "daily"
+        }
+      },
+      {
+        "query": "I'd like to know the yearly museum visitation data for Rome for 2020.",
+        "filled_param": {
+          "city": "Rome",
+          "year": 2020,
+          "time_granularity": "yearly"
+        }
+      }
+    ]
+  },
+  "museum_data.get_visit_stats|:|library|:|city,year,time_granularity": {
+    "tool_template_name": "museum_data.get_visit_stats",
+    "derived_class": "library",
+    "params_for_query": [
+      "city",
+      "year",
+      "time_granularity"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the monthly visitation statistics for the library in New York for the year 2022?",
+        "filled_param": {
+          "city": "New York",
+          "year": 2022,
+          "time_granularity": "monthly"
+        }
+      },
+      {
+        "query": "What are the daily library visit stats for Chicago in the year 2021?",
+        "filled_param": {
+          "city": "Chicago",
+          "year": 2021,
+          "time_granularity": "daily"
+        }
+      },
+      {
+        "query": "I need the yearly visitation figures for the library located in Los Angeles for 2020.",
+        "filled_param": {
+          "city": "Los Angeles",
+          "year": 2020,
+          "time_granularity": "yearly"
+        }
+      },
+      {
+        "query": "Retrieve the monthly library visit statistics for Seattle in 2018.",
+        "filled_param": {
+          "city": "Seattle",
+          "year": 2018,
+          "time_granularity": "monthly"
+        }
+      },
+      {
+        "query": "Please fetch the daily visitation stats for the library in Houston for 2023.",
+        "filled_param": {
+          "city": "Houston",
+          "year": 2023,
+          "time_granularity": "daily"
+        }
+      },
+      {
+        "query": "I'd like to see the yearly visit numbers for the library in Boston for 2019.",
+        "filled_param": {
+          "city": "Boston",
+          "year": 2019,
+          "time_granularity": "yearly"
+        }
+      },
+      {
+        "query": "Can you get the monthly library visitation data for San Francisco in the year 2022?",
+        "filled_param": {
+          "city": "San Francisco",
+          "year": 2022,
+          "time_granularity": "monthly"
+        }
+      }
+    ]
+  },
+  "museum_data.get_visit_stats|:|art gallery|:|city,year,time_granularity": {
+    "tool_template_name": "museum_data.get_visit_stats",
+    "derived_class": "art gallery",
+    "params_for_query": [
+      "city",
+      "year",
+      "time_granularity"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the monthly visitation statistics for an art gallery in Paris for the year 2022?",
+        "filled_param": {
+          "city": "Paris",
+          "year": 2022,
+          "time_granularity": "monthly"
+        }
+      },
+      {
+        "query": "I need the daily visitor data for an art gallery in New York for 2020.",
+        "filled_param": {
+          "city": "New York",
+          "year": 2020,
+          "time_granularity": "daily"
+        }
+      },
+      {
+        "query": "What are the yearly visitation stats for the art galleries in Tokyo for 2021?",
+        "filled_param": {
+          "city": "Tokyo",
+          "year": 2021,
+          "time_granularity": "yearly"
+        }
+      },
+      {
+        "query": "Please provide the monthly visit statistics for a Los Angeles art gallery during 2019.",
+        "filled_param": {
+          "city": "Los Angeles",
+          "year": 2019,
+          "time_granularity": "monthly"
+        }
+      },
+      {
+        "query": "Could you give me the daily visitation numbers for art galleries in Berlin for the year 2023?",
+        "filled_param": {
+          "city": "Berlin",
+          "year": 2023,
+          "time_granularity": "daily"
+        }
+      },
+      {
+        "query": "Give me the yearly visitor statistics for an art gallery in Rome for 2022.",
+        "filled_param": {
+          "city": "Rome",
+          "year": 2022,
+          "time_granularity": "yearly"
+        }
+      },
+      {
+        "query": "What are the daily statistics on art gallery visits in London for the year 2021?",
+        "filled_param": {
+          "city": "London",
+          "year": 2021,
+          "time_granularity": "daily"
+        }
+      }
+    ]
+  },
+  "museum_data.get_visit_stats|:|zoo|:|city,year,time_granularity": {
+    "tool_template_name": "museum_data.get_visit_stats",
+    "derived_class": "zoo",
+    "params_for_query": [
+      "city",
+      "year",
+      "time_granularity"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the yearly visitation stats for the zoo in San Diego for the year 2022?",
+        "filled_param": {
+          "city": "San Diego",
+          "year": 2022,
+          "time_granularity": "yearly"
+        }
+      },
+      {
+        "query": "I'd like to know the daily zoo visit statistics for Chicago in 2021.",
+        "filled_param": {
+          "city": "Chicago",
+          "year": 2021,
+          "time_granularity": "daily"
+        }
+      },
+      {
+        "query": "Please give me the monthly breakdown of zoo visit numbers in Berlin for 2020.",
+        "filled_param": {
+          "city": "Berlin",
+          "year": 2020,
+          "time_granularity": "monthly"
+        }
+      },
+      {
+        "query": "What were the zoo's yearly visitor statistics in New York for 2019?",
+        "filled_param": {
+          "city": "New York",
+          "year": 2019,
+          "time_granularity": "yearly"
+        }
+      },
+      {
+        "query": "Retrieve the daily zoo visitation data for the city of Sydney in the year 2023.",
+        "filled_param": {
+          "city": "Sydney",
+          "year": 2023,
+          "time_granularity": "daily"
+        }
+      },
+      {
+        "query": "Could you tell me the monthly zoo visit stats for Paris for the year 2022?",
+        "filled_param": {
+          "city": "Paris",
+          "year": 2022,
+          "time_granularity": "monthly"
+        }
+      },
+      {
+        "query": "I need the yearly visitation statistics for the zoo in Tokyo for 2021.",
+        "filled_param": {
+          "city": "Tokyo",
+          "year": 2021,
+          "time_granularity": "yearly"
+        }
+      }
+    ]
+  },
+  "museum_data.get_visit_stats|:|botanical garden|:|city,year,time_granularity": {
+    "tool_template_name": "museum_data.get_visit_stats",
+    "derived_class": "botanical garden",
+    "params_for_query": [
+      "city",
+      "year",
+      "time_granularity"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the yearly visitation statistics for the botanical garden in Sydney for 2022?",
+        "filled_param": {
+          "city": "Sydney",
+          "year": 2022,
+          "time_granularity": "yearly"
+        }
+      },
+      {
+        "query": "What are the monthly visitor numbers for the botanical garden in Tokyo during the year 2021?",
+        "filled_param": {
+          "city": "Tokyo",
+          "year": 2021,
+          "time_granularity": "monthly"
+        }
+      },
+      {
+        "query": "I'd like to see the daily visitation stats for the botanical garden in New York for the year 2023.",
+        "filled_param": {
+          "city": "New York",
+          "year": 2023,
+          "time_granularity": "daily"
+        }
+      },
+      {
+        "query": "Fetch the yearly visit statistics for the botanical garden in London for 2020.",
+        "filled_param": {
+          "city": "London",
+          "year": 2020,
+          "time_granularity": "yearly"
+        }
+      },
+      {
+        "query": "Could you give me the monthly visitation data for the botanical garden located in Paris for 2019?",
+        "filled_param": {
+          "city": "Paris",
+          "year": 2019,
+          "time_granularity": "monthly"
+        }
+      },
+      {
+        "query": "I need the daily visitor statistics for the botanical garden in Dubai for 2022.",
+        "filled_param": {
+          "city": "Dubai",
+          "year": 2022,
+          "time_granularity": "daily"
+        }
+      },
+      {
+        "query": "What were the yearly visitor numbers for the botanical garden in San Francisco for 2021?",
+        "filled_param": {
+          "city": "San Francisco",
+          "year": 2021,
+          "time_granularity": "yearly"
+        }
+      }
+    ]
+  },
+  "museum_data.get_visit_stats|:|aquarium|:|city,year,time_granularity": {
+    "tool_template_name": "museum_data.get_visit_stats",
+    "derived_class": "aquarium",
+    "params_for_query": [
+      "city",
+      "year",
+      "time_granularity"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the monthly aquarium visitation stats for Chicago in 2022?",
+        "filled_param": {
+          "city": "Chicago",
+          "year": 2022,
+          "time_granularity": "monthly"
+        }
+      },
+      {
+        "query": "I'd like to know the daily aquarium attendance for San Diego for the year 2020.",
+        "filled_param": {
+          "city": "San Diego",
+          "year": 2020,
+          "time_granularity": "daily"
+        }
+      },
+      {
+        "query": "Give me the yearly visitation numbers for the aquarium in Toronto for 2019.",
+        "filled_param": {
+          "city": "Toronto",
+          "year": 2019,
+          "time_granularity": "yearly"
+        }
+      },
+      {
+        "query": "What are the monthly aquarium visitor statistics for Tokyo in 2021?",
+        "filled_param": {
+          "city": "Tokyo",
+          "year": 2021,
+          "time_granularity": "monthly"
+        }
+      },
+      {
+        "query": "Retrieve the daily visitation data for the aquarium in Sydney for 2023.",
+        "filled_param": {
+          "city": "Sydney",
+          "year": 2023,
+          "time_granularity": "daily"
+        }
+      },
+      {
+        "query": "Could you get the yearly aquarium visit stats for London in the year 2018?",
+        "filled_param": {
+          "city": "London",
+          "year": 2018,
+          "time_granularity": "yearly"
+        }
+      },
+      {
+        "query": "Please provide the monthly aquarium visit numbers for New York for the year 2020.",
+        "filled_param": {
+          "city": "New York",
+          "year": 2020,
+          "time_granularity": "monthly"
+        }
+      }
+    ]
+  }
+}

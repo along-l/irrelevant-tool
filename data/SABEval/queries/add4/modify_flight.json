@@ -1,0 +1,302 @@
+{
+  "modify_flight|:|flight|:|user_id,reservation_id,new_schedule_no,new_cabin,extra_baggage,new_payment_method,cancellation_policy_agreement": {
+    "tool_template_name": "modify_flight",
+    "derived_class": "flight",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "new_schedule_no",
+      "new_cabin",
+      "extra_baggage",
+      "new_payment_method",
+      "cancellation_policy_agreement"
+    ],
+    "queries": [
+      {
+        "query": "I'd like to modify my flight reservation with user ID U12345 and reservation ID R67890 to a new schedule number S98765 in business class, with 2 extra baggage items, and I'll pay by cash. I agree to the cancellation policy.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890",
+          "new_schedule_no": "S98765",
+          "new_cabin": "business class",
+          "extra_baggage": 2,
+          "new_payment_method": "cash",
+          "cancellation_policy_agreement": true
+        }
+      },
+      {
+        "query": "Please update my flight for user ID U54321, reservation R09876 to schedule S12345 in economy class, adding 1 extra bag, and I'll use bank transfer for payment. I accept the cancellation terms.",
+        "filled_param": {
+          "user_id": "U54321",
+          "reservation_id": "R09876",
+          "new_schedule_no": "S12345",
+          "new_cabin": "economy class",
+          "extra_baggage": 1,
+          "new_payment_method": "bank",
+          "cancellation_policy_agreement": true
+        }
+      },
+      {
+        "query": "Change my flight reservation under the user ID U98765 and reservation ID R54321 to the new schedule S67890 with first class seating. I'll add 3 extra bags and pay using cash. I agree to the policies.",
+        "filled_param": {
+          "user_id": "U98765",
+          "reservation_id": "R54321",
+          "new_schedule_no": "S67890",
+          "new_cabin": "first class",
+          "extra_baggage": 3,
+          "new_payment_method": "cash",
+          "cancellation_policy_agreement": true
+        }
+      },
+      {
+        "query": "For user ID U45678 and reservation ID R11223, please modify the flight to schedule number S33445 in premium economy class. Add 0 extra baggage, and I'll pay by bank. I acknowledge and accept the cancellation policy.",
+        "filled_param": {
+          "user_id": "U45678",
+          "reservation_id": "R11223",
+          "new_schedule_no": "S33445",
+          "new_cabin": "premium economy class",
+          "extra_baggage": 0,
+          "new_payment_method": "bank",
+          "cancellation_policy_agreement": true
+        }
+      },
+      {
+        "query": "Can you update my flight reservation? My user ID is U11234 and the reservation ID is R22345. Change to schedule S55667, upgrade to economy plus, add 1 extra bag, and I'll use cash for any costs. I agree to the cancellation terms.",
+        "filled_param": {
+          "user_id": "U11234",
+          "reservation_id": "R22345",
+          "new_schedule_no": "S55667",
+          "new_cabin": "economy plus",
+          "extra_baggage": 1,
+          "new_payment_method": "cash",
+          "cancellation_policy_agreement": true
+        }
+      }
+    ]
+  },
+  "modify_flight|:|high-speed train|:|user_id,reservation_id,new_schedule_no,new_cabin,extra_baggage,new_payment_method,cancellation_policy_agreement": {
+    "tool_template_name": "modify_flight",
+    "derived_class": "high-speed train",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "new_schedule_no",
+      "new_cabin",
+      "extra_baggage",
+      "new_payment_method",
+      "cancellation_policy_agreement"
+    ],
+    "queries": [
+      {
+        "query": "I need to modify my high-speed train reservation with user ID U12345 and reservation ID R67890. Please change the schedule to number 1234, upgrade the cabin to business class, add 2 extra baggage items, use cash for payment, and I agree to the cancellation policy.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890",
+          "new_schedule_no": "1234",
+          "new_cabin": "business class",
+          "extra_baggage": 2,
+          "new_payment_method": "cash",
+          "cancellation_policy_agreement": true
+        }
+      },
+      {
+        "query": "Can you update my high-speed train booking? My user ID is U54321 and reservation ID is R09876. I want to switch to schedule no. 5678, change to economy class, add 1 extra baggage, pay using bank, and I agree to the policy.",
+        "filled_param": {
+          "user_id": "U54321",
+          "reservation_id": "R09876",
+          "new_schedule_no": "5678",
+          "new_cabin": "economy class",
+          "extra_baggage": 1,
+          "new_payment_method": "bank",
+          "cancellation_policy_agreement": true
+        }
+      },
+      {
+        "query": "Modify my high-speed train ticket with user ID U67890, reservation ID R12345. Change to schedule number 91011, first class, allow 3 extra baggage, pay with cash, and I accept the cancellation policy.",
+        "filled_param": {
+          "user_id": "U67890",
+          "reservation_id": "R12345",
+          "new_schedule_no": "91011",
+          "new_cabin": "first class",
+          "extra_baggage": 3,
+          "new_payment_method": "cash",
+          "cancellation_policy_agreement": true
+        }
+      },
+      {
+        "query": "I want to make changes to my high-speed train reservation. The user ID is U24680 and reservation ID is R13579. Please swap to schedule no. 11213, switch to second class, add 0 extra baggage, use bank for payment, and I agree to the terms.",
+        "filled_param": {
+          "user_id": "U24680",
+          "reservation_id": "R13579",
+          "new_schedule_no": "11213",
+          "new_cabin": "second class",
+          "extra_baggage": 0,
+          "new_payment_method": "bank",
+          "cancellation_policy_agreement": true
+        }
+      },
+      {
+        "query": "Please change my high-speed train reservation using user ID U97531 and reservation ID R86420. Update to the schedule number 31415, opt for premium class, include 4 extra baggage, pay by cash, and I agree to your cancellation policy.",
+        "filled_param": {
+          "user_id": "U97531",
+          "reservation_id": "R86420",
+          "new_schedule_no": "31415",
+          "new_cabin": "premium class",
+          "extra_baggage": 4,
+          "new_payment_method": "cash",
+          "cancellation_policy_agreement": true
+        }
+      }
+    ]
+  },
+  "modify_flight|:|cruise ship|:|user_id,reservation_id,new_schedule_no,new_cabin,extra_baggage,new_payment_method,cancellation_policy_agreement": {
+    "tool_template_name": "modify_flight",
+    "derived_class": "cruise ship",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "new_schedule_no",
+      "new_cabin",
+      "extra_baggage",
+      "new_payment_method",
+      "cancellation_policy_agreement"
+    ],
+    "queries": [
+      {
+        "query": "I want to change my cruise ship reservation. My user ID is U12345 and reservation ID is R67890. Please switch to schedule 003, upgrade to business class, add 2 extra baggage items, use cash for payment, and I agree to the cancellation policy.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890",
+          "new_schedule_no": "003",
+          "new_cabin": "business class",
+          "extra_baggage": 2,
+          "new_payment_method": "cash",
+          "cancellation_policy_agreement": true
+        }
+      },
+      {
+        "query": "Modify my cruise ship booking. My user ID is A98765 and the reservation ID is B54321. Change to schedule 012, move to economy class, add 1 extra baggage item, pay by bank, and I agree to the cancellation terms.",
+        "filled_param": {
+          "user_id": "A98765",
+          "reservation_id": "B54321",
+          "new_schedule_no": "012",
+          "new_cabin": "economy class",
+          "extra_baggage": 1,
+          "new_payment_method": "bank",
+          "cancellation_policy_agreement": true
+        }
+      },
+      {
+        "query": "I'd like to adjust my cruise ship reservation. My user ID is Z11223, reservation ID is C33445. Update to schedule 009, switch to premium class, include 3 additional baggage items, payment via cash, and I accept the cancellation policy.",
+        "filled_param": {
+          "user_id": "Z11223",
+          "reservation_id": "C33445",
+          "new_schedule_no": "009",
+          "new_cabin": "premium class",
+          "extra_baggage": 3,
+          "new_payment_method": "cash",
+          "cancellation_policy_agreement": true
+        }
+      },
+      {
+        "query": "Please update my cruise ship reservation. User ID: B99887, reservation ID: D66554. Switch to schedule 015, change to first class, add 0 extra baggage, pay using bank, and I agree to the cancellation policy.",
+        "filled_param": {
+          "user_id": "B99887",
+          "reservation_id": "D66554",
+          "new_schedule_no": "015",
+          "new_cabin": "first class",
+          "extra_baggage": 0,
+          "new_payment_method": "bank",
+          "cancellation_policy_agreement": true
+        }
+      },
+      {
+        "query": "Can you modify my cruise ship booking? My user ID is Y55667 and reservation ID is E88221. I want to change to schedule 021, move to luxury class, add 5 extra luggage, pay in cash, and I consent to the cancellation policy.",
+        "filled_param": {
+          "user_id": "Y55667",
+          "reservation_id": "E88221",
+          "new_schedule_no": "021",
+          "new_cabin": "luxury class",
+          "extra_baggage": 5,
+          "new_payment_method": "cash",
+          "cancellation_policy_agreement": true
+        }
+      }
+    ]
+  },
+  "modify_flight|:|long-distance bus|:|user_id,reservation_id,new_schedule_no,new_cabin,extra_baggage,new_payment_method,cancellation_policy_agreement": {
+    "tool_template_name": "modify_flight",
+    "derived_class": "long-distance bus",
+    "params_for_query": [
+      "user_id",
+      "reservation_id",
+      "new_schedule_no",
+      "new_cabin",
+      "extra_baggage",
+      "new_payment_method",
+      "cancellation_policy_agreement"
+    ],
+    "queries": [
+      {
+        "query": "I want to change my long-distance bus reservation. My user ID is U12345 and the reservation ID is R67890. Please change the schedule to S0022 and update my cabin to business class. I need to add 2 extra pieces of baggage and will pay by cash. I agree to the cancellation policy.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890",
+          "new_schedule_no": "S0022",
+          "new_cabin": "business class",
+          "extra_baggage": 2,
+          "new_payment_method": "cash",
+          "cancellation_policy_agreement": true
+        }
+      },
+      {
+        "query": "Modify my long-distance bus booking with user ID U56789 and reservation ID R12345. I want to switch to schedule number S1234 and move to economy class. Add 1 extra piece of baggage and charge using bank method. I confirm the cancellation policy.",
+        "filled_param": {
+          "user_id": "U56789",
+          "reservation_id": "R12345",
+          "new_schedule_no": "S1234",
+          "new_cabin": "economy class",
+          "extra_baggage": 1,
+          "new_payment_method": "bank",
+          "cancellation_policy_agreement": true
+        }
+      },
+      {
+        "query": "Please modify my long-distance bus reservation. My user ID is U54321, and my reservation ID is R98765. I want to change to schedule S0456 with a cabin upgrade to business class. I'll need to add 3 extra baggage items, and I'll pay the extra with cash. I accept the terms of the cancellation policy.",
+        "filled_param": {
+          "user_id": "U54321",
+          "reservation_id": "R98765",
+          "new_schedule_no": "S0456",
+          "new_cabin": "business class",
+          "extra_baggage": 3,
+          "new_payment_method": "cash",
+          "cancellation_policy_agreement": true
+        }
+      },
+      {
+        "query": "I need to alter my long-distance bus booking. User ID is U67890, reservation ID is R11223. Change to new schedule S3344, keep my cabin as economy class, add 0 extra baggage, and pay any additional fees via bank. I agree to the cancellation terms.",
+        "filled_param": {
+          "user_id": "U67890",
+          "reservation_id": "R11223",
+          "new_schedule_no": "S3344",
+          "new_cabin": "economy class",
+          "extra_baggage": 0,
+          "new_payment_method": "bank",
+          "cancellation_policy_agreement": true
+        }
+      },
+      {
+        "query": "Can you modify my long-distance bus booking? My user ID is U23456 and reservation ID is R55667. Please change it to schedule S0055 and switch to business class. I need to add 2 extra bags and will use bank method for payment. I agree with your cancellation policy.",
+        "filled_param": {
+          "user_id": "U23456",
+          "reservation_id": "R55667",
+          "new_schedule_no": "S0055",
+          "new_cabin": "business class",
+          "extra_baggage": 2,
+          "new_payment_method": "bank",
+          "cancellation_policy_agreement": true
+        }
+      }
+    ]
+  }
+}

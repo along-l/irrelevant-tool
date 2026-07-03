@@ -1,0 +1,714 @@
+{
+  "submitProductReview|:|movie disc|:|UserName,ProductName,ReviewText,Rating,PurchaseDate,UsageDuration": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "movie disc",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate",
+      "UsageDuration"
+    ],
+    "queries": [
+      {
+        "query": "I, John Smith, recently watched 'The Great Adventure' on a movie disc I bought on 2023-05-10. After using it for 15 days, I'm rating it a 4. The special features added a lot to the experience.",
+        "filled_param": {
+          "UserName": "John Smith",
+          "ProductName": "The Great Adventure",
+          "ReviewText": "The special features added a lot to the experience.",
+          "Rating": 4,
+          "PurchaseDate": "2023-05-10",
+          "UsageDuration": 15
+        }
+      },
+      {
+        "query": "My name is Sarah Lee. I purchased the 'Sci-Fi Classics Collection' movie disc on 2023-06-02 and have been using it for 30 days. I would give it a 5 rating because the quality and content were exceptional.",
+        "filled_param": {
+          "UserName": "Sarah Lee",
+          "ProductName": "Sci-Fi Classics Collection",
+          "ReviewText": "The quality and content were exceptional.",
+          "Rating": 5,
+          "PurchaseDate": "2023-06-02",
+          "UsageDuration": 30
+        }
+      },
+      {
+        "query": "This is a review of 'Romantic Hits' by Mike Johnson. I bought the movie disc on 2023-04-15, and after enjoying it for 10 days, I rate it a 3. It was decent but had some scratches.",
+        "filled_param": {
+          "UserName": "Mike Johnson",
+          "ProductName": "Romantic Hits",
+          "ReviewText": "It was decent but had some scratches.",
+          "Rating": 3,
+          "PurchaseDate": "2023-04-15",
+          "UsageDuration": 10
+        }
+      },
+      {
+        "query": "I'm Emily Brown, and I'm reviewing 'Comedy Central' which I got on 2023-07-01. After using it for 20 days, I give it a 2. The disc had playback issues during certain parts.",
+        "filled_param": {
+          "UserName": "Emily Brown",
+          "ProductName": "Comedy Central",
+          "ReviewText": "The disc had playback issues during certain parts.",
+          "Rating": 2,
+          "PurchaseDate": "2023-07-01",
+          "UsageDuration": 20
+        }
+      },
+      {
+        "query": "My name is Robert King, and I purchased 'Horror Night' on 2023-08-12. Having used it for 5 days, I would rate it a 1. The movie disc was faulty and wouldn't play properly.",
+        "filled_param": {
+          "UserName": "Robert King",
+          "ProductName": "Horror Night",
+          "ReviewText": "The movie disc was faulty and wouldn't play properly.",
+          "Rating": 1,
+          "PurchaseDate": "2023-08-12",
+          "UsageDuration": 5
+        }
+      },
+      {
+        "query": "This is Jessica Green. I am writing a review for 'Action Extravaganza' which I bought on 2023-09-05. After 25 days of use, I give it a rating of 4 because it had excellent audio and visuals.",
+        "filled_param": {
+          "UserName": "Jessica Green",
+          "ProductName": "Action Extravaganza",
+          "ReviewText": "It had excellent audio and visuals.",
+          "Rating": 4,
+          "PurchaseDate": "2023-09-05",
+          "UsageDuration": 25
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|book|:|UserName,ProductName,ReviewText,Rating,PurchaseDate,UsageDuration": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "book",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate",
+      "UsageDuration"
+    ],
+    "queries": [
+      {
+        "query": "I recently bought 'The Alchemist' on April 5th, 2023, and I've read it for 7 days. Here's my review: An inspiring journey of self-discovery that deserves its 5-star rating. My name is John Doe.",
+        "filled_param": {
+          "UserName": "John Doe",
+          "ProductName": "The Alchemist",
+          "ReviewText": "An inspiring journey of self-discovery that deserves its 5-star rating.",
+          "Rating": 5,
+          "PurchaseDate": "April 5th, 2023",
+          "UsageDuration": 7
+        }
+      },
+      {
+        "query": "Submit a review for '1984' by George Orwell. I bought it on January 10, 2023, and have been reading it for 15 days. My review: A hauntingly relevant novel that I rate 4 stars. User: Alice Smith.",
+        "filled_param": {
+          "UserName": "Alice Smith",
+          "ProductName": "1984",
+          "ReviewText": "A hauntingly relevant novel that I rate 4 stars.",
+          "Rating": 4,
+          "PurchaseDate": "January 10, 2023",
+          "UsageDuration": 15
+        }
+      },
+      {
+        "query": "Here's my review for 'The Great Gatsby'. Purchased on March 3, 2023, and read over 3 days. Captivating storytelling with a 5-star rating. From: Robert Johnson.",
+        "filled_param": {
+          "UserName": "Robert Johnson",
+          "ProductName": "The Great Gatsby",
+          "ReviewText": "Captivating storytelling with a 5-star rating.",
+          "Rating": 5,
+          "PurchaseDate": "March 3, 2023",
+          "UsageDuration": 3
+        }
+      },
+      {
+        "query": "Please submit my review for 'Pride and Prejudice'. I purchased it February 14, 2023, and I've spent 10 days with it. A timeless romance that gets a 4-star rating. User: Emily Watson.",
+        "filled_param": {
+          "UserName": "Emily Watson",
+          "ProductName": "Pride and Prejudice",
+          "ReviewText": "A timeless romance that gets a 4-star rating.",
+          "Rating": 4,
+          "PurchaseDate": "February 14, 2023",
+          "UsageDuration": 10
+        }
+      },
+      {
+        "query": "Review for 'To Kill a Mockingbird', bought on April 20th, 2023. I spent 8 days reading it. An impactful read that I rate 5 stars. My name is David Lee.",
+        "filled_param": {
+          "UserName": "David Lee",
+          "ProductName": "To Kill a Mockingbird",
+          "ReviewText": "An impactful read that I rate 5 stars.",
+          "Rating": 5,
+          "PurchaseDate": "April 20th, 2023",
+          "UsageDuration": 8
+        }
+      },
+      {
+        "query": "Submit my book review for 'Moby Dick', purchased on March 1st, 2023, read over 12 days. A challenging read with rewarding themes - I give it 3 stars. Submitted by: Sarah Connor.",
+        "filled_param": {
+          "UserName": "Sarah Connor",
+          "ProductName": "Moby Dick",
+          "ReviewText": "A challenging read with rewarding themes - I give it 3 stars.",
+          "Rating": 3,
+          "PurchaseDate": "March 1st, 2023",
+          "UsageDuration": 12
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|App Store app|:|UserName,ProductName,ReviewText,Rating,PurchaseDate,UsageDuration": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "App Store app",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate",
+      "UsageDuration"
+    ],
+    "queries": [
+      {
+        "query": "Hi, my name is Clara Thompson. I've been using the App Store app 'PhotoMaster' for 30 days now since I bought it on September 1, 2023. My review is that it's very user-friendly and offers great editing tools, but it could use more filter options. I'm giving it a rating of 4.",
+        "filled_param": {
+          "UserName": "Clara Thompson",
+          "ProductName": "PhotoMaster",
+          "ReviewText": "It's very user-friendly and offers great editing tools, but it could use more filter options.",
+          "Rating": 4,
+          "PurchaseDate": "September 1, 2023",
+          "UsageDuration": 30
+        }
+      },
+      {
+        "query": "I'm John Doe and I purchased the App Store app 'FitTrack' on August 15, 2023. After using it for 45 days, I found it to be lacking in detailed workout plans and I'm not very satisfied. I'll give it a rating of 2.",
+        "filled_param": {
+          "UserName": "John Doe",
+          "ProductName": "FitTrack",
+          "ReviewText": "Lacking in detailed workout plans and I'm not very satisfied.",
+          "Rating": 2,
+          "PurchaseDate": "August 15, 2023",
+          "UsageDuration": 45
+        }
+      },
+      {
+        "query": "My name is Emily Watson. I bought the App Store app 'MindRelax' on July 20, 2023, and I've been using it for 60 days. I think it's excellent for meditation and relaxation, but the audio sometimes glitches. I would rate it 4.",
+        "filled_param": {
+          "UserName": "Emily Watson",
+          "ProductName": "MindRelax",
+          "ReviewText": "Excellent for meditation and relaxation, but the audio sometimes glitches.",
+          "Rating": 4,
+          "PurchaseDate": "July 20, 2023",
+          "UsageDuration": 60
+        }
+      },
+      {
+        "query": "Hello, I'm Alex Kim. After purchasing the App Store app 'LanguagePro' on October 1, 2023, and using it for 10 days, I find it very comprehensive and great for learning new languages. I'll give it a perfect rating of 5.",
+        "filled_param": {
+          "UserName": "Alex Kim",
+          "ProductName": "LanguagePro",
+          "ReviewText": "Very comprehensive and great for learning new languages.",
+          "Rating": 5,
+          "PurchaseDate": "October 1, 2023",
+          "UsageDuration": 10
+        }
+      },
+      {
+        "query": "I'm Laura Garcia and I bought the App Store app 'BudgetBuddy' on March 5, 2023. I've been using it for 180 days now. It's very useful in tracking expenses, but it sometimes crashes. My rating is 3.",
+        "filled_param": {
+          "UserName": "Laura Garcia",
+          "ProductName": "BudgetBuddy",
+          "ReviewText": "Very useful in tracking expenses, but it sometimes crashes.",
+          "Rating": 3,
+          "PurchaseDate": "March 5, 2023",
+          "UsageDuration": 180
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|instant food|:|UserName,ProductName,ReviewText,Rating,PurchaseDate,UsageDuration": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "instant food",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate",
+      "UsageDuration"
+    ],
+    "queries": [
+      {
+        "query": "I'm Alex Johnson and I recently tried the new Spicy Ramen Noodles. Here's my review: the flavor was quite authentic and spicy, just how I like it. I would rate it 4 out of 5. I bought it on September 20, 2023, and I've been enjoying it for about 5 days now.",
+        "filled_param": {
+          "UserName": "Alex Johnson",
+          "ProductName": "Spicy Ramen Noodles",
+          "ReviewText": "the flavor was quite authentic and spicy, just how I like it.",
+          "Rating": 4,
+          "PurchaseDate": "September 20, 2023",
+          "UsageDuration": 5
+        }
+      },
+      {
+        "query": "My name is Sam Lee and I purchased the Instant Oatmeal Packets on October 1, 2023. After using it for 3 days, my review is that it's very convenient and fills me up quickly. I would give it a 5-star rating.",
+        "filled_param": {
+          "UserName": "Sam Lee",
+          "ProductName": "Instant Oatmeal Packets",
+          "ReviewText": "it's very convenient and fills me up quickly.",
+          "Rating": 5,
+          "PurchaseDate": "October 1, 2023",
+          "UsageDuration": 3
+        }
+      },
+      {
+        "query": "I'm Chris Martinez and I've been trying out the Cheese Mac Cups. I find them to be quite cheesy and creamy, which is delightful. I bought them on September 25, 2023, and I have used them for 7 days. My rating is 4 stars.",
+        "filled_param": {
+          "UserName": "Chris Martinez",
+          "ProductName": "Cheese Mac Cups",
+          "ReviewText": "I find them to be quite cheesy and creamy, which is delightful.",
+          "Rating": 4,
+          "PurchaseDate": "September 25, 2023",
+          "UsageDuration": 7
+        }
+      },
+      {
+        "query": "This is Kelly Brown, and I bought the Instant Rice Bowl on October 10, 2023. After a week of trying it, I think it's too bland for my taste. I'd give it a 2 out of 5 rating.",
+        "filled_param": {
+          "UserName": "Kelly Brown",
+          "ProductName": "Instant Rice Bowl",
+          "ReviewText": "I think it's too bland for my taste.",
+          "Rating": 2,
+          "PurchaseDate": "October 10, 2023",
+          "UsageDuration": 7
+        }
+      },
+      {
+        "query": "Hello, I'm Jamie Parker. I bought the Tomato Soup Pack on September 30, 2023, and I've used it for about 10 days. I love how rich and hearty it is. I would rate it 5 stars.",
+        "filled_param": {
+          "UserName": "Jamie Parker",
+          "ProductName": "Tomato Soup Pack",
+          "ReviewText": "I love how rich and hearty it is.",
+          "Rating": 5,
+          "PurchaseDate": "September 30, 2023",
+          "UsageDuration": 10
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|music album|:|UserName,ProductName,ReviewText,Rating,PurchaseDate,UsageDuration": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "music album",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate",
+      "UsageDuration"
+    ],
+    "queries": [
+      {
+        "query": "This is John Doe. I just wanted to share my thoughts on the music album 'Melodic Winds.' I bought it on 2023-09-15 and have been listening to it for 20 days. Honestly, it's a fantastic album with a unique blend of jazz and blues. I would give it a solid 5 out of 5.",
+        "filled_param": {
+          "UserName": "John Doe",
+          "ProductName": "Melodic Winds",
+          "ReviewText": "Honestly, it's a fantastic album with a unique blend of jazz and blues.",
+          "Rating": 5,
+          "PurchaseDate": "2023-09-15",
+          "UsageDuration": 20
+        }
+      },
+      {
+        "query": "Hi, I'm Jane Smith. I purchased the music album 'Electro Vibes' on 2023-08-22 and have been listening to it for 30 days. My review: This album is quite average, nothing too special, so I rate it 3.",
+        "filled_param": {
+          "UserName": "Jane Smith",
+          "ProductName": "Electro Vibes",
+          "ReviewText": "This album is quite average, nothing too special.",
+          "Rating": 3,
+          "PurchaseDate": "2023-08-22",
+          "UsageDuration": 30
+        }
+      },
+      {
+        "query": "I've been meaning to write this review about the music album 'Classic Beats' that I bought on 2023-07-01. I'm Alex Brown, and after enjoying it for 45 days, I think it deserves a rating of 4. The composition is refreshing and timeless.",
+        "filled_param": {
+          "UserName": "Alex Brown",
+          "ProductName": "Classic Beats",
+          "ReviewText": "The composition is refreshing and timeless.",
+          "Rating": 4,
+          "PurchaseDate": "2023-07-01",
+          "UsageDuration": 45
+        }
+      },
+      {
+        "query": "My name is Emily Johnson, and I purchased the music album 'Rock Revolution' on 2023-10-05. Having listened to it for 10 days, I must say it really rocks! I would give it a 5 out of 5.",
+        "filled_param": {
+          "UserName": "Emily Johnson",
+          "ProductName": "Rock Revolution",
+          "ReviewText": "I must say it really rocks!",
+          "Rating": 5,
+          "PurchaseDate": "2023-10-05",
+          "UsageDuration": 10
+        }
+      },
+      {
+        "query": "I'm Michael Lee and I bought the music album 'Pop Sensation' on 2023-06-20. I've been listening to it for 60 days and find it quite repetitive. Therefore, I'll rate it a 2. Not my cup of tea.",
+        "filled_param": {
+          "UserName": "Michael Lee",
+          "ProductName": "Pop Sensation",
+          "ReviewText": "I find it quite repetitive. Not my cup of tea.",
+          "Rating": 2,
+          "PurchaseDate": "2023-06-20",
+          "UsageDuration": 60
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|video game|:|UserName,ProductName,ReviewText,Rating,PurchaseDate,UsageDuration": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "video game",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate",
+      "UsageDuration"
+    ],
+    "queries": [
+      {
+        "query": "My name is Alex Johnson. I bought the video game 'Elden Ring' on October 1, 2023. Here's my review: It has an expansive open world and incredible graphics, but the difficulty level is quite high, which might not be appealing to everyone. I give it a rating of 4 out of 5. I've been playing it for 10 days.",
+        "filled_param": {
+          "UserName": "Alex Johnson",
+          "ProductName": "Elden Ring",
+          "ReviewText": "It has an expansive open world and incredible graphics, but the difficulty level is quite high, which might not be appealing to everyone.",
+          "Rating": 4,
+          "PurchaseDate": "October 1, 2023",
+          "UsageDuration": 10
+        }
+      },
+      {
+        "query": "I am Sarah Lee, and I purchased 'The Legend of Zelda: Breath of the Wild' on September 15, 2023. My review: It's a masterpiece with engaging gameplay and a beautiful storyline. I rate it 5 stars after playing for 20 days.",
+        "filled_param": {
+          "UserName": "Sarah Lee",
+          "ProductName": "The Legend of Zelda: Breath of the Wild",
+          "ReviewText": "It's a masterpiece with engaging gameplay and a beautiful storyline.",
+          "Rating": 5,
+          "PurchaseDate": "September 15, 2023",
+          "UsageDuration": 20
+        }
+      },
+      {
+        "query": "This is Michael Thompson. I bought 'Cyberpunk 2077' on August 25, 2023. Here's my honest opinion: The game offers a compelling narrative but suffers from frequent bugs. I would give it a 3-star rating after using it for 30 days.",
+        "filled_param": {
+          "UserName": "Michael Thompson",
+          "ProductName": "Cyberpunk 2077",
+          "ReviewText": "The game offers a compelling narrative but suffers from frequent bugs.",
+          "Rating": 3,
+          "PurchaseDate": "August 25, 2023",
+          "UsageDuration": 30
+        }
+      },
+      {
+        "query": "I'm Emily Clark and I got 'Animal Crossing: New Horizons' on November 5, 2023. My review: A delightful and relaxing game perfect for winding down, though it can become repetitive over time. I give it 4 out of 5 stars after 15 days of play.",
+        "filled_param": {
+          "UserName": "Emily Clark",
+          "ProductName": "Animal Crossing: New Horizons",
+          "ReviewText": "A delightful and relaxing game perfect for winding down, though it can become repetitive over time.",
+          "Rating": 4,
+          "PurchaseDate": "November 5, 2023",
+          "UsageDuration": 15
+        }
+      },
+      {
+        "query": "My name is David Smith. Purchased 'Call of Duty: Modern Warfare II' on October 20, 2023. The gameplay is intense and the multiplayer modes are diverse, but the campaign feels short. I'd give it a 4-star rating after playing for 25 days.",
+        "filled_param": {
+          "UserName": "David Smith",
+          "ProductName": "Call of Duty: Modern Warfare II",
+          "ReviewText": "The gameplay is intense and the multiplayer modes are diverse, but the campaign feels short.",
+          "Rating": 4,
+          "PurchaseDate": "October 20, 2023",
+          "UsageDuration": 25
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|car|:|UserName,ProductName,ReviewText,Rating,PurchaseDate,UsageDuration": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "car",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate",
+      "UsageDuration"
+    ],
+    "queries": [
+      {
+        "query": "Hi, I'm Alex Johnson and I've been driving my Tesla Model 3 for 90 days since I bought it on 2023-06-15. I think it’s an exceptional car, though the charging network could be better. I’d give it a 4 out of 5.",
+        "filled_param": {
+          "UserName": "Alex Johnson",
+          "ProductName": "Tesla Model 3",
+          "ReviewText": "I think it’s an exceptional car, though the charging network could be better.",
+          "Rating": 4,
+          "PurchaseDate": "2023-06-15",
+          "UsageDuration": 90
+        }
+      },
+      {
+        "query": "I'm Emily White, and I purchased a Ford Fiesta on 2023-01-10. After using it for 200 days, my verdict is that it’s a reliable city car, but lacks power on highways. My rating is 3.",
+        "filled_param": {
+          "UserName": "Emily White",
+          "ProductName": "Ford Fiesta",
+          "ReviewText": "My verdict is that it’s a reliable city car, but lacks power on highways.",
+          "Rating": 3,
+          "PurchaseDate": "2023-01-10",
+          "UsageDuration": 200
+        }
+      },
+      {
+        "query": "My name is John Smith. I bought a BMW X5 on 2023-03-20 and have been using it for 120 days. It's luxurious and comfortable, though a bit thirsty on fuel. I rate it 4.",
+        "filled_param": {
+          "UserName": "John Smith",
+          "ProductName": "BMW X5",
+          "ReviewText": "It's luxurious and comfortable, though a bit thirsty on fuel.",
+          "Rating": 4,
+          "PurchaseDate": "2023-03-20",
+          "UsageDuration": 120
+        }
+      },
+      {
+        "query": "I'm Sarah Green and I purchased a Honda Civic on 2023-05-05. After 150 days of driving, I can say it’s economical and well-built. I’d give it a 5 out of 5.",
+        "filled_param": {
+          "UserName": "Sarah Green",
+          "ProductName": "Honda Civic",
+          "ReviewText": "I can say it’s economical and well-built.",
+          "Rating": 5,
+          "PurchaseDate": "2023-05-05",
+          "UsageDuration": 150
+        }
+      },
+      {
+        "query": "Hey, this is David Lee. I purchased a Hyundai Elantra on 2023-04-10 and for the past 100 days, it’s been smooth with great mileage, although interior design could be improved. I’d rate it a 4.",
+        "filled_param": {
+          "UserName": "David Lee",
+          "ProductName": "Hyundai Elantra",
+          "ReviewText": "It’s been smooth with great mileage, although interior design could be improved.",
+          "Rating": 4,
+          "PurchaseDate": "2023-04-10",
+          "UsageDuration": 100
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|cosmetic product|:|UserName,ProductName,ReviewText,Rating,PurchaseDate,UsageDuration": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "cosmetic product",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate",
+      "UsageDuration"
+    ],
+    "queries": [
+      {
+        "query": "My name is Emily Clarkson, and I would like to submit a review for the cosmetic product 'Radiant Glow Moisturizer'. I purchased it on 2023-05-14 and have been using it for 45 days. Overall, I am satisfied with the product and would give it a rating of 4. I found that it makes my skin feel hydrated, though it can be a bit greasy in the morning.",
+        "filled_param": {
+          "UserName": "Emily Clarkson",
+          "ProductName": "Radiant Glow Moisturizer",
+          "ReviewText": "Overall, I am satisfied with the product and would give it a rating of 4. I found that it makes my skin feel hydrated, though it can be a bit greasy in the morning.",
+          "Rating": 4,
+          "PurchaseDate": "2023-05-14",
+          "UsageDuration": 45
+        }
+      },
+      {
+        "query": "This is John Doe, and I want to share my thoughts on the cosmetic product 'Luxe Matte Foundation'. I bought it on 2023-07-01, and I've used it for 30 days. I rate it 3 because the coverage is decent, but it doesn't last all day.",
+        "filled_param": {
+          "UserName": "John Doe",
+          "ProductName": "Luxe Matte Foundation",
+          "ReviewText": "I rate it 3 because the coverage is decent, but it doesn't last all day.",
+          "Rating": 3,
+          "PurchaseDate": "2023-07-01",
+          "UsageDuration": 30
+        }
+      },
+      {
+        "query": "Hello, I'm Sarah Lee. I've been using the cosmetic product 'Silky Smooth Serum' for 60 days since I purchased it on 2023-06-10. I would like to give it a 5-star rating because it significantly improved my skin texture. My review is that it's truly effective and worth the price.",
+        "filled_param": {
+          "UserName": "Sarah Lee",
+          "ProductName": "Silky Smooth Serum",
+          "ReviewText": "My review is that it's truly effective and worth the price.",
+          "Rating": 5,
+          "PurchaseDate": "2023-06-10",
+          "UsageDuration": 60
+        }
+      },
+      {
+        "query": "I'm Alex Thompson, and I recently used the cosmetic product 'Refreshing Eye Gel'. I bought it on 2023-08-20 and have been using it for 15 days. I would give it a 2-star rating because it caused irritation around my eyes. My review text is that it didn't work well for me.",
+        "filled_param": {
+          "UserName": "Alex Thompson",
+          "ProductName": "Refreshing Eye Gel",
+          "ReviewText": "My review text is that it didn't work well for me.",
+          "Rating": 2,
+          "PurchaseDate": "2023-08-20",
+          "UsageDuration": 15
+        }
+      },
+      {
+        "query": "This is Linda Nguyen, and I want to write a review for the cosmetic product 'Brightening Face Cream'. I made the purchase on 2023-09-05 and have been using it for 20 days. I give it 4 stars because it noticeably brightened my complexion, although it has a strong scent. Here is my review text.",
+        "filled_param": {
+          "UserName": "Linda Nguyen",
+          "ProductName": "Brightening Face Cream",
+          "ReviewText": "Here is my review text.",
+          "Rating": 4,
+          "PurchaseDate": "2023-09-05",
+          "UsageDuration": 20
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|home appliance|:|UserName,ProductName,ReviewText,Rating,PurchaseDate,UsageDuration": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "home appliance",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate",
+      "UsageDuration"
+    ],
+    "queries": [
+      {
+        "query": "I am John Doe, and I recently purchased the Dyson V11 vacuum cleaner on 2023-02-15. After using it for 45 days, I find it to be excellent in performance, giving it a 5-star rating. It's truly a remarkable home appliance.",
+        "filled_param": {
+          "UserName": "John Doe",
+          "ProductName": "Dyson V11 vacuum cleaner",
+          "ReviewText": "I find it to be excellent in performance, giving it a 5-star rating. It's truly a remarkable home appliance.",
+          "Rating": 5,
+          "PurchaseDate": "2023-02-15",
+          "UsageDuration": 45
+        }
+      },
+      {
+        "query": "This is Jane Smith. I bought the Samsung Smart Fridge last December on 2022-12-05. I've used it for 120 days now and give it a 4-star rating. It's a great home appliance, but the ice dispenser occasionally jams.",
+        "filled_param": {
+          "UserName": "Jane Smith",
+          "ProductName": "Samsung Smart Fridge",
+          "ReviewText": "It's a great home appliance, but the ice dispenser occasionally jams.",
+          "Rating": 4,
+          "PurchaseDate": "2022-12-05",
+          "UsageDuration": 120
+        }
+      },
+      {
+        "query": "My name is Alex Johnson. I purchased the Philips Air Fryer on 2023-03-01 and have been using it for 30 days. I would rate this home appliance 3 stars as it works well, but cleaning it is a hassle.",
+        "filled_param": {
+          "UserName": "Alex Johnson",
+          "ProductName": "Philips Air Fryer",
+          "ReviewText": "I would rate this home appliance 3 stars as it works well, but cleaning it is a hassle.",
+          "Rating": 3,
+          "PurchaseDate": "2023-03-01",
+          "UsageDuration": 30
+        }
+      },
+      {
+        "query": "This is Emily Brown, and I bought the LG Front Load Washer on 2023-01-20. After 60 days of use, I give it a 2-star rating. This home appliance doesn't clean clothes as expected.",
+        "filled_param": {
+          "UserName": "Emily Brown",
+          "ProductName": "LG Front Load Washer",
+          "ReviewText": "This home appliance doesn't clean clothes as expected.",
+          "Rating": 2,
+          "PurchaseDate": "2023-01-20",
+          "UsageDuration": 60
+        }
+      },
+      {
+        "query": "I'm Michael Lee and purchased the KitchenAid Stand Mixer on 2023-01-10. After 75 days of use, I give this home appliance a 5-star rating. It is incredibly efficient and easy to use.",
+        "filled_param": {
+          "UserName": "Michael Lee",
+          "ProductName": "KitchenAid Stand Mixer",
+          "ReviewText": "It is incredibly efficient and easy to use.",
+          "Rating": 5,
+          "PurchaseDate": "2023-01-10",
+          "UsageDuration": 75
+        }
+      }
+    ]
+  },
+  "submitProductReview|:|clothing|:|UserName,ProductName,ReviewText,Rating,PurchaseDate,UsageDuration": {
+    "tool_template_name": "submitProductReview",
+    "derived_class": "clothing",
+    "params_for_query": [
+      "UserName",
+      "ProductName",
+      "ReviewText",
+      "Rating",
+      "PurchaseDate",
+      "UsageDuration"
+    ],
+    "queries": [
+      {
+        "query": "I am Alice, and I would like to submit a review for the clothing item 'Blue Denim Jacket' which I purchased on 2023-08-15. I've worn it for 45 days, and I would give it a 4 out of 5. My review is: 'The jacket has a great fit and stylish design, but the color faded slightly after a few washes.'",
+        "filled_param": {
+          "UserName": "Alice",
+          "ProductName": "Blue Denim Jacket",
+          "ReviewText": "The jacket has a great fit and stylish design, but the color faded slightly after a few washes.",
+          "Rating": 4,
+          "PurchaseDate": "2023-08-15",
+          "UsageDuration": 45
+        }
+      },
+      {
+        "query": "This is John. I bought the 'Red Winter Coat' on 2023-09-01. After using it for 30 days, I'm rating it a 5. Here's my review: 'Excellent warmth and comfort, perfect for chilly days.'",
+        "filled_param": {
+          "UserName": "John",
+          "ProductName": "Red Winter Coat",
+          "ReviewText": "Excellent warmth and comfort, perfect for chilly days.",
+          "Rating": 5,
+          "PurchaseDate": "2023-09-01",
+          "UsageDuration": 30
+        }
+      },
+      {
+        "query": "My name is Emily, and I have a review for the 'Black Leather Boots' I got on 2023-07-22. I've used them for 60 days, and I'd rate them a 3. My review: 'Stylish boots, but they are not very comfortable for long walks.'",
+        "filled_param": {
+          "UserName": "Emily",
+          "ProductName": "Black Leather Boots",
+          "ReviewText": "Stylish boots, but they are not very comfortable for long walks.",
+          "Rating": 3,
+          "PurchaseDate": "2023-07-22",
+          "UsageDuration": 60
+        }
+      },
+      {
+        "query": "Hi, this is Mark. I want to review my 'Green Parka Jacket'. Purchased on 2023-10-01 and used for 10 days, I rate it a 4. Review: 'Very good quality, but slightly heavier than expected.'",
+        "filled_param": {
+          "UserName": "Mark",
+          "ProductName": "Green Parka Jacket",
+          "ReviewText": "Very good quality, but slightly heavier than expected.",
+          "Rating": 4,
+          "PurchaseDate": "2023-10-01",
+          "UsageDuration": 10
+        }
+      },
+      {
+        "query": "I'm Sarah, writing a review for 'Striped Summer Dress', purchased on 2023-06-15. I've worn it for 25 days and would give it a 2. My review reads: 'Lightweight and cool, but the fabric tore easily after a few wears.'",
+        "filled_param": {
+          "UserName": "Sarah",
+          "ProductName": "Striped Summer Dress",
+          "ReviewText": "Lightweight and cool, but the fabric tore easily after a few wears.",
+          "Rating": 2,
+          "PurchaseDate": "2023-06-15",
+          "UsageDuration": 25
+        }
+      }
+    ]
+  }
+}

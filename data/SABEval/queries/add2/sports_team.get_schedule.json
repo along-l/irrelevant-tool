@@ -1,0 +1,822 @@
+{
+  "sports_team.get_schedule|:|basketball|:|team_name,num_of_games,league,location,season": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "basketball",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location",
+      "season"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the schedule for the Los Angeles Lakers for their next 5 games in the NBA, taking place in Los Angeles during the 2023-2024 season?",
+        "filled_param": {
+          "team_name": "Los Angeles Lakers",
+          "num_of_games": 5,
+          "league": "NBA",
+          "location": "Los Angeles",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "I need the upcoming 3 games schedule for the Chicago Bulls in the NBA, specifically for matches happening in Chicago during the 2023-2024 season.",
+        "filled_param": {
+          "team_name": "Chicago Bulls",
+          "num_of_games": 3,
+          "league": "NBA",
+          "location": "Chicago",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "Fetch the next 7 game schedule for Real Madrid in the EuroLeague, and ensure the games are in Madrid for the 2023-2024 season.",
+        "filled_param": {
+          "team_name": "Real Madrid",
+          "num_of_games": 7,
+          "league": "EuroLeague",
+          "location": "Madrid",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "Please give me the schedule details for the Boston Celtics' next 10 games in the NBA, to be held in Boston for the 2023-2024 season.",
+        "filled_param": {
+          "team_name": "Boston Celtics",
+          "num_of_games": 10,
+          "league": "NBA",
+          "location": "Boston",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "What is the schedule for the Golden State Warriors' next 4 games in the NBA, located in San Francisco for the 2023-2024 season?",
+        "filled_param": {
+          "team_name": "Golden State Warriors",
+          "num_of_games": 4,
+          "league": "NBA",
+          "location": "San Francisco",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "Could you find out the next 6 games for the Miami Heat in the NBA, with matches in Miami for the 2023-2024 season?",
+        "filled_param": {
+          "team_name": "Miami Heat",
+          "num_of_games": 6,
+          "league": "NBA",
+          "location": "Miami",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "List the schedule for Anadolu Efes' upcoming 5 games in the EuroLeague, with games in Istanbul during the 2023-2024 season.",
+        "filled_param": {
+          "team_name": "Anadolu Efes",
+          "num_of_games": 5,
+          "league": "EuroLeague",
+          "location": "Istanbul",
+          "season": "2023-2024"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|soccer|:|team_name,num_of_games,league,location,season": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "soccer",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location",
+      "season"
+    ],
+    "queries": [
+      {
+        "query": "What is the schedule for Manchester United's next 5 games in the Premier League taking place in Manchester during the 2023-2024 season?",
+        "filled_param": {
+          "team_name": "Manchester United",
+          "num_of_games": 5,
+          "league": "Premier League",
+          "location": "Manchester",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "Can you provide the schedule for FC Barcelona for 3 games in La Liga happening in Barcelona for the 2022-2023 season?",
+        "filled_param": {
+          "team_name": "FC Barcelona",
+          "num_of_games": 3,
+          "league": "La Liga",
+          "location": "Barcelona",
+          "season": "2022-2023"
+        }
+      },
+      {
+        "query": "I need to know the schedule for Bayern Munich's 4 upcoming matches in the Bundesliga in Munich for the 2024-2025 season.",
+        "filled_param": {
+          "team_name": "Bayern Munich",
+          "num_of_games": 4,
+          "league": "Bundesliga",
+          "location": "Munich",
+          "season": "2024-2025"
+        }
+      },
+      {
+        "query": "List the next 2 games for Juventus in Serie A that will be held in Turin during the 2023-2024 season.",
+        "filled_param": {
+          "team_name": "Juventus",
+          "num_of_games": 2,
+          "league": "Serie A",
+          "location": "Turin",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "Fetch the schedule for Paris Saint-Germain's next 6 fixtures in Ligue 1, taking place at Paris for the 2025-2026 season.",
+        "filled_param": {
+          "team_name": "Paris Saint-Germain",
+          "num_of_games": 6,
+          "league": "Ligue 1",
+          "location": "Paris",
+          "season": "2025-2026"
+        }
+      },
+      {
+        "query": "Could you give me the schedule for Real Madrid's next 7 games in the 2021-2022 La Liga season at Madrid's home stadium?",
+        "filled_param": {
+          "team_name": "Real Madrid",
+          "num_of_games": 7,
+          "league": "La Liga",
+          "location": "Madrid",
+          "season": "2021-2022"
+        }
+      },
+      {
+        "query": "What are the upcoming 3 matches for Liverpool in the 2023-2024 Premier League season at Liverpool's home ground?",
+        "filled_param": {
+          "team_name": "Liverpool",
+          "num_of_games": 3,
+          "league": "Premier League",
+          "location": "Liverpool",
+          "season": "2023-2024"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|baseball|:|team_name,num_of_games,league,location,season": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "baseball",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location",
+      "season"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the schedule for the New York Yankees for their next 5 games in the Major League Baseball, taking place in New York during the 2023 season?",
+        "filled_param": {
+          "team_name": "New York Yankees",
+          "num_of_games": 5,
+          "league": "Major League Baseball",
+          "location": "New York",
+          "season": "2023"
+        }
+      },
+      {
+        "query": "I need the upcoming schedule for the San Francisco Giants for the next 3 games in the National League, happening in San Francisco for the 2023-2024 season.",
+        "filled_param": {
+          "team_name": "San Francisco Giants",
+          "num_of_games": 3,
+          "league": "National League",
+          "location": "San Francisco",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "What's the schedule for the Boston Red Sox for their next 10 games in the American League located in Boston during the 2024 season?",
+        "filled_param": {
+          "team_name": "Boston Red Sox",
+          "num_of_games": 10,
+          "league": "American League",
+          "location": "Boston",
+          "season": "2024"
+        }
+      },
+      {
+        "query": "Could you tell me the schedule for the Chicago Cubs for the next 7 games in the National League at Wrigley Field, Chicago for the 2023 season?",
+        "filled_param": {
+          "team_name": "Chicago Cubs",
+          "num_of_games": 7,
+          "league": "National League",
+          "location": "Wrigley Field, Chicago",
+          "season": "2023"
+        }
+      },
+      {
+        "query": "Show me the next 4 games for the Los Angeles Dodgers' schedule in the MLB, taking place in Los Angeles during the 2023-2024 season.",
+        "filled_param": {
+          "team_name": "Los Angeles Dodgers",
+          "num_of_games": 4,
+          "league": "MLB",
+          "location": "Los Angeles",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "List the schedule for the Toronto Blue Jays' next 6 games in the American League, held in Toronto for the 2023 season.",
+        "filled_param": {
+          "team_name": "Toronto Blue Jays",
+          "num_of_games": 6,
+          "league": "American League",
+          "location": "Toronto",
+          "season": "2023"
+        }
+      },
+      {
+        "query": "I'm interested in the Philadelphia Phillies' schedule for their next 8 games in the National League, at Citizens Bank Park, Philadelphia during the 2024 season.",
+        "filled_param": {
+          "team_name": "Philadelphia Phillies",
+          "num_of_games": 8,
+          "league": "National League",
+          "location": "Citizens Bank Park, Philadelphia",
+          "season": "2024"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|ice hockey|:|team_name,num_of_games,league,location,season": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "ice hockey",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location",
+      "season"
+    ],
+    "queries": [
+      {
+        "query": "What's the schedule for the Toronto Maple Leafs for the next 5 games in the NHL, held in Toronto during the 2023-2024 season?",
+        "filled_param": {
+          "team_name": "Toronto Maple Leafs",
+          "num_of_games": 5,
+          "league": "NHL",
+          "location": "Toronto",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "Can you provide the schedule for 3 upcoming games for the New York Rangers in the NHL, to be played in New York in the 2023-2024 season?",
+        "filled_param": {
+          "team_name": "New York Rangers",
+          "num_of_games": 3,
+          "league": "NHL",
+          "location": "New York",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "I'd like to know the schedule for 7 games of the Chicago Blackhawks in the NHL for the 2023-2024 season, taking place in Chicago.",
+        "filled_param": {
+          "team_name": "Chicago Blackhawks",
+          "num_of_games": 7,
+          "league": "NHL",
+          "location": "Chicago",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "Show me the schedule for the Colorado Avalanche's next 4 games in the NHL, happening in Denver during the 2023-2024 season.",
+        "filled_param": {
+          "team_name": "Colorado Avalanche",
+          "num_of_games": 4,
+          "league": "NHL",
+          "location": "Denver",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "Could you find the schedule for 6 games of the Montreal Canadiens in the NHL, held in Montreal for the 2023-2024 season?",
+        "filled_param": {
+          "team_name": "Montreal Canadiens",
+          "num_of_games": 6,
+          "league": "NHL",
+          "location": "Montreal",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "List the schedule for the Boston Bruins' next 2 games in the NHL, taking place in Boston in the 2023-2024 season.",
+        "filled_param": {
+          "team_name": "Boston Bruins",
+          "num_of_games": 2,
+          "league": "NHL",
+          "location": "Boston",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "Can you tell me the schedule for 10 games for the Los Angeles Kings in the NHL, scheduled in Los Angeles during the 2023-2024 season?",
+        "filled_param": {
+          "team_name": "Los Angeles Kings",
+          "num_of_games": 10,
+          "league": "NHL",
+          "location": "Los Angeles",
+          "season": "2023-2024"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|handball|:|team_name,num_of_games,league,location,season": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "handball",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location",
+      "season"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the schedule for the handball team 'Paris Handball' for their next 5 games in the French Handball League happening in Paris during the 2023-2024 season?",
+        "filled_param": {
+          "team_name": "Paris Handball",
+          "num_of_games": 5,
+          "league": "French Handball League",
+          "location": "Paris",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "Fetch the upcoming 3 game schedule for the 'Berlin Bears' team in the German Handball League at the Berlin venue for the 2022-2023 season.",
+        "filled_param": {
+          "team_name": "Berlin Bears",
+          "num_of_games": 3,
+          "league": "German Handball League",
+          "location": "Berlin",
+          "season": "2022-2023"
+        }
+      },
+      {
+        "query": "I'd like to know the next 7 games for 'Barcelona Handball Club' in the Spanish Handball League that will take place in Barcelona for the 2023-2024 season.",
+        "filled_param": {
+          "team_name": "Barcelona Handball Club",
+          "num_of_games": 7,
+          "league": "Spanish Handball League",
+          "location": "Barcelona",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "What is the schedule for the next 10 games for 'Copenhagen Eagles' in the Danish Handball League happening in Copenhagen during the 2023-2024 season?",
+        "filled_param": {
+          "team_name": "Copenhagen Eagles",
+          "num_of_games": 10,
+          "league": "Danish Handball League",
+          "location": "Copenhagen",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "Could you tell me about 'Lisbon Lions' upcoming 6 matches in the Portuguese Handball League taking place in Lisbon for the 2023-2024 season?",
+        "filled_param": {
+          "team_name": "Lisbon Lions",
+          "num_of_games": 6,
+          "league": "Portuguese Handball League",
+          "location": "Lisbon",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "Please provide the schedule for the 'Tokyo Tigers' team's next 4 games in the Japanese Handball League at Tokyo for the 2023-2024 season.",
+        "filled_param": {
+          "team_name": "Tokyo Tigers",
+          "num_of_games": 4,
+          "league": "Japanese Handball League",
+          "location": "Tokyo",
+          "season": "2023-2024"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|rugby|:|team_name,num_of_games,league,location,season": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "rugby",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location",
+      "season"
+    ],
+    "queries": [
+      {
+        "query": "Can you give me the upcoming 3 games for the New Zealand All Blacks in the Rugby Championship being held in Auckland for the 2023-2024 season?",
+        "filled_param": {
+          "team_name": "New Zealand All Blacks",
+          "num_of_games": 3,
+          "league": "Rugby Championship",
+          "location": "Auckland",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "Please provide the next 5 matches for the England Rugby Team in the Six Nations league, taking place in London for the 2023-2024 season.",
+        "filled_param": {
+          "team_name": "England Rugby Team",
+          "num_of_games": 5,
+          "league": "Six Nations",
+          "location": "London",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "What are the details for the next 2 games of the Australian Wallabies in the Bledisloe Cup happening in Sydney during the 2023-2024 season?",
+        "filled_param": {
+          "team_name": "Australian Wallabies",
+          "num_of_games": 2,
+          "league": "Bledisloe Cup",
+          "location": "Sydney",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "List the next 4 matches for the South Africa Springboks in the Rugby World Cup, hosted in Cape Town for the 2023-2024 season.",
+        "filled_param": {
+          "team_name": "South Africa Springboks",
+          "num_of_games": 4,
+          "league": "Rugby World Cup",
+          "location": "Cape Town",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "Show me the upcoming schedule for 6 games of the France National Team playing in the Top 14 league, taking place in Paris for the 2023-2024 season.",
+        "filled_param": {
+          "team_name": "France National Team",
+          "num_of_games": 6,
+          "league": "Top 14",
+          "location": "Paris",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "Fetch the schedule for the next game for Ireland Rugby in the Pro14 league held in Dublin for the 2023-2024 season.",
+        "filled_param": {
+          "team_name": "Ireland Rugby",
+          "num_of_games": 1,
+          "league": "Pro14",
+          "location": "Dublin",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "I need to know the next 3 games for the Japan National Team in the Asia Rugby Championship, which are happening in Tokyo for the 2023-2024 season.",
+        "filled_param": {
+          "team_name": "Japan National Team",
+          "num_of_games": 3,
+          "league": "Asia Rugby Championship",
+          "location": "Tokyo",
+          "season": "2023-2024"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|field hockey|:|team_name,num_of_games,league,location,season": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "field hockey",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location",
+      "season"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the schedule for the field hockey team Tigers for their next 5 games in the National League, taking place in London during the 2023-2024 season?",
+        "filled_param": {
+          "team_name": "Tigers",
+          "num_of_games": 5,
+          "league": "National League",
+          "location": "London",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "What are the upcoming 3 field hockey matches for the Eagles team in the Premier League in the city of Berlin for the 2024 season?",
+        "filled_param": {
+          "team_name": "Eagles",
+          "num_of_games": 3,
+          "league": "Premier League",
+          "location": "Berlin",
+          "season": "2024"
+        }
+      },
+      {
+        "query": "Fetch the next 6 games of the field hockey team Falcons in the European League, scheduled in Paris during the 2023 season.",
+        "filled_param": {
+          "team_name": "Falcons",
+          "num_of_games": 6,
+          "league": "European League",
+          "location": "Paris",
+          "season": "2023"
+        }
+      },
+      {
+        "query": "I need the schedule for the field hockey team Panthers for 4 games in the Regional League happening in New York for the 2023-2024 season.",
+        "filled_param": {
+          "team_name": "Panthers",
+          "num_of_games": 4,
+          "league": "Regional League",
+          "location": "New York",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "Please list the next 2 games for the field hockey team Warriors in the Continental League to be played in Tokyo for the 2024-2025 season.",
+        "filled_param": {
+          "team_name": "Warriors",
+          "num_of_games": 2,
+          "league": "Continental League",
+          "location": "Tokyo",
+          "season": "2024-2025"
+        }
+      },
+      {
+        "query": "What is the schedule for the field hockey team Lions, covering 7 games in the International League held in Sydney during the 2022-2023 season?",
+        "filled_param": {
+          "team_name": "Lions",
+          "num_of_games": 7,
+          "league": "International League",
+          "location": "Sydney",
+          "season": "2022-2023"
+        }
+      },
+      {
+        "query": "Could you give me the schedule for the field hockey team's next 5 matches in the World League in the city of Madrid for the 2025 season?",
+        "filled_param": {
+          "team_name": "field hockey team",
+          "num_of_games": 5,
+          "league": "World League",
+          "location": "Madrid",
+          "season": "2025"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|lacrosse|:|team_name,num_of_games,league,location,season": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "lacrosse",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location",
+      "season"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the schedule for the New York Warriors lacrosse team for the next 5 games in the National Lacrosse League taking place in New York City for the 2023-2024 season?",
+        "filled_param": {
+          "team_name": "New York Warriors",
+          "num_of_games": 5,
+          "league": "National Lacrosse League",
+          "location": "New York City",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "I need the schedule for the San Francisco Dragons lacrosse team for 3 upcoming games in the Major League Lacrosse held at San Francisco during the 2022 season.",
+        "filled_param": {
+          "team_name": "San Francisco Dragons",
+          "num_of_games": 3,
+          "league": "Major League Lacrosse",
+          "location": "San Francisco",
+          "season": "2022"
+        }
+      },
+      {
+        "query": "Fetch the schedule for the Toronto Titans' next 4 games in the Canadian Lacrosse Association happening in Toronto for the 2023-2024 season.",
+        "filled_param": {
+          "team_name": "Toronto Titans",
+          "num_of_games": 4,
+          "league": "Canadian Lacrosse Association",
+          "location": "Toronto",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "What are the next 2 games for the Chicago Eagles lacrosse team in the Premier Lacrosse League played in Chicago for the 2021 season?",
+        "filled_param": {
+          "team_name": "Chicago Eagles",
+          "num_of_games": 2,
+          "league": "Premier Lacrosse League",
+          "location": "Chicago",
+          "season": "2021"
+        }
+      },
+      {
+        "query": "List the schedule for the Los Angeles Lions' upcoming 6 games in the United Women's Lacrosse League hosted in Los Angeles during the 2020 season.",
+        "filled_param": {
+          "team_name": "Los Angeles Lions",
+          "num_of_games": 6,
+          "league": "United Women's Lacrosse League",
+          "location": "Los Angeles",
+          "season": "2020"
+        }
+      },
+      {
+        "query": "Can you tell me the schedule for the Boston Braves, covering their next 3 matches in the Collegiate Lacrosse League in Boston for the 2023 season?",
+        "filled_param": {
+          "team_name": "Boston Braves",
+          "num_of_games": 3,
+          "league": "Collegiate Lacrosse League",
+          "location": "Boston",
+          "season": "2023"
+        }
+      },
+      {
+        "query": "I’m looking for the next 5 games for the Denver Outlaws in the World Lacrosse Championship happening in Denver for the 2024 season.",
+        "filled_param": {
+          "team_name": "Denver Outlaws",
+          "num_of_games": 5,
+          "league": "World Lacrosse Championship",
+          "location": "Denver",
+          "season": "2024"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|cricket|:|team_name,num_of_games,league,location,season": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "cricket",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location",
+      "season"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the schedule for the cricket team Mumbai Indians for their next 3 games in the IPL, to be played in Mumbai during the 2023 season?",
+        "filled_param": {
+          "team_name": "Mumbai Indians",
+          "num_of_games": 3,
+          "league": "IPL",
+          "location": "Mumbai",
+          "season": "2023"
+        }
+      },
+      {
+        "query": "I need the match schedule for Sydney Sixers for their upcoming 5 matches in the Big Bash League, all to be played in Sydney in the 2023-2024 season.",
+        "filled_param": {
+          "team_name": "Sydney Sixers",
+          "num_of_games": 5,
+          "league": "Big Bash League",
+          "location": "Sydney",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "What is the schedule for 2 games of the cricket team Yorkshire Vikings in the T20 Blast, set to take place in Leeds during the 2024 season?",
+        "filled_param": {
+          "team_name": "Yorkshire Vikings",
+          "num_of_games": 2,
+          "league": "T20 Blast",
+          "location": "Leeds",
+          "season": "2024"
+        }
+      },
+      {
+        "query": "Could you tell me the schedule for Chennai Super Kings for their next 4 matches in the IPL that will be held in Chennai in the 2023 season?",
+        "filled_param": {
+          "team_name": "Chennai Super Kings",
+          "num_of_games": 4,
+          "league": "IPL",
+          "location": "Chennai",
+          "season": "2023"
+        }
+      },
+      {
+        "query": "Please fetch the schedule for the Perth Scorchers' 6 upcoming games in the Big Bash League, all set to be played in Perth for the 2023-2024 season.",
+        "filled_param": {
+          "team_name": "Perth Scorchers",
+          "num_of_games": 6,
+          "league": "Big Bash League",
+          "location": "Perth",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "I'd like to know the schedule for the next 3 games of Surrey in the County Championship taking place in London during the 2023 season.",
+        "filled_param": {
+          "team_name": "Surrey",
+          "num_of_games": 3,
+          "league": "County Championship",
+          "location": "London",
+          "season": "2023"
+        }
+      },
+      {
+        "query": "Get me the schedule for Rajasthan Royals for their 2 upcoming matches in IPL, which will happen in Jaipur in the 2023 season.",
+        "filled_param": {
+          "team_name": "Rajasthan Royals",
+          "num_of_games": 2,
+          "league": "IPL",
+          "location": "Jaipur",
+          "season": "2023"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|volleyball|:|team_name,num_of_games,league,location,season": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "volleyball",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league",
+      "location",
+      "season"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the schedule for the volleyball team 'Eagles' for their next 5 games in the National Volleyball League held in New York for the 2023-2024 season?",
+        "filled_param": {
+          "team_name": "Eagles",
+          "num_of_games": 5,
+          "league": "National Volleyball League",
+          "location": "New York",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "I need the upcoming 3 game schedule for the 'Spikers' in the European Volleyball League, to be played in Berlin for the 2022-2023 season.",
+        "filled_param": {
+          "team_name": "Spikers",
+          "num_of_games": 3,
+          "league": "European Volleyball League",
+          "location": "Berlin",
+          "season": "2022-2023"
+        }
+      },
+      {
+        "query": "What is the schedule for 'Blockbusters' volleyball team for their next 6 matches in the Asian Volleyball Championship taking place in Tokyo for the 2023-2024 season?",
+        "filled_param": {
+          "team_name": "Blockbusters",
+          "num_of_games": 6,
+          "league": "Asian Volleyball Championship",
+          "location": "Tokyo",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "Please give me the schedule of the 'Rockets' volleyball team for the next 4 games in the South American Volleyball League happening in Rio de Janeiro for the 2021-2022 season.",
+        "filled_param": {
+          "team_name": "Rockets",
+          "num_of_games": 4,
+          "league": "South American Volleyball League",
+          "location": "Rio de Janeiro",
+          "season": "2021-2022"
+        }
+      },
+      {
+        "query": "Could you fetch the match schedule for the 'Warriors' team for their next 7 games in the Professional Volleyball League scheduled in Sydney during the 2023-2024 season?",
+        "filled_param": {
+          "team_name": "Warriors",
+          "num_of_games": 7,
+          "league": "Professional Volleyball League",
+          "location": "Sydney",
+          "season": "2023-2024"
+        }
+      },
+      {
+        "query": "Show me the schedule for 'Challengers' volleyball team for 2 of their upcoming games in the Championship Volleyball Cup in London for the 2024-2025 season.",
+        "filled_param": {
+          "team_name": "Challengers",
+          "num_of_games": 2,
+          "league": "Championship Volleyball Cup",
+          "location": "London",
+          "season": "2024-2025"
+        }
+      },
+      {
+        "query": "Can you retrieve the schedule for the 'Strikers' team for their next 1 game in the International Volleyball Series held in Los Angeles for the 2020-2021 season?",
+        "filled_param": {
+          "team_name": "Strikers",
+          "num_of_games": 1,
+          "league": "International Volleyball Series",
+          "location": "Los Angeles",
+          "season": "2020-2021"
+        }
+      }
+    ]
+  }
+}

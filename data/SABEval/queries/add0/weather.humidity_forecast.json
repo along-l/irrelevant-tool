@@ -1,0 +1,415 @@
+{
+  "weather.humidity_forecast|:|humidity|:|location,days": {
+    "tool_template_name": "weather.humidity_forecast",
+    "derived_class": "humidity",
+    "params_for_query": [
+      "location",
+      "days"
+    ],
+    "queries": [
+      {
+        "query": "What will the humidity be like in Miami over the next 3 days?",
+        "filled_param": {
+          "location": "Miami",
+          "days": 3
+        }
+      },
+      {
+        "query": "I need a humidity forecast for Tokyo for the upcoming week.",
+        "filled_param": {
+          "location": "Tokyo",
+          "days": 7
+        }
+      },
+      {
+        "query": "Could you provide the humidity levels for Paris for the next 2 days?",
+        "filled_param": {
+          "location": "Paris",
+          "days": 2
+        }
+      },
+      {
+        "query": "Give me the humidity forecast for Berlin for just tomorrow.",
+        "filled_param": {
+          "location": "Berlin",
+          "days": 1
+        }
+      },
+      {
+        "query": "How is the humidity expected to change in Sydney over the next 5 days?",
+        "filled_param": {
+          "location": "Sydney",
+          "days": 5
+        }
+      },
+      {
+        "query": "I'd like to know the humidity forecast for New York City for 4 days.",
+        "filled_param": {
+          "location": "New York City",
+          "days": 4
+        }
+      },
+      {
+        "query": "What are the humidity predictions for Dubai over a span of 6 days?",
+        "filled_param": {
+          "location": "Dubai",
+          "days": 6
+        }
+      }
+    ]
+  },
+  "weather.humidity_forecast|:|temperature|:|location,days": {
+    "tool_template_name": "weather.humidity_forecast",
+    "derived_class": "temperature",
+    "params_for_query": [
+      "location",
+      "days"
+    ],
+    "queries": [
+      {
+        "query": "What is the temperature forecast for New York over the next 5 days?",
+        "filled_param": {
+          "location": "New York",
+          "days": 5
+        }
+      },
+      {
+        "query": "I need a 3-day temperature outlook for Tokyo.",
+        "filled_param": {
+          "location": "Tokyo",
+          "days": 3
+        }
+      },
+      {
+        "query": "Can you provide the temperature predictions for Paris for the upcoming 7 days?",
+        "filled_param": {
+          "location": "Paris",
+          "days": 7
+        }
+      },
+      {
+        "query": "Get the 10-day temperature forecast for Sydney.",
+        "filled_param": {
+          "location": "Sydney",
+          "days": 10
+        }
+      },
+      {
+        "query": "What's the temperature forecast for London for the next 2 days?",
+        "filled_param": {
+          "location": "London",
+          "days": 2
+        }
+      },
+      {
+        "query": "Please provide a temperature forecast for 6 days in Dubai.",
+        "filled_param": {
+          "location": "Dubai",
+          "days": 6
+        }
+      },
+      {
+        "query": "How does the temperature look like in Berlin over the next 4 days?",
+        "filled_param": {
+          "location": "Berlin",
+          "days": 4
+        }
+      }
+    ]
+  },
+  "weather.humidity_forecast|:|wind speed|:|location,days": {
+    "tool_template_name": "weather.humidity_forecast",
+    "derived_class": "wind speed",
+    "params_for_query": [
+      "location",
+      "days"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the wind speed forecast for the next 3 days in Chicago?",
+        "filled_param": {
+          "location": "Chicago",
+          "days": 3
+        }
+      },
+      {
+        "query": "I need to know the wind speed in Miami for the upcoming week.",
+        "filled_param": {
+          "location": "Miami",
+          "days": 7
+        }
+      },
+      {
+        "query": "What's the wind speed prediction for Los Angeles over the next 5 days?",
+        "filled_param": {
+          "location": "Los Angeles",
+          "days": 5
+        }
+      },
+      {
+        "query": "Get me the wind speed outlook for New York City for the next 2 days.",
+        "filled_param": {
+          "location": "New York City",
+          "days": 2
+        }
+      },
+      {
+        "query": "Can you forecast the wind speed in San Francisco for the next 4 days?",
+        "filled_param": {
+          "location": "San Francisco",
+          "days": 4
+        }
+      },
+      {
+        "query": "What's the wind speed forecast for Austin over a 6-day period?",
+        "filled_param": {
+          "location": "Austin",
+          "days": 6
+        }
+      },
+      {
+        "query": "Please provide the wind speed forecast for the next 1 day in Seattle.",
+        "filled_param": {
+          "location": "Seattle",
+          "days": 1
+        }
+      }
+    ]
+  },
+  "weather.humidity_forecast|:|air pressure|:|location,days": {
+    "tool_template_name": "weather.humidity_forecast",
+    "derived_class": "air pressure",
+    "params_for_query": [
+      "location",
+      "days"
+    ],
+    "queries": [
+      {
+        "query": "What will the air pressure be in Paris for the next 3 days?",
+        "filled_param": {
+          "location": "Paris",
+          "days": 3
+        }
+      },
+      {
+        "query": "Can you provide a 5-day air pressure forecast for New York?",
+        "filled_param": {
+          "location": "New York",
+          "days": 5
+        }
+      },
+      {
+        "query": "I need to know the air pressure in Tokyo over the next 7 days.",
+        "filled_param": {
+          "location": "Tokyo",
+          "days": 7
+        }
+      },
+      {
+        "query": "Get me the air pressure details for the coming 2 days in Sydney.",
+        "filled_param": {
+          "location": "Sydney",
+          "days": 2
+        }
+      },
+      {
+        "query": "Retrieve the air pressure forecast for London for 10 days.",
+        "filled_param": {
+          "location": "London",
+          "days": 10
+        }
+      },
+      {
+        "query": "What's the air pressure forecast for the next 4 days in Mumbai?",
+        "filled_param": {
+          "location": "Mumbai",
+          "days": 4
+        }
+      },
+      {
+        "query": "Give me a 6-day air pressure forecast for Berlin, please.",
+        "filled_param": {
+          "location": "Berlin",
+          "days": 6
+        }
+      }
+    ]
+  },
+  "weather.humidity_forecast|:|precipitation|:|location,days": {
+    "tool_template_name": "weather.humidity_forecast",
+    "derived_class": "precipitation",
+    "params_for_query": [
+      "location",
+      "days"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide a 5-day precipitation forecast for Seattle?",
+        "filled_param": {
+          "location": "Seattle",
+          "days": 5
+        }
+      },
+      {
+        "query": "What does the precipitation forecast look like for Miami over the next 3 days?",
+        "filled_param": {
+          "location": "Miami",
+          "days": 3
+        }
+      },
+      {
+        "query": "I need a 7-day precipitation outlook for Tokyo.",
+        "filled_param": {
+          "location": "Tokyo",
+          "days": 7
+        }
+      },
+      {
+        "query": "Give me the precipitation forecast in London for the upcoming 2 days.",
+        "filled_param": {
+          "location": "London",
+          "days": 2
+        }
+      },
+      {
+        "query": "Could you tell me how much precipitation is expected in Sydney over the next 4 days?",
+        "filled_param": {
+          "location": "Sydney",
+          "days": 4
+        }
+      },
+      {
+        "query": "Please provide a precipitation forecast for New York City for the next 10 days.",
+        "filled_param": {
+          "location": "New York City",
+          "days": 10
+        }
+      },
+      {
+        "query": "I'm looking for a 6-day precipitation forecast for Mumbai.",
+        "filled_param": {
+          "location": "Mumbai",
+          "days": 6
+        }
+      }
+    ]
+  },
+  "weather.humidity_forecast|:|visibility|:|location,days": {
+    "tool_template_name": "weather.humidity_forecast",
+    "derived_class": "visibility",
+    "params_for_query": [
+      "location",
+      "days"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide a visibility forecast for New York over the next 3 days?",
+        "filled_param": {
+          "location": "New York",
+          "days": 3
+        }
+      },
+      {
+        "query": "I need to know the visibility conditions in Tokyo for the upcoming 5 days.",
+        "filled_param": {
+          "location": "Tokyo",
+          "days": 5
+        }
+      },
+      {
+        "query": "What will the visibility be like in Paris for the next 7 days?",
+        "filled_param": {
+          "location": "Paris",
+          "days": 7
+        }
+      },
+      {
+        "query": "Can you tell me the visibility forecast for Sydney over a 2-day period?",
+        "filled_param": {
+          "location": "Sydney",
+          "days": 2
+        }
+      },
+      {
+        "query": "I’m planning a trip to Dubai. What's the visibility outlook for the next 4 days?",
+        "filled_param": {
+          "location": "Dubai",
+          "days": 4
+        }
+      },
+      {
+        "query": "Please give me the visibility forecast for London for the next 1 day.",
+        "filled_param": {
+          "location": "London",
+          "days": 1
+        }
+      },
+      {
+        "query": "How is the visibility expected to change in Los Angeles over the next 6 days?",
+        "filled_param": {
+          "location": "Los Angeles",
+          "days": 6
+        }
+      }
+    ]
+  },
+  "weather.humidity_forecast|:|UV index|:|location,days": {
+    "tool_template_name": "weather.humidity_forecast",
+    "derived_class": "UV index",
+    "params_for_query": [
+      "location",
+      "days"
+    ],
+    "queries": [
+      {
+        "query": "What will be the UV index in Miami over the next 3 days?",
+        "filled_param": {
+          "location": "Miami",
+          "days": 3
+        }
+      },
+      {
+        "query": "I need the UV index forecast for Los Angeles for the upcoming 5 days.",
+        "filled_param": {
+          "location": "Los Angeles",
+          "days": 5
+        }
+      },
+      {
+        "query": "Can you provide a UV index prediction for Tokyo for 2 days?",
+        "filled_param": {
+          "location": "Tokyo",
+          "days": 2
+        }
+      },
+      {
+        "query": "Show me the UV index for Paris for the next 7 days.",
+        "filled_param": {
+          "location": "Paris",
+          "days": 7
+        }
+      },
+      {
+        "query": "Please give me the UV index forecast for Sydney for a period of 4 days.",
+        "filled_param": {
+          "location": "Sydney",
+          "days": 4
+        }
+      },
+      {
+        "query": "What is the 6-day UV index forecast for Rio de Janeiro?",
+        "filled_param": {
+          "location": "Rio de Janeiro",
+          "days": 6
+        }
+      },
+      {
+        "query": "I want to know the UV index in New York City for the next 1 day.",
+        "filled_param": {
+          "location": "New York City",
+          "days": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,640 @@
+{
+  "art_auction.fetch_artwork_price|:|sothebys|:|artwork_name,artist,currency": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "sothebys",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency"
+    ],
+    "queries": [
+      {
+        "query": "Find out the price for 'Starry Night' by Vincent van Gogh in USD on sothebys.",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Vincent van Gogh",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "Could you tell me the price for the artwork 'The Persistence of Memory' by Salvador Dalí in EUR as listed on sothebys?",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "What is the price of 'The Scream' by Edvard Munch in GBP according to sothebys?",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "GBP"
+        }
+      },
+      {
+        "query": "Please provide the sothebys price for 'Girl with a Pearl Earring' by Johannes Vermeer in USD.",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "Check the price for 'The Kiss' by Gustav Klimt in EUR on sothebys.",
+        "filled_param": {
+          "artwork_name": "The Kiss",
+          "artist": "Gustav Klimt",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "I would like to know the sothebys price for 'Mona Lisa' by Leonardo da Vinci in GBP.",
+        "filled_param": {
+          "artwork_name": "Mona Lisa",
+          "artist": "Leonardo da Vinci",
+          "currency": "GBP"
+        }
+      },
+      {
+        "query": "What is the sothebys listing price for 'The Birth of Venus' by Sandro Botticelli in USD?",
+        "filled_param": {
+          "artwork_name": "The Birth of Venus",
+          "artist": "Sandro Botticelli",
+          "currency": "USD"
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|christies|:|artwork_name,artist,currency": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "christies",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency"
+    ],
+    "queries": [
+      {
+        "query": "Could you check the price of 'The Starry Night' by Vincent van Gogh on the Christies platform in USD?",
+        "filled_param": {
+          "artwork_name": "The Starry Night",
+          "artist": "Vincent van Gogh",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "Find out how much 'Mona Lisa' by Leonardo da Vinci is priced at Christies in EUR.",
+        "filled_param": {
+          "artwork_name": "Mona Lisa",
+          "artist": "Leonardo da Vinci",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "Please provide the price for 'The Persistence of Memory' by Salvador Dalí listed on Christies in GBP.",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí",
+          "currency": "GBP"
+        }
+      },
+      {
+        "query": "What is the price of 'The Scream' by Edvard Munch in USD on Christies?",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "Can you look up the price of 'Girl with a Pearl Earring' by Johannes Vermeer in EUR on Christies?",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "I would like to know the Christies price for 'The Night Watch' by Rembrandt in GBP.",
+        "filled_param": {
+          "artwork_name": "The Night Watch",
+          "artist": "Rembrandt",
+          "currency": "GBP"
+        }
+      },
+      {
+        "query": "Fetch the price of 'Water Lilies' by Claude Monet on Christies, but in USD.",
+        "filled_param": {
+          "artwork_name": "Water Lilies",
+          "artist": "Claude Monet",
+          "currency": "USD"
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|phillips|:|artwork_name,artist,currency": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "phillips",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency"
+    ],
+    "queries": [
+      {
+        "query": "What is the price of 'The Starry Night' by Vincent van Gogh in USD on the phillips platform?",
+        "filled_param": {
+          "artwork_name": "The Starry Night",
+          "artist": "Vincent van Gogh",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "Fetch the cost of 'Mona Lisa' by Leonardo da Vinci in EUR from the phillips site.",
+        "filled_param": {
+          "artwork_name": "Mona Lisa",
+          "artist": "Leonardo da Vinci",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "How much does 'The Persistence of Memory' by Salvador Dalí cost in GBP on phillips?",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí",
+          "currency": "GBP"
+        }
+      },
+      {
+        "query": "Could you tell me the price of 'The Scream' by Edvard Munch in USD according to phillips?",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "Retrieve the price for 'Girl with a Pearl Earring' by Johannes Vermeer in EUR on phillips.",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "I need to know the cost of 'Guernica' by Pablo Picasso in GBP on the phillips platform.",
+        "filled_param": {
+          "artwork_name": "Guernica",
+          "artist": "Pablo Picasso",
+          "currency": "GBP"
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|bonhams|:|artwork_name,artist,currency": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "bonhams",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency"
+    ],
+    "queries": [
+      {
+        "query": "What is the price of the artwork 'Starry Night' by Vincent van Gogh in USD on bonhams?",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Vincent van Gogh",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "Can you find the current cost of 'The Persistence of Memory' by Salvador Dalí on bonhams, in EUR?",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "Please provide the price details for 'The Mona Lisa' by Leonardo da Vinci in GBP on bonhams.",
+        "filled_param": {
+          "artwork_name": "The Mona Lisa",
+          "artist": "Leonardo da Vinci",
+          "currency": "GBP"
+        }
+      },
+      {
+        "query": "I want to know the price of 'Girl with a Pearl Earring' by Johannes Vermeer in USD as listed on bonhams.",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "Fetch the price of 'The Kiss' by Gustav Klimt in EUR from the bonhams platform.",
+        "filled_param": {
+          "artwork_name": "The Kiss",
+          "artist": "Gustav Klimt",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "How much is 'The Scream' by Edvard Munch priced at in GBP on bonhams?",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "GBP"
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|poly auction|:|artwork_name,artist,currency": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "poly auction",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency"
+    ],
+    "queries": [
+      {
+        "query": "What is the price of 'Starry Night' by Vincent van Gogh in USD on the poly auction platform?",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Vincent van Gogh",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "Can you find the price for 'The Scream' by Edvard Munch in EUR on the poly auction site?",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "Fetch the price of 'Mona Lisa' by Leonardo da Vinci in GBP from the poly auction platform.",
+        "filled_param": {
+          "artwork_name": "Mona Lisa",
+          "artist": "Leonardo da Vinci",
+          "currency": "GBP"
+        }
+      },
+      {
+        "query": "How much is 'The Persistence of Memory' by Salvador Dali in JPY according to the poly auction?",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dali",
+          "currency": "JPY"
+        }
+      },
+      {
+        "query": "Please provide the price for 'Girl with a Pearl Earring' by Johannes Vermeer in CHF on the poly auction platform.",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer",
+          "currency": "CHF"
+        }
+      },
+      {
+        "query": "I'd like to know the price of 'Guernica' by Pablo Picasso in AUD at the poly auction.",
+        "filled_param": {
+          "artwork_name": "Guernica",
+          "artist": "Pablo Picasso",
+          "currency": "AUD"
+        }
+      },
+      {
+        "query": "Get the price for 'The Night Watch' by Rembrandt in CAD from the poly auction platform.",
+        "filled_param": {
+          "artwork_name": "The Night Watch",
+          "artist": "Rembrandt",
+          "currency": "CAD"
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|china guardian|:|artwork_name,artist,currency": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "china guardian",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency"
+    ],
+    "queries": [
+      {
+        "query": "What is the price of 'The Great Wave' by Hokusai in USD on the china guardian platform?",
+        "filled_param": {
+          "artwork_name": "The Great Wave",
+          "artist": "Hokusai",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "Fetch the price for 'Starry Night' by Vincent van Gogh in EUR on china guardian.",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Vincent van Gogh",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "Can you provide the price of 'Mona Lisa' by Leonardo da Vinci in GBP from china guardian?",
+        "filled_param": {
+          "artwork_name": "Mona Lisa",
+          "artist": "Leonardo da Vinci",
+          "currency": "GBP"
+        }
+      },
+      {
+        "query": "Get the current price of 'The Persistence of Memory' by Salvador Dalí in JPY on china guardian.",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí",
+          "currency": "JPY"
+        }
+      },
+      {
+        "query": "How much does 'Girl with a Pearl Earring' by Johannes Vermeer cost in AUD on china guardian?",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer",
+          "currency": "AUD"
+        }
+      },
+      {
+        "query": "Check the price of 'The Scream' by Edvard Munch in CAD on the china guardian platform.",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "CAD"
+        }
+      },
+      {
+        "query": "Find out the price for 'American Gothic' by Grant Wood in CHF on china guardian.",
+        "filled_param": {
+          "artwork_name": "American Gothic",
+          "artist": "Grant Wood",
+          "currency": "CHF"
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|artnet|:|artwork_name,artist,currency": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "artnet",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency"
+    ],
+    "queries": [
+      {
+        "query": "Can you find the price of 'Starry Night' by Vincent van Gogh on artnet in USD?",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Vincent van Gogh",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "What is the current price of Pablo Picasso's 'Les Demoiselles d'Avignon' on artnet in EUR?",
+        "filled_param": {
+          "artwork_name": "Les Demoiselles d'Avignon",
+          "artist": "Pablo Picasso",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "Fetch me the price of the artwork 'The Persistence of Memory' by Salvador Dalí in GBP as listed on artnet.",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí",
+          "currency": "GBP"
+        }
+      },
+      {
+        "query": "I'd like to know the artnet price for 'The Birth of Venus' by Sandro Botticelli in USD.",
+        "filled_param": {
+          "artwork_name": "The Birth of Venus",
+          "artist": "Sandro Botticelli",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "Get the price of 'Mona Lisa' by Leonardo da Vinci on the artnet platform in EUR.",
+        "filled_param": {
+          "artwork_name": "Mona Lisa",
+          "artist": "Leonardo da Vinci",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "Could you provide the price of 'The Scream' by Edvard Munch on artnet in GBP?",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "GBP"
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|invaluable|:|artwork_name,artist,currency": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "invaluable",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency"
+    ],
+    "queries": [
+      {
+        "query": "Could you find the price of the artwork 'Starry Night' by Vincent van Gogh in USD on invaluable?",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Vincent van Gogh",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "I need to know the price of 'Mona Lisa' by Leonardo da Vinci in EUR from invaluable.",
+        "filled_param": {
+          "artwork_name": "Mona Lisa",
+          "artist": "Leonardo da Vinci",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "Check the invaluable price for 'The Persistence of Memory' by Salvador Dalí using GBP.",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí",
+          "currency": "GBP"
+        }
+      },
+      {
+        "query": "What is the price for 'The Scream' by Edvard Munch in AUD on invaluable?",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "AUD"
+        }
+      },
+      {
+        "query": "Please provide the invaluable price in JPY for 'Girl with a Pearl Earring' by Johannes Vermeer.",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer",
+          "currency": "JPY"
+        }
+      },
+      {
+        "query": "How much does 'The Night Watch' by Rembrandt cost in CAD on invaluable?",
+        "filled_param": {
+          "artwork_name": "The Night Watch",
+          "artist": "Rembrandt",
+          "currency": "CAD"
+        }
+      },
+      {
+        "query": "Get the invaluable price of 'The Birth of Venus' by Sandro Botticelli in CHF.",
+        "filled_param": {
+          "artwork_name": "The Birth of Venus",
+          "artist": "Sandro Botticelli",
+          "currency": "CHF"
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|heritage auctions|:|artwork_name,artist,currency": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "heritage auctions",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency"
+    ],
+    "queries": [
+      {
+        "query": "Can you find the price of 'Starry Night' by Vincent van Gogh on heritage auctions in USD?",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Vincent van Gogh",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "What is the price of 'The Persistence of Memory' by Salvador Dalí available on heritage auctions, shown in EUR?",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "Please fetch the heritage auctions price for 'The Scream' by Edvard Munch in GBP.",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "GBP"
+        }
+      },
+      {
+        "query": "Get the current price for 'Mona Lisa' by Leonardo da Vinci in USD from heritage auctions.",
+        "filled_param": {
+          "artwork_name": "Mona Lisa",
+          "artist": "Leonardo da Vinci",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "I'd like to know the heritage auctions price of 'Girl with a Pearl Earring' by Johannes Vermeer in EUR.",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "How much is 'The Night Watch' by Rembrandt van Rijn listed for on heritage auctions in GBP?",
+        "filled_param": {
+          "artwork_name": "The Night Watch",
+          "artist": "Rembrandt van Rijn",
+          "currency": "GBP"
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|mutualart|:|artwork_name,artist,currency": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "mutualart",
+    "params_for_query": [
+      "artwork_name",
+      "artist",
+      "currency"
+    ],
+    "queries": [
+      {
+        "query": "Can you find the price of the artwork 'Starry Night' by Vincent van Gogh on mutualart in USD?",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Vincent van Gogh",
+          "currency": "USD"
+        }
+      },
+      {
+        "query": "What is the price of 'The Persistence of Memory' by Salvador Dalí in EUR on mutualart?",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí",
+          "currency": "EUR"
+        }
+      },
+      {
+        "query": "Retrieve the mutualart price for 'Mona Lisa' by Leonardo da Vinci in GBP.",
+        "filled_param": {
+          "artwork_name": "Mona Lisa",
+          "artist": "Leonardo da Vinci",
+          "currency": "GBP"
+        }
+      },
+      {
+        "query": "Please tell me the price of 'The Scream' by Edvard Munch in JPY on mutualart.",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch",
+          "currency": "JPY"
+        }
+      },
+      {
+        "query": "I need to know the price of 'Girl with a Pearl Earring' by Johannes Vermeer in AUD on mutualart.",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer",
+          "currency": "AUD"
+        }
+      },
+      {
+        "query": "How much is 'The Kiss' by Gustav Klimt priced at in CHF on mutualart?",
+        "filled_param": {
+          "artwork_name": "The Kiss",
+          "artist": "Gustav Klimt",
+          "currency": "CHF"
+        }
+      },
+      {
+        "query": "Fetch the mutualart price for 'American Gothic' by Grant Wood in CAD.",
+        "filled_param": {
+          "artwork_name": "American Gothic",
+          "artist": "Grant Wood",
+          "currency": "CAD"
+        }
+      }
+    ]
+  }
+}

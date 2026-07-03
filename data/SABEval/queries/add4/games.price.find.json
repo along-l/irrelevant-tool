@@ -1,0 +1,480 @@
+{
+  "games.price.find|:|Steam|:|game,currency,region,discount,language": {
+    "tool_template_name": "games.price.find",
+    "derived_class": "Steam",
+    "params_for_query": [
+      "game",
+      "currency",
+      "region",
+      "discount",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "Could you tell me the price of 'Cyberpunk 2077' on Steam in USD for the US region, including any discounts, and display the information in English?",
+        "filled_param": {
+          "game": "Cyberpunk 2077",
+          "currency": "USD",
+          "region": "US",
+          "discount": true,
+          "language": "en"
+        }
+      },
+      {
+        "query": "I need the current price of 'The Witcher 3: Wild Hunt' on Steam in EUR, applicable to the EU region, without considering discounts, and please provide the details in French.",
+        "filled_param": {
+          "game": "The Witcher 3: Wild Hunt",
+          "currency": "EUR",
+          "region": "EU",
+          "discount": false,
+          "language": "fr"
+        }
+      },
+      {
+        "query": "Check the Steam price for 'Among Us' in JPY for the JP region, include discounts if available, and show the price details in Japanese.",
+        "filled_param": {
+          "game": "Among Us",
+          "currency": "JPY",
+          "region": "JP",
+          "discount": true,
+          "language": "ja"
+        }
+      },
+      {
+        "query": "What's the current Steam price for 'Hades' in GBP for the UK region, excluding any discounts, and provide the information in English?",
+        "filled_param": {
+          "game": "Hades",
+          "currency": "GBP",
+          "region": "UK",
+          "discount": false,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Find out the price for 'Stardew Valley' on Steam in CAD for the CA region, include discounts if there are any, and I need the information in English.",
+        "filled_param": {
+          "game": "Stardew Valley",
+          "currency": "CAD",
+          "region": "CA",
+          "discount": true,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Can you give me the price of 'Dark Souls III' on Steam in AUD for the AU region, excluding discounts, with the details in English?",
+        "filled_param": {
+          "game": "Dark Souls III",
+          "currency": "AUD",
+          "region": "AU",
+          "discount": false,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Please provide the price for 'Dota 2' on Steam in RUB for the RU region, with discounts applied, and display the information in Russian.",
+        "filled_param": {
+          "game": "Dota 2",
+          "currency": "RUB",
+          "region": "RU",
+          "discount": true,
+          "language": "ru"
+        }
+      }
+    ]
+  },
+  "games.price.find|:|Epic|:|game,currency,region,discount,language": {
+    "tool_template_name": "games.price.find",
+    "derived_class": "Epic",
+    "params_for_query": [
+      "game",
+      "currency",
+      "region",
+      "discount",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "What is the current price of 'Fortnite' on the Epic platform in USD for the US region, considering any discounts, and in English?",
+        "filled_param": {
+          "game": "Fortnite",
+          "currency": "USD",
+          "region": "US",
+          "discount": true,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Could you find out how much 'Cyberpunk 2077' costs on Epic in EUR for the EU region, not including discounts, with the information in French?",
+        "filled_param": {
+          "game": "Cyberpunk 2077",
+          "currency": "EUR",
+          "region": "EU",
+          "discount": false,
+          "language": "fr"
+        }
+      },
+      {
+        "query": "Please provide the price of 'The Witcher 3' on Epic in JPY for Japan, including discounts, and display it in Japanese.",
+        "filled_param": {
+          "game": "The Witcher 3",
+          "currency": "JPY",
+          "region": "JP",
+          "discount": true,
+          "language": "ja"
+        }
+      },
+      {
+        "query": "I want to know the cost of 'Red Dead Redemption 2' on Epic in USD in the US region without accounting for discounts, with the details in English.",
+        "filled_param": {
+          "game": "Red Dead Redemption 2",
+          "currency": "USD",
+          "region": "US",
+          "discount": false,
+          "language": "en"
+        }
+      },
+      {
+        "query": "What's the price of 'Assassin's Creed Valhalla' on Epic, displayed in EUR for the German region, with discounts included, and in German?",
+        "filled_param": {
+          "game": "Assassin's Creed Valhalla",
+          "currency": "EUR",
+          "region": "DE",
+          "discount": true,
+          "language": "de"
+        }
+      },
+      {
+        "query": "Can you tell me the current Epic price for 'Hades' in GBP for the UK, ignoring any discounts, and show it in English?",
+        "filled_param": {
+          "game": "Hades",
+          "currency": "GBP",
+          "region": "UK",
+          "discount": false,
+          "language": "en"
+        }
+      },
+      {
+        "query": "I need the price information for 'Grand Theft Auto V' on Epic in CAD for Canada, including any applicable discounts, with the output in English.",
+        "filled_param": {
+          "game": "Grand Theft Auto V",
+          "currency": "CAD",
+          "region": "CA",
+          "discount": true,
+          "language": "en"
+        }
+      }
+    ]
+  },
+  "games.price.find|:|GOG|:|game,currency,region,discount,language": {
+    "tool_template_name": "games.price.find",
+    "derived_class": "GOG",
+    "params_for_query": [
+      "game",
+      "currency",
+      "region",
+      "discount",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "Can you tell me the current GOG price for 'Cyberpunk 2077' in USD for the US region, including any discounts, displayed in English?",
+        "filled_param": {
+          "game": "Cyberpunk 2077",
+          "currency": "USD",
+          "region": "US",
+          "discount": true,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Find out how much 'The Witcher 3: Wild Hunt' costs on GOG in EUR for the EU region, excluding any discounts, and show it in French.",
+        "filled_param": {
+          "game": "The Witcher 3: Wild Hunt",
+          "currency": "EUR",
+          "region": "EU",
+          "discount": false,
+          "language": "fr"
+        }
+      },
+      {
+        "query": "What is the price of 'Divinity: Original Sin 2' on GOG in JPY for the JP region with discounts applied, and can you provide this in Japanese?",
+        "filled_param": {
+          "game": "Divinity: Original Sin 2",
+          "currency": "JPY",
+          "region": "JP",
+          "discount": true,
+          "language": "jp"
+        }
+      },
+      {
+        "query": "Check the GOG price for 'Hades' in USD, for the US market, without discounts, and display the information in English.",
+        "filled_param": {
+          "game": "Hades",
+          "currency": "USD",
+          "region": "US",
+          "discount": false,
+          "language": "en"
+        }
+      },
+      {
+        "query": "I need to know the price of 'Baldur's Gate 3' on GOG in EUR for the EU region, including discounts, and presented in German.",
+        "filled_param": {
+          "game": "Baldur's Gate 3",
+          "currency": "EUR",
+          "region": "EU",
+          "discount": true,
+          "language": "de"
+        }
+      },
+      {
+        "query": "How much is 'Stardew Valley' on GOG in JPY for the JP area, without factoring in discounts, displayed in Japanese?",
+        "filled_param": {
+          "game": "Stardew Valley",
+          "currency": "JPY",
+          "region": "JP",
+          "discount": false,
+          "language": "jp"
+        }
+      },
+      {
+        "query": "Please find the GOG price of 'No Man's Sky' in USD for the US region, with discounts, shown in English.",
+        "filled_param": {
+          "game": "No Man's Sky",
+          "currency": "USD",
+          "region": "US",
+          "discount": true,
+          "language": "en"
+        }
+      }
+    ]
+  },
+  "games.price.find|:|Xbox|:|game,currency,region,discount,language": {
+    "tool_template_name": "games.price.find",
+    "derived_class": "Xbox",
+    "params_for_query": [
+      "game",
+      "currency",
+      "region",
+      "discount",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "What is the current price of 'Halo Infinite' on Xbox in USD for the US region, including any discounts, and can you provide it in English?",
+        "filled_param": {
+          "game": "Halo Infinite",
+          "currency": "USD",
+          "region": "US",
+          "discount": true,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Could you find out the Xbox price for 'Cyberpunk 2077' in EUR in the EU region, without considering discounts, and display the info in French?",
+        "filled_param": {
+          "game": "Cyberpunk 2077",
+          "currency": "EUR",
+          "region": "EU",
+          "discount": false,
+          "language": "fr"
+        }
+      },
+      {
+        "query": "How much does 'FIFA 22' cost on Xbox in GBP in the UK region, with discounts applied, presented in German?",
+        "filled_param": {
+          "game": "FIFA 22",
+          "currency": "GBP",
+          "region": "UK",
+          "discount": true,
+          "language": "de"
+        }
+      },
+      {
+        "query": "Tell me the Xbox price for 'Minecraft' in JPY for Japan, not including any discounts, and show it in Spanish.",
+        "filled_param": {
+          "game": "Minecraft",
+          "currency": "JPY",
+          "region": "JP",
+          "discount": false,
+          "language": "es"
+        }
+      },
+      {
+        "query": "Please provide the current price for 'Forza Horizon 5' on Xbox, in AUD for Australia, including discounts, with details in English.",
+        "filled_param": {
+          "game": "Forza Horizon 5",
+          "currency": "AUD",
+          "region": "AU",
+          "discount": true,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Can you tell me the price of 'The Witcher 3' on Xbox in CAD for Canada, excluding any discounts, and provide the information in English?",
+        "filled_param": {
+          "game": "The Witcher 3",
+          "currency": "CAD",
+          "region": "CA",
+          "discount": false,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Find the price of 'Call of Duty: Vanguard' on Xbox in NOK for Norway, with discounts considered, and display it in Norwegian.",
+        "filled_param": {
+          "game": "Call of Duty: Vanguard",
+          "currency": "NOK",
+          "region": "NO",
+          "discount": true,
+          "language": "no"
+        }
+      }
+    ]
+  },
+  "games.price.find|:|PlayStation|:|game,currency,region,discount,language": {
+    "tool_template_name": "games.price.find",
+    "derived_class": "PlayStation",
+    "params_for_query": [
+      "game",
+      "currency",
+      "region",
+      "discount",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "What is the price of the PlayStation game 'God of War' in USD for the US region including any current discounts, and can you display this information in English?",
+        "filled_param": {
+          "game": "God of War",
+          "currency": "USD",
+          "region": "US",
+          "discount": true,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Could you find out the price of 'The Last of Us Part II' on PlayStation in EUR for the EU region without applying any discounts? Please provide the details in French.",
+        "filled_param": {
+          "game": "The Last of Us Part II",
+          "currency": "EUR",
+          "region": "EU",
+          "discount": false,
+          "language": "fr"
+        }
+      },
+      {
+        "query": "I'm interested in knowing the current PlayStation price for 'Spider-Man: Miles Morales' in JPY within the JP region, including any discounts, and I'd like the information in Japanese.",
+        "filled_param": {
+          "game": "Spider-Man: Miles Morales",
+          "currency": "JPY",
+          "region": "JP",
+          "discount": true,
+          "language": "ja"
+        }
+      },
+      {
+        "query": "Please tell me the price of 'Horizon Forbidden West' on PlayStation in GBP for the UK region, excluding discounts, and display the details in English.",
+        "filled_param": {
+          "game": "Horizon Forbidden West",
+          "currency": "GBP",
+          "region": "UK",
+          "discount": false,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Can you provide the PlayStation price for 'Final Fantasy VII Remake' in CAD in the Canadian region, taking into account any discounts, and present the information in English?",
+        "filled_param": {
+          "game": "Final Fantasy VII Remake",
+          "currency": "CAD",
+          "region": "Canada",
+          "discount": true,
+          "language": "en"
+        }
+      },
+      {
+        "query": "I'd like to know the PlayStation store price for 'Ghost of Tsushima' in AUD for the Australian market without considering discounts, and I'd prefer the response in English.",
+        "filled_param": {
+          "game": "Ghost of Tsushima",
+          "currency": "AUD",
+          "region": "Australia",
+          "discount": false,
+          "language": "en"
+        }
+      }
+    ]
+  },
+  "games.price.find|:|Nintendo|:|game,currency,region,discount,language": {
+    "tool_template_name": "games.price.find",
+    "derived_class": "Nintendo",
+    "params_for_query": [
+      "game",
+      "currency",
+      "region",
+      "discount",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "What's the price of 'The Legend of Zelda: Breath of the Wild' on Nintendo in USD for the US region, including any discounts, in English?",
+        "filled_param": {
+          "game": "The Legend of Zelda: Breath of the Wild",
+          "currency": "USD",
+          "region": "US",
+          "discount": true,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Find the current price for 'Animal Crossing: New Horizons' on the Nintendo platform in EUR for the EU region, excluding discounts, in French.",
+        "filled_param": {
+          "game": "Animal Crossing: New Horizons",
+          "currency": "EUR",
+          "region": "EU",
+          "discount": false,
+          "language": "fr"
+        }
+      },
+      {
+        "query": "Can you tell me the cost of 'Mario Kart 8 Deluxe' on Nintendo in JPY for Japan, with discounts included, and display it in Japanese?",
+        "filled_param": {
+          "game": "Mario Kart 8 Deluxe",
+          "currency": "JPY",
+          "region": "JP",
+          "discount": true,
+          "language": "jp"
+        }
+      },
+      {
+        "query": "How much is 'Super Smash Bros. Ultimate' on Nintendo in USD for the Canadian region, without considering any discounts, in English?",
+        "filled_param": {
+          "game": "Super Smash Bros. Ultimate",
+          "currency": "USD",
+          "region": "CA",
+          "discount": false,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Please provide the price of 'Splatoon 3' on Nintendo in EUR for Germany, including discounts, and show it in German.",
+        "filled_param": {
+          "game": "Splatoon 3",
+          "currency": "EUR",
+          "region": "DE",
+          "discount": true,
+          "language": "de"
+        }
+      },
+      {
+        "query": "I need the price for 'Pokémon Sword' on Nintendo in GBP for the UK, not considering discounts, in English.",
+        "filled_param": {
+          "game": "Pokémon Sword",
+          "currency": "GBP",
+          "region": "UK",
+          "discount": false,
+          "language": "en"
+        }
+      }
+    ]
+  }
+}

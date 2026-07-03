@@ -1,0 +1,734 @@
+{
+  "EcoDiversityMonitor_assessVegetation|:|vegetation diversity|:|area_identifier,detailed_report,time_period,imagery_resolution": {
+    "tool_template_name": "EcoDiversityMonitor_assessVegetation",
+    "derived_class": "vegetation diversity",
+    "params_for_query": [
+      "area_identifier",
+      "detailed_report",
+      "time_period",
+      "imagery_resolution"
+    ],
+    "queries": [
+      {
+        "query": "Can you assess the vegetation diversity in the forest area designated as 'FRA-2023-001' for the period from 2023-06-01 to 2023-06-30 using high-resolution images and include a detailed report?",
+        "filled_param": {
+          "area_identifier": "FRA-2023-001",
+          "detailed_report": true,
+          "time_period": "2023-06-01, 2023-06-30",
+          "imagery_resolution": "high"
+        }
+      },
+      {
+        "query": "Perform an analysis of vegetation diversity for the zone labeled 'AmazonBlock-17' from 2023-01-01 to 2023-12-31. I need a medium resolution and no detailed report.",
+        "filled_param": {
+          "area_identifier": "AmazonBlock-17",
+          "detailed_report": false,
+          "time_period": "2023-01-01, 2023-12-31",
+          "imagery_resolution": "medium"
+        }
+      },
+      {
+        "query": "I require a vegetation diversity assessment for 'Sahara-Edge-2022' from 2022-05-15 to 2022-06-15 at low resolution without needing a detailed report.",
+        "filled_param": {
+          "area_identifier": "Sahara-Edge-2022",
+          "detailed_report": false,
+          "time_period": "2022-05-15, 2022-06-15",
+          "imagery_resolution": "low"
+        }
+      },
+      {
+        "query": "Can you provide a vegetation diversity analysis for 'Congo-Forest-Alpha' from 2023-07-01 to 2023-07-31 with high-resolution imagery? A detailed report is necessary.",
+        "filled_param": {
+          "area_identifier": "Congo-Forest-Alpha",
+          "detailed_report": true,
+          "time_period": "2023-07-01, 2023-07-31",
+          "imagery_resolution": "high"
+        }
+      },
+      {
+        "query": "Assess vegetation diversity in the forest marked as 'BorealStudy-2023' for the dates 2023-03-01 to 2023-04-01. Use medium resolution and include a detailed report.",
+        "filled_param": {
+          "area_identifier": "BorealStudy-2023",
+          "detailed_report": true,
+          "time_period": "2023-03-01, 2023-04-01",
+          "imagery_resolution": "medium"
+        }
+      },
+      {
+        "query": "I need a vegetation diversity assessment for 'Evergreen-StudyArea' from 2022-09-15 to 2022-10-15 with low resolution and no detailed report required.",
+        "filled_param": {
+          "area_identifier": "Evergreen-StudyArea",
+          "detailed_report": false,
+          "time_period": "2022-09-15, 2022-10-15",
+          "imagery_resolution": "low"
+        }
+      },
+      {
+        "query": "Conduct a vegetation diversity study for 'Rainforest-Delta-2024' from 2024-04-01 to 2024-04-30. Ensure high imagery resolution and provide a detailed report.",
+        "filled_param": {
+          "area_identifier": "Rainforest-Delta-2024",
+          "detailed_report": true,
+          "time_period": "2024-04-01, 2024-04-30",
+          "imagery_resolution": "high"
+        }
+      }
+    ]
+  },
+  "EcoDiversityMonitor_assessVegetation|:|canopy density|:|area_identifier,detailed_report,time_period,imagery_resolution": {
+    "tool_template_name": "EcoDiversityMonitor_assessVegetation",
+    "derived_class": "canopy density",
+    "params_for_query": [
+      "area_identifier",
+      "detailed_report",
+      "time_period",
+      "imagery_resolution"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide a canopy density analysis for the Amazon Rainforest, identified as 'AMZ-2023', for the period from 2023-01-01 to 2023-01-31, using high-resolution images with a detailed report?",
+        "filled_param": {
+          "area_identifier": "AMZ-2023",
+          "detailed_report": true,
+          "time_period": "2023-01-01, 2023-01-31",
+          "imagery_resolution": "high"
+        }
+      },
+      {
+        "query": "I need a canopy density report for the forest area with ID 'BLR-456' for the time span from 2022-06-01 to 2022-06-30. Use medium resolution, and there's no need for a detailed report.",
+        "filled_param": {
+          "area_identifier": "BLR-456",
+          "detailed_report": false,
+          "time_period": "2022-06-01, 2022-06-30",
+          "imagery_resolution": "medium"
+        }
+      },
+      {
+        "query": "Assess the canopy density for 'Congo-789' using low-resolution satellite images, covering the dates 2021-03-01 to 2021-03-15, and include a detailed report.",
+        "filled_param": {
+          "area_identifier": "Congo-789",
+          "detailed_report": true,
+          "time_period": "2021-03-01, 2021-03-15",
+          "imagery_resolution": "low"
+        }
+      },
+      {
+        "query": "What is the canopy density for the forest area tagged as 'SBR-102' between 2023-09-01 and 2023-09-30? Use high-resolution images and provide a detailed report.",
+        "filled_param": {
+          "area_identifier": "SBR-102",
+          "detailed_report": true,
+          "time_period": "2023-09-01, 2023-09-30",
+          "imagery_resolution": "high"
+        }
+      },
+      {
+        "query": "Can you check the canopy density for 'Nordic-967' from 2022-11-01 to 2022-11-30 using medium resolution images, without needing a detailed report?",
+        "filled_param": {
+          "area_identifier": "Nordic-967",
+          "detailed_report": false,
+          "time_period": "2022-11-01, 2022-11-30",
+          "imagery_resolution": "medium"
+        }
+      },
+      {
+        "query": "Please analyze the canopy density for area 'AUS-310' from 2020-07-01 to 2020-07-31 using low resolution, and I do not need a detailed report.",
+        "filled_param": {
+          "area_identifier": "AUS-310",
+          "detailed_report": false,
+          "time_period": "2020-07-01, 2020-07-31",
+          "imagery_resolution": "low"
+        }
+      },
+      {
+        "query": "I want a detailed canopy density report for 'Tropics-222' between 2021-12-01 and 2021-12-31, using high-resolution satellite imagery.",
+        "filled_param": {
+          "area_identifier": "Tropics-222",
+          "detailed_report": true,
+          "time_period": "2021-12-01, 2021-12-31",
+          "imagery_resolution": "high"
+        }
+      }
+    ]
+  },
+  "EcoDiversityMonitor_assessVegetation|:|soil moisture|:|area_identifier,detailed_report,time_period,imagery_resolution": {
+    "tool_template_name": "EcoDiversityMonitor_assessVegetation",
+    "derived_class": "soil moisture",
+    "params_for_query": [
+      "area_identifier",
+      "detailed_report",
+      "time_period",
+      "imagery_resolution"
+    ],
+    "queries": [
+      {
+        "query": "Could you assess the soil moisture for forest area ID 'A123' over the period of 2023-05-01 to 2023-05-15 using high-resolution satellite imagery, and I don't need a detailed report.",
+        "filled_param": {
+          "area_identifier": "A123",
+          "detailed_report": false,
+          "time_period": "2023-05-01, 2023-05-15",
+          "imagery_resolution": "high"
+        }
+      },
+      {
+        "query": "I need an analysis of soil moisture for the forest area with identifier 'B456'. Please cover the dates from 2023-06-10 to 2023-06-20 and use medium resolution images. A detailed report is necessary.",
+        "filled_param": {
+          "area_identifier": "B456",
+          "detailed_report": true,
+          "time_period": "2023-06-10, 2023-06-20",
+          "imagery_resolution": "medium"
+        }
+      },
+      {
+        "query": "Provide a soil moisture assessment for the forest area 'C789' between 2023-07-15 and 2023-07-25. Use low-resolution imagery, and there's no need for a detailed report.",
+        "filled_param": {
+          "area_identifier": "C789",
+          "detailed_report": false,
+          "time_period": "2023-07-15, 2023-07-25",
+          "imagery_resolution": "low"
+        }
+      },
+      {
+        "query": "Assess the soil moisture of forest 'D012' from 2023-08-01 to 2023-08-10. Make sure to use high-resolution imagery, and I require a detailed report.",
+        "filled_param": {
+          "area_identifier": "D012",
+          "detailed_report": true,
+          "time_period": "2023-08-01, 2023-08-10",
+          "imagery_resolution": "high"
+        }
+      },
+      {
+        "query": "Can you give me a soil moisture analysis for the forest area identified by 'E345' for the dates 2023-09-15 to 2023-09-30? Please use medium resolution and skip the detailed report.",
+        "filled_param": {
+          "area_identifier": "E345",
+          "detailed_report": false,
+          "time_period": "2023-09-15, 2023-09-30",
+          "imagery_resolution": "medium"
+        }
+      },
+      {
+        "query": "Evaluate the soil moisture in the forest region 'F678' using low-resolution imagery for the period from 2023-10-01 to 2023-10-15. A detailed report is requested.",
+        "filled_param": {
+          "area_identifier": "F678",
+          "detailed_report": true,
+          "time_period": "2023-10-01, 2023-10-15",
+          "imagery_resolution": "low"
+        }
+      },
+      {
+        "query": "Get an assessment of soil moisture for area 'G901' between 2023-04-10 and 2023-04-20 with high-resolution imagery. No need for a detailed report.",
+        "filled_param": {
+          "area_identifier": "G901",
+          "detailed_report": false,
+          "time_period": "2023-04-10, 2023-04-20",
+          "imagery_resolution": "high"
+        }
+      }
+    ]
+  },
+  "EcoDiversityMonitor_assessVegetation|:|land surface temperature|:|area_identifier,detailed_report,time_period,imagery_resolution": {
+    "tool_template_name": "EcoDiversityMonitor_assessVegetation",
+    "derived_class": "land surface temperature",
+    "params_for_query": [
+      "area_identifier",
+      "detailed_report",
+      "time_period",
+      "imagery_resolution"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the land surface temperature assessment for the Black Forest area from 2023-01-01 to 2023-01-31 with a high-resolution satellite imagery? I need a detailed report.",
+        "filled_param": {
+          "area_identifier": "Black Forest",
+          "detailed_report": true,
+          "time_period": "2023-01-01, 2023-01-31",
+          "imagery_resolution": "high"
+        }
+      },
+      {
+        "query": "I want a brief overview of the land surface temperature in the Amazon Rainforest using low-resolution imagery for the dates 2022-06-01 to 2022-06-15.",
+        "filled_param": {
+          "area_identifier": "Amazon Rainforest",
+          "detailed_report": false,
+          "time_period": "2022-06-01, 2022-06-15",
+          "imagery_resolution": "low"
+        }
+      },
+      {
+        "query": "Can you generate a detailed land surface temperature report for Yosemite National Park from 2023-05-01 to 2023-05-31 with medium-resolution imagery?",
+        "filled_param": {
+          "area_identifier": "Yosemite National Park",
+          "detailed_report": true,
+          "time_period": "2023-05-01, 2023-05-31",
+          "imagery_resolution": "medium"
+        }
+      },
+      {
+        "query": "Get me the land surface temperature data for the Congo Basin for the period 2023-03-01 to 2023-03-10. I need it in high resolution but without a detailed report.",
+        "filled_param": {
+          "area_identifier": "Congo Basin",
+          "detailed_report": false,
+          "time_period": "2023-03-01, 2023-03-10",
+          "imagery_resolution": "high"
+        }
+      },
+      {
+        "query": "I require a detailed assessment of the land surface temperature in the Daintree Rainforest using medium-resolution satellite imagery from 2023-02-10 to 2023-02-20.",
+        "filled_param": {
+          "area_identifier": "Daintree Rainforest",
+          "detailed_report": true,
+          "time_period": "2023-02-10, 2023-02-20",
+          "imagery_resolution": "medium"
+        }
+      },
+      {
+        "query": "Please assess the land surface temperature for Kielder Forest from 2023-04-01 to 2023-04-30 with low-resolution imagery, detailed report not needed.",
+        "filled_param": {
+          "area_identifier": "Kielder Forest",
+          "detailed_report": false,
+          "time_period": "2023-04-01, 2023-04-30",
+          "imagery_resolution": "low"
+        }
+      },
+      {
+        "query": "Provide a detailed land surface temperature report for Sundarbans using high-resolution imagery between 2023-07-01 and 2023-07-15.",
+        "filled_param": {
+          "area_identifier": "Sundarbans",
+          "detailed_report": true,
+          "time_period": "2023-07-01, 2023-07-15",
+          "imagery_resolution": "high"
+        }
+      }
+    ]
+  },
+  "EcoDiversityMonitor_assessVegetation|:|biomass density|:|area_identifier,detailed_report,time_period,imagery_resolution": {
+    "tool_template_name": "EcoDiversityMonitor_assessVegetation",
+    "derived_class": "biomass density",
+    "params_for_query": [
+      "area_identifier",
+      "detailed_report",
+      "time_period",
+      "imagery_resolution"
+    ],
+    "queries": [
+      {
+        "query": "Can you assess the biomass density for the AmazonRainforest_ZoneA with a detailed report using high-resolution imagery for the period 2023-01-01, 2023-01-31?",
+        "filled_param": {
+          "area_identifier": "AmazonRainforest_ZoneA",
+          "detailed_report": true,
+          "time_period": "2023-01-01, 2023-01-31",
+          "imagery_resolution": "high"
+        }
+      },
+      {
+        "query": "I'd like a biomass density assessment for BlackForest_Sector12. Please use medium-resolution imagery and provide a detailed report for the dates 2023-06-01, 2023-06-30.",
+        "filled_param": {
+          "area_identifier": "BlackForest_Sector12",
+          "detailed_report": true,
+          "time_period": "2023-06-01, 2023-06-30",
+          "imagery_resolution": "medium"
+        }
+      },
+      {
+        "query": "Generate an overview of biomass density with low-resolution imagery for SierraNevada_Region7, covering the period from 2022-09-15 to 2022-10-15. No detailed report is necessary.",
+        "filled_param": {
+          "area_identifier": "SierraNevada_Region7",
+          "detailed_report": false,
+          "time_period": "2022-09-15, 2022-10-15",
+          "imagery_resolution": "low"
+        }
+      },
+      {
+        "query": "Could you assess the biomass density in Borneo_West using high-resolution satellite images from 2023-03-01 to 2023-03-31? A detailed report is required.",
+        "filled_param": {
+          "area_identifier": "Borneo_West",
+          "detailed_report": true,
+          "time_period": "2023-03-01, 2023-03-31",
+          "imagery_resolution": "high"
+        }
+      },
+      {
+        "query": "I need a biomass density summary for the CongoBasin_Central with medium-resolution images for the time frame 2023-07-01, 2023-07-31. A detailed report isn't needed.",
+        "filled_param": {
+          "area_identifier": "CongoBasin_Central",
+          "detailed_report": false,
+          "time_period": "2023-07-01, 2023-07-31",
+          "imagery_resolution": "medium"
+        }
+      },
+      {
+        "query": "Assess the biomass density in the Appalachian_ForestSection9 with low-resolution imagery for the period 2022-11-01, 2022-11-30. Make sure to generate a detailed report.",
+        "filled_param": {
+          "area_identifier": "Appalachian_ForestSection9",
+          "detailed_report": true,
+          "time_period": "2022-11-01, 2022-11-30",
+          "imagery_resolution": "low"
+        }
+      },
+      {
+        "query": "Could you conduct a biomass density assessment for the area identified as Tasmania_North, using medium-resolution images from 2023-02-01 to 2023-02-28 without a detailed report?",
+        "filled_param": {
+          "area_identifier": "Tasmania_North",
+          "detailed_report": false,
+          "time_period": "2023-02-01, 2023-02-28",
+          "imagery_resolution": "medium"
+        }
+      }
+    ]
+  },
+  "EcoDiversityMonitor_assessVegetation|:|water body distribution|:|area_identifier,detailed_report,time_period,imagery_resolution": {
+    "tool_template_name": "EcoDiversityMonitor_assessVegetation",
+    "derived_class": "water body distribution",
+    "params_for_query": [
+      "area_identifier",
+      "detailed_report",
+      "time_period",
+      "imagery_resolution"
+    ],
+    "queries": [
+      {
+        "query": "Please assess the water body distribution for forest area ID 'FA-12345' with a detailed report for the period from 2023-01-01 to 2023-06-30 using high-resolution imagery.",
+        "filled_param": {
+          "area_identifier": "FA-12345",
+          "detailed_report": true,
+          "time_period": "2023-01-01, 2023-06-30",
+          "imagery_resolution": "high"
+        }
+      },
+      {
+        "query": "Generate a basic report on water body distribution for the forest area numbered 'XY-98765' between 2022-02-15 and 2022-07-15, using medium-resolution images.",
+        "filled_param": {
+          "area_identifier": "XY-98765",
+          "detailed_report": false,
+          "time_period": "2022-02-15, 2022-07-15",
+          "imagery_resolution": "medium"
+        }
+      },
+      {
+        "query": "Can I get a detailed assessment of the water body distribution for area 'WF-53002' over the dates 2021-05-01 to 2021-11-01 with low-resolution imagery?",
+        "filled_param": {
+          "area_identifier": "WF-53002",
+          "detailed_report": true,
+          "time_period": "2021-05-01, 2021-11-01",
+          "imagery_resolution": "low"
+        }
+      },
+      {
+        "query": "I need an analysis of the water body distribution in the designated forest area 'ZT-45678' from 2023-03-01 to 2023-09-01 using high-resolution satellite imagery, without a detailed report.",
+        "filled_param": {
+          "area_identifier": "ZT-45678",
+          "detailed_report": false,
+          "time_period": "2023-03-01, 2023-09-01",
+          "imagery_resolution": "high"
+        }
+      },
+      {
+        "query": "Provide a comprehensive report on water body distribution for the forest section 'GH-21212' for the period from 2022-01-01 to 2022-12-31. Use medium-resolution imagery.",
+        "filled_param": {
+          "area_identifier": "GH-21212",
+          "detailed_report": true,
+          "time_period": "2022-01-01, 2022-12-31",
+          "imagery_resolution": "medium"
+        }
+      },
+      {
+        "query": "I'd like a summary of the water body distribution findings for forest area 'QP-99881' from March 15, 2023, to September 15, 2023, relying on low-resolution images and without a detailed report.",
+        "filled_param": {
+          "area_identifier": "QP-99881",
+          "detailed_report": false,
+          "time_period": "2023-03-15, 2023-09-15",
+          "imagery_resolution": "low"
+        }
+      },
+      {
+        "query": "Requesting a detailed water body distribution assessment for 'LM-22233' forest zone during the time span from 2023-05-05 to 2023-10-05 with high-resolution satellite imagery.",
+        "filled_param": {
+          "area_identifier": "LM-22233",
+          "detailed_report": true,
+          "time_period": "2023-05-05, 2023-10-05",
+          "imagery_resolution": "high"
+        }
+      }
+    ]
+  },
+  "EcoDiversityMonitor_assessVegetation|:|snow cover|:|area_identifier,detailed_report,time_period,imagery_resolution": {
+    "tool_template_name": "EcoDiversityMonitor_assessVegetation",
+    "derived_class": "snow cover",
+    "params_for_query": [
+      "area_identifier",
+      "detailed_report",
+      "time_period",
+      "imagery_resolution"
+    ],
+    "queries": [
+      {
+        "query": "Can you evaluate the snow cover in the forest area identified as FR1234 with high-resolution imagery for the period from 2023-01-01 to 2023-01-31, and provide a detailed report?",
+        "filled_param": {
+          "area_identifier": "FR1234",
+          "detailed_report": true,
+          "time_period": "2023-01-01, 2023-01-31",
+          "imagery_resolution": "high"
+        }
+      },
+      {
+        "query": "I need a snow cover analysis for the region coded as BX5678 with medium-resolution satellite images from 2023-02-01 to 2023-02-28, without a detailed report.",
+        "filled_param": {
+          "area_identifier": "BX5678",
+          "detailed_report": false,
+          "time_period": "2023-02-01, 2023-02-28",
+          "imagery_resolution": "medium"
+        }
+      },
+      {
+        "query": "Assess snow cover in area ID ZY9876 from March 1st to March 15th, 2023, using low-resolution imagery, and please include a detailed report.",
+        "filled_param": {
+          "area_identifier": "ZY9876",
+          "detailed_report": true,
+          "time_period": "2023-03-01, 2023-03-15",
+          "imagery_resolution": "low"
+        }
+      },
+      {
+        "query": "Could you check the snow cover status for forest area code TR6543 between 2023-04-01 and 2023-04-30 with high-resolution imagery, and skip the detailed report?",
+        "filled_param": {
+          "area_identifier": "TR6543",
+          "detailed_report": false,
+          "time_period": "2023-04-01, 2023-04-30",
+          "imagery_resolution": "high"
+        }
+      },
+      {
+        "query": "Please provide a snow cover assessment for forest identifier LM4321 covering the dates 2023-05-01 to 2023-05-31, using medium-resolution images, and detailed reporting is required.",
+        "filled_param": {
+          "area_identifier": "LM4321",
+          "detailed_report": true,
+          "time_period": "2023-05-01, 2023-05-31",
+          "imagery_resolution": "medium"
+        }
+      },
+      {
+        "query": "I want a snow cover report for the area with code QR9876 for the time frame 2023-06-01 to 2023-06-30, utilizing low-resolution satellite images, and a detailed report is not needed.",
+        "filled_param": {
+          "area_identifier": "QR9876",
+          "detailed_report": false,
+          "time_period": "2023-06-01, 2023-06-30",
+          "imagery_resolution": "low"
+        }
+      },
+      {
+        "query": "Generate a snow cover analysis for zone ID VC3210 from 2023-07-01 to 2023-07-31 with high-resolution imagery, and include a detailed report.",
+        "filled_param": {
+          "area_identifier": "VC3210",
+          "detailed_report": true,
+          "time_period": "2023-07-01, 2023-07-31",
+          "imagery_resolution": "high"
+        }
+      }
+    ]
+  },
+  "EcoDiversityMonitor_assessVegetation|:|post-fire recovery status|:|area_identifier,detailed_report,time_period,imagery_resolution": {
+    "tool_template_name": "EcoDiversityMonitor_assessVegetation",
+    "derived_class": "post-fire recovery status",
+    "params_for_query": [
+      "area_identifier",
+      "detailed_report",
+      "time_period",
+      "imagery_resolution"
+    ],
+    "queries": [
+      {
+        "query": "Assess the post-fire recovery status for forest area ID 12345 with a detailed report using high-resolution imagery from 2023-01-01 to 2023-06-30.",
+        "filled_param": {
+          "area_identifier": "12345",
+          "detailed_report": true,
+          "time_period": "2023-01-01, 2023-06-30",
+          "imagery_resolution": "high"
+        }
+      },
+      {
+        "query": "Can you provide a basic post-fire recovery status assessment for area 67890 using medium-resolution satellite images between 2022-07-01 and 2022-12-31?",
+        "filled_param": {
+          "area_identifier": "67890",
+          "detailed_report": false,
+          "time_period": "2022-07-01, 2022-12-31",
+          "imagery_resolution": "medium"
+        }
+      },
+      {
+        "query": "Generate a detailed post-fire recovery status report for the forest area identified as ABC123 with low-resolution images covering the period from 2021-05-01 to 2021-11-30.",
+        "filled_param": {
+          "area_identifier": "ABC123",
+          "detailed_report": true,
+          "time_period": "2021-05-01, 2021-11-30",
+          "imagery_resolution": "low"
+        }
+      },
+      {
+        "query": "What is the post-fire recovery status for the area code DEF456 using high-resolution imagery from 2020-01-01 to 2020-06-01 without a detailed report?",
+        "filled_param": {
+          "area_identifier": "DEF456",
+          "detailed_report": false,
+          "time_period": "2020-01-01, 2020-06-01",
+          "imagery_resolution": "high"
+        }
+      },
+      {
+        "query": "Assess the post-fire recovery status for area ID 98765 over the duration 2021-09-01 to 2022-03-01 with medium resolution, and include a detailed report.",
+        "filled_param": {
+          "area_identifier": "98765",
+          "detailed_report": true,
+          "time_period": "2021-09-01, 2022-03-01",
+          "imagery_resolution": "medium"
+        }
+      },
+      {
+        "query": "I need an assessment of the post-fire recovery status for the forest region labeled GHI789 using low-res imagery from 2022-03-15 to 2022-09-15, without requiring a detailed report.",
+        "filled_param": {
+          "area_identifier": "GHI789",
+          "detailed_report": false,
+          "time_period": "2022-03-15, 2022-09-15",
+          "imagery_resolution": "low"
+        }
+      }
+    ]
+  },
+  "EcoDiversityMonitor_assessVegetation|:|land degradation|:|area_identifier,detailed_report,time_period,imagery_resolution": {
+    "tool_template_name": "EcoDiversityMonitor_assessVegetation",
+    "derived_class": "land degradation",
+    "params_for_query": [
+      "area_identifier",
+      "detailed_report",
+      "time_period",
+      "imagery_resolution"
+    ],
+    "queries": [
+      {
+        "query": "Evaluate the land degradation for Forest Zone A12 using high-resolution imagery with a report, from 2023-01-01 to 2023-06-30.",
+        "filled_param": {
+          "area_identifier": "Forest Zone A12",
+          "detailed_report": true,
+          "time_period": "2023-01-01, 2023-06-30",
+          "imagery_resolution": "high"
+        }
+      },
+      {
+        "query": "Can you check the land degradation for sector B45 without a detailed report? Use medium resolution images from 2022-05-01 to 2022-11-01.",
+        "filled_param": {
+          "area_identifier": "sector B45",
+          "detailed_report": false,
+          "time_period": "2022-05-01, 2022-11-01",
+          "imagery_resolution": "medium"
+        }
+      },
+      {
+        "query": "Assess land degradation in the Greenbelt region with a detailed report, using low-resolution satellite imagery from 2021-09-15 to 2022-02-15.",
+        "filled_param": {
+          "area_identifier": "Greenbelt region",
+          "detailed_report": true,
+          "time_period": "2021-09-15, 2022-02-15",
+          "imagery_resolution": "low"
+        }
+      },
+      {
+        "query": "I need an analysis of land degradation in Zone 17, utilizing high-resolution imagery and providing a detailed report, for the period 2020-03-01 to 2020-09-01.",
+        "filled_param": {
+          "area_identifier": "Zone 17",
+          "detailed_report": true,
+          "time_period": "2020-03-01, 2020-09-01",
+          "imagery_resolution": "high"
+        }
+      },
+      {
+        "query": "Conduct a land degradation assessment for region X5 with medium resolution images, no detailed report needed, from 2021-01-01 to 2021-12-31.",
+        "filled_param": {
+          "area_identifier": "region X5",
+          "detailed_report": false,
+          "time_period": "2021-01-01, 2021-12-31",
+          "imagery_resolution": "medium"
+        }
+      },
+      {
+        "query": "Please generate a basic report on land degradation for Forest Area C9 using low resolution imagery between 2022-07-01 and 2023-01-01.",
+        "filled_param": {
+          "area_identifier": "Forest Area C9",
+          "detailed_report": false,
+          "time_period": "2022-07-01, 2023-01-01",
+          "imagery_resolution": "low"
+        }
+      },
+      {
+        "query": "What is the land degradation status for Plot 23 over the period 2021-06-01 to 2021-12-01 with high-resolution images and a detailed report?",
+        "filled_param": {
+          "area_identifier": "Plot 23",
+          "detailed_report": true,
+          "time_period": "2021-06-01, 2021-12-01",
+          "imagery_resolution": "high"
+        }
+      }
+    ]
+  },
+  "EcoDiversityMonitor_assessVegetation|:|forest fragmentation|:|area_identifier,detailed_report,time_period,imagery_resolution": {
+    "tool_template_name": "EcoDiversityMonitor_assessVegetation",
+    "derived_class": "forest fragmentation",
+    "params_for_query": [
+      "area_identifier",
+      "detailed_report",
+      "time_period",
+      "imagery_resolution"
+    ],
+    "queries": [
+      {
+        "query": "Could you assess the forest fragmentation for area ID 123-XYZ using high-resolution imagery from 2022-01-01 to 2022-12-31 and provide a detailed report?",
+        "filled_param": {
+          "area_identifier": "123-XYZ",
+          "detailed_report": true,
+          "time_period": "2022-01-01, 2022-12-31",
+          "imagery_resolution": "high"
+        }
+      },
+      {
+        "query": "I need a forest fragmentation assessment for the area labeled ABC-456 with medium resolution imagery from 2023-03-01 to 2023-09-01. A detailed report is not necessary.",
+        "filled_param": {
+          "area_identifier": "ABC-456",
+          "detailed_report": false,
+          "time_period": "2023-03-01, 2023-09-01",
+          "imagery_resolution": "medium"
+        }
+      },
+      {
+        "query": "Provide a detailed analysis of forest fragmentation for region DEF-789 using low-resolution images from 2020-05-15 to 2020-11-15.",
+        "filled_param": {
+          "area_identifier": "DEF-789",
+          "detailed_report": true,
+          "time_period": "2020-05-15, 2020-11-15",
+          "imagery_resolution": "low"
+        }
+      },
+      {
+        "query": "Can you check the forest fragmentation in zone GHI-321 with high-resolution imagery between 2021-07-01 and 2021-12-31 without a detailed report?",
+        "filled_param": {
+          "area_identifier": "GHI-321",
+          "detailed_report": false,
+          "time_period": "2021-07-01, 2021-12-31",
+          "imagery_resolution": "high"
+        }
+      },
+      {
+        "query": "Assess the forest fragmentation for site JKL-654 using medium resolution satellite images from 2019-01-01 to 2019-06-30 and I would like a detailed report.",
+        "filled_param": {
+          "area_identifier": "JKL-654",
+          "detailed_report": true,
+          "time_period": "2019-01-01, 2019-06-30",
+          "imagery_resolution": "medium"
+        }
+      },
+      {
+        "query": "I need a summary of forest fragmentation for the territory MNO-987 with low-resolution imagery from 2023-01-01 to 2023-07-01. No detailed report required.",
+        "filled_param": {
+          "area_identifier": "MNO-987",
+          "detailed_report": false,
+          "time_period": "2023-01-01, 2023-07-01",
+          "imagery_resolution": "low"
+        }
+      }
+    ]
+  }
+}

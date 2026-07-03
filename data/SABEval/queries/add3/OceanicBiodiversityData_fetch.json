@@ -1,0 +1,419 @@
+{
+  "OceanicBiodiversityData_fetch|:|oceanic|:|zone_identifier,include_population_estimates,data_format,time_period": {
+    "tool_template_name": "OceanicBiodiversityData_fetch",
+    "derived_class": "oceanic",
+    "params_for_query": [
+      "zone_identifier",
+      "include_population_estimates",
+      "data_format",
+      "time_period"
+    ],
+    "queries": [
+      {
+        "query": "Provide oceanic biodiversity data for the Great Barrier Reef zone, including population estimates, in JSON format for the current period.",
+        "filled_param": {
+          "zone_identifier": "Great Barrier Reef",
+          "include_population_estimates": true,
+          "data_format": "JSON",
+          "time_period": "current"
+        }
+      },
+      {
+        "query": "Fetch historical oceanic biodiversity data for the Galápagos Marine Reserve with no population estimates, output in XML.",
+        "filled_param": {
+          "zone_identifier": "Galápagos Marine Reserve",
+          "include_population_estimates": false,
+          "data_format": "XML",
+          "time_period": "historical"
+        }
+      },
+      {
+        "query": "Can you get biodiversity data for the Red Sea ecosystem, excluding population estimates, in JSON format for a projected future period?",
+        "filled_param": {
+          "zone_identifier": "Red Sea",
+          "include_population_estimates": false,
+          "data_format": "JSON",
+          "time_period": "projected"
+        }
+      },
+      {
+        "query": "I need oceanic biodiversity records for the Monterey Bay zone, with population estimates included, delivered in XML format for the current time period.",
+        "filled_param": {
+          "zone_identifier": "Monterey Bay",
+          "include_population_estimates": true,
+          "data_format": "XML",
+          "time_period": "current"
+        }
+      },
+      {
+        "query": "Retrieve oceanic ecosystem data for the Coral Triangle, population estimates included, in JSON format for historical analysis.",
+        "filled_param": {
+          "zone_identifier": "Coral Triangle",
+          "include_population_estimates": true,
+          "data_format": "JSON",
+          "time_period": "historical"
+        }
+      }
+    ]
+  },
+  "OceanicBiodiversityData_fetch|:|tropical rainforest|:|zone_identifier,include_population_estimates,data_format,time_period": {
+    "tool_template_name": "OceanicBiodiversityData_fetch",
+    "derived_class": "tropical rainforest",
+    "params_for_query": [
+      "zone_identifier",
+      "include_population_estimates",
+      "data_format",
+      "time_period"
+    ],
+    "queries": [
+      {
+        "query": "I need comprehensive biodiversity data for the Amazon tropical rainforest, including population estimates, in JSON format for the historical period.",
+        "filled_param": {
+          "zone_identifier": "Amazon",
+          "include_population_estimates": true,
+          "data_format": "JSON",
+          "time_period": "historical"
+        }
+      },
+      {
+        "query": "Can you provide biodiversity details for the Congo tropical rainforest zone, excluding population estimates, in XML format for the current period?",
+        "filled_param": {
+          "zone_identifier": "Congo",
+          "include_population_estimates": false,
+          "data_format": "XML",
+          "time_period": "current"
+        }
+      },
+      {
+        "query": "Fetch biodiversity information for the Daintree tropical rainforest, with population estimates, formatted as JSON for the projected timeframe.",
+        "filled_param": {
+          "zone_identifier": "Daintree",
+          "include_population_estimates": true,
+          "data_format": "JSON",
+          "time_period": "projected"
+        }
+      },
+      {
+        "query": "What is the biodiversity data for the Sumatran tropical rainforest zone, without population estimates, in XML, for the current time period?",
+        "filled_param": {
+          "zone_identifier": "Sumatran",
+          "include_population_estimates": false,
+          "data_format": "XML",
+          "time_period": "current"
+        }
+      },
+      {
+        "query": "Please retrieve the biodiversity data for the Borneo tropical rainforest, including population estimates, in JSON format, for a historical timeframe.",
+        "filled_param": {
+          "zone_identifier": "Borneo",
+          "include_population_estimates": true,
+          "data_format": "JSON",
+          "time_period": "historical"
+        }
+      },
+      {
+        "query": "I am looking for biodiversity data concerning the Atlantic Forest tropical rainforest, excluding population estimates, to be formatted as XML for projected future periods.",
+        "filled_param": {
+          "zone_identifier": "Atlantic Forest",
+          "include_population_estimates": false,
+          "data_format": "XML",
+          "time_period": "projected"
+        }
+      }
+    ]
+  },
+  "OceanicBiodiversityData_fetch|:|desert|:|zone_identifier,include_population_estimates,data_format,time_period": {
+    "tool_template_name": "OceanicBiodiversityData_fetch",
+    "derived_class": "desert",
+    "params_for_query": [
+      "zone_identifier",
+      "include_population_estimates",
+      "data_format",
+      "time_period"
+    ],
+    "queries": [
+      {
+        "query": "Fetch biodiversity data for the Sahara desert zone, including population estimates, in JSON format for the current period.",
+        "filled_param": {
+          "zone_identifier": "Sahara",
+          "include_population_estimates": true,
+          "data_format": "JSON",
+          "time_period": "current"
+        }
+      },
+      {
+        "query": "Can you provide biodiversity information for the Sonoran desert, without population estimates, in XML format covering historical data?",
+        "filled_param": {
+          "zone_identifier": "Sonoran",
+          "include_population_estimates": false,
+          "data_format": "XML",
+          "time_period": "historical"
+        }
+      },
+      {
+        "query": "I need comprehensive biodiversity data for the Gobi desert, include population estimates and provide it in JSON format for projected future trends.",
+        "filled_param": {
+          "zone_identifier": "Gobi",
+          "include_population_estimates": true,
+          "data_format": "JSON",
+          "time_period": "projected"
+        }
+      },
+      {
+        "query": "Get me biodiversity details for the Mojave desert zone, excluding population estimates, in XML format for the current timeframe.",
+        "filled_param": {
+          "zone_identifier": "Mojave",
+          "include_population_estimates": false,
+          "data_format": "XML",
+          "time_period": "current"
+        }
+      },
+      {
+        "query": "Please retrieve biodiversity data for the Kalahari desert, including population estimates, formatted in JSON for historical records.",
+        "filled_param": {
+          "zone_identifier": "Kalahari",
+          "include_population_estimates": true,
+          "data_format": "JSON",
+          "time_period": "historical"
+        }
+      }
+    ]
+  },
+  "OceanicBiodiversityData_fetch|:|wetland|:|zone_identifier,include_population_estimates,data_format,time_period": {
+    "tool_template_name": "OceanicBiodiversityData_fetch",
+    "derived_class": "wetland",
+    "params_for_query": [
+      "zone_identifier",
+      "include_population_estimates",
+      "data_format",
+      "time_period"
+    ],
+    "queries": [
+      {
+        "query": "Fetch the biodiversity data for the wetland zone labeled 'Zone_A' including population estimates in JSON format for the current period.",
+        "filled_param": {
+          "zone_identifier": "Zone_A",
+          "include_population_estimates": true,
+          "data_format": "JSON",
+          "time_period": "current"
+        }
+      },
+      {
+        "query": "Provide me with the biodiversity details for 'Zone_B' wetland, excluding population estimates, in XML format but for historical data.",
+        "filled_param": {
+          "zone_identifier": "Zone_B",
+          "include_population_estimates": false,
+          "data_format": "XML",
+          "time_period": "historical"
+        }
+      },
+      {
+        "query": "I need the biodiversity report for 'Zone_C' including species population numbers in JSON format for projected scenarios.",
+        "filled_param": {
+          "zone_identifier": "Zone_C",
+          "include_population_estimates": true,
+          "data_format": "JSON",
+          "time_period": "projected"
+        }
+      },
+      {
+        "query": "Can you get the biodiversity data for the wetland identified as 'Zone_D' without population estimates in XML for current conditions?",
+        "filled_param": {
+          "zone_identifier": "Zone_D",
+          "include_population_estimates": false,
+          "data_format": "XML",
+          "time_period": "current"
+        }
+      },
+      {
+        "query": "Obtain comprehensive biodiversity info for 'Zone_E', making sure to include population estimates, formatted as JSON for historical analysis.",
+        "filled_param": {
+          "zone_identifier": "Zone_E",
+          "include_population_estimates": true,
+          "data_format": "JSON",
+          "time_period": "historical"
+        }
+      }
+    ]
+  },
+  "OceanicBiodiversityData_fetch|:|alpine meadow|:|zone_identifier,include_population_estimates,data_format,time_period": {
+    "tool_template_name": "OceanicBiodiversityData_fetch",
+    "derived_class": "alpine meadow",
+    "params_for_query": [
+      "zone_identifier",
+      "include_population_estimates",
+      "data_format",
+      "time_period"
+    ],
+    "queries": [
+      {
+        "query": "Retrieve alpine meadow biodiversity data for zone A123, including population estimates, in JSON format for the current year.",
+        "filled_param": {
+          "zone_identifier": "A123",
+          "include_population_estimates": true,
+          "data_format": "JSON",
+          "time_period": "current"
+        }
+      },
+      {
+        "query": "Can you provide biodiversity information for alpine meadow zone B456 without population estimates, in XML format, for historical data?",
+        "filled_param": {
+          "zone_identifier": "B456",
+          "include_population_estimates": false,
+          "data_format": "XML",
+          "time_period": "historical"
+        }
+      },
+      {
+        "query": "I need projected biodiversity data for alpine meadow zone C789, with population estimates, delivered in JSON.",
+        "filled_param": {
+          "zone_identifier": "C789",
+          "include_population_estimates": true,
+          "data_format": "JSON",
+          "time_period": "projected"
+        }
+      },
+      {
+        "query": "Fetch the biodiversity report for alpine meadow ecosystem zone D012, excluding population figures, in XML, for the past decade.",
+        "filled_param": {
+          "zone_identifier": "D012",
+          "include_population_estimates": false,
+          "data_format": "XML",
+          "time_period": "historical"
+        }
+      },
+      {
+        "query": "Requesting comprehensive current biodiversity data for alpine meadow zone E345, include population estimates, in JSON format.",
+        "filled_param": {
+          "zone_identifier": "E345",
+          "include_population_estimates": true,
+          "data_format": "JSON",
+          "time_period": "current"
+        }
+      },
+      {
+        "query": "Provide projected data on biodiversity for alpine meadow zone F678, no population estimates needed, format it in XML.",
+        "filled_param": {
+          "zone_identifier": "F678",
+          "include_population_estimates": false,
+          "data_format": "XML",
+          "time_period": "projected"
+        }
+      }
+    ]
+  },
+  "OceanicBiodiversityData_fetch|:|polar tundra|:|zone_identifier,include_population_estimates,data_format,time_period": {
+    "tool_template_name": "OceanicBiodiversityData_fetch",
+    "derived_class": "polar tundra",
+    "params_for_query": [
+      "zone_identifier",
+      "include_population_estimates",
+      "data_format",
+      "time_period"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide biodiversity data for the polar tundra zone ID 007 with population estimates included in JSON format for the current period?",
+        "filled_param": {
+          "zone_identifier": "007",
+          "include_population_estimates": true,
+          "data_format": "JSON",
+          "time_period": "current"
+        }
+      },
+      {
+        "query": "Fetch historical biodiversity information for polar tundra zone AE56, excluding population estimates, and deliver it in XML format.",
+        "filled_param": {
+          "zone_identifier": "AE56",
+          "include_population_estimates": false,
+          "data_format": "XML",
+          "time_period": "historical"
+        }
+      },
+      {
+        "query": "I need projected biodiversity data for polar tundra region Z-23, including estimates of population, in JSON format.",
+        "filled_param": {
+          "zone_identifier": "Z-23",
+          "include_population_estimates": true,
+          "data_format": "JSON",
+          "time_period": "projected"
+        }
+      },
+      {
+        "query": "Get me the current biodiversity data for polar tundra area 101 with population estimates, formatted in XML.",
+        "filled_param": {
+          "zone_identifier": "101",
+          "include_population_estimates": true,
+          "data_format": "XML",
+          "time_period": "current"
+        }
+      },
+      {
+        "query": "Please provide projected biodiversity data for the polar tundra zone labeled T-90, without including population estimates, in JSON format.",
+        "filled_param": {
+          "zone_identifier": "T-90",
+          "include_population_estimates": false,
+          "data_format": "JSON",
+          "time_period": "projected"
+        }
+      }
+    ]
+  },
+  "OceanicBiodiversityData_fetch|:|freshwater lake|:|zone_identifier,include_population_estimates,data_format,time_period": {
+    "tool_template_name": "OceanicBiodiversityData_fetch",
+    "derived_class": "freshwater lake",
+    "params_for_query": [
+      "zone_identifier",
+      "include_population_estimates",
+      "data_format",
+      "time_period"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the current biodiversity data for the freshwater lake zone Z12345 in JSON format and include population estimates?",
+        "filled_param": {
+          "zone_identifier": "Z12345",
+          "include_population_estimates": true,
+          "data_format": "JSON",
+          "time_period": "current"
+        }
+      },
+      {
+        "query": "I need historical biodiversity information for freshwater lake area A98765, excluding population estimates, in XML.",
+        "filled_param": {
+          "zone_identifier": "A98765",
+          "include_population_estimates": false,
+          "data_format": "XML",
+          "time_period": "historical"
+        }
+      },
+      {
+        "query": "Fetch projected biodiversity data for freshwater lake sector L54321, including population estimates, in JSON format.",
+        "filled_param": {
+          "zone_identifier": "L54321",
+          "include_population_estimates": true,
+          "data_format": "JSON",
+          "time_period": "projected"
+        }
+      },
+      {
+        "query": "Requesting current biodiversity statistics for freshwater lake zone F67890 without population estimates in JSON.",
+        "filled_param": {
+          "zone_identifier": "F67890",
+          "include_population_estimates": false,
+          "data_format": "JSON",
+          "time_period": "current"
+        }
+      },
+      {
+        "query": "Could you retrieve historical biodiversity data for freshwater lake region R11223 with population estimates in XML format?",
+        "filled_param": {
+          "zone_identifier": "R11223",
+          "include_population_estimates": true,
+          "data_format": "XML",
+          "time_period": "historical"
+        }
+      }
+    ]
+  }
+}

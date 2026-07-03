@@ -1,0 +1,59 @@
+{
+  "tool_template_name": "science_history.get_discovery_details",
+  "meta_data": {
+    "base_class": "retrieve details of discoveries within a given <academic discipline> - each discipline represents an independent knowledge system.",
+    "derived_classes": [
+      "biology",
+      "geology",
+      "astronomy",
+      "computer science",
+      "psychology",
+      "economics",
+      "linguistics"
+    ],
+    "base_class_entity": "scientific discovery"
+  },
+  "tool_template": {
+    "name": "get_<class>_discovery_details",
+    "description": "Retrieve the details of a <class> discovery based on the discovery name.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "discovery": {
+          "type": "string",
+          "description": "The name of the <class> discovery."
+        }
+      },
+      "required": [
+        "discovery"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "method_used": {
+      "type": "string",
+      "description": "The method used for the <class> discovery, e.g., experimental, observational, theoretical."
+    }
+  },
+  "additional_params": {
+    "discoverer": {
+      "type": "string",
+      "description": "The person or team who made the <class> discovery."
+    },
+    "related_publications": {
+      "type": "array",
+      "description": "A list of publications related to the <class> discovery.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "detail_level": {
+      "type": "string",
+      "description": "Specifies how detailed the returned information about the <class> discovery should be, being 'summary', 'standard', or 'comprehensive'."
+    },
+    "include_follow_up_discoveries": {
+      "type": "boolean",
+      "description": "If true, include information on subsequent <class> discoveries influenced by this one."
+    }
+  }
+}

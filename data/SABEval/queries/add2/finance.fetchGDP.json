@@ -1,0 +1,443 @@
+{
+  "finance.fetchGDP|:|GDP|:|country,year,format,include_historical_context": {
+    "tool_template_name": "finance.fetchGDP",
+    "derived_class": "GDP",
+    "params_for_query": [
+      "country",
+      "year",
+      "format",
+      "include_historical_context"
+    ],
+    "queries": [
+      {
+        "query": "What was the GDP of Japan in the year 2010, expressed in USD, and can you include historical context?",
+        "filled_param": {
+          "country": "Japan",
+          "year": 2010,
+          "format": "USD",
+          "include_historical_context": true
+        }
+      },
+      {
+        "query": "Provide the GDP of Brazil for 2015 in EUR, and please include historical context.",
+        "filled_param": {
+          "country": "Brazil",
+          "year": 2015,
+          "format": "EUR",
+          "include_historical_context": true
+        }
+      },
+      {
+        "query": "Fetch the GDP for Germany in 2000 in GBP without any historical context.",
+        "filled_param": {
+          "country": "Germany",
+          "year": 2000,
+          "format": "GBP",
+          "include_historical_context": false
+        }
+      },
+      {
+        "query": "Can you get the GDP of Canada for 1999 in USD and include historical context?",
+        "filled_param": {
+          "country": "Canada",
+          "year": 1999,
+          "format": "USD",
+          "include_historical_context": true
+        }
+      },
+      {
+        "query": "I'd like to know the GDP of China in 2018, presented in EUR, without historical context.",
+        "filled_param": {
+          "country": "China",
+          "year": 2018,
+          "format": "EUR",
+          "include_historical_context": false
+        }
+      },
+      {
+        "query": "Get me the GDP of India for the year 2021 in GBP, and make sure to include historical context.",
+        "filled_param": {
+          "country": "India",
+          "year": 2021,
+          "format": "GBP",
+          "include_historical_context": true
+        }
+      },
+      {
+        "query": "What was the GDP of Australia in 2005, stated in USD, excluding historical context?",
+        "filled_param": {
+          "country": "Australia",
+          "year": 2005,
+          "format": "USD",
+          "include_historical_context": false
+        }
+      }
+    ]
+  },
+  "finance.fetchGDP|:|government debt|:|country,year,format,include_historical_context": {
+    "tool_template_name": "finance.fetchGDP",
+    "derived_class": "government debt",
+    "params_for_query": [
+      "country",
+      "year",
+      "format",
+      "include_historical_context"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the government debt of Japan for the year 2020 in USD, including historical context?",
+        "filled_param": {
+          "country": "Japan",
+          "year": 2020,
+          "format": "USD",
+          "include_historical_context": true
+        }
+      },
+      {
+        "query": "I need the 2018 government debt of Brazil in EUR and please include the historical background.",
+        "filled_param": {
+          "country": "Brazil",
+          "year": 2018,
+          "format": "EUR",
+          "include_historical_context": true
+        }
+      },
+      {
+        "query": "Fetch the government debt for Canada in 2022 using GBP without historical context.",
+        "filled_param": {
+          "country": "Canada",
+          "year": 2022,
+          "format": "GBP",
+          "include_historical_context": false
+        }
+      },
+      {
+        "query": "What was the government debt of India for the year 2019 in USD? Exclude historical details.",
+        "filled_param": {
+          "country": "India",
+          "year": 2019,
+          "format": "USD",
+          "include_historical_context": false
+        }
+      },
+      {
+        "query": "Please retrieve the government debt of Germany in 2021 in EUR with historical context.",
+        "filled_param": {
+          "country": "Germany",
+          "year": 2021,
+          "format": "EUR",
+          "include_historical_context": true
+        }
+      },
+      {
+        "query": "Can you get the government debt data for the United States in 2017, formatted in GBP, without including historical context?",
+        "filled_param": {
+          "country": "United States",
+          "year": 2017,
+          "format": "GBP",
+          "include_historical_context": false
+        }
+      },
+      {
+        "query": "I'd like to know the government debt of South Africa for 2023 in USD, and please include the historical context.",
+        "filled_param": {
+          "country": "South Africa",
+          "year": 2023,
+          "format": "USD",
+          "include_historical_context": true
+        }
+      }
+    ]
+  },
+  "finance.fetchGDP|:|trade balance|:|country,year,format,include_historical_context": {
+    "tool_template_name": "finance.fetchGDP",
+    "derived_class": "trade balance",
+    "params_for_query": [
+      "country",
+      "year",
+      "format",
+      "include_historical_context"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the trade balance of Germany for the year 2022 in USD, and include historical context?",
+        "filled_param": {
+          "country": "Germany",
+          "year": 2022,
+          "format": "USD",
+          "include_historical_context": true
+        }
+      },
+      {
+        "query": "I'd like to know the trade balance for Japan in 2019, displayed in EUR, with some historical insights.",
+        "filled_param": {
+          "country": "Japan",
+          "year": 2019,
+          "format": "EUR",
+          "include_historical_context": true
+        }
+      },
+      {
+        "query": "Fetch the 2020 trade balance data for Canada in GBP without historical context.",
+        "filled_param": {
+          "country": "Canada",
+          "year": 2020,
+          "format": "GBP",
+          "include_historical_context": false
+        }
+      },
+      {
+        "query": "What was the trade balance of Brazil in 2021, presented in USD, and skip the historical context?",
+        "filled_param": {
+          "country": "Brazil",
+          "year": 2021,
+          "format": "USD",
+          "include_historical_context": false
+        }
+      },
+      {
+        "query": "Get the trade balance for France during 2018 in EUR, including its historical context.",
+        "filled_param": {
+          "country": "France",
+          "year": 2018,
+          "format": "EUR",
+          "include_historical_context": true
+        }
+      },
+      {
+        "query": "Please provide the trade balance for India in 2017, using GBP as the format, with historical context included.",
+        "filled_param": {
+          "country": "India",
+          "year": 2017,
+          "format": "GBP",
+          "include_historical_context": true
+        }
+      }
+    ]
+  },
+  "finance.fetchGDP|:|public spending|:|country,year,format,include_historical_context": {
+    "tool_template_name": "finance.fetchGDP",
+    "derived_class": "public spending",
+    "params_for_query": [
+      "country",
+      "year",
+      "format",
+      "include_historical_context"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the public spending of Germany for the year 2020 in USD, including historical context?",
+        "filled_param": {
+          "country": "Germany",
+          "year": 2020,
+          "format": "USD",
+          "include_historical_context": true
+        }
+      },
+      {
+        "query": "Fetch the public spending data for Japan in 2018, presented in EUR, without any historical context.",
+        "filled_param": {
+          "country": "Japan",
+          "year": 2018,
+          "format": "EUR",
+          "include_historical_context": false
+        }
+      },
+      {
+        "query": "I need the public spending statistics for Brazil in 2015, formatted in GBP, and please include historical context.",
+        "filled_param": {
+          "country": "Brazil",
+          "year": 2015,
+          "format": "GBP",
+          "include_historical_context": true
+        }
+      },
+      {
+        "query": "What was the public spending of France in 2019? Present the data in USD and skip the historical context.",
+        "filled_param": {
+          "country": "France",
+          "year": 2019,
+          "format": "USD",
+          "include_historical_context": false
+        }
+      },
+      {
+        "query": "Could you retrieve the public spending details for Canada for the year 2021 in EUR, and include historical context as well?",
+        "filled_param": {
+          "country": "Canada",
+          "year": 2021,
+          "format": "EUR",
+          "include_historical_context": true
+        }
+      },
+      {
+        "query": "Please get the public spending figures for India in 2022, in GBP format, without historical context.",
+        "filled_param": {
+          "country": "India",
+          "year": 2022,
+          "format": "GBP",
+          "include_historical_context": false
+        }
+      },
+      {
+        "query": "I'd like to know the public spending of the United States in 2017, returned in USD, and I need it with historical context.",
+        "filled_param": {
+          "country": "United States",
+          "year": 2017,
+          "format": "USD",
+          "include_historical_context": true
+        }
+      }
+    ]
+  },
+  "finance.fetchGDP|:|foreign reserves|:|country,year,format,include_historical_context": {
+    "tool_template_name": "finance.fetchGDP",
+    "derived_class": "foreign reserves",
+    "params_for_query": [
+      "country",
+      "year",
+      "format",
+      "include_historical_context"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the foreign reserves of Japan for the year 2019 in USD, including historical context?",
+        "filled_param": {
+          "country": "Japan",
+          "year": 2019,
+          "format": "USD",
+          "include_historical_context": true
+        }
+      },
+      {
+        "query": "I need the foreign reserves data for Germany in 2021, formatted in EUR, with historical context.",
+        "filled_param": {
+          "country": "Germany",
+          "year": 2021,
+          "format": "EUR",
+          "include_historical_context": true
+        }
+      },
+      {
+        "query": "Fetch the foreign reserves for Brazil for 2022 in GBP without historical context.",
+        "filled_param": {
+          "country": "Brazil",
+          "year": 2022,
+          "format": "GBP",
+          "include_historical_context": false
+        }
+      },
+      {
+        "query": "What were the foreign reserves of Canada in 2018? I'd like the data in USD, and please include historical context.",
+        "filled_param": {
+          "country": "Canada",
+          "year": 2018,
+          "format": "USD",
+          "include_historical_context": true
+        }
+      },
+      {
+        "query": "Provide the foreign reserves for India in 2020 in EUR without the historical context.",
+        "filled_param": {
+          "country": "India",
+          "year": 2020,
+          "format": "EUR",
+          "include_historical_context": false
+        }
+      },
+      {
+        "query": "I am looking for the foreign reserves data for Australia for 2017 in GBP, along with historical context.",
+        "filled_param": {
+          "country": "Australia",
+          "year": 2017,
+          "format": "GBP",
+          "include_historical_context": true
+        }
+      },
+      {
+        "query": "Can you get the foreign reserves of Russia for 2015 in USD, excluding historical context?",
+        "filled_param": {
+          "country": "Russia",
+          "year": 2015,
+          "format": "USD",
+          "include_historical_context": false
+        }
+      }
+    ]
+  },
+  "finance.fetchGDP|:|military expenditure|:|country,year,format,include_historical_context": {
+    "tool_template_name": "finance.fetchGDP",
+    "derived_class": "military expenditure",
+    "params_for_query": [
+      "country",
+      "year",
+      "format",
+      "include_historical_context"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the military expenditure of Germany in 2020, formatted in USD, and include historical context?",
+        "filled_param": {
+          "country": "Germany",
+          "year": 2020,
+          "format": "USD",
+          "include_historical_context": true
+        }
+      },
+      {
+        "query": "Fetch the military expenditure data for Japan in 2015. I need this in EUR and please include some historical context.",
+        "filled_param": {
+          "country": "Japan",
+          "year": 2015,
+          "format": "EUR",
+          "include_historical_context": true
+        }
+      },
+      {
+        "query": "I require the military expenditure figures for Brazil for the year 2018 in GBP, without any historical context.",
+        "filled_param": {
+          "country": "Brazil",
+          "year": 2018,
+          "format": "GBP",
+          "include_historical_context": false
+        }
+      },
+      {
+        "query": "Get me the military expenditure of the United States in 2019, in USD format, and exclude any historical context.",
+        "filled_param": {
+          "country": "United States",
+          "year": 2019,
+          "format": "USD",
+          "include_historical_context": false
+        }
+      },
+      {
+        "query": "Can you find the military expenditure for Russia in 2021? I need it in EUR, and it should include historical context.",
+        "filled_param": {
+          "country": "Russia",
+          "year": 2021,
+          "format": "EUR",
+          "include_historical_context": true
+        }
+      },
+      {
+        "query": "I am looking for the military expenditure details of India for the year 2017 formatted in GBP. Please include historical context.",
+        "filled_param": {
+          "country": "India",
+          "year": 2017,
+          "format": "GBP",
+          "include_historical_context": true
+        }
+      },
+      {
+        "query": "Please provide me with the military expenditure for China in 2016, in USD, without any historical background.",
+        "filled_param": {
+          "country": "China",
+          "year": 2016,
+          "format": "USD",
+          "include_historical_context": false
+        }
+      }
+    ]
+  }
+}

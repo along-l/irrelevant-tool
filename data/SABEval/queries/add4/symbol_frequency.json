@@ -1,0 +1,506 @@
+{
+  "symbol_frequency|:|uppercase letters|:|input_string,file_path,sort_order,top_n,min_frequency_threshold": {
+    "tool_template_name": "symbol_frequency",
+    "derived_class": "uppercase letters",
+    "params_for_query": [
+      "input_string",
+      "file_path",
+      "sort_order",
+      "top_n",
+      "min_frequency_threshold"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the string 'HELLO WORLD' for uppercase letters frequency and save the result in '/user/docs/results.txt', sorted in Descending order, showing the top 3 letters with a minimum frequency threshold of 1.",
+        "filled_param": {
+          "input_string": "HELLO WORLD",
+          "file_path": "/user/docs/results.txt",
+          "sort_order": "Descending",
+          "top_n": 3,
+          "min_frequency_threshold": 1
+        }
+      },
+      {
+        "query": "Find the frequency of uppercase letters in the string 'The Quick Brown Fox Jumps Over The Lazy Dog' and save it to '/reports/output.txt', sorted Ascending, limited to the top 5 with a minimum frequency of 2.",
+        "filled_param": {
+          "input_string": "The Quick Brown Fox Jumps Over The Lazy Dog",
+          "file_path": "/reports/output.txt",
+          "sort_order": "Ascending",
+          "top_n": 5,
+          "min_frequency_threshold": 2
+        }
+      },
+      {
+        "query": "Please calculate the frequency of uppercase letters in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' and store the results at '/home/user/data.txt', sorted Alphabetically, showing only the top 10 letters with at least 1 occurrence.",
+        "filled_param": {
+          "input_string": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "file_path": "/home/user/data.txt",
+          "sort_order": "Alphabetical",
+          "top_n": 10,
+          "min_frequency_threshold": 1
+        }
+      },
+      {
+        "query": "Determine the frequency of uppercase letters in 'MANY Uppercase LETTERS HERE' and save the analysis to '/tmp/frequency.txt', ordering Descending and showing the top 2 with a minimum frequency of 3.",
+        "filled_param": {
+          "input_string": "MANY Uppercase LETTERS HERE",
+          "file_path": "/tmp/frequency.txt",
+          "sort_order": "Descending",
+          "top_n": 2,
+          "min_frequency_threshold": 3
+        }
+      },
+      {
+        "query": "Examine the uppercase letters in 'KEEP IT SIMPLE STUPID' and write the frequency analysis to '/var/log/analysis.txt', sorted Ascending, focusing on the top 4 letters with at least 2 occurrences.",
+        "filled_param": {
+          "input_string": "KEEP IT SIMPLE STUPID",
+          "file_path": "/var/log/analysis.txt",
+          "sort_order": "Ascending",
+          "top_n": 4,
+          "min_frequency_threshold": 2
+        }
+      }
+    ]
+  },
+  "symbol_frequency|:|lowercase letters|:|input_string,file_path,sort_order,top_n,min_frequency_threshold": {
+    "tool_template_name": "symbol_frequency",
+    "derived_class": "lowercase letters",
+    "params_for_query": [
+      "input_string",
+      "file_path",
+      "sort_order",
+      "top_n",
+      "min_frequency_threshold"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the frequency of lowercase letters in the string 'hello world, this is a simple test' and save the result at '/user/documents/frequency.txt', limiting to the top 5 results, sorted in Descending order, with a minimum frequency of 2.",
+        "filled_param": {
+          "input_string": "hello world, this is a simple test",
+          "file_path": "/user/documents/frequency.txt",
+          "sort_order": "Descending",
+          "top_n": 5,
+          "min_frequency_threshold": 2
+        }
+      },
+      {
+        "query": "Can you calculate the frequency of lowercase letters from 'the quick brown fox jumps over the lazy dog' and store it in '/data/freq_output.txt'? I want only the top 3 most frequent letters with at least 1 occurrence, sorted Alphabetically.",
+        "filled_param": {
+          "input_string": "the quick brown fox jumps over the lazy dog",
+          "file_path": "/data/freq_output.txt",
+          "sort_order": "Alphabetical",
+          "top_n": 3,
+          "min_frequency_threshold": 1
+        }
+      },
+      {
+        "query": "Please determine the frequency of lowercase letters in 'pack my box with five dozen liquor jugs', sort results in Ascending order, and save to '/results/frequency_analysis.txt'. Show the top 10 letters with a frequency threshold of 1.",
+        "filled_param": {
+          "input_string": "pack my box with five dozen liquor jugs",
+          "file_path": "/results/frequency_analysis.txt",
+          "sort_order": "Ascending",
+          "top_n": 10,
+          "min_frequency_threshold": 1
+        }
+      },
+      {
+        "query": "Evaluate the lowercase letter frequency for 'how razorback-jumping frogs can level six piqued gymnasts', sorting in Descending order, and save the top 7 letters with frequencies above 2 to '/output/lowercase_freq.txt'.",
+        "filled_param": {
+          "input_string": "how razorback-jumping frogs can level six piqued gymnasts",
+          "file_path": "/output/lowercase_freq.txt",
+          "sort_order": "Descending",
+          "top_n": 7,
+          "min_frequency_threshold": 2
+        }
+      },
+      {
+        "query": "Extract the lowercase letters frequency from 'sphinx of black quartz, judge my vow', sorted Alphabetically, and save it to '/home/user/letter_frequency.txt'. Only include the top 4 letters with a minimum frequency of 1.",
+        "filled_param": {
+          "input_string": "sphinx of black quartz, judge my vow",
+          "file_path": "/home/user/letter_frequency.txt",
+          "sort_order": "Alphabetical",
+          "top_n": 4,
+          "min_frequency_threshold": 1
+        }
+      }
+    ]
+  },
+  "symbol_frequency|:|emojis|:|input_string,file_path,sort_order,top_n,min_frequency_threshold": {
+    "tool_template_name": "symbol_frequency",
+    "derived_class": "emojis",
+    "params_for_query": [
+      "input_string",
+      "file_path",
+      "sort_order",
+      "top_n",
+      "min_frequency_threshold"
+    ],
+    "queries": [
+      {
+        "query": "Analyze this text for emojis: '🌟🌟😊😍🥳🎉😊😊🎉🎉🎉'. Save the results in 'emoji_analysis.txt', sorted in Descending order, showing the top 3, and only include those with at least 2 occurrences.",
+        "filled_param": {
+          "input_string": "🌟🌟😊😍🥳🎉😊😊🎉🎉🎉",
+          "file_path": "emoji_analysis.txt",
+          "sort_order": "Descending",
+          "top_n": 3,
+          "min_frequency_threshold": 2
+        }
+      },
+      {
+        "query": "I need an emoji frequency count for the following string '🍕🍔🍟🍕🍕🍟🌭🍔'. Save it to 'food_emojis.txt', sorted Alphabetically, with a limit of the top 5. Include emojis appearing at least once.",
+        "filled_param": {
+          "input_string": "🍕🍔🍟🍕🍕🍟🌭🍔",
+          "file_path": "food_emojis.txt",
+          "sort_order": "Alphabetical",
+          "top_n": 5,
+          "min_frequency_threshold": 1
+        }
+      },
+      {
+        "query": "Please analyze '😂😂🤣😊😊😂😂🤔🤔🤔' for emoji frequency. The results should be stored in 'laugh_emojis.txt', sorted in Ascending order, including only the top 2 emojis that appear at least 3 times.",
+        "filled_param": {
+          "input_string": "😂😂🤣😊😊😂😂🤔🤔🤔",
+          "file_path": "laugh_emojis.txt",
+          "sort_order": "Ascending",
+          "top_n": 2,
+          "min_frequency_threshold": 3
+        }
+      },
+      {
+        "query": "Perform an emoji frequency analysis on the string '🏆⚽️🏆🥇⚽️🏆🎖️🎖️🏆'. Save the analysis in 'sports_emojis.txt', sort results Descending, show the top 4, and include emojis with a minimum of 2 occurrences.",
+        "filled_param": {
+          "input_string": "🏆⚽️🏆🥇⚽️🏆🎖️🎖️🏆",
+          "file_path": "sports_emojis.txt",
+          "sort_order": "Descending",
+          "top_n": 4,
+          "min_frequency_threshold": 2
+        }
+      },
+      {
+        "query": "Evaluate the emoji frequency in '😎🚀🔥🔥😎😎🚀🚀🌟🌟', save it to 'cool_emojis.txt' sorted Alphabetically, with the top 3, and include those appearing at least twice.",
+        "filled_param": {
+          "input_string": "😎🚀🔥🔥😎😎🚀🚀🌟🌟",
+          "file_path": "cool_emojis.txt",
+          "sort_order": "Alphabetical",
+          "top_n": 3,
+          "min_frequency_threshold": 2
+        }
+      }
+    ]
+  },
+  "symbol_frequency|:|Chinese characters|:|input_string,file_path,sort_order,top_n,min_frequency_threshold": {
+    "tool_template_name": "symbol_frequency",
+    "derived_class": "Chinese characters",
+    "params_for_query": [
+      "input_string",
+      "file_path",
+      "sort_order",
+      "top_n",
+      "min_frequency_threshold"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the frequency of Chinese characters in the string '你好你好世界' and save the results to '/results/frequency1.txt'. Sort the results in Descending order and show the top 5 characters with a minimum frequency of 2.",
+        "filled_param": {
+          "input_string": "你好你好世界",
+          "file_path": "/results/frequency1.txt",
+          "sort_order": "Descending",
+          "top_n": 5,
+          "min_frequency_threshold": 2
+        }
+      },
+      {
+        "query": "Please process the string '中文文本分析测试' for Chinese characters frequency, store the output in '/output/frequency2.txt', sort it Alphabetically, and list the top 10 with at least a frequency of 1.",
+        "filled_param": {
+          "input_string": "中文文本分析测试",
+          "file_path": "/output/frequency2.txt",
+          "sort_order": "Alphabetical",
+          "top_n": 10,
+          "min_frequency_threshold": 1
+        }
+      },
+      {
+        "query": "Find the frequency of Chinese characters in '简单的字符串示例' and save it to '/data/frequency3.txt'. Use an Ascending sort order, displaying the top 3 characters with a minimum frequency of 1.",
+        "filled_param": {
+          "input_string": "简单的字符串示例",
+          "file_path": "/data/frequency3.txt",
+          "sort_order": "Ascending",
+          "top_n": 3,
+          "min_frequency_threshold": 1
+        }
+      },
+      {
+        "query": "I need the frequency count of Chinese characters from '文本内容包含汉字' saved at '/analysis/frequency4.txt'. Sort in Descending order, showing the top 8 characters with a frequency threshold of 3.",
+        "filled_param": {
+          "input_string": "文本内容包含汉字",
+          "file_path": "/analysis/frequency4.txt",
+          "sort_order": "Descending",
+          "top_n": 8,
+          "min_frequency_threshold": 3
+        }
+      },
+      {
+        "query": "Evaluate the Chinese characters frequency in '这是一个测试案例'. Please save the results to '/results/frequency5.txt', using Alphabetical sorting. Limit the output to the top 6 characters with a minimum occurrence of 2.",
+        "filled_param": {
+          "input_string": "这是一个测试案例",
+          "file_path": "/results/frequency5.txt",
+          "sort_order": "Alphabetical",
+          "top_n": 6,
+          "min_frequency_threshold": 2
+        }
+      }
+    ]
+  },
+  "symbol_frequency|:|Korean Hangul characters|:|input_string,file_path,sort_order,top_n,min_frequency_threshold": {
+    "tool_template_name": "symbol_frequency",
+    "derived_class": "Korean Hangul characters",
+    "params_for_query": [
+      "input_string",
+      "file_path",
+      "sort_order",
+      "top_n",
+      "min_frequency_threshold"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the Korean Hangul characters in the string '안녕하세요 여러분' and save the result to '/tmp/frequency_result.txt'. Sort the frequencies in Descending order, limit to top 5 characters, and include only those with a minimum frequency of 2.",
+        "filled_param": {
+          "input_string": "안녕하세요 여러분",
+          "file_path": "/tmp/frequency_result.txt",
+          "sort_order": "Descending",
+          "top_n": 5,
+          "min_frequency_threshold": 2
+        }
+      },
+      {
+        "query": "I need a frequency analysis of Korean Hangul characters from the text '한국어 텍스트 분석'. Store the results in 'output/frequency_analysis.txt', sorted Alphabetically. Show the top 10 and only include characters appearing at least 3 times.",
+        "filled_param": {
+          "input_string": "한국어 텍스트 분석",
+          "file_path": "output/frequency_analysis.txt",
+          "sort_order": "Alphabetical",
+          "top_n": 10,
+          "min_frequency_threshold": 3
+        }
+      },
+      {
+        "query": "Please determine the frequency of Korean Hangul characters in the phrase '문자열 예시', and save it to 'results/hangul_frequency.txt'. Sort the data in Ascending order, highlighting the top 8 characters and ensuring a minimum frequency of 1.",
+        "filled_param": {
+          "input_string": "문자열 예시",
+          "file_path": "results/hangul_frequency.txt",
+          "sort_order": "Ascending",
+          "top_n": 8,
+          "min_frequency_threshold": 1
+        }
+      },
+      {
+        "query": "Could you evaluate how often each Korean Hangul character appears in '테스트 데이터' and output the findings to '/data/hangul_count.txt'? Organize them in Descending order, showing the top 7, with a minimum frequency of 4.",
+        "filled_param": {
+          "input_string": "테스트 데이터",
+          "file_path": "/data/hangul_count.txt",
+          "sort_order": "Descending",
+          "top_n": 7,
+          "min_frequency_threshold": 4
+        }
+      },
+      {
+        "query": "Perform a frequency count of Korean Hangul characters in '예문을 분석해 주세요' and record it at '/home/user/frequency.txt'. Ensure the list is Ascending, limited to the top 6 characters, and that each appears at least twice.",
+        "filled_param": {
+          "input_string": "예문을 분석해 주세요",
+          "file_path": "/home/user/frequency.txt",
+          "sort_order": "Ascending",
+          "top_n": 6,
+          "min_frequency_threshold": 2
+        }
+      }
+    ]
+  },
+  "symbol_frequency|:|digit characters|:|input_string,file_path,sort_order,top_n,min_frequency_threshold": {
+    "tool_template_name": "symbol_frequency",
+    "derived_class": "digit characters",
+    "params_for_query": [
+      "input_string",
+      "file_path",
+      "sort_order",
+      "top_n",
+      "min_frequency_threshold"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the string '2023 is the year, and 123456 is just a sequence' for digit characters and save the result in 'results.txt', sorting in Descending order, limiting to the top 3 with minimum frequency threshold of 1.",
+        "filled_param": {
+          "input_string": "2023 is the year, and 123456 is just a sequence",
+          "file_path": "results.txt",
+          "sort_order": "Descending",
+          "top_n": 3,
+          "min_frequency_threshold": 1
+        }
+      },
+      {
+        "query": "Please process the digit characters in 'My phone number is 555-1234' and store the output in 'frequency_output.txt', sorted Alphabetically, showing top 5 frequencies, with a minimum threshold of 2.",
+        "filled_param": {
+          "input_string": "My phone number is 555-1234",
+          "file_path": "frequency_output.txt",
+          "sort_order": "Alphabetical",
+          "top_n": 5,
+          "min_frequency_threshold": 2
+        }
+      },
+      {
+        "query": "Can you assess the frequency of digit characters in 'Room 101, Floor 2, Building 5' and write to 'digit_freq.txt', using Ascending order, top 4 results, and a minimum frequency of 1?",
+        "filled_param": {
+          "input_string": "Room 101, Floor 2, Building 5",
+          "file_path": "digit_freq.txt",
+          "sort_order": "Ascending",
+          "top_n": 4,
+          "min_frequency_threshold": 1
+        }
+      },
+      {
+        "query": "Find the frequency of digit characters in 'Order 123456 is complete' and save it to 'output.txt', sorting Descending, showing top 6 digits, with a minimum threshold of 3.",
+        "filled_param": {
+          "input_string": "Order 123456 is complete",
+          "file_path": "output.txt",
+          "sort_order": "Descending",
+          "top_n": 6,
+          "min_frequency_threshold": 3
+        }
+      },
+      {
+        "query": "I need a frequency analysis of digit characters from 'The code is 8675309' saved in 'analysis.txt', in Ascending order, top 7 results, with at least 2 occurrences required.",
+        "filled_param": {
+          "input_string": "The code is 8675309",
+          "file_path": "analysis.txt",
+          "sort_order": "Ascending",
+          "top_n": 7,
+          "min_frequency_threshold": 2
+        }
+      }
+    ]
+  },
+  "symbol_frequency|:|Hebrew characters|:|input_string,file_path,sort_order,top_n,min_frequency_threshold": {
+    "tool_template_name": "symbol_frequency",
+    "derived_class": "Hebrew characters",
+    "params_for_query": [
+      "input_string",
+      "file_path",
+      "sort_order",
+      "top_n",
+      "min_frequency_threshold"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the Hebrew characters in the string 'שלום עולם שלום לכולם' and save the results to '/user/files/hebrew_analysis.txt' with the top 5 characters sorted in descending order and a minimum frequency threshold of 2.",
+        "filled_param": {
+          "input_string": "שלום עולם שלום לכולם",
+          "file_path": "/user/files/hebrew_analysis.txt",
+          "sort_order": "Descending",
+          "top_n": 5,
+          "min_frequency_threshold": 2
+        }
+      },
+      {
+        "query": "I need the frequency of Hebrew characters from 'ברוך הבא לבית ספר' saved at '/output/hebrew_freq.txt', sorted alphabetically, showing the top 3 characters with a threshold of at least 1.",
+        "filled_param": {
+          "input_string": "ברוך הבא לבית ספר",
+          "file_path": "/output/hebrew_freq.txt",
+          "sort_order": "Alphabetical",
+          "top_n": 3,
+          "min_frequency_threshold": 1
+        }
+      },
+      {
+        "query": "Calculate the frequency of Hebrew characters in 'לחם גבינה יין' and save the top 4 results to '/data/char_freq.txt' in ascending order, ensuring a minimum frequency of 1.",
+        "filled_param": {
+          "input_string": "לחם גבינה יין",
+          "file_path": "/data/char_freq.txt",
+          "sort_order": "Ascending",
+          "top_n": 4,
+          "min_frequency_threshold": 1
+        }
+      },
+      {
+        "query": "Please find the frequency of Hebrew characters in the string 'תפוח בננה תפוח תפוז' and store it in '/reports/frequency.txt', limiting to the top 6 results with a descending sort order and a frequency threshold of 2.",
+        "filled_param": {
+          "input_string": "תפוח בננה תפוח תפוז",
+          "file_path": "/reports/frequency.txt",
+          "sort_order": "Descending",
+          "top_n": 6,
+          "min_frequency_threshold": 2
+        }
+      },
+      {
+        "query": "Examine the Hebrew characters in 'מים חלב קפה' and record the top 2 in '/analysis/hebrew_output.txt' sorted alphabetically, with each appearing at least once.",
+        "filled_param": {
+          "input_string": "מים חלב קפה",
+          "file_path": "/analysis/hebrew_output.txt",
+          "sort_order": "Alphabetical",
+          "top_n": 2,
+          "min_frequency_threshold": 1
+        }
+      }
+    ]
+  },
+  "symbol_frequency|:|whitespace characters|:|input_string,file_path,sort_order,top_n,min_frequency_threshold": {
+    "tool_template_name": "symbol_frequency",
+    "derived_class": "whitespace characters",
+    "params_for_query": [
+      "input_string",
+      "file_path",
+      "sort_order",
+      "top_n",
+      "min_frequency_threshold"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the whitespace characters in the string 'Hello\tWorld \nThis is a test.' and save the result to '/tmp/whitespace_output.txt', showing the top 3 most frequent characters in descending order, with a minimum frequency of 2.",
+        "filled_param": {
+          "input_string": "Hello\tWorld \nThis is a test.",
+          "file_path": "/tmp/whitespace_output.txt",
+          "sort_order": "Descending",
+          "top_n": 3,
+          "min_frequency_threshold": 2
+        }
+      },
+      {
+        "query": "Evaluate whitespace characters in 'Line1\nLine2\r\nLine3 \tEnd' and store the data in '/results/whitespace_report.txt', listing the top 2 characters alphabetically with a minimum appearance of 1.",
+        "filled_param": {
+          "input_string": "Line1\nLine2\r\nLine3 \tEnd",
+          "file_path": "/results/whitespace_report.txt",
+          "sort_order": "Alphabetical",
+          "top_n": 2,
+          "min_frequency_threshold": 1
+        }
+      },
+      {
+        "query": "Can you determine the frequency of whitespace characters in 'Sample text \n with\tvarious whitespace.' and write the result to '/output/frequency_analysis.txt'? Please sort the top 4 characters in ascending order, with a threshold of 3.",
+        "filled_param": {
+          "input_string": "Sample text \n with\tvarious whitespace.",
+          "file_path": "/output/frequency_analysis.txt",
+          "sort_order": "Ascending",
+          "top_n": 4,
+          "min_frequency_threshold": 3
+        }
+      },
+      {
+        "query": "Find and save the frequency of whitespace characters for the string 'Whitespace\t\nanalysis \r\ndata' to '/data/whitespace_frequency.txt', displaying the top 5 symbols sorted alphabetically with a minimum frequency of 2.",
+        "filled_param": {
+          "input_string": "Whitespace\t\nanalysis \r\ndata",
+          "file_path": "/data/whitespace_frequency.txt",
+          "sort_order": "Alphabetical",
+          "top_n": 5,
+          "min_frequency_threshold": 2
+        }
+      },
+      {
+        "query": "Check 'New\nline\rreturn\ttab ' for whitespace characters and save the results in '/analysis/whitespace.txt'. Limit to the top 3 in descending order with a threshold of 1.",
+        "filled_param": {
+          "input_string": "New\nline\rreturn\ttab ",
+          "file_path": "/analysis/whitespace.txt",
+          "sort_order": "Descending",
+          "top_n": 3,
+          "min_frequency_threshold": 1
+        }
+      }
+    ]
+  }
+}

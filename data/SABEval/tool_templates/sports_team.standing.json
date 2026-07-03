@@ -1,0 +1,65 @@
+{
+  "tool_template_name": "sports_team.standing",
+  "meta_data": {
+    "base_class": "Retrieve the current standing of a team in a <team-based professional sport> league - refers to any sport that is structured around competing teams in formal leagues where seasonal rankings are maintained.",
+    "derived_classes": [
+      "basketball",
+      "soccer",
+      "baseball",
+      "ice hockey",
+      "handball",
+      "rugby",
+      "field hockey",
+      "lacrosse",
+      "cricket",
+      "volleyball",
+      "table tennis"
+    ],
+    "base_class_entity": "league"
+  },
+  "tool_template": {
+    "name": "<class>_team.standing",
+    "description": "Retrieve the current standing of a <class> team in its respective league.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "team_name": {
+          "type": "string",
+          "description": "The name of the <class> team."
+        },
+        "league": {
+          "type": "string",
+          "description": "The <class> league in which the team participates."
+        }
+      },
+      "required": [
+        "team_name",
+        "league"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "season_year": {
+      "type": "integer",
+      "description": "The season year for which the standing is needed."
+    }
+  },
+  "additional_params": {
+    "region": {
+      "type": "string",
+      "description": "The geographical region of the <class> league to specify where the team competes."
+    },
+    "include_playoffs": {
+      "type": "boolean",
+      "description": "A flag indicating whether the standings should include playoff results for the <class> league."
+    },
+    "include_friendly_matches": {
+      "type": "boolean",
+      "description": "A flag indicating whether friendly matches should be considered in the standing of the <class> team."
+    },
+    "home_away": {
+      "type": "string",
+      "description": "Specify whether to retrieve standings based on home, away, or combined performance of the <class> team."
+    }
+  }
+}

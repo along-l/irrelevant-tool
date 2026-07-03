@@ -1,0 +1,65 @@
+{
+  "tool_template_name": "ProfessionalFridgeRepairServiceFinder",
+  "meta_data": {
+    "base_class": "Find professional repair services for specific <appliances> - refers to various large household products that have dedicated repair services.",
+    "derived_classes": [
+      "refrigerator",
+      "washing machine",
+      "air conditioner",
+      "microwave oven",
+      "gas stove",
+      "water heater",
+      "television",
+      "range hood",
+      "dishwasher",
+      "air purifier",
+      "treadmill",
+      "sterilizer cabinet"
+    ],
+    "base_class_entity": "Fridge"
+  },
+  "tool_template": {
+    "name": "Professional<class>RepairServiceFinder",
+    "description": "Find professional repair services for <class> issues.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "location": {
+          "type": "string",
+          "description": "The user's location to find nearby repair services."
+        }
+      },
+      "required": [
+        "location"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "include_ratings": {
+      "type": "boolean",
+      "description": "Whether to include ratings of the repair services."
+    },
+    "service_type": {
+      "type": "string",
+      "description": "Type of service needed for the <class> (e.g., noise reduction, odor removal, component inspection)."
+    }
+  },
+  "additional_params": {
+    "warranty_status": {
+      "type": "string",
+      "description": "The warranty status of the <class>, which can affect repair service options, including 'In Warranty' or 'Out of Warranty'."
+    },
+    "service_speed_preference": {
+      "type": "string",
+      "description": "The preferred speed of service for the repair of the <class>. One of the following options: 'Standard', 'Express', 'Urgent'."
+    },
+    "preferred_contact_method": {
+      "type": "string",
+      "description": "The preferred method of contact for updates regarding the repair service for the <class>. One of the following options: 'Email', 'Phone', 'Text Message'."
+    },
+    "budget_limit": {
+      "type": "number",
+      "description": "The maximum budget available for repair services for the <class>."
+    }
+  }
+}

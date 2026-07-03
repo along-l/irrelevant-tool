@@ -1,0 +1,71 @@
+{
+  "tool_template_name": "reserve_flight",
+  "meta_data": {
+    "base_class": "Book a <public transportation> trip for a user, including passenger details and payment method - refers to various public transport modes with reservable schedules.",
+    "derived_classes": [
+      "flight",
+      "high-speed train",
+      "cruise ship",
+      "long-distance bus"
+    ],
+    "base_class_entity": "flight"
+  },
+  "tool_template": {
+    "name": "reserve_<class>",
+    "description": "Book a <class> for the user.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "user_id": {
+          "type": "string",
+          "description": "The ID of the user making the <class> reservation."
+        },
+        "reservation_no": {
+          "type": "string",
+          "description": "The reservation number for the <class> the user wants to book."
+        },
+        "cabin": {
+          "type": "string",
+          "description": "The class or section for the booking."
+        }
+      },
+      "required": [
+        "user_id",
+        "reservation_no",
+        "cabin"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "password": {
+      "type": "string",
+      "description": "The password of the user for authentication."
+    },
+    "payment_method": {
+      "type": "string",
+      "description": "The payment method to book the <class>."
+    },
+    "baggage_count": {
+      "type": "integer",
+      "description": "The total number of checked baggage items."
+    }
+  },
+  "additional_params": {
+    "seat_preference": {
+      "type": "string",
+      "description": "The preferred seating arrangement for the <class> reservation, such as 'window', 'aisle', or 'any'."
+    },
+    "special_assistance": {
+      "type": "boolean",
+      "description": "Indicates if special assistance is required for the <class> reservation, such as wheelchair access or assistance for visually impaired travelers."
+    },
+    "meal_preference": {
+      "type": "string",
+      "description": "The meal preference for the <class> reservation, such as 'vegetarian', 'vegan', 'gluten-free', or 'no preference'."
+    },
+    "travel_insurance": {
+      "type": "boolean",
+      "description": "Specifies whether travel insurance is included with the <class> reservation."
+    }
+  }
+}

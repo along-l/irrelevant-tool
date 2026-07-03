@@ -1,0 +1,537 @@
+{
+  "lowest_price|:|electronic product|:|city,product_name,currency,include_taxes,retailer_preference,discounts": {
+    "tool_template_name": "lowest_price",
+    "derived_class": "electronic product",
+    "params_for_query": [
+      "city",
+      "product_name",
+      "currency",
+      "include_taxes",
+      "retailer_preference",
+      "discounts"
+    ],
+    "queries": [
+      {
+        "query": "Find me the lowest price for an electronic product like the Samsung Galaxy S21 in New York, including taxes, in USD, from any retailer, considering discounts.",
+        "filled_param": {
+          "city": "New York",
+          "product_name": "Samsung Galaxy S21",
+          "currency": "USD",
+          "include_taxes": true,
+          "retailer_preference": "any",
+          "discounts": true
+        }
+      },
+      {
+        "query": "What is the lowest price for the electronic product PlayStation 5 in Tokyo, excluding taxes, in JPY, from Bic Camera, without considering discounts?",
+        "filled_param": {
+          "city": "Tokyo",
+          "product_name": "PlayStation 5",
+          "currency": "JPY",
+          "include_taxes": false,
+          "retailer_preference": "Bic Camera",
+          "discounts": false
+        }
+      },
+      {
+        "query": "Show me the best price for an electronic product, specifically an Apple MacBook Air, in Berlin, with taxes included, in EUR, from MediaMarkt, including any discounts.",
+        "filled_param": {
+          "city": "Berlin",
+          "product_name": "Apple MacBook Air",
+          "currency": "EUR",
+          "include_taxes": true,
+          "retailer_preference": "MediaMarkt",
+          "discounts": true
+        }
+      },
+      {
+        "query": "Can you give me the lowest price for the electronic product iPad Pro in Sydney, without taxes, in AUD, from JB Hi-Fi, without discounts?",
+        "filled_param": {
+          "city": "Sydney",
+          "product_name": "iPad Pro",
+          "currency": "AUD",
+          "include_taxes": false,
+          "retailer_preference": "JB Hi-Fi",
+          "discounts": false
+        }
+      },
+      {
+        "query": "I'd like to know the cheapest price for an electronic product such as a Dell XPS 13 in London, including taxes, in GBP, from any retailer, considering discounts.",
+        "filled_param": {
+          "city": "London",
+          "product_name": "Dell XPS 13",
+          "currency": "GBP",
+          "include_taxes": true,
+          "retailer_preference": "any",
+          "discounts": true
+        }
+      },
+      {
+        "query": "Please find the lowest price for the electronic product Bose QuietComfort 35 II in Paris, with taxes, in EUR, from FNAC, without considering discounts.",
+        "filled_param": {
+          "city": "Paris",
+          "product_name": "Bose QuietComfort 35 II",
+          "currency": "EUR",
+          "include_taxes": true,
+          "retailer_preference": "FNAC",
+          "discounts": false
+        }
+      },
+      {
+        "query": "Could you search for the lowest price of the electronic product Nintendo Switch OLED in Los Angeles, excluding taxes, in USD, from Best Buy, with discounts?",
+        "filled_param": {
+          "city": "Los Angeles",
+          "product_name": "Nintendo Switch OLED",
+          "currency": "USD",
+          "include_taxes": false,
+          "retailer_preference": "Best Buy",
+          "discounts": true
+        }
+      }
+    ]
+  },
+  "lowest_price|:|clothing product|:|city,product_name,currency,include_taxes,retailer_preference,discounts": {
+    "tool_template_name": "lowest_price",
+    "derived_class": "clothing product",
+    "params_for_query": [
+      "city",
+      "product_name",
+      "currency",
+      "include_taxes",
+      "retailer_preference",
+      "discounts"
+    ],
+    "queries": [
+      {
+        "query": "Find the lowest price for a denim jacket in New York City in USD including taxes, preferring Macy's and considering discounts.",
+        "filled_param": {
+          "city": "New York City",
+          "product_name": "denim jacket",
+          "currency": "USD",
+          "include_taxes": true,
+          "retailer_preference": "Macy's",
+          "discounts": true
+        }
+      },
+      {
+        "query": "What's the lowest price for a pair of running shoes in Los Angeles in EUR, excluding taxes, with a preference for Nike stores, and without discounts?",
+        "filled_param": {
+          "city": "Los Angeles",
+          "product_name": "running shoes",
+          "currency": "EUR",
+          "include_taxes": false,
+          "retailer_preference": "Nike",
+          "discounts": false
+        }
+      },
+      {
+        "query": "Could you provide the lowest price for a silk scarf in Paris using GBP, including taxes, preferably from Galeries Lafayette, and considering discounted prices?",
+        "filled_param": {
+          "city": "Paris",
+          "product_name": "silk scarf",
+          "currency": "GBP",
+          "include_taxes": true,
+          "retailer_preference": "Galeries Lafayette",
+          "discounts": true
+        }
+      },
+      {
+        "query": "I need the lowest price for a leather belt in Tokyo priced in JPY, excluding taxes, focusing on Uniqlo, and not considering discounts.",
+        "filled_param": {
+          "city": "Tokyo",
+          "product_name": "leather belt",
+          "currency": "JPY",
+          "include_taxes": false,
+          "retailer_preference": "Uniqlo",
+          "discounts": false
+        }
+      },
+      {
+        "query": "Where can I find the lowest price for a wool coat in London in AUD, including taxes, preferring Selfridges, and including discounts?",
+        "filled_param": {
+          "city": "London",
+          "product_name": "wool coat",
+          "currency": "AUD",
+          "include_taxes": true,
+          "retailer_preference": "Selfridges",
+          "discounts": true
+        }
+      },
+      {
+        "query": "Look up the lowest price for a summer dress in Sydney quoted in USD, excluding taxes, with a preference for David Jones, and no discounts considered.",
+        "filled_param": {
+          "city": "Sydney",
+          "product_name": "summer dress",
+          "currency": "USD",
+          "include_taxes": false,
+          "retailer_preference": "David Jones",
+          "discounts": false
+        }
+      }
+    ]
+  },
+  "lowest_price|:|furniture|:|city,product_name,currency,include_taxes,retailer_preference,discounts": {
+    "tool_template_name": "lowest_price",
+    "derived_class": "furniture",
+    "params_for_query": [
+      "city",
+      "product_name",
+      "currency",
+      "include_taxes",
+      "retailer_preference",
+      "discounts"
+    ],
+    "queries": [
+      {
+        "query": "What's the lowest price for a loveseat in Los Angeles, including taxes, from IKEA, with discounts, in USD?",
+        "filled_param": {
+          "city": "Los Angeles",
+          "product_name": "loveseat",
+          "currency": "USD",
+          "include_taxes": true,
+          "retailer_preference": "IKEA",
+          "discounts": true
+        }
+      },
+      {
+        "query": "Can you find the cheapest dining table in London with taxes included and discounts from John Lewis, priced in GBP?",
+        "filled_param": {
+          "city": "London",
+          "product_name": "dining table",
+          "currency": "GBP",
+          "include_taxes": true,
+          "retailer_preference": "John Lewis",
+          "discounts": true
+        }
+      },
+      {
+        "query": "I need the lowest price for a king-size bed in New York City, excluding taxes, prefer Wayfair, with no discounts, in USD.",
+        "filled_param": {
+          "city": "New York City",
+          "product_name": "king-size bed",
+          "currency": "USD",
+          "include_taxes": false,
+          "retailer_preference": "Wayfair",
+          "discounts": false
+        }
+      },
+      {
+        "query": "What's the best price I can get for a coffee table in Toronto with taxes included, from The Brick, considering discounts, in CAD?",
+        "filled_param": {
+          "city": "Toronto",
+          "product_name": "coffee table",
+          "currency": "CAD",
+          "include_taxes": true,
+          "retailer_preference": "The Brick",
+          "discounts": true
+        }
+      },
+      {
+        "query": "Find the least expensive office chair in San Francisco, no taxes, prefer Staples, without considering discounts, in USD.",
+        "filled_param": {
+          "city": "San Francisco",
+          "product_name": "office chair",
+          "currency": "USD",
+          "include_taxes": false,
+          "retailer_preference": "Staples",
+          "discounts": false
+        }
+      },
+      {
+        "query": "Can you provide the lowest price for a bookshelf in Sydney, with taxes, from Harvey Norman, without discounts, in AUD?",
+        "filled_param": {
+          "city": "Sydney",
+          "product_name": "bookshelf",
+          "currency": "AUD",
+          "include_taxes": true,
+          "retailer_preference": "Harvey Norman",
+          "discounts": false
+        }
+      },
+      {
+        "query": "What's the cheapest price for a recliner in Paris, including taxes and discounts, from Leroy Merlin, in EUR?",
+        "filled_param": {
+          "city": "Paris",
+          "product_name": "recliner",
+          "currency": "EUR",
+          "include_taxes": true,
+          "retailer_preference": "Leroy Merlin",
+          "discounts": true
+        }
+      }
+    ]
+  },
+  "lowest_price|:|sporting goods|:|city,product_name,currency,include_taxes,retailer_preference,discounts": {
+    "tool_template_name": "lowest_price",
+    "derived_class": "sporting goods",
+    "params_for_query": [
+      "city",
+      "product_name",
+      "currency",
+      "include_taxes",
+      "retailer_preference",
+      "discounts"
+    ],
+    "queries": [
+      {
+        "query": "Find the lowest price for soccer balls in New York, including taxes, at any available retailer, and consider discounts, using USD.",
+        "filled_param": {
+          "city": "New York",
+          "product_name": "soccer balls",
+          "currency": "USD",
+          "include_taxes": true,
+          "retailer_preference": "any",
+          "discounts": true
+        }
+      },
+      {
+        "query": "What's the cheapest price available for tennis rackets in Los Angeles with no taxes and without considering discounts, price in EUR, preferably from Sports Direct?",
+        "filled_param": {
+          "city": "Los Angeles",
+          "product_name": "tennis rackets",
+          "currency": "EUR",
+          "include_taxes": false,
+          "retailer_preference": "Sports Direct",
+          "discounts": false
+        }
+      },
+      {
+        "query": "Get me the lowest price on basketballs in Chicago, including discounts, without taxes, and show the price in GBP, from any retailer.",
+        "filled_param": {
+          "city": "Chicago",
+          "product_name": "basketballs",
+          "currency": "GBP",
+          "include_taxes": false,
+          "retailer_preference": "any",
+          "discounts": true
+        }
+      },
+      {
+        "query": "Can you provide the lowest price for yoga mats in San Francisco, tax-inclusive, at Dick's Sporting Goods, considering discounts, priced in USD?",
+        "filled_param": {
+          "city": "San Francisco",
+          "product_name": "yoga mats",
+          "currency": "USD",
+          "include_taxes": true,
+          "retailer_preference": "Dick's Sporting Goods",
+          "discounts": true
+        }
+      },
+      {
+        "query": "I need the best price for golf clubs in Miami, excluding taxes and discounts, in CAD, preferably from Golf Town.",
+        "filled_param": {
+          "city": "Miami",
+          "product_name": "golf clubs",
+          "currency": "CAD",
+          "include_taxes": false,
+          "retailer_preference": "Golf Town",
+          "discounts": false
+        }
+      },
+      {
+        "query": "Locate the lowest price for running shoes in London, without including taxes or discounts, from any retailer, using USD.",
+        "filled_param": {
+          "city": "London",
+          "product_name": "running shoes",
+          "currency": "USD",
+          "include_taxes": false,
+          "retailer_preference": "any",
+          "discounts": false
+        }
+      },
+      {
+        "query": "Show me the lowest price for skiing equipment in Denver, including both taxes and discounts, from any preferred retailer, price in EUR.",
+        "filled_param": {
+          "city": "Denver",
+          "product_name": "skiing equipment",
+          "currency": "EUR",
+          "include_taxes": true,
+          "retailer_preference": "any",
+          "discounts": true
+        }
+      }
+    ]
+  },
+  "lowest_price|:|food product|:|city,product_name,currency,include_taxes,retailer_preference,discounts": {
+    "tool_template_name": "lowest_price",
+    "derived_class": "food product",
+    "params_for_query": [
+      "city",
+      "product_name",
+      "currency",
+      "include_taxes",
+      "retailer_preference",
+      "discounts"
+    ],
+    "queries": [
+      {
+        "query": "What's the lowest price for the food product 'organic apples' in New York, considering taxes, from Whole Foods, in USD, and including discounts?",
+        "filled_param": {
+          "city": "New York",
+          "product_name": "organic apples",
+          "currency": "USD",
+          "include_taxes": true,
+          "retailer_preference": "Whole Foods",
+          "discounts": true
+        }
+      },
+      {
+        "query": "Find me the cheapest price for the food product 'cheddar cheese' in London, including taxes, at Tesco, in GBP, and consider any discounts.",
+        "filled_param": {
+          "city": "London",
+          "product_name": "cheddar cheese",
+          "currency": "GBP",
+          "include_taxes": true,
+          "retailer_preference": "Tesco",
+          "discounts": true
+        }
+      },
+      {
+        "query": "Could you tell me the lowest price for the food product 'basmati rice' in Mumbai, without taxes, at Big Bazaar, priced in INR, without considering discounts?",
+        "filled_param": {
+          "city": "Mumbai",
+          "product_name": "basmati rice",
+          "currency": "INR",
+          "include_taxes": false,
+          "retailer_preference": "Big Bazaar",
+          "discounts": false
+        }
+      },
+      {
+        "query": "What is the lowest cost of the food product 'salmon fillets' in Sydney, Australia, including taxes, from Woolworths, in AUD, and with discounts considered?",
+        "filled_param": {
+          "city": "Sydney",
+          "product_name": "salmon fillets",
+          "currency": "AUD",
+          "include_taxes": true,
+          "retailer_preference": "Woolworths",
+          "discounts": true
+        }
+      },
+      {
+        "query": "Can you find the lowest price for the food product 'whole wheat bread' in Berlin, without taxes, at Lidl, priced in EUR, and discounts excluded?",
+        "filled_param": {
+          "city": "Berlin",
+          "product_name": "whole wheat bread",
+          "currency": "EUR",
+          "include_taxes": false,
+          "retailer_preference": "Lidl",
+          "discounts": false
+        }
+      },
+      {
+        "query": "I'd like to know the cheapest price for the food product 'olive oil' in Rome, with taxes included, at Carrefour, in EUR, and considering discounts.",
+        "filled_param": {
+          "city": "Rome",
+          "product_name": "olive oil",
+          "currency": "EUR",
+          "include_taxes": true,
+          "retailer_preference": "Carrefour",
+          "discounts": true
+        }
+      },
+      {
+        "query": "What is the lowest price available for the food product 'almond milk' in Tokyo, without taxes, at Aeon, in JPY, not considering discounts?",
+        "filled_param": {
+          "city": "Tokyo",
+          "product_name": "almond milk",
+          "currency": "JPY",
+          "include_taxes": false,
+          "retailer_preference": "Aeon",
+          "discounts": false
+        }
+      }
+    ]
+  },
+  "lowest_price|:|children toy|:|city,product_name,currency,include_taxes,retailer_preference,discounts": {
+    "tool_template_name": "lowest_price",
+    "derived_class": "children toy",
+    "params_for_query": [
+      "city",
+      "product_name",
+      "currency",
+      "include_taxes",
+      "retailer_preference",
+      "discounts"
+    ],
+    "queries": [
+      {
+        "query": "What's the lowest price for the children toy 'Lego Star Wars' in New York, in USD, including taxes, with a preference for Target, and considering discounts?",
+        "filled_param": {
+          "city": "New York",
+          "product_name": "Lego Star Wars",
+          "currency": "USD",
+          "include_taxes": true,
+          "retailer_preference": "Target",
+          "discounts": true
+        }
+      },
+      {
+        "query": "Find the cheapest price for the children toy 'Barbie Dreamhouse' available in Los Angeles, in EUR, excluding taxes, preferring Walmart, and ignoring discounts.",
+        "filled_param": {
+          "city": "Los Angeles",
+          "product_name": "Barbie Dreamhouse",
+          "currency": "EUR",
+          "include_taxes": false,
+          "retailer_preference": "Walmart",
+          "discounts": false
+        }
+      },
+      {
+        "query": "Could you get me the lowest price for the children toy 'Hot Wheels Track Set' in Chicago, using CAD, with taxes included, favoring Toys 'R' Us, and applying discounts?",
+        "filled_param": {
+          "city": "Chicago",
+          "product_name": "Hot Wheels Track Set",
+          "currency": "CAD",
+          "include_taxes": true,
+          "retailer_preference": "Toys 'R' Us",
+          "discounts": true
+        }
+      },
+      {
+        "query": "Where can I find the children toy 'Play-Doh Kitchen Creations' for the least amount in Toronto, in GBP, excluding taxes, preferring online shops, without discounts?",
+        "filled_param": {
+          "city": "Toronto",
+          "product_name": "Play-Doh Kitchen Creations",
+          "currency": "GBP",
+          "include_taxes": false,
+          "retailer_preference": "online shops",
+          "discounts": false
+        }
+      },
+      {
+        "query": "Please locate the lowest price for the children toy 'NERF Blaster' in Sydney, using AUD, taxes not included, prioritizing local stores, and considering discounted prices.",
+        "filled_param": {
+          "city": "Sydney",
+          "product_name": "NERF Blaster",
+          "currency": "AUD",
+          "include_taxes": false,
+          "retailer_preference": "local stores",
+          "discounts": true
+        }
+      },
+      {
+        "query": "What is the cheapest price for the children toy 'Fisher-Price Laugh & Learn' in Paris, in JPY, with taxes included, at Amazon, and without considering discounts?",
+        "filled_param": {
+          "city": "Paris",
+          "product_name": "Fisher-Price Laugh & Learn",
+          "currency": "JPY",
+          "include_taxes": true,
+          "retailer_preference": "Amazon",
+          "discounts": false
+        }
+      },
+      {
+        "query": "Can you help me find the lowest price for the children toy 'Monopoly Junior' in Berlin, in USD, with taxes, favoring department stores, and checking for discounts?",
+        "filled_param": {
+          "city": "Berlin",
+          "product_name": "Monopoly Junior",
+          "currency": "USD",
+          "include_taxes": true,
+          "retailer_preference": "department stores",
+          "discounts": true
+        }
+      }
+    ]
+  }
+}

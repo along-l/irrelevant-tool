@@ -1,0 +1,790 @@
+{
+  "grocery_info.nutritional_info|:|fruit|:|store,food,information": {
+    "tool_template_name": "grocery_info.nutritional_info",
+    "derived_class": "fruit",
+    "params_for_query": [
+      "store",
+      "food",
+      "information"
+    ],
+    "queries": [
+      {
+        "query": "What are the vitamin and sugar contents for bananas available at Trader Joe's?",
+        "filled_param": {
+          "store": "Trader Joe's",
+          "food": "bananas",
+          "information": [
+            "vitamin",
+            "sugar"
+          ]
+        }
+      },
+      {
+        "query": "Can you provide the calorie and fiber information for apples from Whole Foods?",
+        "filled_param": {
+          "store": "Whole Foods",
+          "food": "apples",
+          "information": [
+            "calorie",
+            "fiber"
+          ]
+        }
+      },
+      {
+        "query": "I need to know the protein and carbohydrate values of mangoes at Safeway.",
+        "filled_param": {
+          "store": "Safeway",
+          "food": "mangoes",
+          "information": [
+            "protein",
+            "carbohydrate"
+          ]
+        }
+      },
+      {
+        "query": "Retrieve the fat and calcium levels for oranges found in Walmart.",
+        "filled_param": {
+          "store": "Walmart",
+          "food": "oranges",
+          "information": [
+            "fat",
+            "calcium"
+          ]
+        }
+      },
+      {
+        "query": "Please tell me the iron and vitamin C content of strawberries at Kroger.",
+        "filled_param": {
+          "store": "Kroger",
+          "food": "strawberries",
+          "information": [
+            "iron",
+            "vitamin C"
+          ]
+        }
+      },
+      {
+        "query": "What are the sodium and sugar levels in pineapples from Costco?",
+        "filled_param": {
+          "store": "Costco",
+          "food": "pineapples",
+          "information": [
+            "sodium",
+            "sugar"
+          ]
+        }
+      },
+      {
+        "query": "Could you give me the details on fiber and potassium for lemons available at Aldi?",
+        "filled_param": {
+          "store": "Aldi",
+          "food": "lemons",
+          "information": [
+            "fiber",
+            "potassium"
+          ]
+        }
+      }
+    ]
+  },
+  "grocery_info.nutritional_info|:|vegetable|:|store,food,information": {
+    "tool_template_name": "grocery_info.nutritional_info",
+    "derived_class": "vegetable",
+    "params_for_query": [
+      "store",
+      "food",
+      "information"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the calorie and fiber content for spinach from Whole Foods?",
+        "filled_param": {
+          "store": "Whole Foods",
+          "food": "spinach",
+          "information": [
+            "calorie",
+            "fiber"
+          ]
+        }
+      },
+      {
+        "query": "I need the vitamin C and iron levels for kale available at Trader Joe's.",
+        "filled_param": {
+          "store": "Trader Joe's",
+          "food": "kale",
+          "information": [
+            "vitamin C",
+            "iron"
+          ]
+        }
+      },
+      {
+        "query": "What is the protein and carbohydrate content for broccoli from Walmart?",
+        "filled_param": {
+          "store": "Walmart",
+          "food": "broccoli",
+          "information": [
+            "protein",
+            "carbohydrate"
+          ]
+        }
+      },
+      {
+        "query": "Could you tell me the sugar and sodium levels for carrots that I can buy at Safeway?",
+        "filled_param": {
+          "store": "Safeway",
+          "food": "carrots",
+          "information": [
+            "sugar",
+            "sodium"
+          ]
+        }
+      },
+      {
+        "query": "Find out the potassium and calcium content for zucchini from Kroger.",
+        "filled_param": {
+          "store": "Kroger",
+          "food": "zucchini",
+          "information": [
+            "potassium",
+            "calcium"
+          ]
+        }
+      },
+      {
+        "query": "What are the fat and cholesterol levels in bell peppers available at Costco?",
+        "filled_param": {
+          "store": "Costco",
+          "food": "bell peppers",
+          "information": [
+            "fat",
+            "cholesterol"
+          ]
+        }
+      },
+      {
+        "query": "I am looking for the fiber and vitamin A content of lettuce sold at Aldi.",
+        "filled_param": {
+          "store": "Aldi",
+          "food": "lettuce",
+          "information": [
+            "fiber",
+            "vitamin A"
+          ]
+        }
+      }
+    ]
+  },
+  "grocery_info.nutritional_info|:|meat|:|store,food,information": {
+    "tool_template_name": "grocery_info.nutritional_info",
+    "derived_class": "meat",
+    "params_for_query": [
+      "store",
+      "food",
+      "information"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the nutritional information for chicken breast available at Whole Foods, specifically calories, protein, and fat content?",
+        "filled_param": {
+          "store": "Whole Foods",
+          "food": "chicken breast",
+          "information": [
+            "calories",
+            "protein",
+            "fat"
+          ]
+        }
+      },
+      {
+        "query": "What are the sodium and sugar levels in the ground beef sold at Trader Joe's?",
+        "filled_param": {
+          "store": "Trader Joe's",
+          "food": "ground beef",
+          "information": [
+            "sodium",
+            "sugar"
+          ]
+        }
+      },
+      {
+        "query": "I'd like to know the vitamin content and cholesterol in pork chops from Walmart.",
+        "filled_param": {
+          "store": "Walmart",
+          "food": "pork chops",
+          "information": [
+            "vitamin content",
+            "cholesterol"
+          ]
+        }
+      },
+      {
+        "query": "Retrieve the iron and carbohydrate values for lamb shanks at Costco.",
+        "filled_param": {
+          "store": "Costco",
+          "food": "lamb shanks",
+          "information": [
+            "iron",
+            "carbohydrates"
+          ]
+        }
+      },
+      {
+        "query": "Could you give me the saturated fat and trans fat amounts in turkey breast from Safeway?",
+        "filled_param": {
+          "store": "Safeway",
+          "food": "turkey breast",
+          "information": [
+            "saturated fat",
+            "trans fat"
+          ]
+        }
+      },
+      {
+        "query": "Find out the fiber and calcium content for duck meat available at Publix.",
+        "filled_param": {
+          "store": "Publix",
+          "food": "duck meat",
+          "information": [
+            "fiber",
+            "calcium"
+          ]
+        }
+      },
+      {
+        "query": "What is the potassium and magnesium content of ribeye steak at Kroger?",
+        "filled_param": {
+          "store": "Kroger",
+          "food": "ribeye steak",
+          "information": [
+            "potassium",
+            "magnesium"
+          ]
+        }
+      }
+    ]
+  },
+  "grocery_info.nutritional_info|:|seafood|:|store,food,information": {
+    "tool_template_name": "grocery_info.nutritional_info",
+    "derived_class": "seafood",
+    "params_for_query": [
+      "store",
+      "food",
+      "information"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the calorie and protein content for salmon from Whole Foods?",
+        "filled_param": {
+          "store": "Whole Foods",
+          "food": "salmon",
+          "information": [
+            "calorie",
+            "protein"
+          ]
+        }
+      },
+      {
+        "query": "I'm looking for the fat and sodium levels in shrimp from Trader Joe's. Can you help?",
+        "filled_param": {
+          "store": "Trader Joe's",
+          "food": "shrimp",
+          "information": [
+            "fat",
+            "sodium"
+          ]
+        }
+      },
+      {
+        "query": "Tell me about the vitamin D and omega-3 content of mackerel available at Safeway.",
+        "filled_param": {
+          "store": "Safeway",
+          "food": "mackerel",
+          "information": [
+            "vitamin D",
+            "omega-3"
+          ]
+        }
+      },
+      {
+        "query": "What is the cholesterol and carbohydrate content in tuna from Costco?",
+        "filled_param": {
+          "store": "Costco",
+          "food": "tuna",
+          "information": [
+            "cholesterol",
+            "carbohydrate"
+          ]
+        }
+      },
+      {
+        "query": "Can you find out the sugar and fiber content for crab at Walmart?",
+        "filled_param": {
+          "store": "Walmart",
+          "food": "crab",
+          "information": [
+            "sugar",
+            "fiber"
+          ]
+        }
+      },
+      {
+        "query": "I need information on the calcium and iron levels in scallops from Kroger.",
+        "filled_param": {
+          "store": "Kroger",
+          "food": "scallops",
+          "information": [
+            "calcium",
+            "iron"
+          ]
+        }
+      },
+      {
+        "query": "What are the potassium and magnesium contents in cod from Aldi?",
+        "filled_param": {
+          "store": "Aldi",
+          "food": "cod",
+          "information": [
+            "potassium",
+            "magnesium"
+          ]
+        }
+      }
+    ]
+  },
+  "grocery_info.nutritional_info|:|dairy product|:|store,food,information": {
+    "tool_template_name": "grocery_info.nutritional_info",
+    "derived_class": "dairy product",
+    "params_for_query": [
+      "store",
+      "food",
+      "information"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the nutritional details for the dairy product 'Greek Yogurt' available at Walmart, specifically focusing on its protein, fat, and sugar content?",
+        "filled_param": {
+          "store": "Walmart",
+          "food": "Greek Yogurt",
+          "information": [
+            "protein",
+            "fat",
+            "sugar"
+          ]
+        }
+      },
+      {
+        "query": "I need the calorie and carbohydrate content information for the dairy product 'Cheddar Cheese' from Whole Foods. Can you help with that?",
+        "filled_param": {
+          "store": "Whole Foods",
+          "food": "Cheddar Cheese",
+          "information": [
+            "calories",
+            "carbohydrates"
+          ]
+        }
+      },
+      {
+        "query": "What are the sodium and cholesterol levels of the dairy product 'Butter' that I can buy from Trader Joe's?",
+        "filled_param": {
+          "store": "Trader Joe's",
+          "food": "Butter",
+          "information": [
+            "sodium",
+            "cholesterol"
+          ]
+        }
+      },
+      {
+        "query": "Can you give me the details on calcium and vitamin D for the dairy product 'Almond Milk' available at Costco?",
+        "filled_param": {
+          "store": "Costco",
+          "food": "Almond Milk",
+          "information": [
+            "calcium",
+            "vitamin D"
+          ]
+        }
+      },
+      {
+        "query": "I am looking for the fat and protein content of the dairy product 'Cottage Cheese' sold at Safeway. What can you find?",
+        "filled_param": {
+          "store": "Safeway",
+          "food": "Cottage Cheese",
+          "information": [
+            "fat",
+            "protein"
+          ]
+        }
+      },
+      {
+        "query": "Please provide nutrition facts focusing on calories, sugar, and protein for the dairy product 'Skim Milk' from Kroger.",
+        "filled_param": {
+          "store": "Kroger",
+          "food": "Skim Milk",
+          "information": [
+            "calories",
+            "sugar",
+            "protein"
+          ]
+        }
+      },
+      {
+        "query": "Could you tell me the amount of carbohydrates and cholesterol in the dairy product 'Mozzarella Cheese' found at Aldi?",
+        "filled_param": {
+          "store": "Aldi",
+          "food": "Mozzarella Cheese",
+          "information": [
+            "carbohydrates",
+            "cholesterol"
+          ]
+        }
+      }
+    ]
+  },
+  "grocery_info.nutritional_info|:|grain|:|store,food,information": {
+    "tool_template_name": "grocery_info.nutritional_info",
+    "derived_class": "grain",
+    "params_for_query": [
+      "store",
+      "food",
+      "information"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the nutritional info for quinoa at Whole Foods, specifically calories and protein content?",
+        "filled_param": {
+          "store": "Whole Foods",
+          "food": "quinoa",
+          "information": [
+            "calories",
+            "protein"
+          ]
+        }
+      },
+      {
+        "query": "I'd like to know the fiber and carbohydrate content of millet from Trader Joe's.",
+        "filled_param": {
+          "store": "Trader Joe's",
+          "food": "millet",
+          "information": [
+            "fiber",
+            "carbohydrate"
+          ]
+        }
+      },
+      {
+        "query": "Retrieve the fat and sugar levels for barley sold at Walmart.",
+        "filled_param": {
+          "store": "Walmart",
+          "food": "barley",
+          "information": [
+            "fat",
+            "sugar"
+          ]
+        }
+      },
+      {
+        "query": "Could you find out the protein and vitamin content of brown rice from Costco?",
+        "filled_param": {
+          "store": "Costco",
+          "food": "brown rice",
+          "information": [
+            "protein",
+            "vitamin"
+          ]
+        }
+      },
+      {
+        "query": "What is the nutritional breakdown, particularly iron and calcium, for buckwheat available at Kroger?",
+        "filled_param": {
+          "store": "Kroger",
+          "food": "buckwheat",
+          "information": [
+            "iron",
+            "calcium"
+          ]
+        }
+      },
+      {
+        "query": "Please get me the energy and sodium levels for oats from Safeway.",
+        "filled_param": {
+          "store": "Safeway",
+          "food": "oats",
+          "information": [
+            "energy",
+            "sodium"
+          ]
+        }
+      },
+      {
+        "query": "What are the details on dietary fiber and potassium for spelt sold at Albertsons?",
+        "filled_param": {
+          "store": "Albertsons",
+          "food": "spelt",
+          "information": [
+            "dietary fiber",
+            "potassium"
+          ]
+        }
+      }
+    ]
+  },
+  "grocery_info.nutritional_info|:|beverage|:|store,food,information": {
+    "tool_template_name": "grocery_info.nutritional_info",
+    "derived_class": "beverage",
+    "params_for_query": [
+      "store",
+      "food",
+      "information"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the nutritional details for the beverage Coca-Cola from Walmart, specifically the calories and sugar content?",
+        "filled_param": {
+          "store": "Walmart",
+          "food": "Coca-Cola",
+          "information": [
+            "calories",
+            "sugar"
+          ]
+        }
+      },
+      {
+        "query": "I need to know the nutritional information of the beverage Tropicana Orange Juice from Target, focusing on vitamin C and carbohydrates.",
+        "filled_param": {
+          "store": "Target",
+          "food": "Tropicana Orange Juice",
+          "information": [
+            "vitamin C",
+            "carbohydrates"
+          ]
+        }
+      },
+      {
+        "query": "Could you give me the sodium and caffeine content for the beverage Starbucks Cold Brew from the Starbucks store?",
+        "filled_param": {
+          "store": "Starbucks",
+          "food": "Starbucks Cold Brew",
+          "information": [
+            "sodium",
+            "caffeine"
+          ]
+        }
+      },
+      {
+        "query": "Find out the protein and fat content of the beverage Almond Milk from Trader Joe's.",
+        "filled_param": {
+          "store": "Trader Joe's",
+          "food": "Almond Milk",
+          "information": [
+            "protein",
+            "fat"
+          ]
+        }
+      },
+      {
+        "query": "What are the fiber and sugar levels in the beverage Naked Green Machine from Whole Foods?",
+        "filled_param": {
+          "store": "Whole Foods",
+          "food": "Naked Green Machine",
+          "information": [
+            "fiber",
+            "sugar"
+          ]
+        }
+      },
+      {
+        "query": "I'd like to know how much calcium and vitamin D is in the beverage Silk Soy Milk from Costco.",
+        "filled_param": {
+          "store": "Costco",
+          "food": "Silk Soy Milk",
+          "information": [
+            "calcium",
+            "vitamin D"
+          ]
+        }
+      },
+      {
+        "query": "Please provide the total fat and potassium content for the beverage Pepsi from Safeway.",
+        "filled_param": {
+          "store": "Safeway",
+          "food": "Pepsi",
+          "information": [
+            "total fat",
+            "potassium"
+          ]
+        }
+      }
+    ]
+  },
+  "grocery_info.nutritional_info|:|snack|:|store,food,information": {
+    "tool_template_name": "grocery_info.nutritional_info",
+    "derived_class": "snack",
+    "params_for_query": [
+      "store",
+      "food",
+      "information"
+    ],
+    "queries": [
+      {
+        "query": "Can you get the calorie, fat, and protein content for the snack 'Trail Mix' from Whole Foods?",
+        "filled_param": {
+          "store": "Whole Foods",
+          "food": "Trail Mix",
+          "information": [
+            "calorie",
+            "fat",
+            "protein"
+          ]
+        }
+      },
+      {
+        "query": "Please provide the sugar and fiber details for the snack 'Granola Bar' sold at Trader Joe's.",
+        "filled_param": {
+          "store": "Trader Joe's",
+          "food": "Granola Bar",
+          "information": [
+            "sugar",
+            "fiber"
+          ]
+        }
+      },
+      {
+        "query": "I need to know the sodium, carbohydrate, and vitamin content of the 'Potato Chips' from Walmart.",
+        "filled_param": {
+          "store": "Walmart",
+          "food": "Potato Chips",
+          "information": [
+            "sodium",
+            "carbohydrate",
+            "vitamin"
+          ]
+        }
+      },
+      {
+        "query": "Can you find out the iron and calcium content for 'Peanut Butter Cups' available at Costco?",
+        "filled_param": {
+          "store": "Costco",
+          "food": "Peanut Butter Cups",
+          "information": [
+            "iron",
+            "calcium"
+          ]
+        }
+      },
+      {
+        "query": "What is the cholesterol and saturated fat content of 'Popcorn' from Safeway?",
+        "filled_param": {
+          "store": "Safeway",
+          "food": "Popcorn",
+          "information": [
+            "cholesterol",
+            "saturated fat"
+          ]
+        }
+      },
+      {
+        "query": "Retrieve the potassium, magnesium, and trans fat levels for 'Veggie Chips' at Target.",
+        "filled_param": {
+          "store": "Target",
+          "food": "Veggie Chips",
+          "information": [
+            "potassium",
+            "magnesium",
+            "trans fat"
+          ]
+        }
+      },
+      {
+        "query": "Could you give me the vitamin C, calcium, and sugar content of 'Chocolate Chip Cookies' from Aldi?",
+        "filled_param": {
+          "store": "Aldi",
+          "food": "Chocolate Chip Cookies",
+          "information": [
+            "vitamin C",
+            "calcium",
+            "sugar"
+          ]
+        }
+      }
+    ]
+  },
+  "grocery_info.nutritional_info|:|condiment|:|store,food,information": {
+    "tool_template_name": "grocery_info.nutritional_info",
+    "derived_class": "condiment",
+    "params_for_query": [
+      "store",
+      "food",
+      "information"
+    ],
+    "queries": [
+      {
+        "query": "Could you get the nutritional information for ketchup from Whole Foods, specifically the calorie and sugar content of this condiment?",
+        "filled_param": {
+          "store": "Whole Foods",
+          "food": "ketchup",
+          "information": [
+            "calorie",
+            "sugar"
+          ]
+        }
+      },
+      {
+        "query": "I need the sodium and fat content for mayonnaise available at Walmart. Can you find this condiment's details?",
+        "filled_param": {
+          "store": "Walmart",
+          "food": "mayonnaise",
+          "information": [
+            "sodium",
+            "fat"
+          ]
+        }
+      },
+      {
+        "query": "What are the protein and carbohydrate levels in the mustard sold at Trader Joe's? I need this condiment's nutritional breakdown.",
+        "filled_param": {
+          "store": "Trader Joe's",
+          "food": "mustard",
+          "information": [
+            "protein",
+            "carbohydrate"
+          ]
+        }
+      },
+      {
+        "query": "Can you provide the fiber and cholesterol values for soy sauce from Costco? I'm looking for this condiment's nutritional details.",
+        "filled_param": {
+          "store": "Costco",
+          "food": "soy sauce",
+          "information": [
+            "fiber",
+            "cholesterol"
+          ]
+        }
+      },
+      {
+        "query": "Find out the vitamin content and iron levels in the barbecue sauce offered at Safeway. I need these details for this condiment.",
+        "filled_param": {
+          "store": "Safeway",
+          "food": "barbecue sauce",
+          "information": [
+            "vitamin",
+            "iron"
+          ]
+        }
+      },
+      {
+        "query": "Could you retrieve the trans fat and calcium content for the sriracha from Aldi? I'm interested in the nutritional info of this condiment.",
+        "filled_param": {
+          "store": "Aldi",
+          "food": "sriracha",
+          "information": [
+            "trans fat",
+            "calcium"
+          ]
+        }
+      }
+    ]
+  }
+}

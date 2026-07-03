@@ -1,0 +1,278 @@
+{
+  "reserve_flight|:|flight|:|user_id,reservation_no,cabin,password,payment_method,baggage_count": {
+    "tool_template_name": "reserve_flight",
+    "derived_class": "flight",
+    "params_for_query": [
+      "user_id",
+      "reservation_no",
+      "cabin",
+      "password",
+      "payment_method",
+      "baggage_count"
+    ],
+    "queries": [
+      {
+        "query": "I'd like to book flight number A12345 in business class using my credit card. My user ID is U7890, and I will be checking in 2 bags. My password is securePass2023.",
+        "filled_param": {
+          "user_id": "U7890",
+          "reservation_no": "A12345",
+          "cabin": "business",
+          "password": "securePass2023",
+          "payment_method": "credit card",
+          "baggage_count": 2
+        }
+      },
+      {
+        "query": "Can you reserve a flight with reservation number B67890 for me? I'll be flying economy, and I'll pay with PayPal. My user ID is U1234, and I'm bringing 1 piece of luggage. My password is safePass123.",
+        "filled_param": {
+          "user_id": "U1234",
+          "reservation_no": "B67890",
+          "cabin": "economy",
+          "password": "safePass123",
+          "payment_method": "PayPal",
+          "baggage_count": 1
+        }
+      },
+      {
+        "query": "Please book the flight with reservation number C34567 in first class. Use my debit card as payment. I have 3 bags. My user ID is U5678, and my password is strongPass456.",
+        "filled_param": {
+          "user_id": "U5678",
+          "reservation_no": "C34567",
+          "cabin": "first",
+          "password": "strongPass456",
+          "payment_method": "debit card",
+          "baggage_count": 3
+        }
+      },
+      {
+        "query": "I need to reserve flight D90123 in premium economy. My user ID is U3456, and I'll use my credit card for the payment. I have 0 checked bags. My password is pass789secure.",
+        "filled_param": {
+          "user_id": "U3456",
+          "reservation_no": "D90123",
+          "cabin": "premium economy",
+          "password": "pass789secure",
+          "payment_method": "credit card",
+          "baggage_count": 0
+        }
+      },
+      {
+        "query": "Book flight E67890 for me in economy class. My user ID is U9012, and I'll pay through bank transfer. I will have 2 checked bags. My password is securePass890.",
+        "filled_param": {
+          "user_id": "U9012",
+          "reservation_no": "E67890",
+          "cabin": "economy",
+          "password": "securePass890",
+          "payment_method": "bank transfer",
+          "baggage_count": 2
+        }
+      }
+    ]
+  },
+  "reserve_flight|:|high-speed train|:|user_id,reservation_no,cabin,password,payment_method,baggage_count": {
+    "tool_template_name": "reserve_flight",
+    "derived_class": "high-speed train",
+    "params_for_query": [
+      "user_id",
+      "reservation_no",
+      "cabin",
+      "password",
+      "payment_method",
+      "baggage_count"
+    ],
+    "queries": [
+      {
+        "query": "Please book a high-speed train for user ID U12345 with reservation number R67890 in first class. The password is securePass1, and use a credit card for payment with 2 checked bags.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_no": "R67890",
+          "cabin": "first class",
+          "password": "securePass1",
+          "payment_method": "credit card",
+          "baggage_count": 2
+        }
+      },
+      {
+        "query": "I need to reserve a high-speed train seat for user ID A98765 with reservation number B54321. Please book in business class, use PayPal for payment, and I have 1 bag. The password is mySecret123.",
+        "filled_param": {
+          "user_id": "A98765",
+          "reservation_no": "B54321",
+          "cabin": "business class",
+          "password": "mySecret123",
+          "payment_method": "PayPal",
+          "baggage_count": 1
+        }
+      },
+      {
+        "query": "Secure a high-speed train booking for user ID Z13579 with reservation number Y24680 in economy class. The password is travelSafe456, and I'll pay with a debit card. I have 3 pieces of baggage.",
+        "filled_param": {
+          "user_id": "Z13579",
+          "reservation_no": "Y24680",
+          "cabin": "economy class",
+          "password": "travelSafe456",
+          "payment_method": "debit card",
+          "baggage_count": 3
+        }
+      },
+      {
+        "query": "Can you reserve a high-speed train ticket for user ID P11111 using reservation number Q22222 in premium economy? The password is topSecret789, the payment method is bank transfer, and there are no checked bags.",
+        "filled_param": {
+          "user_id": "P11111",
+          "reservation_no": "Q22222",
+          "cabin": "premium economy",
+          "password": "topSecret789",
+          "payment_method": "bank transfer",
+          "baggage_count": 0
+        }
+      },
+      {
+        "query": "I need to book a high-speed train journey for user ID L44444 with reservation number M55555 in sleeper class. The password is hiddenKey321 and I'll use cash for payment, with 4 bags.",
+        "filled_param": {
+          "user_id": "L44444",
+          "reservation_no": "M55555",
+          "cabin": "sleeper class",
+          "password": "hiddenKey321",
+          "payment_method": "cash",
+          "baggage_count": 4
+        }
+      }
+    ]
+  },
+  "reserve_flight|:|cruise ship|:|user_id,reservation_no,cabin,password,payment_method,baggage_count": {
+    "tool_template_name": "reserve_flight",
+    "derived_class": "cruise ship",
+    "params_for_query": [
+      "user_id",
+      "reservation_no",
+      "cabin",
+      "password",
+      "payment_method",
+      "baggage_count"
+    ],
+    "queries": [
+      {
+        "query": "I need to book a cruise ship with user ID 12345, reservation number 67890, in a deluxe cabin. Use my password 'securePass123' and charge it to my credit card. I'll have 2 pieces of baggage.",
+        "filled_param": {
+          "user_id": "12345",
+          "reservation_no": "67890",
+          "cabin": "deluxe",
+          "password": "securePass123",
+          "payment_method": "credit card",
+          "baggage_count": 2
+        }
+      },
+      {
+        "query": "Please reserve a cruise ship for user ID 54321 using reservation number 09876. I want to book the suite cabin with my password 'pass789', and pay through PayPal. I'll be bringing 3 bags.",
+        "filled_param": {
+          "user_id": "54321",
+          "reservation_no": "09876",
+          "cabin": "suite",
+          "password": "pass789",
+          "payment_method": "PayPal",
+          "baggage_count": 3
+        }
+      },
+      {
+        "query": "Using user ID 98765, book a cruise ship with reservation number 43210. The cabin should be standard. My password is 'mySecret456', and I'll use a debit card for payment. I'm checking in 1 bag.",
+        "filled_param": {
+          "user_id": "98765",
+          "reservation_no": "43210",
+          "cabin": "standard",
+          "password": "mySecret456",
+          "payment_method": "debit card",
+          "baggage_count": 1
+        }
+      },
+      {
+        "query": "I want to book a cruise ship for user ID 24680 with reservation number 13579. Choose a balcony cabin, use the password 'lockItUp987', and charge it to my account via Apple Pay. I'll be bringing 0 bags.",
+        "filled_param": {
+          "user_id": "24680",
+          "reservation_no": "13579",
+          "cabin": "balcony",
+          "password": "lockItUp987",
+          "payment_method": "Apple Pay",
+          "baggage_count": 0
+        }
+      },
+      {
+        "query": "Reserve a cruise ship under user ID 11223, reservation number 44556, in a family cabin. Password is 'familyFun2023', and pay with a bank transfer. I'll have 4 pieces of baggage.",
+        "filled_param": {
+          "user_id": "11223",
+          "reservation_no": "44556",
+          "cabin": "family",
+          "password": "familyFun2023",
+          "payment_method": "bank transfer",
+          "baggage_count": 4
+        }
+      }
+    ]
+  },
+  "reserve_flight|:|long-distance bus|:|user_id,reservation_no,cabin,password,payment_method,baggage_count": {
+    "tool_template_name": "reserve_flight",
+    "derived_class": "long-distance bus",
+    "params_for_query": [
+      "user_id",
+      "reservation_no",
+      "cabin",
+      "password",
+      "payment_method",
+      "baggage_count"
+    ],
+    "queries": [
+      {
+        "query": "I need to book a long-distance bus under reservation number 4567A for cabin economy. My user ID is user123, and I'll use a credit card for payment. I have 2 bags to check. The password is mySecretPass.",
+        "filled_param": {
+          "user_id": "user123",
+          "reservation_no": "4567A",
+          "cabin": "economy",
+          "password": "mySecretPass",
+          "payment_method": "credit card",
+          "baggage_count": 2
+        }
+      },
+      {
+        "query": "Please reserve a long-distance bus with reservation number 8945B, in the business class cabin. My user ID is johnDoe42, and I'll pay using PayPal. I have 1 checked bag. My password is securePass123.",
+        "filled_param": {
+          "user_id": "johnDoe42",
+          "reservation_no": "8945B",
+          "cabin": "business",
+          "password": "securePass123",
+          "payment_method": "PayPal",
+          "baggage_count": 1
+        }
+      },
+      {
+        "query": "Book a long-distance bus for me with reservation number 2233C. I want the VIP cabin. Use my user ID ann_smith78 and password myAnnPassword. I'll be paying through bank transfer and checking in 3 bags.",
+        "filled_param": {
+          "user_id": "ann_smith78",
+          "reservation_no": "2233C",
+          "cabin": "VIP",
+          "password": "myAnnPassword",
+          "payment_method": "bank transfer",
+          "baggage_count": 3
+        }
+      },
+      {
+        "query": "I'd like to reserve a long-distance bus under reservation number 9988D. I'll be in the standard cabin. My user ID is travel_guru99, I'll use my credit card for payment, and I have no checked baggage. The password is travelPass99.",
+        "filled_param": {
+          "user_id": "travel_guru99",
+          "reservation_no": "9988D",
+          "cabin": "standard",
+          "password": "travelPass99",
+          "payment_method": "credit card",
+          "baggage_count": 0
+        }
+      },
+      {
+        "query": "Can you help me book a long-distance bus with reservation number 5678E in the sleeper cabin? My user ID is zeta_alpha_27, and I will use Apple Pay for payment. I'll be checking in 2 bags. My password is zetaSecure27.",
+        "filled_param": {
+          "user_id": "zeta_alpha_27",
+          "reservation_no": "5678E",
+          "cabin": "sleeper",
+          "password": "zetaSecure27",
+          "payment_method": "Apple Pay",
+          "baggage_count": 2
+        }
+      }
+    ]
+  }
+}

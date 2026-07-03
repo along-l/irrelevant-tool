@@ -1,0 +1,812 @@
+{
+  "team_api.TeamApi.delete_api_key|:|OpenAI|:|apikey,confirmation_required,deletion_reason,user_id,notify_team": {
+    "tool_template_name": "team_api.TeamApi.delete_api_key",
+    "derived_class": "OpenAI",
+    "params_for_query": [
+      "apikey",
+      "confirmation_required",
+      "deletion_reason",
+      "user_id",
+      "notify_team"
+    ],
+    "queries": [
+      {
+        "query": "Please remove the OpenAI API key with ID 'abc123' from our account, require confirmation, note that it's outdated, initiated by user U001, and notify the team once done.",
+        "filled_param": {
+          "apikey": "abc123",
+          "confirmation_required": true,
+          "deletion_reason": "outdated",
+          "user_id": "U001",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Delete the OpenAI API key 'xyz789'. Ask for confirmation first, since it's compromised. User ID is U002. Notify the team about this action.",
+        "filled_param": {
+          "apikey": "xyz789",
+          "confirmation_required": true,
+          "deletion_reason": "compromised",
+          "user_id": "U002",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Can you delete the OpenAI API key 'key456'? No need for confirmation. Reason: project completed. User ID: U003. Do not notify the team.",
+        "filled_param": {
+          "apikey": "key456",
+          "confirmation_required": false,
+          "deletion_reason": "project completed",
+          "user_id": "U003",
+          "notify_team": false
+        }
+      },
+      {
+        "query": "Remove key 'def789' from OpenAI, confirm deletion needed. It's being retired. User U004 requests this, and the team should be notified.",
+        "filled_param": {
+          "apikey": "def789",
+          "confirmation_required": true,
+          "deletion_reason": "retired",
+          "user_id": "U004",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Erase OpenAI API key 'ghi012'. Confirmation not required. Reason: duplicate key. User ID is U005. Team notification is not necessary.",
+        "filled_param": {
+          "apikey": "ghi012",
+          "confirmation_required": false,
+          "deletion_reason": "duplicate key",
+          "user_id": "U005",
+          "notify_team": false
+        }
+      },
+      {
+        "query": "I'd like to delete the OpenAI key 'jkl345'. Ensure confirmation. Reason being security policy change, requested by user U006, and inform the team.",
+        "filled_param": {
+          "apikey": "jkl345",
+          "confirmation_required": true,
+          "deletion_reason": "security policy change",
+          "user_id": "U006",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Remove the OpenAI API key 'mno678' without confirmation, reason is access no longer needed, initiated by user U007, and do not notify the team.",
+        "filled_param": {
+          "apikey": "mno678",
+          "confirmation_required": false,
+          "deletion_reason": "access no longer needed",
+          "user_id": "U007",
+          "notify_team": false
+        }
+      }
+    ]
+  },
+  "team_api.TeamApi.delete_api_key|:|Google Cloud|:|apikey,confirmation_required,deletion_reason,user_id,notify_team": {
+    "tool_template_name": "team_api.TeamApi.delete_api_key",
+    "derived_class": "Google Cloud",
+    "params_for_query": [
+      "apikey",
+      "confirmation_required",
+      "deletion_reason",
+      "user_id",
+      "notify_team"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the Google Cloud API key '12345-abcde' with confirmation prompt enabled. The reason is that this key is no longer needed due to project completion. The request is made by user 'john_doe'. Notify the team once the key is deleted.",
+        "filled_param": {
+          "apikey": "12345-abcde",
+          "confirmation_required": true,
+          "deletion_reason": "This key is no longer needed due to project completion",
+          "user_id": "john_doe",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "I need you to remove the Google Cloud API key '67890-fghij', without a confirmation prompt. We are deleting this key because it was compromised. The user requesting this is 'jane_smith'. Do not notify the team of this deletion.",
+        "filled_param": {
+          "apikey": "67890-fghij",
+          "confirmation_required": false,
+          "deletion_reason": "Compromised key",
+          "user_id": "jane_smith",
+          "notify_team": false
+        }
+      },
+      {
+        "query": "Execute deletion of the Google Cloud API key '11111-xyz' with confirmation. Removal reason: duplicated key. Initiated by user 'michael_b'. Make sure the team gets a notification.",
+        "filled_param": {
+          "apikey": "11111-xyz",
+          "confirmation_required": true,
+          "deletion_reason": "Duplicated key",
+          "user_id": "michael_b",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Delete the Google Cloud API key '22222-uvw', ensure no confirmation is needed. The deletion is due to policy changes. Requested by user 'linda_k'. Team notification is required after deletion.",
+        "filled_param": {
+          "apikey": "22222-uvw",
+          "confirmation_required": false,
+          "deletion_reason": "Policy changes",
+          "user_id": "linda_k",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Please proceed with deleting Google Cloud API key '33333-rst' with confirmation. It's being removed because of account deactivation. The requesting user is 'dave_o'. Do not send a notification to the team.",
+        "filled_param": {
+          "apikey": "33333-rst",
+          "confirmation_required": true,
+          "deletion_reason": "Account deactivation",
+          "user_id": "dave_o",
+          "notify_team": false
+        }
+      },
+      {
+        "query": "Could you delete the Google Cloud API key '44444-qwe'? No confirmation needed. We are removing it as it's unused. The user ID is 'susan_p'. Notify the team after deletion.",
+        "filled_param": {
+          "apikey": "44444-qwe",
+          "confirmation_required": false,
+          "deletion_reason": "Unused key",
+          "user_id": "susan_p",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Initiate the deletion of Google Cloud API key '55555-yui'. Require confirmation before proceeding. The reason for deletion: expired key. This request is from 'alex_t'. Do not notify the team post-deletion.",
+        "filled_param": {
+          "apikey": "55555-yui",
+          "confirmation_required": true,
+          "deletion_reason": "Expired key",
+          "user_id": "alex_t",
+          "notify_team": false
+        }
+      }
+    ]
+  },
+  "team_api.TeamApi.delete_api_key|:|AWS|:|apikey,confirmation_required,deletion_reason,user_id,notify_team": {
+    "tool_template_name": "team_api.TeamApi.delete_api_key",
+    "derived_class": "AWS",
+    "params_for_query": [
+      "apikey",
+      "confirmation_required",
+      "deletion_reason",
+      "user_id",
+      "notify_team"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the AWS API key 12345-abcde-67890, and make sure to notify the team. No confirmation is needed. Reason for deletion: security breach. Requester ID is user789.",
+        "filled_param": {
+          "apikey": "12345-abcde-67890",
+          "confirmation_required": false,
+          "deletion_reason": "security breach",
+          "user_id": "user789",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Remove the AWS API key xyz-123-aws. A confirmation should be shown before proceeding. The user ID is admin123, and the reason for deletion is key rotation. Notify the team about this action.",
+        "filled_param": {
+          "apikey": "xyz-123-aws",
+          "confirmation_required": true,
+          "deletion_reason": "key rotation",
+          "user_id": "admin123",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "I need the AWS API key 09876-zxcvbn-54321 deleted. Don't notify the team and proceed without confirmation. Deletion reason: outdated key. My user ID is user101.",
+        "filled_param": {
+          "apikey": "09876-zxcvbn-54321",
+          "confirmation_required": false,
+          "deletion_reason": "outdated key",
+          "user_id": "user101",
+          "notify_team": false
+        }
+      },
+      {
+        "query": "Execute the deletion of AWS API key 13579-qpwoe-24680. Ensure a confirmation is prompted and notify the team. The reason is unauthorized use. User ID for this request is sysadmin098.",
+        "filled_param": {
+          "apikey": "13579-qpwoe-24680",
+          "confirmation_required": true,
+          "deletion_reason": "unauthorized use",
+          "user_id": "sysadmin098",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Can you delete the AWS API key key-123-456? Do not show a confirmation message. Reason: key misuse. My user ID is dev456. Notify the team once done.",
+        "filled_param": {
+          "apikey": "key-123-456",
+          "confirmation_required": false,
+          "deletion_reason": "key misuse",
+          "user_id": "dev456",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Delete the AWS API key abc-123-xyz and make sure not to notify the team. No confirmation needed. The reason for deletion is compromised key. The user ID is engineer007.",
+        "filled_param": {
+          "apikey": "abc-123-xyz",
+          "confirmation_required": false,
+          "deletion_reason": "compromised key",
+          "user_id": "engineer007",
+          "notify_team": false
+        }
+      },
+      {
+        "query": "Remove AWS API key lmn-456-opq urgently. Notify the team and request confirmation. Deletion reason: policy change. Executed by user id manager002.",
+        "filled_param": {
+          "apikey": "lmn-456-opq",
+          "confirmation_required": true,
+          "deletion_reason": "policy change",
+          "user_id": "manager002",
+          "notify_team": true
+        }
+      }
+    ]
+  },
+  "team_api.TeamApi.delete_api_key|:|Azure|:|apikey,confirmation_required,deletion_reason,user_id,notify_team": {
+    "tool_template_name": "team_api.TeamApi.delete_api_key",
+    "derived_class": "Azure",
+    "params_for_query": [
+      "apikey",
+      "confirmation_required",
+      "deletion_reason",
+      "user_id",
+      "notify_team"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the Azure API key 12345678-abcd-1234-ef00-1234567890ab. I need a confirmation prompt, and the reason is it's no longer needed. My user ID is user_001 and notify the team about this action.",
+        "filled_param": {
+          "apikey": "12345678-abcd-1234-ef00-1234567890ab",
+          "confirmation_required": true,
+          "deletion_reason": "it's no longer needed",
+          "user_id": "user_001",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Remove Azure API key 87654321-dcba-4321-fe00-0987654321ba immediately. No confirmation needed. Reason: compromised key. User ID: user_002. Do not notify the team.",
+        "filled_param": {
+          "apikey": "87654321-dcba-4321-fe00-0987654321ba",
+          "confirmation_required": false,
+          "deletion_reason": "compromised key",
+          "user_id": "user_002",
+          "notify_team": false
+        }
+      },
+      {
+        "query": "I request the deletion of Azure API key abcdef12-3456-7890-abcd-ef1234567890. A confirmation prompt is required. Reason: I am offboarding from the project. My user ID is user_003 and inform the team about this change.",
+        "filled_param": {
+          "apikey": "abcdef12-3456-7890-abcd-ef1234567890",
+          "confirmation_required": true,
+          "deletion_reason": "I am offboarding from the project",
+          "user_id": "user_003",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Delete the Azure API key 1234abcd-5678-efgh-9101-ijklmnopqrst. Confirmation is needed. Reason for deletion: rotating keys for security. User ID: user_004. Team notification should be disabled.",
+        "filled_param": {
+          "apikey": "1234abcd-5678-efgh-9101-ijklmnopqrst",
+          "confirmation_required": true,
+          "deletion_reason": "rotating keys for security",
+          "user_id": "user_004",
+          "notify_team": false
+        }
+      },
+      {
+        "query": "Can you remove Azure API key 0987fedc-6543-ba21-cd34-ef56gh78ijkl? No confirmation is needed. The reason is due to a system upgrade. My ID is user_005 and I'll handle team notifications separately.",
+        "filled_param": {
+          "apikey": "0987fedc-6543-ba21-cd34-ef56gh78ijkl",
+          "confirmation_required": false,
+          "deletion_reason": "due to a system upgrade",
+          "user_id": "user_005",
+          "notify_team": false
+        }
+      },
+      {
+        "query": "Initiate the removal of Azure API key bacd1234-5678-efgh-ijkl-9876mnop5432. A confirmation dialogue is required. The deletion reason is a scheduled key policy update. User ID is user_006 and ensure the team gets notified.",
+        "filled_param": {
+          "apikey": "bacd1234-5678-efgh-ijkl-9876mnop5432",
+          "confirmation_required": true,
+          "deletion_reason": "a scheduled key policy update",
+          "user_id": "user_006",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Please proceed with deleting the Azure API key 1122aabbcc-3344-ddee-5566-77889900ffgg without a confirmation prompt. The reason is to limit access during a security audit. I'm user_007 and I'd like the team to be notified.",
+        "filled_param": {
+          "apikey": "1122aabbcc-3344-ddee-5566-77889900ffgg",
+          "confirmation_required": false,
+          "deletion_reason": "to limit access during a security audit",
+          "user_id": "user_007",
+          "notify_team": true
+        }
+      }
+    ]
+  },
+  "team_api.TeamApi.delete_api_key|:|GitHub|:|apikey,confirmation_required,deletion_reason,user_id,notify_team": {
+    "tool_template_name": "team_api.TeamApi.delete_api_key",
+    "derived_class": "GitHub",
+    "params_for_query": [
+      "apikey",
+      "confirmation_required",
+      "deletion_reason",
+      "user_id",
+      "notify_team"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the GitHub API key with the identifier 'abc123' for user ID 'user789'. I confirm the deletion and the reason is that it's no longer in use. Notify the team after deletion.",
+        "filled_param": {
+          "apikey": "abc123",
+          "confirmation_required": true,
+          "deletion_reason": "no longer in use",
+          "user_id": "user789",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Remove the GitHub API key 'key456' immediately for user 'dev002'. Confirmation is required. The key is compromised, and the team should be notified once it’s deleted.",
+        "filled_param": {
+          "apikey": "key456",
+          "confirmation_required": true,
+          "deletion_reason": "key compromised",
+          "user_id": "dev002",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "I need the GitHub API key 'secureKey007' to be deleted for user ID 'admin123'. No confirmation needed. It's obsolete now, and there's no need to notify the team.",
+        "filled_param": {
+          "apikey": "secureKey007",
+          "confirmation_required": false,
+          "deletion_reason": "obsolete",
+          "user_id": "admin123",
+          "notify_team": false
+        }
+      },
+      {
+        "query": "Can you delete the GitHub API key 'xyz789' for user 'user456'? Make sure to confirm the deletion. The reason is security policy update, and the team does not need to be notified.",
+        "filled_param": {
+          "apikey": "xyz789",
+          "confirmation_required": true,
+          "deletion_reason": "security policy update",
+          "user_id": "user456",
+          "notify_team": false
+        }
+      },
+      {
+        "query": "Please proceed to delete the GitHub API key 'key999' associated with user 'dev123'. No confirmation is necessary. The deletion reason is project deprecation, and ensure the team is informed.",
+        "filled_param": {
+          "apikey": "key999",
+          "confirmation_required": false,
+          "deletion_reason": "project deprecation",
+          "user_id": "dev123",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Delete the GitHub API key 'accessKey001' for user ID 'teamLead'. Confirmation is required. The reason is team restructuring, and do notify the team after the operation.",
+        "filled_param": {
+          "apikey": "accessKey001",
+          "confirmation_required": true,
+          "deletion_reason": "team restructuring",
+          "user_id": "teamLead",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "I request the removal of GitHub API key 'tempKey098' for user 'manager001'. Confirmation is not required. The reason is temporary access expiration. Do not notify the team.",
+        "filled_param": {
+          "apikey": "tempKey098",
+          "confirmation_required": false,
+          "deletion_reason": "temporary access expiration",
+          "user_id": "manager001",
+          "notify_team": false
+        }
+      }
+    ]
+  },
+  "team_api.TeamApi.delete_api_key|:|Hugging Face|:|apikey,confirmation_required,deletion_reason,user_id,notify_team": {
+    "tool_template_name": "team_api.TeamApi.delete_api_key",
+    "derived_class": "Hugging Face",
+    "params_for_query": [
+      "apikey",
+      "confirmation_required",
+      "deletion_reason",
+      "user_id",
+      "notify_team"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the Hugging Face API key with ID 'api12345', confirming before deletion, due to security concerns. I am user 'user789' and notify the team once done.",
+        "filled_param": {
+          "apikey": "api12345",
+          "confirmation_required": true,
+          "deletion_reason": "security concerns",
+          "user_id": "user789",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Remove the Hugging Face API key 'key56789' without confirmation. The reason is that the project it was used for is completed. My user ID is 'user321'. No need to notify the team.",
+        "filled_param": {
+          "apikey": "key56789",
+          "confirmation_required": false,
+          "deletion_reason": "project completed",
+          "user_id": "user321",
+          "notify_team": false
+        }
+      },
+      {
+        "query": "I need to delete the Hugging Face API key identified by 'api00789'. Show a confirmation prompt since the reason is accidental exposure. The request is from 'user654' and ensure the team is notified.",
+        "filled_param": {
+          "apikey": "api00789",
+          "confirmation_required": true,
+          "deletion_reason": "accidental exposure",
+          "user_id": "user654",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Can you delete the Hugging Face API key 'api90876'? Skip confirmation. It's being deleted because the credentials were rotated. I'm 'user123'. Do not notify the team.",
+        "filled_param": {
+          "apikey": "api90876",
+          "confirmation_required": false,
+          "deletion_reason": "credentials rotated",
+          "user_id": "user123",
+          "notify_team": false
+        }
+      },
+      {
+        "query": "Kindly remove the Hugging Face API key 'key87654' and prompt for confirmation. The reason is a change in the team's policy. The user making this request is 'user456' and please notify the team.",
+        "filled_param": {
+          "apikey": "key87654",
+          "confirmation_required": true,
+          "deletion_reason": "change in team policy",
+          "user_id": "user456",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Delete the Hugging Face API key 'api45213'. I don't need a confirmation prompt. Reason for deletion is that it was compromised. Request initiated by 'user999', and don't send a team notification.",
+        "filled_param": {
+          "apikey": "api45213",
+          "confirmation_required": false,
+          "deletion_reason": "compromised",
+          "user_id": "user999",
+          "notify_team": false
+        }
+      }
+    ]
+  },
+  "team_api.TeamApi.delete_api_key|:|Slack|:|apikey,confirmation_required,deletion_reason,user_id,notify_team": {
+    "tool_template_name": "team_api.TeamApi.delete_api_key",
+    "derived_class": "Slack",
+    "params_for_query": [
+      "apikey",
+      "confirmation_required",
+      "deletion_reason",
+      "user_id",
+      "notify_team"
+    ],
+    "queries": [
+      {
+        "query": "Please remove the Slack API key with ID '123abc' due to security concerns. I am user 'user_456' and ensure a confirmation prompt is shown before proceeding. Also, notify the team after it's done.",
+        "filled_param": {
+          "apikey": "123abc",
+          "confirmation_required": true,
+          "deletion_reason": "security concerns",
+          "user_id": "user_456",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Delete the Slack API key 'apikey789' because it is no longer needed. I am user 'user_789', and make sure there's no confirmation prompt. Please do not notify the team.",
+        "filled_param": {
+          "apikey": "apikey789",
+          "confirmation_required": false,
+          "deletion_reason": "no longer needed",
+          "user_id": "user_789",
+          "notify_team": false
+        }
+      },
+      {
+        "query": "Can you delete the Slack API key 'key_abc123' as it's been compromised? I'm 'user_123'. Skip the confirmation prompt, but do notify the team.",
+        "filled_param": {
+          "apikey": "key_abc123",
+          "confirmation_required": false,
+          "deletion_reason": "compromised",
+          "user_id": "user_123",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Remove the Slack API key identified by 'key789xyz'. This is 'user_321', and the reason is API migration. Ensure a confirmation is required and notify the team.",
+        "filled_param": {
+          "apikey": "key789xyz",
+          "confirmation_required": true,
+          "deletion_reason": "API migration",
+          "user_id": "user_321",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "I need to delete the Slack API key 'def456key' because it was mistakenly created. My user ID is 'user_654'. Confirm before deleting and don't notify the team.",
+        "filled_param": {
+          "apikey": "def456key",
+          "confirmation_required": true,
+          "deletion_reason": "mistakenly created",
+          "user_id": "user_654",
+          "notify_team": false
+        }
+      },
+      {
+        "query": "Kindly remove the Slack API key 'key001xyz' due to end of project. I'm 'user_987'. No confirmation is needed, and please notify the team.",
+        "filled_param": {
+          "apikey": "key001xyz",
+          "confirmation_required": false,
+          "deletion_reason": "end of project",
+          "user_id": "user_987",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Delete Slack API key 'api_999abc' with the reason being a change in vendor. The user is 'user_111'. Require confirmation and refrain from notifying the team.",
+        "filled_param": {
+          "apikey": "api_999abc",
+          "confirmation_required": true,
+          "deletion_reason": "change in vendor",
+          "user_id": "user_111",
+          "notify_team": false
+        }
+      }
+    ]
+  },
+  "team_api.TeamApi.delete_api_key|:|Notion|:|apikey,confirmation_required,deletion_reason,user_id,notify_team": {
+    "tool_template_name": "team_api.TeamApi.delete_api_key",
+    "derived_class": "Notion",
+    "params_for_query": [
+      "apikey",
+      "confirmation_required",
+      "deletion_reason",
+      "user_id",
+      "notify_team"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the Notion API key with identifier '123456abcdef'. A confirmation is needed and the reason for deletion is 'key no longer used'. My user ID is 'user789' and notify the team once it's done.",
+        "filled_param": {
+          "apikey": "123456abcdef",
+          "confirmation_required": true,
+          "deletion_reason": "key no longer used",
+          "user_id": "user789",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Remove the Notion API key 'apikey987654'. I do not require a confirmation prompt. The deletion is because of 'security breach'. My user ID is 'admin007' and there's no need to notify the team.",
+        "filled_param": {
+          "apikey": "apikey987654",
+          "confirmation_required": false,
+          "deletion_reason": "security breach",
+          "user_id": "admin007",
+          "notify_team": false
+        }
+      },
+      {
+        "query": "Can you delete the Notion API key with code 'key12345xyz'? I need a confirmation before proceeding. The reason is 'access revocation'. My user ID is 'user456' and please notify the team after deletion.",
+        "filled_param": {
+          "apikey": "key12345xyz",
+          "confirmation_required": true,
+          "deletion_reason": "access revocation",
+          "user_id": "user456",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Initiate deletion of Notion API key 'abcdef123456'. Skip the confirmation prompt. The deletion reason is 'redundancy'. My user ID is 'user101' and ensure the team is notified.",
+        "filled_param": {
+          "apikey": "abcdef123456",
+          "confirmation_required": false,
+          "deletion_reason": "redundancy",
+          "user_id": "user101",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "I need to remove the Notion API key 'key67890abc' immediately. No confirmation is required. The key is being deleted because of 'expiration'. My user ID is 'user303' and there's no need to notify the team.",
+        "filled_param": {
+          "apikey": "key67890abc",
+          "confirmation_required": false,
+          "deletion_reason": "expiration",
+          "user_id": "user303",
+          "notify_team": false
+        }
+      },
+      {
+        "query": "Delete the Notion API key 'xyz987654321', and please confirm with me first. The reason for deletion is 'department change'. My user ID is 'manager001' and do not notify the team.",
+        "filled_param": {
+          "apikey": "xyz987654321",
+          "confirmation_required": true,
+          "deletion_reason": "department change",
+          "user_id": "manager001",
+          "notify_team": false
+        }
+      },
+      {
+        "query": "Please proceed to delete the Notion API key 'key987abc123'. A confirmation prompt is required. It's being deleted due to 'contract termination'. My user ID is 'user999' and notify the team upon successful deletion.",
+        "filled_param": {
+          "apikey": "key987abc123",
+          "confirmation_required": true,
+          "deletion_reason": "contract termination",
+          "user_id": "user999",
+          "notify_team": true
+        }
+      }
+    ]
+  },
+  "team_api.TeamApi.delete_api_key|:|Anthropic|:|apikey,confirmation_required,deletion_reason,user_id,notify_team": {
+    "tool_template_name": "team_api.TeamApi.delete_api_key",
+    "derived_class": "Anthropic",
+    "params_for_query": [
+      "apikey",
+      "confirmation_required",
+      "deletion_reason",
+      "user_id",
+      "notify_team"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the Anthropic API key with the ID 'abc123'. I need a confirmation prompt before proceeding. The reason for deletion is that it's expired, and my user ID is 'user789'. Also, notify the team after it's done.",
+        "filled_param": {
+          "apikey": "abc123",
+          "confirmation_required": true,
+          "deletion_reason": "expired API key",
+          "user_id": "user789",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "I need you to remove the Anthropic API key 'key987' without a confirmation prompt. The deletion is due to a security breach. My user ID is 'user123', and there's no need to notify the team.",
+        "filled_param": {
+          "apikey": "key987",
+          "confirmation_required": false,
+          "deletion_reason": "security breach",
+          "user_id": "user123",
+          "notify_team": false
+        }
+      },
+      {
+        "query": "Can you delete the Anthropic API key 'xyz456'? Make sure you confirm before deleting. The key is no longer needed, and my user ID is 'user321'. Ensure that the team is notified.",
+        "filled_param": {
+          "apikey": "xyz456",
+          "confirmation_required": true,
+          "deletion_reason": "no longer needed",
+          "user_id": "user321",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Remove the Anthropic API key identified by 'def789'. I don't require a confirmation. The reason is it's duplicated, and my ID is 'user456'. Please inform the team.",
+        "filled_param": {
+          "apikey": "def789",
+          "confirmation_required": false,
+          "deletion_reason": "duplicated key",
+          "user_id": "user456",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Delete the Anthropic API key 'ghi012'. I would like a confirmation before you proceed. The deletion is for maintenance reasons, my user ID is 'user654', and no team notification is necessary.",
+        "filled_param": {
+          "apikey": "ghi012",
+          "confirmation_required": true,
+          "deletion_reason": "maintenance",
+          "user_id": "user654",
+          "notify_team": false
+        }
+      },
+      {
+        "query": "Could you proceed to delete my Anthropic API key 'key345'? I don't need a confirmation. The reason for deletion is an API upgrade, and my user ID is 'user098'. Do inform the team once done.",
+        "filled_param": {
+          "apikey": "key345",
+          "confirmation_required": false,
+          "deletion_reason": "API upgrade",
+          "user_id": "user098",
+          "notify_team": true
+        }
+      }
+    ]
+  },
+  "team_api.TeamApi.delete_api_key|:|IBM Cloud|:|apikey,confirmation_required,deletion_reason,user_id,notify_team": {
+    "tool_template_name": "team_api.TeamApi.delete_api_key",
+    "derived_class": "IBM Cloud",
+    "params_for_query": [
+      "apikey",
+      "confirmation_required",
+      "deletion_reason",
+      "user_id",
+      "notify_team"
+    ],
+    "queries": [
+      {
+        "query": "Please delete the IBM Cloud API key with the ID 'apikey123', ensure confirmation is required, reason for deletion is 'Key is compromised', user ID is 'user567', and notify the team upon successful deletion.",
+        "filled_param": {
+          "apikey": "apikey123",
+          "confirmation_required": true,
+          "deletion_reason": "Key is compromised",
+          "user_id": "user567",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Remove the IBM Cloud API key identified as 'key789', without a confirmation prompt, because it is no longer needed by user 'admin01', and skip team notification.",
+        "filled_param": {
+          "apikey": "key789",
+          "confirmation_required": false,
+          "deletion_reason": "No longer needed",
+          "user_id": "admin01",
+          "notify_team": false
+        }
+      },
+      {
+        "query": "I need the IBM Cloud API key 'apiKeyXYZ' deleted. No confirmation is necessary. The reason is 'User request for deletion', user ID is 'user999', and the team should be informed.",
+        "filled_param": {
+          "apikey": "apiKeyXYZ",
+          "confirmation_required": false,
+          "deletion_reason": "User request for deletion",
+          "user_id": "user999",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Delete the IBM Cloud API key labeled 'secureKey456', request confirmation, due to 'Security policy update', by user 'sysAdmin22', without team notifications.",
+        "filled_param": {
+          "apikey": "secureKey456",
+          "confirmation_required": true,
+          "deletion_reason": "Security policy update",
+          "user_id": "sysAdmin22",
+          "notify_team": false
+        }
+      },
+      {
+        "query": "Kindly remove the IBM Cloud API key 'tempKey987', ensure confirmation, as it was 'Created for testing purposes', by 'developer77', and notify the team afterwards.",
+        "filled_param": {
+          "apikey": "tempKey987",
+          "confirmation_required": true,
+          "deletion_reason": "Created for testing purposes",
+          "user_id": "developer77",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Could you delete the IBM Cloud API key with ID 'oldKey321'? Confirm deletion, cite 'Redundant key', user 'manager04' initiated this, and notify the team.",
+        "filled_param": {
+          "apikey": "oldKey321",
+          "confirmation_required": true,
+          "deletion_reason": "Redundant key",
+          "user_id": "manager04",
+          "notify_team": true
+        }
+      },
+      {
+        "query": "Requesting deletion of IBM Cloud API key 'legacyKey654', no confirmation needed, reason: 'Replaced by new key', by user 'admin99', and skip team notification.",
+        "filled_param": {
+          "apikey": "legacyKey654",
+          "confirmation_required": false,
+          "deletion_reason": "Replaced by new key",
+          "user_id": "admin99",
+          "notify_team": false
+        }
+      }
+    ]
+  }
+}

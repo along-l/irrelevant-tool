@@ -1,0 +1,1368 @@
+{
+  "CelebritySentimentAnalysis.performAnalysis|:|football player|:|entity,start,end,sources,language,sentimentThreshold": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "football player",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end",
+      "sources",
+      "language",
+      "sentimentThreshold"
+    ],
+    "queries": [
+      {
+        "query": "Can you analyze the sentiment of news articles about the football player Lionel Messi from 2023-01-01 to 2023-01-31, focusing on sources like ESPN and BBC, in English, with a sentiment threshold of 0.5?",
+        "filled_param": {
+          "entity": "Lionel Messi",
+          "start": "2023-01-01",
+          "end": "2023-01-31",
+          "sources": [
+            "ESPN",
+            "BBC"
+          ],
+          "language": "English",
+          "sentimentThreshold": 0.5
+        }
+      },
+      {
+        "query": "I'd like a sentiment analysis on articles mentioning the football player Cristiano Ronaldo between 2023-02-01 and 2023-02-28 from Sky Sports and The Guardian, in English, using a sentiment threshold of 0.3.",
+        "filled_param": {
+          "entity": "Cristiano Ronaldo",
+          "start": "2023-02-01",
+          "end": "2023-02-28",
+          "sources": [
+            "Sky Sports",
+            "The Guardian"
+          ],
+          "language": "English",
+          "sentimentThreshold": 0.3
+        }
+      },
+      {
+        "query": "Perform a sentiment analysis on the football player Kylian Mbappe using articles from L'Équipe and France Football, from 2023-03-01 to 2023-03-15, written in French, with a sentiment threshold of 0.6.",
+        "filled_param": {
+          "entity": "Kylian Mbappe",
+          "start": "2023-03-01",
+          "end": "2023-03-15",
+          "sources": [
+            "L'Équipe",
+            "France Football"
+          ],
+          "language": "French",
+          "sentimentThreshold": 0.6
+        }
+      },
+      {
+        "query": "Please analyze sentiment in news articles about the football player Neymar Jr. from 2023-04-01 to 2023-04-30, sourced from Globo Esporte and El Mundo Deportivo, in Portuguese, with a sentiment threshold of -0.2.",
+        "filled_param": {
+          "entity": "Neymar Jr.",
+          "start": "2023-04-01",
+          "end": "2023-04-30",
+          "sources": [
+            "Globo Esporte",
+            "El Mundo Deportivo"
+          ],
+          "language": "Portuguese",
+          "sentimentThreshold": -0.2
+        }
+      },
+      {
+        "query": "Could you run a sentiment analysis on news for the football player Mohamed Salah between 2023-05-01 and 2023-05-31 from sources like Al Jazeera and BBC Arabic, in Arabic, with a threshold of 0.0?",
+        "filled_param": {
+          "entity": "Mohamed Salah",
+          "start": "2023-05-01",
+          "end": "2023-05-31",
+          "sources": [
+            "Al Jazeera",
+            "BBC Arabic"
+          ],
+          "language": "Arabic",
+          "sentimentThreshold": 0.0
+        }
+      }
+    ]
+  },
+  "CelebritySentimentAnalysis.performAnalysis|:|basketball player|:|entity,start,end,sources,language,sentimentThreshold": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "basketball player",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end",
+      "sources",
+      "language",
+      "sentimentThreshold"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the sentiment of news articles about the basketball player LeBron James from 2023-01-01 to 2023-03-01, using ESPN and Bleacher Report as sources, in English, with a sentiment threshold of 0.5.",
+        "filled_param": {
+          "entity": "LeBron James",
+          "start": "2023-01-01",
+          "end": "2023-03-01",
+          "sources": [
+            "ESPN",
+            "Bleacher Report"
+          ],
+          "language": "English",
+          "sentimentThreshold": 0.5
+        }
+      },
+      {
+        "query": "Perform a sentiment analysis on articles about basketball player Stephen Curry between 2023-05-01 and 2023-06-01, from the New York Times and Sports Illustrated, in Spanish, with a threshold of -0.3.",
+        "filled_param": {
+          "entity": "Stephen Curry",
+          "start": "2023-05-01",
+          "end": "2023-06-01",
+          "sources": [
+            "New York Times",
+            "Sports Illustrated"
+          ],
+          "language": "Spanish",
+          "sentimentThreshold": -0.3
+        }
+      },
+      {
+        "query": "Could you analyze the sentiment of articles related to the basketball player Giannis Antetokounmpo from Yahoo Sports and The Guardian, from 2023-02-15 to 2023-04-15, in Greek, with the sentiment threshold set at 0.2?",
+        "filled_param": {
+          "entity": "Giannis Antetokounmpo",
+          "start": "2023-02-15",
+          "end": "2023-04-15",
+          "sources": [
+            "Yahoo Sports",
+            "The Guardian"
+          ],
+          "language": "Greek",
+          "sentimentThreshold": 0.2
+        }
+      },
+      {
+        "query": "Investigate the sentiment for news articles about the basketball player Kevin Durant from Fox Sports and CBS Sports between 2023-08-01 and 2023-09-01, in French, with a sentiment threshold of 0.7.",
+        "filled_param": {
+          "entity": "Kevin Durant",
+          "start": "2023-08-01",
+          "end": "2023-09-01",
+          "sources": [
+            "Fox Sports",
+            "CBS Sports"
+          ],
+          "language": "French",
+          "sentimentThreshold": 0.7
+        }
+      },
+      {
+        "query": "I'd like to know the sentiment in Italian news articles about basketball player Luka Dončić from Sky Sports and The Athletic, from 2023-07-01 to 2023-07-31, with a sentiment threshold of 0.0.",
+        "filled_param": {
+          "entity": "Luka Dončić",
+          "start": "2023-07-01",
+          "end": "2023-07-31",
+          "sources": [
+            "Sky Sports",
+            "The Athletic"
+          ],
+          "language": "Italian",
+          "sentimentThreshold": 0.0
+        }
+      },
+      {
+        "query": "Can you provide a sentiment analysis of articles on basketball player Kawhi Leonard from The Washington Post and BBC Sport, between 2023-03-01 and 2023-04-01, in German, with a threshold of -0.5?",
+        "filled_param": {
+          "entity": "Kawhi Leonard",
+          "start": "2023-03-01",
+          "end": "2023-04-01",
+          "sources": [
+            "The Washington Post",
+            "BBC Sport"
+          ],
+          "language": "German",
+          "sentimentThreshold": -0.5
+        }
+      }
+    ]
+  },
+  "CelebritySentimentAnalysis.performAnalysis|:|volleyball player|:|entity,start,end,sources,language,sentimentThreshold": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "volleyball player",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end",
+      "sources",
+      "language",
+      "sentimentThreshold"
+    ],
+    "queries": [
+      {
+        "query": "Please analyze the sentiment of news articles about the volleyball player Karch Kiraly from 2023-06-01 to 2023-06-30, focusing on sources like ESPN and NBC Sports, and only considering articles in English with a sentiment score above 0.5.",
+        "filled_param": {
+          "entity": "Karch Kiraly",
+          "start": "2023-06-01",
+          "end": "2023-06-30",
+          "sources": [
+            "ESPN",
+            "NBC Sports"
+          ],
+          "language": "English",
+          "sentimentThreshold": 0.5
+        }
+      },
+      {
+        "query": "Could you conduct a sentiment analysis on articles about volleyball player Giba during the period from 2022-01-01 to 2022-01-31? Include sources like Globo and Folha de S.Paulo, in Portuguese, and focus on articles with a sentiment score of at least -0.3.",
+        "filled_param": {
+          "entity": "Giba",
+          "start": "2022-01-01",
+          "end": "2022-01-31",
+          "sources": [
+            "Globo",
+            "Folha de S.Paulo"
+          ],
+          "language": "Portuguese",
+          "sentimentThreshold": -0.3
+        }
+      },
+      {
+        "query": "Analyze sentiment for the volleyball player Kim Yeon-koung in articles from The Korea Herald and Yonhap News Agency, from 2023-03-01 to 2023-03-15 in Korean, with articles scoring above 0.0.",
+        "filled_param": {
+          "entity": "Kim Yeon-koung",
+          "start": "2023-03-01",
+          "end": "2023-03-15",
+          "sources": [
+            "The Korea Herald",
+            "Yonhap News Agency"
+          ],
+          "language": "Korean",
+          "sentimentThreshold": 0.0
+        }
+      },
+      {
+        "query": "Can you perform a sentiment analysis on news about volleyball player Ivan Zaytsev between 2022-11-01 and 2022-11-30 from sources such as La Gazzetta dello Sport and Corriere dello Sport in Italian, considering only articles with a sentiment lower than -0.5?",
+        "filled_param": {
+          "entity": "Ivan Zaytsev",
+          "start": "2022-11-01",
+          "end": "2022-11-30",
+          "sources": [
+            "La Gazzetta dello Sport",
+            "Corriere dello Sport"
+          ],
+          "language": "Italian",
+          "sentimentThreshold": -0.5
+        }
+      },
+      {
+        "query": "I'd like a sentiment analysis on articles about volleyball player Jordan Larson from 2023-02-01 to 2023-02-28, using sources such as Sports Illustrated and Volleyball Magazine, in English, with a focus on articles with sentiment scores above 0.7.",
+        "filled_param": {
+          "entity": "Jordan Larson",
+          "start": "2023-02-01",
+          "end": "2023-02-28",
+          "sources": [
+            "Sports Illustrated",
+            "Volleyball Magazine"
+          ],
+          "language": "English",
+          "sentimentThreshold": 0.7
+        }
+      },
+      {
+        "query": "Generate a sentiment report on the volleyball player Zhu Ting for the period of 2021-10-01 to 2021-10-31 from sources like Xinhua News Agency and China Daily, in Chinese, considering only articles with a sentiment score less than 0.2.",
+        "filled_param": {
+          "entity": "Zhu Ting",
+          "start": "2021-10-01",
+          "end": "2021-10-31",
+          "sources": [
+            "Xinhua News Agency",
+            "China Daily"
+          ],
+          "language": "Chinese",
+          "sentimentThreshold": 0.2
+        }
+      }
+    ]
+  },
+  "CelebritySentimentAnalysis.performAnalysis|:|tennis player|:|entity,start,end,sources,language,sentimentThreshold": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "tennis player",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end",
+      "sources",
+      "language",
+      "sentimentThreshold"
+    ],
+    "queries": [
+      {
+        "query": "Can you analyze the sentiment regarding tennis player Roger Federer from BBC and ESPN articles in English between 2023-01-01 and 2023-01-31 with a sentiment threshold of 0.5?",
+        "filled_param": {
+          "entity": "Roger Federer",
+          "start": "2023-01-01",
+          "end": "2023-01-31",
+          "sources": [
+            "BBC",
+            "ESPN"
+          ],
+          "language": "English",
+          "sentimentThreshold": 0.5
+        }
+      },
+      {
+        "query": "I need a sentiment analysis of news about tennis player Serena Williams from CNN and The Guardian in English, covering the period from 2023-02-01 to 2023-02-28, with a sentiment threshold of -0.2.",
+        "filled_param": {
+          "entity": "Serena Williams",
+          "start": "2023-02-01",
+          "end": "2023-02-28",
+          "sources": [
+            "CNN",
+            "The Guardian"
+          ],
+          "language": "English",
+          "sentimentThreshold": -0.2
+        }
+      },
+      {
+        "query": "Please perform a sentiment analysis on articles about tennis player Rafael Nadal from the New York Times and Reuters in Spanish, starting from 2023-03-01 to 2023-03-31, with a sentiment threshold of 0.3.",
+        "filled_param": {
+          "entity": "Rafael Nadal",
+          "start": "2023-03-01",
+          "end": "2023-03-31",
+          "sources": [
+            "New York Times",
+            "Reuters"
+          ],
+          "language": "Spanish",
+          "sentimentThreshold": 0.3
+        }
+      },
+      {
+        "query": "Analyze sentiment for tennis player Naomi Osaka from sources like Forbes and Sports Illustrated with a focus on French articles dated between 2023-04-01 and 2023-04-30, and consider a sentiment threshold of 0.0.",
+        "filled_param": {
+          "entity": "Naomi Osaka",
+          "start": "2023-04-01",
+          "end": "2023-04-30",
+          "sources": [
+            "Forbes",
+            "Sports Illustrated"
+          ],
+          "language": "French",
+          "sentimentThreshold": 0.0
+        }
+      },
+      {
+        "query": "Can you check the sentiment analysis of news articles about tennis player Novak Djokovic from Sky Sports and Al Jazeera in German, from 2023-05-01 to 2023-05-31, using a sentiment threshold of -0.5?",
+        "filled_param": {
+          "entity": "Novak Djokovic",
+          "start": "2023-05-01",
+          "end": "2023-05-31",
+          "sources": [
+            "Sky Sports",
+            "Al Jazeera"
+          ],
+          "language": "German",
+          "sentimentThreshold": -0.5
+        }
+      }
+    ]
+  },
+  "CelebritySentimentAnalysis.performAnalysis|:|boxer|:|entity,start,end,sources,language,sentimentThreshold": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "boxer",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end",
+      "sources",
+      "language",
+      "sentimentThreshold"
+    ],
+    "queries": [
+      {
+        "query": "Can you analyze the sentiment of news articles about the boxer Tyson Fury from BBC and CNN between 2023-01-01 and 2023-01-31, in English, with a sentiment threshold of 0.5?",
+        "filled_param": {
+          "entity": "Tyson Fury",
+          "start": "2023-01-01",
+          "end": "2023-01-31",
+          "sources": [
+            "BBC",
+            "CNN"
+          ],
+          "language": "English",
+          "sentimentThreshold": 0.5
+        }
+      },
+      {
+        "query": "I'd like a sentiment analysis on articles about boxer Manny Pacquiao published by ESPN and Sky Sports from 2023-02-01 to 2023-02-28, looking for those in Spanish with a sentiment score over 0.3.",
+        "filled_param": {
+          "entity": "Manny Pacquiao",
+          "start": "2023-02-01",
+          "end": "2023-02-28",
+          "sources": [
+            "ESPN",
+            "Sky Sports"
+          ],
+          "language": "Spanish",
+          "sentimentThreshold": 0.3
+        }
+      },
+      {
+        "query": "What is the sentiment trend for articles about the boxer Canelo Alvarez between 2023-03-01 and 2023-03-15 from Fox Sports and The Guardian in French, considering articles with a threshold above 0?",
+        "filled_param": {
+          "entity": "Canelo Alvarez",
+          "start": "2023-03-01",
+          "end": "2023-03-15",
+          "sources": [
+            "Fox Sports",
+            "The Guardian"
+          ],
+          "language": "French",
+          "sentimentThreshold": 0
+        }
+      },
+      {
+        "query": "Perform a sentiment analysis on news about the boxer Anthony Joshua from the New York Times and Reuters, from 2023-04-01 to 2023-04-30, in German, with a sentiment score threshold of -0.2.",
+        "filled_param": {
+          "entity": "Anthony Joshua",
+          "start": "2023-04-01",
+          "end": "2023-04-30",
+          "sources": [
+            "New York Times",
+            "Reuters"
+          ],
+          "language": "German",
+          "sentimentThreshold": -0.2
+        }
+      },
+      {
+        "query": "Could you find the sentiment in articles concerning boxer Deontay Wilder from Al Jazeera and NBC between 2023-05-01 and 2023-05-20 in Italian, only if the sentiment score is greater than 0.7?",
+        "filled_param": {
+          "entity": "Deontay Wilder",
+          "start": "2023-05-01",
+          "end": "2023-05-20",
+          "sources": [
+            "Al Jazeera",
+            "NBC"
+          ],
+          "language": "Italian",
+          "sentimentThreshold": 0.7
+        }
+      }
+    ]
+  },
+  "CelebritySentimentAnalysis.performAnalysis|:|novelist|:|entity,start,end,sources,language,sentimentThreshold": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "novelist",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end",
+      "sources",
+      "language",
+      "sentimentThreshold"
+    ],
+    "queries": [
+      {
+        "query": "Perform a sentiment analysis on articles about the novelist Haruki Murakami from 2023-01-01 to 2023-06-30, sourced from BBC and The Guardian, in English, with a sentiment threshold of 0.5.",
+        "filled_param": {
+          "entity": "Haruki Murakami",
+          "start": "2023-01-01",
+          "end": "2023-06-30",
+          "sources": [
+            "BBC",
+            "The Guardian"
+          ],
+          "language": "English",
+          "sentimentThreshold": 0.5
+        }
+      },
+      {
+        "query": "I need a sentiment analysis for news articles on the novelist Chimamanda Ngozi Adichie, covering the period from 2022-03-01 to 2022-12-31, from CNN and Al Jazeera, in French, with a sentiment threshold of -0.3.",
+        "filled_param": {
+          "entity": "Chimamanda Ngozi Adichie",
+          "start": "2022-03-01",
+          "end": "2022-12-31",
+          "sources": [
+            "CNN",
+            "Al Jazeera"
+          ],
+          "language": "French",
+          "sentimentThreshold": -0.3
+        }
+      },
+      {
+        "query": "Analyze the sentiment of articles about novelist Stephen King from New York Times and Reuters, written in Spanish, between 2021-05-15 and 2021-09-15, with a sentiment threshold set at 0.0.",
+        "filled_param": {
+          "entity": "Stephen King",
+          "start": "2021-05-15",
+          "end": "2021-09-15",
+          "sources": [
+            "New York Times",
+            "Reuters"
+          ],
+          "language": "Spanish",
+          "sentimentThreshold": 0.0
+        }
+      },
+      {
+        "query": "Conduct a sentiment review on news covering novelist J.K. Rowling from 2022-01-01 to 2022-07-01, using sources like The Washington Post and Huffington Post, in German, with a minimum sentiment score of 0.2.",
+        "filled_param": {
+          "entity": "J.K. Rowling",
+          "start": "2022-01-01",
+          "end": "2022-07-01",
+          "sources": [
+            "The Washington Post",
+            "Huffington Post"
+          ],
+          "language": "German",
+          "sentimentThreshold": 0.2
+        }
+      },
+      {
+        "query": "I'd like a sentiment analysis on articles about novelist Gabriel Garcia Marquez published between 2020-08-01 and 2021-02-01, sourced from El Pais and BBC Mundo, in Portuguese, with a sentiment threshold of -0.5.",
+        "filled_param": {
+          "entity": "Gabriel Garcia Marquez",
+          "start": "2020-08-01",
+          "end": "2021-02-01",
+          "sources": [
+            "El Pais",
+            "BBC Mundo"
+          ],
+          "language": "Portuguese",
+          "sentimentThreshold": -0.5
+        }
+      },
+      {
+        "query": "Can you provide a sentiment analysis for news articles about novelist Margaret Atwood from 2021-04-01 to 2021-10-01, using sources such as NPR and The Independent, in Italian, with a sentiment score threshold of 0.7?",
+        "filled_param": {
+          "entity": "Margaret Atwood",
+          "start": "2021-04-01",
+          "end": "2021-10-01",
+          "sources": [
+            "NPR",
+            "The Independent"
+          ],
+          "language": "Italian",
+          "sentimentThreshold": 0.7
+        }
+      }
+    ]
+  },
+  "CelebritySentimentAnalysis.performAnalysis|:|chef|:|entity,start,end,sources,language,sentimentThreshold": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "chef",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end",
+      "sources",
+      "language",
+      "sentimentThreshold"
+    ],
+    "queries": [
+      {
+        "query": "Perform a sentiment analysis on articles about chef Gordon Ramsay from 2023-01-01 to 2023-06-30, focusing on sources like BBC and CNN, in English, with a sentiment threshold of 0.5.",
+        "filled_param": {
+          "entity": "Gordon Ramsay",
+          "start": "2023-01-01",
+          "end": "2023-06-30",
+          "sources": [
+            "BBC",
+            "CNN"
+          ],
+          "language": "English",
+          "sentimentThreshold": 0.5
+        }
+      },
+      {
+        "query": "Analyze sentiments for chef Massimo Bottura from 2022-05-01 to 2022-10-31 using La Repubblica and Corriere della Sera as sources. Language should be Italian, and consider scores above 0.2.",
+        "filled_param": {
+          "entity": "Massimo Bottura",
+          "start": "2022-05-01",
+          "end": "2022-10-31",
+          "sources": [
+            "La Repubblica",
+            "Corriere della Sera"
+          ],
+          "language": "Italian",
+          "sentimentThreshold": 0.2
+        }
+      },
+      {
+        "query": "Can you provide sentiment insights for chef Rachael Ray between 2023-03-01 and 2023-09-01 using USA Today and The New York Times articles in English with a threshold of -0.3?",
+        "filled_param": {
+          "entity": "Rachael Ray",
+          "start": "2023-03-01",
+          "end": "2023-09-01",
+          "sources": [
+            "USA Today",
+            "The New York Times"
+          ],
+          "language": "English",
+          "sentimentThreshold": -0.3
+        }
+      },
+      {
+        "query": "I need sentiment analysis on Wolfgang Puck from 2021-11-01 to 2022-04-30, focusing on Der Spiegel and Frankfurter Allgemeine in German, with sentiment threshold set at 0.6.",
+        "filled_param": {
+          "entity": "Wolfgang Puck",
+          "start": "2021-11-01",
+          "end": "2022-04-30",
+          "sources": [
+            "Der Spiegel",
+            "Frankfurter Allgemeine"
+          ],
+          "language": "German",
+          "sentimentThreshold": 0.6
+        }
+      },
+      {
+        "query": "What is the sentiment for articles about chef Jamie Oliver from 2022-01-01 to 2022-07-31, using The Guardian and The Independent in English, with a threshold of 0.7?",
+        "filled_param": {
+          "entity": "Jamie Oliver",
+          "start": "2022-01-01",
+          "end": "2022-07-31",
+          "sources": [
+            "The Guardian",
+            "The Independent"
+          ],
+          "language": "English",
+          "sentimentThreshold": 0.7
+        }
+      },
+      {
+        "query": "Assess sentiment on chef Alice Waters using sources like The Washington Post and NPR from 2022-06-01 to 2022-12-31 in English, considering scores above 0.0.",
+        "filled_param": {
+          "entity": "Alice Waters",
+          "start": "2022-06-01",
+          "end": "2022-12-31",
+          "sources": [
+            "The Washington Post",
+            "NPR"
+          ],
+          "language": "English",
+          "sentimentThreshold": 0.0
+        }
+      }
+    ]
+  },
+  "CelebritySentimentAnalysis.performAnalysis|:|actor|:|entity,start,end,sources,language,sentimentThreshold": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "actor",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end",
+      "sources",
+      "language",
+      "sentimentThreshold"
+    ],
+    "queries": [
+      {
+        "query": "Can you analyze the sentiment of news articles about actor Brad Pitt from January 1, 2023, to February 1, 2023, in English, considering sources like CNN and BBC, with a sentiment threshold of 0.5?",
+        "filled_param": {
+          "entity": "Brad Pitt",
+          "start": "2023-01-01",
+          "end": "2023-02-01",
+          "sources": [
+            "CNN",
+            "BBC"
+          ],
+          "language": "English",
+          "sentimentThreshold": 0.5
+        }
+      },
+      {
+        "query": "Perform a sentiment analysis on articles about actor Emma Watson between March 10, 2023, and March 20, 2023. Use Reuters and The Guardian as sources, in English language, and include sentiments starting from -0.2.",
+        "filled_param": {
+          "entity": "Emma Watson",
+          "start": "2023-03-10",
+          "end": "2023-03-20",
+          "sources": [
+            "Reuters",
+            "The Guardian"
+          ],
+          "language": "English",
+          "sentimentThreshold": -0.2
+        }
+      },
+      {
+        "query": "I need a sentiment analysis for topics about actor Leonardo DiCaprio from articles dated February 15, 2023, to February 28, 2023, in Spanish, from El País and ABC News, with a threshold of 0.3.",
+        "filled_param": {
+          "entity": "Leonardo DiCaprio",
+          "start": "2023-02-15",
+          "end": "2023-02-28",
+          "sources": [
+            "El País",
+            "ABC News"
+          ],
+          "language": "Spanish",
+          "sentimentThreshold": 0.3
+        }
+      },
+      {
+        "query": "Can you give me a sentiment analysis on news regarding actor Scarlett Johansson from April 1, 2023, to April 15, 2023, using French language articles from Le Monde and France 24, with a minimum sentiment score of 0.4?",
+        "filled_param": {
+          "entity": "Scarlett Johansson",
+          "start": "2023-04-01",
+          "end": "2023-04-15",
+          "sources": [
+            "Le Monde",
+            "France 24"
+          ],
+          "language": "French",
+          "sentimentThreshold": 0.4
+        }
+      },
+      {
+        "query": "Analyze the sentiment for news articles about actor Tom Hanks published between May 5, 2023, and May 20, 2023, in German, focusing on sources like Der Spiegel and Deutsche Welle, with a threshold of -0.5.",
+        "filled_param": {
+          "entity": "Tom Hanks",
+          "start": "2023-05-05",
+          "end": "2023-05-20",
+          "sources": [
+            "Der Spiegel",
+            "Deutsche Welle"
+          ],
+          "language": "German",
+          "sentimentThreshold": -0.5
+        }
+      }
+    ]
+  },
+  "CelebritySentimentAnalysis.performAnalysis|:|politician|:|entity,start,end,sources,language,sentimentThreshold": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "politician",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end",
+      "sources",
+      "language",
+      "sentimentThreshold"
+    ],
+    "queries": [
+      {
+        "query": "Can you analyze the sentiment of articles about the politician Angela Merkel from January 1, 2023, to February 1, 2023, using news sources like CNN, BBC, and The Guardian, in English, with a sentiment threshold of 0.5?",
+        "filled_param": {
+          "entity": "Angela Merkel",
+          "start": "2023-01-01",
+          "end": "2023-02-01",
+          "sources": [
+            "CNN",
+            "BBC",
+            "The Guardian"
+          ],
+          "language": "English",
+          "sentimentThreshold": 0.5
+        }
+      },
+      {
+        "query": "Perform a sentiment analysis on Narendra Modi in the context of news articles from Al Jazeera, Reuters, and The Times of India, between July 15, 2023, and August 15, 2023, in Hindi language with a minimum sentiment threshold of -0.3.",
+        "filled_param": {
+          "entity": "Narendra Modi",
+          "start": "2023-07-15",
+          "end": "2023-08-15",
+          "sources": [
+            "Al Jazeera",
+            "Reuters",
+            "The Times of India"
+          ],
+          "language": "Hindi",
+          "sentimentThreshold": -0.3
+        }
+      },
+      {
+        "query": "I need a sentiment report on Joe Biden covering articles from The New York Times and The Wall Street Journal, from March 1, 2023, to March 31, 2023, in English, considering sentiment scores above 0.2.",
+        "filled_param": {
+          "entity": "Joe Biden",
+          "start": "2023-03-01",
+          "end": "2023-03-31",
+          "sources": [
+            "The New York Times",
+            "The Wall Street Journal"
+          ],
+          "language": "English",
+          "sentimentThreshold": 0.2
+        }
+      },
+      {
+        "query": "Evaluate the sentiment of articles about Emmanuel Macron from French sources such as Le Monde and France 24, between April 1, 2023, and April 30, 2023, in French, with a sentiment threshold of 0.0.",
+        "filled_param": {
+          "entity": "Emmanuel Macron",
+          "start": "2023-04-01",
+          "end": "2023-04-30",
+          "sources": [
+            "Le Monde",
+            "France 24"
+          ],
+          "language": "French",
+          "sentimentThreshold": 0.0
+        }
+      },
+      {
+        "query": "Could you perform sentiment analysis for articles about Boris Johnson from sources including The Sun and The Telegraph, from June 1, 2023, to June 30, 2023, in English, with a sentiment threshold set at 0.4?",
+        "filled_param": {
+          "entity": "Boris Johnson",
+          "start": "2023-06-01",
+          "end": "2023-06-30",
+          "sources": [
+            "The Sun",
+            "The Telegraph"
+          ],
+          "language": "English",
+          "sentimentThreshold": 0.4
+        }
+      },
+      {
+        "query": "Analyze articles on Justin Trudeau published by CBC News and Global News from May 1, 2023, to May 31, 2023, in English, and report sentiments with scores above 0.6.",
+        "filled_param": {
+          "entity": "Justin Trudeau",
+          "start": "2023-05-01",
+          "end": "2023-05-31",
+          "sources": [
+            "CBC News",
+            "Global News"
+          ],
+          "language": "English",
+          "sentimentThreshold": 0.6
+        }
+      }
+    ]
+  },
+  "CelebritySentimentAnalysis.performAnalysis|:|esports player|:|entity,start,end,sources,language,sentimentThreshold": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "esports player",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end",
+      "sources",
+      "language",
+      "sentimentThreshold"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the sentiment of news articles about the esports player Faker from 2023-06-01 to 2023-06-30, focusing on sources like ESPN and Kotaku, in English, with a sentiment threshold of 0.5.",
+        "filled_param": {
+          "entity": "Faker",
+          "start": "2023-06-01",
+          "end": "2023-06-30",
+          "sources": [
+            "ESPN",
+            "Kotaku"
+          ],
+          "language": "English",
+          "sentimentThreshold": 0.5
+        }
+      },
+      {
+        "query": "Can you perform a sentiment analysis on articles about the esports player s1mple between 2023-09-01 and 2023-09-15 from BBC and Polygon in Ukrainian? Use a sentiment threshold of -0.2.",
+        "filled_param": {
+          "entity": "s1mple",
+          "start": "2023-09-01",
+          "end": "2023-09-15",
+          "sources": [
+            "BBC",
+            "Polygon"
+          ],
+          "language": "Ukrainian",
+          "sentimentThreshold": -0.2
+        }
+      },
+      {
+        "query": "I'd like a sentiment analysis on the esports player Chovy with articles from 2023-01-10 to 2023-02-10, considering The Verge and GameSpot as sources, in Korean, and a sentiment threshold of 0.7.",
+        "filled_param": {
+          "entity": "Chovy",
+          "start": "2023-01-10",
+          "end": "2023-02-10",
+          "sources": [
+            "The Verge",
+            "GameSpot"
+          ],
+          "language": "Korean",
+          "sentimentThreshold": 0.7
+        }
+      },
+      {
+        "query": "What is the sentiment trend in articles about the esports player ZywOo from 2023-04-01 to 2023-04-30, focusing on IGN and Eurogamer in French, with a sentiment threshold of 0.3?",
+        "filled_param": {
+          "entity": "ZywOo",
+          "start": "2023-04-01",
+          "end": "2023-04-30",
+          "sources": [
+            "IGN",
+            "Eurogamer"
+          ],
+          "language": "French",
+          "sentimentThreshold": 0.3
+        }
+      },
+      {
+        "query": "Could you check the sentiment in news articles about the esports player Doublelift for the period 2023-05-15 to 2023-06-15 from PC Gamer and Forbes, in English, using a sentiment threshold of 0.0?",
+        "filled_param": {
+          "entity": "Doublelift",
+          "start": "2023-05-15",
+          "end": "2023-06-15",
+          "sources": [
+            "PC Gamer",
+            "Forbes"
+          ],
+          "language": "English",
+          "sentimentThreshold": 0.0
+        }
+      }
+    ]
+  },
+  "CelebritySentimentAnalysis.performAnalysis|:|painter|:|entity,start,end,sources,language,sentimentThreshold": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "painter",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end",
+      "sources",
+      "language",
+      "sentimentThreshold"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the sentiment of articles about the painter Vincent van Gogh from 2023-01-01 to 2023-02-01, using sources like ArtNews and The Guardian in English, with a sentiment threshold of 0.5.",
+        "filled_param": {
+          "entity": "Vincent van Gogh",
+          "start": "2023-01-01",
+          "end": "2023-02-01",
+          "sources": [
+            "ArtNews",
+            "The Guardian"
+          ],
+          "language": "English",
+          "sentimentThreshold": 0.5
+        }
+      },
+      {
+        "query": "Can you perform a sentiment analysis on news about the painter Frida Kahlo between 2022-06-01 and 2022-07-01 from BBC and CNN in Spanish, focusing on articles with a sentiment score above 0.3?",
+        "filled_param": {
+          "entity": "Frida Kahlo",
+          "start": "2022-06-01",
+          "end": "2022-07-01",
+          "sources": [
+            "BBC",
+            "CNN"
+          ],
+          "language": "Spanish",
+          "sentimentThreshold": 0.3
+        }
+      },
+      {
+        "query": "Provide a sentiment analysis for articles concerning the painter Leonardo da Vinci from 2022-11-01 to 2022-11-30, sourced from Artnet and New York Times in Italian, with a sentiment threshold of -0.2.",
+        "filled_param": {
+          "entity": "Leonardo da Vinci",
+          "start": "2022-11-01",
+          "end": "2022-11-30",
+          "sources": [
+            "Artnet",
+            "New York Times"
+          ],
+          "language": "Italian",
+          "sentimentThreshold": -0.2
+        }
+      },
+      {
+        "query": "I'd like a sentiment analysis on articles about Pablo Picasso from 2023-05-01 to 2023-05-31, using sources like The Art Newspaper and El País in French, with a sentiment score threshold of 0.7.",
+        "filled_param": {
+          "entity": "Pablo Picasso",
+          "start": "2023-05-01",
+          "end": "2023-05-31",
+          "sources": [
+            "The Art Newspaper",
+            "El País"
+          ],
+          "language": "French",
+          "sentimentThreshold": 0.7
+        }
+      },
+      {
+        "query": "What is the sentiment of news articles about Claude Monet published between 2023-03-01 and 2023-03-15, available in German from sources like Der Spiegel and Frankfurter Allgemeine Zeitung, with a sentiment threshold of 0.2?",
+        "filled_param": {
+          "entity": "Claude Monet",
+          "start": "2023-03-01",
+          "end": "2023-03-15",
+          "sources": [
+            "Der Spiegel",
+            "Frankfurter Allgemeine Zeitung"
+          ],
+          "language": "German",
+          "sentimentThreshold": 0.2
+        }
+      },
+      {
+        "query": "Look into the sentiment of articles about Georgia O'Keeffe from 2023-08-01 to 2023-08-31, sourced from The Washington Post and ARTnews in English, with a focus on articles having a sentiment threshold of -0.5.",
+        "filled_param": {
+          "entity": "Georgia O'Keeffe",
+          "start": "2023-08-01",
+          "end": "2023-08-31",
+          "sources": [
+            "The Washington Post",
+            "ARTnews"
+          ],
+          "language": "English",
+          "sentimentThreshold": -0.5
+        }
+      }
+    ]
+  },
+  "CelebritySentimentAnalysis.performAnalysis|:|photographer|:|entity,start,end,sources,language,sentimentThreshold": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "photographer",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end",
+      "sources",
+      "language",
+      "sentimentThreshold"
+    ],
+    "queries": [
+      {
+        "query": "Can you perform a sentiment analysis for news articles about photographer Annie Leibovitz from 2023-01-01 to 2023-01-31, focusing on sources like the New York Times and The Guardian, in English, with a sentiment threshold of 0.5?",
+        "filled_param": {
+          "entity": "Annie Leibovitz",
+          "start": "2023-01-01",
+          "end": "2023-01-31",
+          "sources": [
+            "New York Times",
+            "The Guardian"
+          ],
+          "language": "English",
+          "sentimentThreshold": 0.5
+        }
+      },
+      {
+        "query": "I need a sentiment analysis of articles on photographer Sebastião Salgado from 2022-07-01 to 2022-07-15, using CNN and BBC as sources, in Portuguese, considering only articles with a sentiment score above 0.3.",
+        "filled_param": {
+          "entity": "Sebastião Salgado",
+          "start": "2022-07-01",
+          "end": "2022-07-15",
+          "sources": [
+            "CNN",
+            "BBC"
+          ],
+          "language": "Portuguese",
+          "sentimentThreshold": 0.3
+        }
+      },
+      {
+        "query": "Could you analyze the sentiment of news articles about the photographer Steve McCurry between 2023-03-01 and 2023-03-30? Please include articles from Reuters and the Associated Press in German, with a sentiment threshold of -0.2.",
+        "filled_param": {
+          "entity": "Steve McCurry",
+          "start": "2023-03-01",
+          "end": "2023-03-30",
+          "sources": [
+            "Reuters",
+            "Associated Press"
+          ],
+          "language": "German",
+          "sentimentThreshold": -0.2
+        }
+      },
+      {
+        "query": "Analyze the sentiment of news articles mentioning photographer Cindy Sherman from 2023-05-01 to 2023-05-31. Focus on Al Jazeera and The Washington Post, in French, only if the sentiment score is above 0.0.",
+        "filled_param": {
+          "entity": "Cindy Sherman",
+          "start": "2023-05-01",
+          "end": "2023-05-31",
+          "sources": [
+            "Al Jazeera",
+            "The Washington Post"
+          ],
+          "language": "French",
+          "sentimentThreshold": 0.0
+        }
+      },
+      {
+        "query": "Please perform a sentiment analysis for articles about photographer Henri Cartier-Bresson from 2023-02-01 to 2023-02-28, sourced from Le Monde and Der Spiegel, in Spanish, with a sentiment threshold of 0.6.",
+        "filled_param": {
+          "entity": "Henri Cartier-Bresson",
+          "start": "2023-02-01",
+          "end": "2023-02-28",
+          "sources": [
+            "Le Monde",
+            "Der Spiegel"
+          ],
+          "language": "Spanish",
+          "sentimentThreshold": 0.6
+        }
+      }
+    ]
+  },
+  "CelebritySentimentAnalysis.performAnalysis|:|composer|:|entity,start,end,sources,language,sentimentThreshold": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "composer",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end",
+      "sources",
+      "language",
+      "sentimentThreshold"
+    ],
+    "queries": [
+      {
+        "query": "Please analyze the sentiment of news articles about the composer Ludwig van Beethoven from 2023-01-01 to 2023-02-01, using sources such as The New York Times, BBC, and The Guardian. The articles should be in English and consider sentiments with a score above 0.5.",
+        "filled_param": {
+          "entity": "Ludwig van Beethoven",
+          "start": "2023-01-01",
+          "end": "2023-02-01",
+          "sources": [
+            "The New York Times",
+            "BBC",
+            "The Guardian"
+          ],
+          "language": "English",
+          "sentimentThreshold": 0.5
+        }
+      },
+      {
+        "query": "Can you perform a sentiment analysis on articles about the composer Johann Sebastian Bach from 2023-05-01 to 2023-06-01? Please include Der Spiegel, Le Monde, and The Economist as sources, and focus on German articles with a sentiment score lower than -0.3.",
+        "filled_param": {
+          "entity": "Johann Sebastian Bach",
+          "start": "2023-05-01",
+          "end": "2023-06-01",
+          "sources": [
+            "Der Spiegel",
+            "Le Monde",
+            "The Economist"
+          ],
+          "language": "German",
+          "sentimentThreshold": -0.3
+        }
+      },
+      {
+        "query": "I'd like a sentiment analysis of news related to composer Pyotr Ilyich Tchaikovsky from 2023-03-01 to 2023-04-01. Use sources like The Washington Post, El País, and Reuters, and analyze Russian articles with a sentiment score greater than 0.8.",
+        "filled_param": {
+          "entity": "Pyotr Ilyich Tchaikovsky",
+          "start": "2023-03-01",
+          "end": "2023-04-01",
+          "sources": [
+            "The Washington Post",
+            "El País",
+            "Reuters"
+          ],
+          "language": "Russian",
+          "sentimentThreshold": 0.8
+        }
+      },
+      {
+        "query": "Analyze the sentiment of articles concerning the composer Wolfgang Amadeus Mozart from 2023-02-01 to 2023-03-01. Include news from Al Jazeera, CBC, and The Telegraph, focusing on French articles with a sentiment threshold of 0.2.",
+        "filled_param": {
+          "entity": "Wolfgang Amadeus Mozart",
+          "start": "2023-02-01",
+          "end": "2023-03-01",
+          "sources": [
+            "Al Jazeera",
+            "CBC",
+            "The Telegraph"
+          ],
+          "language": "French",
+          "sentimentThreshold": 0.2
+        }
+      },
+      {
+        "query": "Can you check the sentiment of news articles about the composer Claude Debussy from 2023-06-01 to 2023-07-01, using NHK, The Hindu, and The Sydney Morning Herald as sources? Only consider Japanese articles with a sentiment score below -0.5.",
+        "filled_param": {
+          "entity": "Claude Debussy",
+          "start": "2023-06-01",
+          "end": "2023-07-01",
+          "sources": [
+            "NHK",
+            "The Hindu",
+            "The Sydney Morning Herald"
+          ],
+          "language": "Japanese",
+          "sentimentThreshold": -0.5
+        }
+      },
+      {
+        "query": "Perform a sentiment analysis for news on composer Franz Schubert from 2023-04-01 to 2023-05-01, using sources such as The Times, La Repubblica, and CNN. Analyze Italian articles that have a sentiment score higher than 0.6.",
+        "filled_param": {
+          "entity": "Franz Schubert",
+          "start": "2023-04-01",
+          "end": "2023-05-01",
+          "sources": [
+            "The Times",
+            "La Repubblica",
+            "CNN"
+          ],
+          "language": "Italian",
+          "sentimentThreshold": 0.6
+        }
+      }
+    ]
+  },
+  "CelebritySentimentAnalysis.performAnalysis|:|magician|:|entity,start,end,sources,language,sentimentThreshold": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "magician",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end",
+      "sources",
+      "language",
+      "sentimentThreshold"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the sentiment of news articles about magician David Blaine from January 1, 2023, to March 31, 2023, in English, using CNN and BBC as sources, with a sentiment threshold of 0.5.",
+        "filled_param": {
+          "entity": "David Blaine",
+          "start": "2023-01-01",
+          "end": "2023-03-31",
+          "sources": [
+            "CNN",
+            "BBC"
+          ],
+          "language": "English",
+          "sentimentThreshold": 0.5
+        }
+      },
+      {
+        "query": "Can you perform a sentiment analysis on the magician Dynamo from June 1, 2023, to June 30, 2023, focusing on articles in Spanish from El País and La Vanguardia, with a threshold of -0.3?",
+        "filled_param": {
+          "entity": "Dynamo",
+          "start": "2023-06-01",
+          "end": "2023-06-30",
+          "sources": [
+            "El País",
+            "La Vanguardia"
+          ],
+          "language": "Spanish",
+          "sentimentThreshold": -0.3
+        }
+      },
+      {
+        "query": "I need a sentiment analysis of magician Penn Jillette from April 15, 2023, to May 15, 2023, using The New York Times and The Guardian as sources in English, with a sentiment threshold of 0.",
+        "filled_param": {
+          "entity": "Penn Jillette",
+          "start": "2023-04-15",
+          "end": "2023-05-15",
+          "sources": [
+            "The New York Times",
+            "The Guardian"
+          ],
+          "language": "English",
+          "sentimentThreshold": 0
+        }
+      },
+      {
+        "query": "What is the sentiment analysis for magician Criss Angel from March 1, 2023, to March 31, 2023, in French, looking at articles from Le Monde and Le Figaro, with a threshold of 0.2?",
+        "filled_param": {
+          "entity": "Criss Angel",
+          "start": "2023-03-01",
+          "end": "2023-03-31",
+          "sources": [
+            "Le Monde",
+            "Le Figaro"
+          ],
+          "language": "French",
+          "sentimentThreshold": 0.2
+        }
+      },
+      {
+        "query": "Please analyze the sentiment of news on magician Piff the Magic Dragon between February 1, 2023, and February 28, 2023, in English from sources like The Verge and TechCrunch, with a sentiment threshold of -0.2.",
+        "filled_param": {
+          "entity": "Piff the Magic Dragon",
+          "start": "2023-02-01",
+          "end": "2023-02-28",
+          "sources": [
+            "The Verge",
+            "TechCrunch"
+          ],
+          "language": "English",
+          "sentimentThreshold": -0.2
+        }
+      }
+    ]
+  },
+  "CelebritySentimentAnalysis.performAnalysis|:|medical expert|:|entity,start,end,sources,language,sentimentThreshold": {
+    "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+    "derived_class": "medical expert",
+    "params_for_query": [
+      "entity",
+      "start",
+      "end",
+      "sources",
+      "language",
+      "sentimentThreshold"
+    ],
+    "queries": [
+      {
+        "query": "Can you analyze the sentiment of news about the medical expert Dr. John Smith from January 1, 2023, to March 31, 2023, using sources like CNN and BBC in English, with a sentiment threshold of 0.2?",
+        "filled_param": {
+          "entity": "Dr. John Smith",
+          "start": "2023-01-01",
+          "end": "2023-03-31",
+          "sources": [
+            "CNN",
+            "BBC"
+          ],
+          "language": "English",
+          "sentimentThreshold": 0.2
+        }
+      },
+      {
+        "query": "What is the sentiment toward medical expert Dr. Emily Chen in news articles from February 15, 2023, to April 15, 2023? Include articles from The New York Times and The Guardian, in English, with a sentiment threshold set at 0.5.",
+        "filled_param": {
+          "entity": "Dr. Emily Chen",
+          "start": "2023-02-15",
+          "end": "2023-04-15",
+          "sources": [
+            "The New York Times",
+            "The Guardian"
+          ],
+          "language": "English",
+          "sentimentThreshold": 0.5
+        }
+      },
+      {
+        "query": "Perform a sentiment analysis of articles about the medical expert Dr. Ahmed Ali from March 1, 2023, to May 31, 2023, using sources such as Al Jazeera and Reuters in Arabic, with a sentiment threshold of -0.3.",
+        "filled_param": {
+          "entity": "Dr. Ahmed Ali",
+          "start": "2023-03-01",
+          "end": "2023-05-31",
+          "sources": [
+            "Al Jazeera",
+            "Reuters"
+          ],
+          "language": "Arabic",
+          "sentimentThreshold": -0.3
+        }
+      },
+      {
+        "query": "I'd like to know the sentiment surrounding the medical expert Dr. Marie Dubois in news articles from April 1, 2023, to June 30, 2023, from Le Monde and France 24, in French, with a sentiment threshold of 0.0.",
+        "filled_param": {
+          "entity": "Dr. Marie Dubois",
+          "start": "2023-04-01",
+          "end": "2023-06-30",
+          "sources": [
+            "Le Monde",
+            "France 24"
+          ],
+          "language": "French",
+          "sentimentThreshold": 0.0
+        }
+      },
+      {
+        "query": "Analyze the sentiment of news about the medical expert Dr. Hiroshi Tanaka between May 1, 2023, and July 31, 2023, from NHK and Asahi Shimbun in Japanese, with a sentiment threshold of 0.1.",
+        "filled_param": {
+          "entity": "Dr. Hiroshi Tanaka",
+          "start": "2023-05-01",
+          "end": "2023-07-31",
+          "sources": [
+            "NHK",
+            "Asahi Shimbun"
+          ],
+          "language": "Japanese",
+          "sentimentThreshold": 0.1
+        }
+      }
+    ]
+  }
+}

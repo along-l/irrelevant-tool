@@ -1,0 +1,485 @@
+{
+  "RefrigeratorNoiseDiagnosis|:|refrigerator|:|noise_level,include_diy_solutions,ambient_temperature": {
+    "tool_template_name": "RefrigeratorNoiseDiagnosis",
+    "derived_class": "refrigerator",
+    "params_for_query": [
+      "noise_level",
+      "include_diy_solutions",
+      "ambient_temperature"
+    ],
+    "queries": [
+      {
+        "query": "The refrigerator is making a loud rattling noise, can you diagnose the issue? The ambient temperature is around 22 degrees Celsius, and please include DIY solutions.",
+        "filled_param": {
+          "noise_level": "loud rattling",
+          "include_diy_solutions": true,
+          "ambient_temperature": 22
+        }
+      },
+      {
+        "query": "Why is my refrigerator emitting a continuous humming sound? It's 18 degrees Celsius here, and I would prefer including DIY solutions.",
+        "filled_param": {
+          "noise_level": "continuous humming",
+          "include_diy_solutions": true,
+          "ambient_temperature": 18
+        }
+      },
+      {
+        "query": "There is an unusual buzzing noise coming from the refrigerator. The ambient temperature is 25 degrees Celsius, but I don't need DIY solutions.",
+        "filled_param": {
+          "noise_level": "unusual buzzing",
+          "include_diy_solutions": false,
+          "ambient_temperature": 25
+        }
+      },
+      {
+        "query": "Can you help identify the cause of the clanking noise from my refrigerator? It's currently 20 degrees Celsius here, and I am interested in DIY solutions.",
+        "filled_param": {
+          "noise_level": "clanking",
+          "include_diy_solutions": true,
+          "ambient_temperature": 20
+        }
+      },
+      {
+        "query": "My refrigerator has started making a loud popping noise. The room temperature is 19 degrees Celsius, and I'm not looking for DIY solutions.",
+        "filled_param": {
+          "noise_level": "loud popping",
+          "include_diy_solutions": false,
+          "ambient_temperature": 19
+        }
+      }
+    ]
+  },
+  "RefrigeratorNoiseDiagnosis|:|washing machine|:|noise_level,include_diy_solutions,ambient_temperature": {
+    "tool_template_name": "RefrigeratorNoiseDiagnosis",
+    "derived_class": "washing machine",
+    "params_for_query": [
+      "noise_level",
+      "include_diy_solutions",
+      "ambient_temperature"
+    ],
+    "queries": [
+      {
+        "query": "My washing machine has started making a loud rattling noise. The room temperature is around 22 degrees Celsius. Can you include some DIY solutions to fix it?",
+        "filled_param": {
+          "noise_level": "loud rattling",
+          "include_diy_solutions": true,
+          "ambient_temperature": 22
+        }
+      },
+      {
+        "query": "There is a constant humming noise coming from my washing machine and the ambient temperature is about 18 degrees Celsius. I'm looking for some professional solutions only.",
+        "filled_param": {
+          "noise_level": "constant humming",
+          "include_diy_solutions": false,
+          "ambient_temperature": 18
+        }
+      },
+      {
+        "query": "My washing machine is making a weird clicking sound. The surrounding temperature is 25 degrees Celsius and I prefer not to do DIY repairs. What could be the problem?",
+        "filled_param": {
+          "noise_level": "weird clicking",
+          "include_diy_solutions": false,
+          "ambient_temperature": 25
+        }
+      },
+      {
+        "query": "I'm hearing a grinding noise from my washing machine, and the room is maintained at 20 degrees Celsius. Could you provide some DIY repair tips?",
+        "filled_param": {
+          "noise_level": "grinding",
+          "include_diy_solutions": true,
+          "ambient_temperature": 20
+        }
+      },
+      {
+        "query": "Can you diagnose a moderate thumping noise in my washing machine? The ambient temperature is 30 degrees Celsius. I would like some do-it-yourself solutions.",
+        "filled_param": {
+          "noise_level": "moderate thumping",
+          "include_diy_solutions": true,
+          "ambient_temperature": 30
+        }
+      }
+    ]
+  },
+  "RefrigeratorNoiseDiagnosis|:|air conditioner|:|noise_level,include_diy_solutions,ambient_temperature": {
+    "tool_template_name": "RefrigeratorNoiseDiagnosis",
+    "derived_class": "air conditioner",
+    "params_for_query": [
+      "noise_level",
+      "include_diy_solutions",
+      "ambient_temperature"
+    ],
+    "queries": [
+      {
+        "query": "My air conditioner is making a loud rattling noise. The temperature in the room is around 30 degrees Celsius. Can you diagnose the issue and include DIY solutions?",
+        "filled_param": {
+          "noise_level": "loud rattling",
+          "include_diy_solutions": true,
+          "ambient_temperature": 30
+        }
+      },
+      {
+        "query": "What could be causing a constant humming sound in my air conditioner? It's currently operating in a room with an ambient temperature of 22 degrees Celsius, and I don't need DIY solutions.",
+        "filled_param": {
+          "noise_level": "constant humming",
+          "include_diy_solutions": false,
+          "ambient_temperature": 22
+        }
+      },
+      {
+        "query": "There's an annoying clicking sound coming from my air conditioner. The room temperature is about 25 degrees Celsius. Can you help diagnose this and provide DIY solutions?",
+        "filled_param": {
+          "noise_level": "annoying clicking",
+          "include_diy_solutions": true,
+          "ambient_temperature": 25
+        }
+      },
+      {
+        "query": "Why is my air conditioner making a high-pitched squealing noise? The temperature in the room is 28 degrees Celsius, and I would like to know possible causes without DIY solutions.",
+        "filled_param": {
+          "noise_level": "high-pitched squealing",
+          "include_diy_solutions": false,
+          "ambient_temperature": 28
+        }
+      },
+      {
+        "query": "The air conditioner is emitting a low buzzing noise, and the current ambient temperature is 27 degrees Celsius. Please diagnose and include any DIY solutions available.",
+        "filled_param": {
+          "noise_level": "low buzzing",
+          "include_diy_solutions": true,
+          "ambient_temperature": 27
+        }
+      },
+      {
+        "query": "Can you identify the cause of a banging noise in my air conditioner? It's quite warm here at 35 degrees Celsius, and I don't need DIY solutions.",
+        "filled_param": {
+          "noise_level": "banging",
+          "include_diy_solutions": false,
+          "ambient_temperature": 35
+        }
+      }
+    ]
+  },
+  "RefrigeratorNoiseDiagnosis|:|dishwasher|:|noise_level,include_diy_solutions,ambient_temperature": {
+    "tool_template_name": "RefrigeratorNoiseDiagnosis",
+    "derived_class": "dishwasher",
+    "params_for_query": [
+      "noise_level",
+      "include_diy_solutions",
+      "ambient_temperature"
+    ],
+    "queries": [
+      {
+        "query": "My dishwasher is making a loud rattling noise, and the room temperature is around 22 degrees Celsius. Can you also include DIY solutions?",
+        "filled_param": {
+          "noise_level": "loud rattling",
+          "include_diy_solutions": true,
+          "ambient_temperature": 22
+        }
+      },
+      {
+        "query": "There's a constant humming noise coming from my dishwasher, and the ambient temperature is 25 degrees Celsius. I'm not interested in DIY solutions.",
+        "filled_param": {
+          "noise_level": "constant humming",
+          "include_diy_solutions": false,
+          "ambient_temperature": 25
+        }
+      },
+      {
+        "query": "The dishwasher is making a sporadic clunking sound and the temperature in the kitchen is 20 degrees Celsius. Please provide DIY solutions if possible.",
+        "filled_param": {
+          "noise_level": "sporadic clunking",
+          "include_diy_solutions": true,
+          "ambient_temperature": 20
+        }
+      },
+      {
+        "query": "I hear a faint buzzing noise from my dishwasher when the room is at 18 degrees Celsius. I'd like to avoid DIY fixes.",
+        "filled_param": {
+          "noise_level": "faint buzzing",
+          "include_diy_solutions": false,
+          "ambient_temperature": 18
+        }
+      },
+      {
+        "query": "The dishwasher has started making a loud grinding noise, and it's around 24 degrees Celsius here. DIY solutions would be appreciated.",
+        "filled_param": {
+          "noise_level": "loud grinding",
+          "include_diy_solutions": true,
+          "ambient_temperature": 24
+        }
+      }
+    ]
+  },
+  "RefrigeratorNoiseDiagnosis|:|range hood|:|noise_level,include_diy_solutions,ambient_temperature": {
+    "tool_template_name": "RefrigeratorNoiseDiagnosis",
+    "derived_class": "range hood",
+    "params_for_query": [
+      "noise_level",
+      "include_diy_solutions",
+      "ambient_temperature"
+    ],
+    "queries": [
+      {
+        "query": "My range hood has started making a loud rattling noise, can you diagnose the issue and include DIY solutions for fixing it? The ambient temperature in the kitchen is about 28 degrees Celsius.",
+        "filled_param": {
+          "noise_level": "loud rattling",
+          "include_diy_solutions": true,
+          "ambient_temperature": 28
+        }
+      },
+      {
+        "query": "There's a constant humming noise from my range hood, and I'd like to know what could be causing it. The temperature around it is 22 degrees Celsius. I don't need DIY solutions, just a diagnosis.",
+        "filled_param": {
+          "noise_level": "constant humming",
+          "include_diy_solutions": false,
+          "ambient_temperature": 22
+        }
+      },
+      {
+        "query": "Can you help me figure out why my range hood is producing a high-pitched whistling sound even when it's not too hot in the kitchen, around 20 degrees Celsius? Please suggest some DIY solutions as well.",
+        "filled_param": {
+          "noise_level": "high-pitched whistling",
+          "include_diy_solutions": true,
+          "ambient_temperature": 20
+        }
+      },
+      {
+        "query": "My range hood is making an intermittent clunking noise, and it's about 25 degrees Celsius in the kitchen. Please provide a diagnosis without DIY repair options.",
+        "filled_param": {
+          "noise_level": "intermittent clunking",
+          "include_diy_solutions": false,
+          "ambient_temperature": 25
+        }
+      },
+      {
+        "query": "I hear a low buzzing coming from my range hood, and it's currently 30 degrees Celsius in the cooking area. Could you diagnose this and offer DIY solutions?",
+        "filled_param": {
+          "noise_level": "low buzzing",
+          "include_diy_solutions": true,
+          "ambient_temperature": 30
+        }
+      },
+      {
+        "query": "Could you tell me why my range hood is suddenly making a grinding noise? The ambient temperature is around 18 degrees Celsius, and I'm interested in potential DIY fixes.",
+        "filled_param": {
+          "noise_level": "grinding",
+          "include_diy_solutions": true,
+          "ambient_temperature": 18
+        }
+      }
+    ]
+  },
+  "RefrigeratorNoiseDiagnosis|:|microwave oven|:|noise_level,include_diy_solutions,ambient_temperature": {
+    "tool_template_name": "RefrigeratorNoiseDiagnosis",
+    "derived_class": "microwave oven",
+    "params_for_query": [
+      "noise_level",
+      "include_diy_solutions",
+      "ambient_temperature"
+    ],
+    "queries": [
+      {
+        "query": "My microwave oven is making a loud humming noise. Can you tell me the cause and include DIY solutions if the temperature is around 22 degrees Celsius?",
+        "filled_param": {
+          "noise_level": "loud humming",
+          "include_diy_solutions": true,
+          "ambient_temperature": 22
+        }
+      },
+      {
+        "query": "There is a rattling sound coming from my microwave oven, and I prefer not to have DIY solutions. The room temperature is approximately 25 degrees Celsius. What could be the issue?",
+        "filled_param": {
+          "noise_level": "rattling",
+          "include_diy_solutions": false,
+          "ambient_temperature": 25
+        }
+      },
+      {
+        "query": "Why is there an unusual buzzing noise in my microwave oven when the ambient temperature is 20 degrees Celsius? Please provide DIY fixes as well.",
+        "filled_param": {
+          "noise_level": "unusual buzzing",
+          "include_diy_solutions": true,
+          "ambient_temperature": 20
+        }
+      },
+      {
+        "query": "The microwave oven in my kitchen is making a grinding noise, and the temperature is around 18 degrees Celsius. I do not want any DIY tips. Can you help?",
+        "filled_param": {
+          "noise_level": "grinding",
+          "include_diy_solutions": false,
+          "ambient_temperature": 18
+        }
+      },
+      {
+        "query": "What might be causing a whirring noise in my microwave oven? The ambient temperature is 23 degrees Celsius, and I'm open to DIY solutions.",
+        "filled_param": {
+          "noise_level": "whirring",
+          "include_diy_solutions": true,
+          "ambient_temperature": 23
+        }
+      }
+    ]
+  },
+  "RefrigeratorNoiseDiagnosis|:|vacuum cleaner|:|noise_level,include_diy_solutions,ambient_temperature": {
+    "tool_template_name": "RefrigeratorNoiseDiagnosis",
+    "derived_class": "vacuum cleaner",
+    "params_for_query": [
+      "noise_level",
+      "include_diy_solutions",
+      "ambient_temperature"
+    ],
+    "queries": [
+      {
+        "query": "My vacuum cleaner is making a loud rattling noise. It's around 22 degrees Celsius here. Can you include some DIY solutions?",
+        "filled_param": {
+          "noise_level": "loud rattling",
+          "include_diy_solutions": true,
+          "ambient_temperature": 22
+        }
+      },
+      {
+        "query": "I'm hearing a persistent humming sound from my vacuum cleaner in a 25-degree Celsius room. Please don't include DIY fixes.",
+        "filled_param": {
+          "noise_level": "persistent humming",
+          "include_diy_solutions": false,
+          "ambient_temperature": 25
+        }
+      },
+      {
+        "query": "The vacuum cleaner is making a whirring noise in a 20-degree atmosphere. Include some DIY solutions, please.",
+        "filled_param": {
+          "noise_level": "whirring",
+          "include_diy_solutions": true,
+          "ambient_temperature": 20
+        }
+      },
+      {
+        "query": "There's a strange clunking sound coming from my vacuum cleaner, and the temperature is about 18 degrees Celsius. No need for DIY suggestions.",
+        "filled_param": {
+          "noise_level": "strange clunking",
+          "include_diy_solutions": false,
+          "ambient_temperature": 18
+        }
+      },
+      {
+        "query": "I hear a screeching noise from the vacuum cleaner, and it's 30 degrees Celsius in the room. I would like DIY solutions included.",
+        "filled_param": {
+          "noise_level": "screeching",
+          "include_diy_solutions": true,
+          "ambient_temperature": 30
+        }
+      }
+    ]
+  },
+  "RefrigeratorNoiseDiagnosis|:|water heater|:|noise_level,include_diy_solutions,ambient_temperature": {
+    "tool_template_name": "RefrigeratorNoiseDiagnosis",
+    "derived_class": "water heater",
+    "params_for_query": [
+      "noise_level",
+      "include_diy_solutions",
+      "ambient_temperature"
+    ],
+    "queries": [
+      {
+        "query": "My water heater is making a loud rattling noise, and the room temperature is about 22 degrees Celsius. Can you include some DIY solutions to fix this?",
+        "filled_param": {
+          "noise_level": "loud rattling",
+          "include_diy_solutions": true,
+          "ambient_temperature": 22
+        }
+      },
+      {
+        "query": "There's a constant humming noise coming from my water heater, and the ambient temperature is 18 degrees Celsius. I prefer professional fixes only, no DIY.",
+        "filled_param": {
+          "noise_level": "constant humming",
+          "include_diy_solutions": false,
+          "ambient_temperature": 18
+        }
+      },
+      {
+        "query": "The water heater is generating a high-pitched whistling noise, and it's around 25 degrees Celsius in the room. Please provide solutions I can try myself.",
+        "filled_param": {
+          "noise_level": "high-pitched whistling",
+          "include_diy_solutions": true,
+          "ambient_temperature": 25
+        }
+      },
+      {
+        "query": "Could you diagnose why my water heater is making a buzzing sound? The room is kept at 20 degrees Celsius, and I would like only professional repair suggestions.",
+        "filled_param": {
+          "noise_level": "buzzing",
+          "include_diy_solutions": false,
+          "ambient_temperature": 20
+        }
+      },
+      {
+        "query": "At an ambient temperature of 15 degrees Celsius, the water heater emits a gurgling noise. I'm interested in both professional and DIY remedies.",
+        "filled_param": {
+          "noise_level": "gurgling",
+          "include_diy_solutions": true,
+          "ambient_temperature": 15
+        }
+      },
+      {
+        "query": "There's a knocking sound from my water heater, and the temperature around it is 19 degrees Celsius. I'd like some do-it-yourself solutions included.",
+        "filled_param": {
+          "noise_level": "knocking",
+          "include_diy_solutions": true,
+          "ambient_temperature": 19
+        }
+      }
+    ]
+  },
+  "RefrigeratorNoiseDiagnosis|:|air purifier|:|noise_level,include_diy_solutions,ambient_temperature": {
+    "tool_template_name": "RefrigeratorNoiseDiagnosis",
+    "derived_class": "air purifier",
+    "params_for_query": [
+      "noise_level",
+      "include_diy_solutions",
+      "ambient_temperature"
+    ],
+    "queries": [
+      {
+        "query": "My air purifier is making a loud rattling noise and the room temperature is about 22 degrees Celsius. Can you diagnose the issue, including DIY solutions if possible?",
+        "filled_param": {
+          "noise_level": "loud rattling",
+          "include_diy_solutions": true,
+          "ambient_temperature": 22
+        }
+      },
+      {
+        "query": "The air purifier in my bedroom makes a continuous humming sound, and it's around 18 degrees Celsius here. I would like to know the cause and avoid DIY methods.",
+        "filled_param": {
+          "noise_level": "continuous humming",
+          "include_diy_solutions": false,
+          "ambient_temperature": 18
+        }
+      },
+      {
+        "query": "Could you help diagnose why my air purifier is emitting a buzzing noise? The current temperature is 25 degrees Celsius and I'd appreciate some DIY fixes.",
+        "filled_param": {
+          "noise_level": "buzzing",
+          "include_diy_solutions": true,
+          "ambient_temperature": 25
+        }
+      },
+      {
+        "query": "I've noticed a whirring noise coming from my air purifier at a temperature of 20 degrees Celsius. I prefer not to include any DIY solutions.",
+        "filled_param": {
+          "noise_level": "whirring",
+          "include_diy_solutions": false,
+          "ambient_temperature": 20
+        }
+      },
+      {
+        "query": "The air purifier is producing an intermittent clattering noise and it's 24 degrees Celsius in the room. What could be the problem, and are there any DIY solutions?",
+        "filled_param": {
+          "noise_level": "intermittent clattering",
+          "include_diy_solutions": true,
+          "ambient_temperature": 24
+        }
+      }
+    ]
+  }
+}

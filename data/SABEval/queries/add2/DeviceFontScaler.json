@@ -1,0 +1,380 @@
+{
+  "DeviceFontScaler|:|font size|:|device_type,scale_factor,preview_before_apply,apply_to_all_screens": {
+    "tool_template_name": "DeviceFontScaler",
+    "derived_class": "font size",
+    "params_for_query": [
+      "device_type",
+      "scale_factor",
+      "preview_before_apply",
+      "apply_to_all_screens"
+    ],
+    "queries": [
+      {
+        "query": "Increase the font size on my smartphone by a factor of 2.0 and preview the changes before applying them to all screens.",
+        "filled_param": {
+          "device_type": "smartphone",
+          "scale_factor": 2.0,
+          "preview_before_apply": true,
+          "apply_to_all_screens": true
+        }
+      },
+      {
+        "query": "Can you scale the font size on my tablet to 1.5 times its current size without previewing it, and apply it to the current screen only?",
+        "filled_param": {
+          "device_type": "tablet",
+          "scale_factor": 1.5,
+          "preview_before_apply": false,
+          "apply_to_all_screens": false
+        }
+      },
+      {
+        "query": "I'd like to adjust the font size on my smartwatch by a factor of 0.8. Please apply the changes without preview to all screens.",
+        "filled_param": {
+          "device_type": "smartwatch",
+          "scale_factor": 0.8,
+          "preview_before_apply": false,
+          "apply_to_all_screens": true
+        }
+      },
+      {
+        "query": "On my laptop, increase the font size by a factor of 1.2 and preview it before applying to just this screen.",
+        "filled_param": {
+          "device_type": "laptop",
+          "scale_factor": 1.2,
+          "preview_before_apply": true,
+          "apply_to_all_screens": false
+        }
+      },
+      {
+        "query": "Could you scale down the font size on my e-reader by a factor of 0.5, and ensure it applies to all screens with a preview?",
+        "filled_param": {
+          "device_type": "e-reader",
+          "scale_factor": 0.5,
+          "preview_before_apply": true,
+          "apply_to_all_screens": true
+        }
+      }
+    ]
+  },
+  "DeviceFontScaler|:|icon size|:|device_type,scale_factor,preview_before_apply,apply_to_all_screens": {
+    "tool_template_name": "DeviceFontScaler",
+    "derived_class": "icon size",
+    "params_for_query": [
+      "device_type",
+      "scale_factor",
+      "preview_before_apply",
+      "apply_to_all_screens"
+    ],
+    "queries": [
+      {
+        "query": "Can you adjust the icon size on my smartphone by a scale factor of 1.5, previewing the change first and applying it across all screens?",
+        "filled_param": {
+          "device_type": "smartphone",
+          "scale_factor": 1.5,
+          "preview_before_apply": true,
+          "apply_to_all_screens": true
+        }
+      },
+      {
+        "query": "I need the icon size on my smartwatch scaled by 2.0 without preview, but make sure it affects every screen.",
+        "filled_param": {
+          "device_type": "smartwatch",
+          "scale_factor": 2.0,
+          "preview_before_apply": false,
+          "apply_to_all_screens": true
+        }
+      },
+      {
+        "query": "Please increase the icon size on my tablet by a factor of 1.8 and show me a preview before applying it only to the home screen.",
+        "filled_param": {
+          "device_type": "tablet",
+          "scale_factor": 1.8,
+          "preview_before_apply": true,
+          "apply_to_all_screens": false
+        }
+      },
+      {
+        "query": "I'd like to reduce the icon size on my laptop using a scale factor of 0.75, apply it globally, but skip the preview.",
+        "filled_param": {
+          "device_type": "laptop",
+          "scale_factor": 0.75,
+          "preview_before_apply": false,
+          "apply_to_all_screens": true
+        }
+      },
+      {
+        "query": "Could you scale the icon size on my smartphone to 2.5, preview it first and apply it only to the settings screen?",
+        "filled_param": {
+          "device_type": "smartphone",
+          "scale_factor": 2.5,
+          "preview_before_apply": true,
+          "apply_to_all_screens": false
+        }
+      },
+      {
+        "query": "On my smartwatch, make the icon size smaller using a factor of 0.6, apply it without preview, and limit the change to the main display.",
+        "filled_param": {
+          "device_type": "smartwatch",
+          "scale_factor": 0.6,
+          "preview_before_apply": false,
+          "apply_to_all_screens": false
+        }
+      }
+    ]
+  },
+  "DeviceFontScaler|:|system volume|:|device_type,scale_factor,preview_before_apply,apply_to_all_screens": {
+    "tool_template_name": "DeviceFontScaler",
+    "derived_class": "system volume",
+    "params_for_query": [
+      "device_type",
+      "scale_factor",
+      "preview_before_apply",
+      "apply_to_all_screens"
+    ],
+    "queries": [
+      {
+        "query": "Can you adjust the system volume on my smartphone to be 1.5 times louder, preview it first, and make it apply to all screens?",
+        "filled_param": {
+          "device_type": "smartphone",
+          "scale_factor": 1.5,
+          "preview_before_apply": true,
+          "apply_to_all_screens": true
+        }
+      },
+      {
+        "query": "Please increase the system volume on my smartwatch by a factor of 2.0, but don't preview it and ensure it affects all screens.",
+        "filled_param": {
+          "device_type": "smartwatch",
+          "scale_factor": 2.0,
+          "preview_before_apply": false,
+          "apply_to_all_screens": true
+        }
+      },
+      {
+        "query": "I'd like to scale the system volume on my tablet by 0.8, preview the change, and apply it only to the current screen.",
+        "filled_param": {
+          "device_type": "tablet",
+          "scale_factor": 0.8,
+          "preview_before_apply": true,
+          "apply_to_all_screens": false
+        }
+      },
+      {
+        "query": "Could you set the system volume on my laptop to 3.0 times, without a preview, and only for the active screen?",
+        "filled_param": {
+          "device_type": "laptop",
+          "scale_factor": 3.0,
+          "preview_before_apply": false,
+          "apply_to_all_screens": false
+        }
+      },
+      {
+        "query": "Change the system volume on my desktop to 0.75, and make sure to preview it first and then apply it globally.",
+        "filled_param": {
+          "device_type": "desktop",
+          "scale_factor": 0.75,
+          "preview_before_apply": true,
+          "apply_to_all_screens": true
+        }
+      }
+    ]
+  },
+  "DeviceFontScaler|:|animation speed|:|device_type,scale_factor,preview_before_apply,apply_to_all_screens": {
+    "tool_template_name": "DeviceFontScaler",
+    "derived_class": "animation speed",
+    "params_for_query": [
+      "device_type",
+      "scale_factor",
+      "preview_before_apply",
+      "apply_to_all_screens"
+    ],
+    "queries": [
+      {
+        "query": "Could you adjust the animation speed on my smartphone to 1.5x and show a preview first, applying it to all screens?",
+        "filled_param": {
+          "device_type": "smartphone",
+          "scale_factor": 1.5,
+          "preview_before_apply": true,
+          "apply_to_all_screens": true
+        }
+      },
+      {
+        "query": "I want to scale the animation speed on my tablet to 2.0 without a preview, but only for the current screen.",
+        "filled_param": {
+          "device_type": "tablet",
+          "scale_factor": 2.0,
+          "preview_before_apply": false,
+          "apply_to_all_screens": false
+        }
+      },
+      {
+        "query": "Set the animation speed on my smartwatch to 0.75x with a preview and apply it globally.",
+        "filled_param": {
+          "device_type": "smartwatch",
+          "scale_factor": 0.75,
+          "preview_before_apply": true,
+          "apply_to_all_screens": true
+        }
+      },
+      {
+        "query": "Can you make the animations faster at 3.0x on my laptop, without previewing, and only on the current screen?",
+        "filled_param": {
+          "device_type": "laptop",
+          "scale_factor": 3.0,
+          "preview_before_apply": false,
+          "apply_to_all_screens": false
+        }
+      },
+      {
+        "query": "Please change the animation speed on my smartphone to 1.2x, preview the changes, but just for the active screen.",
+        "filled_param": {
+          "device_type": "smartphone",
+          "scale_factor": 1.2,
+          "preview_before_apply": true,
+          "apply_to_all_screens": false
+        }
+      },
+      {
+        "query": "Adjust the animation speed to 0.5 on my PC with a preview and apply it across all screens.",
+        "filled_param": {
+          "device_type": "PC",
+          "scale_factor": 0.5,
+          "preview_before_apply": true,
+          "apply_to_all_screens": true
+        }
+      }
+    ]
+  },
+  "DeviceFontScaler|:|screen brightness|:|device_type,scale_factor,preview_before_apply,apply_to_all_screens": {
+    "tool_template_name": "DeviceFontScaler",
+    "derived_class": "screen brightness",
+    "params_for_query": [
+      "device_type",
+      "scale_factor",
+      "preview_before_apply",
+      "apply_to_all_screens"
+    ],
+    "queries": [
+      {
+        "query": "Adjust the screen brightness on my smartphone by a factor of 1.5, preview it first, and ensure it applies to all screens.",
+        "filled_param": {
+          "device_type": "smartphone",
+          "scale_factor": 1.5,
+          "preview_before_apply": true,
+          "apply_to_all_screens": true
+        }
+      },
+      {
+        "query": "Can you increase the screen brightness on my tablet by 2.0 without preview, applying it to every screen?",
+        "filled_param": {
+          "device_type": "tablet",
+          "scale_factor": 2.0,
+          "preview_before_apply": false,
+          "apply_to_all_screens": true
+        }
+      },
+      {
+        "query": "Reduce the screen brightness on my smartwatch by 0.75 and apply the change without previewing only to the current screen.",
+        "filled_param": {
+          "device_type": "smartwatch",
+          "scale_factor": 0.75,
+          "preview_before_apply": false,
+          "apply_to_all_screens": false
+        }
+      },
+      {
+        "query": "I want to scale down the screen brightness on my laptop by 0.5, but first, let me preview it and apply it only to the current screen.",
+        "filled_param": {
+          "device_type": "laptop",
+          "scale_factor": 0.5,
+          "preview_before_apply": true,
+          "apply_to_all_screens": false
+        }
+      },
+      {
+        "query": "Please adjust the screen brightness of my e-reader to 2.5 with a preview and ensure it affects all screens.",
+        "filled_param": {
+          "device_type": "ereader",
+          "scale_factor": 2.5,
+          "preview_before_apply": true,
+          "apply_to_all_screens": true
+        }
+      },
+      {
+        "query": "Change the screen brightness on my desktop by a scale factor of 3.0 and apply it immediately to all screens without a preview.",
+        "filled_param": {
+          "device_type": "desktop",
+          "scale_factor": 3.0,
+          "preview_before_apply": false,
+          "apply_to_all_screens": true
+        }
+      }
+    ]
+  },
+  "DeviceFontScaler|:|color contrast|:|device_type,scale_factor,preview_before_apply,apply_to_all_screens": {
+    "tool_template_name": "DeviceFontScaler",
+    "derived_class": "color contrast",
+    "params_for_query": [
+      "device_type",
+      "scale_factor",
+      "preview_before_apply",
+      "apply_to_all_screens"
+    ],
+    "queries": [
+      {
+        "query": "Please adjust the color contrast on my smartphone with a scale factor of 1.8 and show me a preview first. Apply it to all screens.",
+        "filled_param": {
+          "device_type": "smartphone",
+          "scale_factor": 1.8,
+          "preview_before_apply": true,
+          "apply_to_all_screens": true
+        }
+      },
+      {
+        "query": "Can you increase the color contrast on my tablet by a factor of 2.5 without previewing and apply it only to the current screen?",
+        "filled_param": {
+          "device_type": "tablet",
+          "scale_factor": 2.5,
+          "preview_before_apply": false,
+          "apply_to_all_screens": false
+        }
+      },
+      {
+        "query": "I'd like to scale the color contrast on my laptop to 0.7. Please provide a preview and make sure it affects all screens.",
+        "filled_param": {
+          "device_type": "laptop",
+          "scale_factor": 0.7,
+          "preview_before_apply": true,
+          "apply_to_all_screens": true
+        }
+      },
+      {
+        "query": "Can you adjust the color contrast on my smartwatch to a 1.5 scale factor, without a preview, and apply it globally?",
+        "filled_param": {
+          "device_type": "smartwatch",
+          "scale_factor": 1.5,
+          "preview_before_apply": false,
+          "apply_to_all_screens": true
+        }
+      },
+      {
+        "query": "Set the color contrast on my e-reader to a scale of 2.0, preview it first, and apply to only the reading screen.",
+        "filled_param": {
+          "device_type": "ereader",
+          "scale_factor": 2.0,
+          "preview_before_apply": true,
+          "apply_to_all_screens": false
+        }
+      },
+      {
+        "query": "I need to modify the color contrast on my desktop to 2.3. Make sure to show a preview and apply it to all screens.",
+        "filled_param": {
+          "device_type": "desktop",
+          "scale_factor": 2.3,
+          "preview_before_apply": true,
+          "apply_to_all_screens": true
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,824 @@
+{
+  "patient.get_mri_report|:|brain MRI|:|patient_id,status,report_date,image_quality,include_ai_analysis,language": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "brain MRI",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date",
+      "image_quality",
+      "include_ai_analysis",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "I need the brain MRI report for patient 12345, which is concluded, dated 2023-01-15, with high image quality. Please include AI analysis and provide it in English.",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "concluded",
+          "report_date": "2023-01-15",
+          "image_quality": "high",
+          "include_ai_analysis": true,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Fetch the brain MRI report for patient ID 67890 that is still in progress, from 2023-03-22. The images should be of medium quality. Include AI analysis and give the report in Chinese.",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "in progress",
+          "report_date": "2023-03-22",
+          "image_quality": "medium",
+          "include_ai_analysis": true,
+          "language": "zh"
+        }
+      },
+      {
+        "query": "Can you get the draft brain MRI report for patient 11223, dated 2023-05-30, with low image quality? Exclude AI analysis and provide it in English.",
+        "filled_param": {
+          "patient_id": "11223",
+          "status": "draft",
+          "report_date": "2023-05-30",
+          "image_quality": "low",
+          "include_ai_analysis": false,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Retrieve the brain MRI report for patient 33445. The report is concluded, dated 2023-07-14, and has high image quality. Exclude AI analysis and present it in French.",
+        "filled_param": {
+          "patient_id": "33445",
+          "status": "concluded",
+          "report_date": "2023-07-14",
+          "image_quality": "high",
+          "include_ai_analysis": false,
+          "language": "fr"
+        }
+      },
+      {
+        "query": "Please provide the brain MRI report for patient 55667, with concluded status, from 2023-09-10. The report should have medium image quality. Include AI analysis and give it in Spanish.",
+        "filled_param": {
+          "patient_id": "55667",
+          "status": "concluded",
+          "report_date": "2023-09-10",
+          "image_quality": "medium",
+          "include_ai_analysis": true,
+          "language": "es"
+        }
+      },
+      {
+        "query": "I am looking for the brain MRI report of patient 77889, which is in progress, dated 2023-02-18, with low image quality. Do not include AI analysis and make it available in German.",
+        "filled_param": {
+          "patient_id": "77889",
+          "status": "in progress",
+          "report_date": "2023-02-18",
+          "image_quality": "low",
+          "include_ai_analysis": false,
+          "language": "de"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|chest CT|:|patient_id,status,report_date,image_quality,include_ai_analysis,language": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "chest CT",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date",
+      "image_quality",
+      "include_ai_analysis",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "Please provide the chest CT report for patient ID 12345 with a status of 'concluded' from 2023-09-15. The image quality should be high, and I would like the AI analysis included. The report should be in English.",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "concluded",
+          "report_date": "2023-09-15",
+          "image_quality": "high",
+          "include_ai_analysis": true,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Fetch the chest CT report details for patient 67890 with the status 'in progress', dated 2023-08-01. Ensure the images are of medium quality and include AI analysis. The language should be set to Chinese.",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "in progress",
+          "report_date": "2023-08-01",
+          "image_quality": "medium",
+          "include_ai_analysis": true,
+          "language": "zh"
+        }
+      },
+      {
+        "query": "I need the chest CT report for patient 54321 with a draft status. The report date is 2023-07-20, the image quality is low, without AI analysis, and it should be in English.",
+        "filled_param": {
+          "patient_id": "54321",
+          "status": "draft",
+          "report_date": "2023-07-20",
+          "image_quality": "low",
+          "include_ai_analysis": false,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Can you get the chest CT report for patient ID 99887 with concluded status on 2023-06-25? The images should be high quality, and I want the AI analysis included. Please provide it in French.",
+        "filled_param": {
+          "patient_id": "99887",
+          "status": "concluded",
+          "report_date": "2023-06-25",
+          "image_quality": "high",
+          "include_ai_analysis": true,
+          "language": "fr"
+        }
+      },
+      {
+        "query": "Retrieve the chest CT report for patient 11223. The status should be 'in progress', with a report date of 2023-05-15. I need high-quality images and no AI analysis. The report should be written in German.",
+        "filled_param": {
+          "patient_id": "11223",
+          "status": "in progress",
+          "report_date": "2023-05-15",
+          "image_quality": "high",
+          "include_ai_analysis": false,
+          "language": "de"
+        }
+      },
+      {
+        "query": "Get the chest CT report for patient ID 33445, which is currently draft, dated 2023-04-10. Ensure the image quality is medium, include AI analysis, and the language should be Spanish.",
+        "filled_param": {
+          "patient_id": "33445",
+          "status": "draft",
+          "report_date": "2023-04-10",
+          "image_quality": "medium",
+          "include_ai_analysis": true,
+          "language": "es"
+        }
+      },
+      {
+        "query": "Please fetch the chest CT report for patient ID 98765, concluded on 2023-03-22. The report should be in Italian with low-quality images and no AI analysis is needed.",
+        "filled_param": {
+          "patient_id": "98765",
+          "status": "concluded",
+          "report_date": "2023-03-22",
+          "image_quality": "low",
+          "include_ai_analysis": false,
+          "language": "it"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|abdominal ultrasound|:|patient_id,status,report_date,image_quality,include_ai_analysis,language": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "abdominal ultrasound",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date",
+      "image_quality",
+      "include_ai_analysis",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "Can you retrieve the abdominal ultrasound report for patient 12345 that was concluded on 2023-09-15 with high image quality, including AI analysis, in English?",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "concluded",
+          "report_date": "2023-09-15",
+          "image_quality": "high",
+          "include_ai_analysis": true,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Fetch the in-progress abdominal ultrasound report for patient A9876 dated 2023-08-20. The report should have medium image quality without AI analysis and be in Chinese.",
+        "filled_param": {
+          "patient_id": "A9876",
+          "status": "in progress",
+          "report_date": "2023-08-20",
+          "image_quality": "medium",
+          "include_ai_analysis": false,
+          "language": "zh"
+        }
+      },
+      {
+        "query": "I need the draft abdominal ultrasound report for patient 48231 from 2023-07-10, with low image quality, AI analysis included, in English.",
+        "filled_param": {
+          "patient_id": "48231",
+          "status": "draft",
+          "report_date": "2023-07-10",
+          "image_quality": "low",
+          "include_ai_analysis": true,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Please provide the concluded abdominal ultrasound report for patient B5567 from 2023-06-05, ensuring it has high image quality, excludes AI analysis, and is in Spanish.",
+        "filled_param": {
+          "patient_id": "B5567",
+          "status": "concluded",
+          "report_date": "2023-06-05",
+          "image_quality": "high",
+          "include_ai_analysis": false,
+          "language": "es"
+        }
+      },
+      {
+        "query": "Get the abdominal ultrasound report for patient C1239 that is in progress as of 2023-05-25 with medium image quality, include AI analysis, and translate to German.",
+        "filled_param": {
+          "patient_id": "C1239",
+          "status": "in progress",
+          "report_date": "2023-05-25",
+          "image_quality": "medium",
+          "include_ai_analysis": true,
+          "language": "de"
+        }
+      },
+      {
+        "query": "Request the draft abdominal ultrasound report for patient 67890 from 2023-04-30. Ensure it has low image quality, excludes AI assistance, and is provided in French.",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "draft",
+          "report_date": "2023-04-30",
+          "image_quality": "low",
+          "include_ai_analysis": false,
+          "language": "fr"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|cardiac echocardiogram|:|patient_id,status,report_date,image_quality,include_ai_analysis,language": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "cardiac echocardiogram",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date",
+      "image_quality",
+      "include_ai_analysis",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "Retrieve the cardiac echocardiogram report for patient 12345 with status 'concluded', dated 2023-09-15, ensuring high image quality, AI analysis included, and in English.",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "concluded",
+          "report_date": "2023-09-15",
+          "image_quality": "high",
+          "include_ai_analysis": true,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Can you fetch the cardiac echocardiogram for patient A98765? The report is in draft status from 2023-08-22, with medium image quality, AI insights included, and should be in Chinese.",
+        "filled_param": {
+          "patient_id": "A98765",
+          "status": "draft",
+          "report_date": "2023-08-22",
+          "image_quality": "medium",
+          "include_ai_analysis": true,
+          "language": "zh"
+        }
+      },
+      {
+        "query": "Get the cardiac echocardiogram report for patient ID 56789, which is in progress, dated 2023-10-05. The images are low quality, without AI analysis, and the report should be in Spanish.",
+        "filled_param": {
+          "patient_id": "56789",
+          "status": "in progress",
+          "report_date": "2023-10-05",
+          "image_quality": "low",
+          "include_ai_analysis": false,
+          "language": "es"
+        }
+      },
+      {
+        "query": "I need the cardiac echocardiogram for patient 11223. It's concluded, from 2023-07-11, with high image quality, no AI analysis, and the report must be in French.",
+        "filled_param": {
+          "patient_id": "11223",
+          "status": "concluded",
+          "report_date": "2023-07-11",
+          "image_quality": "high",
+          "include_ai_analysis": false,
+          "language": "fr"
+        }
+      },
+      {
+        "query": "Please provide the cardiac echocardiogram report for patient B54321, in progress, from 2023-09-01, with medium image quality. It should include AI analysis and be in German.",
+        "filled_param": {
+          "patient_id": "B54321",
+          "status": "in progress",
+          "report_date": "2023-09-01",
+          "image_quality": "medium",
+          "include_ai_analysis": true,
+          "language": "de"
+        }
+      },
+      {
+        "query": "Access the cardiac echocardiogram report for patient C67890. The status is draft, generated on 2023-10-15. Ensure high image quality, exclude AI analysis, and it needs to be in Italian.",
+        "filled_param": {
+          "patient_id": "C67890",
+          "status": "draft",
+          "report_date": "2023-10-15",
+          "image_quality": "high",
+          "include_ai_analysis": false,
+          "language": "it"
+        }
+      },
+      {
+        "query": "Get me the cardiac echocardiogram report for patient 34567, which is concluded, from 2023-08-30, low image quality, with AI analysis, in English.",
+        "filled_param": {
+          "patient_id": "34567",
+          "status": "concluded",
+          "report_date": "2023-08-30",
+          "image_quality": "low",
+          "include_ai_analysis": true,
+          "language": "en"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|spinal X-ray|:|patient_id,status,report_date,image_quality,include_ai_analysis,language": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "spinal X-ray",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date",
+      "image_quality",
+      "include_ai_analysis",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "Please retrieve the spinal X-ray report for patient ID 12345, which is concluded, dated 2023-09-12 with high image quality. Make sure it includes AI analysis and is in English.",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "concluded",
+          "report_date": "2023-09-12",
+          "image_quality": "high",
+          "include_ai_analysis": true,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Fetch the spinal X-ray report for patient ID A9876 that is in progress as of 2023-10-05. It should have medium image quality, include AI insights, and be in Chinese.",
+        "filled_param": {
+          "patient_id": "A9876",
+          "status": "in progress",
+          "report_date": "2023-10-05",
+          "image_quality": "medium",
+          "include_ai_analysis": true,
+          "language": "zh"
+        }
+      },
+      {
+        "query": "I need the spinal X-ray report for patient ID B4321 with the status of draft from 2023-08-20. The image quality should be low, without any AI analysis, and in English.",
+        "filled_param": {
+          "patient_id": "B4321",
+          "status": "draft",
+          "report_date": "2023-08-20",
+          "image_quality": "low",
+          "include_ai_analysis": false,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Get me the spinal X-ray report for patient ID C5678. The report status should be concluded, dated 2023-07-15, with high quality images, without AI analysis, and in French.",
+        "filled_param": {
+          "patient_id": "C5678",
+          "status": "concluded",
+          "report_date": "2023-07-15",
+          "image_quality": "high",
+          "include_ai_analysis": false,
+          "language": "fr"
+        }
+      },
+      {
+        "query": "Could you find the spinal X-ray report for patient ID D6789? It should be in progress as of 2023-09-01, with medium image quality, include AI analysis, and be provided in Spanish.",
+        "filled_param": {
+          "patient_id": "D6789",
+          "status": "in progress",
+          "report_date": "2023-09-01",
+          "image_quality": "medium",
+          "include_ai_analysis": true,
+          "language": "es"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|breast MRI|:|patient_id,status,report_date,image_quality,include_ai_analysis,language": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "breast MRI",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date",
+      "image_quality",
+      "include_ai_analysis",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "Please provide the breast MRI report for patient ID 12345 with the status 'concluded' from the date 2023-07-15. The image quality should be high, include AI analysis, and the report should be in English.",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "concluded",
+          "report_date": "2023-07-15",
+          "image_quality": "high",
+          "include_ai_analysis": true,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Fetch the draft breast MRI report for patient 67890 dated 2023-08-20, with medium image quality, excluding AI analysis, in Chinese.",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "draft",
+          "report_date": "2023-08-20",
+          "image_quality": "medium",
+          "include_ai_analysis": false,
+          "language": "zh"
+        }
+      },
+      {
+        "query": "I need the in-progress breast MRI report for patient ID AB987, generated on 2023-06-10. The images should be of low quality, with AI analysis included, and the report should be in English.",
+        "filled_param": {
+          "patient_id": "AB987",
+          "status": "in progress",
+          "report_date": "2023-06-10",
+          "image_quality": "low",
+          "include_ai_analysis": true,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Could you send the breast MRI report for patient ID 54321, marked as concluded, from 2023-05-18? Ensure the image quality is high, do not include AI analysis, and the language should be Spanish.",
+        "filled_param": {
+          "patient_id": "54321",
+          "status": "concluded",
+          "report_date": "2023-05-18",
+          "image_quality": "high",
+          "include_ai_analysis": false,
+          "language": "es"
+        }
+      },
+      {
+        "query": "Retrieve the breast MRI report for patient 11223 with the status 'in progress', dated 2023-09-01, with high image quality, including AI analysis, in French.",
+        "filled_param": {
+          "patient_id": "11223",
+          "status": "in progress",
+          "report_date": "2023-09-01",
+          "image_quality": "high",
+          "include_ai_analysis": true,
+          "language": "fr"
+        }
+      },
+      {
+        "query": "Access the breast MRI report for patient ID 33445, which is a draft, from 2023-04-22. The image quality should be medium, exclude AI analysis, and the report must be in German.",
+        "filled_param": {
+          "patient_id": "33445",
+          "status": "draft",
+          "report_date": "2023-04-22",
+          "image_quality": "medium",
+          "include_ai_analysis": false,
+          "language": "de"
+        }
+      },
+      {
+        "query": "Get the concluded breast MRI report for patient ID 99887 from 2023-10-01, with low image quality, AI analysis included, and the report written in Italian.",
+        "filled_param": {
+          "patient_id": "99887",
+          "status": "concluded",
+          "report_date": "2023-10-01",
+          "image_quality": "low",
+          "include_ai_analysis": true,
+          "language": "it"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|liver CT|:|patient_id,status,report_date,image_quality,include_ai_analysis,language": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "liver CT",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date",
+      "image_quality",
+      "include_ai_analysis",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "Can you get the liver CT report for patient 12345? The status should be 'in progress', generated on 2023-09-01, with high image quality, including AI analysis, in English.",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "in progress",
+          "report_date": "2023-09-01",
+          "image_quality": "high",
+          "include_ai_analysis": true,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Fetch the liver CT report for patient ID 67890. It should be concluded, dated 2023-08-15, with medium image quality, excluding AI analysis, and in Chinese.",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "concluded",
+          "report_date": "2023-08-15",
+          "image_quality": "medium",
+          "include_ai_analysis": false,
+          "language": "zh"
+        }
+      },
+      {
+        "query": "I need the liver CT report for patient A9876, marked as draft, from 2023-07-21, low-quality images, with no AI analysis included, and the language set to English.",
+        "filled_param": {
+          "patient_id": "A9876",
+          "status": "draft",
+          "report_date": "2023-07-21",
+          "image_quality": "low",
+          "include_ai_analysis": false,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Retrieve the liver CT scan report for patient ID B3456 that is concluded, dated 2023-06-10, having high image quality, including AI analysis, and presented in English.",
+        "filled_param": {
+          "patient_id": "B3456",
+          "status": "concluded",
+          "report_date": "2023-06-10",
+          "image_quality": "high",
+          "include_ai_analysis": true,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Please provide the liver CT report for patient 54321. The report is in progress, dated 2023-05-30, image quality should be medium, with AI analysis included, in French.",
+        "filled_param": {
+          "patient_id": "54321",
+          "status": "in progress",
+          "report_date": "2023-05-30",
+          "image_quality": "medium",
+          "include_ai_analysis": true,
+          "language": "fr"
+        }
+      },
+      {
+        "query": "I'd like to see the liver CT report of patient 9876, marked as draft, generated on 2023-04-25, with low image quality, AI analysis not required, and the language set to Spanish.",
+        "filled_param": {
+          "patient_id": "9876",
+          "status": "draft",
+          "report_date": "2023-04-25",
+          "image_quality": "low",
+          "include_ai_analysis": false,
+          "language": "es"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|ocular OCT|:|patient_id,status,report_date,image_quality,include_ai_analysis,language": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "ocular OCT",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date",
+      "image_quality",
+      "include_ai_analysis",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the ocular OCT report for patient ID 12345 with a status of 'concluded' from September 15, 2023, having medium image quality, including AI analysis in English?",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "concluded",
+          "report_date": "September 15, 2023",
+          "image_quality": "medium",
+          "include_ai_analysis": true,
+          "language": "en"
+        }
+      },
+      {
+        "query": "I need the ocular OCT report for patient 67890 that is currently 'in progress', dated October 1, 2023, with high image quality, no AI analysis, and in Chinese.",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "in progress",
+          "report_date": "October 1, 2023",
+          "image_quality": "high",
+          "include_ai_analysis": false,
+          "language": "zh"
+        }
+      },
+      {
+        "query": "Fetch the draft ocular OCT report for patient ID A9876, generated on August 22, 2023, with low image quality, including AI metrics, in English.",
+        "filled_param": {
+          "patient_id": "A9876",
+          "status": "draft",
+          "report_date": "August 22, 2023",
+          "image_quality": "low",
+          "include_ai_analysis": true,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Can you get the ocular OCT report marked as 'concluded' for patient ID B5432 from July 10, 2023, with medium image quality and without AI analysis in Spanish?",
+        "filled_param": {
+          "patient_id": "B5432",
+          "status": "concluded",
+          "report_date": "July 10, 2023",
+          "image_quality": "medium",
+          "include_ai_analysis": false,
+          "language": "es"
+        }
+      },
+      {
+        "query": "Retrieve the in-progress ocular OCT report for patient ID C1122, dated March 3, 2023, with a high quality of images, including AI assessments, in French.",
+        "filled_param": {
+          "patient_id": "C1122",
+          "status": "in progress",
+          "report_date": "March 3, 2023",
+          "image_quality": "high",
+          "include_ai_analysis": true,
+          "language": "fr"
+        }
+      },
+      {
+        "query": "Please provide the draft ocular OCT report for patient ID D7777 from June 5, 2023, with low image quality, excluding AI analysis, in German.",
+        "filled_param": {
+          "patient_id": "D7777",
+          "status": "draft",
+          "report_date": "June 5, 2023",
+          "image_quality": "low",
+          "include_ai_analysis": false,
+          "language": "de"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|whole-body PET scan|:|patient_id,status,report_date,image_quality,include_ai_analysis,language": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "whole-body PET scan",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date",
+      "image_quality",
+      "include_ai_analysis",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "Retrieve the whole-body PET scan report for patient ID 12345 with status 'concluded' from 2023-09-15, ensuring the image quality is high and include AI analysis in English.",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "concluded",
+          "report_date": "2023-09-15",
+          "image_quality": "high",
+          "include_ai_analysis": true,
+          "language": "en"
+        }
+      },
+      {
+        "query": "What is the whole-body PET scan report for patient ID 67890, marked as 'in progress', dated 2023-08-01, with medium image quality, AI analysis included, in Chinese?",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "in progress",
+          "report_date": "2023-08-01",
+          "image_quality": "medium",
+          "include_ai_analysis": true,
+          "language": "zh"
+        }
+      },
+      {
+        "query": "Access the whole-body PET scan report for patient ID A1122 with a 'draft' status from 2023-07-20, low image quality, without AI analysis, and in English.",
+        "filled_param": {
+          "patient_id": "A1122",
+          "status": "draft",
+          "report_date": "2023-07-20",
+          "image_quality": "low",
+          "include_ai_analysis": false,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Fetch the whole-body PET scan report for patient ID B3344, having status 'concluded', dated 2023-06-30, with high-quality images, AI findings included, and in French.",
+        "filled_param": {
+          "patient_id": "B3344",
+          "status": "concluded",
+          "report_date": "2023-06-30",
+          "image_quality": "high",
+          "include_ai_analysis": true,
+          "language": "fr"
+        }
+      },
+      {
+        "query": "Could you provide the whole-body PET scan report for patient ID C5566, marked 'in progress', from 2023-10-05 with medium image quality, excluding AI analysis, written in Spanish?",
+        "filled_param": {
+          "patient_id": "C5566",
+          "status": "in progress",
+          "report_date": "2023-10-05",
+          "image_quality": "medium",
+          "include_ai_analysis": false,
+          "language": "es"
+        }
+      },
+      {
+        "query": "Get the whole-body PET scan report for patient ID D7788, status 'draft', dated 2023-05-12, with low image quality, AI analysis included, in Korean.",
+        "filled_param": {
+          "patient_id": "D7788",
+          "status": "draft",
+          "report_date": "2023-05-12",
+          "image_quality": "low",
+          "include_ai_analysis": true,
+          "language": "ko"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|angiography|:|patient_id,status,report_date,image_quality,include_ai_analysis,language": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "angiography",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date",
+      "image_quality",
+      "include_ai_analysis",
+      "language"
+    ],
+    "queries": [
+      {
+        "query": "Please provide the angiography report for patient ID 12345 with the status 'concluded', dated 2023-09-15. The image quality should be high, include AI analysis, and the language should be English.",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "concluded",
+          "report_date": "2023-09-15",
+          "image_quality": "high",
+          "include_ai_analysis": true,
+          "language": "en"
+        }
+      },
+      {
+        "query": "Fetch the angiography report for patient 67890. I need the report with a status of 'in progress', from 2023-10-01, medium image quality, without AI analysis, in Chinese.",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "in progress",
+          "report_date": "2023-10-01",
+          "image_quality": "medium",
+          "include_ai_analysis": false,
+          "language": "zh"
+        }
+      },
+      {
+        "query": "Retrieve the angiography report for patient number 54321, with the status 'draft', generated on 2023-08-20. Ensure the image quality is low, do not include AI analysis, and present it in Spanish.",
+        "filled_param": {
+          "patient_id": "54321",
+          "status": "draft",
+          "report_date": "2023-08-20",
+          "image_quality": "low",
+          "include_ai_analysis": false,
+          "language": "es"
+        }
+      },
+      {
+        "query": "I need to see the angiography report for patient ID 98765, which is 'concluded', from the date 2023-07-10. The report should have high image quality, include AI findings, and be in German.",
+        "filled_param": {
+          "patient_id": "98765",
+          "status": "concluded",
+          "report_date": "2023-07-10",
+          "image_quality": "high",
+          "include_ai_analysis": true,
+          "language": "de"
+        }
+      },
+      {
+        "query": "Get the angiography report for patient 24680 with a status of 'in progress', dated 2023-06-30. The images should be high quality, AI analysis included, and the report in French.",
+        "filled_param": {
+          "patient_id": "24680",
+          "status": "in progress",
+          "report_date": "2023-06-30",
+          "image_quality": "high",
+          "include_ai_analysis": true,
+          "language": "fr"
+        }
+      },
+      {
+        "query": "Look up the angiography report for patient ID 13579. The report's status is 'draft' as of 2023-05-25, with medium image quality and without AI analysis, provided in English.",
+        "filled_param": {
+          "patient_id": "13579",
+          "status": "draft",
+          "report_date": "2023-05-25",
+          "image_quality": "medium",
+          "include_ai_analysis": false,
+          "language": "en"
+        }
+      }
+    ]
+  }
+}

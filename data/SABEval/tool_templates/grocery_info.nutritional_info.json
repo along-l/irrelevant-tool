@@ -1,0 +1,66 @@
+{
+  "tool_template_name": "grocery_info.nutritional_info",
+  "meta_data": {
+    "base_class": "Retrieve nutritional information for a given <food type in grocery> food item from a particular storeItems referred to - meaning edible products or beverages sold in stores, for which consumers may need to retrieve specific nutritional information such as protein, calories, or fat content.",
+    "derived_classes": [
+      "fruit",
+      "vegetable",
+      "meat",
+      "seafood",
+      "dairy product",
+      "grain",
+      "beverage",
+      "snack",
+      "condiment"
+    ],
+    "base_class_entity": "food item"
+  },
+  "tool_template": {
+    "name": "grocery_info.nutritional_info_for_<class>",
+    "description": "Retrieve nutritional information for a given <class> item from a particular store.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "store": {
+          "type": "string",
+          "description": "The particular store where the <class> item is available."
+        },
+        "food": {
+          "type": "string",
+          "description": "Name of <class> item for which information is needed."
+        },
+        "information": {
+          "type": "array",
+          "description": "Nutritional details required.",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "store",
+        "food",
+        "information"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "brand_name": {
+      "type": "string",
+      "description": "The brand name of the <class> item to retrieve."
+    },
+    "include_health_labels": {
+      "type": "boolean",
+      "description": "Indicates whether to include health-related certifications for the <class> item."
+    },
+    "include_nutritional_summary": {
+      "type": "boolean",
+      "description": "Specifies whether to include a summarized overview of the <class> item's nutritional profile instead of only individual nutrient values."
+    },
+    "include_comparison_to_standard": {
+      "type": "boolean",
+      "description": "If true, includes a comparison of the given <class> item's nutritional values against standard dietary reference values."
+    }
+  }
+}

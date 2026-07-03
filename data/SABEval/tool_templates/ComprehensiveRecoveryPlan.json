@@ -1,0 +1,74 @@
+{
+  "tool_template_name": "ComprehensiveRecoveryPlan",
+  "meta_data": {
+    "base_class": "Develop a comprehensive <medical surgery> rehabilitation plan - a postoperative recovery and functional reconstruction plan that can be designed based on patient age, weight, type of surgery, and rehabilitation goals.",
+    "derived_classes": [
+      "hand surgery",
+      "cardiac surgery",
+      "stomach surgery",
+      "spine surgery",
+      "neurosurgery",
+      "eye surgery",
+      "ENT surgery",
+      "urinary surgery",
+      "obstetric surgery"
+    ],
+    "base_class_entity": "recovery"
+  },
+  "tool_template": {
+    "name": "Comprehensive_<class>_RecoveryPlan",
+    "description": "Generate a comprehensive <class> recovery plan considering surgery type and recovery goals.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "surgery_type": {
+          "type": "string",
+          "description": "The specific type of <class> surgery. It should be a string with a length between 5 and 100 characters."
+        },
+        "recovery_goals": {
+          "type": "string",
+          "description": "Specific recovery goals for <class>. It should be a string with a length between 10 and 200 characters."
+        }
+      },
+      "required": [
+        "surgery_type",
+        "recovery_goals"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "age": {
+      "type": "integer",
+      "description": "The age of the patient. Must be a positive integer, with a minimum value of 1."
+    },
+    "weight": {
+      "type": "number",
+      "description": "The weight of the patient in kilograms. Must be a positive number, with a minimum value of 1."
+    }
+  },
+  "additional_params": {
+    "comorbid_conditions": {
+      "type": "array",
+      "description": "Other existing medical conditions (e.g., diabetes, hypertension) that may impact <class> recovery.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "has_primary_caregiver": {
+      "type": "boolean",
+      "description": "Whether the patient has a primary caregiver during recovery."
+    },
+    "mobility_assistance_required": {
+      "type": "boolean",
+      "description": "Whether the patient currently needs assistance to move around."
+    },
+    "preferred_recovery_duration_weeks": {
+      "type": "integer",
+      "description": "Target number of weeks the patient hopes to fully recover in."
+    },
+    "home_environment": {
+      "type": "string",
+      "description": "Brief description of the patient's home setting that may impact recovery (e.g., stairs, no elevator, rural)."
+    }
+  }
+}

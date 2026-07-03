@@ -1,0 +1,334 @@
+{
+  "games.update.find|:|PlayStation|:|game,region,release_start_date,release_end_date,changelog_required": {
+    "tool_template_name": "games.update.find",
+    "derived_class": "PlayStation",
+    "params_for_query": [
+      "game",
+      "region",
+      "release_start_date",
+      "release_end_date",
+      "changelog_required"
+    ],
+    "queries": [
+      {
+        "query": "Could you tell me about the latest updates for 'The Last of Us Part II' in the US region between 2023-01-01 and 2023-10-15, including the changelog?",
+        "filled_param": {
+          "game": "The Last of Us Part II",
+          "region": "US",
+          "release_start_date": "2023-01-01",
+          "release_end_date": "2023-10-15",
+          "changelog_required": true
+        }
+      },
+      {
+        "query": "I need to find updates for 'Ghost of Tsushima' in the EU region from 2023-06-01 to 2023-09-30 without the changelog.",
+        "filled_param": {
+          "game": "Ghost of Tsushima",
+          "region": "EU",
+          "release_start_date": "2023-06-01",
+          "release_end_date": "2023-09-30",
+          "changelog_required": false
+        }
+      },
+      {
+        "query": "Can you show me the patches released for 'Gran Turismo 7' in the JP region between 2023-02-15 and 2023-03-15, and I don't need the changelog?",
+        "filled_param": {
+          "game": "Gran Turismo 7",
+          "region": "JP",
+          "release_start_date": "2023-02-15",
+          "release_end_date": "2023-03-15",
+          "changelog_required": false
+        }
+      },
+      {
+        "query": "Find the recent updates for 'Spider-Man: Miles Morales' in the US from 2023-08-01 to 2023-09-01 with the changelog.",
+        "filled_param": {
+          "game": "Spider-Man: Miles Morales",
+          "region": "US",
+          "release_start_date": "2023-08-01",
+          "release_end_date": "2023-09-01",
+          "changelog_required": true
+        }
+      },
+      {
+        "query": "What are the latest patches for 'Horizon Forbidden West' available in the EU region between 2023-05-10 and 2023-07-25, excluding the changelog?",
+        "filled_param": {
+          "game": "Horizon Forbidden West",
+          "region": "EU",
+          "release_start_date": "2023-05-10",
+          "release_end_date": "2023-07-25",
+          "changelog_required": false
+        }
+      },
+      {
+        "query": "I'd like to know the updates for 'Returnal' released in the JP region from 2023-01-01 to 2023-05-01, with changelogs included.",
+        "filled_param": {
+          "game": "Returnal",
+          "region": "JP",
+          "release_start_date": "2023-01-01",
+          "release_end_date": "2023-05-01",
+          "changelog_required": true
+        }
+      },
+      {
+        "query": "Provide details on updates for 'Ratchet & Clank: Rift Apart' in the US between 2023-04-01 and 2023-06-01, including the changelog.",
+        "filled_param": {
+          "game": "Ratchet & Clank: Rift Apart",
+          "region": "US",
+          "release_start_date": "2023-04-01",
+          "release_end_date": "2023-06-01",
+          "changelog_required": true
+        }
+      }
+    ]
+  },
+  "games.update.find|:|Xbox|:|game,region,release_start_date,release_end_date,changelog_required": {
+    "tool_template_name": "games.update.find",
+    "derived_class": "Xbox",
+    "params_for_query": [
+      "game",
+      "region",
+      "release_start_date",
+      "release_end_date",
+      "changelog_required"
+    ],
+    "queries": [
+      {
+        "query": "Could you find the latest updates for Halo Infinite on Xbox in the US region between 2023-01-01 and 2023-06-30, including the changelog?",
+        "filled_param": {
+          "game": "Halo Infinite",
+          "region": "US",
+          "release_start_date": "2023-01-01",
+          "release_end_date": "2023-06-30",
+          "changelog_required": true
+        }
+      },
+      {
+        "query": "I need the updates for Forza Horizon 5 in the EU region from 2022-05-01 to 2022-07-31 on Xbox, and I don't need the changelog.",
+        "filled_param": {
+          "game": "Forza Horizon 5",
+          "region": "EU",
+          "release_start_date": "2022-05-01",
+          "release_end_date": "2022-07-31",
+          "changelog_required": false
+        }
+      },
+      {
+        "query": "What are the Xbox updates available for FIFA 23 in the JP region between 2023-03-15 and 2023-09-15, and include the changelog?",
+        "filled_param": {
+          "game": "FIFA 23",
+          "region": "JP",
+          "release_start_date": "2023-03-15",
+          "release_end_date": "2023-09-15",
+          "changelog_required": true
+        }
+      },
+      {
+        "query": "Can you provide the Xbox updates for Call of Duty: Modern Warfare II in the US region from 2023-02-01 to 2023-04-01 without the changelog?",
+        "filled_param": {
+          "game": "Call of Duty: Modern Warfare II",
+          "region": "US",
+          "release_start_date": "2023-02-01",
+          "release_end_date": "2023-04-01",
+          "changelog_required": false
+        }
+      },
+      {
+        "query": "Find all updates for Minecraft on Xbox in the UK region from 2022-12-01 to 2023-01-31 and include the changelog.",
+        "filled_param": {
+          "game": "Minecraft",
+          "region": "UK",
+          "release_start_date": "2022-12-01",
+          "release_end_date": "2023-01-31",
+          "changelog_required": true
+        }
+      },
+      {
+        "query": "Please look up the Xbox updates for Assassin's Creed Valhalla in the AU region from 2023-01-01 to 2023-03-01 without requiring the changelog.",
+        "filled_param": {
+          "game": "Assassin's Creed Valhalla",
+          "region": "AU",
+          "release_start_date": "2023-01-01",
+          "release_end_date": "2023-03-01",
+          "changelog_required": false
+        }
+      },
+      {
+        "query": "Get the latest updates for Elden Ring on Xbox for the CA region within the date range 2023-04-01 to 2023-08-01, excluding the changelog.",
+        "filled_param": {
+          "game": "Elden Ring",
+          "region": "CA",
+          "release_start_date": "2023-04-01",
+          "release_end_date": "2023-08-01",
+          "changelog_required": false
+        }
+      }
+    ]
+  },
+  "games.update.find|:|Nintendo Switch|:|game,region,release_start_date,release_end_date,changelog_required": {
+    "tool_template_name": "games.update.find",
+    "derived_class": "Nintendo Switch",
+    "params_for_query": [
+      "game",
+      "region",
+      "release_start_date",
+      "release_end_date",
+      "changelog_required"
+    ],
+    "queries": [
+      {
+        "query": "What are the latest updates for the Nintendo Switch version of Animal Crossing in the US region between 2023-01-01 and 2023-03-01, including the changelog?",
+        "filled_param": {
+          "game": "Animal Crossing",
+          "region": "US",
+          "release_start_date": "2023-01-01",
+          "release_end_date": "2023-03-01",
+          "changelog_required": true
+        }
+      },
+      {
+        "query": "Could you provide the patch notes for Zelda: Breath of the Wild updates on Nintendo Switch released in the EU region between 2023-05-01 and 2023-06-01?",
+        "filled_param": {
+          "game": "Zelda: Breath of the Wild",
+          "region": "EU",
+          "release_start_date": "2023-05-01",
+          "release_end_date": "2023-06-01",
+          "changelog_required": true
+        }
+      },
+      {
+        "query": "Find the updates for Mario Kart 8 on the Nintendo Switch in the JP region from 2023-07-01 to 2023-08-01, without needing the changelog.",
+        "filled_param": {
+          "game": "Mario Kart 8",
+          "region": "JP",
+          "release_start_date": "2023-07-01",
+          "release_end_date": "2023-08-01",
+          "changelog_required": false
+        }
+      },
+      {
+        "query": "Can you list updates for Splatoon 3 for the Nintendo Switch released in the US region within 2023-02-15 and 2023-02-28, and please include the changelog?",
+        "filled_param": {
+          "game": "Splatoon 3",
+          "region": "US",
+          "release_start_date": "2023-02-15",
+          "release_end_date": "2023-02-28",
+          "changelog_required": true
+        }
+      },
+      {
+        "query": "I need the latest patches for Pokémon Shield in the EU region on Nintendo Switch from 2023-04-01 to 2023-04-30, but I don't require the changelog.",
+        "filled_param": {
+          "game": "Pokémon Shield",
+          "region": "EU",
+          "release_start_date": "2023-04-01",
+          "release_end_date": "2023-04-30",
+          "changelog_required": false
+        }
+      },
+      {
+        "query": "What are the available updates for Super Smash Bros. Ultimate on Nintendo Switch in Japan between 2023-09-01 and 2023-09-30, including changelog details?",
+        "filled_param": {
+          "game": "Super Smash Bros. Ultimate",
+          "region": "JP",
+          "release_start_date": "2023-09-01",
+          "release_end_date": "2023-09-30",
+          "changelog_required": true
+        }
+      },
+      {
+        "query": "Update details needed for Luigi's Mansion 3 on Nintendo Switch from the US region dated between 2023-06-15 and 2023-07-15, changelog not required.",
+        "filled_param": {
+          "game": "Luigi's Mansion 3",
+          "region": "US",
+          "release_start_date": "2023-06-15",
+          "release_end_date": "2023-07-15",
+          "changelog_required": false
+        }
+      }
+    ]
+  },
+  "games.update.find|:|Steam Deck|:|game,region,release_start_date,release_end_date,changelog_required": {
+    "tool_template_name": "games.update.find",
+    "derived_class": "Steam Deck",
+    "params_for_query": [
+      "game",
+      "region",
+      "release_start_date",
+      "release_end_date",
+      "changelog_required"
+    ],
+    "queries": [
+      {
+        "query": "Can you find the latest updates for 'Cyberpunk 2077' on the Steam Deck in the US region between 2023-01-01 and 2023-03-31, and I need the changelog too?",
+        "filled_param": {
+          "game": "Cyberpunk 2077",
+          "region": "US",
+          "release_start_date": "2023-01-01",
+          "release_end_date": "2023-03-31",
+          "changelog_required": true
+        }
+      },
+      {
+        "query": "I want to know about any updates available for 'The Witcher 3' on the Steam Deck in the EU region from 2022-08-01 to 2022-10-01, without the changelog.",
+        "filled_param": {
+          "game": "The Witcher 3",
+          "region": "EU",
+          "release_start_date": "2022-08-01",
+          "release_end_date": "2022-10-01",
+          "changelog_required": false
+        }
+      },
+      {
+        "query": "Please find updates for 'Hades' on the Steam Deck for the JP region from 2023-02-15 to 2023-04-15, and include the changelog.",
+        "filled_param": {
+          "game": "Hades",
+          "region": "JP",
+          "release_start_date": "2023-02-15",
+          "release_end_date": "2023-04-15",
+          "changelog_required": true
+        }
+      },
+      {
+        "query": "I'm looking for updates on 'Doom Eternal' for the Steam Deck in the US from 2023-05-01 to 2023-06-30, and I don't need the changelog.",
+        "filled_param": {
+          "game": "Doom Eternal",
+          "region": "US",
+          "release_start_date": "2023-05-01",
+          "release_end_date": "2023-06-30",
+          "changelog_required": false
+        }
+      },
+      {
+        "query": "Get the updates for 'Stardew Valley' on Steam Deck in the EU region between 2023-03-01 and 2023-05-01, please include the changelog.",
+        "filled_param": {
+          "game": "Stardew Valley",
+          "region": "EU",
+          "release_start_date": "2023-03-01",
+          "release_end_date": "2023-05-01",
+          "changelog_required": true
+        }
+      },
+      {
+        "query": "Could you check for updates on 'Apex Legends' for Steam Deck in the JP region from 2023-04-01 to 2023-06-01 without needing the changelog?",
+        "filled_param": {
+          "game": "Apex Legends",
+          "region": "JP",
+          "release_start_date": "2023-04-01",
+          "release_end_date": "2023-06-01",
+          "changelog_required": false
+        }
+      },
+      {
+        "query": "Find the updates for 'Among Us' on the Steam Deck in the US region between 2023-02-01 and 2023-03-15, and I need the changelog as well.",
+        "filled_param": {
+          "game": "Among Us",
+          "region": "US",
+          "release_start_date": "2023-02-01",
+          "release_end_date": "2023-03-15",
+          "changelog_required": true
+        }
+      }
+    ]
+  }
+}

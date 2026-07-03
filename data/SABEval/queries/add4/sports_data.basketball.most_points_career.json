@@ -1,0 +1,875 @@
+{
+  "sports_data.basketball.most_points_career|:|basketball|:|league,season_range,include_playoffs,minimum_games_played,data_source": {
+    "tool_template_name": "sports_data.basketball.most_points_career",
+    "derived_class": "basketball",
+    "params_for_query": [
+      "league",
+      "season_range",
+      "include_playoffs",
+      "minimum_games_played",
+      "data_source"
+    ],
+    "queries": [
+      {
+        "query": "Who scored the most points in the NBA from 1990 to 2000, including playoffs, with a minimum of 500 games played, using official league API data?",
+        "filled_param": {
+          "league": "NBA",
+          "season_range": "1990-2000",
+          "include_playoffs": true,
+          "minimum_games_played": 500,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Find the basketball player with the highest career points in the EuroLeague from 2010 to 2020, excluding playoffs, with at least 300 games played, using sports-reference data.",
+        "filled_param": {
+          "league": "EuroLeague",
+          "season_range": "2010-2020",
+          "include_playoffs": false,
+          "minimum_games_played": 300,
+          "data_source": "sports-reference"
+        }
+      },
+      {
+        "query": "Identify the top scorer in the WNBA for the seasons between 2005 and 2015, including playoff points, who played a minimum of 400 games, according to data from the official league API.",
+        "filled_param": {
+          "league": "WNBA",
+          "season_range": "2005-2015",
+          "include_playoffs": true,
+          "minimum_games_played": 400,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Who accumulated the most points in the CBA from 1995 to 2005, considering only regular season games, with at least 350 games on record, using statistics from sports-reference?",
+        "filled_param": {
+          "league": "CBA",
+          "season_range": "1995-2005",
+          "include_playoffs": false,
+          "minimum_games_played": 350,
+          "data_source": "sports-reference"
+        }
+      },
+      {
+        "query": "Can you tell me which player scored the most in the NBL from 2000 to 2010, including playoffs, with a minimum of 450 games played, using the official league API as the data source?",
+        "filled_param": {
+          "league": "NBL",
+          "season_range": "2000-2010",
+          "include_playoffs": true,
+          "minimum_games_played": 450,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Find the leading scorer in the ABA during the seasons from 1980 to 1990, excluding playoffs, who played at least 250 games, with data sourced from sports-reference.",
+        "filled_param": {
+          "league": "ABA",
+          "season_range": "1980-1990",
+          "include_playoffs": false,
+          "minimum_games_played": 250,
+          "data_source": "sports-reference"
+        }
+      },
+      {
+        "query": "Which player has the most points in the NCAA from 2000 to 2010, with playoff points included and a minimum of 500 games played, using official league API data?",
+        "filled_param": {
+          "league": "NCAA",
+          "season_range": "2000-2010",
+          "include_playoffs": true,
+          "minimum_games_played": 500,
+          "data_source": "official league API"
+        }
+      }
+    ]
+  },
+  "sports_data.basketball.most_points_career|:|soccer|:|league,season_range,include_playoffs,minimum_games_played,data_source": {
+    "tool_template_name": "sports_data.basketball.most_points_career",
+    "derived_class": "soccer",
+    "params_for_query": [
+      "league",
+      "season_range",
+      "include_playoffs",
+      "minimum_games_played",
+      "data_source"
+    ],
+    "queries": [
+      {
+        "query": "Find the record for the most points scored by a soccer player in the English Premier League from 2010 to 2020, including playoff points, with a minimum of 50 games played, using the official league API as the data source.",
+        "filled_param": {
+          "league": "English Premier League",
+          "season_range": "2010-2020",
+          "include_playoffs": true,
+          "minimum_games_played": 50,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Can you tell me who scored the most career points in the Bundesliga for the seasons between 2005 and 2015, excluding playoff matches, with at least 100 games played, using sports-reference?",
+        "filled_param": {
+          "league": "Bundesliga",
+          "season_range": "2005-2015",
+          "include_playoffs": false,
+          "minimum_games_played": 100,
+          "data_source": "sports-reference"
+        }
+      },
+      {
+        "query": "I need the record of the highest points in career for a soccer player in Serie A from 1990 to 2005, including playoffs, with a minimum of 80 games played, sourced from the official league API.",
+        "filled_param": {
+          "league": "Serie A",
+          "season_range": "1990-2005",
+          "include_playoffs": true,
+          "minimum_games_played": 80,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Who holds the most points record in La Liga across the 2000-2010 seasons, excluding playoff matches, with a requirement of at least 120 games played, according to the sports-reference data source?",
+        "filled_param": {
+          "league": "La Liga",
+          "season_range": "2000-2010",
+          "include_playoffs": false,
+          "minimum_games_played": 120,
+          "data_source": "sports-reference"
+        }
+      },
+      {
+        "query": "Please show the highest career points record for the Ligue 1 from 2015 to 2023, including playoff points, for players who have played a minimum of 60 games, using the official league API.",
+        "filled_param": {
+          "league": "Ligue 1",
+          "season_range": "2015-2023",
+          "include_playoffs": true,
+          "minimum_games_played": 60,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Could you find out the most career points scored by a soccer player in Major League Soccer during the seasons 2018 to 2021, including playoff points, for players with at least 150 games played, using sports-reference?",
+        "filled_param": {
+          "league": "Major League Soccer",
+          "season_range": "2018-2021",
+          "include_playoffs": true,
+          "minimum_games_played": 150,
+          "data_source": "sports-reference"
+        }
+      },
+      {
+        "query": "Get me the top career points record in the Eredivisie for the 1995-2005 seasons, excluding playoff matches, with a minimum of 70 games played, using the official league API as the source.",
+        "filled_param": {
+          "league": "Eredivisie",
+          "season_range": "1995-2005",
+          "include_playoffs": false,
+          "minimum_games_played": 70,
+          "data_source": "official league API"
+        }
+      }
+    ]
+  },
+  "sports_data.basketball.most_points_career|:|baseball|:|league,season_range,include_playoffs,minimum_games_played,data_source": {
+    "tool_template_name": "sports_data.basketball.most_points_career",
+    "derived_class": "baseball",
+    "params_for_query": [
+      "league",
+      "season_range",
+      "include_playoffs",
+      "minimum_games_played",
+      "data_source"
+    ],
+    "queries": [
+      {
+        "query": "Who scored the most points in the MLB from 1995 to 2005, considering playoffs and having played at least 100 games, using the official league API as the data source?",
+        "filled_param": {
+          "league": "MLB",
+          "season_range": "1995-2005",
+          "include_playoffs": true,
+          "minimum_games_played": 100,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Can you tell me the record holder for the most points in the NPB between 2000 and 2010, only regular season, with a minimum of 150 games played, using sports-reference?",
+        "filled_param": {
+          "league": "NPB",
+          "season_range": "2000-2010",
+          "include_playoffs": false,
+          "minimum_games_played": 150,
+          "data_source": "sports-reference"
+        }
+      },
+      {
+        "query": "Find out the top point scorer in the KBO for the seasons from 2010 to 2020, include playoffs, at least 200 games played, and use the official league API.",
+        "filled_param": {
+          "league": "KBO",
+          "season_range": "2010-2020",
+          "include_playoffs": true,
+          "minimum_games_played": 200,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "What is the record for the most points scored in the Mexican League from 1980 to 1990, excluding playoffs, with a cutoff of 50 games, using sports-reference?",
+        "filled_param": {
+          "league": "Mexican League",
+          "season_range": "1980-1990",
+          "include_playoffs": false,
+          "minimum_games_played": 50,
+          "data_source": "sports-reference"
+        }
+      },
+      {
+        "query": "Check the highest career points in the CPBL for the period 1990 to 2000, including playoffs, requiring at least 250 games, utilizing the official league API.",
+        "filled_param": {
+          "league": "CPBL",
+          "season_range": "1990-2000",
+          "include_playoffs": true,
+          "minimum_games_played": 250,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Who has the most points in the MLB between 1970 and 1980, considering only regular season games, with a minimum of 300 games played, and using sports-reference?",
+        "filled_param": {
+          "league": "MLB",
+          "season_range": "1970-1980",
+          "include_playoffs": false,
+          "minimum_games_played": 300,
+          "data_source": "sports-reference"
+        }
+      }
+    ]
+  },
+  "sports_data.basketball.most_points_career|:|ice hockey|:|league,season_range,include_playoffs,minimum_games_played,data_source": {
+    "tool_template_name": "sports_data.basketball.most_points_career",
+    "derived_class": "ice hockey",
+    "params_for_query": [
+      "league",
+      "season_range",
+      "include_playoffs",
+      "minimum_games_played",
+      "data_source"
+    ],
+    "queries": [
+      {
+        "query": "Who scored the most career points in the NHL from 1990 to 2000, including playoff games, with at least 500 games played, using the official league API?",
+        "filled_param": {
+          "league": "NHL",
+          "season_range": "1990-2000",
+          "include_playoffs": true,
+          "minimum_games_played": 500,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Find the AHL player with the most career points between 2005 and 2015, excluding playoff points, with a minimum of 300 games, using sports-reference data.",
+        "filled_param": {
+          "league": "AHL",
+          "season_range": "2005-2015",
+          "include_playoffs": false,
+          "minimum_games_played": 300,
+          "data_source": "sports-reference"
+        }
+      },
+      {
+        "query": "Can you tell me the record holder for most points in the SHL from 2010 to 2020, counting playoff points, for players with at least 400 games, using the official league API?",
+        "filled_param": {
+          "league": "SHL",
+          "season_range": "2010-2020",
+          "include_playoffs": true,
+          "minimum_games_played": 400,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Looking for the player with the most points in the KHL during 2015-2025, without playoffs, who played at least 200 games, using sports-reference data.",
+        "filled_param": {
+          "league": "KHL",
+          "season_range": "2015-2025",
+          "include_playoffs": false,
+          "minimum_games_played": 200,
+          "data_source": "sports-reference"
+        }
+      },
+      {
+        "query": "What is the career points record in the OHL from 1980 to 1990, including playoff totals, for players who have played a minimum of 350 games, utilizing the official league API?",
+        "filled_param": {
+          "league": "OHL",
+          "season_range": "1980-1990",
+          "include_playoffs": true,
+          "minimum_games_played": 350,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Determine the highest career point scorer in the WHL between 1995 and 2005, excluding playoff games, with at least 250 games played, using sports-reference.",
+        "filled_param": {
+          "league": "WHL",
+          "season_range": "1995-2005",
+          "include_playoffs": false,
+          "minimum_games_played": 250,
+          "data_source": "sports-reference"
+        }
+      }
+    ]
+  },
+  "sports_data.basketball.most_points_career|:|handball|:|league,season_range,include_playoffs,minimum_games_played,data_source": {
+    "tool_template_name": "sports_data.basketball.most_points_career",
+    "derived_class": "handball",
+    "params_for_query": [
+      "league",
+      "season_range",
+      "include_playoffs",
+      "minimum_games_played",
+      "data_source"
+    ],
+    "queries": [
+      {
+        "query": "Can you find the handball player with the most career points in the European Handball League between 2010 and 2020, including playoff points, who has played at least 150 games using the official league API?",
+        "filled_param": {
+          "league": "European Handball League",
+          "season_range": "2010-2020",
+          "include_playoffs": true,
+          "minimum_games_played": 150,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Who holds the record for the most points in career for handball in the National Handball League from 2005 to 2015, counting playoff games, with a minimum of 200 games played and sourced from sports-reference?",
+        "filled_param": {
+          "league": "National Handball League",
+          "season_range": "2005-2015",
+          "include_playoffs": true,
+          "minimum_games_played": 200,
+          "data_source": "sports-reference"
+        }
+      },
+      {
+        "query": "Please provide the record for the most points scored in the French Handball League for seasons 1995-2005, excluding playoff points, with at least 100 games played and using the official league API.",
+        "filled_param": {
+          "league": "French Handball League",
+          "season_range": "1995-2005",
+          "include_playoffs": false,
+          "minimum_games_played": 100,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Find out who scored the most career points in the Scandinavian Handball League from 2000 to 2010, excluding playoffs, with a minimum of 180 games played, using sports-reference data.",
+        "filled_param": {
+          "league": "Scandinavian Handball League",
+          "season_range": "2000-2010",
+          "include_playoffs": false,
+          "minimum_games_played": 180,
+          "data_source": "sports-reference"
+        }
+      },
+      {
+        "query": "Identify the handball player with the highest career points in the German Handball Bundesliga from 2015-2023, including playoffs, requiring at least 250 games played, accessed via the official league API.",
+        "filled_param": {
+          "league": "German Handball Bundesliga",
+          "season_range": "2015-2023",
+          "include_playoffs": true,
+          "minimum_games_played": 250,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Who scored the most points in their handball career in the Spanish Liga ASOBAL for seasons 2010-2020, considering playoffs, with no less than 300 games played, sourced from sports-reference?",
+        "filled_param": {
+          "league": "Spanish Liga ASOBAL",
+          "season_range": "2010-2020",
+          "include_playoffs": true,
+          "minimum_games_played": 300,
+          "data_source": "sports-reference"
+        }
+      },
+      {
+        "query": "Seek out the record for the most points in career in the Polish Superliga handball between 2008 and 2018, excluding playoff games, with a minimum of 130 games played, using the official league API.",
+        "filled_param": {
+          "league": "Polish Superliga",
+          "season_range": "2008-2018",
+          "include_playoffs": false,
+          "minimum_games_played": 130,
+          "data_source": "official league API"
+        }
+      }
+    ]
+  },
+  "sports_data.basketball.most_points_career|:|field hockey|:|league,season_range,include_playoffs,minimum_games_played,data_source": {
+    "tool_template_name": "sports_data.basketball.most_points_career",
+    "derived_class": "field hockey",
+    "params_for_query": [
+      "league",
+      "season_range",
+      "include_playoffs",
+      "minimum_games_played",
+      "data_source"
+    ],
+    "queries": [
+      {
+        "query": "Who holds the record for the most points in the field hockey league 'National Hockey League' from 1990 to 2000, including playoffs, with a minimum of 100 games played? Please use the 'official league API' as the data source.",
+        "filled_param": {
+          "league": "National Hockey League",
+          "season_range": "1990-2000",
+          "include_playoffs": true,
+          "minimum_games_played": 100,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Find out the top point scorer in field hockey for the 'European Hockey League', considering seasons from 2005 to 2015, without including playoff games, and ensuring they played at least 150 games. Use 'sports-reference' for the data.",
+        "filled_param": {
+          "league": "European Hockey League",
+          "season_range": "2005-2015",
+          "include_playoffs": false,
+          "minimum_games_played": 150,
+          "data_source": "sports-reference"
+        }
+      },
+      {
+        "query": "I'd like to know which player scored the most points in the 'Premier Hockey League' between 2010 and 2020, counting playoff matches, with a qualification of at least 200 games played. The data should come from the 'official league API'.",
+        "filled_param": {
+          "league": "Premier Hockey League",
+          "season_range": "2010-2020",
+          "include_playoffs": true,
+          "minimum_games_played": 200,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Can you tell me who has the highest career points in the field hockey 'Asian Hockey League' from 1995 to 2005, without playoffs, and a minimum of 130 games? Please retrieve the data from 'sports-reference'.",
+        "filled_param": {
+          "league": "Asian Hockey League",
+          "season_range": "1995-2005",
+          "include_playoffs": false,
+          "minimum_games_played": 130,
+          "data_source": "sports-reference"
+        }
+      },
+      {
+        "query": "Determine the player with the most points in the 'Australian Hockey League' over the seasons 1980 to 1990, including playoff performances, who has played at least 50 games, using 'official league API' as the source.",
+        "filled_param": {
+          "league": "Australian Hockey League",
+          "season_range": "1980-1990",
+          "include_playoffs": true,
+          "minimum_games_played": 50,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Who is the leading point scorer in 'American Hockey League' history from 1970 to 1980, excluding playoff games, with at least 60 games played, based on 'sports-reference' data?",
+        "filled_param": {
+          "league": "American Hockey League",
+          "season_range": "1970-1980",
+          "include_playoffs": false,
+          "minimum_games_played": 60,
+          "data_source": "sports-reference"
+        }
+      }
+    ]
+  },
+  "sports_data.basketball.most_points_career|:|lacrosse|:|league,season_range,include_playoffs,minimum_games_played,data_source": {
+    "tool_template_name": "sports_data.basketball.most_points_career",
+    "derived_class": "lacrosse",
+    "params_for_query": [
+      "league",
+      "season_range",
+      "include_playoffs",
+      "minimum_games_played",
+      "data_source"
+    ],
+    "queries": [
+      {
+        "query": "For the National Lacrosse League, find the player with the most points between 2000 and 2010, including playoffs, with at least 50 games played, using the official league API.",
+        "filled_param": {
+          "league": "National Lacrosse League",
+          "season_range": "2000-2010",
+          "include_playoffs": true,
+          "minimum_games_played": 50,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Who holds the record for most points in Major League Lacrosse from 2015 to 2020, excluding playoff games, with a minimum of 100 games played, according to sports-reference?",
+        "filled_param": {
+          "league": "Major League Lacrosse",
+          "season_range": "2015-2020",
+          "include_playoffs": false,
+          "minimum_games_played": 100,
+          "data_source": "sports-reference"
+        }
+      },
+      {
+        "query": "Can you find the top scorer in the Premier Lacrosse League for the seasons 2010-2015, including playoff points, with at least 75 games played, using the official league API?",
+        "filled_param": {
+          "league": "Premier Lacrosse League",
+          "season_range": "2010-2015",
+          "include_playoffs": true,
+          "minimum_games_played": 75,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Fetch the player with the most career points in the Canadian Lacrosse Association from 1995-2005, including playoffs, with a minimum of 150 games played, using sports-reference.",
+        "filled_param": {
+          "league": "Canadian Lacrosse Association",
+          "season_range": "1995-2005",
+          "include_playoffs": true,
+          "minimum_games_played": 150,
+          "data_source": "sports-reference"
+        }
+      },
+      {
+        "query": "Identify the lacrosse player with the highest points in the United Women's Lacrosse League for 2018-2021, not considering playoffs, with at least 80 games played, using the official league API.",
+        "filled_param": {
+          "league": "United Women's Lacrosse League",
+          "season_range": "2018-2021",
+          "include_playoffs": false,
+          "minimum_games_played": 80,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Get the record for the most points scored in the 2005-2015 seasons of the European Lacrosse League, excluding playoffs, requiring a minimum of 90 games played, with data from sports-reference.",
+        "filled_param": {
+          "league": "European Lacrosse League",
+          "season_range": "2005-2015",
+          "include_playoffs": false,
+          "minimum_games_played": 90,
+          "data_source": "sports-reference"
+        }
+      },
+      {
+        "query": "Who scored the most points in the Men's Collegiate Lacrosse Association between 2000 and 2005, including playoff points, with at least 60 games played, according to the official league API?",
+        "filled_param": {
+          "league": "Men's Collegiate Lacrosse Association",
+          "season_range": "2000-2005",
+          "include_playoffs": true,
+          "minimum_games_played": 60,
+          "data_source": "official league API"
+        }
+      }
+    ]
+  },
+  "sports_data.basketball.most_points_career|:|rugby|:|league,season_range,include_playoffs,minimum_games_played,data_source": {
+    "tool_template_name": "sports_data.basketball.most_points_career",
+    "derived_class": "rugby",
+    "params_for_query": [
+      "league",
+      "season_range",
+      "include_playoffs",
+      "minimum_games_played",
+      "data_source"
+    ],
+    "queries": [
+      {
+        "query": "Can you find out which rugby player scored the most points in the Super Rugby league between 2015 and 2020, including playoff games, for players with at least 50 games using the official league API?",
+        "filled_param": {
+          "league": "Super Rugby",
+          "season_range": "2015-2020",
+          "include_playoffs": true,
+          "minimum_games_played": 50,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Who holds the record for the most points scored in the Rugby Premiership from the 2000 to 2010 seasons, excluding playoff matches, among players with a minimum of 70 games, according to sports-reference?",
+        "filled_param": {
+          "league": "Rugby Premiership",
+          "season_range": "2000-2010",
+          "include_playoffs": false,
+          "minimum_games_played": 70,
+          "data_source": "sports-reference"
+        }
+      },
+      {
+        "query": "I need information on the top points scorer in the Pro14 league from 2010 to 2020 who played at least 100 games, using the official league API and excluding playoffs.",
+        "filled_param": {
+          "league": "Pro14",
+          "season_range": "2010-2020",
+          "include_playoffs": false,
+          "minimum_games_played": 100,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Find the rugby player with the most career points in the Top 14 league from 1995 to 2005, including playoffs, for players who have played at least 80 games, based on sports-reference data.",
+        "filled_param": {
+          "league": "Top 14",
+          "season_range": "1995-2005",
+          "include_playoffs": true,
+          "minimum_games_played": 80,
+          "data_source": "sports-reference"
+        }
+      },
+      {
+        "query": "Could you tell me who scored the most points in the Currie Cup between 2018 and 2022, including playoffs, for those with at least 60 games, according to the official league API?",
+        "filled_param": {
+          "league": "Currie Cup",
+          "season_range": "2018-2022",
+          "include_playoffs": true,
+          "minimum_games_played": 60,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Provide the record for the most points scored in the Japanese Top League from 2005 to 2015, ensuring players have played 90 games minimum and using the official league API, excluding playoffs.",
+        "filled_param": {
+          "league": "Japanese Top League",
+          "season_range": "2005-2015",
+          "include_playoffs": false,
+          "minimum_games_played": 90,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Who has the highest points in the Mitre 10 Cup from 2010 to 2020, considering only those with at least 85 games and including playoff points, using sports-reference?",
+        "filled_param": {
+          "league": "Mitre 10 Cup",
+          "season_range": "2010-2020",
+          "include_playoffs": true,
+          "minimum_games_played": 85,
+          "data_source": "sports-reference"
+        }
+      }
+    ]
+  },
+  "sports_data.basketball.most_points_career|:|floorball|:|league,season_range,include_playoffs,minimum_games_played,data_source": {
+    "tool_template_name": "sports_data.basketball.most_points_career",
+    "derived_class": "floorball",
+    "params_for_query": [
+      "league",
+      "season_range",
+      "include_playoffs",
+      "minimum_games_played",
+      "data_source"
+    ],
+    "queries": [
+      {
+        "query": "In the Swedish Super League, who scored the most points between 2005 and 2015, including playoffs, with at least 150 games played, using the official league API?",
+        "filled_param": {
+          "league": "Swedish Super League",
+          "season_range": "2005-2015",
+          "include_playoffs": true,
+          "minimum_games_played": 150,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Fetch the career points record for a floorball player in the Finnish Floorball League from seasons 1990-2000, excluding playoffs, for those who played at least 100 games, using sports-reference.",
+        "filled_param": {
+          "league": "Finnish Floorball League",
+          "season_range": "1990-2000",
+          "include_playoffs": false,
+          "minimum_games_played": 100,
+          "data_source": "sports-reference"
+        }
+      },
+      {
+        "query": "Who holds the record for the most points in the Swiss NLA league from 2010 to 2020, including playoff games, for players with a minimum of 200 games, using the official league API?",
+        "filled_param": {
+          "league": "Swiss NLA",
+          "season_range": "2010-2020",
+          "include_playoffs": true,
+          "minimum_games_played": 200,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Please find the top scorer in the Czech Extraliga during the 2000-2010 seasons, excluding playoffs, for players with a minimum of 120 career games, using data from sports-reference.",
+        "filled_param": {
+          "league": "Czech Extraliga",
+          "season_range": "2000-2010",
+          "include_playoffs": false,
+          "minimum_games_played": 120,
+          "data_source": "sports-reference"
+        }
+      },
+      {
+        "query": "Can you tell me which player scored the most career points in the Norwegian Floorball Elite League from 2015 to 2023, including playoffs, with a minimum of 180 games played, sourced from the official league API?",
+        "filled_param": {
+          "league": "Norwegian Floorball Elite League",
+          "season_range": "2015-2023",
+          "include_playoffs": true,
+          "minimum_games_played": 180,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Identify the player with the most points in the Danish Floorball League for the seasons 2000-2015, excluding playoff points, who has played at least 160 games, and retrieve data from sports-reference.",
+        "filled_param": {
+          "league": "Danish Floorball League",
+          "season_range": "2000-2015",
+          "include_playoffs": false,
+          "minimum_games_played": 160,
+          "data_source": "sports-reference"
+        }
+      }
+    ]
+  },
+  "sports_data.basketball.most_points_career|:|water polo|:|league,season_range,include_playoffs,minimum_games_played,data_source": {
+    "tool_template_name": "sports_data.basketball.most_points_career",
+    "derived_class": "water polo",
+    "params_for_query": [
+      "league",
+      "season_range",
+      "include_playoffs",
+      "minimum_games_played",
+      "data_source"
+    ],
+    "queries": [
+      {
+        "query": "Who holds the record for the most career points in the National Water Polo League from 1995 to 2005, including playoff games, with at least 200 games played, using the official league API as the data source?",
+        "filled_param": {
+          "league": "National Water Polo League",
+          "season_range": "1995-2005",
+          "include_playoffs": true,
+          "minimum_games_played": 200,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Find out the player with the highest career points in the European Water Polo Championship, for seasons 2010-2020, considering only regular season games, with a minimum of 150 games played, using sports-reference as the data source.",
+        "filled_param": {
+          "league": "European Water Polo Championship",
+          "season_range": "2010-2020",
+          "include_playoffs": false,
+          "minimum_games_played": 150,
+          "data_source": "sports-reference"
+        }
+      },
+      {
+        "query": "Can you tell me who scored the most career points in the Australian Water Polo League between 2005 and 2015, including playoffs, with at least 100 games played, based on the sports-reference data source?",
+        "filled_param": {
+          "league": "Australian Water Polo League",
+          "season_range": "2005-2015",
+          "include_playoffs": true,
+          "minimum_games_played": 100,
+          "data_source": "sports-reference"
+        }
+      },
+      {
+        "query": "Identify the top scorer in terms of career points in the American Collegiate Water Polo Association for the period 2000-2010, excluding playoff points, requiring a minimum of 120 games played, using the official league API.",
+        "filled_param": {
+          "league": "American Collegiate Water Polo Association",
+          "season_range": "2000-2010",
+          "include_playoffs": false,
+          "minimum_games_played": 120,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Who has the highest career points total in the Italian Water Polo Series A from 1990 to 2000, with playoffs included, and a minimum of 250 games played, according to sports-reference?",
+        "filled_param": {
+          "league": "Italian Water Polo Series A",
+          "season_range": "1990-2000",
+          "include_playoffs": true,
+          "minimum_games_played": 250,
+          "data_source": "sports-reference"
+        }
+      },
+      {
+        "query": "Get the record holder for the most career points in the Asian Water Polo League spanning seasons 2015-2020, without playoff games, with a qualification of at least 180 games played, using the official league API.",
+        "filled_param": {
+          "league": "Asian Water Polo League",
+          "season_range": "2015-2020",
+          "include_playoffs": false,
+          "minimum_games_played": 180,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Who scored the most points in the Russian Water Polo Superleague over their career during 1998-2008, taking playoffs into account, with at least 300 games played, based on the official league API?",
+        "filled_param": {
+          "league": "Russian Water Polo Superleague",
+          "season_range": "1998-2008",
+          "include_playoffs": true,
+          "minimum_games_played": 300,
+          "data_source": "official league API"
+        }
+      }
+    ]
+  },
+  "sports_data.basketball.most_points_career|:|table tennis|:|league,season_range,include_playoffs,minimum_games_played,data_source": {
+    "tool_template_name": "sports_data.basketball.most_points_career",
+    "derived_class": "table tennis",
+    "params_for_query": [
+      "league",
+      "season_range",
+      "include_playoffs",
+      "minimum_games_played",
+      "data_source"
+    ],
+    "queries": [
+      {
+        "query": "What is the record for the most points scored by a table tennis player in the European Table Tennis League between 2005 and 2015, including playoff games, for players with at least 50 games played, using the official league API?",
+        "filled_param": {
+          "league": "European Table Tennis League",
+          "season_range": "2005-2015",
+          "include_playoffs": true,
+          "minimum_games_played": 50,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Find out who scored the most career points in the Asian Table Tennis Championship from the 1990 to 2000 seasons, excluding playoffs, for those who played a minimum of 100 games, using sports-reference as the data source.",
+        "filled_param": {
+          "league": "Asian Table Tennis Championship",
+          "season_range": "1990-2000",
+          "include_playoffs": false,
+          "minimum_games_played": 100,
+          "data_source": "sports-reference"
+        }
+      },
+      {
+        "query": "Who holds the highest career points record in the American Table Tennis League during 2010 to 2020, including only regular season games, with a minimum of 80 games played, sourced from the official league API?",
+        "filled_param": {
+          "league": "American Table Tennis League",
+          "season_range": "2010-2020",
+          "include_playoffs": false,
+          "minimum_games_played": 80,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Provide the player with the most points in the World Table Tennis Championships for the period 1985-1995, considering playoff points, with no fewer than 75 games played, using sports-reference for data.",
+        "filled_param": {
+          "league": "World Table Tennis Championships",
+          "season_range": "1985-1995",
+          "include_playoffs": true,
+          "minimum_games_played": 75,
+          "data_source": "sports-reference"
+        }
+      },
+      {
+        "query": "I'm curious about the top point scorer in the National Table Tennis Circuit from 2000 to 2010, taking into account playoff matches, with a player having played at least 60 games, using the official league API as the source.",
+        "filled_param": {
+          "league": "National Table Tennis Circuit",
+          "season_range": "2000-2010",
+          "include_playoffs": true,
+          "minimum_games_played": 60,
+          "data_source": "official league API"
+        }
+      },
+      {
+        "query": "Who amassed the highest points in the Oceania Table Tennis League over the years 1995 to 2005, excluding playoffs, for those with a minimum of 90 games played, sourced from sports-reference?",
+        "filled_param": {
+          "league": "Oceania Table Tennis League",
+          "season_range": "1995-2005",
+          "include_playoffs": false,
+          "minimum_games_played": 90,
+          "data_source": "sports-reference"
+        }
+      },
+      {
+        "query": "Identify the player with the most career points in the Scandinavian Table Tennis Series from 2015 to 2022, including playoffs, with at least 70 games played, using the official league API.",
+        "filled_param": {
+          "league": "Scandinavian Table Tennis Series",
+          "season_range": "2015-2022",
+          "include_playoffs": true,
+          "minimum_games_played": 70,
+          "data_source": "official league API"
+        }
+      }
+    ]
+  }
+}

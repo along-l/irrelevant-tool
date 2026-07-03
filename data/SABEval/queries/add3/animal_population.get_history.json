@@ -1,0 +1,1602 @@
+{
+  "animal_population.get_history|:|United States|:|species,years,data_source,granularity,confidence_interval": {
+    "tool_template_name": "animal_population.get_history",
+    "derived_class": "United States",
+    "params_for_query": [
+      "species",
+      "years",
+      "data_source",
+      "granularity",
+      "confidence_interval"
+    ],
+    "queries": [
+      {
+        "query": "Please provide the historical population data for the gray wolf in the United States over the past 50 years, using the US Fish and Wildlife Service data at a national level with a 95% confidence interval.",
+        "filled_param": {
+          "species": "gray wolf",
+          "years": 50,
+          "data_source": "US Fish and Wildlife Service",
+          "granularity": "national",
+          "confidence_interval": 95.0
+        }
+      },
+      {
+        "query": "I'd like to see the population history for the bald eagle across the United States for the last 30 years. Use NOAA as the data source, with regional granularity and an 85% confidence interval.",
+        "filled_param": {
+          "species": "bald eagle",
+          "years": 30,
+          "data_source": "NOAA",
+          "granularity": "regional",
+          "confidence_interval": 85.0
+        }
+      },
+      {
+        "query": "Can you find the deer population trends in the United States for the past 20 years? The data should come from the National Park Service, focusing on local details, with a 90% confidence interval.",
+        "filled_param": {
+          "species": "deer",
+          "years": 20,
+          "data_source": "National Park Service",
+          "granularity": "local",
+          "confidence_interval": 90.0
+        }
+      },
+      {
+        "query": "Retrieve the past 40 years of data on the American bison in the United States from the Smithsonian Institute. I need it at a national level with a 92% confidence interval.",
+        "filled_param": {
+          "species": "American bison",
+          "years": 40,
+          "data_source": "Smithsonian Institute",
+          "granularity": "national",
+          "confidence_interval": 92.0
+        }
+      },
+      {
+        "query": "Could you gather the last 10 years of historical population data for the red fox in the United States? Use the US Geological Survey as the source, at a regional level, with a 88% confidence interval.",
+        "filled_param": {
+          "species": "red fox",
+          "years": 10,
+          "data_source": "US Geological Survey",
+          "granularity": "regional",
+          "confidence_interval": 88.0
+        }
+      },
+      {
+        "query": "I need detailed historical data on the coyote population in the United States for the previous 35 years. Source it from the US Department of Agriculture, with local granularity and an 80% confidence interval.",
+        "filled_param": {
+          "species": "coyote",
+          "years": 35,
+          "data_source": "US Department of Agriculture",
+          "granularity": "local",
+          "confidence_interval": 80.0
+        }
+      },
+      {
+        "query": "Provide the last 25 years of population statistics for the American black bear in the United States. Use the World Wildlife Fund as the data source, at a national granularity, with a 93% confidence interval.",
+        "filled_param": {
+          "species": "American black bear",
+          "years": 25,
+          "data_source": "World Wildlife Fund",
+          "granularity": "national",
+          "confidence_interval": 93.0
+        }
+      }
+    ]
+  },
+  "animal_population.get_history|:|China|:|species,years,data_source,granularity,confidence_interval": {
+    "tool_template_name": "animal_population.get_history",
+    "derived_class": "China",
+    "params_for_query": [
+      "species",
+      "years",
+      "data_source",
+      "granularity",
+      "confidence_interval"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide historical population data for the giant panda in China over the past 10 years, using the World Wildlife Fund as the source, with a regional granularity and a 95% confidence interval?",
+        "filled_param": {
+          "species": "giant panda",
+          "years": 10,
+          "data_source": "World Wildlife Fund",
+          "granularity": "regional",
+          "confidence_interval": 95
+        }
+      },
+      {
+        "query": "I want to see the historical population sizes of Siberian tigers in China for the last 5 years. Use data from the International Union for Conservation of Nature, at a national level, with a confidence interval of 90%.",
+        "filled_param": {
+          "species": "Siberian tiger",
+          "years": 5,
+          "data_source": "International Union for Conservation of Nature",
+          "granularity": "national",
+          "confidence_interval": 90
+        }
+      },
+      {
+        "query": "Please retrieve the past 20 years of historical population data for the Asian elephant in China. The source should be the Chinese Academy of Sciences, at a local granularity, with an 85% confidence interval.",
+        "filled_param": {
+          "species": "Asian elephant",
+          "years": 20,
+          "data_source": "Chinese Academy of Sciences",
+          "granularity": "local",
+          "confidence_interval": 85
+        }
+      },
+      {
+        "query": "How many years of historical data can you find for the Chinese white dolphin in China, specifically for the past 15 years? Use the National Marine Data Center as the source, with regional granularity and a 92% confidence interval.",
+        "filled_param": {
+          "species": "Chinese white dolphin",
+          "years": 15,
+          "data_source": "National Marine Data Center",
+          "granularity": "regional",
+          "confidence_interval": 92
+        }
+      },
+      {
+        "query": "Get me the historical population figures for crested ibis in China over a span of 30 years, from the BirdLife International database, with national granularity and a 98% confidence level.",
+        "filled_param": {
+          "species": "crested ibis",
+          "years": 30,
+          "data_source": "BirdLife International",
+          "granularity": "national",
+          "confidence_interval": 98
+        }
+      },
+      {
+        "query": "I'd like to know the historical populations of the Yangtze finless porpoise in China for the last 25 years, using the Ministry of Ecology and Environment's data, at a local granularity, with a 93% confidence interval.",
+        "filled_param": {
+          "species": "Yangtze finless porpoise",
+          "years": 25,
+          "data_source": "Ministry of Ecology and Environment",
+          "granularity": "local",
+          "confidence_interval": 93
+        }
+      },
+      {
+        "query": "What historical information can you find on the population of red pandas in China across the previous 12 years, sourced from the World Conservation Monitoring Centre, with regional granularity and 88% confidence?",
+        "filled_param": {
+          "species": "red panda",
+          "years": 12,
+          "data_source": "World Conservation Monitoring Centre",
+          "granularity": "regional",
+          "confidence_interval": 88
+        }
+      }
+    ]
+  },
+  "animal_population.get_history|:|India|:|species,years,data_source,granularity,confidence_interval": {
+    "tool_template_name": "animal_population.get_history",
+    "derived_class": "India",
+    "params_for_query": [
+      "species",
+      "years",
+      "data_source",
+      "granularity",
+      "confidence_interval"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the historical population data for Bengal tigers in India over the last 10 years, using the WWF database at a national level with a 95% confidence interval?",
+        "filled_param": {
+          "species": "Bengal tigers",
+          "years": 10,
+          "data_source": "WWF database",
+          "granularity": "national",
+          "confidence_interval": 95
+        }
+      },
+      {
+        "query": "I need regional population history of Indian elephants in India for the past 20 years from the National Geographic archives, applying an 80% confidence interval.",
+        "filled_param": {
+          "species": "Indian elephants",
+          "years": 20,
+          "data_source": "National Geographic archives",
+          "granularity": "regional",
+          "confidence_interval": 80
+        }
+      },
+      {
+        "query": "Fetch me the last 5 years of local population data for Indian rhinoceros in India from the IUCN Red List with a 90% confidence interval.",
+        "filled_param": {
+          "species": "Indian rhinoceros",
+          "years": 5,
+          "data_source": "IUCN Red List",
+          "granularity": "local",
+          "confidence_interval": 90
+        }
+      },
+      {
+        "query": "Get the historical population data of Asiatic lions in India for the previous 15 years from the Wildlife Conservation Society, focusing on a national level and using an 85% confidence interval.",
+        "filled_param": {
+          "species": "Asiatic lions",
+          "years": 15,
+          "data_source": "Wildlife Conservation Society",
+          "granularity": "national",
+          "confidence_interval": 85
+        }
+      },
+      {
+        "query": "Retrieve 25 years of population data for Snow leopards in India from the Global Biodiversity Information Facility, specifically at a regional granularity with a 92% confidence interval.",
+        "filled_param": {
+          "species": "Snow leopards",
+          "years": 25,
+          "data_source": "Global Biodiversity Information Facility",
+          "granularity": "regional",
+          "confidence_interval": 92
+        }
+      },
+      {
+        "query": "Please find local wildlife population data for Indian peafowl in India over the last 8 years from the Zoological Society of London, with a 75% confidence interval.",
+        "filled_param": {
+          "species": "Indian peafowl",
+          "years": 8,
+          "data_source": "Zoological Society of London",
+          "granularity": "local",
+          "confidence_interval": 75
+        }
+      },
+      {
+        "query": "Can you look up 30 years of national population data for the Great Indian Bustard in India from the BirdLife International database, using a 94% confidence interval?",
+        "filled_param": {
+          "species": "Great Indian Bustard",
+          "years": 30,
+          "data_source": "BirdLife International",
+          "granularity": "national",
+          "confidence_interval": 94
+        }
+      }
+    ]
+  },
+  "animal_population.get_history|:|Brazil|:|species,years,data_source,granularity,confidence_interval": {
+    "tool_template_name": "animal_population.get_history",
+    "derived_class": "Brazil",
+    "params_for_query": [
+      "species",
+      "years",
+      "data_source",
+      "granularity",
+      "confidence_interval"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the historical population size for the jaguar in Brazil over the past 20 years using the WWF data source, with regional granularity and a 95% confidence interval?",
+        "filled_param": {
+          "species": "jaguar",
+          "years": 20,
+          "data_source": "WWF",
+          "granularity": "regional",
+          "confidence_interval": 95
+        }
+      },
+      {
+        "query": "I need the historical population data for the Amazon river dolphin in the last 15 years in Brazil. Please use the IUCN Red List data source with national granularity, and apply a 90% confidence interval.",
+        "filled_param": {
+          "species": "Amazon river dolphin",
+          "years": 15,
+          "data_source": "IUCN Red List",
+          "granularity": "national",
+          "confidence_interval": 90
+        }
+      },
+      {
+        "query": "Retrieve the historical population sizes for the hyacinth macaw in Brazil over the past 10 years from the BirdLife International data source, with a local focus and a 92% confidence interval.",
+        "filled_param": {
+          "species": "hyacinth macaw",
+          "years": 10,
+          "data_source": "BirdLife International",
+          "granularity": "local",
+          "confidence_interval": 92
+        }
+      },
+      {
+        "query": "Get the population history of the Brazilian tapir in Brazil for the past 25 years, using the National Geographic data source, with regional granularity and an 85% confidence interval.",
+        "filled_param": {
+          "species": "Brazilian tapir",
+          "years": 25,
+          "data_source": "National Geographic",
+          "granularity": "regional",
+          "confidence_interval": 85
+        }
+      },
+      {
+        "query": "Could you find the population history of the golden lion tamarin in Brazil for the last 5 years using the UNEP-WCMC database, with a national overview and a 97% confidence interval?",
+        "filled_param": {
+          "species": "golden lion tamarin",
+          "years": 5,
+          "data_source": "UNEP-WCMC",
+          "granularity": "national",
+          "confidence_interval": 97
+        }
+      },
+      {
+        "query": "Please provide the historical data for the giant otter's population in Brazil over the last 30 years, referring to the Conservation International source, with local granularity and an 88% confidence interval.",
+        "filled_param": {
+          "species": "giant otter",
+          "years": 30,
+          "data_source": "Conservation International",
+          "granularity": "local",
+          "confidence_interval": 88
+        }
+      }
+    ]
+  },
+  "animal_population.get_history|:|Russia|:|species,years,data_source,granularity,confidence_interval": {
+    "tool_template_name": "animal_population.get_history",
+    "derived_class": "Russia",
+    "params_for_query": [
+      "species",
+      "years",
+      "data_source",
+      "granularity",
+      "confidence_interval"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the last 10 years of historical data on the population of Siberian tigers in Russia? Please use the WWF database, with a regional granularity and a 95% confidence interval.",
+        "filled_param": {
+          "species": "Siberian tigers",
+          "years": 10,
+          "data_source": "WWF database",
+          "granularity": "regional",
+          "confidence_interval": 95
+        }
+      },
+      {
+        "query": "I need a detailed 15-year historical population report of the Amur leopard in Russia using IUCN data at a national level and a 90% confidence interval.",
+        "filled_param": {
+          "species": "Amur leopard",
+          "years": 15,
+          "data_source": "IUCN data",
+          "granularity": "national",
+          "confidence_interval": 90
+        }
+      },
+      {
+        "query": "Retrieve the past 5 years of population data for the Eurasian lynx in Russia from the Russian Wildlife Federation, focusing on local granularity with a 85% confidence interval.",
+        "filled_param": {
+          "species": "Eurasian lynx",
+          "years": 5,
+          "data_source": "Russian Wildlife Federation",
+          "granularity": "local",
+          "confidence_interval": 85
+        }
+      },
+      {
+        "query": "Can you give me the historical population sizes over 20 years for the brown bear in Russia from the National Geographic database, with data at the regional level and an 80% confidence interval?",
+        "filled_param": {
+          "species": "brown bear",
+          "years": 20,
+          "data_source": "National Geographic database",
+          "granularity": "regional",
+          "confidence_interval": 80
+        }
+      },
+      {
+        "query": "Please get the historical population statistics for the snow leopard in Russia over the last 12 years using the UNEP data source, at a local granularity, and a 92% confidence interval.",
+        "filled_param": {
+          "species": "snow leopard",
+          "years": 12,
+          "data_source": "UNEP data source",
+          "granularity": "local",
+          "confidence_interval": 92
+        }
+      },
+      {
+        "query": "I want the historical data on the population of the Baikal seal in Russia for the past 8 years, sourced from the Russian Ministry of Natural Resources with national granularity and a 88% confidence interval.",
+        "filled_param": {
+          "species": "Baikal seal",
+          "years": 8,
+          "data_source": "Russian Ministry of Natural Resources",
+          "granularity": "national",
+          "confidence_interval": 88
+        }
+      },
+      {
+        "query": "Generate a report for the last 25 years on the population of the red fox in Russia using data from the World Conservation Union, with regional granularity and a 75% confidence interval.",
+        "filled_param": {
+          "species": "red fox",
+          "years": 25,
+          "data_source": "World Conservation Union",
+          "granularity": "regional",
+          "confidence_interval": 75
+        }
+      }
+    ]
+  },
+  "animal_population.get_history|:|Australia|:|species,years,data_source,granularity,confidence_interval": {
+    "tool_template_name": "animal_population.get_history",
+    "derived_class": "Australia",
+    "params_for_query": [
+      "species",
+      "years",
+      "data_source",
+      "granularity",
+      "confidence_interval"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the historical population data for kangaroos in Australia over the last 10 years using the Australian Wildlife Database on a national level with a 95% confidence interval?",
+        "filled_param": {
+          "species": "kangaroos",
+          "years": 10,
+          "data_source": "Australian Wildlife Database",
+          "granularity": "national",
+          "confidence_interval": 95
+        }
+      },
+      {
+        "query": "I need the last 20 years of historical population data for the koala species in Australia from the Australian Conservation Foundation, focusing on a regional scale with a confidence interval of 90%.",
+        "filled_param": {
+          "species": "koala",
+          "years": 20,
+          "data_source": "Australian Conservation Foundation",
+          "granularity": "regional",
+          "confidence_interval": 90
+        }
+      },
+      {
+        "query": "Retrieve 5 years of historical population sizes for emus in Australia from the Australian Department of Environment and Energy at a local granularity. Use a confidence interval of 85%.",
+        "filled_param": {
+          "species": "emus",
+          "years": 5,
+          "data_source": "Australian Department of Environment and Energy",
+          "granularity": "local",
+          "confidence_interval": 85
+        }
+      },
+      {
+        "query": "What is the historical population trend for platypuses in Australia for the past 15 years using information from the Australian Bureau of Statistics, focusing on national data with a 92% confidence interval?",
+        "filled_param": {
+          "species": "platypuses",
+          "years": 15,
+          "data_source": "Australian Bureau of Statistics",
+          "granularity": "national",
+          "confidence_interval": 92
+        }
+      },
+      {
+        "query": "Provide historical data for the wombat population in Australia for the last 30 years from the CSIRO on a regional level with a confidence interval of 98%.",
+        "filled_param": {
+          "species": "wombats",
+          "years": 30,
+          "data_source": "CSIRO",
+          "granularity": "regional",
+          "confidence_interval": 98
+        }
+      },
+      {
+        "query": "Can you retrieve the last 25 years of historical data for the population size of cockatoos in Australia from the BirdLife Australia database, with local detail and a 90% confidence interval?",
+        "filled_param": {
+          "species": "cockatoos",
+          "years": 25,
+          "data_source": "BirdLife Australia",
+          "granularity": "local",
+          "confidence_interval": 90
+        }
+      }
+    ]
+  },
+  "animal_population.get_history|:|South Africa|:|species,years,data_source,granularity,confidence_interval": {
+    "tool_template_name": "animal_population.get_history",
+    "derived_class": "South Africa",
+    "params_for_query": [
+      "species",
+      "years",
+      "data_source",
+      "granularity",
+      "confidence_interval"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the past 10 years of data on the elephant population in South Africa with a regional granularity using the National Wildlife Database, and ensure a 95% confidence interval?",
+        "filled_param": {
+          "species": "elephant",
+          "years": 10,
+          "data_source": "National Wildlife Database",
+          "granularity": "regional",
+          "confidence_interval": 95.0
+        }
+      },
+      {
+        "query": "I need historical data for the lion population in South Africa over the last 20 years. Use local granularity from the African Conservation Data and apply a 90% confidence interval.",
+        "filled_param": {
+          "species": "lion",
+          "years": 20,
+          "data_source": "African Conservation Data",
+          "granularity": "local",
+          "confidence_interval": 90.0
+        }
+      },
+      {
+        "query": "What has been the rhino population trend in South Africa for the past 15 years? Please use national granularity, data from the Endangered Species Archive, and a confidence interval of 85%.",
+        "filled_param": {
+          "species": "rhino",
+          "years": 15,
+          "data_source": "Endangered Species Archive",
+          "granularity": "national",
+          "confidence_interval": 85.0
+        }
+      },
+      {
+        "query": "Retrieve historical population data for cheetahs in South Africa over a 5-year period. Prefer regional granularity and data from the Wildlife Research Source with a 92% confidence interval.",
+        "filled_param": {
+          "species": "cheetah",
+          "years": 5,
+          "data_source": "Wildlife Research Source",
+          "granularity": "regional",
+          "confidence_interval": 92.0
+        }
+      },
+      {
+        "query": "Can you get the last 25 years of zebra population data in South Africa? Focus on national level details from the South African Species Index and use an 88% confidence interval.",
+        "filled_param": {
+          "species": "zebra",
+          "years": 25,
+          "data_source": "South African Species Index",
+          "granularity": "national",
+          "confidence_interval": 88.0
+        }
+      },
+      {
+        "query": "Please provide historical data for giraffes in South Africa covering the last 8 years. Prefer local level details using data from the Biodiversity Records and a 93% confidence interval.",
+        "filled_param": {
+          "species": "giraffe",
+          "years": 8,
+          "data_source": "Biodiversity Records",
+          "granularity": "local",
+          "confidence_interval": 93.0
+        }
+      },
+      {
+        "query": "How has the buffalo population changed in South Africa over the past 12 years? Use regional granularity from the Nature Data Repository with a 97% confidence interval.",
+        "filled_param": {
+          "species": "buffalo",
+          "years": 12,
+          "data_source": "Nature Data Repository",
+          "granularity": "regional",
+          "confidence_interval": 97.0
+        }
+      }
+    ]
+  },
+  "animal_population.get_history|:|Canada|:|species,years,data_source,granularity,confidence_interval": {
+    "tool_template_name": "animal_population.get_history",
+    "derived_class": "Canada",
+    "params_for_query": [
+      "species",
+      "years",
+      "data_source",
+      "granularity",
+      "confidence_interval"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide a 10-year historical population report for the polar bear in Canada using the national database with a regional granularity and a 95% confidence interval?",
+        "filled_param": {
+          "species": "polar bear",
+          "years": 10,
+          "data_source": "national database",
+          "granularity": "regional",
+          "confidence_interval": 95
+        }
+      },
+      {
+        "query": "I'd like to see 20 years of population data for the Canadian lynx from the Wildlife Statistics Canada source, with a national overview and a 90% confidence interval.",
+        "filled_param": {
+          "species": "Canadian lynx",
+          "years": 20,
+          "data_source": "Wildlife Statistics Canada",
+          "granularity": "national",
+          "confidence_interval": 90
+        }
+      },
+      {
+        "query": "Retrieve the historical population size of the North Atlantic right whale for the past 15 years in Canada. Use the Marine Biology Institute data with local granularity and 85% confidence interval.",
+        "filled_param": {
+          "species": "North Atlantic right whale",
+          "years": 15,
+          "data_source": "Marine Biology Institute",
+          "granularity": "local",
+          "confidence_interval": 85
+        }
+      },
+      {
+        "query": "Get me the past 5 years' data on the gray wolf population from Canada's Environmental Agency, using a regional granularity and an 80% confidence interval.",
+        "filled_param": {
+          "species": "gray wolf",
+          "years": 5,
+          "data_source": "Canada's Environmental Agency",
+          "granularity": "regional",
+          "confidence_interval": 80
+        }
+      },
+      {
+        "query": "I'd like population statistics for the caribou in Canada over the last 25 years from the Biodiversity Records Center, detailed at a national level with a 98% confidence interval.",
+        "filled_param": {
+          "species": "caribou",
+          "years": 25,
+          "data_source": "Biodiversity Records Center",
+          "granularity": "national",
+          "confidence_interval": 98
+        }
+      },
+      {
+        "query": "Show me 30 years' worth of population data for the Atlantic salmon in Canada using the Fisheries and Oceans Canada data source, with a local focus and 92% confidence interval.",
+        "filled_param": {
+          "species": "Atlantic salmon",
+          "years": 30,
+          "data_source": "Fisheries and Oceans Canada",
+          "granularity": "local",
+          "confidence_interval": 92
+        }
+      }
+    ]
+  },
+  "animal_population.get_history|:|Japan|:|species,years,data_source,granularity,confidence_interval": {
+    "tool_template_name": "animal_population.get_history",
+    "derived_class": "Japan",
+    "params_for_query": [
+      "species",
+      "years",
+      "data_source",
+      "granularity",
+      "confidence_interval"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the historical population data for the Japanese macaque in Japan over the past 10 years using the National Institute for Environmental Studies database with a national granularity and a 95% confidence interval?",
+        "filled_param": {
+          "species": "Japanese macaque",
+          "years": 10,
+          "data_source": "National Institute for Environmental Studies",
+          "granularity": "national",
+          "confidence_interval": 95.0
+        }
+      },
+      {
+        "query": "Retrieve the last 25 years of population history for the red-crowned crane in Japan from the Japanese Wildlife Agency reports, focusing on regional details with an 85% confidence interval.",
+        "filled_param": {
+          "species": "red-crowned crane",
+          "years": 25,
+          "data_source": "Japanese Wildlife Agency",
+          "granularity": "regional",
+          "confidence_interval": 85.0
+        }
+      },
+      {
+        "query": "I need information on the historical population of the Sika deer in Japan for the past 5 years. Please use the Japan Ministry of Environment data at a local level with a 90% confidence interval.",
+        "filled_param": {
+          "species": "Sika deer",
+          "years": 5,
+          "data_source": "Japan Ministry of Environment",
+          "granularity": "local",
+          "confidence_interval": 90.0
+        }
+      },
+      {
+        "query": "What is the 15-year historical data for the Amami rabbit population in Japan, using the Wild Bird Society of Japan as the source, with national granularity and a 99% confidence interval?",
+        "filled_param": {
+          "species": "Amami rabbit",
+          "years": 15,
+          "data_source": "Wild Bird Society of Japan",
+          "granularity": "national",
+          "confidence_interval": 99.0
+        }
+      },
+      {
+        "query": "Could you get the historical population figures for the Iriomote cat in Japan over the last 20 years using the Japan Biodiversity Center database, with regional granularity and an 80% confidence interval?",
+        "filled_param": {
+          "species": "Iriomote cat",
+          "years": 20,
+          "data_source": "Japan Biodiversity Center",
+          "granularity": "regional",
+          "confidence_interval": 80.0
+        }
+      },
+      {
+        "query": "Find the historical population trends for Steller's sea eagle in Japan across the past 12 years from the WWF Japan reports, with a local granularity and a 92% confidence interval.",
+        "filled_param": {
+          "species": "Steller's sea eagle",
+          "years": 12,
+          "data_source": "WWF Japan",
+          "granularity": "local",
+          "confidence_interval": 92.0
+        }
+      }
+    ]
+  },
+  "animal_population.get_history|:|Germany|:|species,years,data_source,granularity,confidence_interval": {
+    "tool_template_name": "animal_population.get_history",
+    "derived_class": "Germany",
+    "params_for_query": [
+      "species",
+      "years",
+      "data_source",
+      "granularity",
+      "confidence_interval"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the historical population data for the Grey Wolf in Germany over the last 10 years using the EU Wildlife Database with national granularity and a 95% confidence interval?",
+        "filled_param": {
+          "species": "Grey Wolf",
+          "years": 10,
+          "data_source": "EU Wildlife Database",
+          "granularity": "national",
+          "confidence_interval": 95
+        }
+      },
+      {
+        "query": "I need the population history of the European Bison in Germany from the past 20 years, sourced from the Global Biodiversity Information Facility, with regional details and a 90% confidence interval.",
+        "filled_param": {
+          "species": "European Bison",
+          "years": 20,
+          "data_source": "Global Biodiversity Information Facility",
+          "granularity": "regional",
+          "confidence_interval": 90
+        }
+      },
+      {
+        "query": "Fetch the last 15 years of population estimates for the Eurasian Lynx in Germany using records from the World Conservation Monitoring Center, with local granularity and an 80% confidence interval.",
+        "filled_param": {
+          "species": "Eurasian Lynx",
+          "years": 15,
+          "data_source": "World Conservation Monitoring Center",
+          "granularity": "local",
+          "confidence_interval": 80
+        }
+      },
+      {
+        "query": "What is the historical population size of the Red Deer in Germany over the past 5 years, sourced from the National Biodiversity Network, at a national level of detail and 85% confidence interval?",
+        "filled_param": {
+          "species": "Red Deer",
+          "years": 5,
+          "data_source": "National Biodiversity Network",
+          "granularity": "national",
+          "confidence_interval": 85
+        }
+      },
+      {
+        "query": "Retrieve historical data for the population of Wild Boar in Germany for the last 12 years from the European Environment Agency, with regional granularity and a 92% confidence interval.",
+        "filled_param": {
+          "species": "Wild Boar",
+          "years": 12,
+          "data_source": "European Environment Agency",
+          "granularity": "regional",
+          "confidence_interval": 92
+        }
+      },
+      {
+        "query": "Get the historical population figures of the Common Crane in Germany over 8 years using data from the International Union for Conservation of Nature, with local granularity and a 97% confidence interval.",
+        "filled_param": {
+          "species": "Common Crane",
+          "years": 8,
+          "data_source": "International Union for Conservation of Nature",
+          "granularity": "local",
+          "confidence_interval": 97
+        }
+      },
+      {
+        "query": "I am looking for the past 25 years of population history for the Brown Bear in Germany, sourced from the Biodiversity Heritage Library, with national granularity and a 99% confidence interval.",
+        "filled_param": {
+          "species": "Brown Bear",
+          "years": 25,
+          "data_source": "Biodiversity Heritage Library",
+          "granularity": "national",
+          "confidence_interval": 99
+        }
+      }
+    ]
+  },
+  "animal_population.get_history|:|Mexico|:|species,years,data_source,granularity,confidence_interval": {
+    "tool_template_name": "animal_population.get_history",
+    "derived_class": "Mexico",
+    "params_for_query": [
+      "species",
+      "years",
+      "data_source",
+      "granularity",
+      "confidence_interval"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the historical population data for the jaguar in Mexico over the past 10 years using the World Wildlife Fund as a data source with national granularity and a 95% confidence interval?",
+        "filled_param": {
+          "species": "jaguar",
+          "years": 10,
+          "data_source": "World Wildlife Fund",
+          "granularity": "national",
+          "confidence_interval": 95
+        }
+      },
+      {
+        "query": "I need to know about the historical population of the Mexican gray wolf for the last 20 years in Mexico, using data from the Mexican National Biodiversity Commission at a regional level and with a 90% confidence interval.",
+        "filled_param": {
+          "species": "Mexican gray wolf",
+          "years": 20,
+          "data_source": "Mexican National Biodiversity Commission",
+          "granularity": "regional",
+          "confidence_interval": 90
+        }
+      },
+      {
+        "query": "Retrieve the historical population size of the vaquita porpoise in Mexico for the previous 5 years. Use International Union for Conservation of Nature data, with local granularity and an 80% confidence interval.",
+        "filled_param": {
+          "species": "vaquita porpoise",
+          "years": 5,
+          "data_source": "International Union for Conservation of Nature",
+          "granularity": "local",
+          "confidence_interval": 80
+        }
+      },
+      {
+        "query": "Give me the historical data on the monarch butterfly in Mexico for the past 15 years, utilizing information from the National Institute of Ecology with a 95% confidence interval at a national level.",
+        "filled_param": {
+          "species": "monarch butterfly",
+          "years": 15,
+          "data_source": "National Institute of Ecology",
+          "granularity": "national",
+          "confidence_interval": 95
+        }
+      },
+      {
+        "query": "Can you find the historical population trends of the American crocodile in Mexico over the last 25 years using Ecosur as the data source, with a regional granularity and 85% confidence interval?",
+        "filled_param": {
+          "species": "American crocodile",
+          "years": 25,
+          "data_source": "Ecosur",
+          "granularity": "regional",
+          "confidence_interval": 85
+        }
+      },
+      {
+        "query": "Provide historical population data for the ocelot in Mexico for the past 30 years, relying on data from the United Nations Environment Programme. I'd like a local granularity with a 90% confidence interval.",
+        "filled_param": {
+          "species": "ocelot",
+          "years": 30,
+          "data_source": "United Nations Environment Programme",
+          "granularity": "local",
+          "confidence_interval": 90
+        }
+      },
+      {
+        "query": "I want historical figures for the population of the green sea turtle in Mexico over the last 12 years, sourced from the Marine Conservation Institute, with a national granularity and an 88% confidence interval.",
+        "filled_param": {
+          "species": "green sea turtle",
+          "years": 12,
+          "data_source": "Marine Conservation Institute",
+          "granularity": "national",
+          "confidence_interval": 88
+        }
+      }
+    ]
+  },
+  "animal_population.get_history|:|France|:|species,years,data_source,granularity,confidence_interval": {
+    "tool_template_name": "animal_population.get_history",
+    "derived_class": "France",
+    "params_for_query": [
+      "species",
+      "years",
+      "data_source",
+      "granularity",
+      "confidence_interval"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the historical population data for wolves in France over the past 10 years using the European Wildlife Database with national granularity and a 95% confidence interval?",
+        "filled_param": {
+          "species": "wolves",
+          "years": 10,
+          "data_source": "European Wildlife Database",
+          "granularity": "national",
+          "confidence_interval": 95
+        }
+      },
+      {
+        "query": "Please retrieve the last 5 years of historical data for the lynx population in France from the National Fauna Survey, focusing on regional data with a 90% confidence interval.",
+        "filled_param": {
+          "species": "lynx",
+          "years": 5,
+          "data_source": "National Fauna Survey",
+          "granularity": "regional",
+          "confidence_interval": 90
+        }
+      },
+      {
+        "query": "I'd like to see the past 20 years of historical population sizes for the brown bear in France. Use the Wildlife Trust Database at a local level with an 85% confidence interval.",
+        "filled_param": {
+          "species": "brown bear",
+          "years": 20,
+          "data_source": "Wildlife Trust Database",
+          "granularity": "local",
+          "confidence_interval": 85
+        }
+      },
+      {
+        "query": "Get me the historical data on the red deer population in France for the last 15 years. Use the Biodiversity Records Archive with national granularity and a 92% confidence interval.",
+        "filled_param": {
+          "species": "red deer",
+          "years": 15,
+          "data_source": "Biodiversity Records Archive",
+          "granularity": "national",
+          "confidence_interval": 92
+        }
+      },
+      {
+        "query": "Could you find the historical population statistics for the wild boar in France over a 12-year period using the French Ecological Database, with details at the regional level and a 97% confidence interval?",
+        "filled_param": {
+          "species": "wild boar",
+          "years": 12,
+          "data_source": "French Ecological Database",
+          "granularity": "regional",
+          "confidence_interval": 97
+        }
+      },
+      {
+        "query": "I'd like information on the historical population of the Eurasian otter in France from the last 8 years. Please use the Nature Conservancy Records with local granularity and a 93% confidence interval.",
+        "filled_param": {
+          "species": "Eurasian otter",
+          "years": 8,
+          "data_source": "Nature Conservancy Records",
+          "granularity": "local",
+          "confidence_interval": 93
+        }
+      },
+      {
+        "query": "Retrieve 7 years of historical data for the European bison population in France, sourced from the International Wildlife Database with national granularity and a 88% confidence interval.",
+        "filled_param": {
+          "species": "European bison",
+          "years": 7,
+          "data_source": "International Wildlife Database",
+          "granularity": "national",
+          "confidence_interval": 88
+        }
+      }
+    ]
+  },
+  "animal_population.get_history|:|Argentina|:|species,years,data_source,granularity,confidence_interval": {
+    "tool_template_name": "animal_population.get_history",
+    "derived_class": "Argentina",
+    "params_for_query": [
+      "species",
+      "years",
+      "data_source",
+      "granularity",
+      "confidence_interval"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the historical population data for the Andean condor in Argentina for the past 10 years using the Environmental Research database with a regional level of detail and a 95% confidence interval?",
+        "filled_param": {
+          "species": "Andean condor",
+          "years": 10,
+          "data_source": "Environmental Research",
+          "granularity": "regional",
+          "confidence_interval": 95
+        }
+      },
+      {
+        "query": "I'd like to know about the historical population size of jaguars in Argentina over the last 15 years. Please use the Wildlife Conservation database with national granularity and provide a 90% confidence interval.",
+        "filled_param": {
+          "species": "jaguar",
+          "years": 15,
+          "data_source": "Wildlife Conservation",
+          "granularity": "national",
+          "confidence_interval": 90
+        }
+      },
+      {
+        "query": "Retrieve the historical population information for pumas in Argentina for 5 years from the National Parks dataset, focusing on local detail and applying an 85% confidence interval.",
+        "filled_param": {
+          "species": "puma",
+          "years": 5,
+          "data_source": "National Parks",
+          "granularity": "local",
+          "confidence_interval": 85
+        }
+      },
+      {
+        "query": "I am looking for the Argentinean historical population data of the Magellanic penguin for the past 20 years from the Oceanic Studies source, with a regional overview and a confidence interval of 92%.",
+        "filled_param": {
+          "species": "Magellanic penguin",
+          "years": 20,
+          "data_source": "Oceanic Studies",
+          "granularity": "regional",
+          "confidence_interval": 92
+        }
+      },
+      {
+        "query": "Could you fetch the historical population figures for capybaras in Argentina over the last 8 years, using the Biodiversity Records database at a national level with an 80% confidence interval?",
+        "filled_param": {
+          "species": "capybara",
+          "years": 8,
+          "data_source": "Biodiversity Records",
+          "granularity": "national",
+          "confidence_interval": 80
+        }
+      },
+      {
+        "query": "Get the historical data on the population of southern right whales in Argentina for the previous 12 years from the Marine Life database, with local granularity and a 95% confidence interval.",
+        "filled_param": {
+          "species": "southern right whale",
+          "years": 12,
+          "data_source": "Marine Life",
+          "granularity": "local",
+          "confidence_interval": 95
+        }
+      },
+      {
+        "query": "Please provide the past 25 years of historical population size for vicuñas in Argentina using the Mountain Ecosystem database with a regional focus and an 88% confidence interval.",
+        "filled_param": {
+          "species": "vicuña",
+          "years": 25,
+          "data_source": "Mountain Ecosystem",
+          "granularity": "regional",
+          "confidence_interval": 88
+        }
+      }
+    ]
+  },
+  "animal_population.get_history|:|Egypt|:|species,years,data_source,granularity,confidence_interval": {
+    "tool_template_name": "animal_population.get_history",
+    "derived_class": "Egypt",
+    "params_for_query": [
+      "species",
+      "years",
+      "data_source",
+      "granularity",
+      "confidence_interval"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the historical population data for the Nile crocodile in Egypt over the past 50 years using the 'Wildlife Conservation Database', with national detail and a 95% confidence interval?",
+        "filled_param": {
+          "species": "Nile crocodile",
+          "years": 50,
+          "data_source": "Wildlife Conservation Database",
+          "granularity": "national",
+          "confidence_interval": 95.0
+        }
+      },
+      {
+        "query": "Retrieve the past 30 years of historical population sizes for the Egyptian vulture in Egypt from 'Ornithology Studies Institute', focusing on regional data with a confidence interval of 90%.",
+        "filled_param": {
+          "species": "Egyptian vulture",
+          "years": 30,
+          "data_source": "Ornithology Studies Institute",
+          "granularity": "regional",
+          "confidence_interval": 90.0
+        }
+      },
+      {
+        "query": "I need historical data on the population size of the Egyptian tortoise in Egypt for the last 20 years, sourced from 'Herpetology Research Center', with local granularity and an 85% confidence interval.",
+        "filled_param": {
+          "species": "Egyptian tortoise",
+          "years": 20,
+          "data_source": "Herpetology Research Center",
+          "granularity": "local",
+          "confidence_interval": 85.0
+        }
+      },
+      {
+        "query": "Get the historical population figures for the African elephant in Egypt over a 15-year period, utilizing 'Mammalian Population Archive', with regional detail and a confidence level of 92%.",
+        "filled_param": {
+          "species": "African elephant",
+          "years": 15,
+          "data_source": "Mammalian Population Archive",
+          "granularity": "regional",
+          "confidence_interval": 92.0
+        }
+      },
+      {
+        "query": "Fetch historical population data for the Sinai leopard in Egypt for the past 40 years from 'Endangered Species Database', focusing on national data with a 97% confidence interval.",
+        "filled_param": {
+          "species": "Sinai leopard",
+          "years": 40,
+          "data_source": "Endangered Species Database",
+          "granularity": "national",
+          "confidence_interval": 97.0
+        }
+      },
+      {
+        "query": "I'd like to see the historical population size of the Dugong in Egypt for the last 25 years, sourced from 'Marine Life Statistics', at a local granularity with a 93% confidence interval.",
+        "filled_param": {
+          "species": "Dugong",
+          "years": 25,
+          "data_source": "Marine Life Statistics",
+          "granularity": "local",
+          "confidence_interval": 93.0
+        }
+      },
+      {
+        "query": "Provide the historical population information for the Sooty falcon in Egypt spanning 10 years, using 'Avian Data Collective', with national granularity and an 88% confidence interval.",
+        "filled_param": {
+          "species": "Sooty falcon",
+          "years": 10,
+          "data_source": "Avian Data Collective",
+          "granularity": "national",
+          "confidence_interval": 88.0
+        }
+      }
+    ]
+  },
+  "animal_population.get_history|:|Indonesia|:|species,years,data_source,granularity,confidence_interval": {
+    "tool_template_name": "animal_population.get_history",
+    "derived_class": "Indonesia",
+    "params_for_query": [
+      "species",
+      "years",
+      "data_source",
+      "granularity",
+      "confidence_interval"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the historical population data for the Javan rhinoceros over the past 10 years in Indonesia using the WWF database with a national level of detail and a 95% confidence interval?",
+        "filled_param": {
+          "species": "Javan rhinoceros",
+          "years": 10,
+          "data_source": "WWF",
+          "granularity": "national",
+          "confidence_interval": 95
+        }
+      },
+      {
+        "query": "Retrieve the last 15 years of historical population sizes for the Sumatran tiger in Indonesia from the IUCN data, focusing on regional details with a 90% confidence interval.",
+        "filled_param": {
+          "species": "Sumatran tiger",
+          "years": 15,
+          "data_source": "IUCN",
+          "granularity": "regional",
+          "confidence_interval": 90
+        }
+      },
+      {
+        "query": "I'm interested in the population history of the Komodo dragon in Indonesia for the past 20 years, using local data from the National Geographic source with a 92% confidence interval.",
+        "filled_param": {
+          "species": "Komodo dragon",
+          "years": 20,
+          "data_source": "National Geographic",
+          "granularity": "local",
+          "confidence_interval": 92
+        }
+      },
+      {
+        "query": "Please get the historical data for orangutans in Indonesia for the last 5 years from the UNEP database, with a national granularity and an 85% confidence level.",
+        "filled_param": {
+          "species": "orangutans",
+          "years": 5,
+          "data_source": "UNEP",
+          "granularity": "national",
+          "confidence_interval": 85
+        }
+      },
+      {
+        "query": "Look up the historical population figures for Bali starlings in Indonesia over the past 12 years using BirdLife International data, focusing on regional granularity with a 98% confidence interval.",
+        "filled_param": {
+          "species": "Bali starlings",
+          "years": 12,
+          "data_source": "BirdLife International",
+          "granularity": "regional",
+          "confidence_interval": 98
+        }
+      },
+      {
+        "query": "Could you give me the historical data for the last 8 years on the population of Asian elephants in Indonesia from the WCS source, with local granularity and a 93% confidence interval?",
+        "filled_param": {
+          "species": "Asian elephants",
+          "years": 8,
+          "data_source": "WCS",
+          "granularity": "local",
+          "confidence_interval": 93
+        }
+      },
+      {
+        "query": "Find the historical population stats for the Javan leopard in Indonesia for the previous 7 years using data from the Smithsonian Institute at a national level of granularity and with a 90% confidence interval.",
+        "filled_param": {
+          "species": "Javan leopard",
+          "years": 7,
+          "data_source": "Smithsonian Institute",
+          "granularity": "national",
+          "confidence_interval": 90
+        }
+      }
+    ]
+  },
+  "animal_population.get_history|:|Saudi Arabia|:|species,years,data_source,granularity,confidence_interval": {
+    "tool_template_name": "animal_population.get_history",
+    "derived_class": "Saudi Arabia",
+    "params_for_query": [
+      "species",
+      "years",
+      "data_source",
+      "granularity",
+      "confidence_interval"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the historical population data for Arabian oryx in Saudi Arabia over the past 20 years using the IUCN database, with regional granularity and a 95% confidence interval?",
+        "filled_param": {
+          "species": "Arabian oryx",
+          "years": 20,
+          "data_source": "IUCN database",
+          "granularity": "regional",
+          "confidence_interval": 95
+        }
+      },
+      {
+        "query": "I'm interested in the last 10 years of population data for the dromedary camel in Saudi Arabia, sourced from the government database, with national granularity and an 85% confidence interval.",
+        "filled_param": {
+          "species": "dromedary camel",
+          "years": 10,
+          "data_source": "government database",
+          "granularity": "national",
+          "confidence_interval": 85
+        }
+      },
+      {
+        "query": "Please find the historical records for the Nubian ibex population in Saudi Arabia for the past 50 years from the WWF database, focusing on local trends and applying a 90% confidence interval.",
+        "filled_param": {
+          "species": "Nubian ibex",
+          "years": 50,
+          "data_source": "WWF database",
+          "granularity": "local",
+          "confidence_interval": 90
+        }
+      },
+      {
+        "query": "Retrieve the last 15 years of historical data for the population of sand cats in Saudi Arabia using data from the National Wildlife Research Center, with regional granularity and a 92% confidence level.",
+        "filled_param": {
+          "species": "sand cat",
+          "years": 15,
+          "data_source": "National Wildlife Research Center",
+          "granularity": "regional",
+          "confidence_interval": 92
+        }
+      },
+      {
+        "query": "I need detailed population data for the Asiatic cheetah in Saudi Arabia over a 30-year span from the Encyclopedia of Life, with local granularity and a 97% confidence interval.",
+        "filled_param": {
+          "species": "Asiatic cheetah",
+          "years": 30,
+          "data_source": "Encyclopedia of Life",
+          "granularity": "local",
+          "confidence_interval": 97
+        }
+      },
+      {
+        "query": "Can you gather the past 5 years of population data for the Arabian leopard in Saudi Arabia, sourced from the Biodiversity Heritage Library, with national granularity and an 80% confidence interval?",
+        "filled_param": {
+          "species": "Arabian leopard",
+          "years": 5,
+          "data_source": "Biodiversity Heritage Library",
+          "granularity": "national",
+          "confidence_interval": 80
+        }
+      }
+    ]
+  },
+  "animal_population.get_history|:|Italy|:|species,years,data_source,granularity,confidence_interval": {
+    "tool_template_name": "animal_population.get_history",
+    "derived_class": "Italy",
+    "params_for_query": [
+      "species",
+      "years",
+      "data_source",
+      "granularity",
+      "confidence_interval"
+    ],
+    "queries": [
+      {
+        "query": "Please provide the historical population data for the Italian wolf for the last 10 years using the National Wildlife Database, with national granularity and a confidence interval of 95%.",
+        "filled_param": {
+          "species": "Italian wolf",
+          "years": 10,
+          "data_source": "National Wildlife Database",
+          "granularity": "national",
+          "confidence_interval": 95
+        }
+      },
+      {
+        "query": "Can you get the historical population size of the Alpine ibex over 25 years from the European Fauna Database, focusing on regional data, with an 80% confidence interval?",
+        "filled_param": {
+          "species": "Alpine ibex",
+          "years": 25,
+          "data_source": "European Fauna Database",
+          "granularity": "regional",
+          "confidence_interval": 80
+        }
+      },
+      {
+        "query": "Retrieve the last 15 years of historical data for the Eurasian lynx in Italy using the Wildlife Conservation Records with local granularity and a confidence interval of 90%.",
+        "filled_param": {
+          "species": "Eurasian lynx",
+          "years": 15,
+          "data_source": "Wildlife Conservation Records",
+          "granularity": "local",
+          "confidence_interval": 90
+        }
+      },
+      {
+        "query": "I need the historical population figures for the Italian brown bear for the past 5 years from the Italian Animal Census, with regional granularity and a confidence interval of 85%.",
+        "filled_param": {
+          "species": "Italian brown bear",
+          "years": 5,
+          "data_source": "Italian Animal Census",
+          "granularity": "regional",
+          "confidence_interval": 85
+        }
+      },
+      {
+        "query": "Fetch the historical population data of the red deer in Italy over the last 20 years using the Biodiversity Data Network, focusing on national granularity with a 92% confidence interval.",
+        "filled_param": {
+          "species": "red deer",
+          "years": 20,
+          "data_source": "Biodiversity Data Network",
+          "granularity": "national",
+          "confidence_interval": 92
+        }
+      },
+      {
+        "query": "Could you provide the historical data for the wolf population in Italy for the past 30 years, referencing the Italian Wildlife Statistics, with local detail and an 88% confidence interval?",
+        "filled_param": {
+          "species": "wolf",
+          "years": 30,
+          "data_source": "Italian Wildlife Statistics",
+          "granularity": "local",
+          "confidence_interval": 88
+        }
+      },
+      {
+        "query": "Get the historical numbers for the European bison in Italy, from the last 12 years via the International Animal Database, with national scope and a 93% confidence interval.",
+        "filled_param": {
+          "species": "European bison",
+          "years": 12,
+          "data_source": "International Animal Database",
+          "granularity": "national",
+          "confidence_interval": 93
+        }
+      }
+    ]
+  },
+  "animal_population.get_history|:|Kenya|:|species,years,data_source,granularity,confidence_interval": {
+    "tool_template_name": "animal_population.get_history",
+    "derived_class": "Kenya",
+    "params_for_query": [
+      "species",
+      "years",
+      "data_source",
+      "granularity",
+      "confidence_interval"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the historical population data for elephants in Kenya over the past 10 years using the Wildlife Research Institute as the data source, with a national level granularity and a 95% confidence interval?",
+        "filled_param": {
+          "species": "elephants",
+          "years": 10,
+          "data_source": "Wildlife Research Institute",
+          "granularity": "national",
+          "confidence_interval": 95
+        }
+      },
+      {
+        "query": "I would like to know the historic population numbers for lions in Kenya for the last 5 years. Use the African Wildlife Foundation as the data source, with regional granularity and a confidence interval of 90%.",
+        "filled_param": {
+          "species": "lions",
+          "years": 5,
+          "data_source": "African Wildlife Foundation",
+          "granularity": "regional",
+          "confidence_interval": 90
+        }
+      },
+      {
+        "query": "Retrieve the historical population size of rhinos in Kenya for a period of 20 years. Sources should be from the Kenya Wildlife Service, with local granularity and a 98% confidence interval.",
+        "filled_param": {
+          "species": "rhinos",
+          "years": 20,
+          "data_source": "Kenya Wildlife Service",
+          "granularity": "local",
+          "confidence_interval": 98
+        }
+      },
+      {
+        "query": "What is the 15-year historical population trend of giraffes in Kenya, using data from the National Geographic Society, with a national-level granularity and a 92% confidence interval?",
+        "filled_param": {
+          "species": "giraffes",
+          "years": 15,
+          "data_source": "National Geographic Society",
+          "granularity": "national",
+          "confidence_interval": 92
+        }
+      },
+      {
+        "query": "Please get me the historical population data for zebras in Kenya over the past 8 years, sourced from the International Union for Conservation of Nature, with regional granularity and a 90% confidence interval.",
+        "filled_param": {
+          "species": "zebras",
+          "years": 8,
+          "data_source": "International Union for Conservation of Nature",
+          "granularity": "regional",
+          "confidence_interval": 90
+        }
+      },
+      {
+        "query": "I need historical population data for cheetahs in Kenya spanning 25 years, using the Smithsonian Conservation Biology Institute as the source, with a local granularity and a confidence interval of 85%.",
+        "filled_param": {
+          "species": "cheetahs",
+          "years": 25,
+          "data_source": "Smithsonian Conservation Biology Institute",
+          "granularity": "local",
+          "confidence_interval": 85
+        }
+      }
+    ]
+  },
+  "animal_population.get_history|:|Norway|:|species,years,data_source,granularity,confidence_interval": {
+    "tool_template_name": "animal_population.get_history",
+    "derived_class": "Norway",
+    "params_for_query": [
+      "species",
+      "years",
+      "data_source",
+      "granularity",
+      "confidence_interval"
+    ],
+    "queries": [
+      {
+        "query": "I need the historical population data for the Norway wolf species over the past 10 years from the Wildlife Institute, with a national granularity and a 95% confidence interval.",
+        "filled_param": {
+          "species": "wolf",
+          "years": 10,
+          "data_source": "Wildlife Institute",
+          "granularity": "national",
+          "confidence_interval": 95
+        }
+      },
+      {
+        "query": "Can you provide the past 5 years of population data for Norway's lynx from the Norway Biodiversity Database, focusing on a regional level with a 90% confidence interval?",
+        "filled_param": {
+          "species": "lynx",
+          "years": 5,
+          "data_source": "Norway Biodiversity Database",
+          "granularity": "regional",
+          "confidence_interval": 90
+        }
+      },
+      {
+        "query": "Retrieve the historical data on the Norway moose population for the last 20 years using data from the National Wildlife Registry, ensuring local granularity and a confidence interval of 85%.",
+        "filled_param": {
+          "species": "moose",
+          "years": 20,
+          "data_source": "National Wildlife Registry",
+          "granularity": "local",
+          "confidence_interval": 85
+        }
+      },
+      {
+        "query": "Get me the historical population numbers for the Norway reindeer for the past 15 years from the Arctic Research Center, with a regional breakdown and a 92% confidence level.",
+        "filled_param": {
+          "species": "reindeer",
+          "years": 15,
+          "data_source": "Arctic Research Center",
+          "granularity": "regional",
+          "confidence_interval": 92
+        }
+      },
+      {
+        "query": "Could you find the bat population history in Norway over the last 8 years from the Zoological Survey of Norway, looking at a national scale with a 97% confidence interval?",
+        "filled_param": {
+          "species": "bat",
+          "years": 8,
+          "data_source": "Zoological Survey of Norway",
+          "granularity": "national",
+          "confidence_interval": 97
+        }
+      },
+      {
+        "query": "I'd like the historical population size for the Norway brown bear for the past 12 years from the Norwegian Institute for Nature Research, focusing on local granularity with an 88% confidence interval.",
+        "filled_param": {
+          "species": "brown bear",
+          "years": 12,
+          "data_source": "Norwegian Institute for Nature Research",
+          "granularity": "local",
+          "confidence_interval": 88
+        }
+      },
+      {
+        "query": "Please provide historical data for the Norway arctic fox for the last 7 years from the Polar Institute, with national granularity and a 93% confidence interval.",
+        "filled_param": {
+          "species": "arctic fox",
+          "years": 7,
+          "data_source": "Polar Institute",
+          "granularity": "national",
+          "confidence_interval": 93
+        }
+      }
+    ]
+  },
+  "animal_population.get_history|:|Chile|:|species,years,data_source,granularity,confidence_interval": {
+    "tool_template_name": "animal_population.get_history",
+    "derived_class": "Chile",
+    "params_for_query": [
+      "species",
+      "years",
+      "data_source",
+      "granularity",
+      "confidence_interval"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the historical population size for the Humboldt Penguin in Chile for the past 10 years from the National Biodiversity Database with regional granularity and a 95% confidence interval?",
+        "filled_param": {
+          "species": "Humboldt Penguin",
+          "years": 10,
+          "data_source": "National Biodiversity Database",
+          "granularity": "regional",
+          "confidence_interval": 95
+        }
+      },
+      {
+        "query": "I'd like to know the population history of the Andean Condor in Chile for the last 25 years, using the Chilean Wildlife Society as the data source, with a national granularity and a 90% confidence interval.",
+        "filled_param": {
+          "species": "Andean Condor",
+          "years": 25,
+          "data_source": "Chilean Wildlife Society",
+          "granularity": "national",
+          "confidence_interval": 90
+        }
+      },
+      {
+        "query": "Retrieve the last 15 years of historical population data for the Darwin's Fox in Chile, sourced from the Environmental Protection Agency, with local granularity and an 85% confidence interval.",
+        "filled_param": {
+          "species": "Darwin's Fox",
+          "years": 15,
+          "data_source": "Environmental Protection Agency",
+          "granularity": "local",
+          "confidence_interval": 85
+        }
+      },
+      {
+        "query": "What is the historical population trend for the Chilean Flamingo over the past 5 years in Chile? Please use the National Wildlife Service as the data source, national granularity, and a 92% confidence interval.",
+        "filled_param": {
+          "species": "Chilean Flamingo",
+          "years": 5,
+          "data_source": "National Wildlife Service",
+          "granularity": "national",
+          "confidence_interval": 92
+        }
+      },
+      {
+        "query": "Get historical data for the Magellanic Penguin's population in Chile over the last 30 years from the Wildlife Conservation Institute, with regional granularity and 88% confidence interval.",
+        "filled_param": {
+          "species": "Magellanic Penguin",
+          "years": 30,
+          "data_source": "Wildlife Conservation Institute",
+          "granularity": "regional",
+          "confidence_interval": 88
+        }
+      },
+      {
+        "query": "Please give me the historical population records for the South Andean Deer in Chile for the past 20 years, from the National Institute for Ecological Studies, with local granularity and a 93% confidence interval.",
+        "filled_param": {
+          "species": "South Andean Deer",
+          "years": 20,
+          "data_source": "National Institute for Ecological Studies",
+          "granularity": "local",
+          "confidence_interval": 93
+        }
+      },
+      {
+        "query": "Could you tell me the historical population size for the Puma in Chile over the last 12 years using data from the Biodiversity Research Center, with regional granularity and a 97% confidence interval?",
+        "filled_param": {
+          "species": "Puma",
+          "years": 12,
+          "data_source": "Biodiversity Research Center",
+          "granularity": "regional",
+          "confidence_interval": 97
+        }
+      }
+    ]
+  }
+}

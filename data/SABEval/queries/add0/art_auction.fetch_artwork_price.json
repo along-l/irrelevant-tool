@@ -1,0 +1,571 @@
+{
+  "art_auction.fetch_artwork_price|:|sothebys|:|artwork_name,artist": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "sothebys",
+    "params_for_query": [
+      "artwork_name",
+      "artist"
+    ],
+    "queries": [
+      {
+        "query": "What's the latest price for 'Starry Night' by Van Gogh on sothebys?",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Van Gogh"
+        }
+      },
+      {
+        "query": "Can you find out how much 'The Persistence of Memory' by Salvador Dalí is selling for on sothebys?",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí"
+        }
+      },
+      {
+        "query": "I need to know the current price of 'The Scream' by Edvard Munch listed at sothebys.",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch"
+        }
+      },
+      {
+        "query": "How much is 'Guernica' by Pablo Picasso going for at sothebys?",
+        "filled_param": {
+          "artwork_name": "Guernica",
+          "artist": "Pablo Picasso"
+        }
+      },
+      {
+        "query": "What's the sothebys price for 'The Night Watch' by Rembrandt?",
+        "filled_param": {
+          "artwork_name": "The Night Watch",
+          "artist": "Rembrandt"
+        }
+      },
+      {
+        "query": "Check the current sothebys valuation of 'The Kiss' by Gustav Klimt.",
+        "filled_param": {
+          "artwork_name": "The Kiss",
+          "artist": "Gustav Klimt"
+        }
+      },
+      {
+        "query": "Is there a price listing for 'Mona Lisa' by Leonardo da Vinci on sothebys?",
+        "filled_param": {
+          "artwork_name": "Mona Lisa",
+          "artist": "Leonardo da Vinci"
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|christies|:|artwork_name,artist": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "christies",
+    "params_for_query": [
+      "artwork_name",
+      "artist"
+    ],
+    "queries": [
+      {
+        "query": "What is the price of 'Starry Night' by Van Gogh on the christies platform?",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Van Gogh"
+        }
+      },
+      {
+        "query": "Can you fetch the current price for 'The Persistence of Memory' created by Salvador Dali on christies?",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dali"
+        }
+      },
+      {
+        "query": "I'd like to know the price of 'Mona Lisa' by Leonardo da Vinci on christies.",
+        "filled_param": {
+          "artwork_name": "Mona Lisa",
+          "artist": "Leonardo da Vinci"
+        }
+      },
+      {
+        "query": "Please provide the christies price for 'The Scream' painted by Edvard Munch.",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch"
+        }
+      },
+      {
+        "query": "How much is 'The Night Watch' by Rembrandt costing on christies right now?",
+        "filled_param": {
+          "artwork_name": "The Night Watch",
+          "artist": "Rembrandt"
+        }
+      },
+      {
+        "query": "Could you check the price of 'Girl with a Pearl Earring' by Johannes Vermeer on christies?",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer"
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|phillips|:|artwork_name,artist": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "phillips",
+    "params_for_query": [
+      "artwork_name",
+      "artist"
+    ],
+    "queries": [
+      {
+        "query": "What is the current price of 'Starry Night' by Van Gogh on phillips?",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Van Gogh"
+        }
+      },
+      {
+        "query": "Please fetch the price of 'The Persistence of Memory' by Salvador Dalí listed on phillips.",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí"
+        }
+      },
+      {
+        "query": "How much does 'The Birth of Venus' by Sandro Botticelli cost on phillips?",
+        "filled_param": {
+          "artwork_name": "The Birth of Venus",
+          "artist": "Sandro Botticelli"
+        }
+      },
+      {
+        "query": "Can you tell me the price of 'Mona Lisa' by Leonardo da Vinci available on phillips?",
+        "filled_param": {
+          "artwork_name": "Mona Lisa",
+          "artist": "Leonardo da Vinci"
+        }
+      },
+      {
+        "query": "I'd like to know the price of 'The Scream' by Edvard Munch on phillips.",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch"
+        }
+      },
+      {
+        "query": "Find out the cost of 'Girl with a Pearl Earring' by Johannes Vermeer as listed on phillips.",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer"
+        }
+      },
+      {
+        "query": "What is the price for 'The Kiss' by Gustav Klimt on phillips?",
+        "filled_param": {
+          "artwork_name": "The Kiss",
+          "artist": "Gustav Klimt"
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|bonhams|:|artwork_name,artist": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "bonhams",
+    "params_for_query": [
+      "artwork_name",
+      "artist"
+    ],
+    "queries": [
+      {
+        "query": "What's the current price of 'Starry Night' by Vincent van Gogh on bonhams?",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Vincent van Gogh"
+        }
+      },
+      {
+        "query": "Could you find out how much 'The Persistence of Memory' by Salvador Dalí is going for on bonhams?",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí"
+        }
+      },
+      {
+        "query": "I am interested in the bonhams listing price for 'The Scream' by Edvard Munch.",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch"
+        }
+      },
+      {
+        "query": "Can you check the price of 'Girl with a Pearl Earring' by Johannes Vermeer on bonhams?",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer"
+        }
+      },
+      {
+        "query": "Please look up the bonhams sale price for 'Mona Lisa' by Leonardo da Vinci.",
+        "filled_param": {
+          "artwork_name": "Mona Lisa",
+          "artist": "Leonardo da Vinci"
+        }
+      },
+      {
+        "query": "Find out the bonhams price of 'The Night Watch' by Rembrandt.",
+        "filled_param": {
+          "artwork_name": "The Night Watch",
+          "artist": "Rembrandt"
+        }
+      },
+      {
+        "query": "What is the bonhams price for 'The Last Supper' by Leonardo da Vinci?",
+        "filled_param": {
+          "artwork_name": "The Last Supper",
+          "artist": "Leonardo da Vinci"
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|poly auction|:|artwork_name,artist": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "poly auction",
+    "params_for_query": [
+      "artwork_name",
+      "artist"
+    ],
+    "queries": [
+      {
+        "query": "Can you find the price of 'Starry Night' by Vincent van Gogh on the poly auction site?",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Vincent van Gogh"
+        }
+      },
+      {
+        "query": "What is the current auction price for 'The Persistence of Memory' by Salvador Dali on the poly auction platform?",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dali"
+        }
+      },
+      {
+        "query": "I'd like to know the price of 'Girl with a Pearl Earring' by Johannes Vermeer listed on poly auction.",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer"
+        }
+      },
+      {
+        "query": "Fetch the auction price for the artwork 'The Scream' by Edvard Munch on poly auction.",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch"
+        }
+      },
+      {
+        "query": "Look up the price of 'The Night Watch' by Rembrandt on the poly auction platform.",
+        "filled_param": {
+          "artwork_name": "The Night Watch",
+          "artist": "Rembrandt"
+        }
+      },
+      {
+        "query": "How much is 'The Birth of Venus' by Sandro Botticelli going for on poly auction?",
+        "filled_param": {
+          "artwork_name": "The Birth of Venus",
+          "artist": "Sandro Botticelli"
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|china guardian|:|artwork_name,artist": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "china guardian",
+    "params_for_query": [
+      "artwork_name",
+      "artist"
+    ],
+    "queries": [
+      {
+        "query": "What is the price of 'Spring Morning in the Han Palace' by Zhang Daqian on the China Guardian platform?",
+        "filled_param": {
+          "artwork_name": "Spring Morning in the Han Palace",
+          "artist": "Zhang Daqian"
+        }
+      },
+      {
+        "query": "Could you find the current price of 'Pine Trees in the Mist' by Wu Guanzhong listed on China Guardian?",
+        "filled_param": {
+          "artwork_name": "Pine Trees in the Mist",
+          "artist": "Wu Guanzhong"
+        }
+      },
+      {
+        "query": "I'd like to know the price for 'Peach Blossom Spring' by Wu Changshuo available on China Guardian.",
+        "filled_param": {
+          "artwork_name": "Peach Blossom Spring",
+          "artist": "Wu Changshuo"
+        }
+      },
+      {
+        "query": "Can you provide the price of 'A Thousand Li of Rivers and Mountains' by Wang Ximeng on the China Guardian site?",
+        "filled_param": {
+          "artwork_name": "A Thousand Li of Rivers and Mountains",
+          "artist": "Wang Ximeng"
+        }
+      },
+      {
+        "query": "How much is 'Eagle Standing on a Pine Tree' by Qi Baishi going for on China Guardian?",
+        "filled_param": {
+          "artwork_name": "Eagle Standing on a Pine Tree",
+          "artist": "Qi Baishi"
+        }
+      },
+      {
+        "query": "Check the price of 'The Red Cliff' by Fu Baoshi listed on the China Guardian platform.",
+        "filled_param": {
+          "artwork_name": "The Red Cliff",
+          "artist": "Fu Baoshi"
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|artnet|:|artwork_name,artist": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "artnet",
+    "params_for_query": [
+      "artwork_name",
+      "artist"
+    ],
+    "queries": [
+      {
+        "query": "What's the price of 'Starry Night' by Vincent van Gogh on artnet?",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Vincent van Gogh"
+        }
+      },
+      {
+        "query": "Can you find the artnet price for 'The Persistence of Memory' by Salvador Dalí?",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí"
+        }
+      },
+      {
+        "query": "How much is 'The Scream' by Edvard Munch listed for on artnet?",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch"
+        }
+      },
+      {
+        "query": "I would like to know the price of 'Girl with a Pearl Earring' by Johannes Vermeer on the artnet platform.",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer"
+        }
+      },
+      {
+        "query": "What is the artnet listed price for 'The Birth of Venus' by Sandro Botticelli?",
+        "filled_param": {
+          "artwork_name": "The Birth of Venus",
+          "artist": "Sandro Botticelli"
+        }
+      },
+      {
+        "query": "Find the current price of 'Guernica' by Pablo Picasso on artnet.",
+        "filled_param": {
+          "artwork_name": "Guernica",
+          "artist": "Pablo Picasso"
+        }
+      },
+      {
+        "query": "Check the price for 'American Gothic' by Grant Wood on artnet.",
+        "filled_param": {
+          "artwork_name": "American Gothic",
+          "artist": "Grant Wood"
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|invaluable|:|artwork_name,artist": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "invaluable",
+    "params_for_query": [
+      "artwork_name",
+      "artist"
+    ],
+    "queries": [
+      {
+        "query": "What is the current price of 'Starry Night' by the artist Vincent van Gogh on invaluable?",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Vincent van Gogh"
+        }
+      },
+      {
+        "query": "Could you fetch the price for Gustav Klimt's 'The Kiss' on invaluable?",
+        "filled_param": {
+          "artwork_name": "The Kiss",
+          "artist": "Gustav Klimt"
+        }
+      },
+      {
+        "query": "I need to know how much 'The Persistence of Memory' by Salvador Dalí is priced at on invaluable.",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí"
+        }
+      },
+      {
+        "query": "Can you find out the invaluable pricing for 'Mona Lisa' created by Leonardo da Vinci?",
+        "filled_param": {
+          "artwork_name": "Mona Lisa",
+          "artist": "Leonardo da Vinci"
+        }
+      },
+      {
+        "query": "Please provide the price of 'The Scream' by Edvard Munch from the invaluable site.",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch"
+        }
+      },
+      {
+        "query": "Tell me the price of 'Girl with a Pearl Earring' by Johannes Vermeer on invaluable.",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer"
+        }
+      },
+      {
+        "query": "How much is Pablo Picasso's 'Guernica' listed for on invaluable?",
+        "filled_param": {
+          "artwork_name": "Guernica",
+          "artist": "Pablo Picasso"
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|heritage auctions|:|artwork_name,artist": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "heritage auctions",
+    "params_for_query": [
+      "artwork_name",
+      "artist"
+    ],
+    "queries": [
+      {
+        "query": "Can you tell me the price of 'Starry Night' by Van Gogh on heritage auctions?",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Van Gogh"
+        }
+      },
+      {
+        "query": "I'd like to know the current auction price for 'The Persistence of Memory' by Salvador Dalí on heritage auctions.",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí"
+        }
+      },
+      {
+        "query": "Find the auction price for 'The Mona Lisa' created by Leonardo da Vinci on heritage auctions.",
+        "filled_param": {
+          "artwork_name": "The Mona Lisa",
+          "artist": "Leonardo da Vinci"
+        }
+      },
+      {
+        "query": "What is the price listed for 'The Night Watch' by Rembrandt on heritage auctions?",
+        "filled_param": {
+          "artwork_name": "The Night Watch",
+          "artist": "Rembrandt"
+        }
+      },
+      {
+        "query": "Could you fetch the auction price of 'Guernica' by Picasso on heritage auctions?",
+        "filled_param": {
+          "artwork_name": "Guernica",
+          "artist": "Picasso"
+        }
+      },
+      {
+        "query": "Look up the price for 'The Birth of Venus' by Botticelli on heritage auctions.",
+        "filled_param": {
+          "artwork_name": "The Birth of Venus",
+          "artist": "Botticelli"
+        }
+      },
+      {
+        "query": "What is the current price of 'American Gothic' by Grant Wood on heritage auctions?",
+        "filled_param": {
+          "artwork_name": "American Gothic",
+          "artist": "Grant Wood"
+        }
+      }
+    ]
+  },
+  "art_auction.fetch_artwork_price|:|mutualart|:|artwork_name,artist": {
+    "tool_template_name": "art_auction.fetch_artwork_price",
+    "derived_class": "mutualart",
+    "params_for_query": [
+      "artwork_name",
+      "artist"
+    ],
+    "queries": [
+      {
+        "query": "What is the price of the artwork 'Starry Night' by the artist Vincent van Gogh on mutualart?",
+        "filled_param": {
+          "artwork_name": "Starry Night",
+          "artist": "Vincent van Gogh"
+        }
+      },
+      {
+        "query": "Can you check the price for 'The Persistence of Memory' by Salvador Dalí on mutualart?",
+        "filled_param": {
+          "artwork_name": "The Persistence of Memory",
+          "artist": "Salvador Dalí"
+        }
+      },
+      {
+        "query": "Find out how much 'The Mona Lisa' by Leonardo da Vinci is listed for on mutualart.",
+        "filled_param": {
+          "artwork_name": "The Mona Lisa",
+          "artist": "Leonardo da Vinci"
+        }
+      },
+      {
+        "query": "I'd like to know the price of 'The Scream' painted by Edvard Munch on mutualart.",
+        "filled_param": {
+          "artwork_name": "The Scream",
+          "artist": "Edvard Munch"
+        }
+      },
+      {
+        "query": "Could you retrieve the price of 'Girl with a Pearl Earring' by Johannes Vermeer from mutualart?",
+        "filled_param": {
+          "artwork_name": "Girl with a Pearl Earring",
+          "artist": "Johannes Vermeer"
+        }
+      },
+      {
+        "query": "Please look up the price for 'The Birth of Venus' by Sandro Botticelli on mutualart.",
+        "filled_param": {
+          "artwork_name": "The Birth of Venus",
+          "artist": "Sandro Botticelli"
+        }
+      },
+      {
+        "query": "What's the mutualart price of 'The Kiss' by Gustav Klimt?",
+        "filled_param": {
+          "artwork_name": "The Kiss",
+          "artist": "Gustav Klimt"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "games.price.find|:|Steam|:|game,currency,region": {
+    "tool_template_name": "games.price.find",
+    "derived_class": "Steam",
+    "params_for_query": [
+      "game",
+      "currency",
+      "region"
+    ],
+    "queries": [
+      {
+        "query": "What is the price for Cyberpunk 2077 on Steam in USD for the US region?",
+        "filled_param": {
+          "game": "Cyberpunk 2077",
+          "currency": "USD",
+          "region": "US"
+        }
+      },
+      {
+        "query": "Can you tell me the cost of Civilization VI in EUR for the EU region on Steam?",
+        "filled_param": {
+          "game": "Civilization VI",
+          "currency": "EUR",
+          "region": "EU"
+        }
+      },
+      {
+        "query": "I want to know the Steam price of Red Dead Redemption 2 in JPY for Japan.",
+        "filled_param": {
+          "game": "Red Dead Redemption 2",
+          "currency": "JPY",
+          "region": "JP"
+        }
+      },
+      {
+        "query": "Find the current Steam price for The Witcher 3 in GBP for the UK region.",
+        "filled_param": {
+          "game": "The Witcher 3",
+          "currency": "GBP",
+          "region": "UK"
+        }
+      },
+      {
+        "query": "How much does Among Us cost on Steam in AUD for Australia?",
+        "filled_param": {
+          "game": "Among Us",
+          "currency": "AUD",
+          "region": "AU"
+        }
+      },
+      {
+        "query": "Please provide the price of Half-Life: Alyx in CAD for the Canada region on Steam.",
+        "filled_param": {
+          "game": "Half-Life: Alyx",
+          "currency": "CAD",
+          "region": "CA"
+        }
+      },
+      {
+        "query": "Check the Steam price for DOOM Eternal in BRL for Brazil.",
+        "filled_param": {
+          "game": "DOOM Eternal",
+          "currency": "BRL",
+          "region": "BR"
+        }
+      }
+    ]
+  },
+  "games.price.find|:|Epic|:|game,currency,region": {
+    "tool_template_name": "games.price.find",
+    "derived_class": "Epic",
+    "params_for_query": [
+      "game",
+      "currency",
+      "region"
+    ],
+    "queries": [
+      {
+        "query": "Can you check the price of Fortnite on the Epic platform in USD for the US region?",
+        "filled_param": {
+          "game": "Fortnite",
+          "currency": "USD",
+          "region": "US"
+        }
+      },
+      {
+        "query": "What's the current price of Cyberpunk 2077 in EUR for players in the EU region on Epic?",
+        "filled_param": {
+          "game": "Cyberpunk 2077",
+          "currency": "EUR",
+          "region": "EU"
+        }
+      },
+      {
+        "query": "Find the cost of Red Dead Redemption 2 on Epic for the Japanese market, priced in JPY.",
+        "filled_param": {
+          "game": "Red Dead Redemption 2",
+          "currency": "JPY",
+          "region": "JP"
+        }
+      },
+      {
+        "query": "How much is Assassin's Creed Valhalla on Epic in GBP for the UK region?",
+        "filled_param": {
+          "game": "Assassin's Creed Valhalla",
+          "currency": "GBP",
+          "region": "UK"
+        }
+      },
+      {
+        "query": "Check the price for The Witcher 3: Wild Hunt in AUD for Australia on the Epic store.",
+        "filled_param": {
+          "game": "The Witcher 3: Wild Hunt",
+          "currency": "AUD",
+          "region": "AU"
+        }
+      },
+      {
+        "query": "Please provide the current price of GTA V in INR for customers in India on Epic.",
+        "filled_param": {
+          "game": "GTA V",
+          "currency": "INR",
+          "region": "IN"
+        }
+      },
+      {
+        "query": "Tell me the price of Borderlands 3 in CAD for the Canada region on the Epic platform.",
+        "filled_param": {
+          "game": "Borderlands 3",
+          "currency": "CAD",
+          "region": "CA"
+        }
+      }
+    ]
+  },
+  "games.price.find|:|GOG|:|game,currency,region": {
+    "tool_template_name": "games.price.find",
+    "derived_class": "GOG",
+    "params_for_query": [
+      "game",
+      "currency",
+      "region"
+    ],
+    "queries": [
+      {
+        "query": "What is the current price of 'Cyberpunk 2077' on GOG in USD for the US region?",
+        "filled_param": {
+          "game": "Cyberpunk 2077",
+          "currency": "USD",
+          "region": "US"
+        }
+      },
+      {
+        "query": "How much does 'The Witcher 3: Wild Hunt' cost on the GOG platform in EUR for the EU area?",
+        "filled_param": {
+          "game": "The Witcher 3: Wild Hunt",
+          "currency": "EUR",
+          "region": "EU"
+        }
+      },
+      {
+        "query": "Can you find out the price of 'Divinity: Original Sin 2' on GOG in JPY for Japan?",
+        "filled_param": {
+          "game": "Divinity: Original Sin 2",
+          "currency": "JPY",
+          "region": "JP"
+        }
+      },
+      {
+        "query": "I'd like to know the GOG price for 'Hollow Knight' in British pounds for the UK region.",
+        "filled_param": {
+          "game": "Hollow Knight",
+          "currency": "GBP",
+          "region": "UK"
+        }
+      },
+      {
+        "query": "Tell me the cost of 'Stardew Valley' on the GOG store in CAD for Canada.",
+        "filled_param": {
+          "game": "Stardew Valley",
+          "currency": "CAD",
+          "region": "CA"
+        }
+      },
+      {
+        "query": "What is 'Baldur's Gate 3' selling for on GOG in AUD for the Australian market?",
+        "filled_param": {
+          "game": "Baldur's Gate 3",
+          "currency": "AUD",
+          "region": "AU"
+        }
+      },
+      {
+        "query": "Could you tell me the GOG price for 'No Man's Sky' in INR for India?",
+        "filled_param": {
+          "game": "No Man's Sky",
+          "currency": "INR",
+          "region": "IN"
+        }
+      }
+    ]
+  },
+  "games.price.find|:|Xbox|:|game,currency,region": {
+    "tool_template_name": "games.price.find",
+    "derived_class": "Xbox",
+    "params_for_query": [
+      "game",
+      "currency",
+      "region"
+    ],
+    "queries": [
+      {
+        "query": "What is the current price of 'Halo Infinite' on Xbox in USD for the US region?",
+        "filled_param": {
+          "game": "Halo Infinite",
+          "currency": "USD",
+          "region": "US"
+        }
+      },
+      {
+        "query": "Can you check how much 'Forza Horizon 5' costs on the Xbox platform in EUR for Europe?",
+        "filled_param": {
+          "game": "Forza Horizon 5",
+          "currency": "EUR",
+          "region": "EU"
+        }
+      },
+      {
+        "query": "I need to know the price of 'FIFA 23' in JPY for Japan on Xbox.",
+        "filled_param": {
+          "game": "FIFA 23",
+          "currency": "JPY",
+          "region": "JP"
+        }
+      },
+      {
+        "query": "Could you find the Xbox price for 'The Witcher 3' in USD within the US market?",
+        "filled_param": {
+          "game": "The Witcher 3",
+          "currency": "USD",
+          "region": "US"
+        }
+      },
+      {
+        "query": "Please tell me the current Xbox price of 'Cyberpunk 2077' in GBP for the UK region.",
+        "filled_param": {
+          "game": "Cyberpunk 2077",
+          "currency": "GBP",
+          "region": "UK"
+        }
+      },
+      {
+        "query": "How much does 'Assassin's Creed Valhalla' cost on Xbox, in AUD, for the Australian region?",
+        "filled_param": {
+          "game": "Assassin's Creed Valhalla",
+          "currency": "AUD",
+          "region": "AU"
+        }
+      },
+      {
+        "query": "Can you find out the price of 'Call of Duty: Modern Warfare' on the Xbox platform in CAD for Canada?",
+        "filled_param": {
+          "game": "Call of Duty: Modern Warfare",
+          "currency": "CAD",
+          "region": "CA"
+        }
+      }
+    ]
+  },
+  "games.price.find|:|PlayStation|:|game,currency,region": {
+    "tool_template_name": "games.price.find",
+    "derived_class": "PlayStation",
+    "params_for_query": [
+      "game",
+      "currency",
+      "region"
+    ],
+    "queries": [
+      {
+        "query": "What is the price of the PlayStation game 'The Last of Us Part II' in USD for the US region?",
+        "filled_param": {
+          "game": "The Last of Us Part II",
+          "currency": "USD",
+          "region": "US"
+        }
+      },
+      {
+        "query": "Can you tell me the current cost of 'Ghost of Tsushima' on PlayStation in EUR for Europe?",
+        "filled_param": {
+          "game": "Ghost of Tsushima",
+          "currency": "EUR",
+          "region": "EU"
+        }
+      },
+      {
+        "query": "I'd like to know the PlayStation price of 'God of War' in JPY for Japan.",
+        "filled_param": {
+          "game": "God of War",
+          "currency": "JPY",
+          "region": "JP"
+        }
+      },
+      {
+        "query": "How much is the PlayStation game 'Spider-Man: Miles Morales' in GBP for the UK region?",
+        "filled_param": {
+          "game": "Spider-Man: Miles Morales",
+          "currency": "GBP",
+          "region": "UK"
+        }
+      },
+      {
+        "query": "Find out the price for 'Horizon Forbidden West' on PlayStation in CAD for Canada.",
+        "filled_param": {
+          "game": "Horizon Forbidden West",
+          "currency": "CAD",
+          "region": "CA"
+        }
+      },
+      {
+        "query": "What's the PlayStation price of 'Ratchet & Clank: Rift Apart' in AUD for Australia?",
+        "filled_param": {
+          "game": "Ratchet & Clank: Rift Apart",
+          "currency": "AUD",
+          "region": "AU"
+        }
+      },
+      {
+        "query": "Check the price of 'Demon's Souls' on PlayStation in EUR for the German region.",
+        "filled_param": {
+          "game": "Demon's Souls",
+          "currency": "EUR",
+          "region": "DE"
+        }
+      }
+    ]
+  },
+  "games.price.find|:|Nintendo|:|game,currency,region": {
+    "tool_template_name": "games.price.find",
+    "derived_class": "Nintendo",
+    "params_for_query": [
+      "game",
+      "currency",
+      "region"
+    ],
+    "queries": [
+      {
+        "query": "What's the current price of 'The Legend of Zelda: Breath of the Wild' in USD for the US region on Nintendo?",
+        "filled_param": {
+          "game": "The Legend of Zelda: Breath of the Wild",
+          "currency": "USD",
+          "region": "US"
+        }
+      },
+      {
+        "query": "Can you tell me how much 'Animal Crossing: New Horizons' costs in EUR for the EU region on Nintendo?",
+        "filled_param": {
+          "game": "Animal Crossing: New Horizons",
+          "currency": "EUR",
+          "region": "EU"
+        }
+      },
+      {
+        "query": "Find the price of 'Super Smash Bros. Ultimate' in JPY in the JP region on Nintendo.",
+        "filled_param": {
+          "game": "Super Smash Bros. Ultimate",
+          "currency": "JPY",
+          "region": "JP"
+        }
+      },
+      {
+        "query": "I need to know the current price for 'Mario Kart 8 Deluxe' in GBP for the UK region on Nintendo.",
+        "filled_param": {
+          "game": "Mario Kart 8 Deluxe",
+          "currency": "GBP",
+          "region": "UK"
+        }
+      },
+      {
+        "query": "How much is 'Splatoon 3' in CAD for the CA region on Nintendo?",
+        "filled_param": {
+          "game": "Splatoon 3",
+          "currency": "CAD",
+          "region": "CA"
+        }
+      },
+      {
+        "query": "Check the price of 'Metroid Dread' in AUD for the AU region on Nintendo.",
+        "filled_param": {
+          "game": "Metroid Dread",
+          "currency": "AUD",
+          "region": "AU"
+        }
+      },
+      {
+        "query": "What's the price for 'Pokémon Sword' in CHF for the CH region on Nintendo?",
+        "filled_param": {
+          "game": "Pokémon Sword",
+          "currency": "CHF",
+          "region": "CH"
+        }
+      }
+    ]
+  }
+}

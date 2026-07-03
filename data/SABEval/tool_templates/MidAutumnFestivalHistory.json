@@ -1,0 +1,59 @@
+{
+  "tool_template_name": "MidAutumnFestivalHistory",
+  "meta_data": {
+    "base_class": "Retrieve detailed historical information about a <specific holiday>- suitable for querying various cultural celebrations or anniversaries that have historical origins and a specific time range.",
+    "derived_classes": [
+      "Spring Festival",
+      "Dragon Boat Festival",
+      "Christmas",
+      "Thanksgiving",
+      "Halloween",
+      "Easter",
+      "Diwali",
+      "Valentine's Day",
+      "Songkran Festival",
+      "Qingming Festival"
+    ],
+    "base_class_entity": "Mid-Autumn Festival"
+  },
+  "tool_template": {
+    "name": "retrieve_<class>_history",
+    "description": "Retrieve detailed historical information about the <class>.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "year_range": {
+          "type": "string",
+          "description": "The range of years for which to retrieve historical information about the <class>. Format should be 'YYYY-YYYY'."
+        }
+      },
+      "required": [
+        "year_range"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "language": {
+      "type": "string",
+      "description": "The language in which the information should be provided."
+    }
+  },
+  "additional_params": {
+    "include_cultural_significance": {
+      "type": "boolean",
+      "description": "Whether to include cultural significance and traditions associated with the <class>."
+    },
+    "details_level": {
+      "type": "string",
+      "description": "The level of detail required in the historical information about the <class>. Can be 'summary' or 'detailed'."
+    },
+    "region_specific_information": {
+      "type": "boolean",
+      "description": "Whether to include region-specific historical information about the <class>."
+    },
+    "historical_figures": {
+      "type": "boolean",
+      "description": "Whether to include information about historical figures associated with the <class>."
+    }
+  }
+}

@@ -1,0 +1,563 @@
+{
+  "whole_foods.find_top_brands|:|Whole Foods|:|product,number,organic,region,price_range": {
+    "tool_template_name": "whole_foods.find_top_brands",
+    "derived_class": "Whole Foods",
+    "params_for_query": [
+      "product",
+      "number",
+      "organic",
+      "region",
+      "price_range"
+    ],
+    "queries": [
+      {
+        "query": "Can you list the top 5 organic brands of coffee in Whole Foods in the Southwest region that are priced between $10-$20?",
+        "filled_param": {
+          "product": "coffee",
+          "number": 5,
+          "organic": true,
+          "region": "Southwest",
+          "price_range": "$10-$20"
+        }
+      },
+      {
+        "query": "I need the top 3 non-organic brands of almond milk available in Whole Foods in the Northeast, priced from $3 to $7.",
+        "filled_param": {
+          "product": "almond milk",
+          "number": 3,
+          "organic": false,
+          "region": "Northeast",
+          "price_range": "$3-$7"
+        }
+      },
+      {
+        "query": "Please provide the top 10 organic cereal brands in Whole Foods within the Midwest region that cost between $4-$8.",
+        "filled_param": {
+          "product": "cereal",
+          "number": 10,
+          "organic": true,
+          "region": "Midwest",
+          "price_range": "$4-$8"
+        }
+      },
+      {
+        "query": "What are the top 8 brands of non-organic pasta in Whole Foods in the Southeast region with a price range of $2-$5?",
+        "filled_param": {
+          "product": "pasta",
+          "number": 8,
+          "organic": false,
+          "region": "Southeast",
+          "price_range": "$2-$5"
+        }
+      },
+      {
+        "query": "Find the top 6 organic cheese brands at Whole Foods in the West region that are priced between $5-$15.",
+        "filled_param": {
+          "product": "cheese",
+          "number": 6,
+          "organic": true,
+          "region": "West",
+          "price_range": "$5-$15"
+        }
+      },
+      {
+        "query": "Could you give me the top 4 brands of non-organic chocolate in Whole Foods in the Northern region with prices ranging from $2-$10?",
+        "filled_param": {
+          "product": "chocolate",
+          "number": 4,
+          "organic": false,
+          "region": "Northern",
+          "price_range": "$2-$10"
+        }
+      },
+      {
+        "query": "List the top 7 organic yogurt brands in Whole Foods in the Southern region available for $6-$12.",
+        "filled_param": {
+          "product": "yogurt",
+          "number": 7,
+          "organic": true,
+          "region": "Southern",
+          "price_range": "$6-$12"
+        }
+      }
+    ]
+  },
+  "whole_foods.find_top_brands|:|Walmart|:|product,number,organic,region,price_range": {
+    "tool_template_name": "whole_foods.find_top_brands",
+    "derived_class": "Walmart",
+    "params_for_query": [
+      "product",
+      "number",
+      "organic",
+      "region",
+      "price_range"
+    ],
+    "queries": [
+      {
+        "query": "Can you list the top 5 organic brands of olive oil available in Walmart in the Midwest region, with a price range of $10-$30?",
+        "filled_param": {
+          "product": "olive oil",
+          "number": 5,
+          "organic": true,
+          "region": "Midwest",
+          "price_range": "10-30"
+        }
+      },
+      {
+        "query": "I need the top 3 non-organic brands of coffee that Walmart offers in the Northeast region, priced between $5 and $20.",
+        "filled_param": {
+          "product": "coffee",
+          "number": 3,
+          "organic": false,
+          "region": "Northeast",
+          "price_range": "5-20"
+        }
+      },
+      {
+        "query": "Find the top 10 organic cereal brands at Walmart in California, with prices ranging from $2 to $10.",
+        "filled_param": {
+          "product": "cereal",
+          "number": 10,
+          "organic": true,
+          "region": "California",
+          "price_range": "2-10"
+        }
+      },
+      {
+        "query": "What are the top 6 non-organic brands of bottled water available at Walmart in Florida, within the price range of $1-$5?",
+        "filled_param": {
+          "product": "bottled water",
+          "number": 6,
+          "organic": false,
+          "region": "Florida",
+          "price_range": "1-5"
+        }
+      },
+      {
+        "query": "Can you provide the top 4 organic brands of rice at Walmart in the Pacific Northwest, with a price range from $3 to $15?",
+        "filled_param": {
+          "product": "rice",
+          "number": 4,
+          "organic": true,
+          "region": "Pacific Northwest",
+          "price_range": "3-15"
+        }
+      },
+      {
+        "query": "Show me the top 7 non-organic brands of toothpaste sold in Walmart in Texas, priced between $2 and $8.",
+        "filled_param": {
+          "product": "toothpaste",
+          "number": 7,
+          "organic": false,
+          "region": "Texas",
+          "price_range": "2-8"
+        }
+      },
+      {
+        "query": "List the top 8 organic brands of applesauce at Walmart in the Southeast region, with prices ranging from $4 to $12.",
+        "filled_param": {
+          "product": "applesauce",
+          "number": 8,
+          "organic": true,
+          "region": "Southeast",
+          "price_range": "4-12"
+        }
+      }
+    ]
+  },
+  "whole_foods.find_top_brands|:|Costco|:|product,number,organic,region,price_range": {
+    "tool_template_name": "whole_foods.find_top_brands",
+    "derived_class": "Costco",
+    "params_for_query": [
+      "product",
+      "number",
+      "organic",
+      "region",
+      "price_range"
+    ],
+    "queries": [
+      {
+        "query": "Can you list the top 3 organic brands of olive oil available in Costco stores in California, priced between 10-20 dollars?",
+        "filled_param": {
+          "product": "olive oil",
+          "number": 3,
+          "organic": true,
+          "region": "California",
+          "price_range": "10-20"
+        }
+      },
+      {
+        "query": "I'm looking for the top 5 brands of organic honey in Costco locations around New York, with a price range of 15-25 dollars.",
+        "filled_param": {
+          "product": "honey",
+          "number": 5,
+          "organic": true,
+          "region": "New York",
+          "price_range": "15-25"
+        }
+      },
+      {
+        "query": "Please provide the top 2 non-organic brands of coffee available in Costco within Texas, under the price range of 5-15 dollars.",
+        "filled_param": {
+          "product": "coffee",
+          "number": 2,
+          "organic": false,
+          "region": "Texas",
+          "price_range": "5-15"
+        }
+      },
+      {
+        "query": "What are the top 4 organic brands of peanut butter at Costco in Florida, priced between 8-18 dollars?",
+        "filled_param": {
+          "product": "peanut butter",
+          "number": 4,
+          "organic": true,
+          "region": "Florida",
+          "price_range": "8-18"
+        }
+      },
+      {
+        "query": "Find me the top 6 brands of non-organic almond milk in Costco stores in Washington, with a price range of 3-10 dollars.",
+        "filled_param": {
+          "product": "almond milk",
+          "number": 6,
+          "organic": false,
+          "region": "Washington",
+          "price_range": "3-10"
+        }
+      },
+      {
+        "query": "Can you identify the top brand of organic strawberries in Costco around Illinois, costing between 4-9 dollars?",
+        "filled_param": {
+          "product": "strawberries",
+          "number": 1,
+          "organic": true,
+          "region": "Illinois",
+          "price_range": "4-9"
+        }
+      },
+      {
+        "query": "I'm interested in knowing the top 3 brands of non-organic cheese at Costco in Nevada, priced within 6-14 dollars.",
+        "filled_param": {
+          "product": "cheese",
+          "number": 3,
+          "organic": false,
+          "region": "Nevada",
+          "price_range": "6-14"
+        }
+      }
+    ]
+  },
+  "whole_foods.find_top_brands|:|Amazon Fresh|:|product,number,organic,region,price_range": {
+    "tool_template_name": "whole_foods.find_top_brands",
+    "derived_class": "Amazon Fresh",
+    "params_for_query": [
+      "product",
+      "number",
+      "organic",
+      "region",
+      "price_range"
+    ],
+    "queries": [
+      {
+        "query": "Can you find the top 3 brands of organic bananas available in the Amazon Fresh store in New York, priced between $1-$5?",
+        "filled_param": {
+          "product": "bananas",
+          "number": 3,
+          "organic": true,
+          "region": "New York",
+          "price_range": "1-5"
+        }
+      },
+      {
+        "query": "I need a list of the 5 leading brands of non-organic coffee beans on Amazon Fresh in California, with a price range of $10-$20.",
+        "filled_param": {
+          "product": "coffee beans",
+          "number": 5,
+          "organic": false,
+          "region": "California",
+          "price_range": "10-20"
+        }
+      },
+      {
+        "query": "What are the top 2 organic milk brands on Amazon Fresh for the Texas region, within the price range of $2-$6?",
+        "filled_param": {
+          "product": "milk",
+          "number": 2,
+          "organic": true,
+          "region": "Texas",
+          "price_range": "2-6"
+        }
+      },
+      {
+        "query": "Show me the top 4 brands of non-organic eggs available on Amazon Fresh in Florida, costing between $3 and $8.",
+        "filled_param": {
+          "product": "eggs",
+          "number": 4,
+          "organic": false,
+          "region": "Florida",
+          "price_range": "3-8"
+        }
+      },
+      {
+        "query": "Find the best 6 brands of organic chicken in the Amazon Fresh store in Illinois, with prices ranging from $5 to $15.",
+        "filled_param": {
+          "product": "chicken",
+          "number": 6,
+          "organic": true,
+          "region": "Illinois",
+          "price_range": "5-15"
+        }
+      },
+      {
+        "query": "Please list the top 3 non-organic rice brands available on Amazon Fresh in Washington, priced between $4-$10.",
+        "filled_param": {
+          "product": "rice",
+          "number": 3,
+          "organic": false,
+          "region": "Washington",
+          "price_range": "4-10"
+        }
+      }
+    ]
+  },
+  "whole_foods.find_top_brands|:|Target|:|product,number,organic,region,price_range": {
+    "tool_template_name": "whole_foods.find_top_brands",
+    "derived_class": "Target",
+    "params_for_query": [
+      "product",
+      "number",
+      "organic",
+      "region",
+      "price_range"
+    ],
+    "queries": [
+      {
+        "query": "List the top 3 organic coffee brands available in Target stores in California, priced between 10-20 dollars.",
+        "filled_param": {
+          "product": "coffee",
+          "number": 3,
+          "organic": true,
+          "region": "California",
+          "price_range": "10-20"
+        }
+      },
+      {
+        "query": "What are the top 5 organic cereal brands sold in Target in Texas within the price range of 5-15 dollars?",
+        "filled_param": {
+          "product": "cereal",
+          "number": 5,
+          "organic": true,
+          "region": "Texas",
+          "price_range": "5-15"
+        }
+      },
+      {
+        "query": "Could you give me the top 2 organic shampoo brands from Target in New York, priced between 15-30 dollars?",
+        "filled_param": {
+          "product": "shampoo",
+          "number": 2,
+          "organic": true,
+          "region": "New York",
+          "price_range": "15-30"
+        }
+      },
+      {
+        "query": "Find the top 4 brands of organic baby food in Target stores located in Florida, with prices ranging from 8-12 dollars.",
+        "filled_param": {
+          "product": "baby food",
+          "number": 4,
+          "organic": true,
+          "region": "Florida",
+          "price_range": "8-12"
+        }
+      },
+      {
+        "query": "Requesting the top 6 organic olive oil brands at Target outlets in Illinois, with a price range of 10-25 dollars.",
+        "filled_param": {
+          "product": "olive oil",
+          "number": 6,
+          "organic": true,
+          "region": "Illinois",
+          "price_range": "10-25"
+        }
+      },
+      {
+        "query": "Can you tell me the top 5 organic cheese brands available in Target stores in Washington, within the range of 5-20 dollars?",
+        "filled_param": {
+          "product": "cheese",
+          "number": 5,
+          "organic": true,
+          "region": "Washington",
+          "price_range": "5-20"
+        }
+      },
+      {
+        "query": "Find out the top 3 organic tea brands being sold in Target in Nevada priced between 7-18 dollars.",
+        "filled_param": {
+          "product": "tea",
+          "number": 3,
+          "organic": true,
+          "region": "Nevada",
+          "price_range": "7-18"
+        }
+      }
+    ]
+  },
+  "whole_foods.find_top_brands|:|Carrefour|:|product,number,organic,region,price_range": {
+    "tool_template_name": "whole_foods.find_top_brands",
+    "derived_class": "Carrefour",
+    "params_for_query": [
+      "product",
+      "number",
+      "organic",
+      "region",
+      "price_range"
+    ],
+    "queries": [
+      {
+        "query": "Could you list the top 3 organic baby formula brands available in the Carrefour stores of Paris, priced between 20-40 euros?",
+        "filled_param": {
+          "product": "baby formula",
+          "number": 3,
+          "organic": true,
+          "region": "Paris",
+          "price_range": "20-40"
+        }
+      },
+      {
+        "query": "I need to find the top 5 non-organic cereal brands in Carrefour stores around Berlin within the price range of 5-15 euros.",
+        "filled_param": {
+          "product": "cereal",
+          "number": 5,
+          "organic": false,
+          "region": "Berlin",
+          "price_range": "5-15"
+        }
+      },
+      {
+        "query": "What are the top 2 brands of organic olive oil available in Carrefour stores in Madrid, costing between 10-30 euros?",
+        "filled_param": {
+          "product": "olive oil",
+          "number": 2,
+          "organic": true,
+          "region": "Madrid",
+          "price_range": "10-30"
+        }
+      },
+      {
+        "query": "Can you help me find the top 6 organic juice brands sold in Carrefour outlets in Rome, priced from 3 to 15 euros?",
+        "filled_param": {
+          "product": "juice",
+          "number": 6,
+          "organic": true,
+          "region": "Rome",
+          "price_range": "3-15"
+        }
+      },
+      {
+        "query": "Please provide the top 4 non-organic chocolate brands in Carrefour locations in London with a price range of 2-10 pounds.",
+        "filled_param": {
+          "product": "chocolate",
+          "number": 4,
+          "organic": false,
+          "region": "London",
+          "price_range": "2-10"
+        }
+      },
+      {
+        "query": "I'd like to know the top 7 organic coffee brands available in Carrefour stores in Brussels, within the price range of 8-25 euros.",
+        "filled_param": {
+          "product": "coffee",
+          "number": 7,
+          "organic": true,
+          "region": "Brussels",
+          "price_range": "8-25"
+        }
+      }
+    ]
+  },
+  "whole_foods.find_top_brands|:|Sam's Club|:|product,number,organic,region,price_range": {
+    "tool_template_name": "whole_foods.find_top_brands",
+    "derived_class": "Sam's Club",
+    "params_for_query": [
+      "product",
+      "number",
+      "organic",
+      "region",
+      "price_range"
+    ],
+    "queries": [
+      {
+        "query": "Can you find the top 5 organic coffee brands in Sam's Club located in Texas, priced between $10-$20?",
+        "filled_param": {
+          "product": "coffee",
+          "number": 5,
+          "organic": true,
+          "region": "Texas",
+          "price_range": "10-20"
+        }
+      },
+      {
+        "query": "What are the top 7 brands of non-organic olive oil available at Sam's Club in the California region, with prices ranging from $15 to $30?",
+        "filled_param": {
+          "product": "olive oil",
+          "number": 7,
+          "organic": false,
+          "region": "California",
+          "price_range": "15-30"
+        }
+      },
+      {
+        "query": "List the top 3 organic almond milk brands at Sam's Club in New York, within the price range of $5-$15.",
+        "filled_param": {
+          "product": "almond milk",
+          "number": 3,
+          "organic": true,
+          "region": "New York",
+          "price_range": "5-15"
+        }
+      },
+      {
+        "query": "I need a list of the top 10 non-organic chocolate brands found in Sam's Club stores in Florida, priced between $8 and $25.",
+        "filled_param": {
+          "product": "chocolate",
+          "number": 10,
+          "organic": false,
+          "region": "Florida",
+          "price_range": "8-25"
+        }
+      },
+      {
+        "query": "Could you provide the top 4 organic cereal brands available at Sam's Club in Illinois with a price range of $3-$10?",
+        "filled_param": {
+          "product": "cereal",
+          "number": 4,
+          "organic": true,
+          "region": "Illinois",
+          "price_range": "3-10"
+        }
+      },
+      {
+        "query": "Find the top 6 brands of non-organic peanut butter in Sam's Club located in Nevada, with prices ranging from $4 to $12.",
+        "filled_param": {
+          "product": "peanut butter",
+          "number": 6,
+          "organic": false,
+          "region": "Nevada",
+          "price_range": "4-12"
+        }
+      },
+      {
+        "query": "What are the top 2 organic cheese brands at Sam's Club in Washington state, priced between $7 and $20?",
+        "filled_param": {
+          "product": "cheese",
+          "number": 2,
+          "organic": true,
+          "region": "Washington",
+          "price_range": "7-20"
+        }
+      }
+    ]
+  }
+}

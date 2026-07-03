@@ -1,0 +1,639 @@
+{
+  "museum_working_hours.get|:|museum|:|venue,location,day,season,show_break_times,include_partial_closures": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "museum",
+    "params_for_query": [
+      "venue",
+      "location",
+      "day",
+      "season",
+      "show_break_times",
+      "include_partial_closures"
+    ],
+    "queries": [
+      {
+        "query": "Could you tell me the working hours of the Louvre Museum in Paris on Saturday during the summer, including any break times and partial closures?",
+        "filled_param": {
+          "venue": "Louvre Museum",
+          "location": "Paris",
+          "day": "Saturday",
+          "season": "summer",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "What's the schedule for the Museum of Modern Art in New York City this coming Tuesday in the winter? Please include break times and partial closures.",
+        "filled_param": {
+          "venue": "Museum of Modern Art",
+          "location": "New York City",
+          "day": "Tuesday",
+          "season": "winter",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "I need the opening hours for the British Museum in London on Friday during the fall, including information on any breaks and partial closures.",
+        "filled_param": {
+          "venue": "British Museum",
+          "location": "London",
+          "day": "Friday",
+          "season": "fall",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "Can you provide the working hours for the Uffizi Gallery in Florence on a Wednesday in spring, with details on any mid-day closures or partial area closures?",
+        "filled_param": {
+          "venue": "Uffizi Gallery",
+          "location": "Florence",
+          "day": "Wednesday",
+          "season": "spring",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "What are the operating hours of the Getty Center in Los Angeles on Sunday in the summer, and do they include break times and information on partial closures?",
+        "filled_param": {
+          "venue": "Getty Center",
+          "location": "Los Angeles",
+          "day": "Sunday",
+          "season": "summer",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "Please give me the opening and break times for the Hermitage Museum in Saint Petersburg this Monday during the winter, including any partial closures.",
+        "filled_param": {
+          "venue": "Hermitage Museum",
+          "location": "Saint Petersburg",
+          "day": "Monday",
+          "season": "winter",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "I want to know the visiting hours for the Vatican Museums in Vatican City on Thursday in the spring, along with midday breaks and partial closure details.",
+        "filled_param": {
+          "venue": "Vatican Museums",
+          "location": "Vatican City",
+          "day": "Thursday",
+          "season": "spring",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|art gallery|:|venue,location,day,season,show_break_times,include_partial_closures": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "art gallery",
+    "params_for_query": [
+      "venue",
+      "location",
+      "day",
+      "season",
+      "show_break_times",
+      "include_partial_closures"
+    ],
+    "queries": [
+      {
+        "query": "Can you tell me the working hours for the Tate Modern art gallery in London on a Saturday during summer, and include any break times and partial closures?",
+        "filled_param": {
+          "venue": "Tate Modern",
+          "location": "London",
+          "day": "Saturday",
+          "season": "summer",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "What are the operating hours for the Louvre art gallery in Paris on Wednesdays in the winter? Please include any midday breaks and partial area closures.",
+        "filled_param": {
+          "venue": "Louvre",
+          "location": "Paris",
+          "day": "Wednesday",
+          "season": "winter",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "I need the hours for the Van Gogh Museum art gallery in Amsterdam on a Tuesday in spring, including break times and any partial closures.",
+        "filled_param": {
+          "venue": "Van Gogh Museum",
+          "location": "Amsterdam",
+          "day": "Tuesday",
+          "season": "spring",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "Could you provide the opening hours for the Guggenheim art gallery in New York on a Sunday during autumn with details on break times and sections that might be closed?",
+        "filled_param": {
+          "venue": "Guggenheim",
+          "location": "New York",
+          "day": "Sunday",
+          "season": "autumn",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "Tell me the working hours of the Art Institute of Chicago art gallery on a Friday in winter, and include whether there are any break times or areas with limited access.",
+        "filled_param": {
+          "venue": "Art Institute of Chicago",
+          "location": "Chicago",
+          "day": "Friday",
+          "season": "winter",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "What are the opening and closing times for the Uffizi Gallery art gallery in Florence on a Monday in summer, including any midday breaks and partial closures?",
+        "filled_param": {
+          "venue": "Uffizi Gallery",
+          "location": "Florence",
+          "day": "Monday",
+          "season": "summer",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "Give me the hours of operation for the Prado Museum art gallery in Madrid on a Thursday in autumn, specifying any break periods and partial closures.",
+        "filled_param": {
+          "venue": "Prado Museum",
+          "location": "Madrid",
+          "day": "Thursday",
+          "season": "autumn",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|library|:|venue,location,day,season,show_break_times,include_partial_closures": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "library",
+    "params_for_query": [
+      "venue",
+      "location",
+      "day",
+      "season",
+      "show_break_times",
+      "include_partial_closures"
+    ],
+    "queries": [
+      {
+        "query": "What are the working hours of the library located at Central Park, New York, on Monday during winter? Please include break times and partial closures information.",
+        "filled_param": {
+          "venue": "Central Park Library",
+          "location": "New York",
+          "day": "Monday",
+          "season": "winter",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "I need to know the schedule for the City Library in San Francisco for Friday in the summer, including any midday closures and partial area closures.",
+        "filled_param": {
+          "venue": "City Library",
+          "location": "San Francisco",
+          "day": "Friday",
+          "season": "summer",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "Can you tell me the opening hours of the library at University Avenue, Toronto, on Saturday in the fall? Ensure to provide break times and if any areas are partially closed.",
+        "filled_param": {
+          "venue": "University Avenue Library",
+          "location": "Toronto",
+          "day": "Saturday",
+          "season": "fall",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "Let me know the available hours for the library in Baker Street, London, on Wednesday for the spring season, including any break periods and partial closures.",
+        "filled_param": {
+          "venue": "Baker Street Library",
+          "location": "London",
+          "day": "Wednesday",
+          "season": "spring",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "What's the schedule for the Downtown Library in Chicago during the winter on Thursday? I need details on any breaking times and partial closures.",
+        "filled_param": {
+          "venue": "Downtown Library",
+          "location": "Chicago",
+          "day": "Thursday",
+          "season": "winter",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "Provide the operating hours of the State Library in Brisbane for Sunday in summer, including any breaks and information on partial closures.",
+        "filled_param": {
+          "venue": "State Library",
+          "location": "Brisbane",
+          "day": "Sunday",
+          "season": "summer",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "I am looking for the working hours of the library in High Street, Melbourne, on Tuesday during autumn. Please include any break times and partial closure details.",
+        "filled_param": {
+          "venue": "High Street Library",
+          "location": "Melbourne",
+          "day": "Tuesday",
+          "season": "autumn",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|zoo|:|venue,location,day,season,show_break_times,include_partial_closures": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "zoo",
+    "params_for_query": [
+      "venue",
+      "location",
+      "day",
+      "season",
+      "show_break_times",
+      "include_partial_closures"
+    ],
+    "queries": [
+      {
+        "query": "Could you tell me the working hours for the Bronx Zoo in New York on a Saturday during the summer, including any break times or partial closures?",
+        "filled_param": {
+          "venue": "Bronx Zoo",
+          "location": "New York",
+          "day": "Saturday",
+          "season": "summer",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "What are the opening hours of the London Zoo in London on Wednesdays in the winter? Please include any break times and partial closures.",
+        "filled_param": {
+          "venue": "London Zoo",
+          "location": "London",
+          "day": "Wednesday",
+          "season": "winter",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "I need the details of the Berlin Zoological Garden's operational hours on a Monday during spring, including break periods and partial closures.",
+        "filled_param": {
+          "venue": "Berlin Zoological Garden",
+          "location": "Berlin",
+          "day": "Monday",
+          "season": "spring",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "Can you provide the hours of operation for the San Diego Zoo in California for a Friday in autumn, with info on any midday breaks and partial closures?",
+        "filled_param": {
+          "venue": "San Diego Zoo",
+          "location": "California",
+          "day": "Friday",
+          "season": "autumn",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "I'm looking for the visiting hours of the Singapore Zoo on a Sunday in the rainy season. Please include details about break times and any partial closures.",
+        "filled_param": {
+          "venue": "Singapore Zoo",
+          "location": "Singapore",
+          "day": "Sunday",
+          "season": "rainy",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "Tell me the working hours for Taronga Zoo in Sydney on a Thursday during the dry season, including break times and partial closure information.",
+        "filled_param": {
+          "venue": "Taronga Zoo",
+          "location": "Sydney",
+          "day": "Thursday",
+          "season": "dry",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "What are the hours of the Beijing Zoo on Tuesday in the summer, with all break times and partial closures included?",
+        "filled_param": {
+          "venue": "Beijing Zoo",
+          "location": "Beijing",
+          "day": "Tuesday",
+          "season": "summer",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|aquarium|:|venue,location,day,season,show_break_times,include_partial_closures": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "aquarium",
+    "params_for_query": [
+      "venue",
+      "location",
+      "day",
+      "season",
+      "show_break_times",
+      "include_partial_closures"
+    ],
+    "queries": [
+      {
+        "query": "What are the working hours for the Georgia Aquarium in Atlanta on a Thursday during the summer, including any break times and partial closures?",
+        "filled_param": {
+          "venue": "Georgia Aquarium",
+          "location": "Atlanta",
+          "day": "Thursday",
+          "season": "summer",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "Can you tell me the opening and closing times for the Monterey Bay Aquarium in Monterey on a Saturday in the spring, with details on break times and partial closures?",
+        "filled_param": {
+          "venue": "Monterey Bay Aquarium",
+          "location": "Monterey",
+          "day": "Saturday",
+          "season": "spring",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "I'd like to know the working hours of the Shedd Aquarium in Chicago on a Monday in the winter, and please include any break periods and partial closures.",
+        "filled_param": {
+          "venue": "Shedd Aquarium",
+          "location": "Chicago",
+          "day": "Monday",
+          "season": "winter",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "Please provide me with the operating hours for the Vancouver Aquarium in Vancouver on a Sunday in the fall, including detailed break times and information on partial closures.",
+        "filled_param": {
+          "venue": "Vancouver Aquarium",
+          "location": "Vancouver",
+          "day": "Sunday",
+          "season": "fall",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "Could you give me the working hours of the Sydney Aquarium in Sydney on a Tuesday during the autumn season, with details on break times and any partial closures?",
+        "filled_param": {
+          "venue": "Sydney Aquarium",
+          "location": "Sydney",
+          "day": "Tuesday",
+          "season": "autumn",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "Find out the open hours for the Lisbon Oceanarium in Lisbon on a Wednesday in the summer, making sure to include any break periods and partial closures.",
+        "filled_param": {
+          "venue": "Lisbon Oceanarium",
+          "location": "Lisbon",
+          "day": "Wednesday",
+          "season": "summer",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "Can you provide the schedule for the Osaka Aquarium Kaiyukan in Osaka on a Friday during the winter months, including all break times and partial closures?",
+        "filled_param": {
+          "venue": "Osaka Aquarium Kaiyukan",
+          "location": "Osaka",
+          "day": "Friday",
+          "season": "winter",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|botanical garden|:|venue,location,day,season,show_break_times,include_partial_closures": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "botanical garden",
+    "params_for_query": [
+      "venue",
+      "location",
+      "day",
+      "season",
+      "show_break_times",
+      "include_partial_closures"
+    ],
+    "queries": [
+      {
+        "query": "What are the working hours for Brooklyn Botanical Garden in New York on Tuesday during the summer, and do they have any break times or partial closures?",
+        "filled_param": {
+          "venue": "Brooklyn Botanical Garden",
+          "location": "New York",
+          "day": "Tuesday",
+          "season": "summer",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "Can you provide the opening hours for the Royal Botanical Gardens in Burlington on Saturday in winter? Please include any midday breaks and partial closures.",
+        "filled_param": {
+          "venue": "Royal Botanical Gardens",
+          "location": "Burlington",
+          "day": "Saturday",
+          "season": "winter",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "I need to know the operational hours of the Singapore Botanic Gardens on Thursday during autumn, including break periods and partial closures.",
+        "filled_param": {
+          "venue": "Singapore Botanic Gardens",
+          "location": "Singapore",
+          "day": "Thursday",
+          "season": "autumn",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "What are the visiting hours for Kew Gardens in London on Sunday in spring, and do they have any break times or areas that might be partially closed?",
+        "filled_param": {
+          "venue": "Kew Gardens",
+          "location": "London",
+          "day": "Sunday",
+          "season": "spring",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "Please tell me the hours for the Denver Botanic Gardens in Colorado on Friday this summer, along with any midday breaks and information on partial closures.",
+        "filled_param": {
+          "venue": "Denver Botanic Gardens",
+          "location": "Colorado",
+          "day": "Friday",
+          "season": "summer",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "Could you give me the schedule for the Montreal Botanical Garden on Monday in the fall including break times and any partial closures?",
+        "filled_param": {
+          "venue": "Montreal Botanical Garden",
+          "location": "Montreal",
+          "day": "Monday",
+          "season": "fall",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "I'd like to know the business hours of the San Francisco Botanical Garden on Wednesday during the spring season, including any break times and partial closures.",
+        "filled_param": {
+          "venue": "San Francisco Botanical Garden",
+          "location": "San Francisco",
+          "day": "Wednesday",
+          "season": "spring",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      }
+    ]
+  },
+  "museum_working_hours.get|:|amusement park|:|venue,location,day,season,show_break_times,include_partial_closures": {
+    "tool_template_name": "museum_working_hours.get",
+    "derived_class": "amusement park",
+    "params_for_query": [
+      "venue",
+      "location",
+      "day",
+      "season",
+      "show_break_times",
+      "include_partial_closures"
+    ],
+    "queries": [
+      {
+        "query": "What are the opening hours for Disneyland in California on Wednesday during summer, including any break times and details on partial closures?",
+        "filled_param": {
+          "venue": "Disneyland",
+          "location": "California",
+          "day": "Wednesday",
+          "season": "summer",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "Can you provide the working hours for Universal Studios in Florida on Saturday in winter? Please include any midday breaks and partial closures.",
+        "filled_param": {
+          "venue": "Universal Studios",
+          "location": "Florida",
+          "day": "Saturday",
+          "season": "winter",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "I need to know the operational hours for Europa-Park in Germany on Monday during spring, along with any break periods and section closures.",
+        "filled_param": {
+          "venue": "Europa-Park",
+          "location": "Germany",
+          "day": "Monday",
+          "season": "spring",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "What's the schedule for Lotte World in Seoul on a Friday in autumn, including any break times and if there are partial closures?",
+        "filled_param": {
+          "venue": "Lotte World",
+          "location": "Seoul",
+          "day": "Friday",
+          "season": "autumn",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "Tell me the working hours for Canada's Wonderland in Toronto on a Sunday in summer, including midday breaks and information on any partial closures.",
+        "filled_param": {
+          "venue": "Canada's Wonderland",
+          "location": "Toronto",
+          "day": "Sunday",
+          "season": "summer",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "Could you list the opening times for Tivoli Gardens in Copenhagen on a Thursday during winter, including any break periods and partial closures?",
+        "filled_param": {
+          "venue": "Tivoli Gardens",
+          "location": "Copenhagen",
+          "day": "Thursday",
+          "season": "winter",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      },
+      {
+        "query": "What are the operating hours for Everland in South Korea on a Tuesday in spring, with details on break times and any partial closures?",
+        "filled_param": {
+          "venue": "Everland",
+          "location": "South Korea",
+          "day": "Tuesday",
+          "season": "spring",
+          "show_break_times": true,
+          "include_partial_closures": true
+        }
+      }
+    ]
+  }
+}

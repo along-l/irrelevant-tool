@@ -1,0 +1,62 @@
+{
+  "tool_template_name": "find_transfer_flights",
+  "meta_data": {
+    "base_class": "Find transfer <public transportation> routes connecting departure, transfer, and destination cities - refers to reservable public transport options that support transfers.",
+    "derived_classes": [
+      "flight",
+      "high-speed train",
+      "cruise ship",
+      "long-distance bus"
+    ],
+    "base_class_entity": ""
+  },
+  "tool_template": {
+    "name": "find_transfer_<class>_routes",
+    "description": "Find transfer <class> routes from an origin city to a destination city with a stopover in a transfer city.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "origin_city": {
+          "type": "string",
+          "description": "The starting city for the <class> route."
+        },
+        "transfer_city": {
+          "type": "string",
+          "description": "The city where the transfer takes place for the <class> route."
+        },
+        "destination_city": {
+          "type": "string",
+          "description": "The final destination city for the <class> route."
+        }
+      },
+      "required": [
+        "origin_city",
+        "transfer_city",
+        "destination_city"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "departure_time": {
+      "type": "string",
+      "description": "Preferred departure time for the <class> route in ISO 8601 format."
+    },
+    "ticket_class": {
+      "type": "string",
+      "description": "Class of service for the <class> route, one of: 'economy', 'business', and 'first'."
+    },
+    "maximum_duration": {
+      "type": "integer",
+      "description": "Maximum acceptable duration in hours for the entire <class> route journey."
+    },
+    "number_of_passengers": {
+      "type": "integer",
+      "description": "Acceptable total number of passengers for the <class> route."
+    },
+    "luggage_allowance": {
+      "type": "integer",
+      "description": "The maximum luggage allowance in kilograms required for the <class> route."
+    }
+  }
+}

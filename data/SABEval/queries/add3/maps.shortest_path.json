@@ -1,0 +1,324 @@
+{
+  "maps.shortest_path|:|walk|:|start_location,end_location,departure_time,include_elevation_data,return_distance": {
+    "tool_template_name": "maps.shortest_path",
+    "derived_class": "walk",
+    "params_for_query": [
+      "start_location",
+      "end_location",
+      "departure_time",
+      "include_elevation_data",
+      "return_distance"
+    ],
+    "queries": [
+      {
+        "query": "Could you find the shortest walk path from Central Park to Times Square at 10:00, including elevation information and the total distance?",
+        "filled_param": {
+          "start_location": "Central Park",
+          "end_location": "Times Square",
+          "departure_time": "10:00",
+          "include_elevation_data": true,
+          "return_distance": true
+        }
+      },
+      {
+        "query": "What is the easiest walking route from the Eiffel Tower to the Louvre Museum, if I start at 15:30? I need both elevation details and the total distance.",
+        "filled_param": {
+          "start_location": "Eiffel Tower",
+          "end_location": "Louvre Museum",
+          "departure_time": "15:30",
+          "include_elevation_data": true,
+          "return_distance": true
+        }
+      },
+      {
+        "query": "Find the shortest walking path from Sydney Opera House to Sydney Harbour Bridge, departing at 08:00. Please include the elevation data and distance.",
+        "filled_param": {
+          "start_location": "Sydney Opera House",
+          "end_location": "Sydney Harbour Bridge",
+          "departure_time": "08:00",
+          "include_elevation_data": true,
+          "return_distance": true
+        }
+      },
+      {
+        "query": "Calculate the shortest walk route starting from Golden Gate Park to Pier 39 at 11:45, ensuring to provide elevation and distance information.",
+        "filled_param": {
+          "start_location": "Golden Gate Park",
+          "end_location": "Pier 39",
+          "departure_time": "11:45",
+          "include_elevation_data": true,
+          "return_distance": true
+        }
+      },
+      {
+        "query": "Please show the shortest walking path between Buckingham Palace and Big Ben at 13:00, with details on elevation and total distance.",
+        "filled_param": {
+          "start_location": "Buckingham Palace",
+          "end_location": "Big Ben",
+          "departure_time": "13:00",
+          "include_elevation_data": true,
+          "return_distance": true
+        }
+      },
+      {
+        "query": "Determine the shortest walking route from Colosseum to Vatican City, leaving at 09:15, including elevation information and the travel distance.",
+        "filled_param": {
+          "start_location": "Colosseum",
+          "end_location": "Vatican City",
+          "departure_time": "09:15",
+          "include_elevation_data": true,
+          "return_distance": true
+        }
+      },
+      {
+        "query": "What's the shortest walking route from Tower of London to London Eye at 18:45, with elevation details and total distance covered?",
+        "filled_param": {
+          "start_location": "Tower of London",
+          "end_location": "London Eye",
+          "departure_time": "18:45",
+          "include_elevation_data": true,
+          "return_distance": true
+        }
+      }
+    ]
+  },
+  "maps.shortest_path|:|bike|:|start_location,end_location,departure_time,include_elevation_data,return_distance": {
+    "tool_template_name": "maps.shortest_path",
+    "derived_class": "bike",
+    "params_for_query": [
+      "start_location",
+      "end_location",
+      "departure_time",
+      "include_elevation_data",
+      "return_distance"
+    ],
+    "queries": [
+      {
+        "query": "Find the shortest bike path from Central Park to Times Square departing at 09:30 with elevation data included and show the total distance.",
+        "filled_param": {
+          "start_location": "Central Park",
+          "end_location": "Times Square",
+          "departure_time": "09:30",
+          "include_elevation_data": true,
+          "return_distance": true
+        }
+      },
+      {
+        "query": "What's the shortest route to bike from Golden Gate Park to Fisherman's Wharf leaving at 15:45? Please include elevation details and total distance.",
+        "filled_param": {
+          "start_location": "Golden Gate Park",
+          "end_location": "Fisherman's Wharf",
+          "departure_time": "15:45",
+          "include_elevation_data": true,
+          "return_distance": true
+        }
+      },
+      {
+        "query": "Calculate the shortest biking route between Hyde Park and London Bridge for a departure at 07:00 without elevation data but include the total travel distance.",
+        "filled_param": {
+          "start_location": "Hyde Park",
+          "end_location": "London Bridge",
+          "departure_time": "07:00",
+          "include_elevation_data": false,
+          "return_distance": true
+        }
+      },
+      {
+        "query": "I need the shortest bike path from Sydney Opera House to Bondi Beach starting at 12:15, including slope information, but no need for the travel distance.",
+        "filled_param": {
+          "start_location": "Sydney Opera House",
+          "end_location": "Bondi Beach",
+          "departure_time": "12:15",
+          "include_elevation_data": true,
+          "return_distance": false
+        }
+      },
+      {
+        "query": "Please find the shortest biking path from Eiffel Tower to Louvre Museum at 18:00. Do not include elevation or distance in the results.",
+        "filled_param": {
+          "start_location": "Eiffel Tower",
+          "end_location": "Louvre Museum",
+          "departure_time": "18:00",
+          "include_elevation_data": false,
+          "return_distance": false
+        }
+      },
+      {
+        "query": "What's the quickest bike route from Brandenburg Gate to Berlin Wall Memorial departing at 20:30 with elevation data excluded and distance included?",
+        "filled_param": {
+          "start_location": "Brandenburg Gate",
+          "end_location": "Berlin Wall Memorial",
+          "departure_time": "20:30",
+          "include_elevation_data": false,
+          "return_distance": true
+        }
+      },
+      {
+        "query": "Can you find the shortest bike path from Marina Bay Sands to Gardens by the Bay at 10:00, including both elevation data and the total distance?",
+        "filled_param": {
+          "start_location": "Marina Bay Sands",
+          "end_location": "Gardens by the Bay",
+          "departure_time": "10:00",
+          "include_elevation_data": true,
+          "return_distance": true
+        }
+      }
+    ]
+  },
+  "maps.shortest_path|:|drive|:|start_location,end_location,departure_time,include_elevation_data,return_distance": {
+    "tool_template_name": "maps.shortest_path",
+    "derived_class": "drive",
+    "params_for_query": [
+      "start_location",
+      "end_location",
+      "departure_time",
+      "include_elevation_data",
+      "return_distance"
+    ],
+    "queries": [
+      {
+        "query": "What is the shortest drive route from Times Square to Central Park if I leave at 14:30, including elevation data and total distance?",
+        "filled_param": {
+          "start_location": "Times Square",
+          "end_location": "Central Park",
+          "departure_time": "14:30",
+          "include_elevation_data": true,
+          "return_distance": true
+        }
+      },
+      {
+        "query": "Can you find the shortest path by car from Los Angeles International Airport to Hollywood Boulevard at 09:00 with distance and elevation details?",
+        "filled_param": {
+          "start_location": "Los Angeles International Airport",
+          "end_location": "Hollywood Boulevard",
+          "departure_time": "09:00",
+          "include_elevation_data": true,
+          "return_distance": true
+        }
+      },
+      {
+        "query": "Calculate the shortest driving route from Eiffel Tower to Louvre Museum at 16:45, making sure to include distance but not elevation data.",
+        "filled_param": {
+          "start_location": "Eiffel Tower",
+          "end_location": "Louvre Museum",
+          "departure_time": "16:45",
+          "include_elevation_data": false,
+          "return_distance": true
+        }
+      },
+      {
+        "query": "I need the shortest drive path from Miami Beach to Key West starting at 05:15, with no need for elevation data but do include the distance.",
+        "filled_param": {
+          "start_location": "Miami Beach",
+          "end_location": "Key West",
+          "departure_time": "05:15",
+          "include_elevation_data": false,
+          "return_distance": true
+        }
+      },
+      {
+        "query": "Find me the shortest route for driving from Sydney Opera House to Bondi Beach at 12:00, and include both distance and elevation information.",
+        "filled_param": {
+          "start_location": "Sydney Opera House",
+          "end_location": "Bondi Beach",
+          "departure_time": "12:00",
+          "include_elevation_data": true,
+          "return_distance": true
+        }
+      },
+      {
+        "query": "Could you determine the shortest driving path from Buckingham Palace to the Tower of London departing at 18:00, with details on distance but no elevation data?",
+        "filled_param": {
+          "start_location": "Buckingham Palace",
+          "end_location": "Tower of London",
+          "departure_time": "18:00",
+          "include_elevation_data": false,
+          "return_distance": true
+        }
+      },
+      {
+        "query": "What is the shortest drive route from Golden Gate Bridge to Fisherman's Wharf if I depart at 10:30, including both elevation and distance data?",
+        "filled_param": {
+          "start_location": "Golden Gate Bridge",
+          "end_location": "Fisherman's Wharf",
+          "departure_time": "10:30",
+          "include_elevation_data": true,
+          "return_distance": true
+        }
+      }
+    ]
+  },
+  "maps.shortest_path|:|transit|:|start_location,end_location,departure_time,include_elevation_data,return_distance": {
+    "tool_template_name": "maps.shortest_path",
+    "derived_class": "transit",
+    "params_for_query": [
+      "start_location",
+      "end_location",
+      "departure_time",
+      "include_elevation_data",
+      "return_distance"
+    ],
+    "queries": [
+      {
+        "query": "Can you find the shortest transit path from Times Square, New York to Central Park, New York, departing at 09:30 with elevation data included, and also return the travel distance?",
+        "filled_param": {
+          "start_location": "Times Square, New York",
+          "end_location": "Central Park, New York",
+          "departure_time": "09:30",
+          "include_elevation_data": true,
+          "return_distance": true
+        }
+      },
+      {
+        "query": "I need to know the quickest way to get from Union Station, Los Angeles to Santa Monica Pier by transit, leaving at 14:15. Please include elevation and distance information.",
+        "filled_param": {
+          "start_location": "Union Station, Los Angeles",
+          "end_location": "Santa Monica Pier",
+          "departure_time": "14:15",
+          "include_elevation_data": true,
+          "return_distance": true
+        }
+      },
+      {
+        "query": "Please calculate the shortest transit route from the Louvre Museum to the Eiffel Tower in Paris, leaving at 18:00, and provide both elevation data and travel distance.",
+        "filled_param": {
+          "start_location": "Louvre Museum",
+          "end_location": "Eiffel Tower",
+          "departure_time": "18:00",
+          "include_elevation_data": true,
+          "return_distance": true
+        }
+      },
+      {
+        "query": "What's the shortest transit path from Sydney Opera House to Bondi Beach if I start at 07:00? Include elevation and distance details.",
+        "filled_param": {
+          "start_location": "Sydney Opera House",
+          "end_location": "Bondi Beach",
+          "departure_time": "07:00",
+          "include_elevation_data": true,
+          "return_distance": true
+        }
+      },
+      {
+        "query": "Find the most efficient transit route from Tokyo Tower to Shibuya Crossing, leaving at 20:30, with elevation and total travel distance included.",
+        "filled_param": {
+          "start_location": "Tokyo Tower",
+          "end_location": "Shibuya Crossing",
+          "departure_time": "20:30",
+          "include_elevation_data": true,
+          "return_distance": true
+        }
+      },
+      {
+        "query": "Help me find the shortest way using transit from Buckingham Palace to the British Museum, departing at 11:45, and include elevation and distance in the information provided.",
+        "filled_param": {
+          "start_location": "Buckingham Palace",
+          "end_location": "British Museum",
+          "departure_time": "11:45",
+          "include_elevation_data": true,
+          "return_distance": true
+        }
+      }
+    ]
+  }
+}

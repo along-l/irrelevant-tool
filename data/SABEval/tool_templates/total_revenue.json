@@ -1,0 +1,64 @@
+{
+  "tool_template_name": "total_revenue",
+  "meta_data": {
+    "base_class": "Calculate the total revenue of a <industry sector> company over a specific period - refers to a business entity that operates in a defined economic domain such as technology, finance, or manufacturing, whose revenue can be aggregated over time.",
+    "derived_classes": [
+      "automotive company",
+      "pharmaceutical company",
+      "telecommunications company",
+      "airline company",
+      "logistics company",
+      "mining company",
+      "agricultural company",
+      "commercial bank",
+      "insurance company",
+      "food company"
+    ],
+    "base_class_entity": "company"
+  },
+  "tool_template": {
+    "name": "total_<class>_revenue",
+    "description": "Calculate the total revenue of a <class> over a specific period of time.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "company": {
+          "type": "string",
+          "description": "Name of the <class> to get data for."
+        },
+        "days": {
+          "type": "integer",
+          "description": "Number of past days to calculate total revenue for."
+        }
+      },
+      "required": [
+        "company",
+        "days"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "data_source": {
+      "type": "string",
+      "description": "Source to fetch the financial data."
+    }
+  },
+  "additional_params": {
+    "currency": {
+      "type": "string",
+      "description": "The currency in which the total revenue of the <class> should be calculated."
+    },
+    "include_taxes": {
+      "type": "boolean",
+      "description": "Whether or not to include taxes in the total revenue calculation for the <class>."
+    },
+    "granularity": {
+      "type": "string",
+      "description": "The level of detail for the revenue data (e.g., daily, weekly, monthly) for the <class>."
+    },
+    "region": {
+      "type": "string",
+      "description": "The geographic region for which to calculate the total revenue of the <class>."
+    }
+  }
+}

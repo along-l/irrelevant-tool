@@ -1,0 +1,60 @@
+{
+  "tool_template_name": "whole_foods.find_top_brands",
+  "meta_data": {
+    "base_class": "get top brands for a specific product within <retail platform> - these platforms sell multiple product categories and maintain brand-level information.",
+    "derived_classes": [
+      "Whole Foods",
+      "Walmart",
+      "Costco",
+      "Amazon Fresh",
+      "Target",
+      "Carrefour",
+      "Sam's Club"
+    ],
+    "base_class_entity": "Whole Foods"
+  },
+  "tool_template": {
+    "name": "find_top_brands_in_<class>",
+    "description": "Get top brands of a specific product within <class>.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "product": {
+          "type": "string",
+          "description": "The product for which the top brands should be fetched within <class>."
+        }
+      },
+      "required": [
+        "product"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "number": {
+      "type": "integer",
+      "description": "Number of top brands to be fetched."
+    },
+    "organic": {
+      "type": "boolean",
+      "description": "If the product should be organic."
+    }
+  },
+  "additional_params": {
+    "region": {
+      "type": "string",
+      "description": "The geographical region where the top brands are to be identified within <class>."
+    },
+    "price_range": {
+      "type": "string",
+      "description": "The price range filter for selecting top brands of the specific product within <class>. Format as 'min-max'."
+    },
+    "customer_rating": {
+      "type": "integer",
+      "description": "Minimum average customer rating required for brands of the product within <class>."
+    },
+    "availability_status": {
+      "type": "boolean",
+      "description": "Indicates whether only currently available brands should be considered within <class>."
+    }
+  }
+}

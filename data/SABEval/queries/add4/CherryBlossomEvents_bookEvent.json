@@ -1,0 +1,703 @@
+{
+  "CherryBlossomEvents_bookEvent|:|music festival|:|eventName,attendeeContact,attendeeName,eventDate,region,numberOfAttendees": {
+    "tool_template_name": "CherryBlossomEvents_bookEvent",
+    "derived_class": "music festival",
+    "params_for_query": [
+      "eventName",
+      "attendeeContact",
+      "attendeeName",
+      "eventDate",
+      "region",
+      "numberOfAttendees"
+    ],
+    "queries": [
+      {
+        "query": "I want to book 2 spots for the Coachella music festival on 2023-04-15 in California. My name is Alex Johnson and my contact is alex.johnson12@example.com.",
+        "filled_param": {
+          "eventName": "Coachella",
+          "attendeeContact": "alex.johnson12@example.com",
+          "attendeeName": "Alex Johnson",
+          "eventDate": "2023-04-15",
+          "region": "California",
+          "numberOfAttendees": 2
+        }
+      },
+      {
+        "query": "Please reserve 4 tickets for the Glastonbury music festival on 2023-06-25 in Somerset. My full name is Emma Roberts and my email is emma.roberts98@example.com.",
+        "filled_param": {
+          "eventName": "Glastonbury",
+          "attendeeContact": "emma.roberts98@example.com",
+          "attendeeName": "Emma Roberts",
+          "eventDate": "2023-06-25",
+          "region": "Somerset",
+          "numberOfAttendees": 4
+        }
+      },
+      {
+        "query": "I'd like to book 1 ticket for the Tomorrowland music festival held in Belgium on 2023-07-20. My details are: John Smith, john.smith45@example.com.",
+        "filled_param": {
+          "eventName": "Tomorrowland",
+          "attendeeContact": "john.smith45@example.com",
+          "attendeeName": "John Smith",
+          "eventDate": "2023-07-20",
+          "region": "Belgium",
+          "numberOfAttendees": 1
+        }
+      },
+      {
+        "query": "Can you arrange for 3 people to attend the Lollapalooza music festival on 2023-08-01 in Chicago? Contact info: sarah.connor77@example.com, Sarah Connor.",
+        "filled_param": {
+          "eventName": "Lollapalooza",
+          "attendeeContact": "sarah.connor77@example.com",
+          "attendeeName": "Sarah Connor",
+          "eventDate": "2023-08-01",
+          "region": "Chicago",
+          "numberOfAttendees": 3
+        }
+      },
+      {
+        "query": "Book 5 seats for the Fuji Rock music festival occurring in Niigata on 2023-07-28. Attendee: Liam Brown, liam.brown56@example.com.",
+        "filled_param": {
+          "eventName": "Fuji Rock",
+          "attendeeContact": "liam.brown56@example.com",
+          "attendeeName": "Liam Brown",
+          "eventDate": "2023-07-28",
+          "region": "Niigata",
+          "numberOfAttendees": 5
+        }
+      }
+    ]
+  },
+  "CherryBlossomEvents_bookEvent|:|film festival|:|eventName,attendeeContact,attendeeName,eventDate,region,numberOfAttendees": {
+    "tool_template_name": "CherryBlossomEvents_bookEvent",
+    "derived_class": "film festival",
+    "params_for_query": [
+      "eventName",
+      "attendeeContact",
+      "attendeeName",
+      "eventDate",
+      "region",
+      "numberOfAttendees"
+    ],
+    "queries": [
+      {
+        "query": "I want to book 3 tickets for the film festival event 'Cannes International Film Festival' on 2023-05-15 in Cannes. My name is John Doe, and my contact is john.doe@example.com.",
+        "filled_param": {
+          "eventName": "Cannes International Film Festival",
+          "attendeeContact": "john.doe@example.com",
+          "attendeeName": "John Doe",
+          "eventDate": "2023-05-15",
+          "region": "Cannes",
+          "numberOfAttendees": 3
+        }
+      },
+      {
+        "query": "Reserve a spot for me and a friend at the 'Toronto Film Festival' on 2023-09-10. My name is Jane Smith, you can reach me at jane.smith@example.com, and we're going to be in Toronto.",
+        "filled_param": {
+          "eventName": "Toronto Film Festival",
+          "attendeeContact": "jane.smith@example.com",
+          "attendeeName": "Jane Smith",
+          "eventDate": "2023-09-10",
+          "region": "Toronto",
+          "numberOfAttendees": 2
+        }
+      },
+      {
+        "query": "Please book a single ticket for the 'Sundance Film Festival' happening in Park City on 2024-01-20. My full name is Robert Lee, and my contact is robert.lee@example.com.",
+        "filled_param": {
+          "eventName": "Sundance Film Festival",
+          "attendeeContact": "robert.lee@example.com",
+          "attendeeName": "Robert Lee",
+          "eventDate": "2024-01-20",
+          "region": "Park City",
+          "numberOfAttendees": 1
+        }
+      },
+      {
+        "query": "I'd like to attend the 'Venice Film Festival' on 2023-08-30 with 4 others. You can contact me, Emily Johnson, at emily.j@example.com, and it will be in Venice.",
+        "filled_param": {
+          "eventName": "Venice Film Festival",
+          "attendeeContact": "emily.j@example.com",
+          "attendeeName": "Emily Johnson",
+          "eventDate": "2023-08-30",
+          "region": "Venice",
+          "numberOfAttendees": 5
+        }
+      },
+      {
+        "query": "Book 2 spots for the 'Berlin Film Festival' for myself and my partner on 2023-02-20. I'll be attending in Berlin. Contact: michael.brown@example.com, Name: Michael Brown.",
+        "filled_param": {
+          "eventName": "Berlin Film Festival",
+          "attendeeContact": "michael.brown@example.com",
+          "attendeeName": "Michael Brown",
+          "eventDate": "2023-02-20",
+          "region": "Berlin",
+          "numberOfAttendees": 2
+        }
+      },
+      {
+        "query": "Could you book 6 places for 'Tokyo International Film Festival' on 2023-10-15? My name is Sarah Connor, and my email is sarah.connor@example.com, attending in Tokyo.",
+        "filled_param": {
+          "eventName": "Tokyo International Film Festival",
+          "attendeeContact": "sarah.connor@example.com",
+          "attendeeName": "Sarah Connor",
+          "eventDate": "2023-10-15",
+          "region": "Tokyo",
+          "numberOfAttendees": 6
+        }
+      }
+    ]
+  },
+  "CherryBlossomEvents_bookEvent|:|food festival|:|eventName,attendeeContact,attendeeName,eventDate,region,numberOfAttendees": {
+    "tool_template_name": "CherryBlossomEvents_bookEvent",
+    "derived_class": "food festival",
+    "params_for_query": [
+      "eventName",
+      "attendeeContact",
+      "attendeeName",
+      "eventDate",
+      "region",
+      "numberOfAttendees"
+    ],
+    "queries": [
+      {
+        "query": "I'd like to book two spots for the food festival event 'Taste of Chicago' happening on 2023-08-15 in Chicago. Please register John Doe with the email john.doe@example.com.",
+        "filled_param": {
+          "eventName": "Taste of Chicago",
+          "attendeeContact": "john.doe@example.com",
+          "attendeeName": "John Doe",
+          "eventDate": "2023-08-15",
+          "region": "Chicago",
+          "numberOfAttendees": 2
+        }
+      },
+      {
+        "query": "Can you book a spot for me at the 'London Food Carnival' on 2023-09-10 in London? My name is Emily Johnson and my contact number is 123-456-7890. I'll be attending with one guest.",
+        "filled_param": {
+          "eventName": "London Food Carnival",
+          "attendeeContact": "123-456-7890",
+          "attendeeName": "Emily Johnson",
+          "eventDate": "2023-09-10",
+          "region": "London",
+          "numberOfAttendees": 2
+        }
+      },
+      {
+        "query": "Please reserve a spot for the 'New York Food Expo' on 2023-10-05 in New York for four people. The attendee's name is Michael Smith, and you can reach him at michael.smith@sample.com.",
+        "filled_param": {
+          "eventName": "New York Food Expo",
+          "attendeeContact": "michael.smith@sample.com",
+          "attendeeName": "Michael Smith",
+          "eventDate": "2023-10-05",
+          "region": "New York",
+          "numberOfAttendees": 4
+        }
+      },
+      {
+        "query": "I'd like to attend the 'Asian Food Fest' on 2023-11-20 in Singapore. Please book for one attendee. My name is Sarah Lee, and my contact email is sarah.lee@gmail.com.",
+        "filled_param": {
+          "eventName": "Asian Food Fest",
+          "attendeeContact": "sarah.lee@gmail.com",
+          "attendeeName": "Sarah Lee",
+          "eventDate": "2023-11-20",
+          "region": "Singapore",
+          "numberOfAttendees": 1
+        }
+      },
+      {
+        "query": "Book a family of five for the 'Sydney Culinary Festival' slated for 2023-12-15 in Sydney. The contact person is James Brown, available at james.brown@mail.com.",
+        "filled_param": {
+          "eventName": "Sydney Culinary Festival",
+          "attendeeContact": "james.brown@mail.com",
+          "attendeeName": "James Brown",
+          "eventDate": "2023-12-15",
+          "region": "Sydney",
+          "numberOfAttendees": 5
+        }
+      }
+    ]
+  },
+  "CherryBlossomEvents_bookEvent|:|painting exhibition|:|eventName,attendeeContact,attendeeName,eventDate,region,numberOfAttendees": {
+    "tool_template_name": "CherryBlossomEvents_bookEvent",
+    "derived_class": "painting exhibition",
+    "params_for_query": [
+      "eventName",
+      "attendeeContact",
+      "attendeeName",
+      "eventDate",
+      "region",
+      "numberOfAttendees"
+    ],
+    "queries": [
+      {
+        "query": "Please book 3 spots for the 'Artistic Minds' painting exhibition on 2023-11-15 in New York. My name is Alex Rivera, and you can reach me at alex.rivera@example.com.",
+        "filled_param": {
+          "eventName": "Artistic Minds",
+          "attendeeContact": "alex.rivera@example.com",
+          "attendeeName": "Alex Rivera",
+          "eventDate": "2023-11-15",
+          "region": "New York",
+          "numberOfAttendees": 3
+        }
+      },
+      {
+        "query": "I'd like to reserve a place for myself at the 'Colors of Life' painting exhibition happening on 2023-12-01 in Los Angeles. Contact: jane.doe@example.com, Name: Jane Doe.",
+        "filled_param": {
+          "eventName": "Colors of Life",
+          "attendeeContact": "jane.doe@example.com",
+          "attendeeName": "Jane Doe",
+          "eventDate": "2023-12-01",
+          "region": "Los Angeles",
+          "numberOfAttendees": 1
+        }
+      },
+      {
+        "query": "Can you book 5 tickets for the 'Brush Strokes' painting exhibition on 2024-01-10 in Chicago? My contact is john.smith@example.com, and I am John Smith.",
+        "filled_param": {
+          "eventName": "Brush Strokes",
+          "attendeeContact": "john.smith@example.com",
+          "attendeeName": "John Smith",
+          "eventDate": "2024-01-10",
+          "region": "Chicago",
+          "numberOfAttendees": 5
+        }
+      },
+      {
+        "query": "I'd like to reserve 2 places for the 'Impressionist Wonders' painting exhibition on 2023-11-25 located in San Francisco. My details are Mary Johnson, mary.j@example.com.",
+        "filled_param": {
+          "eventName": "Impressionist Wonders",
+          "attendeeContact": "mary.j@example.com",
+          "attendeeName": "Mary Johnson",
+          "eventDate": "2023-11-25",
+          "region": "San Francisco",
+          "numberOfAttendees": 2
+        }
+      },
+      {
+        "query": "Reserve a spot for me at the 'Modern Art Fiesta' painting exhibition on 2023-12-15 in Miami. You can contact me, Robert Brown, at robert.b@example.com.",
+        "filled_param": {
+          "eventName": "Modern Art Fiesta",
+          "attendeeContact": "robert.b@example.com",
+          "attendeeName": "Robert Brown",
+          "eventDate": "2023-12-15",
+          "region": "Miami",
+          "numberOfAttendees": 1
+        }
+      }
+    ]
+  },
+  "CherryBlossomEvents_bookEvent|:|tech conference|:|eventName,attendeeContact,attendeeName,eventDate,region,numberOfAttendees": {
+    "tool_template_name": "CherryBlossomEvents_bookEvent",
+    "derived_class": "tech conference",
+    "params_for_query": [
+      "eventName",
+      "attendeeContact",
+      "attendeeName",
+      "eventDate",
+      "region",
+      "numberOfAttendees"
+    ],
+    "queries": [
+      {
+        "query": "Please book a spot for the tech conference 'AI Innovations Summit' happening on 2023-11-15 in San Francisco for John Doe. My contact is john.doe@example.com and it's for 2 attendees.",
+        "filled_param": {
+          "eventName": "AI Innovations Summit",
+          "attendeeContact": "john.doe@example.com",
+          "attendeeName": "John Doe",
+          "eventDate": "2023-11-15",
+          "region": "San Francisco",
+          "numberOfAttendees": 2
+        }
+      },
+      {
+        "query": "Can you secure me a place for the tech conference 'Blockchain Expo' in Berlin on 2024-01-25? My name is Linda Smith, and you can reach me at 123-456-7890. I need to book for 1 attendee.",
+        "filled_param": {
+          "eventName": "Blockchain Expo",
+          "attendeeContact": "123-456-7890",
+          "attendeeName": "Linda Smith",
+          "eventDate": "2024-01-25",
+          "region": "Berlin",
+          "numberOfAttendees": 1
+        }
+      },
+      {
+        "query": "I need to register for the 'Cybersecurity Symposium' tech conference in Tokyo scheduled on 2023-12-10 for 3 people. My contact details are jane.roe@example.com and the name for the booking is Jane Roe.",
+        "filled_param": {
+          "eventName": "Cybersecurity Symposium",
+          "attendeeContact": "jane.roe@example.com",
+          "attendeeName": "Jane Roe",
+          "eventDate": "2023-12-10",
+          "region": "Tokyo",
+          "numberOfAttendees": 3
+        }
+      },
+      {
+        "query": "Reserve 4 spots for the tech conference 'Data Science World' in New York on 2024-02-20. The attendees' contact is richard.miles@techmail.com and my full name is Richard Miles.",
+        "filled_param": {
+          "eventName": "Data Science World",
+          "attendeeContact": "richard.miles@techmail.com",
+          "attendeeName": "Richard Miles",
+          "eventDate": "2024-02-20",
+          "region": "New York",
+          "numberOfAttendees": 4
+        }
+      },
+      {
+        "query": "Book my attendance for the 'Quantum Tech Conference' in London happening on 2023-11-30. My name is Emily Clark, contact: emily.clark@quantum.com, and I'll need 2 tickets.",
+        "filled_param": {
+          "eventName": "Quantum Tech Conference",
+          "attendeeContact": "emily.clark@quantum.com",
+          "attendeeName": "Emily Clark",
+          "eventDate": "2023-11-30",
+          "region": "London",
+          "numberOfAttendees": 2
+        }
+      }
+    ]
+  },
+  "CherryBlossomEvents_bookEvent|:|anime expo|:|eventName,attendeeContact,attendeeName,eventDate,region,numberOfAttendees": {
+    "tool_template_name": "CherryBlossomEvents_bookEvent",
+    "derived_class": "anime expo",
+    "params_for_query": [
+      "eventName",
+      "attendeeContact",
+      "attendeeName",
+      "eventDate",
+      "region",
+      "numberOfAttendees"
+    ],
+    "queries": [
+      {
+        "query": "Can you book a spot for the Tokyo Anime Fest on 2023-12-10 for 2 attendees? My name is Emily Johnson and my contact is emilyj@example.com. The region is Tokyo.",
+        "filled_param": {
+          "eventName": "Tokyo Anime Fest",
+          "attendeeContact": "emilyj@example.com",
+          "attendeeName": "Emily Johnson",
+          "eventDate": "2023-12-10",
+          "region": "Tokyo",
+          "numberOfAttendees": 2
+        }
+      },
+      {
+        "query": "I'd like to attend the San Francisco Anime Convention on 2024-05-22. Please book 3 spots under the name Alex Brown. Contact is alex.brown@gmail.com. The region is San Francisco.",
+        "filled_param": {
+          "eventName": "San Francisco Anime Convention",
+          "attendeeContact": "alex.brown@gmail.com",
+          "attendeeName": "Alex Brown",
+          "eventDate": "2024-05-22",
+          "region": "San Francisco",
+          "numberOfAttendees": 3
+        }
+      },
+      {
+        "query": "Reserve my place at the New York Anime Expo on 2023-11-15 for just myself. My name is Jamie Lee, and you can reach me at jamielee@nyc.com. The region is New York.",
+        "filled_param": {
+          "eventName": "New York Anime Expo",
+          "attendeeContact": "jamielee@nyc.com",
+          "attendeeName": "Jamie Lee",
+          "eventDate": "2023-11-15",
+          "region": "New York",
+          "numberOfAttendees": 1
+        }
+      },
+      {
+        "query": "Book 4 slots for the Anime World Summit in Paris on 2024-08-01. The booking is for Chris Martin, contact: chris.martin@worldmail.com. The region is Paris.",
+        "filled_param": {
+          "eventName": "Anime World Summit",
+          "attendeeContact": "chris.martin@worldmail.com",
+          "attendeeName": "Chris Martin",
+          "eventDate": "2024-08-01",
+          "region": "Paris",
+          "numberOfAttendees": 4
+        }
+      },
+      {
+        "query": "Please register me for the London Anime Fan Fest happening on 2024-06-18. I need 2 tickets under the name Taylor Swift. My contact email is taylorswift@musicmail.com. The region is London.",
+        "filled_param": {
+          "eventName": "London Anime Fan Fest",
+          "attendeeContact": "taylorswift@musicmail.com",
+          "attendeeName": "Taylor Swift",
+          "eventDate": "2024-06-18",
+          "region": "London",
+          "numberOfAttendees": 2
+        }
+      }
+    ]
+  },
+  "CherryBlossomEvents_bookEvent|:|fireworks show|:|eventName,attendeeContact,attendeeName,eventDate,region,numberOfAttendees": {
+    "tool_template_name": "CherryBlossomEvents_bookEvent",
+    "derived_class": "fireworks show",
+    "params_for_query": [
+      "eventName",
+      "attendeeContact",
+      "attendeeName",
+      "eventDate",
+      "region",
+      "numberOfAttendees"
+    ],
+    "queries": [
+      {
+        "query": "I'd like to book 3 spots for the fireworks show 'SkySparkle Extravaganza' in downtown Chicago on 2023-12-25. My name is John Doe and you can contact me at johndoe@example.com.",
+        "filled_param": {
+          "eventName": "SkySparkle Extravaganza",
+          "attendeeContact": "johndoe@example.com",
+          "attendeeName": "John Doe",
+          "eventDate": "2023-12-25",
+          "region": "downtown Chicago",
+          "numberOfAttendees": 3
+        }
+      },
+      {
+        "query": "Book a space for me and my friend at the 'New Year Blaze' fireworks show in Sydney on 2024-01-01. My contact info is jane.smith@example.com, and my name is Jane Smith.",
+        "filled_param": {
+          "eventName": "New Year Blaze",
+          "attendeeContact": "jane.smith@example.com",
+          "attendeeName": "Jane Smith",
+          "eventDate": "2024-01-01",
+          "region": "Sydney",
+          "numberOfAttendees": 2
+        }
+      },
+      {
+        "query": "Can you reserve 5 tickets for the 'Festival of Lights' fireworks show happening in Paris on 2023-11-14? My name is Pierre Dupont and my phone number is +33123456789.",
+        "filled_param": {
+          "eventName": "Festival of Lights",
+          "attendeeContact": "+33123456789",
+          "attendeeName": "Pierre Dupont",
+          "eventDate": "2023-11-14",
+          "region": "Paris",
+          "numberOfAttendees": 5
+        }
+      },
+      {
+        "query": "I need a booking for the 'Summer Night Sky' fireworks show for 4 people in Los Angeles on 2023-06-21. My name is Emily Clark, and I can be reached at emilyc@example.com.",
+        "filled_param": {
+          "eventName": "Summer Night Sky",
+          "attendeeContact": "emilyc@example.com",
+          "attendeeName": "Emily Clark",
+          "eventDate": "2023-06-21",
+          "region": "Los Angeles",
+          "numberOfAttendees": 4
+        }
+      },
+      {
+        "query": "Please arrange two entries for the 'Autumn Fireworks Gala' in Toronto on 2023-10-10. Contact me, Liam Wong, at liam.wong@example.com.",
+        "filled_param": {
+          "eventName": "Autumn Fireworks Gala",
+          "attendeeContact": "liam.wong@example.com",
+          "attendeeName": "Liam Wong",
+          "eventDate": "2023-10-10",
+          "region": "Toronto",
+          "numberOfAttendees": 2
+        }
+      }
+    ]
+  },
+  "CherryBlossomEvents_bookEvent|:|marathon|:|eventName,attendeeContact,attendeeName,eventDate,region,numberOfAttendees": {
+    "tool_template_name": "CherryBlossomEvents_bookEvent",
+    "derived_class": "marathon",
+    "params_for_query": [
+      "eventName",
+      "attendeeContact",
+      "attendeeName",
+      "eventDate",
+      "region",
+      "numberOfAttendees"
+    ],
+    "queries": [
+      {
+        "query": "I'd like to register John Doe for the Boston Marathon happening on 2023-11-15 in the USA. Please book for one attendee and use johndoe@example.com as the contact.",
+        "filled_param": {
+          "eventName": "Boston Marathon",
+          "attendeeContact": "johndoe@example.com",
+          "attendeeName": "John Doe",
+          "eventDate": "2023-11-15",
+          "region": "USA",
+          "numberOfAttendees": 1
+        }
+      },
+      {
+        "query": "Can you sign up Maria Gonzalez for the Tokyo Marathon on 2024-03-02 in Japan? Please ensure her contact is maria.g@example.com and book for two attendees.",
+        "filled_param": {
+          "eventName": "Tokyo Marathon",
+          "attendeeContact": "maria.g@example.com",
+          "attendeeName": "Maria Gonzalez",
+          "eventDate": "2024-03-02",
+          "region": "Japan",
+          "numberOfAttendees": 2
+        }
+      },
+      {
+        "query": "Please enroll Alice Smith in the Berlin Marathon scheduled for 2023-09-24 in Germany. Her contact email is alice.smith@example.com, and she's going alone.",
+        "filled_param": {
+          "eventName": "Berlin Marathon",
+          "attendeeContact": "alice.smith@example.com",
+          "attendeeName": "Alice Smith",
+          "eventDate": "2023-09-24",
+          "region": "Germany",
+          "numberOfAttendees": 1
+        }
+      },
+      {
+        "query": "I need to book a spot for Robert Brown at the Chicago Marathon on 2024-10-12 in the USA. His email is robert.b@example.com, and he is participating with one other person.",
+        "filled_param": {
+          "eventName": "Chicago Marathon",
+          "attendeeContact": "robert.b@example.com",
+          "attendeeName": "Robert Brown",
+          "eventDate": "2024-10-12",
+          "region": "USA",
+          "numberOfAttendees": 2
+        }
+      },
+      {
+        "query": "Could you register Emily Johnson for the London Marathon set for 2023-04-23 in the UK? Her contact number is +447911123456, and the booking is for three people.",
+        "filled_param": {
+          "eventName": "London Marathon",
+          "attendeeContact": "+447911123456",
+          "attendeeName": "Emily Johnson",
+          "eventDate": "2023-04-23",
+          "region": "UK",
+          "numberOfAttendees": 3
+        }
+      }
+    ]
+  },
+  "CherryBlossomEvents_bookEvent|:|theater performance|:|eventName,attendeeContact,attendeeName,eventDate,region,numberOfAttendees": {
+    "tool_template_name": "CherryBlossomEvents_bookEvent",
+    "derived_class": "theater performance",
+    "params_for_query": [
+      "eventName",
+      "attendeeContact",
+      "attendeeName",
+      "eventDate",
+      "region",
+      "numberOfAttendees"
+    ],
+    "queries": [
+      {
+        "query": "I'd like to book 2 tickets for the theater performance 'Hamilton' on 2023-11-15 in New York City. My name is Alex Johnson, and you can contact me at alex.johnson@example.com.",
+        "filled_param": {
+          "eventName": "Hamilton",
+          "attendeeContact": "alex.johnson@example.com",
+          "attendeeName": "Alex Johnson",
+          "eventDate": "2023-11-15",
+          "region": "New York City",
+          "numberOfAttendees": 2
+        }
+      },
+      {
+        "query": "Can you reserve 4 seats for the theater performance 'Les Misérables' in the London region on 2023-12-10? Attendee: Emily Clark, contact: emily.clark@example.co.uk.",
+        "filled_param": {
+          "eventName": "Les Misérables",
+          "attendeeContact": "emily.clark@example.co.uk",
+          "attendeeName": "Emily Clark",
+          "eventDate": "2023-12-10",
+          "region": "London",
+          "numberOfAttendees": 4
+        }
+      },
+      {
+        "query": "Please book 1 spot for the theater performance 'The Lion King' in Sydney for 2024-01-05. The contact info is david.smith@example.com, and the attendee's name is David Smith.",
+        "filled_param": {
+          "eventName": "The Lion King",
+          "attendeeContact": "david.smith@example.com",
+          "attendeeName": "David Smith",
+          "eventDate": "2024-01-05",
+          "region": "Sydney",
+          "numberOfAttendees": 1
+        }
+      },
+      {
+        "query": "I want to secure 3 tickets for the theater performance 'Phantom of the Opera' on 2023-11-20 in the San Francisco area. Attendee details: Sarah Lee, sarah.lee@example.com.",
+        "filled_param": {
+          "eventName": "Phantom of the Opera",
+          "attendeeContact": "sarah.lee@example.com",
+          "attendeeName": "Sarah Lee",
+          "eventDate": "2023-11-20",
+          "region": "San Francisco",
+          "numberOfAttendees": 3
+        }
+      },
+      {
+        "query": "I'd like to book 5 seats for the theater performance 'Wicked' in the Chicago region on 2024-02-14. Please register the attendee as John Doe with contact john.doe@example.com.",
+        "filled_param": {
+          "eventName": "Wicked",
+          "attendeeContact": "john.doe@example.com",
+          "attendeeName": "John Doe",
+          "eventDate": "2024-02-14",
+          "region": "Chicago",
+          "numberOfAttendees": 5
+        }
+      }
+    ]
+  },
+  "CherryBlossomEvents_bookEvent|:|fashion week|:|eventName,attendeeContact,attendeeName,eventDate,region,numberOfAttendees": {
+    "tool_template_name": "CherryBlossomEvents_bookEvent",
+    "derived_class": "fashion week",
+    "params_for_query": [
+      "eventName",
+      "attendeeContact",
+      "attendeeName",
+      "eventDate",
+      "region",
+      "numberOfAttendees"
+    ],
+    "queries": [
+      {
+        "query": "I'd like to reserve spots for 3 attendees at the New York Fashion Week on 2023-10-12. The event is in the USA. My contact is john.doe@example.com, and my name is John Doe.",
+        "filled_param": {
+          "eventName": "New York Fashion Week",
+          "attendeeContact": "john.doe@example.com",
+          "attendeeName": "John Doe",
+          "eventDate": "2023-10-12",
+          "region": "USA",
+          "numberOfAttendees": 3
+        }
+      },
+      {
+        "query": "Please book 2 tickets for the Paris Fashion Week scheduled on 2023-09-20 in France. The attendee's name is Jane Smith and her contact is jane.smith@example.com.",
+        "filled_param": {
+          "eventName": "Paris Fashion Week",
+          "attendeeContact": "jane.smith@example.com",
+          "attendeeName": "Jane Smith",
+          "eventDate": "2023-09-20",
+          "region": "France",
+          "numberOfAttendees": 2
+        }
+      },
+      {
+        "query": "Can you secure 1 spot for Milan Fashion Week happening on 2023-11-05 in Italy? The attendee, Michael Brown, can be reached at michael.brown@example.com.",
+        "filled_param": {
+          "eventName": "Milan Fashion Week",
+          "attendeeContact": "michael.brown@example.com",
+          "attendeeName": "Michael Brown",
+          "eventDate": "2023-11-05",
+          "region": "Italy",
+          "numberOfAttendees": 1
+        }
+      },
+      {
+        "query": "I want to book 4 places for the Tokyo Fashion Week on 2023-08-15 in Japan. The contact email is emily.jones@example.com, and the attendee's name is Emily Jones.",
+        "filled_param": {
+          "eventName": "Tokyo Fashion Week",
+          "attendeeContact": "emily.jones@example.com",
+          "attendeeName": "Emily Jones",
+          "eventDate": "2023-08-15",
+          "region": "Japan",
+          "numberOfAttendees": 4
+        }
+      },
+      {
+        "query": "Reserve 5 entries for the London Fashion Week event on 2023-12-01 in the UK. The attendee, Robert Wilson, can be contacted at robert.wilson@example.com.",
+        "filled_param": {
+          "eventName": "London Fashion Week",
+          "attendeeContact": "robert.wilson@example.com",
+          "attendeeName": "Robert Wilson",
+          "eventDate": "2023-12-01",
+          "region": "UK",
+          "numberOfAttendees": 5
+        }
+      }
+    ]
+  }
+}

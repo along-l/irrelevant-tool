@@ -1,0 +1,50 @@
+{
+  "tool_template_name": "games.price.find",
+  "meta_data": {
+    "base_class": "Find the current price for a specific game on <a specific gaming platform>. This is a general tool that uses the `platform` parameter. Subclass tools will be hardcoded to a specific platform (e.g., Steam, Xbox Store) and will remove the `platform` parameter.",
+    "derived_classes": [
+      "Steam",
+      "Epic",
+      "GOG",
+      "Xbox",
+      "PlayStation",
+      "Nintendo"
+    ],
+    "base_class_entity": "a specified gaming platform"
+  },
+  "tool_template": {
+    "name": "find_<class>_game_price",
+    "description": "Find the current price for a specific game on <class> platform.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "game": {
+          "type": "string",
+          "description": "The name of the game on the <class> platform."
+        }
+      },
+      "required": [
+        "game"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "currency": {
+      "type": "string",
+      "description": "The currency in which the price should be displayed for the game on the <class> platform. Example values: 'USD', 'EUR', 'JPY'."
+    },
+    "region": {
+      "type": "string",
+      "description": "The region or country for which the game price should be retrieved on the <class> platform. Example values: 'US', 'EU', 'JP'."
+    },
+    "discount": {
+      "type": "boolean",
+      "description": "Flag to indicate whether to include current discounts in the price calculation for the game on the <class> platform."
+    },
+    "language": {
+      "type": "string",
+      "description": "The language in which the game price information should be displayed on the <class> platform. Example values: 'en', 'fr', 'de'."
+    }
+  }
+}

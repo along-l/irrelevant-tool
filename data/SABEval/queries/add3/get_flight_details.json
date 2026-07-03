@@ -1,0 +1,264 @@
+{
+  "get_flight_details|:|flight|:|origin,destination,departure_time,arrival_time,travel_class": {
+    "tool_template_name": "get_flight_details",
+    "derived_class": "flight",
+    "params_for_query": [
+      "origin",
+      "destination",
+      "departure_time",
+      "arrival_time",
+      "travel_class"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide details for a flight from New York to London, departing at 09:00 and arriving at 21:00 in business class?",
+        "filled_param": {
+          "origin": "New York",
+          "destination": "London",
+          "departure_time": "09:00",
+          "arrival_time": "21:00",
+          "travel_class": "business"
+        }
+      },
+      {
+        "query": "I need the flight information for a journey from Tokyo to Sydney, leaving at 22:30 and reaching at 07:15 in economy class.",
+        "filled_param": {
+          "origin": "Tokyo",
+          "destination": "Sydney",
+          "departure_time": "22:30",
+          "arrival_time": "07:15",
+          "travel_class": "economy"
+        }
+      },
+      {
+        "query": "Give me the details for a first-class flight departing from Paris to Berlin at 14:45 and arriving at 16:30.",
+        "filled_param": {
+          "origin": "Paris",
+          "destination": "Berlin",
+          "departure_time": "14:45",
+          "arrival_time": "16:30",
+          "travel_class": "first class"
+        }
+      },
+      {
+        "query": "What are the details of a flight from Los Angeles to Miami, scheduled to leave at 06:15 and arrive at 14:00 in economy class?",
+        "filled_param": {
+          "origin": "Los Angeles",
+          "destination": "Miami",
+          "departure_time": "06:15",
+          "arrival_time": "14:00",
+          "travel_class": "economy"
+        }
+      },
+      {
+        "query": "Please find a flight from Dubai to New Delhi, departing at 18:00 and arriving at 23:30 in business class.",
+        "filled_param": {
+          "origin": "Dubai",
+          "destination": "New Delhi",
+          "departure_time": "18:00",
+          "arrival_time": "23:30",
+          "travel_class": "business"
+        }
+      }
+    ]
+  },
+  "get_flight_details|:|high-speed train|:|origin,destination,departure_time,arrival_time,travel_class": {
+    "tool_template_name": "get_flight_details",
+    "derived_class": "high-speed train",
+    "params_for_query": [
+      "origin",
+      "destination",
+      "departure_time",
+      "arrival_time",
+      "travel_class"
+    ],
+    "queries": [
+      {
+        "query": "What are the details for a high-speed train leaving from Paris to Berlin at 08:30 and arriving at 14:00 in business class?",
+        "filled_param": {
+          "origin": "Paris",
+          "destination": "Berlin",
+          "departure_time": "08:30",
+          "arrival_time": "14:00",
+          "travel_class": "business"
+        }
+      },
+      {
+        "query": "Can you provide information on a high-speed train traveling from Tokyo to Osaka, departing at 09:15 and arriving at 12:30 in first class?",
+        "filled_param": {
+          "origin": "Tokyo",
+          "destination": "Osaka",
+          "departure_time": "09:15",
+          "arrival_time": "12:30",
+          "travel_class": "first class"
+        }
+      },
+      {
+        "query": "I need to know the details of the high-speed train from New York to Washington D.C., departing at 11:00 and reaching at 13:45 in economy class.",
+        "filled_param": {
+          "origin": "New York",
+          "destination": "Washington D.C.",
+          "departure_time": "11:00",
+          "arrival_time": "13:45",
+          "travel_class": "economy"
+        }
+      },
+      {
+        "query": "Tell me about the high-speed train service from London to Edinburgh leaving at 07:00 and arriving at 11:30 in first class.",
+        "filled_param": {
+          "origin": "London",
+          "destination": "Edinburgh",
+          "departure_time": "07:00",
+          "arrival_time": "11:30",
+          "travel_class": "first class"
+        }
+      },
+      {
+        "query": "Could you give me the details of a high-speed train from Beijing to Shanghai, departing at 14:45 and arriving at 19:00 in business class?",
+        "filled_param": {
+          "origin": "Beijing",
+          "destination": "Shanghai",
+          "departure_time": "14:45",
+          "arrival_time": "19:00",
+          "travel_class": "business"
+        }
+      },
+      {
+        "query": "What is the schedule for a high-speed train that goes from Madrid to Barcelona, leaving at 10:30 and arriving at 13:15 in economy class?",
+        "filled_param": {
+          "origin": "Madrid",
+          "destination": "Barcelona",
+          "departure_time": "10:30",
+          "arrival_time": "13:15",
+          "travel_class": "economy"
+        }
+      }
+    ]
+  },
+  "get_flight_details|:|cruise ship|:|origin,destination,departure_time,arrival_time,travel_class": {
+    "tool_template_name": "get_flight_details",
+    "derived_class": "cruise ship",
+    "params_for_query": [
+      "origin",
+      "destination",
+      "departure_time",
+      "arrival_time",
+      "travel_class"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide details for a cruise ship journey from Miami to Nassau departing at 08:30 and arriving at 12:00 with first class service?",
+        "filled_param": {
+          "origin": "Miami",
+          "destination": "Nassau",
+          "departure_time": "08:30",
+          "arrival_time": "12:00",
+          "travel_class": "first class"
+        }
+      },
+      {
+        "query": "I need the cruise ship details going from Sydney to Auckland with an economy class option, leaving at 10:00 and reaching at 18:30.",
+        "filled_param": {
+          "origin": "Sydney",
+          "destination": "Auckland",
+          "departure_time": "10:00",
+          "arrival_time": "18:30",
+          "travel_class": "economy"
+        }
+      },
+      {
+        "query": "What's the schedule for a cruise ship traveling from Barcelona to Rome, departing at 14:00 and arriving at 07:00 the next day, in business class?",
+        "filled_param": {
+          "origin": "Barcelona",
+          "destination": "Rome",
+          "departure_time": "14:00",
+          "arrival_time": "07:00",
+          "travel_class": "business"
+        }
+      },
+      {
+        "query": "Find a cruise ship from New York to Bermuda that departs at 09:00 and arrives at 15:00, offering first class accommodations.",
+        "filled_param": {
+          "origin": "New York",
+          "destination": "Bermuda",
+          "departure_time": "09:00",
+          "arrival_time": "15:00",
+          "travel_class": "first class"
+        }
+      },
+      {
+        "query": "Is there a cruise ship route available from Vancouver to Juneau, leaving at 17:00 and arriving by 23:00, in economy class?",
+        "filled_param": {
+          "origin": "Vancouver",
+          "destination": "Juneau",
+          "departure_time": "17:00",
+          "arrival_time": "23:00",
+          "travel_class": "economy"
+        }
+      }
+    ]
+  },
+  "get_flight_details|:|long-distance bus|:|origin,destination,departure_time,arrival_time,travel_class": {
+    "tool_template_name": "get_flight_details",
+    "derived_class": "long-distance bus",
+    "params_for_query": [
+      "origin",
+      "destination",
+      "departure_time",
+      "arrival_time",
+      "travel_class"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide details for a long-distance bus traveling from New York to Boston, departing at 08:30 and arriving at 12:45 in economy class?",
+        "filled_param": {
+          "origin": "New York",
+          "destination": "Boston",
+          "departure_time": "08:30",
+          "arrival_time": "12:45",
+          "travel_class": "economy"
+        }
+      },
+      {
+        "query": "Find a long-distance bus service that leaves Los Angeles at 14:00 and reaches San Francisco by 20:00, traveling in business class.",
+        "filled_param": {
+          "origin": "Los Angeles",
+          "destination": "San Francisco",
+          "departure_time": "14:00",
+          "arrival_time": "20:00",
+          "travel_class": "business"
+        }
+      },
+      {
+        "query": "I need the schedule for a long-distance bus from Chicago to Detroit, departing at 07:15 and arriving at 11:30 in first class.",
+        "filled_param": {
+          "origin": "Chicago",
+          "destination": "Detroit",
+          "departure_time": "07:15",
+          "arrival_time": "11:30",
+          "travel_class": "first class"
+        }
+      },
+      {
+        "query": "What are the details for a long-distance bus journey starting from Miami to Orlando, leaving at 09:00 and reaching by 12:30 in economy class?",
+        "filled_param": {
+          "origin": "Miami",
+          "destination": "Orlando",
+          "departure_time": "09:00",
+          "arrival_time": "12:30",
+          "travel_class": "economy"
+        }
+      },
+      {
+        "query": "Provide information on a long-distance bus that departs from Houston at 15:45 to Dallas, arriving at 20:15 in business class.",
+        "filled_param": {
+          "origin": "Houston",
+          "destination": "Dallas",
+          "departure_time": "15:45",
+          "arrival_time": "20:15",
+          "travel_class": "business"
+        }
+      }
+    ]
+  }
+}

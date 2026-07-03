@@ -1,0 +1,452 @@
+{
+  "calculate_emission_savings|:|solar energy|:|usage_duration,region,installation_cost,maintenance_frequency": {
+    "tool_template_name": "calculate_emission_savings",
+    "derived_class": "solar energy",
+    "params_for_query": [
+      "usage_duration",
+      "region",
+      "installation_cost",
+      "maintenance_frequency"
+    ],
+    "queries": [
+      {
+        "query": "How much greenhouse gas emissions can be saved if I use solar energy for 24 months in California, considering an installation cost of $15,000 and maintenance every 3 years?",
+        "filled_param": {
+          "usage_duration": 24,
+          "region": "California",
+          "installation_cost": 15000,
+          "maintenance_frequency": 3
+        }
+      },
+      {
+        "query": "Calculate the potential emission savings from adopting solar energy for 36 months in Texas with an installation cost of $20,000 and a maintenance schedule of every 5 years.",
+        "filled_param": {
+          "usage_duration": 36,
+          "region": "Texas",
+          "installation_cost": 20000,
+          "maintenance_frequency": 5
+        }
+      },
+      {
+        "query": "What is the emission reduction if solar energy is used for 12 months in New York, with an installation cost of $12,000 and maintenance needed every 2 years?",
+        "filled_param": {
+          "usage_duration": 12,
+          "region": "New York",
+          "installation_cost": 12000,
+          "maintenance_frequency": 2
+        }
+      },
+      {
+        "query": "If I switch to solar energy for 48 months in Florida, with an installation cost of $18,500 and maintenance required every 4 years, how much emissions can be saved?",
+        "filled_param": {
+          "usage_duration": 48,
+          "region": "Florida",
+          "installation_cost": 18500,
+          "maintenance_frequency": 4
+        }
+      },
+      {
+        "query": "Determine the greenhouse gas savings by using solar energy for 60 months in Arizona, with an installation expense of $25,000 and maintenance every 7 years.",
+        "filled_param": {
+          "usage_duration": 60,
+          "region": "Arizona",
+          "installation_cost": 25000,
+          "maintenance_frequency": 7
+        }
+      },
+      {
+        "query": "How much emissions reduction can be achieved in Nevada by adopting solar energy for 30 months with a $10,000 installation cost and maintenance every 3 years?",
+        "filled_param": {
+          "usage_duration": 30,
+          "region": "Nevada",
+          "installation_cost": 10000,
+          "maintenance_frequency": 3
+        }
+      },
+      {
+        "query": "Estimate the emissions savings if solar energy is utilized for 18 months in Oregon, with a setup cost of $14,500 and maintenance occurring every 6 years.",
+        "filled_param": {
+          "usage_duration": 18,
+          "region": "Oregon",
+          "installation_cost": 14500,
+          "maintenance_frequency": 6
+        }
+      }
+    ]
+  },
+  "calculate_emission_savings|:|wind energy|:|usage_duration,region,installation_cost,maintenance_frequency": {
+    "tool_template_name": "calculate_emission_savings",
+    "derived_class": "wind energy",
+    "params_for_query": [
+      "usage_duration",
+      "region",
+      "installation_cost",
+      "maintenance_frequency"
+    ],
+    "queries": [
+      {
+        "query": "How much greenhouse gas emissions can we save by using wind energy for 18 months in Texas with an installation cost of $50,000 and maintenance every 3 years?",
+        "filled_param": {
+          "usage_duration": 18,
+          "region": "Texas",
+          "installation_cost": 50000,
+          "maintenance_frequency": 3
+        }
+      },
+      {
+        "query": "If we switch to wind energy in California with an installation cost of $75,000, maintenance every 5 years, and use it for 24 months, what would be the emission savings?",
+        "filled_param": {
+          "usage_duration": 24,
+          "region": "California",
+          "installation_cost": 75000,
+          "maintenance_frequency": 5
+        }
+      },
+      {
+        "query": "Calculate the potential reduction in emissions by installing wind energy for 12 months in New York with a $60,000 setup cost and 4-year maintenance intervals.",
+        "filled_param": {
+          "usage_duration": 12,
+          "region": "New York",
+          "installation_cost": 60000,
+          "maintenance_frequency": 4
+        }
+      },
+      {
+        "query": "What are the emissions savings from using wind energy for 36 months in Florida, given an installation cost of $40,000 and a maintenance frequency of 2 years?",
+        "filled_param": {
+          "usage_duration": 36,
+          "region": "Florida",
+          "installation_cost": 40000,
+          "maintenance_frequency": 2
+        }
+      },
+      {
+        "query": "Determine the greenhouse gas savings for adopting wind energy in Illinois, considering a $55,000 installation cost, 3-year maintenance cycle, and 30 months of usage.",
+        "filled_param": {
+          "usage_duration": 30,
+          "region": "Illinois",
+          "installation_cost": 55000,
+          "maintenance_frequency": 3
+        }
+      },
+      {
+        "query": "Estimate the emission reductions by using wind energy in Washington for 15 months, with an installation expense of $80,000 and maintenance every 6 years.",
+        "filled_param": {
+          "usage_duration": 15,
+          "region": "Washington",
+          "installation_cost": 80000,
+          "maintenance_frequency": 6
+        }
+      },
+      {
+        "query": "Find out how much emissions could be cut by switching to wind energy in Ohio for a duration of 20 months, with a $65,000 initial cost and maintenance required every 4 years.",
+        "filled_param": {
+          "usage_duration": 20,
+          "region": "Ohio",
+          "installation_cost": 65000,
+          "maintenance_frequency": 4
+        }
+      }
+    ]
+  },
+  "calculate_emission_savings|:|hydropower|:|usage_duration,region,installation_cost,maintenance_frequency": {
+    "tool_template_name": "calculate_emission_savings",
+    "derived_class": "hydropower",
+    "params_for_query": [
+      "usage_duration",
+      "region",
+      "installation_cost",
+      "maintenance_frequency"
+    ],
+    "queries": [
+      {
+        "query": "How much greenhouse gas could be saved by using hydropower for 24 months in the Pacific Northwest, considering an installation cost of 50000 USD and maintenance every 5 years?",
+        "filled_param": {
+          "usage_duration": 24,
+          "region": "Pacific Northwest",
+          "installation_cost": 50000,
+          "maintenance_frequency": 5
+        }
+      },
+      {
+        "query": "Calculate the emission savings for switching to hydropower in Southern California, with a usage duration of 36 months, an installation cost of 75000 USD, and maintenance required every 3 years.",
+        "filled_param": {
+          "usage_duration": 36,
+          "region": "Southern California",
+          "installation_cost": 75000,
+          "maintenance_frequency": 3
+        }
+      },
+      {
+        "query": "If hydropower is used for 12 months in the Appalachian region, with an initial installation cost of 60000 USD and maintenance every 2 years, how much greenhouse gas emission can be avoided?",
+        "filled_param": {
+          "usage_duration": 12,
+          "region": "Appalachian",
+          "installation_cost": 60000,
+          "maintenance_frequency": 2
+        }
+      },
+      {
+        "query": "Estimate the greenhouse gas emission reduction for hydropower usage over 48 months in the Midwest, given a 85000 USD installation cost and maintenance every 4 years.",
+        "filled_param": {
+          "usage_duration": 48,
+          "region": "Midwest",
+          "installation_cost": 85000,
+          "maintenance_frequency": 4
+        }
+      },
+      {
+        "query": "What are the potential emissions savings by adopting hydropower for 18 months in the New England area with a 55000 USD installation cost and maintenance scheduled every 5 years?",
+        "filled_param": {
+          "usage_duration": 18,
+          "region": "New England",
+          "installation_cost": 55000,
+          "maintenance_frequency": 5
+        }
+      },
+      {
+        "query": "Can you work out the emissions reduction when hydropower is used for 60 months in Texas, with an installation cost of 90000 USD and maintenance needed every 6 years?",
+        "filled_param": {
+          "usage_duration": 60,
+          "region": "Texas",
+          "installation_cost": 90000,
+          "maintenance_frequency": 6
+        }
+      },
+      {
+        "query": "Determine the greenhouse gas savings from hydropower in Florida over a 30-month period with an installation cost of 70000 USD and maintenance performed every 3 years.",
+        "filled_param": {
+          "usage_duration": 30,
+          "region": "Florida",
+          "installation_cost": 70000,
+          "maintenance_frequency": 3
+        }
+      }
+    ]
+  },
+  "calculate_emission_savings|:|geothermal energy|:|usage_duration,region,installation_cost,maintenance_frequency": {
+    "tool_template_name": "calculate_emission_savings",
+    "derived_class": "geothermal energy",
+    "params_for_query": [
+      "usage_duration",
+      "region",
+      "installation_cost",
+      "maintenance_frequency"
+    ],
+    "queries": [
+      {
+        "query": "How many greenhouse gas emissions can be saved if geothermal energy is used for 24 months in California with an installation cost of $15,000 and a maintenance frequency of every 2 years?",
+        "filled_param": {
+          "usage_duration": 24,
+          "region": "California",
+          "installation_cost": 15000,
+          "maintenance_frequency": 2
+        }
+      },
+      {
+        "query": "Calculate the emissions savings when geothermal energy is used for 36 months in New York, considering an installation cost of $20,000 and maintenance every 3 years.",
+        "filled_param": {
+          "usage_duration": 36,
+          "region": "New York",
+          "installation_cost": 20000,
+          "maintenance_frequency": 3
+        }
+      },
+      {
+        "query": "What are the potential greenhouse gas savings for 12 months of geothermal energy usage in Texas with an installation cost of $10,000 and a maintenance cycle of 1 year?",
+        "filled_param": {
+          "usage_duration": 12,
+          "region": "Texas",
+          "installation_cost": 10000,
+          "maintenance_frequency": 1
+        }
+      },
+      {
+        "query": "Assess the emission savings from using geothermal energy for 60 months in Oregon with an installation cost of $25,000 and maintenance required every 5 years.",
+        "filled_param": {
+          "usage_duration": 60,
+          "region": "Oregon",
+          "installation_cost": 25000,
+          "maintenance_frequency": 5
+        }
+      },
+      {
+        "query": "Estimate the reduction in greenhouse gases if geothermal energy is implemented for 48 months in Florida, with an initial installation cost of $18,000 and maintenance every 4 years.",
+        "filled_param": {
+          "usage_duration": 48,
+          "region": "Florida",
+          "installation_cost": 18000,
+          "maintenance_frequency": 4
+        }
+      },
+      {
+        "query": "Determine the greenhouse gas savings for a geothermal energy system used in Washington for 30 months, with a setup cost of $12,000 and maintenance every 2 years.",
+        "filled_param": {
+          "usage_duration": 30,
+          "region": "Washington",
+          "installation_cost": 12000,
+          "maintenance_frequency": 2
+        }
+      },
+      {
+        "query": "If geothermal energy is used for 18 months in Nevada, how much emissions can be saved given the installation cost is $14,000 and maintenance occurs every 3 years?",
+        "filled_param": {
+          "usage_duration": 18,
+          "region": "Nevada",
+          "installation_cost": 14000,
+          "maintenance_frequency": 3
+        }
+      }
+    ]
+  },
+  "calculate_emission_savings|:|biomass energy|:|usage_duration,region,installation_cost,maintenance_frequency": {
+    "tool_template_name": "calculate_emission_savings",
+    "derived_class": "biomass energy",
+    "params_for_query": [
+      "usage_duration",
+      "region",
+      "installation_cost",
+      "maintenance_frequency"
+    ],
+    "queries": [
+      {
+        "query": "How much greenhouse gas emission savings can be expected from using biomass energy for 24 months in the Midwest region, with an installation cost of $10,000 and maintenance every 2 years?",
+        "filled_param": {
+          "usage_duration": 24,
+          "region": "Midwest",
+          "installation_cost": 10000,
+          "maintenance_frequency": 2
+        }
+      },
+      {
+        "query": "Calculate the potential emission savings of switching to biomass energy in Northern Europe for 36 months, with a setup cost of $15,000 and maintenance required every 3 years.",
+        "filled_param": {
+          "usage_duration": 36,
+          "region": "Northern Europe",
+          "installation_cost": 15000,
+          "maintenance_frequency": 3
+        }
+      },
+      {
+        "query": "What are the emission savings from using biomass energy in the Southwest over a period of 12 months, considering an installation expense of $8,500 and maintenance every year?",
+        "filled_param": {
+          "usage_duration": 12,
+          "region": "Southwest",
+          "installation_cost": 8500,
+          "maintenance_frequency": 1
+        }
+      },
+      {
+        "query": "If biomass energy is used in the East Coast for 48 months, with an installation cost of $20,000 and maintenance needed every 4 years, how much emissions can be saved?",
+        "filled_param": {
+          "usage_duration": 48,
+          "region": "East Coast",
+          "installation_cost": 20000,
+          "maintenance_frequency": 4
+        }
+      },
+      {
+        "query": "Determine the greenhouse gas savings from 18 months of biomass energy usage in the Mediterranean region, with an initial installation cost of $12,000 and maintenance every 2 years.",
+        "filled_param": {
+          "usage_duration": 18,
+          "region": "Mediterranean",
+          "installation_cost": 12000,
+          "maintenance_frequency": 2
+        }
+      },
+      {
+        "query": "What emission reductions can be achieved by implementing biomass energy in the Pacific Northwest for 60 months, at a cost of $25,000 for installation and maintenance occurring every 5 years?",
+        "filled_param": {
+          "usage_duration": 60,
+          "region": "Pacific Northwest",
+          "installation_cost": 25000,
+          "maintenance_frequency": 5
+        }
+      },
+      {
+        "query": "I want to know the greenhouse gas emission savings from using biomass energy in Southeast Asia for 30 months, with a $9,000 installation fee and maintenance every 3 years.",
+        "filled_param": {
+          "usage_duration": 30,
+          "region": "Southeast Asia",
+          "installation_cost": 9000,
+          "maintenance_frequency": 3
+        }
+      }
+    ]
+  },
+  "calculate_emission_savings|:|tidal energy|:|usage_duration,region,installation_cost,maintenance_frequency": {
+    "tool_template_name": "calculate_emission_savings",
+    "derived_class": "tidal energy",
+    "params_for_query": [
+      "usage_duration",
+      "region",
+      "installation_cost",
+      "maintenance_frequency"
+    ],
+    "queries": [
+      {
+        "query": "How much greenhouse gas emission savings can be achieved by using tidal energy for 24 months in the Pacific Northwest, given an installation cost of 150,000 USD and maintenance every 3 years?",
+        "filled_param": {
+          "usage_duration": 24,
+          "region": "Pacific Northwest",
+          "installation_cost": 150000,
+          "maintenance_frequency": 3
+        }
+      },
+      {
+        "query": "What is the emission savings potential if tidal energy is used for 36 months in Scotland, with an installation cost of 200,000 USD and maintenance required every 2 years?",
+        "filled_param": {
+          "usage_duration": 36,
+          "region": "Scotland",
+          "installation_cost": 200000,
+          "maintenance_frequency": 2
+        }
+      },
+      {
+        "query": "Calculate the greenhouse gas reductions for 12 months of tidal energy usage in New Zealand with a 120,000 USD installation cost and maintenance every 5 years.",
+        "filled_param": {
+          "usage_duration": 12,
+          "region": "New Zealand",
+          "installation_cost": 120000,
+          "maintenance_frequency": 5
+        }
+      },
+      {
+        "query": "Estimate the savings in emissions by implementing tidal energy for 48 months in the Bay of Fundy, with an installation cost amounting to 250,000 USD and maintenance every 4 years.",
+        "filled_param": {
+          "usage_duration": 48,
+          "region": "Bay of Fundy",
+          "installation_cost": 250000,
+          "maintenance_frequency": 4
+        }
+      },
+      {
+        "query": "Suppose tidal energy is utilized for 60 months in South Korea, with an initial installation cost of 300,000 USD and maintenance needed every 3 years. What are the potential emissions savings?",
+        "filled_param": {
+          "usage_duration": 60,
+          "region": "South Korea",
+          "installation_cost": 300000,
+          "maintenance_frequency": 3
+        }
+      },
+      {
+        "query": "Determine the reduction in greenhouse gas emissions if tidal energy is used for 18 months in Norway, with a setup cost of 180,000 USD and maintenance every 2 years.",
+        "filled_param": {
+          "usage_duration": 18,
+          "region": "Norway",
+          "installation_cost": 180000,
+          "maintenance_frequency": 2
+        }
+      },
+      {
+        "query": "If tidal energy were used for 30 months in the coastal areas of France with a 220,000 USD installation cost and maintenance occurring every 4 years, how much emission saving is expected?",
+        "filled_param": {
+          "usage_duration": 30,
+          "region": "coastal areas of France",
+          "installation_cost": 220000,
+          "maintenance_frequency": 4
+        }
+      }
+    ]
+  }
+}

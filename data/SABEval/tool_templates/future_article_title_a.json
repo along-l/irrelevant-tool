@@ -1,0 +1,67 @@
+{
+  "tool_template_name": "future_article_title_a",
+  "meta_data": {
+    "base_class": "Generate an article title about future trends focused on a specific <perspective> - refers to the core angle or analytical dimension adopted when discussing future trends.",
+    "derived_classes": [
+      "technological advancements",
+      "economic development",
+      "environmental sustainability",
+      "geopolitical landscape",
+      "military power",
+      "demographic shifts",
+      "education transformation"
+    ],
+    "base_class_entity": "technological advancements"
+  },
+  "tool_template": {
+    "name": "future_article_title_<class>",
+    "description": "Generates a title for an article about future trends focusing on <class>.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "topic": {
+          "type": "string",
+          "description": "Primary topic of the article."
+        }
+      },
+      "required": [
+        "topic"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "year": {
+      "type": "number",
+      "description": "Year in the future to which the article focusing on <class> pertains."
+    },
+    "related_elements": {
+      "type": "array",
+      "description": "List of elements related to the <class> topic.",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additional_params": {
+    "audience": {
+      "type": "string",
+      "description": "The target audience for the article about future trends in <class>."
+    },
+    "tone": {
+      "type": "string",
+      "description": "The desired tone for the article, such as 'optimistic', 'analytical', 'neutral' or 'pessimistic'."
+    },
+    "word_count": {
+      "type": "integer",
+      "description": "Approximate word count for the article title, guiding its length."
+    },
+    "region_focus": {
+      "type": "string",
+      "description": "Specific geographic region of focus for the future trends in <class> article, if applicable."
+    },
+    "expert_consultation": {
+      "type": "boolean",
+      "description": "Indicates whether expert opinions are considered in shaping the article title about <class>."
+    }
+  }
+}

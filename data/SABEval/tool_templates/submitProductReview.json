@@ -1,0 +1,73 @@
+{
+  "tool_template_name": "submitProductReview",
+  "meta_data": {
+    "base_class": "Allow users to submit reviews for purchased <products> - refers to various goods or content that can be bought and subjectively evaluated by consumers.",
+    "derived_classes": [
+      "movie disc",
+      "book",
+      "App Store app",
+      "instant food",
+      "music album",
+      "video game",
+      "car",
+      "cosmetic product",
+      "home appliance",
+      "clothing"
+    ],
+    "base_class_entity": "product"
+  },
+  "tool_template": {
+    "name": "submit<class>Review",
+    "description": "Allows users to submit a review for a <class> they have purchased.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "UserName": {
+          "type": "string",
+          "description": "Name of the user submitting the review for the <class>."
+        },
+        "ProductName": {
+          "type": "string",
+          "description": "Name of the <class> being reviewed."
+        },
+        "ReviewText": {
+          "type": "string",
+          "description": "Text content of the user's review."
+        },
+        "Rating": {
+          "type": "integer",
+          "description": "Numerical rating given to the <class> by the user (1 to 5)."
+        }
+      },
+      "required": [
+        "UserName",
+        "ProductName",
+        "ReviewText",
+        "Rating"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "PurchaseDate": {
+      "type": "string",
+      "description": "The date when the <class> was purchased. This helps verify the authenticity of the review."
+    },
+    "UsageDuration": {
+      "type": "integer",
+      "description": "The duration in days that the user has spent using or experiencing the <class>. This provides context to the rating and review."
+    },
+    "Location": {
+      "type": "string",
+      "description": "The geographical location where the <class> was primarily used. This can provide insights into region-specific experiences."
+    },
+    "RecommendToOthers": {
+      "type": "boolean",
+      "description": "Indicates whether the user would recommend the <class> to others. This adds qualitative value to the review."
+    },
+    "VerifiedPurchase": {
+      "type": "boolean",
+      "description": "Indicates if the <class> review is from a verified purchase, ensuring the reliability of the review."
+    }
+  }
+}

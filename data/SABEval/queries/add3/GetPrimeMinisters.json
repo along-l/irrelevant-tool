@@ -1,0 +1,1058 @@
+{
+  "GetPrimeMinisters|:|presidents|:|countries,start_date,end_date,include_interim": {
+    "tool_template_name": "GetPrimeMinisters",
+    "derived_class": "presidents",
+    "params_for_query": [
+      "countries",
+      "start_date",
+      "end_date",
+      "include_interim"
+    ],
+    "queries": [
+      {
+        "query": "Could you tell me the presidents of France, Germany, and Canada from 2022-01-01 to 2023-01-01, including any interim presidents?",
+        "filled_param": {
+          "countries": [
+            "France",
+            "Germany",
+            "Canada"
+          ],
+          "start_date": "2022-01-01",
+          "end_date": "2023-01-01",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "List the presidents for Brazil and Argentina between 2021-05-15 and 2022-05-15, excluding interim presidents.",
+        "filled_param": {
+          "countries": [
+            "Brazil",
+            "Argentina"
+          ],
+          "start_date": "2021-05-15",
+          "end_date": "2022-05-15",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "Who were the presidents of Italy and Japan from 2020-03-01 to 2020-12-31? Please include interim leaders.",
+        "filled_param": {
+          "countries": [
+            "Italy",
+            "Japan"
+          ],
+          "start_date": "2020-03-01",
+          "end_date": "2020-12-31",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "Give me the names of the presidents of the United States and Mexico for the period between 2019-01-01 and 2020-01-01, without including any interim presidents.",
+        "filled_param": {
+          "countries": [
+            "United States",
+            "Mexico"
+          ],
+          "start_date": "2019-01-01",
+          "end_date": "2020-01-01",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "I need to know the presidents of South Korea and South Africa from 2018-07-01 to 2019-07-01, including interim presidents.",
+        "filled_param": {
+          "countries": [
+            "South Korea",
+            "South Africa"
+          ],
+          "start_date": "2018-07-01",
+          "end_date": "2019-07-01",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "Find the presidents for Norway and Sweden for the duration of 2021-06-01 to 2022-06-01. Do not include interim presidents.",
+        "filled_param": {
+          "countries": [
+            "Norway",
+            "Sweden"
+          ],
+          "start_date": "2021-06-01",
+          "end_date": "2022-06-01",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "Who held the presidential office in India and Russia from 2017-04-01 to 2018-04-01, including interim presidents?",
+        "filled_param": {
+          "countries": [
+            "India",
+            "Russia"
+          ],
+          "start_date": "2017-04-01",
+          "end_date": "2018-04-01",
+          "include_interim": true
+        }
+      }
+    ]
+  },
+  "GetPrimeMinisters|:|ministers of defense|:|countries,start_date,end_date,include_interim": {
+    "tool_template_name": "GetPrimeMinisters",
+    "derived_class": "ministers of defense",
+    "params_for_query": [
+      "countries",
+      "start_date",
+      "end_date",
+      "include_interim"
+    ],
+    "queries": [
+      {
+        "query": "Who are the current ministers of defense for Canada, Germany, and Japan from 2023-01-01 to 2023-10-01, including any interim ministers?",
+        "filled_param": {
+          "countries": [
+            "Canada",
+            "Germany",
+            "Japan"
+          ],
+          "start_date": "2023-01-01",
+          "end_date": "2023-10-01",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "Please provide the names of the ministers of defense for France and Italy between 2022-06-15 and 2023-04-30, excluding interim ministers.",
+        "filled_param": {
+          "countries": [
+            "France",
+            "Italy"
+          ],
+          "start_date": "2022-06-15",
+          "end_date": "2023-04-30",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "List the ministers of defense for the United States and Russia from 2021-09-01 to 2022-09-01, whether interim or not.",
+        "filled_param": {
+          "countries": [
+            "United States",
+            "Russia"
+          ],
+          "start_date": "2021-09-01",
+          "end_date": "2022-09-01",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "I need the names of the ministers of defense for Argentina, Brazil, and Chile from 2022-01-01 to 2022-12-31, only showing those who were not interim.",
+        "filled_param": {
+          "countries": [
+            "Argentina",
+            "Brazil",
+            "Chile"
+          ],
+          "start_date": "2022-01-01",
+          "end_date": "2022-12-31",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "Who held the position of minister of defense in India and South Africa during the period 2023-03-01 to 2023-09-01, including acting ministers?",
+        "filled_param": {
+          "countries": [
+            "India",
+            "South Africa"
+          ],
+          "start_date": "2023-03-01",
+          "end_date": "2023-09-01",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "Can you give me the names of the ministers of defense for China and the United Kingdom from 2020-05-01 to 2021-05-01, excluding acting ministers?",
+        "filled_param": {
+          "countries": [
+            "China",
+            "United Kingdom"
+          ],
+          "start_date": "2020-05-01",
+          "end_date": "2021-05-01",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "Who were the ministers of defense for Australia and New Zealand from 2021-01-01 to 2022-01-01, including interim holders?",
+        "filled_param": {
+          "countries": [
+            "Australia",
+            "New Zealand"
+          ],
+          "start_date": "2021-01-01",
+          "end_date": "2022-01-01",
+          "include_interim": true
+        }
+      }
+    ]
+  },
+  "GetPrimeMinisters|:|ministers of foreign affairs|:|countries,start_date,end_date,include_interim": {
+    "tool_template_name": "GetPrimeMinisters",
+    "derived_class": "ministers of foreign affairs",
+    "params_for_query": [
+      "countries",
+      "start_date",
+      "end_date",
+      "include_interim"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the names of the ministers of foreign affairs for France and Germany from 2023-01-01 to 2023-07-01, including any interim ministers?",
+        "filled_param": {
+          "countries": [
+            "France",
+            "Germany"
+          ],
+          "start_date": "2023-01-01",
+          "end_date": "2023-07-01",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "I need to know who served as the ministers of foreign affairs for Canada, Brazil, and Japan between 2022-06-01 and 2023-06-01, excluding interim ministers.",
+        "filled_param": {
+          "countries": [
+            "Canada",
+            "Brazil",
+            "Japan"
+          ],
+          "start_date": "2022-06-01",
+          "end_date": "2023-06-01",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "Please list the ministers of foreign affairs for the United States and China from 2021-01-01 to 2023-01-01, and make sure to include any interim ministers.",
+        "filled_param": {
+          "countries": [
+            "United States",
+            "China"
+          ],
+          "start_date": "2021-01-01",
+          "end_date": "2023-01-01",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "Who were the ministers of foreign affairs for Italy and Spain from 2020-01-01 to 2021-12-31? Do not include interim ministers.",
+        "filled_param": {
+          "countries": [
+            "Italy",
+            "Spain"
+          ],
+          "start_date": "2020-01-01",
+          "end_date": "2021-12-31",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "Get the names of the ministers of foreign affairs for India and Australia between 2019-05-01 and 2020-05-01, with interim ministers included.",
+        "filled_param": {
+          "countries": [
+            "India",
+            "Australia"
+          ],
+          "start_date": "2019-05-01",
+          "end_date": "2020-05-01",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "Can you tell me who held the position of ministers of foreign affairs in Russia and South Africa from 2018-01-01 to 2019-01-01, excluding interim ones?",
+        "filled_param": {
+          "countries": [
+            "Russia",
+            "South Africa"
+          ],
+          "start_date": "2018-01-01",
+          "end_date": "2019-01-01",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "Identify the ministers of foreign affairs for Argentina and Mexico from 2017-06-01 to 2018-06-01 and include interim ministers if applicable.",
+        "filled_param": {
+          "countries": [
+            "Argentina",
+            "Mexico"
+          ],
+          "start_date": "2017-06-01",
+          "end_date": "2018-06-01",
+          "include_interim": true
+        }
+      }
+    ]
+  },
+  "GetPrimeMinisters|:|ministers of finance|:|countries,start_date,end_date,include_interim": {
+    "tool_template_name": "GetPrimeMinisters",
+    "derived_class": "ministers of finance",
+    "params_for_query": [
+      "countries",
+      "start_date",
+      "end_date",
+      "include_interim"
+    ],
+    "queries": [
+      {
+        "query": "Please provide the names of the ministers of finance for Germany and Canada from 2022-01-01 to 2023-01-01, including any interim ministers.",
+        "filled_param": {
+          "countries": [
+            "Germany",
+            "Canada"
+          ],
+          "start_date": "2022-01-01",
+          "end_date": "2023-01-01",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "Who are the ministers of finance for Japan and Brazil between 2021-05-01 and 2022-05-01, excluding interim ministers?",
+        "filled_param": {
+          "countries": [
+            "Japan",
+            "Brazil"
+          ],
+          "start_date": "2021-05-01",
+          "end_date": "2022-05-01",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "List the ministers of finance for the United States and Mexico from 2020-06-15 to 2021-06-15, without including interim ministers.",
+        "filled_param": {
+          "countries": [
+            "United States",
+            "Mexico"
+          ],
+          "start_date": "2020-06-15",
+          "end_date": "2021-06-15",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "Could you find the names of the ministers of finance for France and Italy from 2019-01-01 to 2020-01-01, including interim ministers?",
+        "filled_param": {
+          "countries": [
+            "France",
+            "Italy"
+          ],
+          "start_date": "2019-01-01",
+          "end_date": "2020-01-01",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "Retrieve the current ministers of finance for South Korea and India from 2023-01-01 to 2023-12-31, with all interim ministers included.",
+        "filled_param": {
+          "countries": [
+            "South Korea",
+            "India"
+          ],
+          "start_date": "2023-01-01",
+          "end_date": "2023-12-31",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "What are the names of the ministers of finance for Australia and New Zealand from 2018-09-01 to 2019-09-01, excluding any interim ministers?",
+        "filled_param": {
+          "countries": [
+            "Australia",
+            "New Zealand"
+          ],
+          "start_date": "2018-09-01",
+          "end_date": "2019-09-01",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "I need to know the ministers of finance for Spain and Portugal from 2022-10-01 to 2023-10-01, including interim ministers.",
+        "filled_param": {
+          "countries": [
+            "Spain",
+            "Portugal"
+          ],
+          "start_date": "2022-10-01",
+          "end_date": "2023-10-01",
+          "include_interim": true
+        }
+      }
+    ]
+  },
+  "GetPrimeMinisters|:|ministers of health|:|countries,start_date,end_date,include_interim": {
+    "tool_template_name": "GetPrimeMinisters",
+    "derived_class": "ministers of health",
+    "params_for_query": [
+      "countries",
+      "start_date",
+      "end_date",
+      "include_interim"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the names of the ministers of health for Germany and France from 2023-01-01 to 2023-10-01, including any interim ministers?",
+        "filled_param": {
+          "countries": [
+            "Germany",
+            "France"
+          ],
+          "start_date": "2023-01-01",
+          "end_date": "2023-10-01",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "I need the current ministers of health for Japan, Brazil, and Canada from 2022-05-01 to 2023-03-15, but don't include interim ones.",
+        "filled_param": {
+          "countries": [
+            "Japan",
+            "Brazil",
+            "Canada"
+          ],
+          "start_date": "2022-05-01",
+          "end_date": "2023-03-15",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "Retrieve the list of ministers of health for Australia and India between 2021-01-01 and 2022-12-31, including acting ministers.",
+        "filled_param": {
+          "countries": [
+            "Australia",
+            "India"
+          ],
+          "start_date": "2021-01-01",
+          "end_date": "2022-12-31",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "Who were the ministers of health for South Africa and Nigeria from 2020-06-01 to 2021-06-01? Exclude interims from your results.",
+        "filled_param": {
+          "countries": [
+            "South Africa",
+            "Nigeria"
+          ],
+          "start_date": "2020-06-01",
+          "end_date": "2021-06-01",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "List the ministers of health for Italy, Spain, and Portugal from 2023-09-01 to 2023-09-30, including any interim appointments.",
+        "filled_param": {
+          "countries": [
+            "Italy",
+            "Spain",
+            "Portugal"
+          ],
+          "start_date": "2023-09-01",
+          "end_date": "2023-09-30",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "Get the names of the ministers of health for the United States and Mexico between 2022-01-01 and 2022-07-31 without including acting ministers.",
+        "filled_param": {
+          "countries": [
+            "United States",
+            "Mexico"
+          ],
+          "start_date": "2022-01-01",
+          "end_date": "2022-07-31",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "Could you tell me who the ministers of health were for Russia and China during the period from 2021-08-15 to 2022-08-15? Please include interim ministers.",
+        "filled_param": {
+          "countries": [
+            "Russia",
+            "China"
+          ],
+          "start_date": "2021-08-15",
+          "end_date": "2022-08-15",
+          "include_interim": true
+        }
+      }
+    ]
+  },
+  "GetPrimeMinisters|:|ministers of education|:|countries,start_date,end_date,include_interim": {
+    "tool_template_name": "GetPrimeMinisters",
+    "derived_class": "ministers of education",
+    "params_for_query": [
+      "countries",
+      "start_date",
+      "end_date",
+      "include_interim"
+    ],
+    "queries": [
+      {
+        "query": "Who were the ministers of education in Canada, France, and Japan from 2023-01-01 to 2023-06-30, including any interim ministers?",
+        "filled_param": {
+          "countries": [
+            "Canada",
+            "France",
+            "Japan"
+          ],
+          "start_date": "2023-01-01",
+          "end_date": "2023-06-30",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "Provide the names of the ministers of education for Germany, Brazil, and South Africa between 2022-05-10 and 2022-12-31, excluding interim ministers.",
+        "filled_param": {
+          "countries": [
+            "Germany",
+            "Brazil",
+            "South Africa"
+          ],
+          "start_date": "2022-05-10",
+          "end_date": "2022-12-31",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "Can you list the ministers of education for Italy, Spain, and India from 2021-03-01 to 2021-09-01, with interim ministers included?",
+        "filled_param": {
+          "countries": [
+            "Italy",
+            "Spain",
+            "India"
+          ],
+          "start_date": "2021-03-01",
+          "end_date": "2021-09-01",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "Retrieve the names of the ministers of education in the United States, United Kingdom, and Australia from 2020-07-15 to 2021-01-15, without including interim ministers.",
+        "filled_param": {
+          "countries": [
+            "United States",
+            "United Kingdom",
+            "Australia"
+          ],
+          "start_date": "2020-07-15",
+          "end_date": "2021-01-15",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "What are the names of the ministers of education for China, Russia, and Mexico for the period from 2022-01-01 to 2022-06-30, including interim ministers?",
+        "filled_param": {
+          "countries": [
+            "China",
+            "Russia",
+            "Mexico"
+          ],
+          "start_date": "2022-01-01",
+          "end_date": "2022-06-30",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "Find the ministers of education for Norway, Sweden, and Denmark from 2019-05-01 to 2019-11-30, excluding any interim ministers.",
+        "filled_param": {
+          "countries": [
+            "Norway",
+            "Sweden",
+            "Denmark"
+          ],
+          "start_date": "2019-05-01",
+          "end_date": "2019-11-30",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "Could you provide a list of the ministers of education in New Zealand, Singapore, and Malaysia from 2021-10-01 to 2022-04-01, without interim ministers?",
+        "filled_param": {
+          "countries": [
+            "New Zealand",
+            "Singapore",
+            "Malaysia"
+          ],
+          "start_date": "2021-10-01",
+          "end_date": "2022-04-01",
+          "include_interim": false
+        }
+      }
+    ]
+  },
+  "GetPrimeMinisters|:|ministers of science and technology|:|countries,start_date,end_date,include_interim": {
+    "tool_template_name": "GetPrimeMinisters",
+    "derived_class": "ministers of science and technology",
+    "params_for_query": [
+      "countries",
+      "start_date",
+      "end_date",
+      "include_interim"
+    ],
+    "queries": [
+      {
+        "query": "Retrieve the ministers of science and technology for France and Germany from 2022-01-01 to 2023-01-01, including interim ministers.",
+        "filled_param": {
+          "countries": [
+            "France",
+            "Germany"
+          ],
+          "start_date": "2022-01-01",
+          "end_date": "2023-01-01",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "Who were the ministers of science and technology in Japan and South Korea between 2021-05-15 and 2022-05-15, excluding any interim ministers?",
+        "filled_param": {
+          "countries": [
+            "Japan",
+            "South Korea"
+          ],
+          "start_date": "2021-05-15",
+          "end_date": "2022-05-15",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "Can you list the ministers of science and technology for the United States and Canada from 2020-01-01 to 2021-01-01, making sure to include interim ministers?",
+        "filled_param": {
+          "countries": [
+            "United States",
+            "Canada"
+          ],
+          "start_date": "2020-01-01",
+          "end_date": "2021-01-01",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "Find the names of the ministers of science and technology for China and Russia from 2019-03-01 to 2020-03-01, without including interim ministers.",
+        "filled_param": {
+          "countries": [
+            "China",
+            "Russia"
+          ],
+          "start_date": "2019-03-01",
+          "end_date": "2020-03-01",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "Could you provide the ministers of science and technology for Brazil and Argentina from 2022-06-01 to 2023-06-01, including any acting ministers?",
+        "filled_param": {
+          "countries": [
+            "Brazil",
+            "Argentina"
+          ],
+          "start_date": "2022-06-01",
+          "end_date": "2023-06-01",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "Give me the list of ministers of science and technology for India and Australia from 2021-09-01 to 2022-09-01, excluding interim ministers.",
+        "filled_param": {
+          "countries": [
+            "India",
+            "Australia"
+          ],
+          "start_date": "2021-09-01",
+          "end_date": "2022-09-01",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "What are the names of the ministers of science and technology for Italy and Spain from 2020-07-01 to 2021-07-01, and be sure to include interim ministers?",
+        "filled_param": {
+          "countries": [
+            "Italy",
+            "Spain"
+          ],
+          "start_date": "2020-07-01",
+          "end_date": "2021-07-01",
+          "include_interim": true
+        }
+      }
+    ]
+  },
+  "GetPrimeMinisters|:|ministers of transport|:|countries,start_date,end_date,include_interim": {
+    "tool_template_name": "GetPrimeMinisters",
+    "derived_class": "ministers of transport",
+    "params_for_query": [
+      "countries",
+      "start_date",
+      "end_date",
+      "include_interim"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the names of the ministers of transport for Germany, France, and Italy from 2022-01-01 to 2023-01-01, including interims?",
+        "filled_param": {
+          "countries": [
+            "Germany",
+            "France",
+            "Italy"
+          ],
+          "start_date": "2022-01-01",
+          "end_date": "2023-01-01",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "I need to know who served as ministers of transport in Japan and China between 2021-06-01 and 2023-06-01, excluding any interim ministers.",
+        "filled_param": {
+          "countries": [
+            "Japan",
+            "China"
+          ],
+          "start_date": "2021-06-01",
+          "end_date": "2023-06-01",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "List the ministers of transport for Brazil, Argentina, and Chile from 2020-01-01 to 2022-12-31, also include any acting ministers.",
+        "filled_param": {
+          "countries": [
+            "Brazil",
+            "Argentina",
+            "Chile"
+          ],
+          "start_date": "2020-01-01",
+          "end_date": "2022-12-31",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "Who were the ministers of transport in the United States and Canada during the period from 2019-05-01 to 2021-05-01? Do not include interim ministers.",
+        "filled_param": {
+          "countries": [
+            "United States",
+            "Canada"
+          ],
+          "start_date": "2019-05-01",
+          "end_date": "2021-05-01",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "Can you get me the names of the ministers of transport for the UK and Ireland from 2018-01-01 to 2020-01-01, without including interim positions?",
+        "filled_param": {
+          "countries": [
+            "United Kingdom",
+            "Ireland"
+          ],
+          "start_date": "2018-01-01",
+          "end_date": "2020-01-01",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "Retrieve the names of the ministers of transport for India, Australia, and New Zealand from 2020-07-01 to 2021-07-01, including any interim ministers.",
+        "filled_param": {
+          "countries": [
+            "India",
+            "Australia",
+            "New Zealand"
+          ],
+          "start_date": "2020-07-01",
+          "end_date": "2021-07-01",
+          "include_interim": true
+        }
+      }
+    ]
+  },
+  "GetPrimeMinisters|:|ministers of agriculture|:|countries,start_date,end_date,include_interim": {
+    "tool_template_name": "GetPrimeMinisters",
+    "derived_class": "ministers of agriculture",
+    "params_for_query": [
+      "countries",
+      "start_date",
+      "end_date",
+      "include_interim"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the names of the current ministers of agriculture in France, Germany, and Italy from 2023-01-01 to 2023-12-31, including any interim ministers?",
+        "filled_param": {
+          "countries": [
+            "France",
+            "Germany",
+            "Italy"
+          ],
+          "start_date": "2023-01-01",
+          "end_date": "2023-12-31",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "List the ministers of agriculture for Canada and Mexico from 2022-05-01 to 2022-11-30, excluding interim appointments.",
+        "filled_param": {
+          "countries": [
+            "Canada",
+            "Mexico"
+          ],
+          "start_date": "2022-05-01",
+          "end_date": "2022-11-30",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "I'm looking for the names of the ministers of agriculture in Japan and South Korea from 2021-03-15 to 2021-09-15, with interim ministers included.",
+        "filled_param": {
+          "countries": [
+            "Japan",
+            "South Korea"
+          ],
+          "start_date": "2021-03-15",
+          "end_date": "2021-09-15",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "Provide the names of agriculture ministers for Brazil, Argentina, and Chile between 2020-01-01 and 2020-12-31, excluding any interim ministers.",
+        "filled_param": {
+          "countries": [
+            "Brazil",
+            "Argentina",
+            "Chile"
+          ],
+          "start_date": "2020-01-01",
+          "end_date": "2020-12-31",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "Who were the ministers of agriculture for the United States and the United Kingdom from 2019-07-01 to 2019-12-31, and please include interim ministers?",
+        "filled_param": {
+          "countries": [
+            "United States",
+            "United Kingdom"
+          ],
+          "start_date": "2019-07-01",
+          "end_date": "2019-12-31",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "Can you get the names of current agriculture ministers in India and China from 2023-06-01 to 2023-06-30, excluding interim ministers?",
+        "filled_param": {
+          "countries": [
+            "India",
+            "China"
+          ],
+          "start_date": "2023-06-01",
+          "end_date": "2023-06-30",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "Find out the ministers of agriculture names for Australia and New Zealand for the period between 2022-02-01 and 2022-08-01, with interim ministers included.",
+        "filled_param": {
+          "countries": [
+            "Australia",
+            "New Zealand"
+          ],
+          "start_date": "2022-02-01",
+          "end_date": "2022-08-01",
+          "include_interim": true
+        }
+      }
+    ]
+  },
+  "GetPrimeMinisters|:|chief justices of the Supreme Court|:|countries,start_date,end_date,include_interim": {
+    "tool_template_name": "GetPrimeMinisters",
+    "derived_class": "chief justices of the Supreme Court",
+    "params_for_query": [
+      "countries",
+      "start_date",
+      "end_date",
+      "include_interim"
+    ],
+    "queries": [
+      {
+        "query": "I need the names of the chief justices of the Supreme Court for the United States and Canada from 2022-01-01 to 2023-01-01, including any interim appointments.",
+        "filled_param": {
+          "countries": [
+            "United States",
+            "Canada"
+          ],
+          "start_date": "2022-01-01",
+          "end_date": "2023-01-01",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "Retrieve the names of the chief justices of the Supreme Court from Australia and India between 2020-05-01 and 2021-05-01, excluding interim justices.",
+        "filled_param": {
+          "countries": [
+            "Australia",
+            "India"
+          ],
+          "start_date": "2020-05-01",
+          "end_date": "2021-05-01",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "Who are the chief justices of the Supreme Court for Germany, Brazil, and South Africa from 2021-06-01 to 2022-06-01, and do not include any interim justices?",
+        "filled_param": {
+          "countries": [
+            "Germany",
+            "Brazil",
+            "South Africa"
+          ],
+          "start_date": "2021-06-01",
+          "end_date": "2022-06-01",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "List the chief justices of the Supreme Court in Japan and France for the period from 2019-08-15 to 2020-08-15, including interim justices.",
+        "filled_param": {
+          "countries": [
+            "Japan",
+            "France"
+          ],
+          "start_date": "2019-08-15",
+          "end_date": "2020-08-15",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "Get the names of current chief justices of the Supreme Court in Italy, Spain, and Mexico from 2020-01-01 to 2021-12-31 without including interim chief justices.",
+        "filled_param": {
+          "countries": [
+            "Italy",
+            "Spain",
+            "Mexico"
+          ],
+          "start_date": "2020-01-01",
+          "end_date": "2021-12-31",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "Provide the names of the chief justices of the Supreme Court for the United Kingdom and South Korea from 2023-02-01 to 2023-10-01, and ensure to include interim justices.",
+        "filled_param": {
+          "countries": [
+            "United Kingdom",
+            "South Korea"
+          ],
+          "start_date": "2023-02-01",
+          "end_date": "2023-10-01",
+          "include_interim": true
+        }
+      }
+    ]
+  },
+  "GetPrimeMinisters|:|ambassadors to the United Nations|:|countries,start_date,end_date,include_interim": {
+    "tool_template_name": "GetPrimeMinisters",
+    "derived_class": "ambassadors to the United Nations",
+    "params_for_query": [
+      "countries",
+      "start_date",
+      "end_date",
+      "include_interim"
+    ],
+    "queries": [
+      {
+        "query": "Please provide the names of ambassadors to the United Nations for the United States, Canada, and Germany from 2023-01-01 to 2023-06-30, including interim appointees.",
+        "filled_param": {
+          "countries": [
+            "United States",
+            "Canada",
+            "Germany"
+          ],
+          "start_date": "2023-01-01",
+          "end_date": "2023-06-30",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "Who were the ambassadors to the United Nations from China and Japan between 2022-05-01 and 2022-12-31, excluding interim ambassadors?",
+        "filled_param": {
+          "countries": [
+            "China",
+            "Japan"
+          ],
+          "start_date": "2022-05-01",
+          "end_date": "2022-12-31",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "Get the list of ambassadors to the United Nations for Brazil, Argentina, and Chile from 2021-03-15 to 2021-09-15 without including interim ambassadors.",
+        "filled_param": {
+          "countries": [
+            "Brazil",
+            "Argentina",
+            "Chile"
+          ],
+          "start_date": "2021-03-15",
+          "end_date": "2021-09-15",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "Identify the ambassadors to the United Nations for France and Italy during the period from 2020-01-01 to 2020-12-31, and include any interim representatives.",
+        "filled_param": {
+          "countries": [
+            "France",
+            "Italy"
+          ],
+          "start_date": "2020-01-01",
+          "end_date": "2020-12-31",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "Could you provide the names of the ambassadors to the United Nations from South Africa, Kenya, and Nigeria between 2019-07-01 and 2019-12-31, considering only permanent ambassadors?",
+        "filled_param": {
+          "countries": [
+            "South Africa",
+            "Kenya",
+            "Nigeria"
+          ],
+          "start_date": "2019-07-01",
+          "end_date": "2019-12-31",
+          "include_interim": false
+        }
+      },
+      {
+        "query": "List the ambassadors to the United Nations for India, Russia, and the United Kingdom from 2023-04-01 to 2023-10-01, including any interim ambassadors.",
+        "filled_param": {
+          "countries": [
+            "India",
+            "Russia",
+            "United Kingdom"
+          ],
+          "start_date": "2023-04-01",
+          "end_date": "2023-10-01",
+          "include_interim": true
+        }
+      },
+      {
+        "query": "Can you tell me who the ambassadors to the United Nations were for Spain and Portugal from 2018-01-01 to 2018-06-30, excluding interim ambassadors?",
+        "filled_param": {
+          "countries": [
+            "Spain",
+            "Portugal"
+          ],
+          "start_date": "2018-01-01",
+          "end_date": "2018-06-30",
+          "include_interim": false
+        }
+      }
+    ]
+  }
+}

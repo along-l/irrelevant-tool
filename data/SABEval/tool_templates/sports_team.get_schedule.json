@@ -1,0 +1,69 @@
+{
+  "tool_template_name": "sports_team.get_schedule",
+  "meta_data": {
+    "base_class": "Fetch the schedule of a team participating in a <team-based professional sport> league - refers to competitive sports organized around teams that play season-based games within official leagues.",
+    "derived_classes": [
+      "basketball",
+      "soccer",
+      "baseball",
+      "ice hockey",
+      "handball",
+      "rugby",
+      "field hockey",
+      "lacrosse",
+      "cricket",
+      "volleyball"
+    ],
+    "base_class_entity": "league"
+  },
+  "tool_template": {
+    "name": "<class>_team.get_schedule",
+    "description": "Fetches the schedule of the specified <class> team for the specified number of games in the given league.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "team_name": {
+          "type": "string",
+          "description": "The name of the <class> team."
+        },
+        "num_of_games": {
+          "type": "integer",
+          "description": "Number of games for which to fetch the schedule."
+        },
+        "league": {
+          "type": "string",
+          "description": "The name of the <class> league."
+        }
+      },
+      "required": [
+        "team_name",
+        "num_of_games",
+        "league"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "location": {
+      "type": "string",
+      "description": "The city or venue where games are to be held."
+    }
+  },
+  "additional_params": {
+    "season": {
+      "type": "string",
+      "description": "The season in which the <class> team plays, e.g., 2023-2024."
+    },
+    "home_away_preference": {
+      "type": "string",
+      "description": "Specify if the schedule should focus on 'home', 'away', or 'both' games for the <class> team."
+    },
+    "day_filter": {
+      "type": "string",
+      "description": "Optional filter for a specific day of the week, e.g., 'Saturday'."
+    },
+    "time_format": {
+      "type": "string",
+      "description": "Preferred time format for game schedules, either '12-hour' or '24-hour'."
+    }
+  }
+}

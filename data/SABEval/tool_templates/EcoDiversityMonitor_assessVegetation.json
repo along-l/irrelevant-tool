@@ -1,0 +1,63 @@
+{
+  "tool_template_name": "EcoDiversityMonitor_assessVegetation",
+  "meta_data": {
+    "base_class": "Assess the <specific ecological metric> in a forest area using satellite imagery. - applicable for assessing various observable environmental or geographical attributes of an identified forest area.",
+    "derived_classes": [
+      "vegetation diversity",
+      "canopy density",
+      "soil moisture",
+      "land surface temperature",
+      "biomass density",
+      "water body distribution",
+      "snow cover",
+      "post-fire recovery status",
+      "land degradation",
+      "forest fragmentation"
+    ],
+    "base_class_entity": "vegetation diversity"
+  },
+  "tool_template": {
+    "name": "EcoDiversityMonitor_assess_<class>",
+    "description": "Assess the <class> in a forest area using satellite imagery.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "area_identifier": {
+          "type": "string",
+          "description": "A unique identifier for the forest area of interest."
+        }
+      },
+      "required": [
+        "area_identifier"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "detailed_report": {
+      "type": "boolean",
+      "description": "Whether to generate a detailed report on <class>."
+    }
+  },
+  "additional_params": {
+    "time_period": {
+      "type": "string",
+      "description": "The time period for which the <class> assessment is conducted, formatted as 'YYYY-MM-DD, YYYY-MM-DD', start date, end date."
+    },
+    "imagery_resolution": {
+      "type": "string",
+      "description": "The resolution of the satellite imagery used for assessing the <class>, e.g., high, medium, or low."
+    },
+    "confidence_threshold": {
+      "type": "number",
+      "description": "The confidence threshold as a percentage for the satellite imagery analysis when assessing the <class>. Must be between 0 and 100."
+    },
+    "comparison_baseline": {
+      "type": "string",
+      "description": "A reference baseline for comparison, such as a previous assessment or historical average, when monitoring changes in <class>."
+    },
+    "data_source": {
+      "type": "string",
+      "description": "The source of the satellite imagery data used for assessing the <class>, e.g., specific satellite name or agency."
+    }
+  }
+}

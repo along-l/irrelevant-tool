@@ -1,0 +1,987 @@
+{
+  "animal_sound_recognition|:|Mammalia|:|audio_clip,time_of_day,latitude,longitude,sensitivity": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Mammalia",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude",
+      "longitude",
+      "sensitivity"
+    ],
+    "queries": [
+      {
+        "query": "Please identify the Mammalia from this audio clip recorded at 37.7749 latitude and -122.4194 longitude in the Morning with a sensitivity of 7. The clip is encoded as: UklGRiQAAABXQVZFZm10IBAAAAABAAEAIlYAAESsAAAABAAEAIcA... (truncated for example).",
+        "filled_param": {
+          "audio_clip": "UklGRiQAAABXQVZFZm10IBAAAAABAAEAIlYAAESsAAAABAAEAIcA... (truncated for example)",
+          "time_of_day": "Morning",
+          "latitude": 37.7749,
+          "longitude": -122.4194,
+          "sensitivity": 7
+        }
+      },
+      {
+        "query": "What Mammalia does this sound belong to, captured at noon, with coordinates 48.8566 latitude and 2.3522 longitude? The sensitivity for detection is 5, and the clip is encoded as: UklGRiAAAABXQVZ... (truncated for example).",
+        "filled_param": {
+          "audio_clip": "UklGRiAAAABXQVZ... (truncated for example)",
+          "time_of_day": "Noon",
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "sensitivity": 5
+        }
+      },
+      {
+        "query": "Analyze this Mammalia sound recorded at night with a sensitivity level of 8, obtained from coordinates 34.0522 latitude and -118.2437 longitude. The audio clip is given as: UklGRlAAAABXQVZ... (truncated for example).",
+        "filled_param": {
+          "audio_clip": "UklGRlAAAABXQVZ... (truncated for example)",
+          "time_of_day": "Night",
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "sensitivity": 8
+        }
+      },
+      {
+        "query": "Identify which Mammalia this sound comes from. It was recorded during the afternoon at 51.5074 latitude and -0.1278 longitude, with a sensitivity setting of 6. The audio is encoded as: UklGRoAAAABXQVZ... (truncated for example).",
+        "filled_param": {
+          "audio_clip": "UklGRoAAAABXQVZ... (truncated for example)",
+          "time_of_day": "Afternoon",
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "sensitivity": 6
+        }
+      },
+      {
+        "query": "Determine the Mammalia from this encoded sound clip gathered at dawn with latitude 40.7128 and longitude -74.0060, and a recognition sensitivity of 9. The clip is: UklGRnAAAABXQVZ... (truncated for example).",
+        "filled_param": {
+          "audio_clip": "UklGRnAAAABXQVZ... (truncated for example)",
+          "time_of_day": "Dawn",
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "sensitivity": 9
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Aves|:|audio_clip,time_of_day,latitude,longitude,sensitivity": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Aves",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude",
+      "longitude",
+      "sensitivity"
+    ],
+    "queries": [
+      {
+        "query": "I have a recording of an Aves sound captured at night with a sensitivity level of 8. The location was 34.0522 latitude and -118.2437 longitude. The audio clip is encoded in Base64: Q29tbW9uIGF2ZXMgY2FsbGVkIGEgQ2FsaWZvcm5pYSBnb2xkZW4tY3Jvd25lZCBzcGFycm93Lg==",
+        "filled_param": {
+          "audio_clip": "Q29tbW9uIGF2ZXMgY2FsbGVkIGEgQ2FsaWZvcm5pYSBnb2xkZW4tY3Jvd25lZCBzcGFycm93Lg==",
+          "time_of_day": "Night",
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "sensitivity": 8
+        }
+      },
+      {
+        "query": "Can you identify an Aves from this Base64 encoded sound clip: SGVsbG8gd29ybGQhIFRoaXMgaXMgYSBiaXJkIGNhbGxpbmcgc291bmQu? It was recorded in the morning at coordinates 51.5074 latitude, -0.1278 longitude, with a sensitivity setting of 5.",
+        "filled_param": {
+          "audio_clip": "SGVsbG8gd29ybGQhIFRoaXMgaXMgYSBiaXJkIGNhbGxpbmcgc291bmQu",
+          "time_of_day": "Morning",
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "sensitivity": 5
+        }
+      },
+      {
+        "query": "Here's a Base64 encoded audio of an Aves: VGhpcyBpc24ndCBhIHJlYWwgYmlnIGRhdGEgc3RyaW5nLCBqdXN0IGFuIGV4YW1wbGUu. It was recorded at noon at 40.7128 latitude, -74.0060 longitude, using a sensitivity level of 7.",
+        "filled_param": {
+          "audio_clip": "VGhpcyBpc24ndCBhIHJlYWwgYmlnIGRhdGEgc3RyaW5nLCBqdXN0IGFuIGV4YW1wbGUu",
+          "time_of_day": "Noon",
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "sensitivity": 7
+        }
+      },
+      {
+        "query": "Identify this Aves using the Base64 sound clip: QnJ1Y2Ugd2hhbGUgc29uZyBwbGF5aW5nIGluIHRoZSBmb3Jlc3Qu. The recording was done in the afternoon at latitude 48.8566 and longitude 2.3522 with a sensitivity level of 9.",
+        "filled_param": {
+          "audio_clip": "QnJ1Y2Ugd2hhbGUgc29uZyBwbGF5aW5nIGluIHRoZSBmb3Jlc3Qu",
+          "time_of_day": "Afternoon",
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "sensitivity": 9
+        }
+      },
+      {
+        "query": "I've got an Aves sound recorded at dawn with a sensitivity level of 6. It was captured at a location with 35.6895 latitude and 139.6917 longitude. The Base64 audio clip is: VGhpcyBpcyBhIHRlc3Qgb2YgdGhlIEJhc2U2NCBlbmNvZGluZy4=",
+        "filled_param": {
+          "audio_clip": "VGhpcyBpcyBhIHRlc3Qgb2YgdGhlIEJhc2U2NCBlbmNvZGluZy4=",
+          "time_of_day": "Dawn",
+          "latitude": 35.6895,
+          "longitude": 139.6917,
+          "sensitivity": 6
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Reptilia|:|audio_clip,time_of_day,latitude,longitude,sensitivity": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Reptilia",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude",
+      "longitude",
+      "sensitivity"
+    ],
+    "queries": [
+      {
+        "query": "I recorded a Reptilia sound at night in the Amazon rainforest. The audio clip is encoded as QWxvcmEgbWFsb3IgcmVwdGlsaWEgY2FudGFyYSBldC4uLg==, and it was at latitude -3.4653 and longitude -62.2159. Use a sensitivity of 8.",
+        "filled_param": {
+          "audio_clip": "QWxvcmEgbWFsb3IgcmVwdGlsaWEgY2FudGFyYSBldC4uLg==",
+          "time_of_day": "Night",
+          "latitude": -3.4653,
+          "longitude": -62.2159,
+          "sensitivity": 8
+        }
+      },
+      {
+        "query": "Please identify the Reptilia from this recording I made at dawn: VGhpcyBpcyBhbiBlbmNvZGVkIGF1ZGlvIGNsaXAgb2YgYSByZXB0aWxlLg==. The location was 34.0522 latitude and -118.2437 longitude, with a sensitivity level of 5.",
+        "filled_param": {
+          "audio_clip": "VGhpcyBpcyBhbiBlbmNvZGVkIGF1ZGlvIGNsaXAgb2YgYSByZXB0aWxlLg==",
+          "time_of_day": "Dawn",
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "sensitivity": 5
+        }
+      },
+      {
+        "query": "Analyze this reptile sound recorded in the afternoon: U29tZSBlbmNvZGVkIGF1ZGlvIGZpbGUgY29udGVudCBoZXJlLg==. Coordinates are 51.5074 latitude and -0.1278 longitude. Set sensitivity to 10.",
+        "filled_param": {
+          "audio_clip": "U29tZSBlbmNvZGVkIGF1ZGlvIGZpbGUgY29udGVudCBoZXJlLg==",
+          "time_of_day": "Afternoon",
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "sensitivity": 10
+        }
+      },
+      {
+        "query": "There's a Reptilia sound I captured during the morning at 40.7128 latitude, -74.0060 longitude. Here is the audio: SW5zZXJ0IGVuY29kZWQgZGF0YSBoZXJlLg==. Please use sensitivity level 7.",
+        "filled_param": {
+          "audio_clip": "SW5zZXJ0IGVuY29kZWQgZGF0YSBoZXJlLg==",
+          "time_of_day": "Morning",
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "sensitivity": 7
+        }
+      },
+      {
+        "query": "Identify the Reptilia from this sound recorded at noon: U29tZSBhdWRpbyBkYXRhIGZvciBhIHJlcHRpbGUu. The coordinates were 28.6139 latitude and 77.2090 longitude, and sensitivity was set to 3.",
+        "filled_param": {
+          "audio_clip": "U29tZSBhdWRpbyBkYXRhIGZvciBhIHJlcHRpbGUu",
+          "time_of_day": "Noon",
+          "latitude": 28.6139,
+          "longitude": 77.209,
+          "sensitivity": 3
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Amphibia|:|audio_clip,time_of_day,latitude,longitude,sensitivity": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Amphibia",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude",
+      "longitude",
+      "sensitivity"
+    ],
+    "queries": [
+      {
+        "query": "Can you identify the Amphibia from this sound clip recorded at night, at Latitude 34.0522 and Longitude -118.2437, with a sensitivity level of 7? The audio clip is encoded as 'U29tZSBCYXNlNjQgU3RyaW5n'.",
+        "filled_param": {
+          "audio_clip": "U29tZSBCYXNlNjQgU3RyaW5n",
+          "time_of_day": "Night",
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "sensitivity": 7
+        }
+      },
+      {
+        "query": "I have a sound recording at dawn from latitude 51.5074, longitude -0.1278. Can you identify the Amphibia with sensitivity set to 5 using the audio clip 'QW5vdGhlciBCYXNlNjQgU3RyaW5n'? ",
+        "filled_param": {
+          "audio_clip": "QW5vdGhlciBCYXNlNjQgU3RyaW5n",
+          "time_of_day": "Dawn",
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "sensitivity": 5
+        }
+      },
+      {
+        "query": "Please determine what Amphibia is making this sound. The recording was done in the afternoon at coordinates 48.8566, 2.3522 with maximum sensitivity. Audio: 'U3BlY2lmaWMgQmFzZTY0IFN0cmluZw=='.",
+        "filled_param": {
+          "audio_clip": "U3BlY2lmaWMgQmFzZTY0IFN0cmluZw==",
+          "time_of_day": "Afternoon",
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "sensitivity": 10
+        }
+      },
+      {
+        "query": "Identify the Amphibia from this audio recorded in the morning at latitude -33.8688 and longitude 151.2093 with a sensitivity of 4. The Base64 audio clip is 'VmFyaW91cyBCYXNlNjQgU3RyaW5n'.",
+        "filled_param": {
+          "audio_clip": "VmFyaW91cyBCYXNlNjQgU3RyaW5n",
+          "time_of_day": "Morning",
+          "latitude": -33.8688,
+          "longitude": 151.2093,
+          "sensitivity": 4
+        }
+      },
+      {
+        "query": "What Amphibia is in this audio clip captured at noon at latitude 35.6895 and longitude 139.6917 with a sensitivity setting of 6? Here's the sound: 'U29tZSBPdGhlciBCYXNlNjQgU3RyaW5n'.",
+        "filled_param": {
+          "audio_clip": "U29tZSBPdGhlciBCYXNlNjQgU3RyaW5n",
+          "time_of_day": "Noon",
+          "latitude": 35.6895,
+          "longitude": 139.6917,
+          "sensitivity": 6
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Pisces|:|audio_clip,time_of_day,latitude,longitude,sensitivity": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Pisces",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude",
+      "longitude",
+      "sensitivity"
+    ],
+    "queries": [
+      {
+        "query": "I have a Pisces sound recorded at noon. The coordinates are 34.0522 latitude and -118.2437 longitude, with a recognition sensitivity of 7. Here's the audio: UklGRigAAABXQVZFZm10IBAAAAABAAEARKwAABCxAgAEABAAZGF0YYmAAA==.",
+        "filled_param": {
+          "audio_clip": "UklGRigAAABXQVZFZm10IBAAAAABAAEARKwAABCxAgAEABAAZGF0YYmAAA==",
+          "time_of_day": "Noon",
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "sensitivity": 7
+        }
+      },
+      {
+        "query": "Detect the Pisces in this audio clip recorded in the evening. The location is 51.5074 latitude and -0.1278 longitude, with sensitivity set to 5: UklGRigAAABXQVZFZm10IBAAAAABAAEARKwAABCxAgAEABAAZGF0YYmAABCD==.",
+        "filled_param": {
+          "audio_clip": "UklGRigAAABXQVZFZm10IBAAAAABAAEARKwAABCxAgAEABAAZGF0YYmAABCD==",
+          "time_of_day": "Evening",
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "sensitivity": 5
+        }
+      },
+      {
+        "query": "Here's an audio clip of a Pisces sound from morning at 40.7128 latitude and -74.0060 longitude, with sensitivity level 8: UklGRigAAABXQVZFZm10IBAAAAABAAEARKwAABCxAgAEABAAZGF0YYmAAJ==.",
+        "filled_param": {
+          "audio_clip": "UklGRigAAABXQVZFZm10IBAAAAABAAEARKwAABCxAgAEABAAZGF0YYmAAJ==",
+          "time_of_day": "Morning",
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "sensitivity": 8
+        }
+      },
+      {
+        "query": "Analyze this Pisces sound recorded at dawn with coordinates 48.8566 latitude and 2.3522 longitude, using a sensitivity of 9: UklGRigAAABXQVZFZm10IBAAAAABAAEARKwAABCxAgAEABAAZGF0YYmAA==.",
+        "filled_param": {
+          "audio_clip": "UklGRigAAABXQVZFZm10IBAAAAABAAEARKwAABCxAgAEABAAZGF0YYmAA==",
+          "time_of_day": "Dawn",
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "sensitivity": 9
+        }
+      },
+      {
+        "query": "What Pisces do you hear in this clip recorded at night at 35.6895 latitude and 139.6917 longitude with sensitivity set to 3? The audio is: UklGRigAAABXQVZFZm10IBAAAAABAAEARKwAABCxAgAEABAAZGF0YYmAAB==.",
+        "filled_param": {
+          "audio_clip": "UklGRigAAABXQVZFZm10IBAAAAABAAEARKwAABCxAgAEABAAZGF0YYmAAB==",
+          "time_of_day": "Night",
+          "latitude": 35.6895,
+          "longitude": 139.6917,
+          "sensitivity": 3
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Insecta|:|audio_clip,time_of_day,latitude,longitude,sensitivity": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Insecta",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude",
+      "longitude",
+      "sensitivity"
+    ],
+    "queries": [
+      {
+        "query": "I have a base64 encoded audio clip of an Insecta sound recorded at night in Amazon rainforest, latitude -3.4653, longitude -62.2159. Use a sensitivity level of 7 to identify it.",
+        "filled_param": {
+          "audio_clip": "base64_encoded_clip_string",
+          "time_of_day": "Night",
+          "latitude": -3.4653,
+          "longitude": -62.2159,
+          "sensitivity": 7
+        }
+      },
+      {
+        "query": "Please identify the Insecta from this audio clip recorded at dawn in the Serengeti, Tanzania, located at latitude -2.3333 and longitude 34.8333 with a sensitivity of 5.",
+        "filled_param": {
+          "audio_clip": "base64_encoded_clip_string",
+          "time_of_day": "Dawn",
+          "latitude": -2.3333,
+          "longitude": 34.8333,
+          "sensitivity": 5
+        }
+      },
+      {
+        "query": "What Insecta is in this audio clip recorded in Yosemite National Park, California at noon? The coordinates are latitude 37.8651 and longitude -119.5383. Use sensitivity 8.",
+        "filled_param": {
+          "audio_clip": "base64_encoded_clip_string",
+          "time_of_day": "Noon",
+          "latitude": 37.8651,
+          "longitude": -119.5383,
+          "sensitivity": 8
+        }
+      },
+      {
+        "query": "Can you determine the Insecta from an audio clip taken in the afternoon in the Australian Outback, latitude -25.2744, longitude 133.7751, with a sensitivity setting of 9?",
+        "filled_param": {
+          "audio_clip": "base64_encoded_clip_string",
+          "time_of_day": "Afternoon",
+          "latitude": -25.2744,
+          "longitude": 133.7751,
+          "sensitivity": 9
+        }
+      },
+      {
+        "query": "Identify the Insecta by this sound recorded in the morning at Central Park, New York, latitude 40.7851, longitude -73.9683, using a sensitivity level of 6.",
+        "filled_param": {
+          "audio_clip": "base64_encoded_clip_string",
+          "time_of_day": "Morning",
+          "latitude": 40.7851,
+          "longitude": -73.9683,
+          "sensitivity": 6
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Arachnida|:|audio_clip,time_of_day,latitude,longitude,sensitivity": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Arachnida",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude",
+      "longitude",
+      "sensitivity"
+    ],
+    "queries": [
+      {
+        "query": "Identify the Arachnida from this sound recorded at night with coordinates 34.0522 latitude and -118.2437 longitude, using a sensitivity level of 7. The audio clip is encoded as UklGRhAAAABXQVZFZm10IBAAAAABAAEAIlYAAAB9AAACABAAZGF0YQAAAAA=",
+        "filled_param": {
+          "audio_clip": "UklGRhAAAABXQVZFZm10IBAAAAABAAEAIlYAAAB9AAACABAAZGF0YQAAAAA=",
+          "time_of_day": "Night",
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "sensitivity": 7
+        }
+      },
+      {
+        "query": "Can you determine the Arachnida species from the sound recorded in the morning at 48.8566 latitude and 2.3522 longitude with a recognition sensitivity of 5? The audio is encoded as UklGRkoAAABXQVZFZm10IBAAAAABAAEAIlYAAAB9AAACABAAZGF0YQAOAA==",
+        "filled_param": {
+          "audio_clip": "UklGRkoAAABXQVZFZm10IBAAAAABAAEAIlYAAAB9AAACABAAZGF0YQAOAA==",
+          "time_of_day": "Morning",
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "sensitivity": 5
+        }
+      },
+      {
+        "query": "This Arachnida sound was recorded at dawn at latitude 51.5074, longitude -0.1278. Use a sensitivity level of 8 for identification. The audio clip is encoded as UklGRiQAAABXQVZFZm10IBAAAAABAAEAIlYAAAB9AAACABAAZGF0YQAAAA==",
+        "filled_param": {
+          "audio_clip": "UklGRiQAAABXQVZFZm10IBAAAAABAAEAIlYAAAB9AAACABAAZGF0YQAAAA==",
+          "time_of_day": "Dawn",
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "sensitivity": 8
+        }
+      },
+      {
+        "query": "What Arachnida is this from the sound captured at noon, with coordinates 35.6895 latitude and 139.6917 longitude, and a sensitivity setting of 3? The audio is encoded as UklGRjQAAABXQVZFZm10IBAAAAABAAEAIlYAAAB9AAACABAAZGF0YQ==",
+        "filled_param": {
+          "audio_clip": "UklGRjQAAABXQVZFZm10IBAAAAABAAEAIlYAAAB9AAACABAAZGF0YQ==",
+          "time_of_day": "Noon",
+          "latitude": 35.6895,
+          "longitude": 139.6917,
+          "sensitivity": 3
+        }
+      },
+      {
+        "query": "Please identify the Arachnida from this audio recorded in the afternoon at latitude -33.8688 and longitude 151.2093, using a sensitivity of 10. The audio clip is encoded as UklGRiwAAABXQVZFZm10IBAAAAABAAEAIlYAAAB9AAACABAAZGF0YQAA",
+        "filled_param": {
+          "audio_clip": "UklGRiwAAABXQVZFZm10IBAAAAABAAEAIlYAAAB9AAACABAAZGF0YQAA",
+          "time_of_day": "Afternoon",
+          "latitude": -33.8688,
+          "longitude": 151.2093,
+          "sensitivity": 10
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Crustacea|:|audio_clip,time_of_day,latitude,longitude,sensitivity": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Crustacea",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude",
+      "longitude",
+      "sensitivity"
+    ],
+    "queries": [
+      {
+        "query": "Please identify the Crustacea using this sound recorded at dawn at latitude 34.0522 and longitude -118.2437 with a sensitivity of 7. Audio clip: U29tZUJhc2U2NEF1ZGlvRGF0YQ==",
+        "filled_param": {
+          "audio_clip": "U29tZUJhc2U2NEF1ZGlvRGF0YQ==",
+          "time_of_day": "Dawn",
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "sensitivity": 7
+        }
+      },
+      {
+        "query": "What Crustacea is making this noise at the given coordinates (lat: 48.8566, long: 2.3522) during the evening, with a sensitivity set to 5? Audio: QW5vdGhlckJhc2U2NEVuY29kZWRBdWRpbw==",
+        "filled_param": {
+          "audio_clip": "QW5vdGhlckJhc2U2NEVuY29kZWRBdWRpbw==",
+          "time_of_day": "Evening",
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "sensitivity": 5
+        }
+      },
+      {
+        "query": "Can you identify which Crustacea is responsible for this sound recorded at noon at coordinates 40.7128, -74.0060 with maximum sensitivity of 10? Sound: U29tZUFub3RoZXJCYXNlNjRFbmNvZGVk==",
+        "filled_param": {
+          "audio_clip": "U29tZUFub3RoZXJCYXNlNjRFbmNvZGVk==",
+          "time_of_day": "Noon",
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "sensitivity": 10
+        }
+      },
+      {
+        "query": "Identify the Crustacea from this sound clip recorded in the morning at 51.5074 latitude and -0.1278 longitude, with a sensitivity level of 3. Clip: U29tZUF1ZGlvQ2xpcFdlRGF0YQ==",
+        "filled_param": {
+          "audio_clip": "U29tZUF1ZGlvQ2xpcFdlRGF0YQ==",
+          "time_of_day": "Morning",
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "sensitivity": 3
+        }
+      },
+      {
+        "query": "What is the Crustacea species from this nocturnal sound recorded at latitude 35.6895 and longitude 139.6917, with a sensitivity of 6? Audio data: QmFzZTY0QXVkaW9Db250ZW50U29tZQ==",
+        "filled_param": {
+          "audio_clip": "QmFzZTY0QXVkaW9Db250ZW50U29tZQ==",
+          "time_of_day": "Night",
+          "latitude": 35.6895,
+          "longitude": 139.6917,
+          "sensitivity": 6
+        }
+      },
+      {
+        "query": "Identify the Crustacea from the sound recorded in the afternoon at 55.7558 latitude and 37.6173 longitude, with a sensitivity setting of 4. Audio base64: U29tZUJhc2U2NEF1ZGlvSWRlbnRpZmllcg==",
+        "filled_param": {
+          "audio_clip": "U29tZUJhc2U2NEF1ZGlvSWRlbnRpZmllcg==",
+          "time_of_day": "Afternoon",
+          "latitude": 55.7558,
+          "longitude": 37.6173,
+          "sensitivity": 4
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Gastropoda|:|audio_clip,time_of_day,latitude,longitude,sensitivity": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Gastropoda",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude",
+      "longitude",
+      "sensitivity"
+    ],
+    "queries": [
+      {
+        "query": "Could you identify the Gastropoda from this sound recorded at night with coordinates 34.0522 latitude and -118.2437 longitude? The audio clip is encoded in Base64 as 'U29tZUF1ZGlvQ2xpcFN0cmluZw==' and I want the sensitivity set to 7.",
+        "filled_param": {
+          "audio_clip": "U29tZUF1ZGlvQ2xpcFN0cmluZw==",
+          "time_of_day": "Night",
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "sensitivity": 7
+        }
+      },
+      {
+        "query": "Please help me identify the Gastropoda based on this morning's audio recording. The Base64 string is 'QW5vdGhlclNvdW5kQ2xpcFN0cmluZw==' and it was captured at latitude 51.5074 and longitude -0.1278. Set the sensitivity to 5.",
+        "filled_param": {
+          "audio_clip": "QW5vdGhlclNvdW5kQ2xpcFN0cmluZw==",
+          "time_of_day": "Morning",
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "sensitivity": 5
+        }
+      },
+      {
+        "query": "What Gastropoda can be identified from this noon recording? The audio clip is 'VGVzdEF1ZGlvQ2xpcFN0cmluZw==' encoded in Base64, taken at 48.8566 latitude and 2.3522 longitude. Use sensitivity level 9.",
+        "filled_param": {
+          "audio_clip": "VGVzdEF1ZGlvQ2xpcFN0cmluZw==",
+          "time_of_day": "Noon",
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "sensitivity": 9
+        }
+      },
+      {
+        "query": "I'd like to know what Gastropoda is in this afternoon recording with audio encoded as 'U2FtcGxlU291bmRDbGlwU3RyaW5n'. The location was 40.7128 latitude and -74.0060 longitude, with a sensitivity of 3.",
+        "filled_param": {
+          "audio_clip": "U2FtcGxlU291bmRDbGlwU3RyaW5n",
+          "time_of_day": "Afternoon",
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "sensitivity": 3
+        }
+      },
+      {
+        "query": "Can you identify the Gastropoda from this sound clip recorded at dawn? The Base64 string is 'Q2xpcFN0cmluZ01vZGVs' and it was captured at 35.6895 latitude, 139.6917 longitude. Please use sensitivity 6.",
+        "filled_param": {
+          "audio_clip": "Q2xpcFN0cmluZ01vZGVs",
+          "time_of_day": "Dawn",
+          "latitude": 35.6895,
+          "longitude": 139.6917,
+          "sensitivity": 6
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Cephalopoda|:|audio_clip,time_of_day,latitude,longitude,sensitivity": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Cephalopoda",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude",
+      "longitude",
+      "sensitivity"
+    ],
+    "queries": [
+      {
+        "query": "I have a Cephalopoda sound recorded during the night at 36.7783 latitude and -119.4179 longitude, with a sensitivity setting of 7. The audio is encoded as a Base64 string: 'U29tZSBiYXNlNjQgZW5jb2RlZCBhdWRpbyByZXByZXNlbnRpbmcgdGhlIHNvdW5k'.",
+        "filled_param": {
+          "audio_clip": "U29tZSBiYXNlNjQgZW5jb2RlZCBhdWRpbyByZXByZXNlbnRpbmcgdGhlIHNvdW5k",
+          "time_of_day": "Night",
+          "latitude": 36.7783,
+          "longitude": -119.4179,
+          "sensitivity": 7
+        }
+      },
+      {
+        "query": "Please identify the Cephalopoda from this sound: 'QmFzZTY0IGVuY29kZWQgc3RyaW5nIGZvciBhdWRpbyBoZXJl', recorded at dawn, location 51.5074 latitude, -0.1278 longitude, sensitivity level 4.",
+        "filled_param": {
+          "audio_clip": "QmFzZTY0IGVuY29kZWQgc3RyaW5nIGZvciBhdWRpbyBoZXJl",
+          "time_of_day": "Dawn",
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "sensitivity": 4
+        }
+      },
+      {
+        "query": "Analyze this Cephalopoda sound at noon, located at -33.8688 latitude, 151.2093 longitude. Sensitivity level is 8, and the audio in Base64 is 'U29tZSBzYW1wbGUgYXVkaW8gZGF0YSBlbmNvZGVkIGhlcmU='. ",
+        "filled_param": {
+          "audio_clip": "U29tZSBzYW1wbGUgYXVkaW8gZGF0YSBlbmNvZGVkIGhlcmU=",
+          "time_of_day": "Noon",
+          "latitude": -33.8688,
+          "longitude": 151.2093,
+          "sensitivity": 8
+        }
+      },
+      {
+        "query": "Here's a Base64 audio clip: 'VGVzdCBiYXNlNjQgYXVkaW8gc3RyaW5n', captured in the afternoon at 40.7128 latitude and -74.0060 longitude with a sensitivity of 5. Identify the Cephalopoda, please.",
+        "filled_param": {
+          "audio_clip": "VGVzdCBiYXNlNjQgYXVkaW8gc3RyaW5n",
+          "time_of_day": "Afternoon",
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "sensitivity": 5
+        }
+      },
+      {
+        "query": "Can you tell which Cephalopoda made this sound 'RW5jb2RlZCBhdWRpbyBzdHJpbmcgZm9yIGNsYXNzaWZpY2F0aW9u' recorded in the morning at 34.0522 latitude and -118.2437 longitude with sensitivity 6?",
+        "filled_param": {
+          "audio_clip": "RW5jb2RlZCBhdWRpbyBzdHJpbmcgZm9yIGNsYXNzaWZpY2F0aW9u",
+          "time_of_day": "Morning",
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "sensitivity": 6
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Polychaeta|:|audio_clip,time_of_day,latitude,longitude,sensitivity": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Polychaeta",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude",
+      "longitude",
+      "sensitivity"
+    ],
+    "queries": [
+      {
+        "query": "I have a sound recording of Polychaeta taken at dawn with coordinates 34.0522, -118.2437. Please analyze it with a sensitivity of 7. The audio clip encoded is U29tZUJhc2U2NEVuY29kZWRBdWRpbw==.",
+        "filled_param": {
+          "audio_clip": "U29tZUJhc2U2NEVuY29kZWRBdWRpbw==",
+          "time_of_day": "Dawn",
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "sensitivity": 7
+        }
+      },
+      {
+        "query": "Can you identify the Polychaeta from this afternoon recording at 51.5074 latitude and -0.1278 longitude with a sensitivity level of 5? The audio clip is QW5vdGhlckJhc2U2NEVuY29kZWRBdWRpbw==.",
+        "filled_param": {
+          "audio_clip": "QW5vdGhlckJhc2U2NEVuY29kZWRBdWRpbw==",
+          "time_of_day": "Afternoon",
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "sensitivity": 5
+        }
+      },
+      {
+        "query": "Here's a base64 encoded sound clip of Polychaeta taken at night at 48.8566 latitude and 2.3522 longitude. Please use a high sensitivity of 9 for identification: U29tZSBCYXNlNjQgQXVkaW8gRGF0YQ==.",
+        "filled_param": {
+          "audio_clip": "U29tZSBCYXNlNjQgQXVkaW8gRGF0YQ==",
+          "time_of_day": "Night",
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "sensitivity": 9
+        }
+      },
+      {
+        "query": "Please analyze this morning sound of Polychaeta recorded at coordinates 40.7128, -74.0060. The audio clip is DVNvbWVfYmFzZTY0X2F1ZGlv and sensitivity is set to 3.",
+        "filled_param": {
+          "audio_clip": "DVNvbWVfYmFzZTY0X2F1ZGlv",
+          "time_of_day": "Morning",
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "sensitivity": 3
+        }
+      },
+      {
+        "query": "I recorded a Polychaeta sound at noon, at latitude 35.6895 and longitude 139.6917. Use sensitivity level 8 to identify it. The audio clip data is SmFwYW5lc2VCYXNlNjQ==.",
+        "filled_param": {
+          "audio_clip": "SmFwYW5lc2VCYXNlNjQ==",
+          "time_of_day": "Noon",
+          "latitude": 35.6895,
+          "longitude": 139.6917,
+          "sensitivity": 8
+        }
+      },
+      {
+        "query": "Here's a sound clip of Polychaeta from the evening, captured at 37.7749 latitude and -122.4194 longitude. The sensitivity for this should be set to 6. The encoded audio is TW9yZUF1ZGlvVG9FeHRyYWN0.",
+        "filled_param": {
+          "audio_clip": "TW9yZUF1ZGlvVG9FeHRyYWN0",
+          "time_of_day": "Evening",
+          "latitude": 37.7749,
+          "longitude": -122.4194,
+          "sensitivity": 6
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Oligochaeta|:|audio_clip,time_of_day,latitude,longitude,sensitivity": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Oligochaeta",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude",
+      "longitude",
+      "sensitivity"
+    ],
+    "queries": [
+      {
+        "query": "Identify the Oligochaeta from this base64 audio clip: 'U29tZUJhc2U2NEVuY29kZWRTdHJpbmc=' recorded at Dawn, with coordinates 37.7749 latitude and -122.4194 longitude, using a sensitivity of 5.",
+        "filled_param": {
+          "audio_clip": "U29tZUJhc2U2NEVuY29kZWRTdHJpbmc=",
+          "time_of_day": "Dawn",
+          "latitude": 37.7749,
+          "longitude": -122.4194,
+          "sensitivity": 5
+        }
+      },
+      {
+        "query": "Can you determine the type of Oligochaeta from the following audio string: 'QW5vdGhlckJhc2U2NEVuY29kZWRTdHJpbmc='? The sound was captured in the Afternoon at 48.8566 latitude and 2.3522 longitude, with a sensitivity level of 8.",
+        "filled_param": {
+          "audio_clip": "QW5vdGhlckJhc2U2NEVuY29kZWRTdHJpbmc=",
+          "time_of_day": "Afternoon",
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "sensitivity": 8
+        }
+      },
+      {
+        "query": "Here's an audio file encoded in base64: 'WWV0QW5vdGhlckJhc2U2NEVuY29kZWRTdHJpbmc=' recorded in the Morning. The location was at 51.5074 latitude and -0.1278 longitude. Use a sensitivity of 3 for identification.",
+        "filled_param": {
+          "audio_clip": "WWV0QW5vdGhlckJhc2U2NEVuY29kZWRTdHJpbmc=",
+          "time_of_day": "Morning",
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "sensitivity": 3
+        }
+      },
+      {
+        "query": "Please identify the Oligochaeta using this base64 clip: 'U29tZVJlc3QyNEVuY29kZWRTdHJpbmc=' taken at Night at coordinates 34.0522 latitude and -118.2437 longitude, with a sensitivity setting of 9.",
+        "filled_param": {
+          "audio_clip": "U29tZVJlc3QyNEVuY29kZWRTdHJpbmc=",
+          "time_of_day": "Night",
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "sensitivity": 9
+        }
+      },
+      {
+        "query": "Determine the Oligochaeta species with this base64 audio: 'VGVzdEJhc2U2NEVuY29kZWRTdHJpbmc=' recorded at Noon, located at 55.7558 latitude and 37.6173 longitude, using a sensitivity of 6.",
+        "filled_param": {
+          "audio_clip": "VGVzdEJhc2U2NEVuY29kZWRTdHJpbmc=",
+          "time_of_day": "Noon",
+          "latitude": 55.7558,
+          "longitude": 37.6173,
+          "sensitivity": 6
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Hirudinea|:|audio_clip,time_of_day,latitude,longitude,sensitivity": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Hirudinea",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude",
+      "longitude",
+      "sensitivity"
+    ],
+    "queries": [
+      {
+        "query": "Identify the Hirudinea using this sound recorded at dawn. The location was at latitude 34.0522 and longitude -118.2437, with a sensitivity setting of 8. Here is the audio: UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAABCxAgAEABAAZGF0YQAAAAA=",
+        "filled_param": {
+          "audio_clip": "UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAABCxAgAEABAAZGF0YQAAAAA=",
+          "time_of_day": "Dawn",
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "sensitivity": 8
+        }
+      },
+      {
+        "query": "Can you tell me which Hirudinea this is from a sound captured at night, latitude 51.5074, longitude -0.1278, and with sensitivity 5? The audio clip is: UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAABCxAgAEABAAZGF0YQAAAAB=",
+        "filled_param": {
+          "audio_clip": "UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAABCxAgAEABAAZGF0YQAAAAB=",
+          "time_of_day": "Night",
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "sensitivity": 5
+        }
+      },
+      {
+        "query": "What Hirudinea sound was recorded at afternoon from coordinates (40.7128, -74.0060) with a high sensitivity of 9? Here's the sound: UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAABCxAgAEABAAZGF0YQAAAAA=",
+        "filled_param": {
+          "audio_clip": "UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAABCxAgAEABAAZGF0YQAAAAA=",
+          "time_of_day": "Afternoon",
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "sensitivity": 9
+        }
+      },
+      {
+        "query": "Please identify the Hirudinea from this morning recording at latitude 48.8566 and longitude 2.3522 with a sensitivity level of 6. Here is the audio: UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAABCxAgAEABAAZGF0YQAAAAC=",
+        "filled_param": {
+          "audio_clip": "UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAABCxAgAEABAAZGF0YQAAAAC=",
+          "time_of_day": "Morning",
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "sensitivity": 6
+        }
+      },
+      {
+        "query": "Determine which Hirudinea made this sound at noon. The recording location is latitude -33.8688 and longitude 151.2093 with a sensitivity of 7. The audio is: UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAABCxAgAEABAAZGF0YQAAAAE=",
+        "filled_param": {
+          "audio_clip": "UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAABCxAgAEABAAZGF0YQAAAAE=",
+          "time_of_day": "Noon",
+          "latitude": -33.8688,
+          "longitude": 151.2093,
+          "sensitivity": 7
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Cnidaria|:|audio_clip,time_of_day,latitude,longitude,sensitivity": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Cnidaria",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude",
+      "longitude",
+      "sensitivity"
+    ],
+    "queries": [
+      {
+        "query": "Identify the Cnidaria from this sound recorded at night, at 34.0522 latitude and -118.2437 longitude, with a sensitivity of 8. The audio clip is encoded as Q2FsaWZvcm5pYSB3aWxsaWZlLg==.",
+        "filled_param": {
+          "audio_clip": "Q2FsaWZvcm5pYSB3aWxsaWZlLg==",
+          "time_of_day": "Night",
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "sensitivity": 8
+        }
+      },
+      {
+        "query": "Please determine the type of Cnidaria from this sound clip recorded during the afternoon at 51.5074 latitude, -0.1278 longitude, with a sensitivity level of 5. The clip is U2FuIEZyYW5jaXNjbyB1bmEgcm9zYS4=",
+        "filled_param": {
+          "audio_clip": "U2FuIEZyYW5jaXNjbyB1bmEgcm9zYS4=",
+          "time_of_day": "Afternoon",
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "sensitivity": 5
+        }
+      },
+      {
+        "query": "What Cnidaria is this based on the sound recorded at dawn, at 40.7128 latitude and -74.0060 longitude, using a sensitivity of 7? The audio is VlVuZHVyYSB2aXZpdCBsb3JlbS4=",
+        "filled_param": {
+          "audio_clip": "VlVuZHVyYSB2aXZpdCBsb3JlbS4=",
+          "time_of_day": "Dawn",
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "sensitivity": 7
+        }
+      },
+      {
+        "query": "Can you analyze this sound to identify the Cnidaria species? It was captured at noon, with coordinates 35.6895 latitude and 139.6917 longitude, and a sensitivity setting of 6. The audio clip is TXVsdGUgY3VsZXJlcyB2ZWxpdC4=",
+        "filled_param": {
+          "audio_clip": "TXVsdGUgY3VsZXJlcyB2ZWxpdC4=",
+          "time_of_day": "Noon",
+          "latitude": 35.6895,
+          "longitude": 139.6917,
+          "sensitivity": 6
+        }
+      },
+      {
+        "query": "Identify the Cnidaria from the sound recorded in the morning at 48.8566 latitude, 2.3522 longitude, with a high sensitivity of 9. The audio clip content is QWxpcXVhbSB0dXJwaXMgdmloYW4u",
+        "filled_param": {
+          "audio_clip": "QWxpcXVhbSB0dXJwaXMgdmloYW4u",
+          "time_of_day": "Morning",
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "sensitivity": 9
+        }
+      },
+      {
+        "query": "Determine the type of Cnidaria from this sound recorded in the evening at 55.7558 latitude and 37.6173 longitude, with a sensitivity level of 4. The base64 audio is UG9zdGVyaW9yLCBhY3N1bWxub25kIGNvbnNlcXVhdC4=",
+        "filled_param": {
+          "audio_clip": "UG9zdGVyaW9yLCBhY3N1bWxub25kIGNvbnNlcXVhdC4=",
+          "time_of_day": "Evening",
+          "latitude": 55.7558,
+          "longitude": 37.6173,
+          "sensitivity": 4
+        }
+      }
+    ]
+  },
+  "animal_sound_recognition|:|Porifera|:|audio_clip,time_of_day,latitude,longitude,sensitivity": {
+    "tool_template_name": "animal_sound_recognition",
+    "derived_class": "Porifera",
+    "params_for_query": [
+      "audio_clip",
+      "time_of_day",
+      "latitude",
+      "longitude",
+      "sensitivity"
+    ],
+    "queries": [
+      {
+        "query": "I recorded some Porifera sounds at night near latitude 34.0522 and longitude -118.2437. Can you identify it with a sensitivity level of 7? The audio is encoded as UjQ1ZG8yYm0zN3F5.",
+        "filled_param": {
+          "audio_clip": "UjQ1ZG8yYm0zN3F5",
+          "time_of_day": "Night",
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "sensitivity": 7
+        }
+      },
+      {
+        "query": "During dawn, I captured a sound from Porifera around latitude 48.8566 and longitude 2.3522 with the base64 string ZjQzMTZpbDJwQWZ3. Use sensitivity 5 for identification.",
+        "filled_param": {
+          "audio_clip": "ZjQzMTZpbDJwQWZ3",
+          "time_of_day": "Dawn",
+          "latitude": 48.8566,
+          "longitude": 2.3522,
+          "sensitivity": 5
+        }
+      },
+      {
+        "query": "Here's a sound I recorded in the afternoon at latitude -33.8688 and longitude 151.2093. It's from a Porifera, and the audio string is aW5mMTY2amFzU2lk. Check it with a sensitivity of 8.",
+        "filled_param": {
+          "audio_clip": "aW5mMTY2amFzU2lk",
+          "time_of_day": "Afternoon",
+          "latitude": -33.8688,
+          "longitude": 151.2093,
+          "sensitivity": 8
+        }
+      },
+      {
+        "query": "Can you figure out which Porifera is making this sound? It was recorded at noon at latitude 51.5074 and longitude -0.1278. The encoded audio is YW5vdGhlclNvdW5kU3Ry and the sensitivity should be 6.",
+        "filled_param": {
+          "audio_clip": "YW5vdGhlclNvdW5kU3Ry",
+          "time_of_day": "Noon",
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "sensitivity": 6
+        }
+      },
+      {
+        "query": "I've got a Porifera sound from morning hours at latitude -23.5505 and longitude -46.6333. The audio clip is encoded as dGhpc0lzU29tZUF1ZGlv and use sensitivity level 9.",
+        "filled_param": {
+          "audio_clip": "dGhpc0lzU29tZUF1ZGlv",
+          "time_of_day": "Morning",
+          "latitude": -23.5505,
+          "longitude": -46.6333,
+          "sensitivity": 9
+        }
+      },
+      {
+        "query": "Here is the base64 audio string bmV3U29uZFN0cmluZw== of a Porifera sound I recorded in the evening at latitude 40.7128 and longitude -74.0060. Please analyze it with sensitivity 4.",
+        "filled_param": {
+          "audio_clip": "bmV3U29uZFN0cmluZw==",
+          "time_of_day": "Evening",
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "sensitivity": 4
+        }
+      }
+    ]
+  }
+}

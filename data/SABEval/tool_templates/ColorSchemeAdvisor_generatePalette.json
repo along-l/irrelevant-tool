@@ -1,0 +1,65 @@
+{
+  "tool_template_name": "ColorSchemeAdvisor_generatePalette",
+  "meta_data": {
+    "base_class": "Recommend <design solutions> that match a client's style and functional needs - refers to different dimensions of interior design.",
+    "derived_classes": [
+      "color palettes",
+      "furniture material",
+      "sound system layout",
+      "flooring design",
+      "indoor greenery",
+      "artwork display",
+      "ceiling design"
+    ],
+    "base_class_entity": "color palettes"
+  },
+  "tool_template": {
+    "name": "Recommend_<class>_solutions",
+    "description": "Recommend <class> solutions that match the client's style and functional needs.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "style_description": {
+          "type": "string",
+          "description": "A brief description of the client's preferred style for the <class> solutions."
+        },
+        "room_function": {
+          "type": "string",
+          "description": "The primary function of the room."
+        }
+      },
+      "required": [
+        "style_description",
+        "room_function"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "include_trending_elements": {
+      "type": "boolean",
+      "description": "Whether to include trending elements in the <class> solutions."
+    }
+  },
+  "additional_params": {
+    "budget_range": {
+      "type": "string",
+      "description": "The available budget range for the <class> solutions."
+    },
+    "environmental_impact": {
+      "type": "string",
+      "description": "The desired level of environmental impact consideration for the <class> solutions, such as low, medium, or high."
+    },
+    "installation_complexity": {
+      "type": "string",
+      "description": "The acceptable level of installation complexity for the <class> solutions, such as simple, moderate, or complex."
+    },
+    "durability_requirement": {
+      "type": "string",
+      "description": "The required durability level for the <class> solutions, such as temporary, medium-term, or long-lasting."
+    },
+    "maintenance_level": {
+      "type": "string",
+      "description": "The preferred level of maintenance for the <class> solutions, such as low, medium, or high."
+    }
+  }
+}

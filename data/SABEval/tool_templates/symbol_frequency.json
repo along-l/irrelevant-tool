@@ -1,0 +1,57 @@
+{
+  "tool_template_name": "symbol_frequency",
+  "meta_data": {
+    "base_class": "Analyze the string to find and save the frequency of <specific characters> - referring to the basic components in a text string that can be counted and statistically analyzed.",
+    "derived_classes": [
+      "uppercase letters",
+      "lowercase letters",
+      "emojis",
+      "Chinese characters",
+      "Korean Hangul characters",
+      "digit characters",
+      "Hebrew characters",
+      "whitespace characters"
+    ],
+    "base_class_entity": "special symbols"
+  },
+  "tool_template": {
+    "name": "symbol_frequency_of_<class>",
+    "description": "Analyzes a string to find the frequency of <class>.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "input_string": {
+          "type": "string",
+          "description": "A string containing <class> to be analyzed."
+        }
+      },
+      "required": [
+        "input_string"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "file_path": {
+      "type": "string",
+      "description": "The file path where the result should be saved."
+    }
+  },
+  "additional_params": {
+    "sort_order": {
+      "type": "string",
+      "description": "Defines the sorting order for the frequency results. Options include 'Descending', 'Ascending', and 'Alphabetical'."
+    },
+    "top_n": {
+      "type": "integer",
+      "description": "Limits the output to the top N most frequent <class> symbols."
+    },
+    "min_frequency_threshold": {
+      "type": "integer",
+      "description": "Sets a lower bound; only <class> symbols with frequency equal to or higher than this threshold will be included in the result."
+    },
+    "include_summary_stats": {
+      "type": "boolean",
+      "description": "Determines whether to include summary statistics (e.g., mean frequency, symbol diversity index) in the output."
+    }
+  }
+}

@@ -1,0 +1,648 @@
+{
+  "patient.get_mri_report|:|brain MRI|:|patient_id,status,report_date": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "brain MRI",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date"
+    ],
+    "queries": [
+      {
+        "query": "Please fetch the brain MRI report for patient ID 12345 with the status 'concluded' dated 2023-01-15.",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "concluded",
+          "report_date": "2023-01-15"
+        }
+      },
+      {
+        "query": "Can you get me the brain MRI report for patient ID 67890 that is currently 'in progress' from the report date 2023-03-22?",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "in progress",
+          "report_date": "2023-03-22"
+        }
+      },
+      {
+        "query": "Retrieve the brain MRI report marked as 'draft' for patient ID 54321, which was generated on 2023-02-14.",
+        "filled_param": {
+          "patient_id": "54321",
+          "status": "draft",
+          "report_date": "2023-02-14"
+        }
+      },
+      {
+        "query": "I need the brain MRI report for patient ID 98765 with a 'concluded' status from the date 2023-05-30.",
+        "filled_param": {
+          "patient_id": "98765",
+          "status": "concluded",
+          "report_date": "2023-05-30"
+        }
+      },
+      {
+        "query": "Could you provide the brain MRI report for patient ID 13579 with the status 'in progress' dated 2023-04-18?",
+        "filled_param": {
+          "patient_id": "13579",
+          "status": "in progress",
+          "report_date": "2023-04-18"
+        }
+      },
+      {
+        "query": "Fetch the brain MRI report that is labeled as 'draft' for patient ID 24680, generated on 2023-06-10.",
+        "filled_param": {
+          "patient_id": "24680",
+          "status": "draft",
+          "report_date": "2023-06-10"
+        }
+      },
+      {
+        "query": "Get me the brain MRI report for patient ID 11223, which has a 'concluded' status on the date 2023-07-05.",
+        "filled_param": {
+          "patient_id": "11223",
+          "status": "concluded",
+          "report_date": "2023-07-05"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|chest CT|:|patient_id,status,report_date": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "chest CT",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date"
+    ],
+    "queries": [
+      {
+        "query": "Could you get the chest CT report for patient ID 12345 with the status 'concluded' dated 2023-08-15?",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "concluded",
+          "report_date": "2023-08-15"
+        }
+      },
+      {
+        "query": "Please fetch the chest CT report for patient ID 98765 which is 'in progress' as of 2023-09-20.",
+        "filled_param": {
+          "patient_id": "98765",
+          "status": "in progress",
+          "report_date": "2023-09-20"
+        }
+      },
+      {
+        "query": "I need the chest CT report for patient ID 54321 with a 'draft' status from 2023-07-30.",
+        "filled_param": {
+          "patient_id": "54321",
+          "status": "draft",
+          "report_date": "2023-07-30"
+        }
+      },
+      {
+        "query": "Can you provide the chest CT report for patient ID 11223 that concluded on 2023-06-01?",
+        "filled_param": {
+          "patient_id": "11223",
+          "status": "concluded",
+          "report_date": "2023-06-01"
+        }
+      },
+      {
+        "query": "Retrieve the chest CT report for patient ID 33445 with the status 'in progress' as of 2023-10-05.",
+        "filled_param": {
+          "patient_id": "33445",
+          "status": "in progress",
+          "report_date": "2023-10-05"
+        }
+      },
+      {
+        "query": "What is the chest CT report for patient ID 67890 that's in a 'draft' state from the date 2023-04-15?",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "draft",
+          "report_date": "2023-04-15"
+        }
+      },
+      {
+        "query": "Fetch the chest CT report for patient ID 24680 marked 'concluded' on 2023-02-28.",
+        "filled_param": {
+          "patient_id": "24680",
+          "status": "concluded",
+          "report_date": "2023-02-28"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|abdominal ultrasound|:|patient_id,status,report_date": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "abdominal ultrasound",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date"
+    ],
+    "queries": [
+      {
+        "query": "Please retrieve the abdominal ultrasound report for patient with ID P12345, which is concluded and generated on 2023-03-15.",
+        "filled_param": {
+          "patient_id": "P12345",
+          "status": "concluded",
+          "report_date": "2023-03-15"
+        }
+      },
+      {
+        "query": "Can you get the abdominal ultrasound report for patient ID A98765, marked as in progress and dated 2023-07-22?",
+        "filled_param": {
+          "patient_id": "A98765",
+          "status": "in progress",
+          "report_date": "2023-07-22"
+        }
+      },
+      {
+        "query": "I need the draft abdominal ultrasound report for patient ID B54321, created on 2023-05-10.",
+        "filled_param": {
+          "patient_id": "B54321",
+          "status": "draft",
+          "report_date": "2023-05-10"
+        }
+      },
+      {
+        "query": "Fetch the abdominal ultrasound report for the patient with ID C67890, which is concluded, from the date 2023-08-30.",
+        "filled_param": {
+          "patient_id": "C67890",
+          "status": "concluded",
+          "report_date": "2023-08-30"
+        }
+      },
+      {
+        "query": "What is the status of the abdominal ultrasound report for patient ID D11223, marked as draft and from 2023-01-25?",
+        "filled_param": {
+          "patient_id": "D11223",
+          "status": "draft",
+          "report_date": "2023-01-25"
+        }
+      },
+      {
+        "query": "Please provide the abdominal ultrasound report for patient ID E33445, currently in progress, dated 2023-02-14.",
+        "filled_param": {
+          "patient_id": "E33445",
+          "status": "in progress",
+          "report_date": "2023-02-14"
+        }
+      },
+      {
+        "query": "Can you show me the concluded abdominal ultrasound report for patient ID F55667 from the date 2023-09-05?",
+        "filled_param": {
+          "patient_id": "F55667",
+          "status": "concluded",
+          "report_date": "2023-09-05"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|cardiac echocardiogram|:|patient_id,status,report_date": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "cardiac echocardiogram",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date"
+    ],
+    "queries": [
+      {
+        "query": "Could you retrieve the cardiac echocardiogram report for patient P12345 with a status of concluded on 2023-07-16?",
+        "filled_param": {
+          "patient_id": "P12345",
+          "status": "concluded",
+          "report_date": "2023-07-16"
+        }
+      },
+      {
+        "query": "I need the cardiac echocardiogram report for patient A98765, which is currently in progress as of 2023-09-24.",
+        "filled_param": {
+          "patient_id": "A98765",
+          "status": "in progress",
+          "report_date": "2023-09-24"
+        }
+      },
+      {
+        "query": "Find the cardiac echocardiogram draft report for patient ID B43210 from the date 2023-05-05.",
+        "filled_param": {
+          "patient_id": "B43210",
+          "status": "draft",
+          "report_date": "2023-05-05"
+        }
+      },
+      {
+        "query": "Can you look up the cardiac echocardiogram report for patient C67890 with the status concluded dated 2023-08-12?",
+        "filled_param": {
+          "patient_id": "C67890",
+          "status": "concluded",
+          "report_date": "2023-08-12"
+        }
+      },
+      {
+        "query": "Please provide the cardiac echocardiogram report details for patient D54321 marked as draft on 2023-06-30.",
+        "filled_param": {
+          "patient_id": "D54321",
+          "status": "draft",
+          "report_date": "2023-06-30"
+        }
+      },
+      {
+        "query": "I am looking for the cardiac echocardiogram report of patient E11223, which was in progress on 2023-10-01.",
+        "filled_param": {
+          "patient_id": "E11223",
+          "status": "in progress",
+          "report_date": "2023-10-01"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|spinal X-ray|:|patient_id,status,report_date": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "spinal X-ray",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date"
+    ],
+    "queries": [
+      {
+        "query": "Please find the spinal X-ray report for patient ID 12345 with status 'concluded' dated 2023-09-15.",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "concluded",
+          "report_date": "2023-09-15"
+        }
+      },
+      {
+        "query": "I need to check the spinal X-ray report for patient 67890; the status is 'in progress' and it was generated on 2023-10-01.",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "in progress",
+          "report_date": "2023-10-01"
+        }
+      },
+      {
+        "query": "Fetch the spinal X-ray report dated 2023-08-30 for patient ID 54321, which is currently in 'draft' status.",
+        "filled_param": {
+          "patient_id": "54321",
+          "status": "draft",
+          "report_date": "2023-08-30"
+        }
+      },
+      {
+        "query": "Can you provide the spinal X-ray report for the patient with ID 98765, having a status of 'concluded' on 2023-07-20?",
+        "filled_param": {
+          "patient_id": "98765",
+          "status": "concluded",
+          "report_date": "2023-07-20"
+        }
+      },
+      {
+        "query": "I'm looking for the spinal X-ray report for patient 24680, which is marked as 'in progress' and was done on 2023-09-05.",
+        "filled_param": {
+          "patient_id": "24680",
+          "status": "in progress",
+          "report_date": "2023-09-05"
+        }
+      },
+      {
+        "query": "Get the spinal X-ray report for patient ID 11223 with a 'draft' status from 2023-10-10.",
+        "filled_param": {
+          "patient_id": "11223",
+          "status": "draft",
+          "report_date": "2023-10-10"
+        }
+      },
+      {
+        "query": "Retrieve the spinal X-ray report for patient 33445 dated 2023-06-15, which has been concluded.",
+        "filled_param": {
+          "patient_id": "33445",
+          "status": "concluded",
+          "report_date": "2023-06-15"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|breast MRI|:|patient_id,status,report_date": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "breast MRI",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date"
+    ],
+    "queries": [
+      {
+        "query": "Can you retrieve the breast MRI report for patient ID 12345 with status 'concluded' on the date 2023-09-15?",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "concluded",
+          "report_date": "2023-09-15"
+        }
+      },
+      {
+        "query": "I need the breast MRI report for patient 67890, marked as 'in progress', dated 2023-10-01.",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "in progress",
+          "report_date": "2023-10-01"
+        }
+      },
+      {
+        "query": "Fetch the draft breast MRI report for patient ID A9876 from 2023-08-20.",
+        "filled_param": {
+          "patient_id": "A9876",
+          "status": "draft",
+          "report_date": "2023-08-20"
+        }
+      },
+      {
+        "query": "What is the status of the breast MRI report for patient 54321 marked as 'concluded' with the report date of 2023-07-30?",
+        "filled_param": {
+          "patient_id": "54321",
+          "status": "concluded",
+          "report_date": "2023-07-30"
+        }
+      },
+      {
+        "query": "Please provide the breast MRI report for patient ID B2345 that was in draft status on 2023-06-11.",
+        "filled_param": {
+          "patient_id": "B2345",
+          "status": "draft",
+          "report_date": "2023-06-11"
+        }
+      },
+      {
+        "query": "I am looking for the breast MRI report of patient ID C6543, which is marked 'in progress' and dated 2023-05-05.",
+        "filled_param": {
+          "patient_id": "C6543",
+          "status": "in progress",
+          "report_date": "2023-05-05"
+        }
+      },
+      {
+        "query": "Can you get the breast MRI report for patient ID 09876 with status 'concluded' from 2023-04-25?",
+        "filled_param": {
+          "patient_id": "09876",
+          "status": "concluded",
+          "report_date": "2023-04-25"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|liver CT|:|patient_id,status,report_date": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "liver CT",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the liver CT report for patient ID 12345 with the status 'concluded' on 2023-05-12?",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "concluded",
+          "report_date": "2023-05-12"
+        }
+      },
+      {
+        "query": "I need the liver CT report for patient 67890 that is currently 'in progress' as of 2023-04-01.",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "in progress",
+          "report_date": "2023-04-01"
+        }
+      },
+      {
+        "query": "Retrieve the liver CT report for patient ID 54321 with a 'draft' status dated 2023-03-15.",
+        "filled_param": {
+          "patient_id": "54321",
+          "status": "draft",
+          "report_date": "2023-03-15"
+        }
+      },
+      {
+        "query": "What does the liver CT report say for patient 98765, which was concluded on 2023-06-20?",
+        "filled_param": {
+          "patient_id": "98765",
+          "status": "concluded",
+          "report_date": "2023-06-20"
+        }
+      },
+      {
+        "query": "Fetch the 'in progress' liver CT report for patient 11223 dated 2023-07-25.",
+        "filled_param": {
+          "patient_id": "11223",
+          "status": "in progress",
+          "report_date": "2023-07-25"
+        }
+      },
+      {
+        "query": "Please get the liver CT report for patient ID 33445 with a 'draft' status as of 2023-05-10.",
+        "filled_param": {
+          "patient_id": "33445",
+          "status": "draft",
+          "report_date": "2023-05-10"
+        }
+      },
+      {
+        "query": "I am looking for the liver CT report for patient 55667 that was 'concluded' on 2023-08-30.",
+        "filled_param": {
+          "patient_id": "55667",
+          "status": "concluded",
+          "report_date": "2023-08-30"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|ocular OCT|:|patient_id,status,report_date": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "ocular OCT",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date"
+    ],
+    "queries": [
+      {
+        "query": "Can you retrieve the ocular OCT report for patient ID 12345 with the status 'concluded' from September 14, 2023?",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "concluded",
+          "report_date": "September 14, 2023"
+        }
+      },
+      {
+        "query": "I need the ocular OCT report for patient 67890, marked as 'in progress' from October 1, 2023.",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "in progress",
+          "report_date": "October 1, 2023"
+        }
+      },
+      {
+        "query": "Fetch the ocular OCT report for patient ID 24680 with a 'draft' status dated August 25, 2023.",
+        "filled_param": {
+          "patient_id": "24680",
+          "status": "draft",
+          "report_date": "August 25, 2023"
+        }
+      },
+      {
+        "query": "Please get the ocular OCT report labeled 'concluded' for patient ID 13579, dated July 10, 2023.",
+        "filled_param": {
+          "patient_id": "13579",
+          "status": "concluded",
+          "report_date": "July 10, 2023"
+        }
+      },
+      {
+        "query": "What is the status of the ocular OCT report for patient 98765, with 'in progress' status from June 30, 2023?",
+        "filled_param": {
+          "patient_id": "98765",
+          "status": "in progress",
+          "report_date": "June 30, 2023"
+        }
+      },
+      {
+        "query": "Access the ocular OCT report for patient ID 55555 that is under 'draft' as of August 15, 2023.",
+        "filled_param": {
+          "patient_id": "55555",
+          "status": "draft",
+          "report_date": "August 15, 2023"
+        }
+      },
+      {
+        "query": "Get the ocular OCT report from March 3, 2023, for patient 11223, which is marked as 'concluded'.",
+        "filled_param": {
+          "patient_id": "11223",
+          "status": "concluded",
+          "report_date": "March 3, 2023"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|whole-body PET scan|:|patient_id,status,report_date": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "whole-body PET scan",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the whole-body PET scan report for patient ID 12345 with status 'concluded' from April 12, 2023?",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "concluded",
+          "report_date": "April 12, 2023"
+        }
+      },
+      {
+        "query": "I need to see the whole-body PET scan report details for patient 67890, which is currently 'in progress', dated March 1, 2023.",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "in progress",
+          "report_date": "March 1, 2023"
+        }
+      },
+      {
+        "query": "Fetch the whole-body PET scan report for patient ID 24680. The status is 'draft' and it was generated on January 15, 2023.",
+        "filled_param": {
+          "patient_id": "24680",
+          "status": "draft",
+          "report_date": "January 15, 2023"
+        }
+      },
+      {
+        "query": "Can you look up the whole-body PET scan report for patient ID 13579, with a 'concluded' status from May 22, 2023?",
+        "filled_param": {
+          "patient_id": "13579",
+          "status": "concluded",
+          "report_date": "May 22, 2023"
+        }
+      },
+      {
+        "query": "Retrieve the whole-body PET scan report for patient 98765. The report status is 'in progress' from February 14, 2023.",
+        "filled_param": {
+          "patient_id": "98765",
+          "status": "in progress",
+          "report_date": "February 14, 2023"
+        }
+      },
+      {
+        "query": "Get the whole-body PET scan report for patient ID 11223 with a status of 'draft', dated June 30, 2023.",
+        "filled_param": {
+          "patient_id": "11223",
+          "status": "draft",
+          "report_date": "June 30, 2023"
+        }
+      }
+    ]
+  },
+  "patient.get_mri_report|:|angiography|:|patient_id,status,report_date": {
+    "tool_template_name": "patient.get_mri_report",
+    "derived_class": "angiography",
+    "params_for_query": [
+      "patient_id",
+      "status",
+      "report_date"
+    ],
+    "queries": [
+      {
+        "query": "Can you check the angiography report for patient ID 12345, which is currently in progress and was generated on 2023-05-12?",
+        "filled_param": {
+          "patient_id": "12345",
+          "status": "in progress",
+          "report_date": "2023-05-12"
+        }
+      },
+      {
+        "query": "I need to see the angiography report for patient 67890, marked as concluded on 2023-06-15.",
+        "filled_param": {
+          "patient_id": "67890",
+          "status": "concluded",
+          "report_date": "2023-06-15"
+        }
+      },
+      {
+        "query": "Fetch the draft angiography report for patient 54321 dated 2023-07-20.",
+        "filled_param": {
+          "patient_id": "54321",
+          "status": "draft",
+          "report_date": "2023-07-20"
+        }
+      },
+      {
+        "query": "Please provide the angiography report for patient ID 98765, which concluded on 2023-08-01.",
+        "filled_param": {
+          "patient_id": "98765",
+          "status": "concluded",
+          "report_date": "2023-08-01"
+        }
+      },
+      {
+        "query": "Is there an angiography report for patient 24680 that is still in progress as of 2023-09-05?",
+        "filled_param": {
+          "patient_id": "24680",
+          "status": "in progress",
+          "report_date": "2023-09-05"
+        }
+      },
+      {
+        "query": "Retrieve the angiography report draft for patient ID 13579 created on 2023-10-10.",
+        "filled_param": {
+          "patient_id": "13579",
+          "status": "draft",
+          "report_date": "2023-10-10"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "tool_template_name": "group_dynamics.pattern",
+  "meta_data": {
+    "base_class": "Analyze the internal social dynamics and personality distribution within a <professional group> group to identify behavioral interaction patterns - <professional group> refers to a population of individuals sharing the same profession or social role, whose group behavior can be studied through composition and interpersonal traits.",
+    "derived_classes": [
+      "teachers",
+      "software engineers",
+      "doctors",
+      "nurses",
+      "lawyers",
+      "salespeople",
+      "construction workers",
+      "police officers",
+      "scientists",
+      "artists",
+      "bankers",
+      "athletes"
+    ],
+    "base_class_entity": "group"
+  },
+  "tool_template": {
+    "name": "analyze_<class>_dynamics",
+    "description": "Analyze the social dynamics and interactions within a <class> group based on personality traits and group size.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "total": {
+          "type": "integer",
+          "description": "The total size of the <class> group."
+        },
+        "extroverts": {
+          "type": "integer",
+          "description": "The number of extroverted members in the <class> group."
+        },
+        "introverts": {
+          "type": "integer",
+          "description": "The number of introverted members in the <class> group."
+        }
+      },
+      "required": [
+        "total",
+        "extroverts",
+        "introverts"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "average_age": {
+      "type": "integer",
+      "description": "The average age of the members in the <class> group."
+    },
+    "gender_distribution": {
+      "type": "string",
+      "description": "The gender distribution within the <class> group, represented as a percentage of male."
+    },
+    "hierarchy_level_variance": {
+      "type": "number",
+      "description": "Represents the degree of hierarchy variation within the <class> group, where higher values indicate greater inequality."
+    },
+    "include_visualization": {
+      "type": "boolean",
+      "description": "If true, the analysis output for the <class> group will include a visualization component, such as charts representing interaction patterns."
+    }
+  }
+}

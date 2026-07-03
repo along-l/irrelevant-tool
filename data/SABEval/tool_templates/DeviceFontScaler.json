@@ -1,0 +1,59 @@
+{
+  "tool_template_name": "DeviceFontScaler",
+  "meta_data": {
+    "base_class": "Adjust <display settings> on a device for better readability - refers to user interface elements that can be scaled to change the appearance or interaction of the device interface.",
+    "derived_classes": [
+      "font size",
+      "icon size",
+      "system volume",
+      "animation speed",
+      "screen brightness",
+      "color contrast"
+    ],
+    "base_class_entity": "font size"
+  },
+  "tool_template": {
+    "name": "Device<class>Scaler",
+    "description": "Scale the <class> on your device for better readability.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "device_type": {
+          "type": "string",
+          "description": "Type of the device, e.g., 'smartwatch', 'smartphone'."
+        },
+        "scale_factor": {
+          "type": "number",
+          "description": "Factor by which to scale the <class>. Must be between 0.5 and 3.0."
+        }
+      },
+      "required": [
+        "device_type",
+        "scale_factor"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "preview_before_apply": {
+      "type": "boolean",
+      "description": "Whether to preview the <class> scaling effect before applying changes."
+    },
+    "apply_to_all_screens": {
+      "type": "boolean",
+      "description": "Boolean flag indicating whether the <class> scaling should be applied globally across all device screens."
+    },
+    "context_mode": {
+      "type": "string",
+      "description": "Usage context in which the <class> scaling should be optimized, e.g., reading, gaming, presentation, global."
+    },
+    "auto_reset_time": {
+      "type": "string",
+      "description": "Time duration (e.g., '10min', '1h', 'permanent') after which the scaling should automatically revert to default except 'permanent'."
+    },
+    "transition_animation": {
+      "type": "string",
+      "description": "Defines the animation style used during the scaling transition, e.g., smooth, instant, bounce."
+    }
+  }
+}

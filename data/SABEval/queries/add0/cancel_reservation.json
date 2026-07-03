@@ -1,0 +1,632 @@
+{
+  "cancel_reservation|:|restaurant dining|:|user_id,reservation_id": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "restaurant dining",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my restaurant dining reservation with user ID U12345 and reservation ID R67890.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890"
+        }
+      },
+      {
+        "query": "I need to cancel the restaurant dining booking. My user ID is ABCD1234 and the reservation ID is RES5678.",
+        "filled_param": {
+          "user_id": "ABCD1234",
+          "reservation_id": "RES5678"
+        }
+      },
+      {
+        "query": "Cancel the restaurant dining reservation for user U98765 with reservation code RXYZ123.",
+        "filled_param": {
+          "user_id": "U98765",
+          "reservation_id": "RXYZ123"
+        }
+      },
+      {
+        "query": "Can you cancel my restaurant dining reservation? My user ID is USER001 and the reservation ID is RES002.",
+        "filled_param": {
+          "user_id": "USER001",
+          "reservation_id": "RES002"
+        }
+      },
+      {
+        "query": "I’d like to cancel a restaurant dining reservation. User ID: ZXY123, Reservation ID: 456DEF.",
+        "filled_param": {
+          "user_id": "ZXY123",
+          "reservation_id": "456DEF"
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|hotel stay|:|user_id,reservation_id": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "hotel stay",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my hotel stay with user ID U12345 and reservation ID R67890.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890"
+        }
+      },
+      {
+        "query": "I’d like to cancel the hotel stay reservation R54321 for user ID U98765.",
+        "filled_param": {
+          "user_id": "U98765",
+          "reservation_id": "R54321"
+        }
+      },
+      {
+        "query": "Can you cancel the hotel stay reservation for user ID U13579 and reservation ID R24680?",
+        "filled_param": {
+          "user_id": "U13579",
+          "reservation_id": "R24680"
+        }
+      },
+      {
+        "query": "Cancel the reservation ID R11223 for hotel stay under user ID U55678.",
+        "filled_param": {
+          "user_id": "U55678",
+          "reservation_id": "R11223"
+        }
+      },
+      {
+        "query": "I need to cancel my hotel stay; my user ID is U19283 and the reservation ID is R37465.",
+        "filled_param": {
+          "user_id": "U19283",
+          "reservation_id": "R37465"
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|Disney park visit|:|user_id,reservation_id": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "Disney park visit",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "Can you cancel my Disney park visit with user ID 12345 and reservation ID 67890?",
+        "filled_param": {
+          "user_id": "12345",
+          "reservation_id": "67890"
+        }
+      },
+      {
+        "query": "I need to cancel the Disney park visit under user ID A1B2C3 with reservation ID X9Y8Z7.",
+        "filled_param": {
+          "user_id": "A1B2C3",
+          "reservation_id": "X9Y8Z7"
+        }
+      },
+      {
+        "query": "Please help me cancel my reservation for a Disney park visit. My user ID is 54321 and the reservation ID is 09876.",
+        "filled_param": {
+          "user_id": "54321",
+          "reservation_id": "09876"
+        }
+      },
+      {
+        "query": "I want to cancel my Disney park visit. My user ID is USER789 and reservation ID is RES123.",
+        "filled_param": {
+          "user_id": "USER789",
+          "reservation_id": "RES123"
+        }
+      },
+      {
+        "query": "Can the Disney park visit reservation be canceled if my user ID is U123456 and reservation ID is R654321?",
+        "filled_param": {
+          "user_id": "U123456",
+          "reservation_id": "R654321"
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|Universal Studios visit|:|user_id,reservation_id": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "Universal Studios visit",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my Universal Studios visit with user ID 12345 and reservation ID 67890.",
+        "filled_param": {
+          "user_id": "12345",
+          "reservation_id": "67890"
+        }
+      },
+      {
+        "query": "I need to cancel the Universal Studios visit reservation. My user ID is A1B2C3 and the reservation ID is X9Y8Z7.",
+        "filled_param": {
+          "user_id": "A1B2C3",
+          "reservation_id": "X9Y8Z7"
+        }
+      },
+      {
+        "query": "Cancel my Universal Studios visit using user ID U456 and reservation ID R789.",
+        "filled_param": {
+          "user_id": "U456",
+          "reservation_id": "R789"
+        }
+      },
+      {
+        "query": "How do I cancel my Universal Studios visit reservation? My user ID is 98765 and the reservation ID is 43210.",
+        "filled_param": {
+          "user_id": "98765",
+          "reservation_id": "43210"
+        }
+      },
+      {
+        "query": "I want to cancel my Universal Studios visit. The user ID is ABC123 and the reservation ID is DEF456.",
+        "filled_param": {
+          "user_id": "ABC123",
+          "reservation_id": "DEF456"
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|movie theater|:|user_id,reservation_id": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "movie theater",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my movie theater reservation with reservation ID 12345 and user ID user789.",
+        "filled_param": {
+          "user_id": "user789",
+          "reservation_id": "12345"
+        }
+      },
+      {
+        "query": "Can you help me cancel the movie theater booking? The reservation ID is 67890, and my user ID is user456.",
+        "filled_param": {
+          "user_id": "user456",
+          "reservation_id": "67890"
+        }
+      },
+      {
+        "query": "I'd like to cancel my movie theater reservation. My user ID is user123 and the reservation ID is 54321.",
+        "filled_param": {
+          "user_id": "user123",
+          "reservation_id": "54321"
+        }
+      },
+      {
+        "query": "Cancel the movie theater reservation for user ID user321 with reservation ID 98765.",
+        "filled_param": {
+          "user_id": "user321",
+          "reservation_id": "98765"
+        }
+      },
+      {
+        "query": "I need to cancel a movie theater reservation. The user ID is user654, and the reservation ID is 11223.",
+        "filled_param": {
+          "user_id": "user654",
+          "reservation_id": "11223"
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|flight|:|user_id,reservation_id": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "flight",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my flight reservation with reservation ID 12345ABC and user ID user6789.",
+        "filled_param": {
+          "user_id": "user6789",
+          "reservation_id": "12345ABC"
+        }
+      },
+      {
+        "query": "I need to cancel the flight reservation with ID RES98765 for user ID user123.",
+        "filled_param": {
+          "user_id": "user123",
+          "reservation_id": "RES98765"
+        }
+      },
+      {
+        "query": "Can you cancel the flight booking for user ID johndoe123, reservation ID F4567XYZ?",
+        "filled_param": {
+          "user_id": "johndoe123",
+          "reservation_id": "F4567XYZ"
+        }
+      },
+      {
+        "query": "Cancel the flight under reservation ID 78910QWERTY for user ID traveluser99.",
+        "filled_param": {
+          "user_id": "traveluser99",
+          "reservation_id": "78910QWERTY"
+        }
+      },
+      {
+        "query": "I want to cancel my flight, the reservation ID is 65432LMNOP and my user ID is aliceuser.",
+        "filled_param": {
+          "user_id": "aliceuser",
+          "reservation_id": "65432LMNOP"
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|high-speed train|:|user_id,reservation_id": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "high-speed train",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my high-speed train reservation. My user ID is U12345 and the reservation ID is R67890.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890"
+        }
+      },
+      {
+        "query": "I need to cancel a high-speed train booking with the user ID A98765 and reservation ID B54321.",
+        "filled_param": {
+          "user_id": "A98765",
+          "reservation_id": "B54321"
+        }
+      },
+      {
+        "query": "Cancel the high-speed train reservation for user ID Q11223 with reservation ID T33445.",
+        "filled_param": {
+          "user_id": "Q11223",
+          "reservation_id": "T33445"
+        }
+      },
+      {
+        "query": "Can you cancel my high-speed train booking? User ID: Z44556, Reservation ID: H77889.",
+        "filled_param": {
+          "user_id": "Z44556",
+          "reservation_id": "H77889"
+        }
+      },
+      {
+        "query": "I need assistance with canceling my high-speed train reservation. The user ID is L10987 and the reservation ID is N45678.",
+        "filled_param": {
+          "user_id": "L10987",
+          "reservation_id": "N45678"
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|concert|:|user_id,reservation_id": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "concert",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my concert booking; the user ID is U12345 and the reservation ID is R98765.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R98765"
+        }
+      },
+      {
+        "query": "I need to cancel the concert reservation with reservation ID R55678 for user ID U67890.",
+        "filled_param": {
+          "user_id": "U67890",
+          "reservation_id": "R55678"
+        }
+      },
+      {
+        "query": "Can you help me cancel the concert reservation? My user ID is U11223 and the reservation ID is R33445.",
+        "filled_param": {
+          "user_id": "U11223",
+          "reservation_id": "R33445"
+        }
+      },
+      {
+        "query": "Cancel the concert reservation linked to user ID U44556 and reservation ID R66789.",
+        "filled_param": {
+          "user_id": "U44556",
+          "reservation_id": "R66789"
+        }
+      },
+      {
+        "query": "I would like to cancel my concert reservation. My user ID is U99887, and the reservation ID is R22112.",
+        "filled_param": {
+          "user_id": "U99887",
+          "reservation_id": "R22112"
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|sports event|:|user_id,reservation_id": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "sports event",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my sports event reservation with user ID U12345 and reservation ID R98765.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R98765"
+        }
+      },
+      {
+        "query": "I need to cancel a sports event reservation. The user ID is U67890 and the reservation ID is R54321.",
+        "filled_param": {
+          "user_id": "U67890",
+          "reservation_id": "R54321"
+        }
+      },
+      {
+        "query": "Can you cancel the sports event reservation for user ID U11223 with reservation ID R55667?",
+        "filled_param": {
+          "user_id": "U11223",
+          "reservation_id": "R55667"
+        }
+      },
+      {
+        "query": "The sports event reservation needs to be canceled. My user ID is U33445 and the reservation ID is R22334.",
+        "filled_param": {
+          "user_id": "U33445",
+          "reservation_id": "R22334"
+        }
+      },
+      {
+        "query": "Cancel the sports event reservation under the user ID U99887 and reservation ID R77665.",
+        "filled_param": {
+          "user_id": "U99887",
+          "reservation_id": "R77665"
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|hospital appointment|:|user_id,reservation_id": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "hospital appointment",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my hospital appointment with user ID U12345 and reservation ID R67890.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R67890"
+        }
+      },
+      {
+        "query": "I need to cancel my hospital appointment. My user ID is A98765 and the reservation ID is B54321.",
+        "filled_param": {
+          "user_id": "A98765",
+          "reservation_id": "B54321"
+        }
+      },
+      {
+        "query": "Can you help me cancel a hospital appointment? The user ID is J11223 and the reservation ID is H33445.",
+        "filled_param": {
+          "user_id": "J11223",
+          "reservation_id": "H33445"
+        }
+      },
+      {
+        "query": "Cancel the following hospital appointment: user ID C55678, reservation ID D22334.",
+        "filled_param": {
+          "user_id": "C55678",
+          "reservation_id": "D22334"
+        }
+      },
+      {
+        "query": "I want to cancel my hospital appointment using user ID E99887 and reservation ID F66778.",
+        "filled_param": {
+          "user_id": "E99887",
+          "reservation_id": "F66778"
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|psychological counseling|:|user_id,reservation_id": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "psychological counseling",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my psychological counseling appointment with the reservation ID 12345 for user ID ABCD123.",
+        "filled_param": {
+          "user_id": "ABCD123",
+          "reservation_id": "12345"
+        }
+      },
+      {
+        "query": "I need to cancel my psychological counseling session. My user ID is USER987 and the reservation ID is RES789.",
+        "filled_param": {
+          "user_id": "USER987",
+          "reservation_id": "RES789"
+        }
+      },
+      {
+        "query": "Can you help me cancel the psychological counseling reservation? My user ID is U123 and the reservation ID is R456.",
+        "filled_param": {
+          "user_id": "U123",
+          "reservation_id": "R456"
+        }
+      },
+      {
+        "query": "Cancel the psychological counseling appointment for user ID USER321 with the reservation number 987654.",
+        "filled_param": {
+          "user_id": "USER321",
+          "reservation_id": "987654"
+        }
+      },
+      {
+        "query": "I want to cancel the psychological counseling reservation. The user ID is UserX and the reservation ID is 54321.",
+        "filled_param": {
+          "user_id": "UserX",
+          "reservation_id": "54321"
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|legal consultation|:|user_id,reservation_id": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "legal consultation",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my legal consultation with reservation ID 12345 for user ID user789.",
+        "filled_param": {
+          "user_id": "user789",
+          "reservation_id": "12345"
+        }
+      },
+      {
+        "query": "I need to cancel the legal consultation booked under user ID A1B2C3 with reservation ID 67890.",
+        "filled_param": {
+          "user_id": "A1B2C3",
+          "reservation_id": "67890"
+        }
+      },
+      {
+        "query": "Remove the legal consultation reservation 24680 linked to user ID ZYX987.",
+        "filled_param": {
+          "user_id": "ZYX987",
+          "reservation_id": "24680"
+        }
+      },
+      {
+        "query": "Can you help me cancel the reservation with ID 112233 for my legal consultation? My user ID is ABC123.",
+        "filled_param": {
+          "user_id": "ABC123",
+          "reservation_id": "112233"
+        }
+      },
+      {
+        "query": "Terminate the legal consultation appointment identified by reservation ID 334455 for the user ID DEF456.",
+        "filled_param": {
+          "user_id": "DEF456",
+          "reservation_id": "334455"
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|housekeeping service|:|user_id,reservation_id": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "housekeeping service",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my housekeeping service reservation with user ID U12345 and reservation ID R98765.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R98765"
+        }
+      },
+      {
+        "query": "I need to cancel the housekeeping service booking. My user ID is U54321 and the reservation ID is R12389.",
+        "filled_param": {
+          "user_id": "U54321",
+          "reservation_id": "R12389"
+        }
+      },
+      {
+        "query": "How can I cancel my housekeeping service? The details are: user ID U98765 and reservation ID R11223.",
+        "filled_param": {
+          "user_id": "U98765",
+          "reservation_id": "R11223"
+        }
+      },
+      {
+        "query": "Can you help me cancel the housekeeping service with user ID U11223 and reservation ID R55443?",
+        "filled_param": {
+          "user_id": "U11223",
+          "reservation_id": "R55443"
+        }
+      },
+      {
+        "query": "I would like to cancel my housekeeping service appointment. My user ID is U66778 and the reservation ID is R22119.",
+        "filled_param": {
+          "user_id": "U66778",
+          "reservation_id": "R22119"
+        }
+      }
+    ]
+  },
+  "cancel_reservation|:|yoga class|:|user_id,reservation_id": {
+    "tool_template_name": "cancel_reservation",
+    "derived_class": "yoga class",
+    "params_for_query": [
+      "user_id",
+      "reservation_id"
+    ],
+    "queries": [
+      {
+        "query": "Please cancel my yoga class reservation with user ID U12345 and reservation ID R98765.",
+        "filled_param": {
+          "user_id": "U12345",
+          "reservation_id": "R98765"
+        }
+      },
+      {
+        "query": "I need to cancel the yoga class I booked. My user ID is U54321 and the reservation ID is R12345.",
+        "filled_param": {
+          "user_id": "U54321",
+          "reservation_id": "R12345"
+        }
+      },
+      {
+        "query": "Cancel the yoga class reservation for user ID U67890, reservation ID R45678.",
+        "filled_param": {
+          "user_id": "U67890",
+          "reservation_id": "R45678"
+        }
+      },
+      {
+        "query": "Can you help me cancel the yoga class with user ID U11111 and reservation ID R22222?",
+        "filled_param": {
+          "user_id": "U11111",
+          "reservation_id": "R22222"
+        }
+      },
+      {
+        "query": "Terminate the yoga class booking. User ID is U33333 and reservation ID is R44444.",
+        "filled_param": {
+          "user_id": "U33333",
+          "reservation_id": "R44444"
+        }
+      }
+    ]
+  }
+}

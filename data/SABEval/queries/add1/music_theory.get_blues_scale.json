@@ -1,0 +1,807 @@
+{
+  "music_theory.get_blues_scale|:|major scale|:|key,show_intervals": {
+    "tool_template_name": "music_theory.get_blues_scale",
+    "derived_class": "major scale",
+    "params_for_query": [
+      "key",
+      "show_intervals"
+    ],
+    "queries": [
+      {
+        "query": "What is the major scale in the key of C, and can you include the intervals?",
+        "filled_param": {
+          "key": "C",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "Can you list the notes of the G major scale without showing the intervals?",
+        "filled_param": {
+          "key": "G",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "I'd like to know the major scale for the key of D, including the intervals.",
+        "filled_param": {
+          "key": "D",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "Provide the notes in the A major scale without intervals.",
+        "filled_param": {
+          "key": "A",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "Could you tell me the major scale in the key of B, including all the intervals?",
+        "filled_param": {
+          "key": "B",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "What are the notes of the E major scale if you don't show the intervals?",
+        "filled_param": {
+          "key": "E",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "Please generate the major scale for the key of F#, showing the intervals.",
+        "filled_param": {
+          "key": "F#",
+          "show_intervals": true
+        }
+      }
+    ]
+  },
+  "music_theory.get_blues_scale|:|natural minor scale|:|key,show_intervals": {
+    "tool_template_name": "music_theory.get_blues_scale",
+    "derived_class": "natural minor scale",
+    "params_for_query": [
+      "key",
+      "show_intervals"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the natural minor scale for the key of A, including the intervals?",
+        "filled_param": {
+          "key": "A",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "I'd like to see the natural minor scale for D flat without showing the intervals.",
+        "filled_param": {
+          "key": "D flat",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "What is the natural minor scale for the key of G, intervals included?",
+        "filled_param": {
+          "key": "G",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "Generate the natural minor scale in the key of E major without showing the intervals.",
+        "filled_param": {
+          "key": "E",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "Could you list the C natural minor scale with intervals?",
+        "filled_param": {
+          "key": "C",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "I need the B natural minor scale, but don't include the intervals.",
+        "filled_param": {
+          "key": "B",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "Please give me the natural minor scale for F sharp, and make sure to show the intervals.",
+        "filled_param": {
+          "key": "F sharp",
+          "show_intervals": true
+        }
+      }
+    ]
+  },
+  "music_theory.get_blues_scale|:|harmonic minor scale|:|key,show_intervals": {
+    "tool_template_name": "music_theory.get_blues_scale",
+    "derived_class": "harmonic minor scale",
+    "params_for_query": [
+      "key",
+      "show_intervals"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the harmonic minor scale for the key of A, and also show the intervals?",
+        "filled_param": {
+          "key": "A",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "What is the harmonic minor scale for C# without displaying the intervals?",
+        "filled_param": {
+          "key": "C#",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "Please give me the harmonic minor scale in the key of G, including the intervals.",
+        "filled_param": {
+          "key": "G",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "I need to know the harmonic minor scale for the key of E, but don't show the intervals.",
+        "filled_param": {
+          "key": "E",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "Can you list the harmonic minor scale for F# and show the intervals?",
+        "filled_param": {
+          "key": "F#",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "Tell me the harmonic minor scale in the key of Bb without the intervals.",
+        "filled_param": {
+          "key": "Bb",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "I'd like to see the harmonic minor scale for D, including intervals.",
+        "filled_param": {
+          "key": "D",
+          "show_intervals": true
+        }
+      }
+    ]
+  },
+  "music_theory.get_blues_scale|:|melodic minor scale|:|key,show_intervals": {
+    "tool_template_name": "music_theory.get_blues_scale",
+    "derived_class": "melodic minor scale",
+    "params_for_query": [
+      "key",
+      "show_intervals"
+    ],
+    "queries": [
+      {
+        "query": "Could you give me the melodic minor scale for the key of A, including the intervals?",
+        "filled_param": {
+          "key": "A",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "What's the melodic minor scale in D without showing the intervals?",
+        "filled_param": {
+          "key": "D",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "List the notes of the melodic minor scale in the key of G and include the intervals, please.",
+        "filled_param": {
+          "key": "G",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "I need to see the melodic minor scale for F#, but you can skip the intervals this time.",
+        "filled_param": {
+          "key": "F#",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "Show me the melodic minor scale in E, make sure to include the intervals.",
+        "filled_param": {
+          "key": "E",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "Can you provide the melodic minor scale for the key of Bb without showing any intervals?",
+        "filled_param": {
+          "key": "Bb",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "I'd like to see the intervals and notes of the melodic minor scale in the key of C.",
+        "filled_param": {
+          "key": "C",
+          "show_intervals": true
+        }
+      }
+    ]
+  },
+  "music_theory.get_blues_scale|:|major pentatonic scale|:|key,show_intervals": {
+    "tool_template_name": "music_theory.get_blues_scale",
+    "derived_class": "major pentatonic scale",
+    "params_for_query": [
+      "key",
+      "show_intervals"
+    ],
+    "queries": [
+      {
+        "query": "What are the notes of the major pentatonic scale in the key of C, including intervals?",
+        "filled_param": {
+          "key": "C",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "Can you provide the A major pentatonic scale without showing the intervals?",
+        "filled_param": {
+          "key": "A",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "Generate the notes and intervals for the major pentatonic scale in the key of G.",
+        "filled_param": {
+          "key": "G",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "I'd like to know the notes in the E major pentatonic scale, but I don't need the intervals.",
+        "filled_param": {
+          "key": "E",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "What are the notes and intervals for the major pentatonic scale that starts on F#?",
+        "filled_param": {
+          "key": "F#",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "List the notes of the major pentatonic scale in B major, excluding intervals.",
+        "filled_param": {
+          "key": "B",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "Could you show me the notes and intervals for the D major pentatonic scale?",
+        "filled_param": {
+          "key": "D",
+          "show_intervals": true
+        }
+      }
+    ]
+  },
+  "music_theory.get_blues_scale|:|minor pentatonic scale|:|key,show_intervals": {
+    "tool_template_name": "music_theory.get_blues_scale",
+    "derived_class": "minor pentatonic scale",
+    "params_for_query": [
+      "key",
+      "show_intervals"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide me with the notes of the minor pentatonic scale in the key of A, and include the intervals too?",
+        "filled_param": {
+          "key": "A",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "What are the notes of the minor pentatonic scale for the key of E, without showing the intervals?",
+        "filled_param": {
+          "key": "E",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "List the minor pentatonic scale notes in the key of C, and please show the intervals.",
+        "filled_param": {
+          "key": "C",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "Can you generate the minor pentatonic scale in G#, but don't include the intervals?",
+        "filled_param": {
+          "key": "G#",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "I need the minor pentatonic scale for the key of D, and make sure to show the intervals.",
+        "filled_param": {
+          "key": "D",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "Provide the minor pentatonic scale notes for the key of F without the intervals.",
+        "filled_param": {
+          "key": "F",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "What does the minor pentatonic scale look like in B with the intervals included?",
+        "filled_param": {
+          "key": "B",
+          "show_intervals": true
+        }
+      }
+    ]
+  },
+  "music_theory.get_blues_scale|:|blues scale|:|key,show_intervals": {
+    "tool_template_name": "music_theory.get_blues_scale",
+    "derived_class": "blues scale",
+    "params_for_query": [
+      "key",
+      "show_intervals"
+    ],
+    "queries": [
+      {
+        "query": "What is the blues scale in the key of C, and can you include the intervals?",
+        "filled_param": {
+          "key": "C",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "I'd like to see the blues scale for the key of G, but skip the intervals, please.",
+        "filled_param": {
+          "key": "G",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "Could you generate the blues scale in the key of A, including the intervals?",
+        "filled_param": {
+          "key": "A",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "Give me the blues scale for E, without showing the intervals.",
+        "filled_param": {
+          "key": "E",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "Can you provide the blues scale for the root note Bb, with intervals included?",
+        "filled_param": {
+          "key": "Bb",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "I need the blues scale for F#, and please include the intervals.",
+        "filled_param": {
+          "key": "F#",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "What's the blues scale in D, excluding the intervals?",
+        "filled_param": {
+          "key": "D",
+          "show_intervals": false
+        }
+      }
+    ]
+  },
+  "music_theory.get_blues_scale|:|dorian mode|:|key,show_intervals": {
+    "tool_template_name": "music_theory.get_blues_scale",
+    "derived_class": "dorian mode",
+    "params_for_query": [
+      "key",
+      "show_intervals"
+    ],
+    "queries": [
+      {
+        "query": "What are the notes in the Dorian mode for the key of A? Please include the intervals.",
+        "filled_param": {
+          "key": "A",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "Can you provide the Dorian mode scale for C without showing the intervals?",
+        "filled_param": {
+          "key": "C",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "I'd like to know the Dorian mode scale in the key of E and also see the intervals.",
+        "filled_param": {
+          "key": "E",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "Generate the Dorian mode scale for the key of G, but I don't need the intervals.",
+        "filled_param": {
+          "key": "G",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "Could you list the notes of the Dorian mode in the key of D and show the intervals?",
+        "filled_param": {
+          "key": "D",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "Show me the Dorian mode scale for F# without any intervals.",
+        "filled_param": {
+          "key": "F#",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "What is the Dorian mode scale for B and can you include the intervals?",
+        "filled_param": {
+          "key": "B",
+          "show_intervals": true
+        }
+      }
+    ]
+  },
+  "music_theory.get_blues_scale|:|phrygian mode|:|key,show_intervals": {
+    "tool_template_name": "music_theory.get_blues_scale",
+    "derived_class": "phrygian mode",
+    "params_for_query": [
+      "key",
+      "show_intervals"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the phrygian mode scale for the key of C and include the intervals?",
+        "filled_param": {
+          "key": "C",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "Generate the phrygian mode scale in the key of G without showing the intervals.",
+        "filled_param": {
+          "key": "G",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "What is the phrygian mode scale for the key of B and can you show the intervals?",
+        "filled_param": {
+          "key": "B",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "I'd like to see the phrygian mode scale for the key of E. No need for intervals.",
+        "filled_param": {
+          "key": "E",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "Please give me the phrygian mode scale for F#, including the intervals.",
+        "filled_param": {
+          "key": "F#",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "Could you display the phrygian mode scale in A, but don't show the intervals?",
+        "filled_param": {
+          "key": "A",
+          "show_intervals": false
+        }
+      }
+    ]
+  },
+  "music_theory.get_blues_scale|:|lydian mode|:|key,show_intervals": {
+    "tool_template_name": "music_theory.get_blues_scale",
+    "derived_class": "lydian mode",
+    "params_for_query": [
+      "key",
+      "show_intervals"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the Lydian mode scale for the key of C and include the intervals?",
+        "filled_param": {
+          "key": "C",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "I’m looking for the Lydian mode scale in the key of D. Please show the intervals as well.",
+        "filled_param": {
+          "key": "D",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "Generate the Lydian mode scale for A, but I don't need the intervals.",
+        "filled_param": {
+          "key": "A",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "What's the Lydian mode scale for F# without showing the intervals?",
+        "filled_param": {
+          "key": "F#",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "Tell me the Lydian mode scale in G major and make sure to include the intervals.",
+        "filled_param": {
+          "key": "G",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "Could you give me the Lydian mode scale for B flat, and I would like to see the intervals?",
+        "filled_param": {
+          "key": "B flat",
+          "show_intervals": true
+        }
+      }
+    ]
+  },
+  "music_theory.get_blues_scale|:|mixolydian mode|:|key,show_intervals": {
+    "tool_template_name": "music_theory.get_blues_scale",
+    "derived_class": "mixolydian mode",
+    "params_for_query": [
+      "key",
+      "show_intervals"
+    ],
+    "queries": [
+      {
+        "query": "What is the mixolydian mode scale in the key of C, and can you show the intervals?",
+        "filled_param": {
+          "key": "C",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "Could you please provide the G mixolydian mode scale without showing the intervals?",
+        "filled_param": {
+          "key": "G",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "I'm interested in the D mixolydian mode scale. Include the intervals in your response.",
+        "filled_param": {
+          "key": "D",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "Generate the mixolydian mode scale for the key of A, without intervals.",
+        "filled_param": {
+          "key": "A",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "Can you list the notes in the E mixolydian mode, including the intervals?",
+        "filled_param": {
+          "key": "E",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "Give me the mixolydian mode scale for B flat, but don't show the intervals.",
+        "filled_param": {
+          "key": "B flat",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "I'd like to see the mixolydian mode scale for F sharp and include the intervals.",
+        "filled_param": {
+          "key": "F sharp",
+          "show_intervals": true
+        }
+      }
+    ]
+  },
+  "music_theory.get_blues_scale|:|locrian mode|:|key,show_intervals": {
+    "tool_template_name": "music_theory.get_blues_scale",
+    "derived_class": "locrian mode",
+    "params_for_query": [
+      "key",
+      "show_intervals"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the locrian mode scale for the key of C, including the intervals?",
+        "filled_param": {
+          "key": "C",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "Generate the locrian mode scale in the key of E, but I don't need the intervals.",
+        "filled_param": {
+          "key": "E",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "What's the locrian mode scale for the key of B, and please show the intervals.",
+        "filled_param": {
+          "key": "B",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "I need the locrian mode scale for the key of G, without the intervals.",
+        "filled_param": {
+          "key": "G",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "Could you show me the locrian mode scale in the key of F# with the intervals?",
+        "filled_param": {
+          "key": "F#",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "Please generate the locrian mode scale for the key of A, excluding the intervals.",
+        "filled_param": {
+          "key": "A",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "I'd like to see the locrian mode scale for the key of D#, and make sure to include the intervals.",
+        "filled_param": {
+          "key": "D#",
+          "show_intervals": true
+        }
+      }
+    ]
+  },
+  "music_theory.get_blues_scale|:|whole tone scale|:|key,show_intervals": {
+    "tool_template_name": "music_theory.get_blues_scale",
+    "derived_class": "whole tone scale",
+    "params_for_query": [
+      "key",
+      "show_intervals"
+    ],
+    "queries": [
+      {
+        "query": "Can you generate the whole tone scale in the key of C and show the intervals?",
+        "filled_param": {
+          "key": "C",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "I need the whole tone scale for the key of F# without displaying the intervals.",
+        "filled_param": {
+          "key": "F#",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "Provide the whole tone scale starting from the D note and include the intervals in the output.",
+        "filled_param": {
+          "key": "D",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "What notes are in the whole tone scale when the key is E, but don't show the intervals?",
+        "filled_param": {
+          "key": "E",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "List the whole tone scale beginning with G and make sure to include the intervals.",
+        "filled_param": {
+          "key": "G",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "Could you get me the whole tone scale for B key and omit the intervals?",
+        "filled_param": {
+          "key": "B",
+          "show_intervals": false
+        }
+      }
+    ]
+  },
+  "music_theory.get_blues_scale|:|chromatic scale|:|key,show_intervals": {
+    "tool_template_name": "music_theory.get_blues_scale",
+    "derived_class": "chromatic scale",
+    "params_for_query": [
+      "key",
+      "show_intervals"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the chromatic scale for the key of C and include the intervals?",
+        "filled_param": {
+          "key": "C",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "Show me the chromatic scale in the key of G without intervals.",
+        "filled_param": {
+          "key": "G",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "What's the chromatic scale for the key of A? No need for intervals.",
+        "filled_param": {
+          "key": "A",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "Generate the chromatic scale starting at E and display the intervals.",
+        "filled_param": {
+          "key": "E",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "I need the chromatic scale for the D# key, intervals included.",
+        "filled_param": {
+          "key": "D#",
+          "show_intervals": true
+        }
+      },
+      {
+        "query": "Can you give me the chromatic scale with the root note of F# and exclude intervals?",
+        "filled_param": {
+          "key": "F#",
+          "show_intervals": false
+        }
+      },
+      {
+        "query": "Please provide the chromatic scale in the B key, showing the intervals.",
+        "filled_param": {
+          "key": "B",
+          "show_intervals": true
+        }
+      }
+    ]
+  }
+}

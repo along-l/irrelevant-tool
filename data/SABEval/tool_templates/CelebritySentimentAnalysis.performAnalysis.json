@@ -1,0 +1,89 @@
+{
+  "tool_template_name": "CelebritySentimentAnalysis.performAnalysis",
+  "meta_data": {
+    "base_class": "Analyze the sentiment of news articles related to <celebrities> over a specific time period - refers to various individuals across different fields who can be featured in news reports, such as athletes, musicians, writers, chefs, and actors.",
+    "derived_classes": [
+      "football player",
+      "basketball player",
+      "volleyball player",
+      "tennis player",
+      "boxer",
+      "novelist",
+      "chef",
+      "actor",
+      "politician",
+      "esports player",
+      "painter",
+      "photographer",
+      "composer",
+      "magician",
+      "medical expert"
+    ],
+    "base_class_entity": "celebrities"
+  },
+  "tool_template": {
+    "name": "<class>SentimentAnalysis.performAnalysis",
+    "description": "Analyzes the sentiment of news articles related to <class> over a specified time period, using advanced natural language processing techniques.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "entity": {
+          "type": "string",
+          "description": "The name of the <class> to analyze."
+        },
+        "start": {
+          "type": "string",
+          "description": "Start date in YYYY-MM-DD format."
+        },
+        "end": {
+          "type": "string",
+          "description": "End date in YYYY-MM-DD format."
+        }
+      },
+      "required": [
+        "entity",
+        "start",
+        "end"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "sources": {
+      "type": "array",
+      "description": "List of news sources to include in the analysis.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "language": {
+      "type": "string",
+      "description": "The language of the articles to analyze."
+    },
+    "sentimentThreshold": {
+      "type": "number",
+      "description": "The minimum sentiment score to consider for reporting, ranging from -1 (very negative) to 1 (very positive)."
+    }
+  },
+  "additional_params": {
+    "analysisDepth": {
+      "type": "integer",
+      "description": "The level of detail the analysis should go into, with higher values providing deeper analysis."
+    },
+    "outputFormat": {
+      "type": "string",
+      "description": "The format in which the analysis results should be presented, either be 'summary' or 'detailed'."
+    },
+    "includeQuotes": {
+      "type": "boolean",
+      "description": "Whether to include direct quotes from the news articles related to the <class> in the analysis."
+    },
+    "region": {
+      "type": "string",
+      "description": "The geographic region from which the news articles should be sourced for the analysis."
+    },
+    "historicalComparison": {
+      "type": "boolean",
+      "description": "Whether to include a comparison of current sentiment with historical sentiment data for the <class>."
+    }
+  }
+}

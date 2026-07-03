@@ -1,0 +1,695 @@
+{
+  "calc_heat_capacity|:|heat capacity|:|temp,volume,gas,substance_purity,measurement_accuracy,reference_state,units": {
+    "tool_template_name": "calc_heat_capacity",
+    "derived_class": "heat capacity",
+    "params_for_query": [
+      "temp",
+      "volume",
+      "gas",
+      "substance_purity",
+      "measurement_accuracy",
+      "reference_state",
+      "units"
+    ],
+    "queries": [
+      {
+        "query": "Can you calculate the heat capacity of air with a temperature of 300 Kelvin and a volume of 2 m^3? The purity is 98%, measurement accuracy should be high, reference state is standard, and I need the result in J/K.",
+        "filled_param": {
+          "temp": 300,
+          "volume": 2,
+          "gas": "air",
+          "substance_purity": 98,
+          "measurement_accuracy": "high",
+          "reference_state": "standard",
+          "units": "J/K"
+        }
+      },
+      {
+        "query": "I need to find the heat capacity of hydrogen when it's at 250 K and occupies 1 m^3. The gas has a purity of 99.5%, with medium accuracy, using ambient reference state, and results in cal/K.",
+        "filled_param": {
+          "temp": 250,
+          "volume": 1,
+          "gas": "hydrogen",
+          "substance_purity": 99.5,
+          "measurement_accuracy": "medium",
+          "reference_state": "ambient",
+          "units": "cal/K"
+        }
+      },
+      {
+        "query": "Determine the heat capacity for oxygen at a temperature of 350 Kelvin, in a 3 m^3 container. Purity is 96%, with low accuracy required, using the standard reference state, and expressed in J/mol·K.",
+        "filled_param": {
+          "temp": 350,
+          "volume": 3,
+          "gas": "oxygen",
+          "substance_purity": 96,
+          "measurement_accuracy": "low",
+          "reference_state": "standard",
+          "units": "J/mol·K"
+        }
+      },
+      {
+        "query": "What is the heat capacity of nitrogen gas at 400 Kelvin with a volume of 5 m^3? Assume a purity of 97%, high measurement accuracy, ambient reference state, and output in J/K.",
+        "filled_param": {
+          "temp": 400,
+          "volume": 5,
+          "gas": "nitrogen",
+          "substance_purity": 97,
+          "measurement_accuracy": "high",
+          "reference_state": "ambient",
+          "units": "J/K"
+        }
+      },
+      {
+        "query": "Calculate the heat capacity for carbon dioxide gas at 280 K in a 0.5 m^3 volume, with 99% purity. Use medium accuracy, standard reference state, and report in cal/mol·K.",
+        "filled_param": {
+          "temp": 280,
+          "volume": 0.5,
+          "gas": "carbon dioxide",
+          "substance_purity": 99,
+          "measurement_accuracy": "medium",
+          "reference_state": "standard",
+          "units": "cal/mol·K"
+        }
+      },
+      {
+        "query": "Please calculate the heat capacity of helium at a temperature of 330 Kelvin and a volume of 2.5 m^3, with a purity level of 97.5%. I need high measurement accuracy, with the ambient reference state, and the result in J/K.",
+        "filled_param": {
+          "temp": 330,
+          "volume": 2.5,
+          "gas": "helium",
+          "substance_purity": 97.5,
+          "measurement_accuracy": "high",
+          "reference_state": "ambient",
+          "units": "J/K"
+        }
+      },
+      {
+        "query": "Find the heat capacity for methane gas at 310 Kelvin and enclosed in a 1.5 m^3 space. The gas purity is 95%, and I'd like a low accuracy calculation using the standard reference state. Please provide the results in cal/K.",
+        "filled_param": {
+          "temp": 310,
+          "volume": 1.5,
+          "gas": "methane",
+          "substance_purity": 95,
+          "measurement_accuracy": "low",
+          "reference_state": "standard",
+          "units": "cal/K"
+        }
+      }
+    ]
+  },
+  "calc_heat_capacity|:|entropy|:|temp,volume,gas,substance_purity,measurement_accuracy,reference_state,units": {
+    "tool_template_name": "calc_heat_capacity",
+    "derived_class": "entropy",
+    "params_for_query": [
+      "temp",
+      "volume",
+      "gas",
+      "substance_purity",
+      "measurement_accuracy",
+      "reference_state",
+      "units"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the entropy for a sample of nitrogen gas at 350 Kelvin and 2 m^3 with a purity of 99.5%, requiring high accuracy using ambient reference state and express it in joules per kelvin.",
+        "filled_param": {
+          "temp": 350,
+          "volume": 2,
+          "gas": "nitrogen",
+          "substance_purity": 99.5,
+          "measurement_accuracy": "high",
+          "reference_state": "ambient",
+          "units": "joules per kelvin"
+        }
+      },
+      {
+        "query": "What is the entropy of oxygen gas at 250 Kelvin and a volume of 1 m^3, with a substance purity of 98%, medium accuracy, using standard reference state, and in joules per kelvin?",
+        "filled_param": {
+          "temp": 250,
+          "volume": 1,
+          "gas": "oxygen",
+          "substance_purity": 98,
+          "measurement_accuracy": "medium",
+          "reference_state": "standard",
+          "units": "joules per kelvin"
+        }
+      },
+      {
+        "query": "Determine the entropy for helium at 500 Kelvin and 3 m^3, with 100% purity, low accuracy, reference state as ambient, and in calories per kelvin.",
+        "filled_param": {
+          "temp": 500,
+          "volume": 3,
+          "gas": "helium",
+          "substance_purity": 100,
+          "measurement_accuracy": "low",
+          "reference_state": "ambient",
+          "units": "calories per kelvin"
+        }
+      },
+      {
+        "query": "I need the entropy of argon gas at 400 Kelvin, with 5 m^3 volume, 95% purity, high measurement accuracy, standard reference state, expressed in joules per kelvin.",
+        "filled_param": {
+          "temp": 400,
+          "volume": 5,
+          "gas": "argon",
+          "substance_purity": 95,
+          "measurement_accuracy": "high",
+          "reference_state": "standard",
+          "units": "joules per kelvin"
+        }
+      },
+      {
+        "query": "Compute the entropy for carbon dioxide at 273 Kelvin and 4 m^3, with 92.5% purity, needing medium accuracy, using ambient reference conditions, with results in calories per kelvin.",
+        "filled_param": {
+          "temp": 273,
+          "volume": 4,
+          "gas": "carbon dioxide",
+          "substance_purity": 92.5,
+          "measurement_accuracy": "medium",
+          "reference_state": "ambient",
+          "units": "calories per kelvin"
+        }
+      },
+      {
+        "query": "Find the entropy for methane gas at 300 Kelvin, volume of 6 m^3, 97% purity, low accuracy, standard reference state, and in joules per kelvin.",
+        "filled_param": {
+          "temp": 300,
+          "volume": 6,
+          "gas": "methane",
+          "substance_purity": 97,
+          "measurement_accuracy": "low",
+          "reference_state": "standard",
+          "units": "joules per kelvin"
+        }
+      },
+      {
+        "query": "What is the entropy of hydrogen gas at 275 Kelvin, with a volume of 2.5 m^3, 99% pure, requiring high accuracy, ambient reference state, and expressed in calories per kelvin?",
+        "filled_param": {
+          "temp": 275,
+          "volume": 2.5,
+          "gas": "hydrogen",
+          "substance_purity": 99,
+          "measurement_accuracy": "high",
+          "reference_state": "ambient",
+          "units": "calories per kelvin"
+        }
+      }
+    ]
+  },
+  "calc_heat_capacity|:|compressibility factor|:|temp,volume,gas,substance_purity,measurement_accuracy,reference_state,units": {
+    "tool_template_name": "calc_heat_capacity",
+    "derived_class": "compressibility factor",
+    "params_for_query": [
+      "temp",
+      "volume",
+      "gas",
+      "substance_purity",
+      "measurement_accuracy",
+      "reference_state",
+      "units"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the compressibility factor for methane at 300 Kelvin with a volume of 1 m^3. The gas purity is 99.5%, and I need a high accuracy measurement using the standard reference state, with results in SI units.",
+        "filled_param": {
+          "temp": 300,
+          "volume": 1,
+          "gas": "methane",
+          "substance_purity": 99.5,
+          "measurement_accuracy": "high",
+          "reference_state": "standard",
+          "units": "SI"
+        }
+      },
+      {
+        "query": "What is the compressibility factor for air at 250 Kelvin in a 2 m^3 container? Consider the gas purity to be 98%. I require medium accuracy, and the state is ambient. Please provide the result in CGS units.",
+        "filled_param": {
+          "temp": 250,
+          "volume": 2,
+          "gas": "air",
+          "substance_purity": 98.0,
+          "measurement_accuracy": "medium",
+          "reference_state": "ambient",
+          "units": "CGS"
+        }
+      },
+      {
+        "query": "Determine the compressibility factor of nitrogen at 350 Kelvin with a volume of 3 m^3. The purity is 95%, and the required measurement accuracy is low. Use the standard reference state, and express the result in imperial units.",
+        "filled_param": {
+          "temp": 350,
+          "volume": 3,
+          "gas": "nitrogen",
+          "substance_purity": 95.0,
+          "measurement_accuracy": "low",
+          "reference_state": "standard",
+          "units": "imperial"
+        }
+      },
+      {
+        "query": "Could you find the compressibility factor for hydrogen gas at 400 Kelvin and 0.5 m^3 volume? The gas has 97% purity, and I need a high accuracy reading at ambient conditions, reported in SI units.",
+        "filled_param": {
+          "temp": 400,
+          "volume": 0.5,
+          "gas": "hydrogen",
+          "substance_purity": 97.0,
+          "measurement_accuracy": "high",
+          "reference_state": "ambient",
+          "units": "SI"
+        }
+      },
+      {
+        "query": "I need the compressibility factor for helium at 200 Kelvin in a 4 m^3 volume. Assume the gas is 99% pure, with high measurement accuracy, using the standard reference state, and displayed in CGS units.",
+        "filled_param": {
+          "temp": 200,
+          "volume": 4,
+          "gas": "helium",
+          "substance_purity": 99.0,
+          "measurement_accuracy": "high",
+          "reference_state": "standard",
+          "units": "CGS"
+        }
+      },
+      {
+        "query": "Assess the compressibility factor of carbon dioxide at 275 Kelvin in a 1.5 m^3 chamber. The gas purity is 96.5%, and medium accuracy is sufficient. Use ambient conditions and present the results in imperial units.",
+        "filled_param": {
+          "temp": 275,
+          "volume": 1.5,
+          "gas": "carbon dioxide",
+          "substance_purity": 96.5,
+          "measurement_accuracy": "medium",
+          "reference_state": "ambient",
+          "units": "imperial"
+        }
+      },
+      {
+        "query": "Can you compute the compressibility factor for argon gas at 320 Kelvin with a volume of 5 m^3? The gas purity is 94%, and low measurement accuracy is adequate. Use the standard reference state, and express the results in SI units.",
+        "filled_param": {
+          "temp": 320,
+          "volume": 5,
+          "gas": "argon",
+          "substance_purity": 94.0,
+          "measurement_accuracy": "low",
+          "reference_state": "standard",
+          "units": "SI"
+        }
+      }
+    ]
+  },
+  "calc_heat_capacity|:|thermal expansion coefficient|:|temp,volume,gas,substance_purity,measurement_accuracy,reference_state,units": {
+    "tool_template_name": "calc_heat_capacity",
+    "derived_class": "thermal expansion coefficient",
+    "params_for_query": [
+      "temp",
+      "volume",
+      "gas",
+      "substance_purity",
+      "measurement_accuracy",
+      "reference_state",
+      "units"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the thermal expansion coefficient of air at 300 Kelvin and 2 m^3, with a purity of 99%, medium measurement accuracy, standard reference state, and expressed in SI units.",
+        "filled_param": {
+          "temp": 300,
+          "volume": 2,
+          "gas": "air",
+          "substance_purity": 99,
+          "measurement_accuracy": "medium",
+          "reference_state": "standard",
+          "units": "SI"
+        }
+      },
+      {
+        "query": "What is the thermal expansion coefficient for helium at 273 Kelvin and a volume of 5 m^3, assuming 95% purity, high measurement accuracy, using ambient reference state, and the result in metric units?",
+        "filled_param": {
+          "temp": 273,
+          "volume": 5,
+          "gas": "helium",
+          "substance_purity": 95,
+          "measurement_accuracy": "high",
+          "reference_state": "ambient",
+          "units": "metric"
+        }
+      },
+      {
+        "query": "Determine the thermal expansion coefficient for nitrogen at 350 Kelvin and 10 m^3, with a gas purity of 97%, low measurement accuracy, standard reference state, and in imperial units.",
+        "filled_param": {
+          "temp": 350,
+          "volume": 10,
+          "gas": "nitrogen",
+          "substance_purity": 97,
+          "measurement_accuracy": "low",
+          "reference_state": "standard",
+          "units": "imperial"
+        }
+      },
+      {
+        "query": "Find the thermal expansion coefficient of argon at 400 Kelvin, occupying 8 m^3, with 98% purity, requiring medium accuracy, ambient reference state, and expressed in customary units.",
+        "filled_param": {
+          "temp": 400,
+          "volume": 8,
+          "gas": "argon",
+          "substance_purity": 98,
+          "measurement_accuracy": "medium",
+          "reference_state": "ambient",
+          "units": "customary"
+        }
+      },
+      {
+        "query": "Calculate the thermal expansion coefficient for hydrogen at 310 Kelvin and 3 m^3, with 99.5% purity, high accuracy, using standard reference state, and in scientific units.",
+        "filled_param": {
+          "temp": 310,
+          "volume": 3,
+          "gas": "hydrogen",
+          "substance_purity": 99.5,
+          "measurement_accuracy": "high",
+          "reference_state": "standard",
+          "units": "scientific"
+        }
+      },
+      {
+        "query": "What is the thermal expansion coefficient for oxygen at 290 Kelvin with 4 m^3 of volume, 96% purity, low accuracy demand, ambient reference state, and output in engineering units?",
+        "filled_param": {
+          "temp": 290,
+          "volume": 4,
+          "gas": "oxygen",
+          "substance_purity": 96,
+          "measurement_accuracy": "low",
+          "reference_state": "ambient",
+          "units": "engineering"
+        }
+      },
+      {
+        "query": "Determine the thermal expansion coefficient of carbon dioxide at 320 Kelvin and a volume of 6 m^3, having a purity of 99.9%, medium accuracy, in a standard reference state, and reported in standard units.",
+        "filled_param": {
+          "temp": 320,
+          "volume": 6,
+          "gas": "carbon dioxide",
+          "substance_purity": 99.9,
+          "measurement_accuracy": "medium",
+          "reference_state": "standard",
+          "units": "standard"
+        }
+      }
+    ]
+  },
+  "calc_heat_capacity|:|isothermal compressibility|:|temp,volume,gas,substance_purity,measurement_accuracy,reference_state,units": {
+    "tool_template_name": "calc_heat_capacity",
+    "derived_class": "isothermal compressibility",
+    "params_for_query": [
+      "temp",
+      "volume",
+      "gas",
+      "substance_purity",
+      "measurement_accuracy",
+      "reference_state",
+      "units"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the isothermal compressibility of nitrogen at a temperature of 295 K and a volume of 1 m^3, with a gas purity of 99.5%, medium accuracy, using the ambient reference state, and express the result in Pa^-1.",
+        "filled_param": {
+          "temp": 295,
+          "volume": 1,
+          "gas": "nitrogen",
+          "substance_purity": 99.5,
+          "measurement_accuracy": "medium",
+          "reference_state": "ambient",
+          "units": "Pa^-1"
+        }
+      },
+      {
+        "query": "I need the isothermal compressibility for oxygen at 310 Kelvin and a volume of 0.5 m^3. The purity is 98%, the measurement should be high accuracy, with a standard reference state, and in atm^-1.",
+        "filled_param": {
+          "temp": 310,
+          "volume": 0.5,
+          "gas": "oxygen",
+          "substance_purity": 98,
+          "measurement_accuracy": "high",
+          "reference_state": "standard",
+          "units": "atm^-1"
+        }
+      },
+      {
+        "query": "What is the isothermal compressibility of helium at 285 K with a volume of 2 m^3, purity at 97%, low accuracy, ambient reference, and in m^2/N?",
+        "filled_param": {
+          "temp": 285,
+          "volume": 2,
+          "gas": "helium",
+          "substance_purity": 97,
+          "measurement_accuracy": "low",
+          "reference_state": "ambient",
+          "units": "m^2/N"
+        }
+      },
+      {
+        "query": "Find the isothermal compressibility for argon gas at 300 Kelvin, with a volume of 1.5 m^3, having a purity of 95%, needing medium accuracy, using the ambient reference state, and result in bar^-1.",
+        "filled_param": {
+          "temp": 300,
+          "volume": 1.5,
+          "gas": "argon",
+          "substance_purity": 95,
+          "measurement_accuracy": "medium",
+          "reference_state": "ambient",
+          "units": "bar^-1"
+        }
+      },
+      {
+        "query": "Could you provide the isothermal compressibility of carbon dioxide at 320 K, with a volume of 1.2 m^3? The gas has a purity of 92%, standard reference state, high accuracy, and the result should be in psi^-1.",
+        "filled_param": {
+          "temp": 320,
+          "volume": 1.2,
+          "gas": "carbon dioxide",
+          "substance_purity": 92,
+          "measurement_accuracy": "high",
+          "reference_state": "standard",
+          "units": "psi^-1"
+        }
+      },
+      {
+        "query": "Determine the isothermal compressibility for methane at 273 Kelvin, 3 m^3 volume, with 99% purity, using low accuracy, standard reference, and expressing the result in cP^-1.",
+        "filled_param": {
+          "temp": 273,
+          "volume": 3,
+          "gas": "methane",
+          "substance_purity": 99,
+          "measurement_accuracy": "low",
+          "reference_state": "standard",
+          "units": "cP^-1"
+        }
+      },
+      {
+        "query": "Requesting the isothermal compressibility of hydrogen at 350 K with a volume of 0.8 m^3, where the purity is 96%, needing high accuracy, the reference state is ambient, and the units should be in mmHg^-1.",
+        "filled_param": {
+          "temp": 350,
+          "volume": 0.8,
+          "gas": "hydrogen",
+          "substance_purity": 96,
+          "measurement_accuracy": "high",
+          "reference_state": "ambient",
+          "units": "mmHg^-1"
+        }
+      }
+    ]
+  },
+  "calc_heat_capacity|:|partial molar volume|:|temp,volume,gas,substance_purity,measurement_accuracy,reference_state,units": {
+    "tool_template_name": "calc_heat_capacity",
+    "derived_class": "partial molar volume",
+    "params_for_query": [
+      "temp",
+      "volume",
+      "gas",
+      "substance_purity",
+      "measurement_accuracy",
+      "reference_state",
+      "units"
+    ],
+    "queries": [
+      {
+        "query": "Can you calculate the partial molar volume of hydrogen with a temperature of 300 Kelvins, volume of 2 m^3, 99% purity, using standard reference state, with high accuracy, and express the result in liters per mole?",
+        "filled_param": {
+          "temp": 300,
+          "volume": 2,
+          "gas": "hydrogen",
+          "substance_purity": 99,
+          "measurement_accuracy": "high",
+          "reference_state": "standard",
+          "units": "liters per mole"
+        }
+      },
+      {
+        "query": "I need the partial molar volume for the gas helium at 273 Kelvins and a volume of 1 m^3, with a purity of 95%, under ambient conditions, requiring medium accuracy, expressed in cubic meters per mole.",
+        "filled_param": {
+          "temp": 273,
+          "volume": 1,
+          "gas": "helium",
+          "substance_purity": 95,
+          "measurement_accuracy": "medium",
+          "reference_state": "ambient",
+          "units": "cubic meters per mole"
+        }
+      },
+      {
+        "query": "Determine the partial molar volume of argon at 350 K with a 5 m^3 volume, 92% purity, needing low accuracy, using standard reference, in liters per mole.",
+        "filled_param": {
+          "temp": 350,
+          "volume": 5,
+          "gas": "argon",
+          "substance_purity": 92,
+          "measurement_accuracy": "low",
+          "reference_state": "standard",
+          "units": "liters per mole"
+        }
+      },
+      {
+        "query": "Can you find the partial molar volume for nitrogen at 400 Kelvin with a volume of 3 m^3, 98% pure, with high accuracy, under ambient reference conditions, and give the result in cubic centimeters per mole?",
+        "filled_param": {
+          "temp": 400,
+          "volume": 3,
+          "gas": "nitrogen",
+          "substance_purity": 98,
+          "measurement_accuracy": "high",
+          "reference_state": "ambient",
+          "units": "cubic centimeters per mole"
+        }
+      },
+      {
+        "query": "Calculate the partial molar volume for oxygen at 320 K, with a volume of 4 m^3, 85% purity, medium accuracy under standard reference state, expressed in liters per mole.",
+        "filled_param": {
+          "temp": 320,
+          "volume": 4,
+          "gas": "oxygen",
+          "substance_purity": 85,
+          "measurement_accuracy": "medium",
+          "reference_state": "standard",
+          "units": "liters per mole"
+        }
+      },
+      {
+        "query": "What is the partial molar volume of carbon dioxide at 250 Kelvin with a volume of 6 m^3, 94% pure, requiring high accuracy, using ambient reference state, given in cubic meters per mole?",
+        "filled_param": {
+          "temp": 250,
+          "volume": 6,
+          "gas": "carbon dioxide",
+          "substance_purity": 94,
+          "measurement_accuracy": "high",
+          "reference_state": "ambient",
+          "units": "cubic meters per mole"
+        }
+      },
+      {
+        "query": "Please provide the partial molar volume for air at 290 K with a volume of 2.5 m^3, 97% purity, needing low accuracy, under the standard reference, and in cubic centimeters per mole.",
+        "filled_param": {
+          "temp": 290,
+          "volume": 2.5,
+          "gas": "air",
+          "substance_purity": 97,
+          "measurement_accuracy": "low",
+          "reference_state": "standard",
+          "units": "cubic centimeters per mole"
+        }
+      }
+    ]
+  },
+  "calc_heat_capacity|:|mean free path|:|temp,volume,gas,substance_purity,measurement_accuracy,reference_state,units": {
+    "tool_template_name": "calc_heat_capacity",
+    "derived_class": "mean free path",
+    "params_for_query": [
+      "temp",
+      "volume",
+      "gas",
+      "substance_purity",
+      "measurement_accuracy",
+      "reference_state",
+      "units"
+    ],
+    "queries": [
+      {
+        "query": "Calculate the mean free path for nitrogen gas at a temperature of 300K and volume of 2 m^3, with a purity of 99.9%, high accuracy, using the ambient reference state, and present the result in meters.",
+        "filled_param": {
+          "temp": 300,
+          "volume": 2,
+          "gas": "nitrogen",
+          "substance_purity": 99.9,
+          "measurement_accuracy": "high",
+          "reference_state": "ambient",
+          "units": "meters"
+        }
+      },
+      {
+        "query": "What is the mean free path for helium gas with a temperature of 100K and a volume of 0.5 m^3, 95% purity, calculated with medium accuracy under standard conditions, and stated in centimeters?",
+        "filled_param": {
+          "temp": 100,
+          "volume": 0.5,
+          "gas": "helium",
+          "substance_purity": 95,
+          "measurement_accuracy": "medium",
+          "reference_state": "standard",
+          "units": "centimeters"
+        }
+      },
+      {
+        "query": "I need the mean free path of oxygen gas at 273K, in a volume of 1 m^3, with 98% purity. Please use low accuracy and ambient reference state, and provide the result in micrometers.",
+        "filled_param": {
+          "temp": 273,
+          "volume": 1,
+          "gas": "oxygen",
+          "substance_purity": 98,
+          "measurement_accuracy": "low",
+          "reference_state": "ambient",
+          "units": "micrometers"
+        }
+      },
+      {
+        "query": "Determine the mean free path for argon gas at 350K, occupying 3 m^3, with 99% purity, requiring high accuracy, at standard conditions, and express the outcome in nanometers.",
+        "filled_param": {
+          "temp": 350,
+          "volume": 3,
+          "gas": "argon",
+          "substance_purity": 99,
+          "measurement_accuracy": "high",
+          "reference_state": "standard",
+          "units": "nanometers"
+        }
+      },
+      {
+        "query": "Please calculate the mean free path for a gas mixture of carbon dioxide at 400K in a 2.5 m^3 volume, with 97.5% purity. Use medium accuracy and ambient reference, and give the result in millimeters.",
+        "filled_param": {
+          "temp": 400,
+          "volume": 2.5,
+          "gas": "carbon dioxide",
+          "substance_purity": 97.5,
+          "measurement_accuracy": "medium",
+          "reference_state": "ambient",
+          "units": "millimeters"
+        }
+      },
+      {
+        "query": "For hydrogen gas at a temperature of 250K in a confined space of 4 m^3, with a 96% purity level, determine the mean free path using high accuracy and the standard reference state, and report in micrometers.",
+        "filled_param": {
+          "temp": 250,
+          "volume": 4,
+          "gas": "hydrogen",
+          "substance_purity": 96,
+          "measurement_accuracy": "high",
+          "reference_state": "standard",
+          "units": "micrometers"
+        }
+      },
+      {
+        "query": "What would be the mean free path for krypton gas at 500K, occupying a volume of 5 m^3, with a purity of 92%, calculated with low accuracy under ambient conditions, and specified in meters?",
+        "filled_param": {
+          "temp": 500,
+          "volume": 5,
+          "gas": "krypton",
+          "substance_purity": 92,
+          "measurement_accuracy": "low",
+          "reference_state": "ambient",
+          "units": "meters"
+        }
+      }
+    ]
+  }
+}

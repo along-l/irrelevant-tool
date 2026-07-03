@@ -1,0 +1,71 @@
+{
+  "tool_template_name": "search_messages",
+  "meta_data": {
+    "base_class": "Search for <messages> from specific users containing certain keywords - refers to various types of social or communication messages.",
+    "derived_classes": [
+      "SMS message",
+      "QQ message",
+      "WeChat message",
+      "DingTalk message",
+      "WhatsApp message",
+      "Facebook message",
+      "Instagram message",
+      "LinkedIn message",
+      "Discord message",
+      "Slack message",
+      "Twitter message",
+      "TikTok message",
+      "YouTube message",
+      "Reddit message"
+    ],
+    "base_class_entity": "message"
+  },
+  "tool_template": {
+    "name": "search_<class>_messages",
+    "description": "Search for <class> messages from specific users containing certain keywords.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "user_name": {
+          "type": "string",
+          "description": "The name of the user whose <class> messages are being searched."
+        },
+        "keyword": {
+          "type": "string",
+          "description": "The keyword to search for within the <class> messages."
+        }
+      },
+      "required": [
+        "user_name",
+        "keyword"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "start_time": {
+      "type": "string",
+      "description": "The start time for the <class> message search in ISO 8601 format."
+    },
+    "end_time": {
+      "type": "string",
+      "description": "The end time for the <class> message search in ISO 8601 format."
+    },
+    "include_attachments": {
+      "type": "boolean",
+      "description": "Whether to include <class> messages with attachments in the search results."
+    },
+    "priority": {
+      "type": "string",
+      "description": "Filter <class> messages based on their priority level. Options include 'high', 'normal', and 'low'."
+    },
+    "limit_results": {
+      "type": "integer",
+      "description": "The maximum number of <class> messages to return in the search results."
+    },
+    "language": {
+      "type": "string",
+      "description": "Specify the language of the <class> messages to search for. One of: 'English', 'Spanish', 'Chinese', 'French', 'German', 'Japanese', 'Korean', 'Russian', 'Portuguese', 'Arabic'."
+    }
+  }
+}

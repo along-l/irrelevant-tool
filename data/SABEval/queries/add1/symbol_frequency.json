@@ -1,0 +1,369 @@
+{
+  "symbol_frequency|:|uppercase letters|:|input_string,file_path": {
+    "tool_template_name": "symbol_frequency",
+    "derived_class": "uppercase letters",
+    "params_for_query": [
+      "input_string",
+      "file_path"
+    ],
+    "queries": [
+      {
+        "query": "Can you analyze the frequency of uppercase letters in the string 'Hello World! THIS is a Test.' and save the results to '/documents/uppercase_analysis1.txt'?",
+        "filled_param": {
+          "input_string": "Hello World! THIS is a Test.",
+          "file_path": "/documents/uppercase_analysis1.txt"
+        }
+      },
+      {
+        "query": "Please compute the frequency of uppercase letters from the text 'Python Code REVIEW: Efficient and CLEAN.' and store it in '/results/uppercase_report.txt'.",
+        "filled_param": {
+          "input_string": "Python Code REVIEW: Efficient and CLEAN.",
+          "file_path": "/results/uppercase_report.txt"
+        }
+      },
+      {
+        "query": "I want to know the frequency of uppercase letters in 'Data SCIENCE is Fascinating!' and save it under '/output/uppercase_frequency.txt'.",
+        "filled_param": {
+          "input_string": "Data SCIENCE is Fascinating!",
+          "file_path": "/output/uppercase_frequency.txt"
+        }
+      },
+      {
+        "query": "Analyze the uppercase letters in 'WELCOME to the WORLD of AI.' and write the results to '/analysis/uppercases.txt'.",
+        "filled_param": {
+          "input_string": "WELCOME to the WORLD of AI.",
+          "file_path": "/analysis/uppercases.txt"
+        }
+      },
+      {
+        "query": "Could you determine how often uppercase letters appear in 'The QUICK Brown FOX Jumps Over.' and save the data in '/files/uppercase_output.txt'?",
+        "filled_param": {
+          "input_string": "The QUICK Brown FOX Jumps Over.",
+          "file_path": "/files/uppercase_output.txt"
+        }
+      }
+    ]
+  },
+  "symbol_frequency|:|lowercase letters|:|input_string,file_path": {
+    "tool_template_name": "symbol_frequency",
+    "derived_class": "lowercase letters",
+    "params_for_query": [
+      "input_string",
+      "file_path"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the frequency of lowercase letters in the text 'example text with various letters' and save the result to '/path/to/output1.txt'.",
+        "filled_param": {
+          "input_string": "example text with various letters",
+          "file_path": "/path/to/output1.txt"
+        }
+      },
+      {
+        "query": "Can you determine how often each lowercase letter appears in 'lowercase letters are fun to analyze' and write the findings to '/path/to/output2.txt'?",
+        "filled_param": {
+          "input_string": "lowercase letters are fun to analyze",
+          "file_path": "/path/to/output2.txt"
+        }
+      },
+      {
+        "query": "Please calculate the frequency of each lowercase letter in the string 'testing frequency analysis of letters' and store the report at '/path/to/output3.txt'.",
+        "filled_param": {
+          "input_string": "testing frequency analysis of letters",
+          "file_path": "/path/to/output3.txt"
+        }
+      },
+      {
+        "query": "I need the frequency count of lowercase letters in 'the quick brown fox jumps over the lazy dog' and save it to '/path/to/output4.txt'.",
+        "filled_param": {
+          "input_string": "the quick brown fox jumps over the lazy dog",
+          "file_path": "/path/to/output4.txt"
+        }
+      },
+      {
+        "query": "Find the frequency of lowercase letters in 'frequency calculation is interesting' and export the details to '/path/to/output5.txt'.",
+        "filled_param": {
+          "input_string": "frequency calculation is interesting",
+          "file_path": "/path/to/output5.txt"
+        }
+      }
+    ]
+  },
+  "symbol_frequency|:|emojis|:|input_string,file_path": {
+    "tool_template_name": "symbol_frequency",
+    "derived_class": "emojis",
+    "params_for_query": [
+      "input_string",
+      "file_path"
+    ],
+    "queries": [
+      {
+        "query": "Can you analyze the frequency of emojis in the string 'I ❤️ pizza 🍕 and ice cream 🍦' and save the results to /tmp/emoji_analysis_1.txt?",
+        "filled_param": {
+          "input_string": "I ❤️ pizza 🍕 and ice cream 🍦",
+          "file_path": "/tmp/emoji_analysis_1.txt"
+        }
+      },
+      {
+        "query": "Determine the emoji frequency in the text 'Good morning ☀️! Let's grab a coffee ☕ later.' and store the findings at /home/user/documents/emoji_count.txt.",
+        "filled_param": {
+          "input_string": "Good morning ☀️! Let's grab a coffee ☕ later.",
+          "file_path": "/home/user/documents/emoji_count.txt"
+        }
+      },
+      {
+        "query": "I'd like to know how often emojis appear in 'Happy Birthday 🎉🎂! Hope you have a great day! 😊' and save the details to /data/emoji_output.txt.",
+        "filled_param": {
+          "input_string": "Happy Birthday 🎉🎂! Hope you have a great day! 😊",
+          "file_path": "/data/emoji_output.txt"
+        }
+      },
+      {
+        "query": "Analyze the emoji frequency in 'Feeling great today 🌟! Ready to take on the world 🌍!' and write the results into /reports/daily_emoji_analysis.txt.",
+        "filled_param": {
+          "input_string": "Feeling great today 🌟! Ready to take on the world 🌍!",
+          "file_path": "/reports/daily_emoji_analysis.txt"
+        }
+      },
+      {
+        "query": "Could you find out the frequency of each emoji in the string 'Work hard, play hard 🎯🎮' and save the output to /user/files/emoji_frequency.txt?",
+        "filled_param": {
+          "input_string": "Work hard, play hard 🎯🎮",
+          "file_path": "/user/files/emoji_frequency.txt"
+        }
+      }
+    ]
+  },
+  "symbol_frequency|:|Chinese characters|:|input_string,file_path": {
+    "tool_template_name": "symbol_frequency",
+    "derived_class": "Chinese characters",
+    "params_for_query": [
+      "input_string",
+      "file_path"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the frequency of Chinese characters in the text '我爱编程', and save the results to '/results/frequency_analysis.txt'.",
+        "filled_param": {
+          "input_string": "我爱编程",
+          "file_path": "/results/frequency_analysis.txt"
+        }
+      },
+      {
+        "query": "I need a character frequency analysis for the Chinese phrase '学习汉语很有趣', with the output saved at '/data/analysis_output.txt'.",
+        "filled_param": {
+          "input_string": "学习汉语很有趣",
+          "file_path": "/data/analysis_output.txt"
+        }
+      },
+      {
+        "query": "Please determine the frequency of Chinese characters in the string '天气不错今天', and store the findings in '/output/char_freq.txt'.",
+        "filled_param": {
+          "input_string": "天气不错今天",
+          "file_path": "/output/char_freq.txt"
+        }
+      },
+      {
+        "query": "Can you calculate how often each Chinese character appears in '生活美好', and save the results in '/home/user/results.txt'?",
+        "filled_param": {
+          "input_string": "生活美好",
+          "file_path": "/home/user/results.txt"
+        }
+      },
+      {
+        "query": "Generate a frequency report for the Chinese characters in '中文字符统计', and write the report to '/reports/frequency.txt'.",
+        "filled_param": {
+          "input_string": "中文字符统计",
+          "file_path": "/reports/frequency.txt"
+        }
+      },
+      {
+        "query": "Could you find the frequency of each character in the Chinese sentence '今天是个好日子', and save it in '/analysis/freq_report.txt'?",
+        "filled_param": {
+          "input_string": "今天是个好日子",
+          "file_path": "/analysis/freq_report.txt"
+        }
+      }
+    ]
+  },
+  "symbol_frequency|:|Korean Hangul characters|:|input_string,file_path": {
+    "tool_template_name": "symbol_frequency",
+    "derived_class": "Korean Hangul characters",
+    "params_for_query": [
+      "input_string",
+      "file_path"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the frequency of Korean Hangul characters in the string '안녕하세요' and save the results to '/documents/hangul_frequency.txt'.",
+        "filled_param": {
+          "input_string": "안녕하세요",
+          "file_path": "/documents/hangul_frequency.txt"
+        }
+      },
+      {
+        "query": "Can you check how often each Korean Hangul character appears in '사랑해요' and store the output at '/users/data/hangul_analysis.txt'?",
+        "filled_param": {
+          "input_string": "사랑해요",
+          "file_path": "/users/data/hangul_analysis.txt"
+        }
+      },
+      {
+        "query": "Please determine the frequency of Korean Hangul characters in '대한민국' and write the findings to '/desktop/frequency_output.txt'.",
+        "filled_param": {
+          "input_string": "대한민국",
+          "file_path": "/desktop/frequency_output.txt"
+        }
+      },
+      {
+        "query": "I'd like a frequency analysis of Korean Hangul characters for the text '학교' and save it to '/downloads/hangul_result.txt'.",
+        "filled_param": {
+          "input_string": "학교",
+          "file_path": "/downloads/hangul_result.txt"
+        }
+      },
+      {
+        "query": "Could you analyze '봄여름가을겨울' for Korean Hangul characters frequency and save the results in '/myfiles/character_count.txt'?",
+        "filled_param": {
+          "input_string": "봄여름가을겨울",
+          "file_path": "/myfiles/character_count.txt"
+        }
+      }
+    ]
+  },
+  "symbol_frequency|:|digit characters|:|input_string,file_path": {
+    "tool_template_name": "symbol_frequency",
+    "derived_class": "digit characters",
+    "params_for_query": [
+      "input_string",
+      "file_path"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the digit characters in 'The year 2023 was quite eventful with 123 different occurrences' and save the result to '/user/documents/digit_analysis1.txt'.",
+        "filled_param": {
+          "input_string": "The year 2023 was quite eventful with 123 different occurrences",
+          "file_path": "/user/documents/digit_analysis1.txt"
+        }
+      },
+      {
+        "query": "Please find the frequency of digit characters in the text 'Contact numbers are 5551234 and 1234567' and store the output at '/home/user/output/digits_freq.txt'.",
+        "filled_param": {
+          "input_string": "Contact numbers are 5551234 and 1234567",
+          "file_path": "/home/user/output/digits_freq.txt"
+        }
+      },
+      {
+        "query": "Calculate the frequency of digit characters in 'Room numbers: 101, 204, 305' and save it to '/tmp/digits_result.txt'.",
+        "filled_param": {
+          "input_string": "Room numbers: 101, 204, 305",
+          "file_path": "/tmp/digits_result.txt"
+        }
+      },
+      {
+        "query": "Could you analyze digit characters in 'Order IDs: 78901, 67892, 56790' and save the results at '/var/reports/digit_frequency.txt'?",
+        "filled_param": {
+          "input_string": "Order IDs: 78901, 67892, 56790",
+          "file_path": "/var/reports/digit_frequency.txt"
+        }
+      },
+      {
+        "query": "I need the frequency of digit characters from 'Weather report IDs: 8765, 5432, 1001' saved to '/desktop/reports/weather_digits.txt'.",
+        "filled_param": {
+          "input_string": "Weather report IDs: 8765, 5432, 1001",
+          "file_path": "/desktop/reports/weather_digits.txt"
+        }
+      }
+    ]
+  },
+  "symbol_frequency|:|Hebrew characters|:|input_string,file_path": {
+    "tool_template_name": "symbol_frequency",
+    "derived_class": "Hebrew characters",
+    "params_for_query": [
+      "input_string",
+      "file_path"
+    ],
+    "queries": [
+      {
+        "query": "Could you analyze the frequency of Hebrew characters in the string 'שלום עולם' and save the result to /user/documents/hebrew_analysis.txt?",
+        "filled_param": {
+          "input_string": "שלום עולם",
+          "file_path": "/user/documents/hebrew_analysis.txt"
+        }
+      },
+      {
+        "query": "Examine the Hebrew character frequency in 'ברוך הבא לישראל' and store the analysis at C:/data/hebrew_frequency.txt.",
+        "filled_param": {
+          "input_string": "ברוך הבא לישראל",
+          "file_path": "C:/data/hebrew_frequency.txt"
+        }
+      },
+      {
+        "query": "I need the frequency of Hebrew characters in 'תודה רבה' saved to /analysis/hebrew.txt.",
+        "filled_param": {
+          "input_string": "תודה רבה",
+          "file_path": "/analysis/hebrew.txt"
+        }
+      },
+      {
+        "query": "Can you determine how often each Hebrew character appears in 'לילה טוב' and save it in /output/hebrew_characters.txt?",
+        "filled_param": {
+          "input_string": "לילה טוב",
+          "file_path": "/output/hebrew_characters.txt"
+        }
+      },
+      {
+        "query": "Analyze the string 'חג שמח' for Hebrew character frequency and save the output to D:/results/hebrew_output.txt.",
+        "filled_param": {
+          "input_string": "חג שמח",
+          "file_path": "D:/results/hebrew_output.txt"
+        }
+      }
+    ]
+  },
+  "symbol_frequency|:|whitespace characters|:|input_string,file_path": {
+    "tool_template_name": "symbol_frequency",
+    "derived_class": "whitespace characters",
+    "params_for_query": [
+      "input_string",
+      "file_path"
+    ],
+    "queries": [
+      {
+        "query": "Analyze the frequency of whitespace characters in the string 'Hello World! This is a test.' and save the result to /home/user/result1.txt.",
+        "filled_param": {
+          "input_string": "Hello World! This is a test.",
+          "file_path": "/home/user/result1.txt"
+        }
+      },
+      {
+        "query": "Check how often whitespace characters appear in 'Sample input text: Line one.\nLine two.' and store the results at C:\\outputs\\whitespace_report.txt.",
+        "filled_param": {
+          "input_string": "Sample input text: Line one.\nLine two.",
+          "file_path": "C:\\outputs\\whitespace_report.txt"
+        }
+      },
+      {
+        "query": "Please find the whitespace characters frequency in the text 'Whitespace\tcharacters   matter.' and write it to /tmp/output.txt.",
+        "filled_param": {
+          "input_string": "Whitespace\tcharacters   matter.",
+          "file_path": "/tmp/output.txt"
+        }
+      },
+      {
+        "query": "I'd like to know the frequency of whitespace characters in 'Count spaces and tabs.\tEnd.' and save it in /var/logs/whitespace_analysis.txt.",
+        "filled_param": {
+          "input_string": "Count spaces and tabs.\tEnd.",
+          "file_path": "/var/logs/whitespace_analysis.txt"
+        }
+      },
+      {
+        "query": "Calculate the frequency of whitespace characters in 'Whitespace\nnewlines and more.' and save the analysis to D:/data/whitespace_freq.txt.",
+        "filled_param": {
+          "input_string": "Whitespace\nnewlines and more.",
+          "file_path": "D:/data/whitespace_freq.txt"
+        }
+      }
+    ]
+  }
+}

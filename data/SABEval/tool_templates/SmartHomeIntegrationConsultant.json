@@ -1,0 +1,71 @@
+{
+  "tool_template_name": "SmartHomeIntegrationConsultant",
+  "meta_data": {
+    "base_class": "Consult with professionals on integrating <device systems> - refers to different types of systems that require professional installation or integration.",
+    "derived_classes": [
+      "security monitoring system",
+      "audio-visual system",
+      "lighting control system",
+      "HVAC system",
+      "kitchen appliance system",
+      "medical monitoring system",
+      "garden irrigation system",
+      "pet care system",
+      "fitness equipment system"
+    ],
+    "base_class_entity": "smart home devices"
+  },
+  "tool_template": {
+    "name": "ConsultantFor_<class>Integration",
+    "description": "Consult with a professional for integrating <class>.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "consultation_mode": {
+          "type": "string",
+          "description": "Preferred mode of consultation (e.g., online, in-person)."
+        },
+        "device_list": {
+          "type": "string",
+          "description": "List of devices or components in the <class> to be discussed during consultation."
+        }
+      },
+      "required": [
+        "consultation_mode",
+        "device_list"
+      ]
+    }
+  },
+  "raw_additional_params": {
+    "include_follow_up": {
+      "type": "boolean",
+      "description": "Whether to include follow-up sessions after initial consultation."
+    },
+    "priority_support": {
+      "type": "boolean",
+      "description": "Whether to request priority support for urgent <class> integration."
+    }
+  },
+  "additional_params": {
+    "integration_schedule": {
+      "type": "string",
+      "description": "Preferred schedule for the integration of the <class>."
+    },
+    "budget_limit": {
+      "type": "number",
+      "description": "Maximum budget allocated for the integration of the <class>."
+    },
+    "integration_duration": {
+      "type": "integer",
+      "description": "Estimated duration in hours or days for the integration of the <class>."
+    },
+    "access_requirements": {
+      "type": "string",
+      "description": "Specific access requirements or constraints for integrating the <class>."
+    },
+    "data_privacy_compliance": {
+      "type": "boolean",
+      "description": "Whether the integration of the <class> requires compliance with data privacy regulations."
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "tool_template_name": "AirQualityInspection_request",
+  "meta_data": {
+    "base_class": "Request an inspection service to assess <environmental quality> and obtain a professional report - refers to various types of environmental quality that require professional testing, without detailing specific measurement attributes such as PM2.5 or formaldehyde levels in the tool description.",
+    "derived_classes": [
+      "indoor air quality",
+      "drinking water quality",
+      "soil quality",
+      "noise pollution level",
+      "indoor lighting level",
+      "electromagnetic radiation level"
+    ],
+    "base_class_entity": "air quality"
+  },
+  "tool_template": {
+    "name": "request_<class>_inspection",
+    "description": "Request an inspection to assess <class> and obtain a professional report.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "email_address": {
+          "type": "string",
+          "description": "The user's email address for receiving the <class> inspection report."
+        }
+      },
+      "required": [
+        "email_address"
+      ]
+    }
+  },
+  "raw_additional_params": {},
+  "additional_params": {
+    "priority_level": {
+      "type": "string",
+      "description": "The priority level of the <class> inspection request. Options include 'low', 'medium', and 'high'."
+    },
+    "inspection_date": {
+      "type": "string",
+      "description": "The desired date for the <class> inspection. Format should be 'YYYY-MM-DD'."
+    },
+    "report_language": {
+      "type": "string",
+      "description": "The preferred language for the <class> inspection report. Options include 'English', 'Spanish', 'French'."
+    },
+    "additional_notes": {
+      "type": "string",
+      "description": "Any additional notes or special instructions for the <class> inspection."
+    }
+  }
+}

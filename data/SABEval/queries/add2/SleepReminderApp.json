@@ -1,0 +1,1165 @@
+{
+  "SleepReminderApp|:|sleep|:|reminder_message,reminder_time,days_of_week,priority_level": {
+    "tool_template_name": "SleepReminderApp",
+    "derived_class": "sleep",
+    "params_for_query": [
+      "reminder_message",
+      "reminder_time",
+      "days_of_week",
+      "priority_level"
+    ],
+    "queries": [
+      {
+        "query": "Please set a sleep reminder saying 'Time to relax and unwind for the day' at 22:00 on weekdays with high priority.",
+        "filled_param": {
+          "reminder_message": "Time to relax and unwind for the day",
+          "reminder_time": "22:00",
+          "days_of_week": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "priority_level": "high"
+        }
+      },
+      {
+        "query": "Can you remind me with the message 'Prepare for a restful sleep ahead' at 21:30 every Tuesday and Thursday, with a medium priority?",
+        "filled_param": {
+          "reminder_message": "Prepare for a restful sleep ahead",
+          "reminder_time": "21:30",
+          "days_of_week": [
+            "Tuesday",
+            "Thursday"
+          ],
+          "priority_level": "medium"
+        }
+      },
+      {
+        "query": "I'd like a sleep alert that says 'Bedtime in 30 minutes, relax' set to alert at 23:15 on Saturday and Sunday with low priority.",
+        "filled_param": {
+          "reminder_message": "Bedtime in 30 minutes, relax",
+          "reminder_time": "23:15",
+          "days_of_week": [
+            "Saturday",
+            "Sunday"
+          ],
+          "priority_level": "low"
+        }
+      },
+      {
+        "query": "Set a reminder with 'Get ready to sleep soon!' at 20:45 every Monday and Wednesday, priority should be high.",
+        "filled_param": {
+          "reminder_message": "Get ready to sleep soon!",
+          "reminder_time": "20:45",
+          "days_of_week": [
+            "Monday",
+            "Wednesday"
+          ],
+          "priority_level": "high"
+        }
+      },
+      {
+        "query": "Can you create a sleep reminder that will say 'Time to wind down for the night' at 22:30 on Friday with a medium priority?",
+        "filled_param": {
+          "reminder_message": "Time to wind down for the night",
+          "reminder_time": "22:30",
+          "days_of_week": [
+            "Friday"
+          ],
+          "priority_level": "medium"
+        }
+      },
+      {
+        "query": "How about reminding me to sleep with 'Start your nightly routine now' at 21:00 on all weekdays with low urgency?",
+        "filled_param": {
+          "reminder_message": "Start your nightly routine now",
+          "reminder_time": "21:00",
+          "days_of_week": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "priority_level": "low"
+        }
+      }
+    ]
+  },
+  "SleepReminderApp|:|medication|:|reminder_message,reminder_time,days_of_week,priority_level": {
+    "tool_template_name": "SleepReminderApp",
+    "derived_class": "medication",
+    "params_for_query": [
+      "reminder_message",
+      "reminder_time",
+      "days_of_week",
+      "priority_level"
+    ],
+    "queries": [
+      {
+        "query": "Please set a medication reminder with the message 'Take your heart medication' at 08:00 on Monday, Wednesday, and Friday with a high priority level.",
+        "filled_param": {
+          "reminder_message": "Take your heart medication",
+          "reminder_time": "08:00",
+          "days_of_week": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+          ],
+          "priority_level": "high"
+        }
+      },
+      {
+        "query": "I need a medication reminder saying 'Don't forget your pills' for 21:45 on Tuesday, Thursday, and Saturday with medium priority.",
+        "filled_param": {
+          "reminder_message": "Don't forget your pills",
+          "reminder_time": "21:45",
+          "days_of_week": [
+            "Tuesday",
+            "Thursday",
+            "Saturday"
+          ],
+          "priority_level": "medium"
+        }
+      },
+      {
+        "query": "Set up a low priority medication alert with the message 'Time for your vitamins' at 07:30 every Sunday.",
+        "filled_param": {
+          "reminder_message": "Time for your vitamins",
+          "reminder_time": "07:30",
+          "days_of_week": [
+            "Sunday"
+          ],
+          "priority_level": "low"
+        }
+      },
+      {
+        "query": "Create a reminder for your medication to 'Take morning meds' at 06:00 on weekdays with high priority.",
+        "filled_param": {
+          "reminder_message": "Take morning meds",
+          "reminder_time": "06:00",
+          "days_of_week": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "priority_level": "high"
+        }
+      },
+      {
+        "query": "Schedule a medication notice saying 'Evening pills time' at 20:00 on Saturday and Sunday with a low priority.",
+        "filled_param": {
+          "reminder_message": "Evening pills time",
+          "reminder_time": "20:00",
+          "days_of_week": [
+            "Saturday",
+            "Sunday"
+          ],
+          "priority_level": "low"
+        }
+      },
+      {
+        "query": "Set a reminder for taking vitamins with the message 'Take your daily vitamins' at 09:00 every Wednesday with medium priority.",
+        "filled_param": {
+          "reminder_message": "Take your daily vitamins",
+          "reminder_time": "09:00",
+          "days_of_week": [
+            "Wednesday"
+          ],
+          "priority_level": "medium"
+        }
+      },
+      {
+        "query": "Can you remind me to 'Take evening medication on time' at 18:30 on Monday, Thursday, and Friday with a high priority?",
+        "filled_param": {
+          "reminder_message": "Take evening medication on time",
+          "reminder_time": "18:30",
+          "days_of_week": [
+            "Monday",
+            "Thursday",
+            "Friday"
+          ],
+          "priority_level": "high"
+        }
+      }
+    ]
+  },
+  "SleepReminderApp|:|hydration|:|reminder_message,reminder_time,days_of_week,priority_level": {
+    "tool_template_name": "SleepReminderApp",
+    "derived_class": "hydration",
+    "params_for_query": [
+      "reminder_message",
+      "reminder_time",
+      "days_of_week",
+      "priority_level"
+    ],
+    "queries": [
+      {
+        "query": "Please set a hydration reminder with the message 'Time to drink some water!' at 09:00 on Monday, Wednesday, and Friday, with a medium priority level.",
+        "filled_param": {
+          "reminder_message": "Time to drink some water!",
+          "reminder_time": "09:00",
+          "days_of_week": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+          ],
+          "priority_level": "medium"
+        }
+      },
+      {
+        "query": "Can you create a hydration reminder for 14:30 with the message 'Stay hydrated, drink water now!' on Tuesday, Thursday, and Saturday, and mark it as high priority?",
+        "filled_param": {
+          "reminder_message": "Stay hydrated, drink water now!",
+          "reminder_time": "14:30",
+          "days_of_week": [
+            "Tuesday",
+            "Thursday",
+            "Saturday"
+          ],
+          "priority_level": "high"
+        }
+      },
+      {
+        "query": "I need a low-priority hydration reminder saying 'Drink water for better health' at 11:00 on Sunday.",
+        "filled_param": {
+          "reminder_message": "Drink water for better health",
+          "reminder_time": "11:00",
+          "days_of_week": [
+            "Sunday"
+          ],
+          "priority_level": "low"
+        }
+      },
+      {
+        "query": "Set a reminder to 'Hydrate yourself, it's important!' every day at 16:45 with high priority.",
+        "filled_param": {
+          "reminder_message": "Hydrate yourself, it's important!",
+          "reminder_time": "16:45",
+          "days_of_week": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "priority_level": "high"
+        }
+      },
+      {
+        "query": "Schedule a medium-priority hydration reminder at 07:30 with the text 'Good morning, time for water!' for Monday and Friday.",
+        "filled_param": {
+          "reminder_message": "Good morning, time for water!",
+          "reminder_time": "07:30",
+          "days_of_week": [
+            "Monday",
+            "Friday"
+          ],
+          "priority_level": "medium"
+        }
+      },
+      {
+        "query": "Could you set a hydration alert with the message 'Refill your water bottle and drink up!' at 13:15 on Tuesday and Thursday with low priority?",
+        "filled_param": {
+          "reminder_message": "Refill your water bottle and drink up!",
+          "reminder_time": "13:15",
+          "days_of_week": [
+            "Tuesday",
+            "Thursday"
+          ],
+          "priority_level": "low"
+        }
+      },
+      {
+        "query": "Arrange a hydration notification with the message 'Keep hydrated for a healthy life!' at 17:00 every Saturday and Sunday, and set the priority to medium.",
+        "filled_param": {
+          "reminder_message": "Keep hydrated for a healthy life!",
+          "reminder_time": "17:00",
+          "days_of_week": [
+            "Saturday",
+            "Sunday"
+          ],
+          "priority_level": "medium"
+        }
+      }
+    ]
+  },
+  "SleepReminderApp|:|exercise|:|reminder_message,reminder_time,days_of_week,priority_level": {
+    "tool_template_name": "SleepReminderApp",
+    "derived_class": "exercise",
+    "params_for_query": [
+      "reminder_message",
+      "reminder_time",
+      "days_of_week",
+      "priority_level"
+    ],
+    "queries": [
+      {
+        "query": "Set an exercise reminder with the message 'Time for your daily workout session!' at 06:30 on Monday, Wednesday, and Friday with high priority.",
+        "filled_param": {
+          "reminder_message": "Time for your daily workout session!",
+          "reminder_time": "06:30",
+          "days_of_week": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+          ],
+          "priority_level": "high"
+        }
+      },
+      {
+        "query": "Please remind me to exercise with the note 'Don't forget your evening jog!' every Tuesday and Thursday at 19:00. Set it to medium priority.",
+        "filled_param": {
+          "reminder_message": "Don't forget your evening jog!",
+          "reminder_time": "19:00",
+          "days_of_week": [
+            "Tuesday",
+            "Thursday"
+          ],
+          "priority_level": "medium"
+        }
+      },
+      {
+        "query": "Schedule a reminder saying 'Start your weekend with some yoga!' on Saturday at 08:00, with a low priority level.",
+        "filled_param": {
+          "reminder_message": "Start your weekend with some yoga!",
+          "reminder_time": "08:00",
+          "days_of_week": [
+            "Saturday"
+          ],
+          "priority_level": "low"
+        }
+      },
+      {
+        "query": "Could you set a reminder that says 'Time to hit the gym!' each weekday at 07:00 with high priority?",
+        "filled_param": {
+          "reminder_message": "Time to hit the gym!",
+          "reminder_time": "07:00",
+          "days_of_week": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "priority_level": "high"
+        }
+      },
+      {
+        "query": "I need a reminder with 'Stretch and relax your muscles' on Sundays at 17:30, make it a low priority.",
+        "filled_param": {
+          "reminder_message": "Stretch and relax your muscles",
+          "reminder_time": "17:30",
+          "days_of_week": [
+            "Sunday"
+          ],
+          "priority_level": "low"
+        }
+      },
+      {
+        "query": "Send me an exercise notification reading 'Lunchtime workout break!' every Monday and Thursday at 12:00, prioritize it as medium.",
+        "filled_param": {
+          "reminder_message": "Lunchtime workout break!",
+          "reminder_time": "12:00",
+          "days_of_week": [
+            "Monday",
+            "Thursday"
+          ],
+          "priority_level": "medium"
+        }
+      },
+      {
+        "query": "Can you create an exercise reminder 'Evening exercise to boost energy!' for 18:45 on Wednesday and Saturday with priority set to high?",
+        "filled_param": {
+          "reminder_message": "Evening exercise to boost energy!",
+          "reminder_time": "18:45",
+          "days_of_week": [
+            "Wednesday",
+            "Saturday"
+          ],
+          "priority_level": "high"
+        }
+      }
+    ]
+  },
+  "SleepReminderApp|:|study|:|reminder_message,reminder_time,days_of_week,priority_level": {
+    "tool_template_name": "SleepReminderApp",
+    "derived_class": "study",
+    "params_for_query": [
+      "reminder_message",
+      "reminder_time",
+      "days_of_week",
+      "priority_level"
+    ],
+    "queries": [
+      {
+        "query": "Set a high-priority study reminder with the message 'Study chemistry notes for upcoming test' at 18:30 on Monday, Wednesday, and Friday.",
+        "filled_param": {
+          "reminder_message": "Study chemistry notes for upcoming test",
+          "reminder_time": "18:30",
+          "days_of_week": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+          ],
+          "priority_level": "high"
+        }
+      },
+      {
+        "query": "Can you create a study reminder for me? The message is 'Review algebra problems', and I need it at 15:00 on Tuesday and Thursday. Make it a medium priority.",
+        "filled_param": {
+          "reminder_message": "Review algebra problems",
+          "reminder_time": "15:00",
+          "days_of_week": [
+            "Tuesday",
+            "Thursday"
+          ],
+          "priority_level": "medium"
+        }
+      },
+      {
+        "query": "I'd like a study reminder with the note 'Read history chapter 4' set at 20:00 every Saturday and Sunday with a low priority.",
+        "filled_param": {
+          "reminder_message": "Read history chapter 4",
+          "reminder_time": "20:00",
+          "days_of_week": [
+            "Saturday",
+            "Sunday"
+          ],
+          "priority_level": "low"
+        }
+      },
+      {
+        "query": "Schedule a study reminder: 'Go over biology experiments' at 14:45 on Monday, make this a high-priority task.",
+        "filled_param": {
+          "reminder_message": "Go over biology experiments",
+          "reminder_time": "14:45",
+          "days_of_week": [
+            "Monday"
+          ],
+          "priority_level": "high"
+        }
+      },
+      {
+        "query": "I need a reminder to 'Practice Spanish vocabulary' every Wednesday and Friday at 10:00, and set the priority as medium.",
+        "filled_param": {
+          "reminder_message": "Practice Spanish vocabulary",
+          "reminder_time": "10:00",
+          "days_of_week": [
+            "Wednesday",
+            "Friday"
+          ],
+          "priority_level": "medium"
+        }
+      },
+      {
+        "query": "Please set a reminder for 'Complete math homework exercises' at 19:00 every Tuesday, Thursday, and Saturday with low priority.",
+        "filled_param": {
+          "reminder_message": "Complete math homework exercises",
+          "reminder_time": "19:00",
+          "days_of_week": [
+            "Tuesday",
+            "Thursday",
+            "Saturday"
+          ],
+          "priority_level": "low"
+        }
+      },
+      {
+        "query": "Create a study alert with the message 'Prepare for physics quiz' at 09:30 on Friday and Monday, set it to high priority.",
+        "filled_param": {
+          "reminder_message": "Prepare for physics quiz",
+          "reminder_time": "09:30",
+          "days_of_week": [
+            "Friday",
+            "Monday"
+          ],
+          "priority_level": "high"
+        }
+      }
+    ]
+  },
+  "SleepReminderApp|:|meditation|:|reminder_message,reminder_time,days_of_week,priority_level": {
+    "tool_template_name": "SleepReminderApp",
+    "derived_class": "meditation",
+    "params_for_query": [
+      "reminder_message",
+      "reminder_time",
+      "days_of_week",
+      "priority_level"
+    ],
+    "queries": [
+      {
+        "query": "Set a meditation reminder at 07:00 with the message 'Start your day with peace and gratitude' for Monday, Wednesday, and Friday at medium priority.",
+        "filled_param": {
+          "reminder_message": "Start your day with peace and gratitude",
+          "reminder_time": "07:00",
+          "days_of_week": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+          ],
+          "priority_level": "medium"
+        }
+      },
+      {
+        "query": "Can you remind me to meditate on Tuesday and Thursday at 18:30 with 'Take a moment to relax and unwind' as the message, and set it to high priority?",
+        "filled_param": {
+          "reminder_message": "Take a moment to relax and unwind",
+          "reminder_time": "18:30",
+          "days_of_week": [
+            "Tuesday",
+            "Thursday"
+          ],
+          "priority_level": "high"
+        }
+      },
+      {
+        "query": "Please set a low-priority meditation reminder at 12:00 with the message 'Midday meditation for clarity' every day of the week.",
+        "filled_param": {
+          "reminder_message": "Midday meditation for clarity",
+          "reminder_time": "12:00",
+          "days_of_week": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "priority_level": "low"
+        }
+      },
+      {
+        "query": "Schedule a meditation reminder for Saturday and Sunday at 16:45 with the message 'Weekend relaxation session' set to medium priority.",
+        "filled_param": {
+          "reminder_message": "Weekend relaxation session",
+          "reminder_time": "16:45",
+          "days_of_week": [
+            "Saturday",
+            "Sunday"
+          ],
+          "priority_level": "medium"
+        }
+      },
+      {
+        "query": "Create a high-priority meditation alert at 05:30 with 'Early morning mindfulness meditation' for Monday through Friday.",
+        "filled_param": {
+          "reminder_message": "Early morning mindfulness meditation",
+          "reminder_time": "05:30",
+          "days_of_week": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "priority_level": "high"
+        }
+      },
+      {
+        "query": "Set a reminder for meditation on Wednesday at 20:00 with the message 'Evening time to reflect and breathe', and make it a low priority.",
+        "filled_param": {
+          "reminder_message": "Evening time to reflect and breathe",
+          "reminder_time": "20:00",
+          "days_of_week": [
+            "Wednesday"
+          ],
+          "priority_level": "low"
+        }
+      }
+    ]
+  },
+  "SleepReminderApp|:|water plants|:|reminder_message,reminder_time,days_of_week,priority_level": {
+    "tool_template_name": "SleepReminderApp",
+    "derived_class": "water plants",
+    "params_for_query": [
+      "reminder_message",
+      "reminder_time",
+      "days_of_week",
+      "priority_level"
+    ],
+    "queries": [
+      {
+        "query": "Set a reminder to water plants every Monday and Thursday at 07:30 with the message 'Time to hydrate your green friends' and make it a high priority.",
+        "filled_param": {
+          "reminder_message": "Time to hydrate your green friends",
+          "reminder_time": "07:30",
+          "days_of_week": [
+            "Monday",
+            "Thursday"
+          ],
+          "priority_level": "high"
+        }
+      },
+      {
+        "query": "I need a medium priority reminder for watering plants on Saturday and Sunday at 09:00 with the message 'Don't forget to water the garden'.",
+        "filled_param": {
+          "reminder_message": "Don't forget to water the garden",
+          "reminder_time": "09:00",
+          "days_of_week": [
+            "Saturday",
+            "Sunday"
+          ],
+          "priority_level": "medium"
+        }
+      },
+      {
+        "query": "Please set a low priority water plants reminder for Tuesday and Friday at 18:45 with the message 'Evening plant watering routine'.",
+        "filled_param": {
+          "reminder_message": "Evening plant watering routine",
+          "reminder_time": "18:45",
+          "days_of_week": [
+            "Tuesday",
+            "Friday"
+          ],
+          "priority_level": "low"
+        }
+      },
+      {
+        "query": "Can you create a reminder to water plants every day at 06:00 with the message 'Morning plant care is essential' and set it to high priority?",
+        "filled_param": {
+          "reminder_message": "Morning plant care is essential",
+          "reminder_time": "06:00",
+          "days_of_week": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "priority_level": "high"
+        }
+      },
+      {
+        "query": "Schedule a reminder to water plants at 20:15 on Wednesday and Saturday with a medium priority and the message 'It's time for the evening plant watering'.",
+        "filled_param": {
+          "reminder_message": "It's time for the evening plant watering",
+          "reminder_time": "20:15",
+          "days_of_week": [
+            "Wednesday",
+            "Saturday"
+          ],
+          "priority_level": "medium"
+        }
+      },
+      {
+        "query": "I'd like a low priority reminder for plant watering on Monday, Wednesday, and Friday at 07:00 with the message 'Start your day by watering plants'.",
+        "filled_param": {
+          "reminder_message": "Start your day by watering plants",
+          "reminder_time": "07:00",
+          "days_of_week": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+          ],
+          "priority_level": "low"
+        }
+      },
+      {
+        "query": "Set up a high priority reminder for watering the plants on Thursday at 15:30 with the message 'Afternoon plant care alert'.",
+        "filled_param": {
+          "reminder_message": "Afternoon plant care alert",
+          "reminder_time": "15:30",
+          "days_of_week": [
+            "Thursday"
+          ],
+          "priority_level": "high"
+        }
+      }
+    ]
+  },
+  "SleepReminderApp|:|feed pets|:|reminder_message,reminder_time,days_of_week,priority_level": {
+    "tool_template_name": "SleepReminderApp",
+    "derived_class": "feed pets",
+    "params_for_query": [
+      "reminder_message",
+      "reminder_time",
+      "days_of_week",
+      "priority_level"
+    ],
+    "queries": [
+      {
+        "query": "Set a feed pets reminder with the message 'Time to feed the pets!' every Monday and Thursday at 07:30 with high priority.",
+        "filled_param": {
+          "reminder_message": "Time to feed the pets!",
+          "reminder_time": "07:30",
+          "days_of_week": [
+            "Monday",
+            "Thursday"
+          ],
+          "priority_level": "high"
+        }
+      },
+      {
+        "query": "Can you remind me to feed pets every day at 18:00 with a message 'Feed the pets before dinner' and make it a medium priority?",
+        "filled_param": {
+          "reminder_message": "Feed the pets before dinner",
+          "reminder_time": "18:00",
+          "days_of_week": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "priority_level": "medium"
+        }
+      },
+      {
+        "query": "I need a reminder to feed pets on Friday and Sunday at 14:00. Message should be 'Pet feeding time! Don't forget' and set the priority to low.",
+        "filled_param": {
+          "reminder_message": "Pet feeding time! Don't forget",
+          "reminder_time": "14:00",
+          "days_of_week": [
+            "Friday",
+            "Sunday"
+          ],
+          "priority_level": "low"
+        }
+      },
+      {
+        "query": "Please schedule a feed pets alert for Tuesday and Saturday at 09:45 with the message 'It's feeding time for pets!' and a high priority level.",
+        "filled_param": {
+          "reminder_message": "It's feeding time for pets!",
+          "reminder_time": "09:45",
+          "days_of_week": [
+            "Tuesday",
+            "Saturday"
+          ],
+          "priority_level": "high"
+        }
+      },
+      {
+        "query": "Set a reminder to feed pets on Wednesday at 16:30 with the message 'Make sure pets are fed' and keep the priority medium.",
+        "filled_param": {
+          "reminder_message": "Make sure pets are fed",
+          "reminder_time": "16:30",
+          "days_of_week": [
+            "Wednesday"
+          ],
+          "priority_level": "medium"
+        }
+      },
+      {
+        "query": "Can you create a high-priority feed pets reminder for Monday, Wednesday, and Friday at 20:15 with the message 'Don't miss feeding the pets!'?",
+        "filled_param": {
+          "reminder_message": "Don't miss feeding the pets!",
+          "reminder_time": "20:15",
+          "days_of_week": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+          ],
+          "priority_level": "high"
+        }
+      }
+    ]
+  },
+  "SleepReminderApp|:|reading|:|reminder_message,reminder_time,days_of_week,priority_level": {
+    "tool_template_name": "SleepReminderApp",
+    "derived_class": "reading",
+    "params_for_query": [
+      "reminder_message",
+      "reminder_time",
+      "days_of_week",
+      "priority_level"
+    ],
+    "queries": [
+      {
+        "query": "Set a high priority reading reminder with the message 'Don't forget to read today!' at 18:00 every Tuesday and Thursday.",
+        "filled_param": {
+          "reminder_message": "Don't forget to read today!",
+          "reminder_time": "18:00",
+          "days_of_week": [
+            "Tuesday",
+            "Thursday"
+          ],
+          "priority_level": "high"
+        }
+      },
+      {
+        "query": "Can you create a medium priority reading reminder to 'Catch up on your reading!' at 07:30 on Mondays, Wednesdays, and Fridays?",
+        "filled_param": {
+          "reminder_message": "Catch up on your reading!",
+          "reminder_time": "07:30",
+          "days_of_week": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+          ],
+          "priority_level": "medium"
+        }
+      },
+      {
+        "query": "I need a low priority reminder to 'Spend some time reading' at 21:15 every Saturday and Sunday.",
+        "filled_param": {
+          "reminder_message": "Spend some time reading",
+          "reminder_time": "21:15",
+          "days_of_week": [
+            "Saturday",
+            "Sunday"
+          ],
+          "priority_level": "low"
+        }
+      },
+      {
+        "query": "Please set a high priority alert with 'Make time to read your book' for 16:45 on Monday and Thursday.",
+        "filled_param": {
+          "reminder_message": "Make time to read your book",
+          "reminder_time": "16:45",
+          "days_of_week": [
+            "Monday",
+            "Thursday"
+          ],
+          "priority_level": "high"
+        }
+      },
+      {
+        "query": "Schedule a reading reminder saying 'Reading is important!' at 20:00 on Wednesday and Saturday with medium priority.",
+        "filled_param": {
+          "reminder_message": "Reading is important!",
+          "reminder_time": "20:00",
+          "days_of_week": [
+            "Wednesday",
+            "Saturday"
+          ],
+          "priority_level": "medium"
+        }
+      },
+      {
+        "query": "I need an alert that says 'Enjoy some reading time!' at 19:00 every Sunday and Friday, with low priority.",
+        "filled_param": {
+          "reminder_message": "Enjoy some reading time!",
+          "reminder_time": "19:00",
+          "days_of_week": [
+            "Sunday",
+            "Friday"
+          ],
+          "priority_level": "low"
+        }
+      },
+      {
+        "query": "Remind me with 'Time to dive into a book!' at 06:30 every Tuesday and Saturday with high priority.",
+        "filled_param": {
+          "reminder_message": "Time to dive into a book!",
+          "reminder_time": "06:30",
+          "days_of_week": [
+            "Tuesday",
+            "Saturday"
+          ],
+          "priority_level": "high"
+        }
+      }
+    ]
+  },
+  "SleepReminderApp|:|practice instrument|:|reminder_message,reminder_time,days_of_week,priority_level": {
+    "tool_template_name": "SleepReminderApp",
+    "derived_class": "practice instrument",
+    "params_for_query": [
+      "reminder_message",
+      "reminder_time",
+      "days_of_week",
+      "priority_level"
+    ],
+    "queries": [
+      {
+        "query": "Please set a practice instrument reminder with the message 'Time to get those guitar skills sharp!' at 18:30 every Monday and Thursday with a high priority.",
+        "filled_param": {
+          "reminder_message": "Time to get those guitar skills sharp!",
+          "reminder_time": "18:30",
+          "days_of_week": [
+            "Monday",
+            "Thursday"
+          ],
+          "priority_level": "high"
+        }
+      },
+      {
+        "query": "I need a reminder for my practice instrument session that says 'Drum practice time, let's roll!' scheduled for 19:00 on Tuesdays and Fridays with medium priority.",
+        "filled_param": {
+          "reminder_message": "Drum practice time, let's roll!",
+          "reminder_time": "19:00",
+          "days_of_week": [
+            "Tuesday",
+            "Friday"
+          ],
+          "priority_level": "medium"
+        }
+      },
+      {
+        "query": "Set a practice instrument reminder with the note 'Practice piano now to master those melodies' at 09:00 on weekends with low priority.",
+        "filled_param": {
+          "reminder_message": "Practice piano now to master those melodies",
+          "reminder_time": "09:00",
+          "days_of_week": [
+            "Saturday",
+            "Sunday"
+          ],
+          "priority_level": "low"
+        }
+      },
+      {
+        "query": "Can you schedule a practice instrument reminder for me with the message 'Don't forget to practice the violin today!' at 20:45 every Wednesday and Sunday at high priority?",
+        "filled_param": {
+          "reminder_message": "Don't forget to practice the violin today!",
+          "reminder_time": "20:45",
+          "days_of_week": [
+            "Wednesday",
+            "Sunday"
+          ],
+          "priority_level": "high"
+        }
+      },
+      {
+        "query": "Please remind me with 'It's time to hone your flute skills!' at 07:00 on Monday, Wednesday, and Friday with a medium priority level.",
+        "filled_param": {
+          "reminder_message": "It's time to hone your flute skills!",
+          "reminder_time": "07:00",
+          "days_of_week": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+          ],
+          "priority_level": "medium"
+        }
+      },
+      {
+        "query": "Create a reminder for practice instrument sessions that says 'Ukulele practice is waiting for you.' at 15:00 on Thursdays and Saturdays, set this as low priority.",
+        "filled_param": {
+          "reminder_message": "Ukulele practice is waiting for you.",
+          "reminder_time": "15:00",
+          "days_of_week": [
+            "Thursday",
+            "Saturday"
+          ],
+          "priority_level": "low"
+        }
+      },
+      {
+        "query": "I need a practice instrument reminder with 'Focus on your saxophone skills now!' at 14:30 every Tuesday and Saturday with high priority.",
+        "filled_param": {
+          "reminder_message": "Focus on your saxophone skills now!",
+          "reminder_time": "14:30",
+          "days_of_week": [
+            "Tuesday",
+            "Saturday"
+          ],
+          "priority_level": "high"
+        }
+      }
+    ]
+  },
+  "SleepReminderApp|:|prepare lunch|:|reminder_message,reminder_time,days_of_week,priority_level": {
+    "tool_template_name": "SleepReminderApp",
+    "derived_class": "prepare lunch",
+    "params_for_query": [
+      "reminder_message",
+      "reminder_time",
+      "days_of_week",
+      "priority_level"
+    ],
+    "queries": [
+      {
+        "query": "Set a prepare lunch reminder with the message 'Don't forget to start cooking lunch by noon!' at 11:30 every Monday, Wednesday, and Friday with high priority.",
+        "filled_param": {
+          "reminder_message": "Don't forget to start cooking lunch by noon!",
+          "reminder_time": "11:30",
+          "days_of_week": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+          ],
+          "priority_level": "high"
+        }
+      },
+      {
+        "query": "Can you create a prepare lunch reminder that says 'Time to get lunch ready!' for 12:00 on Tuesday and Thursday? Set it to medium priority.",
+        "filled_param": {
+          "reminder_message": "Time to get lunch ready!",
+          "reminder_time": "12:00",
+          "days_of_week": [
+            "Tuesday",
+            "Thursday"
+          ],
+          "priority_level": "medium"
+        }
+      },
+      {
+        "query": "I need a prepare lunch reminder with the message 'Prepare and cook lunch now!' set for 12:45 on weekends with low priority.",
+        "filled_param": {
+          "reminder_message": "Prepare and cook lunch now!",
+          "reminder_time": "12:45",
+          "days_of_week": [
+            "Saturday",
+            "Sunday"
+          ],
+          "priority_level": "low"
+        }
+      },
+      {
+        "query": "Please schedule a prepare lunch reminder saying 'Lunch preparation should start soon!' at 12:15 on Monday to Friday, and set its priority to high.",
+        "filled_param": {
+          "reminder_message": "Lunch preparation should start soon!",
+          "reminder_time": "12:15",
+          "days_of_week": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "priority_level": "high"
+        }
+      },
+      {
+        "query": "I'd like a prepare lunch reminder configured with the message 'Get ready to make lunch!' at 11:45 every Wednesday and Saturday. Make its priority medium.",
+        "filled_param": {
+          "reminder_message": "Get ready to make lunch!",
+          "reminder_time": "11:45",
+          "days_of_week": [
+            "Wednesday",
+            "Saturday"
+          ],
+          "priority_level": "medium"
+        }
+      },
+      {
+        "query": "Set a prepare lunch reminder to say 'Start lunch prep now!' at 12:30 on Thursday and Sunday with a priority set to low.",
+        "filled_param": {
+          "reminder_message": "Start lunch prep now!",
+          "reminder_time": "12:30",
+          "days_of_week": [
+            "Thursday",
+            "Sunday"
+          ],
+          "priority_level": "low"
+        }
+      },
+      {
+        "query": "Create a prepare lunch reminder with 'It's time to cook lunch!' as the message for 11:00 on Monday and Friday, prioritizing it as high.",
+        "filled_param": {
+          "reminder_message": "It's time to cook lunch!",
+          "reminder_time": "11:00",
+          "days_of_week": [
+            "Monday",
+            "Friday"
+          ],
+          "priority_level": "high"
+        }
+      }
+    ]
+  },
+  "SleepReminderApp|:|eye rest|:|reminder_message,reminder_time,days_of_week,priority_level": {
+    "tool_template_name": "SleepReminderApp",
+    "derived_class": "eye rest",
+    "params_for_query": [
+      "reminder_message",
+      "reminder_time",
+      "days_of_week",
+      "priority_level"
+    ],
+    "queries": [
+      {
+        "query": "Set an eye rest reminder with the message 'Time to take a break and relax your eyes!' at 15:30 every Monday and Friday with high priority.",
+        "filled_param": {
+          "reminder_message": "Time to take a break and relax your eyes!",
+          "reminder_time": "15:30",
+          "days_of_week": [
+            "Monday",
+            "Friday"
+          ],
+          "priority_level": "high"
+        }
+      },
+      {
+        "query": "I need an eye rest reminder to say 'Look away from the screen for a few minutes' at 10:00 on Tuesdays and Thursdays with medium priority.",
+        "filled_param": {
+          "reminder_message": "Look away from the screen for a few minutes",
+          "reminder_time": "10:00",
+          "days_of_week": [
+            "Tuesday",
+            "Thursday"
+          ],
+          "priority_level": "medium"
+        }
+      },
+      {
+        "query": "Schedule an eye rest reminder that says 'Give your eyes a rest now!' at 18:45 from Monday to Wednesday with low priority.",
+        "filled_param": {
+          "reminder_message": "Give your eyes a rest now!",
+          "reminder_time": "18:45",
+          "days_of_week": [
+            "Monday",
+            "Tuesday",
+            "Wednesday"
+          ],
+          "priority_level": "low"
+        }
+      },
+      {
+        "query": "Can you remind me with 'Time for a quick eye exercise!' every day at 13:15, marking it as high priority?",
+        "filled_param": {
+          "reminder_message": "Time for a quick eye exercise!",
+          "reminder_time": "13:15",
+          "days_of_week": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "priority_level": "high"
+        }
+      },
+      {
+        "query": "Please set an eye rest reminder with the message 'Rest your eyes for better health!' for 09:30 on weekends with a medium priority level.",
+        "filled_param": {
+          "reminder_message": "Rest your eyes for better health!",
+          "reminder_time": "09:30",
+          "days_of_week": [
+            "Saturday",
+            "Sunday"
+          ],
+          "priority_level": "medium"
+        }
+      },
+      {
+        "query": "Create a reminder saying 'It's eye rest time, take a short break!' at 16:00 on Wednesdays with low priority.",
+        "filled_param": {
+          "reminder_message": "It's eye rest time, take a short break!",
+          "reminder_time": "16:00",
+          "days_of_week": [
+            "Wednesday"
+          ],
+          "priority_level": "low"
+        }
+      },
+      {
+        "query": "I want an eye rest reminder that reads 'Pause and blink to refresh your eyes!' on Mondays and Saturdays at 11:45 with a high priority setting.",
+        "filled_param": {
+          "reminder_message": "Pause and blink to refresh your eyes!",
+          "reminder_time": "11:45",
+          "days_of_week": [
+            "Monday",
+            "Saturday"
+          ],
+          "priority_level": "high"
+        }
+      }
+    ]
+  }
+}

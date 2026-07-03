@@ -1,0 +1,648 @@
+{
+  "sports_team.get_schedule|:|basketball|:|team_name,num_of_games,league": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "basketball",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league"
+    ],
+    "queries": [
+      {
+        "query": "Could you provide the schedule for the Boston Celtics for the next 5 games in the NBA basketball league?",
+        "filled_param": {
+          "team_name": "Boston Celtics",
+          "num_of_games": 5,
+          "league": "NBA"
+        }
+      },
+      {
+        "query": "I need to know the upcoming 3 games for Real Madrid in the EuroLeague basketball tournament.",
+        "filled_param": {
+          "team_name": "Real Madrid",
+          "num_of_games": 3,
+          "league": "EuroLeague"
+        }
+      },
+      {
+        "query": "What are the next 7 matches scheduled for the Raptors in the NBA basketball league?",
+        "filled_param": {
+          "team_name": "Raptors",
+          "num_of_games": 7,
+          "league": "NBA"
+        }
+      },
+      {
+        "query": "Please list the next 2 games for the Los Angeles Sparks in the WNBA basketball league.",
+        "filled_param": {
+          "team_name": "Los Angeles Sparks",
+          "num_of_games": 2,
+          "league": "WNBA"
+        }
+      },
+      {
+        "query": "Can you tell me about the next 4 matches for FC Barcelona in the Liga ACB basketball league?",
+        "filled_param": {
+          "team_name": "FC Barcelona",
+          "num_of_games": 4,
+          "league": "Liga ACB"
+        }
+      },
+      {
+        "query": "Fetch the schedule for the Chicago Bulls for their upcoming 6 games in the NBA basketball league.",
+        "filled_param": {
+          "team_name": "Chicago Bulls",
+          "num_of_games": 6,
+          "league": "NBA"
+        }
+      },
+      {
+        "query": "I want to see the schedule for the next 3 games of the Perth Wildcats in the NBL basketball league.",
+        "filled_param": {
+          "team_name": "Perth Wildcats",
+          "num_of_games": 3,
+          "league": "NBL"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|soccer|:|team_name,num_of_games,league": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "soccer",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the schedule for the next 5 games of Manchester United in the Premier League?",
+        "filled_param": {
+          "team_name": "Manchester United",
+          "num_of_games": 5,
+          "league": "Premier League"
+        }
+      },
+      {
+        "query": "I need to know the upcoming 3 matches for Real Madrid in La Liga.",
+        "filled_param": {
+          "team_name": "Real Madrid",
+          "num_of_games": 3,
+          "league": "La Liga"
+        }
+      },
+      {
+        "query": "What is the schedule for Juventus' next 2 games in Serie A?",
+        "filled_param": {
+          "team_name": "Juventus",
+          "num_of_games": 2,
+          "league": "Serie A"
+        }
+      },
+      {
+        "query": "Fetch the schedule of the next 4 matches for Bayern Munich in the Bundesliga.",
+        "filled_param": {
+          "team_name": "Bayern Munich",
+          "num_of_games": 4,
+          "league": "Bundesliga"
+        }
+      },
+      {
+        "query": "Could you tell me the schedule for Paris Saint-Germain's next game in Ligue 1?",
+        "filled_param": {
+          "team_name": "Paris Saint-Germain",
+          "num_of_games": 1,
+          "league": "Ligue 1"
+        }
+      },
+      {
+        "query": "Show me the next 6 matches scheduled for Barcelona in the UEFA Champions League.",
+        "filled_param": {
+          "team_name": "Barcelona",
+          "num_of_games": 6,
+          "league": "UEFA Champions League"
+        }
+      },
+      {
+        "query": "Please provide the schedule for Chelsea's next 3 matches in the English Premier League.",
+        "filled_param": {
+          "team_name": "Chelsea",
+          "num_of_games": 3,
+          "league": "English Premier League"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|baseball|:|team_name,num_of_games,league": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "baseball",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the upcoming 5 games for the New York Yankees in the MLB baseball league?",
+        "filled_param": {
+          "team_name": "New York Yankees",
+          "num_of_games": 5,
+          "league": "MLB"
+        }
+      },
+      {
+        "query": "I need the next 3 matches for the Hiroshima Carp in the NPB baseball league.",
+        "filled_param": {
+          "team_name": "Hiroshima Carp",
+          "num_of_games": 3,
+          "league": "NPB"
+        }
+      },
+      {
+        "query": "Fetch the schedule for 7 baseball games of the Los Angeles Dodgers in MLB.",
+        "filled_param": {
+          "team_name": "Los Angeles Dodgers",
+          "num_of_games": 7,
+          "league": "MLB"
+        }
+      },
+      {
+        "query": "List the next 2 games for the Tokyo Yakult Swallows in the NPB baseball league.",
+        "filled_param": {
+          "team_name": "Tokyo Yakult Swallows",
+          "num_of_games": 2,
+          "league": "NPB"
+        }
+      },
+      {
+        "query": "What are the next 4 baseball games scheduled for the Boston Red Sox in MLB?",
+        "filled_param": {
+          "team_name": "Boston Red Sox",
+          "num_of_games": 4,
+          "league": "MLB"
+        }
+      },
+      {
+        "query": "Show me the next 6 games for the Hanshin Tigers in the NPB baseball league.",
+        "filled_param": {
+          "team_name": "Hanshin Tigers",
+          "num_of_games": 6,
+          "league": "NPB"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|ice hockey|:|team_name,num_of_games,league": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "ice hockey",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league"
+    ],
+    "queries": [
+      {
+        "query": "Can you get the schedule for the next 5 games for the New York Rangers in the NHL ice hockey league?",
+        "filled_param": {
+          "team_name": "New York Rangers",
+          "num_of_games": 5,
+          "league": "NHL"
+        }
+      },
+      {
+        "query": "I need the upcoming 3 games schedule for the Toronto Maple Leafs in the NHL ice hockey league.",
+        "filled_param": {
+          "team_name": "Toronto Maple Leafs",
+          "num_of_games": 3,
+          "league": "NHL"
+        }
+      },
+      {
+        "query": "Please provide me with the schedule of the next 7 ice hockey games for the Montreal Canadiens in the NHL.",
+        "filled_param": {
+          "team_name": "Montreal Canadiens",
+          "num_of_games": 7,
+          "league": "NHL"
+        }
+      },
+      {
+        "query": "Fetch the schedule for the next 4 games of the Chicago Blackhawks in the AHL ice hockey league.",
+        "filled_param": {
+          "team_name": "Chicago Blackhawks",
+          "num_of_games": 4,
+          "league": "AHL"
+        }
+      },
+      {
+        "query": "What is the schedule for the next 6 ice hockey matches for the Boston Bruins in the NHL?",
+        "filled_param": {
+          "team_name": "Boston Bruins",
+          "num_of_games": 6,
+          "league": "NHL"
+        }
+      },
+      {
+        "query": "Get me the next 2 game schedules for the ice hockey team Vancouver Canucks in the NHL.",
+        "filled_param": {
+          "team_name": "Vancouver Canucks",
+          "num_of_games": 2,
+          "league": "NHL"
+        }
+      },
+      {
+        "query": "List the upcoming 5 ice hockey matches for the Pittsburgh Penguins in the NHL league.",
+        "filled_param": {
+          "team_name": "Pittsburgh Penguins",
+          "num_of_games": 5,
+          "league": "NHL"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|handball|:|team_name,num_of_games,league": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "handball",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league"
+    ],
+    "queries": [
+      {
+        "query": "What's the schedule for the next 5 games of the Barcelona handball team in the Spanish League?",
+        "filled_param": {
+          "team_name": "Barcelona",
+          "num_of_games": 5,
+          "league": "Spanish League"
+        }
+      },
+      {
+        "query": "Can you fetch the upcoming 3 matches for PSG handball team in the French League?",
+        "filled_param": {
+          "team_name": "PSG",
+          "num_of_games": 3,
+          "league": "French League"
+        }
+      },
+      {
+        "query": "I need the next 7 games schedule for the Kiel handball team in the German Bundesliga.",
+        "filled_param": {
+          "team_name": "Kiel",
+          "num_of_games": 7,
+          "league": "German Bundesliga"
+        }
+      },
+      {
+        "query": "Show me the next 4 games for the Veszprém handball team in the Hungarian National League.",
+        "filled_param": {
+          "team_name": "Veszprém",
+          "num_of_games": 4,
+          "league": "Hungarian National League"
+        }
+      },
+      {
+        "query": "Please provide the schedule for the upcoming 6 matches of the Flensburg handball team in the Danish League.",
+        "filled_param": {
+          "team_name": "Flensburg",
+          "num_of_games": 6,
+          "league": "Danish League"
+        }
+      },
+      {
+        "query": "Can you tell me the next 2 games for the Zagreb handball team in the Croatian First League?",
+        "filled_param": {
+          "team_name": "Zagreb",
+          "num_of_games": 2,
+          "league": "Croatian First League"
+        }
+      },
+      {
+        "query": "I want to know the schedule of the next 8 games for the Aalborg handball team in the Danish Handball League.",
+        "filled_param": {
+          "team_name": "Aalborg",
+          "num_of_games": 8,
+          "league": "Danish Handball League"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|rugby|:|team_name,num_of_games,league": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "rugby",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league"
+    ],
+    "queries": [
+      {
+        "query": "What is the upcoming schedule for the rugby team Crusaders for 5 games in the Super Rugby league?",
+        "filled_param": {
+          "team_name": "Crusaders",
+          "num_of_games": 5,
+          "league": "Super Rugby"
+        }
+      },
+      {
+        "query": "Could you provide the next 3 matches of the rugby team Harlequins in the Premiership Rugby league?",
+        "filled_param": {
+          "team_name": "Harlequins",
+          "num_of_games": 3,
+          "league": "Premiership Rugby"
+        }
+      },
+      {
+        "query": "I need the schedule for 4 games of the rugby team Stormers in the United Rugby Championship.",
+        "filled_param": {
+          "team_name": "Stormers",
+          "num_of_games": 4,
+          "league": "United Rugby Championship"
+        }
+      },
+      {
+        "query": "List the next 2 matches for the rugby team Bulls in the Currie Cup league.",
+        "filled_param": {
+          "team_name": "Bulls",
+          "num_of_games": 2,
+          "league": "Currie Cup"
+        }
+      },
+      {
+        "query": "Can you get the schedule for the rugby team Leinster for their next 6 games in the Pro14 league?",
+        "filled_param": {
+          "team_name": "Leinster",
+          "num_of_games": 6,
+          "league": "Pro14"
+        }
+      },
+      {
+        "query": "Show me the next 7 games of the rugby team Reds in the Super Rugby league.",
+        "filled_param": {
+          "team_name": "Reds",
+          "num_of_games": 7,
+          "league": "Super Rugby"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|field hockey|:|team_name,num_of_games,league": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "field hockey",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the next 5 games for the field hockey team called Eagles in the National League?",
+        "filled_param": {
+          "team_name": "Eagles",
+          "num_of_games": 5,
+          "league": "National League"
+        }
+      },
+      {
+        "query": "I need the schedule for the Panthers field hockey team for their upcoming 3 matches in the European League.",
+        "filled_param": {
+          "team_name": "Panthers",
+          "num_of_games": 3,
+          "league": "European League"
+        }
+      },
+      {
+        "query": "Fetch the upcoming 4 games for the field hockey team Tigers in the South American League.",
+        "filled_param": {
+          "team_name": "Tigers",
+          "num_of_games": 4,
+          "league": "South American League"
+        }
+      },
+      {
+        "query": "What are the next 6 matches for the field hockey team Lions in the Asian League?",
+        "filled_param": {
+          "team_name": "Lions",
+          "num_of_games": 6,
+          "league": "Asian League"
+        }
+      },
+      {
+        "query": "Get the schedule for the next 2 games of the Sharks field hockey team in the World League.",
+        "filled_param": {
+          "team_name": "Sharks",
+          "num_of_games": 2,
+          "league": "World League"
+        }
+      },
+      {
+        "query": "Can you list the upcoming 7 field hockey games for the Falcons in the Australian League?",
+        "filled_param": {
+          "team_name": "Falcons",
+          "num_of_games": 7,
+          "league": "Australian League"
+        }
+      },
+      {
+        "query": "Provide the next 3 games of the field hockey team Bears in the Canadian League.",
+        "filled_param": {
+          "team_name": "Bears",
+          "num_of_games": 3,
+          "league": "Canadian League"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|lacrosse|:|team_name,num_of_games,league": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "lacrosse",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the schedule for the Baltimore Hawks lacrosse team for their next 3 games in the National Lacrosse League?",
+        "filled_param": {
+          "team_name": "Baltimore Hawks",
+          "num_of_games": 3,
+          "league": "National Lacrosse League"
+        }
+      },
+      {
+        "query": "I need to see the upcoming 5 games for the Denver Outlaws in the Major League Lacrosse.",
+        "filled_param": {
+          "team_name": "Denver Outlaws",
+          "num_of_games": 5,
+          "league": "Major League Lacrosse"
+        }
+      },
+      {
+        "query": "Get the next 2 game schedules for the New York Lizards in the Premier Lacrosse League.",
+        "filled_param": {
+          "team_name": "New York Lizards",
+          "num_of_games": 2,
+          "league": "Premier Lacrosse League"
+        }
+      },
+      {
+        "query": "What's the schedule for the next 4 matches of the San Diego Seals in the Canadian Lacrosse League?",
+        "filled_param": {
+          "team_name": "San Diego Seals",
+          "num_of_games": 4,
+          "league": "Canadian Lacrosse League"
+        }
+      },
+      {
+        "query": "Give me the details for the upcoming 6 games for the Vancouver Warriors in the Western Lacrosse Association.",
+        "filled_param": {
+          "team_name": "Vancouver Warriors",
+          "num_of_games": 6,
+          "league": "Western Lacrosse Association"
+        }
+      },
+      {
+        "query": "Can you show the next 3 matches for the Toronto Rock in the Arena Lacrosse League?",
+        "filled_param": {
+          "team_name": "Toronto Rock",
+          "num_of_games": 3,
+          "league": "Arena Lacrosse League"
+        }
+      },
+      {
+        "query": "I want to know the schedule for the next 1 game of the Calgary Roughnecks in the North American Lacrosse League.",
+        "filled_param": {
+          "team_name": "Calgary Roughnecks",
+          "num_of_games": 1,
+          "league": "North American Lacrosse League"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|cricket|:|team_name,num_of_games,league": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "cricket",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league"
+    ],
+    "queries": [
+      {
+        "query": "Can you provide the upcoming schedule for the Chennai Super Kings for their next 5 games in the Indian Premier League?",
+        "filled_param": {
+          "team_name": "Chennai Super Kings",
+          "num_of_games": 5,
+          "league": "Indian Premier League"
+        }
+      },
+      {
+        "query": "What are the next 3 matches for the Sydney Sixers in the Big Bash League?",
+        "filled_param": {
+          "team_name": "Sydney Sixers",
+          "num_of_games": 3,
+          "league": "Big Bash League"
+        }
+      },
+      {
+        "query": "I'd like to see the schedule for the Karachi Kings' next 4 games in the Pakistan Super League.",
+        "filled_param": {
+          "team_name": "Karachi Kings",
+          "num_of_games": 4,
+          "league": "Pakistan Super League"
+        }
+      },
+      {
+        "query": "Fetch the next 2 games for the Mumbai Indians in the Indian Premier League.",
+        "filled_param": {
+          "team_name": "Mumbai Indians",
+          "num_of_games": 2,
+          "league": "Indian Premier League"
+        }
+      },
+      {
+        "query": "List the next 6 matches for the Melbourne Stars in the Big Bash League.",
+        "filled_param": {
+          "team_name": "Melbourne Stars",
+          "num_of_games": 6,
+          "league": "Big Bash League"
+        }
+      },
+      {
+        "query": "Could you show me the schedule for the Lahore Qalandars' next 5 matches in the Pakistan Super League?",
+        "filled_param": {
+          "team_name": "Lahore Qalandars",
+          "num_of_games": 5,
+          "league": "Pakistan Super League"
+        }
+      },
+      {
+        "query": "What are the next 7 scheduled games for the Kolkata Knight Riders in the Indian Premier League?",
+        "filled_param": {
+          "team_name": "Kolkata Knight Riders",
+          "num_of_games": 7,
+          "league": "Indian Premier League"
+        }
+      }
+    ]
+  },
+  "sports_team.get_schedule|:|volleyball|:|team_name,num_of_games,league": {
+    "tool_template_name": "sports_team.get_schedule",
+    "derived_class": "volleyball",
+    "params_for_query": [
+      "team_name",
+      "num_of_games",
+      "league"
+    ],
+    "queries": [
+      {
+        "query": "Can you get the schedule for the next 5 games of the New York Spikers in the National Volleyball League?",
+        "filled_param": {
+          "team_name": "New York Spikers",
+          "num_of_games": 5,
+          "league": "National Volleyball League"
+        }
+      },
+      {
+        "query": "I need the upcoming 3 matches for the Chicago Diggers in the Midwest Volleyball Championship.",
+        "filled_param": {
+          "team_name": "Chicago Diggers",
+          "num_of_games": 3,
+          "league": "Midwest Volleyball Championship"
+        }
+      },
+      {
+        "query": "Fetch the schedule of 7 games for the Los Angeles Spikers in the Pacific Volleyball Series.",
+        "filled_param": {
+          "team_name": "Los Angeles Spikers",
+          "num_of_games": 7,
+          "league": "Pacific Volleyball Series"
+        }
+      },
+      {
+        "query": "What are the next 4 games for the Miami Blockers in the Southern Volleyball League?",
+        "filled_param": {
+          "team_name": "Miami Blockers",
+          "num_of_games": 4,
+          "league": "Southern Volleyball League"
+        }
+      },
+      {
+        "query": "Please provide the schedule of 6 matches for the Boston Setters in the East Coast Volleyball League.",
+        "filled_param": {
+          "team_name": "Boston Setters",
+          "num_of_games": 6,
+          "league": "East Coast Volleyball League"
+        }
+      },
+      {
+        "query": "Can you show me the schedule for 2 games of the Seattle Hitters in the Western Volleyball Conference?",
+        "filled_param": {
+          "team_name": "Seattle Hitters",
+          "num_of_games": 2,
+          "league": "Western Volleyball Conference"
+        }
+      }
+    ]
+  }
+}

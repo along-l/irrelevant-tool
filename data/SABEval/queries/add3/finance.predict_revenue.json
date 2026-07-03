@@ -1,0 +1,875 @@
+{
+  "finance.predict_revenue|:|automotive company|:|company_name,period,industry_trends,historical_data_years,economic_indicators": {
+    "tool_template_name": "finance.predict_revenue",
+    "derived_class": "automotive company",
+    "params_for_query": [
+      "company_name",
+      "period",
+      "industry_trends",
+      "historical_data_years",
+      "economic_indicators"
+    ],
+    "queries": [
+      {
+        "query": "Can you predict the revenue for Tesla in Q3 of 2025 by considering industry trends and using the past 5 years of data while also including economic indicators?",
+        "filled_param": {
+          "company_name": "Tesla",
+          "period": "Q3 of 2025",
+          "industry_trends": true,
+          "historical_data_years": 5,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "I want a revenue prediction for Toyota for the entire year of 2024. Please use 10 years of historical data, consider industry trends, and include economic indicators.",
+        "filled_param": {
+          "company_name": "Toyota",
+          "period": "2024",
+          "industry_trends": true,
+          "historical_data_years": 10,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "Predict the revenue of Ford for the first half of 2023, using 3 years of historical data without considering industry trends and excluding economic indicators.",
+        "filled_param": {
+          "company_name": "Ford",
+          "period": "first half of 2023",
+          "industry_trends": false,
+          "historical_data_years": 3,
+          "economic_indicators": false
+        }
+      },
+      {
+        "query": "What's the revenue forecast for BMW in Q1 2026 with a focus on industry trends over the past 7 years, excluding economic indicators?",
+        "filled_param": {
+          "company_name": "BMW",
+          "period": "Q1 2026",
+          "industry_trends": true,
+          "historical_data_years": 7,
+          "economic_indicators": false
+        }
+      },
+      {
+        "query": "Can you provide a revenue prediction for Honda for Q2 2024 utilizing 8 years of past data, taking into account industry trends and economic indicators?",
+        "filled_param": {
+          "company_name": "Honda",
+          "period": "Q2 2024",
+          "industry_trends": true,
+          "historical_data_years": 8,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "Forecast the revenue for Mercedes-Benz for the year 2025. Use historical data from the last 6 years and include both industry trends and economic indicators.",
+        "filled_param": {
+          "company_name": "Mercedes-Benz",
+          "period": "2025",
+          "industry_trends": true,
+          "historical_data_years": 6,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "What is the projected revenue for Volkswagen in the third quarter of 2024, considering 4 years of historical data, industry trends, and economic indicators?",
+        "filled_param": {
+          "company_name": "Volkswagen",
+          "period": "third quarter of 2024",
+          "industry_trends": true,
+          "historical_data_years": 4,
+          "economic_indicators": true
+        }
+      }
+    ]
+  },
+  "finance.predict_revenue|:|pharmaceutical company|:|company_name,period,industry_trends,historical_data_years,economic_indicators": {
+    "tool_template_name": "finance.predict_revenue",
+    "derived_class": "pharmaceutical company",
+    "params_for_query": [
+      "company_name",
+      "period",
+      "industry_trends",
+      "historical_data_years",
+      "economic_indicators"
+    ],
+    "queries": [
+      {
+        "query": "Predict the revenue for the pharmaceutical company Pfizer for the next quarter, considering industry trends and using 5 years of historical data, while also including economic indicators.",
+        "filled_param": {
+          "company_name": "Pfizer",
+          "period": "next quarter",
+          "industry_trends": true,
+          "historical_data_years": 5,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "Can you forecast the revenue of the pharmaceutical company Moderna for the fiscal year 2024 using 3 years of historical data, without considering any industry trends or economic indicators?",
+        "filled_param": {
+          "company_name": "Moderna",
+          "period": "fiscal year 2024",
+          "industry_trends": false,
+          "historical_data_years": 3,
+          "economic_indicators": false
+        }
+      },
+      {
+        "query": "I need a revenue prediction for the pharmaceutical company Johnson & Johnson for the third quarter of 2023, taking into account industry trends and 10 years of historical data, but ignoring economic indicators.",
+        "filled_param": {
+          "company_name": "Johnson & Johnson",
+          "period": "third quarter of 2023",
+          "industry_trends": true,
+          "historical_data_years": 10,
+          "economic_indicators": false
+        }
+      },
+      {
+        "query": "Please estimate the revenue for the pharmaceutical company AstraZeneca for the year 2025, using data from the past 7 years and including both industry trends and economic indicators.",
+        "filled_param": {
+          "company_name": "AstraZeneca",
+          "period": "year 2025",
+          "industry_trends": true,
+          "historical_data_years": 7,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "Provide a revenue forecast for the pharmaceutical company Merck for the upcoming financial year, based on 4 years of historical data, excluding industry trends and economic indicators.",
+        "filled_param": {
+          "company_name": "Merck",
+          "period": "upcoming financial year",
+          "industry_trends": false,
+          "historical_data_years": 4,
+          "economic_indicators": false
+        }
+      },
+      {
+        "query": "What is the projected revenue for the pharmaceutical company Roche for the first half of 2023, considering industry trends and 6 years of historical data, while excluding economic indicators?",
+        "filled_param": {
+          "company_name": "Roche",
+          "period": "first half of 2023",
+          "industry_trends": true,
+          "historical_data_years": 6,
+          "economic_indicators": false
+        }
+      },
+      {
+        "query": "Can you predict the revenue for the pharmaceutical company GlaxoSmithKline for the next two quarters with 8 years of historical data, ignoring both industry trends and economic indicators?",
+        "filled_param": {
+          "company_name": "GlaxoSmithKline",
+          "period": "next two quarters",
+          "industry_trends": false,
+          "historical_data_years": 8,
+          "economic_indicators": false
+        }
+      }
+    ]
+  },
+  "finance.predict_revenue|:|commercial bank|:|company_name,period,industry_trends,historical_data_years,economic_indicators": {
+    "tool_template_name": "finance.predict_revenue",
+    "derived_class": "commercial bank",
+    "params_for_query": [
+      "company_name",
+      "period",
+      "industry_trends",
+      "historical_data_years",
+      "economic_indicators"
+    ],
+    "queries": [
+      {
+        "query": "Predict the revenue for the commercial bank Wells Fargo for Q1 2023, considering industry trends and using historical data from the past 5 years, but without factoring in economic indicators.",
+        "filled_param": {
+          "company_name": "Wells Fargo",
+          "period": "Q1 2023",
+          "industry_trends": true,
+          "historical_data_years": 5,
+          "economic_indicators": false
+        }
+      },
+      {
+        "query": "Can you estimate the revenue of the commercial bank Citibank for the entire year of 2024? Please use 3 years of historical data, include economic indicators, but do not consider industry trends.",
+        "filled_param": {
+          "company_name": "Citibank",
+          "period": "2024",
+          "industry_trends": false,
+          "historical_data_years": 3,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "I need a revenue prediction for Bank of America for the second quarter of 2023, considering both industry trends and economic indicators, based on the previous 4 years of data.",
+        "filled_param": {
+          "company_name": "Bank of America",
+          "period": "Q2 2023",
+          "industry_trends": true,
+          "historical_data_years": 4,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "Estimate the commercial bank revenue for Deutsche Bank in 2025, including industry trends, using 6 years of historical data, but excluding economic indicators.",
+        "filled_param": {
+          "company_name": "Deutsche Bank",
+          "period": "2025",
+          "industry_trends": true,
+          "historical_data_years": 6,
+          "economic_indicators": false
+        }
+      },
+      {
+        "query": "Could you predict HSBC's revenue for the first half of 2024, without considering industry trends, utilizing 7 years of past data and including economic indicators?",
+        "filled_param": {
+          "company_name": "HSBC",
+          "period": "H1 2024",
+          "industry_trends": false,
+          "historical_data_years": 7,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "What would be the expected revenue for BNP Paribas in Q4 2023 if we take into account industry trends and economic indicators, using a historical data range of 5 years?",
+        "filled_param": {
+          "company_name": "BNP Paribas",
+          "period": "Q4 2023",
+          "industry_trends": true,
+          "historical_data_years": 5,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "Provide a revenue prediction for the commercial bank Barclays for the fiscal year 2026, considering solely economic indicators with 4 years of historical data, and ignoring industry trends.",
+        "filled_param": {
+          "company_name": "Barclays",
+          "period": "2026",
+          "industry_trends": false,
+          "historical_data_years": 4,
+          "economic_indicators": true
+        }
+      }
+    ]
+  },
+  "finance.predict_revenue|:|insurance company|:|company_name,period,industry_trends,historical_data_years,economic_indicators": {
+    "tool_template_name": "finance.predict_revenue",
+    "derived_class": "insurance company",
+    "params_for_query": [
+      "company_name",
+      "period",
+      "industry_trends",
+      "historical_data_years",
+      "economic_indicators"
+    ],
+    "queries": [
+      {
+        "query": "Can you predict the revenue for Allianz insurance company for the next quarter using 5 years of historical data, considering industry trends and economic indicators?",
+        "filled_param": {
+          "company_name": "Allianz",
+          "period": "next quarter",
+          "industry_trends": true,
+          "historical_data_years": 5,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "What is the expected revenue for MetLife insurance company in 2024 if we consider 3 years of past data and exclude economic indicators, but include industry trends?",
+        "filled_param": {
+          "company_name": "MetLife",
+          "period": "2024",
+          "industry_trends": true,
+          "historical_data_years": 3,
+          "economic_indicators": false
+        }
+      },
+      {
+        "query": "Predict the annual revenue for Aviva insurance company for the year 2025, using 10 years of historical data, considering economic indicators but ignoring industry trends.",
+        "filled_param": {
+          "company_name": "Aviva",
+          "period": "2025",
+          "industry_trends": false,
+          "historical_data_years": 10,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "How much revenue is expected for AXA insurance company in the first quarter of next year, considering 7 years of historical data, with both industry trends and economic indicators included?",
+        "filled_param": {
+          "company_name": "AXA",
+          "period": "first quarter of next year",
+          "industry_trends": true,
+          "historical_data_years": 7,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "Estimate the revenue for Prudential insurance company for the upcoming fiscal year, relying on 4 years of historical data, without considering industry trends or economic indicators.",
+        "filled_param": {
+          "company_name": "Prudential",
+          "period": "upcoming fiscal year",
+          "industry_trends": false,
+          "historical_data_years": 4,
+          "economic_indicators": false
+        }
+      },
+      {
+        "query": "For Zurich insurance company, what revenue can be predicted for the next half-year based on 8 years of historical data, excluding both industry trends and economic indicators?",
+        "filled_param": {
+          "company_name": "Zurich",
+          "period": "next half-year",
+          "industry_trends": false,
+          "historical_data_years": 8,
+          "economic_indicators": false
+        }
+      },
+      {
+        "query": "Can you calculate the projected revenue for Chubb insurance company for Q3 of this year, using 6 years of past data, while considering industry trends but not economic indicators?",
+        "filled_param": {
+          "company_name": "Chubb",
+          "period": "Q3 of this year",
+          "industry_trends": true,
+          "historical_data_years": 6,
+          "economic_indicators": false
+        }
+      }
+    ]
+  },
+  "finance.predict_revenue|:|airline company|:|company_name,period,industry_trends,historical_data_years,economic_indicators": {
+    "tool_template_name": "finance.predict_revenue",
+    "derived_class": "airline company",
+    "params_for_query": [
+      "company_name",
+      "period",
+      "industry_trends",
+      "historical_data_years",
+      "economic_indicators"
+    ],
+    "queries": [
+      {
+        "query": "Can you predict the revenue for Delta Airlines for the next quarter using 5 years of historical data, considering industry trends and economic indicators?",
+        "filled_param": {
+          "company_name": "Delta Airlines",
+          "period": "next quarter",
+          "industry_trends": true,
+          "historical_data_years": 5,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "I need a revenue forecast for American Airlines for the upcoming year. Use data from the past 3 years and include industry trends but exclude economic indicators.",
+        "filled_param": {
+          "company_name": "American Airlines",
+          "period": "upcoming year",
+          "industry_trends": true,
+          "historical_data_years": 3,
+          "economic_indicators": false
+        }
+      },
+      {
+        "query": "Please predict the revenue for Emirates for the next six months, focusing on 2 years of historical data, without considering industry trends or economic indicators.",
+        "filled_param": {
+          "company_name": "Emirates",
+          "period": "next six months",
+          "industry_trends": false,
+          "historical_data_years": 2,
+          "economic_indicators": false
+        }
+      },
+      {
+        "query": "What is the projected revenue for Qantas Airways for the coming fiscal year if we use a decade of past data, considering both industry trends and economic indicators?",
+        "filled_param": {
+          "company_name": "Qantas Airways",
+          "period": "coming fiscal year",
+          "industry_trends": true,
+          "historical_data_years": 10,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "Generate a revenue prediction for Ryanair for the next month using 4 years of historical data, excluding industry trends but including economic indicators.",
+        "filled_param": {
+          "company_name": "Ryanair",
+          "period": "next month",
+          "industry_trends": false,
+          "historical_data_years": 4,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "I need the estimated revenue for Singapore Airlines for the next two quarters, using 6 years of historical data, considering industry trends but not economic indicators.",
+        "filled_param": {
+          "company_name": "Singapore Airlines",
+          "period": "next two quarters",
+          "industry_trends": true,
+          "historical_data_years": 6,
+          "economic_indicators": false
+        }
+      },
+      {
+        "query": "Predict the revenue for Lufthansa for the upcoming quarter, using a historical dataset spanning 8 years, without considering industry trends but including economic indicators.",
+        "filled_param": {
+          "company_name": "Lufthansa",
+          "period": "upcoming quarter",
+          "industry_trends": false,
+          "historical_data_years": 8,
+          "economic_indicators": true
+        }
+      }
+    ]
+  },
+  "finance.predict_revenue|:|telecommunications company|:|company_name,period,industry_trends,historical_data_years,economic_indicators": {
+    "tool_template_name": "finance.predict_revenue",
+    "derived_class": "telecommunications company",
+    "params_for_query": [
+      "company_name",
+      "period",
+      "industry_trends",
+      "historical_data_years",
+      "economic_indicators"
+    ],
+    "queries": [
+      {
+        "query": "Predict the revenue for a telecommunications company called 'Verizon' for Q1 2024, considering industry trends and economic indicators using data from the past 5 years.",
+        "filled_param": {
+          "company_name": "Verizon",
+          "period": "Q1 2024",
+          "industry_trends": true,
+          "historical_data_years": 5,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "Can you forecast the revenue for the telecommunications company 'AT&T' for the year 2023, using industry trends and 3 years of historical data but excluding economic indicators?",
+        "filled_param": {
+          "company_name": "AT&T",
+          "period": "2023",
+          "industry_trends": true,
+          "historical_data_years": 3,
+          "economic_indicators": false
+        }
+      },
+      {
+        "query": "What will the revenue be for the telecommunications company 'T-Mobile' in Q2 2025, utilizing 4 years of past data while ignoring industry trends and economic indicators?",
+        "filled_param": {
+          "company_name": "T-Mobile",
+          "period": "Q2 2025",
+          "industry_trends": false,
+          "historical_data_years": 4,
+          "economic_indicators": false
+        }
+      },
+      {
+        "query": "Estimate the revenue for 'Sprint' for the fiscal year 2022, considering economic indicators and using only 2 years of historical data while ignoring industry trends.",
+        "filled_param": {
+          "company_name": "Sprint",
+          "period": "2022",
+          "industry_trends": false,
+          "historical_data_years": 2,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "Provide a revenue prediction for the telecommunications company 'Vodafone' for H1 2023, taking into account both industry trends and economic indicators over the past 6 years.",
+        "filled_param": {
+          "company_name": "Vodafone",
+          "period": "H1 2023",
+          "industry_trends": true,
+          "historical_data_years": 6,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "Please predict the Q4 2023 revenue for the telecommunications company 'Orange', using 5 years of historical data and factoring in industry trends, but not economic indicators.",
+        "filled_param": {
+          "company_name": "Orange",
+          "period": "Q4 2023",
+          "industry_trends": true,
+          "historical_data_years": 5,
+          "economic_indicators": false
+        }
+      },
+      {
+        "query": "How much revenue is expected for 'BT Group' in 2024's second half, if we include industry trends, economic indicators, and review data from the last 3 years?",
+        "filled_param": {
+          "company_name": "BT Group",
+          "period": "H2 2024",
+          "industry_trends": true,
+          "historical_data_years": 3,
+          "economic_indicators": true
+        }
+      }
+    ]
+  },
+  "finance.predict_revenue|:|construction company|:|company_name,period,industry_trends,historical_data_years,economic_indicators": {
+    "tool_template_name": "finance.predict_revenue",
+    "derived_class": "construction company",
+    "params_for_query": [
+      "company_name",
+      "period",
+      "industry_trends",
+      "historical_data_years",
+      "economic_indicators"
+    ],
+    "queries": [
+      {
+        "query": "Can you predict the revenue for Skyline Construction Company over the next quarter, using the last 5 years of data and considering industry trends and economic indicators?",
+        "filled_param": {
+          "company_name": "Skyline Construction Company",
+          "period": "next quarter",
+          "industry_trends": true,
+          "historical_data_years": 5,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "Please forecast the annual revenue for ABC Builders for the upcoming year, taking into account 3 years of historical data, but without considering economic indicators.",
+        "filled_param": {
+          "company_name": "ABC Builders",
+          "period": "upcoming year",
+          "industry_trends": true,
+          "historical_data_years": 3,
+          "economic_indicators": false
+        }
+      },
+      {
+        "query": "Estimate the monthly revenue for the Blue Ridge Construction Company for the first half of the year, using 2 years of past data, including both industry trends and economic indicators.",
+        "filled_param": {
+          "company_name": "Blue Ridge Construction Company",
+          "period": "first half of the year",
+          "industry_trends": true,
+          "historical_data_years": 2,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "What is the predicted revenue for Greenfield Construction over the next fiscal year, based on the last 4 years of data without considering industry trends or economic indicators?",
+        "filled_param": {
+          "company_name": "Greenfield Construction",
+          "period": "next fiscal year",
+          "industry_trends": false,
+          "historical_data_years": 4,
+          "economic_indicators": false
+        }
+      },
+      {
+        "query": "Generate a revenue prediction for Delta Infrastructure for the upcoming six months, looking at the previous 6 years of data, considering industry trends, and ignoring economic indicators.",
+        "filled_param": {
+          "company_name": "Delta Infrastructure",
+          "period": "upcoming six months",
+          "industry_trends": true,
+          "historical_data_years": 6,
+          "economic_indicators": false
+        }
+      },
+      {
+        "query": "Forecast the quarterly revenue for Metropolitan Builders for the next two quarters, with the last 3 years of historical data accounted for, and factoring in economic indicators but not industry trends.",
+        "filled_param": {
+          "company_name": "Metropolitan Builders",
+          "period": "next two quarters",
+          "industry_trends": false,
+          "historical_data_years": 3,
+          "economic_indicators": true
+        }
+      }
+    ]
+  },
+  "finance.predict_revenue|:|logistics company|:|company_name,period,industry_trends,historical_data_years,economic_indicators": {
+    "tool_template_name": "finance.predict_revenue",
+    "derived_class": "logistics company",
+    "params_for_query": [
+      "company_name",
+      "period",
+      "industry_trends",
+      "historical_data_years",
+      "economic_indicators"
+    ],
+    "queries": [
+      {
+        "query": "Can you predict the revenue for the logistics company 'FastTrack Freight' for the next quarter, considering industry trends and utilizing data from the past 5 years, while including economic indicators?",
+        "filled_param": {
+          "company_name": "FastTrack Freight",
+          "period": "next quarter",
+          "industry_trends": true,
+          "historical_data_years": 5,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "Generate a revenue forecast for 'Global Logistics' for the upcoming year using historical data from the past 3 years, without including industry trends but considering economic indicators.",
+        "filled_param": {
+          "company_name": "Global Logistics",
+          "period": "upcoming year",
+          "industry_trends": false,
+          "historical_data_years": 3,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "What is the predicted revenue for the logistics company named 'Express Deliveries' for the next month if we analyze industry trends and utilize 2 years of historical data, excluding economic indicators?",
+        "filled_param": {
+          "company_name": "Express Deliveries",
+          "period": "next month",
+          "industry_trends": true,
+          "historical_data_years": 2,
+          "economic_indicators": false
+        }
+      },
+      {
+        "query": "Estimate the revenue for 'Cargo Masters' logistics company for the next fiscal year, without considering industry trends but using the last 4 years of historical data and economic indicators.",
+        "filled_param": {
+          "company_name": "Cargo Masters",
+          "period": "next fiscal year",
+          "industry_trends": false,
+          "historical_data_years": 4,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "I need a revenue prediction for 'Transport Solutions' logistics company for the coming quarter. Use 1 year of historical data, consider industry trends, but ignore economic indicators.",
+        "filled_param": {
+          "company_name": "Transport Solutions",
+          "period": "coming quarter",
+          "industry_trends": true,
+          "historical_data_years": 1,
+          "economic_indicators": false
+        }
+      },
+      {
+        "query": "Provide a revenue prediction for 'Speedy Shippers' for the next half-year. Analyze 6 years of historical data, exclude industry trends, and do include economic indicators.",
+        "filled_param": {
+          "company_name": "Speedy Shippers",
+          "period": "next half-year",
+          "industry_trends": false,
+          "historical_data_years": 6,
+          "economic_indicators": true
+        }
+      }
+    ]
+  },
+  "finance.predict_revenue|:|food company|:|company_name,period,industry_trends,historical_data_years,economic_indicators": {
+    "tool_template_name": "finance.predict_revenue",
+    "derived_class": "food company",
+    "params_for_query": [
+      "company_name",
+      "period",
+      "industry_trends",
+      "historical_data_years",
+      "economic_indicators"
+    ],
+    "queries": [
+      {
+        "query": "Can you predict the revenue for the food company Yum! Brands for the next quarter using 5 years of historical data, considering industry trends and economic indicators?",
+        "filled_param": {
+          "company_name": "Yum! Brands",
+          "period": "next quarter",
+          "industry_trends": true,
+          "historical_data_years": 5,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "I need a revenue forecast for the food company Nestle for the upcoming year, without considering industry trends, but using 3 years of historical data and economic indicators.",
+        "filled_param": {
+          "company_name": "Nestle",
+          "period": "upcoming year",
+          "industry_trends": false,
+          "historical_data_years": 3,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "What is the predicted revenue for the food company Kraft Heinz for the next month, taking into account industry trends and using 2 years of past data, but excluding economic indicators?",
+        "filled_param": {
+          "company_name": "Kraft Heinz",
+          "period": "next month",
+          "industry_trends": true,
+          "historical_data_years": 2,
+          "economic_indicators": false
+        }
+      },
+      {
+        "query": "Predict the annual revenue for the food company PepsiCo using 6 years of historical data, ignoring industry trends but including economic indicators.",
+        "filled_param": {
+          "company_name": "PepsiCo",
+          "period": "annual",
+          "industry_trends": false,
+          "historical_data_years": 6,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "Can you forecast the revenue for the food company Mondelez International for the next fiscal year using 4 years of historical data, considering both industry trends and economic indicators?",
+        "filled_param": {
+          "company_name": "Mondelez International",
+          "period": "next fiscal year",
+          "industry_trends": true,
+          "historical_data_years": 4,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "I want a revenue prediction for the food company General Mills for the last quarter of this year using 1 year of past data, excluding both industry trends and economic indicators.",
+        "filled_param": {
+          "company_name": "General Mills",
+          "period": "last quarter of this year",
+          "industry_trends": false,
+          "historical_data_years": 1,
+          "economic_indicators": false
+        }
+      }
+    ]
+  },
+  "finance.predict_revenue|:|oil company|:|company_name,period,industry_trends,historical_data_years,economic_indicators": {
+    "tool_template_name": "finance.predict_revenue",
+    "derived_class": "oil company",
+    "params_for_query": [
+      "company_name",
+      "period",
+      "industry_trends",
+      "historical_data_years",
+      "economic_indicators"
+    ],
+    "queries": [
+      {
+        "query": "Can you predict the revenue of the oil company Chevron for Q1 2025 considering industry trends, using 5 years of historical data, and including economic indicators?",
+        "filled_param": {
+          "company_name": "Chevron",
+          "period": "Q1 2025",
+          "industry_trends": true,
+          "historical_data_years": 5,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "I need a revenue prediction for Shell for the fiscal year 2024. Please use industry trends and 3 years of historical data but exclude economic indicators.",
+        "filled_param": {
+          "company_name": "Shell",
+          "period": "fiscal year 2024",
+          "industry_trends": true,
+          "historical_data_years": 3,
+          "economic_indicators": false
+        }
+      },
+      {
+        "query": "Generate a revenue forecast for BP for the second quarter of 2023, without considering industry trends, using 4 years of historical data and including economic indicators.",
+        "filled_param": {
+          "company_name": "BP",
+          "period": "second quarter of 2023",
+          "industry_trends": false,
+          "historical_data_years": 4,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "What is the projected revenue for ExxonMobil in 2026 if we use 6 years of historical data and take into account industry trends, but ignore economic indicators?",
+        "filled_param": {
+          "company_name": "ExxonMobil",
+          "period": "2026",
+          "industry_trends": true,
+          "historical_data_years": 6,
+          "economic_indicators": false
+        }
+      },
+      {
+        "query": "Predict the revenue for PetroChina in Q3 2023 using 2 years of past data, without considering industry trends and excluding economic indicators.",
+        "filled_param": {
+          "company_name": "PetroChina",
+          "period": "Q3 2023",
+          "industry_trends": false,
+          "historical_data_years": 2,
+          "economic_indicators": false
+        }
+      },
+      {
+        "query": "I want to know the expected revenue for TotalEnergies in the year 2025, taking into account industry trends, based on 7 years of historical data and economic indicators.",
+        "filled_param": {
+          "company_name": "TotalEnergies",
+          "period": "year 2025",
+          "industry_trends": true,
+          "historical_data_years": 7,
+          "economic_indicators": true
+        }
+      }
+    ]
+  },
+  "finance.predict_revenue|:|electric power company|:|company_name,period,industry_trends,historical_data_years,economic_indicators": {
+    "tool_template_name": "finance.predict_revenue",
+    "derived_class": "electric power company",
+    "params_for_query": [
+      "company_name",
+      "period",
+      "industry_trends",
+      "historical_data_years",
+      "economic_indicators"
+    ],
+    "queries": [
+      {
+        "query": "Can you predict the revenue for the electric power company GE Power for Q1 2024 using industry trends and 5 years of historical data, including economic indicators?",
+        "filled_param": {
+          "company_name": "GE Power",
+          "period": "Q1 2024",
+          "industry_trends": true,
+          "historical_data_years": 5,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "I need a revenue forecast for the electric power company Duke Energy for the year 2025. Please consider industry trends but exclude economic indicators, using data from the past 3 years.",
+        "filled_param": {
+          "company_name": "Duke Energy",
+          "period": "2025",
+          "industry_trends": true,
+          "historical_data_years": 3,
+          "economic_indicators": false
+        }
+      },
+      {
+        "query": "What is the predicted revenue for the electric power company Southern Company in the third quarter of 2023, analyzing 4 years of past data, without considering any industry trends or economic indicators?",
+        "filled_param": {
+          "company_name": "Southern Company",
+          "period": "Q3 2023",
+          "industry_trends": false,
+          "historical_data_years": 4,
+          "economic_indicators": false
+        }
+      },
+      {
+        "query": "Forecast the revenue for the electric power company Exelon for the fiscal year 2024, using 6 years of historical data and factoring in economic indicators but ignoring industry trends.",
+        "filled_param": {
+          "company_name": "Exelon",
+          "period": "2024",
+          "industry_trends": false,
+          "historical_data_years": 6,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "Provide a revenue estimate for the electric power company AEP for the first half of 2025, taking into account industry trends and economic indicators, based on the last 7 years of data.",
+        "filled_param": {
+          "company_name": "AEP",
+          "period": "H1 2025",
+          "industry_trends": true,
+          "historical_data_years": 7,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "Please predict the annual revenue for the electric power company National Grid for 2023, with industry trends and economic indicators considered, using 2 years of previous data.",
+        "filled_param": {
+          "company_name": "National Grid",
+          "period": "2023",
+          "industry_trends": true,
+          "historical_data_years": 2,
+          "economic_indicators": true
+        }
+      },
+      {
+        "query": "What would be the revenue prediction for the electric power company Pacific Gas and Electric for the fourth quarter of 2023, considering 5 years of historical data and ignoring economic indicators and industry trends?",
+        "filled_param": {
+          "company_name": "Pacific Gas and Electric",
+          "period": "Q4 2023",
+          "industry_trends": false,
+          "historical_data_years": 5,
+          "economic_indicators": false
+        }
+      }
+    ]
+  }
+}

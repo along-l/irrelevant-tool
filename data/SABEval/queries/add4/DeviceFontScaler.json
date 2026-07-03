@@ -1,0 +1,438 @@
+{
+  "DeviceFontScaler|:|font size|:|device_type,scale_factor,preview_before_apply,apply_to_all_screens,context_mode,auto_reset_time": {
+    "tool_template_name": "DeviceFontScaler",
+    "derived_class": "font size",
+    "params_for_query": [
+      "device_type",
+      "scale_factor",
+      "preview_before_apply",
+      "apply_to_all_screens",
+      "context_mode",
+      "auto_reset_time"
+    ],
+    "queries": [
+      {
+        "query": "Can you adjust the font size on my smartphone by a factor of 1.5 and preview the changes before applying? Make sure it's set for reading mode and apply it globally, but revert after 1 hour.",
+        "filled_param": {
+          "device_type": "smartphone",
+          "scale_factor": 1.5,
+          "preview_before_apply": true,
+          "apply_to_all_screens": true,
+          "context_mode": "reading",
+          "auto_reset_time": "1h"
+        }
+      },
+      {
+        "query": "I'd like to have the font size on my tablet scaled to 2.0 for gaming. Please apply this globally without previewing, and make it permanent.",
+        "filled_param": {
+          "device_type": "tablet",
+          "scale_factor": 2.0,
+          "preview_before_apply": false,
+          "apply_to_all_screens": true,
+          "context_mode": "gaming",
+          "auto_reset_time": "permanent"
+        }
+      },
+      {
+        "query": "For my smartwatch, increase the font size to 1.2 times for better presentation. Preview it before applying and have it revert to default after 30 minutes, but don't apply it to all screens.",
+        "filled_param": {
+          "device_type": "smartwatch",
+          "scale_factor": 1.2,
+          "preview_before_apply": true,
+          "apply_to_all_screens": false,
+          "context_mode": "presentation",
+          "auto_reset_time": "30min"
+        }
+      },
+      {
+        "query": "Please set the font size on my laptop to 2.5 for a global context, ensuring it's applied across all screens without previewing, and reset automatically after 10 minutes.",
+        "filled_param": {
+          "device_type": "laptop",
+          "scale_factor": 2.5,
+          "preview_before_apply": false,
+          "apply_to_all_screens": true,
+          "context_mode": "global",
+          "auto_reset_time": "10min"
+        }
+      },
+      {
+        "query": "Can you scale the font size on my smartphone to 0.8 for reading? I don't need a preview, and please apply this change globally, with an automatic reset after 45 minutes.",
+        "filled_param": {
+          "device_type": "smartphone",
+          "scale_factor": 0.8,
+          "preview_before_apply": false,
+          "apply_to_all_screens": true,
+          "context_mode": "reading",
+          "auto_reset_time": "45min"
+        }
+      }
+    ]
+  },
+  "DeviceFontScaler|:|icon size|:|device_type,scale_factor,preview_before_apply,apply_to_all_screens,context_mode,auto_reset_time": {
+    "tool_template_name": "DeviceFontScaler",
+    "derived_class": "icon size",
+    "params_for_query": [
+      "device_type",
+      "scale_factor",
+      "preview_before_apply",
+      "apply_to_all_screens",
+      "context_mode",
+      "auto_reset_time"
+    ],
+    "queries": [
+      {
+        "query": "Increase the icon size on my smartphone by a factor of 2.0 and preview it before applying. Make sure the changes are applied to all screens and optimized for reading, but set it to automatically reset after 30 minutes.",
+        "filled_param": {
+          "device_type": "smartphone",
+          "scale_factor": 2.0,
+          "preview_before_apply": true,
+          "apply_to_all_screens": true,
+          "context_mode": "reading",
+          "auto_reset_time": "30min"
+        }
+      },
+      {
+        "query": "Can you scale the icon size on my smartwatch to 1.5 times its current size? I want to see how it looks before applying it to all screens in gaming mode, and have it revert back in an hour.",
+        "filled_param": {
+          "device_type": "smartwatch",
+          "scale_factor": 1.5,
+          "preview_before_apply": true,
+          "apply_to_all_screens": true,
+          "context_mode": "gaming",
+          "auto_reset_time": "1h"
+        }
+      },
+      {
+        "query": "Please make the icon size on my tablet 0.8 times smaller without preview and apply it only to the home screen for presentation use, with changes resetting permanently.",
+        "filled_param": {
+          "device_type": "tablet",
+          "scale_factor": 0.8,
+          "preview_before_apply": false,
+          "apply_to_all_screens": false,
+          "context_mode": "presentation",
+          "auto_reset_time": "permanent"
+        }
+      },
+      {
+        "query": "Adjust the icon size on my laptop by 2.5 times for global use. I don't need a preview, but apply it across all screens and ensure it resets after 15 minutes.",
+        "filled_param": {
+          "device_type": "laptop",
+          "scale_factor": 2.5,
+          "preview_before_apply": false,
+          "apply_to_all_screens": true,
+          "context_mode": "global",
+          "auto_reset_time": "15min"
+        }
+      },
+      {
+        "query": "I need the icons on my desktop to be scaled down by 0.6 times for a reading environment. Preview the changes first and apply them only to my current screen, reverting back in 20 minutes.",
+        "filled_param": {
+          "device_type": "desktop",
+          "scale_factor": 0.6,
+          "preview_before_apply": true,
+          "apply_to_all_screens": false,
+          "context_mode": "reading",
+          "auto_reset_time": "20min"
+        }
+      }
+    ]
+  },
+  "DeviceFontScaler|:|system volume|:|device_type,scale_factor,preview_before_apply,apply_to_all_screens,context_mode,auto_reset_time": {
+    "tool_template_name": "DeviceFontScaler",
+    "derived_class": "system volume",
+    "params_for_query": [
+      "device_type",
+      "scale_factor",
+      "preview_before_apply",
+      "apply_to_all_screens",
+      "context_mode",
+      "auto_reset_time"
+    ],
+    "queries": [
+      {
+        "query": "Set the system volume on my smartphone to 1.5x for reading with a 30min auto-reset, and don't apply it to all screens, but let me preview it first.",
+        "filled_param": {
+          "device_type": "smartphone",
+          "scale_factor": 1.5,
+          "preview_before_apply": true,
+          "apply_to_all_screens": false,
+          "context_mode": "reading",
+          "auto_reset_time": "30min"
+        }
+      },
+      {
+        "query": "Please adjust the system volume on my tablet to twice its normal level for gaming, apply it globally with no preview needed, and reset it after an hour.",
+        "filled_param": {
+          "device_type": "tablet",
+          "scale_factor": 2.0,
+          "preview_before_apply": false,
+          "apply_to_all_screens": true,
+          "context_mode": "gaming",
+          "auto_reset_time": "1h"
+        }
+      },
+      {
+        "query": "For my smartwatch, scale the system volume by 0.8 for presentation mode, don't apply to all screens, preview it, and revert back in 15 minutes.",
+        "filled_param": {
+          "device_type": "smartwatch",
+          "scale_factor": 0.8,
+          "preview_before_apply": true,
+          "apply_to_all_screens": false,
+          "context_mode": "presentation",
+          "auto_reset_time": "15min"
+        }
+      },
+      {
+        "query": "On my laptop, I want the system volume set to 2.5 for global use, apply it to all screens, preview the changes, and make it permanent.",
+        "filled_param": {
+          "device_type": "laptop",
+          "scale_factor": 2.5,
+          "preview_before_apply": true,
+          "apply_to_all_screens": true,
+          "context_mode": "global",
+          "auto_reset_time": "permanent"
+        }
+      },
+      {
+        "query": "Could you increase the system volume on my smartphone by a factor of 1.2 for reading, preview the effect, apply to all screens, and reset to default after 20 minutes?",
+        "filled_param": {
+          "device_type": "smartphone",
+          "scale_factor": 1.2,
+          "preview_before_apply": true,
+          "apply_to_all_screens": true,
+          "context_mode": "reading",
+          "auto_reset_time": "20min"
+        }
+      }
+    ]
+  },
+  "DeviceFontScaler|:|animation speed|:|device_type,scale_factor,preview_before_apply,apply_to_all_screens,context_mode,auto_reset_time": {
+    "tool_template_name": "DeviceFontScaler",
+    "derived_class": "animation speed",
+    "params_for_query": [
+      "device_type",
+      "scale_factor",
+      "preview_before_apply",
+      "apply_to_all_screens",
+      "context_mode",
+      "auto_reset_time"
+    ],
+    "queries": [
+      {
+        "query": "For my smartwatch, adjust the animation speed to 2.0 with a preview, apply it to all screens during gaming mode, and reset after 30min.",
+        "filled_param": {
+          "device_type": "smartwatch",
+          "scale_factor": 2.0,
+          "preview_before_apply": true,
+          "apply_to_all_screens": true,
+          "context_mode": "gaming",
+          "auto_reset_time": "30min"
+        }
+      },
+      {
+        "query": "Could you set the animation speed on my smartphone to 1.5 without a preview, make it global for reading, and revert it after 1h?",
+        "filled_param": {
+          "device_type": "smartphone",
+          "scale_factor": 1.5,
+          "preview_before_apply": false,
+          "apply_to_all_screens": true,
+          "context_mode": "reading",
+          "auto_reset_time": "1h"
+        }
+      },
+      {
+        "query": "Change the animation speed to 0.8 on my tablet, preview the change, apply only to presentation mode, and reset to default after 15min.",
+        "filled_param": {
+          "device_type": "tablet",
+          "scale_factor": 0.8,
+          "preview_before_apply": true,
+          "apply_to_all_screens": false,
+          "context_mode": "presentation",
+          "auto_reset_time": "15min"
+        }
+      },
+      {
+        "query": "On my laptop, scale the animation speed by 2.5 with no preview, set it for all screens in global context, and make it permanent.",
+        "filled_param": {
+          "device_type": "laptop",
+          "scale_factor": 2.5,
+          "preview_before_apply": false,
+          "apply_to_all_screens": true,
+          "context_mode": "global",
+          "auto_reset_time": "permanent"
+        }
+      },
+      {
+        "query": "I want to adjust the animation speed on my smartphone to 0.9, preview the effect, keep it to gaming context only, and reset after 45 minutes.",
+        "filled_param": {
+          "device_type": "smartphone",
+          "scale_factor": 0.9,
+          "preview_before_apply": true,
+          "apply_to_all_screens": false,
+          "context_mode": "gaming",
+          "auto_reset_time": "45min"
+        }
+      }
+    ]
+  },
+  "DeviceFontScaler|:|screen brightness|:|device_type,scale_factor,preview_before_apply,apply_to_all_screens,context_mode,auto_reset_time": {
+    "tool_template_name": "DeviceFontScaler",
+    "derived_class": "screen brightness",
+    "params_for_query": [
+      "device_type",
+      "scale_factor",
+      "preview_before_apply",
+      "apply_to_all_screens",
+      "context_mode",
+      "auto_reset_time"
+    ],
+    "queries": [
+      {
+        "query": "Please adjust the screen brightness on my smartphone by a factor of 1.5 for gaming. Preview the changes before applying, make the changes on all screens, and reset after 30min.",
+        "filled_param": {
+          "device_type": "smartphone",
+          "scale_factor": 1.5,
+          "preview_before_apply": true,
+          "apply_to_all_screens": true,
+          "context_mode": "gaming",
+          "auto_reset_time": "30min"
+        }
+      },
+      {
+        "query": "I want to scale the screen brightness on my tablet down to 0.8 for reading purposes. Ensure it doesn't apply to all screens and revert after 1h without previewing.",
+        "filled_param": {
+          "device_type": "tablet",
+          "scale_factor": 0.8,
+          "preview_before_apply": false,
+          "apply_to_all_screens": false,
+          "context_mode": "reading",
+          "auto_reset_time": "1h"
+        }
+      },
+      {
+        "query": "Increase the screen brightness on my smartwatch by 2.2 for a presentation mode. Apply changes globally, preview them, and set to reset after 15min.",
+        "filled_param": {
+          "device_type": "smartwatch",
+          "scale_factor": 2.2,
+          "preview_before_apply": true,
+          "apply_to_all_screens": true,
+          "context_mode": "presentation",
+          "auto_reset_time": "15min"
+        }
+      },
+      {
+        "query": "For my laptop, alter the screen brightness to 1.7 under the global context. There should be no preview, apply it to all screens, and let it revert after 45min.",
+        "filled_param": {
+          "device_type": "laptop",
+          "scale_factor": 1.7,
+          "preview_before_apply": false,
+          "apply_to_all_screens": true,
+          "context_mode": "global",
+          "auto_reset_time": "45min"
+        }
+      },
+      {
+        "query": "Can you set my e-reader's screen brightness to 2.0 for reading? Preview is not necessary, apply to a single screen, and make it permanent.",
+        "filled_param": {
+          "device_type": "ereader",
+          "scale_factor": 2.0,
+          "preview_before_apply": false,
+          "apply_to_all_screens": false,
+          "context_mode": "reading",
+          "auto_reset_time": "permanent"
+        }
+      },
+      {
+        "query": "Adjust the screen brightness on my desktop by 0.9 focused on the gaming context. Preview the effect, apply changes only to the current screen, and reset after 20min.",
+        "filled_param": {
+          "device_type": "desktop",
+          "scale_factor": 0.9,
+          "preview_before_apply": true,
+          "apply_to_all_screens": false,
+          "context_mode": "gaming",
+          "auto_reset_time": "20min"
+        }
+      }
+    ]
+  },
+  "DeviceFontScaler|:|color contrast|:|device_type,scale_factor,preview_before_apply,apply_to_all_screens,context_mode,auto_reset_time": {
+    "tool_template_name": "DeviceFontScaler",
+    "derived_class": "color contrast",
+    "params_for_query": [
+      "device_type",
+      "scale_factor",
+      "preview_before_apply",
+      "apply_to_all_screens",
+      "context_mode",
+      "auto_reset_time"
+    ],
+    "queries": [
+      {
+        "query": "Please adjust the color contrast on my smartphone by a factor of 1.5 for reading purposes, preview the changes first, apply it to all screens, and reset the changes after 30 minutes.",
+        "filled_param": {
+          "device_type": "smartphone",
+          "scale_factor": 1.5,
+          "preview_before_apply": true,
+          "apply_to_all_screens": true,
+          "context_mode": "reading",
+          "auto_reset_time": "30min"
+        }
+      },
+      {
+        "query": "I need the color contrast scaled on my smartwatch to a factor of 2.0 without a preview, apply globally for gaming mode, and make the change permanent.",
+        "filled_param": {
+          "device_type": "smartwatch",
+          "scale_factor": 2.0,
+          "preview_before_apply": false,
+          "apply_to_all_screens": true,
+          "context_mode": "gaming",
+          "auto_reset_time": "permanent"
+        }
+      },
+      {
+        "query": "Set the color contrast on my tablet to a scale of 0.8, preview the effect, target it only for presentations, and reset automatically in 1 hour.",
+        "filled_param": {
+          "device_type": "tablet",
+          "scale_factor": 0.8,
+          "preview_before_apply": true,
+          "apply_to_all_screens": false,
+          "context_mode": "presentation",
+          "auto_reset_time": "1h"
+        }
+      },
+      {
+        "query": "Can you enhance the color contrast on my laptop by a scale factor of 1.2, don't preview, apply it specifically for reading purposes, and revert it after 10 minutes?",
+        "filled_param": {
+          "device_type": "laptop",
+          "scale_factor": 1.2,
+          "preview_before_apply": false,
+          "apply_to_all_screens": false,
+          "context_mode": "reading",
+          "auto_reset_time": "10min"
+        }
+      },
+      {
+        "query": "Increase the color contrast on my desktop to 2.5 for a better global experience, ensure a preview is shown, apply to all screens, and let it reset to default in 2 hours.",
+        "filled_param": {
+          "device_type": "desktop",
+          "scale_factor": 2.5,
+          "preview_before_apply": true,
+          "apply_to_all_screens": true,
+          "context_mode": "global",
+          "auto_reset_time": "2h"
+        }
+      },
+      {
+        "query": "For my e-reader, I want the color contrast scaled by 0.7 for reading, without preview, apply to the reading screen only, and reset changes after 45 minutes.",
+        "filled_param": {
+          "device_type": "ereader",
+          "scale_factor": 0.7,
+          "preview_before_apply": false,
+          "apply_to_all_screens": false,
+          "context_mode": "reading",
+          "auto_reset_time": "45min"
+        }
+      }
+    ]
+  }
+}
